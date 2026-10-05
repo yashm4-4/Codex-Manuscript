@@ -1,0 +1,2 @@
+phenotype_scope	test	n_copd_genes	chromosomes_tested	statistic	cramers_v_like_sqrt_chisq_over_n	empirical_p	permutations	seed	expected_distribution	interpretation_scope
+core_copd	stratified Monte Carlo Pearson goodness-of-fit	140	24	93.2496720231621	0.8161305568839641	9.99990000099999e-06	100000	20261001	GENCODE v50 canonical-chromosome frequencies conditional on the observed exact gene_type counts	chromosome-level over/underrepresentation; not within-chromosome distance clustering

@@ -1,0 +1,7 @@
+metric	n	denominator	fraction	note
+predicted_causal_candidates	337	337	1	Section 4 predicted-causal union
+candidates_with_at_least_one_gene_mapping	337	337	1	union of GWAS mapped genes, selected loci, and available provisional targets
+unique_gene_tokens	1635			compound GWAS strings split only on comma or space-hyphen-space
+HGNC_resolved_gene_tokens	950	1635	0.581039755352	approved symbol, Ensembl ID, or unambiguous alias/previous symbol
+resolved_genes_with_exact_OpenTargets_COPD_association	299	948	0.315400843882	exact disease node MONDO_0005002, direct associations
+candidates_with_at_least_one_OpenTargets_COPD_associated_gene	297	337	0.881305637982	contextual gene evidence only, not variant-level validation

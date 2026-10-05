@@ -1,0 +1,27 @@
+{
+  "archive": {
+    "bytes": 73266,
+    "deterministic_metadata": "gzip and tar mtimes zero; uid/gid zero; fixed member order",
+    "format": "gzip-compressed POSIX tar",
+    "path": "diseases/COPD/06_experimental_validation/results/COPD-S6-R005_collaborator_package.tar.gz",
+    "sha256": "871cb0ba75badeda0684a7dbaeb8cbab65bfacc213cfd5124dde1866869f7b28"
+  },
+  "archive_checksums_verified": true,
+  "archive_regular_file_count": 17,
+  "created_utc": "2026-10-01T13:59:55.698320+00:00",
+  "excluded_by_design": [
+    "full paired 2001-bp upstream FASTAs; their paths and SHA-256 hashes are recorded in the upstream manifest",
+    "MPRA vector, adapters, promoter, and barcode library; these require collaborator/platform decisions",
+    "CRISPR guide and pegRNA sequences; feasibility and off-target design have not been performed",
+    "wet-lab results; no Section 6 experiment has been performed"
+  ],
+  "experimental_status": "all_experiments_proposed_not_performed",
+  "member_manifest": {
+    "bytes": 4135,
+    "path": "diseases/COPD/06_experimental_validation/results/COPD-S6-R005_collaborator_manifest.tsv",
+    "sha256": "20dc23e8b1f77c37d4cec8b140f05018b049dde23505dc3501f9a5f2621c5a61"
+  },
+  "payload_file_count_excluding_member_manifest": 16,
+  "result_id": "COPD-S6-R005",
+  "status": "collaborator_package_built_and_checksum_verified"
+}

@@ -1,0 +1,22 @@
+hierarchy	precedence_rank	exclusive_class	hierarchy_definition
+framework_preliminary	0	bed_ineligible	bed ineligible is separated; eligible precedence is coding CDS, preliminary enhancer, preliminary silencer, RepeatMasker, other
+framework_preliminary	1	coding_CDS	bed ineligible is separated; eligible precedence is coding CDS, preliminary enhancer, preliminary silencer, RepeatMasker, other
+framework_preliminary	2	preliminary_enhancer	bed ineligible is separated; eligible precedence is coding CDS, preliminary enhancer, preliminary silencer, RepeatMasker, other
+framework_preliminary	3	preliminary_silencer	bed ineligible is separated; eligible precedence is coding CDS, preliminary enhancer, preliminary silencer, RepeatMasker, other
+framework_preliminary	4	repetitive_only_in_hierarchy	bed ineligible is separated; eligible precedence is coding CDS, preliminary enhancer, preliminary silencer, RepeatMasker, other
+framework_preliminary	5	other	bed ineligible is separated; eligible precedence is coding CDS, preliminary enhancer, preliminary silencer, RepeatMasker, other
+framework_refined	0	bed_ineligible	bed ineligible is separated; eligible precedence is coding CDS, refined enhancer, refined silencer, RepeatMasker, other
+framework_refined	1	coding_CDS	bed ineligible is separated; eligible precedence is coding CDS, refined enhancer, refined silencer, RepeatMasker, other
+framework_refined	2	refined_enhancer	bed ineligible is separated; eligible precedence is coding CDS, refined enhancer, refined silencer, RepeatMasker, other
+framework_refined	3	refined_silencer	bed ineligible is separated; eligible precedence is coding CDS, refined enhancer, refined silencer, RepeatMasker, other
+framework_refined	4	repetitive_only_in_hierarchy	bed ineligible is separated; eligible precedence is coding CDS, refined enhancer, refined silencer, RepeatMasker, other
+framework_refined	5	other	bed ineligible is separated; eligible precedence is coding CDS, refined enhancer, refined silencer, RepeatMasker, other
+comprehensive	0	bed_ineligible	bed ineligible is separated; eligible precedence is coding CDS, refined enhancer, refined silencer, preliminary enhancer, preliminary silencer, other known regulatory, RepeatMasker, other
+comprehensive	1	coding_CDS	bed ineligible is separated; eligible precedence is coding CDS, refined enhancer, refined silencer, preliminary enhancer, preliminary silencer, other known regulatory, RepeatMasker, other
+comprehensive	2	refined_enhancer	bed ineligible is separated; eligible precedence is coding CDS, refined enhancer, refined silencer, preliminary enhancer, preliminary silencer, other known regulatory, RepeatMasker, other
+comprehensive	3	refined_silencer	bed ineligible is separated; eligible precedence is coding CDS, refined enhancer, refined silencer, preliminary enhancer, preliminary silencer, other known regulatory, RepeatMasker, other
+comprehensive	4	preliminary_enhancer	bed ineligible is separated; eligible precedence is coding CDS, refined enhancer, refined silencer, preliminary enhancer, preliminary silencer, other known regulatory, RepeatMasker, other
+comprehensive	5	preliminary_silencer	bed ineligible is separated; eligible precedence is coding CDS, refined enhancer, refined silencer, preliminary enhancer, preliminary silencer, other known regulatory, RepeatMasker, other
+comprehensive	6	other_known_regulatory	bed ineligible is separated; eligible precedence is coding CDS, refined enhancer, refined silencer, preliminary enhancer, preliminary silencer, other known regulatory, RepeatMasker, other
+comprehensive	7	repetitive_only_in_hierarchy	bed ineligible is separated; eligible precedence is coding CDS, refined enhancer, refined silencer, preliminary enhancer, preliminary silencer, other known regulatory, RepeatMasker, other
+comprehensive	8	other	bed ineligible is separated; eligible precedence is coding CDS, refined enhancer, refined silencer, preliminary enhancer, preliminary silencer, other known regulatory, RepeatMasker, other

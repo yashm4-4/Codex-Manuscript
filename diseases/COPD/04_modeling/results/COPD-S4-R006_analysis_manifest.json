@@ -1,0 +1,51 @@
+{
+  "candidate_count": 337,
+  "created_utc": "2026-10-01T13:29:07.297986+00:00",
+  "gencode_release": "GENCODE v50 (Ensembl 116)",
+  "genome_build": "GRCh38",
+  "inputs": {
+    "gencode_gtf": {
+      "bytes": 124527720,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/gencode/gencode.v50.annotation.gtf.gz",
+      "sha256": "83fba3e9b03f0b8c958f3595c6c350adc55f468abf8b0e47b6d5284cfe13a453"
+    },
+    "predicted_causal_population_table": {
+      "bytes": 535623,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R005_predicted_causal_population_genetics.tsv",
+      "sha256": "6506c1ab605fb647fcd1a72ec9c7b529a0ba1518c61d12d83dad95ac51f204f9"
+    }
+  },
+  "limitation": "all target assignments are provisional; matched-donor chromatin-contact or rE2G maps were unavailable and Lung eQTL evidence is evaluated separately",
+  "mapping_methods": [
+    "nearest TSS for any GENCODE gene",
+    "nearest protein-coding TSS",
+    "TSS within 100 kb",
+    "GWAS Catalog mapped gene propagated through linked tag",
+    "selected COPD GWAS locus membership",
+    "coding CDS overlap"
+  ],
+  "outputs": {
+    "candidate_target_evidence": {
+      "bytes": 769535,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R006_candidate_target_evidence.tsv",
+      "sha256": "ffbfa3c9c456738e410b2a27a234c046bb3d40492d590ef85ebba4d52246d661"
+    },
+    "candidate_target_summary": {
+      "bytes": 105302,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R006_candidate_target_summary.tsv",
+      "sha256": "dfac651eb4e0f25947c50781d301970635bbaca3c4901697fbf7ba703ab874bf"
+    },
+    "target_gene_ranking": {
+      "bytes": 96013,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R006_target_gene_ranking.tsv",
+      "sha256": "c4a4ece6ba7b9d249b59e96d8822262fee4d859053abc4447efab07374f5b4e8"
+    }
+  },
+  "proximity_window_bp": 100000,
+  "result_id": "COPD-S4-R006",
+  "software": {
+    "numpy": "1.24.4",
+    "pandas": "2.0.3",
+    "python": "3.9.15"
+  }
+}

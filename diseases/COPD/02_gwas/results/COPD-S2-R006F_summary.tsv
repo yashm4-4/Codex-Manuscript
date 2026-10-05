@@ -1,0 +1,21 @@
+phenotype_scope	metric	value	definition	reference_release
+core_copd	gws_tag_variants	660.0	All unique P <= 5e-8 COPD tags	1000 Genomes Phase 3, 20190312 GRCh38 remap
+core_copd	focal_panel_assignments	1245.0	Assignments supported by initial-stage GWAS Catalog ancestry	1000 Genomes Phase 3, 20190312 GRCh38 remap
+core_copd	strictly_matched_tag_variants	575.0	Matched to local GRCh38 reference under documented rules	1000 Genomes Phase 3, 20190312 GRCh38 remap
+core_copd	unresolved_tag_variants	85.0	Retained in audit/candidate table but not LD-expanded	1000 Genomes Phase 3, 20190312 GRCh38 remap
+core_copd	exact_coordinate_and_allele_matches	539.0	Strict exact matches	1000 Genomes Phase 3, 20190312 GRCh38 remap
+core_copd	exact_coordinate_no_reported_allele_matches	7.0	Unique record at coordinate; allele unavailable	1000 Genomes Phase 3, 20190312 GRCh38 remap
+core_copd	adjacent_indel_anchor_matches	29.0	Unique +/-1-bp VCF indel anchor with reported allele	1000 Genomes Phase 3, 20190312 GRCh38 remap
+core_copd	unique_matched_reference_records	567.0	Multiple Catalog tag labels at one VCF record are collapsed	1000 Genomes Phase 3, 20190312 GRCh38 remap
+core_copd	polymorphic_focal_panel_assignments	1108.0	Eligible for LD calculation	1000 Genomes Phase 3, 20190312 GRCh38 remap
+core_copd	monomorphic_focal_panel_assignments	24.0	Matched but no variation in assigned reference panel	1000 Genomes Phase 3, 20190312 GRCh38 remap
+core_copd	raw_plink_ld_pairs	34208.0	Panel-record rows including focal self-pairs	1000 Genomes Phase 3, 20190312 GRCh38 remap
+core_copd	raw_plink_focal_self_pairs_excluded	1088.0	PLINK r2=1 focal self-pairs are not counted as proxies	1000 Genomes Phase 3, 20190312 GRCh38 remap
+core_copd	tag_specific_ld_pairs	33378.0	Rows after assigning each focal record to Catalog tag label(s)	1000 Genomes Phase 3, 20190312 GRCh38 remap
+core_copd	unique_ld_proxy_reference_records	14913.0	Union across focal tags and ancestry panels	1000 Genomes Phase 3, 20190312 GRCh38 remap
+core_copd	unique_ld_proxy_snvs	13403.0	Unique proxy records	1000 Genomes Phase 3, 20190312 GRCh38 remap
+core_copd	unique_ld_proxy_indel_or_complex	1510.0	Unique proxy records	1000 Genomes Phase 3, 20190312 GRCh38 remap
+core_copd	expanded_candidate_records	15389.0	Union of GWS tag records and LD proxies; unresolved tags retained	1000 Genomes Phase 3, 20190312 GRCh38 remap
+core_copd	candidate_bed_records	15386.0	Candidate records with a valid GRCh38 coordinate	1000 Genomes Phase 3, 20190312 GRCh38 remap
+core_copd	ld_r2_threshold	0.8	Inclusive PLINK threshold	1000 Genomes Phase 3, 20190312 GRCh38 remap
+core_copd	ld_window_bp	500000.0	Absolute focal-proxy distance limit	1000 Genomes Phase 3, 20190312 GRCh38 remap

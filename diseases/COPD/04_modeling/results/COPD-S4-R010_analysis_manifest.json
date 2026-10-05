@@ -1,0 +1,65 @@
+{
+  "candidate_count": 337,
+  "created_utc": "2026-10-01T13:58:44.016466+00:00",
+  "genome_build": "GRCh38",
+  "inputs": {
+    "functional_literature": {
+      "bytes": 4001,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/03_regulatory_landscape/results/COPD-S3-R004_functional_variant_evidence.tsv",
+      "sha256": "7241c56db152b2e5b00d3b3fb60113d145fe450c08a1146ff513784a1cabb348"
+    },
+    "population_all": {
+      "bytes": 3780933,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R005_population_annotated_candidates.tsv.gz",
+      "sha256": "8917da6d93eab48f09714a957fcb599c3cc62d6a9cf4364d5f6d97c9d38e1634"
+    },
+    "population_causal": {
+      "bytes": 535623,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R005_predicted_causal_population_genetics.tsv",
+      "sha256": "6506c1ab605fb647fcd1a72ec9c7b529a0ba1518c61d12d83dad95ac51f204f9"
+    },
+    "target_summary": {
+      "bytes": 105302,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R006_candidate_target_summary.tsv",
+      "sha256": "dfac651eb4e0f25947c50781d301970635bbaca3c4901697fbf7ba703ab874bf"
+    },
+    "tfbs_summary": {
+      "bytes": 460979,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R008_candidate_tfbs_summary.tsv.gz",
+      "sha256": "a2d168ab95ee0701060ed089ff29c5e9b2ef526c318ef77d87ad76adc77b4b6e"
+    }
+  },
+  "literature_identity_policy": "exact rsID token among GWAS tag IDs or Ensembl variation aliases; source-focal and linked-tag labels are reported only as LD context",
+  "outputs": {
+    "literature_recovery_audit": {
+      "bytes": 4664,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R009_literature_functional_variant_recovery.tsv",
+      "sha256": "5603c1b59bc59b15fb08a985cf3e19390fdb0793602817da375c33fa7a4f6859"
+    },
+    "literature_recovery_summary": {
+      "bytes": 519,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R009_summary.tsv",
+      "sha256": "96e1a7de5bd24db0b31c43572398ff8887c545d5a627274d67d43d5c52a489aa"
+    },
+    "the_list": {
+      "bytes": 399805,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R010_THE_LIST.tsv",
+      "sha256": "8241fcb2296ecd80c12fe97277daa2d8c8de87c86a3d8c895628be11cd3b49ce"
+    }
+  },
+  "rank_policy": "prespecified R004 tier, model count, matched-class absolute-delta percentile, region-threshold ratio, maximum LD r2, then stable candidate ID",
+  "result_ids": [
+    "COPD-S4-R009",
+    "COPD-S4-R010"
+  ],
+  "script": {
+    "bytes": 15256,
+    "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/scripts/09_finalize_section4.py",
+    "sha256": "b2a97afafa8db868562e3da136b257fbcf2f848810f70271e6f73d79b63c0053"
+  },
+  "software": {
+    "numpy": "1.24.4",
+    "pandas": "2.0.3",
+    "python": "3.9.15"
+  }
+}

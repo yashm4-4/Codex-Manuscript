@@ -1,0 +1,13 @@
+query_id	run_date	database_or_site	query_or_record	selection_rule	output_or_source_ids	status
+COPD-S1-Q001	2026-10-01	GOLD	2026 GOLD report COPD definition diagnosis severity ABE treatment	Official current strategy report	COPD-SRC-001	complete
+COPD-S1-Q002	2026-10-01	PubMed/Crossref	COPD global prevalence incidence mortality GBD 2021	Primary burden analysis plus distinct spirometry modeling analysis	COPD-SRC-002;COPD-SRC-004	complete
+COPD-S1-Q003	2026-10-01	WHO/CDC	COPD 2023 deaths LMIC burden; US 2023 prevalence age sex race	Current official surveillance/fact sheets; preserve case definitions	COPD-SRC-003;COPD-SRC-005	complete
+COPD-S1-Q004	2026-10-01	PubMed/Crossref	COPD twin family heritability SNP heritability ancestry	Twin, family, GREML, and LDSC studies with quantitative estimates	COPD-SRC-006 through COPD-SRC-011	complete
+COPD-S1-Q005	2026-10-01	PubMed/Crossref	COPD GWAS replicated loci genes pathways multi ancestry	Primary COPD GWAS and clearly labeled lung-function comparator	COPD-SRC-012 through COPD-SRC-014	complete
+COPD-S1-Q006	2026-10-01	PubMed/Crossref	COPD single cell spatial lung cells small airway ATAC GWAS	Primary disease-tissue and functional-genomics studies	COPD-SRC-015 through COPD-SRC-017	complete
+COPD-S1-Q007	2026-10-01	ENCODE REST API	human released lung ATAC DNase H3K27ac H3K27me3	Inventory all released human lung-organ experiments; inspect donor metadata	COPD-SRC-018	complete
+COPD-S1-Q008	2026-10-01	Roadmap Epigenomics	adult lung and lung fibroblast reference epigenomes	Use consortium metadata and local verified peak inventory	COPD-SRC-019	complete
+COPD-S1-Q009	2026-10-01	PubMed/Crossref	COPD lung-function trajectory childhood development comorbidity	Longitudinal cohorts and systematic review	COPD-SRC-020 through COPD-SRC-022	complete
+COPD-S1-Q010	2026-10-01	GOLD/FDA	COPD diagnosis treatment labels ensifentrine dupilumab mepolizumab	Current clinical strategy plus official US labels	COPD-SRC-001;COPD-SRC-023 through COPD-SRC-028	complete
+COPD-S1-Q011	2026-10-01	PubMed/Crossref/official sponsor	COPD investigational IL-33 TSLP ST2 2025 2026	Primary trials preferred; sponsor report retained only where no full primary report identified	COPD-SRC-029 through COPD-SRC-032	complete_public_scope
+COPD-S1-Q012	2026-10-01	PubMed/Crossref	COPD pharmacogenomics bronchodilator ADRB2 GWAS	Systematic review plus primary response GWAS	COPD-SRC-033;COPD-SRC-034	complete

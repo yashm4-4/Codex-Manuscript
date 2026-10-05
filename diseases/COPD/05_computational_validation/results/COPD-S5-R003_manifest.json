@@ -1,0 +1,253 @@
+{
+  "analysis": "HGNC resolution and exact COPD Open Targets gene evidence",
+  "candidate_count": 337,
+  "created_utc": "2026-10-01T13:31:00.861979+00:00",
+  "disease_scope": {
+    "code": "http://purl.obolibrary.org/obo/MONDO_0005002",
+    "descendants_not_included": true,
+    "id": "MONDO_0005002",
+    "name": "chronic obstructive pulmonary disease"
+  },
+  "inputs": {
+    "hgnc_complete_set": {
+      "bytes": 16947244,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/hgnc/hgnc_complete_set.txt",
+      "sha256": "3e5da5b757afce6cae333d3e6c97a59ff3aadfb13da1c70f89d9a8f252b9e7ec"
+    },
+    "open_targets_disease": {
+      "bytes": 7150787,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/open_targets/disease/disease.parquet",
+      "sha256": "b328c5e775bc40d954f2e058aa59e8e972f2883a262d096f8dffe365736a1aed"
+    },
+    "section4_candidates": {
+      "bytes": 535623,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R005_predicted_causal_population_genetics.tsv",
+      "sha256": "6506c1ab605fb647fcd1a72ec9c7b529a0ba1518c61d12d83dad95ac51f204f9"
+    },
+    "section4_provisional_target_evidence": {
+      "bytes": 769535,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R006_candidate_target_evidence.tsv",
+      "sha256": "ffbfa3c9c456738e410b2a27a234c046bb3d40492d590ef85ebba4d52246d661"
+    },
+    "section4_provisional_target_summary": {
+      "bytes": 105302,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R006_candidate_target_summary.tsv",
+      "sha256": "dfac651eb4e0f25947c50781d301970635bbaca3c4901697fbf7ba703ab874bf"
+    }
+  },
+  "interpretation_guardrail": "An Open Targets gene-disease association supports COPD relevance of a mapped gene. It neither validates the candidate variant nor establishes that the candidate regulatory element controls that gene.",
+  "open_targets_associated_genes": 299,
+  "open_targets_input_partitions": {
+    "by_datasource": [
+      {
+        "bytes": 84290551,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/open_targets/association_by_datasource_direct/part-00000-02673c35-4621-4b9d-b289-f04a44e86cbc-c000.snappy.parquet",
+        "sha256": "abd07fd398153f1341394859df27649edf8bff9fdc5191c857858abeafc2ae15"
+      },
+      {
+        "bytes": 83153049,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/open_targets/association_by_datasource_direct/part-00001-02673c35-4621-4b9d-b289-f04a44e86cbc-c000.snappy.parquet",
+        "sha256": "d5a284ccb1dac9966e4051af17bddb12b6cbce19c4666ad8b6313d5131e1accc"
+      },
+      {
+        "bytes": 83155797,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/open_targets/association_by_datasource_direct/part-00002-02673c35-4621-4b9d-b289-f04a44e86cbc-c000.snappy.parquet",
+        "sha256": "3454ee179110745f5183e0a792054a3b0616d87cb8216665e80e7dd35a09abb7"
+      },
+      {
+        "bytes": 83839028,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/open_targets/association_by_datasource_direct/part-00003-02673c35-4621-4b9d-b289-f04a44e86cbc-c000.snappy.parquet",
+        "sha256": "99f15a2d320fc612adfdcb887bc1bf4e87054d2d84def3439c8178253b2f8076"
+      },
+      {
+        "bytes": 84583641,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/open_targets/association_by_datasource_direct/part-00004-02673c35-4621-4b9d-b289-f04a44e86cbc-c000.snappy.parquet",
+        "sha256": "b1da449d15fd9874e08b529ce12ca12d2bd54ed937dc55173c708b4da8f32ce9"
+      },
+      {
+        "bytes": 83508113,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/open_targets/association_by_datasource_direct/part-00005-02673c35-4621-4b9d-b289-f04a44e86cbc-c000.snappy.parquet",
+        "sha256": "148939bc333ac615fd3d409197a974626a52ec4d887bbc0be05c31742e6765e7"
+      },
+      {
+        "bytes": 95378040,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/open_targets/association_by_datasource_direct/part-00006-02673c35-4621-4b9d-b289-f04a44e86cbc-c000.snappy.parquet",
+        "sha256": "6012655cb604a4cfd75f4bc66380274ded6dfad461a000c825033a77b28381ba"
+      },
+      {
+        "bytes": 83253680,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/open_targets/association_by_datasource_direct/part-00007-02673c35-4621-4b9d-b289-f04a44e86cbc-c000.snappy.parquet",
+        "sha256": "f955dd9a16e6a4c1ded293f6f4193bc4082278135f7135aa185205d562a75768"
+      },
+      {
+        "bytes": 83347427,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/open_targets/association_by_datasource_direct/part-00008-02673c35-4621-4b9d-b289-f04a44e86cbc-c000.snappy.parquet",
+        "sha256": "54692f2b9122519aa0a9dc48e8b8c9ba375a55b5a8f2131ffea0705469bb94af"
+      },
+      {
+        "bytes": 83369153,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/open_targets/association_by_datasource_direct/part-00009-02673c35-4621-4b9d-b289-f04a44e86cbc-c000.snappy.parquet",
+        "sha256": "cad4778da51e072dd5edd8d740fa9215d7a3fe185e977ca01e25b2ac55157d33"
+      },
+      {
+        "bytes": 83189845,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/open_targets/association_by_datasource_direct/part-00010-02673c35-4621-4b9d-b289-f04a44e86cbc-c000.snappy.parquet",
+        "sha256": "b95d0db9334fa79f6d24178d0b075d76b2e5551d0313b94cb597437239c8efb4"
+      },
+      {
+        "bytes": 84341444,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/open_targets/association_by_datasource_direct/part-00011-02673c35-4621-4b9d-b289-f04a44e86cbc-c000.snappy.parquet",
+        "sha256": "96a1829540bea4a41818fd309579952501dc31905b7b393ab775900f4bf5748a"
+      },
+      {
+        "bytes": 84075969,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/open_targets/association_by_datasource_direct/part-00012-02673c35-4621-4b9d-b289-f04a44e86cbc-c000.snappy.parquet",
+        "sha256": "dd438a6ef07e65098e1a3f4e6c0f805bf99042cc9cbbc785a2f222b963d02087"
+      },
+      {
+        "bytes": 95244563,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/open_targets/association_by_datasource_direct/part-00013-02673c35-4621-4b9d-b289-f04a44e86cbc-c000.snappy.parquet",
+        "sha256": "077d03a99edb92dfc3251215a722f4c47b1cd83dc2fbdf483d3d878a89daf8fe"
+      }
+    ],
+    "overall": [
+      {
+        "bytes": 78051323,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/open_targets/association_overall_direct/part-00000-c3eaa79c-fb08-4d4a-9391-a4eceb74fa7a-c000.snappy.parquet",
+        "sha256": "e4273480692236662047298ce481732e52af5efb390f19e3c2ddf129003238bf"
+      },
+      {
+        "bytes": 86916203,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/open_targets/association_overall_direct/part-00001-c3eaa79c-fb08-4d4a-9391-a4eceb74fa7a-c000.snappy.parquet",
+        "sha256": "40855370f382193802e07758a0229a700641ddba57fc50e10ad3124c39e30c64"
+      },
+      {
+        "bytes": 78394342,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/open_targets/association_overall_direct/part-00002-c3eaa79c-fb08-4d4a-9391-a4eceb74fa7a-c000.snappy.parquet",
+        "sha256": "df57479dbdf80951350a5b493cfff7da8213a3c29e859e1f7282702715a6894a"
+      },
+      {
+        "bytes": 87037756,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/open_targets/association_overall_direct/part-00003-c3eaa79c-fb08-4d4a-9391-a4eceb74fa7a-c000.snappy.parquet",
+        "sha256": "671946faab185c32e176fc31cd6bc8e2f8a4c6d095ac58999fe2061128b01108"
+      },
+      {
+        "bytes": 78963181,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/open_targets/association_overall_direct/part-00004-c3eaa79c-fb08-4d4a-9391-a4eceb74fa7a-c000.snappy.parquet",
+        "sha256": "8dbb7bfc1af07850733d6fc53aa2e4803886d73486d9cb9156182b625eca4ecf"
+      },
+      {
+        "bytes": 86681316,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/open_targets/association_overall_direct/part-00005-c3eaa79c-fb08-4d4a-9391-a4eceb74fa7a-c000.snappy.parquet",
+        "sha256": "65c44003c1f80bb13df7a50458e5085d92ba39508c31fb0419fe000a3e0f494c"
+      },
+      {
+        "bytes": 86989859,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/open_targets/association_overall_direct/part-00006-c3eaa79c-fb08-4d4a-9391-a4eceb74fa7a-c000.snappy.parquet",
+        "sha256": "e34c96d11a1793d6d27fd9026cda2d81ea8787fc3149c299a91c79255849b884"
+      },
+      {
+        "bytes": 78833625,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/open_targets/association_overall_direct/part-00007-c3eaa79c-fb08-4d4a-9391-a4eceb74fa7a-c000.snappy.parquet",
+        "sha256": "3ef8cd46f5e2beb116b510da5c2ba581b5e10be1b9612f8fc1b545355c8c0f56"
+      },
+      {
+        "bytes": 86831119,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/open_targets/association_overall_direct/part-00008-c3eaa79c-fb08-4d4a-9391-a4eceb74fa7a-c000.snappy.parquet",
+        "sha256": "5dbe62258c5b42daba0880f03f55497910e65bce939c2a9e7b6e2dd7ff3548dd"
+      },
+      {
+        "bytes": 77904233,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/open_targets/association_overall_direct/part-00009-c3eaa79c-fb08-4d4a-9391-a4eceb74fa7a-c000.snappy.parquet",
+        "sha256": "2410d66cca9e25df121efe55a3c15229afcda45003382c04a91977cb585a902a"
+      },
+      {
+        "bytes": 86808677,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/open_targets/association_overall_direct/part-00010-c3eaa79c-fb08-4d4a-9391-a4eceb74fa7a-c000.snappy.parquet",
+        "sha256": "8d2f3c34259012c5e78d282740d014e872d6a4e24fa5ceebac10593ae1e5daa9"
+      },
+      {
+        "bytes": 77910852,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/open_targets/association_overall_direct/part-00011-c3eaa79c-fb08-4d4a-9391-a4eceb74fa7a-c000.snappy.parquet",
+        "sha256": "86807e08d721d7ee6a540f20a4ceb5625b2f1d7237f02749ea476ea9e32cd5d6"
+      },
+      {
+        "bytes": 86740507,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/open_targets/association_overall_direct/part-00012-c3eaa79c-fb08-4d4a-9391-a4eceb74fa7a-c000.snappy.parquet",
+        "sha256": "9c6d111b625d78aafba01a611b4ba40247bfa73a3a2c4b90adc529fc62664e7f"
+      },
+      {
+        "bytes": 80906897,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/open_targets/association_overall_direct/part-00013-c3eaa79c-fb08-4d4a-9391-a4eceb74fa7a-c000.snappy.parquet",
+        "sha256": "aa4ce24095f5b06b9d7f48cc98bbd33a890f5b3b96d2d6ac393eae831efe0076"
+      }
+    ]
+  },
+  "open_targets_release": "\"latest\" mirror accessed 2026-09-21",
+  "outputs": {
+    "candidate_gene_context": {
+      "bytes": 67526,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/COPD-S5-R003_candidate_gene_context.tsv.gz",
+      "sha256": "3c38c81d5b17caf11f82205438621034d090cda8fb0f11389c5d96b3048723a6"
+    },
+    "gene_resolution": {
+      "bytes": 188450,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/COPD-S5-R003_HGNC_gene_resolution.tsv",
+      "sha256": "d3308ab91ea3bdbf45bdad9c1a8c172795a28f608567ec43aa253cc9d65466ed"
+    },
+    "open_targets_datasources": {
+      "bytes": 31114,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/COPD-S5-R003_OpenTargets_COPD_datasources.tsv",
+      "sha256": "d946a62e2ff0e03e1f2fef173c8128e77d45cf527585ea358650f1b1bb19320e"
+    },
+    "open_targets_gene_associations": {
+      "bytes": 187082,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/COPD-S5-R003_OpenTargets_COPD_gene_associations.tsv",
+      "sha256": "9b1c27a2ab55a1bc25f1f574e8721ba3506ac40b17fe0e4df0d7141c4f93d0f1"
+    },
+    "summary": {
+      "bytes": 718,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/COPD-S5-R003_gene_catalog_summary.tsv",
+      "sha256": "ae6b82503f00ce25c73b5970ebeda6eb601644c228aa209fb65f397c04c87217"
+    }
+  },
+  "resolved_gene_tokens": 950,
+  "resolved_unique_ensembl_targets": 948,
+  "result_id": "COPD-S5-R003",
+  "software": {
+    "pyarrow": "6.0.1",
+    "python": "3.9.15"
+  },
+  "target_summary": {
+    "candidate_gene_links_added": 4070,
+    "evidence_input": {
+      "bytes": 769535,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R006_candidate_target_evidence.tsv",
+      "sha256": "ffbfa3c9c456738e410b2a27a234c046bb3d40492d590ef85ebba4d52246d661"
+    },
+    "evidence_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R006_candidate_target_evidence.tsv",
+    "evidence_rows": 4779,
+    "input": {
+      "bytes": 105302,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R006_candidate_target_summary.tsv",
+      "sha256": "dfac651eb4e0f25947c50781d301970635bbaca3c4901697fbf7ba703ab874bf"
+    },
+    "mapping_methods": [
+      "GWAS_Catalog_mapped_gene_via_linked_tag",
+      "TSS_within_100kb",
+      "coding_CDS_overlap",
+      "nearest_TSS_any_gene",
+      "nearest_TSS_protein_coding",
+      "selected_COPD_GWAS_locus_membership"
+    ],
+    "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R006_candidate_target_summary.tsv",
+    "recognized_target_columns": [
+      "nearest_gene",
+      "nearest_protein_coding_gene",
+      "genes_with_tss_within_100kb",
+      "coding_CDS_gene_names"
+    ],
+    "status": "consumed"
+  },
+  "unique_gene_tokens": 1635
+}

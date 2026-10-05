@@ -1,0 +1,49 @@
+{
+  "analysis": "exact GTEx v10 Lung significant cis-eQTL lookup",
+  "candidate_count": 337,
+  "created_utc": "2026-10-01T13:28:52.843753+00:00",
+  "exact_pair_count": 915,
+  "genome_build": "GRCh38",
+  "inputs": {
+    "gtex_egene_member": "GTEx_Analysis_v10_eQTL_updated/Lung.v10.eGenes.txt.gz",
+    "gtex_pair_member": "GTEx_Analysis_v10_eQTL_updated/Lung.v10.eQTLs.signif_pairs.parquet",
+    "gtex_v10_eqtl_tar": {
+      "bytes": 2561047718,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/gtex/GTEx_Analysis_v10_eQTL.tar",
+      "sha256": "4a0820369b05cb539c1864720df226fc83e2fdd29dc9ec00568e330e551a4a09"
+    },
+    "section4_candidates": {
+      "bytes": 535623,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R005_predicted_causal_population_genetics.tsv",
+      "sha256": "6506c1ab605fb647fcd1a72ec9c7b529a0ba1518c61d12d83dad95ac51f204f9"
+    }
+  },
+  "interpretation_guardrail": "GTEx Lung is bulk non-diseased tissue; an exact significant eQTL is molecular association evidence, not proof of COPD causality or cell-type specificity.",
+  "match_definition": "exact chromosome, 1-based position, REF, and ALT",
+  "matched_candidate_count": 185,
+  "outputs": {
+    "candidate_audit": {
+      "bytes": 47233,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/COPD-S5-R001_GTEx_v10_Lung_candidate_audit.tsv",
+      "sha256": "5018be8224c21d08376842b344bbd2ae5cfd706782175e66deec3b8a25dfc09a"
+    },
+    "exact_pairs": {
+      "bytes": 58505,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/COPD-S5-R001_GTEx_v10_Lung_exact_significant_pairs.tsv.gz",
+      "sha256": "4f7737521eaa499b66e611150e6d34166e4e758ee5e0fd4b348415dbd4f4d55b"
+    },
+    "summary": {
+      "bytes": 493,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/COPD-S5-R001_GTEx_v10_Lung_summary.tsv",
+      "sha256": "21f36608e41883e9370c9431ab8f0677093030d8ff7f8cf692efa81bc70e7f1d"
+    }
+  },
+  "queryable_candidate_count": 337,
+  "result_id": "COPD-S5-R001",
+  "software": {
+    "pyarrow": "6.0.1",
+    "python": "3.9.15"
+  },
+  "source_pair_rows_scanned": 3005605,
+  "tissue": "Lung"
+}

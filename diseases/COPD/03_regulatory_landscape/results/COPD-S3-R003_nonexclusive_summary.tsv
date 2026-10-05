@@ -1,0 +1,406 @@
+stratum_type	stratum	feature	definition	n_total_records	n_bed_eligible	n_bed_ineligible	n_overlapping	percent_of_all_records	percent_of_bed_eligible
+overall	all_candidate_records	coding_CDS	GENCODE v50 CDS	15389	15386	3	257	1.670024	1.67035
+overall	all_candidate_records	donor_preliminary_enhancer	donor-union H3K27ac	15389	15386	3	1377	8.94795	8.949695
+overall	all_candidate_records	donor_preliminary_silencer	donor-union H3K27me3	15389	15386	3	612	3.976867	3.977642
+overall	all_candidate_records	donor_refined_enhancer	donor-union ATAC plus H3K27ac	15389	15386	3	588	3.820911	3.821656
+overall	all_candidate_records	donor_refined_silencer	donor-union ATAC plus H3K27me3	15389	15386	3	86	0.558841	0.55895
+overall	all_candidate_records	donor_preliminary_any	either preliminary donor element	15389	15386	3	1956	12.710378	12.712856
+overall	all_candidate_records	donor_refined_any	either refined donor element	15389	15386	3	639	4.152317	4.153126
+overall	all_candidate_records	screen_ccre	SCREEN V3 cCRE	15389	15386	3	2247	14.601339	14.604186
+overall	all_candidate_records	ensembl_regulatory	Ensembl Regulatory Build 116	15389	15386	3	1276	8.291637	8.293254
+overall	all_candidate_records	fantom5_enhancer	FANTOM5 CAGE enhancer	15389	15386	3	162	1.0527	1.052905
+overall	all_candidate_records	known_regulatory_any	SCREEN, Ensembl, or FANTOM5	15389	15386	3	2638	17.142114	17.145457
+overall	all_candidate_records	repeatmasker	UCSC RepeatMasker	15389	15386	3	8131	52.836442	52.846744
+overall	all_candidate_records	encode_blacklist	ENCODE hg38 blacklist v2	15389	15386	3	21	0.136461	0.136488
+overall	all_candidate_records	any_tested_biological_annotation	coding, donor, known regulatory, or repeat	15389	15386	3	10649	69.198778	69.212271
+overall	all_candidate_records	unannotated_across_tested_biological_features	no coding, donor, known-regulatory, or repeat overlap	15389	15386	3	4737	30.781727	30.787729
+candidate_origin	gws_tag_only	coding_CDS	GENCODE v50 CDS	476	473	3	29	6.092437	6.131078
+candidate_origin	gws_tag_only	donor_preliminary_enhancer	donor-union H3K27ac	476	473	3	74	15.546218	15.64482
+candidate_origin	gws_tag_only	donor_preliminary_silencer	donor-union H3K27me3	476	473	3	28	5.882353	5.919662
+candidate_origin	gws_tag_only	donor_refined_enhancer	donor-union ATAC plus H3K27ac	476	473	3	40	8.403361	8.45666
+candidate_origin	gws_tag_only	donor_refined_silencer	donor-union ATAC plus H3K27me3	476	473	3	6	1.260504	1.268499
+candidate_origin	gws_tag_only	donor_preliminary_any	either preliminary donor element	476	473	3	96	20.168067	20.295983
+candidate_origin	gws_tag_only	donor_refined_any	either refined donor element	476	473	3	43	9.033613	9.090909
+candidate_origin	gws_tag_only	screen_ccre	SCREEN V3 cCRE	476	473	3	108	22.689076	22.832981
+candidate_origin	gws_tag_only	ensembl_regulatory	Ensembl Regulatory Build 116	476	473	3	63	13.235294	13.319239
+candidate_origin	gws_tag_only	fantom5_enhancer	FANTOM5 CAGE enhancer	476	473	3	7	1.470588	1.479915
+candidate_origin	gws_tag_only	known_regulatory_any	SCREEN, Ensembl, or FANTOM5	476	473	3	125	26.260504	26.427061
+candidate_origin	gws_tag_only	repeatmasker	UCSC RepeatMasker	476	473	3	187	39.285714	39.534884
+candidate_origin	gws_tag_only	encode_blacklist	ENCODE hg38 blacklist v2	476	473	3	1	0.210084	0.211416
+candidate_origin	gws_tag_only	any_tested_biological_annotation	coding, donor, known regulatory, or repeat	476	473	3	326	68.487395	68.921776
+candidate_origin	gws_tag_only	unannotated_across_tested_biological_features	no coding, donor, known-regulatory, or repeat overlap	476	473	3	147	30.882353	31.078224
+candidate_origin	gws_tag_and_ld_proxy	coding_CDS	GENCODE v50 CDS	176	176	0	20	11.363636	11.363636
+candidate_origin	gws_tag_and_ld_proxy	donor_preliminary_enhancer	donor-union H3K27ac	176	176	0	24	13.636364	13.636364
+candidate_origin	gws_tag_and_ld_proxy	donor_preliminary_silencer	donor-union H3K27me3	176	176	0	6	3.409091	3.409091
+candidate_origin	gws_tag_and_ld_proxy	donor_refined_enhancer	donor-union ATAC plus H3K27ac	176	176	0	8	4.545455	4.545455
+candidate_origin	gws_tag_and_ld_proxy	donor_refined_silencer	donor-union ATAC plus H3K27me3	176	176	0	2	1.136364	1.136364
+candidate_origin	gws_tag_and_ld_proxy	donor_preliminary_any	either preliminary donor element	176	176	0	30	17.045455	17.045455
+candidate_origin	gws_tag_and_ld_proxy	donor_refined_any	either refined donor element	176	176	0	10	5.681818	5.681818
+candidate_origin	gws_tag_and_ld_proxy	screen_ccre	SCREEN V3 cCRE	176	176	0	37	21.022727	21.022727
+candidate_origin	gws_tag_and_ld_proxy	ensembl_regulatory	Ensembl Regulatory Build 116	176	176	0	17	9.659091	9.659091
+candidate_origin	gws_tag_and_ld_proxy	fantom5_enhancer	FANTOM5 CAGE enhancer	176	176	0	1	0.568182	0.568182
+candidate_origin	gws_tag_and_ld_proxy	known_regulatory_any	SCREEN, Ensembl, or FANTOM5	176	176	0	43	24.431818	24.431818
+candidate_origin	gws_tag_and_ld_proxy	repeatmasker	UCSC RepeatMasker	176	176	0	71	40.340909	40.340909
+candidate_origin	gws_tag_and_ld_proxy	encode_blacklist	ENCODE hg38 blacklist v2	176	176	0	0	0.0	0.0
+candidate_origin	gws_tag_and_ld_proxy	any_tested_biological_annotation	coding, donor, known regulatory, or repeat	176	176	0	129	73.295455	73.295455
+candidate_origin	gws_tag_and_ld_proxy	unannotated_across_tested_biological_features	no coding, donor, known-regulatory, or repeat overlap	176	176	0	47	26.704545	26.704545
+candidate_origin	ld_proxy_only	coding_CDS	GENCODE v50 CDS	14737	14737	0	208	1.411413	1.411413
+candidate_origin	ld_proxy_only	donor_preliminary_enhancer	donor-union H3K27ac	14737	14737	0	1279	8.678836	8.678836
+candidate_origin	ld_proxy_only	donor_preliminary_silencer	donor-union H3K27me3	14737	14737	0	578	3.922101	3.922101
+candidate_origin	ld_proxy_only	donor_refined_enhancer	donor-union ATAC plus H3K27ac	14737	14737	0	540	3.664246	3.664246
+candidate_origin	ld_proxy_only	donor_refined_silencer	donor-union ATAC plus H3K27me3	14737	14737	0	78	0.52928	0.52928
+candidate_origin	ld_proxy_only	donor_preliminary_any	either preliminary donor element	14737	14737	0	1830	12.417724	12.417724
+candidate_origin	ld_proxy_only	donor_refined_any	either refined donor element	14737	14737	0	586	3.976386	3.976386
+candidate_origin	ld_proxy_only	screen_ccre	SCREEN V3 cCRE	14737	14737	0	2102	14.263419	14.263419
+candidate_origin	ld_proxy_only	ensembl_regulatory	Ensembl Regulatory Build 116	14737	14737	0	1196	8.115627	8.115627
+candidate_origin	ld_proxy_only	fantom5_enhancer	FANTOM5 CAGE enhancer	14737	14737	0	154	1.044989	1.044989
+candidate_origin	ld_proxy_only	known_regulatory_any	SCREEN, Ensembl, or FANTOM5	14737	14737	0	2470	16.760535	16.760535
+candidate_origin	ld_proxy_only	repeatmasker	UCSC RepeatMasker	14737	14737	0	7873	53.423356	53.423356
+candidate_origin	ld_proxy_only	encode_blacklist	ENCODE hg38 blacklist v2	14737	14737	0	20	0.135713	0.135713
+candidate_origin	ld_proxy_only	any_tested_biological_annotation	coding, donor, known regulatory, or repeat	14737	14737	0	10194	69.17283	69.17283
+candidate_origin	ld_proxy_only	unannotated_across_tested_biological_features	no coding, donor, known-regulatory, or repeat overlap	14737	14737	0	4543	30.82717	30.82717
+role	gws_tag_record	coding_CDS	GENCODE v50 CDS	652	649	3	49	7.515337	7.550077
+role	gws_tag_record	donor_preliminary_enhancer	donor-union H3K27ac	652	649	3	98	15.030675	15.100154
+role	gws_tag_record	donor_preliminary_silencer	donor-union H3K27me3	652	649	3	34	5.214724	5.238829
+role	gws_tag_record	donor_refined_enhancer	donor-union ATAC plus H3K27ac	652	649	3	48	7.361963	7.395994
+role	gws_tag_record	donor_refined_silencer	donor-union ATAC plus H3K27me3	652	649	3	8	1.226994	1.232666
+role	gws_tag_record	donor_preliminary_any	either preliminary donor element	652	649	3	126	19.325153	19.414484
+role	gws_tag_record	donor_refined_any	either refined donor element	652	649	3	53	8.128834	8.16641
+role	gws_tag_record	screen_ccre	SCREEN V3 cCRE	652	649	3	145	22.239264	22.342065
+role	gws_tag_record	ensembl_regulatory	Ensembl Regulatory Build 116	652	649	3	80	12.269939	12.326656
+role	gws_tag_record	fantom5_enhancer	FANTOM5 CAGE enhancer	652	649	3	8	1.226994	1.232666
+role	gws_tag_record	known_regulatory_any	SCREEN, Ensembl, or FANTOM5	652	649	3	168	25.766871	25.885978
+role	gws_tag_record	repeatmasker	UCSC RepeatMasker	652	649	3	258	39.570552	39.753467
+role	gws_tag_record	encode_blacklist	ENCODE hg38 blacklist v2	652	649	3	1	0.153374	0.154083
+role	gws_tag_record	any_tested_biological_annotation	coding, donor, known regulatory, or repeat	652	649	3	455	69.785276	70.107858
+role	gws_tag_record	unannotated_across_tested_biological_features	no coding, donor, known-regulatory, or repeat overlap	652	649	3	194	29.754601	29.892142
+role	ld_proxy_record	coding_CDS	GENCODE v50 CDS	14913	14913	0	228	1.528867	1.528867
+role	ld_proxy_record	donor_preliminary_enhancer	donor-union H3K27ac	14913	14913	0	1303	8.737343	8.737343
+role	ld_proxy_record	donor_preliminary_silencer	donor-union H3K27me3	14913	14913	0	584	3.916046	3.916046
+role	ld_proxy_record	donor_refined_enhancer	donor-union ATAC plus H3K27ac	14913	14913	0	548	3.674646	3.674646
+role	ld_proxy_record	donor_refined_silencer	donor-union ATAC plus H3K27me3	14913	14913	0	80	0.536445	0.536445
+role	ld_proxy_record	donor_preliminary_any	either preliminary donor element	14913	14913	0	1860	12.47234	12.47234
+role	ld_proxy_record	donor_refined_any	either refined donor element	14913	14913	0	596	3.996513	3.996513
+role	ld_proxy_record	screen_ccre	SCREEN V3 cCRE	14913	14913	0	2139	14.343191	14.343191
+role	ld_proxy_record	ensembl_regulatory	Ensembl Regulatory Build 116	14913	14913	0	1213	8.133843	8.133843
+role	ld_proxy_record	fantom5_enhancer	FANTOM5 CAGE enhancer	14913	14913	0	155	1.039362	1.039362
+role	ld_proxy_record	known_regulatory_any	SCREEN, Ensembl, or FANTOM5	14913	14913	0	2513	16.85107	16.85107
+role	ld_proxy_record	repeatmasker	UCSC RepeatMasker	14913	14913	0	7944	53.26896	53.26896
+role	ld_proxy_record	encode_blacklist	ENCODE hg38 blacklist v2	14913	14913	0	20	0.134111	0.134111
+role	ld_proxy_record	any_tested_biological_annotation	coding, donor, known regulatory, or repeat	14913	14913	0	10323	69.221485	69.221485
+role	ld_proxy_record	unannotated_across_tested_biological_features	no coding, donor, known-regulatory, or repeat overlap	14913	14913	0	4590	30.778515	30.778515
+variant_class	SNV	coding_CDS	GENCODE v50 CDS	13764	13764	0	248	1.801802	1.801802
+variant_class	SNV	donor_preliminary_enhancer	donor-union H3K27ac	13764	13764	0	1221	8.870968	8.870968
+variant_class	SNV	donor_preliminary_silencer	donor-union H3K27me3	13764	13764	0	554	4.024993	4.024993
+variant_class	SNV	donor_refined_enhancer	donor-union ATAC plus H3K27ac	13764	13764	0	519	3.770706	3.770706
+variant_class	SNV	donor_refined_silencer	donor-union ATAC plus H3K27me3	13764	13764	0	80	0.581226	0.581226
+variant_class	SNV	donor_preliminary_any	either preliminary donor element	13764	13764	0	1746	12.685266	12.685266
+variant_class	SNV	donor_refined_any	either refined donor element	13764	13764	0	567	4.119442	4.119442
+variant_class	SNV	screen_ccre	SCREEN V3 cCRE	13764	13764	0	2038	14.806742	14.806742
+variant_class	SNV	ensembl_regulatory	Ensembl Regulatory Build 116	13764	13764	0	1152	8.36966	8.36966
+variant_class	SNV	fantom5_enhancer	FANTOM5 CAGE enhancer	13764	13764	0	146	1.060738	1.060738
+variant_class	SNV	known_regulatory_any	SCREEN, Ensembl, or FANTOM5	13764	13764	0	2391	17.371404	17.371404
+variant_class	SNV	repeatmasker	UCSC RepeatMasker	13764	13764	0	7216	52.42662	52.42662
+variant_class	SNV	encode_blacklist	ENCODE hg38 blacklist v2	13764	13764	0	17	0.123511	0.123511
+variant_class	SNV	any_tested_biological_annotation	coding, donor, known regulatory, or repeat	13764	13764	0	9506	69.064226	69.064226
+variant_class	SNV	unannotated_across_tested_biological_features	no coding, donor, known-regulatory, or repeat overlap	13764	13764	0	4258	30.935774	30.935774
+variant_class	indel_or_complex	coding_CDS	GENCODE v50 CDS	1540	1540	0	4	0.25974	0.25974
+variant_class	indel_or_complex	donor_preliminary_enhancer	donor-union H3K27ac	1540	1540	0	151	9.805195	9.805195
+variant_class	indel_or_complex	donor_preliminary_silencer	donor-union H3K27me3	1540	1540	0	56	3.636364	3.636364
+variant_class	indel_or_complex	donor_refined_enhancer	donor-union ATAC plus H3K27ac	1540	1540	0	64	4.155844	4.155844
+variant_class	indel_or_complex	donor_refined_silencer	donor-union ATAC plus H3K27me3	1540	1540	0	6	0.38961	0.38961
+variant_class	indel_or_complex	donor_preliminary_any	either preliminary donor element	1540	1540	0	203	13.181818	13.181818
+variant_class	indel_or_complex	donor_refined_any	either refined donor element	1540	1540	0	67	4.350649	4.350649
+variant_class	indel_or_complex	screen_ccre	SCREEN V3 cCRE	1540	1540	0	198	12.857143	12.857143
+variant_class	indel_or_complex	ensembl_regulatory	Ensembl Regulatory Build 116	1540	1540	0	119	7.727273	7.727273
+variant_class	indel_or_complex	fantom5_enhancer	FANTOM5 CAGE enhancer	1540	1540	0	16	1.038961	1.038961
+variant_class	indel_or_complex	known_regulatory_any	SCREEN, Ensembl, or FANTOM5	1540	1540	0	235	15.25974	15.25974
+variant_class	indel_or_complex	repeatmasker	UCSC RepeatMasker	1540	1540	0	873	56.688312	56.688312
+variant_class	indel_or_complex	encode_blacklist	ENCODE hg38 blacklist v2	1540	1540	0	3	0.194805	0.194805
+variant_class	indel_or_complex	any_tested_biological_annotation	coding, donor, known regulatory, or repeat	1540	1540	0	1089	70.714286	70.714286
+variant_class	indel_or_complex	unannotated_across_tested_biological_features	no coding, donor, known-regulatory, or repeat overlap	1540	1540	0	451	29.285714	29.285714
+variant_class	unresolved_tag	coding_CDS	GENCODE v50 CDS	85	82	3	5	5.882353	6.097561
+variant_class	unresolved_tag	donor_preliminary_enhancer	donor-union H3K27ac	85	82	3	5	5.882353	6.097561
+variant_class	unresolved_tag	donor_preliminary_silencer	donor-union H3K27me3	85	82	3	2	2.352941	2.439024
+variant_class	unresolved_tag	donor_refined_enhancer	donor-union ATAC plus H3K27ac	85	82	3	5	5.882353	6.097561
+variant_class	unresolved_tag	donor_refined_silencer	donor-union ATAC plus H3K27me3	85	82	3	0	0.0	0.0
+variant_class	unresolved_tag	donor_preliminary_any	either preliminary donor element	85	82	3	7	8.235294	8.536585
+variant_class	unresolved_tag	donor_refined_any	either refined donor element	85	82	3	5	5.882353	6.097561
+variant_class	unresolved_tag	screen_ccre	SCREEN V3 cCRE	85	82	3	11	12.941176	13.414634
+variant_class	unresolved_tag	ensembl_regulatory	Ensembl Regulatory Build 116	85	82	3	5	5.882353	6.097561
+variant_class	unresolved_tag	fantom5_enhancer	FANTOM5 CAGE enhancer	85	82	3	0	0.0	0.0
+variant_class	unresolved_tag	known_regulatory_any	SCREEN, Ensembl, or FANTOM5	85	82	3	12	14.117647	14.634146
+variant_class	unresolved_tag	repeatmasker	UCSC RepeatMasker	85	82	3	42	49.411765	51.219512
+variant_class	unresolved_tag	encode_blacklist	ENCODE hg38 blacklist v2	85	82	3	1	1.176471	1.219512
+variant_class	unresolved_tag	any_tested_biological_annotation	coding, donor, known regulatory, or repeat	85	82	3	54	63.529412	65.853659
+variant_class	unresolved_tag	unannotated_across_tested_biological_features	no coding, donor, known-regulatory, or repeat overlap	85	82	3	28	32.941176	34.146341
+reference_status	reference_matched_record	coding_CDS	GENCODE v50 CDS	15304	15304	0	252	1.646628	1.646628
+reference_status	reference_matched_record	donor_preliminary_enhancer	donor-union H3K27ac	15304	15304	0	1372	8.964976	8.964976
+reference_status	reference_matched_record	donor_preliminary_silencer	donor-union H3K27me3	15304	15304	0	610	3.985886	3.985886
+reference_status	reference_matched_record	donor_refined_enhancer	donor-union ATAC plus H3K27ac	15304	15304	0	583	3.809462	3.809462
+reference_status	reference_matched_record	donor_refined_silencer	donor-union ATAC plus H3K27me3	15304	15304	0	86	0.561945	0.561945
+reference_status	reference_matched_record	donor_preliminary_any	either preliminary donor element	15304	15304	0	1949	12.735233	12.735233
+reference_status	reference_matched_record	donor_refined_any	either refined donor element	15304	15304	0	634	4.142708	4.142708
+reference_status	reference_matched_record	screen_ccre	SCREEN V3 cCRE	15304	15304	0	2236	14.610559	14.610559
+reference_status	reference_matched_record	ensembl_regulatory	Ensembl Regulatory Build 116	15304	15304	0	1271	8.305018	8.305018
+reference_status	reference_matched_record	fantom5_enhancer	FANTOM5 CAGE enhancer	15304	15304	0	162	1.058547	1.058547
+reference_status	reference_matched_record	known_regulatory_any	SCREEN, Ensembl, or FANTOM5	15304	15304	0	2626	17.158913	17.158913
+reference_status	reference_matched_record	repeatmasker	UCSC RepeatMasker	15304	15304	0	8089	52.855463	52.855463
+reference_status	reference_matched_record	encode_blacklist	ENCODE hg38 blacklist v2	15304	15304	0	20	0.130685	0.130685
+reference_status	reference_matched_record	any_tested_biological_annotation	coding, donor, known regulatory, or repeat	15304	15304	0	10595	69.230267	69.230267
+reference_status	reference_matched_record	unannotated_across_tested_biological_features	no coding, donor, known-regulatory, or repeat overlap	15304	15304	0	4709	30.769733	30.769733
+reference_status	reference_unmatched_tag_record	coding_CDS	GENCODE v50 CDS	85	82	3	5	5.882353	6.097561
+reference_status	reference_unmatched_tag_record	donor_preliminary_enhancer	donor-union H3K27ac	85	82	3	5	5.882353	6.097561
+reference_status	reference_unmatched_tag_record	donor_preliminary_silencer	donor-union H3K27me3	85	82	3	2	2.352941	2.439024
+reference_status	reference_unmatched_tag_record	donor_refined_enhancer	donor-union ATAC plus H3K27ac	85	82	3	5	5.882353	6.097561
+reference_status	reference_unmatched_tag_record	donor_refined_silencer	donor-union ATAC plus H3K27me3	85	82	3	0	0.0	0.0
+reference_status	reference_unmatched_tag_record	donor_preliminary_any	either preliminary donor element	85	82	3	7	8.235294	8.536585
+reference_status	reference_unmatched_tag_record	donor_refined_any	either refined donor element	85	82	3	5	5.882353	6.097561
+reference_status	reference_unmatched_tag_record	screen_ccre	SCREEN V3 cCRE	85	82	3	11	12.941176	13.414634
+reference_status	reference_unmatched_tag_record	ensembl_regulatory	Ensembl Regulatory Build 116	85	82	3	5	5.882353	6.097561
+reference_status	reference_unmatched_tag_record	fantom5_enhancer	FANTOM5 CAGE enhancer	85	82	3	0	0.0	0.0
+reference_status	reference_unmatched_tag_record	known_regulatory_any	SCREEN, Ensembl, or FANTOM5	85	82	3	12	14.117647	14.634146
+reference_status	reference_unmatched_tag_record	repeatmasker	UCSC RepeatMasker	85	82	3	42	49.411765	51.219512
+reference_status	reference_unmatched_tag_record	encode_blacklist	ENCODE hg38 blacklist v2	85	82	3	1	1.176471	1.219512
+reference_status	reference_unmatched_tag_record	any_tested_biological_annotation	coding, donor, known regulatory, or repeat	85	82	3	54	63.529412	65.853659
+reference_status	reference_unmatched_tag_record	unannotated_across_tested_biological_features	no coding, donor, known-regulatory, or repeat overlap	85	82	3	28	32.941176	34.146341
+ld_panel	AFR	coding_CDS	GENCODE v50 CDS	1819	1819	0	33	1.814184	1.814184
+ld_panel	AFR	donor_preliminary_enhancer	donor-union H3K27ac	1819	1819	0	135	7.42166	7.42166
+ld_panel	AFR	donor_preliminary_silencer	donor-union H3K27me3	1819	1819	0	37	2.034085	2.034085
+ld_panel	AFR	donor_refined_enhancer	donor-union ATAC plus H3K27ac	1819	1819	0	61	3.353491	3.353491
+ld_panel	AFR	donor_refined_silencer	donor-union ATAC plus H3K27me3	1819	1819	0	9	0.494777	0.494777
+ld_panel	AFR	donor_preliminary_any	either preliminary donor element	1819	1819	0	168	9.235844	9.235844
+ld_panel	AFR	donor_refined_any	either refined donor element	1819	1819	0	64	3.518417	3.518417
+ld_panel	AFR	screen_ccre	SCREEN V3 cCRE	1819	1819	0	238	13.084112	13.084112
+ld_panel	AFR	ensembl_regulatory	Ensembl Regulatory Build 116	1819	1819	0	120	6.597031	6.597031
+ld_panel	AFR	fantom5_enhancer	FANTOM5 CAGE enhancer	1819	1819	0	6	0.329852	0.329852
+ld_panel	AFR	known_regulatory_any	SCREEN, Ensembl, or FANTOM5	1819	1819	0	271	14.898296	14.898296
+ld_panel	AFR	repeatmasker	UCSC RepeatMasker	1819	1819	0	992	54.535459	54.535459
+ld_panel	AFR	encode_blacklist	ENCODE hg38 blacklist v2	1819	1819	0	7	0.384827	0.384827
+ld_panel	AFR	any_tested_biological_annotation	coding, donor, known regulatory, or repeat	1819	1819	0	1238	68.059373	68.059373
+ld_panel	AFR	unannotated_across_tested_biological_features	no coding, donor, known-regulatory, or repeat overlap	1819	1819	0	581	31.940627	31.940627
+ld_panel	AMR	coding_CDS	GENCODE v50 CDS	4515	4515	0	72	1.594684	1.594684
+ld_panel	AMR	donor_preliminary_enhancer	donor-union H3K27ac	4515	4515	0	352	7.796235	7.796235
+ld_panel	AMR	donor_preliminary_silencer	donor-union H3K27me3	4515	4515	0	81	1.79402	1.79402
+ld_panel	AMR	donor_refined_enhancer	donor-union ATAC plus H3K27ac	4515	4515	0	171	3.787375	3.787375
+ld_panel	AMR	donor_refined_silencer	donor-union ATAC plus H3K27me3	4515	4515	0	16	0.354374	0.354374
+ld_panel	AMR	donor_preliminary_any	either preliminary donor element	4515	4515	0	426	9.435216	9.435216
+ld_panel	AMR	donor_refined_any	either refined donor element	4515	4515	0	178	3.942414	3.942414
+ld_panel	AMR	screen_ccre	SCREEN V3 cCRE	4515	4515	0	672	14.883721	14.883721
+ld_panel	AMR	ensembl_regulatory	Ensembl Regulatory Build 116	4515	4515	0	354	7.840532	7.840532
+ld_panel	AMR	fantom5_enhancer	FANTOM5 CAGE enhancer	4515	4515	0	36	0.797342	0.797342
+ld_panel	AMR	known_regulatory_any	SCREEN, Ensembl, or FANTOM5	4515	4515	0	758	16.788483	16.788483
+ld_panel	AMR	repeatmasker	UCSC RepeatMasker	4515	4515	0	2467	54.640089	54.640089
+ld_panel	AMR	encode_blacklist	ENCODE hg38 blacklist v2	4515	4515	0	14	0.310078	0.310078
+ld_panel	AMR	any_tested_biological_annotation	coding, donor, known regulatory, or repeat	4515	4515	0	3120	69.10299	69.10299
+ld_panel	AMR	unannotated_across_tested_biological_features	no coding, donor, known-regulatory, or repeat overlap	4515	4515	0	1395	30.89701	30.89701
+ld_panel	EAS	coding_CDS	GENCODE v50 CDS	5315	5315	0	83	1.561618	1.561618
+ld_panel	EAS	donor_preliminary_enhancer	donor-union H3K27ac	5315	5315	0	393	7.394167	7.394167
+ld_panel	EAS	donor_preliminary_silencer	donor-union H3K27me3	5315	5315	0	118	2.220132	2.220132
+ld_panel	EAS	donor_refined_enhancer	donor-union ATAC plus H3K27ac	5315	5315	0	177	3.330198	3.330198
+ld_panel	EAS	donor_refined_silencer	donor-union ATAC plus H3K27me3	5315	5315	0	22	0.413923	0.413923
+ld_panel	EAS	donor_preliminary_any	either preliminary donor element	5315	5315	0	505	9.501411	9.501411
+ld_panel	EAS	donor_refined_any	either refined donor element	5315	5315	0	194	3.650047	3.650047
+ld_panel	EAS	screen_ccre	SCREEN V3 cCRE	5315	5315	0	760	14.299153	14.299153
+ld_panel	EAS	ensembl_regulatory	Ensembl Regulatory Build 116	5315	5315	0	403	7.582314	7.582314
+ld_panel	EAS	fantom5_enhancer	FANTOM5 CAGE enhancer	5315	5315	0	39	0.733772	0.733772
+ld_panel	EAS	known_regulatory_any	SCREEN, Ensembl, or FANTOM5	5315	5315	0	868	16.331138	16.331138
+ld_panel	EAS	repeatmasker	UCSC RepeatMasker	5315	5315	0	2890	54.374412	54.374412
+ld_panel	EAS	encode_blacklist	ENCODE hg38 blacklist v2	5315	5315	0	14	0.263405	0.263405
+ld_panel	EAS	any_tested_biological_annotation	coding, donor, known regulatory, or repeat	5315	5315	0	3682	69.275635	69.275635
+ld_panel	EAS	unannotated_across_tested_biological_features	no coding, donor, known-regulatory, or repeat overlap	5315	5315	0	1633	30.724365	30.724365
+ld_panel	EUR	coding_CDS	GENCODE v50 CDS	12697	12697	0	175	1.378278	1.378278
+ld_panel	EUR	donor_preliminary_enhancer	donor-union H3K27ac	12697	12697	0	1114	8.773726	8.773726
+ld_panel	EUR	donor_preliminary_silencer	donor-union H3K27me3	12697	12697	0	523	4.119083	4.119083
+ld_panel	EUR	donor_refined_enhancer	donor-union ATAC plus H3K27ac	12697	12697	0	464	3.654407	3.654407
+ld_panel	EUR	donor_refined_silencer	donor-union ATAC plus H3K27me3	12697	12697	0	65	0.511932	0.511932
+ld_panel	EUR	donor_preliminary_any	either preliminary donor element	12697	12697	0	1614	12.711664	12.711664
+ld_panel	EUR	donor_refined_any	either refined donor element	12697	12697	0	500	3.937938	3.937938
+ld_panel	EUR	screen_ccre	SCREEN V3 cCRE	12697	12697	0	1820	14.334095	14.334095
+ld_panel	EUR	ensembl_regulatory	Ensembl Regulatory Build 116	12697	12697	0	1038	8.175159	8.175159
+ld_panel	EUR	fantom5_enhancer	FANTOM5 CAGE enhancer	12697	12697	0	134	1.055367	1.055367
+ld_panel	EUR	known_regulatory_any	SCREEN, Ensembl, or FANTOM5	12697	12697	0	2138	16.838623	16.838623
+ld_panel	EUR	repeatmasker	UCSC RepeatMasker	12697	12697	0	6790	53.477199	53.477199
+ld_panel	EUR	encode_blacklist	ENCODE hg38 blacklist v2	12697	12697	0	19	0.149642	0.149642
+ld_panel	EUR	any_tested_biological_annotation	coding, donor, known regulatory, or repeat	12697	12697	0	8808	69.370717	69.370717
+ld_panel	EUR	unannotated_across_tested_biological_features	no coding, donor, known-regulatory, or repeat overlap	12697	12697	0	3889	30.629283	30.629283
+ld_panel	SAS	coding_CDS	GENCODE v50 CDS	722	722	0	13	1.800554	1.800554
+ld_panel	SAS	donor_preliminary_enhancer	donor-union H3K27ac	722	722	0	86	11.911357	11.911357
+ld_panel	SAS	donor_preliminary_silencer	donor-union H3K27me3	722	722	0	8	1.108033	1.108033
+ld_panel	SAS	donor_refined_enhancer	donor-union ATAC plus H3K27ac	722	722	0	37	5.124654	5.124654
+ld_panel	SAS	donor_refined_silencer	donor-union ATAC plus H3K27me3	722	722	0	1	0.138504	0.138504
+ld_panel	SAS	donor_preliminary_any	either preliminary donor element	722	722	0	94	13.019391	13.019391
+ld_panel	SAS	donor_refined_any	either refined donor element	722	722	0	38	5.263158	5.263158
+ld_panel	SAS	screen_ccre	SCREEN V3 cCRE	722	722	0	132	18.282548	18.282548
+ld_panel	SAS	ensembl_regulatory	Ensembl Regulatory Build 116	722	722	0	69	9.556787	9.556787
+ld_panel	SAS	fantom5_enhancer	FANTOM5 CAGE enhancer	722	722	0	9	1.246537	1.246537
+ld_panel	SAS	known_regulatory_any	SCREEN, Ensembl, or FANTOM5	722	722	0	156	21.606648	21.606648
+ld_panel	SAS	repeatmasker	UCSC RepeatMasker	722	722	0	424	58.725762	58.725762
+ld_panel	SAS	encode_blacklist	ENCODE hg38 blacklist v2	722	722	0	2	0.277008	0.277008
+ld_panel	SAS	any_tested_biological_annotation	coding, donor, known regulatory, or repeat	722	722	0	547	75.761773	75.761773
+ld_panel	SAS	unannotated_across_tested_biological_features	no coding, donor, known-regulatory, or repeat overlap	722	722	0	175	24.238227	24.238227
+tag_supported_panel	AFR	coding_CDS	GENCODE v50 CDS	188	188	0	34	18.085106	18.085106
+tag_supported_panel	AFR	donor_preliminary_enhancer	donor-union H3K27ac	188	188	0	29	15.425532	15.425532
+tag_supported_panel	AFR	donor_preliminary_silencer	donor-union H3K27me3	188	188	0	9	4.787234	4.787234
+tag_supported_panel	AFR	donor_refined_enhancer	donor-union ATAC plus H3K27ac	188	188	0	13	6.914894	6.914894
+tag_supported_panel	AFR	donor_refined_silencer	donor-union ATAC plus H3K27me3	188	188	0	5	2.659574	2.659574
+tag_supported_panel	AFR	donor_preliminary_any	either preliminary donor element	188	188	0	36	19.148936	19.148936
+tag_supported_panel	AFR	donor_refined_any	either refined donor element	188	188	0	16	8.510638	8.510638
+tag_supported_panel	AFR	screen_ccre	SCREEN V3 cCRE	188	188	0	51	27.12766	27.12766
+tag_supported_panel	AFR	ensembl_regulatory	Ensembl Regulatory Build 116	188	188	0	19	10.106383	10.106383
+tag_supported_panel	AFR	fantom5_enhancer	FANTOM5 CAGE enhancer	188	188	0	0	0.0	0.0
+tag_supported_panel	AFR	known_regulatory_any	SCREEN, Ensembl, or FANTOM5	188	188	0	55	29.255319	29.255319
+tag_supported_panel	AFR	repeatmasker	UCSC RepeatMasker	188	188	0	65	34.574468	34.574468
+tag_supported_panel	AFR	encode_blacklist	ENCODE hg38 blacklist v2	188	188	0	0	0.0	0.0
+tag_supported_panel	AFR	any_tested_biological_annotation	coding, donor, known regulatory, or repeat	188	188	0	143	76.06383	76.06383
+tag_supported_panel	AFR	unannotated_across_tested_biological_features	no coding, donor, known-regulatory, or repeat overlap	188	188	0	45	23.93617	23.93617
+tag_supported_panel	AMR	coding_CDS	GENCODE v50 CDS	171	171	0	34	19.883041	19.883041
+tag_supported_panel	AMR	donor_preliminary_enhancer	donor-union H3K27ac	171	171	0	29	16.959064	16.959064
+tag_supported_panel	AMR	donor_preliminary_silencer	donor-union H3K27me3	171	171	0	9	5.263158	5.263158
+tag_supported_panel	AMR	donor_refined_enhancer	donor-union ATAC plus H3K27ac	171	171	0	13	7.602339	7.602339
+tag_supported_panel	AMR	donor_refined_silencer	donor-union ATAC plus H3K27me3	171	171	0	4	2.339181	2.339181
+tag_supported_panel	AMR	donor_preliminary_any	either preliminary donor element	171	171	0	36	21.052632	21.052632
+tag_supported_panel	AMR	donor_refined_any	either refined donor element	171	171	0	15	8.77193	8.77193
+tag_supported_panel	AMR	screen_ccre	SCREEN V3 cCRE	171	171	0	49	28.654971	28.654971
+tag_supported_panel	AMR	ensembl_regulatory	Ensembl Regulatory Build 116	171	171	0	18	10.526316	10.526316
+tag_supported_panel	AMR	fantom5_enhancer	FANTOM5 CAGE enhancer	171	171	0	0	0.0	0.0
+tag_supported_panel	AMR	known_regulatory_any	SCREEN, Ensembl, or FANTOM5	171	171	0	52	30.409357	30.409357
+tag_supported_panel	AMR	repeatmasker	UCSC RepeatMasker	171	171	0	58	33.918129	33.918129
+tag_supported_panel	AMR	encode_blacklist	ENCODE hg38 blacklist v2	171	171	0	0	0.0	0.0
+tag_supported_panel	AMR	any_tested_biological_annotation	coding, donor, known regulatory, or repeat	171	171	0	132	77.192982	77.192982
+tag_supported_panel	AMR	unannotated_across_tested_biological_features	no coding, donor, known-regulatory, or repeat overlap	171	171	0	39	22.807018	22.807018
+tag_supported_panel	EAS	coding_CDS	GENCODE v50 CDS	187	187	0	34	18.181818	18.181818
+tag_supported_panel	EAS	donor_preliminary_enhancer	donor-union H3K27ac	187	187	0	30	16.042781	16.042781
+tag_supported_panel	EAS	donor_preliminary_silencer	donor-union H3K27me3	187	187	0	10	5.347594	5.347594
+tag_supported_panel	EAS	donor_refined_enhancer	donor-union ATAC plus H3K27ac	187	187	0	13	6.951872	6.951872
+tag_supported_panel	EAS	donor_refined_silencer	donor-union ATAC plus H3K27me3	187	187	0	5	2.673797	2.673797
+tag_supported_panel	EAS	donor_preliminary_any	either preliminary donor element	187	187	0	38	20.320856	20.320856
+tag_supported_panel	EAS	donor_refined_any	either refined donor element	187	187	0	16	8.55615	8.55615
+tag_supported_panel	EAS	screen_ccre	SCREEN V3 cCRE	187	187	0	52	27.807487	27.807487
+tag_supported_panel	EAS	ensembl_regulatory	Ensembl Regulatory Build 116	187	187	0	19	10.160428	10.160428
+tag_supported_panel	EAS	fantom5_enhancer	FANTOM5 CAGE enhancer	187	187	0	0	0.0	0.0
+tag_supported_panel	EAS	known_regulatory_any	SCREEN, Ensembl, or FANTOM5	187	187	0	55	29.411765	29.411765
+tag_supported_panel	EAS	repeatmasker	UCSC RepeatMasker	187	187	0	67	35.828877	35.828877
+tag_supported_panel	EAS	encode_blacklist	ENCODE hg38 blacklist v2	187	187	0	0	0.0	0.0
+tag_supported_panel	EAS	any_tested_biological_annotation	coding, donor, known regulatory, or repeat	187	187	0	145	77.540107	77.540107
+tag_supported_panel	EAS	unannotated_across_tested_biological_features	no coding, donor, known-regulatory, or repeat overlap	187	187	0	42	22.459893	22.459893
+tag_supported_panel	EUR	coding_CDS	GENCODE v50 CDS	642	639	3	49	7.632399	7.668232
+tag_supported_panel	EUR	donor_preliminary_enhancer	donor-union H3K27ac	642	639	3	97	15.109034	15.179969
+tag_supported_panel	EUR	donor_preliminary_silencer	donor-union H3K27me3	642	639	3	34	5.29595	5.320814
+tag_supported_panel	EUR	donor_refined_enhancer	donor-union ATAC plus H3K27ac	642	639	3	48	7.476636	7.511737
+tag_supported_panel	EUR	donor_refined_silencer	donor-union ATAC plus H3K27me3	642	639	3	7	1.090343	1.095462
+tag_supported_panel	EUR	donor_preliminary_any	either preliminary donor element	642	639	3	125	19.470405	19.561815
+tag_supported_panel	EUR	donor_refined_any	either refined donor element	642	639	3	52	8.099688	8.137715
+tag_supported_panel	EUR	screen_ccre	SCREEN V3 cCRE	642	639	3	143	22.274143	22.378717
+tag_supported_panel	EUR	ensembl_regulatory	Ensembl Regulatory Build 116	642	639	3	79	12.305296	12.363067
+tag_supported_panel	EUR	fantom5_enhancer	FANTOM5 CAGE enhancer	642	639	3	8	1.246106	1.251956
+tag_supported_panel	EUR	known_regulatory_any	SCREEN, Ensembl, or FANTOM5	642	639	3	166	25.856698	25.978091
+tag_supported_panel	EUR	repeatmasker	UCSC RepeatMasker	642	639	3	253	39.4081	39.593114
+tag_supported_panel	EUR	encode_blacklist	ENCODE hg38 blacklist v2	642	639	3	1	0.155763	0.156495
+tag_supported_panel	EUR	any_tested_biological_annotation	coding, donor, known regulatory, or repeat	642	639	3	448	69.781931	70.109546
+tag_supported_panel	EUR	unannotated_across_tested_biological_features	no coding, donor, known-regulatory, or repeat overlap	642	639	3	191	29.750779	29.890454
+tag_supported_panel	SAS	coding_CDS	GENCODE v50 CDS	36	36	0	3	8.333333	8.333333
+tag_supported_panel	SAS	donor_preliminary_enhancer	donor-union H3K27ac	36	36	0	4	11.111111	11.111111
+tag_supported_panel	SAS	donor_preliminary_silencer	donor-union H3K27me3	36	36	0	2	5.555556	5.555556
+tag_supported_panel	SAS	donor_refined_enhancer	donor-union ATAC plus H3K27ac	36	36	0	3	8.333333	8.333333
+tag_supported_panel	SAS	donor_refined_silencer	donor-union ATAC plus H3K27me3	36	36	0	2	5.555556	5.555556
+tag_supported_panel	SAS	donor_preliminary_any	either preliminary donor element	36	36	0	6	16.666667	16.666667
+tag_supported_panel	SAS	donor_refined_any	either refined donor element	36	36	0	5	13.888889	13.888889
+tag_supported_panel	SAS	screen_ccre	SCREEN V3 cCRE	36	36	0	11	30.555556	30.555556
+tag_supported_panel	SAS	ensembl_regulatory	Ensembl Regulatory Build 116	36	36	0	2	5.555556	5.555556
+tag_supported_panel	SAS	fantom5_enhancer	FANTOM5 CAGE enhancer	36	36	0	0	0.0	0.0
+tag_supported_panel	SAS	known_regulatory_any	SCREEN, Ensembl, or FANTOM5	36	36	0	12	33.333333	33.333333
+tag_supported_panel	SAS	repeatmasker	UCSC RepeatMasker	36	36	0	14	38.888889	38.888889
+tag_supported_panel	SAS	encode_blacklist	ENCODE hg38 blacklist v2	36	36	0	0	0.0	0.0
+tag_supported_panel	SAS	any_tested_biological_annotation	coding, donor, known regulatory, or repeat	36	36	0	28	77.777778	77.777778
+tag_supported_panel	SAS	unannotated_across_tested_biological_features	no coding, donor, known-regulatory, or repeat overlap	36	36	0	8	22.222222	22.222222
+tag_polymorphic_panel	AFR	coding_CDS	GENCODE v50 CDS	174	174	0	28	16.091954	16.091954
+tag_polymorphic_panel	AFR	donor_preliminary_enhancer	donor-union H3K27ac	174	174	0	28	16.091954	16.091954
+tag_polymorphic_panel	AFR	donor_preliminary_silencer	donor-union H3K27me3	174	174	0	9	5.172414	5.172414
+tag_polymorphic_panel	AFR	donor_refined_enhancer	donor-union ATAC plus H3K27ac	174	174	0	12	6.896552	6.896552
+tag_polymorphic_panel	AFR	donor_refined_silencer	donor-union ATAC plus H3K27me3	174	174	0	5	2.873563	2.873563
+tag_polymorphic_panel	AFR	donor_preliminary_any	either preliminary donor element	174	174	0	35	20.114943	20.114943
+tag_polymorphic_panel	AFR	donor_refined_any	either refined donor element	174	174	0	15	8.62069	8.62069
+tag_polymorphic_panel	AFR	screen_ccre	SCREEN V3 cCRE	174	174	0	46	26.436782	26.436782
+tag_polymorphic_panel	AFR	ensembl_regulatory	Ensembl Regulatory Build 116	174	174	0	19	10.91954	10.91954
+tag_polymorphic_panel	AFR	fantom5_enhancer	FANTOM5 CAGE enhancer	174	174	0	0	0.0	0.0
+tag_polymorphic_panel	AFR	known_regulatory_any	SCREEN, Ensembl, or FANTOM5	174	174	0	50	28.735632	28.735632
+tag_polymorphic_panel	AFR	repeatmasker	UCSC RepeatMasker	174	174	0	61	35.057471	35.057471
+tag_polymorphic_panel	AFR	encode_blacklist	ENCODE hg38 blacklist v2	174	174	0	0	0.0	0.0
+tag_polymorphic_panel	AFR	any_tested_biological_annotation	coding, donor, known regulatory, or repeat	174	174	0	133	76.436782	76.436782
+tag_polymorphic_panel	AFR	unannotated_across_tested_biological_features	no coding, donor, known-regulatory, or repeat overlap	174	174	0	41	23.563218	23.563218
+tag_polymorphic_panel	AMR	coding_CDS	GENCODE v50 CDS	163	163	0	30	18.404908	18.404908
+tag_polymorphic_panel	AMR	donor_preliminary_enhancer	donor-union H3K27ac	163	163	0	28	17.177914	17.177914
+tag_polymorphic_panel	AMR	donor_preliminary_silencer	donor-union H3K27me3	163	163	0	9	5.521472	5.521472
+tag_polymorphic_panel	AMR	donor_refined_enhancer	donor-union ATAC plus H3K27ac	163	163	0	12	7.361963	7.361963
+tag_polymorphic_panel	AMR	donor_refined_silencer	donor-union ATAC plus H3K27me3	163	163	0	4	2.453988	2.453988
+tag_polymorphic_panel	AMR	donor_preliminary_any	either preliminary donor element	163	163	0	35	21.472393	21.472393
+tag_polymorphic_panel	AMR	donor_refined_any	either refined donor element	163	163	0	14	8.588957	8.588957
+tag_polymorphic_panel	AMR	screen_ccre	SCREEN V3 cCRE	163	163	0	46	28.220859	28.220859
+tag_polymorphic_panel	AMR	ensembl_regulatory	Ensembl Regulatory Build 116	163	163	0	18	11.042945	11.042945
+tag_polymorphic_panel	AMR	fantom5_enhancer	FANTOM5 CAGE enhancer	163	163	0	0	0.0	0.0
+tag_polymorphic_panel	AMR	known_regulatory_any	SCREEN, Ensembl, or FANTOM5	163	163	0	49	30.06135	30.06135
+tag_polymorphic_panel	AMR	repeatmasker	UCSC RepeatMasker	163	163	0	56	34.355828	34.355828
+tag_polymorphic_panel	AMR	encode_blacklist	ENCODE hg38 blacklist v2	163	163	0	0	0.0	0.0
+tag_polymorphic_panel	AMR	any_tested_biological_annotation	coding, donor, known regulatory, or repeat	163	163	0	126	77.300613	77.300613
+tag_polymorphic_panel	AMR	unannotated_across_tested_biological_features	no coding, donor, known-regulatory, or repeat overlap	163	163	0	37	22.699387	22.699387
+tag_polymorphic_panel	EAS	coding_CDS	GENCODE v50 CDS	165	165	0	23	13.939394	13.939394
+tag_polymorphic_panel	EAS	donor_preliminary_enhancer	donor-union H3K27ac	165	165	0	26	15.757576	15.757576
+tag_polymorphic_panel	EAS	donor_preliminary_silencer	donor-union H3K27me3	165	165	0	10	6.060606	6.060606
+tag_polymorphic_panel	EAS	donor_refined_enhancer	donor-union ATAC plus H3K27ac	165	165	0	12	7.272727	7.272727
+tag_polymorphic_panel	EAS	donor_refined_silencer	donor-union ATAC plus H3K27me3	165	165	0	5	3.030303	3.030303
+tag_polymorphic_panel	EAS	donor_preliminary_any	either preliminary donor element	165	165	0	34	20.606061	20.606061
+tag_polymorphic_panel	EAS	donor_refined_any	either refined donor element	165	165	0	15	9.090909	9.090909
+tag_polymorphic_panel	EAS	screen_ccre	SCREEN V3 cCRE	165	165	0	43	26.060606	26.060606
+tag_polymorphic_panel	EAS	ensembl_regulatory	Ensembl Regulatory Build 116	165	165	0	17	10.30303	10.30303
+tag_polymorphic_panel	EAS	fantom5_enhancer	FANTOM5 CAGE enhancer	165	165	0	0	0.0	0.0
+tag_polymorphic_panel	EAS	known_regulatory_any	SCREEN, Ensembl, or FANTOM5	165	165	0	46	27.878788	27.878788
+tag_polymorphic_panel	EAS	repeatmasker	UCSC RepeatMasker	165	165	0	60	36.363636	36.363636
+tag_polymorphic_panel	EAS	encode_blacklist	ENCODE hg38 blacklist v2	165	165	0	0	0.0	0.0
+tag_polymorphic_panel	EAS	any_tested_biological_annotation	coding, donor, known regulatory, or repeat	165	165	0	125	75.757576	75.757576
+tag_polymorphic_panel	EAS	unannotated_across_tested_biological_features	no coding, donor, known-regulatory, or repeat overlap	165	165	0	40	24.242424	24.242424
+tag_polymorphic_panel	EUR	coding_CDS	GENCODE v50 CDS	557	557	0	43	7.719928	7.719928
+tag_polymorphic_panel	EUR	donor_preliminary_enhancer	donor-union H3K27ac	557	557	0	92	16.517056	16.517056
+tag_polymorphic_panel	EUR	donor_preliminary_silencer	donor-union H3K27me3	557	557	0	32	5.745063	5.745063
+tag_polymorphic_panel	EUR	donor_refined_enhancer	donor-union ATAC plus H3K27ac	557	557	0	43	7.719928	7.719928
+tag_polymorphic_panel	EUR	donor_refined_silencer	donor-union ATAC plus H3K27me3	557	557	0	7	1.256732	1.256732
+tag_polymorphic_panel	EUR	donor_preliminary_any	either preliminary donor element	557	557	0	118	21.184919	21.184919
+tag_polymorphic_panel	EUR	donor_refined_any	either refined donor element	557	557	0	47	8.438061	8.438061
+tag_polymorphic_panel	EUR	screen_ccre	SCREEN V3 cCRE	557	557	0	132	23.698384	23.698384
+tag_polymorphic_panel	EUR	ensembl_regulatory	Ensembl Regulatory Build 116	557	557	0	74	13.285458	13.285458
+tag_polymorphic_panel	EUR	fantom5_enhancer	FANTOM5 CAGE enhancer	557	557	0	8	1.436266	1.436266
+tag_polymorphic_panel	EUR	known_regulatory_any	SCREEN, Ensembl, or FANTOM5	557	557	0	154	27.648115	27.648115
+tag_polymorphic_panel	EUR	repeatmasker	UCSC RepeatMasker	557	557	0	211	37.881508	37.881508
+tag_polymorphic_panel	EUR	encode_blacklist	ENCODE hg38 blacklist v2	557	557	0	0	0.0	0.0
+tag_polymorphic_panel	EUR	any_tested_biological_annotation	coding, donor, known regulatory, or repeat	557	557	0	393	70.556553	70.556553
+tag_polymorphic_panel	EUR	unannotated_across_tested_biological_features	no coding, donor, known-regulatory, or repeat overlap	557	557	0	164	29.443447	29.443447
+tag_polymorphic_panel	SAS	coding_CDS	GENCODE v50 CDS	29	29	0	2	6.896552	6.896552
+tag_polymorphic_panel	SAS	donor_preliminary_enhancer	donor-union H3K27ac	29	29	0	4	13.793103	13.793103
+tag_polymorphic_panel	SAS	donor_preliminary_silencer	donor-union H3K27me3	29	29	0	2	6.896552	6.896552
+tag_polymorphic_panel	SAS	donor_refined_enhancer	donor-union ATAC plus H3K27ac	29	29	0	2	6.896552	6.896552
+tag_polymorphic_panel	SAS	donor_refined_silencer	donor-union ATAC plus H3K27me3	29	29	0	2	6.896552	6.896552
+tag_polymorphic_panel	SAS	donor_preliminary_any	either preliminary donor element	29	29	0	6	20.689655	20.689655
+tag_polymorphic_panel	SAS	donor_refined_any	either refined donor element	29	29	0	4	13.793103	13.793103
+tag_polymorphic_panel	SAS	screen_ccre	SCREEN V3 cCRE	29	29	0	9	31.034483	31.034483
+tag_polymorphic_panel	SAS	ensembl_regulatory	Ensembl Regulatory Build 116	29	29	0	2	6.896552	6.896552
+tag_polymorphic_panel	SAS	fantom5_enhancer	FANTOM5 CAGE enhancer	29	29	0	0	0.0	0.0
+tag_polymorphic_panel	SAS	known_regulatory_any	SCREEN, Ensembl, or FANTOM5	29	29	0	10	34.482759	34.482759
+tag_polymorphic_panel	SAS	repeatmasker	UCSC RepeatMasker	29	29	0	12	41.37931	41.37931
+tag_polymorphic_panel	SAS	encode_blacklist	ENCODE hg38 blacklist v2	29	29	0	0	0.0	0.0
+tag_polymorphic_panel	SAS	any_tested_biological_annotation	coding, donor, known regulatory, or repeat	29	29	0	24	82.758621	82.758621
+tag_polymorphic_panel	SAS	unannotated_across_tested_biological_features	no coding, donor, known-regulatory, or repeat overlap	29	29	0	5	17.241379	17.241379
+identifier_level	gws_tag_identifiers	coding_CDS	GENCODE v50 CDS	660	657	3	53	8.030303	8.066971
+identifier_level	gws_tag_identifiers	donor_preliminary_enhancer	donor-union H3K27ac	660	657	3	100	15.151515	15.2207
+identifier_level	gws_tag_identifiers	donor_preliminary_silencer	donor-union H3K27me3	660	657	3	35	5.30303	5.327245
+identifier_level	gws_tag_identifiers	donor_refined_enhancer	donor-union ATAC plus H3K27ac	660	657	3	48	7.272727	7.305936
+identifier_level	gws_tag_identifiers	donor_refined_silencer	donor-union ATAC plus H3K27me3	660	657	3	9	1.363636	1.369863
+identifier_level	gws_tag_identifiers	donor_preliminary_any	either preliminary donor element	660	657	3	129	19.545455	19.634703
+identifier_level	gws_tag_identifiers	donor_refined_any	either refined donor element	660	657	3	54	8.181818	8.219178
+identifier_level	gws_tag_identifiers	screen_ccre	SCREEN V3 cCRE	660	657	3	150	22.727273	22.83105
+identifier_level	gws_tag_identifiers	ensembl_regulatory	Ensembl Regulatory Build 116	660	657	3	80	12.121212	12.17656
+identifier_level	gws_tag_identifiers	fantom5_enhancer	FANTOM5 CAGE enhancer	660	657	3	8	1.212121	1.217656
+identifier_level	gws_tag_identifiers	known_regulatory_any	SCREEN, Ensembl, or FANTOM5	660	657	3	173	26.212121	26.331811
+identifier_level	gws_tag_identifiers	repeatmasker	UCSC RepeatMasker	660	657	3	259	39.242424	39.421613
+identifier_level	gws_tag_identifiers	encode_blacklist	ENCODE hg38 blacklist v2	660	657	3	1	0.151515	0.152207
+identifier_level	gws_tag_identifiers	any_tested_biological_annotation	coding, donor, known regulatory, or repeat	660	657	3	463	70.151515	70.471842
+identifier_level	gws_tag_identifiers	unannotated_across_tested_biological_features	no coding, donor, known-regulatory, or repeat overlap	660	657	3	194	29.393939	29.528158

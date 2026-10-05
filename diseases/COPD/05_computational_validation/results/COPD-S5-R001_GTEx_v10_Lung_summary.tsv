@@ -1,0 +1,6 @@
+metric	n	denominator	fraction	note
+predicted_causal_candidates	337	337	1	Section 4 predicted-causal union
+queryable_exact_GRCh38_REF_ALT	337	337	1	canonical sequence alleles and coordinate available
+candidates_with_exact_significant_GTEx_v10_Lung_cis_eqtl	185	337	0.548961424332	exact GRCh38 chromosome-position-REF-ALT match
+exact_significant_variant_gene_pairs	915			a candidate can be associated with multiple significant eGenes
+unique_significant_eGenes	224			versionless Ensembl gene IDs

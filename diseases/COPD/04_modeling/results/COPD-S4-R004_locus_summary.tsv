@@ -1,0 +1,13 @@
+analysis_set	metric	n	denominator	fraction
+replicated_gwas_genes	genes_with_predicted_causal_regulatory	85	140	0.6071428571428571
+replicated_gwas_genes	genes_with_no_regulatory_variant	6	140	0.04285714285714286
+replicated_gwas_genes	coding_plus_predicted_causal_regulatory	45	140	0.32142857142857145
+replicated_gwas_genes	coding_only	15	140	0.10714285714285714
+replicated_gwas_genes	predicted_causal_regulatory_only	40	140	0.2857142857142857
+replicated_gwas_genes	other	40	140	0.2857142857142857
+all_selected_gwas_genes	genes_with_predicted_causal_regulatory	88	152	0.5789473684210527
+all_selected_gwas_genes	genes_with_no_regulatory_variant	11	152	0.07236842105263158
+all_selected_gwas_genes	coding_plus_predicted_causal_regulatory	46	152	0.3026315789473684
+all_selected_gwas_genes	coding_only	19	152	0.125
+all_selected_gwas_genes	predicted_causal_regulatory_only	42	152	0.27631578947368424
+all_selected_gwas_genes	other	45	152	0.29605263157894735

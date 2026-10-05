@@ -1,0 +1,949 @@
+approved_symbol	hgnc_id	ensembl_gene_id	open_targets_disease_id	open_targets_disease_name	exact_disease_node	overall_association_present	overall_association_score	overall_evidence_count	datasource_count	datasources	datasource_evidence_count_sum	interpretation
+A3GALT2	HGNC:30005	ENSG00000184389	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+AAGAB	HGNC:25662	ENSG00000103591	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.285863410183	4	1	gwas_credible_sets	4	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+ABCB4P1	HGNC:59206	ENSG00000249627	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ABHD15	HGNC:26971	ENSG00000168792	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ABHD15-AS1	HGNC:49685	ENSG00000264031	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ABHD16A	HGNC:13921	ENSG00000204427	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ABT1	HGNC:17369	ENSG00000146109	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ACAD10	HGNC:21597	ENSG00000111271	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.295470746673	2	1	gwas_credible_sets	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+ACSBG1	HGNC:29567	ENSG00000103740	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00425528630406	2	1	europepmc	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+ACTMAP	HGNC:24758	ENSG00000188493	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00148009958402	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+ADAM19	HGNC:197	ENSG00000135074	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.413242797409	29	2	europepmc;gwas_credible_sets	29	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+ADAM19-AS1	HGNC:40061	ENSG00000253519	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ADAM1B	HGNC:44366	ENSG00000226469	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ADAMTS7	HGNC:223	ENSG00000136378	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0224379153856	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+ADAMTS7P3	HGNC:49409	ENSG00000261143	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ADAMTSL2	HGNC:14631	ENSG00000197859	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ADAMTSL3	HGNC:14633	ENSG00000156218	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.388704722991	9	2	europepmc;gwas_credible_sets	9	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+ADCY5	HGNC:236	ENSG00000173175	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.40460465415	5	1	gwas_credible_sets	5	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+ADM	HGNC:259	ENSG00000148926	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0455023115512	31	1	europepmc	31	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+ADM-DT	HGNC:55516	ENSG00000254554	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+AFAP1	HGNC:24017	ENSG00000196526	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.418054016556	5	2	europepmc;gwas_credible_sets	5	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+AFAP1-AS1	HGNC:28141	ENSG00000272620	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+AFAP1-AS2	HGNC:58726	ENSG00000287164	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+AFAP1L1	HGNC:26714	ENSG00000157510	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+AFAP1L1-AS1	HGNC:59278	ENSG00000248647	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+AFAP1L1-AS2	HGNC:59279	ENSG00000285736	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+AFF4	HGNC:17869	ENSG00000072364	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+AFF4-DT	HGNC:55235	ENSG00000272023	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+AGER	HGNC:320	ENSG00000204305	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.113517023472	190	1	europepmc	190	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+AGPAT1	HGNC:324	ENSG00000204310	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+AHNAK	HGNC:347	ENSG00000124942	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0276209195011	6	1	europepmc	6	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+AKR1A1	HGNC:380	ENSG00000117448	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0066604481281	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+ALDH2	HGNC:404	ENSG00000111275	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.421831684592	12	2	europepmc;gwas_credible_sets	12	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+ALKBH5	HGNC:25996	ENSG00000091542	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0131564407469	3	1	europepmc	3	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+AMDHD1	HGNC:28577	ENSG00000139344	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+AMIGO3	HGNC:24075	ENSG00000176020	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+AMPD3	HGNC:470	ENSG00000133805	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00740049792011	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+AMT	HGNC:473	ENSG00000145020	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0370163892211	4	2	europepmc;gwas_credible_sets	4	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+AMZ1	HGNC:22231	ENSG00000174945	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.372124469469	5	1	gwas_credible_sets	5	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+ANKRD13B	HGNC:26363	ENSG00000198720	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ANXA6	HGNC:544	ENSG00000197043	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+AP4M1	HGNC:574	ENSG00000221838	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+APEH	HGNC:586	ENSG00000164062	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0815275435753	4	2	europepmc;gwas_credible_sets	4	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+APOBR	HGNC:24087	ENSG00000184730	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0678693387625	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+APOM	HGNC:13916	ENSG00000204444	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0818354183019	11	1	europepmc	11	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+ARFGAP1	HGNC:15852	ENSG00000101199	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ARGFXP2	HGNC:23977	ENSG00000265293	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ARHGAP31	HGNC:29216	ENSG00000031081	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ARHGAP31-AS1	HGNC:41235	ENSG00000241155	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ARHGEF16	HGNC:15515	ENSG00000130762	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0374218955215	2	2	europepmc;gwas_credible_sets	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+ARHGEF17	HGNC:21726	ENSG00000110237	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ARHGEF17-AS1	HGNC:55485	ENSG00000257038	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ASAP2	HGNC:2721	ENSG00000151693	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.415045044369	5	1	gwas_credible_sets	5	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+ASB1	HGNC:16011	ENSG00000065802	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ASB13	HGNC:19765	ENSG00000196372	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ASCC2	HGNC:24103	ENSG00000100325	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ATF6B	HGNC:2349	ENSG00000213676	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00592039833609	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+ATL1	HGNC:11231	ENSG00000198513	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ATOH7	HGNC:13907	ENSG00000179774	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ATP5MC1P8	HGNC:39511	ENSG00000224948	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ATP6V1G1P5	HGNC:37672	ENSG00000270904	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ATP6V1G2	HGNC:862	ENSG00000213760	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ATP6V1G2-DDX39B	HGNC:41999	ENSG00000254870	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+AUTS2	HGNC:14262	ENSG00000158321	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+AZGP1	HGNC:910	ENSG00000160862	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0282923993168	8	1	europepmc	8	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+AZGP1P1	HGNC:911	ENSG00000214313	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+B3GAT3	HGNC:923	ENSG00000149541	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+B4GALT4-AS1	HGNC:40090	ENSG00000240254	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+BAG6	HGNC:13919	ENSG00000204463	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0145697302802	4	1	europepmc	4	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+BCAR1	HGNC:971	ENSG00000050820	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0515026125263	7	1	gwas_credible_sets	7	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+BCKDK	HGNC:16902	ENSG00000103507	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+BCL7C	HGNC:1006	ENSG00000099385	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+BMAL1	HGNC:701	ENSG00000133794	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.314259931337	28	2	europepmc;gwas_credible_sets	28	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+BMP8A	HGNC:21650	ENSG00000183682	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.233631742986	4	2	europepmc;gwas_credible_sets	4	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+BMS1P4	HGNC:23652	ENSG00000242338	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+BMS1P4-AGAP5	HGNC:55636	ENSG00000242288	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+BSCL2	HGNC:15832	ENSG00000168000	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+BSN	HGNC:1117	ENSG00000164061	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0579349753874	3	1	gwas_credible_sets	3	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+BSN-AS1	HGNC:40102	ENSG00000235120	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+BSN-DT	HGNC:42445	ENSG00000226913	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+BTBD1	HGNC:1120	ENSG00000064726	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.241716439756	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+BTC	HGNC:1121	ENSG00000174808	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.438556490088	8	2	europepmc;gwas_credible_sets	8	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+BTF3P7	HGNC:38569	ENSG00000219986	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+BTN1A1	HGNC:1135	ENSG00000124557	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0577238837768	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+BTN1A1P1	HGNC:51545	ENSG00000284688	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+BTN2A1	HGNC:1136	ENSG00000112763	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00296019916804	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+BTN2A2	HGNC:1137	ENSG00000124508	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+BTN2A3P	HGNC:13229	ENSG00000124549	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+BTN3A1	HGNC:1138	ENSG00000026950	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+BTN3A2	HGNC:1139	ENSG00000186470	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00259017427204	2	1	europepmc	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+BTN3A3	HGNC:1140	ENSG00000111801	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+C10orf55	HGNC:31008	ENSG00000222047	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+C11orf98	HGNC:51238	ENSG00000278615	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+C15orf40	HGNC:28443	ENSG00000169609	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.111867747413	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+C19orf38	HGNC:34073	ENSG00000214212	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+C21orf140	HGNC:39602	ENSG00000222018	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+C3orf62	HGNC:24771	ENSG00000188315	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0333405511613	2	1	gwas_credible_sets	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+C5orf47	HGNC:27026	ENSG00000185056	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0813984355567	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+C6orf15	HGNC:13927	ENSG00000204542	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+C6orf47	HGNC:19076	ENSG00000204439	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+C6orf47-AS1	HGNC:39767	ENSG00000227198	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CALML3	HGNC:1452	ENSG00000178363	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CALML3-AS1	HGNC:44682	ENSG00000205488	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CAMK2G	HGNC:1463	ENSG00000148660	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0465190363025	70	2	europepmc;gwas_credible_sets	70	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+CAMK2G-AS1	HGNC:56057	ENSG00000224195	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CAPZB	HGNC:1491	ENSG00000077549	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CARD11-AS1	HGNC:40766	ENSG00000237286	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CARINH	HGNC:33838	ENSG00000197536	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00663228512212	5	1	europepmc	5	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+CASC17	HGNC:43911	ENSG00000260785	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CASC3	HGNC:17040	ENSG00000108349	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00370024896005	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+CBX3P5	HGNC:42877	ENSG00000257666	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CCDC163	HGNC:27003	ENSG00000280670	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CCDC17	HGNC:26574	ENSG00000159588	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CCDC38	HGNC:26843	ENSG00000165972	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0235024340493	2	2	europepmc;gwas_credible_sets	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+CCDC69	HGNC:24487	ENSG00000198624	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.475796235136	5	1	gwas_credible_sets	5	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+CCDC91	HGNC:24855	ENSG00000123106	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0066604481281	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+CCHCR1	HGNC:13930	ENSG00000204536	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00222014937603	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+CD83P1	HGNC:13946	ENSG00000219738	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CDC37P1	HGNC:34406	ENSG00000259982	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CDC37P2	HGNC:35453	ENSG00000261089	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CDC7	HGNC:1745	ENSG00000097046	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CDSN	HGNC:1802	ENSG00000204539	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CDYL	HGNC:1811	ENSG00000153046	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CERS6	HGNC:23826	ENSG00000172292	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00148009958402	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+CFAP20	HGNC:29523	ENSG00000070761	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CFAP20-AS1	HGNC:58532	ENSG00000260545	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CFDP1	HGNC:1873	ENSG00000153774	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.190634736149	16	2	europepmc;gwas_credible_sets	16	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+CHCHD1	HGNC:23518	ENSG00000172586	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CHRNA3	HGNC:1957	ENSG00000080644	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.538805266273	158	3	clinical_precedence;europepmc;gwas_credible_sets	158	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+CHRNA4	HGNC:1958	ENSG00000101204	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.593225453706	40	3	clinical_precedence;europepmc;gwas_credible_sets	40	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+CHRNA5	HGNC:1959	ENSG00000169684	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.465590328903	134	2	europepmc;gwas_credible_sets	134	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+CHRNB4	HGNC:1964	ENSG00000117971	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.427245810134	30	4	clinical_precedence;europepmc;eva;gwas_credible_sets	30	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+CHST5	HGNC:1973	ENSG00000135702	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CHST6	HGNC:6938	ENSG00000183196	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0199397472909	2	2	europepmc;gwas_credible_sets	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+CIB2	HGNC:24579	ENSG00000136425	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00148009958402	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+CIPC	HGNC:20365	ENSG00000198894	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CITED2	HGNC:1987	ENSG00000164442	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00222014937603	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+CLIC1	HGNC:2062	ENSG00000213719	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CLIC1P3	HGNC:58672	ENSG00000268473	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CLN3	HGNC:2074	ENSG00000188603	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00423472936539	3	1	europepmc	3	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+CNGB1	HGNC:2151	ENSG00000070729	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0551191649369	2	2	europepmc;gwas_credible_sets	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+CNN2P1	HGNC:39526	ENSG00000227201	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CNPY4	HGNC:28631	ENSG00000166997	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+COL20A1	HGNC:14670	ENSG00000101203	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+COMMD4P1	HGNC:51909	ENSG00000214646	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+COPS2	HGNC:30747	ENSG00000166200	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+COPS6	HGNC:21749	ENSG00000168090	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+COQ8B	HGNC:19041	ENSG00000123815	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.105613939611	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+CORO6	HGNC:21356	ENSG00000167549	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+COXFA4P3	HGNC:58527	ENSG00000248648	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CPEB4	HGNC:21747	ENSG00000113742	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.240033032316	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+CPMER	HGNC:55992	ENSG00000227838	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CRABP1	HGNC:2338	ENSG00000166426	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CSF3	HGNC:2438	ENSG00000108342	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.176229238336	77	2	europepmc;gwas_credible_sets	77	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+CSKMT	HGNC:33113	ENSG00000214756	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CSNK2B	HGNC:2460	ENSG00000204435	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CSP1	HGNC:54777	ENSG00000228872	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CT66	HGNC:54198	ENSG00000234215	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CTF1	HGNC:2499	ENSG00000150281	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CTF2P	HGNC:33173	ENSG00000230447	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CTRB1	HGNC:2521	ENSG00000168925	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CTRB2	HGNC:2522	ENSG00000168928	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CTTN	HGNC:3338	ENSG00000085733	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.043579052833	7	1	europepmc	7	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+CTTN-DT	HGNC:55592	ENSG00000246889	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CYB5AP3	HGNC:2574	ENSG00000258595	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CYP2A6	HGNC:2610	ENSG00000255974	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.168403402882	45	2	europepmc;gwas_credible_sets	45	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+CYP2A7	HGNC:2611	ENSG00000198077	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0741823628276	5	2	europepmc;gwas_credible_sets	5	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+CYP2A7P2	HGNC:2613	ENSG00000198251	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CYP2B6	HGNC:2615	ENSG00000197408	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0476397671622	8	2	europepmc;gwas_credible_sets	8	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+CYP2B7P	HGNC:2616	ENSG00000256612	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+CYP2F2P	HGNC:18851	ENSG00000237118	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00774996587744	3	1	europepmc	3	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+CYP2G1P	HGNC:2633	ENSG00000130612	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00148009958402	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+CYP2T1P	HGNC:18852	ENSG00000233622	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+DAG1	HGNC:2666	ENSG00000173402	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.127965431031	5	2	europepmc;gwas_credible_sets	5	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+DBH	HGNC:2689	ENSG00000123454	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0399469779215	4	2	europepmc;gwas_credible_sets	4	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+DBH-AS1	HGNC:24155	ENSG00000225756	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+DDAH2	HGNC:2716	ENSG00000213722	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00293964222938	3	1	europepmc	3	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+DDR1	HGNC:2730	ENSG00000204580	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0070304730241	2	1	europepmc	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+DDR1-DT	HGNC:28694	ENSG00000237775	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+DDX39B	HGNC:13917	ENSG00000198563	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+DDX39B-AS1	HGNC:39771	ENSG00000234006	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+DHFRP2	HGNC:2863	ENSG00000228432	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+DM1-AS	HGNC:53125	ENSG00000267395	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+DMPK	HGNC:2933	ENSG00000104936	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.147444593691	9	2	europepmc;gwas_credible_sets	9	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+DMWD	HGNC:2936	ENSG00000185800	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.18469639351	4	2	europepmc;gwas_credible_sets	4	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+DNAJA4	HGNC:14885	ENSG00000140403	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00888059750413	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+DNAJA4-DT	HGNC:55412	ENSG00000259708	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+DNAJB4	HGNC:14886	ENSG00000162616	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+DNAJB8	HGNC:23699	ENSG00000179407	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0288531243085	3	1	gwas_credible_sets	3	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+DNAJC11	HGNC:25570	ENSG00000007923	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+DNM2	HGNC:2974	ENSG00000079805	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00309135243674	5	1	europepmc	5	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+DNMT3AP1	HGNC:23164	ENSG00000224071	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+DOCK10	HGNC:23479	ENSG00000135905	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+DRG2	HGNC:3030	ENSG00000108591	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+DSTYK	HGNC:29043	ENSG00000133059	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+DUSP8P5	HGNC:45003	ENSG00000235316	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+EEF1G	HGNC:3213	ENSG00000254772	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00370024896005	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+EEFSEC	HGNC:24614	ENSG00000132394	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.345358110277	14	2	europepmc;gwas_credible_sets	14	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+EFCAB5	HGNC:24801	ENSG00000176927	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0921105731394	4	1	gwas_credible_sets	4	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+EGFL8	HGNC:13944	ENSG00000241404	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+EGLN2	HGNC:14660	ENSG00000269858	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0618788028113	13	2	europepmc;gwas_credible_sets	13	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+EIF3C	HGNC:3279	ENSG00000184110	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+EIF3CL	HGNC:26347	ENSG00000205609	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00296019916804	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+EIF4BP3	HGNC:37936	ENSG00000224546	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ELMOD3	HGNC:26158	ENSG00000115459	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ELOCP2	HGNC:17762	ENSG00000259838	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+EML3	HGNC:26666	ENSG00000149499	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+EML4	HGNC:1316	ENSG00000143924	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+EML4-AS1	HGNC:40112	ENSG00000224875	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+EMP2	HGNC:3334	ENSG00000213853	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00740049792011	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+EMSY	HGNC:18071	ENSG00000158636	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0744405319563	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+ENGASE	HGNC:24622	ENSG00000167280	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ERCC6L2	HGNC:26922	ENSG00000182150	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ERP29	HGNC:13799	ENSG00000089248	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ETF1P1	HGNC:3478	ENSG00000232757	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ETFRF1P1	HGNC:56993	ENSG00000228194	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+FABP5P14	HGNC:31065	ENSG00000234588	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+FABP5P8	HGNC:31063	ENSG00000259308	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+FAM13A	HGNC:19367	ENSG00000138640	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.630623867283	176	3	europepmc;eva;gwas_credible_sets	176	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+FAM163B	HGNC:33277	ENSG00000196990	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.322298506756	3	2	europepmc;gwas_credible_sets	3	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+FAM168A-AS1	HGNC:58441	ENSG00000256448	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+FAM227B	HGNC:26543	ENSG00000166262	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.138867604991	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+FANCC	HGNC:3584	ENSG00000158169	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0475284651119	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+FBXL19	HGNC:25300	ENSG00000099364	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00370024896005	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+FBXL19-AS1	HGNC:27557	ENSG00000260852	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+FBXO38	HGNC:28844	ENSG00000145868	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.308269279672	23	2	europepmc;gwas_credible_sets	23	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+FBXO38-DT	HGNC:55589	ENSG00000247199	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+FBXO46	HGNC:25069	ENSG00000177051	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0111007468802	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+FENDRR	HGNC:43894	ENSG00000268388	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00222014937603	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+FGD6	HGNC:21740	ENSG00000180263	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+FGF7	HGNC:3685	ENSG00000140285	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0731962143863	18	2	europepmc;gwas_credible_sets	18	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+FGFR3	HGNC:3690	ENSG00000068078	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00774996587744	3	1	europepmc	3	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+FGFR3P1	HGNC:21664	ENSG00000230994	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+FILNC1	HGNC:53755	ENSG00000231426	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+FKBPL	HGNC:13949	ENSG00000204315	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+FLII	HGNC:3750	ENSG00000177731	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+FOXA3	HGNC:5023	ENSG00000170608	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0107385336208	5	1	europepmc	5	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+FOXC2	HGNC:3801	ENSG00000176692	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+FOXC2-AS1	HGNC:50665	ENSG00000260944	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+FOXF1	HGNC:3809	ENSG00000103241	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00462531120007	2	1	europepmc	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+FOXL1	HGNC:3817	ENSG00000176678	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+FSTL4-AS2	HGNC:59133	ENSG00000248245	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+FUBP1	HGNC:4004	ENSG00000162613	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+FUS	HGNC:4010	ENSG00000089280	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+GAB2	HGNC:14458	ENSG00000033327	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.285616043393	3	2	europepmc;gwas_credible_sets	3	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+GABARAPL2	HGNC:13291	ENSG00000034713	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00740049792011	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+GAL3ST4	HGNC:24145	ENSG00000197093	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+GALK2	HGNC:4119	ENSG00000156958	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0285869141089	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+GANAB	HGNC:4138	ENSG00000089597	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+GASK1B	HGNC:25312	ENSG00000164125	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+GIPC2	HGNC:18177	ENSG00000137960	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+GIPR	HGNC:4271	ENSG00000010310	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0111007468802	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+GIT1	HGNC:4272	ENSG00000108262	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+GLIS3	HGNC:28510	ENSG00000107249	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.467279123679	5	1	gwas_credible_sets	5	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+GLUD1P3	HGNC:4338	ENSG00000250959	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+GM2A	HGNC:4367	ENSG00000196743	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.14529060939	9	2	europepmc;gwas_credible_sets	9	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+GMPPB	HGNC:22932	ENSG00000173540	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0228197140985	3	2	europepmc;gwas_credible_sets	3	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+GNA12	HGNC:4380	ENSG00000146535	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.064138988179	5	1	gwas_credible_sets	5	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+GNG3	HGNC:4405	ENSG00000162188	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+GOLGA6GP	HGNC:55709	ENSG00000261303	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+GPANK1	HGNC:13920	ENSG00000204438	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0600624411196	1	1	impc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+GPHRP1	HGNC:13951	ENSG00000216915	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+GPSM3	HGNC:13945	ENSG00000213654	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+GPX1	HGNC:4553	ENSG00000233276	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0949138754176	29	2	europepmc;gwas_credible_sets	29	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+GRB7	HGNC:4567	ENSG00000141738	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+GRPEL2	HGNC:21060	ENSG00000164284	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+GRPEL2-AS1	HGNC:48999	ENSG00000253618	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+GSDMA	HGNC:13311	ENSG00000167914	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00539372956744	5	1	europepmc	5	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+GSDMB	HGNC:23690	ENSG00000073605	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.191903731421	10	2	europepmc;gwas_credible_sets	10	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+GTF2H4	HGNC:4658	ENSG00000213780	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0111007468802	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+H1-5	HGNC:4719	ENSG00000184357	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+H2AC13	HGNC:4725	ENSG00000196747	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+H2AC14	HGNC:4727	ENSG00000276368	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+H2AC15	HGNC:4726	ENSG00000275221	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+H2AC16	HGNC:4730	ENSG00000276903	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+H2AC17	HGNC:4735	ENSG00000278677	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+H2BC13	HGNC:4748	ENSG00000185130	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+H2BC14	HGNC:4750	ENSG00000273703	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+H2BC15	HGNC:4749	ENSG00000233822	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+H2BC16P	HGNC:4754	ENSG00000217646	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+H2BC17	HGNC:4758	ENSG00000274641	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+H3C10	HGNC:4775	ENSG00000278828	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+H3C11	HGNC:4771	ENSG00000275379	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+H3C12	HGNC:4774	ENSG00000197153	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+H3C9P	HGNC:18982	ENSG00000220875	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+H4C10P	HGNC:4786	ENSG00000217862	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+H4C11	HGNC:4785	ENSG00000197238	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+H4C12	HGNC:4784	ENSG00000273542	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+H4C13	HGNC:4791	ENSG00000275126	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HCG11	HGNC:17707	ENSG00000228223	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HCG14	HGNC:18323	ENSG00000224157	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HCG15	HGNC:18361	ENSG00000227214	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HCG18	HGNC:31337	ENSG00000231074	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00740049792011	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+HCG19P	HGNC:31336	ENSG00000224486	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HCG20	HGNC:31334	ENSG00000228022	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HCG21	HGNC:31335	ENSG00000233529	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HCG22	HGNC:27780	ENSG00000228789	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HCG27	HGNC:27366	ENSG00000206344	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00740049792011	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+HCP5	HGNC:21659	ENSG00000206337	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00222014937603	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+HDAC4	HGNC:14063	ENSG00000068024	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0842619267539	23	2	europepmc;gwas_credible_sets	23	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+HERC4	HGNC:24521	ENSG00000148634	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HES1	HGNC:5192	ENSG00000114315	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0295797953669	16	1	europepmc	16	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+HEYL	HGNC:4882	ENSG00000163909	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0726893351264	3	1	europepmc	3	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+HIKESHIP2	HGNC:54902	ENSG00000267544	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HLA-B	HGNC:4932	ENSG00000234745	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0152054906669	10	1	europepmc	10	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+HLA-C	HGNC:4933	ENSG00000204525	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0809599368777	31	1	europepmc	31	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+HLA-DQA1	HGNC:4942	ENSG00000196735	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0141142210329	8	1	europepmc	8	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+HLA-DQA2	HGNC:4943	ENSG00000237541	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00462531120007	2	1	europepmc	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+HLA-DQB1	HGNC:4944	ENSG00000179344	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0151067849587	15	1	europepmc	15	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+HLA-DQB1-AS1	HGNC:39762	ENSG00000223534	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HLA-DQB2	HGNC:4945	ENSG00000232629	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00777052281611	2	1	europepmc	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+HLA-DQB3	HGNC:4946	ENSG00000226030	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HLA-DRB1	HGNC:4948	ENSG00000196126	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0198528289402	12	1	europepmc	12	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+HLA-L	HGNC:4970	ENSG00000243753	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HLA-N	HGNC:19406	ENSG00000224372	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HLA-S	HGNC:19395	ENSG00000225851	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00148009958402	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+HMGB1P48	HGNC:39281	ENSG00000234379	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HMGN4	HGNC:4989	ENSG00000182952	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HNRNPA1P1	HGNC:13957	ENSG00000218347	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HNRNPA1P66	HGNC:48796	ENSG00000229221	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HOMER2	HGNC:17513	ENSG00000103942	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HORMAD2	HGNC:28383	ENSG00000176635	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HORMAD2-AS1	HGNC:50729	ENSG00000227117	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HOTAIR	HGNC:33510	ENSG00000228630	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0815029212395	11	1	europepmc	11	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+HOXC-AS1	HGNC:43749	ENSG00000250451	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HOXC-AS2	HGNC:43750	ENSG00000250133	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HOXC-AS3	HGNC:43751	ENSG00000251151	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HOXC10	HGNC:5122	ENSG00000180818	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HOXC11	HGNC:5123	ENSG00000123388	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HOXC12	HGNC:5124	ENSG00000123407	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HOXC13	HGNC:5125	ENSG00000123364	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HOXC13-AS	HGNC:43753	ENSG00000249641	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HOXC4	HGNC:5126	ENSG00000198353	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HOXC5	HGNC:5127	ENSG00000172789	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HOXC6	HGNC:5128	ENSG00000197757	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HOXC8	HGNC:5129	ENSG00000037965	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HOXC9	HGNC:5130	ENSG00000180806	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HPCAL4	HGNC:18212	ENSG00000116983	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HPF1P2	HGNC:59152	ENSG00000253480	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HSD17B3	HGNC:5212	ENSG00000130948	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00222014937603	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+HSD3B7	HGNC:18324	ENSG00000099377	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00370024896005	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+HSP90B3P	HGNC:12100	ENSG00000203914	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HSPA1A	HGNC:5232	ENSG00000204389	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.464454307733	20	2	europepmc;eva	20	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+HSPA1B	HGNC:5233	ENSG00000204388	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.4189687571	8	2	europepmc;eva	8	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+HSPA1L	HGNC:5234	ENSG00000204390	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.456333202999	5	2	europepmc;eva	5	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+HSPA4	HGNC:5237	ENSG00000170606	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.217882132876	5	2	europepmc;gwas_credible_sets	5	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+HTR4	HGNC:5299	ENSG00000164270	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0376064597057	35	2	europepmc;gwas_credible_sets	35	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+HTR4-AS1	HGNC:59276	ENSG00000300418	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+HYKK	HGNC:34403	ENSG00000188266	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.320382686374	16	3	europepmc;eva;gwas_credible_sets	16	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+IDH3A	HGNC:5384	ENSG00000166411	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00148009958402	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+IER3	HGNC:5392	ENSG00000137331	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+IFT54	HGNC:17861	ENSG00000204104	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0318221410565	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+IFT57P1	HGNC:56830	ENSG00000255951	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+IGFBP5	HGNC:5474	ENSG00000115461	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0697318083604	6	1	europepmc	6	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+IKBKE	HGNC:14552	ENSG00000263528	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00444029875206	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+IKBKE-AS1	HGNC:32061	ENSG00000162888	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+IKZF3	HGNC:13178	ENSG00000161405	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+IL17B-AS1	HGNC:40297	ENSG00000253865	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+IL27	HGNC:19157	ENSG00000197272	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.108361811387	41	2	europepmc;gwas_credible_sets	41	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+INTS5	HGNC:29352	ENSG00000185085	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+IQCH	HGNC:25721	ENSG00000103599	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.191248732028	4	1	gwas_credible_sets	4	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+IREB2	HGNC:6115	ENSG00000136381	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.282705245346	115	2	europepmc;gwas_credible_sets	115	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+IRF1	HGNC:6116	ENSG00000125347	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.347412015756	16	2	europepmc;gwas_credible_sets	16	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+IRF2BP1	HGNC:21728	ENSG00000170604	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+IRF2BPL	HGNC:14282	ENSG00000119669	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0591563042036	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+ITPK1	HGNC:6177	ENSG00000100605	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.252282188649	2	2	europepmc;gwas_credible_sets	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+ITPK1-AS1	HGNC:20132	ENSG00000258730	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ITPKA	HGNC:6178	ENSG00000137825	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ITPKC	HGNC:14897	ENSG00000086544	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+KAT8	HGNC:17933	ENSG00000103510	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0140609460482	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+KCNE2	HGNC:6242	ENSG00000159197	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0127120867373	23	1	europepmc	23	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+KCNMA1	HGNC:6284	ENSG00000156113	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.045102797583	10	2	europepmc;gwas_credible_sets	10	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+KCNQ2-AS1	HGNC:40321	ENSG00000226390	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+KCTD21	HGNC:27452	ENSG00000188997	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+KLHL21	HGNC:29041	ENSG00000162413	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+KRT18P1	HGNC:6434	ENSG00000228666	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+KRT19P4	HGNC:45073	ENSG00000234102	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+KRT8P34	HGNC:39868	ENSG00000264663	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+KRT8P41	HGNC:39875	ENSG00000213538	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+KRTCAP2P1	HGNC:54589	ENSG00000231848	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LAMTOR4	HGNC:33772	ENSG00000188186	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LASTR	HGNC:54143	ENSG00000242147	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LBHD1	HGNC:28351	ENSG00000162194	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LEKR1	HGNC:33765	ENSG00000197980	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.238859011832	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+LETM1	HGNC:6556	ENSG00000168924	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LETM1-DT	HGNC:58710	ENSG00000308909	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC00092	HGNC:31408	ENSG00000225194	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC00243	HGNC:30956	ENSG00000214894	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC00310	HGNC:16414	ENSG00000227456	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC00533	HGNC:18690	ENSG00000235570	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC00824	HGNC:50281	ENSG00000254275	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0111007468802	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+LINC01012	HGNC:48986	ENSG00000281706	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC01091	HGNC:27721	ENSG00000249464	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC01107	HGNC:49229	ENSG00000225493	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC01149	HGNC:39757	ENSG00000230174	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC01267	HGNC:50320	ENSG00000251576	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC01290	HGNC:50356	ENSG00000260468	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC01556	HGNC:21195	ENSG00000204709	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC01623	HGNC:52050	ENSG00000225595	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC01628	HGNC:52259	ENSG00000232688	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC01629	HGNC:52260	ENSG00000258602	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC01634	HGNC:52421	ENSG00000235295	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC01640	HGNC:52427	ENSG00000231253	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC01672	HGNC:52460	ENSG00000228750	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC01798	HGNC:52588	ENSG00000232046	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC01804	HGNC:52596	ENSG00000231031	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC01807	HGNC:52610	ENSG00000232023	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC01833	HGNC:52644	ENSG00000259439	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC01937	HGNC:52760	ENSG00000234279	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC01940	HGNC:52763	ENSG00000227744	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC01997	HGNC:52831	ENSG00000241383	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC02005	HGNC:52839	ENSG00000242741	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC02026	HGNC:52861	ENSG00000214146	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC02038	HGNC:52878	ENSG00000229155	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC02082	HGNC:52931	ENSG00000242268	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC02288	HGNC:27505	ENSG00000246548	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC02289	HGNC:53205	ENSG00000258819	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC02381	HGNC:53304	ENSG00000250742	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC02410	HGNC:53339	ENSG00000258292	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC02533	HGNC:53566	ENSG00000260239	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC02570	HGNC:39766	ENSG00000237923	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC02571	HGNC:53630	ENSG00000256166	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC02640	HGNC:54123	ENSG00000233590	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC02728	HGNC:54245	ENSG00000251323	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC02757	HGNC:54277	ENSG00000255363	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC02863	HGNC:41290	ENSG00000238160	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC02938	HGNC:55952	ENSG00000230731	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC02941	HGNC:55956	ENSG00000236013	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LINC03218	HGNC:39763	ENSG00000232080	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LLGL1	HGNC:6628	ENSG00000131899	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00222014937603	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+LNCMB1	HGNC:58924	ENSG00000214708	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LRMDA	HGNC:23405	ENSG00000148655	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.330829155329	9	2	europepmc;gwas_credible_sets	9	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+LRP13P	HGNC:55094	ENSG00000284717	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LRRC32	HGNC:4161	ENSG00000137507	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0212207135725	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+LRRC32-AS1	HGNC:58233	ENSG00000236304	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LRRC37B	HGNC:29070	ENSG00000185158	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LRRC3C	HGNC:40034	ENSG00000204913	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0188567377219	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+LRRN4CL	HGNC:33724	ENSG00000177363	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LSM2	HGNC:13940	ENSG00000204392	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0566138090888	2	1	europepmc	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+LSM3	HGNC:17874	ENSG00000170860	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LST1	HGNC:14189	ENSG00000204482	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LTA	HGNC:6709	ENSG00000226979	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0188349272775	16	1	europepmc	16	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+LTB	HGNC:6711	ENSG00000227507	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0101622009665	7	1	europepmc	7	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+LTK	HGNC:6721	ENSG00000062524	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00407027385606	2	1	europepmc	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+LY6G5B	HGNC:13931	ENSG00000240053	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LY6G5C	HGNC:13932	ENSG00000204428	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LY6G6C	HGNC:13936	ENSG00000204421	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LY6G6D	HGNC:13935	ENSG00000244355	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LY6G6E	HGNC:13934	ENSG00000255552	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LY6G6F	HGNC:13933	ENSG00000204424	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LY6G6F-LY6G6D	HGNC:38821	ENSG00000250641	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+LY86	HGNC:16837	ENSG00000112799	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00222014937603	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+MAP4K5	HGNC:6867	ENSG00000012983	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MAPKAP1	HGNC:18752	ENSG00000119487	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.145189564667	7	2	europepmc;gwas_credible_sets	7	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+MAPKAPK5	HGNC:6889	ENSG00000089022	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.336532448869	6	2	europepmc;gwas_credible_sets	6	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+MAPKAPK5-AS1	HGNC:24091	ENSG00000234608	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MBLAC1	HGNC:22180	ENSG00000214309	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MCCD1	HGNC:20668	ENSG00000204511	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MCM7	HGNC:6950	ENSG00000166508	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00814054771212	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+MDH1	HGNC:6970	ENSG00000014641	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ME3	HGNC:6985	ENSG00000151376	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.239545722264	2	2	europepmc;gwas_credible_sets	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+MECOM	HGNC:3498	ENSG00000085276	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.327456554817	13	2	europepmc;gwas_credible_sets	13	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+MED24	HGNC:22963	ENSG00000008838	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.185146544985	8	2	europepmc;gwas_credible_sets	8	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+MEGF6	HGNC:3232	ENSG00000162591	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00370024896005	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+MEIOSIN	HGNC:44318	ENSG00000237452	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0294991455419	2	1	gwas_credible_sets	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+MEIS1	HGNC:7000	ENSG00000143995	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00814054771212	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+METTL15P1	HGNC:31926	ENSG00000174912	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MFHAS1	HGNC:16982	ENSG00000147324	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.284009032881	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+MGA	HGNC:14010	ENSG00000174197	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.074433878431	2	2	europepmc;gwas_credible_sets	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+MIA	HGNC:7076	ENSG00000261857	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.295784475305	6	2	europepmc;gwas_credible_sets	6	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+MIA-RAB4B	HGNC:48352	ENSG00000268975	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MICA	HGNC:7090	ENSG00000204520	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0139067690082	4	1	europepmc	4	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+MICAL3	HGNC:24694	ENSG00000243156	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.316672433713	5	1	gwas_credible_sets	5	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+MICB	HGNC:7091	ENSG00000204516	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0105175465302	5	1	europepmc	5	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+MICB-DT	HGNC:53632	ENSG00000286940	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MICC	HGNC:7092	ENSG00000226577	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MICOS10	HGNC:32068	ENSG00000173436	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIEF2	HGNC:17920	ENSG00000177427	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIEN1	HGNC:28230	ENSG00000141741	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIGA1	HGNC:24741	ENSG00000180488	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR106B	HGNC:31495	ENSG00000208036	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR1825	HGNC:35389	ENSG00000284125	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR196A2	HGNC:31568	ENSG00000207924	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR199A1	HGNC:31571	ENSG00000207752	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR25	HGNC:31609	ENSG00000207547	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00444029875206	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+MIR3135B	HGNC:41783	ENSG00000263649	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR3184	HGNC:38182	ENSG00000284399	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR331	HGNC:31772	ENSG00000199172	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR3605	HGNC:38922	ENSG00000284154	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR3657	HGNC:38906	ENSG00000266370	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR3685	HGNC:38886	ENSG00000265917	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR3936	HGNC:38947	ENSG00000263597	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR3936HG	HGNC:40538	ENSG00000233006	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR423	HGNC:31880	ENSG00000283935	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR4271	HGNC:38332	ENSG00000264633	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR4287	HGNC:38208	ENSG00000265847	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR4326	HGNC:38314	ENSG00000266104	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR4439	HGNC:41622	ENSG00000263828	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR4515	HGNC:41800	ENSG00000263643	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR4640	HGNC:41561	ENSG00000284370	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR4646	HGNC:41543	ENSG00000266776	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR4658	HGNC:41673	ENSG00000284518	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR4660	HGNC:41861	ENSG00000263407	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR4716	HGNC:41812	ENSG00000264210	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR4728	HGNC:41632	ENSG00000265178	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR4748	HGNC:41557	ENSG00000265879	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR4774	HGNC:41873	ENSG00000265694	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR548AO	HGNC:43539	ENSG00000263372	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR551A	HGNC:32806	ENSG00000207776	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR5691	HGNC:43545	ENSG00000264984	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR615	HGNC:32871	ENSG00000207571	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR638	HGNC:32894	ENSG00000207972	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR642A	HGNC:32898	ENSG00000207773	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR642B	HGNC:38902	ENSG00000283212	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR648	HGNC:32904	ENSG00000207780	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR6721	HGNC:50049	ENSG00000284469	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR6747	HGNC:50027	ENSG00000276102	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR6761	HGNC:49949	ENSG00000274697	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR6769B	HGNC:50016	ENSG00000278465	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR6793	HGNC:50251	ENSG00000275640	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR6818	HGNC:49940	ENSG00000275818	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR6833	HGNC:50245	ENSG00000277264	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR6861	HGNC:50129	ENSG00000283793	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR6884	HGNC:50091	ENSG00000283721	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR6891	HGNC:50243	ENSG00000277402	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR762	HGNC:37303	ENSG00000211591	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR8079	HGNC:50021	ENSG00000276319	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MIR93	HGNC:31645	ENSG00000207757	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MMACHC	HGNC:24525	ENSG00000132763	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MMP15	HGNC:7161	ENSG00000102996	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0233779230468	3	2	europepmc;gwas_credible_sets	3	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+MN1	HGNC:7180	ENSG00000169184	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MOB4P2	HGNC:54750	ENSG00000271318	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MORF4L1	HGNC:16989	ENSG00000185787	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MPIG6B	HGNC:13937	ENSG00000204420	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0108129497388	3	1	europepmc	3	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+MRPS6	HGNC:14051	ENSG00000243927	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MSH5	HGNC:7328	ENSG00000204410	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MSH5-SAPCD1	HGNC:41994	ENSG00000255152	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MSL1	HGNC:27905	ENSG00000188895	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00370024896005	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+MST1	HGNC:7380	ENSG00000173531	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.297549812238	5	2	europepmc;gwas_credible_sets	5	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+MT1P1	HGNC:23681	ENSG00000213761	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MTA2	HGNC:7411	ENSG00000149480	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MTCO3P1	HGNC:31342	ENSG00000235040	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MTHFSD	HGNC:25778	ENSG00000103248	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MTMR3	HGNC:7451	ENSG00000100330	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MUC21	HGNC:21661	ENSG00000204544	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00296019916804	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+MUC22	HGNC:39755	ENSG00000261272	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MUCL3	HGNC:21666	ENSG00000168631	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MYC	HGNC:7553	ENSG00000136997	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0254362013681	27	1	europepmc	27	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+MYCN	HGNC:7559	ENSG00000134323	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.170317585326	3	2	europepmc;gwas_credible_sets	3	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+MYMK	HGNC:33778	ENSG00000187616	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MYO15A	HGNC:7594	ENSG00000091536	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00222014937603	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+MYPN	HGNC:23246	ENSG00000138347	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+MYPOP	HGNC:20178	ENSG00000176182	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+NAA25	HGNC:25783	ENSG00000111300	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0235213606662	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+NANOS2	HGNC:23292	ENSG00000188425	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+NAPGP2	HGNC:45166	ENSG00000275906	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+NASP	HGNC:7644	ENSG00000132780	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+NCR3	HGNC:19077	ENSG00000204475	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00499533609607	2	1	europepmc	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+NDST2	HGNC:7681	ENSG00000166507	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0224721726288	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+NDUFA3P6	HGNC:45055	ENSG00000262366	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+NDUFAF4P1	HGNC:44194	ENSG00000259467	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+NEU1	HGNC:7758	ENSG00000204386	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0066604481281	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+NFKBIL1	HGNC:7800	ENSG00000204498	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+NICN1	HGNC:18317	ENSG00000145029	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.02087739402	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+NIPAL4	HGNC:28018	ENSG00000172548	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0782376589998	2	1	gwas_credible_sets	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+NKAIN4	HGNC:16191	ENSG00000101198	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00222014937603	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+NOL9	HGNC:26265	ENSG00000162408	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+NOP56P1	HGNC:13962	ENSG00000235559	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+NOSTRIN	HGNC:20203	ENSG00000163072	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00370024896005	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+NOTCH4	HGNC:7884	ENSG00000204301	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0102677671395	7	1	europepmc	7	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+NPIPB7	HGNC:33832	ENSG00000233232	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+NPIPB8	HGNC:37490	ENSG00000255524	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+NR1D1	HGNC:7962	ENSG00000126368	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0227021171311	12	1	europepmc	12	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+NRIP3	HGNC:1167	ENSG00000175352	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+NRIP3-DT	HGNC:55524	ENSG00000253973	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+NSD2	HGNC:12766	ENSG00000109685	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+NSG2	HGNC:24955	ENSG00000170091	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0381565120805	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+NSRP1	HGNC:25305	ENSG00000126653	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.217417750906	4	1	gwas_credible_sets	4	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+NT5C1A	HGNC:17819	ENSG00000116981	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+NTN4	HGNC:13658	ENSG00000074527	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.174127992494	5	2	europepmc;gwas_credible_sets	5	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+NUMBL	HGNC:8061	ENSG00000105245	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00185012448003	2	1	europepmc	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+NUPR1	HGNC:29990	ENSG00000176046	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0610281661006	5	2	europepmc;gwas_credible_sets	5	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+OR12D3	HGNC:13963	ENSG00000112462	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+OR2AD1P	HGNC:14749	ENSG00000223677	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+OR2B2	HGNC:13966	ENSG00000168131	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+OR2B3	HGNC:8238	ENSG00000204703	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+OR2B6	HGNC:8241	ENSG00000124657	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+OR2J1	HGNC:8259	ENSG00000204702	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+OR2J3	HGNC:8261	ENSG00000204701	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+OR2P1P	HGNC:8272	ENSG00000236909	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+OR2W1	HGNC:8281	ENSG00000204704	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+OR2W1-AS1	HGNC:50896	ENSG00000277661	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+OR2W6P	HGNC:15072	ENSG00000168126	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+OR5V1	HGNC:13972	ENSG00000243729	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+OR7E13P	HGNC:8384	ENSG00000197882	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+OR8R1P	HGNC:15318	ENSG00000256347	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ORAI3	HGNC:28185	ENSG00000175938	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00444029875206	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+ORMDL3	HGNC:16038	ENSG00000172057	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.131213863032	9	2	europepmc;gwas_credible_sets	9	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+OXCT2P1	HGNC:21627	ENSG00000237624	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+P2RY2	HGNC:8541	ENSG00000175591	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.030552189007	12	1	europepmc	12	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+P2RY6	HGNC:8543	ENSG00000171631	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0070304730241	2	1	europepmc	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+PA2G4P4	HGNC:32217	ENSG00000230457	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+PABPC4	HGNC:8557	ENSG00000090621	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.251845726131	4	2	europepmc;gwas_credible_sets	4	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+PABPC4-AS1	HGNC:40424	ENSG00000228060	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+PAIP1P1	HGNC:18240	ENSG00000233892	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+PBK	HGNC:18282	ENSG00000168078	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+PBX2	HGNC:8633	ENSG00000204304	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+PBX3	HGNC:8634	ENSG00000167081	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.431630678008	7	1	gwas_credible_sets	7	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+PBX3-DT	HGNC:24638	ENSG00000229582	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+PCYOX1L	HGNC:28477	ENSG00000145882	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+PDGFRL2P	HGNC:54778	ENSG00000285420	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+PDZRN3	HGNC:17704	ENSG00000121440	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00222014937603	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+PEBP1P2	HGNC:44344	ENSG00000270532	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+PELI1	HGNC:8827	ENSG00000197329	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0738879299935	15	1	europepmc	15	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+PER2	HGNC:8846	ENSG00000132326	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00630179690613	9	1	europepmc	9	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+PEX26	HGNC:22965	ENSG00000215193	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+PFDN4P1	HGNC:58510	ENSG00000231357	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+PHC2-AS1	HGNC:40205	ENSG00000233246	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+PHF13	HGNC:22983	ENSG00000116273	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+PLAGL2	HGNC:9047	ENSG00000126003	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00499533609607	2	1	europepmc	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+PLAU	HGNC:9052	ENSG00000122861	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0355458742701	22	1	europepmc	22	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+POFUT1	HGNC:14988	ENSG00000101346	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+POFUT4	HGNC:19233	ENSG00000196968	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0335410956713	2	1	gwas_credible_sets	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+POLR1H	HGNC:13182	ENSG00000066379	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+POLR1HASP	HGNC:13924	ENSG00000204623	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+POLR2LP1	HGNC:31340	ENSG00000238211	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+POU5F1	HGNC:9221	ENSG00000204531	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0756700912331	2	1	europepmc	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+PPIAP36	HGNC:53660	ENSG00000236872	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+PPIAP6	HGNC:20028	ENSG00000258477	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+PPIAP9	HGNC:9272	ENSG00000219797	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+PPIE	HGNC:9258	ENSG00000084072	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+PPIEL	HGNC:33195	ENSG00000243970	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+PPP1R11	HGNC:9285	ENSG00000204619	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+PPP1R18	HGNC:29413	ENSG00000146112	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+PPP1R3B	HGNC:14942	ENSG00000173281	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00148009958402	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+PPP1R3B-AS1	HGNC:58434	ENSG00000254340	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+PPP1R3B-DT	HGNC:56150	ENSG00000248538	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+PPT2	HGNC:9326	ENSG00000221988	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00802501771681	6	1	europepmc	6	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+PPT2-EGFL8	HGNC:48343	ENSG00000258388	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+PRDM11	HGNC:13996	ENSG00000019485	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00592039833609	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+PRDX1	HGNC:9352	ENSG00000117450	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0766235220485	5	1	europepmc	5	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+PRELID1P6	HGNC:54771	ENSG00000228305	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+PRRT1	HGNC:13943	ENSG00000204314	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+PRSS23	HGNC:14370	ENSG00000150687	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.183335777545	3	2	europepmc;gwas_credible_sets	3	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+PRSS36	HGNC:26906	ENSG00000178226	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+PRSS53	HGNC:34407	ENSG00000151006	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+PRSS8	HGNC:9491	ENSG00000052344	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00333022406405	2	1	europepmc	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+PSMA4	HGNC:9533	ENSG00000041357	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.318331308401	42	2	europepmc;gwas_credible_sets	42	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+PSMD3	HGNC:9560	ENSG00000108344	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0277533991869	4	1	gwas_credible_sets	4	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+PSMD3-AS1	HGNC:58140	ENSG00000265799	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+PSORS1C1	HGNC:17202	ENSG00000204540	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00423472936539	3	1	europepmc	3	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+PSORS1C2	HGNC:17199	ENSG00000204538	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+PSORS1C3	HGNC:17203	ENSG00000204528	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+PTCH1	HGNC:9585	ENSG00000185920	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0867533262529	13	1	europepmc	13	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+QPCTL	HGNC:25952	ENSG00000011478	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+QTRT1	HGNC:23797	ENSG00000213339	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RAB4B	HGNC:9782	ENSG00000167578	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.115197710269	9	2	europepmc;gwas_credible_sets	9	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+RAB4B-EGLN2	HGNC:44465	ENSG00000171570	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RAD51B	HGNC:9822	ENSG00000182185	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RAMAC	HGNC:31022	ENSG00000169612	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RASGEF1C	HGNC:27400	ENSG00000146090	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RASSF10	HGNC:33984	ENSG00000189431	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.31314932366	4	1	gwas_credible_sets	4	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+RASSF5	HGNC:17609	ENSG00000266094	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RBBP5	HGNC:9888	ENSG00000117222	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RBFOX3	HGNC:27097	ENSG00000167281	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00980565974414	2	1	europepmc	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+RELT	HGNC:13764	ENSG00000054967	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00370024896005	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+RETSAT	HGNC:25991	ENSG00000042445	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RFX6	HGNC:21478	ENSG00000185002	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.138106777698	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+RHEBP3	HGNC:44992	ENSG00000237446	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RHOA	HGNC:667	ENSG00000067560	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0869864050657	33	2	europepmc;gwas_credible_sets	33	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+RHOA-IT1	HGNC:41308	ENSG00000235908	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RHOT1	HGNC:21168	ENSG00000126858	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00629042323209	2	1	europepmc	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+RIN3	HGNC:18751	ENSG00000100599	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.215827971616	21	2	europepmc;gwas_credible_sets	21	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+RN7SKP16	HGNC:45740	ENSG00000222112	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RN7SKP186	HGNC:45910	ENSG00000202241	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RN7SKP202	HGNC:45926	ENSG00000222371	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RN7SL113P	HGNC:46129	ENSG00000278590	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RN7SL277P	HGNC:46293	ENSG00000240490	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RN7SL307P	HGNC:46323	ENSG00000243338	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RN7SL353P	HGNC:46369	ENSG00000263608	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RN7SL356P	HGNC:46372	ENSG00000266553	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RN7SL445P	HGNC:46461	ENSG00000240577	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RN7SL452P	HGNC:46468	ENSG00000243103	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RN7SL471P	HGNC:46487	ENSG00000263426	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RN7SL524P	HGNC:46540	ENSG00000266754	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNA5SP120	HGNC:42918	ENSG00000222832	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNA5SP130	HGNC:43030	ENSG00000201301	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNA5SP22	HGNC:42590	ENSG00000202263	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNA5SP355	HGNC:43255	ENSG00000202187	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNA5SP76	HGNC:42853	ENSG00000252086	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNF123	HGNC:21148	ENSG00000164068	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0784155397695	4	1	gwas_credible_sets	4	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+RNF130	HGNC:18280	ENSG00000113269	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00888059750413	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+RNF39	HGNC:18064	ENSG00000204618	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNF5	HGNC:10068	ENSG00000204308	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00259017427204	2	1	europepmc	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+RNU4-28P	HGNC:46964	ENSG00000201609	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNU4-54P	HGNC:46990	ENSG00000252237	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNU5E-7P	HGNC:42526	ENSG00000202160	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNU6-1102P	HGNC:48065	ENSG00000251958	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNU6-1127P	HGNC:48090	ENSG00000207310	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNU6-1133P	HGNC:48096	ENSG00000222895	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNU6-1267P	HGNC:48230	ENSG00000222679	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNU6-195P	HGNC:47158	ENSG00000223284	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNU6-234P	HGNC:47197	ENSG00000202099	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNU6-247P	HGNC:47210	ENSG00000199506	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNU6-283P	HGNC:47246	ENSG00000201658	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNU6-390P	HGNC:47353	ENSG00000252068	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNU6-401P	HGNC:47364	ENSG00000212374	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNU6-415P	HGNC:47378	ENSG00000252061	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNU6-471P	HGNC:47434	ENSG00000206671	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNU6-502P	HGNC:47465	ENSG00000199289	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNU6-674P	HGNC:47637	ENSG00000200701	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNU6-682P	HGNC:47645	ENSG00000200713	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNU6-758P	HGNC:47721	ENSG00000252101	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNU6-766P	HGNC:47729	ENSG00000199348	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNU6-808P	HGNC:47771	ENSG00000212535	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNU6-823P	HGNC:47786	ENSG00000212344	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNU6-850P	HGNC:47813	ENSG00000252743	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNU6-895P	HGNC:47858	ENSG00000206852	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNU6-920P	HGNC:47883	ENSG00000222858	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNU6-930P	HGNC:47893	ENSG00000212240	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNU6-994P	HGNC:47957	ENSG00000222439	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNU6ATAC33P	HGNC:46932	ENSG00000221574	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNU7-155P	HGNC:45689	ENSG00000238759	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNU7-26P	HGNC:34122	ENSG00000238610	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RNU7-55P	HGNC:10239	ENSG00000239078	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ROM1	HGNC:10254	ENSG00000149489	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RPAP1	HGNC:24567	ENSG00000103932	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.242105339141	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+RPL12P22	HGNC:35762	ENSG00000253109	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RPL13P	HGNC:13978	ENSG00000213916	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RPL15P19	HGNC:56582	ENSG00000259545	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RPL15P4	HGNC:21663	ENSG00000225499	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RPL17P39	HGNC:36427	ENSG00000212664	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RPL17P8	HGNC:35651	ENSG00000213041	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RPL18P11	HGNC:35742	ENSG00000213307	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RPL21P116	HGNC:36101	ENSG00000243711	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RPL21P121	HGNC:36429	ENSG00000237382	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RPL21P123	HGNC:35691	ENSG00000240531	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RPL27P6	HGNC:36330	ENSG00000234488	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RPL30P3	HGNC:36380	ENSG00000223640	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RPL31P14	HGNC:35477	ENSG00000237930	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RPL36P17	HGNC:35884	ENSG00000226573	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RPL3P2	HGNC:17834	ENSG00000227939	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RPL6P15	HGNC:36903	ENSG00000240611	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RPL7AP20	HGNC:36358	ENSG00000234981	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RPL7AP5	HGNC:19781	ENSG00000240210	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RPL7AP63	HGNC:35504	ENSG00000243697	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RPL7AP65	HGNC:37031	ENSG00000228000	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RPL7L1P10	HGNC:39492	ENSG00000237322	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RPL7P60	HGNC:49216	ENSG00000214142	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RPL8P1	HGNC:13980	ENSG00000216676	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RPLP2P1	HGNC:18724	ENSG00000214374	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RPP21	HGNC:21300	ENSG00000241370	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RPS24P16	HGNC:35542	ENSG00000242634	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RPS26P21	HGNC:36469	ENSG00000242829	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RPS29P13	HGNC:35818	ENSG00000217089	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RPS29P2	HGNC:31083	ENSG00000239281	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RPS2P41	HGNC:36357	ENSG00000244060	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RPS4XP5	HGNC:36670	ENSG00000229920	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RPSAP2	HGNC:18771	ENSG00000237425	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RREB1	HGNC:10449	ENSG00000124782	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.406952073308	4	1	gwas_credible_sets	4	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+RSL24D1P1	HGNC:13979	ENSG00000218069	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RSL24D1P6	HGNC:37876	ENSG00000224452	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RSPH6A	HGNC:14241	ENSG00000104941	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0715139720006	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+RUNX2	HGNC:10472	ENSG00000124813	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0379275518405	2	1	europepmc	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+RUNX2-AS1	HGNC:53512	ENSG00000261080	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+RUVBL1	HGNC:10474	ENSG00000175792	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.302965487421	8	2	europepmc;gwas_credible_sets	8	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+SAPCD1	HGNC:13938	ENSG00000228727	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SAPCD1-AS1	HGNC:39824	ENSG00000235663	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SAR1AP1	HGNC:13983	ENSG00000228364	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SAV1	HGNC:17795	ENSG00000151748	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00148009958402	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+SBF2	HGNC:2135	ENSG00000133812	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SCARA5	HGNC:28701	ENSG00000168079	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SCUBE2	HGNC:30425	ENSG00000175356	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SEC24C	HGNC:10705	ENSG00000176986	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SERP2	HGNC:20607	ENSG00000151778	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.277540604403	2	2	europepmc;gwas_credible_sets	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+SETD1A	HGNC:29010	ENSG00000099381	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00740049792011	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+SFRP1	HGNC:10776	ENSG00000104332	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.018626025418	6	1	europepmc	6	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+SFTA2	HGNC:18386	ENSG00000196260	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00222014937603	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+SGF29	HGNC:25156	ENSG00000176476	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0232920611315	4	2	europepmc;gwas_credible_sets	4	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+SH2D7	HGNC:34549	ENSG00000183476	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.271831760099	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+SH3GL1P1	HGNC:10835	ENSG00000266777	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SH3GL3	HGNC:10832	ENSG00000140600	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.308476988606	5	1	gwas_credible_sets	5	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+SH3PXD2A	HGNC:23664	ENSG00000107957	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.322624997065	3	2	europepmc;gwas_credible_sets	3	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+SHB	HGNC:10838	ENSG00000107338	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SIX2	HGNC:10888	ENSG00000170577	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SIX3	HGNC:10889	ENSG00000138083	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.265820299537	3	2	europepmc;gwas_credible_sets	3	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+SIX3-AS1	HGNC:40532	ENSG00000236502	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SIX3-OT1	HGNC:59248	ENSG00000225156	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SIX5	HGNC:10891	ENSG00000177045	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0140609460482	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+SKIC8	HGNC:30300	ENSG00000140395	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SLBP	HGNC:10904	ENSG00000163950	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00296019916804	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+SLC1A2	HGNC:10940	ENSG00000110436	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00370024896005	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+SLC1A2-AS2	HGNC:40535	ENSG00000255542	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SLC22A5	HGNC:10969	ENSG00000197375	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.14561411759	15	2	europepmc;gwas_credible_sets	15	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+SLC25A3P2	HGNC:43784	ENSG00000258373	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SLC2A6	HGNC:11011	ENSG00000160326	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SLC30A10	HGNC:25355	ENSG00000196660	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.101018237765	5	1	gwas_credible_sets	5	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+SLC36A3	HGNC:19659	ENSG00000186334	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SLC5A11	HGNC:23091	ENSG00000158865	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.107287059524	3	1	gwas_credible_sets	3	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+SLC6A4	HGNC:11050	ENSG00000108576	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0458337172291	20	3	clinical_precedence;europepmc;gwas_credible_sets	20	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+SLK	HGNC:11088	ENSG00000065613	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0216281719146	2	2	europepmc;gwas_credible_sets	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+SMAD3	HGNC:6769	ENSG00000166949	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.319982705671	61	2	europepmc;gwas_credible_sets	61	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+SMAD3-AS1	HGNC:56692	ENSG00000259202	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SMAD3-DT	HGNC:56759	ENSG00000259347	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SMCR8	HGNC:17921	ENSG00000176994	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SMIM11	HGNC:1293	ENSG00000205670	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SNHG32	HGNC:19078	ENSG00000204387	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SNORA55	HGNC:32649	ENSG00000201457	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SNORA57	HGNC:32651	ENSG00000206597	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SNORA63	HGNC:10106	ENSG00000200320	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SNORD117	HGNC:32742	ENSG00000201785	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SNORD118	HGNC:32952	ENSG00000200463	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SNORD124	HGNC:33563	ENSG00000238793	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SNORD48	HGNC:10188	ENSG00000201823	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SNORD52	HGNC:10202	ENSG00000201754	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SNORD63	HGNC:10220	ENSG00000206989	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SNORD65B	HGNC:52231	ENSG00000238936	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SNORD84	HGNC:32743	ENSG00000265236	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SNRPA	HGNC:11151	ENSG00000077312	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0946822784993	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+SNRPD2	HGNC:11159	ENSG00000125743	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SNRPEP11	HGNC:54746	ENSG00000230299	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SNRPF	HGNC:11162	ENSG00000139343	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.272402659015	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+SNRPF-DT	HGNC:55452	ENSG00000258343	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SNRPGP1	HGNC:20033	ENSG00000258577	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SOX9	HGNC:11204	ENSG00000125398	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0139762514609	5	1	europepmc	5	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+SPHKAP	HGNC:30619	ENSG00000153820	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.234515403221	8	1	gwas_credible_sets	8	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+SPMIP8	HGNC:33745	ENSG00000159648	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.127974948505	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+SPRY1	HGNC:11269	ENSG00000164056	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00148009958402	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+SPRY4	HGNC:15533	ENSG00000187678	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SPRY4-AS1	HGNC:53465	ENSG00000231185	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SRGAP2	HGNC:19751	ENSG00000266028	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SSH2-AS1	HGNC:58555	ENSG00000263370	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+STN1	HGNC:26200	ENSG00000107960	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0717368742278	3	2	europepmc;gwas_credible_sets	3	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+STX1B	HGNC:18539	ENSG00000099365	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+STX4	HGNC:11439	ENSG00000103496	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SULT1A1	HGNC:11453	ENSG00000196502	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.129190049244	4	2	europepmc;gwas_credible_sets	4	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+SULT1A2	HGNC:11454	ENSG00000197165	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.055523289999	3	2	europepmc;gwas_credible_sets	3	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+SUPT3H	HGNC:11466	ENSG00000196284	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SYMPK	HGNC:22935	ENSG00000125755	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.048967484367	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+SYMPK-AS1	HGNC:58331	ENSG00000269148	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+SYN3	HGNC:11496	ENSG00000185666	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.271499676679	2	2	europepmc;gwas_credible_sets	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+SYT13-AS1	HGNC:58435	ENSG00000254497	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TACC3	HGNC:11524	ENSG00000013810	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TAF6	HGNC:11540	ENSG00000106290	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TAS1R1	HGNC:14448	ENSG00000173662	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TASOR2	HGNC:23484	ENSG00000108021	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TASP1	HGNC:15859	ENSG00000089123	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TBC1D2B	HGNC:29183	ENSG00000167202	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.157798533657	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+TCF19	HGNC:11629	ENSG00000137310	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TCF7L1	HGNC:11640	ENSG00000152284	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0109157344322	2	1	europepmc	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+TCF7L1-IT1	HGNC:41388	ENSG00000231134	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TCF7L2	HGNC:11641	ENSG00000148737	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00849001566946	3	1	europepmc	3	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+TCTA	HGNC:11692	ENSG00000145022	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0416699973118	4	1	gwas_credible_sets	4	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+TEKT5	HGNC:26554	ENSG00000153060	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TESHL	HGNC:52740	ENSG00000223874	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TESK2	HGNC:11732	ENSG00000070759	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0112857593282	2	1	europepmc	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+TET2	HGNC:25941	ENSG00000168769	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.520557128054	32	2	europepmc;gwas_credible_sets	32	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+TET2-AS1	HGNC:41125	ENSG00000251586	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TGOLN2	HGNC:15450	ENSG00000152291	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+THAP3	HGNC:20855	ENSG00000041988	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+THRA	HGNC:11796	ENSG00000126351	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.252319301975	5	2	europepmc;gwas_credible_sets	5	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+THSD4	HGNC:25835	ENSG00000187720	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.464148458042	20	2	europepmc;gwas_credible_sets	20	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+TIPARP	HGNC:23696	ENSG00000163659	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0255703830755	3	2	europepmc;gwas_credible_sets	3	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+TIPARP-AS1	HGNC:41028	ENSG00000243926	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TIPINP2	HGNC:56789	ENSG00000261151	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TM6SF1	HGNC:11860	ENSG00000136404	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0300136486162	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+TM9SF4	HGNC:30797	ENSG00000101337	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TMCC2	HGNC:24239	ENSG00000133069	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TMCC2-AS1	HGNC:41042	ENSG00000225063	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TMED1	HGNC:17291	ENSG00000099203	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00222014937603	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+TMEM116	HGNC:25084	ENSG00000198270	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0192550987891	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+TMEM129	HGNC:25137	ENSG00000168936	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TMEM170A	HGNC:29577	ENSG00000166822	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0623727745597	4	1	gwas_credible_sets	4	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+TMEM231	HGNC:37234	ENSG00000205084	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00740049792011	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+TMEM231P1	HGNC:53870	ENSG00000262583	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TMEM63C	HGNC:23787	ENSG00000165548	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TMEM81	HGNC:32349	ENSG00000174529	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TMEM9B	HGNC:1168	ENSG00000175348	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TMEM9B-AS1	HGNC:19230	ENSG00000254860	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TNF	HGNC:11892	ENSG00000232810	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.307281431441	2435	2	clinical_precedence;europepmc	2435	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+TNRC6A	HGNC:11969	ENSG00000090905	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.411357455156	4	2	europepmc;gwas_credible_sets	4	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+TNXB	HGNC:11976	ENSG00000168477	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0104558757142	6	1	europepmc	6	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+TOP3A	HGNC:11992	ENSG00000177302	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TP53I13	HGNC:25102	ENSG00000167543	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TPRG1L	HGNC:27007	ENSG00000158109	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TRAFD1	HGNC:24808	ENSG00000135148	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.255696372458	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+TRAPPC14	HGNC:25604	ENSG00000146826	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TRIM10	HGNC:10072	ENSG00000204613	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TRIM15	HGNC:16284	ENSG00000204610	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TRIM26	HGNC:12962	ENSG00000234127	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00296019916804	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+TRIM26BP	HGNC:31338	ENSG00000236475	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TRIM27	HGNC:9975	ENSG00000204713	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0118407966722	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+TRIM31	HGNC:16289	ENSG00000204616	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00148009958402	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+TRIM31-AS1	HGNC:39761	ENSG00000231226	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TRIM39	HGNC:10065	ENSG00000204599	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00222014937603	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+TRIM39-RPP21	HGNC:38845	ENSG00000248167	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TRIM40	HGNC:18736	ENSG00000204614	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TRIM62	HGNC:25574	ENSG00000116525	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TSBP1-AS1	HGNC:39756	ENSG00000225914	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TTYH3	HGNC:22222	ENSG00000136295	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TUBAP4	HGNC:44569	ENSG00000261665	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+TUT1	HGNC:26184	ENSG00000149016	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00518034854407	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+TWIST2	HGNC:20670	ENSG00000233608	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.393094701053	7	2	europepmc;gwas_credible_sets	7	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+TYRO3	HGNC:12446	ENSG00000092445	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.290218625516	2	1	gwas_credible_sets	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+UBQLN1P1	HGNC:21633	ENSG00000236405	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+UBXN1	HGNC:18402	ENSG00000162191	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+UQCC3	HGNC:34399	ENSG00000204922	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+USB1	HGNC:25792	ENSG00000103005	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0432096401735	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+USP35	HGNC:20061	ENSG00000118369	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.093359440537	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+USP4	HGNC:12627	ENSG00000114316	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.063210691859	3	1	gwas_credible_sets	3	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+USP8P1	HGNC:13987	ENSG00000214892	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+VARS1	HGNC:12651	ENSG00000204394	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+VARS2	HGNC:21642	ENSG00000137411	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+VEZT	HGNC:18258	ENSG00000028203	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+VILMIR	HGNC:56888	ENSG00000277511	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+VKORC1	HGNC:23663	ENSG00000167397	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+VPS54	HGNC:18652	ENSG00000143952	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+VWA7	HGNC:13939	ENSG00000204396	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.00962064729614	1	1	europepmc	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+WASF5P	HGNC:21665	ENSG00000231402	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+WDR45BP1	HGNC:26605	ENSG00000265574	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+WDR82P2	HGNC:33513	ENSG00000241318	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+XPC	HGNC:12816	ENSG00000154767	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0128700825912	5	1	europepmc	5	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+ZBTB48	HGNC:4930	ENSG00000204859	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ZC3H11B	HGNC:25659	ENSG00000215817	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.308827626445	5	1	gwas_credible_sets	5	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+ZCCHC10	HGNC:25954	ENSG00000155329	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0214733600524	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+ZCCHC10-AS1	HGNC:59144	ENSG00000287054	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ZDHHC20P2	HGNC:33457	ENSG00000223702	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ZDHHC22	HGNC:20106	ENSG00000177108	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ZFP36L1	HGNC:1107	ENSG00000185650	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0159727413442	3	1	europepmc	3	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+ZFP64P1	HGNC:19820	ENSG00000258491	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ZKSCAN1	HGNC:13101	ENSG00000106261	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0962949802243	2	2	europepmc;gwas_credible_sets	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+ZKSCAN4	HGNC:13854	ENSG00000187626	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ZNF184	HGNC:12975	ENSG00000096654	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ZNF3	HGNC:13089	ENSG00000166526	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ZNF311	HGNC:13847	ENSG00000197935	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ZNF319	HGNC:13644	ENSG00000166188	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.191785644796	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+ZNF322	HGNC:23640	ENSG00000181315	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0107307219842	2	1	europepmc	2	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+ZNF362	HGNC:18079	ENSG00000160094	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ZNF646	HGNC:29004	ENSG00000167395	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ZNF668	HGNC:25821	ENSG00000167394	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ZNF75CP	HGNC:13148	ENSG00000288393	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ZNF90P2	HGNC:21687	ENSG00000233366	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ZPBP2	HGNC:20678	ENSG00000186075	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0464069758641	4	2	europepmc;gwas_credible_sets	4	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+ZSCAN12	HGNC:13172	ENSG00000158691	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ZSCAN21	HGNC:13104	ENSG00000166529	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ZSCAN9	HGNC:12984	ENSG00000137185	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene
+ZSWIM8	HGNC:23528	ENSG00000214655	MONDO_0005002	chronic obstructive pulmonary disease	true	true	0.0261517688767	1	1	gwas_credible_sets	1	exact COPD gene-disease association in Open Targets; contextual gene evidence, not variant-level validation
+ZSWIM8-AS1	HGNC:45103	ENSG00000272589	MONDO_0005002	chronic obstructive pulmonary disease	true	false		0	0		0	no exact COPD association row for this resolved candidate-linked gene

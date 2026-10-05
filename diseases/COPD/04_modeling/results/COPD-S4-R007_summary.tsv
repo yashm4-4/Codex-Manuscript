@@ -1,0 +1,23 @@
+model_type	metric	value	denominator_or_note
+enhancer	n_feature_attributions	4560	run-level count
+enhancer	n_explained_sequences	1000	run-level count
+enhancer	tfmodisco_input_positive_seqlets	463	run-level count
+enhancer	n_tfmodisco_patterns	5	run-level count
+enhancer	n_pattern_seqlets	249	run-level count
+enhancer	n_unique_sequences_with_pattern_seqlets	227	run-level count
+enhancer	n_jaspar_matches_reported	15	run-level count
+enhancer	n_significant_jaspar_matches_q_le_0_05	6	q <= 0.05
+enhancer	n_distinct_significant_motifs	6	q <= 0.05
+enhancer	n_distinct_significant_tf_names	6	q <= 0.05
+enhancer	top_mean_abs_shap_feature	IND=1845;HM:H3K27ac:right lobe of liver	mean_abs_shap=0.0295031143662
+silencer	n_feature_attributions	4560	run-level count
+silencer	n_explained_sequences	1000	run-level count
+silencer	tfmodisco_input_positive_seqlets	343	run-level count
+silencer	n_tfmodisco_patterns	4	run-level count
+silencer	n_pattern_seqlets	256	run-level count
+silencer	n_unique_sequences_with_pattern_seqlets	245	run-level count
+silencer	n_jaspar_matches_reported	12	run-level count
+silencer	n_significant_jaspar_matches_q_le_0_05	12	q <= 0.05
+silencer	n_distinct_significant_motifs	12	q <= 0.05
+silencer	n_distinct_significant_tf_names	10	q <= 0.05
+silencer	top_mean_abs_shap_feature	IND=1735;HM:H3K18ac:neuronal stem cell	mean_abs_shap=0.0176778569475

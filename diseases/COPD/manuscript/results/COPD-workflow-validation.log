@@ -1,0 +1,11 @@
+COPD complete-workflow validation
+started_utc: 2026-10-01T14:55:41.141134+00:00
+finished_utc: 2026-10-01T14:56:10.817774+00:00
+mode: strict-final
+hash_mode: full
+checks: 81
+PASS: 81
+WARN: 0
+FAIL: 0
+table: diseases/COPD/manuscript/results/COPD-workflow-validation.tsv
+findings: none

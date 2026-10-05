@@ -1,0 +1,568 @@
+stratum_type	stratum	hierarchy	precedence_rank	exclusive_class	n_total_records	n_bed_eligible	n_records	percent_of_all_records	percent_of_bed_eligible
+overall	all_candidate_records	framework_preliminary	0	bed_ineligible	15389	15386	3	0.019494	
+overall	all_candidate_records	framework_preliminary	1	coding_CDS	15389	15386	257	1.670024	1.67035
+overall	all_candidate_records	framework_preliminary	2	preliminary_enhancer	15389	15386	1329	8.636039	8.637723
+overall	all_candidate_records	framework_preliminary	3	preliminary_silencer	15389	15386	556	3.61297	3.613675
+overall	all_candidate_records	framework_preliminary	4	repetitive_only_in_hierarchy	15389	15386	7504	48.762103	48.771611
+overall	all_candidate_records	framework_preliminary	5	other	15389	15386	5740	37.29937	37.306642
+overall	all_candidate_records	framework_refined	0	bed_ineligible	15389	15386	3	0.019494	
+overall	all_candidate_records	framework_refined	1	coding_CDS	15389	15386	257	1.670024	1.67035
+overall	all_candidate_records	framework_refined	2	refined_enhancer	15389	15386	561	3.645461	3.646172
+overall	all_candidate_records	framework_refined	3	refined_silencer	15389	15386	46	0.298915	0.298973
+overall	all_candidate_records	framework_refined	4	repetitive_only_in_hierarchy	15389	15386	8000	51.985184	51.99532
+overall	all_candidate_records	framework_refined	5	other	15389	15386	6522	42.380921	42.389185
+overall	all_candidate_records	comprehensive	0	bed_ineligible	15389	15386	3	0.019494	
+overall	all_candidate_records	comprehensive	1	coding_CDS	15389	15386	257	1.670024	1.67035
+overall	all_candidate_records	comprehensive	2	refined_enhancer	15389	15386	561	3.645461	3.646172
+overall	all_candidate_records	comprehensive	3	refined_silencer	15389	15386	46	0.298915	0.298973
+overall	all_candidate_records	comprehensive	4	preliminary_enhancer	15389	15386	835	5.425954	5.427012
+overall	all_candidate_records	comprehensive	5	preliminary_silencer	15389	15386	518	3.366041	3.366697
+overall	all_candidate_records	comprehensive	6	other_known_regulatory	15389	15386	1515	9.844694	9.846614
+overall	all_candidate_records	comprehensive	7	repetitive_only_in_hierarchy	15389	15386	6917	44.94769	44.956454
+overall	all_candidate_records	comprehensive	8	other	15389	15386	4737	30.781727	30.787729
+candidate_origin	gws_tag_only	framework_preliminary	0	bed_ineligible	476	473	3	0.630252	
+candidate_origin	gws_tag_only	framework_preliminary	1	coding_CDS	476	473	29	6.092437	6.131078
+candidate_origin	gws_tag_only	framework_preliminary	2	preliminary_enhancer	476	473	67	14.07563	14.164905
+candidate_origin	gws_tag_only	framework_preliminary	3	preliminary_silencer	476	473	19	3.991597	4.016913
+candidate_origin	gws_tag_only	framework_preliminary	4	repetitive_only_in_hierarchy	476	473	169	35.504202	35.729387
+candidate_origin	gws_tag_only	framework_preliminary	5	other	476	473	189	39.705882	39.957717
+candidate_origin	gws_tag_only	framework_refined	0	bed_ineligible	476	473	3	0.630252	
+candidate_origin	gws_tag_only	framework_refined	1	coding_CDS	476	473	29	6.092437	6.131078
+candidate_origin	gws_tag_only	framework_refined	2	refined_enhancer	476	473	34	7.142857	7.188161
+candidate_origin	gws_tag_only	framework_refined	3	refined_silencer	476	473	3	0.630252	0.634249
+candidate_origin	gws_tag_only	framework_refined	4	repetitive_only_in_hierarchy	476	473	178	37.394958	37.632135
+candidate_origin	gws_tag_only	framework_refined	5	other	476	473	229	48.109244	48.414376
+candidate_origin	gws_tag_only	comprehensive	0	bed_ineligible	476	473	3	0.630252	
+candidate_origin	gws_tag_only	comprehensive	1	coding_CDS	476	473	29	6.092437	6.131078
+candidate_origin	gws_tag_only	comprehensive	2	refined_enhancer	476	473	34	7.142857	7.188161
+candidate_origin	gws_tag_only	comprehensive	3	refined_silencer	476	473	3	0.630252	0.634249
+candidate_origin	gws_tag_only	comprehensive	4	preliminary_enhancer	476	473	39	8.193277	8.245243
+candidate_origin	gws_tag_only	comprehensive	5	preliminary_silencer	476	473	18	3.781513	3.805497
+candidate_origin	gws_tag_only	comprehensive	6	other_known_regulatory	476	473	53	11.134454	11.205074
+candidate_origin	gws_tag_only	comprehensive	7	repetitive_only_in_hierarchy	476	473	150	31.512605	31.712474
+candidate_origin	gws_tag_only	comprehensive	8	other	476	473	147	30.882353	31.078224
+candidate_origin	gws_tag_and_ld_proxy	framework_preliminary	0	bed_ineligible	176	176	0	0.0	
+candidate_origin	gws_tag_and_ld_proxy	framework_preliminary	1	coding_CDS	176	176	20	11.363636	11.363636
+candidate_origin	gws_tag_and_ld_proxy	framework_preliminary	2	preliminary_enhancer	176	176	22	12.5	12.5
+candidate_origin	gws_tag_and_ld_proxy	framework_preliminary	3	preliminary_silencer	176	176	4	2.272727	2.272727
+candidate_origin	gws_tag_and_ld_proxy	framework_preliminary	4	repetitive_only_in_hierarchy	176	176	62	35.227273	35.227273
+candidate_origin	gws_tag_and_ld_proxy	framework_preliminary	5	other	176	176	68	38.636364	38.636364
+candidate_origin	gws_tag_and_ld_proxy	framework_refined	0	bed_ineligible	176	176	0	0.0	
+candidate_origin	gws_tag_and_ld_proxy	framework_refined	1	coding_CDS	176	176	20	11.363636	11.363636
+candidate_origin	gws_tag_and_ld_proxy	framework_refined	2	refined_enhancer	176	176	8	4.545455	4.545455
+candidate_origin	gws_tag_and_ld_proxy	framework_refined	3	refined_silencer	176	176	1	0.568182	0.568182
+candidate_origin	gws_tag_and_ld_proxy	framework_refined	4	repetitive_only_in_hierarchy	176	176	67	38.068182	38.068182
+candidate_origin	gws_tag_and_ld_proxy	framework_refined	5	other	176	176	80	45.454545	45.454545
+candidate_origin	gws_tag_and_ld_proxy	comprehensive	0	bed_ineligible	176	176	0	0.0	
+candidate_origin	gws_tag_and_ld_proxy	comprehensive	1	coding_CDS	176	176	20	11.363636	11.363636
+candidate_origin	gws_tag_and_ld_proxy	comprehensive	2	refined_enhancer	176	176	8	4.545455	4.545455
+candidate_origin	gws_tag_and_ld_proxy	comprehensive	3	refined_silencer	176	176	1	0.568182	0.568182
+candidate_origin	gws_tag_and_ld_proxy	comprehensive	4	preliminary_enhancer	176	176	15	8.522727	8.522727
+candidate_origin	gws_tag_and_ld_proxy	comprehensive	5	preliminary_silencer	176	176	4	2.272727	2.272727
+candidate_origin	gws_tag_and_ld_proxy	comprehensive	6	other_known_regulatory	176	176	24	13.636364	13.636364
+candidate_origin	gws_tag_and_ld_proxy	comprehensive	7	repetitive_only_in_hierarchy	176	176	57	32.386364	32.386364
+candidate_origin	gws_tag_and_ld_proxy	comprehensive	8	other	176	176	47	26.704545	26.704545
+candidate_origin	ld_proxy_only	framework_preliminary	0	bed_ineligible	14737	14737	0	0.0	
+candidate_origin	ld_proxy_only	framework_preliminary	1	coding_CDS	14737	14737	208	1.411413	1.411413
+candidate_origin	ld_proxy_only	framework_preliminary	2	preliminary_enhancer	14737	14737	1240	8.414196	8.414196
+candidate_origin	ld_proxy_only	framework_preliminary	3	preliminary_silencer	14737	14737	533	3.616747	3.616747
+candidate_origin	ld_proxy_only	framework_preliminary	4	repetitive_only_in_hierarchy	14737	14737	7273	49.351971	49.351971
+candidate_origin	ld_proxy_only	framework_preliminary	5	other	14737	14737	5483	37.205673	37.205673
+candidate_origin	ld_proxy_only	framework_refined	0	bed_ineligible	14737	14737	0	0.0	
+candidate_origin	ld_proxy_only	framework_refined	1	coding_CDS	14737	14737	208	1.411413	1.411413
+candidate_origin	ld_proxy_only	framework_refined	2	refined_enhancer	14737	14737	519	3.521748	3.521748
+candidate_origin	ld_proxy_only	framework_refined	3	refined_silencer	14737	14737	42	0.284997	0.284997
+candidate_origin	ld_proxy_only	framework_refined	4	repetitive_only_in_hierarchy	14737	14737	7755	52.62265	52.62265
+candidate_origin	ld_proxy_only	framework_refined	5	other	14737	14737	6213	42.159191	42.159191
+candidate_origin	ld_proxy_only	comprehensive	0	bed_ineligible	14737	14737	0	0.0	
+candidate_origin	ld_proxy_only	comprehensive	1	coding_CDS	14737	14737	208	1.411413	1.411413
+candidate_origin	ld_proxy_only	comprehensive	2	refined_enhancer	14737	14737	519	3.521748	3.521748
+candidate_origin	ld_proxy_only	comprehensive	3	refined_silencer	14737	14737	42	0.284997	0.284997
+candidate_origin	ld_proxy_only	comprehensive	4	preliminary_enhancer	14737	14737	781	5.299586	5.299586
+candidate_origin	ld_proxy_only	comprehensive	5	preliminary_silencer	14737	14737	496	3.365678	3.365678
+candidate_origin	ld_proxy_only	comprehensive	6	other_known_regulatory	14737	14737	1438	9.757753	9.757753
+candidate_origin	ld_proxy_only	comprehensive	7	repetitive_only_in_hierarchy	14737	14737	6710	45.531655	45.531655
+candidate_origin	ld_proxy_only	comprehensive	8	other	14737	14737	4543	30.82717	30.82717
+role	gws_tag_record	framework_preliminary	0	bed_ineligible	652	649	3	0.460123	
+role	gws_tag_record	framework_preliminary	1	coding_CDS	652	649	49	7.515337	7.550077
+role	gws_tag_record	framework_preliminary	2	preliminary_enhancer	652	649	89	13.650307	13.713405
+role	gws_tag_record	framework_preliminary	3	preliminary_silencer	652	649	23	3.527607	3.543914
+role	gws_tag_record	framework_preliminary	4	repetitive_only_in_hierarchy	652	649	231	35.429448	35.59322
+role	gws_tag_record	framework_preliminary	5	other	652	649	257	39.417178	39.599384
+role	gws_tag_record	framework_refined	0	bed_ineligible	652	649	3	0.460123	
+role	gws_tag_record	framework_refined	1	coding_CDS	652	649	49	7.515337	7.550077
+role	gws_tag_record	framework_refined	2	refined_enhancer	652	649	42	6.441718	6.471495
+role	gws_tag_record	framework_refined	3	refined_silencer	652	649	4	0.613497	0.616333
+role	gws_tag_record	framework_refined	4	repetitive_only_in_hierarchy	652	649	245	37.576687	37.750385
+role	gws_tag_record	framework_refined	5	other	652	649	309	47.392638	47.61171
+role	gws_tag_record	comprehensive	0	bed_ineligible	652	649	3	0.460123	
+role	gws_tag_record	comprehensive	1	coding_CDS	652	649	49	7.515337	7.550077
+role	gws_tag_record	comprehensive	2	refined_enhancer	652	649	42	6.441718	6.471495
+role	gws_tag_record	comprehensive	3	refined_silencer	652	649	4	0.613497	0.616333
+role	gws_tag_record	comprehensive	4	preliminary_enhancer	652	649	54	8.282209	8.320493
+role	gws_tag_record	comprehensive	5	preliminary_silencer	652	649	22	3.374233	3.389831
+role	gws_tag_record	comprehensive	6	other_known_regulatory	652	649	77	11.809816	11.864407
+role	gws_tag_record	comprehensive	7	repetitive_only_in_hierarchy	652	649	207	31.748466	31.895223
+role	gws_tag_record	comprehensive	8	other	652	649	194	29.754601	29.892142
+role	ld_proxy_record	framework_preliminary	0	bed_ineligible	14913	14913	0	0.0	
+role	ld_proxy_record	framework_preliminary	1	coding_CDS	14913	14913	228	1.528867	1.528867
+role	ld_proxy_record	framework_preliminary	2	preliminary_enhancer	14913	14913	1262	8.462415	8.462415
+role	ld_proxy_record	framework_preliminary	3	preliminary_silencer	14913	14913	537	3.600885	3.600885
+role	ld_proxy_record	framework_preliminary	4	repetitive_only_in_hierarchy	14913	14913	7335	49.185275	49.185275
+role	ld_proxy_record	framework_preliminary	5	other	14913	14913	5551	37.222558	37.222558
+role	ld_proxy_record	framework_refined	0	bed_ineligible	14913	14913	0	0.0	
+role	ld_proxy_record	framework_refined	1	coding_CDS	14913	14913	228	1.528867	1.528867
+role	ld_proxy_record	framework_refined	2	refined_enhancer	14913	14913	527	3.53383	3.53383
+role	ld_proxy_record	framework_refined	3	refined_silencer	14913	14913	43	0.288339	0.288339
+role	ld_proxy_record	framework_refined	4	repetitive_only_in_hierarchy	14913	14913	7822	52.450882	52.450882
+role	ld_proxy_record	framework_refined	5	other	14913	14913	6293	42.198082	42.198082
+role	ld_proxy_record	comprehensive	0	bed_ineligible	14913	14913	0	0.0	
+role	ld_proxy_record	comprehensive	1	coding_CDS	14913	14913	228	1.528867	1.528867
+role	ld_proxy_record	comprehensive	2	refined_enhancer	14913	14913	527	3.53383	3.53383
+role	ld_proxy_record	comprehensive	3	refined_silencer	14913	14913	43	0.288339	0.288339
+role	ld_proxy_record	comprehensive	4	preliminary_enhancer	14913	14913	796	5.337625	5.337625
+role	ld_proxy_record	comprehensive	5	preliminary_silencer	14913	14913	500	3.352779	3.352779
+role	ld_proxy_record	comprehensive	6	other_known_regulatory	14913	14913	1462	9.803527	9.803527
+role	ld_proxy_record	comprehensive	7	repetitive_only_in_hierarchy	14913	14913	6767	45.376517	45.376517
+role	ld_proxy_record	comprehensive	8	other	14913	14913	4590	30.778515	30.778515
+variant_class	SNV	framework_preliminary	0	bed_ineligible	13764	13764	0	0.0	
+variant_class	SNV	framework_preliminary	1	coding_CDS	13764	13764	248	1.801802	1.801802
+variant_class	SNV	framework_preliminary	2	preliminary_enhancer	13764	13764	1173	8.522232	8.522232
+variant_class	SNV	framework_preliminary	3	preliminary_silencer	13764	13764	503	3.654461	3.654461
+variant_class	SNV	framework_preliminary	4	repetitive_only_in_hierarchy	13764	13764	6669	48.452485	48.452485
+variant_class	SNV	framework_preliminary	5	other	13764	13764	5171	37.569021	37.569021
+variant_class	SNV	framework_refined	0	bed_ineligible	13764	13764	0	0.0	
+variant_class	SNV	framework_refined	1	coding_CDS	13764	13764	248	1.801802	1.801802
+variant_class	SNV	framework_refined	2	refined_enhancer	13764	13764	492	3.574542	3.574542
+variant_class	SNV	framework_refined	3	refined_silencer	13764	13764	43	0.312409	0.312409
+variant_class	SNV	framework_refined	4	repetitive_only_in_hierarchy	13764	13764	7103	51.605638	51.605638
+variant_class	SNV	framework_refined	5	other	13764	13764	5878	42.705609	42.705609
+variant_class	SNV	comprehensive	0	bed_ineligible	13764	13764	0	0.0	
+variant_class	SNV	comprehensive	1	coding_CDS	13764	13764	248	1.801802	1.801802
+variant_class	SNV	comprehensive	2	refined_enhancer	13764	13764	492	3.574542	3.574542
+variant_class	SNV	comprehensive	3	refined_silencer	13764	13764	43	0.312409	0.312409
+variant_class	SNV	comprehensive	4	preliminary_enhancer	13764	13764	739	5.369079	5.369079
+variant_class	SNV	comprehensive	5	preliminary_silencer	13764	13764	467	3.392909	3.392909
+variant_class	SNV	comprehensive	6	other_known_regulatory	13764	13764	1377	10.004359	10.004359
+variant_class	SNV	comprehensive	7	repetitive_only_in_hierarchy	13764	13764	6140	44.609125	44.609125
+variant_class	SNV	comprehensive	8	other	13764	13764	4258	30.935774	30.935774
+variant_class	indel_or_complex	framework_preliminary	0	bed_ineligible	1540	1540	0	0.0	
+variant_class	indel_or_complex	framework_preliminary	1	coding_CDS	1540	1540	4	0.25974	0.25974
+variant_class	indel_or_complex	framework_preliminary	2	preliminary_enhancer	1540	1540	151	9.805195	9.805195
+variant_class	indel_or_complex	framework_preliminary	3	preliminary_silencer	1540	1540	52	3.376623	3.376623
+variant_class	indel_or_complex	framework_preliminary	4	repetitive_only_in_hierarchy	1540	1540	796	51.688312	51.688312
+variant_class	indel_or_complex	framework_preliminary	5	other	1540	1540	537	34.87013	34.87013
+variant_class	indel_or_complex	framework_refined	0	bed_ineligible	1540	1540	0	0.0	
+variant_class	indel_or_complex	framework_refined	1	coding_CDS	1540	1540	4	0.25974	0.25974
+variant_class	indel_or_complex	framework_refined	2	refined_enhancer	1540	1540	64	4.155844	4.155844
+variant_class	indel_or_complex	framework_refined	3	refined_silencer	1540	1540	3	0.194805	0.194805
+variant_class	indel_or_complex	framework_refined	4	repetitive_only_in_hierarchy	1540	1540	857	55.649351	55.649351
+variant_class	indel_or_complex	framework_refined	5	other	1540	1540	612	39.74026	39.74026
+variant_class	indel_or_complex	comprehensive	0	bed_ineligible	1540	1540	0	0.0	
+variant_class	indel_or_complex	comprehensive	1	coding_CDS	1540	1540	4	0.25974	0.25974
+variant_class	indel_or_complex	comprehensive	2	refined_enhancer	1540	1540	64	4.155844	4.155844
+variant_class	indel_or_complex	comprehensive	3	refined_silencer	1540	1540	3	0.194805	0.194805
+variant_class	indel_or_complex	comprehensive	4	preliminary_enhancer	1540	1540	94	6.103896	6.103896
+variant_class	indel_or_complex	comprehensive	5	preliminary_silencer	1540	1540	50	3.246753	3.246753
+variant_class	indel_or_complex	comprehensive	6	other_known_regulatory	1540	1540	132	8.571429	8.571429
+variant_class	indel_or_complex	comprehensive	7	repetitive_only_in_hierarchy	1540	1540	742	48.181818	48.181818
+variant_class	indel_or_complex	comprehensive	8	other	1540	1540	451	29.285714	29.285714
+variant_class	unresolved_tag	framework_preliminary	0	bed_ineligible	85	82	3	3.529412	
+variant_class	unresolved_tag	framework_preliminary	1	coding_CDS	85	82	5	5.882353	6.097561
+variant_class	unresolved_tag	framework_preliminary	2	preliminary_enhancer	85	82	5	5.882353	6.097561
+variant_class	unresolved_tag	framework_preliminary	3	preliminary_silencer	85	82	1	1.176471	1.219512
+variant_class	unresolved_tag	framework_preliminary	4	repetitive_only_in_hierarchy	85	82	39	45.882353	47.560976
+variant_class	unresolved_tag	framework_preliminary	5	other	85	82	32	37.647059	39.02439
+variant_class	unresolved_tag	framework_refined	0	bed_ineligible	85	82	3	3.529412	
+variant_class	unresolved_tag	framework_refined	1	coding_CDS	85	82	5	5.882353	6.097561
+variant_class	unresolved_tag	framework_refined	2	refined_enhancer	85	82	5	5.882353	6.097561
+variant_class	unresolved_tag	framework_refined	3	refined_silencer	85	82	0	0.0	0.0
+variant_class	unresolved_tag	framework_refined	4	repetitive_only_in_hierarchy	85	82	40	47.058824	48.780488
+variant_class	unresolved_tag	framework_refined	5	other	85	82	32	37.647059	39.02439
+variant_class	unresolved_tag	comprehensive	0	bed_ineligible	85	82	3	3.529412	
+variant_class	unresolved_tag	comprehensive	1	coding_CDS	85	82	5	5.882353	6.097561
+variant_class	unresolved_tag	comprehensive	2	refined_enhancer	85	82	5	5.882353	6.097561
+variant_class	unresolved_tag	comprehensive	3	refined_silencer	85	82	0	0.0	0.0
+variant_class	unresolved_tag	comprehensive	4	preliminary_enhancer	85	82	2	2.352941	2.439024
+variant_class	unresolved_tag	comprehensive	5	preliminary_silencer	85	82	1	1.176471	1.219512
+variant_class	unresolved_tag	comprehensive	6	other_known_regulatory	85	82	6	7.058824	7.317073
+variant_class	unresolved_tag	comprehensive	7	repetitive_only_in_hierarchy	85	82	35	41.176471	42.682927
+variant_class	unresolved_tag	comprehensive	8	other	85	82	28	32.941176	34.146341
+reference_status	reference_matched_record	framework_preliminary	0	bed_ineligible	15304	15304	0	0.0	
+reference_status	reference_matched_record	framework_preliminary	1	coding_CDS	15304	15304	252	1.646628	1.646628
+reference_status	reference_matched_record	framework_preliminary	2	preliminary_enhancer	15304	15304	1324	8.651333	8.651333
+reference_status	reference_matched_record	framework_preliminary	3	preliminary_silencer	15304	15304	555	3.626503	3.626503
+reference_status	reference_matched_record	framework_preliminary	4	repetitive_only_in_hierarchy	15304	15304	7465	48.778097	48.778097
+reference_status	reference_matched_record	framework_preliminary	5	other	15304	15304	5708	37.297439	37.297439
+reference_status	reference_matched_record	framework_refined	0	bed_ineligible	15304	15304	0	0.0	
+reference_status	reference_matched_record	framework_refined	1	coding_CDS	15304	15304	252	1.646628	1.646628
+reference_status	reference_matched_record	framework_refined	2	refined_enhancer	15304	15304	556	3.633037	3.633037
+reference_status	reference_matched_record	framework_refined	3	refined_silencer	15304	15304	46	0.300575	0.300575
+reference_status	reference_matched_record	framework_refined	4	repetitive_only_in_hierarchy	15304	15304	7960	52.012546	52.012546
+reference_status	reference_matched_record	framework_refined	5	other	15304	15304	6490	42.407214	42.407214
+reference_status	reference_matched_record	comprehensive	0	bed_ineligible	15304	15304	0	0.0	
+reference_status	reference_matched_record	comprehensive	1	coding_CDS	15304	15304	252	1.646628	1.646628
+reference_status	reference_matched_record	comprehensive	2	refined_enhancer	15304	15304	556	3.633037	3.633037
+reference_status	reference_matched_record	comprehensive	3	refined_silencer	15304	15304	46	0.300575	0.300575
+reference_status	reference_matched_record	comprehensive	4	preliminary_enhancer	15304	15304	833	5.443021	5.443021
+reference_status	reference_matched_record	comprehensive	5	preliminary_silencer	15304	15304	517	3.378202	3.378202
+reference_status	reference_matched_record	comprehensive	6	other_known_regulatory	15304	15304	1509	9.860167	9.860167
+reference_status	reference_matched_record	comprehensive	7	repetitive_only_in_hierarchy	15304	15304	6882	44.968636	44.968636
+reference_status	reference_matched_record	comprehensive	8	other	15304	15304	4709	30.769733	30.769733
+reference_status	reference_unmatched_tag_record	framework_preliminary	0	bed_ineligible	85	82	3	3.529412	
+reference_status	reference_unmatched_tag_record	framework_preliminary	1	coding_CDS	85	82	5	5.882353	6.097561
+reference_status	reference_unmatched_tag_record	framework_preliminary	2	preliminary_enhancer	85	82	5	5.882353	6.097561
+reference_status	reference_unmatched_tag_record	framework_preliminary	3	preliminary_silencer	85	82	1	1.176471	1.219512
+reference_status	reference_unmatched_tag_record	framework_preliminary	4	repetitive_only_in_hierarchy	85	82	39	45.882353	47.560976
+reference_status	reference_unmatched_tag_record	framework_preliminary	5	other	85	82	32	37.647059	39.02439
+reference_status	reference_unmatched_tag_record	framework_refined	0	bed_ineligible	85	82	3	3.529412	
+reference_status	reference_unmatched_tag_record	framework_refined	1	coding_CDS	85	82	5	5.882353	6.097561
+reference_status	reference_unmatched_tag_record	framework_refined	2	refined_enhancer	85	82	5	5.882353	6.097561
+reference_status	reference_unmatched_tag_record	framework_refined	3	refined_silencer	85	82	0	0.0	0.0
+reference_status	reference_unmatched_tag_record	framework_refined	4	repetitive_only_in_hierarchy	85	82	40	47.058824	48.780488
+reference_status	reference_unmatched_tag_record	framework_refined	5	other	85	82	32	37.647059	39.02439
+reference_status	reference_unmatched_tag_record	comprehensive	0	bed_ineligible	85	82	3	3.529412	
+reference_status	reference_unmatched_tag_record	comprehensive	1	coding_CDS	85	82	5	5.882353	6.097561
+reference_status	reference_unmatched_tag_record	comprehensive	2	refined_enhancer	85	82	5	5.882353	6.097561
+reference_status	reference_unmatched_tag_record	comprehensive	3	refined_silencer	85	82	0	0.0	0.0
+reference_status	reference_unmatched_tag_record	comprehensive	4	preliminary_enhancer	85	82	2	2.352941	2.439024
+reference_status	reference_unmatched_tag_record	comprehensive	5	preliminary_silencer	85	82	1	1.176471	1.219512
+reference_status	reference_unmatched_tag_record	comprehensive	6	other_known_regulatory	85	82	6	7.058824	7.317073
+reference_status	reference_unmatched_tag_record	comprehensive	7	repetitive_only_in_hierarchy	85	82	35	41.176471	42.682927
+reference_status	reference_unmatched_tag_record	comprehensive	8	other	85	82	28	32.941176	34.146341
+ld_panel	AFR	framework_preliminary	0	bed_ineligible	1819	1819	0	0.0	
+ld_panel	AFR	framework_preliminary	1	coding_CDS	1819	1819	33	1.814184	1.814184
+ld_panel	AFR	framework_preliminary	2	preliminary_enhancer	1819	1819	130	7.146784	7.146784
+ld_panel	AFR	framework_preliminary	3	preliminary_silencer	1819	1819	30	1.649258	1.649258
+ld_panel	AFR	framework_preliminary	4	repetitive_only_in_hierarchy	1819	1819	934	51.346894	51.346894
+ld_panel	AFR	framework_preliminary	5	other	1819	1819	692	38.042881	38.042881
+ld_panel	AFR	framework_refined	0	bed_ineligible	1819	1819	0	0.0	
+ld_panel	AFR	framework_refined	1	coding_CDS	1819	1819	33	1.814184	1.814184
+ld_panel	AFR	framework_refined	2	refined_enhancer	1819	1819	59	3.24354	3.24354
+ld_panel	AFR	framework_refined	3	refined_silencer	1819	1819	3	0.164926	0.164926
+ld_panel	AFR	framework_refined	4	repetitive_only_in_hierarchy	1819	1819	980	53.875756	53.875756
+ld_panel	AFR	framework_refined	5	other	1819	1819	744	40.901594	40.901594
+ld_panel	AFR	comprehensive	0	bed_ineligible	1819	1819	0	0.0	
+ld_panel	AFR	comprehensive	1	coding_CDS	1819	1819	33	1.814184	1.814184
+ld_panel	AFR	comprehensive	2	refined_enhancer	1819	1819	59	3.24354	3.24354
+ld_panel	AFR	comprehensive	3	refined_silencer	1819	1819	3	0.164926	0.164926
+ld_panel	AFR	comprehensive	4	preliminary_enhancer	1819	1819	77	4.233095	4.233095
+ld_panel	AFR	comprehensive	5	preliminary_silencer	1819	1819	29	1.594283	1.594283
+ld_panel	AFR	comprehensive	6	other_known_regulatory	1819	1819	163	8.960968	8.960968
+ld_panel	AFR	comprehensive	7	repetitive_only_in_hierarchy	1819	1819	874	48.048378	48.048378
+ld_panel	AFR	comprehensive	8	other	1819	1819	581	31.940627	31.940627
+ld_panel	AMR	framework_preliminary	0	bed_ineligible	4515	4515	0	0.0	
+ld_panel	AMR	framework_preliminary	1	coding_CDS	4515	4515	72	1.594684	1.594684
+ld_panel	AMR	framework_preliminary	2	preliminary_enhancer	4515	4515	340	7.530454	7.530454
+ld_panel	AMR	framework_preliminary	3	preliminary_silencer	4515	4515	69	1.528239	1.528239
+ld_panel	AMR	framework_preliminary	4	repetitive_only_in_hierarchy	4515	4515	2324	51.472868	51.472868
+ld_panel	AMR	framework_preliminary	5	other	4515	4515	1710	37.873754	37.873754
+ld_panel	AMR	framework_refined	0	bed_ineligible	4515	4515	0	0.0	
+ld_panel	AMR	framework_refined	1	coding_CDS	4515	4515	72	1.594684	1.594684
+ld_panel	AMR	framework_refined	2	refined_enhancer	4515	4515	164	3.632337	3.632337
+ld_panel	AMR	framework_refined	3	refined_silencer	4515	4515	6	0.13289	0.13289
+ld_panel	AMR	framework_refined	4	repetitive_only_in_hierarchy	4515	4515	2430	53.820598	53.820598
+ld_panel	AMR	framework_refined	5	other	4515	4515	1843	40.819491	40.819491
+ld_panel	AMR	comprehensive	0	bed_ineligible	4515	4515	0	0.0	
+ld_panel	AMR	comprehensive	1	coding_CDS	4515	4515	72	1.594684	1.594684
+ld_panel	AMR	comprehensive	2	refined_enhancer	4515	4515	164	3.632337	3.632337
+ld_panel	AMR	comprehensive	3	refined_silencer	4515	4515	6	0.13289	0.13289
+ld_panel	AMR	comprehensive	4	preliminary_enhancer	4515	4515	203	4.496124	4.496124
+ld_panel	AMR	comprehensive	5	preliminary_silencer	4515	4515	66	1.461794	1.461794
+ld_panel	AMR	comprehensive	6	other_known_regulatory	4515	4515	475	10.520487	10.520487
+ld_panel	AMR	comprehensive	7	repetitive_only_in_hierarchy	4515	4515	2134	47.264673	47.264673
+ld_panel	AMR	comprehensive	8	other	4515	4515	1395	30.89701	30.89701
+ld_panel	EAS	framework_preliminary	0	bed_ineligible	5315	5315	0	0.0	
+ld_panel	EAS	framework_preliminary	1	coding_CDS	5315	5315	83	1.561618	1.561618
+ld_panel	EAS	framework_preliminary	2	preliminary_enhancer	5315	5315	385	7.24365	7.24365
+ld_panel	EAS	framework_preliminary	3	preliminary_silencer	5315	5315	103	1.937912	1.937912
+ld_panel	EAS	framework_preliminary	4	repetitive_only_in_hierarchy	5315	5315	2730	51.364064	51.364064
+ld_panel	EAS	framework_preliminary	5	other	5315	5315	2014	37.892756	37.892756
+ld_panel	EAS	framework_refined	0	bed_ineligible	5315	5315	0	0.0	
+ld_panel	EAS	framework_refined	1	coding_CDS	5315	5315	83	1.561618	1.561618
+ld_panel	EAS	framework_refined	2	refined_enhancer	5315	5315	173	3.254939	3.254939
+ld_panel	EAS	framework_refined	3	refined_silencer	5315	5315	16	0.301035	0.301035
+ld_panel	EAS	framework_refined	4	repetitive_only_in_hierarchy	5315	5315	2851	53.64064	53.64064
+ld_panel	EAS	framework_refined	5	other	5315	5315	2192	41.241769	41.241769
+ld_panel	EAS	comprehensive	0	bed_ineligible	5315	5315	0	0.0	
+ld_panel	EAS	comprehensive	1	coding_CDS	5315	5315	83	1.561618	1.561618
+ld_panel	EAS	comprehensive	2	refined_enhancer	5315	5315	173	3.254939	3.254939
+ld_panel	EAS	comprehensive	3	refined_silencer	5315	5315	16	0.301035	0.301035
+ld_panel	EAS	comprehensive	4	preliminary_enhancer	5315	5315	238	4.477893	4.477893
+ld_panel	EAS	comprehensive	5	preliminary_silencer	5315	5315	93	1.749765	1.749765
+ld_panel	EAS	comprehensive	6	other_known_regulatory	5315	5315	556	10.46096	10.46096
+ld_panel	EAS	comprehensive	7	repetitive_only_in_hierarchy	5315	5315	2523	47.469426	47.469426
+ld_panel	EAS	comprehensive	8	other	5315	5315	1633	30.724365	30.724365
+ld_panel	EUR	framework_preliminary	0	bed_ineligible	12697	12697	0	0.0	
+ld_panel	EUR	framework_preliminary	1	coding_CDS	12697	12697	175	1.378278	1.378278
+ld_panel	EUR	framework_preliminary	2	preliminary_enhancer	12697	12697	1079	8.49807	8.49807
+ld_panel	EUR	framework_preliminary	3	preliminary_silencer	12697	12697	484	3.811924	3.811924
+ld_panel	EUR	framework_preliminary	4	repetitive_only_in_hierarchy	12697	12697	6261	49.310861	49.310861
+ld_panel	EUR	framework_preliminary	5	other	12697	12697	4698	37.000866	37.000866
+ld_panel	EUR	framework_refined	0	bed_ineligible	12697	12697	0	0.0	
+ld_panel	EUR	framework_refined	1	coding_CDS	12697	12697	175	1.378278	1.378278
+ld_panel	EUR	framework_refined	2	refined_enhancer	12697	12697	447	3.520517	3.520517
+ld_panel	EUR	framework_refined	3	refined_silencer	12697	12697	31	0.244152	0.244152
+ld_panel	EUR	framework_refined	4	repetitive_only_in_hierarchy	12697	12697	6691	52.697488	52.697488
+ld_panel	EUR	framework_refined	5	other	12697	12697	5353	42.159565	42.159565
+ld_panel	EUR	comprehensive	0	bed_ineligible	12697	12697	0	0.0	
+ld_panel	EUR	comprehensive	1	coding_CDS	12697	12697	175	1.378278	1.378278
+ld_panel	EUR	comprehensive	2	refined_enhancer	12697	12697	447	3.520517	3.520517
+ld_panel	EUR	comprehensive	3	refined_silencer	12697	12697	31	0.244152	0.244152
+ld_panel	EUR	comprehensive	4	preliminary_enhancer	12697	12697	681	5.363472	5.363472
+ld_panel	EUR	comprehensive	5	preliminary_silencer	12697	12697	456	3.5914	3.5914
+ld_panel	EUR	comprehensive	6	other_known_regulatory	12697	12697	1234	9.718831	9.718831
+ld_panel	EUR	comprehensive	7	repetitive_only_in_hierarchy	12697	12697	5784	45.554068	45.554068
+ld_panel	EUR	comprehensive	8	other	12697	12697	3889	30.629283	30.629283
+ld_panel	SAS	framework_preliminary	0	bed_ineligible	722	722	0	0.0	
+ld_panel	SAS	framework_preliminary	1	coding_CDS	722	722	13	1.800554	1.800554
+ld_panel	SAS	framework_preliminary	2	preliminary_enhancer	722	722	83	11.495845	11.495845
+ld_panel	SAS	framework_preliminary	3	preliminary_silencer	722	722	8	1.108033	1.108033
+ld_panel	SAS	framework_preliminary	4	repetitive_only_in_hierarchy	722	722	387	53.601108	53.601108
+ld_panel	SAS	framework_preliminary	5	other	722	722	231	31.99446	31.99446
+ld_panel	SAS	framework_refined	0	bed_ineligible	722	722	0	0.0	
+ld_panel	SAS	framework_refined	1	coding_CDS	722	722	13	1.800554	1.800554
+ld_panel	SAS	framework_refined	2	refined_enhancer	722	722	35	4.847645	4.847645
+ld_panel	SAS	framework_refined	3	refined_silencer	722	722	1	0.138504	0.138504
+ld_panel	SAS	framework_refined	4	repetitive_only_in_hierarchy	722	722	418	57.894737	57.894737
+ld_panel	SAS	framework_refined	5	other	722	722	255	35.31856	35.31856
+ld_panel	SAS	comprehensive	0	bed_ineligible	722	722	0	0.0	
+ld_panel	SAS	comprehensive	1	coding_CDS	722	722	13	1.800554	1.800554
+ld_panel	SAS	comprehensive	2	refined_enhancer	722	722	35	4.847645	4.847645
+ld_panel	SAS	comprehensive	3	refined_silencer	722	722	1	0.138504	0.138504
+ld_panel	SAS	comprehensive	4	preliminary_enhancer	722	722	53	7.34072	7.34072
+ld_panel	SAS	comprehensive	5	preliminary_silencer	722	722	8	1.108033	1.108033
+ld_panel	SAS	comprehensive	6	other_known_regulatory	722	722	93	12.880886	12.880886
+ld_panel	SAS	comprehensive	7	repetitive_only_in_hierarchy	722	722	344	47.645429	47.645429
+ld_panel	SAS	comprehensive	8	other	722	722	175	24.238227	24.238227
+tag_supported_panel	AFR	framework_preliminary	0	bed_ineligible	188	188	0	0.0	
+tag_supported_panel	AFR	framework_preliminary	1	coding_CDS	188	188	34	18.085106	18.085106
+tag_supported_panel	AFR	framework_preliminary	2	preliminary_enhancer	188	188	23	12.234043	12.234043
+tag_supported_panel	AFR	framework_preliminary	3	preliminary_silencer	188	188	5	2.659574	2.659574
+tag_supported_panel	AFR	framework_preliminary	4	repetitive_only_in_hierarchy	188	188	59	31.382979	31.382979
+tag_supported_panel	AFR	framework_preliminary	5	other	188	188	67	35.638298	35.638298
+tag_supported_panel	AFR	framework_refined	0	bed_ineligible	188	188	0	0.0	
+tag_supported_panel	AFR	framework_refined	1	coding_CDS	188	188	34	18.085106	18.085106
+tag_supported_panel	AFR	framework_refined	2	refined_enhancer	188	188	11	5.851064	5.851064
+tag_supported_panel	AFR	framework_refined	3	refined_silencer	188	188	2	1.06383	1.06383
+tag_supported_panel	AFR	framework_refined	4	repetitive_only_in_hierarchy	188	188	60	31.914894	31.914894
+tag_supported_panel	AFR	framework_refined	5	other	188	188	81	43.085106	43.085106
+tag_supported_panel	AFR	comprehensive	0	bed_ineligible	188	188	0	0.0	
+tag_supported_panel	AFR	comprehensive	1	coding_CDS	188	188	34	18.085106	18.085106
+tag_supported_panel	AFR	comprehensive	2	refined_enhancer	188	188	11	5.851064	5.851064
+tag_supported_panel	AFR	comprehensive	3	refined_silencer	188	188	2	1.06383	1.06383
+tag_supported_panel	AFR	comprehensive	4	preliminary_enhancer	188	188	15	7.978723	7.978723
+tag_supported_panel	AFR	comprehensive	5	preliminary_silencer	188	188	5	2.659574	2.659574
+tag_supported_panel	AFR	comprehensive	6	other_known_regulatory	188	188	26	13.829787	13.829787
+tag_supported_panel	AFR	comprehensive	7	repetitive_only_in_hierarchy	188	188	50	26.595745	26.595745
+tag_supported_panel	AFR	comprehensive	8	other	188	188	45	23.93617	23.93617
+tag_supported_panel	AMR	framework_preliminary	0	bed_ineligible	171	171	0	0.0	
+tag_supported_panel	AMR	framework_preliminary	1	coding_CDS	171	171	34	19.883041	19.883041
+tag_supported_panel	AMR	framework_preliminary	2	preliminary_enhancer	171	171	23	13.450292	13.450292
+tag_supported_panel	AMR	framework_preliminary	3	preliminary_silencer	171	171	5	2.923977	2.923977
+tag_supported_panel	AMR	framework_preliminary	4	repetitive_only_in_hierarchy	171	171	52	30.409357	30.409357
+tag_supported_panel	AMR	framework_preliminary	5	other	171	171	57	33.333333	33.333333
+tag_supported_panel	AMR	framework_refined	0	bed_ineligible	171	171	0	0.0	
+tag_supported_panel	AMR	framework_refined	1	coding_CDS	171	171	34	19.883041	19.883041
+tag_supported_panel	AMR	framework_refined	2	refined_enhancer	171	171	11	6.432749	6.432749
+tag_supported_panel	AMR	framework_refined	3	refined_silencer	171	171	1	0.584795	0.584795
+tag_supported_panel	AMR	framework_refined	4	repetitive_only_in_hierarchy	171	171	53	30.994152	30.994152
+tag_supported_panel	AMR	framework_refined	5	other	171	171	72	42.105263	42.105263
+tag_supported_panel	AMR	comprehensive	0	bed_ineligible	171	171	0	0.0	
+tag_supported_panel	AMR	comprehensive	1	coding_CDS	171	171	34	19.883041	19.883041
+tag_supported_panel	AMR	comprehensive	2	refined_enhancer	171	171	11	6.432749	6.432749
+tag_supported_panel	AMR	comprehensive	3	refined_silencer	171	171	1	0.584795	0.584795
+tag_supported_panel	AMR	comprehensive	4	preliminary_enhancer	171	171	15	8.77193	8.77193
+tag_supported_panel	AMR	comprehensive	5	preliminary_silencer	171	171	5	2.923977	2.923977
+tag_supported_panel	AMR	comprehensive	6	other_known_regulatory	171	171	23	13.450292	13.450292
+tag_supported_panel	AMR	comprehensive	7	repetitive_only_in_hierarchy	171	171	43	25.146199	25.146199
+tag_supported_panel	AMR	comprehensive	8	other	171	171	39	22.807018	22.807018
+tag_supported_panel	EAS	framework_preliminary	0	bed_ineligible	187	187	0	0.0	
+tag_supported_panel	EAS	framework_preliminary	1	coding_CDS	187	187	34	18.181818	18.181818
+tag_supported_panel	EAS	framework_preliminary	2	preliminary_enhancer	187	187	24	12.834225	12.834225
+tag_supported_panel	EAS	framework_preliminary	3	preliminary_silencer	187	187	6	3.208556	3.208556
+tag_supported_panel	EAS	framework_preliminary	4	repetitive_only_in_hierarchy	187	187	60	32.085561	32.085561
+tag_supported_panel	EAS	framework_preliminary	5	other	187	187	63	33.68984	33.68984
+tag_supported_panel	EAS	framework_refined	0	bed_ineligible	187	187	0	0.0	
+tag_supported_panel	EAS	framework_refined	1	coding_CDS	187	187	34	18.181818	18.181818
+tag_supported_panel	EAS	framework_refined	2	refined_enhancer	187	187	11	5.882353	5.882353
+tag_supported_panel	EAS	framework_refined	3	refined_silencer	187	187	2	1.069519	1.069519
+tag_supported_panel	EAS	framework_refined	4	repetitive_only_in_hierarchy	187	187	62	33.15508	33.15508
+tag_supported_panel	EAS	framework_refined	5	other	187	187	78	41.71123	41.71123
+tag_supported_panel	EAS	comprehensive	0	bed_ineligible	187	187	0	0.0	
+tag_supported_panel	EAS	comprehensive	1	coding_CDS	187	187	34	18.181818	18.181818
+tag_supported_panel	EAS	comprehensive	2	refined_enhancer	187	187	11	5.882353	5.882353
+tag_supported_panel	EAS	comprehensive	3	refined_silencer	187	187	2	1.069519	1.069519
+tag_supported_panel	EAS	comprehensive	4	preliminary_enhancer	187	187	16	8.55615	8.55615
+tag_supported_panel	EAS	comprehensive	5	preliminary_silencer	187	187	6	3.208556	3.208556
+tag_supported_panel	EAS	comprehensive	6	other_known_regulatory	187	187	25	13.368984	13.368984
+tag_supported_panel	EAS	comprehensive	7	repetitive_only_in_hierarchy	187	187	51	27.272727	27.272727
+tag_supported_panel	EAS	comprehensive	8	other	187	187	42	22.459893	22.459893
+tag_supported_panel	EUR	framework_preliminary	0	bed_ineligible	642	639	3	0.46729	
+tag_supported_panel	EUR	framework_preliminary	1	coding_CDS	642	639	49	7.632399	7.668232
+tag_supported_panel	EUR	framework_preliminary	2	preliminary_enhancer	642	639	88	13.707165	13.771518
+tag_supported_panel	EUR	framework_preliminary	3	preliminary_silencer	642	639	23	3.582555	3.599374
+tag_supported_panel	EUR	framework_preliminary	4	repetitive_only_in_hierarchy	642	639	227	35.358255	35.524257
+tag_supported_panel	EUR	framework_preliminary	5	other	642	639	252	39.252336	39.43662
+tag_supported_panel	EUR	framework_refined	0	bed_ineligible	642	639	3	0.46729	
+tag_supported_panel	EUR	framework_refined	1	coding_CDS	642	639	49	7.632399	7.668232
+tag_supported_panel	EUR	framework_refined	2	refined_enhancer	642	639	42	6.542056	6.57277
+tag_supported_panel	EUR	framework_refined	3	refined_silencer	642	639	3	0.46729	0.469484
+tag_supported_panel	EUR	framework_refined	4	repetitive_only_in_hierarchy	642	639	240	37.383178	37.558685
+tag_supported_panel	EUR	framework_refined	5	other	642	639	305	47.507788	47.730829
+tag_supported_panel	EUR	comprehensive	0	bed_ineligible	642	639	3	0.46729	
+tag_supported_panel	EUR	comprehensive	1	coding_CDS	642	639	49	7.632399	7.668232
+tag_supported_panel	EUR	comprehensive	2	refined_enhancer	642	639	42	6.542056	6.57277
+tag_supported_panel	EUR	comprehensive	3	refined_silencer	642	639	3	0.46729	0.469484
+tag_supported_panel	EUR	comprehensive	4	preliminary_enhancer	642	639	53	8.255452	8.29421
+tag_supported_panel	EUR	comprehensive	5	preliminary_silencer	642	639	22	3.426791	3.442879
+tag_supported_panel	EUR	comprehensive	6	other_known_regulatory	642	639	76	11.838006	11.893584
+tag_supported_panel	EUR	comprehensive	7	repetitive_only_in_hierarchy	642	639	203	31.619938	31.768388
+tag_supported_panel	EUR	comprehensive	8	other	642	639	191	29.750779	29.890454
+tag_supported_panel	SAS	framework_preliminary	0	bed_ineligible	36	36	0	0.0	
+tag_supported_panel	SAS	framework_preliminary	1	coding_CDS	36	36	3	8.333333	8.333333
+tag_supported_panel	SAS	framework_preliminary	2	preliminary_enhancer	36	36	4	11.111111	11.111111
+tag_supported_panel	SAS	framework_preliminary	3	preliminary_silencer	36	36	1	2.777778	2.777778
+tag_supported_panel	SAS	framework_preliminary	4	repetitive_only_in_hierarchy	36	36	14	38.888889	38.888889
+tag_supported_panel	SAS	framework_preliminary	5	other	36	36	14	38.888889	38.888889
+tag_supported_panel	SAS	framework_refined	0	bed_ineligible	36	36	0	0.0	
+tag_supported_panel	SAS	framework_refined	1	coding_CDS	36	36	3	8.333333	8.333333
+tag_supported_panel	SAS	framework_refined	2	refined_enhancer	36	36	3	8.333333	8.333333
+tag_supported_panel	SAS	framework_refined	3	refined_silencer	36	36	1	2.777778	2.777778
+tag_supported_panel	SAS	framework_refined	4	repetitive_only_in_hierarchy	36	36	12	33.333333	33.333333
+tag_supported_panel	SAS	framework_refined	5	other	36	36	17	47.222222	47.222222
+tag_supported_panel	SAS	comprehensive	0	bed_ineligible	36	36	0	0.0	
+tag_supported_panel	SAS	comprehensive	1	coding_CDS	36	36	3	8.333333	8.333333
+tag_supported_panel	SAS	comprehensive	2	refined_enhancer	36	36	3	8.333333	8.333333
+tag_supported_panel	SAS	comprehensive	3	refined_silencer	36	36	1	2.777778	2.777778
+tag_supported_panel	SAS	comprehensive	4	preliminary_enhancer	36	36	4	11.111111	11.111111
+tag_supported_panel	SAS	comprehensive	5	preliminary_silencer	36	36	1	2.777778	2.777778
+tag_supported_panel	SAS	comprehensive	6	other_known_regulatory	36	36	5	13.888889	13.888889
+tag_supported_panel	SAS	comprehensive	7	repetitive_only_in_hierarchy	36	36	11	30.555556	30.555556
+tag_supported_panel	SAS	comprehensive	8	other	36	36	8	22.222222	22.222222
+tag_polymorphic_panel	AFR	framework_preliminary	0	bed_ineligible	174	174	0	0.0	
+tag_polymorphic_panel	AFR	framework_preliminary	1	coding_CDS	174	174	28	16.091954	16.091954
+tag_polymorphic_panel	AFR	framework_preliminary	2	preliminary_enhancer	174	174	23	13.218391	13.218391
+tag_polymorphic_panel	AFR	framework_preliminary	3	preliminary_silencer	174	174	5	2.873563	2.873563
+tag_polymorphic_panel	AFR	framework_preliminary	4	repetitive_only_in_hierarchy	174	174	56	32.183908	32.183908
+tag_polymorphic_panel	AFR	framework_preliminary	5	other	174	174	62	35.632184	35.632184
+tag_polymorphic_panel	AFR	framework_refined	0	bed_ineligible	174	174	0	0.0	
+tag_polymorphic_panel	AFR	framework_refined	1	coding_CDS	174	174	28	16.091954	16.091954
+tag_polymorphic_panel	AFR	framework_refined	2	refined_enhancer	174	174	10	5.747126	5.747126
+tag_polymorphic_panel	AFR	framework_refined	3	refined_silencer	174	174	2	1.149425	1.149425
+tag_polymorphic_panel	AFR	framework_refined	4	repetitive_only_in_hierarchy	174	174	57	32.758621	32.758621
+tag_polymorphic_panel	AFR	framework_refined	5	other	174	174	77	44.252874	44.252874
+tag_polymorphic_panel	AFR	comprehensive	0	bed_ineligible	174	174	0	0.0	
+tag_polymorphic_panel	AFR	comprehensive	1	coding_CDS	174	174	28	16.091954	16.091954
+tag_polymorphic_panel	AFR	comprehensive	2	refined_enhancer	174	174	10	5.747126	5.747126
+tag_polymorphic_panel	AFR	comprehensive	3	refined_silencer	174	174	2	1.149425	1.149425
+tag_polymorphic_panel	AFR	comprehensive	4	preliminary_enhancer	174	174	15	8.62069	8.62069
+tag_polymorphic_panel	AFR	comprehensive	5	preliminary_silencer	174	174	5	2.873563	2.873563
+tag_polymorphic_panel	AFR	comprehensive	6	other_known_regulatory	174	174	25	14.367816	14.367816
+tag_polymorphic_panel	AFR	comprehensive	7	repetitive_only_in_hierarchy	174	174	48	27.586207	27.586207
+tag_polymorphic_panel	AFR	comprehensive	8	other	174	174	41	23.563218	23.563218
+tag_polymorphic_panel	AMR	framework_preliminary	0	bed_ineligible	163	163	0	0.0	
+tag_polymorphic_panel	AMR	framework_preliminary	1	coding_CDS	163	163	30	18.404908	18.404908
+tag_polymorphic_panel	AMR	framework_preliminary	2	preliminary_enhancer	163	163	23	14.110429	14.110429
+tag_polymorphic_panel	AMR	framework_preliminary	3	preliminary_silencer	163	163	5	3.067485	3.067485
+tag_polymorphic_panel	AMR	framework_preliminary	4	repetitive_only_in_hierarchy	163	163	51	31.288344	31.288344
+tag_polymorphic_panel	AMR	framework_preliminary	5	other	163	163	54	33.128834	33.128834
+tag_polymorphic_panel	AMR	framework_refined	0	bed_ineligible	163	163	0	0.0	
+tag_polymorphic_panel	AMR	framework_refined	1	coding_CDS	163	163	30	18.404908	18.404908
+tag_polymorphic_panel	AMR	framework_refined	2	refined_enhancer	163	163	10	6.134969	6.134969
+tag_polymorphic_panel	AMR	framework_refined	3	refined_silencer	163	163	1	0.613497	0.613497
+tag_polymorphic_panel	AMR	framework_refined	4	repetitive_only_in_hierarchy	163	163	52	31.90184	31.90184
+tag_polymorphic_panel	AMR	framework_refined	5	other	163	163	70	42.944785	42.944785
+tag_polymorphic_panel	AMR	comprehensive	0	bed_ineligible	163	163	0	0.0	
+tag_polymorphic_panel	AMR	comprehensive	1	coding_CDS	163	163	30	18.404908	18.404908
+tag_polymorphic_panel	AMR	comprehensive	2	refined_enhancer	163	163	10	6.134969	6.134969
+tag_polymorphic_panel	AMR	comprehensive	3	refined_silencer	163	163	1	0.613497	0.613497
+tag_polymorphic_panel	AMR	comprehensive	4	preliminary_enhancer	163	163	15	9.202454	9.202454
+tag_polymorphic_panel	AMR	comprehensive	5	preliminary_silencer	163	163	5	3.067485	3.067485
+tag_polymorphic_panel	AMR	comprehensive	6	other_known_regulatory	163	163	22	13.496933	13.496933
+tag_polymorphic_panel	AMR	comprehensive	7	repetitive_only_in_hierarchy	163	163	43	26.380368	26.380368
+tag_polymorphic_panel	AMR	comprehensive	8	other	163	163	37	22.699387	22.699387
+tag_polymorphic_panel	EAS	framework_preliminary	0	bed_ineligible	165	165	0	0.0	
+tag_polymorphic_panel	EAS	framework_preliminary	1	coding_CDS	165	165	23	13.939394	13.939394
+tag_polymorphic_panel	EAS	framework_preliminary	2	preliminary_enhancer	165	165	22	13.333333	13.333333
+tag_polymorphic_panel	EAS	framework_preliminary	3	preliminary_silencer	165	165	6	3.636364	3.636364
+tag_polymorphic_panel	EAS	framework_preliminary	4	repetitive_only_in_hierarchy	165	165	55	33.333333	33.333333
+tag_polymorphic_panel	EAS	framework_preliminary	5	other	165	165	59	35.757576	35.757576
+tag_polymorphic_panel	EAS	framework_refined	0	bed_ineligible	165	165	0	0.0	
+tag_polymorphic_panel	EAS	framework_refined	1	coding_CDS	165	165	23	13.939394	13.939394
+tag_polymorphic_panel	EAS	framework_refined	2	refined_enhancer	165	165	10	6.060606	6.060606
+tag_polymorphic_panel	EAS	framework_refined	3	refined_silencer	165	165	2	1.212121	1.212121
+tag_polymorphic_panel	EAS	framework_refined	4	repetitive_only_in_hierarchy	165	165	56	33.939394	33.939394
+tag_polymorphic_panel	EAS	framework_refined	5	other	165	165	74	44.848485	44.848485
+tag_polymorphic_panel	EAS	comprehensive	0	bed_ineligible	165	165	0	0.0	
+tag_polymorphic_panel	EAS	comprehensive	1	coding_CDS	165	165	23	13.939394	13.939394
+tag_polymorphic_panel	EAS	comprehensive	2	refined_enhancer	165	165	10	6.060606	6.060606
+tag_polymorphic_panel	EAS	comprehensive	3	refined_silencer	165	165	2	1.212121	1.212121
+tag_polymorphic_panel	EAS	comprehensive	4	preliminary_enhancer	165	165	14	8.484848	8.484848
+tag_polymorphic_panel	EAS	comprehensive	5	preliminary_silencer	165	165	6	3.636364	3.636364
+tag_polymorphic_panel	EAS	comprehensive	6	other_known_regulatory	165	165	23	13.939394	13.939394
+tag_polymorphic_panel	EAS	comprehensive	7	repetitive_only_in_hierarchy	165	165	47	28.484848	28.484848
+tag_polymorphic_panel	EAS	comprehensive	8	other	165	165	40	24.242424	24.242424
+tag_polymorphic_panel	EUR	framework_preliminary	0	bed_ineligible	557	557	0	0.0	
+tag_polymorphic_panel	EUR	framework_preliminary	1	coding_CDS	557	557	43	7.719928	7.719928
+tag_polymorphic_panel	EUR	framework_preliminary	2	preliminary_enhancer	557	557	83	14.901257	14.901257
+tag_polymorphic_panel	EUR	framework_preliminary	3	preliminary_silencer	557	557	22	3.949731	3.949731
+tag_polymorphic_panel	EUR	framework_preliminary	4	repetitive_only_in_hierarchy	557	557	188	33.752244	33.752244
+tag_polymorphic_panel	EUR	framework_preliminary	5	other	557	557	221	39.67684	39.67684
+tag_polymorphic_panel	EUR	framework_refined	0	bed_ineligible	557	557	0	0.0	
+tag_polymorphic_panel	EUR	framework_refined	1	coding_CDS	557	557	43	7.719928	7.719928
+tag_polymorphic_panel	EUR	framework_refined	2	refined_enhancer	557	557	37	6.642729	6.642729
+tag_polymorphic_panel	EUR	framework_refined	3	refined_silencer	557	557	3	0.5386	0.5386
+tag_polymorphic_panel	EUR	framework_refined	4	repetitive_only_in_hierarchy	557	557	200	35.906643	35.906643
+tag_polymorphic_panel	EUR	framework_refined	5	other	557	557	274	49.192101	49.192101
+tag_polymorphic_panel	EUR	comprehensive	0	bed_ineligible	557	557	0	0.0	
+tag_polymorphic_panel	EUR	comprehensive	1	coding_CDS	557	557	43	7.719928	7.719928
+tag_polymorphic_panel	EUR	comprehensive	2	refined_enhancer	557	557	37	6.642729	6.642729
+tag_polymorphic_panel	EUR	comprehensive	3	refined_silencer	557	557	3	0.5386	0.5386
+tag_polymorphic_panel	EUR	comprehensive	4	preliminary_enhancer	557	557	51	9.156194	9.156194
+tag_polymorphic_panel	EUR	comprehensive	5	preliminary_silencer	557	557	21	3.770197	3.770197
+tag_polymorphic_panel	EUR	comprehensive	6	other_known_regulatory	557	557	70	12.567325	12.567325
+tag_polymorphic_panel	EUR	comprehensive	7	repetitive_only_in_hierarchy	557	557	168	30.16158	30.16158
+tag_polymorphic_panel	EUR	comprehensive	8	other	557	557	164	29.443447	29.443447
+tag_polymorphic_panel	SAS	framework_preliminary	0	bed_ineligible	29	29	0	0.0	
+tag_polymorphic_panel	SAS	framework_preliminary	1	coding_CDS	29	29	2	6.896552	6.896552
+tag_polymorphic_panel	SAS	framework_preliminary	2	preliminary_enhancer	29	29	4	13.793103	13.793103
+tag_polymorphic_panel	SAS	framework_preliminary	3	preliminary_silencer	29	29	1	3.448276	3.448276
+tag_polymorphic_panel	SAS	framework_preliminary	4	repetitive_only_in_hierarchy	29	29	12	41.37931	41.37931
+tag_polymorphic_panel	SAS	framework_preliminary	5	other	29	29	10	34.482759	34.482759
+tag_polymorphic_panel	SAS	framework_refined	0	bed_ineligible	29	29	0	0.0	
+tag_polymorphic_panel	SAS	framework_refined	1	coding_CDS	29	29	2	6.896552	6.896552
+tag_polymorphic_panel	SAS	framework_refined	2	refined_enhancer	29	29	2	6.896552	6.896552
+tag_polymorphic_panel	SAS	framework_refined	3	refined_silencer	29	29	1	3.448276	3.448276
+tag_polymorphic_panel	SAS	framework_refined	4	repetitive_only_in_hierarchy	29	29	10	34.482759	34.482759
+tag_polymorphic_panel	SAS	framework_refined	5	other	29	29	14	48.275862	48.275862
+tag_polymorphic_panel	SAS	comprehensive	0	bed_ineligible	29	29	0	0.0	
+tag_polymorphic_panel	SAS	comprehensive	1	coding_CDS	29	29	2	6.896552	6.896552
+tag_polymorphic_panel	SAS	comprehensive	2	refined_enhancer	29	29	2	6.896552	6.896552
+tag_polymorphic_panel	SAS	comprehensive	3	refined_silencer	29	29	1	3.448276	3.448276
+tag_polymorphic_panel	SAS	comprehensive	4	preliminary_enhancer	29	29	4	13.793103	13.793103
+tag_polymorphic_panel	SAS	comprehensive	5	preliminary_silencer	29	29	1	3.448276	3.448276
+tag_polymorphic_panel	SAS	comprehensive	6	other_known_regulatory	29	29	5	17.241379	17.241379
+tag_polymorphic_panel	SAS	comprehensive	7	repetitive_only_in_hierarchy	29	29	9	31.034483	31.034483
+tag_polymorphic_panel	SAS	comprehensive	8	other	29	29	5	17.241379	17.241379
+identifier_level	gws_tag_identifiers	framework_preliminary	0	bed_ineligible	660	657	3	0.454545	
+identifier_level	gws_tag_identifiers	framework_preliminary	1	coding_CDS	660	657	53	8.030303	8.066971
+identifier_level	gws_tag_identifiers	framework_preliminary	2	preliminary_enhancer	660	657	91	13.787879	13.850837
+identifier_level	gws_tag_identifiers	framework_preliminary	3	preliminary_silencer	660	657	23	3.484848	3.500761
+identifier_level	gws_tag_identifiers	framework_preliminary	4	repetitive_only_in_hierarchy	660	657	232	35.151515	35.312024
+identifier_level	gws_tag_identifiers	framework_preliminary	5	other	660	657	258	39.090909	39.269406
+identifier_level	gws_tag_identifiers	framework_refined	0	bed_ineligible	660	657	3	0.454545	
+identifier_level	gws_tag_identifiers	framework_refined	1	coding_CDS	660	657	53	8.030303	8.066971
+identifier_level	gws_tag_identifiers	framework_refined	2	refined_enhancer	660	657	42	6.363636	6.392694
+identifier_level	gws_tag_identifiers	framework_refined	3	refined_silencer	660	657	4	0.606061	0.608828
+identifier_level	gws_tag_identifiers	framework_refined	4	repetitive_only_in_hierarchy	660	657	246	37.272727	37.442922
+identifier_level	gws_tag_identifiers	framework_refined	5	other	660	657	312	47.272727	47.488584
+identifier_level	gws_tag_identifiers	comprehensive	0	bed_ineligible	660	657	3	0.454545	
+identifier_level	gws_tag_identifiers	comprehensive	1	coding_CDS	660	657	53	8.030303	8.066971
+identifier_level	gws_tag_identifiers	comprehensive	2	refined_enhancer	660	657	42	6.363636	6.392694
+identifier_level	gws_tag_identifiers	comprehensive	3	refined_silencer	660	657	4	0.606061	0.608828
+identifier_level	gws_tag_identifiers	comprehensive	4	preliminary_enhancer	660	657	56	8.484848	8.523592
+identifier_level	gws_tag_identifiers	comprehensive	5	preliminary_silencer	660	657	22	3.333333	3.348554
+identifier_level	gws_tag_identifiers	comprehensive	6	other_known_regulatory	660	657	78	11.818182	11.872146
+identifier_level	gws_tag_identifiers	comprehensive	7	repetitive_only_in_hierarchy	660	657	208	31.515152	31.659056
+identifier_level	gws_tag_identifiers	comprehensive	8	other	660	657	194	29.393939	29.528158

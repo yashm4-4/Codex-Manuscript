@@ -1,0 +1,761 @@
+phenotype_scope	normalized_variant_id	identifier_type	source_snps_values	chromosome	position_grch38_catalog	reported_risk_alleles	n_association_rows	n_studies	n_publications	study_accessions	best_p	genome_wide_significant	catalog_consequences	consequence_class	mapped_genes	representative_strongest_risk_allele	variant_type_1000g	local_reference_status	local_reference_ref	local_reference_alt	local_reference_n_records
+core_copd	rs947350	rsID	rs947350	1	3514991.0	C	1	1	1	GCST90244098	1e-10	True	intron_variant	noncoding	MEGF6	rs947350-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs11122105	rsID	rs11122105	1	6620847.0	G	1	1	1	GCST90244098	2e-12	True	intron_variant	noncoding	PHF13	rs11122105-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs112682076	rsID	rs112682076	1	10297748.0	G	1	1	1	GCST90244098	2e-10	True	intron_variant	noncoding	KIF1B	rs112682076-G	SNV	matched_position_and_reported_allele	G	C	1
+core_copd	rs9435731	rsID	rs9435731	1	16979534.0	A;C	2	2	2	GCST007692;GCST90244098	3e-11	True	intron_variant	noncoding	MFAP2	rs9435731-C	SNV	matched_position_and_reported_allele	C	A	1
+core_copd	rs17395720	rsID	rs17395720	1	19463064.0	T	1	1	1	GCST90244098	3e-08	True	intron_variant	noncoding	CAPZB	rs17395720-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs9438876	rsID	rs9438876	1	24914625.0	A	1	1	1	GCST90244098	3e-13	True	intron_variant	noncoding	RUNX3	rs9438876-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs763307681	rsID	rs763307681	1	26492563.0	GGTT	1	1	1	GCST90244098	2e-08	True	intergenic_variant	noncoding	DPPA2P2;HMGN2	rs763307681-GGTT	unresolved	not_found_at_catalog_position			0
+core_copd	rs6598860	rsID	rs6598860	1	26695193.0		1	1	1	GCST90652177	6e-07	False	5_prime_UTR_variant	noncoding	ARID1A	rs6598860-?	SNV	matched_position	G	A	1
+core_copd	rs12040608	rsID	rs12040608	1	33254241.0	C	1	1	1	GCST90244098	4e-08	True	intergenic_variant	noncoding	TRIM62;ZNF362	rs12040608-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs1480343	rsID	rs1480343	1	37954960.0	C	1	1	1	GCST90244098	8e-11	True	intron_variant	noncoding	Metazoa_SRP;SF3A3	rs1480343-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs3768321	rsID	rs3768321	1	39570256.0	G	1	1	1	GCST90244098	8e-19	True	intron_variant	noncoding	PABPC4;PABPC4-AS1	rs3768321-G	SNV	matched_position_and_reported_allele	G	T	1
+core_copd	rs76841360	rsID	rs76841360	1	39594353.0	A	1	1	1	GCST007692	5e-10	True	intergenic_variant	noncoding	HEYL;PABPC4	rs76841360-A	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs10890311	rsID	rs10890311	1	44602096.0	T	1	1	1	GCST007692	6e-07	False	intron_variant	noncoding	RNF220	rs10890311-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs4660861	rsID	rs4660861	1	45480964.0	G	1	1	1	GCST007692	4e-08	True	intron_variant	noncoding	TESK2	rs4660861-G	SNV	matched_position_and_reported_allele	G	T	1
+core_copd	rs777473824	rsID	rs777473824	1	45549866.0	A	1	1	1	GCST90244098	4e-13	True	intergenic_variant	noncoding	AKR1A1;PRDX1	rs777473824-A	unresolved	not_found_at_catalog_position			0
+core_copd	rs7536035	rsID	rs7536035	1	51151463.0	A	1	1	1	GCST90244098	1e-08	True	intergenic_variant	noncoding	C1orf185;CFL1P2	rs7536035-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs72673419	rsID	rs72673419	1	60447471.0	C;T	2	2	2	GCST007692;GCST90244098	7e-17	True	intron_variant	noncoding	LINC01748;LINC02778	rs72673419-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs77714938	rsID	rs77714938	1	60460440.0	C	1	1	1	GCST90103984	3e-08	True	intron_variant	noncoding	LINC01748;LINC02778	rs77714938-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs12140625	rsID	rs12140625	1	73200544.0	A	2	2	1	GCST90476027;GCST90480254	1e-16	True	intergenic_variant	noncoding	LINC01360;RN7SKP19	rs12140625-A	SNV	matched_position_and_reported_allele	A	T	1
+core_copd	rs4121165	rsID	rs4121165	1	77811292.0	G	1	1	1	GCST90244098	1e-13	True	non_coding_transcript_exon_variant	noncoding	MIGA1	rs4121165-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs1192415	rsID	rs1192415	1	91611540.0	G	1	1	1	GCST90244098	2e-20	True	regulatory_region_variant	noncoding	HSP90B3P;WDR82P2	rs1192415-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs114904431	rsID	rs114904431	1	97608510.0	T	1	1	1	GCST90018807	9e-09	True	intron_variant	noncoding	DPYD	rs114904431-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	chr1:109919048	genomic_coordinate	chr1:109919048	1	109919048.0	C	1	1	1	GCST90667889	3e-08	True		unknown		chr1:109919048-C	unresolved	not_found_at_catalog_position			0
+core_copd	rs10857859	rsID	rs10857859	1	111191102.0	G	1	1	1	GCST90244098	2e-22	True	intron_variant	noncoding	DENND2D	rs10857859-G	SNV	matched_position_and_reported_allele	G	C	1
+core_copd	rs629619	rsID	rs629619	1	111195486.0	T	1	1	1	GCST007692	3e-10	True	intron_variant	noncoding	DENND2D	rs629619-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs17160476	rsID	rs17160476	1	147621873.0	A	1	1	1	GCST90244098	3e-09	True	intron_variant	noncoding	BCL9	rs17160476-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs11205303	rsID	rs11205303	1	149934520.0	C	1	1	1	GCST011766	8e-08	False	missense_variant	coding	MTMR11	rs11205303-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs72692823	rsID	rs72692823	1	149938875.0	T	1	1	1	GCST90244098	4e-11	True	3_prime_UTR_variant	noncoding	OTUD7B	rs72692823-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs72698179	rsID	rs72698179	1	154549918.0	C	1	1	1	GCST90244098	1e-11	True	3_prime_UTR_variant	noncoding	UBE2Q1	rs72698179-C	SNV	matched_position_and_reported_allele	C	A	1
+core_copd	rs3001089	rsID	rs3001089	1	163530921.0		1	1	1	GCST002351	5e-07	False	intergenic_variant	noncoding	RNA5SP63;U3	rs3001089-?	SNV	matched_position	T	G	1
+core_copd	rs199887699	rsID	rs199887699	1	163644634.0	A	1	1	1	GCST90244098	8e-10	True	intergenic_variant	noncoding	RNA5SP63;U3	rs199887699-A	unresolved	not_found_at_catalog_position			0
+core_copd	rs4651005	rsID	rs4651005	1	178750171.0	C	1	1	1	GCST90244098	7e-10	True	intron_variant	noncoding	RALGPS2	rs4651005-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs56375587	rsID	rs56375587	1	186158260.0	T	1	1	1	GCST90244098	1e-09	True	intron_variant	noncoding	HMCN1	rs56375587-T	unresolved	not_found_at_catalog_position			0
+core_copd	rs555874669	rsID	rs555874669	1	198991940.0	G	1	1	1	GCST90244098	2e-12	True	intergenic_variant	noncoding	LINC01222;MIR181A1HG	rs555874669-G	unresolved	not_found_at_catalog_position			0
+core_copd	rs2820290	rsID	rs2820290	1	201814554.0	A	1	1	1	GCST90244098	1e-08	True	intron_variant	noncoding	IPO9-AS1;NAV1	rs2820290-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs12741415	rsID	rs12741415	1	202505646.0	A	1	1	1	GCST011435	3e-07	False	intron_variant	noncoding	PPP1R12B	rs12741415-A	unresolved	not_found_at_catalog_position			0
+core_copd	rs35936420	rsID	rs35936420	1	205128518.0	G	1	1	1	GCST90244098	7e-09	True	intron_variant	noncoding	DSTYK;RBBP5	rs35936420-G	unresolved	not_found_at_catalog_position			0
+core_copd	rs372362333	rsID	rs372362333	1	206449448.0	C	1	1	1	GCST90244098	5e-08	True	intron_variant	noncoding	SRGAP2	rs372362333-C	unresolved	not_found_at_catalog_position			0
+core_copd	rs10863276	rsID	rs10863276	1	216866056.0	T	1	1	1	GCST90244098	4e-08	True	intron_variant	noncoding	ESRRG	rs10863276-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs3121580	rsID	rs3121580	1	218318779.0	C	1	1	1	GCST007692	5e-06	False	intron_variant	noncoding	RRP15	rs3121580-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	chr1:218342968	genomic_coordinate	chr1:218342968	1	218342968.0	T	1	1	1	GCST90399695	3e-08	True		unknown		chr1:218342968-T	SNV	matched_position_and_reported_allele	G	T	1
+core_copd	rs2799098	rsID	rs2799098	1	218348267.0	G	1	1	1	GCST90244098	1e-09	True	intron_variant	noncoding	TGFB2	rs2799098-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs4846480	rsID	rs4846480	1	218425127.0	A	2	2	2	GCST002350;GCST90162551	8e-09	True	intron_variant	noncoding	TGFB2	rs4846480-A	SNV	matched_position_and_reported_allele	A	T	1
+core_copd	rs10429950	rsID	rs10429950	1	218451191.0	T	1	1	1	GCST004147	2e-10	True	intergenic_variant	noncoding	LINC02869;TGFB2	rs10429950-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs3009947	rsID	rs3009947	1	218515813.0	C	1	1	1	GCST007692	4e-09	True	intron_variant	noncoding	LINC02869	rs3009947-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs79274749	rsID	rs79274749	1	219327412.0	T	1	1	1	GCST007692	6e-06	False	intron_variant	noncoding	LYPLAL1;LYPLAL1-AS1	rs79274749-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs4846580	rsID	rs4846580	1	219724599.0	G	5	5	1	GCST90016586;GCST90016588;GCST90016589;GCST90016591;GCST90016594	9e-10	True	intergenic_variant	noncoding	SLC30A10	rs4846580-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs11118406	rsID	rs11118406	1	219751552.0	T	1	1	1	GCST007692	4e-11	True	intergenic_variant	noncoding	SLC30A10	rs11118406-T	SNV	matched_position_and_reported_allele	T	A	1
+core_copd	chr1:219929662	genomic_coordinate	chr1:219929662	1	219929662.0	CAA	1	1	1	GCST90244098	1e-18	True		unknown		chr1:219929662-CAA	unresolved	not_found_at_catalog_position			0
+core_copd	rs12144369	rsID	rs12144369	1	227066344.0		1	1	1	GCST90827700	7e-06	False	intron_variant	noncoding	CDC42BPA	rs12144369-?	SNV	matched_position	C	T	1
+core_copd	rs2355210	rsID	rs2355210	1	239725457.0	C	1	1	1	GCST90244098	7.999999999999999e-30	True	intron_variant	noncoding	CHRM3;CHRM3-AS2	rs2355210-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs11579382	rsID	rs11579382	1	239737706.0	C	1	1	1	GCST007692	7e-09	True	intron_variant	noncoding	CHRM3;CHRM3-AS2	rs11579382-C	SNV	matched_position_and_reported_allele	G	C	1
+core_copd	rs9428513	rsID	rs9428513	1	241686357.0		1	1	1	GCST010249	6e-06	False	intron_variant	noncoding	WDR64	rs9428513-?	SNV	matched_position	A	G	1
+core_copd	rs2722608	rsID	rs2722608	2	5790191.0	C	1	1	1	GCST90244098	4e-08	True	intron_variant	noncoding	LINC01810;SOX11	rs2722608-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs2630744	rsID	rs2630744	2	8324697.0	T	1	1	1	GCST90244098	3e-10	True	regulatory_region_variant	noncoding	LINC00299	rs2630744-T	SNV	matched_position_and_reported_allele	T	A	1
+core_copd	rs955277	rsID	rs955277	2	9150228.0	C;T	4	4	3	GCST007692;GCST90016591;GCST90016594;GCST90244098	8e-12	True	intergenic_variant	noncoding	ASAP2;RPL30P3	rs955277-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs10929386	rsID	rs10929386	2	15766055.0	C	1	1	1	GCST007692	9e-09	True	intron_variant	noncoding	LINC01804	rs10929386-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs2544536	rsID	rs2544536	2	15766730.0	T	1	1	1	GCST90244098	7e-27	True	intron_variant	noncoding	LINC01804	rs2544536-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs55884799	rsID	rs55884799	2	18106357.0	T	1	1	1	GCST90244098	1e-42	True	intergenic_variant	noncoding	KCNS3	rs55884799-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs7569716	rsID	rs7569716	2	22345841.0		1	1	1	GCST002351	1e-07	False	intron_variant	noncoding	LINC01830	rs7569716-?	SNV	matched_position	A	T	1
+core_copd	rs2289195	rsID	rs2289195	2	25240614.0	G	1	1	1	GCST90244098	2e-10	True	intron_variant	noncoding	DNMT3A	rs2289195-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs4077711	rsID	rs4077711	2	33475871.0	A	1	1	1	GCST90244098	2e-10	True	intron_variant	noncoding	RASGRP3	rs4077711-A	SNV	matched_position_and_reported_allele	A	C	1
+core_copd	rs4670562	rsID	rs4670562	2	36492247.0	A	1	1	1	GCST90244098	5e-14	True	intron_variant	noncoding	CRIM1	rs4670562-A	SNV	matched_position_and_reported_allele	A	C	1
+core_copd	rs12466981	rsID	rs12466981	2	42206107.0	C	2	2	2	GCST007692;GCST90244098	9e-20	True	intron_variant	noncoding	EML4	rs12466981-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs4953148	rsID	rs4953148	2	44925383.0	A	1	1	1	GCST90244098	4e-08	True	intron_variant	noncoding	LINC01833	rs4953148-A	SNV	matched_position_and_reported_allele	A	T	1
+core_copd	chr2:45112453	genomic_coordinate	chr2:45112453	2	45112453.0	G	1	1	1	GCST90476027	3e-15	True		unknown		chr2:45112453-G	unresolved	not_found_at_catalog_position			0
+core_copd	rs5831575	rsID	rs5831575	2	60327678.0	T	1	1	1	GCST90244098	2e-09	True	intron_variant	noncoding	MIR4432HG	rs5831575-T	unresolved	not_found_at_catalog_position			0
+core_copd	rs2710647	rsID	rs2710647	2	62986835.0	T	1	1	1	GCST90244098	8e-09	True	intron_variant	noncoding	EHBP1;EHBP1-AS1	rs2710647-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs572473905	rsID	rs572473905	2	64060874.0	C	1	1	1	GCST90103984	5e-08	True	intergenic_variant	noncoding	PELI1;VPS54	rs572473905-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs2302643	rsID	rs2302643	2	64654095.0	G	1	1	1	GCST90244098	3e-10	True	intron_variant	noncoding	SERTAD2	rs2302643-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs138677395	rsID	rs138677395	2	65686680.0	T	1	1	1	GCST90244098	1e-09	True	intron_variant	noncoding	LINC02934	rs138677395-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs13018626	rsID	rs13018626	2	66860520.0	C	1	1	1	GCST90244098	1e-24	True	intron_variant	noncoding	LINC01798	rs13018626-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs56331248	rsID	rs56331248	2	67495724.0		1	1	1	GCST90827700	2e-06	False	intron_variant	noncoding	ETAA1;LINC02831	rs56331248-?	SNV	matched_position	A	T	1
+core_copd	rs10173269	rsID	rs10173269	2	69180588.0	T	1	1	1	GCST90244098	7e-09	True	intron_variant	noncoding	ANTXR1	rs10173269-T	SNV	matched_position_and_reported_allele	T	G	1
+core_copd	rs10165984	rsID	rs10165984	2	85279465.0	T	1	1	1	GCST90244098	3e-08	True	intron_variant	noncoding	TCF7L1	rs10165984-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs201522706	rsID	rs201522706	2	99947562.0	GAGAA	1	1	1	GCST90244098	8e-12	True	intron_variant	noncoding	AFF3	rs201522706-GAGAA	unresolved	not_found_at_catalog_position			0
+core_copd	rs950880	rsID	rs950880	2	102316102.0	C	1	1	1	GCST90244098	2e-20	True	intron_variant	noncoding	IL18R1;IL1RL1	rs950880-C	SNV	matched_position_and_reported_allele	C	A	1
+core_copd	chr2:104420858	genomic_coordinate	chr2:104420858	2	104420858.0	G	1	1	1	GCST90476027	6e-13	True		unknown		chr2:104420858-G	unresolved	not_found_at_catalog_position			0
+core_copd	rs13405741	rsID	rs13405741	2	111155479.0	T	1	1	1	GCST90244098	8e-09	True	intron_variant	noncoding	BCL2L11;MIR4435-2HG	rs13405741-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs13428413	rsID	rs13428413	2	144903382.0	G	1	1	1	GCST90244098	2e-08	True	intron_variant	noncoding	TEX41	rs13428413-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs368931559	rsID	rs368931559	2	150174625.0	A	1	1	1	GCST90244098	9e-15	True	intron_variant	noncoding	LINC01818	rs368931559-A	SNV	matched_position_and_reported_allele	A	T	1
+core_copd	rs7424080	rsID	rs7424080	2	156141090.0	T	1	1	1	GCST90244098	1e-34	True	intron_variant	noncoding	LINC01876	rs7424080-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs72902175	rsID	rs72902175	2	156156523.0	T	1	1	1	GCST007692	2e-08	True	intron_variant	noncoding	LINC01876	rs72902175-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs10208158	rsID	rs10208158	2	160474570.0	C	1	1	1	GCST90244098	7e-14	True	intron_variant	noncoding	RBMS1	rs10208158-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs1840168	rsID	rs1840168	2	168622316.0	C	1	1	1	GCST90244098	2e-18	True	intron_variant	noncoding	CERS6	rs1840168-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs10930578	rsID	rs10930578	2	173143743.0	G	1	1	1	GCST90244098	1e-08	True	intron_variant	noncoding	MAP3K20	rs10930578-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	chr2:198674533	genomic_coordinate	chr2:198674533	2	198674533.0	AGT	1	1	1	GCST90244098	6e-09	True		unknown		chr2:198674533-AGT	unresolved	not_found_at_catalog_position			0
+core_copd	rs985256	rsID	rs985256	2	200343969.0	A	1	1	1	GCST90244098	3e-10	True	intron_variant	noncoding	SPATS2L	rs985256-A	SNV	matched_position_and_reported_allele	A	C	1
+core_copd	rs2041808	rsID	rs2041808	2	205777260.0	C	1	1	1	GCST90244098	3e-08	True	3_prime_UTR_variant	noncoding	NRP2	rs2041808-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs57866041	rsID	rs57866041	2	216751762.0	G	1	1	1	GCST90244098	1e-18	True	intron_variant	noncoding	TESHL	rs57866041-G	unresolved	not_found_at_catalog_position			0
+core_copd	rs2161969	rsID	rs2161969	2	217815847.0	A	1	1	1	GCST90016588	3e-07	False	intron_variant	noncoding	TNS1	rs2161969-A	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs2571445	rsID	rs2571445	2	217818431.0	A	5	5	4	GCST007692;GCST011766;GCST90016591;GCST90016594;GCST90244098	7.999999999999999e-30	True	missense_variant	coding	TNS1	rs2571445-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs7564856	rsID	rs7564856	2	219432316.0	G	1	1	1	GCST90244098	8e-10	True	intergenic_variant	noncoding	DES;SPEG	rs7564856-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs7569781	rsID	rs7569781	2	224966869.0	G	1	1	1	GCST90244098	1e-12	True	intron_variant	noncoding	DOCK10	rs7569781-G	SNV	matched_position_and_reported_allele	G	C	1
+core_copd	rs62201158	rsID	rs62201158	2	228688181.0	G	1	1	1	GCST90399695	1e-08	True	intron_variant	noncoding	LINC01807	rs62201158-G	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs62202378	rsID	rs62202378	2	228697179.0	T	1	1	1	GCST90244098	5e-47	True	intron_variant	noncoding	LINC01807	rs62202378-T	SNV	matched_position_and_reported_allele	T	A	1
+core_copd	rs16825267	rsID	rs16825267	2	228705203.0	C	2	2	2	GCST004147;GCST007692	2e-20	True	intron_variant	noncoding	LINC01807	rs16825267-C	SNV	matched_position_and_reported_allele	C	G	1
+core_copd	rs4973115	rsID	rs4973115	2	228726001.0	A	6	6	1	GCST90016586;GCST90016588;GCST90016589;GCST90016591;GCST90016593;GCST90016594	4e-10	True	intron_variant	noncoding	LINC01807	rs4973115-A	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs6712150	rsID	rs6712150	2	229414806.0	G	1	1	1	GCST90244098	1e-08	True	intron_variant	noncoding	DNER	rs6712150-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs1050785	rsID	rs1050785	2	237324109.0	C	1	1	1	GCST90244098	2e-16	True	3_prime_UTR_variant	noncoding	COL6A3	rs1050785-C	SNV	matched_position_and_reported_allele	C	A	1
+core_copd	rs72983853	rsID	rs72983853	2	238415569.0	C	1	1	1	GCST007692	3e-08	True	intergenic_variant	noncoding	ASB1;RNU6-234P	rs72983853-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs13410025	rsID	rs13410025	2	238705617.0	A	1	1	1	GCST007692	3e-07	False	intron_variant	noncoding	LINC01937	rs13410025-A	SNV	matched_position_and_reported_allele	C	A	1
+core_copd	rs62191105	rsID	rs62191105	2	238951008.0	C;T	3	3	2	GCST007692;GCST90016591;GCST90016594	3e-12	True	intergenic_variant	noncoding	HDAC4;LINC01940	rs62191105-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs62191107	rsID	rs62191107	2	238954831.0	T	1	1	1	GCST90244098	1e-55	True	intergenic_variant	noncoding	HDAC4;LINC01940	rs62191107-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs35945722	rsID	rs35945722	2	238972087.0	A	1	1	1	GCST90016588	7e-07	False	intergenic_variant	noncoding	HDAC4;LINC01940	rs35945722-A	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs12612507	rsID	rs12612507	2	239814725.0	A	1	1	1	GCST007692	3e-06	False	regulatory_region_variant	noncoding	LINC02991;NDUFA10	rs12612507-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs4854076	rsID	rs4854076	2	240291733.0		1	1	1	GCST90827700	7e-07	False	intron_variant	noncoding	GPC1;U3	rs4854076-?	SNV	matched_position	A	G	1
+core_copd	rs11443847	rsID	rs11443847	2	241262457.0	T	1	1	1	GCST90244098	3e-08	True	intron_variant	noncoding	HDLBP	rs11443847-T	unresolved	not_found_at_catalog_position			0
+core_copd	rs71309851	rsID	rs71309851	3	1739046.0		1	1	1	GCST90827700	4e-06	False	intergenic_variant	noncoding	RPL21P17;RPL23AP39	rs71309851-?	SNV	matched_position	C	T	1
+core_copd	rs711585	rsID	rs711585	3	3795464.0	C	1	1	1	GCST90244098	3e-08	True	intergenic_variant	noncoding	SUMF1	rs711585-C	unresolved	not_found_at_catalog_position			0
+core_copd	rs2442776	rsID	rs2442776	3	11599127.0	G	1	1	1	GCST007692	2e-10	True	intron_variant	noncoding	VGLL4	rs2442776-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs1561073	rsID	rs1561073	3	11600640.0	T	1	1	1	GCST90244098	5e-20	True	intron_variant	noncoding	VGLL4	rs1561073-T	SNV	matched_position_and_reported_allele	T	A	1
+core_copd	rs11707641	rsID	rs11707641	3	12114388.0	T	1	1	1	GCST007692	3e-06	False	intron_variant	noncoding	SYN2	rs11707641-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs13073921	rsID	rs13073921	3	12613324.0	G	1	1	1	GCST90244098	3e-10	True	intron_variant	noncoding	RAF1	rs13073921-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs10865723	rsID	rs10865723	3	14286531.0	G	1	1	1	GCST90244098	7e-10	True	intron_variant	noncoding	LINC01267;LSM3	rs10865723-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	chr3:25479091	genomic_coordinate	chr3:25479091	3	25479091.0	A	1	1	1	GCST90399695	1e-09	True		unknown		chr3:25479091-A	SNV	matched_position_and_reported_allele	C	A	1
+core_copd	rs1529672	rsID	rs1529672	3	25479091.0	A;C	4	4	4	GCST004147;GCST007692;GCST90013709;GCST90018587	3e-11	True	intron_variant	noncoding	RARB	rs1529672-C	SNV	matched_position_and_reported_allele	C	A	1
+core_copd	rs1297795	rsID	rs1297795	3	25500500.0	G	1	1	1	GCST90244098	2.0000000000000002e-23	True	intron_variant	noncoding	RARB	rs1297795-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs11712723	rsID	rs11712723	3	25628675.0	A	1	1	1	GCST007692	1e-06	False	intron_variant	noncoding	TOP2B	rs11712723-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs17666332	rsID	rs17666332	3	29428184.0	T	1	1	1	GCST90244098	2e-27	True	intron_variant	noncoding	RBMS3	rs17666332-T	SNV	matched_position_and_reported_allele	T	G	1
+core_copd	rs13073544	rsID	rs13073544	3	29430921.0	C	1	1	1	GCST007692	2e-08	True	intron_variant	noncoding	RBMS3	rs13073544-C	SNV	matched_position_and_reported_allele	G	C	1
+core_copd	rs1873625	rsID	rs1873625	3	49629531.0	C	1	1	1	GCST90480254	2e-11	True	intron_variant	noncoding	BSN	rs1873625-C	SNV	matched_position_and_reported_allele	C	A	1
+core_copd	chr3:49635354	genomic_coordinate	chr3:49635354	3	49635354.0	G	1	1	1	GCST90476027	1e-18	True		unknown		chr3:49635354-G	unresolved	not_found_at_catalog_position			0
+core_copd	rs6809164	rsID	rs6809164	3	53678883.0	T	1	1	1	GCST90244098	7.000000000000001e-24	True	intron_variant	noncoding	CACNA1D	rs6809164-T	SNV	matched_position_and_reported_allele	T	G	1
+core_copd	rs17759204	rsID	rs17759204	3	55124197.0	A;G	2	2	2	GCST007692;GCST90244098	2e-25	True	intergenic_variant	noncoding	CACNA2D3;LINC02017	rs17759204-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs56115292	rsID	rs56115292	3	55558426.0	C	1	1	1	GCST90244098	2e-11	True	intron_variant	noncoding	ERC2	rs56115292-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	chr3:57060652	genomic_coordinate	chr3:57060652	3	57060652.0	G	1	1	1	GCST90103984	4e-08	True		unknown		chr3:57060652-G	unresolved	not_found_at_catalog_position			0
+core_copd	rs62259026	rsID	rs62259026	3	57760788.0	C	1	1	1	GCST007692	2e-08	True	intron_variant	noncoding	SLMAP	rs62259026-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs17058639	rsID	rs17058639	3	57896874.0	C	1	1	1	GCST90244098	1e-31	True	splice_region_variant	splice	SLMAP	rs17058639-C	unresolved	not_found_at_catalog_position			0
+core_copd	chr3:71523285	genomic_coordinate	chr3:71523285	3	71523285.0	G	1	1	1	GCST90476027	4e-12	True		unknown		chr3:71523285-G	unresolved	not_found_at_catalog_position			0
+core_copd	rs586936	rsID	rs586936	3	73813465.0	G	1	1	1	GCST90244098	8e-15	True	intron_variant	noncoding	LINC02005	rs586936-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	chr3:75531363	genomic_coordinate	chr3:75531363	3	75531363.0	A	1	1	1	GCST90667889	5e-08	True		unknown		chr3:75531363-A	unresolved	not_found_at_catalog_position			0
+core_copd	rs17834371	rsID	rs17834371	3	99684886.0	G	1	1	1	GCST90244098	1e-09	True	intron_variant	noncoding	COL8A1	rs17834371-G	unresolved	not_found_at_catalog_position			0
+core_copd	rs41271357	rsID	rs41271357	3	113285246.0	G	1	1	1	GCST90244098	1e-08	True	intron_variant	noncoding	BOC	rs41271357-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs138812427	rsID	rs138812427	3	119267961.0	C	1	1	1	GCST90244098	1e-08	True	intron_variant	noncoding	B4GALT4-AS1	rs138812427-C	unresolved	not_found_at_catalog_position			0
+core_copd	rs4093840	rsID	rs4093840	3	123358195.0	A	1	1	1	GCST007692	4e-10	True	intron_variant	noncoding	ADCY5	rs4093840-A	SNV	matched_position_and_reported_allele	T	A	1
+core_copd	rs2062432	rsID	rs2062432	3	123359232.0	G	3	3	1	GCST90016588;GCST90016591;GCST90016594	7e-09	True	intron_variant	noncoding	ADCY5	rs2062432-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs2955133	rsID	rs2955133	3	128226479.0	T	1	1	1	GCST90244098	5.0000000000000005e-37	True	intron_variant	noncoding	EEFSEC	rs2955133-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs2955083	rsID	rs2955083	3	128242335.0	A;T	6	6	3	GCST004147;GCST007692;GCST90016586;GCST90016589;GCST90016591;GCST90016594	4e-15	True	intron_variant	noncoding	EEFSEC	rs2955083-A	SNV	matched_position_and_reported_allele	T	A	1
+core_copd	rs558711972	rsID	rs558711972	3	132826025.0	A	1	1	1	GCST90244098	6e-10	True	intron_variant	noncoding	NPHP3-AS1	rs558711972-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	chr3:136123775	genomic_coordinate	chr3:136123775	3	136123775.0	A	1	1	1	GCST90476027	9e-12	True		unknown		chr3:136123775-A	unresolved	not_found_at_catalog_position			0
+core_copd	rs6763931	rsID	rs6763931	3	141383991.0	G	1	1	1	GCST90244098	7e-10	True	intron_variant	noncoding	ZBTB38	rs6763931-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs7650602	rsID	rs7650602	3	141428572.0	C	5	5	2	GCST007692;GCST90016586;GCST90016589;GCST90016591;GCST90016594	8e-09	True	intron_variant	noncoding	ZBTB38	rs7650602-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs35612054	rsID	rs35612054	3	156567721.0	T	1	1	1	GCST90018807	3e-08	True	intergenic_variant	noncoding	SSR3;TIPARP-AS1	rs35612054-T	unresolved	not_found_at_catalog_position			0
+core_copd	rs8792	rsID	rs8792	3	156747639.0	A	1	1	1	GCST90244098	3e-13	True	intron_variant	noncoding	TIPARP-AS1	rs8792-A	SNV	matched_position_and_reported_allele	A	C	1
+core_copd	chr3:158137609	genomic_coordinate	chr3:158137609	3	158137609.0	CAA	1	1	1	GCST90244098	3e-08	True		unknown		chr3:158137609-CAA	unresolved	not_found_at_catalog_position			0
+core_copd	rs117801951	rsID	rs117801951	3	158758369.0		1	1	1	GCST011793	1e-06	False	intron_variant	noncoding	MFSD1	rs117801951-?	SNV	matched_position	A	G	1
+core_copd	rs1799807	rsID	rs1799807	3	165830741.0	T	1	1	1	GCST90244098	2e-09	True	missense_variant	coding	BCHE;LINC01322	rs1799807-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs879394	rsID	rs879394	3	168992055.0	G;T	2	2	2	GCST90244098;GCST90399695	7.999999999999998e-32	True	intergenic_variant	noncoding	LINC01997;LINC02082	rs879394-G	SNV	matched_position_and_reported_allele	G	T	1
+core_copd	rs7642001	rsID	rs7642001	3	169028357.0	A	1	1	1	GCST007692	1e-14	True	intron_variant	noncoding	LINC01997	rs7642001-A	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs1420472	rsID	rs1420472	3	169058538.0	T	6	6	2	GCST90016588;GCST90016591;GCST90016593;GCST90016594;GCST90103984;GCST90103985	3e-11	True	intron_variant	noncoding	LINC01997;MECOM	rs1420472-T	SNV	matched_position_and_reported_allele	G	T	1
+core_copd	rs11721111	rsID	rs11721111	3	169587629.0	T	1	1	1	GCST007692	8e-06	False	intron_variant	noncoding	MECOM	rs11721111-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs7636026	rsID	rs7636026	3	172096231.0	A	1	1	1	GCST90244098	3e-09	True	intron_variant	noncoding	FNDC3B	rs7636026-A	SNV	matched_position_and_reported_allele	A	T	1
+core_copd	rs76594178	rsID	rs76594178	3	177262600.0		1	1	1	GCST011793	9e-06	False	intron_variant	noncoding	LINC00501;TBL1XR1	rs76594178-?	SNV	matched_position	G	A	1
+core_copd	rs73182224	rsID	rs73182224	3	186365694.0	G	1	1	1	GCST90244098	5e-16	True	regulatory_region_variant	noncoding	DGKG;LINC02020	rs73182224-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs1165651	rsID	rs1165651	3	193879024.0	T	1	1	1	GCST90244098	5e-10	True	intron_variant	noncoding	LINC02026;LINC02038	rs1165651-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs3135877	rsID	rs3135877	4	1802549.0	G	1	1	1	GCST90244098	2e-08	True	intron_variant	noncoding	FGFR3	rs3135877-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs4488938	rsID	rs4488938	4	7849176.0	G	1	1	1	GCST90018807	1e-08	True	intron_variant	noncoding	AFAP1	rs4488938-G	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs6839086	rsID	rs6839086	4	7869528.0	T	1	1	1	GCST90399695	7e-10	True	intron_variant	noncoding	AFAP1	rs6839086-T	SNV	matched_position_and_reported_allele	G	T	1
+core_copd	rs9654093	rsID	rs9654093	4	7902036.0	G	1	1	1	GCST90244098	2e-15	True	intron_variant	noncoding	AFAP1	rs9654093-G	SNV	matched_position_and_reported_allele	G	C	1
+core_copd	rs149043197	rsID	rs149043197	4	13156043.0	C	1	1	1	GCST90244098	9e-09	True	intergenic_variant	noncoding	HSP90AB2P;U6	rs149043197-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs12500587	rsID	rs12500587	4	15579131.0	T	1	1	1	GCST90244098	9e-09	True	intron_variant	noncoding	CC2D2A	rs12500587-T	SNV	matched_position_and_reported_allele	T	G	1
+core_copd	rs115503647	rsID	rs115503647	4	36270218.0	A	1	1	1	GCST90244098	4e-09	True	intron_variant	noncoding	ARAP2;DTHD1	rs115503647-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs4864822	rsID	rs4864822	4	53785811.0	A	1	1	1	GCST90244098	7e-11	True	intron_variant	noncoding	LNX1;RPL21P44	rs4864822-A	SNV	matched_position_and_reported_allele	A	C	1
+core_copd	rs35799962	rsID	rs35799962	4	55669653.0	T	1	1	1	GCST90244098	1e-08	True	intron_variant	noncoding	NMU;RNU6-276P	rs35799962-T	SNV	matched_position_and_reported_allele	T	A	1
+core_copd	rs7679934	rsID	rs7679934	4	63204859.0	G	1	1	1	GCST90244098	1e-08	True	intergenic_variant	noncoding	EXOC5P1;LARP1BP1	rs7679934-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	chr4:67820916	genomic_coordinate	chr4:67820916	4	67820916.0	G	1	1	1	GCST90476027	6e-15	True		unknown		chr4:67820916-G	unresolved	not_found_at_catalog_position			0
+core_copd	rs4585380	rsID	rs4585380	4	74748153.0	G	1	1	1	GCST007692	3e-09	True	splice_region_variant	splice	BTC	rs4585380-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs35926103	rsID	rs35926103	4	74750496.0	G	2	2	1	GCST90016591;GCST90016594	6e-09	True	intron_variant	noncoding	BTC	rs35926103-G	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs11938093	rsID	rs11938093	4	74750631.0	A	2	2	2	GCST011766;GCST90244098	2e-27	True	missense_variant	coding	BTC	rs11938093-A	SNV	matched_position_and_reported_allele	A	T	1
+core_copd	rs4975128	rsID	rs4975128	4	78487450.0	G	1	1	1	GCST90244098	1e-10	True	intron_variant	noncoding	FRAS1	rs4975128-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs13110699	rsID	rs13110699	4	88894544.0	T	4	4	1	GCST90016588;GCST90016591;GCST90016593;GCST90016594	6e-10	True	intron_variant	noncoding	FAM13A	rs13110699-T	SNV	matched_position_and_reported_allele	T	G	1
+core_copd	rs2464523	rsID	rs2464523	4	88939696.0	C	1	1	1	GCST90244098	4e-37	True	intron_variant	noncoding	FAM13A	rs2464523-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	chr4:88943295	genomic_coordinate	chr4:88943295	4	88943295.0	T	1	1	1	GCST90399695	7e-12	True		unknown		chr4:88943295-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs1246642	rsID	rs1246642	4	88943295.0	T	1	1	1	GCST90018807	4e-09	True	intron_variant	noncoding	FAM13A	rs1246642-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs4416442	rsID	rs4416442	4	88945562.0	C	3	3	2	GCST002350;GCST002351;GCST90162551	9e-15	True	intron_variant	noncoding	FAM13A	rs4416442-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs2869966	rsID	rs2869966	4	88947927.0	T	1	1	1	GCST002624	7e-10	True	intron_variant	noncoding	FAM13A	rs2869966-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs2045517	rsID	rs2045517	4	88949813.0	T	1	1	1	GCST90103985	9e-09	True	intron_variant	noncoding	FAM13A	rs2045517-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs7674369	rsID	rs7674369	4	88951025.0	A	1	1	1	GCST002795	1e-10	True	intron_variant	noncoding	FAM13A	rs7674369-A	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs6837671	rsID	rs6837671	4	88951941.0	G	1	1	1	GCST004147	7e-15	True	intron_variant	noncoding	FAM13A	rs6837671-G	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs1964516	rsID	rs1964516	4	88954758.0		1	1	1	GCST001321	2e-09	True	intron_variant	noncoding	FAM13A	rs1964516-?	SNV	matched_position	C	T	1
+core_copd	rs1585258	rsID	rs1585258	4	88958045.0	T	2	2	2	GCST90013709;GCST90018587	3e-09	True	intron_variant	noncoding	FAM13A	rs1585258-T	SNV	matched_position_and_reported_allele	G	T	1
+core_copd	rs7671261	rsID	rs7671261	4	88962667.0	A	1	1	1	GCST007692	1e-18	True	intron_variant	noncoding	FAM13A	rs7671261-A	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs7671167	rsID	rs7671167	4	88962828.0		1	1	1	GCST000603	1e-11	True	intron_variant	noncoding	FAM13A	rs7671167-?	SNV	matched_position	C	T	1
+core_copd	rs1903003	rsID	rs1903003	4	88965146.0	T	2	2	1	GCST90103984;GCST90103985	5e-09	True	intron_variant	noncoding	FAM13A	rs1903003-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs58706659	rsID	rs58706659	4	100187719.0	GT	1	1	1	GCST90244098	7e-09	True	frameshift_variant	coding	DDIT4L;H2AZ1-DT	rs58706659-GT	unresolved	not_found_at_catalog_position			0
+core_copd	rs7679673	rsID	rs7679673	4	105140377.0	A	3	3	1	GCST90016586;GCST90016588;GCST90016589	4e-09	True	intron_variant	noncoding	RNU6-351P;TET2	rs7679673-A	SNV	matched_position_and_reported_allele	C	A	1
+core_copd	rs6533183	rsID	rs6533183	4	105212027.0	C	2	2	1	GCST90016591;GCST90016594	7e-13	True	intron_variant	noncoding	TET2;TET2-AS1	rs6533183-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs2047409	rsID	rs2047409	4	105215876.0	A	2	2	2	GCST004147;GCST007692	2e-19	True	intron_variant	noncoding	TET2;TET2-AS1	rs2047409-A	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs2454206	rsID	rs2454206	4	105275794.0	G	1	1	1	GCST011766	2e-10	True	missense_variant	coding	TET2;TET2-AS1	rs2454206-G	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs17035917	rsID	rs17035917	4	105599585.0	C	1	1	1	GCST004147	3e-10	True	intron_variant	noncoding	ARHGEF38	rs17035917-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs11727735	rsID	rs11727735	4	105710713.0	A	1	1	1	GCST004147	4e-14	True	intron_variant	noncoding	GSTCD;INTS12	rs11727735-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs72673891	rsID	rs72673891	4	105893145.0	A	1	1	1	GCST007692	5e-15	True	intergenic_variant	noncoding	INTS12	rs72673891-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	chr4:105897896	genomic_coordinate	chr4:105897896	4	105897896.0	A	1	1	1	GCST90399695	8e-10	True		unknown		chr4:105897896-A	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs34712979	rsID	rs34712979	4	105897896.0	A;G	9	9	4	GCST007692;GCST90016586;GCST90016588;GCST90016589;GCST90016591;GCST90016594;GCST90103984;GCST90103985;GCST90244098	6e-161	True	splice_region_variant	splice	NPNT	rs34712979-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	chr4:106819053	genomic_coordinate	chr4:106819053	4	106819053.0	G	1	1	1	GCST90476027	3e-11	True		unknown		chr4:106819053-G	unresolved	not_found_at_catalog_position			0
+core_copd	rs13101469	rsID	rs13101469	4	123900578.0	A	1	1	1	GCST90244098	5e-19	True	intron_variant	noncoding	LINC01091	rs13101469-A	SNV	matched_position_and_reported_allele	A	T	1
+core_copd	rs7655841	rsID	rs7655841	4	128969635.0		1	1	1	GCST002351	7e-07	False	intron_variant	noncoding	SCLT1	rs7655841-?	SNV	matched_position	T	C	1
+core_copd	chr4:134999806	genomic_coordinate	chr4:134999806	4	134999806.0	CT	1	1	1	GCST90244098	3e-08	True		unknown		chr4:134999806-CT	unresolved	not_found_at_catalog_position			0
+core_copd	rs13109980	rsID	rs13109980	4	139965809.0	G	1	1	1	GCST90244098	4e-08	True	intron_variant	noncoding	MAML3	rs13109980-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	chr4:140269606	genomic_coordinate	chr:4:140269606	4	140269606.0	CA	1	1	1	GCST90244098	8e-12	True		unknown		chr:4:140269606-CA	unresolved	not_found_at_catalog_position			0
+core_copd	rs151025055	rsID	rs151025055	4	143753833.0	T	2	2	1	GCST90016586;GCST90016589	1e-09	True	intron_variant	noncoding	GUSBP5	rs151025055-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs11727524	rsID	rs11727524	4	143877448.0	C	2	2	1	GCST90016591;GCST90016594	5e-10	True	intron_variant	noncoding	GUSBP5;GYPE	rs11727524-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs13105210	rsID	rs13105210	4	144341775.0	C	1	1	1	GCST002795	9e-08	False	intron_variant	noncoding	GUSBP5	rs13105210-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs6537279	rsID	rs6537279	4	144353887.0	A	1	1	1	GCST007692	6e-26	True	intron_variant	noncoding	GUSBP5;KRT18P51	rs6537279-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs12510916	rsID	rs12510916	4	144451096.0	C	1	1	1	GCST002795	1e-07	False	intron_variant	noncoding	GUSBP5;KRT18P51	rs12510916-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs138641402	rsID	rs138641402	4	144524627.0	A	1	1	1	GCST002624	4e-09	True	intron_variant	noncoding	GUSBP5;KRT18P51	rs138641402-A	SNV	matched_position_and_reported_allele	A	T	1
+core_copd	rs35679104	rsID	rs35679104	4	144528374.0	GAT	1	1	1	GCST90018807	2e-11	True	intron_variant	noncoding	GUSBP5;KRT18P51	rs35679104-GAT	unresolved	not_found_at_catalog_position			0
+core_copd	rs1489762	rsID	rs1489762	4	144533812.0	T	1	1	1	GCST90480254	4e-17	True	intron_variant	noncoding	GUSBP5;KRT18P51	rs1489762-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs6828540	rsID	rs6828540	4	144542079.0	A;G	2	2	2	GCST90103984;GCST90244098	7e-101	True	intron_variant	noncoding	GUSBP5;KRT18P51	rs6828540-G	unresolved	not_found_at_catalog_position			0
+core_copd	rs6537293	rsID	rs6537293	4	144558609.0	G	5	5	1	GCST90016586;GCST90016588;GCST90016589;GCST90016591;GCST90016594	1e-37	True	intron_variant	noncoding	GUSBP5;KRT18P51	rs6537293-G	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs1828591	rsID	rs1828591	4	144559628.0		1	1	1	GCST000359	1e-07	False	intron_variant	noncoding	GUSBP5;KRT18P51	rs1828591-?	SNV	matched_position	A	G	1
+core_copd	rs13118928	rsID	rs13118928	4	144565237.0		1	1	1	GCST000603	5e-07	False	intron_variant	noncoding	GUSBP5;KRT18P51	rs13118928-?	SNV	matched_position	A	G	1
+core_copd	rs13140176	rsID	rs13140176	4	144567946.0	A	1	1	1	GCST007692	4e-59	True	intron_variant	noncoding	GUSBP5;KRT18P51	rs13140176-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs6817273	rsID	rs6817273	4	144570851.0	C	1	1	1	GCST90103985	4e-21	True	intron_variant	noncoding	GUSBP5;KRT18P51	rs6817273-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	chr4:144585304	genomic_coordinate	chr4:144585304	4	144585304.0	C	1	1	1	GCST90667889	3e-16	True		unknown		chr4:144585304-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs13141641	rsID	rs13141641	4	144585304.0	C;T	7	7	6	GCST001321;GCST002350;GCST002351;GCST004147;GCST90162551;GCST90399695;GCST90476027	9e-41	True	intron_variant	noncoding	HHIP-AS1;KRT18P51	rs13141641-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs11734405	rsID	rs11734405	4	145159944.0	C	3	3	1	GCST90016588;GCST90016591;GCST90016594	3e-08	True	intron_variant	noncoding	OTUD4	rs11734405-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs2679144	rsID	rs2679144	4	146373976.0	A	1	1	1	GCST90244098	5e-10	True	intron_variant	noncoding	SLC10A7	rs2679144-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs62325150	rsID	rs62325150	4	153806965.0	T	1	1	1	GCST90244098	1e-08	True	intron_variant	noncoding	DCHS2;SFRP2	rs62325150-T	SNV	matched_position_and_reported_allele	T	G	1
+core_copd	chr4:157701845	genomic_coordinate	chr4:157701845	4	157701845.0		2	2	1	GCST90854220;GCST90854221	3e-08	True		unknown		chr4:157701845-?	SNV	matched_position	A	T	1
+core_copd	rs113990608	rsID	rs113990608	4	176784106.0	C	1	1	1	GCST90244098	4e-08	True	intron_variant	noncoding	VEGFC	rs113990608-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs4862451	rsID	rs4862451	4	184868841.0	G	1	1	1	GCST011435	7e-06	False	intergenic_variant	noncoding	LINC01093;MIR3945HG	rs4862451-G	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs138707310	rsID	rs138707310	5	595107.0	C	1	1	1	GCST90244098	3e-17	True	intron_variant	noncoding	CEP72-DT	rs138707310-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs1031006	rsID	rs1031006	5	13986994.0	A	1	1	1	GCST90244098	2e-09	True	non_coding_transcript_exon_variant	noncoding	DNAH5	rs1031006-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs536695586	rsID	rs536695586	5	30913328.0	T	1	1	1	GCST90244098	7e-15	True	non_coding_transcript_exon_variant	noncoding	HPRT1P2;RPL19P11	rs536695586-T	unresolved	not_found_at_catalog_position			0
+core_copd	rs7709630	rsID	rs7709630	5	31916265.0		1	1	1	GCST005417	2e-08	True	intron_variant	noncoding	PDZD2	rs7709630-?	SNV	matched_position	T	C	1
+core_copd	rs79904209	rsID	rs79904209	5	43484155.0	C	1	1	1	GCST90244098	3e-24	True	intron_variant	noncoding	C5orf34-AS1;TMEM267	rs79904209-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	chr5:45214699	genomic_coordinate	chr5:45214699	5	45214699.0	T	1	1	1	GCST90476027	4e-13	True		unknown		chr5:45214699-T	unresolved	not_found_at_catalog_position			0
+core_copd	rs1551943	rsID	rs1551943	5	52899203.0	A	1	1	1	GCST007692	6e-10	True	intron_variant	noncoding	ITGA1	rs1551943-A	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs6889076	rsID	rs6889076	5	55187420.0	C	1	1	1	GCST90244098	4e-08	True	regulatory_region_variant	noncoding	CDC20B;MCIDAS	rs6889076-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs41533344	rsID	rs41533344	5	64585124.0	G	1	1	1	GCST90244098	2e-08	True	intron_variant	noncoding	RGS7BP	rs41533344-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs34651	rsID	rs34651	5	72848178.0	C	1	1	1	GCST007692	3e-08	True	5_prime_UTR_variant	noncoding	TNPO1	rs34651-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs115243197	rsID	rs115243197	5	73857727.0	G	1	1	1	GCST90244098	2e-10	True	missense_variant	coding	ARHGEF28	rs115243197-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs7710706	rsID	rs7710706	5	75047944.0		1	1	1	GCST90827700	5e-06	False	5_prime_UTR_variant	noncoding	GCNT4	rs7710706-?	SNV	matched_position	G	A	1
+core_copd	rs1862227	rsID	rs1862227	5	79118409.0		1	1	1	GCST90652124	4e-07	False	intron_variant	noncoding	BHMT;DMGDH	rs1862227-?	SNV	matched_position	G	C	1
+core_copd	rs153916	rsID	rs153916	5	95700996.0	T	1	1	1	GCST007692	6e-10	True	intergenic_variant	noncoding	RHOBTB3;SPATA9	rs153916-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs780861811	rsID	rs780861811	5	95702216.0	AAC	1	1	1	GCST90244098	7e-19	True	intron_variant	noncoding	RHOBTB3;SPATA9	rs780861811-AAC	unresolved	not_found_at_catalog_position			0
+core_copd	rs326479	rsID	rs326479	5	98948530.0	C	1	1	1	GCST90244098	2e-09	True	intron_variant	noncoding	CHD1-DT	rs326479-C	SNV	matched_position_and_reported_allele	C	G	1
+core_copd	chr5:109217428	genomic_coordinate	chr5:109217428	5	109217428.0	G	1	1	1	GCST90476027	4e-11	True		unknown		chr5:109217428-G	unresolved	not_found_at_catalog_position			0
+core_copd	rs1837253	rsID	rs1837253	5	111066174.0	T	1	1	1	GCST90244098	3e-09	True	intron_variant	noncoding	BCLAF1P1;TSLP	rs1837253-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs347551	rsID	rs347551	5	120053336.0	C	1	1	1	GCST90244098	2e-11	True	intron_variant	noncoding	RNU6-718P;TUBAP15	rs347551-C	SNV	matched_position_and_reported_allele	C	G	1
+core_copd	rs6862391	rsID	rs6862391	5	120869877.0	G	1	1	1	GCST90244098	2e-13	True	intergenic_variant	noncoding	RNU4-69P;RPL23AP44	rs6862391-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs10519694	rsID	rs10519694	5	122071524.0	C	1	1	1	GCST90244098	4e-16	True	intron_variant	noncoding	LOX;SRFBP1	rs10519694-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs711363	rsID	rs711363	5	127665186.0	T	1	1	1	GCST90244098	4e-12	True	intergenic_variant	noncoding	CCDC192;CTXN3	rs711363-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs7700595	rsID	rs7700595	5	129431382.0	A	1	1	1	GCST90244098	1e-20	True	intron_variant	noncoding	ADAMTS19-AS1	rs7700595-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs10076733	rsID	rs10076733	5	132425039.0	T	1	1	1	GCST007692	4e-07	False	intron_variant	noncoding	CARINH;LINC02863	rs10076733-T	SNV	matched_position_and_reported_allele	G	T	1
+core_copd	rs2158101	rsID	rs2158101	5	132433581.0	A	1	1	1	GCST90103984	2e-12	True	intron_variant	noncoding	CARINH	rs2158101-A	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs11389441	rsID	rs11389441	5	132441651.0	A	1	1	1	GCST90244098	3e-18	True	intron_variant	noncoding	CARINH;IRF1	rs11389441-A	unresolved	not_found_at_catalog_position			0
+core_copd	rs59041913	rsID	rs59041913	5	132452443.0	T	2	2	1	GCST90016591;GCST90016594	5e-06	False	intron_variant	noncoding	CARINH;IRF1	rs59041913-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	chr5:132473613	genomic_coordinate	chr5:132473613	5	132473613.0	C	1	1	1	GCST90399695	1e-11	True		unknown		chr5:132473613-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs4705987	rsID	rs4705987	5	133041218.0	A	1	1	1	GCST90244098	1e-15	True	intron_variant	noncoding	HSPA4;ZCCHC10	rs4705987-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs57079115	rsID	rs57079115	5	133046580.0	T	2	2	1	GCST90016591;GCST90016594	5e-06	False	intron_variant	noncoding	HSPA4;ZCCHC10	rs57079115-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs62375246	rsID	rs62375246	5	133103318.0	A	1	1	1	GCST007692	2e-08	True	intron_variant	noncoding	HSPA4	rs62375246-A	unresolved	not_found_at_catalog_position			0
+core_copd	rs254431	rsID	rs254431	5	142389810.0	G	1	1	1	GCST90244098	1e-09	True	intron_variant	noncoding	SPRY4-AS1	rs254431-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	chr5:147840112	genomic_coordinate	chr5:147840112	5	147840112.0	C	1	1	1	GCST90476027	1e-15	True		unknown		chr5:147840112-C	unresolved	not_found_at_catalog_position			0
+core_copd	rs10043775	rsID	rs10043775	5	148425557.0	T	1	1	1	GCST011766	2e-13	True	missense_variant	coding	FBXO38	rs10043775-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs10037493	rsID	rs10037493	5	148475407.0	C;T	3	3	3	GCST007692;GCST90103984;GCST90244098	1e-117	True	intron_variant	noncoding	HTR4	rs10037493-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs11168049	rsID	rs11168049	5	148475701.0	C	1	1	1	GCST90399695	1e-08	True	intron_variant	noncoding	HTR4	rs11168049-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs6580550	rsID	rs6580550	5	148476669.0	C	1	1	1	GCST90103985	1e-09	True	intron_variant	noncoding	HTR4	rs6580550-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs7733088	rsID	rs7733088	5	148476770.0	G	1	1	1	GCST004147	4.9999999999999996e-26	True	intron_variant	noncoding	HTR4	rs7733088-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs7733410	rsID	rs7733410	5	148476959.0	A	6	6	1	GCST90016586;GCST90016588;GCST90016589;GCST90016591;GCST90016593;GCST90016594	4e-17	True	intron_variant	noncoding	HTR4	rs7733410-A	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs35684381	rsID	rs35684381	5	148823673.0	T	1	1	1	GCST007692	3e-07	False	intron_variant	noncoding	ADRB2;HTR4	rs35684381-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs1800888	rsID	rs1800888	5	148827322.0	T	1	1	1	GCST011766	9e-13	True	missense_variant	coding	ADRB2	rs1800888-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs1975340	rsID	rs1975340	5	149232060.0	A	1	1	1	GCST007692	4e-06	False	intron_variant	noncoding	ABLIM3	rs1975340-A	SNV	matched_position_and_reported_allele	C	A	1
+core_copd	rs11952673	rsID	rs11952673	5	149272739.0	G	1	1	1	GCST90244098	5e-13	True	intron_variant	noncoding	AFAP1L1	rs11952673-G	SNV	matched_position_and_reported_allele	G	T	1
+core_copd	rs353233	rsID	rs353233	5	149453732.0	G	1	1	1	GCST007692	8e-06	False	regulatory_region_variant	noncoding	CARMN;CSNK1A1	rs353233-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs1469042	rsID	rs1469042	5	149777751.0	A	1	1	1	GCST90244098	3e-09	True	intron_variant	noncoding	PPARGC1B	rs1469042-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs979453	rsID	rs979453	5	151215512.0	G	5	5	2	GCST007692;GCST90016586;GCST90016589;GCST90016591;GCST90016594	4e-10	True	intron_variant	noncoding	CCDC69;GM2A	rs979453-G	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs55894958	rsID	rs55894958	5	151219204.0	G	1	1	1	GCST90244098	5e-18	True	intron_variant	noncoding	CCDC69;GM2A	rs55894958-G	SNV	matched_position_and_reported_allele	G	C	1
+core_copd	chr5:152610222	genomic_coordinate	chr5:152610222	5	152610222.0	A	1	1	1	GCST90476027	3e-12	True		unknown		chr5:152610222-A	unresolved	not_found_at_catalog_position			0
+core_copd	rs10038124	rsID	rs10038124	5	156427856.0		1	1	1	GCST90827700	1e-05	False	intron_variant	noncoding	SGCD	rs10038124-?	SNV	matched_position	C	T	1
+core_copd	rs2287749	rsID	rs2287749	5	157491842.0	C	1	1	1	GCST011766	4e-09	True	missense_variant	coding	ADAM19	rs2287749-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs1990950	rsID	rs1990950	5	157493748.0	G	1	1	1	GCST90244098	2e-50	True	intron_variant	noncoding	ADAM19	rs1990950-G	SNV	matched_position_and_reported_allele	G	T	1
+core_copd	rs113897301	rsID	rs113897301	5	157502070.0	A_T	1	1	1	GCST004147	2e-13	True	intron_variant	noncoding	ADAM19	rs113897301-A_T	unresolved	not_found_at_catalog_position			0
+core_copd	rs112325689	rsID	rs112325689	5	157504844.0	AGCCGG	2	2	1	GCST90103984;GCST90103985	8e-12	True	intron_variant	noncoding	ADAM19	rs112325689-AGCCGG	unresolved	not_found_at_catalog_position			0
+core_copd	rs2277027	rsID	rs2277027	5	157505368.0	C	4	4	1	GCST90016586;GCST90016589;GCST90016591;GCST90016594	6e-15	True	intron_variant	noncoding	ADAM19	rs2277027-C	SNV	matched_position_and_reported_allele	A	C	1
+core_copd	rs1422795	rsID	rs1422795	5	157509356.0	C	1	1	1	GCST011766	2e-17	True	missense_variant	coding	ADAM19	rs1422795-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs10866659	rsID	rs10866659	5	157510035.0	G	1	1	1	GCST007692	1e-16	True	intron_variant	noncoding	ADAM19	rs10866659-G	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs72811310	rsID	rs72811310	5	157521310.0	T	1	1	1	GCST007692	8e-10	True	intron_variant	noncoding	ADAM19	rs72811310-T	SNV	matched_position_and_reported_allele	T	G	1
+core_copd	rs11465228	rsID	rs11465228	5	157575687.0	T	1	1	1	GCST007692	6e-11	True	missense_variant	coding	ADAM19	rs11465228-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs11740603	rsID	rs11740603	5	157671748.0	T	1	1	1	GCST011766	1e-07	False	missense_variant	coding	C5orf52	rs11740603-T	SNV	matched_position_and_reported_allele	G	T	1
+core_copd	rs960028	rsID	rs960028	5	163270824.0		1	1	1	GCST90827700	1e-06	False	intron_variant	noncoding	CCNG1;MRPL57P6	rs960028-?	SNV	matched_position	A	G	1
+core_copd	rs768743370	rsID	rs768743370	5	170382998.0	GGA	1	1	1	GCST90244098	6e-09	True	3_prime_UTR_variant	noncoding	KCNIP1;KCNMB1	rs768743370-GGA	unresolved	not_found_at_catalog_position			0
+core_copd	rs10059996	rsID	rs10059996	5	171474459.0	T	1	1	1	GCST90244098	5e-34	True	intron_variant	noncoding	FGF18;SMIM23	rs10059996-T	SNV	matched_position_and_reported_allele	T	G	1
+core_copd	rs12519165	rsID	rs12519165	5	171474582.0	A	5	5	2	GCST007692;GCST90016586;GCST90016589;GCST90016591;GCST90016594	5e-10	True	intron_variant	noncoding	FGF18;SMIM23	rs12519165-A	SNV	matched_position_and_reported_allele	A	T	1
+core_copd	rs10054063	rsID	rs10054063	5	173965395.0	A	1	1	1	GCST90244098	5e-11	True	non_coding_transcript_exon_variant	noncoding	C5orf47;CPEB4	rs10054063-A	SNV	matched_position_and_reported_allele	A	T	1
+core_copd	chr5:176930171	genomic_coordinate	chr5:176930171	5	176930171.0	AGAG	1	1	1	GCST90244098	2e-10	True		unknown		chr5:176930171-AGAG	unresolved	not_found_at_catalog_position			0
+core_copd	rs79898473	rsID	rs79898473	5	180171771.0	T	1	1	1	GCST90244098	2e-25	True	intron_variant	noncoding	RASGEF1C	rs79898473-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs4960004	rsID	rs4960004	6	4579464.0	C	1	1	1	GCST90244098	4e-08	True	intron_variant	noncoding	KU-MEL-3;LINC02533	rs4960004-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs1294404	rsID	rs1294404	6	6734789.0	G	1	1	1	GCST90244098	1e-18	True	intron_variant	noncoding	BTF3P7;LY86	rs1294404-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs1294421	rsID	rs1294421	6	6742916.0	T	1	1	1	GCST007692	6e-07	False	intron_variant	noncoding	BTF3P7;LY86	rs1294421-T	SNV	matched_position_and_reported_allele	T	G	1
+core_copd	rs1334576	rsID	rs1334576	6	7211585.0	A	4	4	3	GCST007692;GCST011766;GCST90016591;GCST90016594	8e-10	True	missense_variant	coding	RREB1	rs1334576-A	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs2076295	rsID	rs2076295	6	7562999.0	T	2	2	2	GCST004147;GCST007692	4e-09	True	intron_variant	noncoding	DSP	rs2076295-T	SNV	matched_position_and_reported_allele	T	G	1
+core_copd	rs11243202	rsID	rs11243202	6	7718832.0	C	1	1	1	GCST007692	6e-06	False	intergenic_variant	noncoding	BMP6;RPL29P1	rs11243202-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs71542879	rsID	rs71542879	6	7727930.0	C	1	1	1	GCST90244098	6e-10	True	intron_variant	noncoding	BMP6	rs71542879-C	unresolved	not_found_at_catalog_position			0
+core_copd	rs62398171	rsID	rs62398171	6	17898894.0	G	1	1	1	GCST90244098	2e-09	True	intron_variant	noncoding	KIF13A	rs62398171-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs9350191	rsID	rs9350191	6	19842430.0	C;T	2	2	2	GCST007692;GCST90244098	2e-18	True	intergenic_variant	noncoding	ID4;RPL29P17	rs9350191-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs6905736	rsID	rs6905736	6	19843536.0	C	5	5	1	GCST90016586;GCST90016588;GCST90016589;GCST90016591;GCST90016594	4e-13	True	intergenic_variant	noncoding	ID4;RPL29P17	rs6905736-C	SNV	matched_position_and_reported_allele	C	A	1
+core_copd	rs13198656	rsID	rs13198656	6	22004680.0	T	1	1	1	GCST007692	1e-09	True	intron_variant	noncoding	CASC15	rs13198656-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs4077636	rsID	rs4077636	6	22749672.0	G	1	1	1	GCST90244098	2e-19	True	intergenic_variant	noncoding	LINC03005;RPL6P18	rs4077636-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs13195509	rsID	rs13195509	6	26463432.0	A	1	1	1	GCST011766	3e-12	True	missense_variant	coding	BTN2A1	rs13195509-A	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs3799383	rsID	rs3799383	6	26510520.0	T	2	2	1	GCST90016591;GCST90016594	9e-09	True	intron_variant	noncoding	BTN1A1;RNU6-502P	rs3799383-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs9379882	rsID	rs9379882	6	26510848.0	T	2	2	1	GCST90016586;GCST90016589	3e-07	False	intron_variant	noncoding	BTN1A1;RNU6-502P	rs9379882-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs6923811	rsID	rs6923811	6	27321997.0	C	4	4	1	GCST90016586;GCST90016589;GCST90016591;GCST90016594	1e-10	True	intergenic_variant	noncoding	POM121L2;VN1R10P	rs6923811-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs17763089	rsID	rs17763089	6	27867440.0	A	3	3	1	GCST90016586;GCST90016588;GCST90016589	2e-06	False	synonymous_variant	coding	H1-5	rs17763089-A	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs61742093	rsID	rs61742093	6	27912204.0	G	1	1	1	GCST011766	6e-11	True	missense_variant	coding	OR2B2	rs61742093-G	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs13205211	rsID	rs13205211	6	28235278.0	G	2	2	1	GCST90016591;GCST90016594	1e-08	True	intergenic_variant	noncoding	ZKSCAN4;ZSCAN9	rs13205211-G	SNV	matched_position_and_reported_allele	T	G	1
+core_copd	rs2232423	rsID	rs2232423	6	28398374.0	G	1	1	1	GCST011766	2e-11	True	missense_variant	coding	ZSCAN12	rs2232423-G	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs1233578	rsID	rs1233578	6	28744470.0	G	5	5	1	GCST90016586;GCST90016588;GCST90016589;GCST90016591;GCST90016594	2e-11	True	intron_variant	noncoding	NOP56P1;RPSAP2	rs1233578-G	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs3749971	rsID	rs3749971	6	29374998.0	A	1	1	1	GCST011766	3e-11	True	missense_variant	coding	OR12D3;OR5V1	rs3749971-A	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs1233393	rsID	rs1233393	6	29581876.0	G	5	5	1	GCST90016586;GCST90016588;GCST90016589;GCST90016591;GCST90016594	2e-09	True	intron_variant	noncoding	GABBR1	rs1233393-G	SNV	matched_position_and_reported_allele	C	G	1
+core_copd	rs2523989	rsID	rs2523989	6	30110498.0	T	1	1	1	GCST011766	1e-10	True	missense_variant	coding	TRIM31;TRIM31-AS1	rs2523989-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs929156	rsID	rs929156	6	30171922.0	G	1	1	1	GCST011766	8e-08	False	missense_variant	coding	TRIM15	rs929156-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs2106072	rsID	rs2106072	6	30185586.0	A	2	2	1	GCST90016591;GCST90016594	3e-10	True	3_prime_UTR_variant	noncoding	TRIM26	rs2106072-A	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs2188100	rsID	rs2188100	6	30214106.0	A	2	2	1	GCST90016586;GCST90016589	2e-11	True	intergenic_variant	noncoding	HCG18;TRIM26	rs2188100-A	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs9262143	rsID	rs9262143	6	30685004.0	T	1	1	1	GCST011766	1e-13	True	missense_variant	coding	PPP1R18	rs9262143-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs1064627	rsID	rs1064627	6	30730764.0	G	5	5	1	GCST90016586;GCST90016588;GCST90016589;GCST90016591;GCST90016594	2e-16	True	intron_variant	noncoding	FLOT1	rs1064627-G	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs2284174	rsID	rs2284174	6	30745803.0	C	1	1	1	GCST007692	2e-21	True	intron_variant	noncoding	HCG20	rs2284174-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs2074506	rsID	rs2074506	6	30922706.0	G	1	1	1	GCST011766	3e-07	False	missense_variant	coding	VARS2	rs2074506-G	SNV	matched_position_and_reported_allele	G	T	1
+core_copd	rs7750641	rsID	rs7750641	6	31161533.0	T	1	1	1	GCST011766	1e-12	True	missense_variant	coding	TCF19	rs7750641-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs1631951	rsID	rs1631951	6	31337864.0	T	5	5	1	GCST90016586;GCST90016588;GCST90016589;GCST90016591;GCST90016594	2e-15	True	intron_variant	noncoding	HLA-B;LINC02571	rs1631951-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs4143333	rsID	rs4143333	6	31380742.0	G	1	1	1	GCST007692	2e-16	True	non_coding_transcript_exon_variant	noncoding	ZDHHC20P2	rs4143333-G	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs4947324	rsID	rs4947324	6	31560353.0		1	1	1	GCST011793	8e-06	False	non_coding_transcript_exon_variant	noncoding	LTA;NFKBIL1	rs4947324-?	SNV	matched_position	C	T	1
+core_copd	rs3101017	rsID	rs3101017	6	31765689.0	C	1	1	1	GCST011766	2e-14	True	missense_variant	coding	VWA7	rs3101017-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs2844456	rsID	rs2844456	6	31896897.0	C	2	2	1	GCST90016591;GCST90016594	7e-13	True	intron_variant	noncoding	EHMT2	rs2844456-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs3130288	rsID	rs3130288	6	32128224.0	A	2	2	1	GCST90016586;GCST90016589	2e-11	True	5_prime_UTR_variant	noncoding	ATF6B	rs3130288-A	SNV	matched_position_and_reported_allele	C	A	1
+core_copd	rs10947233	rsID	rs10947233	6	32156647.0		1	1	1	GCST90255361	1e-07	False	intron_variant	noncoding	PPT2;PPT2-EGFL8	rs10947233-?	SNV	matched_position	G	T	1
+core_copd	rs9391855	rsID	rs9391855	6	32182024.0	C	1	1	1	GCST90244098	3e-83	True	intron_variant	noncoding	AGER	rs9391855-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs2070600	rsID	rs2070600	6	32183666.0	C	3	3	3	GCST004147;GCST007692;GCST011766	1e-17	True	missense_variant	coding	AGER	rs2070600-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs7775397	rsID	rs7775397	6	32293475.0	G	1	1	1	GCST011766	3e-13	True	missense_variant	coding	TSBP1;TSBP1-AS1	rs7775397-G	SNV	matched_position_and_reported_allele	T	G	1
+core_copd	rs2395191	rsID	rs2395191	6	32479308.0	C	1	1	1	GCST90018807	9e-10	True	intron_variant	noncoding	HLA-DRB5;HLA-DRB9	rs2395191-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	chr6:32519337	genomic_coordinate	chr6:32519337	6	32519337.0		1	1	1	GCST90428863	6e-09	True		unknown		chr6:32519337-?	unresolved	not_found_at_catalog_position			0
+core_copd	rs9272456	rsID	rs9272456	6	32637778.0	A	1	1	1	GCST90399695	6e-14	True	intron_variant	noncoding	HLA-DQA1	rs9272456-A	SNV	matched_position_and_reported_allele	T	A	1
+core_copd	chr6:32640701	genomic_coordinate	chr6:32640701	6	32640701.0	C	1	1	1	GCST90667889	2e-09	True		unknown		chr6:32640701-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs1129740	rsID	rs1129740	6	32641328.0	A	1	1	1	GCST011766	1e-09	True	missense_variant	coding	HLA-DQA1	rs1129740-A	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs17843608	rsID	rs17843608	6	32652677.0	C	1	1	1	GCST90103985	6e-14	True	intergenic_variant	noncoding	HLA-DQA1;HLA-DQB1	rs17843608-C	SNV	matched_position_and_reported_allele	A	C	1
+core_copd	rs9273404	rsID	rs9273404	6	32659383.0	G	1	1	1	GCST007692	2e-11	True	intergenic_variant	noncoding	HLA-DQA1;HLA-DQB1	rs9273404-G	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs9273410	rsID	rs9273410	6	32659473.0	A	5	5	1	GCST90016586;GCST90016588;GCST90016589;GCST90016591;GCST90016594	2e-21	True	3_prime_UTR_variant	noncoding	HLA-DQB1	rs9273410-A	SNV	matched_position_and_reported_allele	C	A	1
+core_copd	rs3210176	rsID	rs3210176	6	32660073.0	C	1	1	1	GCST90103984	1e-11	True	3_prime_UTR_variant	noncoding	HLA-DQB1;HLA-DQB1-AS1	rs3210176-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs2621419	rsID	rs2621419	6	32773229.0		1	1	1	GCST011793	9e-06	False	intergenic_variant	noncoding	HLA-DOB;HLA-DQB2	rs2621419-?	SNV	matched_position	T	C	1
+core_copd	rs77418927	rsID	rs77418927	6	45577967.0	G	1	1	1	GCST90244098	1e-12	True	intron_variant	noncoding	RUNX2	rs77418927-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	chr6:48214753	genomic_coordinate	chr6:48214753	6	48214753.0	A	1	1	1	GCST90667889	3e-08	True		unknown		chr6:48214753-A	unresolved	not_found_at_catalog_position			0
+core_copd	rs9382100	rsID	rs9382100	6	52358413.0	T	1	1	1	GCST90244098	1e-08	True	intron_variant	noncoding	MCM3;PAQR8	rs9382100-T	SNV	matched_position_and_reported_allele	T	A	1
+core_copd	rs115830429	rsID	rs115830429	6	56375157.0	G	1	1	1	GCST90244098	7e-10	True	intron_variant	noncoding	COL21A1	rs115830429-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs2818103	rsID	rs2818103	6	67666003.0		1	1	1	GCST011794	6e-07	False	intergenic_variant	noncoding	ERVH-3;Y_RNA	rs2818103-?	SNV	matched_position	T	C	1
+core_copd	rs9354627	rsID	rs9354627	6	67751094.0		1	1	1	GCST011794	7e-06	False	intergenic_variant	noncoding	ERVH-3;Y_RNA	rs9354627-?	SNV	matched_position	G	A	1
+core_copd	rs9351958	rsID	rs9351958	6	72951287.0	G	1	1	1	GCST90244098	4e-18	True	intron_variant	noncoding	KCNQ5	rs9351958-G	SNV	matched_position_and_reported_allele	G	C	1
+core_copd	rs1418591	rsID	rs1418591	6	77247099.0		1	1	1	GCST011793	1e-06	False	intron_variant	noncoding	HTR1B;LINC02540	rs1418591-?	SNV	matched_position	A	G	1
+core_copd	rs16891339	rsID	rs16891339	6	79937905.0	G	1	1	1	GCST004147	4e-06	False	intron_variant	noncoding	ELOVL4	rs16891339-G	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs56353819	rsID	rs56353819	6	90303148.0	C	1	1	1	GCST90244098	6e-20	True	intron_variant	noncoding	BACH2;MIR4464	rs56353819-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs2806356	rsID	rs2806356	6	108945052.0	C	7	7	3	GCST004147;GCST007692;GCST90016586;GCST90016588;GCST90016589;GCST90016591;GCST90016594	3e-15	True	intron_variant	noncoding	ARMC2	rs2806356-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs2798641	rsID	rs2798641	6	108946847.0	C	1	1	1	GCST90244098	3e-51	True	intron_variant	noncoding	ARMC2	rs2798641-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs674621	rsID	rs674621	6	116935855.0	C	1	1	1	GCST007692	8e-09	True	intergenic_variant	noncoding	RFX6;RPS29P13	rs674621-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs675495	rsID	rs675495	6	116936036.0	C	1	1	1	GCST90244098	5e-16	True	intergenic_variant	noncoding	RFX6;RPS29P13	rs675495-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs12664251	rsID	rs12664251	6	119023381.0	A	1	1	1	GCST90244098	4e-08	True	intron_variant	noncoding	FAM184A	rs12664251-A	SNV	matched_position_and_reported_allele	A	C	1
+core_copd	rs35586997	rsID	rs35586997	6	121441087.0	T	1	1	1	GCST90244098	2e-17	True	intron_variant	noncoding	GJA1	rs35586997-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs35772466	rsID	rs35772466	6	126819923.0	C	1	1	1	GCST90244098	1e-09	True	intron_variant	noncoding	RPS4XP9;RSPO3	rs35772466-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs12530176	rsID	rs12530176	6	130028330.0	G	1	1	1	GCST90244098	1e-08	True	intron_variant	noncoding	L3MBTL3	rs12530176-G	SNV	matched_position_and_reported_allele	G	T	1
+core_copd	rs646695	rsID	rs646695	6	139959261.0	C	1	1	1	GCST007692	5e-11	True	intron_variant	noncoding	FILNC1;LINC02941	rs646695-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs6928024	rsID	rs6928024	6	142229945.0	G	1	1	1	GCST007692	2e-11	True	intergenic_variant	noncoding	LINC02919;VTA1	rs6928024-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	chr6:142233527	genomic_coordinate	chr6:142233527	6	142233527.0	A	1	1	1	GCST90667889	4e-08	True		unknown		chr6:142233527-A	indel	matched_position_and_reported_allele	AC	A	1
+core_copd	chr6:142235574	genomic_coordinate	chr6:142235574	6	142235574.0	T	1	1	1	GCST90399695	2e-08	True		unknown		chr6:142235574-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs9399401	rsID	rs9399401	6	142347764.0	T	2	2	2	GCST004147;GCST007692	2e-40	True	intron_variant	noncoding	ADGRG6	rs9399401-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs17280293	rsID	rs17280293	6	142367832.0	A	1	1	1	GCST011766	8e-18	True	missense_variant	coding	ADGRG6	rs17280293-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs11155242	rsID	rs11155242	6	142370412.0	A	1	1	1	GCST011766	6e-26	True	missense_variant	coding	ADGRG6	rs11155242-A	SNV	matched_position_and_reported_allele	A	C	1
+core_copd	rs7753012	rsID	rs7753012	6	142424746.0	G;T	7	7	3	GCST90016586;GCST90016588;GCST90016589;GCST90016591;GCST90016594;GCST90103984;GCST90244098	3e-110	True	intron_variant	noncoding	ADGRG6	rs7753012-T	SNV	matched_position_and_reported_allele	T	G	1
+core_copd	rs9403391	rsID	rs9403391	6	142493854.0	C	1	1	1	GCST007692	4e-19	True	intergenic_variant	noncoding	ADGRG6;HIVEP2	rs9403391-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs262115	rsID	rs262115	6	142496270.0	C	1	1	1	GCST90103985	1e-11	True	intergenic_variant	noncoding	ADGRG6;HIVEP2	rs262115-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs798565	rsID	rs798565	7	2712518.0	A;G	4	4	2	GCST007692;GCST90016588;GCST90016591;GCST90016594	7e-10	True	synonymous_variant	coding	AMZ1	rs798565-A	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs2533872	rsID	rs2533872	7	2843370.0	G	1	1	1	GCST90244098	9e-10	True	intron_variant	noncoding	GNA12	rs2533872-G	SNV	matched_position_and_reported_allele	G	C	1
+core_copd	rs12534949	rsID	rs12534949	7	5209125.0		1	1	1	GCST90827700	4e-07	False	intron_variant	noncoding	WIPI2	rs12534949-?	SNV	matched_position	C	G	1
+core_copd	rs4318980	rsID	rs4318980	7	7216859.0	G	1	1	1	GCST90244098	8e-20	True	intron_variant	noncoding	C1GALT1	rs4318980-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs217554	rsID	rs217554	7	14866308.0	G	1	1	1	GCST90244098	2e-09	True	intron_variant	noncoding	DGKB	rs217554-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs17348974	rsID	rs17348974	7	15835234.0	C	1	1	1	GCST90244098	3e-11	True	intron_variant	noncoding	CRPPA;LINC02587	rs17348974-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs7806296	rsID	rs7806296	7	18304472.0	G	1	1	1	GCST90244098	3e-11	True	intron_variant	noncoding	HDAC9	rs7806296-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs2717329	rsID	rs2717329	7	19023152.0	G	1	1	1	GCST90244098	4e-13	True	intergenic_variant	noncoding	TWIST1	rs2717329-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs2040732	rsID	rs2040732	7	20378511.0	C	1	1	1	GCST007692	7e-09	True	intron_variant	noncoding	ITGB8	rs2040732-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs12700188	rsID	rs12700188	7	20378567.0	G	4	4	1	GCST90016586;GCST90016589;GCST90016591;GCST90016594	1e-10	True	intron_variant	noncoding	ITGB8	rs12700188-G	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs34759507	rsID	rs34759507	7	20379527.0	C	1	1	1	GCST90244098	5e-13	True	intron_variant	noncoding	ITGB8	rs34759507-C	unresolved	not_found_at_catalog_position			0
+core_copd	rs73089398	rsID	rs73089398	7	20908778.0	T	1	1	1	GCST90018807	3e-09	True	intron_variant	noncoding	LINC01162	rs73089398-T	SNV	matched_position_and_reported_allele	A	T	1
+core_copd	rs858249	rsID	rs858249	7	23181020.0	A	1	1	1	GCST002750	6e-08	False	intergenic_variant	noncoding	KLHL7;NUP42	rs858249-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs1841725	rsID	rs1841725	7	46402369.0	T	1	1	1	GCST90244098	4e-08	True	intergenic_variant	noncoding	HMGN1P19;ZNF619P1	rs1841725-T	SNV	matched_position_and_reported_allele	T	A	1
+core_copd	rs13246613	rsID	rs13246613	7	69523202.0	G	1	1	1	GCST90244098	7e-10	True	intergenic_variant	noncoding	CT66;Y_RNA	rs13246613-G	SNV	matched_position_and_reported_allele	G	C	1
+core_copd	rs17855988	rsID	rs17855988	7	74060495.0	G	1	1	1	GCST90244098	4e-08	True	missense_variant	coding	ELN;ELN-AS1	rs17855988-G	SNV	matched_position_and_reported_allele	G	C	1
+core_copd	rs12707676	rsID	rs12707676	7	84766127.0	C	1	1	1	GCST90244098	2e-10	True	intergenic_variant	noncoding	HMGN2P11;LINC03017	rs12707676-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs35922186	rsID	rs35922186	7	100006098.0	A	1	1	1	GCST90244098	9e-16	True	intron_variant	noncoding	AZGP1P1;ZKSCAN1	rs35922186-A	SNV	matched_position_and_reported_allele	A	T	1
+core_copd	rs2897075	rsID	rs2897075	7	100032719.0	C	1	1	1	GCST007692	7e-10	True	intron_variant	noncoding	ZKSCAN1	rs2897075-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs60470930	rsID	rs60470930	7	100221382.0	C	1	1	1	GCST90399695	1e-10	True	3_prime_UTR_variant	noncoding	CASTOR3P;PVRIG	rs60470930-C	unresolved	not_found_at_catalog_position			0
+core_copd	rs113993960	rsID	rs113993960	7	117559591.0		1	1	1	GCST90837486	1e-15	True	inframe_insertion	coding	CFTR	rs113993960-?	unresolved	not_found_at_catalog_position			0
+core_copd	rs3068114	rsID	rs3068114	7	121378714.0	T	1	1	1	GCST90244098	1e-09	True	intron_variant	noncoding	FAM3C	rs3068114-T	unresolved	not_found_at_catalog_position			0
+core_copd	rs1990790	rsID	rs1990790	7	130393789.0	C	1	1	1	GCST90244098	9e-09	True	3_prime_UTR_variant	noncoding	CEP41	rs1990790-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs1542309	rsID	rs1542309	7	134897113.0	T	1	1	1	GCST90244098	2e-08	True	intron_variant	noncoding	CALD1	rs1542309-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	chr7:139499034	genomic_coordinate	chr7:139499034	7	139499034.0	A	1	1	1	GCST90244098	4e-11	True		unknown		chr7:139499034-A	unresolved	not_found_at_catalog_position			0
+core_copd	rs1233556	rsID	rs1233556	7	155807723.0	T	1	1	1	GCST90244098	1e-09	True	intron_variant	noncoding	SHH	rs1233556-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs12698403	rsID	rs12698403	7	156334552.0	G	1	1	1	GCST90244098	2e-25	True	intergenic_variant	noncoding	RNF32-DT;Y_RNA	rs12698403-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs9329170	rsID	rs9329170	8	8840148.0	C	1	1	1	GCST007692	4e-10	True	intron_variant	noncoding	MFHAS1	rs9329170-C	SNV	matched_position_and_reported_allele	C	G	1
+core_copd	rs330927	rsID	rs330927	8	9144738.0	T	1	1	1	GCST90244098	1e-20	True	intron_variant	noncoding	PPP1R3B	rs330927-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs330934	rsID	rs330934	8	9156256.0	T	1	1	1	GCST90103984	4e-08	True	intergenic_variant	noncoding	PPP1R3B-DT	rs330934-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs330937	rsID	rs330937	8	9158972.0	G	1	1	1	GCST007692	4e-09	True	intergenic_variant	noncoding	PPP1R3B-DT	rs330937-G	SNV	matched_position_and_reported_allele	C	G	1
+core_copd	chr8:10855435	genomic_coordinate	chr8:10855435	8	10855435.0	T	1	1	1	GCST90399695	2e-08	True		unknown		chr8:10855435-T	SNV	matched_position_and_reported_allele	G	T	1
+core_copd	rs34944514	rsID	rs34944514	8	11394916.0	A	1	1	1	GCST90018807	2e-08	True	intron_variant	noncoding	FAM167A-AS1	rs34944514-A	SNV	matched_position_and_reported_allele	C	A	1
+core_copd	rs1729101	rsID	rs1729101	8	13332024.0	G	1	1	1	GCST90244098	5e-11	True	intron_variant	noncoding	DLC1	rs1729101-G	SNV	matched_position_and_reported_allele	G	C	1
+core_copd	rs28578171	rsID	rs28578171	8	17080532.0	G	1	1	1	GCST90244098	2e-11	True	intron_variant	noncoding	MICU3	rs28578171-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs28551649	rsID	rs28551649	8	18014110.0	A	1	1	1	GCST90244098	2e-10	True	intron_variant	noncoding	PCM1	rs28551649-A	SNV	matched_position_and_reported_allele	A	C	1
+core_copd	chr8:27407375	genomic_coordinate	chr8:27407375	8	27407375.0	C	1	1	1	GCST90476030	2e-11	True		unknown		chr8:27407375-C	unresolved	not_found_at_catalog_position			0
+core_copd	rs11783093	rsID	rs11783093	8	27567832.0	C	2	2	1	GCST90476027;GCST90480254	2.0000000000000003e-34	True	intron_variant	noncoding	GULOP	rs11783093-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	chr8:27583684	genomic_coordinate	chr8:27583684	8	27583684.0	TC	1	1	1	GCST90667889	2e-08	True		unknown		chr8:27583684-TC	indel	matched_position_and_reported_allele	T	TC	1
+core_copd	rs17058252	rsID	rs17058252	8	27917421.0	C	1	1	1	GCST90244098	4e-08	True	intron_variant	noncoding	SCARA5	rs17058252-C	SNV	matched_position_and_reported_allele	C	G	1
+core_copd	rs117746305	rsID	rs117746305	8	28557066.0	G	1	1	1	GCST90244098	2e-09	True	intron_variant	noncoding	FZD3	rs117746305-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs10092045	rsID	rs10092045	8	41335922.0	C	1	1	1	GCST90244098	3e-08	True	intergenic_variant	noncoding	SFRP1;SNORD65B	rs10092045-C	SNV	matched_position_and_reported_allele	C	A	1
+core_copd	rs7827611	rsID	rs7827611	8	53875691.0		1	1	1	GCST010249	4e-06	False	intron_variant	noncoding	RGS20	rs7827611-?	SNV	matched_position	T	C	1
+core_copd	rs144235404	rsID	rs144235404	8	69444879.0	A	1	1	1	GCST90244098	4e-15	True	intron_variant	noncoding	LINC01603	rs144235404-A	unresolved	not_found_at_catalog_position			0
+core_copd	rs371263868	rsID	rs371263868	8	70781551.0	C	1	1	1	GCST90244098	6e-15	True	intron_variant	noncoding	XKR9	rs371263868-C	unresolved	not_found_at_catalog_position			0
+core_copd	rs2437780	rsID	rs2437780	8	96507448.0	T	1	1	1	GCST90244098	5e-11	True	intron_variant	noncoding	SDC2	rs2437780-T	SNV	matched_position_and_reported_allele	T	A	1
+core_copd	rs659398	rsID	rs659398	8	102119072.0	T	1	1	1	GCST90244098	1e-18	True	intron_variant	noncoding	NCALD	rs659398-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs1265120	rsID	rs1265120	8	102177843.0	C	1	1	1	GCST004147	4e-06	False	intron_variant	noncoding	MIR5680;RRM2B	rs1265120-C	SNV	matched_position_and_reported_allele	C	A	1
+core_copd	rs1579924	rsID	rs1579924	8	108312655.0	G	1	1	1	GCST90244098	5e-16	True	intergenic_variant	noncoding	EIF3E	rs1579924-G	SNV	matched_position_and_reported_allele	G	T	1
+core_copd	rs13270180	rsID	rs13270180	8	116450754.0		1	1	1	GCST90827700	2e-06	False	intergenic_variant	noncoding	LINC00536	rs13270180-?	SNV	matched_position	G	A	1
+core_copd	rs189074270	rsID	rs189074270	8	125324667.0	C	1	1	1	GCST90244098	2e-09	True	intron_variant	noncoding	NSMCE2	rs189074270-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs11269418	rsID	rs11269418	8	128523633.0	A	1	1	1	GCST90244098	1e-08	True	intron_variant	noncoding	LINC00824	rs11269418-A	unresolved	not_found_at_catalog_position			0
+core_copd	rs6470697	rsID	rs6470697	8	129118358.0	A	1	1	1	GCST90244098	3e-18	True	intron_variant	noncoding	CCDC26	rs6470697-A	SNV	matched_position_and_reported_allele	A	C	1
+core_copd	rs72703234	rsID	rs72703234	9	1053101.0	T	1	1	1	GCST90244098	1e-11	True	intron_variant	noncoding	DMRT2	rs72703234-T	SNV	matched_position_and_reported_allele	T	A	1
+core_copd	rs4740752	rsID	rs4740752	9	4123044.0	G	3	3	1	GCST90016586;GCST90016588;GCST90016589	6e-06	False	intron_variant	noncoding	GLIS3	rs4740752-G	SNV	matched_position_and_reported_allele	C	G	1
+core_copd	rs10123811	rsID	rs10123811	9	4143735.0	C	1	1	1	GCST90244098	1e-38	True	intron_variant	noncoding	GLIS3	rs10123811-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs10114763	rsID	rs10114763	9	4143749.0	T	3	3	2	GCST007692;GCST90016591;GCST90016594	9e-13	True	intron_variant	noncoding	GLIS3	rs10114763-T	SNV	matched_position_and_reported_allele	A	T	1
+core_copd	rs928413	rsID	rs928413	9	6213387.0	G	1	1	1	GCST90244098	2e-10	True	intergenic_variant	noncoding	GTF3AP1;IL33	rs928413-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	chr9:6213468	genomic_coordinate	chr9:6213468	9	6213468.0	C	1	1	1	GCST90476030	3e-11	True		unknown		chr9:6213468-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs1981075	rsID	rs1981075	9	11124108.0		1	1	1	GCST011794	5e-06	False	intergenic_variant	noncoding	JKAMPP1;LINC03131	rs1981075-?	SNV	matched_position	A	G	1
+core_copd	chr9:13592736	genomic_coordinate	chr9:13592736	9	13592736.0	CA	1	1	1	GCST90244098	4e-09	True		unknown		chr9:13592736-CA	unresolved	not_found_at_catalog_position			0
+core_copd	rs10810579	rsID	rs10810579	9	16625063.0	T	1	1	1	GCST90244098	9e-12	True	intron_variant	noncoding	BNC2	rs10810579-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs7041139	rsID	rs7041139	9	18013735.0	C	1	1	1	GCST90244098	3e-11	True	intergenic_variant	noncoding	ADAMTSL1	rs7041139-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs273388	rsID	rs273388	9	23587228.0	A	1	1	1	GCST90244098	7e-18	True	intron_variant	noncoding	LINC03142;SUMO2P2	rs273388-A	SNV	matched_position_and_reported_allele	A	C	1
+core_copd	rs156394	rsID	rs156394	9	23588686.0	C;T	4	4	2	GCST007692;GCST90016588;GCST90016591;GCST90016594	4e-12	True	intron_variant	noncoding	LINC03142;SUMO2P2	rs156394-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs16912278	rsID	rs16912278	9	28026838.0		1	1	1	GCST011793	9e-06	False	intron_variant	noncoding	LINGO2	rs16912278-?	SNV	matched_position	G	A	1
+core_copd	rs3808862	rsID	rs3808862	9	38070586.0	G	1	1	1	GCST90244098	3e-08	True	intergenic_variant	noncoding	SHB;U8	rs3808862-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs2777774	rsID	rs2777774	9	81593432.0		1	1	1	GCST011793	4e-06	False	intron_variant	noncoding	TLE1	rs2777774-?	SNV	matched_position	C	A	1
+core_copd	rs7866939	rsID	rs7866939	9	82511248.0	C	1	1	1	GCST007692	2e-08	True	intron_variant	noncoding	MTCO3P40;RPS6P12	rs7866939-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	chr9:95054298	genomic_coordinate	chr9:95054298	9	95054298.0	CT	1	1	1	GCST90244098	3e-10	True		unknown		chr9:95054298-CT	unresolved	not_found_at_catalog_position			0
+core_copd	rs28427480	rsID	rs28427480	9	95502660.0	A	1	1	1	GCST90244098	6e-12	True	intron_variant	noncoding	PTCH1	rs28427480-A	SNV	matched_position_and_reported_allele	A	C	1
+core_copd	rs12115436	rsID	rs12115436	9	96117452.0	G	1	1	1	GCST90244098	7e-13	True	intron_variant	noncoding	ERCC6L2	rs12115436-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs57649467	rsID	rs57649467	9	98870572.0	G	1	1	1	GCST90244098	7e-16	True	intron_variant	noncoding	GALNT12;NME2P3	rs57649467-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs1007892	rsID	rs1007892	9	98887470.0	T	3	3	1	GCST90016588;GCST90016591;GCST90016594	5e-09	True	intergenic_variant	noncoding	GALNT12;NME2P3	rs1007892-T	SNV	matched_position_and_reported_allele	G	T	1
+core_copd	rs10760580	rsID	rs10760580	9	98899368.0	G	1	1	1	GCST007692	1e-10	True	intergenic_variant	noncoding	ADIPINT;NME2P3	rs10760580-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs4743294	rsID	rs4743294	9	98911566.0	G	1	1	1	GCST90103984	4e-08	True	intron_variant	noncoding	ADIPINT	rs4743294-G	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs996856	rsID	rs996856	9	106725629.0	G	1	1	1	GCST90244098	8e-18	True	intergenic_variant	noncoding	LINC01505	rs996856-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs59398690	rsID	rs59398690	9	107408014.0	G	1	1	1	GCST90244098	2e-17	True	intergenic_variant	noncoding	LINC01509;RAD23B	rs59398690-G	SNV	matched_position_and_reported_allele	G	C	1
+core_copd	rs10983184	rsID	rs10983184	9	116471779.0	C	1	1	1	GCST90244098	2e-18	True	intron_variant	noncoding	ASTN2	rs10983184-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs803923	rsID	rs803923	9	116639371.0	A	1	1	1	GCST007692	3e-08	True	intron_variant	noncoding	ASTN2	rs803923-A	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	chr9:120533422	genomic_coordinate	chr9:120533422	9	120533422.0	T	1	1	1	GCST90476027	3e-17	True		unknown		chr9:120533422-T	unresolved	not_found_at_catalog_position			0
+core_copd	chr9:125719622	genomic_coordinate	chr9:125719622	9	125719622.0	T	1	1	1	GCST90667889	7e-10	True		unknown		chr9:125719622-T	indel	matched_position_and_reported_allele	TA	T	1
+core_copd	rs6478750	rsID	rs6478750	9	126646919.0	T	1	1	1	GCST90244098	3e-11	True	intron_variant	noncoding	LMX1B	rs6478750-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs113927489	rsID	rs113927489	9	133602085.0	C	2	2	1	GCST90476027;GCST90480254	1e-19	True	intron_variant	noncoding	FAM163B	rs113927489-C	SNV	matched_position_and_reported_allele	C	G	1
+core_copd	rs13292648	rsID	rs13292648	9	137191539.0	G	1	1	1	GCST90244098	2e-08	True	intergenic_variant	noncoding	SSNA1;TPRN	rs13292648-G	SNV	matched_position_and_reported_allele	G	T	1
+core_copd	rs7093310	rsID	rs7093310	10	5620156.0	C	1	1	1	GCST90244098	8e-09	True	intron_variant	noncoding	LASTR	rs7093310-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs12217244	rsID	rs12217244	10	6650425.0		1	1	1	GCST90827700	7e-06	False	intergenic_variant	noncoding	LINC02648;LINP1	rs12217244-?	SNV	matched_position	G	A	1
+core_copd	rs962992	rsID	rs962992	10	9011110.0	G	1	1	1	GCST90244098	3e-15	True	intron_variant	noncoding	LINC00709;LINC02676	rs962992-G	SNV	matched_position_and_reported_allele	G	C	1
+core_copd	rs2271804	rsID	rs2271804	10	12210218.0	A	1	1	1	GCST90103984	6e-11	True	intron_variant	noncoding	CDC123	rs2271804-A	unresolved	not_found_at_catalog_position			0
+core_copd	rs7068966	rsID	rs7068966	10	12235993.0	C	1	1	1	GCST007692	6e-23	True	intron_variant	noncoding	CDC123	rs7068966-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs57062879	rsID	rs57062879	10	12236526.0	A	5	5	1	GCST90016586;GCST90016588;GCST90016589;GCST90016591;GCST90016594	2e-18	True	intron_variant	noncoding	CDC123	rs57062879-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs2001546	rsID	rs2001546	10	12243736.0	A;T	2	2	2	GCST90103985;GCST90244098	6.999999999999999e-83	True	intron_variant	noncoding	CDC123	rs2001546-A	SNV	matched_position_and_reported_allele	A	T	1
+core_copd	rs1418884	rsID	rs1418884	10	13876414.0	A	1	1	1	GCST90244098	4e-11	True	intron_variant	noncoding	FRMD4A	rs1418884-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs10906545	rsID	rs10906545	10	13936235.0		1	1	1	GCST010249	3e-06	False	intron_variant	noncoding	FRMD4A	rs10906545-?	SNV	matched_position	A	G	1
+core_copd	rs75131982	rsID	rs75131982	10	15675843.0	G	1	1	1	GCST90244098	2e-10	True	intron_variant	noncoding	ITGA8	rs75131982-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	chr10:20203036	genomic_coordinate	chr10:20203036	10	20203036.0	GAGGGAGGT	1	1	1	GCST90244098	4e-10	True		unknown		chr10:20203036-GAGGGAGGT	unresolved	not_found_at_catalog_position			0
+core_copd	rs58878956	rsID	rs58878956	10	20921795.0	C	1	1	1	GCST90244098	5e-11	True	intron_variant	noncoding	NEBL	rs58878956-C	unresolved	not_found_at_catalog_position			0
+core_copd	chr10:21704611	genomic_coordinate	chr10:21704611	10	21704611.0	CT	1	1	1	GCST90667889	2e-08	True		unknown		chr10:21704611-CT	indel	matched_position_and_reported_allele	C	CT	1
+core_copd	rs7913896	rsID	rs7913896	10	26617637.0		1	1	1	GCST011793	2e-06	False	splice_donor_region_variant	splice	LINC03028	rs7913896-?	SNV	matched_position	G	T	1
+core_copd	rs35495115	rsID	rs35495115	10	29964321.0	A	1	1	1	GCST90244098	2e-11	True	intron_variant	noncoding	JCAD;SVIL	rs35495115-A	SNV	matched_position_and_reported_allele	A	T	1
+core_copd	rs58095595	rsID	rs58095595	10	32380191.0	G	1	1	1	GCST90244098	2e-10	True	intergenic_variant	noncoding	EPC1;RNU6-1244P	rs58095595-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs2917636	rsID	rs2917636	10	44273090.0		1	1	1	GCST90827700	1e-05	False	intergenic_variant	noncoding	LINC02881;LINC03089	rs2917636-?	SNV	matched_position	C	A	1
+core_copd	chr10:65350279	genomic_coordinate	chr10:65350279	10	65350279.0	AT	1	1	1	GCST90244098	2e-15	True		unknown		chr10:65350279-AT	unresolved	not_found_at_catalog_position			0
+core_copd	rs7894323	rsID	rs7894323	10	68169215.0	A	1	1	1	GCST90244098	3e-09	True	intron_variant	noncoding	MYPN	rs7894323-A	SNV	matched_position_and_reported_allele	A	C	1
+core_copd	rs7098573	rsID	rs7098573	10	73820256.0	G	1	1	1	GCST90244098	2e-18	True	intron_variant	noncoding	CAMK2G	rs7098573-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs11594905	rsID	rs11594905	10	75899975.0	A;G	2	2	2	GCST007692;GCST90244098	2e-15	True	intron_variant	noncoding	LRMDA	rs11594905-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs2256413	rsID	rs2256413	10	76555576.0	A	1	1	1	GCST90244098	6e-29	True	intron_variant	noncoding	LRMDA	rs2256413-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs2579762	rsID	rs2579762	10	76559121.0	C	5	5	2	GCST007692;GCST90016586;GCST90016589;GCST90016591;GCST90016594	3e-10	True	3_prime_UTR_variant	noncoding	LRMDA	rs2579762-C	SNV	matched_position_and_reported_allele	A	C	1
+core_copd	rs2637261	rsID	rs2637261	10	76560835.0	T	1	1	1	GCST90103985	2e-09	True	non_coding_transcript_exon_variant	noncoding	ATP5MC1P8;LRMDA	rs2637261-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs721917	rsID	rs721917	10	79946568.0	A;G	4	4	4	GCST004147;GCST007692;GCST011766;GCST90244098	6e-14	True	missense_variant	coding	SFTPD	rs721917-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs1902661	rsID	rs1902661	10	80458350.0	G	1	1	1	GCST007692	4e-08	True	intron_variant	noncoding	TSPAN14	rs1902661-G	SNV	matched_position_and_reported_allele	G	C	1
+core_copd	chr10:88658293	genomic_coordinate	chr10:88658293	10	88658293.0	C	1	1	1	GCST90667889	2e-08	True		unknown		chr10:88658293-C	unresolved	not_found_at_catalog_position			0
+core_copd	rs7091346	rsID	rs7091346	10	103849066.0	C	1	1	1	GCST90244098	2e-11	True	intron_variant	noncoding	SH3PXD2A	rs7091346-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs1570221	rsID	rs1570221	10	103897116.0	A	1	1	1	GCST007692	2e-08	True	intron_variant	noncoding	STN1	rs1570221-A	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs290486	rsID	rs290486	10	113149980.0	T	1	1	1	GCST90244098	1e-08	True	intron_variant	noncoding	TCF7L2	rs290486-T	SNV	matched_position_and_reported_allele	T	A	1
+core_copd	rs2234962	rsID	rs2234962	10	119670121.0	T	1	1	1	GCST90244098	6e-11	True	missense_variant	coding	BAG3	rs2234962-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs61872992	rsID	rs61872992	10	121265838.0	A	1	1	1	GCST90244098	1e-12	True	intron_variant	noncoding	LINC01153;RN7SKP167	rs61872992-A	SNV	matched_position_and_reported_allele	A	C	1
+core_copd	rs4430444	rsID	rs4430444	10	122535889.0	C	1	1	1	GCST90244098	2e-08	True	intergenic_variant	noncoding	DMBT1;HTRA1	rs4430444-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs68168878	rsID	rs68168878	11	9057545.0	G	1	1	1	GCST90244098	5e-11	True	intron_variant	noncoding	NRIP3-DT;SCUBE2	rs68168878-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs11042773	rsID	rs11042773	11	10385140.0	C	1	1	1	GCST90244098	4e-13	True	intron_variant	noncoding	AMPD3	rs11042773-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs1872562	rsID	rs1872562	11	12059132.0	G	1	1	1	GCST90244098	1e-08	True	non_coding_transcript_exon_variant	noncoding	LINC02547	rs1872562-G	SNV	matched_position_and_reported_allele	G	T	1
+core_copd	rs11022678	rsID	rs11022678	11	13140818.0	A	1	1	1	GCST90016588	3e-06	False	regulatory_region_variant	noncoding	BMAL1;RASSF10	rs11022678-A	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs2896630	rsID	rs2896630	11	13146201.0	A	1	1	1	GCST90244098	6e-20	True	intergenic_variant	noncoding	BMAL1;RASSF10	rs2896630-A	SNV	matched_position_and_reported_allele	A	T	1
+core_copd	rs7483689	rsID	rs7483689	11	13149238.0	T	2	2	1	GCST90016591;GCST90016594	3e-09	True	intergenic_variant	noncoding	BMAL1;RASSF10	rs7483689-T	SNV	matched_position_and_reported_allele	G	T	1
+core_copd	rs4757118	rsID	rs4757118	11	13149689.0	T	1	1	1	GCST007692	4e-09	True	intergenic_variant	noncoding	BMAL1;RASSF10	rs4757118-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	chr11:28666340	genomic_coordinate	chr11:28666340	11	28666340.0	A	1	1	1	GCST90476027	2e-12	True		unknown		chr11:28666340-A	unresolved	not_found_at_catalog_position			0
+core_copd	rs62618693	rsID	rs62618693	11	32934946.0	C	1	1	1	GCST90244098	1e-09	True	missense_variant	coding	QSER1	rs62618693-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs142599359	rsID	rs142599359	11	35405056.0	C	1	1	1	GCST90244098	9e-11	True	intron_variant	noncoding	SLC1A2	rs142599359-C	unresolved	not_found_at_catalog_position			0
+core_copd	rs11038359	rsID	rs11038359	11	45223987.0	T	1	1	1	GCST90244098	4e-11	True	intron_variant	noncoding	PRDM11	rs11038359-T	SNV	matched_position_and_reported_allele	T	G	1
+core_copd	chr11:57598398	genomic_coordinate	chr11:57598398	11	57598398.0	TA	1	1	1	GCST90244098	1e-10	True		unknown		chr11:57598398-TA	unresolved	not_found_at_catalog_position			0
+core_copd	rs72927213	rsID	rs72927213	11	62583726.0	G	1	1	1	GCST90244098	2e-18	True	intron_variant	noncoding	TUT1	rs72927213-G	SNV	matched_position_and_reported_allele	G	C	1
+core_copd	rs12802851	rsID	rs12802851	11	70422804.0	C	1	1	1	GCST90244098	1e-10	True	intron_variant	noncoding	CTTN	rs12802851-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs2027761	rsID	rs2027761	11	73325134.0	C	1	1	1	GCST90244098	6e-27	True	intron_variant	noncoding	ARHGEF17	rs2027761-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs1219536	rsID	rs1219536	11	75720841.0		1	1	1	GCST90827700	3e-06	False	intron_variant	noncoding	MOGAT2	rs1219536-?	SNV	matched_position	T	G	1
+core_copd	rs55646091	rsID	rs55646091	11	76588387.0	G	1	1	1	GCST90244098	4e-08	True	regulatory_region_variant	noncoding	EMSY;LINC02757	rs55646091-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs11237459	rsID	rs11237459	11	78345227.0	A	1	1	1	GCST90244098	2e-08	True	intron_variant	noncoding	GAB2	rs11237459-A	SNV	matched_position_and_reported_allele	A	C	1
+core_copd	rs538804	rsID	rs538804	11	79396092.0	T	1	1	1	GCST90244098	4e-08	True	intron_variant	noncoding	TENM4	rs538804-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs286499	rsID	rs286499	11	85482825.0	G	1	1	1	GCST002750	8e-08	False	intron_variant	noncoding	DLG2	rs286499-G	SNV	matched_position_and_reported_allele	T	G	1
+core_copd	rs11234554	rsID	rs11234554	11	86138052.0	C	1	1	1	GCST007692	1e-06	False	intergenic_variant	noncoding	PICALM;RNU6-560P	rs11234554-C	SNV	matched_position_and_reported_allele	C	G	1
+core_copd	rs11607392	rsID	rs11607392	11	86726375.0	T	1	1	1	GCST90244098	5e-20	True	intron_variant	noncoding	ME3;PRSS23	rs11607392-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs117261012	rsID	rs117261012	11	86733719.0	G	1	1	1	GCST007692	7e-10	True	intron_variant	noncoding	ME3;PRSS23	rs117261012-G	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs673717	rsID	rs673717	11	95997406.0	C	1	1	1	GCST90244098	4e-08	True	intron_variant	noncoding	MAML2	rs673717-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs1032777	rsID	rs1032777	11	100641721.0	T	1	1	1	GCST90244098	2e-11	True	intron_variant	noncoding	CNTN5;RN7SL222P	rs1032777-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs626750	rsID	rs626750	11	102850214.0	G	1	1	1	GCST002350	3e-09	True	intergenic_variant	noncoding	MMP12;MMP3	rs626750-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	chr11:113364691	genomic_coordinate	chr11:113364691	11	113364691.0	T	1	1	1	GCST90476027	8e-17	True		unknown		chr11:113364691-T	unresolved	not_found_at_catalog_position			0
+core_copd	rs7933981	rsID	rs7933981	11	113567346.0	G	1	1	1	GCST90480254	1e-11	True	intergenic_variant	noncoding	DRD2;TMPRSS5	rs7933981-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs11215598	rsID	rs11215598	11	115554946.0	A	1	1	1	GCST90244098	3e-08	True	intergenic_variant	noncoding	CADM1;RPL12P46	rs11215598-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs541601	rsID	rs541601	11	126139605.0	T	1	1	1	GCST90244098	3e-14	True	intron_variant	noncoding	NAP1L1P1;RPUSD4	rs541601-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs6590623	rsID	rs6590623	11	132099812.0	A	1	1	1	GCST90244098	5e-21	True	intron_variant	noncoding	NTM	rs6590623-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs10849448	rsID	rs10849448	12	6384185.0	A	1	1	1	GCST90244098	9e-10	True	5_prime_UTR_variant	noncoding	LTBR	rs10849448-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs7306438	rsID	rs7306438	12	15124179.0	T	1	1	1	GCST90244098	2e-18	True	intron_variant	noncoding	RERG	rs7306438-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs7957563	rsID	rs7957563	12	18905684.0	G	1	1	1	GCST90244098	2e-09	True	intergenic_variant	noncoding	CAPZA3;RPL7P6	rs7957563-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs36050700	rsID	rs36050700	12	19654772.0	A	1	1	1	GCST90244098	1e-08	True	regulatory_region_variant	noncoding	AEBP2	rs36050700-A	unresolved	not_found_at_catalog_position			0
+core_copd	rs274995	rsID	rs274995	12	20233722.0	T	1	1	1	GCST90244098	8e-17	True	intergenic_variant	noncoding	LINC02468;PDE3A-AS1	rs274995-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs11049098	rsID	rs11049098	12	27703196.0	T	1	1	1	GCST90244098	3e-09	True	intron_variant	noncoding	MRPS35-DT	rs11049098-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs11049386	rsID	rs11049386	12	28167603.0	T	1	1	1	GCST007692	3e-08	True	non_coding_transcript_exon_variant	noncoding	CCDC91	rs11049386-T	SNV	matched_position_and_reported_allele	T	A	1
+core_copd	rs11049488	rsID	rs11049488	12	28259439.0	G	1	1	1	GCST011766	5e-08	True	missense_variant	coding	CCDC91	rs11049488-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs559425579	rsID	rs559425579	12	28336059.0	C	1	1	1	GCST90244098	8e-13	True	intron_variant	noncoding	CCDC91	rs559425579-C	unresolved	not_found_at_catalog_position			0
+core_copd	rs12313180	rsID	rs12313180	12	30155935.0		1	1	1	GCST010249	8e-06	False	intergenic_variant	noncoding	LINC02386;TMTC1	rs12313180-?	SNV	matched_position	C	T	1
+core_copd	rs2077177	rsID	rs2077177	12	54025073.0	T	1	1	1	GCST90244098	6e-11	True	intron_variant	noncoding	HOXC4;HOXC6	rs2077177-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs7312770	rsID	rs7312770	12	56073803.0	C	1	1	1	GCST90244098	2e-17	True	intergenic_variant	noncoding	ERBB3;RPS26	rs7312770-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	chr12:57540004	genomic_coordinate	chr12:57540004	12	57540004.0	TA	1	1	1	GCST90244098	8e-15	True		unknown		chr12:57540004-TA	unresolved	not_found_at_catalog_position			0
+core_copd	rs11174267	rsID	rs11174267	12	61992819.0		1	1	1	GCST002351	8e-07	False	intron_variant	noncoding	TAFA2	rs11174267-?	SNV	matched_position	A	G	1
+core_copd	chr12:65787410	genomic_coordinate	chr12:65787410	12	65787410.0	CAAAA	1	1	1	GCST90244098	4e-09	True		unknown		chr12:65787410-CAAAA	SNV	matched_position	G	A	1
+core_copd	rs11176001	rsID	rs11176001	12	66015587.0	C	1	1	1	GCST90244098	2e-08	True	intergenic_variant	noncoding	HMGA2;MIR6074	rs11176001-C	SNV	matched_position_and_reported_allele	C	A	1
+core_copd	rs10444582	rsID	rs10444582	12	69474630.0	A	1	1	1	GCST90244098	5e-13	True	intron_variant	noncoding	FRS2	rs10444582-A	SNV	matched_position_and_reported_allele	A	C	1
+core_copd	rs4762172	rsID	rs4762172	12	95100136.0	T	1	1	1	GCST007692	2e-07	False	intron_variant	noncoding	FGD6	rs4762172-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs60129850	rsID	rs60129850	12	95144245.0	A	1	1	1	GCST007692	2e-08	True	intron_variant	noncoding	FGD6	rs60129850-A	SNV	matched_position_and_reported_allele	C	A	1
+core_copd	rs7299632	rsID	rs7299632	12	95838376.0	C	1	1	1	GCST90244098	4e-20	True	intron_variant	noncoding	SNRPF-DT	rs7299632-C	SNV	matched_position_and_reported_allele	C	A	1
+core_copd	rs7307510	rsID	rs7307510	12	95843792.0	C	1	1	1	GCST007692	3e-09	True	intron_variant	noncoding	SNRPF-DT	rs7307510-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs117121174	rsID	rs117121174	12	110259525.0	A	1	1	1	GCST90018807	2e-08	True	intron_variant	noncoding	ATP2A2;IFT81	rs117121174-A	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs11066008	rsID	rs11066008	12	111702865.0	G	1	1	1	GCST90013709	4e-17	True	intron_variant	noncoding	ACAD10	rs11066008-G	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs11066015	rsID	rs11066015	12	111730205.0	A	1	1	1	GCST90018587	1e-17	True	intron_variant	noncoding	ACAD10	rs11066015-A	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs671	rsID	rs671	12	111803962.0	A	1	1	1	GCST90018807	2e-17	True	missense_variant	coding	ALDH2	rs671-A	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs12231873	rsID	rs12231873	12	111894111.0	T	1	1	1	GCST90399695	6e-11	True	3_prime_UTR_variant	noncoding	MAPKAPK5	rs12231873-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs1270885	rsID	rs1270885	12	114243747.0	A	1	1	1	GCST90244098	1e-13	True	intergenic_variant	noncoding	LINC02459;TBX5	rs1270885-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs55724378	rsID	rs55724378	12	114760100.0	C	1	1	1	GCST90244098	2e-13	True	intron_variant	noncoding	TBX3-AS1	rs55724378-C	SNV	matched_position_and_reported_allele	C	A	1
+core_copd	rs7958945	rsID	rs7958945	12	115510096.0	G	1	1	1	GCST007692	1e-09	True	intergenic_variant	noncoding	TBX3-AS1;UBA52P7	rs7958945-G	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs1874903	rsID	rs1874903	12	115512422.0	C	1	1	1	GCST90244098	3e-13	True	intergenic_variant	noncoding	TBX3-AS1;UBA52P7	rs1874903-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs545692758	rsID	rs545692758	12	123179717.0	T	1	1	1	GCST90244098	5e-09	True	intron_variant	noncoding	MPHOSPH9	rs545692758-T	unresolved	not_found_at_catalog_position			0
+core_copd	rs9508021	rsID	rs9508021	13	28393440.0	A	1	1	1	GCST90244098	4e-08	True	intron_variant	noncoding	FLT1	rs9508021-A	unresolved	not_found_at_catalog_position			0
+core_copd	rs9562541	rsID	rs9562541	13	44249190.0	T	1	1	1	GCST90244098	2e-19	True	intron_variant	noncoding	LINC02938	rs9562541-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs9525927	rsID	rs9525927	13	44268367.0	G	1	1	1	GCST007692	3e-09	True	intron_variant	noncoding	LINC02938	rs9525927-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs9562922	rsID	rs9562922	13	49761350.0	C	1	1	1	GCST90244098	2e-14	True	intron_variant	noncoding	KPNA3	rs9562922-C	unresolved	not_found_at_catalog_position			0
+core_copd	rs9600261	rsID	rs9600261	13	74325496.0	G	1	1	1	GCST90244098	7e-11	True	intron_variant	noncoding	LINC00402	rs9600261-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	chr13:92452720	genomic_coordinate	chr13:92452720	13	92452720.0	CAG	1	1	1	GCST90244098	5e-13	True		unknown		chr13:92452720-CAG	unresolved	not_found_at_catalog_position			0
+core_copd	rs11069348	rsID	rs11069348	13	99110199.0	C	1	1	1	GCST90244098	8e-13	True	intergenic_variant	noncoding	DOCK9-DT;RPS6P23	rs11069348-C	SNV	matched_position_and_reported_allele	C	A	1
+core_copd	rs9559793	rsID	rs9559793	13	110407220.0	G	1	1	1	GCST90244098	7e-11	True	intron_variant	noncoding	COL4A2	rs9559793-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs778817356	rsID	rs778817356	14	22936240.0	CA	1	1	1	GCST90244098	2e-11	True	intron_variant	noncoding	PRMT5-DT	rs778817356-CA	indel	matched_position_and_reported_allele	CA	C	1
+core_copd	rs963778	rsID	rs963778	14	26539993.0	A	1	1	1	GCST90244098	1e-09	True	intron_variant	noncoding	NOVA1	rs963778-A	SNV	matched_position_and_reported_allele	A	C	1
+core_copd	rs34976846	rsID	rs34976846	14	32447774.0	C	1	1	1	GCST90244098	3e-10	True	intron_variant	noncoding	AKAP6	rs34976846-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs11621099	rsID	rs11621099	14	33216993.0	G	1	1	1	GCST90244098	6e-09	True	intron_variant	noncoding	NPAS3	rs11621099-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs1951269	rsID	rs1951269	14	35411536.0	A	1	1	1	GCST90244098	7e-13	True	intron_variant	noncoding	DNAJC8P1;NFKBIA	rs1951269-A	SNV	matched_position_and_reported_allele	A	C	1
+core_copd	rs2356455	rsID	rs2356455	14	50626424.0	G	1	1	1	GCST90244098	5e-08	True	intron_variant	noncoding	ATL1	rs2356455-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs11625461	rsID	rs11625461	14	51936966.0	C	1	1	1	GCST002750	4e-06	False	intron_variant	noncoding	GNG2	rs11625461-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs35107139	rsID	rs35107139	14	53952388.0	A	1	1	1	GCST90244098	7e-17	True	5_prime_UTR_variant	noncoding	BMP4	rs35107139-A	SNV	matched_position_and_reported_allele	A	C	1
+core_copd	rs117744226	rsID	rs117744226	14	56151438.0		1	1	1	GCST011793	5e-06	False	intron_variant	noncoding	PELI2	rs117744226-?	SNV	matched_position	A	T	1
+core_copd	rs8014234	rsID	rs8014234	14	68396197.0	A	1	1	1	GCST90244098	1e-11	True	intron_variant	noncoding	RAD51B	rs8014234-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	chr14:69447183	genomic_coordinate	chr14:69447183	14	69447183.0	G	1	1	1	GCST90476027	4e-13	True		unknown		chr14:69447183-G	unresolved	not_found_at_catalog_position			0
+core_copd	rs11623972	rsID	rs11623972	14	72914812.0		1	1	1	GCST90255361	6e-07	False	intergenic_variant	noncoding	DCAF4;DPF3	rs11623972-?	SNV	matched_position	A	G	1
+core_copd	rs722599	rsID	rs722599	14	74860740.0	T	1	1	1	GCST90244098	9e-09	True	intron_variant	noncoding	PROX2	rs722599-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs2543358	rsID	rs2543358	14	76123028.0	T	1	1	1	GCST90244098	7e-14	True	intergenic_variant	noncoding	GPATCH2L;IFT43	rs2543358-T	SNV	matched_position_and_reported_allele	T	A	1
+core_copd	rs11622562	rsID	rs11622562	14	77050805.0	C	1	1	1	GCST90244098	9e-10	True	intron_variant	noncoding	LINC02288;LINC02289	rs11622562-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	chr14:79482379	genomic_coordinate	chr14:79482379	14	79482379.0	A	1	1	1	GCST90476027	2e-11	True		unknown		chr14:79482379-A	unresolved	not_found_at_catalog_position			0
+core_copd	rs1756281	rsID	rs1756281	14	83872087.0	A	1	1	1	GCST90244098	4e-19	True	intergenic_variant	noncoding	LINC02305;RNU6ATAC28P	rs1756281-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs7148218	rsID	rs7148218	14	92056852.0	A	1	1	1	GCST90244098	1e-11	True	intron_variant	noncoding	ATXN3	rs7148218-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs11627441	rsID	rs11627441	14	92632889.0	T	1	1	1	GCST90244098	1e-14	True	intron_variant	noncoding	RIN3	rs11627441-T	SNV	matched_position_and_reported_allele	T	A	1
+core_copd	rs72699855	rsID	rs72699855	14	92639608.0	G	1	1	1	GCST007692	5e-09	True	intron_variant	noncoding	RIN3	rs72699855-G	SNV	matched_position_and_reported_allele	G	C	1
+core_copd	rs754388	rsID	rs754388	14	92649065.0	C	4	4	3	GCST002350;GCST002351;GCST002795;GCST004147	5e-14	True	intron_variant	noncoding	RIN3	rs754388-C	SNV	matched_position_and_reported_allele	G	C	1
+core_copd	rs3829947	rsID	rs3829947	14	92651693.0	A	1	1	1	GCST011766	5e-07	False	missense_variant	coding	RIN3	rs3829947-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs12894780	rsID	rs12894780	14	93037041.0	C;T	3	3	2	GCST90016591;GCST90016594;GCST90244098	4e-20	True	intron_variant	noncoding	ITPK1	rs12894780-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs35584079	rsID	rs35584079	14	93045296.0	A	1	1	1	GCST007692	2e-08	True	intron_variant	noncoding	ITPK1	rs35584079-A	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs367710284	rsID	rs367710284	14	93886831.0	A	1	1	1	GCST90244098	9e-14	True	intergenic_variant	noncoding	FAM181A-AS1;PRIMA1	rs367710284-A	unresolved	not_found_at_catalog_position			0
+core_copd	rs112458284	rsID	rs112458284	14	94206394.0	C	1	1	1	GCST004147	4e-06	False	intron_variant	noncoding	PPP4R4	rs112458284-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	chr14:94378610	genomic_coordinate	chr14:94378610	14	94378610.0	T	1	1	1	GCST90399695	5e-15	True		unknown		chr14:94378610-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs28929474	rsID	rs28929474	14	94378610.0	C	1	1	1	GCST90476027	4e-11	True	missense_variant	coding	SERPINA1	rs28929474-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs76751100	rsID	rs76751100	14	104817536.0	A	1	1	1	GCST90244098	7e-10	True	intron_variant	noncoding	VESTAR;ZBTB42	rs76751100-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs11637011	rsID	rs11637011	15	37824469.0	A	1	1	1	GCST90244098	3e-12	True	intergenic_variant	noncoding	Metazoa_SRP;TMCO5A	rs11637011-A	SNV	matched_position_and_reported_allele	A	T	1
+core_copd	rs34104452	rsID	rs34104452	15	41552119.0	G	1	1	1	GCST90244098	3e-19	True	intergenic_variant	noncoding	ELOCP2;RPAP1	rs34104452-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs12232354	rsID	rs12232354	15	49351432.0	T	1	1	1	GCST90399695	1e-08	True	intron_variant	noncoding	FAM227B;GALK2	rs12232354-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs147535453	rsID	rs147535453	15	49398262.0	T	1	1	1	GCST90244098	3e-26	True	intron_variant	noncoding	FAM227B	rs147535453-T	unresolved	not_found_at_catalog_position			0
+core_copd	rs72731149	rsID	rs72731149	15	49692513.0	G	1	1	1	GCST007692	8e-09	True	intergenic_variant	noncoding	ATP8B4;DTWD1	rs72731149-G	SNV	matched_position_and_reported_allele	G	C	1
+core_copd	rs4774574	rsID	rs4774574	15	50692313.0	G	1	1	1	GCST007692	9e-07	False	intron_variant	noncoding	RN7SL354P;SPPL2A	rs4774574-G	SNV	matched_position_and_reported_allele	G	T	1
+core_copd	rs2649	rsID	rs2649	15	63594394.0	C	1	1	1	GCST90244098	3e-16	True	3_prime_UTR_variant	noncoding	USP3;USP3-AS1	rs2649-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs17293632	rsID	rs17293632	15	67150258.0	C	1	1	1	GCST90244098	5e-11	True	intron_variant	noncoding	SMAD3	rs17293632-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs7178824	rsID	rs7178824	15	67180345.0	G	2	2	1	GCST90476027;GCST90480254	3e-15	True	intron_variant	noncoding	SMAD3	rs7178824-G	SNV	matched_position_and_reported_allele	G	C	1
+core_copd	rs1441358	rsID	rs1441358	15	71320175.0	G	2	2	2	GCST004147;GCST007692	7e-33	True	intron_variant	noncoding	THSD4	rs1441358-G	SNV	matched_position_and_reported_allele	T	G	1
+core_copd	rs10851839	rsID	rs10851839	15	71336031.0	T	5	5	1	GCST90016586;GCST90016588;GCST90016589;GCST90016591;GCST90016594	3e-20	True	intron_variant	noncoding	THSD4	rs10851839-T	SNV	matched_position_and_reported_allele	T	A	1
+core_copd	rs12102112	rsID	rs12102112	15	71363396.0	T	1	1	1	GCST007692	2e-17	True	intron_variant	noncoding	THSD4	rs12102112-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs2119568	rsID	rs2119568	15	71373485.0	C	2	2	2	GCST007692;GCST90103984	1e-24	True	intron_variant	noncoding	THSD4	rs2119568-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs12908092	rsID	rs12908092	15	71380414.0	C	1	1	1	GCST90399695	3e-08	True	intron_variant	noncoding	THSD4	rs12908092-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs2165489	rsID	rs2165489	15	71381439.0	C	1	1	1	GCST90244098	2e-97	True	intron_variant	noncoding	THSD4	rs2165489-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	chr15:71630062	genomic_coordinate	chr15:71630062	15	71630062.0	T	1	1	1	GCST90103985	4e-11	True		unknown		chr15:71630062-T	unresolved	not_found_at_catalog_position			0
+core_copd	rs201036377	rsID	rs201036377	15	77077487.0	A	1	1	1	GCST90244098	1e-08	True	intergenic_variant	noncoding	TSPAN3	rs201036377-A	unresolved	not_found_at_catalog_position			0
+core_copd	rs8042238	rsID	rs8042238	15	78481929.0	T	1	1	1	GCST002624	5e-08	True	intron_variant	noncoding	IREB2	rs8042238-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs11858836	rsID	rs11858836	15	78490935.0		1	1	1	GCST001321	1e-06	False	intron_variant	noncoding	IREB2	rs11858836-?	SNV	matched_position	G	A	1
+core_copd	rs13180	rsID	rs13180	15	78497146.0		1	1	1	GCST000603	2e-08	True	synonymous_variant	coding	IREB2	rs13180-?	SNV	matched_position	C	T	1
+core_copd	rs9788721	rsID	rs9788721	15	78510527.0	T	2	2	1	GCST90018587;GCST90018807	4e-38	True	intron_variant	noncoding	HYKK	rs9788721-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs8034191	rsID	rs8034191	15	78513681.0	C	1	1	1	GCST000359	1e-10	True	intron_variant	noncoding	HYKK	rs8034191-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs3885951	rsID	rs3885951	15	78533575.0	G	1	1	1	GCST011766	5e-08	True	missense_variant	coding	HYKK	rs3885951-G	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs931794	rsID	rs931794	15	78533838.0	G	1	1	1	GCST90244098	3e-08	True	3_prime_UTR_variant	noncoding	HYKK	rs931794-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs2036527	rsID	rs2036527	15	78559273.0	G	1	1	1	GCST90480254	3e-66	True	intergenic_variant	noncoding	CHRNA5;PSMA4	rs2036527-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs503464	rsID	rs503464	15	78565554.0	A	1	1	1	GCST90013709	8e-11	True	5_prime_UTR_variant	noncoding	CHRNA5	rs503464-A	SNV	matched_position_and_reported_allele	T	A	1
+core_copd	rs17486278	rsID	rs17486278	15	78575140.0	A;C	3	3	2	GCST004147;GCST90476026;GCST90480251	4.000000000000001e-45	True	intron_variant	noncoding	CHRNA5	rs17486278-A	SNV	matched_position_and_reported_allele	A	C	1
+core_copd	rs72740964	rsID	rs72740964	15	78576294.0	A	1	1	1	GCST90103984	2e-16	True	intron_variant	noncoding	CHRNA5	rs72740964-A	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	chr15:78590583	genomic_coordinate	chr15:78590583	15	78590583.0		1	1	1	GCST90428863	7.9999999999999985e-25	True		unknown		chr15:78590583-?	SNV	matched_position	G	A	1
+core_copd	rs16969968	rsID	rs16969968	15	78590583.0	A	1	1	1	GCST011766	5e-25	True	missense_variant	coding	CHRNA5	rs16969968-A	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	chr15:78596058	genomic_coordinate	chr15:78596058	15	78596058.0		1	1	1	GCST90428863	6e-11	True		unknown		chr15:78596058-?	SNV	matched_position	G	A	1
+core_copd	rs1317286	rsID	rs1317286	15	78603787.0	G	1	1	1	GCST90016588	5e-28	True	intron_variant	noncoding	CHRNA3	rs1317286-G	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs12914385	rsID	rs12914385	15	78606381.0	C;T	5	5	4	GCST002350;GCST002351;GCST002795;GCST90162551;GCST90476027	3e-93	True	intron_variant	noncoding	CHRNA3	rs12914385-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs55676755	rsID	rs55676755	15	78606590.0	G	1	1	1	GCST007692	3e-26	True	intron_variant	noncoding	CHRNA3	rs55676755-G	SNV	matched_position_and_reported_allele	C	G	1
+core_copd	chr15:78618839	genomic_coordinate	chr15:78618839	15	78618839.0	C	2	2	2	GCST90428863;GCST90667889	9.999999999999999e-27	True		unknown		chr15:78618839-?	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs8040868	rsID	rs8040868	15	78618839.0	C	4	4	2	GCST90016591;GCST90016593;GCST90016594;GCST90399695	7.000000000000002e-60	True	synonymous_variant	coding	CHRNA3	rs8040868-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs28534575	rsID	rs28534575	15	78631503.0	T	1	1	1	GCST007692	5e-16	True	intron_variant	noncoding	CHRNB4	rs28534575-T	SNV	matched_position_and_reported_allele	T	G	1
+core_copd	chr15:78804071	genomic_coordinate	chr15:78804071	15	78804071.0	T	1	1	1	GCST90103985	6e-13	True		unknown		chr15:78804071-T	unresolved	not_found_at_catalog_position			0
+core_copd	chr15:78896129	genomic_coordinate	chr15:78896129	15	78896129.0	A	1	1	1	GCST90476030	3e-52	True		unknown		chr15:78896129-A	unresolved	not_found_at_catalog_position			0
+core_copd	rs4842860	rsID	rs4842860	15	83011535.0	A	1	1	1	GCST011766	4e-07	False	missense_variant	coding	C15orf40	rs4842860-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs17361375	rsID	rs17361375	15	83011577.0	G	1	1	1	GCST011766	4e-07	False	missense_variant	coding	C15orf40	rs17361375-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs7181169	rsID	rs7181169	15	83024761.0	T	1	1	1	GCST007692	8e-09	True	intron_variant	noncoding	BTBD1	rs7181169-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs8041992	rsID	rs8041992	15	83600695.0	T	3	3	1	GCST90016591;GCST90016593;GCST90016594	5e-09	True	intron_variant	noncoding	SH3GL3	rs8041992-T	SNV	matched_position_and_reported_allele	A	T	1
+core_copd	rs2585059	rsID	rs2585059	15	83616602.0	C	3	3	1	GCST90016586;GCST90016588;GCST90016589	3e-07	False	intron_variant	noncoding	SH3GL3	rs2585059-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs10152300	rsID	rs10152300	15	83724155.0	G	1	1	1	GCST007692	4e-12	True	intron_variant	noncoding	ADAMTSL3	rs10152300-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs7162542	rsID	rs7162542	15	83845538.0	C	1	1	1	GCST90244098	3.9999999999999995e-54	True	intron_variant	noncoding	ADAMTSL3	rs7162542-C	SNV	matched_position_and_reported_allele	C	G	1
+core_copd	rs4523894	rsID	rs4523894	15	83847191.0	C	1	1	1	GCST007692	5e-11	True	intron_variant	noncoding	ADAMTSL3	rs4523894-C	SNV	matched_position_and_reported_allele	C	G	1
+core_copd	rs4842838	rsID	rs4842838	15	83913372.0	G	1	1	1	GCST011766	3e-12	True	missense_variant	coding	ADAMTSL3	rs4842838-G	unresolved	not_found_at_catalog_position			0
+core_copd	chr15:84034556	genomic_coordinate	chr15:84034556	15	84034556.0	C	1	1	1	GCST90103984	4e-09	True		unknown		chr15:84034556-C	unresolved	not_found_at_catalog_position			0
+core_copd	chr15:86964383	genomic_coordinate	chr15:86964383	15	86964383.0	A	1	1	1	GCST90476027	2e-13	True		unknown		chr15:86964383-A	unresolved	not_found_at_catalog_position			0
+core_copd	chr15:89943601	genomic_coordinate	chr15:89943601	15	89943601.0	G	1	1	1	GCST90476027	3e-11	True		unknown		chr15:89943601-G	unresolved	not_found_at_catalog_position			0
+core_copd	rs78221927	rsID	rs78221927	15	92732497.0		1	1	1	GCST90827700	1e-06	False	intron_variant	noncoding	FAM174B	rs78221927-?	SNV	matched_position	T	C	1
+core_copd	rs1670218	rsID	rs1670218	15	99152287.0	G	1	1	1	GCST90244098	2e-18	True	intron_variant	noncoding	TTC23	rs1670218-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs149989682	rsID	rs149989682	16	2317763.0	T	1	1	1	GCST90244098	2e-08	True	missense_variant	coding	ABCA3	rs149989682-T	SNV	matched_position_and_reported_allele	T	A	1
+core_copd	rs813914	rsID	rs813914	16	6484368.0	T	1	1	1	GCST90244098	5e-09	True	intron_variant	noncoding	RBFOX1	rs813914-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs56134392	rsID	rs56134392	16	10615156.0	C	1	1	1	GCST007692	5e-08	True	intron_variant	noncoding	EMP2;TEKT5	rs56134392-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs78442819	rsID	rs78442819	16	10647125.0	G	1	1	1	GCST90244098	4e-14	True	intron_variant	noncoding	TEKT5	rs78442819-G	SNV	matched_position_and_reported_allele	G	C	1
+core_copd	rs200534	rsID	rs200534	16	24741320.0	G	1	1	1	GCST90480254	1e-13	True	intron_variant	noncoding	TNRC6A	rs200534-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	chr16:24759131	genomic_coordinate	chr16:24759131	16	24759131.0	A	1	1	1	GCST90476027	6e-13	True		unknown		chr16:24759131-A	unresolved	not_found_at_catalog_position			0
+core_copd	chr16:28579915	genomic_coordinate	chr16:28579915	16	28579915.0	GT	1	1	1	GCST90244098	4e-09	True		unknown		chr16:28579915-GT	unresolved	not_found_at_catalog_position			0
+core_copd	rs17707300	rsID	rs17707300	16	28582026.0	C	1	1	1	GCST004147	7e-10	True	intron_variant	noncoding	SGF29	rs17707300-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs4889599	rsID	rs4889599	16	30957268.0	C	1	1	1	GCST90244098	8e-14	True	regulatory_region_variant	noncoding	ORAI3;SETD1A	rs4889599-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs56335873	rsID	rs56335873	16	53886876.0		1	1	1	GCST90827700	3e-06	False	intron_variant	noncoding	FTO	rs56335873-?	SNV	matched_position	T	A	1
+core_copd	rs35420030	rsID	rs35420030	16	53901495.0	T	1	1	1	GCST90244098	1e-09	True	intron_variant	noncoding	FTO	rs35420030-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs8044657	rsID	rs8044657	16	57988721.0	G	1	1	1	GCST007692	1e-08	True	intergenic_variant	noncoding	SPMIP8;ZNF319	rs8044657-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs2060573	rsID	rs2060573	16	58023723.0	A	1	1	1	GCST90244098	4e-30	True	intergenic_variant	noncoding	MMP15;USB1	rs2060573-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs12926803	rsID	rs12926803	16	58063696.0	C	1	1	1	GCST007692	4e-08	True	intron_variant	noncoding	MMP15;Y_RNA	rs12926803-C	SNV	matched_position_and_reported_allele	G	C	1
+core_copd	rs76351345	rsID	rs76351345	16	67742813.0	C	1	1	1	GCST90244098	8e-12	True	intron_variant	noncoding	RANBP10	rs76351345-C	SNV	matched_position_and_reported_allele	C	G	1
+core_copd	rs141322661	rsID	rs141322661	16	68364972.0	G	3	3	1	GCST90016588;GCST90016591;GCST90016594	6e-07	False	intron_variant	noncoding	SMPD3	rs141322661-G	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	chr16:69581912	genomic_coordinate	chr16:69581912	16	69581912.0	T	1	1	1	GCST90476027	8e-12	True		unknown		chr16:69581912-T	unresolved	not_found_at_catalog_position			0
+core_copd	rs4888379	rsID	rs4888379	16	75306333.0	T	1	1	1	GCST007692	6e-21	True	intron_variant	noncoding	CFDP1	rs4888379-T	SNV	matched_position_and_reported_allele	A	T	1
+core_copd	rs72787160	rsID	rs72787160	16	75411264.0	C	1	1	1	GCST90103984	3e-12	True	intron_variant	noncoding	CFDP1	rs72787160-C	SNV	matched_position_and_reported_allele	G	C	1
+core_copd	rs4888415	rsID	rs4888415	16	75415023.0	C	1	1	1	GCST90244098	5e-48	True	intron_variant	noncoding	CFDP1	rs4888415-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs12930452	rsID	rs12930452	16	75428157.0	A	3	3	1	GCST90016586;GCST90016588;GCST90016589	1e-09	True	intron_variant	noncoding	CFDP1	rs12930452-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs12449170	rsID	rs12449170	16	75429114.0	C	2	2	1	GCST90016591;GCST90016594	9e-16	True	intron_variant	noncoding	CFDP1	rs12449170-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs7186831	rsID	rs7186831	16	75439257.0	A	1	1	1	GCST004147	1e-11	True	intron_variant	noncoding	CFDP1;TMEM170A	rs7186831-A	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs7190699	rsID	rs7190699	16	78195101.0	T	1	1	1	GCST90244098	6e-09	True	intron_variant	noncoding	WWOX	rs7190699-T	SNV	matched_position_and_reported_allele	T	A	1
+core_copd	rs16941442	rsID	rs16941442	16	86534724.0	A	1	1	1	GCST90244098	6e-13	True	intron_variant	noncoding	MTHFSD	rs16941442-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs78465403	rsID	rs78465403	16	88766708.0	A	1	1	1	GCST90244098	2e-10	True	intron_variant	noncoding	PIEZO1	rs78465403-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs8070954	rsID	rs8070954	17	2140495.0	T	1	1	1	GCST90244098	5e-13	True	intron_variant	noncoding	SMG6	rs8070954-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs7215084	rsID	rs7215084	17	3976854.0	C	1	1	1	GCST90244098	1e-12	True	non_coding_transcript_exon_variant	noncoding	LINC01975	rs7215084-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs9907657	rsID	rs9907657	17	7557640.0	G	1	1	1	GCST90244098	3e-09	True	3_prime_UTR_variant	noncoding	TNFSF12;TNFSF12-TNFSF13	rs9907657-G	SNV	matched_position_and_reported_allele	G	T	1
+core_copd	rs5819355	rsID	rs5819355	17	12290127.0	GC	1	1	1	GCST90244098	5e-25	True	intergenic_variant	noncoding	LINC00670;MAP2K4	rs5819355-GC	unresolved	not_found_at_catalog_position			0
+core_copd	rs2286351	rsID	rs2286351	17	14025084.0		1	1	1	GCST005417	2e-08	True	intron_variant	noncoding	CDRT15P1;COX10-DT	rs2286351-?	unresolved	not_found_at_catalog_position			0
+core_copd	rs36058389	rsID	rs36058389	17	18220120.0	G	1	1	1	GCST90244098	3e-08	True	intergenic_variant	noncoding	ALKBH5;LLGL1	rs36058389-G	SNV	matched_position_and_reported_allele	G	T	1
+core_copd	rs146362423	rsID	rs146362423	17	21585007.0		1	1	1	GCST90255361	1e-06	False	intergenic_variant	noncoding	KCNJ18;LINC02693	rs146362423-?	unresolved	not_found_at_catalog_position			0
+core_copd	rs11370020	rsID	rs11370020	17	29707153.0	C	1	1	1	GCST90244098	4e-21	True	intron_variant	noncoding	SSH2	rs11370020-C	unresolved	not_found_at_catalog_position			0
+core_copd	rs9897794	rsID	rs9897794	17	29969309.0	G	1	1	1	GCST011766	2e-07	False	missense_variant	coding	EFCAB5	rs9897794-G	unresolved	not_found_at_catalog_position			0
+core_copd	rs8080772	rsID	rs8080772	17	30086111.0	T	1	1	1	GCST007692	1e-08	True	intron_variant	noncoding	EFCAB5	rs8080772-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs60967688	rsID	rs60967688	17	30110034.0	A	2	2	1	GCST90016591;GCST90016594	1e-09	True	intron_variant	noncoding	EFCAB5;NSRP1	rs60967688-A	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs1973252	rsID	rs1973252	17	30729320.0	G	1	1	1	GCST007692	7e-08	False	intron_variant	noncoding	RN7SL316P;SUZ12P1	rs1973252-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs8077417	rsID	rs8077417	17	32109398.0	A	1	1	1	GCST90244098	1e-09	True	intron_variant	noncoding	LRRC37B;WDR45BP1	rs8077417-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs34727469	rsID	rs34727469	17	38678826.0	T	1	1	1	GCST007692	1e-08	True	intergenic_variant	noncoding	EPOP;MIR4734	rs34727469-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	chr17:39917715	genomic_coordinate	chr17:39917715	17	39917715.0	C	1	1	1	GCST90399695	4e-12	True		unknown		chr17:39917715-C	SNV	matched_position_and_reported_allele	G	C	1
+core_copd	rs9303283	rsID	rs9303283	17	40036380.0	C	2	2	1	GCST90016591;GCST90016594	8e-10	True	intron_variant	noncoding	MED24	rs9303283-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	chr17:40041661	genomic_coordinate	chr17:40041661	17	40041661.0	C	1	1	1	GCST90667889	3e-10	True		unknown		chr17:40041661-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs62065216	rsID	rs62065216	17	40062520.0	A	1	1	1	GCST007692	8e-09	True	regulatory_region_variant	noncoding	THRA	rs62065216-A	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs12373142	rsID	rs12373142	17	45846834.0	G	2	2	2	GCST007692;GCST011766	2e-10	True	missense_variant	coding	MAPT-AS1;SPPL2C	rs12373142-G	unresolved	not_found_at_catalog_position			0
+core_copd	rs113434679	rsID	rs113434679	17	46049399.0	A	1	1	1	GCST90103985	3e-08	True	intron_variant	noncoding	KANSL1	rs113434679-A	unresolved	not_found_at_catalog_position			0
+core_copd	rs145809511	rsID	rs145809511	17	46555648.0	G	1	1	1	GCST90244098	3e-30	True	3_prime_UTR_variant	noncoding	ARL17A;LRRC37A2	rs145809511-G	unresolved	not_found_at_catalog_position			0
+core_copd	rs8068952	rsID	rs8068952	17	61209283.0	G	1	1	1	GCST90244098	3e-20	True	intron_variant	noncoding	BCAS3	rs8068952-G	SNV	matched_position_and_reported_allele	G	C	1
+core_copd	rs7350907	rsID	rs7350907	17	62678385.0	T	1	1	1	GCST90244098	6e-09	True	intron_variant	noncoding	MRC2	rs7350907-T	SNV	matched_position_and_reported_allele	T	G	1
+core_copd	rs6501455	rsID	rs6501455	17	71205670.0	A	1	1	1	GCST90244098	2e-22	True	intergenic_variant	noncoding	CASC17;RNU7-155P	rs6501455-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs11655567	rsID	rs11655567	17	71220546.0	C	1	1	1	GCST007692	2e-09	True	intergenic_variant	noncoding	CASC17;RNU7-155P	rs11655567-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs9904181	rsID	rs9904181	17	71372270.0	T	1	1	1	GCST007692	2e-06	False	intergenic_variant	noncoding	MYL6P5;RNU7-155P	rs9904181-T	SNV	matched_position_and_reported_allele	G	T	1
+core_copd	rs9911502	rsID	rs9911502	17	75522122.0	G	1	1	1	GCST90244098	4e-17	True	missense_variant	coding	TSEN54	rs9911502-G	SNV	matched_position_and_reported_allele	G	C	1
+core_copd	rs898528	rsID	rs898528	17	79170721.0	T	1	1	1	GCST90244098	2e-08	True	intron_variant	noncoding	RBFOX3	rs898528-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs9303897	rsID	rs9303897	18	2306843.0		1	1	1	GCST90255361	8e-08	False	intron_variant	noncoding	AIDAP3;METTL4	rs9303897-?	SNV	matched_position	G	A	1
+core_copd	rs631126	rsID	rs631126	18	8800725.0	T	3	3	2	GCST90016591;GCST90016594;GCST90244098	2e-35	True	intron_variant	noncoding	MTCL1	rs631126-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	chr18:8803157	genomic_coordinate	chr18:8803157	18	8803157.0	T	1	1	1	GCST90103985	1e-08	True		unknown		chr18:8803157-T	unresolved	not_found_at_catalog_position			0
+core_copd	rs647097	rsID	rs647097	18	8808466.0	C	2	2	2	GCST004147;GCST007692	1e-11	True	intron_variant	noncoding	MTCL1	rs647097-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs8089099	rsID	rs8089099	18	10078074.0	G	1	1	1	GCST90244098	1e-13	True	intergenic_variant	noncoding	LINC01254;VAPA	rs8089099-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs4800123	rsID	rs4800123	18	22430278.0	C	1	1	1	GCST90244098	9e-17	True	intergenic_variant	noncoding	ATP7BP1;RPS4XP18	rs4800123-C	SNV	matched_position_and_reported_allele	C	G	1
+core_copd	chr18:32037364	genomic_coordinate	chr18:32037364	18	32037364.0	CAT	1	1	1	GCST90667889	2e-08	True		unknown		chr18:32037364-CAT	unresolved	not_found_at_catalog_position			0
+core_copd	rs62092157	rsID	rs62092157	18	45249065.0	C	1	1	1	GCST90244098	1e-12	True	non_coding_transcript_exon_variant	noncoding	SLC14A2	rs62092157-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	chr18:79817501	genomic_coordinate	chr18:79817501	18	79817501.0	T	1	1	1	GCST90667889	8e-09	True		unknown		chr18:79817501-T	indel	matched_position_and_reported_allele	TCA	T	1
+core_copd	rs2074552	rsID	rs2074552	19	2214058.0	C	1	1	1	GCST90244098	1e-08	True	non_coding_transcript_exon_variant	noncoding	DOT1L;DOT1L-AS1	rs2074552-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs4804524	rsID	rs4804524	19	10756772.0	G	1	1	1	GCST90244098	2e-08	True	intron_variant	noncoding	DNM2	rs4804524-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs146059675	rsID	rs146059675	19	31338847.0	C	1	1	1	GCST90244098	2e-35	True	intron_variant	noncoding	TSHZ3	rs146059675-C	unresolved	not_found_at_catalog_position			0
+core_copd	rs34093919	rsID	rs34093919	19	40611394.0	G	1	1	1	GCST90244098	2e-15	True	missense_variant	coding	LTBP4	rs34093919-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs2288450	rsID	rs2288450	19	40703272.0	T	1	1	1	GCST90013709	6e-11	True	intron_variant	noncoding	COQ8B	rs2288450-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs2604894	rsID	rs2604894	19	40786499.0	A	1	1	1	GCST90016593	8e-08	False	intron_variant	noncoding	MIA-RAB4B;RAB4B;RAB4B-EGLN2	rs2604894-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs7937	rsID	rs7937	19	40796801.0	C;T	3	3	3	GCST001321;GCST004147;GCST90162551	3e-09	True	3_prime_UTR_variant	noncoding	MIA-RAB4B;RAB4B;RAB4B-EGLN2	rs7937-?	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs11878604	rsID	rs11878604	19	40827379.0	C	1	1	1	GCST90013709	6e-12	True	non_coding_transcript_exon_variant	noncoding	CYP2A6;CYP2F2P	rs11878604-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs116921376	rsID	rs116921376	19	40827821.0	G	1	1	1	GCST90018807	1e-13	True	intron_variant	noncoding	CYP2A6;CYP2F2P	rs116921376-G	SNV	matched_position_and_reported_allele	C	G	1
+core_copd	rs12459249	rsID	rs12459249	19	40833991.0	C	1	1	1	GCST004147	3e-08	True	intron_variant	noncoding	CYP2A6;CYP2F2P	rs12459249-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs11083569	rsID	rs11083569	19	40834416.0	C	1	1	1	GCST90480251	1e-14	True	intron_variant	noncoding	CYP2A6;CYP2F2P	rs11083569-C	SNV	matched_position_and_reported_allele	C	G	1
+core_copd	rs12461964	rsID	rs12461964	19	40835324.0	A	1	1	1	GCST90476030	3e-15	True	intron_variant	noncoding	CYP2A6;CYP2F2P	rs12461964-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs3865454	rsID	rs3865454	19	40836554.0	T	1	1	1	GCST90480254	8e-15	True	intron_variant	noncoding	CYP2A6;CYP2F2P	rs3865454-T	unresolved	not_found_at_catalog_position			0
+core_copd	rs35755165	rsID	rs35755165	19	40840084.0	A	1	1	1	GCST90476027	7e-19	True	intron_variant	noncoding	CYP2A6;CYP2F2P	rs35755165-A	unresolved	not_found_at_catalog_position			0
+core_copd	rs28399483	rsID	rs28399483	19	40843592.0	T	1	1	1	GCST90399695	3e-10	True	3_prime_UTR_variant	noncoding	CYP2A6	rs28399483-T	unresolved	not_found_at_catalog_position			0
+core_copd	rs146260021	rsID	rs146260021	19	40910927.0	AT	1	1	1	GCST90013709	2e-17	True	intron_variant	noncoding	CYP2B7P;CYP2G1P	rs146260021-AT	unresolved	not_found_at_catalog_position			0
+core_copd	rs73038469	rsID	rs73038469	19	40936692.0	A	1	1	1	GCST90018587	1e-20	True	intron_variant	noncoding	CYP2B7P	rs73038469-A	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	chr19:44908684	genomic_coordinate	chr19:44908684	19	44908684.0	C	1	1	1	GCST90667889	3e-11	True		unknown		chr19:44908684-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs429358	rsID	rs429358	19	44908684.0	C	1	1	1	GCST90399695	1e-08	True	missense_variant	coding	APOE	rs429358-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs8109951	rsID	rs8109951	19	45786245.0	C	1	1	1	GCST90244098	7.000000000000001e-24	True	synonymous_variant	coding	DMWD	rs8109951-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs72626215	rsID	rs72626215	19	45790878.0	G	1	1	1	GCST007692	2e-09	True	intron_variant	noncoding	DMWD	rs72626215-G	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs12609373	rsID	rs12609373	19	51795028.0	T	1	1	1	GCST90244098	7e-11	True	intergenic_variant	noncoding	FPR1	rs12609373-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs274165	rsID	rs274165	19	56174999.0		1	1	1	GCST90827700	3e-06	False	intergenic_variant	noncoding	GALP;ZNF444	rs274165-?	SNV	matched_position	G	C	1
+core_copd	rs603112	rsID	rs603112	20	3680142.0	T	1	1	1	GCST90244098	2e-08	True	intron_variant	noncoding	ADAM33	rs603112-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs6032944	rsID	rs6032944	20	10766892.0	T	1	1	1	GCST90244098	4e-12	True	intron_variant	noncoding	LINC01752	rs6032944-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs6079095	rsID	rs6079095	20	13540281.0	A	1	1	1	GCST90244098	8e-09	True	intron_variant	noncoding	TASP1	rs6079095-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs6058526	rsID	rs6058526	20	32111829.0	G	1	1	1	GCST004147	1e-06	False	intron_variant	noncoding	TM9SF4	rs6058526-G	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs35551552	rsID	rs35551552	20	32186114.0	A	1	1	1	GCST90244098	9e-21	True	intergenic_variant	noncoding	PLAGL2;RSL24D1P6	rs35551552-A	unresolved	not_found_at_catalog_position			0
+core_copd	rs11905172	rsID	rs11905172	20	32209825.0	C	1	1	1	GCST004147	8e-07	False	intron_variant	noncoding	POFUT1	rs11905172-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs6087358	rsID	rs6087358	20	32267943.0	G	1	1	1	GCST004147	7e-06	False	intergenic_variant	noncoding	KIF3B;POFUT1	rs6087358-G	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs1737890	rsID	rs1737890	20	32454792.0	T	1	1	1	GCST004147	9e-08	False	intron_variant	noncoding	NOL4L	rs1737890-T	SNV	matched_position_and_reported_allele	G	T	1
+core_copd	rs552107808	rsID	rs552107808	20	35195820.0	CA	1	1	1	GCST90244098	2e-09	True	intergenic_variant	noncoding	PROCR	rs552107808-CA	unresolved	not_found_at_catalog_position			0
+core_copd	rs6029174	rsID	rs6029174	20	40546240.0	T	1	1	1	GCST90244098	9e-10	True	intergenic_variant	noncoding	LINC01370;MAFB	rs6029174-T	SNV	matched_position_and_reported_allele	T	G	1
+core_copd	rs6099314	rsID	rs6099314	20	56879603.0		1	1	1	GCST002351	4e-07	False	intergenic_variant	noncoding	BMP7;RNU6-929P	rs6099314-?	SNV	matched_position	A	G	1
+core_copd	chr20:61986949	genomic_coordinate	chr20:61986949	20	61986949.0	T	1	1	1	GCST90476027	1.0000000000000001e-23	True		unknown		chr20:61986949-T	unresolved	not_found_at_catalog_position			0
+core_copd	rs200383755	rsID	rs200383755	20	62475466.0	G	1	1	1	GCST90244098	6e-14	True	missense_variant	coding	GATA5	rs200383755-G	SNV	matched_position_and_reported_allele	G	C	1
+core_copd	rs6089394	rsID	rs6089394	20	62506645.0		1	1	1	GCST011793	7e-06	False	intergenic_variant	noncoding	CRMA;GATA5	rs6089394-?	SNV	matched_position	G	T	1
+core_copd	rs6011779	rsID	rs6011779	20	63352965.0	C;T	2	2	2	GCST90399695;GCST90480254	2e-20	True	intron_variant	noncoding	CHRNA4	rs6011779-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs2273500	rsID	rs2273500	20	63355597.0	C	1	1	1	GCST90018807	2e-09	True	intron_variant	noncoding	CHRNA4	rs2273500-C	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	chr20:63357288	genomic_coordinate	chr20:63357288	20	63357288.0	A	1	1	1	GCST90667889	2e-11	True		unknown		chr20:63357288-A	indel	matched_position_and_reported_allele	ACAGGACCTCATCCCCT	A	1
+core_copd	rs11088268	rsID	rs11088268	21	33991458.0	T	1	1	1	GCST90244098	1e-11	True	intron_variant	noncoding	LINC00649	rs11088268-T	SNV	matched_position_and_reported_allele	T	G	1
+core_copd	rs2096468	rsID	rs2096468	21	34289445.0	A	1	1	1	GCST007692	4e-08	True	intron_variant	noncoding	KCNE2;LINC00310;MRPS6	rs2096468-A	SNV	matched_position_and_reported_allele	A	C	1
+core_copd	rs78990292	rsID	rs78990292	21	39369533.0	T	1	1	1	GCST90244098	5e-08	True	intron_variant	noncoding	HMGN1;RNF6P1	rs78990292-T	unresolved	not_found_at_catalog_position			0
+core_copd	rs1054761	rsID	rs1054761	21	41798360.0	T	2	2	2	GCST010249;GCST011435	2e-07	False	3_prime_UTR_variant	noncoding	PRDM15	rs1054761-T	SNV	matched_position	G	A	1
+core_copd	rs2542334	rsID	rs2542334	22	17837292.0	T	1	1	1	GCST007692	2e-06	False	intron_variant	noncoding	MICAL3	rs2542334-T	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs9605481	rsID	rs9605481	22	17982911.0	A	3	3	1	GCST90016588;GCST90016591;GCST90016594	4e-10	True	intron_variant	noncoding	MICAL3	rs9605481-A	SNV	matched_position_and_reported_allele	G	A	1
+core_copd	rs9617650	rsID	rs9617650	22	18006117.0	G	1	1	1	GCST007692	4e-10	True	non_coding_transcript_exon_variant	noncoding	MICAL3	rs9617650-G	SNV	matched_position_and_reported_allele	G	C	1
+core_copd	chr22:18458814	genomic_coordinate	chr22:18458814	22	18458814.0	CA	1	1	1	GCST90244098	9e-28	True		unknown		chr22:18458814-CA	unresolved	not_found_at_catalog_position			0
+core_copd	rs41298826	rsID	rs41298826	22	19764484.0	T	1	1	1	GCST90244098	4e-13	True	intron_variant	noncoding	TBX1	rs41298826-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	rs2108746	rsID	rs2108746	22	20434682.0	A	1	1	1	GCST90244098	2e-18	True	intron_variant	noncoding	SCARF2	rs2108746-A	SNV	matched_position_and_reported_allele	A	G	1
+core_copd	rs2283847	rsID	rs2283847	22	27785411.0	C	1	1	1	GCST90244098	9e-28	True	intron_variant	noncoding	MN1	rs2283847-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs9614084	rsID	rs9614084	22	29858186.0	C	1	1	1	GCST90244098	7e-22	True	intergenic_variant	noncoding	ASCC2;MTMR3	rs9614084-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs116894149	rsID	rs116894149	22	31079455.0	C	1	1	1	GCST90244098	7e-11	True	regulatory_region_variant	noncoding	SMTN	rs116894149-C	SNV	matched_position_and_reported_allele	C	T	1
+core_copd	rs73158393	rsID	rs73158393	22	32939401.0	C	2	2	2	GCST007692;GCST90244098	2e-10	True	intron_variant	noncoding	SYN3	rs73158393-C	SNV	matched_position_and_reported_allele	C	G	1
+core_copd	rs5756129	rsID	rs5756129	22	36288046.0	T	1	1	1	GCST90244098	4e-09	True	intron_variant	noncoding	MYH9	rs5756129-T	SNV	matched_position_and_reported_allele	T	C	1
+core_copd	15q25.1	cytogenetic_region	15q25.1				1	1	1	GCST007996	1e-14	True		unknown		15q25.1-?	region	not_a_single_sequence_variant			0
+core_copd	rs139284640	rsID	rs139284640			A	1	1	1	GCST90244098	6e-12	True		unknown		rs139284640-A	unresolved	catalog_coordinate_missing			0
+core_copd	rs751872749	rsID	rs751872749			AT	1	1	1	GCST90244098	3e-27	True		unknown		rs751872749-AT	unresolved	catalog_coordinate_missing			0

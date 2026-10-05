@@ -1,0 +1,10 @@
+result_id	study_design	population	phenotype	estimate	uncertainty	key_limit	source_ids
+COPD-S1-R002	nationwide twin study	12,449 Danish twins age 40-80	clinical COPD	47% heritability	95% CI 16-78%	No post-bronchodilator spirometry; wide interval	COPD-SRC-006
+COPD-S1-R002	nationwide twin study	12,449 Danish twins age 40-80	fixed-ratio COPD sensitivity definition	approximately 55%	95% CI 38-72%	No post-bronchodilator spirometry	COPD-SRC-006
+COPD-S1-R002	nationwide twin study	12,449 Danish twins age 40-80	FEV1; FVC; FEV1/FVC	64%; 61%; 50%	95% CIs 60-67%; 57-65%; 46-55%	Pulmonary-function heritability is not identical to COPD liability	COPD-SRC-006
+COPD-S1-R002	twin registry study	22,422 Danish and 27,668 Swedish twin pairs	hospitalized COPD	63% Denmark; 61% Sweden	95% CIs 46-77%; 48-72%	Captures severe disease requiring hospitalization	COPD-SRC-007
+COPD-S1-R002	family study	severe early-onset COPD probands and smoking first-degree relatives	low FEV1 or chronic bronchitis	approximately threefold excess risk	refer to primary article	Selected severe families and smoking relatives	COPD-SRC-008
+COPD-S1-R002	family study	severe COPD probands, siblings, and controls	COPD in siblings	31.5% versus 9.3%; OR 4.70	95% CI 2.63-8.41	Selected severe-proband families	COPD-SRC-009
+COPD-S1-R002	GREML common-SNP analysis	COPDGene smokers with at least 10 pack-years; non-Hispanic White participants	COPD liability	37.7%	SE 7.4%	Smoking-selected cohort; ancestry terminology follows source	COPD-SRC-010
+COPD-S1-R002	GREML common-SNP analysis	COPDGene African-American participants	COPD liability	37.9%	SE 20.4%	Underpowered; P=0.992 does not establish equal architecture	COPD-SRC-010
+COPD-S1-R002	LDSC	UK Biobank	COPD observed-scale SNP heritability	20.11%	SE 2.61%	Observed-scale estimate is not directly comparable to twin or liability-scale estimates	COPD-SRC-011

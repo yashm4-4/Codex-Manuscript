@@ -1,0 +1,16 @@
+panel	metric	group	n	denominator	percent	note	source_file
+A	ROC AUC	enhancer	0.9382720308865188	51006		95% CI 0.936441-0.940014	diseases/COPD/04_modeling/results/COPD-S4-R001_model_performance.tsv
+A	PR AUC	enhancer	0.8851028979971612	51006		95% CI 0.881510-0.888851	diseases/COPD/04_modeling/results/COPD-S4-R001_model_performance.tsv
+A	ROC AUC	silencer	0.9672430627433776	8548		95% CI 0.963408-0.970706	diseases/COPD/04_modeling/results/COPD-S4-R001_model_performance.tsv
+A	PR AUC	silencer	0.9376081745036964	8548		95% CI 0.931289-0.943635	diseases/COPD/04_modeling/results/COPD-S4-R001_model_performance.tsv
+B	Enhancer only	model-nominated candidate	138.0	337	40.94955489614243		diseases/COPD/04_modeling/results/COPD-S4-R004_variant_summary.tsv
+B	Both models	model-nominated candidate	37.0	337	10.979228486646884		diseases/COPD/04_modeling/results/COPD-S4-R004_variant_summary.tsv
+B	Silencer only	model-nominated candidate	162.0	337	48.07121661721068		diseases/COPD/04_modeling/results/COPD-S4-R004_variant_summary.tsv
+C	Coding + regulatory	replicated GWAS genes	45.0	140	32.142857142857146		diseases/COPD/04_modeling/results/COPD-S4-R004_locus_summary.tsv
+C	Coding only	replicated GWAS genes	15.0	140	10.714285714285714		diseases/COPD/04_modeling/results/COPD-S4-R004_locus_summary.tsv
+C	Regulatory only	replicated GWAS genes	40.0	140	28.57142857142857		diseases/COPD/04_modeling/results/COPD-S4-R004_locus_summary.tsv
+C	Other	replicated GWAS genes	40.0	140	28.57142857142857		diseases/COPD/04_modeling/results/COPD-S4-R004_locus_summary.tsv
+D	Exact GTEx Lung eQTL	public validation	185.0	337	54.89614243323442	variant-level association	diseases/COPD/05_computational_validation/results/COPD-S5-R005_integrated_summary.tsv
+D	MPRAbase element	public validation	1.0	337	0.2967359050445104	regional coverage	diseases/COPD/05_computational_validation/results/COPD-S5-R005_integrated_summary.tsv
+D	No primary-query evidence	public validation	151.0	337	44.80712166172107	not a negative causal call	diseases/COPD/05_computational_validation/results/COPD-S5-R005_integrated_summary.tsv
+D	Open Targets gene context	public validation	297.0	337	88.13056379821958	gene-level context only	diseases/COPD/05_computational_validation/results/COPD-S5-R005_integrated_summary.tsv

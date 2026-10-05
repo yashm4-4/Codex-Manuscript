@@ -1,0 +1,52 @@
+{
+  "created_utc": "2026-10-01T12:34:32.675840+00:00",
+  "files": {
+    "alt_sequences": {
+      "bytes": 30895506,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/data/COPD_candidate_variants_alt_2001bp.fa",
+      "sha256": "f52e809e1d6d4da50917d2ff2c3c9e4063543cf42aee52606bd2785238ec5568"
+    },
+    "candidate_input": {
+      "bytes": 235237,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/02_gwas/results/COPD-S2-R006E_candidate_variants_grch38.tsv.gz",
+      "sha256": "b50fdffa3cad1b39f57121d9368414c841070b0c3d4e079ed802867fdf62680e"
+    },
+    "ref_sequences": {
+      "bytes": 30895506,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/data/COPD_candidate_variants_ref_2001bp.fa",
+      "sha256": "d45009e7d90f3c72a48ed33be14180e06af3735c15ae72c1f4093d3eeaeb46ab"
+    },
+    "reference_fasta": {
+      "bytes": 3273481150,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/models/TREDNET_v2/fasta/hg38.fa",
+      "sha256": "5be01555d98347fdb3714dc84c6f77c9d8bc774adcf32c6f7a8fa06f5baf5e51"
+    },
+    "script": {
+      "bytes": 6739,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/scripts/02_prepare_candidate_alleles.py",
+      "sha256": "d1903263f9b720f9d10816432bc644cf6701bf5d9871eae8b6ca32becf140f5b"
+    },
+    "sequence_audit": {
+      "bytes": 278715,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R002_candidate_sequence_audit.tsv.gz",
+      "sha256": "efc20c02d9cfe285823773777c7297d735a0ef1923f164fa6067a49ce00d3ad7"
+    }
+  },
+  "genome_build": "GRCh38",
+  "indel_policy": "shared 1000-bp left flank; substitute normalized VCF REF or ALT; crop independently on the right to 2001 bp",
+  "input_length_bp": 2001,
+  "input_records": 15389,
+  "result_id": "COPD-S4-R002",
+  "software": {
+    "pandas": "2.0.3",
+    "pysam": "0.21.0",
+    "python": "3.9.15"
+  },
+  "status_counts": {
+    "ambiguous_allele": 1,
+    "missing_coordinate": 3,
+    "ok": 15303,
+    "unresolved_alleles": 82
+  },
+  "variant_first_base_index_zero_based": 1000
+}

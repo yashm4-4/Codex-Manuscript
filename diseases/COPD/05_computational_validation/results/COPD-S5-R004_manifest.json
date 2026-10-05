@@ -1,0 +1,37 @@
+{
+  "analysis": "Section 5 public, controlled-access, and biobank resource audit",
+  "audit_date": "2026-10-01",
+  "biobanks_audited": 9,
+  "created_utc": "2026-10-01T13:28:11.657518+00:00",
+  "inputs": {
+    "shared_validation_inventory": {
+      "bytes": 3767,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/validation_resources.tsv",
+      "sha256": "f1dc013bf110536bc5f5f89dd0d9ade5bf371cc86e814ac13555cc8c28b7d4e2"
+    }
+  },
+  "inventory_date": "2026-09-25",
+  "outputs": {
+    "biobank_access_audit": {
+      "bytes": 2494,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/COPD-S5-R004_biobank_access_audit.tsv",
+      "sha256": "1d88c99102478d7062139740884db71f28799de81280e721ebfaba77b7bb7e68"
+    },
+    "resource_access_audit": {
+      "bytes": 4692,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/COPD-S5-R004_resource_access_audit.tsv",
+      "sha256": "f6a03f27d6e3b86253274190db757635ab891b9abfa44f08e490c7a8126a988c"
+    },
+    "summary": {
+      "bytes": 443,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/COPD-S5-R004_access_summary.tsv",
+      "sha256": "cbeb8b62396c638c6c7723586c010905157250c2e365dc0e89c2104fe88f8357"
+    }
+  },
+  "resources_audited": 17,
+  "result_id": "COPD-S5-R004",
+  "scope": "local availability and project access state; not a legal determination or a claim that external access policies will remain unchanged",
+  "software": {
+    "python": "3.9.15"
+  }
+}

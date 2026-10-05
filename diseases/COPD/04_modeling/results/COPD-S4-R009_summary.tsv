@@ -1,0 +1,6 @@
+metric	n	denominator	fraction	note
+literature_functional_evidence_rows	8	8	1.0	Section 3 R004 evidence units
+distinct_literature_tested_rsids	8	8	1.0	rs1542725;rs1795739;rs1800469;rs2013701;rs2241712;rs35421223;rs6537296;rs7671167
+distinct_tested_rsids_with_exact_candidate_identity	2	8	0.25	rs2013701;rs7671167
+distinct_tested_rsids_recovered_as_predicted_causal	1	8	0.125	rs2013701
+predicted_causal_candidates_with_exact_literature_tested_identity	1	337	0.002967359050445104	exact identity; excludes LD-source labels

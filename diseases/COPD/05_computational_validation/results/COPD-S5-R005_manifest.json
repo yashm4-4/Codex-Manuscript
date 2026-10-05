@@ -1,0 +1,75 @@
+{
+  "analysis": "integrated computational validation matrix",
+  "any_variant_or_regional_public_evidence": 186,
+  "both_primary_evidence_types": 0,
+  "candidate_count": 337,
+  "created_utc": "2026-10-01T13:32:38.910395+00:00",
+  "evidence_hierarchy": {
+    "gene_context": "HGNC-resolved exact-node Open Targets COPD association",
+    "regional_experimental": "round-trip-validated candidate-base containment in an MPRAbase element",
+    "variant_level": "exact GTEx v10 Lung significant cis-eQTL; exact candidate rsID in MPRAbase metadata"
+  },
+  "exact_lung_eqtl_candidates": 185,
+  "exact_lung_eqtl_matching_mapped_gene_candidates": 72,
+  "exact_lung_eqtl_matching_provisional_target_candidates": 144,
+  "inputs": {
+    "access_summary": {
+      "bytes": 443,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/COPD-S5-R004_access_summary.tsv",
+      "sha256": "cbeb8b62396c638c6c7723586c010905157250c2e365dc0e89c2104fe88f8357"
+    },
+    "gene_context": {
+      "bytes": 67526,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/COPD-S5-R003_candidate_gene_context.tsv.gz",
+      "sha256": "3c38c81d5b17caf11f82205438621034d090cda8fb0f11389c5d96b3048723a6"
+    },
+    "gtex_candidate_audit": {
+      "bytes": 47233,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/COPD-S5-R001_GTEx_v10_Lung_candidate_audit.tsv",
+      "sha256": "5018be8224c21d08376842b344bbd2ae5cfd706782175e66deec3b8a25dfc09a"
+    },
+    "gtex_exact_pairs": {
+      "bytes": 58505,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/COPD-S5-R001_GTEx_v10_Lung_exact_significant_pairs.tsv.gz",
+      "sha256": "4f7737521eaa499b66e611150e6d34166e4e758ee5e0fd4b348415dbd4f4d55b"
+    },
+    "mprabase_candidate_audit": {
+      "bytes": 48649,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/COPD-S5-R002_MPRAbase_candidate_audit.tsv",
+      "sha256": "12e251142ec5ccaa3207789cba9ce524366d84e8267a80704a2eca6692fb40fd"
+    },
+    "mprabase_elements": {
+      "bytes": 672,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/COPD-S5-R002_MPRAbase_v4_9_3_candidate_elements.tsv.gz",
+      "sha256": "6e00503d43daeec596d30842a8263a6be09722a46d1b93511fdc1906999a9545"
+    },
+    "section4_candidates": {
+      "bytes": 535623,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R005_predicted_causal_population_genetics.tsv",
+      "sha256": "6506c1ab605fb647fcd1a72ec9c7b529a0ba1518c61d12d83dad95ac51f204f9"
+    }
+  },
+  "mprabase_candidates": 1,
+  "outputs": {
+    "integrated_candidate_matrix": {
+      "bytes": 220097,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/COPD-S5-R005_integrated_candidate_validation.tsv",
+      "sha256": "302a333ac68171d0520aa1a1cd07a11a4b2f9c94d1b7f6db2b6a98265a8e8916"
+    },
+    "integrated_summary": {
+      "bytes": 1337,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/COPD-S5-R005_integrated_summary.tsv",
+      "sha256": "adb19540c2c47dc5e92bfccb805fc811d1760202ea64b70fcbcb2aa20c14c1c1"
+    },
+    "section_report": {
+      "bytes": 4184,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/section_5_computational_validation.md",
+      "sha256": "4509bf4a6297ff0a7ccffcb5319c8f52363010b27e72394eddaf3da7b75527a1"
+    }
+  },
+  "priority_policy": "preserve Section 4 predicted-causal priority order; do not rerank",
+  "result_id": "COPD-S5-R005",
+  "software": {
+    "python": "3.9.15"
+  }
+}

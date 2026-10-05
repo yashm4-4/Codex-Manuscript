@@ -1,0 +1,9 @@
+phenotype_scope	metric	value	definition
+core_copd	core_study_accessions	104	All study records mapped directly to COPD
+core_copd	core_publications	42	Unique PubMed IDs among core studies
+core_copd	studies_with_curated_association_rows	45	Core studies represented in the extracted association table
+core_copd	core_association_rows	995	Rows in copd_associations.tsv after enforcing core_copd
+core_copd	studies_with_full_summary_statistics	69	GWAS Catalog FULL SUMMARY STATISTICS equals yes
+core_copd	ancestry_cohort_entries	165	Initial and replication ancestry rows
+core_copd	study_year_min	2009	Earliest study publication year
+core_copd	study_year_max	2026	Latest study publication year

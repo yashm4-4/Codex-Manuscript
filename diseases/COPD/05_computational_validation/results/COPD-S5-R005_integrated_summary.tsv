@@ -1,0 +1,12 @@
+metric	n	denominator	fraction	note
+predicted_causal_candidates	337	337	1	Section 4 predicted-causal union; priority order unchanged
+exact_significant_GTEx_v10_Lung_cis_eqtl	185	337	0.548961424332	exact GRCh38 chromosome-position-REF-ALT
+any_MPRAbase_element_evidence	1	337	0.00296735905045	exact candidate-rsID metadata or round-trip-validated hg19 coordinate containment
+GTEx_eGene_matches_candidate_mapped_gene_or_selected_locus	72	185	0.389189189189	HGNC-approved symbol concordance; gene mapping remains contextual
+GTEx_eGene_matches_provisional_Section4_target	144	185	0.778378378378	denominator is exact GTEx-supported candidates with an R006 provisional target set
+MPRAbase_coordinate_containment	1	337	0.00296735905045	regional assay evidence; not assumed allele-specific
+MPRAbase_exact_candidate_rsid_metadata	0	337	0	source focal-tag rsIDs excluded
+GTEx_and_MPRAbase_evidence	0	337	0	intersection of exact Lung eQTL and any MPRAbase evidence
+any_variant_or_regional_public_evidence	186	337	0.551928783383	union of GTEx and MPRAbase; evidence scopes differ
+no_variant_or_regional_evidence_in_primary_queries	151	337	0.448071216617	not evidence against causality; resources and contexts are incomplete
+candidate_with_OpenTargets_COPD_gene_context	297	337	0.881305637982	gene-level context, excluded from variant-validation union

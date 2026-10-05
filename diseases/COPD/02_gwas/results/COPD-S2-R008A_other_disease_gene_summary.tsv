@@ -1,0 +1,141 @@
+phenotype_scope	gene	gencode_gene_id	gene_type	has_other_mondo_disease_link	n_other_mondo_diseases_any_direct_evidence	n_other_mondo_diseases_at_least_2_evidence	n_other_mondo_diseases_human_genetic_or_curated	top_disease_id	top_disease_name	top_association_score	top_evidence_count	top_datasources
+core_copd	TET2	ENSG00000168769	protein_coding	True	1027	620	132	MONDO_0018881	myelodysplastic syndrome	0.8003887103914084	942	cancer_gene_census;europepmc;eva;eva_somatic;gene_burden;intogen;uniprot_literature
+core_copd	SMAD3	ENSG00000166949	protein_coding	True	1956	976	96	MONDO_0013426	aneurysm-osteoarthritis syndrome	0.7863491390234651	393	clingen;europepmc;eva;gene2phenotype;genomics_england;impc;orphanet
+core_copd	SPPL2C	ENSG00000185294	protein_coding	True	128	65	72	MONDO_0005015	diabetes mellitus	0.33237497745215927	2	gwas_credible_sets
+core_copd	MECOM	ENSG00000085276	protein_coding	True	2023	486	67	MONDO_0014758	radioulnar synostosis with amegakaryocytic thrombocytopenia 2	0.7272805750283053	43	europepmc;eva;gene2phenotype;genomics_england;impc
+core_copd	ASTN2	ENSG00000148219	protein_coding	True	125	55	61	MONDO_0015229	Bardet-Biedl syndrome	0.5528192920493031	567	eva
+core_copd	TGFB2	ENSG00000092969	protein_coding	True	3824	1010	60	MONDO_0019625	familial thoracic aortic aneurysm and aortic dissection	0.768444879894844	288	clingen;europepmc;eva;genomics_england;impc;orphanet
+core_copd	GLIS3	ENSG00000107249	protein_coding	True	361	144	60	MONDO_0012436	neonatal diabetes mellitus with congenital hypothyroidism	0.7883200547484757	446	europepmc;eva;gene2phenotype;genomics_england;orphanet;uniprot_literature
+core_copd	CHRNA3	ENSG00000080644	protein_coding	True	1605	292	53	MONDO_0008630	urinary bladder, atony of	0.7264122437076829	86	eva;gene2phenotype;genomics_england;impc;uniprot_literature;uniprot_variants
+core_copd	BMAL1	ENSG00000133794	protein_coding	True	1556	484	49	MONDO_0005044	hypertensive disorder	0.4712730832971926	67	europepmc;gwas_credible_sets
+core_copd	LRMDA	ENSG00000148655	protein_coding	True	97	27	47	MONDO_0014070	oculocutaneous albinism type 7	0.6988907222165283	20	europepmc;eva;gene2phenotype;genomics_england;orphanet;uniprot_literature
+core_copd	RREB1	ENSG00000124782	protein_coding	True	2331	913	42	MONDO_0005393	gout	0.5031837818438937	25	europepmc;gwas_credible_sets
+core_copd	CHRNA5	ENSG00000169684	protein_coding	True	153	75	42	MONDO_0005138	lung carcinoma	0.49680942618880564	214	europepmc;expression_atlas;gwas_credible_sets
+core_copd	TNS1	ENSG00000079308	protein_coding	True	675	163	41	MONDO_0005010	coronary artery disorder	0.5287892960446464	15	europepmc;gwas_credible_sets
+core_copd	CACNA2D3	ENSG00000157445	protein_coding	True	260	89	39	MONDO_0005027	epilepsy	0.6075240229664228	160	clinical_precedence;europepmc
+core_copd	EEFSEC	ENSG00000132394	protein_coding	True	54	15	36	MONDO_0976233	neurodevelopmental disorder with progressive spasticity and brain abnormalities	0.6486253769066727	9	eva;genomics_england
+core_copd	CCDC91	ENSG00000123106	protein_coding	True	61	25	35	MONDO_0007254	breast cancer	0.42694439825567654	12	europepmc;gwas_credible_sets
+core_copd	RBMS3	ENSG00000144642	protein_coding	True	126	55	34	MONDO_0001384	myopia	0.409457535748857	4	europepmc;gwas_credible_sets
+core_copd	RARB	ENSG00000077092	protein_coding	True	2561	979	33	MONDO_0014229	microphthalmia, syndromic 12	0.7781048503555429	71	clingen;europepmc;eva;gene2phenotype;genomics_england;impc;orphanet
+core_copd	HDAC4	ENSG00000068024	protein_coding	True	757	316	33	MONDO_0859232	neurodevelopmental disorder with central hypotonia and dysmorphic facies	0.7263649582364665	52	eva;gene2phenotype;uniprot_literature;uniprot_variants
+core_copd	SLC30A10	ENSG00000196660	protein_coding	True	276	78	33	MONDO_0013208	cirrhosis - dystonia - polycythemia - hypermanganesemia syndrome	0.7401468956474072	74	europepmc;eva;genomics_england;orphanet
+core_copd	HIVEP2	ENSG00000010818	protein_coding	True	265	62	33	MONDO_0014858	intellectual disability, autosomal dominant 43	0.7440919625852178	168	europepmc;eva;gene2phenotype;genomics_england;uniprot_literature
+core_copd	THSD4	ENSG00000187720	protein_coding	True	231	54	33	MONDO_0030731	aortic aneurysm, familial thoracic 12	0.5771483165315421	23	eva;impc;uniprot_literature;uniprot_variants
+core_copd	ZBTB38	ENSG00000177311	protein_coding	True	111	38	33	MONDO_0005159	prostate carcinoma	0.45964641017439395	23	europepmc;gwas_credible_sets
+core_copd	ITGB8	ENSG00000105855	protein_coding	True	757	143	32	MONDO_0004979	asthma	0.49952477832161657	42	europepmc;gwas_credible_sets
+core_copd	FAM227B	ENSG00000166262	protein_coding	True	117	22	31	MONDO_0020804	basal cell carcinoma	0.3343152004179137	4	gwas_credible_sets
+core_copd	RIN3	ENSG00000100599	protein_coding	True	438	78	29	MONDO_0004979	asthma	0.44726879651682205	9	gwas_credible_sets
+core_copd	FAM13A	ENSG00000138640	protein_coding	True	129	56	29	MONDO_0005416	osteoarthritis, knee	0.3660138883897551	7	gwas_credible_sets
+core_copd	IREB2	ENSG00000136381	protein_coding	True	1603	541	28	MONDO_0032758	neurodegeneration, early-onset, with choreoathetoid movements and microcytic anemia	0.6663664340369525	24	eva;gene2phenotype;genomics_england;impc;uniprot_literature;uniprot_variants
+core_copd	HSPA4	ENSG00000170606	protein_coding	True	321	104	28	MONDO_0005044	hypertensive disorder	0.4177327816046782	6	europepmc;gwas_credible_sets
+core_copd	AFAP1	ENSG00000196526	protein_coding	True	182	95	28	MONDO_0005338	open-angle glaucoma	0.5186374174199436	56	europepmc;gwas_credible_sets
+core_copd	RASSF10	ENSG00000189431	protein_coding	True	120	58	28	MONDO_0100096	COVID-19	0.2912936457093029	1	gwas_credible_sets
+core_copd	SYN3	ENSG00000185666	protein_coding	True	99	35	28	MONDO_0007640	Sorsby fundus dystrophy	0.5139412390861741	113	eva
+core_copd	ID4	ENSG00000172201	protein_coding	True	560	185	27	MONDO_0005133	endometriosis	0.45728680643787234	21	europepmc;gwas_credible_sets
+core_copd	AMZ1	ENSG00000174945	protein_coding	True	43	7	27	MONDO_0006816	arthropathy	0.3436640768918654	1	gwas_credible_sets
+core_copd	ADCY5	ENSG00000173175	protein_coding	True	277	103	26	MONDO_0800028	dyskinesia with orofacial involvement, autosomal dominant	0.7791628373522764	107	eva;genomics_england;uniprot_literature;uniprot_variants
+core_copd	CFDP1	ENSG00000153774	protein_coding	True	73	27	24	MONDO_0005559	neurodegenerative disease	0.5083343900600373	4	crispr_screen
+core_copd	ITPK1	ENSG00000100605	protein_coding	True	262	51	23	MONDO_0005420	hypothyroidism	0.4593189107156246	11	europepmc;gwas_credible_sets
+core_copd	ADAMTSL3	ENSG00000156218	protein_coding	True	201	50	22	MONDO_0004979	asthma	0.4811780935016041	21	europepmc;gwas_credible_sets
+core_copd	ACAD10	ENSG00000111271	protein_coding	True	56	20	22	MONDO_0005364	Graves disease	0.34582092192107156	3	gwas_credible_sets
+core_copd	CHRM3	ENSG00000133019	protein_coding	True	1549	582	20	MONDO_0007032	prune belly syndrome	0.7002170017944379	71	europepmc;eva;genomics_england;impc;orphanet;uniprot_literature
+core_copd	ADGRG6	ENSG00000112414	protein_coding	True	891	291	20	MONDO_0017436	lethal congenital contracture syndrome	0.7233947823176202	14	europepmc;gene2phenotype;genomics_england;impc;uniprot_literature;uniprot_variants
+core_copd	RFX6	ENSG00000185002	protein_coding	True	123	50	20	MONDO_0017400	hypoplastic pancreas-intestinal atresia-hypoplastic gallbalder syndrome	0.7415461999118024	45	eva;genomics_england;impc;uniprot_literature;uniprot_variants
+core_copd	CDC123	ENSG00000151465	protein_coding	True	280	34	20	MONDO_0005559	neurodegenerative disease	0.48925077909714004	3	crispr_screen
+core_copd	NPNT	ENSG00000168743	protein_coding	True	164	69	19	MONDO_0004979	asthma	0.5445837904479135	14	europepmc;gwas_credible_sets
+core_copd	VGLL4	ENSG00000144560	protein_coding	True	198	61	19	MONDO_0005559	neurodegenerative disease	0.5003666460734132	3	crispr_screen
+core_copd	MTCL1	ENSG00000168502	protein_coding	True	60	22	18	MONDO_0000437	cerebellar ataxia	0.45502098508032945	7	europepmc;eva;genomics_england
+core_copd	ARMC2	ENSG00000118690	protein_coding	True	126	13	17	MONDO_0004983	spermatogenic failure	0.5663976961971869	10	impc;uniprot_literature;uniprot_variants
+core_copd	FGF18	ENSG00000156427	protein_coding	True	2334	1223	16	MONDO_0004992	cancer	0.6053427114542953	62	europepmc;reactome
+core_copd	CYP2A6	ENSG00000255974	protein_coding	True	164	87	16	MONDO_0001672	bronchus cancer	0.2657963092799922	5	gwas_credible_sets
+core_copd	ASAP2	ENSG00000151693	protein_coding	True	75	13	16	MONDO_0005559	neurodegenerative disease	0.46253112000665986	2	crispr_screen
+core_copd	HYKK	ENSG00000188266	protein_coding	True	25	7	15	MONDO_0008575	nicotine dependence	0.29460741826849285	5	europepmc;gwas_credible_sets
+core_copd	CHRNA4	ENSG00000101204	protein_coding	True	365	229	14	MONDO_0008575	nicotine dependence	0.7239288287638556	481	clinical_precedence;europepmc;gwas_credible_sets
+core_copd	HTR4	ENSG00000164270	protein_coding	True	206	86	14	MONDO_0005090	schizophrenia	0.6147488339927045	47	clinical_precedence;europepmc;impc
+core_copd	GYPE	ENSG00000197465	protein_coding	True	90	31	14	MONDO_0004390	ocular hypotension	0.293537740506893	1	gwas_credible_sets
+core_copd	PABPC4	ENSG00000090621	protein_coding	True	131	30	13	MONDO_0005148	type 2 diabetes mellitus	0.4690444286677168	25	europepmc;gwas_credible_sets
+core_copd	MED24	ENSG00000008838	protein_coding	True	59	19	13	MONDO_0015978	functional neutrophil defect	0.164591933035103	4	gwas_credible_sets
+core_copd	EML4	ENSG00000143924	protein_coding	True	391	155	12	MONDO_0005233	non-small cell lung carcinoma	0.7042705262790772	1700	cancer_gene_census;clinical_precedence;europepmc
+core_copd	DMWD	ENSG00000185800	protein_coding	True	28	10	12	MONDO_0005010	coronary artery disorder	0.2504749899587031	14	europepmc;gwas_credible_sets
+core_copd	SMIM23	ENSG00000185662	protein_coding	True	15	3	12	MONDO_0006629	osteoarthritis, hip	0.36814205715373205	2	gwas_credible_sets
+core_copd	BTC	ENSG00000174808	protein_coding	True	113	44	11	MONDO_0004992	cancer	0.581981121278707	43	europepmc;reactome
+core_copd	GALNT12	ENSG00000119514	protein_coding	True	84	34	11	MONDO_0012132	colorectal cancer, susceptibility to, 1	0.6942032069507438	282	clingen;europepmc;eva;uniprot_literature;uniprot_variants
+core_copd	ME3	ENSG00000151376	protein_coding	True	651	119	10	MONDO_0005338	open-angle glaucoma	0.5182810299121721	25	europepmc;gwas_credible_sets;impc
+core_copd	PRSS23	ENSG00000150687	protein_coding	True	118	43	10	MONDO_0005338	open-angle glaucoma	0.4598322661298528	9	europepmc;gwas_credible_sets
+core_copd	FAM163B	ENSG00000196990	protein_coding	True	22	7	10	MONDO_0008575	nicotine dependence	0.359237611934431	6	gwas_credible_sets
+core_copd	RHOBTB3	ENSG00000164292	protein_coding	True	456	98	9	MONDO_0004643	myeloid leukemia	0.2805108131042511	1	gwas_credible_sets
+core_copd	ZKSCAN1	ENSG00000106261	protein_coding	True	69	34	9	MONDO_0005559	neurodegenerative disease	0.409654955556314	3	crispr_screen
+core_copd	SH3GL3	ENSG00000140600	protein_coding	True	68	25	9	MONDO_0005828	listeriosis	0.46253112000665986	2	reactome
+core_copd	ADAM19	ENSG00000135074	protein_coding	True	820	565	8	MONDO_0005010	coronary artery disorder	0.42303182317754523	3	gwas_credible_sets
+core_copd	MFAP2	ENSG00000117122	protein_coding	True	216	71	8	MONDO_0005559	neurodegenerative disease	0.3828609111199723	2	crispr_screen
+core_copd	SLMAP	ENSG00000163681	protein_coding	True	263	85	7	MONDO_0005559	neurodegenerative disease	0.5032061318102391	3	crispr_screen
+core_copd	OTUD4	ENSG00000164164	protein_coding	True	94	43	7	MONDO_0005306	ankylosing spondylitis	0.18219377106994894	1	gwas_credible_sets
+core_copd	NSRP1	ENSG00000126653	protein_coding	True	93	17	7	MONDO_0859275	neurodevelopmental disorder with spasticity, seizures, and brain abnormalities	0.640624102454024	9	clingen;eva;gene2phenotype;genomics_england
+core_copd	EFCAB5	ENSG00000176927	protein_coding	True	60	1	7	MONDO_0013792	intracerebral hemorrhage	0.24422400600225763	1	gwas_credible_sets
+core_copd	SFTPD	ENSG00000133661	protein_coding	True	659	319	6	MONDO_0100096	COVID-19	0.5643265871653498	76	europepmc;gwas_credible_sets;reactome
+core_copd	MICAL3	ENSG00000243156	protein_coding	True	35	10	6	MONDO_0005559	neurodegenerative disease	0.3633308372972028	1	crispr_screen
+core_copd	TEKT5	ENSG00000153060	protein_coding	True	27	5	6	MONDO_0006816	arthropathy	0.2712221763571157	1	gwas_credible_sets
+core_copd	INTS12	ENSG00000138785	protein_coding	True	34	5	6	MONDO_0004979	asthma	0.20858771434064272	2	gwas_credible_sets
+core_copd	RAB4B	ENSG00000167578	protein_coding	True	90	22	5	MONDO_0005559	neurodegenerative disease	0.4478339796219184	3	crispr_screen;europepmc
+core_copd	GM2A	ENSG00000196743	protein_coding	True	982	215	4	MONDO_0010099	Tay-Sachs disease AB variant	0.8110646529594996	211	clingen;eva;gene2phenotype;genomics_england;impc;uniprot_literature;uniprot_variants
+core_copd	GABBR1	ENSG00000204681	protein_coding	True	381	145	4	MONDO_0957779	neurodevelopmental disorder with language delay and variable cognitive abnormalities	0.646512350409077	19	eva;gene2phenotype;genomics_england;uniprot_literature;uniprot_variants
+core_copd	MMP15	ENSG00000102996	protein_coding	True	281	66	4	MONDO_0005287	developmental disability	0.34042290432490163	1	eva
+core_copd	SPATA9	ENSG00000145757	protein_coding	True	8	0	3	MONDO_0006793	hyperpituitarism	0.2338993261184153	1	gwas_credible_sets
+core_copd	HLA-B	ENSG00000234745	protein_coding	True	802	418	2	MONDO_0100096	COVID-19	0.4900957917681355	173	europepmc;reactome
+core_copd	CCDC69	ENSG00000198624	protein_coding	True	65	24	2	MONDO_0005010	coronary artery disorder	0.33231872634744775	1	gwas_credible_sets
+core_copd	LINC01940	ENSG00000227744	lncRNA	True	5	0	1	MONDO_0001128	nasal cavity cancer	0.09250622400133196	1	gene_burden
+core_copd	AGER	ENSG00000204305	protein_coding	True	920	446	0	MONDO_0100096	COVID-19	0.20938994265227917	90	clinical_precedence;europepmc;expression_atlas
+core_copd	GULOP	ENSG00000234770	unitary_pseudogene	True	1023	317	0	MONDO_0019019	osteogenesis imperfecta	0.0651128939530159	19	impc
+core_copd	HLA-DQB1	ENSG00000179344	protein_coding	True	487	256	0	MONDO_0005070	neoplasm	0.08811831278951623	71	europepmc
+core_copd	HLA-DQA1	ENSG00000196735	protein_coding	True	397	217	0	MONDO_0003308	pleural mesothelioma	0.12300797886807457	1	intogen
+core_copd	EHMT2	ENSG00000204371	protein_coding	True	326	188	0	MONDO_0005559	neurodegenerative disease	0.4049606343280254	9	crispr_screen;europepmc
+core_copd	FLOT1	ENSG00000137312	protein_coding	True	179	90	0	MONDO_0005559	neurodegenerative disease	0.3323723306721224	5	crispr_screen;europepmc
+core_copd	TRIM26	ENSG00000234127	protein_coding	True	117	47	0	MONDO_0005559	neurodegenerative disease	0.2965425361340109	1	crispr_screen
+core_copd	HCG18	ENSG00000231074	lncRNA	True	88	46	0	MONDO_0001056	gastric cancer	0.1022375986125656	29	europepmc
+core_copd	ATF6B	ENSG00000213676	protein_coding	True	120	29	0	MONDO_0005559	neurodegenerative disease	0.32788287091349394	1	crispr_screen
+core_copd	DENND2D	ENSG00000162777	protein_coding	True	44	21	0	MONDO_0005559	neurodegenerative disease	0.3080917501600109	2	crispr_screen
+core_copd	BTN1A1	ENSG00000124557	protein_coding	True	79	19	0	MONDO_0005559	neurodegenerative disease	0.47162371701592776	3	crispr_screen
+core_copd	CARINH	ENSG00000197536	lncRNA	True	34	14	0	MONDO_0005265	inflammatory bowel disease	0.07705602745213536	7	europepmc
+core_copd	ZKSCAN4	ENSG00000187626	protein_coding	True	23	9	0	MONDO_0005559	neurodegenerative disease	0.36180010488151354	1	crispr_screen
+core_copd	TIPARP-AS1	ENSG00000243926	lncRNA	True	16	8	0	MONDO_0007256	hepatocellular carcinoma	0.07511505388908155	2	europepmc
+core_copd	CASC17	ENSG00000260785	lncRNA	True	19	6	0	MONDO_0004989	breast carcinoma	0.036847079144210544	2	europepmc;expression_atlas
+core_copd	ZSCAN9	ENSG00000137185	protein_coding	True	16	5	0	MONDO_0007256	hepatocellular carcinoma	0.0749300414410789	2	europepmc
+core_copd	POM121L2	ENSG00000158553	protein_coding	True	48	5	0	MONDO_0007762	hyperlipoproteinemia type V	0.06894303862371269	1	impc
+core_copd	LINC01748	ENSG00000226476	lncRNA	True	13	4	0	MONDO_0005233	non-small cell lung carcinoma	0.05184418817930649	4	europepmc;expression_atlas
+core_copd	RAB4B-EGLN2	ENSG00000171570	protein_coding	True	26	3	0	MONDO_0009563	maple syrup urine disease	0.0536924625348531	2	impc
+core_copd	ADIPINT	ENSG00000292223	lncRNA	True	2	2	0	MONDO_0011122	obesity disorder	0.01683613276824242	2	europepmc
+core_copd	MAPT-AS1	ENSG00000264589	lncRNA	True	13	2	0	MONDO_0005072	neuroblastoma	0.011100746880159837	1	europepmc
+core_copd	CHRM3-AS2	ENSG00000233355	lncRNA	True	11	1	0	MONDO_0006047	pancreatic adenocarcinoma	0.0402957111749802	1	expression_atlas
+core_copd	HHIP-AS1	ENSG00000248890	lncRNA	True	5	1	0	MONDO_0013662	Barrett esophagus	0.031185698235329035	1	expression_atlas
+core_copd	LINC02938	ENSG00000230731	lncRNA	True	1	1	0	MONDO_0005011	Crohn disease	0.019246112062251138	6	expression_atlas
+core_copd	LINC01804	ENSG00000231031	lncRNA	True	1	1	0	MONDO_0004989	breast carcinoma	0.017933984951762696	2	expression_atlas
+core_copd	LINC01807	ENSG00000232023	lncRNA	True	2	1	0	MONDO_0005233	non-small cell lung carcinoma	0.015502888303449825	2	expression_atlas
+core_copd	LINC01360	ENSG00000233973	lncRNA	True	6	1	0	MONDO_0002009	major depressive disorder	0.010309304741481775	4	europepmc
+core_copd	LINC02869	ENSG00000228208	lncRNA	True	1	1	0	MONDO_0005406	gestational diabetes	0.0027751867200399593	2	europepmc
+core_copd	TET2-AS1	ENSG00000251586	lncRNA	True	3	0	0	MONDO_0005173	actinic keratosis	0.056413995644972285	1	expression_atlas
+core_copd	CYP2F2P	ENSG00000237118	transcribed_processed_pseudogene	True	7	0	0	MONDO_0009296	glycoprotein storage disease	0.05004956743368065	1	impc
+core_copd	LINC02082	ENSG00000242268	lncRNA	True	9	0	0	MONDO_0006047	pancreatic adenocarcinoma	0.03589981541043691	1	expression_atlas
+core_copd	PPP1R3B-DT	ENSG00000248538	lncRNA	True	6	0	0	MONDO_0005575	colorectal cancer	0.0182867391634156	1	expression_atlas
+core_copd	LINC02017	ENSG00000243572	lncRNA	True	2	0	0	MONDO_0005083	psoriasis	0.01668072231192018	1	expression_atlas
+core_copd	LINC02778	ENSG00000238242	lncRNA	True	1	0	0	MONDO_0018531	carcinoma of liver and intrahepatic biliary tract	0.012626926007817956	1	expression_atlas
+core_copd	TBX3-AS1	ENSG00000257817	lncRNA	True	1	0	0	MONDO_0100096	COVID-19	0.009039179525059775	1	expression_atlas
+core_copd	LINC01876	ENSG00000226383	lncRNA	True	6	0	0	MONDO_0024331	colorectal carcinoma	0.007400497920106558	1	europepmc
+core_copd	LINC03142	ENSG00000284418	lncRNA	True	2	0	0	MONDO_0005101	ulcerative colitis	0.003947869053236915	1	expression_atlas
+core_copd	LINC02571	ENSG00000256166	lncRNA	True	3	0	0	MONDO_0007915	systemic lupus erythematosus	0.003700248960053279	1	europepmc
+core_copd	RN7SKP19	ENSG00000251825	misc_RNA	True	3	0	0	MONDO_0005618	anxiety disorder	0.0014800995840213117	1	europepmc
+core_copd	VN1R10P	ENSG00000220758	unprocessed_pseudogene	True	5	0	0	MONDO_0010030	Sjogren syndrome	0.0014800995840213117	1	europepmc
+core_copd	KRT18P51	ENSG00000250504	processed_pseudogene	False	0	0	0					
+core_copd	LINC01997	ENSG00000241383	lncRNA	False	0	0	0					
+core_copd	MIA-RAB4B	ENSG00000268975	protein_coding	False	0	0	0					
+core_copd	NME2P3	ENSG00000229338	processed_pseudogene	False	0	0	0					
+core_copd	NOP56P1	ENSG00000235559	processed_pseudogene	False	0	0	0					
+core_copd	RNU6-351P	ENSG00000251906	snRNA	False	0	0	0					
+core_copd	RNU6-502P	ENSG00000199289	snRNA	False	0	0	0					
+core_copd	RNU7-155P	ENSG00000238759	snRNA	False	0	0	0					
+core_copd	RPL29P17	ENSG00000229700	processed_pseudogene	False	0	0	0					
+core_copd	RPL30P3	ENSG00000223640	processed_pseudogene	False	0	0	0					
+core_copd	RPS29P13	ENSG00000217089	processed_pseudogene	False	0	0	0					
+core_copd	RPSAP2	ENSG00000237425	processed_pseudogene	False	0	0	0					
+core_copd	SNRPF-DT	ENSG00000258343	lncRNA	False	0	0	0					
+core_copd	SUMO2P2	ENSG00000227607	processed_pseudogene	False	0	0	0					
+core_copd	UBA52P7	ENSG00000241656	processed_pseudogene	False	0	0	0					

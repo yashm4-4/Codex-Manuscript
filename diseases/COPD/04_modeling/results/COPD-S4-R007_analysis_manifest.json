@@ -1,0 +1,124 @@
+{
+  "created_utc": "2026-10-01T13:21:25.662993+00:00",
+  "feature_count_per_model": 4560,
+  "feature_ranking": {
+    "primary": "descending mean absolute SHAP across explained positive sequences",
+    "signed": "both descending and ascending mean signed SHAP ranks",
+    "tie_break": "ascending phase-I feature IND"
+  },
+  "interpretation_limit": "TF-MoDISco/JASPAR matches are sequence-similarity hypotheses and do not prove TF binding",
+  "meme_background_frequencies": {
+    "A": 0.25,
+    "C": 0.25,
+    "G": 0.25,
+    "T": 0.25
+  },
+  "models": [
+    "enhancer",
+    "silencer"
+  ],
+  "motif_match_significance_q_value": 0.05,
+  "outputs": {
+    "feature_shap": {
+      "bytes": 583022,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R007_phase1_feature_shap.tsv.gz",
+      "sha256": "264ac7a207a4b6dc7d551e9e9e0a2542c99c79a06e97bfb40cdbbd1313f61e8c"
+    },
+    "interpretation": {
+      "bytes": 1156,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R007_interpretation.md",
+      "sha256": "5ff7d73836fa1d459ef1b6ad6d3a9259525a05ae0017131c1417adf8fb3a6f67"
+    },
+    "jaspar_motif_matches": {
+      "bytes": 4855,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R007_jaspar_motif_matches.tsv",
+      "sha256": "47defe9e897506a8fe8c0097fe65ec9b2bb788d47bcb5a0e7e5d2434de60353d"
+    },
+    "run_file_checksums": {
+      "bytes": 22080,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R007_run_file_checksums.tsv",
+      "sha256": "638380490616dc3e95fb3834affe876dc24d9b162f651433071227d06b08f2b6"
+    },
+    "run_metadata": {
+      "bytes": 1269,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R007_run_metadata.tsv",
+      "sha256": "8d8aff5a9a061d72e66599446e1e7dfe824f337ae9c15fe9563af7758353df8b"
+    },
+    "summary": {
+      "bytes": 1354,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R007_summary.tsv",
+      "sha256": "26f467a0902b66073046beab35c1d021ae5197ab380606ca2b8761c98f83eaf7"
+    },
+    "tfmodisco_patterns": {
+      "bytes": 2481,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R007_tfmodisco_patterns.tsv",
+      "sha256": "315339bfea763cac5eaa07ee56be7005d07c8b1dd87d459f2da2f2a44172747d"
+    }
+  },
+  "result_id": "COPD-S4-R007",
+  "runs": [
+    {
+      "background_controls": 100,
+      "control_sequences_available": 362704,
+      "feature_shap_dtype": "float64",
+      "feature_shap_shape": "1000x4560",
+      "model_id": "COPD_SevereEmphysema_Lung_Enhancer_DHS_x2",
+      "model_type": "enhancer",
+      "n_distinct_significant_motifs": 6,
+      "n_distinct_significant_tf_names": 6,
+      "n_explained_sequences": 1000,
+      "n_feature_attributions": 4560,
+      "n_jaspar_matches_reported": 15,
+      "n_negative_patterns": 0,
+      "n_pattern_seqlets": 249,
+      "n_positive_patterns": 5,
+      "n_significant_jaspar_matches_q_le_0_05": 6,
+      "n_tfmodisco_patterns": 5,
+      "n_unique_sequences_with_pattern_seqlets": 227,
+      "positive_sequences_available": 181352,
+      "positive_sequences_explained": 1000,
+      "run_directory": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/deepexplainer/output/COPD_Section4/COPD_SevereEmphysema_Lung_Enhancer_DHS_x2_2026-10-01T13-16-00Z",
+      "seed": 20261001,
+      "slurm_job_id": "31474932",
+      "submitted_utc": "2026-10-01T13-16-00Z",
+      "tfmodisco_input_positive_seqlets": 463
+    },
+    {
+      "background_controls": 100,
+      "control_sequences_available": 61168,
+      "feature_shap_dtype": "float64",
+      "feature_shap_shape": "1000x4560",
+      "model_id": "COPD_SevereEmphysema_Lung_Silencer_DHS_x2",
+      "model_type": "silencer",
+      "n_distinct_significant_motifs": 12,
+      "n_distinct_significant_tf_names": 10,
+      "n_explained_sequences": 1000,
+      "n_feature_attributions": 4560,
+      "n_jaspar_matches_reported": 12,
+      "n_negative_patterns": 0,
+      "n_pattern_seqlets": 256,
+      "n_positive_patterns": 4,
+      "n_significant_jaspar_matches_q_le_0_05": 12,
+      "n_tfmodisco_patterns": 4,
+      "n_unique_sequences_with_pattern_seqlets": 245,
+      "positive_sequences_available": 30584,
+      "positive_sequences_explained": 1000,
+      "run_directory": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/deepexplainer/output/COPD_Section4/COPD_SevereEmphysema_Lung_Silencer_DHS_x2_2026-10-01T12-45-52Z",
+      "seed": 20261001,
+      "slurm_job_id": "31471463",
+      "submitted_utc": "2026-10-01T12-45-52Z",
+      "tfmodisco_input_positive_seqlets": 343
+    }
+  ],
+  "script": {
+    "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/scripts/07_summarize_deepfootprinting.py",
+    "sha256": "022e5e365018aa275a03b4765ec70a848f64e3af5b73c235d78a8b48363595f8"
+  },
+  "software": {
+    "h5py": "3.7.0",
+    "numpy": "1.24.4",
+    "pandas": "2.0.3",
+    "python": "3.9.15"
+  },
+  "status": "complete_two_model_summary"
+}

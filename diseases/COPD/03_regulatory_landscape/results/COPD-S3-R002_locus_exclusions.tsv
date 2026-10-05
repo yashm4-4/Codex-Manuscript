@@ -1,0 +1,4 @@
+gene	is_replicated	selection_reason	exclusion_reason
+Y_RNA	True	gws_in_at_least_2_study_accessions	ambiguous_gencode_record_count=756
+GUSBP5	True	gws_in_at_least_2_study_accessions	ambiguous_gencode_record_count=2
+CYP2B7P	True	gws_in_at_least_2_study_accessions;top_reported_effect_size	ambiguous_gencode_record_count=2

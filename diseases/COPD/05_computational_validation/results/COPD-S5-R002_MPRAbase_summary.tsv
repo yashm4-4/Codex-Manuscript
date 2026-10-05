@@ -1,0 +1,8 @@
+metric	n	denominator	fraction	note
+predicted_causal_candidates	337	337	1	Section 4 predicted-causal union
+unique_roundtrip_exact_GRCh38_to_hg19_sites	337	337	1	one-base UCSC liftOver, minMatch=0.95, exact hg19-to-GRCh38 round trip
+candidates_in_any_MPRAbase_element	1	337	0.00296735905045	union of exact candidate-rsID metadata and coordinate containment
+candidates_in_hg19_indexed_MPRAbase_elements	1	337	0.00296735905045	regional assay evidence; not necessarily an allelic MPRA
+candidates_with_exact_rsid_in_MPRAbase_element_metadata	0	337	0	source focal-tag rsIDs are excluded from candidate identifiers
+matched_candidate_element_records	2			one row per candidate and MPRAbase library element
+matched_unique_MPRAbase_datasets	1	51	0.0196078431373	scores are not comparable across studies without study-specific calibration

@@ -1,0 +1,66 @@
+{
+  "ancestral_query_error": "",
+  "ancestral_query_status": "completed",
+  "ancestral_source": "Ensembl REST VEP and Variation endpoints",
+  "candidate_records": 15389,
+  "created_utc": "2026-10-01T13:26:49.796798+00:00",
+  "frequency_calculation": "global ALT AF recalculated from exact AC/AN; superpopulation ALT AF recalculated from called GT alleles in the five audited effective sample lists rather than rounded INFO AF fields",
+  "frequency_class_definition": {
+    "common": "maximum alternate-allele frequency across five superpopulations >=0.05",
+    "low_frequency": "maximum alternate-allele frequency >=0.01 and <0.05",
+    "population_specific": "alternate-allele frequency >=0.01 in exactly one superpopulation and <0.001 in each of the other four",
+    "rare": "maximum alternate-allele frequency <0.01"
+  },
+  "frequency_source": "1000 Genomes Phase 3 20190312 GRCh38 remap",
+  "genome_build": "GRCh38",
+  "inputs": {
+    "prioritized_candidates": {
+      "bytes": 2699976,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R004_prioritized_candidates.tsv.gz",
+      "sha256": "9c803d56489f711b3cd00dfbc0f5532e239478985aa3a29314929c6440299b8b"
+    }
+  },
+  "outputs": {
+    "ancestral_allele_audit": {
+      "bytes": 29157,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R005_ancestral_allele_audit.tsv",
+      "sha256": "2e27dd3afca4238d3e862774221a8d1abc7757332ed13dcec1d9ab004d6f6e46"
+    },
+    "ensembl_ancestral_cache": {
+      "bytes": 33613,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/data/COPD-S4-R005_ensembl_ancestral_cache.json.gz",
+      "sha256": "962f328c510040824deea9c1f338f36667ecbe719ddea871e50712f828822a73"
+    },
+    "population_annotated_candidates": {
+      "bytes": 3780933,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R005_population_annotated_candidates.tsv.gz",
+      "sha256": "8917da6d93eab48f09714a957fcb599c3cc62d6a9cf4364d5f6d97c9d38e1634"
+    },
+    "population_summary": {
+      "bytes": 766,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R005_population_summary.tsv",
+      "sha256": "f9c214dd31e70043ff30cc0db9e1cf0b980764c19a04145ece23bf8d8e97bab2"
+    },
+    "predicted_causal_population_genetics": {
+      "bytes": 535623,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R005_predicted_causal_population_genetics.tsv",
+      "sha256": "6506c1ab605fb647fcd1a72ec9c7b529a0ba1518c61d12d83dad95ac51f204f9"
+    }
+  },
+  "predicted_causal_records": 337,
+  "result_id": "COPD-S4-R005",
+  "software": {
+    "numpy": "1.24.4",
+    "pandas": "2.0.3",
+    "pysam": "0.21.0",
+    "python": "3.9.15",
+    "requests": "2.31.0"
+  },
+  "superpopulations": [
+    "AFR",
+    "AMR",
+    "EAS",
+    "EUR",
+    "SAS"
+  ]
+}

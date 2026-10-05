@@ -1,0 +1,113 @@
+{
+  "analysis": "MPRAbase v4.9.3 candidate element validation",
+  "candidate_count": 337,
+  "candidate_element_record_count": 2,
+  "candidate_genome_build": "GRCh38",
+  "coordinate_conversion": {
+    "binary": {
+      "bytes": 14897328,
+      "path": "/usr/local/apps/ucsc/503/bin/x86_64/liftOver",
+      "sha256": "e28f318af1da33c0bb3a236711edb4818959d5fd93f11434176643e7d218c96c"
+    },
+    "eligibility": "unique forward mapping and exact one-base round trip",
+    "forward_chain": {
+      "bytes": 1246411,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/liftover/hg38ToHg19.over.chain.gz",
+      "sha256": "14a712e8e147d9fc8e9d87d51977b46f6f8ddb93efbe5d0843d86b6205f587b1"
+    },
+    "minimum_match": 0.95,
+    "representation": "one-base BED interval [GRCh38 position-1, position)",
+    "reverse_chain": {
+      "bytes": 227698,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/liftover/hg19ToHg38.over.chain.gz",
+      "sha256": "5c0598e500ceb5a78c73086929e8ef993aec309bcafb595139b53d440b125a1d"
+    }
+  },
+  "created_utc": "2026-10-01T13:29:01.663550+00:00",
+  "database_counts": {
+    "datasets": 51,
+    "designed_library": 72,
+    "element_score": 638162,
+    "library_sequence": 381661,
+    "sample": 130
+  },
+  "inputs": {
+    "mprabase_sqlite": {
+      "bytes": 400052224,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/data/mprabase/mprabase_v4_9.3.db",
+      "sha256": "045196058321c585d4a347fba1da6158dcc273aa30431a7fda7995a32bd7a155"
+    },
+    "section4_candidates": {
+      "bytes": 535623,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R005_predicted_causal_population_genetics.tsv",
+      "sha256": "6506c1ab605fb647fcd1a72ec9c7b529a0ba1518c61d12d83dad95ac51f204f9"
+    }
+  },
+  "interpretation_guardrail": "Coordinate containment establishes that a library element covering the candidate base was assayed. It does not establish that REF and ALT were both tested, that the reported score is allele-specific, or that the assay context is disease-relevant.",
+  "liftover_eligible_count": 337,
+  "matched_candidate_count": 1,
+  "mprabase_coordinate_build": "hg19",
+  "mprabase_coordinate_interpretation": "chr:start-end strings are compared as closed coordinate spans because the database includes point elements encoded with start=end; boundary and interior matches are retained as separate audit categories",
+  "outputs": {
+    "candidate_audit": {
+      "bytes": 48649,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/COPD-S5-R002_MPRAbase_candidate_audit.tsv",
+      "sha256": "12e251142ec5ccaa3207789cba9ce524366d84e8267a80704a2eca6692fb40fd"
+    },
+    "candidate_elements": {
+      "bytes": 672,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/COPD-S5-R002_MPRAbase_v4_9_3_candidate_elements.tsv.gz",
+      "sha256": "6e00503d43daeec596d30842a8263a6be09722a46d1b93511fdc1906999a9545"
+    },
+    "forward_input_bed": {
+      "bytes": 12710,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/data/COPD-S5-R002_candidate_sites_GRCh38.bed",
+      "sha256": "62f1169dd025ba34b8c63ad037c9e3b877d7cd4f13071b360d4022b6597f1ff5"
+    },
+    "forward_mapped_bed": {
+      "bytes": 12708,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/data/COPD-S5-R002_candidate_sites_hg19.bed",
+      "sha256": "b6a9a94dbf2d025ad429aa58060b00f6ad755058c639e37777c2f615117dbdb7"
+    },
+    "forward_unmapped_bed": {
+      "bytes": 0,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/data/COPD-S5-R002_candidate_sites_hg19_unmapped.bed",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "liftover_audit": {
+      "bytes": 40397,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/COPD-S5-R002_GRCh38_to_hg19_liftover_audit.tsv",
+      "sha256": "fcf13db42bb903d3109ad2f3808eff7757e8da30ce2394783d607a2f9a170d83"
+    },
+    "roundtrip_input_bed": {
+      "bytes": 14056,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/data/COPD-S5-R002_candidate_sites_hg19_for_roundtrip.bed",
+      "sha256": "8bfd9d8c42b975a1430d98d6837b5a37297678857bbfa51104bc87e20b24d5ca"
+    },
+    "roundtrip_mapped_bed": {
+      "bytes": 14058,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/data/COPD-S5-R002_candidate_sites_GRCh38_roundtrip.bed",
+      "sha256": "2e48c271f36852a241fd836fecbefa9898bb4b37fb3df2fd2d9e9c32fcb216a5"
+    },
+    "roundtrip_unmapped_bed": {
+      "bytes": 0,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/data/COPD-S5-R002_candidate_sites_GRCh38_roundtrip_unmapped.bed",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "summary": {
+      "bytes": 826,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/COPD-S5-R002_MPRAbase_summary.tsv",
+      "sha256": "2ca4486c08f3a27fd22bdfb066c075e9aa590d169012a39cbc1d6f2f01a729d5"
+    }
+  },
+  "result_id": "COPD-S5-R002",
+  "software": {
+    "python": "3.9.15"
+  },
+  "source_scan_counts": {
+    "hg19_rows": 111436,
+    "library_sequence_rows": 381661,
+    "parseable_hg19_coordinate_rows": 111312,
+    "rows_with_exact_candidate_rsid_metadata": 0
+  }
+}

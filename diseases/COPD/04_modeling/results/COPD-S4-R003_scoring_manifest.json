@@ -1,0 +1,75 @@
+{
+  "created_utc": "2026-10-01T13:17:52.545503+00:00",
+  "files": {
+    "alt_fasta": {
+      "bytes": 30895506,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/data/COPD_candidate_variants_alt_2001bp.fa",
+      "sha256": "f52e809e1d6d4da50917d2ff2c3c9e4063543cf42aee52606bd2785238ec5568"
+    },
+    "enhancer_best_weights": {
+      "bytes": 350056456,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/trednet/models_output/COPD_SevereEmphysema_Lung_Enhancer_DHS_x2/COPD_SevereEmphysema_Lung_Enhancer_DHS_x2_phase_two_weights.weights.h5",
+      "sha256": "2b71c544b472be119c0b7c0fa518f0968ae35a84df985c82f02fa028c75b7fe4"
+    },
+    "inference_source": {
+      "bytes": 12605,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/models/TREDNET_v2/TREDNet_v2_inference.py",
+      "sha256": "153db5147c5c7e5b4718f5e81cb129d64ae04724f9526fb6f48401f75da2acc9"
+    },
+    "phase_one_weights": {
+      "bytes": 565399080,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/trednet/model_phase_I/phase_one_weights.h5",
+      "sha256": "483b6c0cafd750ea8e97932cbc8a949276eaf1e77e7d8766f9a22eeddc2916d6"
+    },
+    "ref_fasta": {
+      "bytes": 30895506,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/data/COPD_candidate_variants_ref_2001bp.fa",
+      "sha256": "d45009e7d90f3c72a48ed33be14180e06af3735c15ae72c1f4093d3eeaeb46ab"
+    },
+    "scores": {
+      "bytes": 614546,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R003_candidate_allele_scores.tsv.gz",
+      "sha256": "a75c9a02f43e085e326ad0c785c8b4d120e39ca446b5fdb2769048264acba88c"
+    },
+    "script": {
+      "bytes": 9182,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/scripts/03_score_candidate_alleles.py",
+      "sha256": "21a25a74c48dda33ef861fea7242be94ed189f77111e559170e28a1069eebc6b"
+    },
+    "silencer_best_weights": {
+      "bytes": 350056456,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/trednet/models_output/COPD_SevereEmphysema_Lung_Silencer_DHS_x2/COPD_SevereEmphysema_Lung_Silencer_DHS_x2_phase_two_weights.weights.h5",
+      "sha256": "8d841fcd0fc665ed2d66388fb5746824c494855b9e1a8a22e3f27d690ad223b9"
+    }
+  },
+  "input_length_bp": 2001,
+  "models": {
+    "enhancer": "COPD_SevereEmphysema_Lung_Enhancer_DHS_x2",
+    "silencer": "COPD_SevereEmphysema_Lung_Silencer_DHS_x2"
+  },
+  "outer_batch_size": 256,
+  "paired_candidates_scored": 15303,
+  "prediction_batch_size": 64,
+  "result_id": "COPD-S4-R003",
+  "seed": 20261001,
+  "software": {
+    "keras": "3.14.1",
+    "numpy": "2.5.0",
+    "python": "3.13.0",
+    "tensorflow": "2.20.0"
+  },
+  "thresholds": {
+    "enhancer": {
+      "fpr1": 0.861629,
+      "fpr10": 0.464482,
+      "fpr3": 0.738453,
+      "fpr5": 0.643623
+    },
+    "silencer": {
+      "fpr1": 0.864801,
+      "fpr10": 0.294698,
+      "fpr3": 0.720549,
+      "fpr5": 0.58505
+    }
+  }
+}

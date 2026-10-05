@@ -1,0 +1,5 @@
+model_type	variant_class_group	n_eligible_background	delta_percentile	abs_delta_cutoff	held_out_target_fpr_percent	region_score_cutoff	n_predicted_regions	n_predicted_causal
+enhancer	SNV	13747	95.0	0.05706318769999998	5	0.643623	1239	154
+enhancer	indel_or_complex	1536	95.0	0.04936093850000001	5	0.643623	151	21
+silencer	SNV	13747	95.0	0.028802613899999996	5	0.58505	1038	176
+silencer	indel_or_complex	1536	95.0	0.026183359500000003	5	0.58505	100	23

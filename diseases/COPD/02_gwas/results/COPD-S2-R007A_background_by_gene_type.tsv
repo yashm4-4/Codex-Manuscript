@@ -1,0 +1,9 @@
+phenotype_scope	gene_type	n_copd_genes	n_background_genes	background_definition
+core_copd	lncRNA	26	34412	unique gene_name, canonical chromosome, same GENCODE v50 gene_type, excluding 140 COPD genes
+core_copd	misc_RNA	1	1270	unique gene_name, canonical chromosome, same GENCODE v50 gene_type, excluding 140 COPD genes
+core_copd	processed_pseudogene	9	9460	unique gene_name, canonical chromosome, same GENCODE v50 gene_type, excluding 140 COPD genes
+core_copd	protein_coding	98	19933	unique gene_name, canonical chromosome, same GENCODE v50 gene_type, excluding 140 COPD genes
+core_copd	snRNA	3	1829	unique gene_name, canonical chromosome, same GENCODE v50 gene_type, excluding 140 COPD genes
+core_copd	transcribed_processed_pseudogene	1	1075	unique gene_name, canonical chromosome, same GENCODE v50 gene_type, excluding 140 COPD genes
+core_copd	unitary_pseudogene	1	89	unique gene_name, canonical chromosome, same GENCODE v50 gene_type, excluding 140 COPD genes
+core_copd	unprocessed_pseudogene	1	1948	unique gene_name, canonical chromosome, same GENCODE v50 gene_type, excluding 140 COPD genes

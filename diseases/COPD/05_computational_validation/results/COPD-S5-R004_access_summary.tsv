@@ -1,0 +1,5 @@
+metric	n	denominator	fraction	note
+framework_named_or_replacement_resources_audited	17	17	1	includes local replacements documented in validation_resources.tsv
+resources_used_in_primary_section5_analysis	4	17	0.235294117647	GTEx, MPRAbase, Open Targets, and HGNC
+biobanks_audited	9	9	1	all biobanks named by Framework Section 5
+biobanks_with_local_exact_candidate_COPD_statistics	0	9	0	do not interpret unavailable replication as a null result

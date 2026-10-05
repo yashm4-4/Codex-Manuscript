@@ -1,0 +1,19 @@
+metric	n	denominator	fraction	note
+all_candidate_records	15389	15389	1.0	
+scored_candidate_records	15303	15389	0.9944115926960816	
+unscored_candidate_records	86	15389	0.005588407303918384	
+encode_blacklist_overlap	21	15389	0.0013646110858405354	
+coding_CDS	257	15389	0.01670024043147703	
+observed_donor_refined_regulatory	639	15389	0.04152316589771915	
+observed_known_regulatory	2638	15389	0.1714211449736825	
+predicted_enhancer_fpr5	1392	15389	0.09045422054714407	
+predicted_causal_enhancer	175	15389	0.011371759048671128	5% held-out FPR region threshold plus matched-class top-5% absolute allele delta; blacklist excluded
+predicted_silencer_fpr5	1140	15389	0.07407888751705764	
+predicted_causal_silencer	199	15389	0.012931314575346027	5% held-out FPR region threshold plus matched-class top-5% absolute allele delta; blacklist excluded
+predicted_regulatory_fpr5_union	1830	15389	0.11891610890896094	
+predicted_causal_regulatory_union	337	15389	0.021898758853726687	union of enhancer and silencer predicted causal calls
+predicted_causal_both_models	37	15389	0.002404314770290467	
+predicted_causal_SNV	297	15389	0.01929949964260186	
+predicted_causal_indel_or_complex	40	15389	0.0025992592111248295	
+predicted_causal_gws_tag	21	15389	0.0013646110858405354	
+predicted_causal_ld_proxy	324	15389	0.021053999610111118	

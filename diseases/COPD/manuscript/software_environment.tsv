@@ -1,0 +1,19 @@
+stage	software	version	evidence_path	note
+core_analysis	Python	3.9.15	02_gwas/logs/COPD-S2-core_analysis_manifest.tsv	Core tabular analyses and final integration
+core_analysis	pandas	2.0.3	02_gwas/logs/COPD-S2-core_analysis_manifest.tsv	Core tabular analyses and final integration
+core_analysis	NumPy	1.24.4	02_gwas/logs/COPD-S2-locus_properties_manifest.tsv	Gene-locus permutation analysis
+ld_expansion	bcftools	1.23	02_gwas/logs/COPD-S2-ld_expansion_manifest.tsv	Population-specific VCF preparation
+ld_expansion	PLINK	1.90b4.4	02_gwas/logs/COPD-S2-ld_expansion_manifest.tsv	Genotype-count r-squared calculation with --r2
+regulatory_overlap	bedtools	2.31.1	03_regulatory_landscape/results/COPD-S3-R003_analysis_manifest.json	Interval overlap and independent reconciliation
+model_training	Python	3.13.0	04_modeling/trednet/models_output/COPD_SevereEmphysema_Lung_Enhancer_DHS_x2/training_manifest.tsv	Enhancer and silencer training environments record the same versions
+model_training	TensorFlow	2.20.0	04_modeling/trednet/models_output/COPD_SevereEmphysema_Lung_Enhancer_DHS_x2/training_manifest.tsv	Deterministic operations enabled
+model_training	Keras	3.14.1	04_modeling/trednet/models_output/COPD_SevereEmphysema_Lung_Enhancer_DHS_x2/training_manifest.tsv	Phase-II fine-tuning
+model_training	NumPy	2.5.0	04_modeling/trednet/models_output/COPD_SevereEmphysema_Lung_Enhancer_DHS_x2/training_manifest.tsv	Phase-II fine-tuning
+attribution	Python	3.9.22	manuscript/software_version_capture.txt	Post-run capture from the preserved configured interpreter at 2026-10-01T10:37:33-04:00
+attribution	TensorFlow runtime	2.15.0	manuscript/software_version_capture.txt	Installed distribution was 2.15.0.post1; post-run capture from the preserved configured interpreter
+attribution	Keras	2.15.0	manuscript/software_version_capture.txt	Post-run capture from the preserved configured interpreter
+attribution	SHAP	0.47.1	manuscript/software_version_capture.txt	Post-run capture from the preserved configured interpreter
+attribution	NumPy	1.26.4	manuscript/software_version_capture.txt	Post-run capture from the preserved configured interpreter
+motif_visualization	modisco	0.5.16.4.1	manuscript/software_version_capture.txt	Legacy modisco distribution used by the visualization import
+motif_discovery	modisco-lite	2.3.2	manuscript/software_version_capture.txt	Distribution providing the motif-discovery and report commands
+coordinate_conversion	UCSC liftOver	503	05_computational_validation/results/COPD-S5-R002_manifest.json	Reciprocal GRCh38-to-GRCh37 conversion audit

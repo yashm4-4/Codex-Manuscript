@@ -1,0 +1,824 @@
+phenotype_scope	normalized_variant_id	STRONGEST SNP-RISK ALLELE	MAPPED_GENE	effect_value	effect_measure_inference	ranking_value	ranking_definition	95% CI (TEXT)	P	FIRST AUTHOR	DATE	STUDY ACCESSION	PUBMEDID
+core_copd	chr6:48214753	chr6:48214753-A		2.7513	beta_or_other_unit_effect	2.7513	absolute reported effect value	[1.78-3.72] unit increase	3e-08	UK Biobank Whole-Genome Sequencing Consortium	2025-08-06	GCST90667889	40770095
+core_copd	chr1:109919048	chr1:109919048-C		2.5841	beta_or_other_unit_effect	2.5841	absolute reported effect value	[1.67-3.5] unit increase	3e-08	UK Biobank Whole-Genome Sequencing Consortium	2025-08-06	GCST90667889	40770095
+core_copd	chr18:32037364	chr18:32037364-CAT		2.5088	beta_or_other_unit_effect	2.5088	absolute reported effect value	[1.63-3.39] unit increase	2e-08	UK Biobank Whole-Genome Sequencing Consortium	2025-08-06	GCST90667889	40770095
+core_copd	chr10:88658293	chr10:88658293-C		1.9715	beta_or_other_unit_effect	1.9715	absolute reported effect value	[1.28-2.66] unit increase	2e-08	UK Biobank Whole-Genome Sequencing Consortium	2025-08-06	GCST90667889	40770095
+core_copd	chr3:75531363	chr3:75531363-A		1.6323	beta_or_other_unit_effect	1.6323	absolute reported effect value	[1.05-2.22] unit increase	5e-08	UK Biobank Whole-Genome Sequencing Consortium	2025-08-06	GCST90667889	40770095
+core_copd	chr4:157701845	chr4:157701845-?		0.374258	beta_or_other_unit_effect	0.374258	absolute reported effect value	unit increase	3e-08	Dai J	2025-09-17	GCST90854221	40973091
+core_copd	rs73038469	rs73038469-A	CYP2B7P, CYP2B7P	0.31663638	beta_or_other_unit_effect	0.31663638	absolute reported effect value	[0.25-0.38] unit increase	1e-20	Sakaue S	2021-09-30	GCST90018587	34594039
+core_copd	rs116921376	rs116921376-G	CYP2F2P - CYP2A6	0.2402	beta_or_other_unit_effect	0.2402	absolute reported effect value	[0.18-0.3] unit decrease	1e-13	Sakaue S	2021-09-30	GCST90018807	34594039
+core_copd	rs11066015	rs11066015-A	ACAD10	0.23340699	beta_or_other_unit_effect	0.23340699	absolute reported effect value	[0.18-0.29] unit increase	1e-17	Sakaue S	2021-09-30	GCST90018587	34594039
+core_copd	rs671	rs671-A	ALDH2	0.233	beta_or_other_unit_effect	0.233	absolute reported effect value	[0.18-0.29] unit increase	2e-17	Sakaue S	2021-09-30	GCST90018807	34594039
+core_copd	rs117121174	rs117121174-A	IFT81 - ATP2A2	0.2296	beta_or_other_unit_effect	0.2296	absolute reported effect value	[0.15-0.31] unit increase	2e-08	Sakaue S	2021-09-30	GCST90018807	34594039
+core_copd	rs114904431	rs114904431-T	DPYD	0.2119	beta_or_other_unit_effect	0.2119	absolute reported effect value	[0.14-0.28] unit increase	9e-09	Sakaue S	2021-09-30	GCST90018807	34594039
+core_copd	rs28399483	rs28399483-T	CYP2A6	0.20988	beta_or_other_unit_effect	0.20988	absolute reported effect value	[0.14-0.28] unit decrease	3e-10	Zhou W	2022-10-12	GCST90399695	36777996
+core_copd	chr14:94378610	chr14:94378610-T		0.20034	beta_or_other_unit_effect	0.20034	absolute reported effect value	[0.15-0.25] unit increase	5e-15	Zhou W	2022-10-12	GCST90399695	36777996
+core_copd	rs73089398	rs73089398-T	LINC01162	0.1817	beta_or_other_unit_effect	0.1817	absolute reported effect value	[0.12-0.24] unit increase	3e-09	Sakaue S	2021-09-30	GCST90018807	34594039
+core_copd	rs9788721	rs9788721-T	HYKK	0.17372976	beta_or_other_unit_effect	0.17372976	absolute reported effect value	[0.12-0.22] unit decrease	9e-12	Sakaue S	2021-09-30	GCST90018587	34594039
+core_copd	rs9788721	rs9788721-T	HYKK	0.1548	beta_or_other_unit_effect	0.1548	absolute reported effect value	[0.13-0.18] unit decrease	4e-38	Sakaue S	2021-09-30	GCST90018807	34594039
+core_copd	rs1529672	rs1529672-A	RARB	0.14939864	beta_or_other_unit_effect	0.14939864	absolute reported effect value	[0.1-0.2] unit decrease	1e-09	Sakaue S	2021-09-30	GCST90018587	34594039
+core_copd	chr15:78896129	chr15:78896129-A		0.1379	beta_or_other_unit_effect	0.1379	absolute reported effect value	[0.12-0.16] unit decrease	3e-52	Verma A	2024-07-19	GCST90476030	39024449
+core_copd	rs17486278	rs17486278-A	CHRNA5	0.1359	beta_or_other_unit_effect	0.1359	absolute reported effect value	[0.12-0.15] unit decrease	4.000000000000001e-45	Verma A	2024-07-19	GCST90480251	39024449
+core_copd	rs1585258	rs1585258-T	FAM13A	0.13438311	beta_or_other_unit_effect	0.13438311	absolute reported effect value	[0.086-0.183] unit increase	4e-08	Sakaue S	2021-09-30	GCST90018587	34594039
+core_copd	chr15:78618839	chr15:78618839-?		0.12	beta_or_other_unit_effect	0.12	absolute reported effect value	[0.1-0.14] unit increase	9.999999999999999e-27	Jiang Y	2024-03-14	GCST90428863	38601445
+core_copd	chr15:78590583	chr15:78590583-?		0.12	beta_or_other_unit_effect	0.12	absolute reported effect value	[0.1-0.14] unit increase	7.9999999999999985e-25	Jiang Y	2024-03-14	GCST90428863	38601445
+core_copd	rs28929474	rs28929474-C	SERPINA1	0.1056	beta_or_other_unit_effect	0.1056	absolute reported effect value	[0.069-0.143] unit decrease	4e-11	Verma A	2024-07-19	GCST90476027	39024449
+core_copd	rs200383755	rs200383755-G	GATA5	0.105344	beta_or_other_unit_effect	0.105344	absolute reported effect value	[0.077-0.133] unit decrease	6e-14	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs4488938	rs4488938-G	AFAP1	0.1045	beta_or_other_unit_effect	0.1045	absolute reported effect value	[0.069-0.14] unit increase	1e-08	Sakaue S	2021-09-30	GCST90018807	34594039
+core_copd	rs2036527	rs2036527-G	PSMA4 - CHRNA5	0.0999	beta_or_other_unit_effect	0.0999	absolute reported effect value	[0.09-0.11] unit decrease	3e-66	Verma A	2024-07-19	GCST90480254	39024449
+core_copd	rs8040868	rs8040868-C	CHRNA3	0.097373	beta_or_other_unit_effect	0.097373	absolute reported effect value	[0.086-0.109] unit increase	7.000000000000002e-60	Zhou W	2022-10-12	GCST90399695	36777996
+core_copd	rs17486278	rs17486278-A	CHRNA5	0.09644	beta_or_other_unit_effect	0.09644	absolute reported effect value	[0.072-0.121] unit decrease	1e-14	Verma A	2024-07-19	GCST90476026	39024449
+core_copd	rs12914385	rs12914385-C	CHRNA3	0.09573	beta_or_other_unit_effect	0.09573	absolute reported effect value	[0.085-0.106] unit decrease	3e-93	Verma A	2024-07-19	GCST90476027	39024449
+core_copd	rs2273500	rs2273500-C	CHRNA4	0.0947	beta_or_other_unit_effect	0.0947	absolute reported effect value	[0.064-0.125] unit increase	2e-09	Sakaue S	2021-09-30	GCST90018807	34594039
+core_copd	chr15:78618839	chr15:78618839-C		0.0944	beta_or_other_unit_effect	0.0944	absolute reported effect value	[0.076-0.112] unit increase	2e-24	UK Biobank Whole-Genome Sequencing Consortium	2025-08-06	GCST90667889	40770095
+core_copd	rs7536035	rs7536035-A	C1orf185 - CFL1P2	0.0913287	beta_or_other_unit_effect	0.0913287	absolute reported effect value	[0.059-0.123] unit increase	1e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	chr19:44908684	chr19:44908684-C		0.085	beta_or_other_unit_effect	0.085	absolute reported effect value	[0.06-0.11] unit decrease	3e-11	UK Biobank Whole-Genome Sequencing Consortium	2025-08-06	GCST90667889	40770095
+core_copd	rs12231873	rs12231873-T	MAPKAPK5	0.08305	beta_or_other_unit_effect	0.08305	absolute reported effect value	[0.058-0.108] unit increase	6e-11	Zhou W	2022-10-12	GCST90399695	36777996
+core_copd	chr8:27407375	chr8:27407375-C		0.08156	beta_or_other_unit_effect	0.08156	absolute reported effect value	[0.056-0.107] unit increase	2e-11	Verma A	2024-07-19	GCST90476030	39024449
+core_copd	rs9391855	rs9391855-C	AGER	0.0813949	beta_or_other_unit_effect	0.0813949	absolute reported effect value	[0.073-0.09] unit increase	3e-83	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs11783093	rs11783093-C	GULOP	0.08101	beta_or_other_unit_effect	0.08101	absolute reported effect value	[0.067-0.095] unit increase	2.0000000000000003e-34	Verma A	2024-07-19	GCST90476027	39024449
+core_copd	rs11083569	rs11083569-C	CYP2F2P - CYP2A6	0.08071	beta_or_other_unit_effect	0.08071	absolute reported effect value	[0.062-0.099] unit decrease	1e-14	Verma A	2024-07-19	GCST90480251	39024449
+core_copd	chr15:78596058	chr15:78596058-?		0.08	beta_or_other_unit_effect	0.08	absolute reported effect value	[0.06-0.1] unit decrease	6e-11	Jiang Y	2024-03-14	GCST90428863	38601445
+core_copd	rs115243197	rs115243197-G	ARHGEF28	0.0785109	beta_or_other_unit_effect	0.0785109	absolute reported effect value	[0.055-0.102] unit decrease	2e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs34093919	rs34093919-G	LTBP4	0.0782928	beta_or_other_unit_effect	0.0782928	absolute reported effect value	[0.06-0.097] unit increase	2e-15	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs35679104	rs35679104-GAT	GUSBP5 - KRT18P51	0.0778	beta_or_other_unit_effect	0.0778	absolute reported effect value	[0.055-0.101] unit decrease	2e-11	Sakaue S	2021-09-30	GCST90018807	34594039
+core_copd	rs9272456	rs9272456-A	HLA-DQA1	0.077124	beta_or_other_unit_effect	0.077124	absolute reported effect value	[0.057-0.097] unit increase	6e-14	Zhou W	2022-10-12	GCST90399695	36777996
+core_copd	rs2395191	rs2395191-C	HLA-DRB9 - HLA-DRB5	0.077	beta_or_other_unit_effect	0.077	absolute reported effect value	[0.052-0.102] unit increase	9e-10	Sakaue S	2021-09-30	GCST90018807	34594039
+core_copd	rs149989682	rs149989682-T	ABCA3	0.0769693	beta_or_other_unit_effect	0.0769693	absolute reported effect value	[0.05-0.104] unit decrease	2e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	chr20:63357288	chr20:63357288-A		0.0763	beta_or_other_unit_effect	0.0763	absolute reported effect value	[0.054-0.098] unit decrease	2e-11	UK Biobank Whole-Genome Sequencing Consortium	2025-08-06	GCST90667889	40770095
+core_copd	rs34944514	rs34944514-A	FAM167A-AS1	0.0763	beta_or_other_unit_effect	0.0763	absolute reported effect value	[0.05-0.103] unit increase	2e-08	Sakaue S	2021-09-30	GCST90018807	34594039
+core_copd	chr4:144585304	chr4:144585304-C		0.076	beta_or_other_unit_effect	0.076	absolute reported effect value	[0.058-0.094] unit decrease	3e-16	UK Biobank Whole-Genome Sequencing Consortium	2025-08-06	GCST90667889	40770095
+core_copd	rs1246642	rs1246642-T	FAM13A	0.0751	beta_or_other_unit_effect	0.0751	absolute reported effect value	[0.05-0.1] unit increase	4e-09	Sakaue S	2021-09-30	GCST90018807	34594039
+core_copd	rs113927489	rs113927489-C	FAM163B	0.075	beta_or_other_unit_effect	0.075	absolute reported effect value	[0.058-0.092] unit decrease	6e-15	Verma A	2024-07-19	GCST90480254	39024449
+core_copd	rs12461964	rs12461964-A	CYP2F2P - CYP2A6	0.07399	beta_or_other_unit_effect	0.07399	absolute reported effect value	[0.055-0.093] unit decrease	3e-15	Verma A	2024-07-19	GCST90476030	39024449
+core_copd	rs11783093	rs11783093-C	GULOP	0.07301	beta_or_other_unit_effect	0.07301	absolute reported effect value	[0.056-0.09] unit increase	3e-19	Verma A	2024-07-19	GCST90480254	39024449
+core_copd	rs113927489	rs113927489-C	FAM163B	0.07256	beta_or_other_unit_effect	0.07256	absolute reported effect value	[0.056-0.089] unit decrease	1e-19	Verma A	2024-07-19	GCST90476027	39024449
+core_copd	chr9:6213468	chr9:6213468-C		0.07103	beta_or_other_unit_effect	0.07103	absolute reported effect value	[0.05-0.092] unit decrease	3e-11	Verma A	2024-07-19	GCST90476030	39024449
+core_copd	rs6011779	rs6011779-T	CHRNA4	0.068164	beta_or_other_unit_effect	0.068164	absolute reported effect value	[0.054-0.083] unit decrease	2e-20	Zhou W	2022-10-12	GCST90399695	36777996
+core_copd	chr6:32640701	chr6:32640701-C		0.0672	beta_or_other_unit_effect	0.0672	absolute reported effect value	[0.045-0.089] unit increase	2e-09	UK Biobank Whole-Genome Sequencing Consortium	2025-08-06	GCST90667889	40770095
+core_copd	rs12232354	rs12232354-T	GALK2, FAM227B	0.065336	beta_or_other_unit_effect	0.065336	absolute reported effect value	[0.043-0.088] unit decrease	1e-08	Zhou W	2022-10-12	GCST90399695	36777996
+core_copd	rs112682076	rs112682076-G	KIF1B	0.0641572	beta_or_other_unit_effect	0.0641572	absolute reported effect value	[0.044-0.084] unit increase	2e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs35612054	rs35612054-T	SSR3 - TIPARP-AS1	0.064	beta_or_other_unit_effect	0.064	absolute reported effect value	[0.041-0.087] unit increase	3e-08	Sakaue S	2021-09-30	GCST90018807	34594039
+core_copd	chr20:61986949	chr20:61986949-T		0.06393	beta_or_other_unit_effect	0.06393	absolute reported effect value	[0.05-0.078] unit decrease	1.0000000000000001e-23	Verma A	2024-07-19	GCST90476027	39024449
+core_copd	rs62201158	rs62201158-G	LINC01807	0.063468	beta_or_other_unit_effect	0.063468	absolute reported effect value	[0.042-0.085] unit decrease	1e-08	Zhou W	2022-10-12	GCST90399695	36777996
+core_copd	rs34712979	rs34712979-G	NPNT	0.0633781	beta_or_other_unit_effect	0.0633781	absolute reported effect value	[0.059-0.068] unit decrease	6e-161	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	chr18:79817501	chr18:79817501-T		0.0633	beta_or_other_unit_effect	0.0633	absolute reported effect value	[0.042-0.085] unit increase	8e-09	UK Biobank Whole-Genome Sequencing Consortium	2025-08-06	GCST90667889	40770095
+core_copd	rs13141641	rs13141641-C	KRT18P51 - HHIP-AS1	0.060348	beta_or_other_unit_effect	0.060348	absolute reported effect value	[0.049-0.072] unit decrease	7.000000000000001e-24	Zhou W	2022-10-12	GCST90399695	36777996
+core_copd	chr8:27583684	chr8:27583684-TC		0.0603	beta_or_other_unit_effect	0.0603	absolute reported effect value	[0.039-0.081] unit decrease	2e-08	UK Biobank Whole-Genome Sequencing Consortium	2025-08-06	GCST90667889	40770095
+core_copd	chr6:32519337	chr6:32519337-?		0.06	beta_or_other_unit_effect	0.06	absolute reported effect value	[0.04-0.08] unit increase	6e-09	Jiang Y	2024-03-14	GCST90428863	38601445
+core_copd	chr17:40041661	chr17:40041661-C		0.0594	beta_or_other_unit_effect	0.0594	absolute reported effect value	[0.041-0.078] unit decrease	3e-10	UK Biobank Whole-Genome Sequencing Consortium	2025-08-06	GCST90667889	40770095
+core_copd	rs6839086	rs6839086-T	AFAP1	0.058354	beta_or_other_unit_effect	0.058354	absolute reported effect value	[0.04-0.077] unit decrease	7e-10	Zhou W	2022-10-12	GCST90399695	36777996
+core_copd	chr9:125719622	chr9:125719622-T		0.0576	beta_or_other_unit_effect	0.0576	absolute reported effect value	[0.039-0.076] unit increase	7e-10	UK Biobank Whole-Genome Sequencing Consortium	2025-08-06	GCST90667889	40770095
+core_copd	rs6011779	rs6011779-C	CHRNA4	0.05719	beta_or_other_unit_effect	0.05719	absolute reported effect value	[0.044-0.07] unit increase	5e-20	Verma A	2024-07-19	GCST90480254	39024449
+core_copd	chr10:21704611	chr10:21704611-CT		0.0562	beta_or_other_unit_effect	0.0562	absolute reported effect value	[0.037-0.076] unit decrease	2e-08	UK Biobank Whole-Genome Sequencing Consortium	2025-08-06	GCST90667889	40770095
+core_copd	chr5:45214699	chr5:45214699-T		0.05584	beta_or_other_unit_effect	0.05584	absolute reported effect value	[0.04-0.072] unit increase	4e-13	Verma A	2024-07-19	GCST90476027	39024449
+core_copd	chr6:142233527	chr6:142233527-A		0.0555	beta_or_other_unit_effect	0.0555	absolute reported effect value	[0.036-0.075] unit decrease	4e-08	UK Biobank Whole-Genome Sequencing Consortium	2025-08-06	GCST90667889	40770095
+core_copd	rs62202378	rs62202378-T	LINC01807	0.0547069	beta_or_other_unit_effect	0.0547069	absolute reported effect value	[0.047-0.062] unit increase	5e-47	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs2165489	rs2165489-C	THSD4	0.0514357	beta_or_other_unit_effect	0.0514357	absolute reported effect value	[0.047-0.056] unit decrease	2e-97	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs7753012	rs7753012-T	ADGRG6	0.0500262	beta_or_other_unit_effect	0.0500262	absolute reported effect value	[0.046-0.054] unit increase	3e-110	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs429358	rs429358-C	APOE	0.049172	beta_or_other_unit_effect	0.049172	absolute reported effect value	[0.032-0.066] unit decrease	1e-08	Zhou W	2022-10-12	GCST90399695	36777996
+core_copd	chr3:49635354	chr3:49635354-G		0.04822	beta_or_other_unit_effect	0.04822	absolute reported effect value	[0.037-0.059] unit increase	1e-18	Verma A	2024-07-19	GCST90476027	39024449
+core_copd	rs60470930	rs60470930-C	PVRIG, CASTOR3P	0.048011	beta_or_other_unit_effect	0.048011	absolute reported effect value	[0.033-0.063] unit decrease	1e-10	Zhou W	2022-10-12	GCST90399695	36777996
+core_copd	rs7178824	rs7178824-G	SMAD3	0.04777	beta_or_other_unit_effect	0.04777	absolute reported effect value	[0.034-0.062] unit increase	3e-12	Verma A	2024-07-19	GCST90480254	39024449
+core_copd	rs10037493	rs10037493-C	HTR4	0.0476969	beta_or_other_unit_effect	0.0476969	absolute reported effect value	[0.044-0.052] unit increase	1e-117	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	chr2:45112453	chr2:45112453-G		0.04762	beta_or_other_unit_effect	0.04762	absolute reported effect value	[0.035-0.06] unit decrease	3e-15	Verma A	2024-07-19	GCST90476027	39024449
+core_copd	chr4:105897896	chr4:105897896-A		0.047582	beta_or_other_unit_effect	0.047582	absolute reported effect value	[0.032-0.063] unit increase	8e-10	Zhou W	2022-10-12	GCST90399695	36777996
+core_copd	rs13141641	rs13141641-T	KRT18P51 - HHIP-AS1	0.04741	beta_or_other_unit_effect	0.04741	absolute reported effect value	[0.037-0.058] unit increase	2e-22	Verma A	2024-07-19	GCST90476027	39024449
+core_copd	rs7178824	rs7178824-G	SMAD3	0.04686	beta_or_other_unit_effect	0.04686	absolute reported effect value	[0.034-0.059] unit increase	3e-15	Verma A	2024-07-19	GCST90476027	39024449
+core_copd	chr5:132473613	chr5:132473613-C		0.046858	beta_or_other_unit_effect	0.046858	absolute reported effect value	[0.033-0.06] unit decrease	1e-11	Zhou W	2022-10-12	GCST90399695	36777996
+core_copd	rs3865454	rs3865454-T	CYP2F2P - CYP2A6	0.04604	beta_or_other_unit_effect	0.04604	absolute reported effect value	[0.035-0.057] unit decrease	8e-15	Verma A	2024-07-19	GCST90480254	39024449
+core_copd	chr4:88943295	chr4:88943295-T		0.045355	beta_or_other_unit_effect	0.045355	absolute reported effect value	[0.032-0.058] unit increase	7e-12	Zhou W	2022-10-12	GCST90399695	36777996
+core_copd	chr16:24759131	chr16:24759131-A		0.04533	beta_or_other_unit_effect	0.04533	absolute reported effect value	[0.032-0.058] unit decrease	6e-13	Verma A	2024-07-19	GCST90476027	39024449
+core_copd	rs1489762	rs1489762-T	GUSBP5 - KRT18P51	0.04527	beta_or_other_unit_effect	0.04527	absolute reported effect value	[0.034-0.056] unit increase	4e-17	Verma A	2024-07-19	GCST90480254	39024449
+core_copd	rs200534	rs200534-G	TNRC6A	0.04517	beta_or_other_unit_effect	0.04517	absolute reported effect value	[0.034-0.057] unit decrease	1e-13	Verma A	2024-07-19	GCST90480254	39024449
+core_copd	rs6828540	rs6828540-G	GUSBP5 - KRT18P51	0.0450182	beta_or_other_unit_effect	0.0450182	absolute reported effect value	[0.041-0.049] unit increase	7e-101	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs12908092	rs12908092-C	THSD4	0.044191	beta_or_other_unit_effect	0.044191	absolute reported effect value	[0.029-0.06] unit increase	3e-08	Zhou W	2022-10-12	GCST90399695	36777996
+core_copd	chr3:25479091	chr3:25479091-A		0.044142	beta_or_other_unit_effect	0.044142	absolute reported effect value	[0.03-0.058] unit decrease	1e-09	Zhou W	2022-10-12	GCST90399695	36777996
+core_copd	rs35755165	rs35755165-A	CYP2F2P - CYP2A6	0.04334	beta_or_other_unit_effect	0.04334	absolute reported effect value	[0.033-0.054] unit decrease	7e-19	Verma A	2024-07-19	GCST90476027	39024449
+core_copd	rs12140625	rs12140625-A	RN7SKP19 - LINC01360	0.04327	beta_or_other_unit_effect	0.04327	absolute reported effect value	[0.033-0.054] unit decrease	1e-16	Verma A	2024-07-19	GCST90476027	39024449
+core_copd	rs1799807	rs1799807-T	LINC01322, BCHE	0.0429598	beta_or_other_unit_effect	0.0429598	absolute reported effect value	[0.028-0.058] unit decrease	2e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs147535453	rs147535453-T	FAM227B	0.0424075	beta_or_other_unit_effect	0.0424075	absolute reported effect value	[0.034-0.05] unit increase	3e-26	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs72698179	rs72698179-C	UBE2Q1	0.0419901	beta_or_other_unit_effect	0.0419901	absolute reported effect value	[0.029-0.055] unit decrease	1e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs62191107	rs62191107-T	LINC01940 - HDAC4	0.0415863	beta_or_other_unit_effect	0.0415863	absolute reported effect value	[0.036-0.047] unit increase	1e-55	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	chr17:39917715	chr17:39917715-C		0.041469	beta_or_other_unit_effect	0.041469	absolute reported effect value	[0.03-0.053] unit increase	4e-12	Zhou W	2022-10-12	GCST90399695	36777996
+core_copd	rs13018626	rs13018626-C	LINC01798	0.0414515	beta_or_other_unit_effect	0.0414515	absolute reported effect value	[0.033-0.05] unit decrease	1e-24	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs115830429	rs115830429-G	COL21A1	0.0413832	beta_or_other_unit_effect	0.0413832	absolute reported effect value	[0.028-0.055] unit increase	7e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	chr11:113364691	chr11:113364691-T		0.04088	beta_or_other_unit_effect	0.04088	absolute reported effect value	[0.03-0.051] unit increase	8e-17	Verma A	2024-07-19	GCST90476027	39024449
+core_copd	rs138812427	rs138812427-C	B4GALT4-AS1	0.0408464	beta_or_other_unit_effect	0.0408464	absolute reported effect value	[0.027-0.055] unit decrease	1e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs2798641	rs2798641-C	ARMC2	0.0405232	beta_or_other_unit_effect	0.0405232	absolute reported effect value	[0.035-0.046] unit decrease	3e-51	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs2955133	rs2955133-T	EEFSEC	0.0404485	beta_or_other_unit_effect	0.0404485	absolute reported effect value	[0.034-0.047] unit decrease	5.0000000000000005e-37	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	chr9:120533422	chr9:120533422-T		0.04022	beta_or_other_unit_effect	0.04022	absolute reported effect value	[0.03-0.05] unit increase	3e-17	Verma A	2024-07-19	GCST90476027	39024449
+core_copd	rs879394	rs879394-T	LINC02082 - LINC01997	0.040148	beta_or_other_unit_effect	0.040148	absolute reported effect value	[0.027-0.053] unit increase	2e-09	Zhou W	2022-10-12	GCST90399695	36777996
+core_copd	rs2001546	rs2001546-A	CDC123	0.0397501	beta_or_other_unit_effect	0.0397501	absolute reported effect value	[0.036-0.044] unit increase	6.999999999999999e-83	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs72673419	rs72673419-C	LINC02778 - LINC01748	0.0394695	beta_or_other_unit_effect	0.0394695	absolute reported effect value	[0.03-0.049] unit decrease	7e-17	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs12140625	rs12140625-A	RN7SKP19 - LINC01360	0.03919	beta_or_other_unit_effect	0.03919	absolute reported effect value	[0.028-0.05] unit decrease	4e-11	Verma A	2024-07-19	GCST90480254	39024449
+core_copd	rs368931559	rs368931559-A	LINC01818	0.0389172	beta_or_other_unit_effect	0.0389172	absolute reported effect value	[0.029-0.049] unit increase	9e-15	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs146059675	rs146059675-C	TSHZ3	0.0384467	beta_or_other_unit_effect	0.0384467	absolute reported effect value	[0.032-0.045] unit decrease	2e-35	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs1873625	rs1873625-C	BSN	0.03831	beta_or_other_unit_effect	0.03831	absolute reported effect value	[0.027-0.05] unit increase	2e-11	Verma A	2024-07-19	GCST90480254	39024449
+core_copd	chr4:106819053	chr4:106819053-G		0.03811	beta_or_other_unit_effect	0.03811	absolute reported effect value	[0.026-0.05] unit decrease	3e-11	Verma A	2024-07-19	GCST90476027	39024449
+core_copd	chr4:67820916	chr4:67820916-G		0.03782	beta_or_other_unit_effect	0.03782	absolute reported effect value	[0.027-0.048] unit increase	6e-15	Verma A	2024-07-19	GCST90476027	39024449
+core_copd	chr5:147840112	chr5:147840112-C		0.03765	beta_or_other_unit_effect	0.03765	absolute reported effect value	[0.027-0.048] unit increase	1e-15	Verma A	2024-07-19	GCST90476027	39024449
+core_copd	chr14:79482379	chr14:79482379-A		0.03752	beta_or_other_unit_effect	0.03752	absolute reported effect value	[0.026-0.049] unit increase	2e-11	Verma A	2024-07-19	GCST90476027	39024449
+core_copd	rs55884799	rs55884799-T	KCNS3	0.037453	beta_or_other_unit_effect	0.037453	absolute reported effect value	[0.032-0.043] unit increase	1e-42	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	chr3:136123775	chr3:136123775-A		0.03744	beta_or_other_unit_effect	0.03744	absolute reported effect value	[0.026-0.049] unit decrease	9e-12	Verma A	2024-07-19	GCST90476027	39024449
+core_copd	rs7424080	rs7424080-T	LINC01876	0.0371793	beta_or_other_unit_effect	0.0371793	absolute reported effect value	[0.031-0.043] unit decrease	1e-34	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	chr8:10855435	chr8:10855435-T		0.036632	beta_or_other_unit_effect	0.036632	absolute reported effect value	[0.024-0.049] unit decrease	2e-08	Zhou W	2022-10-12	GCST90399695	36777996
+core_copd	chr11:28666340	chr11:28666340-A		0.03648	beta_or_other_unit_effect	0.03648	absolute reported effect value	[0.025-0.048] unit increase	2e-12	Verma A	2024-07-19	GCST90476027	39024449
+core_copd	chr6:142235574	chr6:142235574-T		0.036277	beta_or_other_unit_effect	0.036277	absolute reported effect value	[0.024-0.049] unit decrease	2e-08	Zhou W	2022-10-12	GCST90399695	36777996
+core_copd	rs7933981	rs7933981-G	DRD2 - TMPRSS5	0.03615	beta_or_other_unit_effect	0.03615	absolute reported effect value	[0.025-0.047] unit increase	1e-11	Verma A	2024-07-19	GCST90480254	39024449
+core_copd	chr2:104420858	chr2:104420858-G		0.03587	beta_or_other_unit_effect	0.03587	absolute reported effect value	[0.025-0.046] unit decrease	6e-13	Verma A	2024-07-19	GCST90476027	39024449
+core_copd	chr16:69581912	chr16:69581912-T		0.03577	beta_or_other_unit_effect	0.03577	absolute reported effect value	[0.025-0.046] unit increase	8e-12	Verma A	2024-07-19	GCST90476027	39024449
+core_copd	rs79904209	rs79904209-C	TMEM267, C5orf34-AS1	0.0354189	beta_or_other_unit_effect	0.0354189	absolute reported effect value	[0.028-0.042] unit decrease	3e-24	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs62398171	rs62398171-G	KIF13A	0.0353774	beta_or_other_unit_effect	0.0353774	absolute reported effect value	[0.024-0.047] unit decrease	2e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	chr14:69447183	chr14:69447183-G		0.03501	beta_or_other_unit_effect	0.03501	absolute reported effect value	[0.025-0.045] unit decrease	4e-13	Verma A	2024-07-19	GCST90476027	39024449
+core_copd	rs2027761	rs2027761-C	ARHGEF17	0.0350072	beta_or_other_unit_effect	0.0350072	absolute reported effect value	[0.029-0.041] unit increase	6e-27	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	chr15:86964383	chr15:86964383-A		0.03475	beta_or_other_unit_effect	0.03475	absolute reported effect value	[0.024-0.045] unit increase	2e-13	Verma A	2024-07-19	GCST90476027	39024449
+core_copd	chr5:109217428	chr5:109217428-G		0.03468	beta_or_other_unit_effect	0.03468	absolute reported effect value	[0.024-0.046] unit decrease	4e-11	Verma A	2024-07-19	GCST90476027	39024449
+core_copd	chr1:218342968	chr1:218342968-T		0.034602	beta_or_other_unit_effect	0.034602	absolute reported effect value	[0.022-0.047] unit increase	3e-08	Zhou W	2022-10-12	GCST90399695	36777996
+core_copd	chr3:71523285	chr3:71523285-G		0.03438	beta_or_other_unit_effect	0.03438	absolute reported effect value	[0.024-0.045] unit increase	4e-12	Verma A	2024-07-19	GCST90476027	39024449
+core_copd	chr5:152610222	chr5:152610222-A		0.03436	beta_or_other_unit_effect	0.03436	absolute reported effect value	[0.024-0.045] unit decrease	3e-12	Verma A	2024-07-19	GCST90476027	39024449
+core_copd	chr15:89943601	chr15:89943601-G		0.0338	beta_or_other_unit_effect	0.0338	absolute reported effect value	[0.023-0.045] unit increase	3e-11	Verma A	2024-07-19	GCST90476027	39024449
+core_copd	rs11168049	rs11168049-C	HTR4	0.033749	beta_or_other_unit_effect	0.033749	absolute reported effect value	[0.022-0.045] unit decrease	1e-08	Zhou W	2022-10-12	GCST90399695	36777996
+core_copd	rs138677395	rs138677395-T	LINC02934	0.0323307	beta_or_other_unit_effect	0.0323307	absolute reported effect value	[0.022-0.043] unit decrease	1e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs17834371	rs17834371-G	COL8A1	0.0322287	beta_or_other_unit_effect	0.0322287	absolute reported effect value	[0.022-0.042] unit increase	1e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs7162542	rs7162542-C	ADAMTSL3	0.0321634	beta_or_other_unit_effect	0.0321634	absolute reported effect value	[0.028-0.036] unit increase	3.9999999999999995e-54	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs2464523	rs2464523-C	FAM13A	0.031823	beta_or_other_unit_effect	0.031823	absolute reported effect value	[0.027-0.037] unit decrease	4e-37	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs1990950	rs1990950-G	ADAM19	0.0311	beta_or_other_unit_effect	0.0311	absolute reported effect value	[0.027-0.035] unit increase	2e-50	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs62618693	rs62618693-C	QSER1	0.0309081	beta_or_other_unit_effect	0.0309081	absolute reported effect value	[0.021-0.041] unit increase	1e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs631126	rs631126-T	MTCL1	0.0303333	beta_or_other_unit_effect	0.0303333	absolute reported effect value	[0.026-0.035] unit increase	2e-35	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs4888415	rs4888415-C	CFDP1	0.0303239	beta_or_other_unit_effect	0.0303239	absolute reported effect value	[0.026-0.034] unit decrease	5e-48	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs76351345	rs76351345-C	RANBP10	0.0303013	beta_or_other_unit_effect	0.0303013	absolute reported effect value	[0.021-0.039] unit increase	8e-12	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs7700595	rs7700595-A	ADAMTS19-AS1	0.0297186	beta_or_other_unit_effect	0.0297186	absolute reported effect value	[0.024-0.036] unit increase	1e-20	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs12894780	rs12894780-T	ITPK1	0.0296824	beta_or_other_unit_effect	0.0296824	absolute reported effect value	[0.023-0.036] unit decrease	4e-20	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs6470697	rs6470697-A	CCDC26	0.0293431	beta_or_other_unit_effect	0.0293431	absolute reported effect value	[0.022-0.036] unit increase	3e-18	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs879394	rs879394-G	LINC02082 - LINC01997	0.0288005	beta_or_other_unit_effect	0.0288005	absolute reported effect value	[0.024-0.034] unit decrease	7.999999999999998e-32	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs3135877	rs3135877-G	FGFR3	0.0287795	beta_or_other_unit_effect	0.0287795	absolute reported effect value	[0.018-0.039] unit increase	2e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs145809511	rs145809511-G	ARL17A, LRRC37A2	0.0286196	beta_or_other_unit_effect	0.0286196	absolute reported effect value	[0.024-0.034] unit decrease	3e-30	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs35420030	rs35420030-T	FTO	0.0284611	beta_or_other_unit_effect	0.0284611	absolute reported effect value	[0.019-0.038] unit increase	1e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs17058639	rs17058639-C	SLMAP	0.0284034	beta_or_other_unit_effect	0.0284034	absolute reported effect value	[0.024-0.033] unit increase	1e-31	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs116894149	rs116894149-C	SMTN	0.0282093	beta_or_other_unit_effect	0.0282093	absolute reported effect value	[0.02-0.037] unit decrease	7e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs11607392	rs11607392-T	ME3 - PRSS23	0.0280208	beta_or_other_unit_effect	0.0280208	absolute reported effect value	[0.022-0.034] unit decrease	5e-20	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs117746305	rs117746305-G	FZD3	0.0276587	beta_or_other_unit_effect	0.0276587	absolute reported effect value	[0.019-0.037] unit increase	2e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs10059996	rs10059996-T	FGF18 - SMIM23	0.0270988	beta_or_other_unit_effect	0.0270988	absolute reported effect value	[0.023-0.031] unit increase	5e-34	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	chr10:20203036	chr10:20203036-GAGGGAGGT		0.0269314	beta_or_other_unit_effect	0.0269314	absolute reported effect value	[0.018-0.035] unit increase	4e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs10123811	rs10123811-C	GLIS3	0.0269215	beta_or_other_unit_effect	0.0269215	absolute reported effect value	[0.023-0.031] unit decrease	1e-38	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs1297795	rs1297795-G	RARB	0.0269182	beta_or_other_unit_effect	0.0269182	absolute reported effect value	[0.022-0.032] unit increase	2.0000000000000002e-23	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs55646091	rs55646091-G	EMSY - LINC02757	0.0266248	beta_or_other_unit_effect	0.0266248	absolute reported effect value	[0.017-0.036] unit decrease	4e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs35551552	rs35551552-A	RSL24D1P6 - PLAGL2	0.0265147	beta_or_other_unit_effect	0.0265147	absolute reported effect value	[0.021-0.032] unit decrease	9e-21	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs115503647	rs115503647-A	ARAP2 - DTHD1	0.0263806	beta_or_other_unit_effect	0.0263806	absolute reported effect value	[0.017-0.035] unit decrease	4e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs1480343	rs1480343-C	Metazoa_SRP - SF3A3	0.0262549	beta_or_other_unit_effect	0.0262549	absolute reported effect value	[0.018-0.034] unit increase	8e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs76751100	rs76751100-A	ZBTB42 - VESTAR	0.0261168	beta_or_other_unit_effect	0.0261168	absolute reported effect value	[0.018-0.034] unit increase	7e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	chr22:18458814	chr22:18458814-CA		0.0259331	beta_or_other_unit_effect	0.0259331	absolute reported effect value	[0.021-0.031] unit increase	9e-28	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs35799962	rs35799962-T	NMU - RNU6-276P	0.0258947	beta_or_other_unit_effect	0.0258947	absolute reported effect value	[0.017-0.035] unit decrease	1e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs751872749	rs751872749-AT		0.0257877	beta_or_other_unit_effect	0.0257877	absolute reported effect value	[0.021-0.03] unit decrease	3e-27	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs199887699	rs199887699-A	RNA5SP63 - U3	0.0255187	beta_or_other_unit_effect	0.0255187	absolute reported effect value	[0.017-0.034] unit increase	8e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs11938093	rs11938093-A	BTC	0.025473	beta_or_other_unit_effect	0.025473	absolute reported effect value	[0.021-0.03] unit increase	2e-27	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs62092157	rs62092157-C	SLC14A2	0.0254564	beta_or_other_unit_effect	0.0254564	absolute reported effect value	[0.018-0.032] unit increase	1e-12	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs57866041	rs57866041-G	TESHL	0.0254493	beta_or_other_unit_effect	0.0254493	absolute reported effect value	[0.02-0.031] unit decrease	1e-18	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs11069348	rs11069348-C	DOCK9-DT - RPS6P23	0.0252826	beta_or_other_unit_effect	0.0252826	absolute reported effect value	[0.019-0.032] unit decrease	8e-13	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs9654093	rs9654093-G	AFAP1	0.0251149	beta_or_other_unit_effect	0.0251149	absolute reported effect value	[0.019-0.031] unit decrease	2e-15	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs1670218	rs1670218-G	TTC23	0.0250814	beta_or_other_unit_effect	0.0250814	absolute reported effect value	[0.019-0.031] unit decrease	2e-18	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs2649	rs2649-C	USP3, USP3-AS1	0.0248873	beta_or_other_unit_effect	0.0248873	absolute reported effect value	[0.019-0.031] unit decrease	3e-16	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs1192415	rs1192415-G	WDR82P2 - HSP90B3P	0.0248355	beta_or_other_unit_effect	0.0248355	absolute reported effect value	[0.02-0.03] unit increase	2e-20	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs9350191	rs9350191-C	ID4 - RPL29P17	0.0247866	beta_or_other_unit_effect	0.0247866	absolute reported effect value	[0.019-0.03] unit decrease	2e-18	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs17666332	rs17666332-T	RBMS3	0.0247189	beta_or_other_unit_effect	0.0247189	absolute reported effect value	[0.02-0.029] unit decrease	2e-27	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs77418927	rs77418927-G	RUNX2	0.0245554	beta_or_other_unit_effect	0.0245554	absolute reported effect value	[0.018-0.032] unit increase	1e-12	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs138707310	rs138707310-C	CEP72-DT	0.0244174	beta_or_other_unit_effect	0.0244174	absolute reported effect value	[0.018-0.03] unit decrease	3e-17	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs28427480	rs28427480-A	PTCH1	0.024402	beta_or_other_unit_effect	0.024402	absolute reported effect value	[0.017-0.031] unit decrease	6e-12	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs59398690	rs59398690-G	RAD23B - LINC01509	0.024249	beta_or_other_unit_effect	0.024249	absolute reported effect value	[0.019-0.03] unit increase	2e-17	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs7299632	rs7299632-C	SNRPF-DT	0.0240798	beta_or_other_unit_effect	0.0240798	absolute reported effect value	[0.019-0.029] unit decrease	4e-20	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs2571445	rs2571445-A	TNS1	0.024066	beta_or_other_unit_effect	0.024066	absolute reported effect value	[0.02-0.028] unit increase	7.999999999999999e-30	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs55894958	rs55894958-G	GM2A, CCDC69	0.0239765	beta_or_other_unit_effect	0.0239765	absolute reported effect value	[0.019-0.029] unit decrease	5e-18	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs11594905	rs11594905-G	LRMDA	0.0237139	beta_or_other_unit_effect	0.0237139	absolute reported effect value	[0.018-0.03] unit decrease	2e-15	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs17759204	rs17759204-A	CACNA2D3 - LINC02017	0.0235675	beta_or_other_unit_effect	0.0235675	absolute reported effect value	[0.019-0.028] unit decrease	2e-25	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs6809164	rs6809164-T	CACNA1D	0.0234716	beta_or_other_unit_effect	0.0234716	absolute reported effect value	[0.019-0.028] unit decrease	7.000000000000001e-24	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs2060573	rs2060573-A	USB1 - MMP15	0.0234236	beta_or_other_unit_effect	0.0234236	absolute reported effect value	[0.019-0.028] unit increase	4e-30	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs2355210	rs2355210-C	CHRM3-AS2, CHRM3	0.0234054	beta_or_other_unit_effect	0.0234054	absolute reported effect value	[0.019-0.027] unit decrease	7.999999999999999e-30	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs9562541	rs9562541-T	LINC02938	0.0231009	beta_or_other_unit_effect	0.0231009	absolute reported effect value	[0.018-0.028] unit decrease	2e-19	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs201522706	rs201522706-GAGAA	AFF3	0.0230804	beta_or_other_unit_effect	0.0230804	absolute reported effect value	[0.017-0.03] unit decrease	8e-12	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs13101469	rs13101469-A	LINC01091	0.0230388	beta_or_other_unit_effect	0.0230388	absolute reported effect value	[0.018-0.028] unit decrease	5e-19	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs9559793	rs9559793-G	COL4A2	0.0230175	beta_or_other_unit_effect	0.0230175	absolute reported effect value	[0.016-0.03] unit increase	7e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs2256413	rs2256413-A	LRMDA	0.0229995	beta_or_other_unit_effect	0.0229995	absolute reported effect value	[0.019-0.027] unit decrease	6e-29	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs8068952	rs8068952-G	BCAS3	0.0229993	beta_or_other_unit_effect	0.0229993	absolute reported effect value	[0.018-0.028] unit decrease	3e-20	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs2283847	rs2283847-C	MN1	0.0228848	beta_or_other_unit_effect	0.0228848	absolute reported effect value	[0.019-0.027] unit decrease	9e-28	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs3768321	rs3768321-G	PABPC4-AS1, PABPC4	0.0227049	beta_or_other_unit_effect	0.0227049	absolute reported effect value	[0.018-0.028] unit decrease	8e-19	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs79898473	rs79898473-T	RASGEF1C	0.0226896	beta_or_other_unit_effect	0.0226896	absolute reported effect value	[0.018-0.027] unit increase	2e-25	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs72703234	rs72703234-T	DMRT2	0.0223204	beta_or_other_unit_effect	0.0223204	absolute reported effect value	[0.016-0.029] unit increase	1e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs2108746	rs2108746-A	SCARF2	0.0222781	beta_or_other_unit_effect	0.0222781	absolute reported effect value	[0.017-0.027] unit increase	2e-18	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs9351958	rs9351958-G	KCNQ5	0.0221685	beta_or_other_unit_effect	0.0221685	absolute reported effect value	[0.017-0.027] unit increase	4e-18	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs8109951	rs8109951-C	DMWD	0.0221384	beta_or_other_unit_effect	0.0221384	absolute reported effect value	[0.018-0.026] unit increase	7.000000000000001e-24	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs2544536	rs2544536-T	LINC01804	0.0221162	beta_or_other_unit_effect	0.0221162	absolute reported effect value	[0.018-0.026] unit increase	7e-27	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs149043197	rs149043197-C	U6 - HSP90AB2P	0.0219854	beta_or_other_unit_effect	0.0219854	absolute reported effect value	[0.015-0.029] unit decrease	9e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs10857859	rs10857859-G	DENND2D	0.0216955	beta_or_other_unit_effect	0.0216955	absolute reported effect value	[0.017-0.026] unit increase	2e-22	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs11389441	rs11389441-A	IRF1, CARINH	0.0216673	beta_or_other_unit_effect	0.0216673	absolute reported effect value	[0.017-0.027] unit increase	3e-18	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs1561073	rs1561073-T	VGLL4	0.0214971	beta_or_other_unit_effect	0.0214971	absolute reported effect value	[0.017-0.026] unit increase	5e-20	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs947350	rs947350-C	MEGF6	0.0214731	beta_or_other_unit_effect	0.0214731	absolute reported effect value	[0.015-0.028] unit increase	1e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs12698403	rs12698403-G	Y_RNA - RNF32-DT	0.0214313	beta_or_other_unit_effect	0.0214313	absolute reported effect value	[0.017-0.026] unit decrease	2e-25	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs5819355	rs5819355-GC	MAP2K4 - LINC00670	0.0213776	beta_or_other_unit_effect	0.0213776	absolute reported effect value	[0.017-0.025] unit increase	5e-25	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs6590623	rs6590623-A	NTM	0.0213382	beta_or_other_unit_effect	0.0213382	absolute reported effect value	[0.017-0.026] unit decrease	5e-21	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs541601	rs541601-T	NAP1L1P1 - RPUSD4	0.0213069	beta_or_other_unit_effect	0.0213069	absolute reported effect value	[0.016-0.027] unit increase	3e-14	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs11038359	rs11038359-T	PRDM11	0.0210702	beta_or_other_unit_effect	0.0210702	absolute reported effect value	[0.015-0.027] unit increase	4e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs1840168	rs1840168-C	CERS6	0.0210329	beta_or_other_unit_effect	0.0210329	absolute reported effect value	[0.016-0.026] unit increase	2e-18	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs12466981	rs12466981-C	EML4	0.0209572	beta_or_other_unit_effect	0.0209572	absolute reported effect value	[0.016-0.026] unit increase	9e-20	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs2543358	rs2543358-T	IFT43 - GPATCH2L	0.0209523	beta_or_other_unit_effect	0.0209523	absolute reported effect value	[0.015-0.026] unit increase	7e-14	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs330927	rs330927-T	PPP1R3B	0.0208913	beta_or_other_unit_effect	0.0208913	absolute reported effect value	[0.016-0.025] unit decrease	1e-20	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs75131982	rs75131982-G	ITGA8	0.0208522	beta_or_other_unit_effect	0.0208522	absolute reported effect value	[0.014-0.027] unit decrease	2e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs58706659	rs58706659-GT	DDIT4L, H2AZ1-DT	0.0206337	beta_or_other_unit_effect	0.0206337	absolute reported effect value	[0.014-0.028] unit increase	7e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs11627441	rs11627441-T	RIN3	0.0206267	beta_or_other_unit_effect	0.0206267	absolute reported effect value	[0.015-0.026] unit increase	1e-14	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs659398	rs659398-T	NCALD	0.0206053	beta_or_other_unit_effect	0.0206053	absolute reported effect value	[0.016-0.025] unit increase	1e-18	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs7093310	rs7093310-C	LASTR	0.0204667	beta_or_other_unit_effect	0.0204667	absolute reported effect value	[0.014-0.027] unit increase	8e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs12115436	rs12115436-G	ERCC6L2	0.0203403	beta_or_other_unit_effect	0.0203403	absolute reported effect value	[0.015-0.026] unit increase	7e-13	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs7098573	rs7098573-G	CAMK2G	0.0202624	beta_or_other_unit_effect	0.0202624	absolute reported effect value	[0.016-0.025] unit decrease	2e-18	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs73182224	rs73182224-G	DGKG - LINC02020	0.0202177	beta_or_other_unit_effect	0.0202177	absolute reported effect value	[0.015-0.025] unit decrease	5e-16	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs1756281	rs1756281-A	RNU6ATAC28P - LINC02305	0.0202132	beta_or_other_unit_effect	0.0202132	absolute reported effect value	[0.016-0.025] unit decrease	4e-19	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs11088268	rs11088268-T	LINC00649	0.020194	beta_or_other_unit_effect	0.020194	absolute reported effect value	[0.014-0.026] unit increase	1e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs35495115	rs35495115-A	SVIL - JCAD	0.0201579	beta_or_other_unit_effect	0.0201579	absolute reported effect value	[0.014-0.026] unit decrease	2e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs6501455	rs6501455-A	CASC17 - RNU7-155P	0.0199971	beta_or_other_unit_effect	0.0199971	absolute reported effect value	[0.016-0.024] unit decrease	2e-22	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs35586997	rs35586997-T	GJA1	0.0199621	beta_or_other_unit_effect	0.0199621	absolute reported effect value	[0.015-0.025] unit increase	2e-17	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs78442819	rs78442819-G	TEKT5	0.019956	beta_or_other_unit_effect	0.019956	absolute reported effect value	[0.015-0.025] unit decrease	4e-14	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs11370020	rs11370020-C	SSH2	0.0198111	beta_or_other_unit_effect	0.0198111	absolute reported effect value	[0.016-0.024] unit decrease	4e-21	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs13405741	rs13405741-T	BCL2L11, MIR4435-2HG	0.019781	beta_or_other_unit_effect	0.019781	absolute reported effect value	[0.013-0.027] unit decrease	8e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs9614084	rs9614084-C	ASCC2 - MTMR3	0.0197646	beta_or_other_unit_effect	0.0197646	absolute reported effect value	[0.016-0.024] unit increase	7e-22	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs367710284	rs367710284-A	PRIMA1 - FAM181A-AS1	0.0196932	beta_or_other_unit_effect	0.0196932	absolute reported effect value	[0.014-0.025] unit increase	9e-14	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs17855988	rs17855988-G	ELN, ELN-AS1	0.0196192	beta_or_other_unit_effect	0.0196192	absolute reported effect value	[0.013-0.027] unit increase	4e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs950880	rs950880-C	IL1RL1, IL18R1	0.0194526	beta_or_other_unit_effect	0.0194526	absolute reported effect value	[0.015-0.024] unit decrease	2e-20	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs9911502	rs9911502-G	TSEN54	0.0194395	beta_or_other_unit_effect	0.0194395	absolute reported effect value	[0.015-0.024] unit decrease	4e-17	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs4318980	rs4318980-G	C1GALT1	0.0194104	beta_or_other_unit_effect	0.0194104	absolute reported effect value	[0.015-0.024] unit decrease	8e-20	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs17058252	rs17058252-C	SCARA5	0.0194092	beta_or_other_unit_effect	0.0194092	absolute reported effect value	[0.012-0.027] unit decrease	4e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs56353819	rs56353819-C	BACH2 - MIR4464	0.0192693	beta_or_other_unit_effect	0.0192693	absolute reported effect value	[0.015-0.024] unit increase	6e-20	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs72927213	rs72927213-G	TUT1	0.0191362	beta_or_other_unit_effect	0.0191362	absolute reported effect value	[0.015-0.023] unit increase	2e-18	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs6889076	rs6889076-C	CDC20B - MCIDAS	0.0191112	beta_or_other_unit_effect	0.0191112	absolute reported effect value	[0.012-0.026] unit decrease	4e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs72692823	rs72692823-T	OTUD7B	0.0191099	beta_or_other_unit_effect	0.0191099	absolute reported effect value	[0.013-0.025] unit increase	4e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs4121165	rs4121165-G	MIGA1	0.0191041	beta_or_other_unit_effect	0.0191041	absolute reported effect value	[0.014-0.024] unit decrease	1e-13	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs10983184	rs10983184-C	ASTN2	0.0190048	beta_or_other_unit_effect	0.0190048	absolute reported effect value	[0.015-0.023] unit increase	2e-18	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs139284640	rs139284640-A		0.0189851	beta_or_other_unit_effect	0.0189851	absolute reported effect value	[0.014-0.024] unit decrease	6e-12	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs2896630	rs2896630-A	RASSF10 - BMAL1	0.018968	beta_or_other_unit_effect	0.018968	absolute reported effect value	[0.015-0.023] unit decrease	6e-20	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs17348974	rs17348974-C	LINC02587 - CRPPA	0.0189386	beta_or_other_unit_effect	0.0189386	absolute reported effect value	[0.013-0.025] unit decrease	3e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs4705987	rs4705987-A	ZCCHC10 - HSPA4	0.0189384	beta_or_other_unit_effect	0.0189384	absolute reported effect value	[0.014-0.024] unit decrease	1e-15	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs780861811	rs780861811-AAC	SPATA9 - RHOBTB3	0.0188737	beta_or_other_unit_effect	0.0188737	absolute reported effect value	[0.015-0.023] unit decrease	7e-19	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs34104452	rs34104452-G	RPAP1 - ELOCP2	0.0188431	beta_or_other_unit_effect	0.0188431	absolute reported effect value	[0.015-0.023] unit decrease	3e-19	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	chr1:219929662	chr1:219929662-CAA		0.0187947	beta_or_other_unit_effect	0.0187947	absolute reported effect value	[0.015-0.023] unit increase	1e-18	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs10519694	rs10519694-C	LOX, SRFBP1	0.0187876	beta_or_other_unit_effect	0.0187876	absolute reported effect value	[0.014-0.023] unit decrease	4e-16	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs254431	rs254431-G	SPRY4-AS1	0.0187826	beta_or_other_unit_effect	0.0187826	absolute reported effect value	[0.013-0.025] unit increase	1e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs78465403	rs78465403-A	PIEZO1	0.0187716	beta_or_other_unit_effect	0.0187716	absolute reported effect value	[0.013-0.025] unit decrease	2e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs1294404	rs1294404-G	LY86 - BTF3P7	0.0187284	beta_or_other_unit_effect	0.0187284	absolute reported effect value	[0.015-0.023] unit increase	1e-18	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs4077636	rs4077636-G	LINC03005 - RPL6P18	0.0186687	beta_or_other_unit_effect	0.0186687	absolute reported effect value	[0.015-0.023] unit increase	2e-19	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs7306438	rs7306438-T	RERG	0.0183895	beta_or_other_unit_effect	0.0183895	absolute reported effect value	[0.014-0.023] unit increase	2e-18	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs4670562	rs4670562-A	CRIM1	0.0183497	beta_or_other_unit_effect	0.0183497	absolute reported effect value	[0.014-0.023] unit increase	5e-14	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs13073921	rs13073921-G	RAF1	0.0183367	beta_or_other_unit_effect	0.0183367	absolute reported effect value	[0.012-0.024] unit decrease	3e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs675495	rs675495-C	RFX6 - RPS29P13	0.0182704	beta_or_other_unit_effect	0.0182704	absolute reported effect value	[0.014-0.023] unit decrease	5e-16	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs41298826	rs41298826-T	TBX1	0.0181764	beta_or_other_unit_effect	0.0181764	absolute reported effect value	[0.013-0.023] unit decrease	4e-13	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs144235404	rs144235404-A	LINC01603	0.018176	beta_or_other_unit_effect	0.018176	absolute reported effect value	[0.014-0.023] unit increase	4e-15	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs35107139	rs35107139-A	BMP4	0.0181513	beta_or_other_unit_effect	0.0181513	absolute reported effect value	[0.014-0.022] unit decrease	7e-17	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs273388	rs273388-A	LINC03142 - SUMO2P2	0.0180249	beta_or_other_unit_effect	0.0180249	absolute reported effect value	[0.014-0.022] unit increase	7e-18	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs58095595	rs58095595-G	EPC1 - RNU6-1244P	0.018016	beta_or_other_unit_effect	0.018016	absolute reported effect value	[0.012-0.024] unit increase	2e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs996856	rs996856-G	LINC01505	0.0179811	beta_or_other_unit_effect	0.0179811	absolute reported effect value	[0.014-0.022] unit increase	8e-18	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs1233556	rs1233556-T	SHH	0.0179561	beta_or_other_unit_effect	0.0179561	absolute reported effect value	[0.012-0.024] unit decrease	1e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs1579924	rs1579924-G	EIF3E	0.0179006	beta_or_other_unit_effect	0.0179006	absolute reported effect value	[0.014-0.022] unit decrease	5e-16	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs11176001	rs11176001-C	HMGA2 - MIR6074	0.017669	beta_or_other_unit_effect	0.017669	absolute reported effect value	[0.012-0.024] unit decrease	2e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs9600261	rs9600261-G	LINC00402	0.0175516	beta_or_other_unit_effect	0.0175516	absolute reported effect value	[0.012-0.023] unit increase	7e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs7312770	rs7312770-C	RPS26 - ERBB3	0.0175233	beta_or_other_unit_effect	0.0175233	absolute reported effect value	[0.013-0.022] unit increase	2e-17	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs2717329	rs2717329-G	TWIST1	0.0175149	beta_or_other_unit_effect	0.0175149	absolute reported effect value	[0.013-0.022] unit increase	4e-13	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs274995	rs274995-T	LINC02468 - PDE3A-AS1	0.0175012	beta_or_other_unit_effect	0.0175012	absolute reported effect value	[0.013-0.022] unit decrease	8e-17	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs1050785	rs1050785-C	COL6A3	0.017445	beta_or_other_unit_effect	0.017445	absolute reported effect value	[0.013-0.022] unit decrease	2e-16	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	chr9:13592736	chr9:13592736-CA		0.0174268	beta_or_other_unit_effect	0.0174268	absolute reported effect value	[0.012-0.023] unit decrease	4e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs4800123	rs4800123-C	ATP7BP1 - RPS4XP18	0.0174248	beta_or_other_unit_effect	0.0174248	absolute reported effect value	[0.013-0.022] unit increase	9e-17	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs16941442	rs16941442-A	MTHFSD	0.0173976	beta_or_other_unit_effect	0.0173976	absolute reported effect value	[0.013-0.022] unit decrease	6e-13	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs536695586	rs536695586-T	HPRT1P2 - RPL19P11	0.0173092	beta_or_other_unit_effect	0.0173092	absolute reported effect value	[0.013-0.022] unit increase	7e-15	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs35922186	rs35922186-A	AZGP1P1 - ZKSCAN1	0.0173012	beta_or_other_unit_effect	0.0173012	absolute reported effect value	[0.013-0.022] unit increase	9e-16	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs673717	rs673717-C	MAML2	0.0172951	beta_or_other_unit_effect	0.0172951	absolute reported effect value	[0.011-0.023] unit increase	4e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	chr4:140269606	chr:4:140269606-CA		0.0172681	beta_or_other_unit_effect	0.0172681	absolute reported effect value	[0.012-0.022] unit decrease	8e-12	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs4960004	rs4960004-C	LINC02533 - KU-MEL-3	0.0172028	beta_or_other_unit_effect	0.0172028	absolute reported effect value	[0.011-0.023] unit decrease	4e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs57649467	rs57649467-G	GALNT12 - NME2P3	0.0170656	beta_or_other_unit_effect	0.0170656	absolute reported effect value	[0.013-0.021] unit increase	7e-16	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs68168878	rs68168878-G	NRIP3-DT, SCUBE2	0.0169277	beta_or_other_unit_effect	0.0169277	absolute reported effect value	[0.012-0.022] unit increase	5e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs6032944	rs6032944-T	LINC01752	0.0169191	beta_or_other_unit_effect	0.0169191	absolute reported effect value	[0.012-0.022] unit increase	4e-12	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs8089099	rs8089099-G	VAPA - LINC01254	0.0168318	beta_or_other_unit_effect	0.0168318	absolute reported effect value	[0.012-0.021] unit increase	1e-13	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	chr12:57540004	chr12:57540004-TA		0.0167858	beta_or_other_unit_effect	0.0167858	absolute reported effect value	[0.013-0.021] unit increase	8e-15	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs2234962	rs2234962-T	BAG3	0.016783	beta_or_other_unit_effect	0.016783	absolute reported effect value	[0.012-0.022] unit decrease	6e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs8070954	rs8070954-T	SMG6	0.0167679	beta_or_other_unit_effect	0.0167679	absolute reported effect value	[0.012-0.021] unit decrease	5e-13	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs17160476	rs17160476-A	BCL9	0.0166999	beta_or_other_unit_effect	0.0166999	absolute reported effect value	[0.011-0.022] unit increase	3e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs371263868	rs371263868-C	XKR9	0.0166185	beta_or_other_unit_effect	0.0166185	absolute reported effect value	[0.012-0.021] unit decrease	6e-15	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs55724378	rs55724378-C	TBX3-AS1	0.0166014	beta_or_other_unit_effect	0.0166014	absolute reported effect value	[0.012-0.021] unit increase	2e-13	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs603112	rs603112-T	ADAM33	0.01658	beta_or_other_unit_effect	0.01658	absolute reported effect value	[0.011-0.022] unit increase	2e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs586936	rs586936-G	LINC02005	0.0165768	beta_or_other_unit_effect	0.0165768	absolute reported effect value	[0.012-0.021] unit decrease	8e-15	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	chr13:92452720	chr13:92452720-CAG		0.0164607	beta_or_other_unit_effect	0.0164607	absolute reported effect value	[0.012-0.021] unit increase	5e-13	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs12802851	rs12802851-C	CTTN	0.0164202	beta_or_other_unit_effect	0.0164202	absolute reported effect value	[0.011-0.021] unit decrease	1e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	chr10:65350279	chr10:65350279-AT		0.0164032	beta_or_other_unit_effect	0.0164032	absolute reported effect value	[0.012-0.021] unit decrease	2e-15	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs189074270	rs189074270-C	NSMCE2	0.016293	beta_or_other_unit_effect	0.016293	absolute reported effect value	[0.011-0.022] unit increase	2e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs962992	rs962992-G	LINC02676 - LINC00709	0.0162535	beta_or_other_unit_effect	0.0162535	absolute reported effect value	[0.012-0.02] unit increase	3e-15	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs13246613	rs13246613-G	Y_RNA - CT66	0.0162094	beta_or_other_unit_effect	0.0162094	absolute reported effect value	[0.011-0.022] unit increase	7e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs9907657	rs9907657-G	TNFSF12, TNFSF12-TNFSF13	0.0161481	beta_or_other_unit_effect	0.0161481	absolute reported effect value	[0.011-0.022] unit decrease	3e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs12609373	rs12609373-T	FPR1	0.0161376	beta_or_other_unit_effect	0.0161376	absolute reported effect value	[0.011-0.021] unit decrease	7e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs552107808	rs552107808-CA	PROCR	0.0161215	beta_or_other_unit_effect	0.0161215	absolute reported effect value	[0.011-0.021] unit decrease	2e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs9562922	rs9562922-C	KPNA3	0.0160889	beta_or_other_unit_effect	0.0160889	absolute reported effect value	[0.012-0.02] unit increase	2e-14	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs8077417	rs8077417-A	LRRC37B - WDR45BP1	0.0160285	beta_or_other_unit_effect	0.0160285	absolute reported effect value	[0.011-0.021] unit increase	1e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs11049098	rs11049098-T	MRPS35-DT	0.0160093	beta_or_other_unit_effect	0.0160093	absolute reported effect value	[0.011-0.021] unit decrease	3e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs56375587	rs56375587-T	HMCN1	0.0159884	beta_or_other_unit_effect	0.0159884	absolute reported effect value	[0.011-0.021] unit increase	1e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs10444582	rs10444582-A	FRS2	0.0159388	beta_or_other_unit_effect	0.0159388	absolute reported effect value	[0.012-0.02] unit decrease	5e-13	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs17293632	rs17293632-C	SMAD3	0.0159369	beta_or_other_unit_effect	0.0159369	absolute reported effect value	[0.011-0.021] unit decrease	5e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs11237459	rs11237459-A	GAB2	0.0159212	beta_or_other_unit_effect	0.0159212	absolute reported effect value	[0.01-0.022] unit decrease	2e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs290486	rs290486-T	TCF7L2	0.0158797	beta_or_other_unit_effect	0.0158797	absolute reported effect value	[0.01-0.021] unit increase	1e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs711363	rs711363-T	CTXN3 - CCDC192	0.0158461	beta_or_other_unit_effect	0.0158461	absolute reported effect value	[0.011-0.02] unit decrease	4e-12	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs34759507	rs34759507-C	ITGB8	0.0157603	beta_or_other_unit_effect	0.0157603	absolute reported effect value	[0.012-0.02] unit increase	5e-13	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs7957563	rs7957563-G	CAPZA3 - RPL7P6	0.0157276	beta_or_other_unit_effect	0.0157276	absolute reported effect value	[0.01-0.021] unit decrease	2e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs73158393	rs73158393-C	SYN3	0.0157016	beta_or_other_unit_effect	0.0157016	absolute reported effect value	[0.011-0.02] unit increase	2e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs4889599	rs4889599-C	ORAI3 - SETD1A	0.0156811	beta_or_other_unit_effect	0.0156811	absolute reported effect value	[0.011-0.02] unit increase	8e-14	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs777473824	rs777473824-A	PRDX1 - AKR1A1	0.0156726	beta_or_other_unit_effect	0.0156726	absolute reported effect value	[0.011-0.02] unit increase	4e-13	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs721917	rs721917-A	SFTPD	0.0155844	beta_or_other_unit_effect	0.0155844	absolute reported effect value	[0.011-0.02] unit decrease	6e-14	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs778817356	rs778817356-CA	PRMT5-DT	0.0155489	beta_or_other_unit_effect	0.0155489	absolute reported effect value	[0.011-0.02] unit increase	2e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs7569781	rs7569781-G	DOCK10	0.0155367	beta_or_other_unit_effect	0.0155367	absolute reported effect value	[0.011-0.02] unit decrease	1e-12	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs1951269	rs1951269-A	NFKBIA - DNAJC8P1	0.0155023	beta_or_other_unit_effect	0.0155023	absolute reported effect value	[0.011-0.02] unit decrease	7e-13	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs985256	rs985256-A	SPATS2L	0.0154954	beta_or_other_unit_effect	0.0154954	absolute reported effect value	[0.011-0.02] unit decrease	3e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs10849448	rs10849448-A	LTBR	0.0154429	beta_or_other_unit_effect	0.0154429	absolute reported effect value	[0.011-0.02] unit increase	9e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs12707676	rs12707676-C	LINC03017 - HMGN2P11	0.0154394	beta_or_other_unit_effect	0.0154394	absolute reported effect value	[0.011-0.02] unit increase	2e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs2799098	rs2799098-G	TGFB2	0.0153956	beta_or_other_unit_effect	0.0153956	absolute reported effect value	[0.01-0.021] unit decrease	1e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs11637011	rs11637011-A	Metazoa_SRP - TMCO5A	0.015386	beta_or_other_unit_effect	0.015386	absolute reported effect value	[0.011-0.02] unit increase	3e-12	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs11952673	rs11952673-G	AFAP1L1	0.0153637	beta_or_other_unit_effect	0.0153637	absolute reported effect value	[0.011-0.02] unit decrease	5e-13	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs555874669	rs555874669-G	MIR181A1HG - LINC01222	0.0152765	beta_or_other_unit_effect	0.0152765	absolute reported effect value	[0.011-0.02] unit decrease	2e-12	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs11122105	rs11122105-G	PHF13	0.0152446	beta_or_other_unit_effect	0.0152446	absolute reported effect value	[0.011-0.02] unit decrease	2e-12	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs9438876	rs9438876-A	RUNX3	0.0152315	beta_or_other_unit_effect	0.0152315	absolute reported effect value	[0.011-0.019] unit decrease	3e-13	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs36058389	rs36058389-G	ALKBH5 - LLGL1	0.0152013	beta_or_other_unit_effect	0.0152013	absolute reported effect value	[0.01-0.0204] unit increase	3e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs6862391	rs6862391-G	RNU4-69P - RPL23AP44	0.0151944	beta_or_other_unit_effect	0.0151944	absolute reported effect value	[0.011-0.019] unit decrease	2e-13	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs1872562	rs1872562-G	LINC02547	0.015188	beta_or_other_unit_effect	0.015188	absolute reported effect value	[0.0099-0.0205] unit decrease	1e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs8792	rs8792-A	TIPARP-AS1	0.0151805	beta_or_other_unit_effect	0.0151805	absolute reported effect value	[0.011-0.019] unit decrease	3e-13	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs10208158	rs10208158-C	RBMS1	0.015174	beta_or_other_unit_effect	0.015174	absolute reported effect value	[0.011-0.019] unit increase	7e-14	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs955277	rs955277-C	RPL30P3 - ASAP2	0.0150261	beta_or_other_unit_effect	0.0150261	absolute reported effect value	[0.011-0.019] unit decrease	8e-12	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs11042773	rs11042773-C	AMPD3	0.0149982	beta_or_other_unit_effect	0.0149982	absolute reported effect value	[0.011-0.019] unit increase	4e-13	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	chr2:198674533	chr2:198674533-AGT		0.0149953	beta_or_other_unit_effect	0.0149953	absolute reported effect value	[0.0099-0.0201] unit increase	6e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs928413	rs928413-G	GTF3AP1 - IL33	0.0149834	beta_or_other_unit_effect	0.0149834	absolute reported effect value	[0.01-0.02] unit increase	2e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs113990608	rs113990608-C	VEGFC	0.014965	beta_or_other_unit_effect	0.014965	absolute reported effect value	[0.0096-0.0204] unit decrease	4e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs1270885	rs1270885-A	LINC02459 - TBX5	0.0148936	beta_or_other_unit_effect	0.0148936	absolute reported effect value	[0.011-0.019] unit increase	1e-13	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs58878956	rs58878956-C	NEBL	0.0148631	beta_or_other_unit_effect	0.0148631	absolute reported effect value	[0.01-0.019] unit decrease	5e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs1874903	rs1874903-C	TBX3-AS1 - UBA52P7	0.0148084	beta_or_other_unit_effect	0.0148084	absolute reported effect value	[0.011-0.019] unit increase	3e-13	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs10054063	rs10054063-A	CPEB4 - C5orf47	0.0147859	beta_or_other_unit_effect	0.0147859	absolute reported effect value	[0.01-0.019] unit increase	5e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs559425579	rs559425579-C	CCDC91	0.0147368	beta_or_other_unit_effect	0.0147368	absolute reported effect value	[0.011-0.019] unit decrease	8e-13	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs41271357	rs41271357-G	BOC	0.0147079	beta_or_other_unit_effect	0.0147079	absolute reported effect value	[0.0097-0.0198] unit increase	1e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs6478750	rs6478750-T	LMX1B	0.0146962	beta_or_other_unit_effect	0.0146962	absolute reported effect value	[0.01-0.019] unit increase	3e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs7041139	rs7041139-C	ADAMTSL1	0.0146461	beta_or_other_unit_effect	0.0146461	absolute reported effect value	[0.01-0.019] unit decrease	3e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs7148218	rs7148218-A	ATXN3	0.0146007	beta_or_other_unit_effect	0.0146007	absolute reported effect value	[0.01-0.019] unit increase	1e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs2437780	rs2437780-T	SDC2	0.0145938	beta_or_other_unit_effect	0.0145938	absolute reported effect value	[0.01-0.019] unit increase	5e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs963778	rs963778-A	NOVA1	0.0145338	beta_or_other_unit_effect	0.0145338	absolute reported effect value	[0.0098-0.0193] unit decrease	1e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs7215084	rs7215084-C	LINC01975	0.0145107	beta_or_other_unit_effect	0.0145107	absolute reported effect value	[0.01-0.019] unit increase	1e-12	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs61872992	rs61872992-A	LINC01153 - RN7SKP167	0.0144559	beta_or_other_unit_effect	0.0144559	absolute reported effect value	[0.01-0.019] unit increase	1e-12	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs28578171	rs28578171-G	MICU3	0.0143387	beta_or_other_unit_effect	0.0143387	absolute reported effect value	[0.01-0.019] unit increase	2e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs2679144	rs2679144-A	SLC10A7	0.0143366	beta_or_other_unit_effect	0.0143366	absolute reported effect value	[0.0096-0.0191] unit decrease	5e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs7091346	rs7091346-C	SH3PXD2A	0.0143161	beta_or_other_unit_effect	0.0143161	absolute reported effect value	[0.01-0.019] unit decrease	2e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs10810579	rs10810579-T	BNC2	0.0142851	beta_or_other_unit_effect	0.0142851	absolute reported effect value	[0.01-0.018] unit increase	9e-12	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs347551	rs347551-C	TUBAP15 - RNU6-718P	0.0141897	beta_or_other_unit_effect	0.0141897	absolute reported effect value	[0.01-0.018] unit increase	2e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs1729101	rs1729101-G	DLC1	0.0141394	beta_or_other_unit_effect	0.0141394	absolute reported effect value	[0.01-0.0183] unit decrease	5e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs2533872	rs2533872-G	GNA12	0.0141175	beta_or_other_unit_effect	0.0141175	absolute reported effect value	[0.0096-0.0186] unit increase	9e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs34976846	rs34976846-C	AKAP6	0.0141152	beta_or_other_unit_effect	0.0141152	absolute reported effect value	[0.0096-0.0187] unit decrease	3e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs5756129	rs5756129-T	MYH9	0.014075	beta_or_other_unit_effect	0.014075	absolute reported effect value	[0.0092-0.0189] unit increase	4e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	chr3:158137609	chr3:158137609-CAA		0.0140687	beta_or_other_unit_effect	0.0140687	absolute reported effect value	[0.0091-0.019] unit decrease	3e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs2630744	rs2630744-T	LINC00299	0.0140421	beta_or_other_unit_effect	0.0140421	absolute reported effect value	[0.0097-0.0184] unit decrease	3e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs4077711	rs4077711-A	RASGRP3	0.0140049	beta_or_other_unit_effect	0.0140049	absolute reported effect value	[0.0096-0.0184] unit increase	2e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs56115292	rs56115292-C	ERC2	0.0139566	beta_or_other_unit_effect	0.0139566	absolute reported effect value	[0.0097-0.0182] unit increase	2e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs558711972	rs558711972-A	NPHP3-AS1	0.0139297	beta_or_other_unit_effect	0.0139297	absolute reported effect value	[0.0093-0.0185] unit increase	6e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs4864822	rs4864822-A	LNX1 - RPL21P44	0.0138714	beta_or_other_unit_effect	0.0138714	absolute reported effect value	[0.0098-0.018] unit increase	7e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs7806296	rs7806296-G	HDAC9	0.0138678	beta_or_other_unit_effect	0.0138678	absolute reported effect value	[0.0096-0.0181] unit decrease	3e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs545692758	rs545692758-T	MPHOSPH9	0.0138236	beta_or_other_unit_effect	0.0138236	absolute reported effect value	[0.0093-0.0183] unit increase	5e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	chr7:139499034	chr7:139499034-A		0.0138112	beta_or_other_unit_effect	0.0138112	absolute reported effect value	[0.0096-0.018] unit increase	4e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs2289195	rs2289195-G	DNMT3A	0.0138008	beta_or_other_unit_effect	0.0138008	absolute reported effect value	[0.0096-0.018] unit decrease	2e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs1418884	rs1418884-A	FRMD4A	0.013779	beta_or_other_unit_effect	0.013779	absolute reported effect value	[0.0096-0.0179] unit increase	4e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	chr9:95054298	chr9:95054298-CT		0.013699	beta_or_other_unit_effect	0.013699	absolute reported effect value	[0.0093-0.0181] unit increase	3e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs1032777	rs1032777-T	CNTN5 - RN7SL222P	0.0136422	beta_or_other_unit_effect	0.0136422	absolute reported effect value	[0.0094-0.0179] unit increase	2e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	chr12:65787410	chr12:65787410-CAAAA		0.0136381	beta_or_other_unit_effect	0.0136381	absolute reported effect value	[0.0092-0.018] unit increase	4e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs9435731	rs9435731-C	MFAP2	0.013624	beta_or_other_unit_effect	0.013624	absolute reported effect value	[0.0095-0.0177] unit decrease	3e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	chr11:57598398	chr11:57598398-TA		0.0136194	beta_or_other_unit_effect	0.0136194	absolute reported effect value	[0.0094-0.0178] unit decrease	1e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs8014234	rs8014234-A	RAD51B	0.0136033	beta_or_other_unit_effect	0.0136033	absolute reported effect value	[0.0095-0.0177] unit increase	1e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs1837253	rs1837253-T	BCLAF1P1 - TSLP	0.0135907	beta_or_other_unit_effect	0.0135907	absolute reported effect value	[0.0089-0.0183] unit decrease	3e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs78990292	rs78990292-T	HMGN1 - RNF6P1	0.0135836	beta_or_other_unit_effect	0.0135836	absolute reported effect value	[0.0089-0.0183] unit increase	5e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs5831575	rs5831575-T	MIR4432HG	0.013536	beta_or_other_unit_effect	0.013536	absolute reported effect value	[0.0094-0.0177] unit increase	2e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs2077177	rs2077177-T	HOXC4, HOXC6	0.0135131	beta_or_other_unit_effect	0.0135131	absolute reported effect value	[0.0093-0.0177] unit decrease	6e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs11269418	rs11269418-A	LINC00824	0.0134909	beta_or_other_unit_effect	0.0134909	absolute reported effect value	[0.0089-0.0181] unit increase	1e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs10865723	rs10865723-G	LSM3 - LINC01267	0.0134682	beta_or_other_unit_effect	0.0134682	absolute reported effect value	[0.0092-0.0177] unit decrease	7e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs7564856	rs7564856-G	DES - SPEG	0.0134447	beta_or_other_unit_effect	0.0134447	absolute reported effect value	[0.0092-0.0177] unit decrease	8e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs17395720	rs17395720-T	CAPZB	0.0133885	beta_or_other_unit_effect	0.0133885	absolute reported effect value	[0.0085-0.0183] unit decrease	3e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	chr4:134999806	chr4:134999806-CT		0.0133773	beta_or_other_unit_effect	0.0133773	absolute reported effect value	[0.0086-0.0182] unit increase	3e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs71542879	rs71542879-C	BMP6	0.0133171	beta_or_other_unit_effect	0.0133171	absolute reported effect value	[0.0092-0.0174] unit decrease	6e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs4651005	rs4651005-C	RALGPS2	0.0133152	beta_or_other_unit_effect	0.0133152	absolute reported effect value	[0.0089-0.0177] unit increase	7e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs28551649	rs28551649-A	PCM1	0.0133125	beta_or_other_unit_effect	0.0133125	absolute reported effect value	[0.009-0.0176] unit increase	2e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs11622562	rs11622562-C	LINC02289, LINC02288	0.0132993	beta_or_other_unit_effect	0.0132993	absolute reported effect value	[0.0089-0.0177] unit increase	9e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs62325150	rs62325150-T	SFRP2 - DCHS2	0.0132832	beta_or_other_unit_effect	0.0132832	absolute reported effect value	[0.0086-0.018] unit decrease	1e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	chr5:176930171	chr5:176930171-AGAG		0.0132674	beta_or_other_unit_effect	0.0132674	absolute reported effect value	[0.0091-0.0174] unit decrease	2e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs4975128	rs4975128-G	FRAS1	0.0132549	beta_or_other_unit_effect	0.0132549	absolute reported effect value	[0.0092-0.0174] unit decrease	1e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs41533344	rs41533344-G	RGS7BP	0.0132417	beta_or_other_unit_effect	0.0132417	absolute reported effect value	[0.0088-0.0177] unit decrease	2e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs142599359	rs142599359-C	SLC1A2	0.0132314	beta_or_other_unit_effect	0.0132314	absolute reported effect value	[0.0091-0.0174] unit decrease	9e-11	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs1165651	rs1165651-T	LINC02038 - LINC02026	0.0132021	beta_or_other_unit_effect	0.0132021	absolute reported effect value	[0.009-0.0174] unit decrease	5e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs7190699	rs7190699-T	WWOX	0.013185	beta_or_other_unit_effect	0.013185	absolute reported effect value	[0.0086-0.0177] unit decrease	6e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs898528	rs898528-T	RBFOX3	0.0131535	beta_or_other_unit_effect	0.0131535	absolute reported effect value	[0.0087-0.0176] unit decrease	2e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs10930578	rs10930578-G	MAP3K20	0.013143	beta_or_other_unit_effect	0.013143	absolute reported effect value	[0.0086-0.0177] unit decrease	1e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs217554	rs217554-G	DGKB	0.0131265	beta_or_other_unit_effect	0.0131265	absolute reported effect value	[0.0087-0.0175] unit increase	2e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs10165984	rs10165984-T	TCF7L1	0.013057	beta_or_other_unit_effect	0.013057	absolute reported effect value	[0.0082-0.0179] unit increase	3e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs2302643	rs2302643-G	SERTAD2	0.0129858	beta_or_other_unit_effect	0.0129858	absolute reported effect value	[0.0089-0.0171] unit decrease	3e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs763307681	rs763307681-GGTT	HMGN2 - DPPA2P2	0.0129453	beta_or_other_unit_effect	0.0129453	absolute reported effect value	[0.0083-0.0176] unit decrease	2e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs768743370	rs768743370-GGA	KCNMB1, KCNIP1	0.0129368	beta_or_other_unit_effect	0.0129368	absolute reported effect value	[0.0085-0.0174] unit decrease	6e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs1031006	rs1031006-A	DNAH5	0.0128084	beta_or_other_unit_effect	0.0128084	absolute reported effect value	[0.0085-0.0171] unit increase	2e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs6763931	rs6763931-G	ZBTB38	0.0128018	beta_or_other_unit_effect	0.0128018	absolute reported effect value	[0.0087-0.0169] unit decrease	7e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs11621099	rs11621099-G	NPAS3	0.0127764	beta_or_other_unit_effect	0.0127764	absolute reported effect value	[0.0085-0.0171] unit decrease	6e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs1469042	rs1469042-A	PPARGC1B	0.0126849	beta_or_other_unit_effect	0.0126849	absolute reported effect value	[0.0084-0.0169] unit increase	3e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs7679934	rs7679934-G	EXOC5P1 - LARP1BP1	0.0126434	beta_or_other_unit_effect	0.0126434	absolute reported effect value	[0.0084-0.0169] unit decrease	1e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs326479	rs326479-C	CHD1-DT	0.0126392	beta_or_other_unit_effect	0.0126392	absolute reported effect value	[0.0085-0.0168] unit decrease	2e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs7636026	rs7636026-A	FNDC3B	0.0126383	beta_or_other_unit_effect	0.0126383	absolute reported effect value	[0.0085-0.0168] unit decrease	3e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs12040608	rs12040608-C	TRIM62 - ZNF362	0.0126358	beta_or_other_unit_effect	0.0126358	absolute reported effect value	[0.0079-0.0174] unit increase	4e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs7350907	rs7350907-T	MRC2	0.0126016	beta_or_other_unit_effect	0.0126016	absolute reported effect value	[0.0083-0.0169] unit increase	6e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs13428413	rs13428413-G	TEX41	0.0125819	beta_or_other_unit_effect	0.0125819	absolute reported effect value	[0.0081-0.0171] unit decrease	2e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs6712150	rs6712150-G	DNER	0.0125683	beta_or_other_unit_effect	0.0125683	absolute reported effect value	[0.0082-0.017] unit increase	1e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs2074552	rs2074552-C	DOT1L-AS1, DOT1L	0.0125326	beta_or_other_unit_effect	0.0125326	absolute reported effect value	[0.0083-0.0168] unit decrease	1e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs35772466	rs35772466-C	RPS4XP9 - RSPO3	0.0125069	beta_or_other_unit_effect	0.0125069	absolute reported effect value	[0.0084-0.0166] unit decrease	1e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs931794	rs931794-G	HYKK	0.0124702	beta_or_other_unit_effect	0.0124702	absolute reported effect value	[0.0081-0.0168] unit increase	3e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs35936420	rs35936420-G	RBBP5 - DSTYK	0.0124324	beta_or_other_unit_effect	0.0124324	absolute reported effect value	[0.0082-0.0167] unit increase	7e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs6029174	rs6029174-T	LINC01370 - MAFB	0.012424	beta_or_other_unit_effect	0.012424	absolute reported effect value	[0.0081-0.0167] unit decrease	9e-10	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs201036377	rs201036377-A	TSPAN3	0.0123574	beta_or_other_unit_effect	0.0123574	absolute reported effect value	[0.008-0.0167] unit increase	1e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs13292648	rs13292648-G	SSNA1 - TPRN	0.0123537	beta_or_other_unit_effect	0.0123537	absolute reported effect value	[0.008-0.0167] unit increase	2e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs7894323	rs7894323-A	MYPN	0.0123506	beta_or_other_unit_effect	0.0123506	absolute reported effect value	[0.0082-0.0165] unit decrease	3e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs4953148	rs4953148-A	LINC01833	0.0123438	beta_or_other_unit_effect	0.0123438	absolute reported effect value	[0.0079-0.0168] unit decrease	4e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs12500587	rs12500587-T	CC2D2A	0.0123395	beta_or_other_unit_effect	0.0123395	absolute reported effect value	[0.008-0.0167] unit increase	9e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs9382100	rs9382100-T	MCM3 - PAQR8	0.0123285	beta_or_other_unit_effect	0.0123285	absolute reported effect value	[0.008-0.0167] unit decrease	1e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs3068114	rs3068114-T	FAM3C	0.0122913	beta_or_other_unit_effect	0.0122913	absolute reported effect value	[0.0082-0.0164] unit decrease	1e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs711585	rs711585-C	SUMF1	0.0122822	beta_or_other_unit_effect	0.0122822	absolute reported effect value	[0.0081-0.0165] unit decrease	3e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs2820290	rs2820290-A	NAV1, IPO9-AS1	0.0122042	beta_or_other_unit_effect	0.0122042	absolute reported effect value	[0.0081-0.0163] unit decrease	1e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs813914	rs813914-T	RBFOX1	0.0121908	beta_or_other_unit_effect	0.0121908	absolute reported effect value	[0.0081-0.0163] unit increase	5e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs722599	rs722599-T	PROX2	0.012134	beta_or_other_unit_effect	0.012134	absolute reported effect value	[0.0079-0.0163] unit increase	9e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs9508021	rs9508021-A	FLT1	0.0121147	beta_or_other_unit_effect	0.0121147	absolute reported effect value	[0.0079-0.0164] unit decrease	4e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	chr16:28579915	chr16:28579915-GT		0.0121062	beta_or_other_unit_effect	0.0121062	absolute reported effect value	[0.008-0.0162] unit decrease	4e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs13109980	rs13109980-G	MAML3	0.0120751	beta_or_other_unit_effect	0.0120751	absolute reported effect value	[0.0077-0.0164] unit increase	4e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs2722608	rs2722608-C	SOX11 - LINC01810	0.0120451	beta_or_other_unit_effect	0.0120451	absolute reported effect value	[0.0078-0.0163] unit decrease	4e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs1542309	rs1542309-T	CALD1	0.0120068	beta_or_other_unit_effect	0.0120068	absolute reported effect value	[0.0077-0.0163] unit increase	2e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs12530176	rs12530176-G	L3MBTL3	0.011997	beta_or_other_unit_effect	0.011997	absolute reported effect value	[0.0078-0.0162] unit increase	1e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs1990790	rs1990790-C	CEP41	0.0119953	beta_or_other_unit_effect	0.0119953	absolute reported effect value	[0.0079-0.0161] unit decrease	9e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs10092045	rs10092045-C	SFRP1 - SNORD65B	0.0119374	beta_or_other_unit_effect	0.0119374	absolute reported effect value	[0.0078-0.0161] unit increase	3e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs538804	rs538804-T	TENM4	0.0119122	beta_or_other_unit_effect	0.0119122	absolute reported effect value	[0.0076-0.0163] unit increase	4e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs2041808	rs2041808-C	NRP2	0.0119023	beta_or_other_unit_effect	0.0119023	absolute reported effect value	[0.0077-0.0161] unit decrease	3e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs10173269	rs10173269-T	ANTXR1	0.0118284	beta_or_other_unit_effect	0.0118284	absolute reported effect value	[0.0077-0.0159] unit increase	7e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs12664251	rs12664251-A	FAM184A	0.0118281	beta_or_other_unit_effect	0.0118281	absolute reported effect value	[0.0075-0.0162] unit increase	4e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs4804524	rs4804524-G	DNM2	0.0117916	beta_or_other_unit_effect	0.0117916	absolute reported effect value	[0.0076-0.016] unit decrease	2e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs6079095	rs6079095-A	TASP1	0.0117649	beta_or_other_unit_effect	0.0117649	absolute reported effect value	[0.0076-0.0159] unit increase	8e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs372362333	rs372362333-C	SRGAP2	0.0116617	beta_or_other_unit_effect	0.0116617	absolute reported effect value	[0.0075-0.0158] unit increase	5e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs36050700	rs36050700-A	AEBP2	0.0116355	beta_or_other_unit_effect	0.0116355	absolute reported effect value	[0.0075-0.0158] unit increase	1e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs11443847	rs11443847-T	HDLBP	0.0115551	beta_or_other_unit_effect	0.0115551	absolute reported effect value	[0.0074-0.0157] unit decrease	3e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs11215598	rs11215598-A	CADM1 - RPL12P46	0.0115108	beta_or_other_unit_effect	0.0115108	absolute reported effect value	[0.0073-0.0157] unit increase	3e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs10863276	rs10863276-T	ESRRG	0.0113916	beta_or_other_unit_effect	0.0113916	absolute reported effect value	[0.0072-0.0156] unit decrease	4e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs4430444	rs4430444-C	HTRA1 - DMBT1	0.011337	beta_or_other_unit_effect	0.011337	absolute reported effect value	[0.0072-0.0155] unit increase	2e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs3808862	rs3808862-G	SHB - U8	0.0112213	beta_or_other_unit_effect	0.0112213	absolute reported effect value	[0.0071-0.0154] unit decrease	3e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs1841725	rs1841725-T	ZNF619P1 - HMGN1P19	0.0111826	beta_or_other_unit_effect	0.0111826	absolute reported effect value	[0.0071-0.0153] unit increase	4e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs2710647	rs2710647-T	EHBP1, EHBP1-AS1	0.0110169	beta_or_other_unit_effect	0.0110169	absolute reported effect value	[0.0069-0.0151] unit decrease	8e-09	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs2356455	rs2356455-G	ATL1	0.01099	beta_or_other_unit_effect	0.01099	absolute reported effect value	[0.0069-0.0151] unit decrease	5e-08	Cosentino J	2023-04-17	GCST90244098	37069358
+core_copd	rs2286351	rs2286351-?	CDRT15P1, COX10-DT	6.367955	odds_ratio_inferred	6.367955	max(OR, 1/OR)	[6.10-6.63]	2e-08	Burkart KM	2018-02-02	GCST005417	29394082
+core_copd	rs7709630	rs7709630-?	PDZD2	4.045759	odds_ratio_inferred	4.045759	max(OR, 1/OR)	[3.85-4.24]	2e-08	Burkart KM	2018-02-02	GCST005417	29394082
+core_copd	rs113993960	rs113993960-?	CFTR	1.9	odds_ratio_inferred	1.9	max(OR, 1/OR)	[1.64-2.2]	1e-15	Koyama S	2025-11-26	GCST90837486	41298473
+core_copd	rs8034191	rs8034191-C	HYKK	1.4	odds_ratio_inferred	1.4	max(OR, 1/OR)	[1.18-1.67]	1e-10	Pillai SG	2009-03-20	GCST000359	19300482
+core_copd	rs12914385	rs12914385-T	CHRNA3	1.39	odds_ratio_inferred	1.39	max(OR, 1/OR)	[1.29-1.51]	3e-16	Cho MH	2014-02-07	GCST002350	24621683
+core_copd	rs13141641	rs13141641-T	KRT18P51 - HHIP-AS1	1.39	odds_ratio_inferred	1.39	max(OR, 1/OR)	[1.28-1.51]	4e-15	Cho MH	2014-02-07	GCST002350	24621683
+core_copd	rs1964516	rs1964516-?	FAM13A	1.37	odds_ratio_inferred	1.37	max(OR, 1/OR)	[1.23-1.52]	2e-09	Cho MH	2011-11-11	GCST001321	22080838
+core_copd	rs7937	rs7937-?	RAB4B, MIA-RAB4B, RAB4B-EGLN2	1.37	odds_ratio_inferred	1.37	max(OR, 1/OR)	[1.20-1.59]	3e-09	Cho MH	2011-11-11	GCST001321	22080838
+core_copd	rs12914385	rs12914385-T	CHRNA3	1.36	odds_ratio_inferred	1.36	max(OR, 1/OR)		3e-16	Mathur R	2022-08-11	GCST90162551	35953715
+core_copd	rs4416442	rs4416442-C	FAM13A	1.36	odds_ratio_inferred	1.36	max(OR, 1/OR)	[1.26-1.47]	9e-15	Cho MH	2014-02-07	GCST002350	24621683
+core_copd	rs4416442	rs4416442-C	FAM13A	1.36	odds_ratio_inferred	1.36	max(OR, 1/OR)		3e-10	Mathur R	2022-08-11	GCST90162551	35953715
+core_copd	rs7937	rs7937-C	RAB4B, MIA-RAB4B, RAB4B-EGLN2	0.74	odds_ratio_inferred	1.3513513513513513	max(OR, 1/OR)		2e-08	Mathur R	2022-08-11	GCST90162551	35953715
+core_copd	rs572473905	rs572473905-C	VPS54 - PELI1	0.74	odds_ratio_inferred	1.3513513513513513	max(OR, 1/OR)	[0.67-0.83]	5e-08	Joo J	2022-02-21	GCST90103984	35308900
+core_copd	rs9403391	rs9403391-C	ADGRG6 - HIVEP2	1.32	odds_ratio_inferred	1.32	max(OR, 1/OR)	[NR]	4e-19	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs17280293	rs17280293-A	ADGRG6	1.32	odds_ratio_inferred	1.32	max(OR, 1/OR)	[1.24 -1.41]	8e-18	Moll M	2021-04-28	GCST011766	33909500
+core_copd	rs1800888	rs1800888-T	ADRB2	1.32	odds_ratio_inferred	1.32	max(OR, 1/OR)	[1.22 -1.42]	9e-13	Moll M	2021-04-28	GCST011766	33909500
+core_copd	rs7671167	rs7671167-?	FAM13A	1.32	odds_ratio_inferred	1.32	max(OR, 1/OR)	[1.19-1.47]	1e-11	Cho MH	2010-02-21	GCST000603	20173748
+core_copd	rs8040868	rs8040868-C	CHRNA3	1.3	odds_ratio_inferred	1.3	max(OR, 1/OR)	[1.23-1.38]	7e-20	Kim W	2020-10-27	GCST90016593	33106845
+core_copd	rs138641402	rs138641402-A	GUSBP5 - KRT18P51	1.3	odds_ratio_inferred	1.3	max(OR, 1/OR)	[1.19-1.42]	4e-09	Lee JH	2014-09-21	GCST002624	25241909
+core_copd	rs13180	rs13180-?	IREB2	1.3	odds_ratio_inferred	1.3	max(OR, 1/OR)	[1.18-1.43]	2e-08	Cho MH	2010-02-21	GCST000603	20173748
+core_copd	rs146260021	rs146260021-AT	CYP2G1P, CYP2G1P, CYP2B7P, CYP2B7P	1.2961061	odds_ratio_inferred	1.2961061	max(OR, 1/OR)	[1.220675953-1.376197347]	2e-17	Ishigaki K	2020-06-08	GCST90013709	32514122
+core_copd	rs7674369	rs7674369-A	FAM13A	1.29	odds_ratio_inferred	1.29	max(OR, 1/OR)	[1.19-1.39]	1e-10	Lee JH	2015-03-01	GCST002795	25101718
+core_copd	rs2869966	rs2869966-T	FAM13A	1.29	odds_ratio_inferred	1.29	max(OR, 1/OR)	[1.19-1.40]	7e-10	Lee JH	2014-09-21	GCST002624	25241909
+core_copd	rs11066008	rs11066008-G	ACAD10	1.2887155	odds_ratio_inferred	1.2887155	max(OR, 1/OR)	[1.214687968-1.367254458]	4e-17	Ishigaki K	2020-06-08	GCST90013709	32514122
+core_copd	rs4416442	rs4416442-C	FAM13A	1.28	odds_ratio_inferred	1.28	max(OR, 1/OR)	[1.20-1.36]	1e-14	Cho MH	2014-02-07	GCST002351	24621683
+core_copd	rs12914385	rs12914385-T	CHRNA3	1.28	odds_ratio_inferred	1.28	max(OR, 1/OR)	[1.20-1.36]	6e-14	Cho MH	2014-02-07	GCST002351	24621683
+core_copd	rs13141641	rs13141641-T	KRT18P51 - HHIP-AS1	1.27	odds_ratio_inferred	1.27	max(OR, 1/OR)	[1.19-1.36]	2e-12	Cho MH	2014-02-07	GCST002351	24621683
+core_copd	rs2288450	rs2288450-T	COQ8B	0.7931689	odds_ratio_inferred	1.2607655191725244	max(OR, 1/OR)	[0.739902567869349-0.85026990042415]	6e-11	Ishigaki K	2020-06-08	GCST90013709	32514122
+core_copd	rs11727735	rs11727735-A	GSTCD, INTS12	1.26	odds_ratio_inferred	1.26	max(OR, 1/OR)	[1.18-1.33]	4e-14	Hobbs BD	2017-02-06	GCST004147	28166215
+core_copd	rs8042238	rs8042238-T	IREB2	1.26	odds_ratio_inferred	1.26	max(OR, 1/OR)	[1.16-1.37]	5e-08	Lee JH	2014-09-21	GCST002624	25241909
+core_copd	rs2070600	rs2070600-C	AGER	1.24	odds_ratio_inferred	1.24	max(OR, 1/OR)	[1.16-1.32]	6e-10	Hobbs BD	2017-02-06	GCST004147	28166215
+core_copd	rs13110699	rs13110699-T	FAM13A	0.81	odds_ratio_inferred	1.2345679012345678	max(OR, 1/OR)	[0.75-0.87]	2e-08	Kim W	2020-10-27	GCST90016593	33106845
+core_copd	rs34712979	rs34712979-A	NPNT	1.23	odds_ratio_inferred	1.23	max(OR, 1/OR)	[1.18-1.27]	1.0000000000000001e-29	Kim W	2020-10-27	GCST90016586	33106845
+core_copd	rs34712979	rs34712979-A	NPNT	1.23	odds_ratio_inferred	1.23	max(OR, 1/OR)	[1.19-1.27]	1.0000000000000001e-29	Kim W	2020-10-27	GCST90016589	33106845
+core_copd	rs13141641	rs13141641-T	KRT18P51 - HHIP-AS1	1.22	odds_ratio_inferred	1.22	max(OR, 1/OR)	[1.19,1.26]	9e-41	Hobbs BD	2017-02-06	GCST004147	28166215
+core_copd	rs2844456	rs2844456-C	EHMT2	0.82	odds_ratio_inferred	1.2195121951219512	max(OR, 1/OR)	[0.78-0.87]	7e-13	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs2844456	rs2844456-C	EHMT2	0.82	odds_ratio_inferred	1.2195121951219512	max(OR, 1/OR)	[0.78-0.87]	9e-13	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs2070600	rs2070600-C	AGER	1.21	odds_ratio_inferred	1.21	max(OR, 1/OR)	[1.15-1.26]	1e-17	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs17035917	rs17035917-C	ARHGEF38	1.208	odds_ratio_inferred	1.208	max(OR, 1/OR)	[1.107-1.319] (Stage 1 meta-analysis)	3e-10	Hobbs BD	2017-02-06	GCST004147	28166215
+core_copd	rs1420472	rs1420472-T	LINC01997 - MECOM	1.2	odds_ratio_inferred	1.2	max(OR, 1/OR)	[1.13-1.26]	3e-10	Kim W	2020-10-27	GCST90016593	33106845
+core_copd	rs11878604	rs11878604-C	CYP2F2P - CYP2A6	0.8355451	odds_ratio_inferred	1.1968234868470893	max(OR, 1/OR)	[0.793907059464358-0.879366931139989]	6e-12	Ishigaki K	2020-06-08	GCST90013709	32514122
+core_copd	rs6537293	rs6537293-G	GUSBP5 - KRT18P51	0.84	odds_ratio_inferred	1.1904761904761905	max(OR, 1/OR)	[0.81-0.87]	2e-24	Kim W	2020-10-27	GCST90016589	33106845
+core_copd	rs6537293	rs6537293-G	GUSBP5 - KRT18P51	0.84	odds_ratio_inferred	1.1904761904761905	max(OR, 1/OR)	[0.81-0.87]	3e-24	Kim W	2020-10-27	GCST90016586	33106845
+core_copd	rs4973115	rs4973115-A	LINC01807	0.84	odds_ratio_inferred	1.1904761904761905	max(OR, 1/OR)	[0.8-0.89]	3e-09	Kim W	2020-10-27	GCST90016588	33106845
+core_copd	rs34712979	rs34712979-A	NPNT	1.19	odds_ratio_inferred	1.19	max(OR, 1/OR)	[1.16-1.22]	3e-39	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs34712979	rs34712979-A	NPNT	1.19	odds_ratio_inferred	1.19	max(OR, 1/OR)	[1.16-1.22]	6e-39	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs1317286	rs1317286-G	CHRNA3	1.19	odds_ratio_inferred	1.19	max(OR, 1/OR)	[1.15-1.22]	5e-28	Kim W	2020-10-27	GCST90016588	33106845
+core_copd	rs16825267	rs16825267-C	LINC01807	1.19	odds_ratio_inferred	1.19	max(OR, 1/OR)	[1.15-1.24]	2e-20	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs2070600	rs2070600-C	AGER	1.19	odds_ratio_inferred	1.19	max(OR, 1/OR)	[1.15 -1.25]	1e-16	Moll M	2021-04-28	GCST011766	33909500
+core_copd	rs16825267	rs16825267-C	LINC01807	1.19	odds_ratio_inferred	1.19	max(OR, 1/OR)	[1.12,1.25]	2e-09	Hobbs BD	2017-02-06	GCST004147	28166215
+core_copd	rs77714938	rs77714938-C	LINC02778 - LINC01748	1.19	odds_ratio_inferred	1.19	max(OR, 1/OR)	[1.12-1.27]	3e-08	Joo J	2022-02-21	GCST90103984	35308900
+core_copd	rs503464	rs503464-A	CHRNA5	0.8465932	odds_ratio_inferred	1.181204857303366	max(OR, 1/OR)	[0.805172475-0.890144701]	8e-11	Ishigaki K	2020-06-08	GCST90013709	32514122
+core_copd	rs13140176	rs13140176-A	GUSBP5 - KRT18P51	1.18	odds_ratio_inferred	1.18	max(OR, 1/OR)	[1.16-1.20]	4e-59	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs34712979	rs34712979-A	NPNT	1.18	odds_ratio_inferred	1.18	max(OR, 1/OR)	[1.16-1.21]	3e-46	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs17486278	rs17486278-C	CHRNA5	1.18	odds_ratio_inferred	1.18	max(OR, 1/OR)	[1.15,1.22]	1.9999999999999997e-28	Hobbs BD	2017-02-06	GCST004147	28166215
+core_copd	rs7733088	rs7733088-G	HTR4	1.18	odds_ratio_inferred	1.18	max(OR, 1/OR)	[1.14,1.21]	4.9999999999999996e-26	Hobbs BD	2017-02-06	GCST004147	28166215
+core_copd	rs34712979	rs34712979-A	NPNT	1.18	odds_ratio_inferred	1.18	max(OR, 1/OR)	[1.14-1.22]	1e-25	Joo J	2022-02-21	GCST90103984	35308900
+core_copd	rs34712979	rs34712979-A	NPNT	1.18	odds_ratio_inferred	1.18	max(OR, 1/OR)	[1.14-1.22]	2e-22	Joo J	2022-02-21	GCST90103985	35308900
+core_copd	rs72673891	rs72673891-A	INTS12	1.18	odds_ratio_inferred	1.18	max(OR, 1/OR)	[NR]	5e-15	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs2955083	rs2955083-A	EEFSEC	1.18	odds_ratio_inferred	1.18	max(OR, 1/OR)	[1.13,1.24]	4e-13	Hobbs BD	2017-02-06	GCST004147	28166215
+core_copd	rs6537293	rs6537293-G	GUSBP5 - KRT18P51	0.85	odds_ratio_inferred	1.1764705882352942	max(OR, 1/OR)	[0.83-0.87]	1e-37	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs6537293	rs6537293-G	GUSBP5 - KRT18P51	0.85	odds_ratio_inferred	1.1764705882352942	max(OR, 1/OR)	[0.83-0.87]	2e-37	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs7753012	rs7753012-G	ADGRG6	0.85	odds_ratio_inferred	1.1764705882352942	max(OR, 1/OR)	[0.83-0.88]	1e-31	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs7753012	rs7753012-G	ADGRG6	0.85	odds_ratio_inferred	1.1764705882352942	max(OR, 1/OR)	[0.83-0.88]	2e-31	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs6828540	rs6828540-A	GUSBP5 - KRT18P51	0.85	odds_ratio_inferred	1.1764705882352942	max(OR, 1/OR)	[0.83-0.87]	7.0000000000000015e-31	Joo J	2022-02-21	GCST90103984	35308900
+core_copd	rs7753012	rs7753012-G	ADGRG6	0.85	odds_ratio_inferred	1.1764705882352942	max(OR, 1/OR)	[0.82-0.88]	4e-20	Kim W	2020-10-27	GCST90016586	33106845
+core_copd	rs7753012	rs7753012-G	ADGRG6	0.85	odds_ratio_inferred	1.1764705882352942	max(OR, 1/OR)	[0.82-0.88]	8e-20	Kim W	2020-10-27	GCST90016589	33106845
+core_copd	rs1585258	rs1585258-T	FAM13A	1.1719328	odds_ratio_inferred	1.1719328	max(OR, 1/OR)	[1.112011586-1.23508296]	3e-09	Ishigaki K	2020-06-08	GCST90013709	32514122
+core_copd	rs3130288	rs3130288-A	ATF6B	1.17	odds_ratio_inferred	1.17	max(OR, 1/OR)	[1.12-1.23]	2e-11	Kim W	2020-10-27	GCST90016589	33106845
+core_copd	rs1529672	rs1529672-A	RARB	0.85808474	odds_ratio_inferred	1.1653860666488487	max(OR, 1/OR)	[0.814642985-0.903843096]	8e-09	Ishigaki K	2020-06-08	GCST90013709	32514122
+core_copd	rs7753012	rs7753012-G	ADGRG6	0.86	odds_ratio_inferred	1.1627906976744187	max(OR, 1/OR)	[0.84-0.89]	2e-22	Joo J	2022-02-21	GCST90103984	35308900
+core_copd	rs4973115	rs4973115-A	LINC01807	0.86	odds_ratio_inferred	1.1627906976744187	max(OR, 1/OR)	[0.83-0.9]	4e-10	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs4973115	rs4973115-A	LINC01807	0.86	odds_ratio_inferred	1.1627906976744187	max(OR, 1/OR)	[0.83-0.9]	5e-10	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs9399401	rs9399401-T	ADGRG6	1.16	odds_ratio_inferred	1.16	max(OR, 1/OR)	[1.13-1.18]	2e-40	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs2119568	rs2119568-C	THSD4	1.16	odds_ratio_inferred	1.16	max(OR, 1/OR)	[1.12-1.2]	2e-16	Joo J	2022-02-21	GCST90103984	35308900
+core_copd	rs1064627	rs1064627-G	FLOT1	1.16	odds_ratio_inferred	1.16	max(OR, 1/OR)	[1.11-1.2]	1e-13	Kim W	2020-10-27	GCST90016589	33106845
+core_copd	rs113897301	rs113897301-A_T	ADAM19	1.16	odds_ratio_inferred	1.16	max(OR, 1/OR)	[1.12,1.21]	2e-13	Hobbs BD	2017-02-06	GCST004147	28166215
+core_copd	rs3130288	rs3130288-A	ATF6B	1.16	odds_ratio_inferred	1.16	max(OR, 1/OR)	[1.11-1.22]	5e-11	Kim W	2020-10-27	GCST90016586	33106845
+core_copd	rs151025055	rs151025055-T	GUSBP5	1.16	odds_ratio_inferred	1.16	max(OR, 1/OR)	[1.1-1.21]	1e-09	Kim W	2020-10-27	GCST90016589	33106845
+core_copd	rs9399401	rs9399401-T	ADGRG6	1.15	odds_ratio_inferred	1.15	max(OR, 1/OR)	[1.12,1.19]	2e-19	Hobbs BD	2017-02-06	GCST004147	28166215
+core_copd	rs34712979	rs34712979-A	NPNT	1.15	odds_ratio_inferred	1.15	max(OR, 1/OR)	[1.11-1.19]	2e-16	Kim W	2020-10-27	GCST90016588	33106845
+core_copd	rs4143333	rs4143333-G	ZDHHC20P2	1.15	odds_ratio_inferred	1.15	max(OR, 1/OR)	[NR]	2e-16	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs9273410	rs9273410-A	HLA-DQB1	1.15	odds_ratio_inferred	1.15	max(OR, 1/OR)	[1.11-1.19]	7e-16	Kim W	2020-10-27	GCST90016586	33106845
+core_copd	rs9273410	rs9273410-A	HLA-DQB1	1.15	odds_ratio_inferred	1.15	max(OR, 1/OR)	[1.11-1.19]	9e-16	Kim W	2020-10-27	GCST90016589	33106845
+core_copd	rs754388	rs754388-C	RIN3	1.15	odds_ratio_inferred	1.15	max(OR, 1/OR)	[1.11,1.20]	5e-14	Hobbs BD	2017-02-06	GCST004147	28166215
+core_copd	rs1064627	rs1064627-G	FLOT1	1.15	odds_ratio_inferred	1.15	max(OR, 1/OR)	[1.11-1.2]	3e-13	Kim W	2020-10-27	GCST90016586	33106845
+core_copd	rs1631951	rs1631951-T	LINC02571 - HLA-B	1.15	odds_ratio_inferred	1.15	max(OR, 1/OR)	[1.11-1.2]	3e-12	Kim W	2020-10-27	GCST90016589	33106845
+core_copd	rs1631951	rs1631951-T	LINC02571 - HLA-B	1.15	odds_ratio_inferred	1.15	max(OR, 1/OR)	[1.11-1.2]	4e-12	Kim W	2020-10-27	GCST90016586	33106845
+core_copd	rs2188100	rs2188100-A	TRIM26 - HCG18	1.15	odds_ratio_inferred	1.15	max(OR, 1/OR)	[1.11-1.2]	2e-11	Kim W	2020-10-27	GCST90016589	33106845
+core_copd	rs2188100	rs2188100-A	TRIM26 - HCG18	1.15	odds_ratio_inferred	1.15	max(OR, 1/OR)	[1.1-1.2]	5e-11	Kim W	2020-10-27	GCST90016586	33106845
+core_copd	rs151025055	rs151025055-T	GUSBP5	1.15	odds_ratio_inferred	1.15	max(OR, 1/OR)	[1.1-1.21]	1e-09	Kim W	2020-10-27	GCST90016586	33106845
+core_copd	rs6817273	rs6817273-C	GUSBP5 - KRT18P51	0.87	odds_ratio_inferred	1.1494252873563218	max(OR, 1/OR)	[0.85-0.9]	4e-21	Joo J	2022-02-21	GCST90103985	35308900
+core_copd	rs6537293	rs6537293-G	GUSBP5 - KRT18P51	0.87	odds_ratio_inferred	1.1494252873563218	max(OR, 1/OR)	[0.85-0.9]	1e-18	Kim W	2020-10-27	GCST90016588	33106845
+core_copd	rs11155242	rs11155242-A	ADGRG6	1.14	odds_ratio_inferred	1.14	max(OR, 1/OR)	[1.11 -1.17]	6e-26	Moll M	2021-04-28	GCST011766	33909500
+core_copd	rs2119568	rs2119568-C	THSD4	1.14	odds_ratio_inferred	1.14	max(OR, 1/OR)	[NR]	1e-24	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs57062879	rs57062879-A	CDC123	1.14	odds_ratio_inferred	1.14	max(OR, 1/OR)	[1.11-1.18]	6e-16	Kim W	2020-10-27	GCST90016586	33106845
+core_copd	rs57062879	rs57062879-A	CDC123	1.14	odds_ratio_inferred	1.14	max(OR, 1/OR)	[1.11-1.18]	8e-16	Kim W	2020-10-27	GCST90016589	33106845
+core_copd	rs10851839	rs10851839-T	THSD4	1.14	odds_ratio_inferred	1.14	max(OR, 1/OR)	[1.1-1.18]	3e-14	Kim W	2020-10-27	GCST90016586	33106845
+core_copd	rs10851839	rs10851839-T	THSD4	1.14	odds_ratio_inferred	1.14	max(OR, 1/OR)	[1.1-1.18]	4e-14	Kim W	2020-10-27	GCST90016589	33106845
+core_copd	rs11465228	rs11465228-T	ADAM19	1.14	odds_ratio_inferred	1.14	max(OR, 1/OR)	[NR]	6e-11	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs72673419	rs72673419-T	LINC02778 - LINC01748	1.14	odds_ratio_inferred	1.14	max(OR, 1/OR)	[1.09-1.19]	4e-09	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs10037493	rs10037493-T	HTR4	0.88	odds_ratio_inferred	1.1363636363636365	max(OR, 1/OR)	[0.86-0.91]	1e-18	Joo J	2022-02-21	GCST90103984	35308900
+core_copd	rs7733410	rs7733410-A	HTR4	0.88	odds_ratio_inferred	1.1363636363636365	max(OR, 1/OR)	[0.86-0.91]	1e-16	Kim W	2020-10-27	GCST90016588	33106845
+core_copd	rs7753012	rs7753012-G	ADGRG6	0.88	odds_ratio_inferred	1.1363636363636365	max(OR, 1/OR)	[0.86-0.91]	4e-14	Kim W	2020-10-27	GCST90016588	33106845
+core_copd	rs6905736	rs6905736-C	ID4 - RPL29P17	0.88	odds_ratio_inferred	1.1363636363636365	max(OR, 1/OR)	[0.85-0.91]	4e-13	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs6905736	rs6905736-C	ID4 - RPL29P17	0.88	odds_ratio_inferred	1.1363636363636365	max(OR, 1/OR)	[0.85-0.91]	6e-13	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs13110699	rs13110699-T	FAM13A	0.88	odds_ratio_inferred	1.1363636363636365	max(OR, 1/OR)	[0.85-0.92]	6e-10	Kim W	2020-10-27	GCST90016588	33106845
+core_copd	rs10037493	rs10037493-C	HTR4	1.13	odds_ratio_inferred	1.13	max(OR, 1/OR)	[1.10-1.15]	3e-33	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs1441358	rs1441358-G	THSD4	1.13	odds_ratio_inferred	1.13	max(OR, 1/OR)	[1.11-1.15]	7e-33	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs6537279	rs6537279-A	GUSBP5 - KRT18P51	1.13	odds_ratio_inferred	1.13	max(OR, 1/OR)	[NR]	6e-26	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs9273410	rs9273410-A	HLA-DQB1	1.13	odds_ratio_inferred	1.13	max(OR, 1/OR)	[1.1-1.16]	2e-21	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs9273410	rs9273410-A	HLA-DQB1	1.13	odds_ratio_inferred	1.13	max(OR, 1/OR)	[1.1-1.16]	3e-21	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs1064627	rs1064627-G	FLOT1	1.13	odds_ratio_inferred	1.13	max(OR, 1/OR)	[1.1-1.16]	2e-16	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs1064627	rs1064627-G	FLOT1	1.13	odds_ratio_inferred	1.13	max(OR, 1/OR)	[1.1-1.16]	2e-16	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs72740964	rs72740964-A	CHRNA5	1.13	odds_ratio_inferred	1.13	max(OR, 1/OR)	[1.1-1.16]	2e-16	Joo J	2022-02-21	GCST90103984	35308900
+core_copd	rs1441358	rs1441358-G	THSD4	1.13	odds_ratio_inferred	1.13	max(OR, 1/OR)	[1.10,1.16]	8e-16	Hobbs BD	2017-02-06	GCST004147	28166215
+core_copd	rs1631951	rs1631951-T	LINC02571 - HLA-B	1.13	odds_ratio_inferred	1.13	max(OR, 1/OR)	[1.1-1.16]	2e-15	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs1631951	rs1631951-T	LINC02571 - HLA-B	1.13	odds_ratio_inferred	1.13	max(OR, 1/OR)	[1.1-1.16]	2e-15	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs2955083	rs2955083-A	EEFSEC	1.13	odds_ratio_inferred	1.13	max(OR, 1/OR)	[1.10-1.17]	4e-15	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs1233578	rs1233578-G	RPSAP2 - NOP56P1	1.13	odds_ratio_inferred	1.13	max(OR, 1/OR)	[1.09-1.18]	3e-09	Kim W	2020-10-27	GCST90016589	33106845
+core_copd	rs1233578	rs1233578-G	RPSAP2 - NOP56P1	1.13	odds_ratio_inferred	1.13	max(OR, 1/OR)	[1.08-1.18]	4e-09	Kim W	2020-10-27	GCST90016586	33106845
+core_copd	chr15:78804071	chr15:78804071-T		0.89	odds_ratio_inferred	1.1235955056179776	max(OR, 1/OR)	[0.87-0.92]	6e-13	Joo J	2022-02-21	GCST90103985	35308900
+core_copd	rs2955083	rs2955083-T	EEFSEC	0.89	odds_ratio_inferred	1.1235955056179776	max(OR, 1/OR)	[0.86-0.93]	6e-09	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs2284174	rs2284174-C	HCG20	1.12	odds_ratio_inferred	1.12	max(OR, 1/OR)	[1.10-1.15]	2e-21	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs10851839	rs10851839-T	THSD4	1.12	odds_ratio_inferred	1.12	max(OR, 1/OR)	[1.1-1.15]	3e-20	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs10851839	rs10851839-T	THSD4	1.12	odds_ratio_inferred	1.12	max(OR, 1/OR)	[1.1-1.15]	3e-20	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs12102112	rs12102112-T	THSD4	1.12	odds_ratio_inferred	1.12	max(OR, 1/OR)	[NR]	2e-17	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs6837671	rs6837671-G	FAM13A	1.12	odds_ratio_inferred	1.12	max(OR, 1/OR)	[1.09,1.15]	7e-15	Hobbs BD	2017-02-06	GCST004147	28166215
+core_copd	rs3101017	rs3101017-C	VWA7	1.12	odds_ratio_inferred	1.12	max(OR, 1/OR)	[1.09 -1.15]	2e-14	Moll M	2021-04-28	GCST011766	33909500
+core_copd	rs9350191	rs9350191-T	ID4 - RPL29P17	1.12	odds_ratio_inferred	1.12	max(OR, 1/OR)	[1.09-1.15]	5e-14	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs17843608	rs17843608-C	HLA-DQA1 - HLA-DQB1	1.12	odds_ratio_inferred	1.12	max(OR, 1/OR)	[1.09-1.16]	6e-14	Joo J	2022-02-21	GCST90103985	35308900
+core_copd	rs2047409	rs2047409-A	TET2-AS1, TET2	1.12	odds_ratio_inferred	1.12	max(OR, 1/OR)	[1.08-1.15]	2e-13	Hobbs BD	2017-02-06	GCST004147	28166215
+core_copd	rs7775397	rs7775397-G	TSBP1, TSBP1-AS1	1.12	odds_ratio_inferred	1.12	max(OR, 1/OR)	[1.08 -1.15]	3e-13	Moll M	2021-04-28	GCST011766	33909500
+core_copd	rs2158101	rs2158101-A	CARINH	1.12	odds_ratio_inferred	1.12	max(OR, 1/OR)	[1.09-1.16]	2e-12	Joo J	2022-02-21	GCST90103984	35308900
+core_copd	rs7186831	rs7186831-A	CFDP1 - TMEM170A	1.12	odds_ratio_inferred	1.12	max(OR, 1/OR)	[1.08,1.16]	1e-11	Hobbs BD	2017-02-06	GCST004147	28166215
+core_copd	rs4523894	rs4523894-C	ADAMTSL3	1.12	odds_ratio_inferred	1.12	max(OR, 1/OR)	[NR]	5e-11	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs6923811	rs6923811-C	POM121L2 - VN1R10P	1.12	odds_ratio_inferred	1.12	max(OR, 1/OR)	[1.08-1.15]	2e-10	Kim W	2020-10-27	GCST90016586	33106845
+core_copd	rs2106072	rs2106072-A	TRIM26	1.12	odds_ratio_inferred	1.12	max(OR, 1/OR)	[1.08-1.15]	3e-10	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs6923811	rs6923811-C	POM121L2 - VN1R10P	1.12	odds_ratio_inferred	1.12	max(OR, 1/OR)	[1.08-1.15]	3e-10	Kim W	2020-10-27	GCST90016589	33106845
+core_copd	rs2806356	rs2806356-C	ARMC2	1.12	odds_ratio_inferred	1.12	max(OR, 1/OR)	[1.08,1.16]	8e-10	Hobbs BD	2017-02-06	GCST004147	28166215
+core_copd	rs72731149	rs72731149-G	DTWD1 - ATP8B4	1.12	odds_ratio_inferred	1.12	max(OR, 1/OR)	[1.08-1.16]	8e-09	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs7733410	rs7733410-A	HTR4	0.9	odds_ratio_inferred	1.1111111111111112	max(OR, 1/OR)	[0.88-0.92]	4e-17	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs7733410	rs7733410-A	HTR4	0.9	odds_ratio_inferred	1.1111111111111112	max(OR, 1/OR)	[0.88-0.92]	4e-17	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs12449170	rs12449170-C	CFDP1	0.9	odds_ratio_inferred	1.1111111111111112	max(OR, 1/OR)	[0.88-0.93]	9e-16	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs12449170	rs12449170-C	CFDP1	0.9	odds_ratio_inferred	1.1111111111111112	max(OR, 1/OR)	[0.88-0.93]	9e-16	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs262115	rs262115-C	ADGRG6 - HIVEP2	0.9	odds_ratio_inferred	1.1111111111111112	max(OR, 1/OR)	[0.87-0.93]	1e-11	Joo J	2022-02-21	GCST90103985	35308900
+core_copd	rs12930452	rs12930452-A	CFDP1	0.9	odds_ratio_inferred	1.1111111111111112	max(OR, 1/OR)	[0.88-0.93]	2e-09	Kim W	2020-10-27	GCST90016586	33106845
+core_copd	rs12930452	rs12930452-A	CFDP1	0.9	odds_ratio_inferred	1.1111111111111112	max(OR, 1/OR)	[0.87-0.93]	2e-09	Kim W	2020-10-27	GCST90016589	33106845
+core_copd	rs7679673	rs7679673-A	RNU6-351P - TET2	0.9	odds_ratio_inferred	1.1111111111111112	max(OR, 1/OR)	[0.87-0.94]	4e-09	Kim W	2020-10-27	GCST90016589	33106845
+core_copd	rs2955083	rs2955083-T	EEFSEC	0.9	odds_ratio_inferred	1.1111111111111112	max(OR, 1/OR)	[0.86-0.93]	7e-09	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs55676755	rs55676755-G	CHRNA3	1.11	odds_ratio_inferred	1.11	max(OR, 1/OR)	[1.09-1.14]	3e-26	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs16969968	rs16969968-A	CHRNA5	1.11	odds_ratio_inferred	1.11	max(OR, 1/OR)	[1.09 -1.14]	5e-25	Moll M	2021-04-28	GCST011766	33909500
+core_copd	rs57062879	rs57062879-A	CDC123	1.11	odds_ratio_inferred	1.11	max(OR, 1/OR)	[1.09-1.14]	2e-18	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs57062879	rs57062879-A	CDC123	1.11	odds_ratio_inferred	1.11	max(OR, 1/OR)	[1.09-1.14]	3e-18	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs9262143	rs9262143-T	PPP1R18	1.11	odds_ratio_inferred	1.11	max(OR, 1/OR)	[1.08 -1.15]	1e-13	Moll M	2021-04-28	GCST011766	33909500
+core_copd	rs7750641	rs7750641-T	TCF19	1.11	odds_ratio_inferred	1.11	max(OR, 1/OR)	[1.08 -1.14]	1e-12	Moll M	2021-04-28	GCST011766	33909500
+core_copd	rs13195509	rs13195509-A	BTN2A1	1.11	odds_ratio_inferred	1.11	max(OR, 1/OR)	[1.08 -1.15]	3e-12	Moll M	2021-04-28	GCST011766	33909500
+core_copd	rs10851839	rs10851839-T	THSD4	1.11	odds_ratio_inferred	1.11	max(OR, 1/OR)	[1.08-1.15]	4e-12	Kim W	2020-10-27	GCST90016588	33106845
+core_copd	rs112325689	rs112325689-AGCCGG	ADAM19	1.11	odds_ratio_inferred	1.11	max(OR, 1/OR)	[1.08-1.14]	8e-12	Joo J	2022-02-21	GCST90103985	35308900
+core_copd	rs1233578	rs1233578-G	RPSAP2 - NOP56P1	1.11	odds_ratio_inferred	1.11	max(OR, 1/OR)	[1.08-1.14]	2e-11	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs1233578	rs1233578-G	RPSAP2 - NOP56P1	1.11	odds_ratio_inferred	1.11	max(OR, 1/OR)	[1.08-1.14]	2e-11	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs2232423	rs2232423-G	ZSCAN12	1.11	odds_ratio_inferred	1.11	max(OR, 1/OR)	[1.08 -1.15]	2e-11	Moll M	2021-04-28	GCST011766	33909500
+core_copd	rs3749971	rs3749971-A	OR12D3, OR5V1	1.11	odds_ratio_inferred	1.11	max(OR, 1/OR)	[1.08 -1.14]	3e-11	Moll M	2021-04-28	GCST011766	33909500
+core_copd	rs61742093	rs61742093-G	OR2B2	1.11	odds_ratio_inferred	1.11	max(OR, 1/OR)	[1.08 -1.14]	6e-11	Moll M	2021-04-28	GCST011766	33909500
+core_copd	rs10429950	rs10429950-T	TGFB2 - LINC02869	1.11	odds_ratio_inferred	1.11	max(OR, 1/OR)	[1.07,1.14]	2e-10	Hobbs BD	2017-02-06	GCST004147	28166215
+core_copd	rs2106072	rs2106072-A	TRIM26	1.11	odds_ratio_inferred	1.11	max(OR, 1/OR)	[1.08-1.15]	3e-10	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs11727524	rs11727524-C	GUSBP5, GYPE	1.11	odds_ratio_inferred	1.11	max(OR, 1/OR)	[1.08-1.15]	5e-10	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs11727524	rs11727524-C	GUSBP5, GYPE	1.11	odds_ratio_inferred	1.11	max(OR, 1/OR)	[1.08-1.15]	6e-10	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs1233393	rs1233393-G	GABBR1	1.11	odds_ratio_inferred	1.11	max(OR, 1/OR)	[1.07-1.15]	2e-09	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs1233393	rs1233393-G	GABBR1	1.11	odds_ratio_inferred	1.11	max(OR, 1/OR)	[1.07-1.15]	2e-09	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs2277027	rs2277027-C	ADAM19	1.11	odds_ratio_inferred	1.11	max(OR, 1/OR)	[1.07-1.14]	4e-09	Kim W	2020-10-27	GCST90016586	33106845
+core_copd	rs2277027	rs2277027-C	ADAM19	1.11	odds_ratio_inferred	1.11	max(OR, 1/OR)	[1.07-1.14]	4e-09	Kim W	2020-10-27	GCST90016589	33106845
+core_copd	rs13205211	rs13205211-G	ZSCAN9 - ZKSCAN4	1.11	odds_ratio_inferred	1.11	max(OR, 1/OR)	[1.07-1.15]	1e-08	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs13205211	rs13205211-G	ZSCAN9 - ZKSCAN4	1.11	odds_ratio_inferred	1.11	max(OR, 1/OR)	[1.07-1.15]	1e-08	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs8044657	rs8044657-G	SPMIP8 - ZNF319	1.11	odds_ratio_inferred	1.11	max(OR, 1/OR)	[1.07-1.15]	1e-08	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs1529672	rs1529672-C	RARB	1.11	odds_ratio_inferred	1.11	max(OR, 1/OR)	[1.07-1.15]	2e-08	Hobbs BD	2017-02-06	GCST004147	28166215
+core_copd	rs113434679	rs113434679-A	KANSL1	1.11	odds_ratio_inferred	1.11	max(OR, 1/OR)	[1.07-1.15]	3e-08	Joo J	2022-02-21	GCST90103985	35308900
+core_copd	rs34651	rs34651-C	TNPO1	1.11	odds_ratio_inferred	1.11	max(OR, 1/OR)	[1.07-1.15]	3e-08	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	chr3:57060652	chr3:57060652-G		1.11	odds_ratio_inferred	1.11	max(OR, 1/OR)	[1.07-1.15]	4e-08	Joo J	2022-02-21	GCST90103984	35308900
+core_copd	rs7068966	rs7068966-C	CDC123	1.1	odds_ratio_inferred	1.1	max(OR, 1/OR)	[1.08-1.12]	6e-23	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs4888379	rs4888379-T	CFDP1	1.1	odds_ratio_inferred	1.1	max(OR, 1/OR)	[1.08-1.12]	6e-21	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs2047409	rs2047409-A	TET2-AS1, TET2	1.1	odds_ratio_inferred	1.1	max(OR, 1/OR)	[NR]	2e-19	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs28534575	rs28534575-T	CHRNB4	1.1	odds_ratio_inferred	1.1	max(OR, 1/OR)	[NR]	5e-16	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs2806356	rs2806356-C	ARMC2	1.1	odds_ratio_inferred	1.1	max(OR, 1/OR)	[1.08-1.13]	3e-15	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs2277027	rs2277027-C	ADAM19	1.1	odds_ratio_inferred	1.1	max(OR, 1/OR)	[1.08-1.13]	6e-15	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs2277027	rs2277027-C	ADAM19	1.1	odds_ratio_inferred	1.1	max(OR, 1/OR)	[1.08-1.13]	6e-15	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs72787160	rs72787160-C	CFDP1	1.1	odds_ratio_inferred	1.1	max(OR, 1/OR)	[1.07-1.13]	3e-12	Joo J	2022-02-21	GCST90103984	35308900
+core_copd	rs3210176	rs3210176-C	HLA-DQB1, HLA-DQB1-AS1	1.1	odds_ratio_inferred	1.1	max(OR, 1/OR)	[1.07-1.14]	1e-11	Joo J	2022-02-21	GCST90103984	35308900
+core_copd	rs1420472	rs1420472-T	LINC01997 - MECOM	1.1	odds_ratio_inferred	1.1	max(OR, 1/OR)	[1.07-1.14]	3e-11	Kim W	2020-10-27	GCST90016588	33106845
+core_copd	chr15:71630062	chr15:71630062-T		1.1	odds_ratio_inferred	1.1	max(OR, 1/OR)	[1.07-1.14]	4e-11	Joo J	2022-02-21	GCST90103985	35308900
+core_copd	rs2806356	rs2806356-C	ARMC2	1.1	odds_ratio_inferred	1.1	max(OR, 1/OR)	[1.07-1.14]	1e-10	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs2806356	rs2806356-C	ARMC2	1.1	odds_ratio_inferred	1.1	max(OR, 1/OR)	[1.07-1.14]	1e-10	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs9329170	rs9329170-C	MFHAS1	1.1	odds_ratio_inferred	1.1	max(OR, 1/OR)	[1.07-1.13]	4e-10	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs17707300	rs17707300-C	SGF29	1.1	odds_ratio_inferred	1.1	max(OR, 1/OR)	[1.06-1.13]	7e-10	Hobbs BD	2017-02-06	GCST004147	28166215
+core_copd	rs72811310	rs72811310-T	ADAM19	1.1	odds_ratio_inferred	1.1	max(OR, 1/OR)	[NR]	8e-10	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs9273410	rs9273410-A	HLA-DQB1	1.1	odds_ratio_inferred	1.1	max(OR, 1/OR)	[1.06-1.13]	3e-09	Kim W	2020-10-27	GCST90016588	33106845
+core_copd	rs647097	rs647097-C	MTCL1	1.1	odds_ratio_inferred	1.1	max(OR, 1/OR)	[1.06,1.13]	6e-09	Hobbs BD	2017-02-06	GCST004147	28166215
+core_copd	rs3799383	rs3799383-T	BTN1A1 - RNU6-502P	1.1	odds_ratio_inferred	1.1	max(OR, 1/OR)	[1.07-1.14]	9e-09	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs3799383	rs3799383-T	BTN1A1 - RNU6-502P	1.1	odds_ratio_inferred	1.1	max(OR, 1/OR)	[1.07-1.14]	1e-08	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs12459249	rs12459249-C	CYP2F2P - CYP2A6	1.1	odds_ratio_inferred	1.1	max(OR, 1/OR)	[1.06,1.14]	3e-08	Hobbs BD	2017-02-06	GCST004147	28166215
+core_copd	rs6533183	rs6533183-C	TET2-AS1, TET2	0.91	odds_ratio_inferred	1.0989010989010988	max(OR, 1/OR)	[0.89-0.93]	7e-13	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs6533183	rs6533183-C	TET2-AS1, TET2	0.91	odds_ratio_inferred	1.0989010989010988	max(OR, 1/OR)	[0.89-0.94]	9e-13	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs2271804	rs2271804-A	CDC123	0.91	odds_ratio_inferred	1.0989010989010988	max(OR, 1/OR)	[0.89-0.94]	6e-11	Joo J	2022-02-21	GCST90103984	35308900
+core_copd	rs62191105	rs62191105-T	LINC01940 - HDAC4	0.91	odds_ratio_inferred	1.0989010989010988	max(OR, 1/OR)	[0.88-0.94]	9e-10	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs12930452	rs12930452-A	CFDP1	0.91	odds_ratio_inferred	1.0989010989010988	max(OR, 1/OR)	[0.88-0.94]	1e-09	Kim W	2020-10-27	GCST90016588	33106845
+core_copd	rs62191105	rs62191105-T	LINC01940 - HDAC4	0.91	odds_ratio_inferred	1.0989010989010988	max(OR, 1/OR)	[0.88-0.94]	1e-09	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs7733410	rs7733410-A	HTR4	0.91	odds_ratio_inferred	1.0989010989010988	max(OR, 1/OR)	[0.88-0.94]	3e-09	Kim W	2020-10-27	GCST90016586	33106845
+core_copd	chr15:84034556	chr15:84034556-C		0.91	odds_ratio_inferred	1.0989010989010988	max(OR, 1/OR)	[0.88-0.94]	4e-09	Joo J	2022-02-21	GCST90103984	35308900
+core_copd	rs7733410	rs7733410-A	HTR4	0.91	odds_ratio_inferred	1.0989010989010988	max(OR, 1/OR)	[0.88-0.94]	4e-09	Kim W	2020-10-27	GCST90016589	33106845
+core_copd	rs7679673	rs7679673-A	RNU6-351P - TET2	0.91	odds_ratio_inferred	1.0989010989010988	max(OR, 1/OR)	[0.88-0.94]	8e-09	Kim W	2020-10-27	GCST90016586	33106845
+core_copd	chr18:8803157	chr18:8803157-T		0.91	odds_ratio_inferred	1.0989010989010988	max(OR, 1/OR)	[0.88-0.94]	1e-08	Joo J	2022-02-21	GCST90103985	35308900
+core_copd	rs12700188	rs12700188-G	ITGB8	0.91	odds_ratio_inferred	1.0989010989010988	max(OR, 1/OR)	[0.88-0.94]	4e-08	Kim W	2020-10-27	GCST90016586	33106845
+core_copd	rs12700188	rs12700188-G	ITGB8	0.91	odds_ratio_inferred	1.0989010989010988	max(OR, 1/OR)	[0.88-0.94]	4e-08	Kim W	2020-10-27	GCST90016589	33106845
+core_copd	rs7671261	rs7671261-A	FAM13A	1.09	odds_ratio_inferred	1.09	max(OR, 1/OR)	[1.07-1.11]	1e-18	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs1422795	rs1422795-C	ADAM19	1.09	odds_ratio_inferred	1.09	max(OR, 1/OR)	[1.07 -1.11]	2e-17	Moll M	2021-04-28	GCST011766	33909500
+core_copd	rs10866659	rs10866659-G	ADAM19	1.09	odds_ratio_inferred	1.09	max(OR, 1/OR)	[1.07-1.11]	1e-16	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs10043775	rs10043775-T	FBXO38	1.09	odds_ratio_inferred	1.09	max(OR, 1/OR)	[1.06 -1.11]	2e-13	Moll M	2021-04-28	GCST011766	33909500
+core_copd	rs62191105	rs62191105-C	LINC01940 - HDAC4	1.09	odds_ratio_inferred	1.09	max(OR, 1/OR)	[1.07-1.12]	3e-12	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs1529672	rs1529672-C	RARB	1.09	odds_ratio_inferred	1.09	max(OR, 1/OR)	[1.06-1.12]	3e-11	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs2523989	rs2523989-T	TRIM31, TRIM31-AS1	1.09	odds_ratio_inferred	1.09	max(OR, 1/OR)	[1.06 -1.12]	1e-10	Moll M	2021-04-28	GCST011766	33909500
+core_copd	rs6923811	rs6923811-C	POM121L2 - VN1R10P	1.09	odds_ratio_inferred	1.09	max(OR, 1/OR)	[1.06-1.11]	1e-10	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs2442776	rs2442776-G	VGLL4	1.09	odds_ratio_inferred	1.09	max(OR, 1/OR)	[1.06-1.12]	2e-10	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs6923811	rs6923811-C	POM121L2 - VN1R10P	1.09	odds_ratio_inferred	1.09	max(OR, 1/OR)	[1.06-1.11]	2e-10	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs117261012	rs117261012-G	ME3 - PRSS23	1.09	odds_ratio_inferred	1.09	max(OR, 1/OR)	[1.06-1.12]	7e-10	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs1420472	rs1420472-T	LINC01997 - MECOM	1.09	odds_ratio_inferred	1.09	max(OR, 1/OR)	[1.06-1.12]	1e-09	Joo J	2022-02-21	GCST90103985	35308900
+core_copd	rs631126	rs631126-T	MTCL1	1.09	odds_ratio_inferred	1.09	max(OR, 1/OR)	[1.06-1.12]	1e-09	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs631126	rs631126-T	MTCL1	1.09	odds_ratio_inferred	1.09	max(OR, 1/OR)	[1.06-1.12]	1e-09	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs2637261	rs2637261-T	LRMDA - ATP5MC1P8	1.09	odds_ratio_inferred	1.09	max(OR, 1/OR)	[1.06-1.12]	2e-09	Joo J	2022-02-21	GCST90103985	35308900
+core_copd	rs2076295	rs2076295-T	DSP	1.09	odds_ratio_inferred	1.09	max(OR, 1/OR)	[1.06,1.12]	4e-09	Hobbs BD	2017-02-06	GCST004147	28166215
+core_copd	rs2287749	rs2287749-C	ADAM19	1.09	odds_ratio_inferred	1.09	max(OR, 1/OR)	[1.06 -1.12]	4e-09	Moll M	2021-04-28	GCST011766	33909500
+core_copd	rs2045517	rs2045517-T	FAM13A	1.09	odds_ratio_inferred	1.09	max(OR, 1/OR)	[1.06-1.12]	9e-09	Joo J	2022-02-21	GCST90103985	35308900
+core_copd	rs34727469	rs34727469-T	EPOP - MIR4734	1.09	odds_ratio_inferred	1.09	max(OR, 1/OR)	[1.06-1.12]	1e-08	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs72902175	rs72902175-T	LINC01876	1.09	odds_ratio_inferred	1.09	max(OR, 1/OR)	[1.06-1.12]	2e-08	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs72983853	rs72983853-C	RNU6-234P - ASB1	1.09	odds_ratio_inferred	1.09	max(OR, 1/OR)	[NR]	3e-08	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs3885951	rs3885951-G	HYKK	1.09	odds_ratio_inferred	1.09	max(OR, 1/OR)	[1.06 -1.13]	5e-08	Moll M	2021-04-28	GCST011766	33909500
+core_copd	rs12700188	rs12700188-G	ITGB8	0.92	odds_ratio_inferred	1.0869565217391304	max(OR, 1/OR)	[0.9-0.95]	1e-10	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs12700188	rs12700188-G	ITGB8	0.92	odds_ratio_inferred	1.0869565217391304	max(OR, 1/OR)	[0.9-0.95]	1e-10	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs955277	rs955277-C	RPL30P3 - ASAP2	0.92	odds_ratio_inferred	1.0869565217391304	max(OR, 1/OR)	[0.9-0.95]	4e-10	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs955277	rs955277-C	RPL30P3 - ASAP2	0.92	odds_ratio_inferred	1.0869565217391304	max(OR, 1/OR)	[0.9-0.95]	4e-10	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs9605481	rs9605481-A	MICAL3	0.92	odds_ratio_inferred	1.0869565217391304	max(OR, 1/OR)	[0.89-0.94]	4e-10	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs9605481	rs9605481-A	MICAL3	0.92	odds_ratio_inferred	1.0869565217391304	max(OR, 1/OR)	[0.89-0.94]	5e-10	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs2001546	rs2001546-T	CDC123	0.92	odds_ratio_inferred	1.0869565217391304	max(OR, 1/OR)	[0.89-0.94]	7e-10	Joo J	2022-02-21	GCST90103985	35308900
+core_copd	rs798565	rs798565-A	AMZ1	0.92	odds_ratio_inferred	1.0869565217391304	max(OR, 1/OR)	[0.9-0.94]	7e-10	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs798565	rs798565-A	AMZ1	0.92	odds_ratio_inferred	1.0869565217391304	max(OR, 1/OR)	[0.9-0.94]	7e-10	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs6580550	rs6580550-C	HTR4	0.92	odds_ratio_inferred	1.0869565217391304	max(OR, 1/OR)	[0.89-0.94]	1e-09	Joo J	2022-02-21	GCST90103985	35308900
+core_copd	rs8041992	rs8041992-T	SH3GL3	0.92	odds_ratio_inferred	1.0869565217391304	max(OR, 1/OR)	[0.9-0.95]	5e-09	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs8041992	rs8041992-T	SH3GL3	0.92	odds_ratio_inferred	1.0869565217391304	max(OR, 1/OR)	[0.9-0.95]	5e-09	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs35926103	rs35926103-G	BTC	0.92	odds_ratio_inferred	1.0869565217391304	max(OR, 1/OR)	[0.9-0.95]	6e-09	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs35926103	rs35926103-G	BTC	0.92	odds_ratio_inferred	1.0869565217391304	max(OR, 1/OR)	[0.9-0.95]	6e-09	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs4743294	rs4743294-G	ADIPINT	0.92	odds_ratio_inferred	1.0869565217391304	max(OR, 1/OR)	[0.89-0.95]	4e-08	Joo J	2022-02-21	GCST90103984	35308900
+core_copd	rs7642001	rs7642001-A	LINC01997	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.06-1.10]	1e-14	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs2571445	rs2571445-A	TNS1	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.05 -1.1]	4e-13	Moll M	2021-04-28	GCST011766	33909500
+core_copd	rs10152300	rs10152300-G	ADAMTSL3	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.06-1.11]	4e-12	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs647097	rs647097-C	MTCL1	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.05-1.10]	1e-11	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs6928024	rs6928024-G	VTA1 - LINC02919	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[NR]	2e-11	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs9273404	rs9273404-G	HLA-DQA1 - HLA-DQB1	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[NR]	2e-11	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs11118406	rs11118406-T	SLC30A10	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.05-1.10]	4e-11	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs646695	rs646695-C	FILNC1 - LINC02941	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.05-1.10]	5e-11	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs12373142	rs12373142-G	SPPL2C, MAPT-AS1	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.05 -1.1]	2e-10	Moll M	2021-04-28	GCST011766	33909500
+core_copd	rs2579762	rs2579762-C	LRMDA	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.05-1.1]	3e-10	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs629619	rs629619-T	DENND2D	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.06-1.11]	3e-10	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs10114763	rs10114763-T	GLIS3	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.05-1.11]	4e-10	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs10114763	rs10114763-T	GLIS3	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.05-1.11]	4e-10	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs2579762	rs2579762-C	LRMDA	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.05-1.1]	4e-10	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs9617650	rs9617650-G	MICAL3	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.06-1.11]	4e-10	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs979453	rs979453-G	CCDC69, GM2A	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.06-1.11]	4e-10	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs979453	rs979453-G	CCDC69, GM2A	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.06-1.11]	4e-10	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs12519165	rs12519165-A	FGF18 - SMIM23	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.06-1.11]	5e-10	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs76841360	rs76841360-A	PABPC4 - HEYL	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.05-1.10]	5e-10	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs12519165	rs12519165-A	FGF18 - SMIM23	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.06-1.11]	6e-10	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs1551943	rs1551943-A	ITGA1	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.05-1.10]	6e-10	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs1334576	rs1334576-A	RREB1	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.05-1.1]	8e-10	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs9303283	rs9303283-C	MED24	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.05-1.1]	8e-10	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs1334576	rs1334576-A	RREB1	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.05-1.1]	9e-10	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs4846580	rs4846580-G	SLC30A10	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.05-1.1]	9e-10	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs9303283	rs9303283-C	MED24	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.05-1.1]	9e-10	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs12373142	rs12373142-G	SPPL2C, MAPT-AS1	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.05-1.10]	1e-09	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs4846580	rs4846580-G	SLC30A10	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.05-1.1]	1e-09	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs60967688	rs60967688-A	EFCAB5 - NSRP1	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.05-1.1]	1e-09	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs2571445	rs2571445-A	TNS1	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.05-1.1]	2e-09	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs60967688	rs60967688-A	EFCAB5 - NSRP1	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.05-1.1]	2e-09	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs2571445	rs2571445-A	TNS1	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.05-1.1]	3e-09	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs7307510	rs7307510-C	SNRPF-DT	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.05-1.10]	3e-09	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs9525927	rs9525927-G	LINC02938	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.05-1.10]	3e-09	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs1903003	rs1903003-T	FAM13A	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.06-1.11]	5e-09	Joo J	2022-02-21	GCST90103984	35308900
+core_copd	rs72699855	rs72699855-G	RIN3	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.05-1.11]	5e-09	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs35584079	rs35584079-A	ITPK1	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[NR]	2e-08	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs721917	rs721917-G	SFTPD	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.05,1.11]	2e-08	Hobbs BD	2017-02-06	GCST004147	28166215
+core_copd	rs330934	rs330934-T	PPP1R3B-DT	1.08	odds_ratio_inferred	1.08	max(OR, 1/OR)	[1.05-1.12]	4e-08	Joo J	2022-02-21	GCST90103984	35308900
+core_copd	rs7483689	rs7483689-T	RASSF10 - BMAL1	0.93	odds_ratio_inferred	1.075268817204301	max(OR, 1/OR)	[0.91-0.95]	3e-09	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs7483689	rs7483689-T	RASSF10 - BMAL1	0.93	odds_ratio_inferred	1.075268817204301	max(OR, 1/OR)	[0.91-0.95]	3e-09	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs1007892	rs1007892-T	GALNT12 - NME2P3	0.93	odds_ratio_inferred	1.075268817204301	max(OR, 1/OR)	[0.91-0.95]	5e-09	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs1007892	rs1007892-T	GALNT12 - NME2P3	0.93	odds_ratio_inferred	1.075268817204301	max(OR, 1/OR)	[0.91-0.95]	6e-09	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs156394	rs156394-C	LINC03142 - SUMO2P2	0.93	odds_ratio_inferred	1.075268817204301	max(OR, 1/OR)	[0.91-0.95]	6e-09	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs156394	rs156394-C	LINC03142 - SUMO2P2	0.93	odds_ratio_inferred	1.075268817204301	max(OR, 1/OR)	[0.91-0.95]	6e-09	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs11734405	rs11734405-C	OTUD4	0.93	odds_ratio_inferred	1.075268817204301	max(OR, 1/OR)	[0.91-0.96]	3e-08	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs11734405	rs11734405-C	OTUD4	0.93	odds_ratio_inferred	1.075268817204301	max(OR, 1/OR)	[0.91-0.96]	3e-08	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs10114763	rs10114763-T	GLIS3	1.07	odds_ratio_inferred	1.07	max(OR, 1/OR)	[1.05-1.09]	9e-13	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs2571445	rs2571445-A	TNS1	1.07	odds_ratio_inferred	1.07	max(OR, 1/OR)	[1.05-1.09]	3e-12	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs4842838	rs4842838-G	ADAMTSL3	1.07	odds_ratio_inferred	1.07	max(OR, 1/OR)	[1.05 -1.09]	3e-12	Moll M	2021-04-28	GCST011766	33909500
+core_copd	rs156394	rs156394-T	LINC03142 - SUMO2P2	1.07	odds_ratio_inferred	1.07	max(OR, 1/OR)	[1.05-1.09]	4e-12	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs17759204	rs17759204-G	CACNA2D3 - LINC02017	1.07	odds_ratio_inferred	1.07	max(OR, 1/OR)	[1.05-1.10]	9e-11	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs10760580	rs10760580-G	NME2P3 - ADIPINT	1.07	odds_ratio_inferred	1.07	max(OR, 1/OR)	[1.05-1.10]	1e-10	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs2454206	rs2454206-G	TET2-AS1, TET2	1.07	odds_ratio_inferred	1.07	max(OR, 1/OR)	[1.05 -1.09]	2e-10	Moll M	2021-04-28	GCST011766	33909500
+core_copd	rs955277	rs955277-T	RPL30P3 - ASAP2	1.07	odds_ratio_inferred	1.07	max(OR, 1/OR)	[1.05-1.09]	2e-10	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs2897075	rs2897075-C	ZKSCAN1	1.07	odds_ratio_inferred	1.07	max(OR, 1/OR)	[1.04-1.09]	7e-10	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs1129740	rs1129740-A	HLA-DQA1	1.07	odds_ratio_inferred	1.07	max(OR, 1/OR)	[1.04 -1.09]	1e-09	Moll M	2021-04-28	GCST011766	33909500
+core_copd	rs12519165	rs12519165-A	FGF18 - SMIM23	1.07	odds_ratio_inferred	1.07	max(OR, 1/OR)	[1.05-1.09]	1e-09	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs72626215	rs72626215-G	DMWD	1.07	odds_ratio_inferred	1.07	max(OR, 1/OR)	[1.05-1.10]	2e-09	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs4585380	rs4585380-G	BTC	1.07	odds_ratio_inferred	1.07	max(OR, 1/OR)	[1.05-1.09]	3e-09	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs11938093	rs11938093-A	BTC	1.07	odds_ratio_inferred	1.07	max(OR, 1/OR)	[1.04 -1.09]	4e-09	Moll M	2021-04-28	GCST011766	33909500
+core_copd	rs798565	rs798565-G	AMZ1	1.07	odds_ratio_inferred	1.07	max(OR, 1/OR)	[1.04-1.09]	4e-09	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs2062432	rs2062432-G	ADCY5	1.07	odds_ratio_inferred	1.07	max(OR, 1/OR)	[1.05-1.1]	7e-09	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs2062432	rs2062432-G	ADCY5	1.07	odds_ratio_inferred	1.07	max(OR, 1/OR)	[1.05-1.1]	8e-09	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs73158393	rs73158393-C	SYN3	1.07	odds_ratio_inferred	1.07	max(OR, 1/OR)	[1.05-1.09]	8e-09	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs7650602	rs7650602-C	ZBTB38	1.07	odds_ratio_inferred	1.07	max(OR, 1/OR)	[1.05-1.1]	8e-09	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs7650602	rs7650602-C	ZBTB38	1.07	odds_ratio_inferred	1.07	max(OR, 1/OR)	[1.05-1.1]	1e-08	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs60129850	rs60129850-A	FGD6	1.07	odds_ratio_inferred	1.07	max(OR, 1/OR)	[NR]	2e-08	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs62259026	rs62259026-C	SLMAP	1.07	odds_ratio_inferred	1.07	max(OR, 1/OR)	[1.04-1.09]	2e-08	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs8040868	rs8040868-C	CHRNA3	1.07	odds_ratio_inferred	1.07	max(OR, 1/OR)	[1.05-1.1]	2e-08	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs1420472	rs1420472-T	LINC01997 - MECOM	1.07	odds_ratio_inferred	1.07	max(OR, 1/OR)	[1.04-1.1]	3e-08	Kim W	2020-10-27	GCST90016591	33106845
+core_copd	rs1420472	rs1420472-T	LINC01997 - MECOM	1.07	odds_ratio_inferred	1.07	max(OR, 1/OR)	[1.04-1.1]	3e-08	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs8040868	rs8040868-C	CHRNA3	1.07	odds_ratio_inferred	1.07	max(OR, 1/OR)	[1.05-1.1]	3e-08	Kim W	2020-10-27	GCST90016594	33106845
+core_copd	rs2579762	rs2579762-C	LRMDA	1.06	odds_ratio_inferred	1.06	max(OR, 1/OR)	[1.04-1.09]	3e-10	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs4093840	rs4093840-A	ADCY5	1.06	odds_ratio_inferred	1.06	max(OR, 1/OR)	[1.04-1.08]	4e-10	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs153916	rs153916-T	SPATA9 - RHOBTB3	1.06	odds_ratio_inferred	1.06	max(OR, 1/OR)	[1.04-1.08]	6e-10	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs9435731	rs9435731-A	MFAP2	1.06	odds_ratio_inferred	1.06	max(OR, 1/OR)	[1.04-1.08]	7e-10	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs13198656	rs13198656-T	CASC15	1.06	odds_ratio_inferred	1.06	max(OR, 1/OR)	[1.04-1.08]	1e-09	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs7958945	rs7958945-G	TBX3-AS1 - UBA52P7	1.06	odds_ratio_inferred	1.06	max(OR, 1/OR)	[1.04-1.09]	1e-09	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs11655567	rs11655567-C	CASC17 - RNU7-155P	1.06	odds_ratio_inferred	1.06	max(OR, 1/OR)	[1.04-1.08]	2e-09	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs3009947	rs3009947-C	LINC02869	1.06	odds_ratio_inferred	1.06	max(OR, 1/OR)	[1.04-1.08]	4e-09	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs330937	rs330937-G	PPP1R3B-DT	1.06	odds_ratio_inferred	1.06	max(OR, 1/OR)	[NR]	4e-09	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs4757118	rs4757118-T	RASSF10 - BMAL1	1.06	odds_ratio_inferred	1.06	max(OR, 1/OR)	[1.04-1.08]	4e-09	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs11579382	rs11579382-C	CHRM3, CHRM3-AS2	1.06	odds_ratio_inferred	1.06	max(OR, 1/OR)	[1.04-1.08]	7e-09	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs2040732	rs2040732-C	ITGB8	1.06	odds_ratio_inferred	1.06	max(OR, 1/OR)	[1.04-1.08]	7e-09	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs62065216	rs62065216-A	THRA	1.06	odds_ratio_inferred	1.06	max(OR, 1/OR)	[1.04-1.08]	8e-09	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs674621	rs674621-C	RFX6 - RPS29P13	1.06	odds_ratio_inferred	1.06	max(OR, 1/OR)	[1.04-1.08]	8e-09	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs7181169	rs7181169-T	BTBD1	1.06	odds_ratio_inferred	1.06	max(OR, 1/OR)	[NR]	8e-09	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs10929386	rs10929386-C	LINC01804	1.06	odds_ratio_inferred	1.06	max(OR, 1/OR)	[1.04-1.08]	9e-09	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs1334576	rs1334576-A	RREB1	1.06	odds_ratio_inferred	1.06	max(OR, 1/OR)	[1.04-1.08]	1e-08	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs8080772	rs8080772-T	EFCAB5	1.06	odds_ratio_inferred	1.06	max(OR, 1/OR)	[1.04-1.08]	1e-08	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs979453	rs979453-G	CCDC69, GM2A	1.06	odds_ratio_inferred	1.06	max(OR, 1/OR)	[1.04-1.08]	1e-08	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs13073544	rs13073544-C	RBMS3	1.06	odds_ratio_inferred	1.06	max(OR, 1/OR)	[1.04-1.09]	2e-08	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs1570221	rs1570221-A	STN1	1.06	odds_ratio_inferred	1.06	max(OR, 1/OR)	[1.04-1.08]	2e-08	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs62375246	rs62375246-A	HSPA4	1.06	odds_ratio_inferred	1.06	max(OR, 1/OR)	[1.04-1.09]	2e-08	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs721917	rs721917-G	SFTPD	1.06	odds_ratio_inferred	1.06	max(OR, 1/OR)	[1.04-1.08]	2e-08	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs7866939	rs7866939-C	MTCO3P40 - RPS6P12	1.06	odds_ratio_inferred	1.06	max(OR, 1/OR)	[1.04-1.08]	2e-08	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs11049386	rs11049386-T	CCDC91	1.06	odds_ratio_inferred	1.06	max(OR, 1/OR)	[1.04-1.09]	3e-08	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs803923	rs803923-A	ASTN2	1.06	odds_ratio_inferred	1.06	max(OR, 1/OR)	[1.04-1.08]	3e-08	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs12926803	rs12926803-C	MMP15 - Y_RNA	1.06	odds_ratio_inferred	1.06	max(OR, 1/OR)	[NR]	4e-08	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs1902661	rs1902661-G	TSPAN14	1.06	odds_ratio_inferred	1.06	max(OR, 1/OR)	[NR]	4e-08	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs2096468	rs2096468-A	KCNE2, LINC00310, MRPS6	1.06	odds_ratio_inferred	1.06	max(OR, 1/OR)	[1.04-1.08]	4e-08	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs4660861	rs4660861-G	TESK2	1.06	odds_ratio_inferred	1.06	max(OR, 1/OR)	[1.04-1.08]	4e-08	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs11049488	rs11049488-G	CCDC91	1.06	odds_ratio_inferred	1.06	max(OR, 1/OR)	[1.04 -1.08]	5e-08	Moll M	2021-04-28	GCST011766	33909500
+core_copd	rs12466981	rs12466981-C	EML4	1.06	odds_ratio_inferred	1.06	max(OR, 1/OR)	[1.04-1.09]	5e-08	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs56134392	rs56134392-C	EMP2 - TEKT5	1.06	odds_ratio_inferred	1.06	max(OR, 1/OR)	[1.04-1.08]	5e-08	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs7650602	rs7650602-C	ZBTB38	1.06	odds_ratio_inferred	1.06	max(OR, 1/OR)	[1.04-1.08]	5e-08	Sakornsakolpat P	2019-02-25	GCST007692	30804561
+core_copd	rs1334576	rs1334576-A	RREB1	1.05	odds_ratio_inferred	1.05	max(OR, 1/OR)	[1.03 -1.07]	5e-08	Moll M	2021-04-28	GCST011766	33909500

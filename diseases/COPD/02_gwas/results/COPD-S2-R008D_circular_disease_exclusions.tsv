@@ -1,0 +1,33 @@
+excluded_disease_id	excluded_disease_name	exclusion_reason	n_target_association_rows_removed
+MONDO_0005002	chronic obstructive pulmonary disease	COPD index term	90
+MONDO_0000270	lower respiratory tract disorder	COPD ontology ancestor	16
+MONDO_0002567	tracheal disorder	COPD ontology ancestor	0
+MONDO_0004867	upper respiratory tract disorder	COPD ontology ancestor	3
+MONDO_0005087	respiratory system disorder	COPD ontology ancestor	31
+MONDO_0005275	lung disorder	COPD ontology ancestor	32
+OTAR_0000010	respiratory or thoracic disease	COPD ontology ancestor	0
+EFO_0920035	neutrophilic bronchiectasis	COPD ontology descendant	0
+EFO_0920036	eosinophilic bronchiectasis	COPD ontology descendant	0
+EFO_0920037	mixed granulocytic bronchiectasis	COPD ontology descendant	0
+EFO_0920038	paucigranulocytic bronchiectasis	COPD ontology descendant	0
+EFO_0920039	CFTR dysfunction bronchiectasis	COPD ontology descendant	0
+EFO_0920040	ciliary dysfunction bronchiectasis	COPD ontology descendant	0
+EFO_0920041	heritable connective tissue disorder-associated bronchiectasis	COPD ontology descendant	0
+EFO_0920042	immune deficient-predominant bronchiectasis	COPD ontology descendant	0
+MONDO_0000923	interstitial emphysema	COPD ontology descendant	2
+MONDO_0000924	compensatory emphysema	COPD ontology descendant	0
+MONDO_0004822	bronchiectasis	COPD ontology descendant	5
+MONDO_0004849	pulmonary emphysema	COPD ontology descendant	27
+MONDO_0005607	chronic bronchitis	COPD ontology descendant	12
+MONDO_0007536	congenital lobar emphysema	COPD ontology descendant	4
+MONDO_0008887	bronchiectasis with or without elevated sweat chloride 1	COPD ontology descendant	1
+MONDO_0013087	bronchiectasis with or without elevated sweat chloride 2	COPD ontology descendant	3
+MONDO_0013112	bronchiectasis with or without elevated sweat chloride 3	COPD ontology descendant	1
+MONDO_0018956	idiopathic bronchiectasis	COPD ontology descendant	6
+EFO_0005850	emphysema pattern measurement	COPD-related lexical safeguard outside ontology closure	5
+EFO_0007626	emphysema imaging measurement	COPD-related lexical safeguard outside ontology closure	3
+EFO_0009759	Chronic Obstructive Asthma	COPD-related lexical safeguard outside ontology closure	23
+MONDO_0017591	combined pulmonary fibrosis-emphysema syndrome	COPD-related lexical safeguard outside ontology closure	3
+MONDO_0975835	bronchiectasis and nasal polyposis	COPD-related lexical safeguard outside ontology closure	1
+MONDO_0979261	RAC2-related combined immunodeficiency-bronchiectasis-cancer-predisposing syndrome	COPD-related lexical safeguard outside ontology closure	0
+OBA_2055786	age of onset of chronic obstructive pulmonary disease	COPD-related lexical safeguard outside ontology closure	3

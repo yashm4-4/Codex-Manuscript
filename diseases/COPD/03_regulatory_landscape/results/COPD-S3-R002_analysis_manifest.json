@@ -1,0 +1,280 @@
+{
+  "run_timestamp_utc": "2026-10-01T12:23:33.034415+00:00",
+  "exact_replay_command": "/usr/local/bin/python /vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/03_regulatory_landscape/scripts/03_gene_locus_regulatory_burden.py",
+  "working_directory": "/tmp",
+  "script": "diseases/COPD/03_regulatory_landscape/scripts/03_gene_locus_regulatory_burden.py",
+  "script_sha256": "1178fe7ebd36315d9bfadd6f19e7bb4fb957724acfe4a0af63aa841df2905935",
+  "python_version": "3.9.15",
+  "pandas_version": "2.0.3",
+  "genome_build": "GRCh38",
+  "coordinate_system": "0-based half-open BED",
+  "donor": "ENCDO520EJG",
+  "donor_context": "lungs with severe emphysema",
+  "donor_metadata": [
+    {
+      "donor_accessions": "ENCDO520EJG",
+      "donor_health_status": "DM: no; HTN: yes; CAD: no; lungs with severe emphysema",
+      "donor_age": "60",
+      "donor_age_units": "year",
+      "donor_sex": "male",
+      "donor_ethnicity": "European",
+      "donor_race": ""
+    }
+  ],
+  "lung_lobes": [
+    "upper_right",
+    "lower_right",
+    "lower_left"
+  ],
+  "locus_definition": "GENCODE v50 gene body plus/minus 100000 bp",
+  "selected_genes_input": 155,
+  "selected_genes_analyzed": 152,
+  "selected_genes_excluded": 3,
+  "replicated_genes_analyzed": 140,
+  "preliminary_enhancer_definition": "H3K27ac narrowPeak",
+  "preliminary_silencer_definition": "H3K27me3 narrowPeak",
+  "refined_enhancer_definition": "ATAC narrowPeak with >=1 bp overlap of same-lobe H3K27ac narrowPeak",
+  "refined_silencer_definition": "ATAC narrowPeak with >=1 bp overlap of same-lobe H3K27me3 narrowPeak",
+  "donor_union_definition": "merge overlapping or book-ended intervals across all three lobes",
+  "blacklist_filter": "not applied to descriptive ENCODE peak counts",
+  "locus_table": "diseases/COPD/02_gwas/results/COPD-S2-R005_locus_table_gencode_v50.tsv",
+  "locus_table_sha256": "2d04926a25853118b1e39cd63b72f07f22d8894bac3cb5df8319701d68c9afcc",
+  "replicated_table": "diseases/COPD/02_gwas/results/COPD-S2-R003A_genes_multistudy.tsv",
+  "replicated_table_sha256": "06432ee8c9e619806045b28a5e11b8a5844199a3f18a0e6f73ec87ea002ec597",
+  "peak_manifest": "diseases/COPD/03_regulatory_landscape/data/encode_peaks/manifest.tsv",
+  "peak_manifest_sha256": "c8220526548be91276bb69e8cb0c04e4cab4d7dcae4f361843e5c84690ee1ba4",
+  "peak_files": [
+    {
+      "file_accession": "ENCFF906HOT",
+      "resolved_project_path": "diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF906HOT.bed.gz",
+      "sha256": "d218b0cc0ab907957db4454683b5cf3546024a74efdf9b1b4965cfe724bd43d7",
+      "canonical_interval_count": 246314
+    },
+    {
+      "file_accession": "ENCFF149QUM",
+      "resolved_project_path": "diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF149QUM.bed.gz",
+      "sha256": "d9efa7986d753dcb2a69e83ddb3fab032cf362ddf1d57906f119f524e9962629",
+      "canonical_interval_count": 60451
+    },
+    {
+      "file_accession": "ENCFF685CNW",
+      "resolved_project_path": "diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF685CNW.bed.gz",
+      "sha256": "cdf105747c83e3eec672f5c52a070ea13e99f0e971a19f3a81a341d5881cde31",
+      "canonical_interval_count": 33416
+    },
+    {
+      "file_accession": "ENCFF189LZA",
+      "resolved_project_path": "diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF189LZA.bed.gz",
+      "sha256": "896207d32911a0d39ce278fcfa9c3dc7e93cd98381962b08200f129215c17e13",
+      "canonical_interval_count": 220641
+    },
+    {
+      "file_accession": "ENCFF299FWI",
+      "resolved_project_path": "diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF299FWI.bed.gz",
+      "sha256": "938b78811c20e934c43b3291e7a87352dfefc3263949fd735dbcaebe954d0d82",
+      "canonical_interval_count": 61640
+    },
+    {
+      "file_accession": "ENCFF591PDC",
+      "resolved_project_path": "diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF591PDC.bed.gz",
+      "sha256": "4ece742e3c3212a7dc1f2df68da8ce967b819d7eaba322f8202ab4cdc4fa1c58",
+      "canonical_interval_count": 40742
+    },
+    {
+      "file_accession": "ENCFF899TQV",
+      "resolved_project_path": "diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF899TQV.bed.gz",
+      "sha256": "e15138199a6ccc62a6160b0aa24292b6d1af47b87721977bbcf03ca6dd135cad",
+      "canonical_interval_count": 278090
+    },
+    {
+      "file_accession": "ENCFF014OZD",
+      "resolved_project_path": "diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF014OZD.bed.gz",
+      "sha256": "21319d99090c9858c8674b46439987cda59c647d649b9cf231b54905ef706cc6",
+      "canonical_interval_count": 67566
+    },
+    {
+      "file_accession": "ENCFF725NIC",
+      "resolved_project_path": "diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF725NIC.bed.gz",
+      "sha256": "fd5b2b07ce1eec326c0a6c6b9448e8266fa2de7c7988d2b628e82fbf1cf68440",
+      "canonical_interval_count": 68141
+    }
+  ],
+  "derived_element_sets": [
+    {
+      "context": "upper_right",
+      "definition": "preliminary_histone_peak",
+      "element_type": "enhancer",
+      "n_intervals": 60451,
+      "source_accessions": "ENCFF149QUM",
+      "genome_build": "GRCh38",
+      "coordinate_system": "0-based half-open BED",
+      "output_path": "diseases/COPD/03_regulatory_landscape/data/copd_donor_regulatory_elements/upper_right.enhancer.preliminary_histone_peak.grch38.bed.gz",
+      "sha256": "f6d7274f30d3ec05720804bd5682a1619f439e432d0163cef4fd577869827b2b"
+    },
+    {
+      "context": "upper_right",
+      "definition": "preliminary_histone_peak",
+      "element_type": "silencer",
+      "n_intervals": 33416,
+      "source_accessions": "ENCFF685CNW",
+      "genome_build": "GRCh38",
+      "coordinate_system": "0-based half-open BED",
+      "output_path": "diseases/COPD/03_regulatory_landscape/data/copd_donor_regulatory_elements/upper_right.silencer.preliminary_histone_peak.grch38.bed.gz",
+      "sha256": "51d807868a5184a7f7edd9c9a090e5a254f81ddecf3c09da0176a2e3885fc4ad"
+    },
+    {
+      "context": "upper_right",
+      "definition": "refined_accessibility_histone_overlap",
+      "element_type": "enhancer",
+      "n_intervals": 91110,
+      "source_accessions": "ENCFF906HOT;ENCFF149QUM",
+      "genome_build": "GRCh38",
+      "coordinate_system": "0-based half-open BED",
+      "output_path": "diseases/COPD/03_regulatory_landscape/data/copd_donor_regulatory_elements/upper_right.enhancer.refined_accessibility_histone_overlap.grch38.bed.gz",
+      "sha256": "abd7b01f1891cbb7fbace37689f411280982f66f7022266b48b13567f5d00070"
+    },
+    {
+      "context": "upper_right",
+      "definition": "refined_accessibility_histone_overlap",
+      "element_type": "silencer",
+      "n_intervals": 13981,
+      "source_accessions": "ENCFF906HOT;ENCFF685CNW",
+      "genome_build": "GRCh38",
+      "coordinate_system": "0-based half-open BED",
+      "output_path": "diseases/COPD/03_regulatory_landscape/data/copd_donor_regulatory_elements/upper_right.silencer.refined_accessibility_histone_overlap.grch38.bed.gz",
+      "sha256": "be2a8344bc5994cda5e6a451ea26754722ce1b38f52216209c4bc7184f3f38fd"
+    },
+    {
+      "context": "lower_right",
+      "definition": "preliminary_histone_peak",
+      "element_type": "enhancer",
+      "n_intervals": 61640,
+      "source_accessions": "ENCFF299FWI",
+      "genome_build": "GRCh38",
+      "coordinate_system": "0-based half-open BED",
+      "output_path": "diseases/COPD/03_regulatory_landscape/data/copd_donor_regulatory_elements/lower_right.enhancer.preliminary_histone_peak.grch38.bed.gz",
+      "sha256": "ec1b4dd611b2efd71b28b695e72c4b7550a5e07d01bd711c07cb4dd5b57b732a"
+    },
+    {
+      "context": "lower_right",
+      "definition": "preliminary_histone_peak",
+      "element_type": "silencer",
+      "n_intervals": 40742,
+      "source_accessions": "ENCFF591PDC",
+      "genome_build": "GRCh38",
+      "coordinate_system": "0-based half-open BED",
+      "output_path": "diseases/COPD/03_regulatory_landscape/data/copd_donor_regulatory_elements/lower_right.silencer.preliminary_histone_peak.grch38.bed.gz",
+      "sha256": "19b374a6f50ca1188161abcf14973f039fbbc2381be9ada512c7e1e6508c7749"
+    },
+    {
+      "context": "lower_right",
+      "definition": "refined_accessibility_histone_overlap",
+      "element_type": "enhancer",
+      "n_intervals": 99601,
+      "source_accessions": "ENCFF189LZA;ENCFF299FWI",
+      "genome_build": "GRCh38",
+      "coordinate_system": "0-based half-open BED",
+      "output_path": "diseases/COPD/03_regulatory_landscape/data/copd_donor_regulatory_elements/lower_right.enhancer.refined_accessibility_histone_overlap.grch38.bed.gz",
+      "sha256": "ef823d056a7308a5a425312d31039dd246d649b366152aa645f609469734a0c6"
+    },
+    {
+      "context": "lower_right",
+      "definition": "refined_accessibility_histone_overlap",
+      "element_type": "silencer",
+      "n_intervals": 19142,
+      "source_accessions": "ENCFF189LZA;ENCFF591PDC",
+      "genome_build": "GRCh38",
+      "coordinate_system": "0-based half-open BED",
+      "output_path": "diseases/COPD/03_regulatory_landscape/data/copd_donor_regulatory_elements/lower_right.silencer.refined_accessibility_histone_overlap.grch38.bed.gz",
+      "sha256": "4e62004f302fc06d19c5de2022ab3b23eabafca35ba12a5fb9e9dbb8b98cbbb4"
+    },
+    {
+      "context": "lower_left",
+      "definition": "preliminary_histone_peak",
+      "element_type": "enhancer",
+      "n_intervals": 67566,
+      "source_accessions": "ENCFF014OZD",
+      "genome_build": "GRCh38",
+      "coordinate_system": "0-based half-open BED",
+      "output_path": "diseases/COPD/03_regulatory_landscape/data/copd_donor_regulatory_elements/lower_left.enhancer.preliminary_histone_peak.grch38.bed.gz",
+      "sha256": "eae0412e475c0efe7b3099728a1ea1fe55eef286839b35d298eb10654c26a1e7"
+    },
+    {
+      "context": "lower_left",
+      "definition": "preliminary_histone_peak",
+      "element_type": "silencer",
+      "n_intervals": 68141,
+      "source_accessions": "ENCFF725NIC",
+      "genome_build": "GRCh38",
+      "coordinate_system": "0-based half-open BED",
+      "output_path": "diseases/COPD/03_regulatory_landscape/data/copd_donor_regulatory_elements/lower_left.silencer.preliminary_histone_peak.grch38.bed.gz",
+      "sha256": "bb059b15890ade28116395f08c0c01ab8aeea82147aeee0fda955f317be5df08"
+    },
+    {
+      "context": "lower_left",
+      "definition": "refined_accessibility_histone_overlap",
+      "element_type": "enhancer",
+      "n_intervals": 113178,
+      "source_accessions": "ENCFF899TQV;ENCFF014OZD",
+      "genome_build": "GRCh38",
+      "coordinate_system": "0-based half-open BED",
+      "output_path": "diseases/COPD/03_regulatory_landscape/data/copd_donor_regulatory_elements/lower_left.enhancer.refined_accessibility_histone_overlap.grch38.bed.gz",
+      "sha256": "096afd9a47702e135e42cf88c0d22d723323b7d9426e6f82677dec606da0161e"
+    },
+    {
+      "context": "lower_left",
+      "definition": "refined_accessibility_histone_overlap",
+      "element_type": "silencer",
+      "n_intervals": 22432,
+      "source_accessions": "ENCFF899TQV;ENCFF725NIC",
+      "genome_build": "GRCh38",
+      "coordinate_system": "0-based half-open BED",
+      "output_path": "diseases/COPD/03_regulatory_landscape/data/copd_donor_regulatory_elements/lower_left.silencer.refined_accessibility_histone_overlap.grch38.bed.gz",
+      "sha256": "03b00e4048c564d1021acf249fcba6a2c4fb8054054f9e24edb9a65d1520141e"
+    },
+    {
+      "context": "donor_union",
+      "definition": "preliminary_histone_peak",
+      "element_type": "enhancer",
+      "n_intervals": 77164,
+      "source_accessions": "ENCFF014OZD;ENCFF149QUM;ENCFF299FWI",
+      "genome_build": "GRCh38",
+      "coordinate_system": "0-based half-open BED",
+      "output_path": "diseases/COPD/03_regulatory_landscape/data/copd_donor_regulatory_elements/donor_union.enhancer.preliminary_histone_peak.grch38.bed.gz",
+      "sha256": "7a7de3ab3a5c49b8240bd6a5d9efbf217586ff9394fc2564e0c8147be1916a22"
+    },
+    {
+      "context": "donor_union",
+      "definition": "preliminary_histone_peak",
+      "element_type": "silencer",
+      "n_intervals": 78899,
+      "source_accessions": "ENCFF591PDC;ENCFF685CNW;ENCFF725NIC",
+      "genome_build": "GRCh38",
+      "coordinate_system": "0-based half-open BED",
+      "output_path": "diseases/COPD/03_regulatory_landscape/data/copd_donor_regulatory_elements/donor_union.silencer.preliminary_histone_peak.grch38.bed.gz",
+      "sha256": "4bc98e77d3ccf061009ff1259a01329f8cee4a2635fdb774707c24c010ad54e4"
+    },
+    {
+      "context": "donor_union",
+      "definition": "refined_accessibility_histone_overlap",
+      "element_type": "enhancer",
+      "n_intervals": 71746,
+      "source_accessions": "ENCFF014OZD;ENCFF149QUM;ENCFF189LZA;ENCFF299FWI;ENCFF899TQV;ENCFF906HOT",
+      "genome_build": "GRCh38",
+      "coordinate_system": "0-based half-open BED",
+      "output_path": "diseases/COPD/03_regulatory_landscape/data/copd_donor_regulatory_elements/donor_union.enhancer.refined_accessibility_histone_overlap.grch38.bed.gz",
+      "sha256": "2dc38a082efa51646aa8190fcfbe48d82350c6464f174ff0e47dd4a7103b2b4d"
+    },
+    {
+      "context": "donor_union",
+      "definition": "refined_accessibility_histone_overlap",
+      "element_type": "silencer",
+      "n_intervals": 15699,
+      "source_accessions": "ENCFF189LZA;ENCFF591PDC;ENCFF685CNW;ENCFF725NIC;ENCFF899TQV;ENCFF906HOT",
+      "genome_build": "GRCh38",
+      "coordinate_system": "0-based half-open BED",
+      "output_path": "diseases/COPD/03_regulatory_landscape/data/copd_donor_regulatory_elements/donor_union.silencer.refined_accessibility_histone_overlap.grch38.bed.gz",
+      "sha256": "5344e45616370705a0384119daa03e1d6ba7a846cdd98dff6432ef4b6b567290"
+    }
+  ]
+}

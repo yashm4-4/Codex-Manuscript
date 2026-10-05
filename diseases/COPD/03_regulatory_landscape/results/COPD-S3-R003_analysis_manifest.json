@@ -1,0 +1,242 @@
+{
+  "run_timestamp_utc": "2026-10-01T12:53:50.439436+00:00",
+  "exact_replay_command": "/usr/local/bin/python /vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/03_regulatory_landscape/scripts/05_classify_candidate_variants.py",
+  "working_directory": "/tmp",
+  "script": "diseases/COPD/03_regulatory_landscape/scripts/05_classify_candidate_variants.py",
+  "script_sha256": "51e75f66029fa2c3bb9be354cc72f2f91c2cbe74ea1fc4d36924d04fd68cec57",
+  "python_version": "3.9.15",
+  "pandas_version": "2.0.3",
+  "bedtools": "/usr/local/apps/bedtools/2.31.1/bin/bedtools",
+  "bedtools_version": "bedtools v2.31.1",
+  "genome_build": "GRCh38",
+  "overlap_rule": "at least 1 bp",
+  "candidate_input": "diseases/COPD/02_gwas/results/COPD-S2-R006E_candidate_variants_grch38.tsv.gz",
+  "candidate_input_sha256": "b50fdffa3cad1b39f57121d9368414c841070b0c3d4e079ed802867fdf62680e",
+  "candidate_input_rows": 15389,
+  "candidate_bed": "diseases/COPD/02_gwas/results/COPD-S2-R006E_candidate_variants_grch38.bed",
+  "candidate_bed_sha256": "d135ce60483e6dda7df1813f9e2c262544f3623f8670eb7484f8acdcfab8c41b",
+  "candidate_bed_rows": 15386,
+  "bed_ineligible_record_ids": [
+    "unmatched_tag:15q25.1",
+    "unmatched_tag:rs139284640",
+    "unmatched_tag:rs751872749"
+  ],
+  "gencode_gtf": "data/gencode/gencode.v50.annotation.gtf.gz",
+  "gencode_gtf_sha256": "83fba3e9b03f0b8c958f3595c6c350adc55f468abf8b0e47b6d5284cfe13a453",
+  "gencode_release": "v50",
+  "gencode_cds_unique_intervals": 387360,
+  "feature_definitions": [
+    {
+      "feature": "coding_CDS",
+      "source_name": "GENCODE v50 comprehensive gene annotation",
+      "source_id": "COPD-SRC-043",
+      "definition": "At least 1 bp overlap of a GENCODE v50 CDS interval",
+      "genome_build": "GRCh38",
+      "overlap_minimum_bp": 1,
+      "feature_bed_path": "diseases/COPD/03_regulatory_landscape/data/candidate_classification/gencode_v50_cds.grch38.canonical.bed.gz",
+      "feature_bed_sha256": "4b7ba5ecfc2f3818bb0b6fff9a5073bc4d43e5f0de45a32272420cc7be75adf3",
+      "n_feature_intervals": 387360,
+      "raw_intersection_path": "diseases/COPD/03_regulatory_landscape/data/candidate_intersections/COPD-S3-R003_coding_CDS_intersections.tsv.gz",
+      "raw_intersection_sha256": "3e1277e966c321699b0f2f291ab3007b8016f59e2cb9241713f4760d96b2dc90",
+      "n_raw_intersection_rows": 367,
+      "n_candidate_records_overlapping": 257
+    },
+    {
+      "feature": "donor_preliminary_enhancer",
+      "source_name": "ENCODE severe-emphysema donor ENCDO520EJG",
+      "source_id": "COPD-SRC-018",
+      "definition": "At least 1 bp overlap of the three-lobe union of H3K27ac peaks",
+      "genome_build": "GRCh38",
+      "overlap_minimum_bp": 1,
+      "feature_bed_path": "diseases/COPD/03_regulatory_landscape/data/copd_donor_regulatory_elements/donor_union.enhancer.preliminary_histone_peak.grch38.bed.gz",
+      "feature_bed_sha256": "7a7de3ab3a5c49b8240bd6a5d9efbf217586ff9394fc2564e0c8147be1916a22",
+      "n_feature_intervals": 77164,
+      "raw_intersection_path": "diseases/COPD/03_regulatory_landscape/data/candidate_intersections/COPD-S3-R003_donor_preliminary_enhancer_intersections.tsv.gz",
+      "raw_intersection_sha256": "5d107523f4b50a206e63a26aa1ef06cf6ab2a089ae4ec52739c8b1657197c869",
+      "n_raw_intersection_rows": 1377,
+      "n_candidate_records_overlapping": 1377
+    },
+    {
+      "feature": "donor_preliminary_silencer",
+      "source_name": "ENCODE severe-emphysema donor ENCDO520EJG",
+      "source_id": "COPD-SRC-018",
+      "definition": "At least 1 bp overlap of the three-lobe union of H3K27me3 peaks",
+      "genome_build": "GRCh38",
+      "overlap_minimum_bp": 1,
+      "feature_bed_path": "diseases/COPD/03_regulatory_landscape/data/copd_donor_regulatory_elements/donor_union.silencer.preliminary_histone_peak.grch38.bed.gz",
+      "feature_bed_sha256": "4bc98e77d3ccf061009ff1259a01329f8cee4a2635fdb774707c24c010ad54e4",
+      "n_feature_intervals": 78899,
+      "raw_intersection_path": "diseases/COPD/03_regulatory_landscape/data/candidate_intersections/COPD-S3-R003_donor_preliminary_silencer_intersections.tsv.gz",
+      "raw_intersection_sha256": "550ae8675135c56094a9de0c6ebc18a8b1b8d1e45317648767cacdd3d7e7eea9",
+      "n_raw_intersection_rows": 612,
+      "n_candidate_records_overlapping": 612
+    },
+    {
+      "feature": "donor_refined_enhancer",
+      "source_name": "ENCODE severe-emphysema donor ENCDO520EJG",
+      "source_id": "COPD-SRC-018",
+      "definition": "At least 1 bp overlap of the three-lobe union of same-lobe ATAC plus H3K27ac elements",
+      "genome_build": "GRCh38",
+      "overlap_minimum_bp": 1,
+      "feature_bed_path": "diseases/COPD/03_regulatory_landscape/data/copd_donor_regulatory_elements/donor_union.enhancer.refined_accessibility_histone_overlap.grch38.bed.gz",
+      "feature_bed_sha256": "2dc38a082efa51646aa8190fcfbe48d82350c6464f174ff0e47dd4a7103b2b4d",
+      "n_feature_intervals": 71746,
+      "raw_intersection_path": "diseases/COPD/03_regulatory_landscape/data/candidate_intersections/COPD-S3-R003_donor_refined_enhancer_intersections.tsv.gz",
+      "raw_intersection_sha256": "712d62fa1c043dbdd3357e7fbca066890a3316fe9b1207c809d6d3fd90fd93d6",
+      "n_raw_intersection_rows": 588,
+      "n_candidate_records_overlapping": 588
+    },
+    {
+      "feature": "donor_refined_silencer",
+      "source_name": "ENCODE severe-emphysema donor ENCDO520EJG",
+      "source_id": "COPD-SRC-018",
+      "definition": "At least 1 bp overlap of the three-lobe union of same-lobe ATAC plus H3K27me3 elements",
+      "genome_build": "GRCh38",
+      "overlap_minimum_bp": 1,
+      "feature_bed_path": "diseases/COPD/03_regulatory_landscape/data/copd_donor_regulatory_elements/donor_union.silencer.refined_accessibility_histone_overlap.grch38.bed.gz",
+      "feature_bed_sha256": "5344e45616370705a0384119daa03e1d6ba7a846cdd98dff6432ef4b6b567290",
+      "n_feature_intervals": 15699,
+      "raw_intersection_path": "diseases/COPD/03_regulatory_landscape/data/candidate_intersections/COPD-S3-R003_donor_refined_silencer_intersections.tsv.gz",
+      "raw_intersection_sha256": "d031620feb9b134b618e5e9b952240d6621994a8195044de17cce5cdcd215efc",
+      "n_raw_intersection_rows": 86,
+      "n_candidate_records_overlapping": 86
+    },
+    {
+      "feature": "screen_ccre",
+      "source_name": "ENCODE SCREEN cCRE Registry V3",
+      "source_id": "COPD-SRC-038",
+      "definition": "At least 1 bp overlap of a Registry V3 cCRE",
+      "genome_build": "GRCh38",
+      "overlap_minimum_bp": 1,
+      "feature_bed_path": "diseases/COPD/03_regulatory_landscape/data/regulatory_references/screen_ccre_v3.grch38.canonical.bed.gz",
+      "feature_bed_sha256": "e22022da8396844f12d96a0032e8a4b83c4e47697294ccd58b19cafb6220456c",
+      "n_feature_intervals": 1063878,
+      "raw_intersection_path": "diseases/COPD/03_regulatory_landscape/data/candidate_intersections/COPD-S3-R003_screen_ccre_intersections.tsv.gz",
+      "raw_intersection_sha256": "80789b202675a1e8fcb8c20474df4e3045eeef81eb10eacb8d4ed9e617f89d0f",
+      "n_raw_intersection_rows": 2247,
+      "n_candidate_records_overlapping": 2247
+    },
+    {
+      "feature": "ensembl_regulatory",
+      "source_name": "Ensembl Regulatory Build 116",
+      "source_id": "COPD-SRC-039",
+      "definition": "At least 1 bp overlap of an Ensembl 116 regulatory feature",
+      "genome_build": "GRCh38",
+      "overlap_minimum_bp": 1,
+      "feature_bed_path": "diseases/COPD/03_regulatory_landscape/data/regulatory_references/ensembl_regulatory_v116.grch38.canonical.bed.gz",
+      "feature_bed_sha256": "9608eecf05554c13d3dc9d46d68758a42574e9eb418f5adce25732e7e3c73c03",
+      "n_feature_intervals": 380818,
+      "raw_intersection_path": "diseases/COPD/03_regulatory_landscape/data/candidate_intersections/COPD-S3-R003_ensembl_regulatory_intersections.tsv.gz",
+      "raw_intersection_sha256": "339cc5f29a5213554c62102d466673132f6293d676ae040770b025f621931abf",
+      "n_raw_intersection_rows": 1282,
+      "n_candidate_records_overlapping": 1276
+    },
+    {
+      "feature": "fantom5_enhancer",
+      "source_name": "FANTOM5 CAGE enhancer atlas",
+      "source_id": "COPD-SRC-040",
+      "definition": "At least 1 bp overlap of a FANTOM5 hg38 CAGE enhancer",
+      "genome_build": "GRCh38",
+      "overlap_minimum_bp": 1,
+      "feature_bed_path": "diseases/COPD/03_regulatory_landscape/data/regulatory_references/fantom5_cage_enhancers.grch38.canonical.bed.gz",
+      "feature_bed_sha256": "44166c594380b8f01ae1c70620bae95d5a43a44a05250fe09802b7db82bb4681",
+      "n_feature_intervals": 63285,
+      "raw_intersection_path": "diseases/COPD/03_regulatory_landscape/data/candidate_intersections/COPD-S3-R003_fantom5_enhancer_intersections.tsv.gz",
+      "raw_intersection_sha256": "8ee20096aa34b0e8018f5f95e65c326576df39e19f6a490e44b36a6bb4b4b0f6",
+      "n_raw_intersection_rows": 162,
+      "n_candidate_records_overlapping": 162
+    },
+    {
+      "feature": "repeatmasker",
+      "source_name": "UCSC RepeatMasker hg38 table",
+      "source_id": "COPD-SRC-041",
+      "definition": "At least 1 bp overlap of a UCSC hg38 RepeatMasker interval",
+      "genome_build": "GRCh38",
+      "overlap_minimum_bp": 1,
+      "feature_bed_path": "diseases/COPD/03_regulatory_landscape/data/regulatory_references/ucsc_repeatmasker.grch38.canonical.bed.gz",
+      "feature_bed_sha256": "f326315132663f43d8cdfe5e6f213c43d1358ecfd0e857bd31ef117478afdc9c",
+      "n_feature_intervals": 5317286,
+      "raw_intersection_path": "diseases/COPD/03_regulatory_landscape/data/candidate_intersections/COPD-S3-R003_repeatmasker_intersections.tsv.gz",
+      "raw_intersection_sha256": "781325032f3c6daf46dda64564c54de07b7083d279134c0f8ccdc77faa02a0da",
+      "n_raw_intersection_rows": 8163,
+      "n_candidate_records_overlapping": 8131
+    },
+    {
+      "feature": "encode_blacklist",
+      "source_name": "ENCODE hg38 blacklist v2",
+      "source_id": "COPD-SRC-042",
+      "definition": "At least 1 bp overlap of an ENCODE hg38 blacklist v2 interval",
+      "genome_build": "GRCh38",
+      "overlap_minimum_bp": 1,
+      "feature_bed_path": "diseases/COPD/03_regulatory_landscape/data/regulatory_references/encode_blacklist_v2.grch38.canonical.bed.gz",
+      "feature_bed_sha256": "dc26067f3d3cd45d9bcbd13acba8b35823662b67f7652d7873c6aba1e0ae2fea",
+      "n_feature_intervals": 636,
+      "raw_intersection_path": "diseases/COPD/03_regulatory_landscape/data/candidate_intersections/COPD-S3-R003_encode_blacklist_intersections.tsv.gz",
+      "raw_intersection_sha256": "0f9d80e262b7ec86ef9872941df61e11d80611a627fa99b9b1d940920c123a8c",
+      "n_raw_intersection_rows": 21,
+      "n_candidate_records_overlapping": 21
+    }
+  ],
+  "hierarchies": {
+    "framework_preliminary": [
+      "bed_ineligible",
+      "coding_CDS",
+      "preliminary_enhancer",
+      "preliminary_silencer",
+      "repetitive_only_in_hierarchy",
+      "other"
+    ],
+    "framework_refined": [
+      "bed_ineligible",
+      "coding_CDS",
+      "refined_enhancer",
+      "refined_silencer",
+      "repetitive_only_in_hierarchy",
+      "other"
+    ],
+    "comprehensive": [
+      "bed_ineligible",
+      "coding_CDS",
+      "refined_enhancer",
+      "refined_silencer",
+      "preliminary_enhancer",
+      "preliminary_silencer",
+      "other_known_regulatory",
+      "repetitive_only_in_hierarchy",
+      "other"
+    ]
+  },
+  "stratum_note": "Candidate summaries use reference-record units except the explicit 660-row gws_tag_identifiers stratum. LD-panel, tag-supported-panel, and tag-polymorphic-panel strata are multi-membership and must not be summed across panels",
+  "outputs": [
+    {
+      "path": "diseases/COPD/03_regulatory_landscape/results/COPD-S3-R003_candidate_classification.tsv.gz",
+      "rows": 15389,
+      "sha256": "d547181238bab094d5c974e784989875a803cdd977afecee8ea375971dcc1604"
+    },
+    {
+      "path": "diseases/COPD/03_regulatory_landscape/results/COPD-S3-R003_gws_tag_identifier_classification.tsv.gz",
+      "rows": 660,
+      "sha256": "dd3564cb9b1563a95249ba5ffcd85cbd69cab6f97742522c4c981a4e6cb6fe92"
+    },
+    {
+      "path": "diseases/COPD/03_regulatory_landscape/results/COPD-S3-R003_nonexclusive_summary.tsv",
+      "rows": 405,
+      "sha256": "ec86e8d2bf4717f979b79611bfe18dfe6233a04a523107b5cfc14c5116c6bf52"
+    },
+    {
+      "path": "diseases/COPD/03_regulatory_landscape/results/COPD-S3-R003_exclusive_summary.tsv",
+      "rows": 567,
+      "sha256": "eec9b75a899c61fb94ef45bcf171c84e0d08cd08a3ea937860d002d7e7e9d940"
+    },
+    {
+      "path": "diseases/COPD/03_regulatory_landscape/results/COPD-S3-R003_feature_definitions.tsv",
+      "rows": 10,
+      "sha256": "7c8c89241b0dc6b43780e5dcd35aa70e99a09bb47d520076b3f56729b57388b4"
+    },
+    {
+      "path": "diseases/COPD/03_regulatory_landscape/results/COPD-S3-R003_hierarchy_definitions.tsv",
+      "rows": 21,
+      "sha256": "5a5c19493f726a40323a285ca6b0055cce34e0612c342ada38a5f18fb970da34"
+    }
+  ]
+}

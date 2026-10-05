@@ -1,0 +1,104 @@
+{
+  "candidate_records_in_R004": 15389,
+  "created_utc": "2026-10-01T13:22:39.110579+00:00",
+  "creation_definition": "ALT site and no REF site at the threshold",
+  "disruption_definition": "REF site and no ALT site at the threshold",
+  "distinct_jaspar_motifs": 18,
+  "inputs": {
+    "JASPAR2024_MEME": {
+      "bytes": 469100,
+      "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/DeepExplainer_TREDNet/backup/JASPAR2024_CORE_vertebrates_non-redundant_pfms_meme.meme",
+      "sha256": "dd494278d356a4e170908c74d6d8eb746a2c7504d6210cd51017141f21a65b18"
+    },
+    "R004_prioritized_candidates": {
+      "bytes": 2699976,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R004_prioritized_candidates.tsv.gz",
+      "sha256": "9c803d56489f711b3cd00dfbc0f5532e239478985aa3a29314929c6440299b8b"
+    },
+    "R007_motif_matches": {
+      "bytes": 4855,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R007_jaspar_motif_matches.tsv",
+      "sha256": "47defe9e897506a8fe8c0097fe65ec9b2bb788d47bcb5a0e7e5d2434de60353d"
+    },
+    "R007_patterns": {
+      "bytes": 2481,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R007_tfmodisco_patterns.tsv",
+      "sha256": "315339bfea763cac5eaa07ee56be7005d07c8b1dd87d459f2da2f2a44172747d"
+    },
+    "alternate_allele_fasta": {
+      "bytes": 30895506,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/data/COPD_candidate_variants_alt_2001bp.fa",
+      "sha256": "f52e809e1d6d4da50917d2ff2c3c9e4063543cf42aee52606bd2785238ec5568"
+    },
+    "reference_allele_fasta": {
+      "bytes": 30895506,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/data/COPD_candidate_variants_ref_2001bp.fa",
+      "sha256": "d45009e7d90f3c72a48ed33be14180e06af3735c15ae72c1f4093d3eeaeb46ab"
+    }
+  },
+  "interpretation_limit": "motif-compatible sequence predictions do not prove TF binding or causality",
+  "models_analyzed": [
+    "enhancer",
+    "silencer"
+  ],
+  "motif_match_q_value_threshold": 0.05,
+  "outputs": {
+    "TF_rankings": {
+      "bytes": 8135,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R008_tf_rankings.tsv",
+      "sha256": "450d76ef389cd0a7d6dc41e59d8d5913a0496e2cca21d57bb1308d843c5b7f50"
+    },
+    "allele_specific_motif_scores": {
+      "bytes": 9228592,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R008_allele_specific_motif_scores.tsv.gz",
+      "sha256": "d40ff78cd06ec65ab1f4d31beb285c347b238667901868b3089caf5dfe3f9ec9"
+    },
+    "candidate_tfbs_summary": {
+      "bytes": 460979,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R008_candidate_tfbs_summary.tsv.gz",
+      "sha256": "a2d168ab95ee0701060ed089ff29c5e9b2ef526c318ef77d87ad76adc77b4b6e"
+    },
+    "methods": {
+      "bytes": 1973,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R008_methods.md",
+      "sha256": "d454a9724e952bab9200016cee07627e6dbf872e2e79c4596c7ff82e5d73338d"
+    },
+    "motif_rankings": {
+      "bytes": 10095,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R008_motif_rankings.tsv",
+      "sha256": "8530075b304af5e7a4352b973308ed9c087b59ac2a5458c2bf51a888c7d7b3d3"
+    },
+    "variant_fractions": {
+      "bytes": 2113,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R008_variant_fractions.tsv",
+      "sha256": "e5e3f08dc29175b155a21a9f37b711490d8ac12269d5a2a80809c732f9a7437b"
+    }
+  },
+  "pwm_background": {
+    "A": 0.25,
+    "C": 0.25,
+    "G": 0.25,
+    "T": 0.25
+  },
+  "pwm_pseudocount": 1e-06,
+  "relative_pwm_score_threshold": 0.8,
+  "reported_denominators": [
+    "all_scorable_candidates",
+    "model_predicted_fpr5",
+    "model_predicted_causal"
+  ],
+  "result_id": "COPD-S4-R008",
+  "script": {
+    "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/scripts/08_tfbs_variant_effects.py",
+    "sha256": "c760df9f1286e864bfe7c983f1b4201b767ba1c63cf304dfc50a574317e588c6"
+  },
+  "sequence_scorable_candidate_records": 15303,
+  "significant_model_motif_pairs": 18,
+  "site_definition": "relative PWM score >= 0.8",
+  "software": {
+    "numpy": "1.24.4",
+    "pandas": "2.0.3",
+    "python": "3.9.15"
+  },
+  "window_policy": "score both strands of every motif window intersecting the complete allele span; select the maximum relative PWM score separately for REF and ALT"
+}

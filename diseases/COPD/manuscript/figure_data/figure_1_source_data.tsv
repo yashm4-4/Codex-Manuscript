@@ -1,0 +1,25 @@
+panel	metric	n	denominator	percent	source_file
+A	Genome-wide significant tag identifiers	660			diseases/COPD/02_gwas/results/COPD-S2-R006F_summary.tsv
+A	Reference-matched tag identifiers	575			diseases/COPD/02_gwas/results/COPD-S2-R006F_summary.tsv
+A	GWS tag records retained	652			diseases/COPD/03_regulatory_landscape/results/COPD-S3-R003_nonexclusive_summary.tsv
+A	Unique LD proxy records	14913			diseases/COPD/02_gwas/results/COPD-S2-R006F_summary.tsv
+A	Records with both roles	176			diseases/COPD/03_regulatory_landscape/results/COPD-S3-R003_nonexclusive_summary.tsv
+A	Frozen record union	15389			diseases/COPD/02_gwas/results/COPD-S2-R006F_summary.tsv
+B	Coding	46	660	6.969696969696971	diseases/COPD/02_gwas/results/COPD-S2-R004_coding_noncoding_summary.tsv
+B	Splice	3	660	0.45454545454545453	diseases/COPD/02_gwas/results/COPD-S2-R004_coding_noncoding_summary.tsv
+B	Noncoding	533	660	80.75757575757576	diseases/COPD/02_gwas/results/COPD-S2-R004_coding_noncoding_summary.tsv
+B	Unknown	78	660	11.818181818181818	diseases/COPD/02_gwas/results/COPD-S2-R004_coding_noncoding_summary.tsv
+C	Coding CDS	257	15389	1.670024	diseases/COPD/03_regulatory_landscape/results/COPD-S3-R003_nonexclusive_summary.tsv
+C	Refined donor regulatory	639	15389	4.152317	diseases/COPD/03_regulatory_landscape/results/COPD-S3-R003_nonexclusive_summary.tsv
+C	Reference regulatory	2638	15389	17.142114	diseases/COPD/03_regulatory_landscape/results/COPD-S3-R003_nonexclusive_summary.tsv
+C	RepeatMasker	8131	15389	52.836442	diseases/COPD/03_regulatory_landscape/results/COPD-S3-R003_nonexclusive_summary.tsv
+C	No tested annotation	4737	15389	30.781727	diseases/COPD/03_regulatory_landscape/results/COPD-S3-R003_nonexclusive_summary.tsv
+D	bed_ineligible	3	15389	0.019494	diseases/COPD/03_regulatory_landscape/results/COPD-S3-R003_exclusive_summary.tsv
+D	coding_CDS	257	15389	1.670024	diseases/COPD/03_regulatory_landscape/results/COPD-S3-R003_exclusive_summary.tsv
+D	refined_enhancer	561	15389	3.645461	diseases/COPD/03_regulatory_landscape/results/COPD-S3-R003_exclusive_summary.tsv
+D	refined_silencer	46	15389	0.298915	diseases/COPD/03_regulatory_landscape/results/COPD-S3-R003_exclusive_summary.tsv
+D	preliminary_enhancer	835	15389	5.425954	diseases/COPD/03_regulatory_landscape/results/COPD-S3-R003_exclusive_summary.tsv
+D	preliminary_silencer	518	15389	3.366041	diseases/COPD/03_regulatory_landscape/results/COPD-S3-R003_exclusive_summary.tsv
+D	other_known_regulatory	1515	15389	9.844694	diseases/COPD/03_regulatory_landscape/results/COPD-S3-R003_exclusive_summary.tsv
+D	repetitive_only_in_hierarchy	6917	15389	44.94769	diseases/COPD/03_regulatory_landscape/results/COPD-S3-R003_exclusive_summary.tsv
+D	other	4737	15389	30.781727	diseases/COPD/03_regulatory_landscape/results/COPD-S3-R003_exclusive_summary.tsv

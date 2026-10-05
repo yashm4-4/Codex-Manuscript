@@ -1,0 +1,84 @@
+{
+  "candidate_records": 15389,
+  "causal_call_definition": {
+    "allelic_threshold": "absolute ALT-minus-REF score at or above the 95th percentile within SNV or indel/complex COPD candidates",
+    "delta_percentile": 95.0,
+    "quality_filter": "successfully scored and no ENCODE blacklist v2 overlap",
+    "region_threshold": "maximum of REF and ALT scores at held-out 5% FPR"
+  },
+  "created_utc": "2026-10-01T13:18:19.944605+00:00",
+  "genome_build": "GRCh38",
+  "inputs": {
+    "allele_scores": {
+      "bytes": 614546,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R003_candidate_allele_scores.tsv.gz",
+      "sha256": "a75c9a02f43e085e326ad0c785c8b4d120e39ca446b5fdb2769048264acba88c"
+    },
+    "candidate_classification": {
+      "bytes": 481923,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/03_regulatory_landscape/results/COPD-S3-R003_candidate_classification.tsv.gz",
+      "sha256": "d547181238bab094d5c974e784989875a803cdd977afecee8ea375971dcc1604"
+    },
+    "gene_loci": {
+      "bytes": 21813,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/03_regulatory_landscape/results/COPD-S3-R002_gene_loci_grch38.tsv",
+      "sha256": "69d60e781350f43b5ca1d75be842a45ece7e01dfe28ec81a9871fbe3088de959"
+    },
+    "gwas_tags": {
+      "bytes": 119834,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/02_gwas/results/COPD-S2-R002_gws_unique_tag_variants.tsv",
+      "sha256": "040b2a69a339d3d0cfa282655ef2be0fa3bb95a5b4eb0fcfc68cb6cc8894c602"
+    },
+    "model_thresholds": {
+      "bytes": 659,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R001_test_threshold_performance.tsv",
+      "sha256": "1b3b044ecb3b3a6db73d66af3527884ff5b1bb932f55753beb9e0ea7b2e83b0b"
+    },
+    "sequence_audit": {
+      "bytes": 278715,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R002_candidate_sequence_audit.tsv.gz",
+      "sha256": "efc20c02d9cfe285823773777c7297d735a0ef1923f164fa6067a49ce00d3ad7"
+    }
+  },
+  "locus_assignment": "union of exact GWAS Catalog mapped-gene links from associated tags and physical overlap with gene body plus 100 kb on each side",
+  "outputs": {
+    "delta_thresholds": {
+      "bytes": 450,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R004_delta_thresholds.tsv",
+      "sha256": "7c5e75edc1d00714c0529c9ff0ca8ef82c728f1324b70bedce23ad155eca12e0"
+    },
+    "locus_classes": {
+      "bytes": 37629,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R004_locus_classes.tsv",
+      "sha256": "94bf8fc0a5ec978ea969d149ba8e89a0e32555e7e18664a2065cafe762738987"
+    },
+    "locus_summary": {
+      "bytes": 949,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R004_locus_summary.tsv",
+      "sha256": "da1ea2eac2cc28a0bfbbf9e795ec65746f2518d6233b9a2cc617c52be8e07461"
+    },
+    "predicted_causal_variants": {
+      "bytes": 355789,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R004_predicted_causal_regulatory_variants.tsv",
+      "sha256": "29dcf7890d25b6c0ae39096c81688b2e194b482d42cdc5f57f96ef4c676fe507"
+    },
+    "prioritized_candidates": {
+      "bytes": 2699976,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R004_prioritized_candidates.tsv.gz",
+      "sha256": "9c803d56489f711b3cd00dfbc0f5532e239478985aa3a29314929c6440299b8b"
+    },
+    "variant_summary": {
+      "bytes": 1314,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R004_variant_summary.tsv",
+      "sha256": "412e9cf6c0acf6129ff7698f8c8b929fc4b18a00a5381cc9de158dd2c8b56871"
+    }
+  },
+  "predicted_causal_records": 337,
+  "result_id": "COPD-S4-R004",
+  "scored_candidate_records": 15303,
+  "software": {
+    "numpy": "1.24.4",
+    "pandas": "2.0.3",
+    "python": "3.9.15"
+  }
+}

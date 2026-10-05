@@ -1,0 +1,13 @@
+Software-version recovery record
+captured_at_local: 2026-10-01T10:37:33-04:00
+status: Post-run capture from the preserved interpreter configured by 04_modeling/deepexplainer/submit_copd_deepfootprinting.sh; this is not a complete environment lockfile.
+executable: /vf/users/Dcode/gaetano/conda/envs/deepshap_env/bin/python
+command: import sys and importlib.metadata; print sys.version, sys.executable, and installed distribution versions for tensorflow, keras, shap, numpy, modisco, and modisco-lite; import tensorflow and print tensorflow.__version__
+python_runtime: 3.9.22 | packaged by conda-forge | GCC 13.3.0
+tensorflow_distribution: 2.15.0.post1
+tensorflow_runtime: 2.15.0
+keras_distribution: 2.15.0
+shap_distribution: 0.47.1
+numpy_distribution: 1.26.4
+modisco_distribution: 0.5.16.4.1
+modisco_lite_distribution: 2.3.2

@@ -1,0 +1,35 @@
+check	status	details
+output_exists:gtex_audit	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/COPD-S5-R001_GTEx_v10_Lung_candidate_audit.tsv
+output_exists:gtex_pairs	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/COPD-S5-R001_GTEx_v10_Lung_exact_significant_pairs.tsv.gz
+output_exists:mprabase_liftover	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/COPD-S5-R002_GRCh38_to_hg19_liftover_audit.tsv
+output_exists:mprabase_audit	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/COPD-S5-R002_MPRAbase_candidate_audit.tsv
+output_exists:mprabase_elements	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/COPD-S5-R002_MPRAbase_v4_9_3_candidate_elements.tsv.gz
+output_exists:gene_context	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/COPD-S5-R003_candidate_gene_context.tsv.gz
+output_exists:gene_associations	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/COPD-S5-R003_OpenTargets_COPD_gene_associations.tsv
+output_exists:resource_audit	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/COPD-S5-R004_resource_access_audit.tsv
+output_exists:biobank_audit	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/COPD-S5-R004_biobank_access_audit.tsv
+output_exists:integrated	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/COPD-S5-R005_integrated_candidate_validation.tsv
+output_exists:integrated_summary	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/COPD-S5-R005_integrated_summary.tsv
+output_exists:report	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/05_computational_validation/results/section_5_computational_validation.md
+candidate_universe:GTEx audit	PASS	rows=337 unique=337 expected=337
+candidate_universe:MPRAbase liftover audit	PASS	rows=337 unique=337 expected=337
+candidate_universe:MPRAbase candidate audit	PASS	rows=337 unique=337 expected=337
+candidate_universe:integrated matrix	PASS	rows=337 unique=337 expected=337
+GTEx_exact_variant_keys	PASS	pair_rows=915 malformed=0
+liftover_eligibility_rule	PASS	audit_rows=337 invalid=0
+MPRAbase_coordinate_matches_require_roundtrip	PASS	element_rows=2 invalid=0
+gene_context_candidate_subset	PASS	context_rows=3588 foreign_candidates=0
+OpenTargets_exact_COPD_node	PASS	gene_rows=948 wrong_scope=0
+integrated_preserves_priority_order	PASS	rows=337
+integrated_GTEx_count_reconciles	PASS	matrix=185 summary=185
+integrated_MPRAbase_count_reconciles	PASS	matrix=1 summary=1
+report_has_no_placeholder_markers	PASS	checked TODO and TBD
+manifest_output_hashes:COPD-S5-R001	PASS	outputs=3 mismatches=
+manifest_uses_current_Section4_input:COPD-S5-R001	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R005_predicted_causal_population_genetics.tsv
+manifest_output_hashes:COPD-S5-R002	PASS	outputs=10 mismatches=
+manifest_uses_current_Section4_input:COPD-S5-R002	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R005_predicted_causal_population_genetics.tsv
+manifest_output_hashes:COPD-S5-R003	PASS	outputs=5 mismatches=
+manifest_uses_current_Section4_input:COPD-S5-R003	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R005_predicted_causal_population_genetics.tsv
+manifest_output_hashes:COPD-S5-R004	PASS	outputs=3 mismatches=
+manifest_output_hashes:COPD-S5-R005	PASS	outputs=3 mismatches=
+manifest_uses_current_Section4_input:COPD-S5-R005	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R005_predicted_causal_population_genetics.tsv

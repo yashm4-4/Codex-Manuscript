@@ -1,0 +1,11 @@
+phenotype_scope	metric	value	definition	open_targets_local_access_date
+core_copd	replicated_unambiguous_genes	140	R007 analysis set	2026-09-21
+core_copd	genes_with_any_other_mondo_direct_link	125	At least one positive direct Open Targets association after circular exclusion	2026-09-21
+core_copd	genes_with_other_mondo_link_at_least_2_evidence	111	At least one retained disease with evidenceCount >= 2	2026-09-21
+core_copd	genes_with_human_genetic_or_curated_other_disease_source	85	At least one retained disease supported by a predefined human genetic/curated source	2026-09-21
+core_copd	unique_other_mondo_diseases	8549	Across all 140 genes	2026-09-21
+core_copd	direct_gene_disease_links	43636	Unique targetId-diseaseId pairs	2026-09-21
+core_copd	direct_links_at_least_2_evidence	15767	Compact top-table eligibility threshold	2026-09-21
+core_copd	circular_target_disease_rows_removed	271	COPD ontology closure plus explicit COPD-related lexical safeguards	2026-09-21
+core_copd	excluded_copd_related_disease_terms	32	Ontology closure IDs plus compound disease labels caught lexically	2026-09-21
+core_copd	lexical_safeguard_disease_terms_outside_ontology_closure	7	Labels matching COPD, chronic obstructive, emphysema, chronic bronchitis, or bronchiectasis	2026-09-21

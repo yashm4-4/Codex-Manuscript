@@ -1,0 +1,23 @@
+{
+  "run_timestamp_utc": "2026-10-01T12:19:43.242835+00:00",
+  "exact_replay_command": "/usr/local/bin/python /vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/03_regulatory_landscape/scripts/02_prepare_regulatory_references.py",
+  "working_directory": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/03_regulatory_landscape",
+  "script": "diseases/COPD/03_regulatory_landscape/scripts/02_prepare_regulatory_references.py",
+  "script_sha256": "52f52a6f2476648c0ba97d2dc3a054288c62d11b58e824b80fecf7fded453859",
+  "python_version": "3.9.15",
+  "pandas_version": "2.0.3",
+  "genome_build": "GRCh38",
+  "coordinate_system": "0-based half-open BED",
+  "chromosome_scope": "chr1-22,X,Y",
+  "normalized_bed_columns": [
+    "chrom",
+    "start",
+    "end",
+    "feature_id",
+    "feature_type",
+    "source_detail"
+  ],
+  "references_prepared": 5,
+  "inventory": "diseases/COPD/03_regulatory_landscape/results/COPD-S3-R001_regulatory_reference_inventory.tsv",
+  "feature_counts": "diseases/COPD/03_regulatory_landscape/results/COPD-S3-R001_regulatory_reference_feature_counts.tsv"
+}

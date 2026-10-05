@@ -1,0 +1,11 @@
+metric	n	denominator	fraction	note
+predicted_causal_variants	337	337	1.0	
+frequency_resolved	337	337	1.0	
+frequency_class_common	323	337	0.9584569732937686	
+frequency_class_low_frequency	11	337	0.032640949554896145	
+frequency_class_rare	3	337	0.008902077151335312	
+frequency_class_unavailable	0	337	0.0	
+strict_population_specific	0	337	0.0	ALT AF >=0.01 in exactly one superpopulation and <0.001 in the other four
+ancestral_state_resolved	310	337	0.9198813056379822	
+global_DAF_gt_0_5	71	310	0.22903225806451613	denominator is predicted causal variants with an Ensembl ancestral allele mappable to REF or ALT
+any_superpopulation_DAF_gt_0_5	131	310	0.42258064516129035	denominator is predicted causal variants with an Ensembl ancestral allele mappable to REF or ALT

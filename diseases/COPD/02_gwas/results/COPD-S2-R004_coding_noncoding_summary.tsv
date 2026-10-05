@@ -1,0 +1,3 @@
+phenotype_scope	subset	n_unique_variants	n_with_catalog_consequence	n_coding	n_splice	n_noncoding	n_unknown	coding_fraction_of_annotated	splice_fraction_of_annotated	noncoding_fraction_of_annotated	annotation_coverage
+core_copd	all_unique_tag_variants	760	682	55	4	623	78	0.08064516129032258	0.005865102639296188	0.9134897360703812	0.8973684210526316
+core_copd	gws_unique_tag_variants	660	582	46	3	533	78	0.07903780068728522	0.005154639175257732	0.915807560137457	0.8818181818181818

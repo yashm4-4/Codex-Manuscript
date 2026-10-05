@@ -1,0 +1,144 @@
+{
+  "counts": {
+    "LD_redundancy_components": 153,
+    "MPRA_constructs": 48,
+    "R006_target_evidence_rows": 4779,
+    "TF_first_plans": 21,
+    "candidate_validation_plans": 12,
+    "input_predicted_causal_candidates": 337,
+    "shortlisted_candidates": 12
+  },
+  "created_utc": "2026-10-01T13:59:46.845295+00:00",
+  "inputs": [
+    {
+      "bytes": 399805,
+      "path": "diseases/COPD/04_modeling/results/COPD-S4-R010_THE_LIST.tsv",
+      "sha256": "8241fcb2296ecd80c12fe97277daa2d8c8de87c86a3d8c895628be11cd3b49ce"
+    },
+    {
+      "bytes": 355789,
+      "path": "diseases/COPD/04_modeling/results/COPD-S4-R004_predicted_causal_regulatory_variants.tsv",
+      "sha256": "29dcf7890d25b6c0ae39096c81688b2e194b482d42cdc5f57f96ef4c676fe507"
+    },
+    {
+      "bytes": 535623,
+      "path": "diseases/COPD/04_modeling/results/COPD-S4-R005_predicted_causal_population_genetics.tsv",
+      "sha256": "6506c1ab605fb647fcd1a72ec9c7b529a0ba1518c61d12d83dad95ac51f204f9"
+    },
+    {
+      "bytes": 105302,
+      "path": "diseases/COPD/04_modeling/results/COPD-S4-R006_candidate_target_summary.tsv",
+      "sha256": "dfac651eb4e0f25947c50781d301970635bbaca3c4901697fbf7ba703ab874bf"
+    },
+    {
+      "bytes": 769535,
+      "path": "diseases/COPD/04_modeling/results/COPD-S4-R006_candidate_target_evidence.tsv",
+      "sha256": "ffbfa3c9c456738e410b2a27a234c046bb3d40492d590ef85ebba4d52246d661"
+    },
+    {
+      "bytes": 460979,
+      "path": "diseases/COPD/04_modeling/results/COPD-S4-R008_candidate_tfbs_summary.tsv.gz",
+      "sha256": "a2d168ab95ee0701060ed089ff29c5e9b2ef526c318ef77d87ad76adc77b4b6e"
+    },
+    {
+      "bytes": 9228592,
+      "path": "diseases/COPD/04_modeling/results/COPD-S4-R008_allele_specific_motif_scores.tsv.gz",
+      "sha256": "d40ff78cd06ec65ab1f4d31beb285c347b238667901868b3089caf5dfe3f9ec9"
+    },
+    {
+      "bytes": 220097,
+      "path": "diseases/COPD/05_computational_validation/results/COPD-S5-R005_integrated_candidate_validation.tsv",
+      "sha256": "302a333ac68171d0520aa1a1cd07a11a4b2f9c94d1b7f6db2b6a98265a8e8916"
+    },
+    {
+      "bytes": 30895506,
+      "path": "diseases/COPD/04_modeling/data/COPD_candidate_variants_ref_2001bp.fa",
+      "sha256": "d45009e7d90f3c72a48ed33be14180e06af3735c15ae72c1f4093d3eeaeb46ab"
+    },
+    {
+      "bytes": 30895506,
+      "path": "diseases/COPD/04_modeling/data/COPD_candidate_variants_alt_2001bp.fa",
+      "sha256": "f52e809e1d6d4da50917d2ff2c3c9e4063543cf42aee52606bd2785238ec5568"
+    }
+  ],
+  "interpretation_guardrails": [
+    "all experiments are proposed and none is represented as performed",
+    "model predictions and motif matches are not causal or binding proof",
+    "GTEx is molecular association evidence",
+    "MPRAbase coordinate containment is regional unless allelic testing is established",
+    "R006 mappings are provisional target hypotheses",
+    "MPRA inserts isolate one nominated allele in a GRCh38 reference background and do not represent local phased haplotypes",
+    "CRISPRi tests a region, whereas allele-level claims require endogenous allele perturbation"
+  ],
+  "outputs": [
+    {
+      "bytes": 32532,
+      "path": "diseases/COPD/06_experimental_validation/results/COPD-S6-R001_candidate_shortlist.tsv",
+      "sha256": "4d623a6290a885c1e5fcc297a437001c330315a43615e9ae1ac818178905d535"
+    },
+    {
+      "bytes": 20699,
+      "path": "diseases/COPD/06_experimental_validation/results/COPD-S6-R002_selection_audit.tsv.gz",
+      "sha256": "58d1d20c806f1ddce583650a98576ccf07b77ff677fe8dc38a8d9fe9efde5758"
+    },
+    {
+      "bytes": 42915,
+      "path": "diseases/COPD/06_experimental_validation/results/COPD-S6-R003_MPRA_constructs.tsv",
+      "sha256": "b24342397c6c9cce758377fe3526a8fc0dd7b3109c9994108c9465e6e914cd39"
+    },
+    {
+      "bytes": 28756,
+      "path": "diseases/COPD/06_experimental_validation/results/COPD-S6-R004_candidate_validation_plan.tsv",
+      "sha256": "95bee1af741c60e153148a86a212d216e4b66cfcc51d5379977105f90c425dd3"
+    },
+    {
+      "bytes": 23514,
+      "path": "diseases/COPD/06_experimental_validation/results/COPD-S6-R004_TF_first_plan.tsv",
+      "sha256": "7b9f8c221bab01b5de1624a91cca2d508fc7ffa97f3a495df3554ba48baa58fa"
+    },
+    {
+      "bytes": 3294,
+      "path": "diseases/COPD/06_experimental_validation/results/COPD-S6-R004_cell_context_controls.tsv",
+      "sha256": "40c3c555a6209bbac784307c0d0df48b23b4bc29ded7dd190f692e1522017e8c"
+    },
+    {
+      "bytes": 2283,
+      "path": "diseases/COPD/06_experimental_validation/data/COPD-S6-R005_upstream_inputs.tsv",
+      "sha256": "9eb4d80c8b333c58f3c5d7027934557a6fcd17a7e19212e2243bd3e36f25ee29"
+    },
+    {
+      "bytes": 3353,
+      "path": "diseases/COPD/06_experimental_validation/results/COPD-S6-R005_collaborator_README.md",
+      "sha256": "f71cf1d08024184660909a78ebb27a0f651f7ab3a054637ae4fbe9d2f78da0cb"
+    },
+    {
+      "bytes": 8179,
+      "path": "diseases/COPD/06_experimental_validation/results/section_6_experimental_validation.md",
+      "sha256": "8d7edb21d7ccfc967567e14d6c953a1858afe2043a8e4b5c65ef4cde6244524e"
+    }
+  ],
+  "parameters": {
+    "LD_redundancy_definition": "transitive shared linked GWAS tag or source focal tag among predicted-causal candidates; at most one shortlisted candidate per component",
+    "MPRA_flank_bp_each_side": 100,
+    "selection_order": [
+      "diversity constraints already covered by selected candidates are skipped",
+      "both-model prediction",
+      "enhancer-only prediction",
+      "silencer-only prediction",
+      "indel or complex allele",
+      "refined severe-emphysema-donor regulatory overlap",
+      "exact GTEx v10 Lung significant eQTL",
+      "public MPRAbase element overlap",
+      "motif-compatible-site creation or disruption",
+      "fill by canonical Section 4 R010 predicted-causal rank"
+    ],
+    "shortlist_size": 12
+  },
+  "result_id": "COPD-S6-R006",
+  "selection_policy": "COPD-S6-selection-v1",
+  "software": {
+    "pandas": "2.0.3",
+    "python": "3.9.15"
+  },
+  "status": "experimental_design_complete_wet_lab_not_performed"
+}
