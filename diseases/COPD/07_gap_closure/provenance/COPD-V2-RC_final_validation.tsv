@@ -1,0 +1,454 @@
+check	status	detail
+Locked specification SHA256	PASS	
+Four frozen model/class threshold rows	PASS	
+Frozen cutoff preserved: enhancer/SNV	PASS	
+Frozen cutoff preserved: enhancer/indel_or_complex	PASS	
+Frozen cutoff preserved: silencer/SNV	PASS	
+Frozen cutoff preserved: silencer/indel_or_complex	PASS	
+V1 region threshold independently cross-referenced: enhancer	PASS	
+V1 region threshold independently cross-referenced: silencer	PASS	
+Authoritative frozen R003 unique complete universe	PASS	
+RC complete universe and authoritative source order	PASS	
+Original R004 includes all 15389 unique records	PASS	
+Preserved eligibility/class denominators	PASS	
+enhancer/forward: finite scores in [0,1]	PASS	
+enhancer/forward: serialized delta finite	PASS	
+enhancer/rc: finite scores in [0,1]	PASS	
+enhancer/rc: serialized delta finite	PASS	
+enhancer: raw RC serialized delta equals ALT minus REF	PASS	
+enhancer: independent forward decisions reproduce every V1 R004 call	PASS	
+silencer/forward: finite scores in [0,1]	PASS	
+silencer/forward: serialized delta finite	PASS	
+silencer/rc: finite scores in [0,1]	PASS	
+silencer/rc: serialized delta finite	PASS	
+silencer: raw RC serialized delta equals ALT minus REF	PASS	
+silencer: independent forward decisions reproduce every V1 R004 call	PASS	
+Frozen forward model/union counts	PASS	
+Prespecified specification lock retained in manifests	PASS	
+Specification lock and passing forward gate precede RC inference	PASS	
+Numerical-gate panel exactly matches prespecified selection	PASS	
+Numerical-gate pair/model coverage	PASS	
+Forward verification exact IDs: enhancer	PASS	
+Verification uses authoritative forward scores: enhancer	PASS	
+Verification output finite and in range: enhancer	PASS	
+Numerical-gate recorded errors independently reproduce: enhancer	PASS	
+Forward numerical gate genuinely passes fixed tolerances: enhancer	PASS	max_score_error=4.9713133609685656e-10; max_delta_error=9.5983887504758059e-10
+Forward verification exact IDs: silencer	PASS	
+Verification uses authoritative forward scores: silencer	PASS	
+Verification output finite and in range: silencer	PASS	
+Numerical-gate recorded errors independently reproduce: silencer	PASS	
+Forward numerical gate genuinely passes fixed tolerances: silencer	PASS	max_score_error=4.9734494300679444e-10; max_delta_error=9.5697016977425164e-10
+Preflight claims passed numerical gate	PASS	
+Scoring run completeness and frozen batch/seed settings	PASS	
+Exact frozen numerical runtime package: tensorflow	PASS	
+Exact frozen numerical runtime package: keras	PASS	
+Exact frozen numerical runtime package: numpy	PASS	
+All sequence transformation QC rows and frozen score order	PASS	
+ref FASTA ID count and authoritative order	PASS	
+alt FASTA ID count and authoritative order	PASS	
+Independent exact full-sequence RC, allele identity/spans, onehot, hashes, N and edges	PASS	30606 sequences; discrepancies=[]
+Recorded all-pair transformation checks agree with independent verification	PASS	
+15389-record reconciliation preserves original order and unique IDs	PASS	
+Original sequence-status reasons retained, including all 86 unscorable cases	PASS	
+Complete reconciliation identity flag: in_frozen_forward_scores	PASS	
+Complete reconciliation identity flag: in_ref_fasta	PASS	
+Complete reconciliation identity flag: in_alt_fasta	PASS	
+Complete reconciliation identity flag: rc_scoring_expected	PASS	
+Complete reconciliation identity flag: rc_scored	PASS	
+Complete reconciliation subgroup: in_frozen_337	PASS	
+Complete reconciliation subgroup: in_shortlist_12	PASS	
+Canonical R010 exactly equals independently derived union	PASS	
+Original 337/12 phenotype records preserve exact original ID order	PASS	
+Authoritative descriptive phenotype subgroup sizes	PASS	
+Frozen forward-only p99 cutoff independently recomputed: enhancer/SNV	PASS	
+Frozen forward-only p99 cutoff independently recomputed: enhancer/indel_or_complex	PASS	
+Frozen forward-only p99 cutoff independently recomputed: silencer/SNV	PASS	
+Frozen forward-only p99 cutoff independently recomputed: silencer/indel_or_complex	PASS	
+Full comparison count, uniqueness and R003 row order	PASS	
+Comparison column exists: candidate_record_id	PASS	15303
+Independent per-record reconstruction: candidate_record_id	PASS	n=15303
+Comparison column exists: enhancer_forward_serialized_delta	PASS	15303
+Independent per-record reconstruction: enhancer_forward_serialized_delta	PASS	n=15303
+Comparison column exists: enhancer_forward_serialization_delta_rounding	PASS	15303
+Independent per-record reconstruction: enhancer_forward_serialization_delta_rounding	PASS	n=15303
+Comparison column exists: enhancer_forward_ref_score	PASS	15303
+Independent per-record reconstruction: enhancer_forward_ref_score	PASS	n=15303
+Comparison column exists: enhancer_forward_alt_score	PASS	15303
+Independent per-record reconstruction: enhancer_forward_alt_score	PASS	n=15303
+Comparison column exists: enhancer_forward_delta	PASS	15303
+Independent per-record reconstruction: enhancer_forward_delta	PASS	n=15303
+Comparison column exists: enhancer_forward_region_score	PASS	15303
+Independent per-record reconstruction: enhancer_forward_region_score	PASS	n=15303
+Comparison column exists: enhancer_forward_abs_delta	PASS	15303
+Independent per-record reconstruction: enhancer_forward_abs_delta	PASS	n=15303
+Comparison column exists: enhancer_forward_call	PASS	15303
+Independent per-record reconstruction: enhancer_forward_call	PASS	n=15303
+Comparison column exists: enhancer_forward_meaningful_sign	PASS	15303
+Independent per-record reconstruction: enhancer_forward_meaningful_sign	PASS	n=15303
+Comparison column exists: enhancer_rc_serialized_delta	PASS	15303
+Independent per-record reconstruction: enhancer_rc_serialized_delta	PASS	n=15303
+Comparison column exists: enhancer_rc_serialization_delta_rounding	PASS	15303
+Independent per-record reconstruction: enhancer_rc_serialization_delta_rounding	PASS	n=15303
+Comparison column exists: enhancer_rc_ref_score	PASS	15303
+Independent per-record reconstruction: enhancer_rc_ref_score	PASS	n=15303
+Comparison column exists: enhancer_rc_alt_score	PASS	15303
+Independent per-record reconstruction: enhancer_rc_alt_score	PASS	n=15303
+Comparison column exists: enhancer_rc_delta	PASS	15303
+Independent per-record reconstruction: enhancer_rc_delta	PASS	n=15303
+Comparison column exists: enhancer_rc_region_score	PASS	15303
+Independent per-record reconstruction: enhancer_rc_region_score	PASS	n=15303
+Comparison column exists: enhancer_rc_abs_delta	PASS	15303
+Independent per-record reconstruction: enhancer_rc_abs_delta	PASS	n=15303
+Comparison column exists: enhancer_rc_call	PASS	15303
+Independent per-record reconstruction: enhancer_rc_call	PASS	n=15303
+Comparison column exists: enhancer_rc_meaningful_sign	PASS	15303
+Independent per-record reconstruction: enhancer_rc_meaningful_sign	PASS	n=15303
+Comparison column exists: enhancer_abs_delta_disagreement	PASS	15303
+Independent per-record reconstruction: enhancer_abs_delta_disagreement	PASS	n=15303
+Comparison column exists: enhancer_normalized_delta_disagreement	PASS	15303
+Independent per-record reconstruction: enhancer_normalized_delta_disagreement	PASS	n=15303
+Comparison column exists: enhancer_forward_well_separated	PASS	15303
+Independent per-record reconstruction: enhancer_forward_well_separated	PASS	n=15303
+Comparison column exists: silencer_forward_serialized_delta	PASS	15303
+Independent per-record reconstruction: silencer_forward_serialized_delta	PASS	n=15303
+Comparison column exists: silencer_forward_serialization_delta_rounding	PASS	15303
+Independent per-record reconstruction: silencer_forward_serialization_delta_rounding	PASS	n=15303
+Comparison column exists: silencer_forward_ref_score	PASS	15303
+Independent per-record reconstruction: silencer_forward_ref_score	PASS	n=15303
+Comparison column exists: silencer_forward_alt_score	PASS	15303
+Independent per-record reconstruction: silencer_forward_alt_score	PASS	n=15303
+Comparison column exists: silencer_forward_delta	PASS	15303
+Independent per-record reconstruction: silencer_forward_delta	PASS	n=15303
+Comparison column exists: silencer_forward_region_score	PASS	15303
+Independent per-record reconstruction: silencer_forward_region_score	PASS	n=15303
+Comparison column exists: silencer_forward_abs_delta	PASS	15303
+Independent per-record reconstruction: silencer_forward_abs_delta	PASS	n=15303
+Comparison column exists: silencer_forward_call	PASS	15303
+Independent per-record reconstruction: silencer_forward_call	PASS	n=15303
+Comparison column exists: silencer_forward_meaningful_sign	PASS	15303
+Independent per-record reconstruction: silencer_forward_meaningful_sign	PASS	n=15303
+Comparison column exists: silencer_rc_serialized_delta	PASS	15303
+Independent per-record reconstruction: silencer_rc_serialized_delta	PASS	n=15303
+Comparison column exists: silencer_rc_serialization_delta_rounding	PASS	15303
+Independent per-record reconstruction: silencer_rc_serialization_delta_rounding	PASS	n=15303
+Comparison column exists: silencer_rc_ref_score	PASS	15303
+Independent per-record reconstruction: silencer_rc_ref_score	PASS	n=15303
+Comparison column exists: silencer_rc_alt_score	PASS	15303
+Independent per-record reconstruction: silencer_rc_alt_score	PASS	n=15303
+Comparison column exists: silencer_rc_delta	PASS	15303
+Independent per-record reconstruction: silencer_rc_delta	PASS	n=15303
+Comparison column exists: silencer_rc_region_score	PASS	15303
+Independent per-record reconstruction: silencer_rc_region_score	PASS	n=15303
+Comparison column exists: silencer_rc_abs_delta	PASS	15303
+Independent per-record reconstruction: silencer_rc_abs_delta	PASS	n=15303
+Comparison column exists: silencer_rc_call	PASS	15303
+Independent per-record reconstruction: silencer_rc_call	PASS	n=15303
+Comparison column exists: silencer_rc_meaningful_sign	PASS	15303
+Independent per-record reconstruction: silencer_rc_meaningful_sign	PASS	n=15303
+Comparison column exists: silencer_abs_delta_disagreement	PASS	15303
+Independent per-record reconstruction: silencer_abs_delta_disagreement	PASS	n=15303
+Comparison column exists: silencer_normalized_delta_disagreement	PASS	15303
+Independent per-record reconstruction: silencer_normalized_delta_disagreement	PASS	n=15303
+Comparison column exists: silencer_forward_well_separated	PASS	15303
+Independent per-record reconstruction: silencer_forward_well_separated	PASS	n=15303
+Comparison column exists: forward_union_call	PASS	15303
+Independent per-record reconstruction: forward_union_call	PASS	n=15303
+Comparison column exists: forward_model_context	PASS	15303
+Independent per-record reconstruction: forward_model_context	PASS	n=15303
+Comparison column exists: rc_union_call	PASS	15303
+Independent per-record reconstruction: rc_union_call	PASS	n=15303
+Comparison column exists: rc_model_context	PASS	15303
+Independent per-record reconstruction: rc_model_context	PASS	n=15303
+Comparison column exists: blacklisted	PASS	15303
+Independent per-record reconstruction: blacklisted	PASS	n=15303
+Comparison column exists: causal_call_eligible	PASS	15303
+Independent per-record reconstruction: causal_call_eligible	PASS	n=15303
+Comparison column exists: variant_class_group	PASS	15303
+Independent per-record reconstruction: variant_class_group	PASS	n=15303
+Comparison column exists: in_frozen_337	PASS	15303
+Independent per-record reconstruction: in_frozen_337	PASS	n=15303
+Comparison column exists: primary_retained	PASS	15303
+Independent per-record reconstruction: primary_retained	PASS	n=15303
+Comparison column exists: GCST90244098_only_study	PASS	15303
+Independent per-record reconstruction: GCST90244098_only_study	PASS	n=15303
+Comparison column exists: in_shortlist_12	PASS	15303
+Independent per-record reconstruction: in_shortlist_12	PASS	n=15303
+Comparison column exists: in_exact_v1_literature	PASS	15303
+Independent per-record reconstruction: in_exact_v1_literature	PASS	n=15303
+Comparison column exists: ref_N_count	PASS	15303
+Independent per-record reconstruction: ref_N_count	PASS	n=15303
+Comparison column exists: alt_N_count	PASS	15303
+Independent per-record reconstruction: alt_N_count	PASS	n=15303
+Comparison column exists: has_ambiguous_N	PASS	15303
+Independent per-record reconstruction: has_ambiguous_N	PASS	n=15303
+Comparison column exists: enhancer_region_threshold	PASS	15303
+Independent per-record reconstruction: enhancer_region_threshold	PASS	n=15303
+Comparison column exists: enhancer_abs_delta_threshold	PASS	15303
+Independent per-record reconstruction: enhancer_abs_delta_threshold	PASS	n=15303
+Comparison column exists: enhancer_meaningful_epsilon	PASS	15303
+Independent per-record reconstruction: enhancer_meaningful_epsilon	PASS	n=15303
+Comparison column exists: enhancer_forward_region_margin	PASS	15303
+Independent per-record reconstruction: enhancer_forward_region_margin	PASS	n=15303
+Comparison column exists: enhancer_forward_delta_margin	PASS	15303
+Independent per-record reconstruction: enhancer_forward_delta_margin	PASS	n=15303
+Comparison column exists: enhancer_forward_normalized_delta_margin	PASS	15303
+Independent per-record reconstruction: enhancer_forward_normalized_delta_margin	PASS	n=15303
+Comparison column exists: enhancer_forward_region_gate	PASS	15303
+Independent per-record reconstruction: enhancer_forward_region_gate	PASS	n=15303
+Comparison column exists: enhancer_forward_delta_gate	PASS	15303
+Independent per-record reconstruction: enhancer_forward_delta_gate	PASS	n=15303
+Comparison column exists: enhancer_forward_raw_sign	PASS	15303
+Independent per-record reconstruction: enhancer_forward_raw_sign	PASS	n=15303
+Comparison column exists: enhancer_rc_region_margin	PASS	15303
+Independent per-record reconstruction: enhancer_rc_region_margin	PASS	n=15303
+Comparison column exists: enhancer_rc_delta_margin	PASS	15303
+Independent per-record reconstruction: enhancer_rc_delta_margin	PASS	n=15303
+Comparison column exists: enhancer_rc_normalized_delta_margin	PASS	15303
+Independent per-record reconstruction: enhancer_rc_normalized_delta_margin	PASS	n=15303
+Comparison column exists: enhancer_rc_region_gate	PASS	15303
+Independent per-record reconstruction: enhancer_rc_region_gate	PASS	n=15303
+Comparison column exists: enhancer_rc_delta_gate	PASS	15303
+Independent per-record reconstruction: enhancer_rc_delta_gate	PASS	n=15303
+Comparison column exists: enhancer_rc_raw_sign	PASS	15303
+Independent per-record reconstruction: enhancer_rc_raw_sign	PASS	n=15303
+Comparison column exists: enhancer_forward_score_borderline	PASS	15303
+Independent per-record reconstruction: enhancer_forward_score_borderline	PASS	n=15303
+Comparison column exists: enhancer_forward_delta_borderline	PASS	15303
+Independent per-record reconstruction: enhancer_forward_delta_borderline	PASS	n=15303
+Comparison column exists: enhancer_forward_any_borderline	PASS	15303
+Independent per-record reconstruction: enhancer_forward_any_borderline	PASS	n=15303
+Comparison column exists: enhancer_forward_tail95	PASS	15303
+Independent per-record reconstruction: enhancer_forward_tail95	PASS	n=15303
+Comparison column exists: enhancer_forward_abs_delta_p99_cutoff	PASS	15303
+Independent per-record reconstruction: enhancer_forward_abs_delta_p99_cutoff	PASS	n=15303
+Comparison column exists: enhancer_forward_tail99	PASS	15303
+Independent per-record reconstruction: enhancer_forward_tail99	PASS	n=15303
+Comparison column exists: enhancer_ref_score_signed_disagreement	PASS	15303
+Independent per-record reconstruction: enhancer_ref_score_signed_disagreement	PASS	n=15303
+Comparison column exists: enhancer_ref_score_absolute_disagreement	PASS	15303
+Independent per-record reconstruction: enhancer_ref_score_absolute_disagreement	PASS	n=15303
+Comparison column exists: enhancer_alt_score_signed_disagreement	PASS	15303
+Independent per-record reconstruction: enhancer_alt_score_signed_disagreement	PASS	n=15303
+Comparison column exists: enhancer_alt_score_absolute_disagreement	PASS	15303
+Independent per-record reconstruction: enhancer_alt_score_absolute_disagreement	PASS	n=15303
+Comparison column exists: enhancer_region_score_signed_disagreement	PASS	15303
+Independent per-record reconstruction: enhancer_region_score_signed_disagreement	PASS	n=15303
+Comparison column exists: enhancer_region_score_absolute_disagreement	PASS	15303
+Independent per-record reconstruction: enhancer_region_score_absolute_disagreement	PASS	n=15303
+Comparison column exists: enhancer_delta_signed_disagreement	PASS	15303
+Independent per-record reconstruction: enhancer_delta_signed_disagreement	PASS	n=15303
+Comparison column exists: enhancer_delta_absolute_disagreement	PASS	15303
+Independent per-record reconstruction: enhancer_delta_absolute_disagreement	PASS	n=15303
+Comparison column exists: enhancer_abs_delta_signed_disagreement	PASS	15303
+Independent per-record reconstruction: enhancer_abs_delta_signed_disagreement	PASS	n=15303
+Comparison column exists: enhancer_abs_delta_absolute_disagreement	PASS	15303
+Independent per-record reconstruction: enhancer_abs_delta_absolute_disagreement	PASS	n=15303
+Comparison column exists: enhancer_call_changed	PASS	15303
+Independent per-record reconstruction: enhancer_call_changed	PASS	n=15303
+Comparison column exists: enhancer_lost_forward_call	PASS	15303
+Independent per-record reconstruction: enhancer_lost_forward_call	PASS	n=15303
+Comparison column exists: enhancer_gained_rc_only_call	PASS	15303
+Independent per-record reconstruction: enhancer_gained_rc_only_call	PASS	n=15303
+Comparison column exists: enhancer_lost_well_separated_call	PASS	15303
+Independent per-record reconstruction: enhancer_lost_well_separated_call	PASS	n=15303
+Comparison column exists: enhancer_raw_sign_changed	PASS	15303
+Independent per-record reconstruction: enhancer_raw_sign_changed	PASS	n=15303
+Comparison column exists: enhancer_meaningful_sign_changed	PASS	15303
+Independent per-record reconstruction: enhancer_meaningful_sign_changed	PASS	n=15303
+Comparison column exists: silencer_region_threshold	PASS	15303
+Independent per-record reconstruction: silencer_region_threshold	PASS	n=15303
+Comparison column exists: silencer_abs_delta_threshold	PASS	15303
+Independent per-record reconstruction: silencer_abs_delta_threshold	PASS	n=15303
+Comparison column exists: silencer_meaningful_epsilon	PASS	15303
+Independent per-record reconstruction: silencer_meaningful_epsilon	PASS	n=15303
+Comparison column exists: silencer_forward_region_margin	PASS	15303
+Independent per-record reconstruction: silencer_forward_region_margin	PASS	n=15303
+Comparison column exists: silencer_forward_delta_margin	PASS	15303
+Independent per-record reconstruction: silencer_forward_delta_margin	PASS	n=15303
+Comparison column exists: silencer_forward_normalized_delta_margin	PASS	15303
+Independent per-record reconstruction: silencer_forward_normalized_delta_margin	PASS	n=15303
+Comparison column exists: silencer_forward_region_gate	PASS	15303
+Independent per-record reconstruction: silencer_forward_region_gate	PASS	n=15303
+Comparison column exists: silencer_forward_delta_gate	PASS	15303
+Independent per-record reconstruction: silencer_forward_delta_gate	PASS	n=15303
+Comparison column exists: silencer_forward_raw_sign	PASS	15303
+Independent per-record reconstruction: silencer_forward_raw_sign	PASS	n=15303
+Comparison column exists: silencer_rc_region_margin	PASS	15303
+Independent per-record reconstruction: silencer_rc_region_margin	PASS	n=15303
+Comparison column exists: silencer_rc_delta_margin	PASS	15303
+Independent per-record reconstruction: silencer_rc_delta_margin	PASS	n=15303
+Comparison column exists: silencer_rc_normalized_delta_margin	PASS	15303
+Independent per-record reconstruction: silencer_rc_normalized_delta_margin	PASS	n=15303
+Comparison column exists: silencer_rc_region_gate	PASS	15303
+Independent per-record reconstruction: silencer_rc_region_gate	PASS	n=15303
+Comparison column exists: silencer_rc_delta_gate	PASS	15303
+Independent per-record reconstruction: silencer_rc_delta_gate	PASS	n=15303
+Comparison column exists: silencer_rc_raw_sign	PASS	15303
+Independent per-record reconstruction: silencer_rc_raw_sign	PASS	n=15303
+Comparison column exists: silencer_forward_score_borderline	PASS	15303
+Independent per-record reconstruction: silencer_forward_score_borderline	PASS	n=15303
+Comparison column exists: silencer_forward_delta_borderline	PASS	15303
+Independent per-record reconstruction: silencer_forward_delta_borderline	PASS	n=15303
+Comparison column exists: silencer_forward_any_borderline	PASS	15303
+Independent per-record reconstruction: silencer_forward_any_borderline	PASS	n=15303
+Comparison column exists: silencer_forward_tail95	PASS	15303
+Independent per-record reconstruction: silencer_forward_tail95	PASS	n=15303
+Comparison column exists: silencer_forward_abs_delta_p99_cutoff	PASS	15303
+Independent per-record reconstruction: silencer_forward_abs_delta_p99_cutoff	PASS	n=15303
+Comparison column exists: silencer_forward_tail99	PASS	15303
+Independent per-record reconstruction: silencer_forward_tail99	PASS	n=15303
+Comparison column exists: silencer_ref_score_signed_disagreement	PASS	15303
+Independent per-record reconstruction: silencer_ref_score_signed_disagreement	PASS	n=15303
+Comparison column exists: silencer_ref_score_absolute_disagreement	PASS	15303
+Independent per-record reconstruction: silencer_ref_score_absolute_disagreement	PASS	n=15303
+Comparison column exists: silencer_alt_score_signed_disagreement	PASS	15303
+Independent per-record reconstruction: silencer_alt_score_signed_disagreement	PASS	n=15303
+Comparison column exists: silencer_alt_score_absolute_disagreement	PASS	15303
+Independent per-record reconstruction: silencer_alt_score_absolute_disagreement	PASS	n=15303
+Comparison column exists: silencer_region_score_signed_disagreement	PASS	15303
+Independent per-record reconstruction: silencer_region_score_signed_disagreement	PASS	n=15303
+Comparison column exists: silencer_region_score_absolute_disagreement	PASS	15303
+Independent per-record reconstruction: silencer_region_score_absolute_disagreement	PASS	n=15303
+Comparison column exists: silencer_delta_signed_disagreement	PASS	15303
+Independent per-record reconstruction: silencer_delta_signed_disagreement	PASS	n=15303
+Comparison column exists: silencer_delta_absolute_disagreement	PASS	15303
+Independent per-record reconstruction: silencer_delta_absolute_disagreement	PASS	n=15303
+Comparison column exists: silencer_abs_delta_signed_disagreement	PASS	15303
+Independent per-record reconstruction: silencer_abs_delta_signed_disagreement	PASS	n=15303
+Comparison column exists: silencer_abs_delta_absolute_disagreement	PASS	15303
+Independent per-record reconstruction: silencer_abs_delta_absolute_disagreement	PASS	n=15303
+Comparison column exists: silencer_call_changed	PASS	15303
+Independent per-record reconstruction: silencer_call_changed	PASS	n=15303
+Comparison column exists: silencer_lost_forward_call	PASS	15303
+Independent per-record reconstruction: silencer_lost_forward_call	PASS	n=15303
+Comparison column exists: silencer_gained_rc_only_call	PASS	15303
+Independent per-record reconstruction: silencer_gained_rc_only_call	PASS	n=15303
+Comparison column exists: silencer_lost_well_separated_call	PASS	15303
+Independent per-record reconstruction: silencer_lost_well_separated_call	PASS	n=15303
+Comparison column exists: silencer_raw_sign_changed	PASS	15303
+Independent per-record reconstruction: silencer_raw_sign_changed	PASS	n=15303
+Comparison column exists: silencer_meaningful_sign_changed	PASS	15303
+Independent per-record reconstruction: silencer_meaningful_sign_changed	PASS	n=15303
+Comparison column exists: forward_union_well_separated	PASS	15303
+Independent per-record reconstruction: forward_union_well_separated	PASS	n=15303
+Comparison column exists: union_call_changed	PASS	15303
+Independent per-record reconstruction: union_call_changed	PASS	n=15303
+Comparison column exists: lost_union_call	PASS	15303
+Independent per-record reconstruction: lost_union_call	PASS	n=15303
+Comparison column exists: retained_union_call	PASS	15303
+Independent per-record reconstruction: retained_union_call	PASS	n=15303
+Comparison column exists: lost_any_original_model_call	PASS	15303
+Independent per-record reconstruction: lost_any_original_model_call	PASS	n=15303
+Comparison column exists: gained_any_additional_rc_only_model_call	PASS	15303
+Independent per-record reconstruction: gained_any_additional_rc_only_model_call	PASS	n=15303
+Comparison column exists: lost_any_well_separated_model_call	PASS	15303
+Independent per-record reconstruction: lost_any_well_separated_model_call	PASS	n=15303
+Comparison column exists: exact_model_context_stable	PASS	15303
+Independent per-record reconstruction: exact_model_context_stable	PASS	n=15303
+Comparison column exists: support_switching	PASS	15303
+Independent per-record reconstruction: support_switching	PASS	n=15303
+Comparison column exists: pure_enhancer_to_H3K27me3_switch	PASS	15303
+Independent per-record reconstruction: pure_enhancer_to_H3K27me3_switch	PASS	n=15303
+Comparison column exists: pure_H3K27me3_to_enhancer_switch	PASS	15303
+Independent per-record reconstruction: pure_H3K27me3_to_enhancer_switch	PASS	n=15303
+R005_frozen_337_comparison.tsv: original row order and original rank	PASS	
+R005_frozen_337_comparison.tsv: every field equals corresponding full-universe row	PASS	337
+R006_shortlist_12_comparison.tsv: original row order and original rank	PASS	
+R006_shortlist_12_comparison.tsv: every field equals corresponding full-universe row	PASS	12
+Every original literature register field retained	PASS	
+Only two already-cataloged exact literature identities evaluated	PASS	
+Exact literature comparisons agree with full-universe values	PASS	
+rs2013701 retains V1 original rank 210	PASS	
+R009_score_metrics.tsv: complete unique summary keys	PASS	
+R009_score_metrics.tsv: every intended model/stratum is represented	PASS	
+R009_score_metrics.tsv: every statistic independently recomputed	PASS	60 rows; 14 columns; mismatches=[]
+R010_delta_metrics.tsv: complete unique summary keys	PASS	
+R010_delta_metrics.tsv: every intended model/stratum is represented	PASS	
+R010_delta_metrics.tsv: every statistic independently recomputed	PASS	20 rows; 35 columns; mismatches=[]
+R011_sign_transitions.tsv: complete unique summary keys	PASS	
+R011_sign_transitions.tsv: every intended model/stratum is represented	PASS	
+R011_sign_transitions.tsv: every statistic independently recomputed	PASS	360 rows; 4 columns; mismatches=[]
+R012_forward_tail_metrics.tsv: complete unique summary keys	PASS	
+R012_forward_tail_metrics.tsv: every intended model/stratum is represented	PASS	
+R012_forward_tail_metrics.tsv: every statistic independently recomputed	PASS	40 rows; 41 columns; mismatches=[]
+R013_call_transitions.tsv: complete unique summary keys	PASS	
+R013_call_transitions.tsv: every intended model/stratum is represented	PASS	
+R013_call_transitions.tsv: every statistic independently recomputed	PASS	30 rows; 16 columns; mismatches=[]
+R014_model_context_transitions.tsv: complete unique summary keys	PASS	
+R014_model_context_transitions.tsv: every intended model/stratum is represented	PASS	
+R014_model_context_transitions.tsv: every statistic independently recomputed	PASS	160 rows; 4 columns; mismatches=[]
+R015_threshold_proximity.tsv: complete unique summary keys	PASS	
+R015_threshold_proximity.tsv: every intended model/stratum is represented	PASS	
+R015_threshold_proximity.tsv: every statistic independently recomputed	PASS	80 rows; 29 columns; mismatches=[]
+R016_forward_region_bins.tsv: complete unique summary keys	PASS	
+R016_forward_region_bins.tsv: every intended model/stratum is represented	PASS	
+R016_forward_region_bins.tsv: every statistic independently recomputed	PASS	100 rows; 19 columns; mismatches=[]
+R017_subset_support_summary.tsv: complete unique summary keys	PASS	
+R017_subset_support_summary.tsv: every intended model/stratum is represented	PASS	
+R017_subset_support_summary.tsv: every statistic independently recomputed	PASS	10 rows; 32 columns; mismatches=[]
+R019_gate_failure_transitions.tsv: complete unique summary keys	PASS	
+R019_gate_failure_transitions.tsv: every intended model/stratum is represented	PASS	
+R019_gate_failure_transitions.tsv: every statistic independently recomputed	PASS	120 rows; 4 columns; mismatches=[]
+Severity table has all and only prespecified domain/model rows	PASS	
+Severity independently follows unchanged locked rubric	PASS	overall=scientifically_material
+Final scoring-script hash preserved	PASS	
+Scoring manifest output: COPD-V2-RC_consumed_file_hashes.tsv	PASS	
+Scoring manifest output: COPD-V2-RC_forward_p99_cutoffs.tsv	PASS	
+Scoring manifest output: COPD-V2-RC_original_freeze_validation.tsv	PASS	
+Scoring manifest output: COPD-V2-RC_preflight_manifest.json	PASS	
+Scoring manifest output: COPD-V2-RC_v1_tracked_hashes_before.tsv	PASS	
+Scoring manifest output: COPD-V2-RC_v1_tree_stat_before.tsv	PASS	
+Scoring manifest output: COPD-V2-RC-R001_reverse_complement_scores.tsv.gz	PASS	
+Scoring manifest output: COPD-V2-RC-R002_sequence_transformation_qc.tsv.gz	PASS	
+Scoring manifest output: COPD-V2-RC-R003_record_reconciliation.tsv	PASS	
+Scoring manifest output: COPD-V2-RC_forward_verification.tsv	PASS	
+Analysis locked specification and source script	PASS	
+Analyzer consumed-input hashes independently match	PASS	
+Analysis manifest output: COPD-V2-RC-R004_all_scorable_comparison.tsv.gz	PASS	
+Analysis manifest output: COPD-V2-RC-R005_frozen_337_comparison.tsv	PASS	
+Analysis manifest output: COPD-V2-RC-R006_shortlist_12_comparison.tsv	PASS	
+Analysis manifest output: COPD-V2-RC-R007_literature_coverage.tsv	PASS	
+Analysis manifest output: COPD-V2-RC-R008_exact_literature_comparison.tsv	PASS	
+Analysis manifest output: COPD-V2-RC-R009_score_metrics.tsv	PASS	
+Analysis manifest output: COPD-V2-RC-R010_delta_metrics.tsv	PASS	
+Analysis manifest output: COPD-V2-RC-R011_sign_transitions.tsv	PASS	
+Analysis manifest output: COPD-V2-RC-R012_forward_tail_metrics.tsv	PASS	
+Analysis manifest output: COPD-V2-RC-R013_call_transitions.tsv	PASS	
+Analysis manifest output: COPD-V2-RC-R014_model_context_transitions.tsv	PASS	
+Analysis manifest output: COPD-V2-RC-R015_threshold_proximity.tsv	PASS	
+Analysis manifest output: COPD-V2-RC-R016_forward_region_bins.tsv	PASS	
+Analysis manifest output: COPD-V2-RC-R017_subset_support_summary.tsv	PASS	
+Analysis manifest output: COPD-V2-RC-R018_severity.tsv	PASS	
+Analysis manifest output: COPD-V2-RC-R019_gate_failure_transitions.tsv	PASS	
+Analysis manifest output: COPD-V2-RC-R020_analysis_validation.tsv	PASS	
+Analysis summary hash matches	PASS	
+Analyzer internal checks complete and pass	PASS	
+Figure specification and all consumed hashes	PASS	
+Four required figure families available in PNG/PDF	PASS	
+Every graphical artifact has matching manifest hash/size	PASS	
+Historical failed attempt preserved without modifying specification	PASS	
+Numerical-panel batching correction documented; unique panel unchanged	PASS	
+Required detailed audit report exists	PASS	
+Detailed report states complete census and prespecified severity	PASS	
+Report local artifact links resolve	PASS	[]
+Register rectangular unique-ID structure: activity_log.tsv	PASS	
+Previous register content preserved: activity_log.tsv	PASS	
+RC completion appended to register: activity_log.tsv	PASS	
+Register rectangular unique-ID structure: gap_closure_decision_register.tsv	PASS	
+Previous register content preserved: gap_closure_decision_register.tsv	PASS	
+RC completion appended to register: gap_closure_decision_register.tsv	PASS	
+Register rectangular unique-ID structure: gap_closure_result_register.tsv	PASS	
+Previous register content preserved: gap_closure_result_register.tsv	PASS	
+RC completion appended to register: gap_closure_result_register.tsv	PASS	
+All registered results resolve, including planned final QC outputs	PASS	
+Historical phenotype checksum ledger retained unchanged	PASS	
+Original V1 freeze snapshot hashes remain unchanged	PASS	3 freeze anchors
+Every original R003 consumed-file hash still matches	PASS	8 frozen source/model hashes
+All consumed inputs and resolved model paths immutable	PASS	29 inputs; altered=[]
+Tracked V1 path inventory and stages unchanged	PASS	
+Every tracked V1 content hash and Git index blob unchanged	PASS	232 files; altered=[]
+Entire V1 tree path inventory unchanged, including ignored outputs	PASS	3841 entries
+Entire V1 tree metadata unchanged, including symlinks and ignored outputs	PASS	altered=[]
+No unauthorized commit created during RC audit	PASS	
+Tracked V1 remains unchanged from original freeze commit	PASS	[]
+Locked specification still unchanged at completion	PASS	

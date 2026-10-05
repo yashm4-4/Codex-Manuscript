@@ -1,0 +1,83 @@
+2026-10-05T21:04:53.632896+00:00 Starting frozen preflight; no RC inference authorized before every gate passes
+2026-10-05T21:04:55.056147+00:00 V1 baseline captured: 232 tracked files, 3841 filesystem entries
+2026-10-05T21:04:57.242226+00:00 All frozen R003 model, FASTA, forward-score and inference-source hashes verified
+2026-10-05T21:05:01.804156+00:00 Validated transformations for 3000/15303 pairs (no inference)
+2026-10-05T21:05:04.215459+00:00 Validated transformations for 6000/15303 pairs (no inference)
+2026-10-05T21:05:06.609019+00:00 Validated transformations for 9000/15303 pairs (no inference)
+2026-10-05T21:05:08.996278+00:00 Validated transformations for 12000/15303 pairs (no inference)
+2026-10-05T21:05:11.390497+00:00 Validated transformations for 15000/15303 pairs (no inference)
+2026-10-05T21:05:12.242549+00:00 Sequence/identity/hash/forward-call preflight PASSED; forward numerical panel n=142 next
+2026-10-05T21:05:26.024837+00:00 STOP: RuntimeError: forward numerical gate FAILED: {'enhancer': {'max_score_absolute_error': 0.00017738349035645307, 'max_delta_absolute_error': 0.0001686811174010927, 'pass': False}, 'silencer': {'max_score_absolute_error': 0.00016963469519037933, 'max_delta_absolute_error': 9.47717170181328e-05, 'pass': False}}
+2026-10-05T21:07:33.078800+00:00 Starting frozen preflight; no RC inference authorized before every gate passes
+2026-10-05T21:07:33.089993+00:00 IMPLEMENTATION CORRECTION: preserve failed partial-batch verification; pad forward-only execution to full64 minibatches, retain same142 panel IDs and unchanged tolerances; RC batches remain original V1 shapes
+2026-10-05T21:07:34.448685+00:00 V1 baseline captured: 232 tracked files, 3841 filesystem entries
+2026-10-05T21:07:35.884800+00:00 All frozen R003 model, FASTA, forward-score and inference-source hashes verified
+2026-10-05T21:07:40.433910+00:00 Validated transformations for 3000/15303 pairs (no inference)
+2026-10-05T21:07:42.924852+00:00 Validated transformations for 6000/15303 pairs (no inference)
+2026-10-05T21:07:45.338332+00:00 Validated transformations for 9000/15303 pairs (no inference)
+2026-10-05T21:07:47.741481+00:00 Validated transformations for 12000/15303 pairs (no inference)
+2026-10-05T21:07:50.148422+00:00 Validated transformations for 15000/15303 pairs (no inference)
+2026-10-05T21:07:51.015675+00:00 Sequence/identity/hash/forward-call preflight PASSED; forward numerical panel n=142 next
+2026-10-05T21:08:01.421661+00:00 FORWARD NUMERICAL GATE PASSED: {'enhancer': {'max_score_absolute_error': 4.971313360968566e-10, 'max_delta_absolute_error': 9.598388750475806e-10, 'pass': True}, 'silencer': {'max_score_absolute_error': 4.973449430067944e-10, 'max_delta_absolute_error': 9.569701697742516e-10, 'pass': True}}; launching RC inference for all15303 pairs
+2026-10-05T21:08:01.905363+00:00 RC scored 256/15303 pairs
+2026-10-05T21:08:02.362450+00:00 RC scored 512/15303 pairs
+2026-10-05T21:08:02.822223+00:00 RC scored 768/15303 pairs
+2026-10-05T21:08:03.280688+00:00 RC scored 1024/15303 pairs
+2026-10-05T21:08:03.736202+00:00 RC scored 1280/15303 pairs
+2026-10-05T21:08:04.200095+00:00 RC scored 1536/15303 pairs
+2026-10-05T21:08:04.661293+00:00 RC scored 1792/15303 pairs
+2026-10-05T21:08:05.119346+00:00 RC scored 2048/15303 pairs
+2026-10-05T21:08:05.580017+00:00 RC scored 2304/15303 pairs
+2026-10-05T21:08:06.038335+00:00 RC scored 2560/15303 pairs
+2026-10-05T21:08:06.503440+00:00 RC scored 2816/15303 pairs
+2026-10-05T21:08:06.964059+00:00 RC scored 3072/15303 pairs
+2026-10-05T21:08:07.430803+00:00 RC scored 3328/15303 pairs
+2026-10-05T21:08:07.906480+00:00 RC scored 3584/15303 pairs
+2026-10-05T21:08:08.367544+00:00 RC scored 3840/15303 pairs
+2026-10-05T21:08:08.820463+00:00 RC scored 4096/15303 pairs
+2026-10-05T21:08:09.286258+00:00 RC scored 4352/15303 pairs
+2026-10-05T21:08:09.743272+00:00 RC scored 4608/15303 pairs
+2026-10-05T21:08:10.203359+00:00 RC scored 4864/15303 pairs
+2026-10-05T21:08:10.665623+00:00 RC scored 5120/15303 pairs
+2026-10-05T21:08:11.125540+00:00 RC scored 5376/15303 pairs
+2026-10-05T21:08:11.585654+00:00 RC scored 5632/15303 pairs
+2026-10-05T21:08:12.049205+00:00 RC scored 5888/15303 pairs
+2026-10-05T21:08:12.615066+00:00 RC scored 6144/15303 pairs
+2026-10-05T21:08:13.078954+00:00 RC scored 6400/15303 pairs
+2026-10-05T21:08:13.535897+00:00 RC scored 6656/15303 pairs
+2026-10-05T21:08:13.997966+00:00 RC scored 6912/15303 pairs
+2026-10-05T21:08:14.455668+00:00 RC scored 7168/15303 pairs
+2026-10-05T21:08:14.916351+00:00 RC scored 7424/15303 pairs
+2026-10-05T21:08:15.379396+00:00 RC scored 7680/15303 pairs
+2026-10-05T21:08:15.861091+00:00 RC scored 7936/15303 pairs
+2026-10-05T21:08:16.320942+00:00 RC scored 8192/15303 pairs
+2026-10-05T21:08:16.781768+00:00 RC scored 8448/15303 pairs
+2026-10-05T21:08:17.242851+00:00 RC scored 8704/15303 pairs
+2026-10-05T21:08:17.704474+00:00 RC scored 8960/15303 pairs
+2026-10-05T21:08:18.167027+00:00 RC scored 9216/15303 pairs
+2026-10-05T21:08:18.626809+00:00 RC scored 9472/15303 pairs
+2026-10-05T21:08:19.084259+00:00 RC scored 9728/15303 pairs
+2026-10-05T21:08:19.543802+00:00 RC scored 9984/15303 pairs
+2026-10-05T21:08:20.004223+00:00 RC scored 10240/15303 pairs
+2026-10-05T21:08:20.465691+00:00 RC scored 10496/15303 pairs
+2026-10-05T21:08:20.922963+00:00 RC scored 10752/15303 pairs
+2026-10-05T21:08:21.384815+00:00 RC scored 11008/15303 pairs
+2026-10-05T21:08:21.845903+00:00 RC scored 11264/15303 pairs
+2026-10-05T21:08:22.310381+00:00 RC scored 11520/15303 pairs
+2026-10-05T21:08:22.766998+00:00 RC scored 11776/15303 pairs
+2026-10-05T21:08:23.227291+00:00 RC scored 12032/15303 pairs
+2026-10-05T21:08:23.690381+00:00 RC scored 12288/15303 pairs
+2026-10-05T21:08:24.150443+00:00 RC scored 12544/15303 pairs
+2026-10-05T21:08:24.613618+00:00 RC scored 12800/15303 pairs
+2026-10-05T21:08:25.069952+00:00 RC scored 13056/15303 pairs
+2026-10-05T21:08:25.532315+00:00 RC scored 13312/15303 pairs
+2026-10-05T21:08:25.993000+00:00 RC scored 13568/15303 pairs
+2026-10-05T21:08:26.450551+00:00 RC scored 13824/15303 pairs
+2026-10-05T21:08:26.911931+00:00 RC scored 14080/15303 pairs
+2026-10-05T21:08:27.376933+00:00 RC scored 14336/15303 pairs
+2026-10-05T21:08:27.844332+00:00 RC scored 14592/15303 pairs
+2026-10-05T21:08:28.315004+00:00 RC scored 14848/15303 pairs
+2026-10-05T21:08:28.775467+00:00 RC scored 15104/15303 pairs
+2026-10-05T21:08:29.480480+00:00 RC scored 15303/15303 pairs
+2026-10-05T21:08:29.563389+00:00 Complete15303-pair RC output written; rechecking V1 immutability
+2026-10-05T21:08:31.302470+00:00 SCORING COMPLETE; V1 unchanged; manifest diseases/COPD/07_gap_closure/provenance/COPD-V2-RC_scoring_manifest.json

@@ -1,0 +1,49 @@
+{
+  "result_id": "COPD-V2-RC-QC-FINAL",
+  "status": "PASS",
+  "v1_unchanged": true,
+  "overall_severity": "scientifically_material",
+  "scorable_pairs": 15303,
+  "original_records": 15389,
+  "frozen_candidates": 337,
+  "shortlist_entries": 12,
+  "direct_COPD_candidates": 184,
+  "sole_GCST90244098_candidates": 124,
+  "numerical_gate": {
+    "enhancer": {
+      "max_score_error": 4.971313360968566e-10,
+      "max_delta_error": 9.598388750475806e-10
+    },
+    "silencer": {
+      "max_score_error": 4.973449430067944e-10,
+      "max_delta_error": 9.569701697742516e-10
+    }
+  },
+  "tracked_files": 232,
+  "tree_entries": 3841,
+  "consumed_inputs": 29,
+  "analysis_checks": 50,
+  "graphical_files": 8,
+  "completed_modules": [
+    "frozen_model_reverse_complement_robustness_audit"
+  ],
+  "no_new_model_training_or_replacement_ranking": true,
+  "validator": "diseases/COPD/07_gap_closure/scripts/validate_reverse_complement_audit.py",
+  "validator_sha256": "f8a834858d13328cfd05092b3187cb9a658212394c3758bd5054e93469ed30aa",
+  "specification_sha256": "09d3656f3e06c24fa5402c28b976d6be06fff91604ad0b7b29c3150120d76ac1",
+  "completed_utc": "2026-10-05T21:18:23.721554+00:00",
+  "checks": 453,
+  "passed": 453,
+  "failed": 0,
+  "implementation_independence": "No scoring or analyzer import; reconstruct from original V1 scores and raw RC scores",
+  "command": [
+    "diseases/COPD/07_gap_closure/scripts/validate_reverse_complement_audit.py",
+    "--final"
+  ],
+  "executable": "/usr/local/bin/python3",
+  "working_directory": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow",
+  "python": "3.9.15 | packaged by conda-forge | (main, Nov 22 2022, 08:45:29) \n[GCC 10.4.0]",
+  "numpy": "1.24.4",
+  "pandas": "2.0.3",
+  "checksum_self_exclusion": "COPD-V2-RC_artifact_checksums.tsv is excluded to avoid a recursive self-hash"
+}

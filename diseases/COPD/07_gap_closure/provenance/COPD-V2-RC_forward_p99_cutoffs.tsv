@@ -1,0 +1,5 @@
+model_type	variant_class_group	n_eligible_background	forward_abs_delta_p99	frozen_abs_delta_cutoff	region_score_cutoff
+enhancer	SNV	13747	0.13605310671999984	0.0570631876999999	0.643623
+enhancer	indel_or_complex	1536	0.12290661745000049	0.0493609385	0.643623
+silencer	SNV	13747	0.07656212462	0.0288026138999999	0.58505
+silencer	indel_or_complex	1536	0.05564319075000003	0.0261833595	0.58505

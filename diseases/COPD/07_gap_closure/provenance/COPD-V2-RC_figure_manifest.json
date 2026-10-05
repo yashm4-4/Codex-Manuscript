@@ -1,0 +1,70 @@
+{
+  "result_id": "COPD-V2-RC-FIGURES",
+  "spec_sha256": "09d3656f3e06c24fa5402c28b976d6be06fff91604ad0b7b29c3150120d76ac1",
+  "python": "3.13.7",
+  "matplotlib": "3.11.0",
+  "inputs": [
+    {
+      "path": "diseases/COPD/04_modeling/results/COPD-S4-R003_candidate_allele_scores.tsv.gz",
+      "sha256": "a75c9a02f43e085e326ad0c785c8b4d120e39ca446b5fdb2769048264acba88c"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-RC-R001_reverse_complement_scores.tsv.gz",
+      "sha256": "a21851fd9cdd71957b37f957c5c5b4edff1ed55a036787bfb02f830f3b53e812"
+    },
+    {
+      "path": "diseases/COPD/04_modeling/results/COPD-S4-R004_prioritized_candidates.tsv.gz",
+      "sha256": "9c803d56489f711b3cd00dfbc0f5532e239478985aa3a29314929c6440299b8b"
+    },
+    {
+      "path": "diseases/COPD/04_modeling/results/COPD-S4-R004_delta_thresholds.tsv",
+      "sha256": "7c5e75edc1d00714c0529c9ff0ca8ef82c728f1324b70bedce23ad155eca12e0"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/scripts/plot_reverse_complement_audit.py",
+      "sha256": "8cb6d4d12b1e92ff1b6b8da4866f7f5c05caa5025d62587fb96b986604f41a6d"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-RC-F001_score_concordance.png",
+      "bytes": 1449599,
+      "sha256": "51edd5c20f2cf6b83fbe5043736f315dc2a55a995c4c703500bfe7957f41caa2"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-RC-F001_score_concordance.pdf",
+      "bytes": 75300,
+      "sha256": "b0aa594cc783b9bdd7734eceb3bbdd0fc3c992b90bf17aa25f0465b26ef4957e"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-RC-F002_delta_concordance.png",
+      "bytes": 465060,
+      "sha256": "cb3f7003a46b3434a762c0f9144e24a5092245a1981c46d7d4dec55fe3faca3e"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-RC-F002_delta_concordance.pdf",
+      "bytes": 101326,
+      "sha256": "05e11c18c065741902551da3cdab8ccf00f5bddd3bc6d745dfc5c53f6cc61ed3"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-RC-F003_threshold_proximity.png",
+      "bytes": 950818,
+      "sha256": "de00c504ad1810a4908aa5c0772176e2793ead184ec2e710a9793f8ebf009ec5"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-RC-F003_threshold_proximity.pdf",
+      "bytes": 90609,
+      "sha256": "ac9e0b2686f4cb389363041764649e6742704b39394dcbdef3171814dc38441d"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-RC-F004_call_transitions.png",
+      "bytes": 254921,
+      "sha256": "bf1f763b84c4584937d9b97609296314eaa0a0f73b325bc10a769a2d25237c9f"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-RC-F004_call_transitions.pdf",
+      "bytes": 45581,
+      "sha256": "b99a8105a77d477d69a73027a17676f799b334ca10544b788057b25c400e6671"
+    }
+  ]
+}

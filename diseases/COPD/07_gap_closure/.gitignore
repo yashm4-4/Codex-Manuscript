@@ -13,3 +13,20 @@
 !logs/README.md
 !logs/COPD-V2-PHENO_run_log.json
 __pycache__/
+
+# Authorized frozen-model RC audit artifacts; runtime caches are not results.
+!results/COPD-V2-RC*.tsv
+!results/COPD-V2-RC*.tsv.gz
+!results/COPD-V2-RC*.json
+!results/COPD-V2-RC*.md
+!results/COPD-V2-RC*.png
+!results/COPD-V2-RC*.pdf
+!logs/COPD-V2-RC*.log
+!logs/COPD-V2-RC*.json
+logs/rc_runtime/
+logs/rc_cache/
+logs/matplotlib/
+logs/cuda_cache/
+logs/tmp/
+provenance/runtime/
+provenance/COPD-V2-RC_runtime/

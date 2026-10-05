@@ -11,3 +11,20 @@ V2 report/register edits to refresh the final artifact manifest.
 
 Run both from the repository root as shown in the report. Neither script
 trains models, scores alleles, recalculates LD, maps targets or reranks V1.
+
+## Frozen-model reverse-complement audit
+
+- `run_reverse_complement_scoring.py`: locked preflight, all-sequence checks,
+  deterministic forward verification, then exact frozen-model RC inference.
+  It refuses to overwrite an existing RC score file.
+- `analyze_reverse_complement_audit.py`: original-threshold comparisons,
+  rank-preserved subsets and prespecified quantitative/severity tables.
+- `plot_reverse_complement_audit.py`: four standalone PNG/PDF figure families.
+- `validate_reverse_complement_audit.py`: independent source-based result
+  reconstruction, V1/spec integrity checks and final artifact checksums.
+
+The RC report records the compatible Python/library invocation. The first
+verification attempt exposed partial-batch numerical dependence; the corrected
+verification pads execution to full minibatches while retaining exactly the
+same 142 assessed IDs and fixed tolerances. RC scoring preserves original V1
+batch shapes. Every new output is confined to V2; no script retrains or modifies V1.

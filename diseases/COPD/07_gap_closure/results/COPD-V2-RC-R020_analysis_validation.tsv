@@ -1,0 +1,51 @@
+check_id	check	status	detail
+COPD-V2-RC-AQC-001	locked_specification	PASS	09d3656f3e06c24fa5402c28b976d6be06fff91604ad0b7b29c3150120d76ac1
+COPD-V2-RC-AQC-002	complete_scorable_record_identity	PASS	15303 exact paired IDs; no duplicate or excluded score
+COPD-V2-RC-AQC-003	frozen_call_eligibility	PASS	15283 eligible and 20 scorable blacklisted
+COPD-V2-RC-AQC-004	forward_175_199_37_337	PASS	inclusive original thresholds and eligibility; authoritative REF/ALT subtraction
+COPD-V2-RC-AQC-005	frozen_337_order	PASS	original R010 identity and 1..337 rank
+COPD-V2-RC-AQC-006	shortlist_12_order	PASS	original S6 identity and 1..12 shortlist rank
+COPD-V2-RC-AQC-007	phenotype_subsets	PASS	frozen phenotype flags used descriptively
+COPD-V2-RC-AQC-008	literature_coverage	PASS	all8 prior register rows; only2 exact extant IDs; no LD substitution
+COPD-V2-RC-AQC-009	blacklisted_calls_stay_negative	PASS	all20 included in score metrics and excluded from calls
+COPD-V2-RC-AQC-010	call_transition_reconciliation_all_15303	PASS	each model and union 2x2 sums to 15303
+COPD-V2-RC-AQC-011	context_reconciliation_all_15303	PASS	4x4 sums to 15303
+COPD-V2-RC-AQC-012	sign_reconciliation_all_15303	PASS	each raw/meaningful model 3x3 sums to 15303
+COPD-V2-RC-AQC-013	gate_loss_reconciliation_all_15303	PASS	region-only/delta-only/both failures exactly exhaust each lost/gained call
+COPD-V2-RC-AQC-014	call_transition_reconciliation_SNV	PASS	each model and union 2x2 sums to 13764
+COPD-V2-RC-AQC-015	context_reconciliation_SNV	PASS	4x4 sums to 13764
+COPD-V2-RC-AQC-016	sign_reconciliation_SNV	PASS	each raw/meaningful model 3x3 sums to 13764
+COPD-V2-RC-AQC-017	gate_loss_reconciliation_SNV	PASS	region-only/delta-only/both failures exactly exhaust each lost/gained call
+COPD-V2-RC-AQC-018	call_transition_reconciliation_indel_or_complex	PASS	each model and union 2x2 sums to 1539
+COPD-V2-RC-AQC-019	context_reconciliation_indel_or_complex	PASS	4x4 sums to 1539
+COPD-V2-RC-AQC-020	sign_reconciliation_indel_or_complex	PASS	each raw/meaningful model 3x3 sums to 1539
+COPD-V2-RC-AQC-021	gate_loss_reconciliation_indel_or_complex	PASS	region-only/delta-only/both failures exactly exhaust each lost/gained call
+COPD-V2-RC-AQC-022	call_transition_reconciliation_call_eligible	PASS	each model and union 2x2 sums to 15283
+COPD-V2-RC-AQC-023	context_reconciliation_call_eligible	PASS	4x4 sums to 15283
+COPD-V2-RC-AQC-024	sign_reconciliation_call_eligible	PASS	each raw/meaningful model 3x3 sums to 15283
+COPD-V2-RC-AQC-025	gate_loss_reconciliation_call_eligible	PASS	region-only/delta-only/both failures exactly exhaust each lost/gained call
+COPD-V2-RC-AQC-026	call_transition_reconciliation_blacklisted	PASS	each model and union 2x2 sums to 20
+COPD-V2-RC-AQC-027	context_reconciliation_blacklisted	PASS	4x4 sums to 20
+COPD-V2-RC-AQC-028	sign_reconciliation_blacklisted	PASS	each raw/meaningful model 3x3 sums to 20
+COPD-V2-RC-AQC-029	gate_loss_reconciliation_blacklisted	PASS	region-only/delta-only/both failures exactly exhaust each lost/gained call
+COPD-V2-RC-AQC-030	call_transition_reconciliation_frozen_337	PASS	each model and union 2x2 sums to 337
+COPD-V2-RC-AQC-031	context_reconciliation_frozen_337	PASS	4x4 sums to 337
+COPD-V2-RC-AQC-032	sign_reconciliation_frozen_337	PASS	each raw/meaningful model 3x3 sums to 337
+COPD-V2-RC-AQC-033	gate_loss_reconciliation_frozen_337	PASS	region-only/delta-only/both failures exactly exhaust each lost/gained call
+COPD-V2-RC-AQC-034	call_transition_reconciliation_direct_COPD_184	PASS	each model and union 2x2 sums to 184
+COPD-V2-RC-AQC-035	context_reconciliation_direct_COPD_184	PASS	4x4 sums to 184
+COPD-V2-RC-AQC-036	sign_reconciliation_direct_COPD_184	PASS	each raw/meaningful model 3x3 sums to 184
+COPD-V2-RC-AQC-037	gate_loss_reconciliation_direct_COPD_184	PASS	region-only/delta-only/both failures exactly exhaust each lost/gained call
+COPD-V2-RC-AQC-038	call_transition_reconciliation_sole_GCST90244098_124	PASS	each model and union 2x2 sums to 124
+COPD-V2-RC-AQC-039	context_reconciliation_sole_GCST90244098_124	PASS	4x4 sums to 124
+COPD-V2-RC-AQC-040	sign_reconciliation_sole_GCST90244098_124	PASS	each raw/meaningful model 3x3 sums to 124
+COPD-V2-RC-AQC-041	gate_loss_reconciliation_sole_GCST90244098_124	PASS	region-only/delta-only/both failures exactly exhaust each lost/gained call
+COPD-V2-RC-AQC-042	call_transition_reconciliation_shortlist_12	PASS	each model and union 2x2 sums to 12
+COPD-V2-RC-AQC-043	context_reconciliation_shortlist_12	PASS	4x4 sums to 12
+COPD-V2-RC-AQC-044	sign_reconciliation_shortlist_12	PASS	each raw/meaningful model 3x3 sums to 12
+COPD-V2-RC-AQC-045	gate_loss_reconciliation_shortlist_12	PASS	region-only/delta-only/both failures exactly exhaust each lost/gained call
+COPD-V2-RC-AQC-046	call_transition_reconciliation_exact_v1_literature	PASS	each model and union 2x2 sums to 2
+COPD-V2-RC-AQC-047	context_reconciliation_exact_v1_literature	PASS	4x4 sums to 2
+COPD-V2-RC-AQC-048	sign_reconciliation_exact_v1_literature	PASS	each raw/meaningful model 3x3 sums to 2
+COPD-V2-RC-AQC-049	gate_loss_reconciliation_exact_v1_literature	PASS	region-only/delta-only/both failures exactly exhaust each lost/gained call
+COPD-V2-RC-AQC-050	inputs_unchanged_during_analysis	PASS	all consumed input hashes rechecked; broader V1 freeze checked by final validator

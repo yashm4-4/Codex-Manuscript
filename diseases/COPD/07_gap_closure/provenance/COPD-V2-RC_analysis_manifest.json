@@ -1,0 +1,232 @@
+{
+  "analysis_id": "COPD-V2-RC-ANALYSIS-001",
+  "analysis_qc_passed": 50,
+  "command": [
+    "diseases/COPD/07_gap_closure/scripts/analyze_reverse_complement_audit.py"
+  ],
+  "completed_utc": "2026-10-05T21:08:59.721026+00:00",
+  "input_hashes_unchanged": true,
+  "inputs": {
+    "cutoffs": {
+      "path": "diseases/COPD/04_modeling/results/COPD-S4-R004_delta_thresholds.tsv",
+      "sha256": "7c5e75edc1d00714c0529c9ff0ca8ef82c728f1324b70bedce23ad155eca12e0",
+      "size_bytes": 450
+    },
+    "forward": {
+      "path": "diseases/COPD/04_modeling/results/COPD-S4-R003_candidate_allele_scores.tsv.gz",
+      "sha256": "a75c9a02f43e085e326ad0c785c8b4d120e39ca446b5fdb2769048264acba88c",
+      "size_bytes": 614546
+    },
+    "frozen337": {
+      "path": "diseases/COPD/04_modeling/results/COPD-S4-R010_THE_LIST.tsv",
+      "sha256": "8241fcb2296ecd80c12fe97277daa2d8c8de87c86a3d8c895628be11cd3b49ce",
+      "size_bytes": 399805
+    },
+    "literature": {
+      "path": "diseases/COPD/04_modeling/results/COPD-S4-R009_literature_functional_variant_recovery.tsv",
+      "sha256": "5603c1b59bc59b15fb08a985cf3e19390fdb0793602817da375c33fa7a4f6859",
+      "size_bytes": 4664
+    },
+    "p99": {
+      "path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-RC_forward_p99_cutoffs.tsv",
+      "sha256": "4d25d5e50d47e27d49beca23f14f9a8d00c79a4e064d0f4fb6ef5a01aed7a244",
+      "size_bytes": 391
+    },
+    "phenotype": {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PHENO-R005_frozen_337_phenotype_support.tsv",
+      "sha256": "4db3392b82178e7bbfd9c95b8cc1048a429c6fd04a092ff68fbb834697bfa694",
+      "size_bytes": 177657
+    },
+    "phenotype_shortlist": {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PHENO-R007_shortlist_phenotype_support.tsv",
+      "sha256": "4c7035ba0c417b838e41bf4691310c649c5421ffbf277b59a3e16b05f1fe2355",
+      "size_bytes": 7767
+    },
+    "preflight": {
+      "path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-RC_preflight_manifest.json",
+      "sha256": "612a7f209235eab6e223183b06b6af609884d48995890651d2b625ce536ed0b8",
+      "size_bytes": 23304
+    },
+    "prioritized": {
+      "path": "diseases/COPD/04_modeling/results/COPD-S4-R004_prioritized_candidates.tsv.gz",
+      "sha256": "9c803d56489f711b3cd00dfbc0f5532e239478985aa3a29314929c6440299b8b",
+      "size_bytes": 2699976
+    },
+    "rc": {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-RC-R001_reverse_complement_scores.tsv.gz",
+      "sha256": "a21851fd9cdd71957b37f957c5c5b4edff1ed55a036787bfb02f830f3b53e812",
+      "size_bytes": 979250
+    },
+    "sequence_qc": {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-RC-R002_sequence_transformation_qc.tsv.gz",
+      "sha256": "b887b8a4eca52282ed8e6a8e1034ba1870df85bc1630ffd7dcb9844bc8d86f7d",
+      "size_bytes": 2507242
+    },
+    "shortlist": {
+      "path": "diseases/COPD/06_experimental_validation/results/COPD-S6-R001_candidate_shortlist.tsv",
+      "sha256": "4d623a6290a885c1e5fcc297a437001c330315a43615e9ae1ac818178905d535",
+      "size_bytes": 32532
+    },
+    "specification": {
+      "path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-RC_analysis_specification.md",
+      "sha256": "09d3656f3e06c24fa5402c28b976d6be06fff91604ad0b7b29c3150120d76ac1",
+      "size_bytes": 11792
+    }
+  },
+  "outputs": [
+    {
+      "columns": 161,
+      "path": "results/COPD-V2-RC-R004_all_scorable_comparison.tsv.gz",
+      "result_id": "COPD-V2-RC-R004",
+      "rows": 15303,
+      "sha256": "157602e13c4224f4ca14aec36b6feacb3c68a03b4506af9e86235dca5cfafe50",
+      "size_bytes": 6629433
+    },
+    {
+      "columns": 161,
+      "path": "results/COPD-V2-RC-R005_frozen_337_comparison.tsv",
+      "result_id": "COPD-V2-RC-R005",
+      "rows": 337,
+      "sha256": "6daee91673796850111ba15dc02e4423e0709144dadfebde70a96dcae5e8edfb",
+      "size_bytes": 683332
+    },
+    {
+      "columns": 161,
+      "path": "results/COPD-V2-RC-R006_shortlist_12_comparison.tsv",
+      "result_id": "COPD-V2-RC-R006",
+      "rows": 12,
+      "sha256": "2d47f99e84620bd8e68827f4e2f6285911827479a1c82672878c898c5c9750cf",
+      "size_bytes": 28183
+    },
+    {
+      "columns": 25,
+      "path": "results/COPD-V2-RC-R007_literature_coverage.tsv",
+      "result_id": "COPD-V2-RC-R007",
+      "rows": 8,
+      "sha256": "0bc402647da4cc1b0e47d2c700cdfc8f18067177176cb1c5fb344f0021656d19",
+      "size_bytes": 6056
+    },
+    {
+      "columns": 167,
+      "path": "results/COPD-V2-RC-R008_exact_literature_comparison.tsv",
+      "result_id": "COPD-V2-RC-R008",
+      "rows": 2,
+      "sha256": "b7b85dce8fe2ed582e21c4b2fbc935b2eac9c0728ae0eb87faa4c4161672b767",
+      "size_bytes": 9204
+    },
+    {
+      "columns": 17,
+      "path": "results/COPD-V2-RC-R009_score_metrics.tsv",
+      "result_id": "COPD-V2-RC-R009",
+      "rows": 60,
+      "sha256": "77a06306c984517dee6d56f0a6c5ede2542b5e272fd62ebeb349c44656e52904",
+      "size_bytes": 16418
+    },
+    {
+      "columns": 37,
+      "path": "results/COPD-V2-RC-R010_delta_metrics.tsv",
+      "result_id": "COPD-V2-RC-R010",
+      "rows": 20,
+      "sha256": "23f69dff94d3ec3f92ae9b341f6c256f69fc7fd52b6d3284b57ac11e3e5e5770",
+      "size_bytes": 12220
+    },
+    {
+      "columns": 9,
+      "path": "results/COPD-V2-RC-R011_sign_transitions.tsv",
+      "result_id": "COPD-V2-RC-R011",
+      "rows": 360,
+      "sha256": "6544ebe90959cc23ef3b890833f02ef3c089c78a06d80b153332d7a46483e5ea",
+      "size_bytes": 24099
+    },
+    {
+      "columns": 45,
+      "path": "results/COPD-V2-RC-R012_forward_tail_metrics.tsv",
+      "result_id": "COPD-V2-RC-R012",
+      "rows": 40,
+      "sha256": "09bc6cdc36234257b47343c21c269e0ff5311605ff6c8fca377c193726446b9e",
+      "size_bytes": 27974
+    },
+    {
+      "columns": 18,
+      "path": "results/COPD-V2-RC-R013_call_transitions.tsv",
+      "result_id": "COPD-V2-RC-R013",
+      "rows": 30,
+      "sha256": "543974eb3455b3153fac85eb33467c7ebb6acec74940769fedb73c1b37912c99",
+      "size_bytes": 3768
+    },
+    {
+      "columns": 7,
+      "path": "results/COPD-V2-RC-R014_model_context_transitions.tsv",
+      "result_id": "COPD-V2-RC-R014",
+      "rows": 160,
+      "sha256": "fb0523255b411b087caf9707d0a254e2048772fe1dd5b3db1e90fcb1d6d041bb",
+      "size_bytes": 9706
+    },
+    {
+      "columns": 33,
+      "path": "results/COPD-V2-RC-R015_threshold_proximity.tsv",
+      "result_id": "COPD-V2-RC-R015",
+      "rows": 80,
+      "sha256": "067c041a7c9b551204390aff390c26aee8bc2b856edba4389f79f2df2ddfcd8c",
+      "size_bytes": 22831
+    },
+    {
+      "columns": 22,
+      "path": "results/COPD-V2-RC-R016_forward_region_bins.tsv",
+      "result_id": "COPD-V2-RC-R016",
+      "rows": 100,
+      "sha256": "803a308918abcb436fb13c1934deb35dfc4f627713378a93df5db4e7cb230874",
+      "size_bytes": 31206
+    },
+    {
+      "columns": 33,
+      "path": "results/COPD-V2-RC-R017_subset_support_summary.tsv",
+      "result_id": "COPD-V2-RC-R017",
+      "rows": 10,
+      "sha256": "1d98142b3371ecf06e840eadd2e6b5bded20f527af72e8417761f48a2e72f506",
+      "size_bytes": 3703
+    },
+    {
+      "columns": 7,
+      "path": "results/COPD-V2-RC-R018_severity.tsv",
+      "result_id": "COPD-V2-RC-R018",
+      "rows": 9,
+      "sha256": "3aa14227b43f93aa08e474f528d0c41804f86c66387d880b168cb274d0f324ad",
+      "size_bytes": 3755
+    },
+    {
+      "columns": 8,
+      "path": "results/COPD-V2-RC-R019_gate_failure_transitions.tsv",
+      "result_id": "COPD-V2-RC-R019",
+      "rows": 120,
+      "sha256": "63b561880da27abe91c0d3954a29479251af7bbcbc4fdbc551fb4ffcf208bf5f",
+      "size_bytes": 9428
+    },
+    {
+      "columns": 4,
+      "path": "results/COPD-V2-RC-R020_analysis_validation.tsv",
+      "result_id": "COPD-V2-RC-R020",
+      "rows": 50,
+      "sha256": "1bcdd810036f600d2475f54eb0d0115a01723b27e1ff256a1a831c72528cbdeb",
+      "size_bytes": 5303
+    }
+  ],
+  "script": {
+    "path": "diseases/COPD/07_gap_closure/scripts/analyze_reverse_complement_audit.py",
+    "sha256": "e00e17dd17d40c3a129158ac61b05e3b4d401ef80f0a221f2b79b70951ee7603"
+  },
+  "software": {
+    "executable": "/usr/local/Anaconda/envs/_slurm-extras-24.05/bin/python3.13",
+    "numpy": "2.5.0",
+    "pandas": "3.0.3",
+    "platform": "Linux-4.18.0-425.19.3b.el8.x86_64-x86_64-with-glibc2.28",
+    "python": "3.13.7 | packaged by conda-forge | (main, Sep  3 2025, 14:30:35) [GCC 14.3.0]",
+    "scipy": "1.18.0"
+  },
+  "spec_sha256": "09d3656f3e06c24fa5402c28b976d6be06fff91604ad0b7b29c3150120d76ac1",
+  "started_utc": "2026-10-05T21:08:53.017933+00:00",
+  "summary": {
+    "path": "logs/COPD-V2-RC_analysis_summary.json",
+    "sha256": "c241817d6ee8b2a4f5f2719c0055716f5a5a7642950c6bfda386bdf07bf01ed7"
+  }
+}

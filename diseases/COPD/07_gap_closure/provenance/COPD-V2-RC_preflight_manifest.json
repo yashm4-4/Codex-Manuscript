@@ -1,0 +1,554 @@
+{
+  "baseline_files": {
+    "consumed": "diseases/COPD/07_gap_closure/provenance/COPD-V2-RC_consumed_file_hashes.tsv",
+    "tracked": "diseases/COPD/07_gap_closure/provenance/COPD-V2-RC_v1_tracked_hashes_before.tsv",
+    "tree": "diseases/COPD/07_gap_closure/provenance/COPD-V2-RC_v1_tree_stat_before.tsv"
+  },
+  "coverage": {
+    "all_records": 15389,
+    "blacklisted": 20,
+    "canonical_337": 337,
+    "direct_COPD": 184,
+    "eligible": 15283,
+    "scorable_pairs": 15303,
+    "shortlist_12": 12,
+    "sole_GCST90244098": 124
+  },
+  "created_utc": "2026-10-05T21:07:51.009470+00:00",
+  "devices": [
+    "PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')",
+    "PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')"
+  ],
+  "forward_call_counts": {
+    "both": 37,
+    "enhancer": 175,
+    "silencer": 199,
+    "union": 337
+  },
+  "forward_gate_completed_utc": "2026-10-05T21:08:01.417030+00:00",
+  "forward_p99_cutoffs": [
+    {
+      "forward_abs_delta_p99": 0.13605310671999984,
+      "frozen_abs_delta_cutoff": 0.0570631876999999,
+      "model_type": "enhancer",
+      "n_eligible_background": 13747,
+      "region_score_cutoff": 0.643623,
+      "variant_class_group": "SNV"
+    },
+    {
+      "forward_abs_delta_p99": 0.12290661745000049,
+      "frozen_abs_delta_cutoff": 0.0493609385,
+      "model_type": "enhancer",
+      "n_eligible_background": 1536,
+      "region_score_cutoff": 0.643623,
+      "variant_class_group": "indel_or_complex"
+    },
+    {
+      "forward_abs_delta_p99": 0.07656212462,
+      "frozen_abs_delta_cutoff": 0.0288026138999999,
+      "model_type": "silencer",
+      "n_eligible_background": 13747,
+      "region_score_cutoff": 0.58505,
+      "variant_class_group": "SNV"
+    },
+    {
+      "forward_abs_delta_p99": 0.05564319075000003,
+      "frozen_abs_delta_cutoff": 0.0261833595,
+      "model_type": "silencer",
+      "n_eligible_background": 1536,
+      "region_score_cutoff": 0.58505,
+      "variant_class_group": "indel_or_complex"
+    }
+  ],
+  "forward_verification_execution_policy": "Pad142 unique panel entries to192 by repeating first50 solely to restore full64 inference minibatches; assess only prespecified142; original RC15303 batches unchanged",
+  "forward_verification_panel_ids": [
+    "10:103835672:C:G",
+    "10:103836249:T:C",
+    "10:103836883:G:C",
+    "10:103840012:T:G",
+    "10:103841452:C:T",
+    "10:103846326:ACT:A",
+    "10:103849066:C:T",
+    "10:103850568:G:A",
+    "10:103854694:G:T",
+    "10:103855316:C:T",
+    "10:103855704:C:CG",
+    "10:103856724:A:T",
+    "10:103859920:G:A",
+    "10:103867686:C:T",
+    "10:103874831:CTGTG:C",
+    "10:103875137:G:A",
+    "10:103875138:A:T",
+    "10:103875921:T:C",
+    "10:103879572:T:TGCA",
+    "10:103879853:T:C",
+    "10:103881220:C:T",
+    "10:103882177:G:GCAAGTGA",
+    "10:103883045:A:C",
+    "10:103883376:G:A",
+    "10:103883486:G:A",
+    "10:103883574:A:C",
+    "10:103883594:A:G",
+    "10:103883678:C:T",
+    "10:103883712:TC:T",
+    "10:103884517:A:T",
+    "10:103884878:A:C",
+    "10:103884978:T:G",
+    "10:103885864:C:T",
+    "10:103885967:A:G",
+    "10:103886637:C:T",
+    "10:103887542:A:G",
+    "10:103888423:C:CTCTT",
+    "10:103888893:G:C",
+    "10:103889400:G:A",
+    "10:103889695:CTTTTTTTTTTTTTTTT:C",
+    "10:103889814:C:T",
+    "10:103890055:A:G",
+    "10:103890840:G:A",
+    "10:103890868:G:C",
+    "10:103891024:C:T",
+    "10:103891079:T:C",
+    "10:103891122:T:A",
+    "10:103891628:T:C",
+    "10:103891658:G:T",
+    "10:103891899:G:T",
+    "10:103894406:A:G",
+    "10:103894711:A:C",
+    "10:103897116:G:A",
+    "10:103898134:T:C",
+    "10:103898830:G:C",
+    "10:103899629:T:C",
+    "10:103900893:G:A",
+    "10:103901228:T:C",
+    "10:103901557:C:A",
+    "10:103903236:A:G",
+    "10:103904701:A:T",
+    "10:103906987:G:A",
+    "10:103907352:T:C",
+    "10:103907794:G:T",
+    "10:103908414:C:T",
+    "10:103908888:AT:A",
+    "10:103909532:A:G",
+    "10:103909543:C:T",
+    "10:103909546:A:ATG",
+    "10:103909864:T:C",
+    "10:103911090:T:A",
+    "10:103911091:A:T",
+    "10:103911490:C:A",
+    "10:103913084:G:A",
+    "10:103927754:AT:A",
+    "10:12232788:C:CT",
+    "10:12237639:TG:T",
+    "10:12241966:G:GTTC",
+    "10:12241969:C:CTTT",
+    "10:12242083:A:AC",
+    "10:12243129:TG:T",
+    "10:12243386:GA:G",
+    "10:12243628:C:CA",
+    "10:12251683:ATT:A",
+    "10:12254507:CT:C",
+    "10:12257624:CA:C",
+    "10:12258670:G:GGT",
+    "10:12264522:C:CT",
+    "10:12264720:AT:A",
+    "10:12265089:AC:A",
+    "10:20919969:GA:G",
+    "10:20921794:C:CAT",
+    "10:20926405:CT:C",
+    "10:20931116:GA:G",
+    "10:21704611:C:CT",
+    "10:29948719:AC:A",
+    "10:29979092:CAT:C",
+    "10:32379075:G:GT",
+    "10:32380142:CACAT:C",
+    "10:32380144:CATACAT:C",
+    "10:32380173:G:GCA",
+    "10:32383229:T:TA",
+    "10:68199588:GCTGGGA:G",
+    "10:73708789:C:CTTT",
+    "10:73714850:ATT:A",
+    "10:73725224:C:CT",
+    "10:73727164:T:TA",
+    "10:73744991:GACCT:G",
+    "10:73757699:G:GCGAGAGGATTGATTGAGCC",
+    "10:73840192:CGA:C",
+    "10:73872306:C:CTCGGAGGCAGTGCAGT",
+    "10:73878868:AT:A",
+    "10:76560312:TTTC:T",
+    "10:76568228:CT:C",
+    "10:76573260:CAAA:C",
+    "10:76576772:T:TAAG",
+    "10:76577010:CTT:C",
+    "10:76577014:TTA:T",
+    "10:76577083:TAAAG:T",
+    "10:76577809:CTAAT:C",
+    "10:76592306:A:AT",
+    "10:76594042:TTGTC:T",
+    "10:76594313:A:ATCTT",
+    "10:76594464:CT:C",
+    "10:76596198:ATAAG:A",
+    "10:76596305:C:CA",
+    "10:76596966:TAA:T",
+    "10:76597207:T:TTAAG",
+    "11:13140768:T:C",
+    "11:62567436:G:C",
+    "14:92637384:G:A",
+    "15:67150258:C:T",
+    "15:67322629:G:A",
+    "16:28602644:A:G",
+    "16:75478398:G:GC",
+    "17:40058327:G:GCCCAGAC",
+    "1:3528722:G:C",
+    "4:88962828:C:T",
+    "4:88963935:G:T",
+    "6:27556090:G:A",
+    "6:31009903:G:A",
+    "6:4577675:T:A"
+  ],
+  "gate_status": "passed",
+  "git_head": "0ed50782139c9af113420e3e0a85518b620e9215",
+  "input_files": [
+    {
+      "bytes": 11792,
+      "expected_frozen_sha256": "",
+      "label": "specification",
+      "path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-RC_analysis_specification.md",
+      "resolved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/provenance/COPD-V2-RC_analysis_specification.md",
+      "sha256": "09d3656f3e06c24fa5402c28b976d6be06fff91604ad0b7b29c3150120d76ac1"
+    },
+    {
+      "bytes": 914,
+      "expected_frozen_sha256": "",
+      "label": "original_v1_snapshot",
+      "path": "diseases/COPD/07_gap_closure/provenance/v1_snapshot.tsv",
+      "resolved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/provenance/v1_snapshot.tsv",
+      "sha256": "1c6886b698b8ffd20de88cc3a9c3a1852a271068da24faa076e51fded17efa9a"
+    },
+    {
+      "bytes": 29315,
+      "expected_frozen_sha256": "",
+      "label": "scoring_script",
+      "path": "diseases/COPD/07_gap_closure/scripts/run_reverse_complement_scoring.py",
+      "resolved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/scripts/run_reverse_complement_scoring.py",
+      "sha256": "3e7724afda6a302a958918366889c2499f72f69588b375217b27b3b258dc403c"
+    },
+    {
+      "bytes": 3314,
+      "expected_frozen_sha256": "",
+      "label": "frozen_scoring_manifest",
+      "path": "diseases/COPD/04_modeling/results/COPD-S4-R003_scoring_manifest.json",
+      "resolved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R003_scoring_manifest.json",
+      "sha256": "594a90a5f75e4d1fdd6131a514b3b77c493c622415794c791417d1c6d3c91aa0"
+    },
+    {
+      "bytes": 2343,
+      "expected_frozen_sha256": "",
+      "label": "frozen_sequence_manifest",
+      "path": "diseases/COPD/04_modeling/results/COPD-S4-R002_candidate_sequence_manifest.json",
+      "resolved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R002_candidate_sequence_manifest.json",
+      "sha256": "431d7faa2735d0688bad48e077a25809cbdb73cbc194a3bac7b84f706821ebc8"
+    },
+    {
+      "bytes": 4514,
+      "expected_frozen_sha256": "",
+      "label": "frozen_analysis_manifest",
+      "path": "diseases/COPD/04_modeling/results/COPD-S4-R004_analysis_manifest.json",
+      "resolved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R004_analysis_manifest.json",
+      "sha256": "6e35f78dabd43a947be6f5577d5f7cfe900236aa05b2200ac69883f74933eba1"
+    },
+    {
+      "bytes": 30895506,
+      "expected_frozen_sha256": "d45009e7d90f3c72a48ed33be14180e06af3735c15ae72c1f4093d3eeaeb46ab",
+      "label": "ref_fasta",
+      "path": "diseases/COPD/04_modeling/data/COPD_candidate_variants_ref_2001bp.fa",
+      "resolved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/data/COPD_candidate_variants_ref_2001bp.fa",
+      "sha256": "d45009e7d90f3c72a48ed33be14180e06af3735c15ae72c1f4093d3eeaeb46ab"
+    },
+    {
+      "bytes": 30895506,
+      "expected_frozen_sha256": "f52e809e1d6d4da50917d2ff2c3c9e4063543cf42aee52606bd2785238ec5568",
+      "label": "alt_fasta",
+      "path": "diseases/COPD/04_modeling/data/COPD_candidate_variants_alt_2001bp.fa",
+      "resolved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/data/COPD_candidate_variants_alt_2001bp.fa",
+      "sha256": "f52e809e1d6d4da50917d2ff2c3c9e4063543cf42aee52606bd2785238ec5568"
+    },
+    {
+      "bytes": 614546,
+      "expected_frozen_sha256": "a75c9a02f43e085e326ad0c785c8b4d120e39ca446b5fdb2769048264acba88c",
+      "label": "scores",
+      "path": "diseases/COPD/04_modeling/results/COPD-S4-R003_candidate_allele_scores.tsv.gz",
+      "resolved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R003_candidate_allele_scores.tsv.gz",
+      "sha256": "a75c9a02f43e085e326ad0c785c8b4d120e39ca446b5fdb2769048264acba88c"
+    },
+    {
+      "bytes": 278715,
+      "expected_frozen_sha256": "",
+      "label": "sequence_audit",
+      "path": "diseases/COPD/04_modeling/results/COPD-S4-R002_candidate_sequence_audit.tsv.gz",
+      "resolved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R002_candidate_sequence_audit.tsv.gz",
+      "sha256": "efc20c02d9cfe285823773777c7297d735a0ef1923f164fa6067a49ce00d3ad7"
+    },
+    {
+      "bytes": 2699976,
+      "expected_frozen_sha256": "",
+      "label": "prioritized_candidates",
+      "path": "diseases/COPD/04_modeling/results/COPD-S4-R004_prioritized_candidates.tsv.gz",
+      "resolved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R004_prioritized_candidates.tsv.gz",
+      "sha256": "9c803d56489f711b3cd00dfbc0f5532e239478985aa3a29314929c6440299b8b"
+    },
+    {
+      "bytes": 450,
+      "expected_frozen_sha256": "",
+      "label": "delta_thresholds",
+      "path": "diseases/COPD/04_modeling/results/COPD-S4-R004_delta_thresholds.tsv",
+      "resolved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R004_delta_thresholds.tsv",
+      "sha256": "7c5e75edc1d00714c0529c9ff0ca8ef82c728f1324b70bedce23ad155eca12e0"
+    },
+    {
+      "bytes": 659,
+      "expected_frozen_sha256": "",
+      "label": "score_thresholds",
+      "path": "diseases/COPD/04_modeling/results/COPD-S4-R001_test_threshold_performance.tsv",
+      "resolved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R001_test_threshold_performance.tsv",
+      "sha256": "1b3b044ecb3b3a6db73d66af3527884ff5b1bb932f55753beb9e0ea7b2e83b0b"
+    },
+    {
+      "bytes": 399805,
+      "expected_frozen_sha256": "",
+      "label": "canonical_337",
+      "path": "diseases/COPD/04_modeling/results/COPD-S4-R010_THE_LIST.tsv",
+      "resolved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R010_THE_LIST.tsv",
+      "sha256": "8241fcb2296ecd80c12fe97277daa2d8c8de87c86a3d8c895628be11cd3b49ce"
+    },
+    {
+      "bytes": 32532,
+      "expected_frozen_sha256": "",
+      "label": "shortlist_12",
+      "path": "diseases/COPD/06_experimental_validation/results/COPD-S6-R001_candidate_shortlist.tsv",
+      "resolved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/06_experimental_validation/results/COPD-S6-R001_candidate_shortlist.tsv",
+      "sha256": "4d623a6290a885c1e5fcc297a437001c330315a43615e9ae1ac818178905d535"
+    },
+    {
+      "bytes": 177657,
+      "expected_frozen_sha256": "",
+      "label": "phenotype_337",
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PHENO-R005_frozen_337_phenotype_support.tsv",
+      "resolved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/results/COPD-V2-PHENO-R005_frozen_337_phenotype_support.tsv",
+      "sha256": "4db3392b82178e7bbfd9c95b8cc1048a429c6fd04a092ff68fbb834697bfa694"
+    },
+    {
+      "bytes": 7767,
+      "expected_frozen_sha256": "",
+      "label": "phenotype_12",
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PHENO-R007_shortlist_phenotype_support.tsv",
+      "resolved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/results/COPD-V2-PHENO-R007_shortlist_phenotype_support.tsv",
+      "sha256": "4c7035ba0c417b838e41bf4691310c649c5421ffbf277b59a3e16b05f1fe2355"
+    },
+    {
+      "bytes": 4664,
+      "expected_frozen_sha256": "",
+      "label": "literature",
+      "path": "diseases/COPD/04_modeling/results/COPD-S4-R009_literature_functional_variant_recovery.tsv",
+      "resolved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/results/COPD-S4-R009_literature_functional_variant_recovery.tsv",
+      "sha256": "5603c1b59bc59b15fb08a985cf3e19390fdb0793602817da375c33fa7a4f6859"
+    },
+    {
+      "bytes": 12605,
+      "expected_frozen_sha256": "153db5147c5c7e5b4718f5e81cb129d64ae04724f9526fb6f48401f75da2acc9",
+      "label": "inference_source",
+      "path": "models/TREDNET_v2/TREDNet_v2_inference.py",
+      "resolved_path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/TREDNet_v2_inference.py",
+      "sha256": "153db5147c5c7e5b4718f5e81cb129d64ae04724f9526fb6f48401f75da2acc9"
+    },
+    {
+      "bytes": 565399080,
+      "expected_frozen_sha256": "483b6c0cafd750ea8e97932cbc8a949276eaf1e77e7d8766f9a22eeddc2916d6",
+      "label": "phase_one_weights",
+      "path": "diseases/COPD/04_modeling/trednet/model_phase_I/phase_one_weights.h5",
+      "resolved_path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/model_phase_I/phase_one_weights.h5",
+      "sha256": "483b6c0cafd750ea8e97932cbc8a949276eaf1e77e7d8766f9a22eeddc2916d6"
+    },
+    {
+      "bytes": 9182,
+      "expected_frozen_sha256": "",
+      "label": "v1_scoring_script",
+      "path": "diseases/COPD/04_modeling/scripts/03_score_candidate_alleles.py",
+      "resolved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/scripts/03_score_candidate_alleles.py",
+      "sha256": "21a25a74c48dda33ef861fea7242be94ed189f77111e559170e28a1069eebc6b"
+    },
+    {
+      "bytes": 6739,
+      "expected_frozen_sha256": "",
+      "label": "v1_sequence_script",
+      "path": "diseases/COPD/04_modeling/scripts/02_prepare_candidate_alleles.py",
+      "resolved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/scripts/02_prepare_candidate_alleles.py",
+      "sha256": "d1903263f9b720f9d10816432bc644cf6701bf5d9871eae8b6ca32becf140f5b"
+    },
+    {
+      "bytes": 22921,
+      "expected_frozen_sha256": "",
+      "label": "v1_decision_script",
+      "path": "diseases/COPD/04_modeling/scripts/05_prioritize_candidate_variants.py",
+      "resolved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/scripts/05_prioritize_candidate_variants.py",
+      "sha256": "50822dd1603722f00df94b4202dde3ac9f49601c790c15090ab0eff81a485d43"
+    },
+    {
+      "bytes": 350056456,
+      "expected_frozen_sha256": "2b71c544b472be119c0b7c0fa518f0968ae35a84df985c82f02fa028c75b7fe4",
+      "label": "enhancer_best_weights",
+      "path": "diseases/COPD/04_modeling/trednet/models_output/COPD_SevereEmphysema_Lung_Enhancer_DHS_x2/COPD_SevereEmphysema_Lung_Enhancer_DHS_x2_phase_two_weights.weights.h5",
+      "resolved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/trednet/models_output/COPD_SevereEmphysema_Lung_Enhancer_DHS_x2/COPD_SevereEmphysema_Lung_Enhancer_DHS_x2_phase_two_weights.weights.h5",
+      "sha256": "2b71c544b472be119c0b7c0fa518f0968ae35a84df985c82f02fa028c75b7fe4"
+    },
+    {
+      "bytes": 350064483,
+      "expected_frozen_sha256": "",
+      "label": "enhancer_architecture",
+      "path": "diseases/COPD/04_modeling/trednet/models_output/COPD_SevereEmphysema_Lung_Enhancer_DHS_x2/phase_two_model.keras",
+      "resolved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/trednet/models_output/COPD_SevereEmphysema_Lung_Enhancer_DHS_x2/phase_two_model.keras",
+      "sha256": "2c897426a9002ca5238b530d039f817ea422b5d6ca24a06c2a5ff2d88ebf6abb"
+    },
+    {
+      "bytes": 53,
+      "expected_frozen_sha256": "",
+      "label": "enhancer_threshold_file",
+      "path": "diseases/COPD/04_modeling/trednet/models_output/COPD_SevereEmphysema_Lung_Enhancer_DHS_x2/fpr_threshold_scores.txt",
+      "resolved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/trednet/models_output/COPD_SevereEmphysema_Lung_Enhancer_DHS_x2/fpr_threshold_scores.txt",
+      "sha256": "3589d329569f0a78a55d5a2024d85833fd3762625591a249db47faa4948e5cbc"
+    },
+    {
+      "bytes": 350056456,
+      "expected_frozen_sha256": "8d841fcd0fc665ed2d66388fb5746824c494855b9e1a8a22e3f27d690ad223b9",
+      "label": "silencer_best_weights",
+      "path": "diseases/COPD/04_modeling/trednet/models_output/COPD_SevereEmphysema_Lung_Silencer_DHS_x2/COPD_SevereEmphysema_Lung_Silencer_DHS_x2_phase_two_weights.weights.h5",
+      "resolved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/trednet/models_output/COPD_SevereEmphysema_Lung_Silencer_DHS_x2/COPD_SevereEmphysema_Lung_Silencer_DHS_x2_phase_two_weights.weights.h5",
+      "sha256": "8d841fcd0fc665ed2d66388fb5746824c494855b9e1a8a22e3f27d690ad223b9"
+    },
+    {
+      "bytes": 350064483,
+      "expected_frozen_sha256": "",
+      "label": "silencer_architecture",
+      "path": "diseases/COPD/04_modeling/trednet/models_output/COPD_SevereEmphysema_Lung_Silencer_DHS_x2/phase_two_model.keras",
+      "resolved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/trednet/models_output/COPD_SevereEmphysema_Lung_Silencer_DHS_x2/phase_two_model.keras",
+      "sha256": "7fc394760dfb025f509a46c4b266a02825767d311c7a456e7c9c473fc68cbe0f"
+    },
+    {
+      "bytes": 53,
+      "expected_frozen_sha256": "",
+      "label": "silencer_threshold_file",
+      "path": "diseases/COPD/04_modeling/trednet/models_output/COPD_SevereEmphysema_Lung_Silencer_DHS_x2/fpr_threshold_scores.txt",
+      "resolved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/04_modeling/trednet/models_output/COPD_SevereEmphysema_Lung_Silencer_DHS_x2/fpr_threshold_scores.txt",
+      "sha256": "32f775984c8571b2572f63067d29758ef1b5f433bb54fbf4ca77c24980be9c5f"
+    }
+  ],
+  "numerical_gate": {
+    "enhancer": {
+      "max_delta_absolute_error": 9.598388750475806e-10,
+      "max_score_absolute_error": 4.971313360968566e-10,
+      "pass": true
+    },
+    "silencer": {
+      "max_delta_absolute_error": 9.569701697742516e-10,
+      "max_score_absolute_error": 4.973449430067944e-10,
+      "pass": true
+    }
+  },
+  "original_freeze_validation": [
+    {
+      "artifact": "04_modeling/results/COPD-S4-R010_THE_LIST.tsv",
+      "checked_utc": "2026-10-05T21:07:34.456470+00:00",
+      "expected_sha256": "8241fcb2296ecd80c12fe97277daa2d8c8de87c86a3d8c895628be11cd3b49ce",
+      "observed_sha256": "8241fcb2296ecd80c12fe97277daa2d8c8de87c86a3d8c895628be11cd3b49ce",
+      "pass": true,
+      "snapshot_id": "COPD-V2-SNAPSHOT-001"
+    },
+    {
+      "artifact": "manuscript/COPD_regulatory_genomics_manuscript.md",
+      "checked_utc": "2026-10-05T21:07:34.456844+00:00",
+      "expected_sha256": "223fe8f00b50991157704d3f09f0c893f6c030068c8be516325a3db0552ce213",
+      "observed_sha256": "223fe8f00b50991157704d3f09f0c893f6c030068c8be516325a3db0552ce213",
+      "pass": true,
+      "snapshot_id": "COPD-V2-SNAPSHOT-002"
+    },
+    {
+      "artifact": "manuscript/results/COPD-workflow-validation.tsv",
+      "checked_utc": "2026-10-05T21:07:34.457108+00:00",
+      "expected_sha256": "dddab46427a303cca2159ec633f179976aa9f452be02178082a360121dcc21e2",
+      "observed_sha256": "dddab46427a303cca2159ec633f179976aa9f452be02178082a360121dcc21e2",
+      "pass": true,
+      "snapshot_id": "COPD-V2-SNAPSHOT-003"
+    }
+  ],
+  "serialized_forward_delta_max_rounding_discrepancy": {
+    "enhancer": 1.000000082740371e-09,
+    "silencer": 1.0000000549847954e-09
+  },
+  "software": {
+    "biopython": "1.87",
+    "executable": "/usr/local/Anaconda/envs/_slurm-extras-24.05/bin/python3.13",
+    "h5py": "3.16.0",
+    "keras": "3.14.1",
+    "matplotlib": "3.11.0",
+    "numpy": "2.5.0",
+    "pandas": "3.0.3",
+    "platform": "Linux-4.18.0-425.19.3b.el8.x86_64-x86_64-with-glibc2.28",
+    "python": "3.13.7",
+    "scipy": "1.18.0",
+    "tensorflow": "2.20.0"
+  },
+  "spec_lock_utc": "2026-10-05T21:07:33.078789+00:00",
+  "spec_sha256": "09d3656f3e06c24fa5402c28b976d6be06fff91604ad0b7b29c3150120d76ac1",
+  "specification_id": "COPD-V2-RC-SPEC-001",
+  "synthetic_transformation_checks": [
+    {
+      "allele_role": "ref",
+      "case": "SNV",
+      "pass": true
+    },
+    {
+      "allele_role": "alt",
+      "case": "SNV",
+      "pass": true
+    },
+    {
+      "allele_role": "ref",
+      "case": "insertion",
+      "pass": true
+    },
+    {
+      "allele_role": "alt",
+      "case": "insertion",
+      "pass": true
+    },
+    {
+      "allele_role": "ref",
+      "case": "deletion",
+      "pass": true
+    },
+    {
+      "allele_role": "alt",
+      "case": "deletion",
+      "pass": true
+    },
+    {
+      "allele_role": "ref",
+      "case": "multibase",
+      "pass": true
+    },
+    {
+      "allele_role": "alt",
+      "case": "multibase",
+      "pass": true
+    },
+    {
+      "allele_role": "ref",
+      "case": "N_context",
+      "pass": true
+    },
+    {
+      "allele_role": "alt",
+      "case": "N_context",
+      "pass": true
+    }
+  ]
+}
