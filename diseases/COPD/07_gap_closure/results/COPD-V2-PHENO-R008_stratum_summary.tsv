@@ -1,0 +1,126 @@
+universe	stratum	supported	denominator	percent	counting_unit	interpretation
+gws_tags	broad	660	660	100.0	gws_tags	nonexclusive descriptive support; no independence or causal claim
+gws_tags	primary_direct	225	660	34.0909	gws_tags	nonexclusive descriptive support; no independence or causal claim
+gws_tags	secondary_ehr	96	660	14.5455	gws_tags	nonexclusive descriptive support; no independence or causal claim
+gws_tags	ml_surrogate	356	660	53.9394	gws_tags	nonexclusive descriptive support; no independence or causal claim
+gws_tags	unresolved	1	660	0.1515	gws_tags	nonexclusive descriptive support; no independence or causal claim
+gws_tags	other_nonprimary	60	660	9.0909	gws_tags	nonexclusive descriptive support; no independence or causal claim
+gws_tags	primary_or_ehr	315	660	47.7273	gws_tags	nonexclusive descriptive support; no independence or causal claim
+gws_tags	without_GCST90244098	321	660	48.6364	gws_tags	nonexclusive descriptive support; no independence or causal claim
+gws_tags	GCST90244098	356	660	53.9394	gws_tags	nonexclusive descriptive support; no independence or causal claim
+gws_tags	sensitivity_primary_high_confidence_only	219	660	33.1818	gws_tags	nonexclusive descriptive support; no independence or causal claim
+gws_tags	sensitivity_primary_plus_conditional_smoking_coefficients	225	660	34.0909	gws_tags	nonexclusive descriptive support; no independence or causal claim
+gws_tags	sensitivity_primary_plus_mixed_direct_ehr	225	660	34.0909	gws_tags	nonexclusive descriptive support; no independence or causal claim
+gws_tags	sensitivity_ehr_plus_GCST007996	97	660	14.697	gws_tags	nonexclusive descriptive support; no independence or causal claim
+gws_tags	sensitivity_ehr_plus_documented_selfreport_composites	96	660	14.5455	gws_tags	nonexclusive descriptive support; no independence or causal claim
+gws_tags	class:chronic_bronchitis	6	660	0.9091	gws_tags	nonexclusive descriptive support; no independence or causal claim
+gws_tags	class:direct_copd_susceptibility	225	660	34.0909	gws_tags	nonexclusive descriptive support; no independence or causal claim
+gws_tags	class:ehr_copd_susceptibility	96	660	14.5455	gws_tags	nonexclusive descriptive support; no independence or causal claim
+gws_tags	class:exacerbation_treatment	0	660	0.0	gws_tags	nonexclusive descriptive support; no independence or causal claim
+gws_tags	class:materially_different_smoking_interaction	54	660	8.1818	gws_tags	nonexclusive descriptive support; no independence or causal claim
+gws_tags	class:mixed_ehr_self_report_susceptibility	0	660	0.0	gws_tags	nonexclusive descriptive support; no independence or causal claim
+gws_tags	class:ml_surrogate_liability	356	660	53.9394	gws_tags	nonexclusive descriptive support; no independence or causal claim
+gws_tags	class:nonstandard_gene_burden_cnv	0	660	0.0	gws_tags	nonexclusive descriptive support; no independence or causal claim
+gws_tags	class:progression_decline	0	660	0.0	gws_tags	nonexclusive descriptive support; no independence or causal claim
+gws_tags	class:unresolved	1	660	0.1515	gws_tags	nonexclusive descriptive support; no independence or causal claim
+gws_tags	class:within_copd_severity	0	660	0.0	gws_tags	nonexclusive descriptive support; no independence or causal claim
+all_15389	broad	15389	15389	100.0	all_15389	nonexclusive descriptive support; no independence or causal claim
+all_15389	primary_direct	8212	15389	53.3628	all_15389	nonexclusive descriptive support; no independence or causal claim
+all_15389	secondary_ehr	1977	15389	12.8468	all_15389	nonexclusive descriptive support; no independence or causal claim
+all_15389	ml_surrogate	7240	15389	47.0466	all_15389	nonexclusive descriptive support; no independence or causal claim
+all_15389	unresolved	1	15389	0.0065	all_15389	nonexclusive descriptive support; no independence or causal claim
+all_15389	other_nonprimary	2235	15389	14.5234	all_15389	nonexclusive descriptive support; no independence or causal claim
+all_15389	primary_or_ehr	9906	15389	64.3707	all_15389	nonexclusive descriptive support; no independence or causal claim
+all_15389	without_GCST90244098	9919	15389	64.4551	all_15389	nonexclusive descriptive support; no independence or causal claim
+all_15389	GCST90244098	7240	15389	47.0466	all_15389	nonexclusive descriptive support; no independence or causal claim
+all_15389	sensitivity_primary_high_confidence_only	8152	15389	52.9729	all_15389	nonexclusive descriptive support; no independence or causal claim
+all_15389	sensitivity_primary_plus_conditional_smoking_coefficients	8212	15389	53.3628	all_15389	nonexclusive descriptive support; no independence or causal claim
+all_15389	sensitivity_primary_plus_mixed_direct_ehr	8212	15389	53.3628	all_15389	nonexclusive descriptive support; no independence or causal claim
+all_15389	sensitivity_ehr_plus_GCST007996	1978	15389	12.8533	all_15389	nonexclusive descriptive support; no independence or causal claim
+all_15389	sensitivity_ehr_plus_documented_selfreport_composites	1977	15389	12.8468	all_15389	nonexclusive descriptive support; no independence or causal claim
+all_15389	class:chronic_bronchitis	65	15389	0.4224	all_15389	nonexclusive descriptive support; no independence or causal claim
+all_15389	class:direct_copd_susceptibility	8212	15389	53.3628	all_15389	nonexclusive descriptive support; no independence or causal claim
+all_15389	class:ehr_copd_susceptibility	1977	15389	12.8468	all_15389	nonexclusive descriptive support; no independence or causal claim
+all_15389	class:exacerbation_treatment	0	15389	0.0	all_15389	nonexclusive descriptive support; no independence or causal claim
+all_15389	class:materially_different_smoking_interaction	2182	15389	14.179	all_15389	nonexclusive descriptive support; no independence or causal claim
+all_15389	class:mixed_ehr_self_report_susceptibility	0	15389	0.0	all_15389	nonexclusive descriptive support; no independence or causal claim
+all_15389	class:ml_surrogate_liability	7240	15389	47.0466	all_15389	nonexclusive descriptive support; no independence or causal claim
+all_15389	class:nonstandard_gene_burden_cnv	0	15389	0.0	all_15389	nonexclusive descriptive support; no independence or causal claim
+all_15389	class:progression_decline	0	15389	0.0	all_15389	nonexclusive descriptive support; no independence or causal claim
+all_15389	class:unresolved	1	15389	0.0065	all_15389	nonexclusive descriptive support; no independence or causal claim
+all_15389	class:within_copd_severity	0	15389	0.0	all_15389	nonexclusive descriptive support; no independence or causal claim
+frozen_337	broad	337	337	100.0	frozen_337	nonexclusive descriptive support; no independence or causal claim
+frozen_337	primary_direct	184	337	54.5994	frozen_337	nonexclusive descriptive support; no independence or causal claim
+frozen_337	secondary_ehr	31	337	9.1988	frozen_337	nonexclusive descriptive support; no independence or causal claim
+frozen_337	ml_surrogate	173	337	51.3353	frozen_337	nonexclusive descriptive support; no independence or causal claim
+frozen_337	unresolved	0	337	0.0	frozen_337	nonexclusive descriptive support; no independence or causal claim
+frozen_337	other_nonprimary	57	337	16.9139	frozen_337	nonexclusive descriptive support; no independence or causal claim
+frozen_337	primary_or_ehr	213	337	63.2047	frozen_337	nonexclusive descriptive support; no independence or causal claim
+frozen_337	without_GCST90244098	213	337	63.2047	frozen_337	nonexclusive descriptive support; no independence or causal claim
+frozen_337	GCST90244098	173	337	51.3353	frozen_337	nonexclusive descriptive support; no independence or causal claim
+frozen_337	sensitivity_primary_high_confidence_only	182	337	54.0059	frozen_337	nonexclusive descriptive support; no independence or causal claim
+frozen_337	sensitivity_primary_plus_conditional_smoking_coefficients	184	337	54.5994	frozen_337	nonexclusive descriptive support; no independence or causal claim
+frozen_337	sensitivity_primary_plus_mixed_direct_ehr	184	337	54.5994	frozen_337	nonexclusive descriptive support; no independence or causal claim
+frozen_337	sensitivity_ehr_plus_GCST007996	31	337	9.1988	frozen_337	nonexclusive descriptive support; no independence or causal claim
+frozen_337	sensitivity_ehr_plus_documented_selfreport_composites	31	337	9.1988	frozen_337	nonexclusive descriptive support; no independence or causal claim
+frozen_337	class:chronic_bronchitis	0	337	0.0	frozen_337	nonexclusive descriptive support; no independence or causal claim
+frozen_337	class:direct_copd_susceptibility	184	337	54.5994	frozen_337	nonexclusive descriptive support; no independence or causal claim
+frozen_337	class:ehr_copd_susceptibility	31	337	9.1988	frozen_337	nonexclusive descriptive support; no independence or causal claim
+frozen_337	class:exacerbation_treatment	0	337	0.0	frozen_337	nonexclusive descriptive support; no independence or causal claim
+frozen_337	class:materially_different_smoking_interaction	57	337	16.9139	frozen_337	nonexclusive descriptive support; no independence or causal claim
+frozen_337	class:mixed_ehr_self_report_susceptibility	0	337	0.0	frozen_337	nonexclusive descriptive support; no independence or causal claim
+frozen_337	class:ml_surrogate_liability	173	337	51.3353	frozen_337	nonexclusive descriptive support; no independence or causal claim
+frozen_337	class:nonstandard_gene_burden_cnv	0	337	0.0	frozen_337	nonexclusive descriptive support; no independence or causal claim
+frozen_337	class:progression_decline	0	337	0.0	frozen_337	nonexclusive descriptive support; no independence or causal claim
+frozen_337	class:unresolved	0	337	0.0	frozen_337	nonexclusive descriptive support; no independence or causal claim
+frozen_337	class:within_copd_severity	0	337	0.0	frozen_337	nonexclusive descriptive support; no independence or causal claim
+components_153	broad	153	153	100.0	existing component any-member	nonexclusive descriptive support; no independence or causal claim
+components_153	primary_direct	72	153	47.0588	existing component any-member	nonexclusive descriptive support; no independence or causal claim
+components_153	secondary_ehr	15	153	9.8039	existing component any-member	nonexclusive descriptive support; no independence or causal claim
+components_153	ml_surrogate	88	153	57.5163	existing component any-member	nonexclusive descriptive support; no independence or causal claim
+components_153	unresolved	0	153	0.0	existing component any-member	nonexclusive descriptive support; no independence or causal claim
+components_153	other_nonprimary	22	153	14.3791	existing component any-member	nonexclusive descriptive support; no independence or causal claim
+components_153	primary_or_ehr	85	153	55.5556	existing component any-member	nonexclusive descriptive support; no independence or causal claim
+components_153	without_GCST90244098	85	153	55.5556	existing component any-member	nonexclusive descriptive support; no independence or causal claim
+components_153	GCST90244098	88	153	57.5163	existing component any-member	nonexclusive descriptive support; no independence or causal claim
+components_153	sensitivity_primary_high_confidence_only	70	153	45.7516	existing component any-member	nonexclusive descriptive support; no independence or causal claim
+components_153	sensitivity_primary_plus_conditional_smoking_coefficients	72	153	47.0588	existing component any-member	nonexclusive descriptive support; no independence or causal claim
+components_153	sensitivity_primary_plus_mixed_direct_ehr	72	153	47.0588	existing component any-member	nonexclusive descriptive support; no independence or causal claim
+components_153	sensitivity_ehr_plus_GCST007996	15	153	9.8039	existing component any-member	nonexclusive descriptive support; no independence or causal claim
+components_153	sensitivity_ehr_plus_documented_selfreport_composites	15	153	9.8039	existing component any-member	nonexclusive descriptive support; no independence or causal claim
+components_153	class:chronic_bronchitis	0	153	0.0	existing component any-member	nonexclusive descriptive support; no independence or causal claim
+components_153	class:direct_copd_susceptibility	72	153	47.0588	existing component any-member	nonexclusive descriptive support; no independence or causal claim
+components_153	class:ehr_copd_susceptibility	15	153	9.8039	existing component any-member	nonexclusive descriptive support; no independence or causal claim
+components_153	class:exacerbation_treatment	0	153	0.0	existing component any-member	nonexclusive descriptive support; no independence or causal claim
+components_153	class:materially_different_smoking_interaction	22	153	14.3791	existing component any-member	nonexclusive descriptive support; no independence or causal claim
+components_153	class:mixed_ehr_self_report_susceptibility	0	153	0.0	existing component any-member	nonexclusive descriptive support; no independence or causal claim
+components_153	class:ml_surrogate_liability	88	153	57.5163	existing component any-member	nonexclusive descriptive support; no independence or causal claim
+components_153	class:nonstandard_gene_burden_cnv	0	153	0.0	existing component any-member	nonexclusive descriptive support; no independence or causal claim
+components_153	class:progression_decline	0	153	0.0	existing component any-member	nonexclusive descriptive support; no independence or causal claim
+components_153	class:unresolved	0	153	0.0	existing component any-member	nonexclusive descriptive support; no independence or causal claim
+components_153	class:within_copd_severity	0	153	0.0	existing component any-member	nonexclusive descriptive support; no independence or causal claim
+shortlist_12	broad	12	12	100.0	shortlist_12	nonexclusive descriptive support; no independence or causal claim
+shortlist_12	primary_direct	6	12	50.0	shortlist_12	nonexclusive descriptive support; no independence or causal claim
+shortlist_12	secondary_ehr	2	12	16.6667	shortlist_12	nonexclusive descriptive support; no independence or causal claim
+shortlist_12	ml_surrogate	6	12	50.0	shortlist_12	nonexclusive descriptive support; no independence or causal claim
+shortlist_12	unresolved	0	12	0.0	shortlist_12	nonexclusive descriptive support; no independence or causal claim
+shortlist_12	other_nonprimary	1	12	8.3333	shortlist_12	nonexclusive descriptive support; no independence or causal claim
+shortlist_12	primary_or_ehr	8	12	66.6667	shortlist_12	nonexclusive descriptive support; no independence or causal claim
+shortlist_12	without_GCST90244098	8	12	66.6667	shortlist_12	nonexclusive descriptive support; no independence or causal claim
+shortlist_12	GCST90244098	6	12	50.0	shortlist_12	nonexclusive descriptive support; no independence or causal claim
+shortlist_12	sensitivity_primary_high_confidence_only	6	12	50.0	shortlist_12	nonexclusive descriptive support; no independence or causal claim
+shortlist_12	sensitivity_primary_plus_conditional_smoking_coefficients	6	12	50.0	shortlist_12	nonexclusive descriptive support; no independence or causal claim
+shortlist_12	sensitivity_primary_plus_mixed_direct_ehr	6	12	50.0	shortlist_12	nonexclusive descriptive support; no independence or causal claim
+shortlist_12	sensitivity_ehr_plus_GCST007996	2	12	16.6667	shortlist_12	nonexclusive descriptive support; no independence or causal claim
+shortlist_12	sensitivity_ehr_plus_documented_selfreport_composites	2	12	16.6667	shortlist_12	nonexclusive descriptive support; no independence or causal claim
+shortlist_12	class:chronic_bronchitis	0	12	0.0	shortlist_12	nonexclusive descriptive support; no independence or causal claim
+shortlist_12	class:direct_copd_susceptibility	6	12	50.0	shortlist_12	nonexclusive descriptive support; no independence or causal claim
+shortlist_12	class:ehr_copd_susceptibility	2	12	16.6667	shortlist_12	nonexclusive descriptive support; no independence or causal claim
+shortlist_12	class:exacerbation_treatment	0	12	0.0	shortlist_12	nonexclusive descriptive support; no independence or causal claim
+shortlist_12	class:materially_different_smoking_interaction	1	12	8.3333	shortlist_12	nonexclusive descriptive support; no independence or causal claim
+shortlist_12	class:mixed_ehr_self_report_susceptibility	0	12	0.0	shortlist_12	nonexclusive descriptive support; no independence or causal claim
+shortlist_12	class:ml_surrogate_liability	6	12	50.0	shortlist_12	nonexclusive descriptive support; no independence or causal claim
+shortlist_12	class:nonstandard_gene_burden_cnv	0	12	0.0	shortlist_12	nonexclusive descriptive support; no independence or causal claim
+shortlist_12	class:progression_decline	0	12	0.0	shortlist_12	nonexclusive descriptive support; no independence or causal claim
+shortlist_12	class:unresolved	0	12	0.0	shortlist_12	nonexclusive descriptive support; no independence or causal claim
+shortlist_12	class:within_copd_severity	0	12	0.0	shortlist_12	nonexclusive descriptive support; no independence or causal claim

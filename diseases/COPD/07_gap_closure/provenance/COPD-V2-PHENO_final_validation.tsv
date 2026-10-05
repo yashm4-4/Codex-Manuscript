@@ -1,0 +1,17 @@
+check	status	detail
+Original freeze snapshot SHA256	PASS	Original R010, manuscript, final V1 validation unchanged
+Tracked V1 files unchanged from freeze commit	PASS	15 changed tracked paths, all inside V2
+All consumed input hashes remain identical	PASS	19
+All analytical output hashes match run manifest	PASS	19
+All analysis checks PASS	PASS	53
+gws_tags: summary agrees with per-record outputs	PASS	660 rows
+all_15389: summary agrees with per-record outputs	PASS	15389 rows
+frozen_337: summary agrees with per-record outputs	PASS	337 rows
+components_153: summary agrees with per-record outputs	PASS	153 rows
+shortlist_12: summary agrees with per-record outputs	PASS	12 rows
+Required detailed report exists	PASS	Markdown report; V1 manuscript not rewritten
+Report local artifact links resolve	PASS	[]
+Register integrity: gap_closure_result_register.tsv	PASS	Rectangular; identifiers unique
+Register integrity: gap_closure_decision_register.tsv	PASS	Rectangular; identifiers unique
+Register integrity: activity_log.tsv	PASS	Rectangular; identifiers unique
+Registered result paths exist	PASS	Planning and phenotype entries preserved

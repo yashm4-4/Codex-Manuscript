@@ -1,0 +1,15 @@
+# Small, auditable phenotype-module inputs/results are deliberate V2 artifacts.
+# Override the repository's broad section-data/results exclusions only here.
+!data/
+!data/README.md
+!data/adjudication_*.json
+!data/phenotype_adjudication_amendments.json
+!results/
+!results/README.md
+!results/COPD-V2-PHENO-*.tsv
+!results/COPD-V2-PHENO-*.tsv.gz
+!results/COPD-V2-PHENO_phenotype_robustness_report.md
+!logs/
+!logs/README.md
+!logs/COPD-V2-PHENO_run_log.json
+__pycache__/

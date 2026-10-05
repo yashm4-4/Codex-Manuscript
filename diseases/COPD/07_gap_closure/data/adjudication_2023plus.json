@@ -1,0 +1,1538 @@
+[
+  {
+    "study_accession": "GCST90244098",
+    "doi": "10.1038/s41588-023-01372-4",
+    "phenotype_class": "ml_surrogate_liability",
+    "primary_eligible": false,
+    "secondary_eligible": false,
+    "primary_question": "Genome-wide association with a continuous deep-learning COPD liability score inferred from raw spirograms.",
+    "case_definition": "not_applicable: the association outcome was continuous ML-derived liability rather than a binary COPD case label",
+    "control_definition": "not_applicable: the association outcome was continuous ML-derived liability rather than case-control status",
+    "copd_modeled_outcome": "no: the modeled GWAS outcome was an ML-derived COPD liability score",
+    "ascertainment": "Raw UKB spirograms were scored by a deep neural network trained with noisy COPD labels from medical records and self-report.",
+    "spirometry": "Raw spirogram curves were model inputs; the GWAS did not require a fixed post-bronchodilator FEV1/FVC case threshold.",
+    "clinical_diagnosis": "not_applicable: clinical diagnosis was part of noisy training-label construction, not the accession-level GWAS outcome",
+    "ehr_definition": "not_applicable: EHR/self-report labels trained the predictor but were not the tested GWAS phenotype",
+    "surrogate_definition": "Continuous neural-network COPD probability/liability inferred from the spirogram.",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "negative: no distinct COPD subtype or secondary phenotype",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "UKB discovery; paper reports downstream comparisons/validation, but this accession is the UKB liability GWAS.",
+    "cohorts": [
+      "UKB"
+    ],
+    "overlap_notes": "Probable extensive participant overlap with other UKB accessions in this register; not an independent replication of them.",
+    "full_stats_status": "available: GWAS Catalog full summary statistics",
+    "full_stats_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90244001-GCST90245000/GCST90244098/",
+    "rationale": "The accession explicitly tests a machine-learning-based score. It is neither direct clinical/spirometric COPD case-control nor EHR COPD case-control.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90244098",
+      "https://doi.org/10.1038/s41588-023-01372-4"
+    ],
+    "source_evidence": [
+      "The Catalog names the tested trait as COPD liability based on a machine-learning score in 325,027 UKB participants.",
+      "The primary paper describes a deep neural network trained on noisy record/self-report labels to infer COPD from raw spirograms, followed by GWAS of the inferred liability."
+    ],
+    "uncertainties": "negative: the phenotype class is unambiguous; the exact contribution of each training-label source is not needed to classify the GWAS outcome"
+  },
+  {
+    "study_accession": "GCST90246122",
+    "doi": "10.1016/j.xgen.2023.100361",
+    "phenotype_class": "ehr_copd_susceptibility",
+    "primary_eligible": false,
+    "secondary_eligible": true,
+    "primary_question": "Association of germline variants with ICD-10 J44-coded COPD in China Kadoorie Biobank.",
+    "case_definition": "6,043 CKB participants with an ICD-10 J44 coded event",
+    "control_definition": "73,676 analyzed CKB participants without the accession-specific ICD-10 J44 phenotype",
+    "copd_modeled_outcome": "yes: binary J44 COPD case-control status",
+    "ascertainment": "Linked disease follow-up records converted to ICD-10 diagnoses.",
+    "spirometry": "not_reported",
+    "clinical_diagnosis": "not_reported: the accession is code-based rather than clinically adjudicated COPD",
+    "ehr_definition": "ICD-10 J44, other chronic obstructive pulmonary disease",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "negative: no distinct COPD subtype or secondary phenotype",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "Single CKB ancestry-specific scan; no independent replication reported for this accession.",
+    "cohorts": [
+      "CKB"
+    ],
+    "overlap_notes": "Participants overlap other CKB phenome-wide accessions from the same resource; no overlap with UKB is indicated.",
+    "full_stats_status": "available: GWAS Catalog full summary statistics",
+    "full_stats_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90246001-GCST90247000/GCST90246122/",
+    "rationale": "The tested outcome is a binary EHR/registry code for COPD, so it belongs in the prespecified secondary stratum, not the direct clinical/spirometric primary stratum.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90246122",
+      "https://doi.org/10.1016/j.xgen.2023.100361"
+    ],
+    "source_evidence": [
+      "The Catalog identifies ICD-10 J44 with 6,043 cases and 73,676 controls.",
+      "The primary CKB paper describes record-linked disease outcomes harmonized to ICD-10."
+    ],
+    "uncertainties": "not_reported: the Catalog and main paper do not provide an accession-specific spirometric or adjudication requirement"
+  },
+  {
+    "study_accession": "GCST90297568",
+    "doi": "10.1186/s13073-023-01265-5",
+    "phenotype_class": "nonstandard_gene_burden_cnv",
+    "primary_eligible": false,
+    "secondary_eligible": false,
+    "primary_question": "Test whether rare copy-number variation relates to ICD-10 J44 COPD under the mirror CNV action model.",
+    "case_definition": "13,863 UKB participants with the curated ICD-10 J44 COPD phenotype; 3,149 EstBB cases used for replication",
+    "control_definition": "269,261 UKB controls and 75,336 EstBB controls after phenotype-specific exclusions",
+    "copd_modeled_outcome": "yes: binary ICD-10 J44 COPD status, analyzed with a nonstandard CNV action model",
+    "ascertainment": "Curated ICD-10 case/control definitions in UKB discovery and EstBB replication.",
+    "spirometry": "not_reported",
+    "clinical_diagnosis": "not_reported: code-based phenotype",
+    "ehr_definition": "ICD-10 J44 with related-diagnosis exclusions defined by the paper's phenotyping pipeline",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "negative: no distinct COPD subtype or secondary phenotype",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "UKB discovery with EstBB replication under the same CNV action model.",
+    "cohorts": [
+      "UKB",
+      "EstBB"
+    ],
+    "overlap_notes": "All four accessions reuse the same UKB discovery and EstBB replication samples and differ only in CNV action model; they are not independent phenotype replications.",
+    "full_stats_status": "available: GWAS Catalog full summary statistics",
+    "full_stats_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90297001-GCST90298000/GCST90297568/",
+    "rationale": "Although COPD is the binary outcome, the tested predictor and model are CNV dosage/action modes rather than a standard common-variant susceptibility GWAS; the hierarchy requires this design to remain separate.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90297568",
+      "https://doi.org/10.1186/s13073-023-01265-5"
+    ],
+    "source_evidence": [
+      "The Catalog labels this accession ICD-10 J44 COPD under the mirror CNV model and gives the same UKB/EstBB samples as the other action modes.",
+      "The primary paper defines four distinct CNV action models and uses curated ICD-code case/control phenotypes."
+    ],
+    "uncertainties": "negative: the nonstandard CNV design and accession-specific action model are explicit"
+  },
+  {
+    "study_accession": "GCST90297622",
+    "doi": "10.1186/s13073-023-01265-5",
+    "phenotype_class": "nonstandard_gene_burden_cnv",
+    "primary_eligible": false,
+    "secondary_eligible": false,
+    "primary_question": "Test whether rare copy-number variation relates to ICD-10 J44 COPD under the U-shape CNV action model.",
+    "case_definition": "13,863 UKB participants with the curated ICD-10 J44 COPD phenotype; 3,149 EstBB cases used for replication",
+    "control_definition": "269,261 UKB controls and 75,336 EstBB controls after phenotype-specific exclusions",
+    "copd_modeled_outcome": "yes: binary ICD-10 J44 COPD status, analyzed with a nonstandard CNV action model",
+    "ascertainment": "Curated ICD-10 case/control definitions in UKB discovery and EstBB replication.",
+    "spirometry": "not_reported",
+    "clinical_diagnosis": "not_reported: code-based phenotype",
+    "ehr_definition": "ICD-10 J44 with related-diagnosis exclusions defined by the paper's phenotyping pipeline",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "negative: no distinct COPD subtype or secondary phenotype",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "UKB discovery with EstBB replication under the same CNV action model.",
+    "cohorts": [
+      "UKB",
+      "EstBB"
+    ],
+    "overlap_notes": "All four accessions reuse the same UKB discovery and EstBB replication samples and differ only in CNV action model; they are not independent phenotype replications.",
+    "full_stats_status": "available: GWAS Catalog full summary statistics",
+    "full_stats_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90297001-GCST90298000/GCST90297622/",
+    "rationale": "Although COPD is the binary outcome, the tested predictor and model are CNV dosage/action modes rather than a standard common-variant susceptibility GWAS; the hierarchy requires this design to remain separate.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90297622",
+      "https://doi.org/10.1186/s13073-023-01265-5"
+    ],
+    "source_evidence": [
+      "The Catalog labels this accession ICD-10 J44 COPD under the U-shape CNV model and gives the same UKB/EstBB samples as the other action modes.",
+      "The primary paper defines four distinct CNV action models and uses curated ICD-code case/control phenotypes."
+    ],
+    "uncertainties": "negative: the nonstandard CNV design and accession-specific action model are explicit"
+  },
+  {
+    "study_accession": "GCST90297675",
+    "doi": "10.1186/s13073-023-01265-5",
+    "phenotype_class": "nonstandard_gene_burden_cnv",
+    "primary_eligible": false,
+    "secondary_eligible": false,
+    "primary_question": "Test whether rare copy-number variation relates to ICD-10 J44 COPD under the duplication-only CNV action model.",
+    "case_definition": "13,863 UKB participants with the curated ICD-10 J44 COPD phenotype; 3,149 EstBB cases used for replication",
+    "control_definition": "269,261 UKB controls and 75,336 EstBB controls after phenotype-specific exclusions",
+    "copd_modeled_outcome": "yes: binary ICD-10 J44 COPD status, analyzed with a nonstandard CNV action model",
+    "ascertainment": "Curated ICD-10 case/control definitions in UKB discovery and EstBB replication.",
+    "spirometry": "not_reported",
+    "clinical_diagnosis": "not_reported: code-based phenotype",
+    "ehr_definition": "ICD-10 J44 with related-diagnosis exclusions defined by the paper's phenotyping pipeline",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "negative: no distinct COPD subtype or secondary phenotype",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "UKB discovery with EstBB replication under the same CNV action model.",
+    "cohorts": [
+      "UKB",
+      "EstBB"
+    ],
+    "overlap_notes": "All four accessions reuse the same UKB discovery and EstBB replication samples and differ only in CNV action model; they are not independent phenotype replications.",
+    "full_stats_status": "available: GWAS Catalog full summary statistics",
+    "full_stats_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90297001-GCST90298000/GCST90297675/",
+    "rationale": "Although COPD is the binary outcome, the tested predictor and model are CNV dosage/action modes rather than a standard common-variant susceptibility GWAS; the hierarchy requires this design to remain separate.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90297675",
+      "https://doi.org/10.1186/s13073-023-01265-5"
+    ],
+    "source_evidence": [
+      "The Catalog labels this accession ICD-10 J44 COPD under the duplication-only CNV model and gives the same UKB/EstBB samples as the other action modes.",
+      "The primary paper defines four distinct CNV action models and uses curated ICD-code case/control phenotypes."
+    ],
+    "uncertainties": "negative: the nonstandard CNV design and accession-specific action model are explicit"
+  },
+  {
+    "study_accession": "GCST90297723",
+    "doi": "10.1186/s13073-023-01265-5",
+    "phenotype_class": "nonstandard_gene_burden_cnv",
+    "primary_eligible": false,
+    "secondary_eligible": false,
+    "primary_question": "Test whether rare copy-number variation relates to ICD-10 J44 COPD under the deletion-only CNV action model.",
+    "case_definition": "13,863 UKB participants with the curated ICD-10 J44 COPD phenotype; 3,149 EstBB cases used for replication",
+    "control_definition": "269,261 UKB controls and 75,336 EstBB controls after phenotype-specific exclusions",
+    "copd_modeled_outcome": "yes: binary ICD-10 J44 COPD status, analyzed with a nonstandard CNV action model",
+    "ascertainment": "Curated ICD-10 case/control definitions in UKB discovery and EstBB replication.",
+    "spirometry": "not_reported",
+    "clinical_diagnosis": "not_reported: code-based phenotype",
+    "ehr_definition": "ICD-10 J44 with related-diagnosis exclusions defined by the paper's phenotyping pipeline",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "negative: no distinct COPD subtype or secondary phenotype",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "UKB discovery with EstBB replication under the same CNV action model.",
+    "cohorts": [
+      "UKB",
+      "EstBB"
+    ],
+    "overlap_notes": "All four accessions reuse the same UKB discovery and EstBB replication samples and differ only in CNV action model; they are not independent phenotype replications.",
+    "full_stats_status": "available: GWAS Catalog full summary statistics",
+    "full_stats_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90297001-GCST90298000/GCST90297723/",
+    "rationale": "Although COPD is the binary outcome, the tested predictor and model are CNV dosage/action modes rather than a standard common-variant susceptibility GWAS; the hierarchy requires this design to remain separate.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90297723",
+      "https://doi.org/10.1186/s13073-023-01265-5"
+    ],
+    "source_evidence": [
+      "The Catalog labels this accession ICD-10 J44 COPD under the deletion-only CNV model and gives the same UKB/EstBB samples as the other action modes.",
+      "The primary paper defines four distinct CNV action models and uses curated ICD-code case/control phenotypes."
+    ],
+    "uncertainties": "negative: the nonstandard CNV design and accession-specific action model are explicit"
+  },
+  {
+    "study_accession": "GCST90428863",
+    "doi": "10.21037/tlcr-24-4",
+    "phenotype_class": "ehr_copd_susceptibility",
+    "primary_eligible": false,
+    "secondary_eligible": true,
+    "primary_question": "Exome-wide single-variant association with binary COPD status in UKB.",
+    "case_definition": "17,561 European-ancestry UKB participants classified with COPD from linked health outcomes",
+    "control_definition": "410,373 European-ancestry UKB participants without the COPD outcome",
+    "copd_modeled_outcome": "yes: binary COPD case-control status",
+    "ascertainment": "UKB record linkage to hospital, mortality, and related health outcomes; diagnoses were encoded with ICD-10.",
+    "spirometry": "not_reported",
+    "clinical_diagnosis": "not_reported: no accession-level clinical adjudication requirement was found",
+    "ehr_definition": "ICD-10-derived COPD; exact COPD code list is referenced to Supplementary Table S1 but not stated in the accessible main text",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "negative: no distinct COPD subtype or secondary phenotype",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "UKB-only cross-trait exome study; no independent COPD replication reported for this accession.",
+    "cohorts": [
+      "UKB"
+    ],
+    "overlap_notes": "Probable extensive overlap with other UKB accessions; the paper's cross-trait framing does not make this accession an independent cohort.",
+    "full_stats_status": "not_available: GWAS Catalog does not provide full summary statistics for this accession",
+    "full_stats_url": "not_available",
+    "rationale": "The accession-level test is binary COPD in UKB, not a cross-disease statistic. Exome sequencing alone does not change the phenotype class; Cataloged variant associations support treating it as EHR COPD susceptibility.",
+    "confidence": "moderate",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90428863",
+      "https://doi.org/10.21037/tlcr-24-4"
+    ],
+    "source_evidence": [
+      "The Catalog reports 17,561 COPD cases and 410,373 controls and four variant associations.",
+      "The primary paper states that disease outcomes were obtained through UKB record linkage and ICD-10 coding and that single-variant tests were performed."
+    ],
+    "uncertainties": "unclear: the exact COPD ICD-10 inclusion codes are confined to a supplementary table and were not recoverable in this lightweight audit"
+  },
+  {
+    "study_accession": "GCST90827700",
+    "doi": "10.1186/s12931-024-02805-2",
+    "phenotype_class": "within_copd_severity",
+    "primary_eligible": false,
+    "secondary_eligible": false,
+    "primary_question": "Association of host variants with GOLD severity status among participants who already had COPD.",
+    "case_definition": "not_applicable: all 97 analyzed participants had COPD; the outcome contrasted GOLD severity categories",
+    "control_definition": "not_applicable: there was no non-COPD susceptibility control group",
+    "copd_modeled_outcome": "no: GOLD severity within COPD was modeled",
+    "ascertainment": "Stable COPD participants recruited at two Chinese hospitals; COPD was confirmed under GOLD criteria.",
+    "spirometry": "COPD inclusion required post-bronchodilator FEV1/FVC <0.70; GOLD status supplied the within-case severity phenotype.",
+    "clinical_diagnosis": "Confirmed COPD according to GOLD guidelines in adults older than 40 years.",
+    "ehr_definition": "not_applicable",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "true: the accession outcome is GOLD severity",
+    "within_case_design": "true: association was performed among 97 COPD participants",
+    "subtype_secondary_phenotype": "negative: no distinct COPD subtype or secondary phenotype",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "Two recruitment sites contributed one small combined COPD cohort; no independent genetic replication.",
+    "cohorts": [
+      "Guangzhou Medical University",
+      "Shenzhen People's Hospital"
+    ],
+    "overlap_notes": "The two sites form the same analyzed study cohort; no overlap with UKB/MVP/CKB is indicated.",
+    "full_stats_status": "not_available: GWAS Catalog does not provide full summary statistics for this accession",
+    "full_stats_url": "not_available",
+    "rationale": "The actual accession test is within-COPD GOLD severity, not COPD susceptibility, despite the paper also containing COPD-related microbiome analyses.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90827700",
+      "https://doi.org/10.1186/s12931-024-02805-2"
+    ],
+    "source_evidence": [
+      "The Catalog identifies the trait as COPD severity based on GOLD in 97 East Asian participants.",
+      "The primary paper specifies post-bronchodilator FEV1/FVC below 0.70 for COPD enrollment and analyzes clinical traits within COPD."
+    ],
+    "uncertainties": "negative: the within-case severity classification is explicit; the small cohort and lack of replication affect strength, not classification"
+  },
+  {
+    "study_accession": "GCST90476026",
+    "doi": "10.1126/science.adj1182",
+    "phenotype_class": "ehr_copd_susceptibility",
+    "primary_eligible": false,
+    "secondary_eligible": true,
+    "primary_question": "African ancestry association scan of MVP PheCode 496 (chronic airway obstruction).",
+    "case_definition": "21,238 MVP participants meeting PheCode 496 (chronic airway obstruction)",
+    "control_definition": "91,251 MVP participants assigned as controls by the PheCode pipeline",
+    "copd_modeled_outcome": "yes: broad PheCode-defined chronic airway obstruction was modeled as binary disease status",
+    "ascertainment": "MVP electronic health-record diagnosis codes mapped to PheCodes.",
+    "spirometry": "not_reported",
+    "clinical_diagnosis": "not_reported: no clinical or spirometric adjudication requirement for this accession",
+    "ehr_definition": "PheCode 496 (chronic airway obstruction)",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "negative: broad chronic airway obstruction rather than a separately modeled subtype",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "MVP ancestry-specific scan; corresponding multi-ancestry meta-analysis exists in this publication.",
+    "cohorts": [
+      "MVP"
+    ],
+    "overlap_notes": "Substantial/known participant overlap with the other MVP accessions; ancestry-specific scans are disjoint or nearly disjoint by genetic ancestry, while meta-analysis accessions reuse their participants.",
+    "full_stats_status": "available: GWAS Catalog full summary statistics",
+    "full_stats_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90476001-GCST90477000/GCST90476026/",
+    "rationale": "The actual accession phenotype is broad PheCode-defined chronic airway obstruction, so it belongs to the secondary EHR COPD stratum rather than direct clinical/spirometric COPD.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90476026",
+      "https://doi.org/10.1126/science.adj1182"
+    ],
+    "source_evidence": [
+      "The Catalog identifies accession-specific PheCode 496, ancestry, and case/control counts.",
+      "The primary MVP paper describes automated phenotyping from diagnosis codes using PheCodes and releases ancestry-specific and multi-population GWAS results."
+    ],
+    "uncertainties": "not_reported: the accession record does not restate the complete ICD inclusion/exclusion map underlying the PheCode"
+  },
+  {
+    "study_accession": "GCST90476027",
+    "doi": "10.1126/science.adj1182",
+    "phenotype_class": "ehr_copd_susceptibility",
+    "primary_eligible": false,
+    "secondary_eligible": true,
+    "primary_question": "European ancestry association scan of MVP PheCode 496 (chronic airway obstruction).",
+    "case_definition": "103,054 MVP participants meeting PheCode 496 (chronic airway obstruction)",
+    "control_definition": "315,450 MVP participants assigned as controls by the PheCode pipeline",
+    "copd_modeled_outcome": "yes: broad PheCode-defined chronic airway obstruction was modeled as binary disease status",
+    "ascertainment": "MVP electronic health-record diagnosis codes mapped to PheCodes.",
+    "spirometry": "not_reported",
+    "clinical_diagnosis": "not_reported: no clinical or spirometric adjudication requirement for this accession",
+    "ehr_definition": "PheCode 496 (chronic airway obstruction)",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "negative: broad chronic airway obstruction rather than a separately modeled subtype",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "MVP ancestry-specific scan; corresponding multi-ancestry meta-analysis exists in this publication.",
+    "cohorts": [
+      "MVP"
+    ],
+    "overlap_notes": "Substantial/known participant overlap with the other MVP accessions; ancestry-specific scans are disjoint or nearly disjoint by genetic ancestry, while meta-analysis accessions reuse their participants.",
+    "full_stats_status": "available: GWAS Catalog full summary statistics",
+    "full_stats_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90476001-GCST90477000/GCST90476027/",
+    "rationale": "The actual accession phenotype is broad PheCode-defined chronic airway obstruction, so it belongs to the secondary EHR COPD stratum rather than direct clinical/spirometric COPD.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90476027",
+      "https://doi.org/10.1126/science.adj1182"
+    ],
+    "source_evidence": [
+      "The Catalog identifies accession-specific PheCode 496, ancestry, and case/control counts.",
+      "The primary MVP paper describes automated phenotyping from diagnosis codes using PheCodes and releases ancestry-specific and multi-population GWAS results."
+    ],
+    "uncertainties": "not_reported: the accession record does not restate the complete ICD inclusion/exclusion map underlying the PheCode"
+  },
+  {
+    "study_accession": "GCST90476030",
+    "doi": "10.1126/science.adj1182",
+    "phenotype_class": "chronic_bronchitis",
+    "primary_eligible": false,
+    "secondary_eligible": false,
+    "primary_question": "European ancestry association scan of MVP PheCode 496.21 (obstructive chronic bronchitis).",
+    "case_definition": "24,495 MVP participants meeting PheCode 496.21 (obstructive chronic bronchitis)",
+    "control_definition": "409,429 MVP participants assigned as controls by the PheCode pipeline",
+    "copd_modeled_outcome": "no: the modeled outcome was the obstructive chronic bronchitis subtype",
+    "ascertainment": "MVP electronic health-record diagnosis codes mapped to PheCodes.",
+    "spirometry": "not_reported",
+    "clinical_diagnosis": "not_reported: no clinical or spirometric adjudication requirement for this accession",
+    "ehr_definition": "PheCode 496.21 (obstructive chronic bronchitis)",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "true: obstructive chronic bronchitis",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "MVP ancestry-specific scan; corresponding multi-ancestry meta-analysis exists in this publication.",
+    "cohorts": [
+      "MVP"
+    ],
+    "overlap_notes": "Substantial/known participant overlap with the other MVP accessions; ancestry-specific scans are disjoint or nearly disjoint by genetic ancestry, while meta-analysis accessions reuse their participants.",
+    "full_stats_status": "available: GWAS Catalog full summary statistics",
+    "full_stats_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90476001-GCST90477000/GCST90476030/",
+    "rationale": "The actual accession phenotype is obstructive chronic bronchitis, which the hierarchy requires to remain distinct from broad COPD susceptibility even though it is code-derived and mapped to COPD.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90476030",
+      "https://doi.org/10.1126/science.adj1182"
+    ],
+    "source_evidence": [
+      "The Catalog identifies accession-specific PheCode 496.21, ancestry, and case/control counts.",
+      "The primary MVP paper describes automated phenotyping from diagnosis codes using PheCodes and releases ancestry-specific and multi-population GWAS results."
+    ],
+    "uncertainties": "not_reported: the accession record does not restate the complete ICD inclusion/exclusion map underlying the PheCode"
+  },
+  {
+    "study_accession": "GCST90478138",
+    "doi": "10.1126/science.adj1182",
+    "phenotype_class": "ehr_copd_susceptibility",
+    "primary_eligible": false,
+    "secondary_eligible": true,
+    "primary_question": "Hispanic/Latino ancestry association scan of MVP PheCode 496 (chronic airway obstruction).",
+    "case_definition": "6,646 MVP participants meeting PheCode 496 (chronic airway obstruction)",
+    "control_definition": "49,745 MVP participants assigned as controls by the PheCode pipeline",
+    "copd_modeled_outcome": "yes: broad PheCode-defined chronic airway obstruction was modeled as binary disease status",
+    "ascertainment": "MVP electronic health-record diagnosis codes mapped to PheCodes.",
+    "spirometry": "not_reported",
+    "clinical_diagnosis": "not_reported: no clinical or spirometric adjudication requirement for this accession",
+    "ehr_definition": "PheCode 496 (chronic airway obstruction)",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "negative: broad chronic airway obstruction rather than a separately modeled subtype",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "MVP ancestry-specific scan; corresponding multi-ancestry meta-analysis exists in this publication.",
+    "cohorts": [
+      "MVP"
+    ],
+    "overlap_notes": "Substantial/known participant overlap with the other MVP accessions; ancestry-specific scans are disjoint or nearly disjoint by genetic ancestry, while meta-analysis accessions reuse their participants.",
+    "full_stats_status": "available: GWAS Catalog full summary statistics",
+    "full_stats_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90478001-GCST90479000/GCST90478138/",
+    "rationale": "The actual accession phenotype is broad PheCode-defined chronic airway obstruction, so it belongs to the secondary EHR COPD stratum rather than direct clinical/spirometric COPD.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90478138",
+      "https://doi.org/10.1126/science.adj1182"
+    ],
+    "source_evidence": [
+      "The Catalog identifies accession-specific PheCode 496, ancestry, and case/control counts.",
+      "The primary MVP paper describes automated phenotyping from diagnosis codes using PheCodes and releases ancestry-specific and multi-population GWAS results."
+    ],
+    "uncertainties": "not_reported: the accession record does not restate the complete ICD inclusion/exclusion map underlying the PheCode"
+  },
+  {
+    "study_accession": "GCST90478143",
+    "doi": "10.1126/science.adj1182",
+    "phenotype_class": "chronic_bronchitis",
+    "primary_eligible": false,
+    "secondary_eligible": false,
+    "primary_question": "Hispanic/Latino ancestry association scan of MVP PheCode 496.21 (obstructive chronic bronchitis).",
+    "case_definition": "1,310 MVP participants meeting PheCode 496.21 (obstructive chronic bronchitis)",
+    "control_definition": "57,367 MVP participants assigned as controls by the PheCode pipeline",
+    "copd_modeled_outcome": "no: the modeled outcome was the obstructive chronic bronchitis subtype",
+    "ascertainment": "MVP electronic health-record diagnosis codes mapped to PheCodes.",
+    "spirometry": "not_reported",
+    "clinical_diagnosis": "not_reported: no clinical or spirometric adjudication requirement for this accession",
+    "ehr_definition": "PheCode 496.21 (obstructive chronic bronchitis)",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "true: obstructive chronic bronchitis",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "MVP ancestry-specific scan; corresponding multi-ancestry meta-analysis exists in this publication.",
+    "cohorts": [
+      "MVP"
+    ],
+    "overlap_notes": "Substantial/known participant overlap with the other MVP accessions; ancestry-specific scans are disjoint or nearly disjoint by genetic ancestry, while meta-analysis accessions reuse their participants.",
+    "full_stats_status": "available: GWAS Catalog full summary statistics",
+    "full_stats_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90478001-GCST90479000/GCST90478143/",
+    "rationale": "The actual accession phenotype is obstructive chronic bronchitis, which the hierarchy requires to remain distinct from broad COPD susceptibility even though it is code-derived and mapped to COPD.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90478143",
+      "https://doi.org/10.1126/science.adj1182"
+    ],
+    "source_evidence": [
+      "The Catalog identifies accession-specific PheCode 496.21, ancestry, and case/control counts.",
+      "The primary MVP paper describes automated phenotyping from diagnosis codes using PheCodes and releases ancestry-specific and multi-population GWAS results."
+    ],
+    "uncertainties": "not_reported: the accession record does not restate the complete ICD inclusion/exclusion map underlying the PheCode"
+  },
+  {
+    "study_accession": "GCST90478144",
+    "doi": "10.1126/science.adj1182",
+    "phenotype_class": "chronic_bronchitis",
+    "primary_eligible": false,
+    "secondary_eligible": false,
+    "primary_question": "African ancestry association scan of MVP PheCode 496.21 (obstructive chronic bronchitis).",
+    "case_definition": "4,683 MVP participants meeting PheCode 496.21 (obstructive chronic bronchitis)",
+    "control_definition": "113,336 MVP participants assigned as controls by the PheCode pipeline",
+    "copd_modeled_outcome": "no: the modeled outcome was the obstructive chronic bronchitis subtype",
+    "ascertainment": "MVP electronic health-record diagnosis codes mapped to PheCodes.",
+    "spirometry": "not_reported",
+    "clinical_diagnosis": "not_reported: no clinical or spirometric adjudication requirement for this accession",
+    "ehr_definition": "PheCode 496.21 (obstructive chronic bronchitis)",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "true: obstructive chronic bronchitis",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "MVP ancestry-specific scan; corresponding multi-ancestry meta-analysis exists in this publication.",
+    "cohorts": [
+      "MVP"
+    ],
+    "overlap_notes": "Substantial/known participant overlap with the other MVP accessions; ancestry-specific scans are disjoint or nearly disjoint by genetic ancestry, while meta-analysis accessions reuse their participants.",
+    "full_stats_status": "available: GWAS Catalog full summary statistics",
+    "full_stats_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90478001-GCST90479000/GCST90478144/",
+    "rationale": "The actual accession phenotype is obstructive chronic bronchitis, which the hierarchy requires to remain distinct from broad COPD susceptibility even though it is code-derived and mapped to COPD.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90478144",
+      "https://doi.org/10.1126/science.adj1182"
+    ],
+    "source_evidence": [
+      "The Catalog identifies accession-specific PheCode 496.21, ancestry, and case/control counts.",
+      "The primary MVP paper describes automated phenotyping from diagnosis codes using PheCodes and releases ancestry-specific and multi-population GWAS results."
+    ],
+    "uncertainties": "not_reported: the accession record does not restate the complete ICD inclusion/exclusion map underlying the PheCode"
+  },
+  {
+    "study_accession": "GCST90480251",
+    "doi": "10.1126/science.adj1182",
+    "phenotype_class": "chronic_bronchitis",
+    "primary_eligible": false,
+    "secondary_eligible": false,
+    "primary_question": "multi-ancestry meta-analysis (African, European, Hispanic/Latino) association scan of MVP PheCode 496.21 (obstructive chronic bronchitis).",
+    "case_definition": "30,488 MVP participants meeting PheCode 496.21 (obstructive chronic bronchitis)",
+    "control_definition": "580,132 MVP participants assigned as controls by the PheCode pipeline",
+    "copd_modeled_outcome": "no: the modeled outcome was the obstructive chronic bronchitis subtype",
+    "ascertainment": "MVP electronic health-record diagnosis codes mapped to PheCodes.",
+    "spirometry": "not_reported",
+    "clinical_diagnosis": "not_reported: no clinical or spirometric adjudication requirement for this accession",
+    "ehr_definition": "PheCode 496.21 (obstructive chronic bronchitis)",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "true: obstructive chronic bronchitis",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "Fixed study-wide multi-ancestry meta-analysis of ancestry-specific MVP scans; constituent scans share MVP recruitment and are not independent replications.",
+    "cohorts": [
+      "MVP"
+    ],
+    "overlap_notes": "Substantial/known participant overlap with the other MVP accessions; ancestry-specific scans are disjoint or nearly disjoint by genetic ancestry, while meta-analysis accessions reuse their participants.",
+    "full_stats_status": "available: GWAS Catalog full summary statistics",
+    "full_stats_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90480001-GCST90481000/GCST90480251/",
+    "rationale": "The actual accession phenotype is obstructive chronic bronchitis, which the hierarchy requires to remain distinct from broad COPD susceptibility even though it is code-derived and mapped to COPD.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90480251",
+      "https://doi.org/10.1126/science.adj1182"
+    ],
+    "source_evidence": [
+      "The Catalog identifies accession-specific PheCode 496.21, ancestry, and case/control counts.",
+      "The primary MVP paper describes automated phenotyping from diagnosis codes using PheCodes and releases ancestry-specific and multi-population GWAS results."
+    ],
+    "uncertainties": "not_reported: the accession record does not restate the complete ICD inclusion/exclusion map underlying the PheCode"
+  },
+  {
+    "study_accession": "GCST90480254",
+    "doi": "10.1126/science.adj1182",
+    "phenotype_class": "ehr_copd_susceptibility",
+    "primary_eligible": false,
+    "secondary_eligible": true,
+    "primary_question": "multi-ancestry meta-analysis (African, Hispanic/Latino, East Asian, European) association scan of MVP PheCode 496 (chronic airway obstruction).",
+    "case_definition": "131,361 MVP participants meeting PheCode 496 (chronic airway obstruction)",
+    "control_definition": "462,595 MVP participants assigned as controls by the PheCode pipeline",
+    "copd_modeled_outcome": "yes: broad PheCode-defined chronic airway obstruction was modeled as binary disease status",
+    "ascertainment": "MVP electronic health-record diagnosis codes mapped to PheCodes.",
+    "spirometry": "not_reported",
+    "clinical_diagnosis": "not_reported: no clinical or spirometric adjudication requirement for this accession",
+    "ehr_definition": "PheCode 496 (chronic airway obstruction)",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "negative: broad chronic airway obstruction rather than a separately modeled subtype",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "Fixed study-wide multi-ancestry meta-analysis of ancestry-specific MVP scans; constituent scans share MVP recruitment and are not independent replications.",
+    "cohorts": [
+      "MVP"
+    ],
+    "overlap_notes": "Substantial/known participant overlap with the other MVP accessions; ancestry-specific scans are disjoint or nearly disjoint by genetic ancestry, while meta-analysis accessions reuse their participants.",
+    "full_stats_status": "available: GWAS Catalog full summary statistics",
+    "full_stats_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90480001-GCST90481000/GCST90480254/",
+    "rationale": "The actual accession phenotype is broad PheCode-defined chronic airway obstruction, so it belongs to the secondary EHR COPD stratum rather than direct clinical/spirometric COPD.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90480254",
+      "https://doi.org/10.1126/science.adj1182"
+    ],
+    "source_evidence": [
+      "The Catalog identifies accession-specific PheCode 496, ancestry, and case/control counts.",
+      "The primary MVP paper describes automated phenotyping from diagnosis codes using PheCodes and releases ancestry-specific and multi-population GWAS results."
+    ],
+    "uncertainties": "not_reported: the accession record does not restate the complete ICD inclusion/exclusion map underlying the PheCode"
+  },
+  {
+    "study_accession": "GCST90482079",
+    "doi": "10.1126/science.adj1182",
+    "phenotype_class": "ehr_copd_susceptibility",
+    "primary_eligible": false,
+    "secondary_eligible": true,
+    "primary_question": "East Asian ancestry association scan of MVP PheCode 496 (chronic airway obstruction).",
+    "case_definition": "423 MVP participants meeting PheCode 496 (chronic airway obstruction)",
+    "control_definition": "6,149 MVP participants assigned as controls by the PheCode pipeline",
+    "copd_modeled_outcome": "yes: broad PheCode-defined chronic airway obstruction was modeled as binary disease status",
+    "ascertainment": "MVP electronic health-record diagnosis codes mapped to PheCodes.",
+    "spirometry": "not_reported",
+    "clinical_diagnosis": "not_reported: no clinical or spirometric adjudication requirement for this accession",
+    "ehr_definition": "PheCode 496 (chronic airway obstruction)",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "negative: broad chronic airway obstruction rather than a separately modeled subtype",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "MVP ancestry-specific scan; corresponding multi-ancestry meta-analysis exists in this publication.",
+    "cohorts": [
+      "MVP"
+    ],
+    "overlap_notes": "Substantial/known participant overlap with the other MVP accessions; ancestry-specific scans are disjoint or nearly disjoint by genetic ancestry, while meta-analysis accessions reuse their participants.",
+    "full_stats_status": "not_available: GWAS Catalog does not provide full summary statistics for this accession",
+    "full_stats_url": "not_available",
+    "rationale": "The actual accession phenotype is broad PheCode-defined chronic airway obstruction, so it belongs to the secondary EHR COPD stratum rather than direct clinical/spirometric COPD.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90482079",
+      "https://doi.org/10.1126/science.adj1182"
+    ],
+    "source_evidence": [
+      "The Catalog identifies accession-specific PheCode 496, ancestry, and case/control counts.",
+      "The primary MVP paper describes automated phenotyping from diagnosis codes using PheCodes and releases ancestry-specific and multi-population GWAS results."
+    ],
+    "uncertainties": "not_reported: the accession record does not restate the complete ICD inclusion/exclusion map underlying the PheCode"
+  },
+  {
+    "study_accession": "GCST90468119",
+    "doi": "10.1038/s41588-024-02044-7",
+    "phenotype_class": "unresolved",
+    "primary_eligible": false,
+    "secondary_eligible": false,
+    "primary_question": "Quickdraws association scan of self-reported chronic obstructive airways disease in white British UKB participants.",
+    "case_definition": "Participants endorsing the UKB self-reported chronic obstructive airways disease phenotype; accession-specific case count is not reported",
+    "control_definition": "Participants not labeled with that self-reported disease among 394,626 analyzed individuals; exact exclusion logic is not reported",
+    "copd_modeled_outcome": "yes: a binary self-reported COPD-like disease phenotype was modeled",
+    "ascertainment": "UKB self-report; the paper states that its 50 binary outcomes were self-reported diseases.",
+    "spirometry": "not_applicable: no spirometric requirement was used for this self-reported phenotype",
+    "clinical_diagnosis": "not_applicable: no clinical adjudication requirement was reported",
+    "ehr_definition": "not_applicable: the primary paper characterizes this as self-report rather than EHR/ICD ascertainment",
+    "surrogate_definition": "Self-reported chronic obstructive airways disease; not a machine-learning score.",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "negative: no distinct COPD subtype or secondary phenotype",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "UKB discovery; the paper assesses replication for overlapping traits in external resources, but COPD-specific replication is not reported.",
+    "cohorts": [
+      "UKB"
+    ],
+    "overlap_notes": "Probable extensive participant overlap with other UKB accessions; self-report ascertainment differs from their code-based outcomes.",
+    "full_stats_status": "available: GWAS Catalog full summary statistics",
+    "full_stats_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90468001-GCST90469000/GCST90468119/",
+    "rationale": "Self-report-only susceptibility is neither the prespecified direct clinical/spirometric primary class nor the EHR-defined secondary class, and no dedicated allowed self-report class exists. It is therefore left unresolved rather than forced into either stratum.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90468119",
+      "https://doi.org/10.1038/s41588-024-02044-7"
+    ],
+    "source_evidence": [
+      "The Catalog calls the trait chronic obstructive airways disease in 394,626 European-ancestry UKB participants.",
+      "The primary paper explicitly states that the 50 UKB binary disease traits were self-reported."
+    ],
+    "uncertainties": "unclear: the exact UKB self-report field and accession-specific case/control counts are not stated in the main paper or Catalog record"
+  },
+  {
+    "study_accession": "GCST90652124",
+    "doi": "10.1126/sciadv.adt0539",
+    "phenotype_class": "ehr_copd_susceptibility",
+    "primary_eligible": false,
+    "secondary_eligible": true,
+    "primary_question": "Association scan of CMUH PheCode 496 (chronic airway obstruction) in Han Taiwanese participants.",
+    "case_definition": "8,215 CMUH participants meeting PheCode 496",
+    "control_definition": "210,469 CMUH participants assigned as controls for the PheCode phenotype",
+    "copd_modeled_outcome": "yes: broad PheCode-defined chronic airway obstruction was modeled",
+    "ascertainment": "Longitudinal CMUH electronic health records with diagnosis codes mapped to PheCodes.",
+    "spirometry": "not_reported",
+    "clinical_diagnosis": "not_reported: no direct clinical/spirometric adjudication requirement",
+    "ehr_definition": "PheCode 496 (chronic airway obstruction)",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "negative: broad chronic airway obstruction",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "Single CMUH/HiGenome Han Taiwanese analysis; no independent accession-level replication reported.",
+    "cohorts": [
+      "CMUH"
+    ],
+    "overlap_notes": "The two COPD-related CMUH accessions reuse the same control pool and have overlapping source participants; they are not independent replications.",
+    "full_stats_status": "not_available: GWAS Catalog does not provide full summary statistics for this accession",
+    "full_stats_url": "not_available",
+    "rationale": "The broad PheCode-defined chronic airway obstruction outcome belongs in the secondary EHR COPD stratum.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90652124",
+      "https://doi.org/10.1126/sciadv.adt0539"
+    ],
+    "source_evidence": [
+      "The Catalog gives PheCode 496, Han Taiwanese ancestry, and the accession-specific case/control counts.",
+      "The primary HiGenome paper describes longitudinal clinical-record phenotypes mapped for biobank-scale association testing."
+    ],
+    "uncertainties": "not_reported: the complete accession-specific ICD-to-PheCode inclusion/exclusion list is not reproduced in the Catalog record"
+  },
+  {
+    "study_accession": "GCST90652177",
+    "doi": "10.1126/sciadv.adt0539",
+    "phenotype_class": "chronic_bronchitis",
+    "primary_eligible": false,
+    "secondary_eligible": false,
+    "primary_question": "Association scan of CMUH PheCode 496.21 (obstructive chronic bronchitis) in Han Taiwanese participants.",
+    "case_definition": "3,743 CMUH participants meeting PheCode 496.21",
+    "control_definition": "210,469 CMUH participants assigned as controls for the PheCode phenotype",
+    "copd_modeled_outcome": "no: obstructive chronic bronchitis was the modeled subtype",
+    "ascertainment": "Longitudinal CMUH electronic health records with diagnosis codes mapped to PheCodes.",
+    "spirometry": "not_reported",
+    "clinical_diagnosis": "not_reported: no direct clinical/spirometric adjudication requirement",
+    "ehr_definition": "PheCode 496.21 (obstructive chronic bronchitis)",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "true: obstructive chronic bronchitis",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "Single CMUH/HiGenome Han Taiwanese analysis; no independent accession-level replication reported.",
+    "cohorts": [
+      "CMUH"
+    ],
+    "overlap_notes": "The two COPD-related CMUH accessions reuse the same control pool and have overlapping source participants; they are not independent replications.",
+    "full_stats_status": "not_available: GWAS Catalog does not provide full summary statistics for this accession",
+    "full_stats_url": "not_available",
+    "rationale": "The accession explicitly models obstructive chronic bronchitis, which must remain separate from broad COPD susceptibility.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90652177",
+      "https://doi.org/10.1126/sciadv.adt0539"
+    ],
+    "source_evidence": [
+      "The Catalog gives PheCode 496.21, Han Taiwanese ancestry, and the accession-specific case/control counts.",
+      "The primary HiGenome paper describes longitudinal clinical-record phenotypes mapped for biobank-scale association testing."
+    ],
+    "uncertainties": "not_reported: the complete accession-specific ICD-to-PheCode inclusion/exclusion list is not reproduced in the Catalog record"
+  },
+  {
+    "study_accession": "GCST90668057",
+    "doi": "10.1038/s41746-025-01815-8",
+    "phenotype_class": "mixed_direct_ehr_susceptibility",
+    "primary_eligible": false,
+    "secondary_eligible": true,
+    "primary_question": "GWAS of COPD defined by UKB Algorithmically Defined Outcome (ADO) v2.0.",
+    "case_definition": "Cases had any qualifying COPD condition code, COPD as a cause of death, or baseline self-report of COPD.",
+    "control_definition": "UKB participants not meeting the ADO COPD case rule.",
+    "copd_modeled_outcome": "yes: binary COPD status under the named phenotyping algorithm",
+    "ascertainment": "Multi-domain UKB ADO combining condition occurrence, death-certificate cause, and baseline self-report.",
+    "spirometry": "not_applicable: none of these three published COPD rules requires spirometry",
+    "clinical_diagnosis": "not_applicable: rule-based biobank phenotype rather than independent clinical adjudication",
+    "ehr_definition": "ADO v2.0 COPD: qualifying ICD-derived OMOP conditions and/or coded cause of death, plus self-report.",
+    "surrogate_definition": "Self-report is one component of the composite ADO rule; the GWAS phenotype is binary, not an ML score.",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "negative: no distinct COPD subtype or secondary phenotype",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "UKB algorithm-comparison GWAS; no independent replication cohort for this accession.",
+    "cohorts": [
+      "UKB"
+    ],
+    "overlap_notes": "The three accessions analyze the same 405,811-person UKB source set under alternative, overlapping phenotype rules; they are sensitivity definitions, not independent replications.",
+    "full_stats_status": "available: GWAS Catalog full summary statistics",
+    "full_stats_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90668001-GCST90669000/GCST90668057/",
+    "rationale": "ADO is a broad composite of record-coded and self-reported disease. It is not direct clinical/spirometric COPD, but is eligible for the secondary EHR/composite sensitivity stratum.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90668057",
+      "https://doi.org/10.1038/s41746-025-01815-8"
+    ],
+    "source_evidence": [
+      "The Catalog identifies the exact COPD phenotyping algorithm and the common 405,811-person UKB analysis base.",
+      "The primary paper states that ADO cases satisfy a qualifying condition, cause-of-death code, or baseline self-report."
+    ],
+    "uncertainties": "not_reported: accession-level case/control counts are absent from the Catalog even though the rule itself is documented"
+  },
+  {
+    "study_accession": "GCST90668058",
+    "doi": "10.1038/s41746-025-01815-8",
+    "phenotype_class": "ehr_copd_susceptibility",
+    "primary_eligible": false,
+    "secondary_eligible": true,
+    "primary_question": "GWAS of COPD defined by OHDSI Phenotype Library algorithm 28.",
+    "case_definition": "Cases meeting OHDSI COPD phenotype algorithm 28, which uses condition-occurrence and drug-exposure domains.",
+    "control_definition": "UKB participants not selected as cases by OHDSI algorithm 28.",
+    "copd_modeled_outcome": "yes: binary COPD status under the named phenotyping algorithm",
+    "ascertainment": "Rule-based OMOP EHR phenotyping using condition occurrences and drug exposures.",
+    "spirometry": "not_applicable: none of these three published COPD rules requires spirometry",
+    "clinical_diagnosis": "not_applicable: rule-based biobank phenotype rather than independent clinical adjudication",
+    "ehr_definition": "OHDSI Phenotype Library v3.1.6 algorithm 28 for COPD.",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "negative: no distinct COPD subtype or secondary phenotype",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "UKB algorithm-comparison GWAS; no independent replication cohort for this accession.",
+    "cohorts": [
+      "UKB"
+    ],
+    "overlap_notes": "The three accessions analyze the same 405,811-person UKB source set under alternative, overlapping phenotype rules; they are sensitivity definitions, not independent replications.",
+    "full_stats_status": "available: GWAS Catalog full summary statistics",
+    "full_stats_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90668001-GCST90669000/GCST90668058/",
+    "rationale": "This is a binary multi-domain EHR COPD phenotype, eligible for the secondary stratum but not direct clinical/spirometric COPD.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90668058",
+      "https://doi.org/10.1038/s41746-025-01815-8"
+    ],
+    "source_evidence": [
+      "The Catalog identifies the exact COPD phenotyping algorithm and the common 405,811-person UKB analysis base.",
+      "The primary paper identifies COPD algorithm 28 as using condition-occurrence and drug-exposure domains."
+    ],
+    "uncertainties": "not_reported: accession-level case/control counts are absent from the Catalog even though the rule itself is documented"
+  },
+  {
+    "study_accession": "GCST90668059",
+    "doi": "10.1038/s41746-025-01815-8",
+    "phenotype_class": "ehr_copd_susceptibility",
+    "primary_eligible": false,
+    "secondary_eligible": true,
+    "primary_question": "GWAS of COPD defined by the 2+ condition rule for OMOP concept 255573.",
+    "case_definition": "Participants with two or more occurrences, on qualifying records, of COPD concept 255573 or descendants.",
+    "control_definition": "Participants with zero occurrences of COPD concept 255573 or descendants.",
+    "copd_modeled_outcome": "yes: binary COPD status under the named phenotyping algorithm",
+    "ascertainment": "Low-complexity OMOP condition-code rule.",
+    "spirometry": "not_applicable: none of these three published COPD rules requires spirometry",
+    "clinical_diagnosis": "not_applicable: rule-based biobank phenotype rather than independent clinical adjudication",
+    "ehr_definition": "At least two occurrences of OMOP condition concept 255573 (COPD) or descendants; controls have zero.",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "negative: no distinct COPD subtype or secondary phenotype",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "UKB algorithm-comparison GWAS; no independent replication cohort for this accession.",
+    "cohorts": [
+      "UKB"
+    ],
+    "overlap_notes": "The three accessions analyze the same 405,811-person UKB source set under alternative, overlapping phenotype rules; they are sensitivity definitions, not independent replications.",
+    "full_stats_status": "available: GWAS Catalog full summary statistics",
+    "full_stats_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90668001-GCST90669000/GCST90668059/",
+    "rationale": "The outcome is explicit code-based COPD case-control and belongs in the secondary EHR stratum.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90668059",
+      "https://doi.org/10.1038/s41746-025-01815-8"
+    ],
+    "source_evidence": [
+      "The Catalog identifies the exact COPD phenotyping algorithm and the common 405,811-person UKB analysis base.",
+      "The primary paper gives concept 255573 and defines 2+ cases and zero-occurrence controls."
+    ],
+    "uncertainties": "not_reported: accession-level case/control counts are absent from the Catalog even though the rule itself is documented"
+  },
+  {
+    "study_accession": "GCST90473706",
+    "doi": "10.1038/s41586-025-09272-9",
+    "phenotype_class": "ehr_copd_susceptibility",
+    "primary_eligible": false,
+    "secondary_eligible": true,
+    "primary_question": "Whole-genome sequence association with ICD-10 J44 COPD in the UKB African ancestry analysis.",
+    "case_definition": "228 UKB participants with ICD-10 J44",
+    "control_definition": "8,987 UKB participants without the accession-specific J44 phenotype",
+    "copd_modeled_outcome": "yes: binary ICD-10 J44 COPD status",
+    "ascertainment": "UKB linked health-record ICD-10 phenotype used by the WGS association resource.",
+    "spirometry": "not_reported",
+    "clinical_diagnosis": "not_reported: code-based outcome",
+    "ehr_definition": "ICD-10 J44, other chronic obstructive pulmonary disease",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "negative: no distinct COPD subtype or secondary phenotype",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "UKB ancestry-specific WGS scan; no independent external replication.",
+    "cohorts": [
+      "UKB"
+    ],
+    "overlap_notes": "All four WGS accessions reuse UKB participants; the combined analysis contains the ancestry-specific samples and overlaps array-based UKB studies.",
+    "full_stats_status": "available: GWAS Catalog full summary statistics",
+    "full_stats_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90473001-GCST90474000/GCST90473706/",
+    "rationale": "Sequencing technology does not determine phenotype class. The actual accession outcome is ordinary binary ICD-10 J44 COPD, so it belongs in the secondary EHR stratum.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90473706",
+      "https://doi.org/10.1038/s41586-025-09272-9"
+    ],
+    "source_evidence": [
+      "The Catalog identifies ICD-10 J44, African ancestry, and accession-specific case/control counts.",
+      "The primary publication describes population-scale UKB WGS association analyses; this accession is the J44 binary phenotype scan."
+    ],
+    "uncertainties": "not_reported: no spirometric or clinical-adjudication criterion is stated for the accession"
+  },
+  {
+    "study_accession": "GCST90473707",
+    "doi": "10.1038/s41586-025-09272-9",
+    "phenotype_class": "ehr_copd_susceptibility",
+    "primary_eligible": false,
+    "secondary_eligible": true,
+    "primary_question": "Whole-genome sequence association with ICD-10 J44 COPD in the UKB Non-Finnish European ancestry analysis.",
+    "case_definition": "26,274 UKB participants with ICD-10 J44",
+    "control_definition": "432,166 UKB participants without the accession-specific J44 phenotype",
+    "copd_modeled_outcome": "yes: binary ICD-10 J44 COPD status",
+    "ascertainment": "UKB linked health-record ICD-10 phenotype used by the WGS association resource.",
+    "spirometry": "not_reported",
+    "clinical_diagnosis": "not_reported: code-based outcome",
+    "ehr_definition": "ICD-10 J44, other chronic obstructive pulmonary disease",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "negative: no distinct COPD subtype or secondary phenotype",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "UKB ancestry-specific WGS scan; no independent external replication.",
+    "cohorts": [
+      "UKB"
+    ],
+    "overlap_notes": "All four WGS accessions reuse UKB participants; the combined analysis contains the ancestry-specific samples and overlaps array-based UKB studies.",
+    "full_stats_status": "available: GWAS Catalog full summary statistics",
+    "full_stats_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90473001-GCST90474000/GCST90473707/",
+    "rationale": "Sequencing technology does not determine phenotype class. The actual accession outcome is ordinary binary ICD-10 J44 COPD, so it belongs in the secondary EHR stratum.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90473707",
+      "https://doi.org/10.1038/s41586-025-09272-9"
+    ],
+    "source_evidence": [
+      "The Catalog identifies ICD-10 J44, Non-Finnish European ancestry, and accession-specific case/control counts.",
+      "The primary publication describes population-scale UKB WGS association analyses; this accession is the J44 binary phenotype scan."
+    ],
+    "uncertainties": "not_reported: no spirometric or clinical-adjudication criterion is stated for the accession"
+  },
+  {
+    "study_accession": "GCST90473708",
+    "doi": "10.1038/s41586-025-09272-9",
+    "phenotype_class": "ehr_copd_susceptibility",
+    "primary_eligible": false,
+    "secondary_eligible": true,
+    "primary_question": "Whole-genome sequence association with ICD-10 J44 COPD in the UKB South Asian ancestry analysis.",
+    "case_definition": "353 UKB participants with ICD-10 J44",
+    "control_definition": "9,260 UKB participants without the accession-specific J44 phenotype",
+    "copd_modeled_outcome": "yes: binary ICD-10 J44 COPD status",
+    "ascertainment": "UKB linked health-record ICD-10 phenotype used by the WGS association resource.",
+    "spirometry": "not_reported",
+    "clinical_diagnosis": "not_reported: code-based outcome",
+    "ehr_definition": "ICD-10 J44, other chronic obstructive pulmonary disease",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "negative: no distinct COPD subtype or secondary phenotype",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "UKB ancestry-specific WGS scan; no independent external replication.",
+    "cohorts": [
+      "UKB"
+    ],
+    "overlap_notes": "All four WGS accessions reuse UKB participants; the combined analysis contains the ancestry-specific samples and overlaps array-based UKB studies.",
+    "full_stats_status": "available: GWAS Catalog full summary statistics",
+    "full_stats_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90473001-GCST90474000/GCST90473708/",
+    "rationale": "Sequencing technology does not determine phenotype class. The actual accession outcome is ordinary binary ICD-10 J44 COPD, so it belongs in the secondary EHR stratum.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90473708",
+      "https://doi.org/10.1038/s41586-025-09272-9"
+    ],
+    "source_evidence": [
+      "The Catalog identifies ICD-10 J44, South Asian ancestry, and accession-specific case/control counts.",
+      "The primary publication describes population-scale UKB WGS association analyses; this accession is the J44 binary phenotype scan."
+    ],
+    "uncertainties": "not_reported: no spirometric or clinical-adjudication criterion is stated for the accession"
+  },
+  {
+    "study_accession": "GCST90667889",
+    "doi": "10.1038/s41586-025-09272-9",
+    "phenotype_class": "ehr_copd_susceptibility",
+    "primary_eligible": false,
+    "secondary_eligible": true,
+    "primary_question": "Whole-genome sequence association with ICD-10 J44 COPD in the UKB multi-ancestry combined analysis analysis.",
+    "case_definition": "26,855 UKB participants with ICD-10 J44",
+    "control_definition": "450,413 UKB participants without the accession-specific J44 phenotype",
+    "copd_modeled_outcome": "yes: binary ICD-10 J44 COPD status",
+    "ascertainment": "UKB linked health-record ICD-10 phenotype used by the WGS association resource.",
+    "spirometry": "not_reported",
+    "clinical_diagnosis": "not_reported: code-based outcome",
+    "ehr_definition": "ICD-10 J44, other chronic obstructive pulmonary disease",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "negative: no distinct COPD subtype or secondary phenotype",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "Combined analysis of UKB ancestry-specific WGS scans; no independent external replication.",
+    "cohorts": [
+      "UKB"
+    ],
+    "overlap_notes": "All four WGS accessions reuse UKB participants; the combined analysis contains the ancestry-specific samples and overlaps array-based UKB studies.",
+    "full_stats_status": "not_available: GWAS Catalog does not provide full summary statistics for this accession",
+    "full_stats_url": "not_available",
+    "rationale": "Sequencing technology does not determine phenotype class. The actual accession outcome is ordinary binary ICD-10 J44 COPD, so it belongs in the secondary EHR stratum.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90667889",
+      "https://doi.org/10.1038/s41586-025-09272-9"
+    ],
+    "source_evidence": [
+      "The Catalog identifies ICD-10 J44, multi-ancestry combined analysis, and accession-specific case/control counts.",
+      "The primary publication describes population-scale UKB WGS association analyses; this accession is the J44 binary phenotype scan."
+    ],
+    "uncertainties": "not_reported: no spirometric or clinical-adjudication criterion is stated for the accession"
+  },
+  {
+    "study_accession": "GCST90854220",
+    "doi": "10.1093/gpbjnl/qzaf084",
+    "phenotype_class": "ehr_copd_susceptibility",
+    "primary_eligible": false,
+    "secondary_eligible": true,
+    "primary_question": "Single-variant association with binary COPD in HRC+UK10K-imputed SNP-array data, used to compare rare-variant detection across genotype resources.",
+    "case_definition": "19,444 European-ancestry UKB participants with at least one linked incident COPD diagnosis",
+    "control_definition": "440,041 European-ancestry UKB participants without the COPD diagnosis",
+    "copd_modeled_outcome": "yes: binary COPD case-control status",
+    "ascertainment": "National cancer, mortality, and hospital-inpatient record linkage; diagnoses encoded with ICD-10.",
+    "spirometry": "not_reported",
+    "clinical_diagnosis": "not_reported: registry/EHR ascertainment",
+    "ehr_definition": "At least one recorded incident ICD-10 diagnosis for COPD; exact COPD code list is in supplementary phenotype definitions rather than the main text.",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "negative: no distinct COPD subtype or secondary phenotype",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "Parallel comparison of two imputed array datasets and a nested WGS dataset in UKB; these are not independent replications.",
+    "cohorts": [
+      "UKB"
+    ],
+    "overlap_notes": "The two array scans use the same UKB participants, and the WGS analysis is a nested/overlapping UKB subset; all also overlap other UKB studies in this register.",
+    "full_stats_status": "not_available: GWAS Catalog does not provide full summary statistics for this accession",
+    "full_stats_url": "not_available",
+    "rationale": "Despite the rare-variant/imputation focus, the accession-level outcome is a binary record-defined COPD single-variant scan. It therefore belongs to the secondary EHR stratum, not the nonstandard burden/CNV class.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90854220",
+      "https://doi.org/10.1093/gpbjnl/qzaf084"
+    ],
+    "source_evidence": [
+      "The Catalog gives COPD case/control counts and identifies HRC+UK10K-imputed SNP-array data.",
+      "The primary paper states that health outcomes came from linked registries/inpatient encounters, that one recorded incident diagnosis defined a case, and that both single-variant and gene-based analyses were run; the Catalog accession is a variant-level study."
+    ],
+    "uncertainties": "not_reported: the accessible main text does not enumerate the exact COPD ICD-10 code, and full accession statistics are unavailable"
+  },
+  {
+    "study_accession": "GCST90854221",
+    "doi": "10.1093/gpbjnl/qzaf084",
+    "phenotype_class": "ehr_copd_susceptibility",
+    "primary_eligible": false,
+    "secondary_eligible": true,
+    "primary_question": "Single-variant association with binary COPD in TOPMed-imputed SNP-array data, used to compare rare-variant detection across genotype resources.",
+    "case_definition": "19,444 European-ancestry UKB participants with at least one linked incident COPD diagnosis",
+    "control_definition": "440,041 European-ancestry UKB participants without the COPD diagnosis",
+    "copd_modeled_outcome": "yes: binary COPD case-control status",
+    "ascertainment": "National cancer, mortality, and hospital-inpatient record linkage; diagnoses encoded with ICD-10.",
+    "spirometry": "not_reported",
+    "clinical_diagnosis": "not_reported: registry/EHR ascertainment",
+    "ehr_definition": "At least one recorded incident ICD-10 diagnosis for COPD; exact COPD code list is in supplementary phenotype definitions rather than the main text.",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "negative: no distinct COPD subtype or secondary phenotype",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "Parallel comparison of two imputed array datasets and a nested WGS dataset in UKB; these are not independent replications.",
+    "cohorts": [
+      "UKB"
+    ],
+    "overlap_notes": "The two array scans use the same UKB participants, and the WGS analysis is a nested/overlapping UKB subset; all also overlap other UKB studies in this register.",
+    "full_stats_status": "not_available: GWAS Catalog does not provide full summary statistics for this accession",
+    "full_stats_url": "not_available",
+    "rationale": "Despite the rare-variant/imputation focus, the accession-level outcome is a binary record-defined COPD single-variant scan. It therefore belongs to the secondary EHR stratum, not the nonstandard burden/CNV class.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90854221",
+      "https://doi.org/10.1093/gpbjnl/qzaf084"
+    ],
+    "source_evidence": [
+      "The Catalog gives COPD case/control counts and identifies TOPMed-imputed SNP-array data.",
+      "The primary paper states that health outcomes came from linked registries/inpatient encounters, that one recorded incident diagnosis defined a case, and that both single-variant and gene-based analyses were run; the Catalog accession is a variant-level study."
+    ],
+    "uncertainties": "not_reported: the accessible main text does not enumerate the exact COPD ICD-10 code, and full accession statistics are unavailable"
+  },
+  {
+    "study_accession": "GCST90854222",
+    "doi": "10.1093/gpbjnl/qzaf084",
+    "phenotype_class": "ehr_copd_susceptibility",
+    "primary_eligible": false,
+    "secondary_eligible": true,
+    "primary_question": "Single-variant association with binary COPD in UKB whole-genome sequence subset, used to compare rare-variant detection across genotype resources.",
+    "case_definition": "4,845 European-ancestry UKB participants with at least one linked incident COPD diagnosis",
+    "control_definition": "136,236 European-ancestry UKB participants without the COPD diagnosis",
+    "copd_modeled_outcome": "yes: binary COPD case-control status",
+    "ascertainment": "National cancer, mortality, and hospital-inpatient record linkage; diagnoses encoded with ICD-10.",
+    "spirometry": "not_reported",
+    "clinical_diagnosis": "not_reported: registry/EHR ascertainment",
+    "ehr_definition": "At least one recorded incident ICD-10 diagnosis for COPD; exact COPD code list is in supplementary phenotype definitions rather than the main text.",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "negative: no distinct COPD subtype or secondary phenotype",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "Parallel comparison of two imputed array datasets and a nested WGS dataset in UKB; these are not independent replications.",
+    "cohorts": [
+      "UKB"
+    ],
+    "overlap_notes": "The two array scans use the same UKB participants, and the WGS analysis is a nested/overlapping UKB subset; all also overlap other UKB studies in this register.",
+    "full_stats_status": "not_available: GWAS Catalog does not provide full summary statistics for this accession",
+    "full_stats_url": "not_available",
+    "rationale": "Despite the rare-variant/imputation focus, the accession-level outcome is a binary record-defined COPD single-variant scan. It therefore belongs to the secondary EHR stratum, not the nonstandard burden/CNV class.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90854222",
+      "https://doi.org/10.1093/gpbjnl/qzaf084"
+    ],
+    "source_evidence": [
+      "The Catalog gives COPD case/control counts and identifies UKB whole-genome sequence subset.",
+      "The primary paper states that health outcomes came from linked registries/inpatient encounters, that one recorded incident diagnosis defined a case, and that both single-variant and gene-based analyses were run; the Catalog accession is a variant-level study."
+    ],
+    "uncertainties": "not_reported: the accessible main text does not enumerate the exact COPD ICD-10 code, and full accession statistics are unavailable"
+  },
+  {
+    "study_accession": "GCST90691934",
+    "doi": "10.1038/s41588-025-02335-7",
+    "phenotype_class": "ehr_copd_susceptibility",
+    "primary_eligible": false,
+    "secondary_eligible": true,
+    "primary_question": "Pan-UKB association scan of ICD-10 J44 COPD in the European ancestry.",
+    "case_definition": "11,536 UKB participants with ICD-10 J44",
+    "control_definition": "408,995 UKB participants without the accession-specific J44 phenotype",
+    "copd_modeled_outcome": "yes: binary ICD-10 J44 COPD status",
+    "ascertainment": "UKB linked health-record ICD-10 phenotype in the Pan-UKB association pipeline.",
+    "spirometry": "not_reported",
+    "clinical_diagnosis": "not_reported: code-based phenotype",
+    "ehr_definition": "ICD-10 J44, other chronic obstructive pulmonary disease",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "negative: no distinct COPD subtype or secondary phenotype",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "UKB ancestry-specific scan; related combined analysis is reported.",
+    "cohorts": [
+      "UKB"
+    ],
+    "overlap_notes": "The combined accession reuses participants from the ancestry-specific accessions; all substantially overlap other UKB analyses.",
+    "full_stats_status": "available: GWAS Catalog full summary statistics",
+    "full_stats_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90691001-GCST90692000/GCST90691934/",
+    "rationale": "The actual phenotype is binary ICD-10 J44 COPD, placing it in the secondary EHR stratum. Ancestry analysis and meta-analysis status are recorded separately.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90691934",
+      "https://doi.org/10.1038/s41588-025-02335-7"
+    ],
+    "source_evidence": [
+      "The Catalog identifies ICD-10 J44, European ancestry, and case/control counts.",
+      "The primary Pan-UKB paper describes ancestry-specific and cross-population association scans using biobank phenotypes."
+    ],
+    "uncertainties": "not_reported: no direct spirometric or clinical-adjudication requirement is stated"
+  },
+  {
+    "study_accession": "GCST90692407",
+    "doi": "10.1038/s41588-025-02335-7",
+    "phenotype_class": "ehr_copd_susceptibility",
+    "primary_eligible": false,
+    "secondary_eligible": true,
+    "primary_question": "Pan-UKB association scan of ICD-10 J44 COPD in the Central/South Asian ancestry.",
+    "case_definition": "152 UKB participants with ICD-10 J44",
+    "control_definition": "8,724 UKB participants without the accession-specific J44 phenotype",
+    "copd_modeled_outcome": "yes: binary ICD-10 J44 COPD status",
+    "ascertainment": "UKB linked health-record ICD-10 phenotype in the Pan-UKB association pipeline.",
+    "spirometry": "not_reported",
+    "clinical_diagnosis": "not_reported: code-based phenotype",
+    "ehr_definition": "ICD-10 J44, other chronic obstructive pulmonary disease",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "negative: no distinct COPD subtype or secondary phenotype",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "UKB ancestry-specific scan; related combined analysis is reported.",
+    "cohorts": [
+      "UKB"
+    ],
+    "overlap_notes": "The combined accession reuses participants from the ancestry-specific accessions; all substantially overlap other UKB analyses.",
+    "full_stats_status": "available: GWAS Catalog full summary statistics",
+    "full_stats_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90692001-GCST90693000/GCST90692407/",
+    "rationale": "The actual phenotype is binary ICD-10 J44 COPD, placing it in the secondary EHR stratum. Ancestry analysis and meta-analysis status are recorded separately.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90692407",
+      "https://doi.org/10.1038/s41588-025-02335-7"
+    ],
+    "source_evidence": [
+      "The Catalog identifies ICD-10 J44, Central/South Asian ancestry, and case/control counts.",
+      "The primary Pan-UKB paper describes ancestry-specific and cross-population association scans using biobank phenotypes."
+    ],
+    "uncertainties": "not_reported: no direct spirometric or clinical-adjudication requirement is stated"
+  },
+  {
+    "study_accession": "GCST90692991",
+    "doi": "10.1038/s41588-025-02335-7",
+    "phenotype_class": "ehr_copd_susceptibility",
+    "primary_eligible": false,
+    "secondary_eligible": true,
+    "primary_question": "Pan-UKB association scan of ICD-10 J44 COPD in the combined European and Central/South Asian analysis.",
+    "case_definition": "11,688 UKB participants with ICD-10 J44",
+    "control_definition": "417,719 UKB participants without the accession-specific J44 phenotype",
+    "copd_modeled_outcome": "yes: binary ICD-10 J44 COPD status",
+    "ascertainment": "UKB linked health-record ICD-10 phenotype in the Pan-UKB association pipeline.",
+    "spirometry": "not_reported",
+    "clinical_diagnosis": "not_reported: code-based phenotype",
+    "ehr_definition": "ICD-10 J44, other chronic obstructive pulmonary disease",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "negative: no distinct COPD subtype or secondary phenotype",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "Cross-population combined analysis of UKB ancestry-specific scans; no independent cohort replication.",
+    "cohorts": [
+      "UKB"
+    ],
+    "overlap_notes": "The combined accession reuses participants from the ancestry-specific accessions; all substantially overlap other UKB analyses.",
+    "full_stats_status": "available: GWAS Catalog full summary statistics",
+    "full_stats_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90692001-GCST90693000/GCST90692991/",
+    "rationale": "The actual phenotype is binary ICD-10 J44 COPD, placing it in the secondary EHR stratum. Ancestry analysis and meta-analysis status are recorded separately.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90692991",
+      "https://doi.org/10.1038/s41588-025-02335-7"
+    ],
+    "source_evidence": [
+      "The Catalog identifies ICD-10 J44, combined European and Central/South Asian analysis, and case/control counts.",
+      "The primary Pan-UKB paper describes ancestry-specific and cross-population association scans using biobank phenotypes."
+    ],
+    "uncertainties": "not_reported: no direct spirometric or clinical-adjudication requirement is stated"
+  },
+  {
+    "study_accession": "GCST90837486",
+    "doi": "10.1038/s41467-025-66598-8",
+    "phenotype_class": "ehr_copd_susceptibility",
+    "primary_eligible": false,
+    "secondary_eligible": true,
+    "primary_question": "Association of variants with MGB Biobank PheCode 496 chronic airway obstruction.",
+    "case_definition": "5,868 MGBB participants meeting PheCode 496",
+    "control_definition": "46,506 MGBB participants assigned as PheCode controls",
+    "copd_modeled_outcome": "yes: binary PheCode-defined chronic airway obstruction",
+    "ascertainment": "Longitudinal Mass General Brigham electronic health records mapped to PheCodes.",
+    "spirometry": "not_reported",
+    "clinical_diagnosis": "not_reported: no clinical or spirometric adjudication requirement",
+    "ehr_definition": "PheCode 496, chronic airway obstruction",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "negative: no distinct COPD subtype or secondary phenotype",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "MGBB multi-ancestry analysis; no independent replication reported for this accession.",
+    "cohorts": [
+      "MGBB"
+    ],
+    "overlap_notes": "Participants overlap other MGBB phenome-wide accessions but are independent of UKB/MVP/CKB unless otherwise undocumented.",
+    "full_stats_status": "not_available: GWAS Catalog does not provide full summary statistics for this accession",
+    "full_stats_url": "not_available",
+    "rationale": "The accession is an EHR PheCode COPD-like susceptibility phenotype and therefore belongs in the secondary stratum.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90837486",
+      "https://doi.org/10.1038/s41467-025-66598-8"
+    ],
+    "source_evidence": [
+      "The Catalog identifies PheCode 496 with 5,868 cases and 46,506 controls.",
+      "The primary paper describes participant recruitment and EHR-based phenotyping in MGB Biobank."
+    ],
+    "uncertainties": "not_reported: the Catalog record does not restate the full PheCode control-exclusion algorithm"
+  },
+  {
+    "study_accession": "GCST90726684",
+    "doi": "10.1038/s41588-026-02553-7",
+    "phenotype_class": "ehr_copd_susceptibility",
+    "primary_eligible": false,
+    "secondary_eligible": true,
+    "primary_question": "Single-variant exome-wide association with COPD defined by the MULTIPLY codelist in Genes & Health.",
+    "case_definition": "986 British Bangladeshi or British Pakistani G&H participants meeting the MULTIPLY codelist",
+    "control_definition": "43,040 G&H participants not meeting that codelist definition",
+    "copd_modeled_outcome": "yes: binary EHR-derived COPD status",
+    "ascertainment": "Longitudinal linked NHS primary care, hospital, mortality, and related records; binary traits derived from ICD-10 and custom codelists.",
+    "spirometry": "not_reported",
+    "clinical_diagnosis": "not_reported: no independent clinical or spirometric adjudication requirement",
+    "ehr_definition": "Custom EHR COPD definition: MULTIPLY codelist",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "negative: no distinct COPD subtype or secondary phenotype",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "G&H 44,028-person discovery resource; significant study-wide associations were evaluated in an additional 11,863 G&H exomes and/or UKB, but no COPD-specific replication result is reported for this accession.",
+    "cohorts": [
+      "G&H"
+    ],
+    "overlap_notes": "All four accessions reuse the same 44,026 phenotyped G&H participants under alternative, overlapping COPD codelists and share the reported G&H replication resource.",
+    "full_stats_status": "available: GWAS Catalog full summary statistics",
+    "full_stats_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90726001-GCST90727000/GCST90726684/",
+    "rationale": "The publication includes gene-based tests, but the Catalog accession is a GWAS-SSF single-variant REGENIE study over approximately 1.45 million exome variants. Its actual phenotype is binary EHR COPD, so it belongs in the secondary stratum rather than being classified from the exome-study title.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90726684",
+      "https://doi.org/10.1038/s41588-026-02553-7",
+      "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90726001-GCST90727000/GCST90726684/GCST90726684.tsv-meta.yaml"
+    ],
+    "source_evidence": [
+      "The Catalog identifies the MULTIPLY codelist and accession-specific binary case/control counts.",
+      "The primary paper states that 591 binary traits were derived from diagnosis/procedure codes and that single-variant and gene-based analyses were distinct.",
+      "The accession metadata identifies GWAS-SSF single-variant statistics, REGENIE, exome-wide sequencing, and a case-control study."
+    ],
+    "uncertainties": "not_reported: the exact code members and occurrence rules of this named codelist are not reproduced in the main paper or Catalog metadata"
+  },
+  {
+    "study_accession": "GCST90726818",
+    "doi": "10.1038/s41588-026-02553-7",
+    "phenotype_class": "ehr_copd_susceptibility",
+    "primary_eligible": false,
+    "secondary_eligible": true,
+    "primary_question": "Single-variant exome-wide association with COPD defined by the GlobalBiobankMetaAnalysis codelist in Genes & Health.",
+    "case_definition": "1,067 British Bangladeshi or British Pakistani G&H participants meeting the GlobalBiobankMetaAnalysis codelist",
+    "control_definition": "42,959 G&H participants not meeting that codelist definition",
+    "copd_modeled_outcome": "yes: binary EHR-derived COPD status",
+    "ascertainment": "Longitudinal linked NHS primary care, hospital, mortality, and related records; binary traits derived from ICD-10 and custom codelists.",
+    "spirometry": "not_reported",
+    "clinical_diagnosis": "not_reported: no independent clinical or spirometric adjudication requirement",
+    "ehr_definition": "Custom EHR COPD definition: GlobalBiobankMetaAnalysis codelist",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "negative: no distinct COPD subtype or secondary phenotype",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "G&H 44,028-person discovery resource; significant study-wide associations were evaluated in an additional 11,863 G&H exomes and/or UKB, but no COPD-specific replication result is reported for this accession.",
+    "cohorts": [
+      "G&H"
+    ],
+    "overlap_notes": "All four accessions reuse the same 44,026 phenotyped G&H participants under alternative, overlapping COPD codelists and share the reported G&H replication resource.",
+    "full_stats_status": "available: GWAS Catalog full summary statistics",
+    "full_stats_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90726001-GCST90727000/GCST90726818/",
+    "rationale": "The publication includes gene-based tests, but the Catalog accession is a GWAS-SSF single-variant REGENIE study over approximately 1.45 million exome variants. Its actual phenotype is binary EHR COPD, so it belongs in the secondary stratum rather than being classified from the exome-study title.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90726818",
+      "https://doi.org/10.1038/s41588-026-02553-7",
+      "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90726001-GCST90727000/GCST90726818/GCST90726818.tsv-meta.yaml"
+    ],
+    "source_evidence": [
+      "The Catalog identifies the GlobalBiobankMetaAnalysis codelist and accession-specific binary case/control counts.",
+      "The primary paper states that 591 binary traits were derived from diagnosis/procedure codes and that single-variant and gene-based analyses were distinct.",
+      "The accession metadata identifies GWAS-SSF single-variant statistics, REGENIE, exome-wide sequencing, and a case-control study."
+    ],
+    "uncertainties": "not_reported: the exact code members and occurrence rules of this named codelist are not reproduced in the main paper or Catalog metadata"
+  },
+  {
+    "study_accession": "GCST90726824",
+    "doi": "10.1038/s41588-026-02553-7",
+    "phenotype_class": "ehr_copd_susceptibility",
+    "primary_eligible": false,
+    "secondary_eligible": true,
+    "primary_question": "Single-variant exome-wide association with COPD defined by the HDR-UK definition in Genes & Health.",
+    "case_definition": "822 British Bangladeshi or British Pakistani G&H participants meeting the HDR-UK definition",
+    "control_definition": "43,204 G&H participants not meeting that codelist definition",
+    "copd_modeled_outcome": "yes: binary EHR-derived COPD status",
+    "ascertainment": "Longitudinal linked NHS primary care, hospital, mortality, and related records; binary traits derived from ICD-10 and custom codelists.",
+    "spirometry": "not_reported",
+    "clinical_diagnosis": "not_reported: no independent clinical or spirometric adjudication requirement",
+    "ehr_definition": "Custom EHR COPD definition: HDR-UK definition",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "negative: no distinct COPD subtype or secondary phenotype",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "G&H 44,028-person discovery resource; significant study-wide associations were evaluated in an additional 11,863 G&H exomes and/or UKB, but no COPD-specific replication result is reported for this accession.",
+    "cohorts": [
+      "G&H"
+    ],
+    "overlap_notes": "All four accessions reuse the same 44,026 phenotyped G&H participants under alternative, overlapping COPD codelists and share the reported G&H replication resource.",
+    "full_stats_status": "available: GWAS Catalog full summary statistics",
+    "full_stats_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90726001-GCST90727000/GCST90726824/",
+    "rationale": "The publication includes gene-based tests, but the Catalog accession is a GWAS-SSF single-variant REGENIE study over approximately 1.45 million exome variants. Its actual phenotype is binary EHR COPD, so it belongs in the secondary stratum rather than being classified from the exome-study title.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90726824",
+      "https://doi.org/10.1038/s41588-026-02553-7",
+      "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90726001-GCST90727000/GCST90726824/GCST90726824.tsv-meta.yaml"
+    ],
+    "source_evidence": [
+      "The Catalog identifies the HDR-UK definition and accession-specific binary case/control counts.",
+      "The primary paper states that 591 binary traits were derived from diagnosis/procedure codes and that single-variant and gene-based analyses were distinct.",
+      "The accession metadata identifies GWAS-SSF single-variant statistics, REGENIE, exome-wide sequencing, and a case-control study."
+    ],
+    "uncertainties": "not_reported: the exact code members and occurrence rules of this named codelist are not reproduced in the main paper or Catalog metadata"
+  },
+  {
+    "study_accession": "GCST90726958",
+    "doi": "10.1038/s41588-026-02553-7",
+    "phenotype_class": "ehr_copd_susceptibility",
+    "primary_eligible": false,
+    "secondary_eligible": true,
+    "primary_question": "Single-variant exome-wide association with COPD defined by the ICD-10 J44 in Genes & Health.",
+    "case_definition": "798 British Bangladeshi or British Pakistani G&H participants meeting the ICD-10 J44",
+    "control_definition": "43,228 G&H participants not meeting that codelist definition",
+    "copd_modeled_outcome": "yes: binary EHR-derived COPD status",
+    "ascertainment": "Longitudinal linked NHS primary care, hospital, mortality, and related records; binary traits derived from ICD-10 and custom codelists.",
+    "spirometry": "not_reported",
+    "clinical_diagnosis": "not_reported: no independent clinical or spirometric adjudication requirement",
+    "ehr_definition": "ICD-10 J44, other chronic obstructive pulmonary disease",
+    "surrogate_definition": "not_applicable",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "negative: no distinct COPD subtype or secondary phenotype",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "G&H 44,028-person discovery resource; significant study-wide associations were evaluated in an additional 11,863 G&H exomes and/or UKB, but no COPD-specific replication result is reported for this accession.",
+    "cohorts": [
+      "G&H"
+    ],
+    "overlap_notes": "All four accessions reuse the same 44,026 phenotyped G&H participants under alternative, overlapping COPD codelists and share the reported G&H replication resource.",
+    "full_stats_status": "available: GWAS Catalog full summary statistics",
+    "full_stats_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90726001-GCST90727000/GCST90726958/",
+    "rationale": "The publication includes gene-based tests, but the Catalog accession is a GWAS-SSF single-variant REGENIE study over approximately 1.45 million exome variants. Its actual phenotype is binary EHR COPD, so it belongs in the secondary stratum rather than being classified from the exome-study title.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90726958",
+      "https://doi.org/10.1038/s41588-026-02553-7",
+      "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90726001-GCST90727000/GCST90726958/GCST90726958.tsv-meta.yaml"
+    ],
+    "source_evidence": [
+      "The Catalog identifies the ICD-10 J44 and accession-specific binary case/control counts.",
+      "The primary paper states that 591 binary traits were derived from diagnosis/procedure codes and that single-variant and gene-based analyses were distinct.",
+      "The accession metadata identifies GWAS-SSF single-variant statistics, REGENIE, exome-wide sequencing, and a case-control study."
+    ],
+    "uncertainties": "negative: the code-based phenotype is explicit; COPD-specific replication status is not reported"
+  },
+  {
+    "study_accession": "GCST90837197",
+    "doi": "10.1038/s41467-026-73925-0",
+    "phenotype_class": "mixed_direct_ehr_susceptibility",
+    "primary_eligible": false,
+    "secondary_eligible": true,
+    "primary_question": "Standalone UKB GWAS of a broad COPD phenotype used as one systemic disease outcome in an orofacial/systemic-disease study.",
+    "case_definition": "27,304 European-ancestry UKB participants meeting any of ICD-9 491/492/496, ICD-10 J41/J42/J43/J44, or self-reported chronic obstructive airways disease/COPD",
+    "control_definition": "430,208 European-ancestry UKB participants not meeting the broad COPD inclusion rule",
+    "copd_modeled_outcome": "yes: binary broad COPD status; this accession is not a cross-phenotype CPASSOC statistic",
+    "ascertainment": "Composite UKB registry/EHR codes and baseline self-report.",
+    "spirometry": "not_applicable: the published COPD inclusion rule does not require spirometry",
+    "clinical_diagnosis": "not_applicable: no independent clinical adjudication requirement",
+    "ehr_definition": "ICD-9 491, 492, 496; ICD-10 J41, J42, J43, J44",
+    "surrogate_definition": "Self-reported chronic obstructive airways disease/COPD is an alternative inclusion route; no ML score is used.",
+    "severity_selected": "negative: no severity selection reported",
+    "within_case_design": "negative: not a within-COPD design",
+    "subtype_secondary_phenotype": "negative: no distinct COPD subtype or secondary phenotype",
+    "smoking_design": "negative: no smoking restriction, stratification, or interaction reported",
+    "sex_design": "negative: not sex-specific",
+    "discovery_replication": "UKB discovery GWAS; FinnGen was used for disease-level replication analyses elsewhere in the paper, but this Catalog accession is the UKB COPD scan.",
+    "cohorts": [
+      "UKB"
+    ],
+    "overlap_notes": "Probable extensive overlap with other UKB accessions. The paper analyzes cross-disease relationships, but this accession itself is a standalone COPD GWAS and must not be labeled an independent cross-disease cohort.",
+    "full_stats_status": "available: GWAS Catalog full summary statistics",
+    "full_stats_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90837001-GCST90838000/GCST90837197/",
+    "rationale": "The accession-level statistic is binary COPD, not a shared-disease meta-statistic. Its broad rule combines coded chronic bronchitis/emphysema/COPD and self-report, so it is a mixed EHR/composite susceptibility phenotype eligible only for the secondary sensitivity stratum.",
+    "confidence": "high",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gwas/studies/GCST90837197",
+      "https://doi.org/10.1038/s41467-026-73925-0"
+    ],
+    "source_evidence": [
+      "The Catalog reports a standalone COPD study with 27,304 cases and 430,208 controls.",
+      "Supplementary Data 31 defines UKB COPD using ICD-9 491/492/496, ICD-10 J41-J44, or self-reported chronic obstructive airways disease/COPD.",
+      "The primary methods distinguish the GWAS of nine systemic diseases from later MR and cross-phenotype analyses."
+    ],
+    "uncertainties": "negative: the broad composite definition is documented; only the relative contribution of code-based versus self-reported cases is not reported"
+  }
+]
+

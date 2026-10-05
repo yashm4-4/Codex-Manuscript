@@ -1,0 +1,16 @@
+{
+  "GCST90668057": {"phenotype_class": "mixed_ehr_self_report_susceptibility", "secondary_eligible": false, "rationale": "Documented ADO mixture of codes, cause-of-death records and self-report; no independently adjudicated direct case component. Preserve as a separate composite, excluded from strict EHR estimate but included in the explicit EHR-plus-composite sensitivity."},
+  "GCST90837197": {"phenotype_class": "mixed_ehr_self_report_susceptibility", "secondary_eligible": false, "rationale": "Standalone COPD scan, not cross-trait statistic; documented mixture of chronic-bronchitis/emphysema/COPD codes and self-report. Preserve as a separate composite, excluded from strict EHR estimate but included in the explicit EHR-plus-composite sensitivity."},
+  "GCST90079454": {"copd_modeled_outcome": "no; field 6152 emphysema/chronic-bronchitis self-report composite, not specifically general COPD"},
+  "GCST90083440": {"copd_modeled_outcome": "no; field 6152 emphysema/chronic-bronchitis self-report composite, not specifically general COPD"},
+  "GCST90044074": {"copd_modeled_outcome": "no general COPD; obstructive chronic bronchitis PheCode"},
+  "GCST90103354": {"copd_modeled_outcome": "unclear; source-of-COPD-report derived endpoint, not directly adjudicated diagnosis"},
+  "GCST90077673": {"copd_modeled_outcome": "yes as self-reported diagnosis; no direct adjudication established"},
+  "GCST90078864": {"copd_modeled_outcome": "yes as self-reported obstructive airways diagnosis; no direct adjudication established"},
+  "GCST90081659": {"copd_modeled_outcome": "yes as self-reported diagnosis; gene-burden test; no direct adjudication established"},
+  "GCST90082850": {"copd_modeled_outcome": "yes as self-reported obstructive airways diagnosis; gene-burden test; no direct adjudication established"},
+  "GCST90080129": {"copd_modeled_outcome": "yes; COPD with infection subtype versus population controls, not within-COPD event susceptibility"},
+  "GCST90080130": {"copd_modeled_outcome": "yes; COPD with exacerbation subtype versus population controls, not within-COPD event susceptibility"},
+  "GCST90084115": {"copd_modeled_outcome": "yes; COPD with infection subtype burden test versus population controls, not within-COPD event susceptibility"},
+  "GCST90084116": {"copd_modeled_outcome": "yes; COPD with exacerbation subtype burden test versus population controls, not within-COPD event susceptibility"}
+}

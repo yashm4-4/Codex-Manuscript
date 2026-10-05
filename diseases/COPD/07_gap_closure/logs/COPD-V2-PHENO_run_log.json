@@ -1,0 +1,347 @@
+{
+  "classification_counts": {
+    "direct_copd_susceptibility": 27,
+    "progression_decline": 1,
+    "ehr_copd_susceptibility": 41,
+    "unresolved": 5,
+    "materially_different_smoking_interaction": 2,
+    "exacerbation_treatment": 2,
+    "nonstandard_gene_burden_cnv": 16,
+    "chronic_bronchitis": 6,
+    "ml_surrogate_liability": 1,
+    "within_copd_severity": 1,
+    "mixed_ehr_self_report_susceptibility": 2
+  },
+  "summary": [
+    {
+      "universe": "gws_tags",
+      "stratum": "broad",
+      "supported": 660,
+      "denominator": 660,
+      "percent": 100.0,
+      "counting_unit": "gws_tags",
+      "interpretation": "nonexclusive descriptive support; no independence or causal claim"
+    },
+    {
+      "universe": "gws_tags",
+      "stratum": "primary_direct",
+      "supported": 225,
+      "denominator": 660,
+      "percent": 34.0909,
+      "counting_unit": "gws_tags",
+      "interpretation": "nonexclusive descriptive support; no independence or causal claim"
+    },
+    {
+      "universe": "gws_tags",
+      "stratum": "secondary_ehr",
+      "supported": 96,
+      "denominator": 660,
+      "percent": 14.5455,
+      "counting_unit": "gws_tags",
+      "interpretation": "nonexclusive descriptive support; no independence or causal claim"
+    },
+    {
+      "universe": "gws_tags",
+      "stratum": "ml_surrogate",
+      "supported": 356,
+      "denominator": 660,
+      "percent": 53.9394,
+      "counting_unit": "gws_tags",
+      "interpretation": "nonexclusive descriptive support; no independence or causal claim"
+    },
+    {
+      "universe": "gws_tags",
+      "stratum": "primary_or_ehr",
+      "supported": 315,
+      "denominator": 660,
+      "percent": 47.7273,
+      "counting_unit": "gws_tags",
+      "interpretation": "nonexclusive descriptive support; no independence or causal claim"
+    },
+    {
+      "universe": "all_15389",
+      "stratum": "broad",
+      "supported": 15389,
+      "denominator": 15389,
+      "percent": 100.0,
+      "counting_unit": "all_15389",
+      "interpretation": "nonexclusive descriptive support; no independence or causal claim"
+    },
+    {
+      "universe": "all_15389",
+      "stratum": "primary_direct",
+      "supported": 8212,
+      "denominator": 15389,
+      "percent": 53.3628,
+      "counting_unit": "all_15389",
+      "interpretation": "nonexclusive descriptive support; no independence or causal claim"
+    },
+    {
+      "universe": "all_15389",
+      "stratum": "secondary_ehr",
+      "supported": 1977,
+      "denominator": 15389,
+      "percent": 12.8468,
+      "counting_unit": "all_15389",
+      "interpretation": "nonexclusive descriptive support; no independence or causal claim"
+    },
+    {
+      "universe": "all_15389",
+      "stratum": "ml_surrogate",
+      "supported": 7240,
+      "denominator": 15389,
+      "percent": 47.0466,
+      "counting_unit": "all_15389",
+      "interpretation": "nonexclusive descriptive support; no independence or causal claim"
+    },
+    {
+      "universe": "all_15389",
+      "stratum": "primary_or_ehr",
+      "supported": 9906,
+      "denominator": 15389,
+      "percent": 64.3707,
+      "counting_unit": "all_15389",
+      "interpretation": "nonexclusive descriptive support; no independence or causal claim"
+    },
+    {
+      "universe": "frozen_337",
+      "stratum": "broad",
+      "supported": 337,
+      "denominator": 337,
+      "percent": 100.0,
+      "counting_unit": "frozen_337",
+      "interpretation": "nonexclusive descriptive support; no independence or causal claim"
+    },
+    {
+      "universe": "frozen_337",
+      "stratum": "primary_direct",
+      "supported": 184,
+      "denominator": 337,
+      "percent": 54.5994,
+      "counting_unit": "frozen_337",
+      "interpretation": "nonexclusive descriptive support; no independence or causal claim"
+    },
+    {
+      "universe": "frozen_337",
+      "stratum": "secondary_ehr",
+      "supported": 31,
+      "denominator": 337,
+      "percent": 9.1988,
+      "counting_unit": "frozen_337",
+      "interpretation": "nonexclusive descriptive support; no independence or causal claim"
+    },
+    {
+      "universe": "frozen_337",
+      "stratum": "ml_surrogate",
+      "supported": 173,
+      "denominator": 337,
+      "percent": 51.3353,
+      "counting_unit": "frozen_337",
+      "interpretation": "nonexclusive descriptive support; no independence or causal claim"
+    },
+    {
+      "universe": "frozen_337",
+      "stratum": "primary_or_ehr",
+      "supported": 213,
+      "denominator": 337,
+      "percent": 63.2047,
+      "counting_unit": "frozen_337",
+      "interpretation": "nonexclusive descriptive support; no independence or causal claim"
+    },
+    {
+      "universe": "components_153",
+      "stratum": "broad",
+      "supported": 153,
+      "denominator": 153,
+      "percent": 100.0,
+      "counting_unit": "existing component any-member",
+      "interpretation": "nonexclusive descriptive support; no independence or causal claim"
+    },
+    {
+      "universe": "components_153",
+      "stratum": "primary_direct",
+      "supported": 72,
+      "denominator": 153,
+      "percent": 47.0588,
+      "counting_unit": "existing component any-member",
+      "interpretation": "nonexclusive descriptive support; no independence or causal claim"
+    },
+    {
+      "universe": "components_153",
+      "stratum": "secondary_ehr",
+      "supported": 15,
+      "denominator": 153,
+      "percent": 9.8039,
+      "counting_unit": "existing component any-member",
+      "interpretation": "nonexclusive descriptive support; no independence or causal claim"
+    },
+    {
+      "universe": "components_153",
+      "stratum": "ml_surrogate",
+      "supported": 88,
+      "denominator": 153,
+      "percent": 57.5163,
+      "counting_unit": "existing component any-member",
+      "interpretation": "nonexclusive descriptive support; no independence or causal claim"
+    },
+    {
+      "universe": "components_153",
+      "stratum": "primary_or_ehr",
+      "supported": 85,
+      "denominator": 153,
+      "percent": 55.5556,
+      "counting_unit": "existing component any-member",
+      "interpretation": "nonexclusive descriptive support; no independence or causal claim"
+    },
+    {
+      "universe": "shortlist_12",
+      "stratum": "broad",
+      "supported": 12,
+      "denominator": 12,
+      "percent": 100.0,
+      "counting_unit": "shortlist_12",
+      "interpretation": "nonexclusive descriptive support; no independence or causal claim"
+    },
+    {
+      "universe": "shortlist_12",
+      "stratum": "primary_direct",
+      "supported": 6,
+      "denominator": 12,
+      "percent": 50.0,
+      "counting_unit": "shortlist_12",
+      "interpretation": "nonexclusive descriptive support; no independence or causal claim"
+    },
+    {
+      "universe": "shortlist_12",
+      "stratum": "secondary_ehr",
+      "supported": 2,
+      "denominator": 12,
+      "percent": 16.6667,
+      "counting_unit": "shortlist_12",
+      "interpretation": "nonexclusive descriptive support; no independence or causal claim"
+    },
+    {
+      "universe": "shortlist_12",
+      "stratum": "ml_surrogate",
+      "supported": 6,
+      "denominator": 12,
+      "percent": 50.0,
+      "counting_unit": "shortlist_12",
+      "interpretation": "nonexclusive descriptive support; no independence or causal claim"
+    },
+    {
+      "universe": "shortlist_12",
+      "stratum": "primary_or_ehr",
+      "supported": 8,
+      "denominator": 12,
+      "percent": 66.6667,
+      "counting_unit": "shortlist_12",
+      "interpretation": "nonexclusive descriptive support; no independence or causal claim"
+    }
+  ],
+  "ML": [
+    {
+      "universe": "gws_tags",
+      "provenance_mode": "exact_GWS_tag_panel",
+      "denominator": 660,
+      "ML_linked": 356,
+      "ML_only_study": 339,
+      "ML_linked_primary_retained": 16,
+      "ML_linked_not_primary_retained": 340,
+      "ML_only_primary_retained": 0
+    },
+    {
+      "universe": "gws_tags",
+      "provenance_mode": "frozen_aggregate_provenance",
+      "denominator": 660,
+      "ML_linked": 356,
+      "ML_only_study": 337,
+      "ML_linked_primary_retained": 16,
+      "ML_linked_not_primary_retained": 340,
+      "ML_only_primary_retained": 0
+    },
+    {
+      "universe": "all_15389",
+      "provenance_mode": "exact_GWS_tag_panel",
+      "denominator": 15389,
+      "ML_linked": 7240,
+      "ML_only_study": 5470,
+      "ML_linked_primary_retained": 1725,
+      "ML_linked_not_primary_retained": 5515,
+      "ML_only_primary_retained": 0
+    },
+    {
+      "universe": "all_15389",
+      "provenance_mode": "frozen_aggregate_provenance",
+      "denominator": 15389,
+      "ML_linked": 7446,
+      "ML_only_study": 5469,
+      "ML_linked_primary_retained": 1931,
+      "ML_linked_not_primary_retained": 5515,
+      "ML_only_primary_retained": 0
+    },
+    {
+      "universe": "frozen_337",
+      "provenance_mode": "exact_GWS_tag_panel",
+      "denominator": 337,
+      "ML_linked": 173,
+      "ML_only_study": 124,
+      "ML_linked_primary_retained": 48,
+      "ML_linked_not_primary_retained": 125,
+      "ML_only_primary_retained": 0
+    },
+    {
+      "universe": "frozen_337",
+      "provenance_mode": "frozen_aggregate_provenance",
+      "denominator": 337,
+      "ML_linked": 177,
+      "ML_only_study": 124,
+      "ML_linked_primary_retained": 52,
+      "ML_linked_not_primary_retained": 125,
+      "ML_only_primary_retained": 0
+    },
+    {
+      "universe": "components_153",
+      "provenance_mode": "exact_GWS_tag_panel",
+      "denominator": 153,
+      "ML_linked": 88,
+      "ML_only_study": 68,
+      "ML_linked_primary_retained": 19,
+      "ML_linked_not_primary_retained": 69,
+      "ML_only_primary_retained": 0
+    },
+    {
+      "universe": "components_153",
+      "provenance_mode": "frozen_aggregate_provenance",
+      "denominator": 153,
+      "ML_linked": 90,
+      "ML_only_study": 68,
+      "ML_linked_primary_retained": 21,
+      "ML_linked_not_primary_retained": 69,
+      "ML_only_primary_retained": 0
+    },
+    {
+      "universe": "shortlist_12",
+      "provenance_mode": "exact_GWS_tag_panel",
+      "denominator": 12,
+      "ML_linked": 6,
+      "ML_only_study": 4,
+      "ML_linked_primary_retained": 2,
+      "ML_linked_not_primary_retained": 4,
+      "ML_only_primary_retained": 0
+    },
+    {
+      "universe": "shortlist_12",
+      "provenance_mode": "frozen_aggregate_provenance",
+      "denominator": 12,
+      "ML_linked": 6,
+      "ML_only_study": 4,
+      "ML_linked_primary_retained": 2,
+      "ML_linked_not_primary_retained": 4,
+      "ML_only_primary_retained": 0
+    }
+  ],
+  "checks": 53,
+  "elapsed_seconds": 3.036,
+  "max_rss_KiB": 491432
+}

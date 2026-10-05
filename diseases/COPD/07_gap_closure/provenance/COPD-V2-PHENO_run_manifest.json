@@ -1,0 +1,205 @@
+{
+  "analysis_id": "COPD-V2-PHENO-RUN-001",
+  "generated_utc": "2026-10-05T19:19:28.901398+00:00",
+  "python": "3.9.15 | packaged by conda-forge | (main, Nov 22 2022, 08:45:29) \n[GCC 10.4.0]",
+  "platform": "Linux-4.18.0-425.19.3b.el8.x86_64-x86_64-with-glibc2.28",
+  "git_head": "7261f4c7fed398188208f801d8fd7a7a725936a7",
+  "command": "python3 diseases/COPD/07_gap_closure/scripts/run_phenotype_robustness.py",
+  "script_sha256": "f937b3bec4757b7452c8f22cfdc2b5dd6fc9501c6d7fc6ea3fdc174e0e50cf32",
+  "specification_sha256": "45af3b9bae44e816dbcea749eb9552ab6d7ec8b842ead2058f456eb1edc49427",
+  "inputs": [
+    {
+      "path": "diseases/COPD/02_gwas/data/copd_ancestries.tsv",
+      "sha256": "b39980023f90421d1e2e7189e5512cdf59e3cbfd716555d4e8ae5636c3b95bf0"
+    },
+    {
+      "path": "diseases/COPD/02_gwas/results/COPD-S2-R001_studies_core.tsv",
+      "sha256": "de93232217fa7f833617a148974fe6ea5efbf87f0a918118b827cec4fbe1b495"
+    },
+    {
+      "path": "diseases/COPD/02_gwas/results/COPD-S2-R002_gws_associations.tsv",
+      "sha256": "6aa7c35bb59530e5aba46832efea185abd6da200c441234e05ee1c48dfa9e166"
+    },
+    {
+      "path": "diseases/COPD/02_gwas/results/COPD-S2-R002_gws_unique_tag_variants.tsv",
+      "sha256": "040b2a69a339d3d0cfa282655ef2be0fa3bb95a5b4eb0fcfc68cb6cc8894c602"
+    },
+    {
+      "path": "diseases/COPD/02_gwas/results/COPD-S2-R006A_focal_match_audit.tsv",
+      "sha256": "b0a5c691fb96449205e13bad15c467695b798550a84e9fa3be7cfb107dbd80ff"
+    },
+    {
+      "path": "diseases/COPD/02_gwas/results/COPD-S2-R006B_focal_panel_audit.tsv",
+      "sha256": "7efdeeb80b10ce105d132eb79412fcdd5ab9e066339fb3fe187ed4f9c5c05319"
+    },
+    {
+      "path": "diseases/COPD/02_gwas/results/COPD-S2-R006C_ld_pairs.tsv.gz",
+      "sha256": "6568d2ead60c5887042de71c007ace5296622f00ab422ea63569f2e8cf3af457"
+    },
+    {
+      "path": "diseases/COPD/02_gwas/results/COPD-S2-R006E_candidate_variants_grch38.tsv.gz",
+      "sha256": "b50fdffa3cad1b39f57121d9368414c841070b0c3d4e079ed802867fdf62680e"
+    },
+    {
+      "path": "diseases/COPD/03_regulatory_landscape/results/COPD-S3-R002_gene_loci_grch38.tsv",
+      "sha256": "69d60e781350f43b5ca1d75be842a45ece7e01dfe28ec81a9871fbe3088de959"
+    },
+    {
+      "path": "diseases/COPD/03_regulatory_landscape/results/COPD-S3-R003_candidate_classification.tsv.gz",
+      "sha256": "d547181238bab094d5c974e784989875a803cdd977afecee8ea375971dcc1604"
+    },
+    {
+      "path": "diseases/COPD/04_modeling/results/COPD-S4-R010_THE_LIST.tsv",
+      "sha256": "8241fcb2296ecd80c12fe97277daa2d8c8de87c86a3d8c895628be11cd3b49ce"
+    },
+    {
+      "path": "diseases/COPD/06_experimental_validation/results/COPD-S6-R001_candidate_shortlist.tsv",
+      "sha256": "4d623a6290a885c1e5fcc297a437001c330315a43615e9ae1ac818178905d535"
+    },
+    {
+      "path": "diseases/COPD/06_experimental_validation/results/COPD-S6-R002_selection_audit.tsv.gz",
+      "sha256": "58d1d20c806f1ddce583650a98576ccf07b77ff677fe8dc38a8d9fe9efde5758"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/data/adjudication_2020_2022.json",
+      "sha256": "f2c9da4b670043a49b06635ccb9534ffdb0b39701556cf6c6c3d1ac10d44dec3"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/data/adjudication_2023plus.json",
+      "sha256": "8580800078260fbdab3e9fe27c9d1ee36a8d262a855a4c13881227fb10c755a3"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/data/adjudication_pre2020.json",
+      "sha256": "830e1184eadc2a977a5c2c7ed46c21b2b30c982fdcf73440ab1a626d77023eaa"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/data/phenotype_adjudication_amendments.json",
+      "sha256": "300b34702ac99b5c631f596d9b24141fc2390806f6c1f2445ab8357675d05851"
+    },
+    {
+      "path": "diseases/COPD/manuscript/COPD_regulatory_genomics_manuscript.md",
+      "sha256": "223fe8f00b50991157704d3f09f0c893f6c030068c8be516325a3db0552ce213"
+    },
+    {
+      "path": "diseases/COPD/manuscript/results/COPD-workflow-validation.tsv",
+      "sha256": "dddab46427a303cca2159ec633f179976aa9f452be02178082a360121dcc21e2"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PHENO-R001_accession_adjudication.tsv",
+      "sha256": "52fba43fcbc07c98f135b2932fb887ac7c07cd59fcd99c921dc42892014555d6",
+      "rows": 104
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PHENO-R002_cohort_overlap_provenance.tsv",
+      "sha256": "e6e7208d7fc1a81e06b3ff9173aafa354c903d23d9b808efc44418bf6e4071b7",
+      "rows": 259
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PHENO-R002B_cohort_overlap_pairs.tsv",
+      "sha256": "e53e88d24afcfca43bdc3dfa3df345f1c6d76211980c77d1b3023575ae9e9145",
+      "rows": 2251
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PHENO-R003_study_tag_ancestry_support.tsv",
+      "sha256": "a47a0393697fe05bf910692781a37ce60a2e5003db6d6056066f4c32ebbd1a1a",
+      "rows": 1469
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PHENO-R004_all_candidate_phenotype_support.tsv.gz",
+      "sha256": "52bbda199f2e1b1f8dc356caedb34ccfe9ecd09259ab18617ca109e8d575ee0a",
+      "rows": 15389
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PHENO-R005_frozen_337_phenotype_support.tsv",
+      "sha256": "4db3392b82178e7bbfd9c95b8cc1048a429c6fd04a092ff68fbb834697bfa694",
+      "rows": 337
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PHENO-R006_component_phenotype_support.tsv",
+      "sha256": "a22c4e90a4277465d5c29cc270b8c287b664f0c5750b476b35971a32b61d1419",
+      "rows": 153
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PHENO-R007_shortlist_phenotype_support.tsv",
+      "sha256": "4c7035ba0c417b838e41bf4691310c649c5421ffbf277b59a3e16b05f1fe2355",
+      "rows": 12
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PHENO-R008_stratum_summary.tsv",
+      "sha256": "51c392a4f747ab901d4bc3ebba73e8c1870f8c191ae01dabe72394077f6a67f1",
+      "rows": 125
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PHENO-R009_GCST90244098_dependence.tsv",
+      "sha256": "e792080f8ae21f3476fece7e1b01e58c68393f9e253554a03016651cb98818f7",
+      "rows": 10
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PHENO-R010_gws_tag_phenotype_support.tsv",
+      "sha256": "5f04139621002ed73608e0f3fdbfdf4df32a1962c1d4bf5275df99b6f53ad723",
+      "rows": 660
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PHENO-R011_frozen_locus_support.tsv",
+      "sha256": "db6382c6230f7c26f686435a0b8ab73cc2edacd2e0eceb484add91568e7896cb",
+      "rows": 88
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PHENO-R012_aggregate_nonsignificant_provenance_audit.tsv",
+      "sha256": "a7b67759403176f374a397056be8dce2271a6b56b806a38f6499c0357eadf01d",
+      "rows": 37
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PHENO-R013_unresolved_tag_support.tsv",
+      "sha256": "1f3df8c6f127580e894427ce5e829d301b0013e6a3c7c3620e9ab443acfa6af3",
+      "rows": 85
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PHENO-R014_frozen_biological_feature_summary.tsv",
+      "sha256": "026f68b4f70991144ad680b89e1f1b8f7230b9c6c9a48baa9d290b259c93b456",
+      "rows": 47
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PHENO-R015_classification_influence.tsv",
+      "sha256": "ed3caa30baecb124f124b1632123157d17eff6b86b7c2533a1fdbce8622c7d72",
+      "rows": 104
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PHENO-R016_publication_influence.tsv",
+      "sha256": "29b8beaf3addbf47811567d07ce303077dcdf0081b745fd0c452c9cd706df2e1",
+      "rows": 42
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PHENO-sources.tsv",
+      "sha256": "2a3c10f38443ea356a5e39a28199d42f990d880c87daa1f9dd494a270f7dd0d4",
+      "rows": 232
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PHENO-validation_checks.tsv",
+      "sha256": "09d3caa0227f8c0be30e7c33eb5558253543f87d016bd09798ff0cdc7dc9d574",
+      "rows": 53
+    }
+  ],
+  "gws_accessions": 35,
+  "classification_counts": {
+    "direct_copd_susceptibility": 27,
+    "progression_decline": 1,
+    "ehr_copd_susceptibility": 41,
+    "unresolved": 5,
+    "materially_different_smoking_interaction": 2,
+    "exacerbation_treatment": 2,
+    "nonstandard_gene_burden_cnv": 16,
+    "chronic_bronchitis": 6,
+    "ml_surrogate_liability": 1,
+    "within_copd_severity": 1,
+    "mixed_ehr_self_report_susceptibility": 2
+  },
+  "incorrect_tag_only_filter_excess_all": 4,
+  "incorrect_tag_only_filter_excess_337": 0,
+  "elapsed_seconds": 3.036,
+  "max_rss_KiB": 491432,
+  "v1_modified": false,
+  "other_modules_executed": false
+}

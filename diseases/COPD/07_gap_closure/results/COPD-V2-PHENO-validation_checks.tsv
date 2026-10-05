@@ -1,0 +1,54 @@
+check_id	check	status	detail
+COPD-V2-PHENO-QC-001	104 unique adjudicated accessions equal frozen core	PASS	104
+COPD-V2-PHENO-QC-002	All requested adjudication fields supplied	PASS	[]
+COPD-V2-PHENO-QC-003	Primary and secondary eligibility mutually exclusive	PASS	No combined primary/EHR coding
+COPD-V2-PHENO-QC-004	Primary eligibility uses direct phenotype class	PASS	Case-control definition is a manual literature input
+COPD-V2-PHENO-QC-005	Only declared phenotype classes used	PASS	['chronic_bronchitis', 'direct_copd_susceptibility', 'ehr_copd_susceptibility', 'exacerbation_treatment', 'materially_different_smoking_interaction', 'mixed_ehr_self_report_susceptibility', 'ml_surrogate_liability', 'nonstandard_gene_burden_cnv', 'progression_decline', 'unresolved', 'within_copd_severity']
+COPD-V2-PHENO-QC-006	Secondary eligibility uses EHR phenotype class	PASS	Mixed and unresolved definitions not forced into EHR
+COPD-V2-PHENO-QC-007	Sources and cohorts have list representation	PASS	Auditable source links for every accession
+COPD-V2-PHENO-QC-008	Frozen universe dimensions	PASS	660/15389/337/12
+COPD-V2-PHENO-QC-009	All GWS tags preserved in association rows	PASS	660
+COPD-V2-PHENO-QC-010	GWS support uses unchanged threshold	PASS	P <= 5e-8
+COPD-V2-PHENO-QC-011	Every LD pair has a valid frozen tag-panel audit	PASS	33378 LD links
+COPD-V2-PHENO-QC-012	Tag-panel audit keys unique	PASS	1245 unique tag-panel keys
+COPD-V2-PHENO-QC-013	Every LD link arises from a matched polymorphic tag-panel	PASS	Unmatched and monomorphic routes never LD-expanded
+COPD-V2-PHENO-QC-014	Broad study/tag/panel reconstruction recovers all 15389 records	PASS	15389
+COPD-V2-PHENO-QC-015	Exact reconstructed support is contained in V1 aggregate provenance	PASS	Extra nonsignificant or wrong-panel links only remain in legacy columns
+COPD-V2-PHENO-QC-016	Frozen R010 legacy provenance reproduced	PASS	337 candidate linked_study_accessions sets reproduced
+COPD-V2-PHENO-QC-017	Independent study-first reconstruction agrees	PASS	Study-first tag-panel filter equals candidate-first route projection
+COPD-V2-PHENO-QC-018	Independent reconstruction: broad	PASS	15389 records
+COPD-V2-PHENO-QC-019	Independent reconstruction: primary_direct	PASS	8212 records
+COPD-V2-PHENO-QC-020	Independent reconstruction: secondary_ehr	PASS	1977 records
+COPD-V2-PHENO-QC-021	Independent reconstruction: ml_surrogate	PASS	7240 records
+COPD-V2-PHENO-QC-022	Independent reconstruction: unresolved	PASS	1 records
+COPD-V2-PHENO-QC-023	Independent reconstruction: other_nonprimary	PASS	2235 records
+COPD-V2-PHENO-QC-024	Independent reconstruction: primary_or_ehr	PASS	9906 records
+COPD-V2-PHENO-QC-025	Independent reconstruction: without_GCST90244098	PASS	9919 records
+COPD-V2-PHENO-QC-026	Independent reconstruction: GCST90244098	PASS	7240 records
+COPD-V2-PHENO-QC-027	Independent reconstruction: sensitivity_primary_high_confidence_only	PASS	8152 records
+COPD-V2-PHENO-QC-028	Independent reconstruction: sensitivity_primary_plus_conditional_smoking_coefficients	PASS	8212 records
+COPD-V2-PHENO-QC-029	Independent reconstruction: sensitivity_primary_plus_mixed_direct_ehr	PASS	8212 records
+COPD-V2-PHENO-QC-030	Independent reconstruction: sensitivity_ehr_plus_GCST007996	PASS	1978 records
+COPD-V2-PHENO-QC-031	Independent reconstruction: sensitivity_ehr_plus_documented_selfreport_composites	PASS	1977 records
+COPD-V2-PHENO-QC-032	Independent reconstruction: class:chronic_bronchitis	PASS	65 records
+COPD-V2-PHENO-QC-033	Independent reconstruction: class:direct_copd_susceptibility	PASS	8212 records
+COPD-V2-PHENO-QC-034	Independent reconstruction: class:ehr_copd_susceptibility	PASS	1977 records
+COPD-V2-PHENO-QC-035	Independent reconstruction: class:exacerbation_treatment	PASS	0 records
+COPD-V2-PHENO-QC-036	Independent reconstruction: class:materially_different_smoking_interaction	PASS	2182 records
+COPD-V2-PHENO-QC-037	Independent reconstruction: class:mixed_ehr_self_report_susceptibility	PASS	0 records
+COPD-V2-PHENO-QC-038	Independent reconstruction: class:ml_surrogate_liability	PASS	7240 records
+COPD-V2-PHENO-QC-039	Independent reconstruction: class:nonstandard_gene_burden_cnv	PASS	0 records
+COPD-V2-PHENO-QC-040	Independent reconstruction: class:progression_decline	PASS	0 records
+COPD-V2-PHENO-QC-041	Independent reconstruction: class:unresolved	PASS	1 records
+COPD-V2-PHENO-QC-042	Independent reconstruction: class:within_copd_severity	PASS	0 records
+COPD-V2-PHENO-QC-043	Original 337 rank/order preserved	PASS	No reranking
+COPD-V2-PHENO-QC-044	Candidate and selection identities unique and complete	PASS	No duplicate candidate or selection keys
+COPD-V2-PHENO-QC-045	Frozen components preserved	PASS	153 components, 337 members
+COPD-V2-PHENO-QC-046	Frozen component membership strings reproduced	PASS	Members retained exactly; components not rebuilt
+COPD-V2-PHENO-QC-047	Frozen locus universes identified	PASS	152 all-selected; 140 repeated-Catalog-mapping labels, not independent replication
+COPD-V2-PHENO-QC-048	Unmatched tags explicitly retained	PASS	All 85 frozen match failures retained
+COPD-V2-PHENO-QC-049	All 85 unmatched tags retain direct candidate representation	PASS	Exact ID sets, not only counts
+COPD-V2-PHENO-QC-050	Frozen shortlist identity/order preserved	PASS	12 unchanged shortlist records
+COPD-V2-PHENO-QC-051	No naive-panel over-retention in main result	PASS	4 all-record false retentions avoided; 0 in frozen 337
+COPD-V2-PHENO-QC-052	All inputs unchanged during execution	PASS	19 inputs
+COPD-V2-PHENO-QC-053	All emitted TSVs rectangular and row counts verified	PASS	18 output tables; read-back checked
