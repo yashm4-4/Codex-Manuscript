@@ -1,0 +1,5 @@
+activity_id	date	status	activity	inputs	outputs	notes
+COPD-V2-ACT-001	2026-10-05	complete	Read-only audit of the complete V1 COPD workspace	diseases/COPD Sections 1-6, registers, manuscript, figures/source data, scripts, model artifacts, manifests, validation outputs	GAP_CLOSURE_PLAN.md; provenance/planning_diagnostics.tsv	No V1 file was edited and no major analysis was run.
+COPD-V2-ACT-002	2026-10-05	complete	Lightweight public-resource and metadata feasibility checks	Official GWAS Catalog, GTEx, eQTL Catalogue, ENCODE, GEO, dbGaP metadata, and primary papers	provenance/external_resource_audit.tsv	No large dataset was downloaded.
+COPD-V2-ACT-003	2026-10-05	complete	Created isolated V2 planning workspace	Frozen V1 commit and requested V2 guardrails	07_gap_closure directory structure and registers	Future execution requires investigator review of GAP_CLOSURE_PLAN.md.
+COPD-V2-ACT-004	2026-10-05	complete	Independent final QC of the V2 plan and provenance	GAP_CLOSURE_PLAN.md; V2 registers; frozen V1 hashes and paths	provenance/planning_validation.tsv	Corrected scientific scope, access, threshold-calibration, and provenance wording; V1 remained unchanged.

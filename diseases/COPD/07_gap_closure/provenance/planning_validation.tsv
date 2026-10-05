@@ -1,0 +1,11 @@
+check_id	date	check	expected	observed	status	method_or_command
+COPD-V2-QC-001	2026-10-05	V1 final-list SHA-256	8241fcb2296ecd80c12fe97277daa2d8c8de87c86a3d8c895628be11cd3b49ce	8241fcb2296ecd80c12fe97277daa2d8c8de87c86a3d8c895628be11cd3b49ce	PASS	sha256sum on frozen R010 path
+COPD-V2-QC-002	2026-10-05	V1 final-list data rows	337	337	PASS	header-excluded line count on frozen R010
+COPD-V2-QC-003	2026-10-05	V1 manuscript SHA-256	223fe8f00b50991157704d3f09f0c893f6c030068c8be516325a3db0552ce213	223fe8f00b50991157704d3f09f0c893f6c030068c8be516325a3db0552ce213	PASS	sha256sum on frozen manuscript path
+COPD-V2-QC-004	2026-10-05	V1 workflow-validation SHA-256	dddab46427a303cca2159ec633f179976aa9f452be02178082a360121dcc21e2	dddab46427a303cca2159ec633f179976aa9f452be02178082a360121dcc21e2	PASS	sha256sum on frozen workflow-validation path
+COPD-V2-QC-005	2026-10-05	Required plan sections	Sections 1 through 10 present	Sections 1 through 10 present	PASS	Markdown heading scan for numbered level-2 sections
+COPD-V2-QC-006	2026-10-05	Plan local Markdown links	No missing targets	76 link occurrences checked (61 unique targets); 0 missing	PASS	Parse local Markdown targets relative to plan and test path existence
+COPD-V2-QC-007	2026-10-05	Appendix A exact V1 paths	No missing targets	98 checked; 0 missing	PASS	Extract semicolon-delimited Appendix A paths and test path existence relative to V2 directory
+COPD-V2-QC-008	2026-10-05	V2 TSV rectangularity	All V2 TSV rows match header field count	All checked V2 TSV files rectangular	PASS	Tab-delimited field-count audit including blank-record check
+COPD-V2-QC-009	2026-10-05	V1 mutation boundary	No tracked change outside diseases/COPD/07_gap_closure	Git diff outside V2 empty	PASS	git diff and git status path audit against frozen HEAD
+COPD-V2-QC-010	2026-10-05	Planning-only boundary	No V2 analytical result or large downloaded dataset	Only plan, registers, provenance, and directory READMEs present	PASS	V2 recursive file inventory and size/type review

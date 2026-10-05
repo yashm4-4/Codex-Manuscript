@@ -1,0 +1,4 @@
+snapshot_id	recorded_date	git_commit	branch	scope	policy	artifact	sha256	row_or_check_count	status
+COPD-V2-SNAPSHOT-001	2026-10-05	875e995406ddf5d00ce77920d9e650ff128604c0	main	diseases/COPD excluding new 07_gap_closure	immutable V1	04_modeling/results/COPD-S4-R010_THE_LIST.tsv	8241fcb2296ecd80c12fe97277daa2d8c8de87c86a3d8c895628be11cd3b49ce	337 data rows	frozen
+COPD-V2-SNAPSHOT-002	2026-10-05	875e995406ddf5d00ce77920d9e650ff128604c0	main	diseases/COPD excluding new 07_gap_closure	immutable V1	manuscript/COPD_regulatory_genomics_manuscript.md	223fe8f00b50991157704d3f09f0c893f6c030068c8be516325a3db0552ce213	not applicable	frozen
+COPD-V2-SNAPSHOT-003	2026-10-05	875e995406ddf5d00ce77920d9e650ff128604c0	main	diseases/COPD excluding new 07_gap_closure	immutable V1	manuscript/results/COPD-workflow-validation.tsv	dddab46427a303cca2159ec633f179976aa9f452be02178082a360121dcc21e2	81 PASS; 0 WARN; 0 FAIL	frozen
