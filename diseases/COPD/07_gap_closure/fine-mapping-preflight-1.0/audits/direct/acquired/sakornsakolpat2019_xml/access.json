@@ -1,0 +1,28 @@
+{
+  "acquired_bytes": 150,
+  "acquired_sha256": "73f45d0cbd8643f906c26fdf75f07fe989302cbdf34b23aad238a16c9de7e021",
+  "body_path": "audits/direct/acquired/sakornsakolpat2019_xml/response.bin",
+  "complete_remote_object_hash": false,
+  "completed_utc": "2026-10-06T20:33:32.061128+00:00",
+  "effective_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6546635/fullTextXML",
+  "http_status": 500,
+  "purpose": "Public metadata/header/schema access audit; no statistical analysis",
+  "read_limit_bytes": 2097152,
+  "read_truncated": false,
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0 (bounded public metadata access)"
+  },
+  "requested_utc": "2026-10-06T20:33:31.615954+00:00",
+  "response_headers": {
+    "Connection": "close",
+    "Content-Type": "application/json",
+    "Date": "Tue, 06 Oct 2026 20:33:32 GMT",
+    "Set-Cookie": "JSESSIONID=5DE6F39BAB47464A4A0AC14D94A8CD7E; Path=/europepmc/webservices/rest; Secure; HttpOnly",
+    "Transfer-Encoding": "chunked",
+    "Vary": "origin,access-control-request-method,access-control-request-headers,accept-encoding",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+  },
+  "transport_error": "HTTP Error 500: ",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6546635/fullTextXML"
+}

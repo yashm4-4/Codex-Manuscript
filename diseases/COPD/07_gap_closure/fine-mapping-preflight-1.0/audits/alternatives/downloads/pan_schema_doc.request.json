@@ -1,0 +1,48 @@
+{
+  "accessed_utc": "2026-10-06T20:34:03.524394+00:00",
+  "command": [
+    "diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/scripts/alternatives_fetch.py",
+    "--url",
+    "https://pan.ukbb.broadinstitute.org/docs/per-phenotype-files/index.html",
+    "--label",
+    "pan_schema_doc",
+    "--max-bytes",
+    "1048576"
+  ],
+  "http_status": 200,
+  "maximum_bytes_requested_or_retained": 1048576,
+  "purpose": "public source metadata or bounded schema sample; no fine-mapping",
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0"
+  },
+  "requested_url": "https://pan.ukbb.broadinstitute.org/docs/per-phenotype-files/index.html",
+  "response_headers": {
+    "Accept-Ranges": "bytes",
+    "Age": "0",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Cache-Control": "public, max-age=3600",
+    "Connection": "close",
+    "Content-Length": "73309",
+    "Content-Type": "text/html",
+    "Date": "Tue, 06 Oct 2026 20:34:03 GMT",
+    "ETag": "\"9683bf908f0d583a2a025a36e78fc828\"",
+    "Expires": "Tue, 06 Oct 2026 21:34:03 GMT",
+    "Last-Modified": "Wed, 22 Oct 2025 17:30:19 GMT",
+    "Server": "UploadServer",
+    "X-GUploader-UploadID": "AP6rU801p8aYqyEF5lMiaPCk6GCm1xSL9fJ7V0cu-7gxo9GbCrWl0EqOzDEd2fefJyn4WMlPFT3WhzE",
+    "x-goog-generation": "1761154219131685",
+    "x-goog-hash": "md5=loO/kI8NWDoqAlo254/IKA==",
+    "x-goog-meta-goog-reserved-file-mtime": "1761154117",
+    "x-goog-metageneration": "1",
+    "x-goog-storage-class": "STANDARD",
+    "x-goog-stored-content-encoding": "identity",
+    "x-goog-stored-content-length": "73309"
+  },
+  "response_url": "https://pan.ukbb.broadinstitute.org/docs/per-phenotype-files/index.html",
+  "retained_prefix_only": false,
+  "stored_body_reaches_declared_response_length": true,
+  "stored_bytes": 73309,
+  "stored_path": "audits/alternatives/downloads/pan_schema_doc.bin",
+  "stored_sha256": "7e4162cdbd4dd14c212c397dfad01f295cf5d517a1f5b6b375a5a63944929c0d"
+}

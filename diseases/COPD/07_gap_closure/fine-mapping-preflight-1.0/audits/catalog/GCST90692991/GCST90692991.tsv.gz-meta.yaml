@@ -1,0 +1,61 @@
+# Study meta-data
+gwas_id: GCST90692991
+author_notes: 'Data were obtained with permission from https://pan.ukbb.broadinstitute.org/
+  and adapted into GWAS-SSF format. Refer to the website for more information. Citation:
+  Pan-UK Biobank GWAS improves discovery, analysis of genetic architecture, and resolution
+  into ancestry-enriched effects Konrad J. Karczewski, Rahul Gupta, Masahiro Kanai,
+  Wenhan Lu, Kristin Tsuo, Ying Wang, Raymond K. Walters, Patrick Turley, Shawneequa
+  Callier, Nikolas Baya, Duncan S. Palmer, Jacqueline I. Goldstein, Gopal Sarma, Matthew
+  Solomonson, Nathan Cheng, Sam Bryant, Claire Churchhouse, Caroline M. Cusick, Timothy
+  Poterba, John Compitello, Daniel King, Wei Zhou, Cotton Seed, Hilary K. Finucane,
+  Mark J. Daly, Benjamin M. Neale, Elizabeth G. Atkinson, Alicia R. Martin medRxiv
+  2024.03.13.24303864; doi: https://doi.org/10.1101/2024.03.13.24303864'
+gwas_catalog_api: https://www.ebi.ac.uk/gwas/rest/api/studies/GCST90692991
+date_metadata_last_modified: 2025-10-06
+
+# Trait Information
+trait_description:
+  - 'ICD10 J44: Other chronic obstructive pulmonary disease'
+ontology_mapping:
+  - EFO_0000341
+
+# Genotyping Information
+genome_assembly: GRCh37
+coordinate_system: 1-based
+genotyping_technology:
+  - Genome-wide genotyping array
+
+# Sample Information
+samples:
+  - sample_ancestry_category:
+      - South Asian
+      - Central Asian
+    sample_ancestry:
+      - Central/South Asian
+    sample_size: 8876
+    ancestry_method:
+      - genetically determined
+    case_control_study: true
+  - sample_ancestry_category:
+      - European
+    sample_size: 420531
+    ancestry_method:
+      - genetically determined
+    case_control_study: true
+sex: combined
+
+# Summary Statistic information
+data_file_name: GCST90692991.tsv.gz
+file_type: GWAS-SSF v1.0
+data_file_md5sum: 7f8b539c240d77f7f9e978bcc869c786
+adjusted_covariates:
+  - age
+  - sex
+  - age*sex
+  - age2
+  - age2*sex
+  - first 10 PCs
+
+# Harmonization status
+is_harmonised: false
+is_sorted: false

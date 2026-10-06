@@ -1,0 +1,62 @@
+{
+  "accessed_utc": "2026-10-06T20:41:28.839133+00:00",
+  "command": [
+    "diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/scripts/alternatives_fetch.py",
+    "--url",
+    "https://zenodo.org/api/records/14284047/files/README_files.tar.gz/content",
+    "--label",
+    "gemini_readmes",
+    "--max-bytes",
+    "65536"
+  ],
+  "decompressed_prefix_bytes": 165376,
+  "header_and_first_records": [
+    "GEMINI.sumstats.AAA.README\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00000000777\u00000000000\u00000000000\u000000000003001\u000014724343637\u0000012054\u0000 0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000ustar  \u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00001. Murrin et al. (2024) A systematic analysis of the contribution of genetics to multimorbidity and comparisons with primary care data. medRxiv. https://doi.org/10.1101/2024.05.13.24307009",
+    "",
+    "2. Additional columns:",
+    "neg_log_10_p_value: -log10 p-value",
+    "rs_id: variant rsID",
+    "p_value: p-value"
+  ],
+  "http_status": 200,
+  "maximum_bytes_requested_or_retained": 65536,
+  "prefix_decompression_does_not_verify_whole_file_CRC": true,
+  "purpose": "public source metadata or bounded schema sample; no fine-mapping",
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0"
+  },
+  "requested_url": "https://zenodo.org/api/records/14284047/files/README_files.tar.gz/content",
+  "response_EOF_before_byte_limit": true,
+  "response_headers": {
+    "accept-ranges": "bytes",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Content-Type, ETag, Link, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset",
+    "connection": "close",
+    "content-disposition": "attachment; filename=README_files.tar.gz",
+    "content-length": "5706",
+    "content-security-policy": "default-src 'self' fonts.googleapis.com *.gstatic.com data: 'unsafe-inline' 'unsafe-eval' blob: zenodo-broker.web.cern.ch zenodo-broker-qa.web.cern.ch maxcdn.bootstrapcdn.com cdnjs.cloudflare.com ajax.googleapis.com webanalytics.web.cern.ch",
+    "content-type": "application/octet-stream",
+    "date": "Tue, 06 Oct 2026 20:41:29 GMT",
+    "oc-checksum": "MD5:afe271d5e467e73a8e793fd93dabe59b",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "retry-after": "43",
+    "server": "nginx",
+    "strict-transport-security": "max-age=31556926; includeSubDomains",
+    "x-content-type-options": "nosniff",
+    "x-download-options": "noopen",
+    "x-frame-options": "sameorigin",
+    "x-permitted-cross-domain-policies": "none",
+    "x-ratelimit-limit": "133",
+    "x-ratelimit-remaining": "131",
+    "x-ratelimit-reset": "1791319333",
+    "x-source": "files-primary",
+    "x-xss-protection": "1; mode=block"
+  },
+  "response_url": "https://zenodo.org/api/records/14284047/files/README_files.tar.gz/content",
+  "retained_prefix_only": false,
+  "stored_body_reaches_declared_response_length": true,
+  "stored_bytes": 5706,
+  "stored_path": "audits/alternatives/downloads/gemini_readmes.bin",
+  "stored_sha256": "83e22272bcfda43b6a4c262610bb90460358ec98e8ad7d3d9c9edfed0e0712ce"
+}

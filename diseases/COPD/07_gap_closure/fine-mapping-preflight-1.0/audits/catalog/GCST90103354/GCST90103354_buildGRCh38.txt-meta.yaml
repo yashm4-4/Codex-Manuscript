@@ -1,0 +1,31 @@
+# Study meta-data
+gwas_id: GCST90103354
+gwas_catalog_api: https://www.ebi.ac.uk/gwas/rest/api/studies/GCST90103354
+date_metadata_last_modified: 2026-09-25
+
+# Trait Information
+trait_description:
+  - Source of chronic obstructive pulmonary disease report (UKB data field 42017)
+    (CNV dosage model)
+ontology_mapping:
+  - MONDO_0005002
+
+# Genotyping Information
+genome_assembly: GRCh38
+genotyping_technology:
+  - Exome-wide sequencing
+
+# Sample Information
+samples:
+  - sample_ancestry_category:
+      - European
+    sample_size: 170769
+
+# Summary Statistic information
+data_file_name: GCST90103354_buildGRCh38.txt
+file_type: non-GWAS-SSF
+data_file_md5sum: bbdc6dcbddd7ea8d2f4d90036e3115b9
+
+# Harmonization status
+is_harmonised: false
+is_sorted: false

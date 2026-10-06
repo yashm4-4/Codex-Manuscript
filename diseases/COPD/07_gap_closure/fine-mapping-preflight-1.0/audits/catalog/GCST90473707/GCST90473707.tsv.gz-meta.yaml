@@ -1,0 +1,45 @@
+# Study meta-data
+gwas_id: GCST90473707
+gwas_catalog_api: https://www.ebi.ac.uk/gwas/rest/api/studies/GCST90473707
+date_metadata_last_modified: 2025-08-28
+
+# Trait Information
+trait_description:
+  - 'ICD10 J44: Other chronic obstructive pulmonary disease'
+ontology_mapping:
+  - EFO_0000341
+
+# Genotyping Information
+genome_assembly: GRCh38
+coordinate_system: 1-based
+genotyping_technology:
+  - Whole genome sequencing
+
+# Sample Information
+samples:
+  - sample_ancestry_category:
+      - European
+    sample_ancestry:
+      - Non-Finnish European
+    sample_size: 458440
+    ancestry_method:
+      - gnomAD v3.1
+    case_control_study: true
+sex: combined
+
+# Summary Statistic information
+data_file_name: GCST90473707.tsv.gz
+file_type: GWAS-SSF v1.0
+data_file_md5sum: 6c0d27a35967b78959e6d1b9f17f1d42
+analysis_software: regenie_v3.2.5
+adjusted_covariates:
+  - 'genetic PCs {1-20} '
+  - ' sex '
+  - ' age at baseline '
+  - ' sex:age '
+  - ' age2 '
+  - ' sequencing protocol'
+
+# Harmonization status
+is_harmonised: false
+is_sorted: false

@@ -1,0 +1,22 @@
+{
+  "requested_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90080001-GCST90081000/GCST90080129/md5sum.txt",
+  "accessed_utc": "2026-10-06T20:34:55.002554+00:00",
+  "method": "GET",
+  "anonymous": true,
+  "read_limit_bytes": 262144,
+  "requested_range": null,
+  "status": 200,
+  "final_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90080001-GCST90081000/GCST90080129/md5sum.txt",
+  "response_headers": {
+    "last-modified": "Fri, 24 Apr 2026 01:08:30 GMT",
+    "etag": "\"e4-6502a67332bbe\"",
+    "accept-ranges": "bytes",
+    "content-length": "228",
+    "content-type": "text/plain; charset=UTF-8"
+  },
+  "downloaded_bytes": 228,
+  "saved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/audits/catalog/GCST90080129/md5sum.txt",
+  "sha256": "70ba608576dad3f849ffb5de9d89e688601cd4369bf465f01a6d9c96c6accc13",
+  "bounded_read": false,
+  "hash_scope": "saved response bytes only; range/prefix is not a whole-file checksum"
+}

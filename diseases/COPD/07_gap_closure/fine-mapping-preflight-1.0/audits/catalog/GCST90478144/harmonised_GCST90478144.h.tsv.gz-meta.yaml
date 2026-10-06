@@ -1,0 +1,23 @@
+coordinate_system: 1-based
+data_file_md5sum: 8b2ea54931fbda2e7115ff37ee3f15e5
+data_file_name: GCST90478144.h.tsv.gz
+date_metadata_last_modified: 2025-05-05
+file_type: GWAS-SSF v1.0
+genome_assembly: GRCh38
+genotyping_technology:
+- Genome-wide genotyping array
+gwas_catalog_api: https://www.ebi.ac.uk/gwas/rest/api/studies/GCST90478144
+gwas_id: GCST90478144
+harmonisation_reference: ftp://ftp.ensembl.org/pub/release-95/fasta/homo_sapiens/dna/
+is_harmonised: true
+is_sorted: true
+ontology_mapping:
+- ''
+samples:
+- case_control_study: true
+  sample_ancestry_category:
+  - African American or Afro-Caribbean
+  sample_size: 118019
+sex: NR
+trait_description:
+- Obstructive chronic bronchitis (PheCode 496.21)

@@ -1,0 +1,45 @@
+# Study meta-data
+gwas_id: GCST90480254
+gwas_catalog_api: https://www.ebi.ac.uk/gwas/rest/api/studies/GCST90480254
+date_metadata_last_modified: 2025-04-28
+
+# Trait Information
+trait_description:
+  - Chronic airway obstruction (PheCode 496)
+ontology_mapping:
+  - ''
+
+# Genotyping Information
+genome_assembly: GRCh38
+coordinate_system: 1-based
+genotyping_technology:
+  - Genome-wide genotyping array
+
+# Sample Information
+samples:
+  - sample_ancestry_category:
+      - African American or Afro-Caribbean
+    sample_size: 112489
+    case_control_study: true
+  - sample_ancestry_category:
+      - Hispanic or Latin American
+    sample_size: 56391
+    case_control_study: true
+  - sample_ancestry_category:
+      - East Asian
+    sample_size: 6572
+    case_control_study: true
+  - sample_ancestry_category:
+      - European
+    sample_size: 418504
+    case_control_study: true
+sex: NR
+
+# Summary Statistic information
+data_file_name: GCST90480254.tsv.gz
+file_type: GWAS-SSF v1.0
+data_file_md5sum: ea52a0d9dccbbc75daf0d32cb75385fa
+
+# Harmonization status
+is_harmonised: false
+is_sorted: false

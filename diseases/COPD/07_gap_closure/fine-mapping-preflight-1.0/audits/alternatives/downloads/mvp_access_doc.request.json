@@ -1,0 +1,47 @@
+{
+  "accessed_utc": "2026-10-06T20:35:44.112802+00:00",
+  "command": [
+    "diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/scripts/alternatives_fetch.py",
+    "--url",
+    "https://www.mvp.va.gov/pwa/discover-mvp-data",
+    "--label",
+    "mvp_access_doc",
+    "--max-bytes",
+    "1048576"
+  ],
+  "http_status": 200,
+  "maximum_bytes_requested_or_retained": 1048576,
+  "purpose": "public source metadata or bounded schema sample; no fine-mapping",
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0"
+  },
+  "requested_url": "https://www.mvp.va.gov/pwa/discover-mvp-data",
+  "response_EOF_before_byte_limit": true,
+  "response_headers": {
+    "Access-Control-Allow-Credentials": "true",
+    "Cache-Control": "max-age=900, public",
+    "Connection": "close",
+    "Content-Length": "84822",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Content-language": "en",
+    "Date": "Tue, 06 Oct 2026 20:35:44 GMT",
+    "ETag": "\"1789567637\"",
+    "Expires": "Sun, 19 Nov 1978 05:00:00 GMT",
+    "Last-Modified": "Wed, 16 Sep 2026 14:07:17 GMT",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Vary": "Cookie, Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Drupal-Cache": "HIT",
+    "X-Drupal-Dynamic-Cache": "MISS",
+    "X-Frame-Options": "sameorigin",
+    "X-Robots-Tag": "all",
+    "X-XSS-Protection": "1; mode=block"
+  },
+  "response_url": "https://www.mvp.va.gov/pwa/discover-mvp-data",
+  "retained_prefix_only": false,
+  "stored_body_reaches_declared_response_length": true,
+  "stored_bytes": 84822,
+  "stored_path": "audits/alternatives/downloads/mvp_access_doc.bin",
+  "stored_sha256": "9fb11979f85cc5c7637d81ea4a2c74285f0c732a619c6fd7f8e807388a7184e8"
+}

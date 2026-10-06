@@ -1,0 +1,47 @@
+{
+  "accessed_utc": "2026-10-06T20:38:32.573324+00:00",
+  "command": [
+    "diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/scripts/alternatives_fetch.py",
+    "--url",
+    "https://storage.googleapis.com/finngen-public-data-r11/summary_stats/finngen_R11_manifest.tsv",
+    "--label",
+    "finngen_r11_manifest_correct",
+    "--max-bytes",
+    "4194304"
+  ],
+  "http_status": 200,
+  "maximum_bytes_requested_or_retained": 4194304,
+  "purpose": "public source metadata or bounded schema sample; no fine-mapping",
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0"
+  },
+  "requested_url": "https://storage.googleapis.com/finngen-public-data-r11/summary_stats/finngen_R11_manifest.tsv",
+  "response_EOF_before_byte_limit": true,
+  "response_headers": {
+    "Accept-Ranges": "bytes",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Cache-Control": "public, max-age=3600",
+    "Connection": "close",
+    "Content-Length": "721394",
+    "Content-Type": "text/tab-separated-values",
+    "Date": "Tue, 06 Oct 2026 20:38:32 GMT",
+    "ETag": "\"4d14895294be1dd4931e61fd59926555\"",
+    "Expires": "Tue, 06 Oct 2026 21:38:32 GMT",
+    "Last-Modified": "Wed, 19 Jun 2024 06:50:43 GMT",
+    "Server": "UploadServer",
+    "X-GUploader-UploadID": "AP6rU80YadLR2gL8IAFMVm3YA76IkDQkD-OyeZrz7asJXau_qoeP8FGDbVRMhuZmUnJEklSiPX5dqyo",
+    "x-goog-generation": "1718779843727757",
+    "x-goog-hash": "md5=TRSJUpS+HdSTHmH9WZJlVQ==",
+    "x-goog-metageneration": "1",
+    "x-goog-storage-class": "STANDARD",
+    "x-goog-stored-content-encoding": "identity",
+    "x-goog-stored-content-length": "721394"
+  },
+  "response_url": "https://storage.googleapis.com/finngen-public-data-r11/summary_stats/finngen_R11_manifest.tsv",
+  "retained_prefix_only": false,
+  "stored_body_reaches_declared_response_length": true,
+  "stored_bytes": 721394,
+  "stored_path": "audits/alternatives/downloads/finngen_r11_manifest_correct.bin",
+  "stored_sha256": "b2be9ad4da6d922def6c16d3daaae785922d8f93921de5caf44011f5fba365d4"
+}

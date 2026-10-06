@@ -1,0 +1,41 @@
+{
+  "LD_matrix_values_requested": false,
+  "completed_utc": "2026-10-06T20:34:16.781478+00:00",
+  "final_url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1010299",
+  "http_status": 200,
+  "interpretation": "Exact returned bytes only; HTTP success does not establish semantic usability, schema correctness, locus coverage or fine-mapping eligibility.",
+  "maximum_response_bytes": 4000000,
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0 (public metadata audit)"
+  },
+  "request_method": "GET",
+  "requested_url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1010299",
+  "response_headers": {
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "Connection": "close",
+    "Content-Language": "en-US",
+    "Content-Type": "text/html;charset=UTF-8",
+    "Date": "Tue, 06 Oct 2026 20:34:16 GMT",
+    "Expires": "0",
+    "Pragma": "no-cache",
+    "Server": "Apache",
+    "Set-Cookie": "GCLB=CKzG26GgkILiGBAD; path=/; HttpOnly",
+    "Strict-Transport-Security": "max-age=31536000 ; includeSubDomains",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "Via": "1.1 google",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1; mode=block"
+  },
+  "saved_bytes": 285617,
+  "saved_path": "audits/methods_ld/sources/susie_rss_paper.body",
+  "saved_sha256": "beeda3f6308cb8d5382f5a983e42437fd0f753b39f9f1693d1da01f8b2ab7c73",
+  "source_id": "susie_rss_paper",
+  "started_utc": "2026-10-06T20:34:16.126563+00:00",
+  "status": "HTTP_SUCCESS",
+  "truncated": false,
+  "wall_seconds": 0.6549143800511956
+}

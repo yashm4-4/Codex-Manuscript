@@ -1,0 +1,48 @@
+{
+  "accessed_utc": "2026-10-06T20:34:13.591191+00:00",
+  "command": [
+    "diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/scripts/alternatives_fetch.py",
+    "--url",
+    "https://pan.ukbb.broadinstitute.org/docs/qc/index.html",
+    "--label",
+    "pan_qc_doc",
+    "--max-bytes",
+    "1048576"
+  ],
+  "http_status": 200,
+  "maximum_bytes_requested_or_retained": 1048576,
+  "purpose": "public source metadata or bounded schema sample; no fine-mapping",
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0"
+  },
+  "requested_url": "https://pan.ukbb.broadinstitute.org/docs/qc/index.html",
+  "response_headers": {
+    "Accept-Ranges": "bytes",
+    "Age": "0",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Cache-Control": "public, max-age=3600",
+    "Connection": "close",
+    "Content-Length": "31179",
+    "Content-Type": "text/html",
+    "Date": "Tue, 06 Oct 2026 20:34:13 GMT",
+    "ETag": "\"12a2588afb3084845d58d92928392d98\"",
+    "Expires": "Tue, 06 Oct 2026 21:34:13 GMT",
+    "Last-Modified": "Wed, 22 Oct 2025 17:30:19 GMT",
+    "Server": "UploadServer",
+    "X-GUploader-UploadID": "AP6rU80CCge67tR7z_3JQlq-moYgjcHHDeOUjBActIX-6RpZpua_WCC_YIoNk4KAK9KjXXlY",
+    "x-goog-generation": "1761154219070667",
+    "x-goog-hash": "md5=EqJYivswhIRdWNkpKDktmA==",
+    "x-goog-meta-goog-reserved-file-mtime": "1761154117",
+    "x-goog-metageneration": "1",
+    "x-goog-storage-class": "STANDARD",
+    "x-goog-stored-content-encoding": "identity",
+    "x-goog-stored-content-length": "31179"
+  },
+  "response_url": "https://pan.ukbb.broadinstitute.org/docs/qc/index.html",
+  "retained_prefix_only": false,
+  "stored_body_reaches_declared_response_length": true,
+  "stored_bytes": 31179,
+  "stored_path": "audits/alternatives/downloads/pan_qc_doc.bin",
+  "stored_sha256": "53d53f76763e6817edaed58cf6dd2c7d458f76f0400fae7ccbb6d103c2b4a8f5"
+}

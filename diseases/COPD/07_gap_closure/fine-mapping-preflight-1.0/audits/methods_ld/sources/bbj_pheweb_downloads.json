@@ -1,0 +1,31 @@
+{
+  "LD_matrix_values_requested": false,
+  "completed_utc": "2026-10-06T20:34:17.481239+00:00",
+  "final_url": "https://pheweb.jp/downloads",
+  "http_status": 200,
+  "interpretation": "Exact returned bytes only; HTTP success does not establish semantic usability, schema correctness, locus coverage or fine-mapping eligibility.",
+  "maximum_response_bytes": 4000000,
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0 (public metadata audit)"
+  },
+  "request_method": "GET",
+  "requested_url": "https://pheweb.jp/downloads",
+  "response_headers": {
+    "Connection": "close",
+    "Content-Length": "369992",
+    "Content-Type": "text/html; charset=utf-8",
+    "Date": "Tue, 06 Oct 2026 20:34:17 GMT",
+    "Server": "gunicorn/20.0.4",
+    "Vary": "Accept-Encoding",
+    "X-Frame-Options": "SAMEORIGIN"
+  },
+  "saved_bytes": 369992,
+  "saved_path": "audits/methods_ld/sources/bbj_pheweb_downloads.body",
+  "saved_sha256": "0a5cf006a3fe2ffcdeb40d35068d4cd78aebe21cb6933a8f4f756e1c5fc132ae",
+  "source_id": "bbj_pheweb_downloads",
+  "started_utc": "2026-10-06T20:34:17.137906+00:00",
+  "status": "HTTP_SUCCESS",
+  "truncated": false,
+  "wall_seconds": 0.3433319409377873
+}

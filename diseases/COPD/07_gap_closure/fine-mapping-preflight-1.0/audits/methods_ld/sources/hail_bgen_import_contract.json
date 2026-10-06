@@ -1,0 +1,33 @@
+{
+  "LD_matrix_values_requested": false,
+  "completed_utc": "2026-10-06T20:39:15.225232+00:00",
+  "final_url": "https://hail.is/docs/0.2/methods/impex.html",
+  "http_status": 200,
+  "interpretation": "Exact returned bytes only; HTTP success does not establish semantic usability, schema correctness, locus coverage or fine-mapping eligibility.",
+  "maximum_response_bytes": 4000000,
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0 (public metadata audit)"
+  },
+  "request_method": "GET",
+  "requested_url": "https://hail.is/docs/0.2/methods/impex.html",
+  "response_headers": {
+    "connection": "close",
+    "content-length": "279302",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Tue, 06 Oct 2026 20:39:15 GMT",
+    "server": "envoy",
+    "set-cookie": "_csrf=Sv90xrN7TJKPtu0VmKnMFWRxVA2a0aHuHpeXsNS85ZXgPiZ6jzdIJtr-wVEPxsa97q-qdpcVREPtPe_vioD_aw; HttpOnly; Path=/; SameSite=strict; Secure",
+    "strict-transport-security": "max-age=63072000; includeSubDomains;",
+    "x-content-type-options": "nosniff",
+    "x-envoy-upstream-service-time": "27"
+  },
+  "saved_bytes": 279302,
+  "saved_path": "audits/methods_ld/sources/hail_bgen_import_contract.body",
+  "saved_sha256": "4ed19d3c55861680c3bad895476e61700356ff60c6a3dbd93d32ff3e848d33a6",
+  "source_id": "hail_bgen_import_contract",
+  "started_utc": "2026-10-06T20:39:14.871841+00:00",
+  "status": "HTTP_SUCCESS",
+  "truncated": false,
+  "wall_seconds": 0.3533914270810783
+}

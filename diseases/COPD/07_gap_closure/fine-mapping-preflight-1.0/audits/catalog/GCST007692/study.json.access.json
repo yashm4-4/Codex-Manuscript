@@ -1,0 +1,18 @@
+{
+  "requested_url": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST007692",
+  "accessed_utc": "2026-10-06T20:33:27.371739+00:00",
+  "method": "GET",
+  "anonymous": true,
+  "read_limit_bytes": 262144,
+  "requested_range": null,
+  "status": 200,
+  "final_url": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST007692",
+  "response_headers": {
+    "content-type": "application/json"
+  },
+  "downloaded_bytes": 1114,
+  "saved_path": "diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/audits/catalog/GCST007692/study.json",
+  "sha256": "0a14cc2521b0d45fd04feceb215bbf555dcfa6fd23260c0de8758ec7bf1c80e3",
+  "bounded_read": false,
+  "hash_scope": "saved response bytes only; range/prefix is not a whole-file checksum"
+}

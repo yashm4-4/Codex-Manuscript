@@ -1,0 +1,51 @@
+{
+  "accessed_utc": "2026-10-06T20:34:53.895586+00:00",
+  "command": [
+    "diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/scripts/alternatives_fetch.py",
+    "--url",
+    "https://gbmi-sumstats.s3.amazonaws.com/COPD_Bothsex_afr_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz",
+    "--label",
+    "gbmi_afr_header",
+    "--range"
+  ],
+  "decompressed_prefix_bytes": 917122,
+  "header_and_first_records": [
+    "#CHR\tPOS\tREF\tALT\trsid\tall_meta_AF\tinv_var_meta_beta\tinv_var_meta_sebeta\tinv_var_meta_p\tinv_var_het_p\tdirection\tN_case\tN_ctrl\tn_dataset\tn_bbk\tis_strand_flip\tis_diff_AF_gnomAD",
+    "1\t727242\tG\tA\trs61769339\t1.906e-01\t-5.8226e-02\t1.083e-01\t5.908e-01\t2.424e-01\t+??-??\t1021\t7723\t2\t2\tno\tno",
+    "1\t730869\tC\tT\tNA\t1.101e-02\t-2.3410e-01\t4.0236e-01\t5.607e-01\t9.224e-01\t-??-??\t1021\t7723\t2\t2\tno\tno",
+    "1\t732966\tG\tA\trs115048193\t1.183e-02\t2.4325e-01\t3.4348e-01\t4.788e-01\t8.469e-01\t+??+??\t1021\t7723\t2\t2\tno\tno",
+    "1\t752895\tC\tT\trs569317217\t8.e-03\t-6.8058e-02\t4.2690e-01\t8.733e-01\t7.666e-01\t+??-??\t1021\t7723\t2\t2\tno\tno",
+    "1\t758351\tA\tG\trs12238997\t2.176e-01\t-7.1166e-02\t9.3227e-02\t4.452e-01\t6.316e-01\t+??-?-\t1133\t13722\t3\t3\tno\tno"
+  ],
+  "http_status": 206,
+  "maximum_bytes_requested_or_retained": 262144,
+  "prefix_decompression_does_not_verify_whole_file_CRC": true,
+  "purpose": "public source metadata or bounded schema sample; no fine-mapping",
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "Range": "bytes=0-262143",
+    "User-Agent": "COPD-scientific-preflight/1.0"
+  },
+  "requested_url": "https://gbmi-sumstats.s3.amazonaws.com/COPD_Bothsex_afr_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz",
+  "response_EOF_before_byte_limit": false,
+  "response_headers": {
+    "Accept-Ranges": "bytes",
+    "Connection": "close",
+    "Content-Length": "262144",
+    "Content-Range": "bytes 0-262143/573248864",
+    "Content-Type": "binary/octet-stream",
+    "Date": "Tue, 06 Oct 2026 20:34:55 GMT",
+    "ETag": "\"3db473954bd1353df26e7611bdc7ff6a-18\"",
+    "Last-Modified": "Tue, 09 Nov 2021 19:57:54 GMT",
+    "Server": "AmazonS3",
+    "x-amz-id-2": "liy9yB7IM3pKvYAhH5OT9jsSEvK6fETOyHDvUXRlcnoKMJ1soFB6iVrmOf3b0aLT58HPrsSp7FwzCNGcCifibIRR4sz4nHEx",
+    "x-amz-request-id": "Q7KBPQN48BCS38FP",
+    "x-amz-storage-class": "INTELLIGENT_TIERING"
+  },
+  "response_url": "https://gbmi-sumstats.s3.amazonaws.com/COPD_Bothsex_afr_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz",
+  "retained_prefix_only": true,
+  "stored_body_reaches_declared_response_length": true,
+  "stored_bytes": 262144,
+  "stored_path": "audits/alternatives/downloads/gbmi_afr_header.bin",
+  "stored_sha256": "90b3fd19204bc320381843bf60417d1db6393040583553fe0a765f5d136a7a94"
+}

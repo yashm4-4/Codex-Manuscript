@@ -1,0 +1,36 @@
+# Study meta-data
+gwas_id: GCST90080129
+author_notes: Backman, J.D., Li, A.H., Marcketta, A. et al. Exome sequencing and analysis
+  of 454,787 UK Biobank participants. Nature (2021). https://doi.org/10.1038/s41586-021-04103-z
+gwas_catalog_api: https://www.ebi.ac.uk/gwas/rest/api/studies/GCST90080129
+date_metadata_last_modified: 2026-04-23
+
+# Trait Information
+trait_description:
+  - 'ICD10 J44.0: Chronic obstructive pulmonary disease with acute lower respiratory
+    infection'
+ontology_mapping:
+  - MONDO_0005002
+
+# Genotyping Information
+genome_assembly: GRCh38
+coordinate_system: 1-based
+genotyping_technology:
+  - Exome-wide sequencing
+  - Genome-wide genotyping array
+
+# Sample Information
+samples:
+  - sample_ancestry_category:
+      - European
+    sample_size: 387930
+
+# Summary Statistic information
+data_file_name: 34662886-GCST90080129-EFO_0000341.h.tsv.gz
+file_type: pre-GWAS-SSF
+data_file_md5sum: 45fc1bca7a6e513455b35b1617ba65c4
+
+# Harmonization status
+is_harmonised: true
+is_sorted: false
+harmonisation_reference: ftp://ftp.ensembl.org/pub/release-95/fasta/homo_sapiens/dna/

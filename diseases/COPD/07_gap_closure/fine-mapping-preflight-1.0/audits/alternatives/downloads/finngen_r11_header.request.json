@@ -1,0 +1,59 @@
+{
+  "accessed_utc": "2026-10-06T20:34:13.646583+00:00",
+  "command": [
+    "diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/scripts/alternatives_fetch.py",
+    "--url",
+    "https://storage.googleapis.com/finngen-public-data-r11/summary_stats/finngen_R11_J10_COPD.gz",
+    "--label",
+    "finngen_r11_header",
+    "--max-bytes",
+    "262144",
+    "--range"
+  ],
+  "decompressed_prefix_bytes": 707366,
+  "header_and_first_records": [
+    "#chrom\tpos\tref\talt\trsids\tnearest_genes\tpval\tmlogp\tbeta\tsebeta\taf_alt\taf_alt_cases\taf_alt_controls",
+    "1\t13668\tG\tA\trs2691328\tDDX11L1\t0.857374\t0.0668296\t0.0220698\t0.122803\t0.00599057\t0.00616118\t0.00598067",
+    "1\t14506\tG\tA\trs1240557819\tWASH7P\t0.307965\t0.511499\t0.136058\t0.133455\t0.00466792\t0.00480622\t0.0046599",
+    "1\t14521\tC\tT\trs1378626194\tWASH7P\t0.32196\t0.492198\t-0.25619\t0.258663\t0.0010835\t0.000960754\t0.00109062",
+    "1\t14717\tG\tA\trs377122907\tWASH7P\t0.408645\t0.388654\t-0.47726\t0.5776\t0.000242375\t0.000201729\t0.000244733",
+    "1\t14773\tC\tT\trs878915777\tWASH7P\t0.0589332\t1.22964\t0.13741\t0.072754\t0.0141725\t0.0148461\t0.0141335"
+  ],
+  "http_status": 206,
+  "maximum_bytes_requested_or_retained": 262144,
+  "prefix_decompression_does_not_verify_whole_file_CRC": true,
+  "purpose": "public source metadata or bounded schema sample; no fine-mapping",
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "Range": "bytes=0-262143",
+    "User-Agent": "COPD-scientific-preflight/1.0"
+  },
+  "requested_url": "https://storage.googleapis.com/finngen-public-data-r11/summary_stats/finngen_R11_J10_COPD.gz",
+  "response_headers": {
+    "Accept-Ranges": "bytes",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Cache-Control": "public, max-age=3600",
+    "Connection": "close",
+    "Content-Length": "262144",
+    "Content-Range": "bytes 0-262143/815727196",
+    "Content-Type": "application/octet-stream",
+    "Date": "Tue, 06 Oct 2026 20:34:13 GMT",
+    "ETag": "\"0ac7691d621d0e26436440d6b65974b7\"",
+    "Expires": "Tue, 06 Oct 2026 21:34:13 GMT",
+    "Last-Modified": "Tue, 18 Jun 2024 13:00:54 GMT",
+    "Server": "UploadServer",
+    "X-GUploader-UploadID": "AP6rU80tMS1senhItnJNnzuSjtv5-jH77I9a4MqgWJ0hy9D0pcWxFu2i91bBSIbNDUiIKuBEQrjr-4o",
+    "x-goog-generation": "1718715654039753",
+    "x-goog-hash": "md5=CsdpHWIdDiZDZEDWtll0tw==",
+    "x-goog-metageneration": "1",
+    "x-goog-storage-class": "STANDARD",
+    "x-goog-stored-content-encoding": "identity",
+    "x-goog-stored-content-length": "815727196"
+  },
+  "response_url": "https://storage.googleapis.com/finngen-public-data-r11/summary_stats/finngen_R11_J10_COPD.gz",
+  "retained_prefix_only": true,
+  "stored_body_reaches_declared_response_length": true,
+  "stored_bytes": 262144,
+  "stored_path": "audits/alternatives/downloads/finngen_r11_header.bin",
+  "stored_sha256": "1982203a1d467c28e93add9275fabad11aced46eaafa98a35607a04ee98f689f"
+}

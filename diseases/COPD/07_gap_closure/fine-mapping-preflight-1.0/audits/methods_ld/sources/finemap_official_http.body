@@ -1,0 +1,890 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Inconsolata|Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Christian Benner</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<link rel="stylesheet" href="styles.css">
+<style type="text/css"> 
+html * {
+	max-height: 999999px;	
+}
+body  {
+	font-family: "Source Sans Pro";
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: #FFF;
+	-webkit-text-size-adjust: 100%;
+}
+.oneColFixLt #container { 
+	width: 100%;
+	background: #FFFFFF;
+	margin: 0 0;
+	border: 0px solid #FFFFFF;
+	text-align: left;
+	display: table;
+}
+.oneColFixLt #sidebar1 {
+	float: left;
+	width: 250px;
+	background: #FFFFFF;
+	padding: 20px 20px 20px 20px;
+	border: 0px solid #000000;
+}
+.oneColFixLt #cssmenu {
+	margin: 0 0 0 0px;
+	padding: 20px 20px 0px 20px;
+}
+.oneColFixLt #menu {
+	margin: 0 0 0 0px;
+	padding: 20px 20px 0px 20px;
+} 
+.mainContent {
+	margin: 0 0 0 0px;
+	padding: 20px 20px 20px 20px;
+}
+.fltrt {
+	float: right;
+	margin-left: 8px;
+}
+.fltlft {
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat {
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+.box-grey {
+	display: inline-block;
+	padding: 2px;
+	background-color:#e5e5e5;
+	border:1px solid #e5e5e5;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.box-red {
+	display: inline-block;
+	padding: 2px;
+	background-color:#ff0000;
+	border:1px solid #ff0000;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+</style></head>
+
+<body class="oneColFixLt">
+
+<div id="container">
+	<div id='cssmenu'>
+		<ul>
+			<li class='active'><a href='#' data-id='div2'><span>FINEMAP</span></a></li>
+			<li><a href='#' data-id='div3'><span>LDstore2</span></a></li>
+		</ul>
+	</div>
+	<div class="mainContent" id="div2">
+		<p align="left">
+        	<object type="image/svg+xml" data="finemap_new.svg">FINEMAP</object>
+        </p>
+		<hr>
+        <a href="#cmd"><b>Command-line arguments</b></a> <b>|</b> <a href="#input"><b>Input</b></a> <b>|</b> <a href="#output"><b>Output</b></a> <b>|</b> <a href="#sss"><b>Examples</b></a></b>
+        <hr>
+		<h3>FINEMAP-ing articles</h3>
+		<table style="margin: 10px 0px 10px 20px;">
+			<tr>
+				<td valign="top"><span style="font-weight:normal">-</span></td>
+				<td></td>
+                <td align="justify"><a href='https://www.biorxiv.org/content/early/2018/05/10/318618' target="_blank">Refining fine-mapping: effect sizes and regional heritability</a>. <i>bioRxiv.</i> (2018).</td>
+			</tr>
+            <tr>
+				<td valign="top"><span style="font-weight:normal">-</span></td>
+				<td></td>
+                <td align="justify"><a href='https://doi.org/10.1016/j.ajhg.2017.08.012' target="_blank">Prospects of fine-mapping trait-associated genomic regions by using summary statistics from genome-wide association studies</a>. <i>Am. J. Hum. Genet.</i> (2017).</td>
+			</tr>
+            <tr>
+				<td valign="top"><span style="font-weight:normal">-</span></td>
+				<td></td>
+                <td align="justify"><a href='https://doi.org/10.1093/bioinformatics/btw018' target="_blank">FINEMAP: Efficient variable selection using summary data from genome-wide association studies</a>. <i>Bioinformatics</i> 32, 1493-1501 (2016).</td>
+			</tr>
+		</table>
+        <p align="justify">FINEMAP is a program for</p>
+        <ul style="margin: 0px 0px 0px 22.5px" class="fa-ul">
+			<li style="margin: -10px 0px 0px -10px"><span class="fa-stack"><i class="fa fa-circle fa-stack-1x"></i><strong style="font-size:10px; color:#FFF" class="fa-stack-1x">1</strong></span>identifying causal SNPs</li>
+            <li style="margin: -10px 0px 0px -10px"><span class="fa-stack"><i class="fa fa-circle fa-stack-1x"></i><strong style="font-size:10px; color:#FFF" class="fa-stack-1x">2</strong></span>estimating effect sizes of causal SNPs</li>
+            <li style="margin: -10px 0px -10px -10px"><span class="fa-stack"><i class="fa fa-circle fa-stack-1x"></i><strong style="font-size:10px; color:#FFF" class="fa-stack-1x">3</strong></span>estimating the heritability contribution of causal SNPs</li>
+        </ul>
+        <p align="justify">in genomic regions associated with complex traits and disease. FINEMAP is computationally efficient by using summary statistics from genome-wide association studies and robust by applying a shotgun stochastic search algorithm (Hans <i>et al</i>., 2007). It produces accurate results in a fraction of processing time of existing approaches. It is therefore the ideal tool for analyzing growing amounts of data produced in genome-wide association studies and emerging sequencing or biobank projects.</p>
+		<h3 style="display: inline;">Download</h3>
+		<h3 style="display: inline; font-weight: normal;">(<a href='license_finemap_v1.4.html' target="_blank">license</a>)</h3>
+		<ul style="margin: 10px 22.5px 0px 22.5px" class="fa-ul">
+			<li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-file"></i><a href='finemap_v1.4.2_MacOSX.tgz' target="_blank"><b>finemap_v1.4.2_MacOSX.tgz (Mac OS X)</b></a></li>
+			<li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-file"></i><a href='finemap_v1.4.2_x86_64.tgz' target="_blank"><b>finemap_v1.4.2_x86_64.tgz (Unix)</b></a></li>
+            <li style="margin: 10px 0px 0px 22.5px">Updated 27-Apr-2023
+            <li style="margin: 0px 0px 0px 22.5px">(1) Bugfixes
+            <li style="list-style-type:none"><br>
+			<li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-file"></i><a href='finemap_v1.4.1_MacOSX.tgz' target="_blank"><b>finemap_v1.4.1_MacOSX.tgz (Mac OS X)</b></a></li>
+			<li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-file"></i><a href='finemap_v1.4.1_x86_64.tgz' target="_blank"><b>finemap_v1.4.1_x86_64.tgz (Unix)</b></a></li>
+            <li style="margin: 10px 0px 0px 22.5px">Updated 04-Mar-2022
+            <li style="margin: 0px 0px 0px 22.5px">(1) Minor bugfixes
+            <li style="list-style-type:none"><br>
+			<li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-file"></i><a href='finemap_v1.4_MacOSX.tgz' target="_blank"><b>finemap_v1.4_MacOSX.tgz (Mac OS X)</b></a></li>
+			<li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-file"></i><a href='finemap_v1.4_x86_64.tgz' target="_blank"><b>finemap_v1.4_x86_64.tgz (Unix)</b></a></li>
+            <li style="margin: 10px 0px 0px 22.5px">Updated 14-Feb-2020
+            <li style="margin: 0px 0px 0px 22.5px">(1) Integration with LDstore2
+            <li style="margin: 0px 0px 0px 22.5px">(2) Updated credible sets
+            <li style="margin: 0px 0px 0px 22.5px">(3) Multi-threading and optimizations
+            <li style="list-style-type:none"><br>
+            <li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-file"></i><a href='finemap_v1.3.1_MacOSX.tgz' target="_blank">finemap_v1.3.1_MacOSX.tgz (Mac OS X)</a></li>
+			<li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-file"></i><a href='finemap_v1.3.1_x86_64.tgz' target="_blank">finemap_v1.3.1_x86_64.tgz (Unix)</a></li>
+            <li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-book"></i><a href='index_v1.3.html' target="_blank">Documentation</a></li>
+            <li style="list-style-type:none"><br>
+            <li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-file"></i><a href='finemap_v1.3_MacOSX.tgz' target="_blank">finemap_v1.3_MacOSX.tgz (Mac OS X)</a></li>
+			<li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-file"></i><a href='finemap_v1.3_x86_64.tgz' target="_blank">finemap_v1.3_x86_64.tgz (Unix)</a></li>
+            <li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-book"></i><a href='index_v1.3.html' target="_blank">Documentation</a></li>
+            <li style="list-style-type:none"><br>
+            <li style="margin: 0px 0px 0px 22.5px">Mac OSX users: If you see <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">dyld: Library not loaded: /usr/local/lib/libzstd.1.dylib</span>, install <a href='https://facebook.github.io/zstd/' target="_blank">Zstandard</a>.
+            <li style="list-style-type:none"><br>
+            <li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-file"></i><a href='finemap_v1.2_MacOSX.tgz' target="_blank">finemap_v1.2_MacOSX.tgz (Mac OS X)</a></li>
+			<li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-file"></i><a href='finemap_v1.2_x86_64.tgz' target="_blank">finemap_v1.2_x86_64.tgz (Unix)</a></li>
+            <li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-book"></i><a href='index_v1.2.html' target="_blank">Documentation</a></li>
+            <li style="list-style-type:none"><br>
+            <li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-exclamation-triangle"></i>Be aware that FINEMAP v1.1 cannot handle large effect size regions!
+            <li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-file"></i><a href='finemap_v1.1_MacOSX.tgz' target="_blank">finemap_v1.1_MacOSX.tgz (Mac OS X)</a></li>
+			<li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-file"></i><a href='finemap_v1.1_x86_64.tgz' target="_blank">finemap_v1.1_x86_64.tgz (Unix)</a></li>
+            <li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-book"></i><a href='index_v1.1.html' target="_blank">Documentation</a></li>
+            <li style="list-style-type:none"><br>
+            <li style="list-style-type:none">To receive email reminders about updates of FINEMAP, send an email to <a HREF="mailto:finemap@christianbenner.com?subject=FINEMAP email reminders&body=Hi, I've found FINEMAP and would like to receive email reminders."><span style="font-family: 'Inconsolata'; font-weight: normal">finemap@christianbenner.com</span></a>.     
+		</ul>        
+		<a name="cmd"></a><h3>Command-line arguments</h3>
+		<table style="margin: 10px 0px 10px 20px;">
+			<tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--cond</span></td>
+				<td></td>
+				<td valign="top" align="justify"><span style="font-weight:normal">Fine-mapping with stepwise conditioning</span></td>
+				<td></td>
+				<td valign="top">Subprogram</td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--cond-pvalue</span></td>
+				<td></td>
+				<td valign="top" align="justify"><span style="font-weight:normal">Option to set the p-value threshold for declaring genome-wide significance</span></td>
+				<td></td>
+				<td valign="top">Default is 5 &times 10<sup>-8</sup></td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--config</span></td>
+				<td></td>
+				<td valign="top" align="justify"><span style="font-weight:normal">Evaluate a single causal configuration without performing shotgun stochastic search</span></td>
+				<td></td>
+				<td valign="top">Subprogram</td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--corr-config</span></td>
+				<td></td>
+				<td valign="top" align="justify">Option to set the posterior probability of a causal configuration to zero if it includes a pair of SNPs with absolute correlation above this threshold</td>
+				<td></td>
+				<td valign="top">Default is 0.95</span></td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--dataset</span></td>
+				<td></td>
+				<td valign="top" align="justify">Option to specify a delimiter-separated list of datasets for fine-mapping as given in the master file <span style="white-space: nowrap">(e.g. 1,2 or 1|2)</span></td>
+				<td></td>
+				<td valign="top">All datasets are processed by default</td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--flip-beta</span></td>
+				<td></td>
+				<td valign="top" align="justify">Option to read a column 'flip' in the Z file with binary indicators specifying if the direction of the estimated SNP effect sizes needs to be flipped to match SNP correlations</td>
+				<td></td>
+				<td nowrap="nowrap" valign="top">With <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--cond</span>, <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--config</span> and <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--sss</span></td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--force-n--samples</span></td>
+				<td></td>
+				<td valign="top" align="justify">Option to allow correlations in a BCOR file to be computed on a set of samples with different size than GWAS sample size</td>
+				<td></td>
+				<td nowrap="nowrap" valign="top">With <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--cond</span>, <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--config</span> and <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--sss</span></td>
+			</tr>
+            <tr>
+				<td valign="top"><span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--help</span></td>
+				<td></td>
+				<td valign="top" align="justify">Command-line help</td>
+				<td></td>
+				<td></td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--in-files</span></td>
+				<td></td>
+				<td valign="top" align="justify"><span style="font-weight:normal">Master file <span style="white-space: nowrap">(see below)</span></span></td>
+				<td></td>
+				<td nowrap="nowrap" valign="top">With <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--cond</span>, <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--config</span> and <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--sss</span></td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--log</span></td>
+				<td></td>
+				<td valign="top" align="justify">Option to write output to log files specified in column 'log' in the master file</td>
+				<td></td>
+				<td valign="top">No log files are written by default</td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--n-causal-snps</span></td>
+				<td></td>
+				<td valign="top" align="justify">Option to set the maximum number of allowed causal SNPs</td>
+				<td></td>
+				<td valign="top">Default is 5</td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--n-configs-top</span></td>
+				<td></td>
+				<td valign="top" align="justify">Option to set the number of top causal configurations to be saved</td>
+				<td></td>
+				<td valign="top">Default is 50000</td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--n-conv-sss</span></td>
+				<td></td>
+				<td valign="top" align="justify">Option to set the number of iterations that the added probability mass is required to be below the specified threshold <span style="white-space: nowrap">(<span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--prob-conv-sss-tol</span>)</span> before the shotgun stochastic search is terminated</td>
+				<td></td>
+				<td valign="top">Default is 100</td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--n-iter</span></td>
+				<td></td>
+				<td valign="top" align="justify">Option to set the maximum number of iterations before the shotgun stochastic search is terminated</td>
+				<td></td>
+				<td valign="top">Default is 100000</td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--n-threads</span></td>
+				<td></td>
+				<td valign="top" align="justify">Option to set the number of parallel threads</td>
+				<td></td>
+				<td valign="top">Default is 1</td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--prior-k</span></td>
+				<td></td>
+				<td valign="top" align="justify">Option to use prior probabilities for the number of causal SNPs as specified in K files <span style="white-space: nowrap">(see below)</span> in the master file</td>
+				<td></td>
+				<td valign="top">SNPs are by default assumed to be causal with probability <span style="white-space: nowrap">1 / (# of SNPs in the genomic region)</span></td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--prior-k0</span></td>
+				<td></td>
+				<td valign="top" align="justify">Option to set the prior probability that there is no causal SNP in the genomic region. Only used when computing posterior probabilities for the number of causal SNPs but not during fine-mapping itself</td>
+				<td></td>
+				<td valign="top">Default is 0.0</td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--prior-snps</span></td>
+				<td></td>
+				<td valign="top" align="justify">Option to read a column 'prob' in the Z file with prior probabilities that a SNP is causal in order to define the prior probability for each causal configuration</td>
+				<td></td>
+				<td nowrap="nowrap" valign="top">With <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--sss</span></td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--prior-std</span></td>
+				<td></td>
+				<td valign="top" align="justify">Option to specify a comma-separated list of prior standard deviations of effect sizes.</td>
+				<td></td>
+				<td valign="top">Default is 0.05</td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--prob-conv-sss-tol</span></td>
+				<td></td>
+				<td valign="top" align="justify">Option to set the tolerance at which the added probability mass <span style="white-space: nowrap">(over <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--n-conv-sss</span> iterations)</span> is considered small enough to terminate the shotgun stochastic search</td>
+				<td></td>
+				<td valign="top">Default is 0.001</td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--prob-cred-set</span></td>
+				<td></td>
+				<td valign="top" align="justify">Option to set the probability at which the credible interval includes a causal SNP</td>
+				<td></td>
+				<td valign="top">Default is 0.95</td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--pvalue-snps</span></td>
+				<td></td>
+				<td valign="top" align="justify">Option to set a p-value threshold at which SNPs are included</td>
+				<td></td>
+				<td valign="top">Default is 1.0</td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--rsids</span></td>
+				<td></td>
+				<td valign="top" align="justify">Option to sepcify a comma-separated list of SNP identifiers corresponding with the <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">rsid</span> column in Z files <span style="white-space: nowrap">(see below)</span></td>
+				<td></td>
+				<td nowrap="nowrap" valign="top">With <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--config</span></td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--sss</span></td>
+				<td>&nbsp;&nbsp;</td>
+				<td valign="top" align="justify"><span style="font-weight:normal">Fine-mapping with shotgun stochastic search</span></td>
+				<td>&nbsp;&nbsp;</td>
+				<td valign="top">Subprogram</td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--std-effects</span></td>
+				<td>&nbsp;&nbsp;</td>
+				<td valign="top" align="justify"><span style="font-weight:normal">Option to print mean and standard deviation of the posterior effect size distribution for standardized dosages</span></td>
+				<td>&nbsp;&nbsp;</td>
+				<td valign="top">Default is allele dosage</td>
+			</tr>
+		</table>
+		<a name="input"></a><h3>Input</h3>
+        <a name="input"></a><h4>(1) Master file</h4>
+		<p align="justify">The <span class="box-grey" style="font-family: 'Inconsolata'">master</span> file is a <b>semicolon-separated</b> text file and contains no space. It contains the following mandatory column names and one dataset per line.</p>
+        	<ul>
+            	<li><p align="justify"; style="margin: 0px 5px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">z</span> column contains the names of Z files (input)</p></li>
+                 <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">ld</span> column contains the names of LD files (input)</p></li>
+                 <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">bcor</span> column contains the names of BCOR files (input)</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">snp</span> column contains the names of SNP files (output)</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">config</span> column contains the names of CONFIG files (output)</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">cred</span> column contains the names of CRED files (output)</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">n_samples</span> column contains the GWAS sample sizes</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">k</span> column contains the names of optional K files (optional input)</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">log</span> column contains the names of optional LOG files (optional output)</p></li>
+            </ul>
+            <ul style="margin: 0px 0px 0px 22.5px" class="fa-ul">
+			<li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-exclamation-triangle"></i><p align="justify">File extensions must correspond with the column names in the header line!</p></li>
+            <li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-lightbulb-o"></i><p align="justify">The <span class="box-grey" style="font-family: 'Inconsolata'">master</span> file can contain columns <span class="box-grey" style="font-family: 'Inconsolata'">ld</span> and <span class="box-grey" style="font-family: 'Inconsolata'">bcor</span> simultaneously. For each dataset per line, entries need to be specified for precomputed SNP correlations in text format in column <span class="box-grey" style="font-family: 'Inconsolata'">ld</span> or in binary fomat in column <span class="box-grey" style="font-family: 'Inconsolata'">bcor</span>. If a line contains entries in both columns, then precomputed SNP correlations are used.</p></li>
+            <li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-user"></i><p align="justify">If SNP correlations specified in column <span class="box-grey" style="font-family: 'Inconsolata'">bcor</span> are computed on a set of samples with different size than specified in column <span class="box-grey" style="font-family: 'Inconsolata'">n_samples</span> then the <span class="box-grey" style="font-family: 'Inconsolata'">--force-n-samples</span> command-line argument can be used to override error checks.</p></li>
+            <li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-chevron-circle-right"></i><p align="justify">A <span class="box-grey" style="font-family: 'Inconsolata'">master</span> file with two datasets using precomputed SNP correlations could look as follows.</p></li>
+            <span class="box-grey" style="font-family: 'Inconsolata'; margin:10px 0px 10px 20px">
+            <table>
+				<tr><td><span style="font-family: 'Inconsolata'">z;ld;snp;config;cred;log;n_samples</span></td></tr>
+				<tr><td><span style="font-family: 'Inconsolata'">dataset1.z;dataset1.ld;dataset1.snp;dataset1.config;dataset1.cred;dataset1.log;5363</span></td></tr>
+				<tr><td><span style="font-family: 'Inconsolata'">dataset2.z;dataset2.ld;dataset2.snp;dataset2.config;dataset2.cred;dataset2.log;5363</span></td></tr>
+			</table>
+            </ul>
+        <a name="input"></a><h4>(2) Z file</h4>
+		<p align="justify">The <span class="box-grey" style="font-family: 'Inconsolata'">dataset.z</span> file is a <b>space-delimited</b> text file and contains the GWAS summary statistics one SNP per line. It contains the mandatory column names in the following order.</p>
+            <ul>
+            	<li><p align="justify"; style="margin: 0px 5px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">rsid</span> column contains the SNP identifiers. The identifier can be a rsID number or a combination of chromosome name and genomic position (e.g. XXX:yyy)</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">chromosome</span> column contains the chromosome names. The chromosome names can be chosen freely with precomputed SNP correlations (e.g. 'X', '0X' or 'chrX')</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">position</span> column contains the base pair positions</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">allele1</span> column contains the "first" allele of the SNPs. In SNPTEST this corresponds to 'allele_A', whereas BOLT-LMM uses 'ALLELE1'</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">allele2</span> column contains the "second" allele of the SNPs. In SNPTEST this corresponds to 'allele_B', whereas BOLT-LMM uses 'ALLELE0'</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">maf</span> column contains the minor allele frequencies</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">beta</span> column contains the estimated effect sizes as given by GWAS software</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">se</span> column contains the standard errors of effect sizes as given by GWAS software</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">flip</span> optional column - see below <span><i class="fa fa-exclamation-triangle"></i></span></p></li>
+            </ul>
+            <ul style="margin: 0px 0px 0px 22.5px" class="fa-ul">
+			<li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-lightbulb-o"></i><p align="justify">Columns <span class="box-grey" style="font-family: 'Inconsolata'">beta</span> and <span class="box-grey" style="font-family: 'Inconsolata'">se</span> are required for fine-mapping. Column <span class="box-grey" style="font-family: 'Inconsolata'">maf</span> is needed to output posterior effect size estimates on the allelic scale. All other columns are not required for computations and can be specified arbitrarily.</p></li>
+            <li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-puzzle-piece"></i><p align="justify">When using BCOR support, entries for each SNP in columns <span class="box-grey" style="font-family: 'Inconsolata'">rsid</span>, <span class="box-grey" style="font-family: 'Inconsolata'">chromosome</span>, <span class="box-grey" style="font-family: 'Inconsolata'">position</span>, <span class="box-grey" style="font-family: 'Inconsolata'">allele1</span> and <span class="box-grey" style="font-family: 'Inconsolata'">allele2</span> need to correspond with the information in BCOR files. The <span class="box-grey" style="font-family: 'Inconsolata'">chromosome</span> column may have to contain '0X' for X = 1,...,9, where X is the chromosome number.
+            <li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-exclamation-triangle"></i><p align="justify">It is recommended to compute all SNP correlations from allele counts of one of the alleles. In this case, estimated effect sizes and their standard errors from GWAS software can be used directly if the software always codes the same allele as the effect allele. This is the case in software SNPTEST (uses 'allele_B' as the effect allele) and BOLT-LMM (uses 'ALLELE1' as the effect allele). However, if the GWAS software codes the minor allele of the SNPs as the effect allele, then the direction of estimated effect sizes needs to be flipped to either the first or the second allele. This can be done by specifying the <span class="box-grey" style="font-family: 'Inconsolata'">--flip-beta</span> command-line argument and augmenting <span class="box-grey" style="font-family: 'Inconsolata'">dataset.z</span> by a <span class="box-grey" style="font-family: 'Inconsolata'">flip</span> column which contains 1 in a line if the direction of the estimated effect size of the SNP needs to be flipped and 0, otherwise.</p></li>
+             <li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-sort-numeric-asc"></i><p align="justify">SNPs do not have to be ordered by genomic positions and can reside on different chromsomes. However, the order of SNPs in <span class="box-grey" style="font-family: 'Inconsolata'">dataset.z</span> must correspond to the order of SNPs in <span class="box-grey" style="font-family: 'Inconsolata'">dataset.ld</span>!</p></li>
+            <li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-chevron-circle-right"></i><p align="justify">A <span class="box-grey" style="font-family: 'Inconsolata'">dataset.z</span> file with three SNPs could look as follows.</p></li>
+            <span class="box-grey" style="font-family: 'Inconsolata'; margin:10px 0px 10px 20px">
+            <table>
+                <tr><td>rsid chromosome position allele1 allele2 maf beta se</td></tr>
+                <tr><td>rs1 10 1 T C 0.35 0.0050 0.0208</td></tr>
+                <tr><td>rs2 10 1 A G 0.04 0.0368 0.0761</td></tr>
+                <tr><td>rs3 10 1 G A 0.18 0.0228 0.0199</td></tr>
+			</table>
+            </span>
+            </ul>
+		<a name="input"></a><h4>(3) LD file</h4>
+		<p align="justify">The <span class="box-grey" style="font-family: 'Inconsolata'">dataset.ld</span> file is a <b>space-delimited</b> text file and contains the SNP correlation matrix (Pearson's correlation).</p>
+        	<ul style="margin: 0px 0px 0px 22.5px" class="fa-ul">
+			<li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-exclamation-triangle"></i><p align="justify">Ideally, the SNP correlation matrix is computed from the genotype data on the same samples from which the GWAS summary statistics orginate. Read <a href='https://doi.org/10.1016/j.ajhg.2017.08.012' target="_blank"><i>here</i></a> what could happen if SNP correlations from reference genotypes (e.g. <a href='http://www.1000genomes.org' target="_blank">1000 Genomes Project</a>) do not match well with the GWAS summary statistics.</p></li>
+            <li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-calculator"></i><p align="justify">With imputed biobank-scale genotype data, it is important to compute SNP correlations from the same genotype data used in GWAS software. Read <a href='https://doi.org/10.1101/255224' target="_blank"><i>here</i></a> for an example highlighting the importance of computing SNP correlations from the same dosage data used in GWAS software. For example, if GWAS summary statistics are generated with BOLT-LMM using SNP dosages (e.g. when used with BGEN files), then SNP correlations need to be computed from the same SNP dosage data. The same applies to SNPTEST when using the <span class="box-grey" style="font-family: 'Inconsolata'">-method expected</span> option to deal with genotype uncertainty. If GWAS summary statistics are computed from SNP dosage data using BGEN files, we recommended to use the LDstore2 software to compute SNP correlations and disadvise to convert genotype probabilities to best-guess genotypes in order to compute SNP correlations.</p></li>
+            <li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-sort-numeric-asc"></i><p align="justify">The order of the SNPs in the <span class="box-grey" style="font-family: 'Inconsolata'">dataset.ld</span> must correspond to the order of SNPs in <span class="box-grey" style="font-family: 'Inconsolata'">dataset.z</span>.</p></li>
+            <li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-chevron-circle-right"></i><p align="justify">A <span class="box-grey" style="font-family: 'Inconsolata'">dataset.ld</span> file with three SNPs could look as follows.</p></li>
+			<span class="box-grey" style="font-family: 'Inconsolata'; margin:10px 0px 10px 20px">
+            <table>
+				<tr><td>1.00 0.95 0.98</td></tr>
+				<tr><td>0.95 1.00 0.96</td></tr>
+				<tr><td>0.97 0.96 1.00</td></tr>
+			</table>
+            </span>
+			</ul>
+         <a name="input"></a><h4>(4) BCOR file</h4>
+		 <p align="justify">See <a href='bcor_v1.1.html' target="_blank">here</a> for BCOR file format desciption.</p>
+         <a name="input"></a><h4>(5) Optional K file</h4>
+         <p align="justify">By default, FINEMAP assumes that SNPs are causal with prior probability 1 / (# of SNPs in the genomic region). As an alternative, it is possible to specify prior probabilities for the number of causal SNPs in the genomic region by using a <span class="box-grey" style="font-family: 'Inconsolata'">dataset.k</span> file. This is a <b>space-delimited</b> text file and contains the prior probabilities <i>p<sub>k</sub></i> = Pr(# of causal SNPs is <i>k</i>) for <i>k</i> = 1,...,<i>K</i>, where <i>K</i> is the number of entries in the <span class="box-grey" style="font-family: 'Inconsolata'">dataset.k</span> file. The prior probabilities must be non-negative and will be normalized to sum to one.</p>
+         	<ul style="margin: 0px 0px 0px 22.5px" class="fa-ul">
+			<li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-exclamation-triangle"></i><p align="justify">We assume that the genomic region includes at least one causal SNP and thus <i>p</i><sub>0</sub> = 0. A non-zero prior probability <i>p</i><sub>0</sub> that there is no causal SNP in the genomic region can be specified with the command-line argument <span style="font-family: 'Inconsolata'">--prior-k0</span>. This value is only used when computing posterior probabilities <i>p</i><sub><i>k</i>|data</sub> = <span style="white-space: nowrap;;">Pr(# of causal SNPs is <i>k</i>&thinsp;|&thinsp;data)</span> but not during fine-mapping itself. We further assume that <i>p<sub>k</sub></i> = 0 for <i>k</i> = <i>K</i>&thinsp;+&thinsp;1,...,<i>m</i>, where <i>m</i> is the number of SNPs in the <span class="box-grey" style="font-family: 'Inconsolata'">dataset.z</span> file.</p></li>
+            <li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-chevron-circle-right"></i><p align="justify">A <span class="box-grey" style="font-family: 'Inconsolata'">dataset.k</span> file allowing for three causal SNPs with <i>p</i><sub>1</sub> = 0.6, <i>p</i><sub>2</sub> = 0.3 and <i>p</i><sub>3</sub> = 0.1 would look as follows.</p></li>
+            <span class="box-grey" style="font-family: 'Inconsolata'; margin:10px 0px 10px 20px">
+            <table>
+				<tr><td>0.6 0.3 0.1</td></tr>
+			</table>
+            </span>
+            </ul>
+		<a name="output"></a><h3>Output</h3>
+        <a name="input"></a><h4>(1) SNP file</h4>
+        <p align="justify">The <span class="box-grey" style="font-family: 'Inconsolata'">dataset.snp</span> file is a <b>space-delimited</b> text file. It contains the GWAS summary statistics and model-averaged posterior summaries for each SNP one per line.</p>
+			<ul>
+            	<li><p align="justify"; style="margin: 0px 5px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">index</span> column contains the line numbers in which SNPs appear in the <span class="box-grey" style="font-family: 'Inconsolata'">dataset.z</span> file</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">rsid</span>, <span class="box-grey" style="font-family: 'Inconsolata'">chromosome</span>, <span class="box-grey" style="font-family: 'Inconsolata'">position</span>, <span class="box-grey" style="font-family: 'Inconsolata'">allele1</span> and <span class="box-grey" style="font-family: 'Inconsolata'">allele2</span> columns are the SNP identifiers from the Z file</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">maf</span>  column contains the minor allele frequencies as given in the Z file</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">beta</span> column contains the estimated effect sizes as given in the Z file</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">se</span> column contains the standard errors of effect size estimates as given in the Z file</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">z</span> column contains the <i>z</i>-scores</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">prob</span> column contains the marginal Posterior Inclusion Probabilities (PIP). The PIP for the <i>l</i>&thinsp;th SNP is the posterior probability that this SNP is causal.</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">log10bf</span> column contains the log<sub>10</sub> Bayes factors. The Bayes factor quantifies the evidence that the <i>l</i>&thinsp;th SNP is causal with log<sub>10</sub> Bayes factors greater than 2 reporting considerable evidence</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">mean</span> column contains the marginalized shrinkage estimates of the posterior effect size mean for the same allele as in column <span class="box-grey" style="font-family: 'Inconsolata'">beta</span>. The marginalized shrinkage estimate for the <i>l</i>&thinsp;th SNP is computed by averaging the posterior effect size means of this SNP from all causal configurations in the <span class="box-grey" style="font-family: 'Inconsolata'">dataset.config</span> file assuming that the effect size of the <i>l</i>&thinsp;th SNP is zero if the SNP is absent from a causal configuration</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">sd</span> column contains the marginalized shrinkage estimates of the posterior effect size standard deviation. The estimates are computed in the same way as the marginalized shrinkage estimates of the posterior effect size mean</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">mean_incl</span> column contains the conditional estimates of the posterior effect size mean for the same allele as in column <span class="box-grey" style="font-family: 'Inconsolata'">beta</span>. The conditional estimate for the <i>l</i>&thinsp;th SNP is computed by averaging the posterior effect size means of this SNP from causal configurations in the <span class="box-grey" style="font-family: 'Inconsolata'">dataset.config</span> file in which it is included</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">sd_incl</span> column contains the conditional estimates of the posterior effect size standard deviation. The estimates are computed in the same way as the conditional estimates of the posterior effect size mean</p></li>
+            </ul>
+            <ul style="margin: 0px 0px 0px 22.5px" class="fa-ul">
+			<li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-lightbulb-o"></i><p align="justify">The PIPs in column <span class="box-grey" style="font-family: 'Inconsolata'">prob</span> are computed by summing up the posterior probabilities of all causal configurations in the <span class="box-grey" style="font-family: 'Inconsolata'">dataset.config</span> file in which <span style="white-space: nowrap"><i>l</i>&thinsp;th</span> SNP is included. The PIPs sum to 1.0 if the maximum number of allowed causal SNPs is set to 1 with the <span class="box-grey" style="font-family: 'Inconsolata'">--n-causal-snps</span> command-line argument.</p></li>
+            </ul>
+         <a name="input"></a><h4>(2) CONFIG file</h4>
+         <p align="justify">The <span class="box-grey" style="font-family: 'Inconsolata'">dataset.config</span> file is a <b>space-delimited</b> text file. It contains the posterior summaries for each causal configuration one per line.</p>   
+        	<ul>
+            	<li><p align="justify"; style="margin: 0px 5px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">rank</span> column contains the ranking</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">config</span> column contains the SNP identifiers</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">prob</span> column contains the posterior probabilities that configurations are the causal configuration</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">log10bf</span> column contains the log<sub>10</sub> Bayes factors. The Bayes factor quantifies the evidence for a causal configuration over the null configuration (no SNPs are causal)</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">odds</span> column contains the odds of the top causal configurations</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">k</span> column contains the number of SNPs of the top causal configurations</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">prob_norm_k</span> column contains the posterior probailities that configurations are the causal configuration normalized over the set of configurations with the same number of SNPs</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">h2</span> column contains the heritability contribution of SNPs</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">h2_0.95CI</span> column contains the 95% credible interval of the heritability contribution of SNPs</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">mean</span> column contains the joint posterior effect size means</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">sd</span> column contains the joint posterior effect size standard deviations</p></li>
+            </ul>
+         <a name="input"></a><h4>(3) CRED file</h4>
+         <p align="justify">The <span class="box-grey" style="font-family: 'Inconsolata'">dataset.cred</span> file is a <b>space-delimited</b> text file. It contains the 95% credible sets for each causal signal in the genomic region. For each credible set, the following posterior summaries are provided</p>
+         <ul>
+            	<li><p align="justify"; style="margin: 0px 5px 0px 0px">posterior probabilities for each SNP of being in the credible set</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px">minimum, average and median absolute correlation between SNPs in the credible set</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px">log10 Bayes factors quantifying the evidence that there is a causal signal in addition to the other causal signals</p></li>
+        </ul>
+        <p align="justify">CRED files are generated for those cases of <i>k</i> causal SNPs in the genomic region that have largest posterior probability. For specific <i>k</i>, FINEMAP takes the <i>k</i>-SNP causal configuration with highest posterior probability and then asks, for the <i>l</i>&thinsp;th SNP in that set, which are the other candidates that could possibly replace that SNP in this causal configuration. The <i>l</i>&thinsp;th credible set shows the best candidate SNPs and their posterior probability of being in a <i>k</i>-SNP causal configuration that additionally contains <i>k</i>&thinsp;-&thinsp;1 SNPs. Note that the <i>k</i>&thinsp;-&thinsp;1 SNPs are chosen to have highest posterior probability in their credible set.</p>     
+        <a name="input"></a><h4>(4) LOG file</h4>
+        <p align="justify">The <span class="box-grey" style="font-family: 'Inconsolata'">dataset.log</span> file outputs additional information. It contains the following output.</p>
+       		<ul>
+            	<li><p align="justify"; style="margin: 0px 5px 0px 0px">Posterior probabilities <span style="white-space: nowrap;;"><i>p</i><sub><i>k</i>|data</sub>&thinsp;=&thinsp;Pr(# of causal SNPs in the genomic region is <i>k</i>&thinsp;|&thinsp;data)</span> for <i>k</i> = 1,...,<i>K</i>, where <i>K</i> is the maximum number of allowed causal SNPs</p></li>
+                <li><p align="justify"; style="margin: 0px 5px 0px 0px">Expected number of causal SNPs in the genomic region</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px">A log<sub>10</sub> Bayes factor</span> to quantify the evidence of at least one causal SNP in the genomic region</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px">Model-averaged heritability and 95% credible interval to quantify the contribution from causal SNPs</p></li>
+			</ul>
+		<a name="sss"></a><h3>Fine-mapping example</h3>
+		<p align="justify">Using genotype data with 55 SNPs and 5363 individuals, a quantitative phenotype was simulated using a linear model with 2 causal SNPs. Single-SNP testing was performed to obtain <nobr><i>z</i>-scores</nobr>. SNP correlations were computed from GWAS genotype data.</p>
+			<ul style="margin: 0px 0px 0px 22.5px" class="fa-ul">
+			<li style="margin: 0px 0px -7.5px 22.5px"><i class="fa-li fa fa-chevron-circle-right"></i><p align="justify">Fine-mapping the SNPs in genomic region 1 in the example folder using shotgun stochastic search is done follows.</p></li>
+            <span class="box-grey" style="font-family: 'Inconsolata'; margin:10px 0px 10px 20px">./finemap_v1.4_MacOSX --sss --in-files example/data --dataset 1</span><br>
+        <span class="box-grey" style="font-family: 'Inconsolata'; margin:10px 0px 10px 20px">./finemap_v1.4_x86_64 --sss --in-files example/data --dataset 1</span>
+        	<li style="margin: 0px 0px -7.5px 22.5px"><i class="fa-li fa fa-chevron-circle-right"></i><p align="justify">Fine-mapping the SNPs in genomic region 2 in the example folder using stepwise conditional search is done follows.</p></li>
+            <span class="box-grey" style="font-family: 'Inconsolata'; margin:10px 0px 10px 20px">./finemap_v1.4_MacOSX --cond --in-files example/data --dataset 2</span><br>
+           <span class="box-grey" style="font-family: 'Inconsolata'; margin:10px 0px 10px 20px">./finemap_v1.4_x86_64 --cond --in-files example/data --dataset 2</span>
+        	<li style="margin: -10px 0px 0px 22.5px"><i class="fa-li fa fa-cogs"></i><p align="justify">The stepwise conditiong procedure is similar to the  implementation in <a href='https://cnsgenomics.com/software/gcta/#COJO' target="_blank">GCTA COJO</a>.</p></li>
+            </ul>
+        </a><h3>Single causal configuration example</h3>
+		<p align="justify">The same data as in the fine-mapping example above are used. Without having to perform shotgun stochastic search, information about a single causal configuration can be obtain by specifying SNP identifiers as follows</p>
+		<span class="box-grey" style="font-family: 'Inconsolata'; margin:10px 0px 10px 20px">./finemap_v1.4_MacOSX --config --in-files example/data --dataset 1 --rsids rs30,rs11</span><br>
+        <span class="box-grey" style="font-family: 'Inconsolata'; margin:10px 0px 10px 20px">./finemap_v1.4_x86_64 --config --in-files example/data --dataset 1 --rsids rs30,rs11</span>
+		<h3>References</h3>
+		<table style="margin: 10px 0px 10px 20px;">
+			<tr>
+				<td align="justify">Benner, C. <i>et al</i>. <a href='https://doi.org/10.1093/bioinformatics/btw018' target="_blank">FINEMAP: Efficient variable selection using summary data from genome-wide association studies</a>. <i>Bioinformatics</i> 32, 1493-1501 (2016).</td>
+			</tr>
+			<tr>
+				<td align="justify">Hans, D. <i>et al</i>. Shotgun stochastic search for "large p" regression. <i>J Am Stat Assoc</i> 102, 507-516 (2007).</td>
+			</tr>
+		</table>
+		<h3>Acknowledgements</h3>
+		<p align="justify"><a href='http://www.helsinki.fi/~mjxpirin' target="_blank">Matti Pirinen</a> contributed to the design and implementation of FINEMAP.</p>
+	</div>
+    <div class="mainContent" id="div3">
+		<p align="left">
+        	<object type="image/svg+xml" data="ldstore_new.svg">LDstore</object>
+        </p>
+		<hr>
+        <a href="#cmd_ld"><b>Command-line arguments</b></a> <b>|</b> <a href="#input_ld"><b>Input</b></a> <b>|</b> <a href="#output_ld"><b>Output</b></a> <b>|</b> <a href="#examples_ld"><b>Examples</b></a> <b>|</b> <a href="#python_ld"><b>Python library</b>
+        <hr>
+		<p align="justify">LDstore is a computationally efficient program for estimating and storing Linkage Disequilibrium (SNP correlations). It combines some of the best features from RAREMETALWORKER and PLINK by implementing parallel processing using OPENMP and storing of the SNP correlations with information about the SNPs in the same binary file for fast lookups. LDstore is therefore the ideal tool for sharing SNP correlations in large-scale meta-analyses of genome-wide association studies and for on-the-fly computing/querying within web portals.</p>
+        <p align="justify">LDstore is a program for</p>
+        <ul style="margin: 0px 0px 0px 22.5px" class="fa-ul">
+			<li style="margin: -10px 0px 0px -10px"><span class="fa-stack"><i class="fa fa-circle fa-stack-1x"></i><strong style="font-size:10px; color:#FFF" class="fa-stack-1x">1</strong></span>compressing sequencing data</li>
+            <li style="margin: -10px 0px 0px -10px"><span class="fa-stack"><i class="fa fa-circle fa-stack-1x"></i><strong style="font-size:10px; color:#FFF" class="fa-stack-1x">2</strong></span>converting genotype probabilities to dosage data</li>
+            <li style="margin: -10px 0px 0px -10px"><span class="fa-stack"><i class="fa fa-circle fa-stack-1x"></i><strong style="font-size:10px; color:#FFF" class="fa-stack-1x">3</strong></span>computing SNP correlations</li>
+        </ul>
+		<h3 style="display: inline;">Download</h3>
+		<h3 style="display: inline; font-weight: normal;">(<a href='license_ldstore.html' target="_blank">license</a>)</h3>
+		<ul style="margin: 10px 22.5px 0px 22.5px" class="fa-ul">
+			<li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-file"></i><a href='ldstore_v2.0_MacOSX.tgz' target="_blank"><b>ldstore_v2.0_MacOSX.tgz (Mac OS X)</b></a></li>
+			<li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-file"></i><a href='ldstore_v2.0_x86_64.tgz' target="_blank"><b>ldstore_v2.0_x86_64.tgz (Unix)</b></a></li>
+            <li style="list-style-type:none"><br>
+            <li style="list-style-type:none">To receive e-mail reminders about updates of LDstore, send an email to <a HREF="mailto:ldstore@christianbenner.com?subject=LDstore email reminders&body=Hi, I've found LDstore and would like to receive email reminders."><span style="font-family: 'Inconsolata'; font-weight: normal">ldstore@christianbenner.com</span></a>.     
+		</ul>        
+		<a name="cmd_ld"></a><h3>Command-line arguments</h3>
+		<table style="margin: 10px 0px 10px 20px;">
+			<tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--bcor-file</span></td>
+				<td></td>
+				<td valign="top" align="justify"><span style="font-weight:normal">Option to specify a BCOR file</span></td>
+				<td></td>
+				<td valign="top">With <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--bcor-to-text</span></td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--bcor-to-text</span></td>
+				<td></td>
+				<td valign="top" align="justify"><span style="font-weight:normal">Convert BCOR file to a text file</span></td>
+				<td></td>
+				<td valign="top">Subprogram</td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--bdose-version</span></td>
+				<td>&nbsp;&nbsp;</td>
+				<td valign="top" align="justify"><span style="font-weight:normal">Option to set the BDOSE file version (see below)</span></td>
+				<td>&nbsp;&nbsp;</td>
+				<td valign="top">With <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--write-bdose</span></td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--compression</span></td>
+				<td>&nbsp;&nbsp;</td>
+				<td valign="top" align="justify"><span style="font-weight:normal">Option to specify the compression level (see below) of a BDOSE/BCOR file as 'ultra-low' (1 byte), 'low' (2 bytes), 'medium' (4 bytes) or 'high' (8 bytes)</span></td>
+				<td>&nbsp;&nbsp;</td>
+				<td valign="top">Default is medium. With <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--write-bcor</span> and <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--write-bdose</span></td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--dataset</span></td>
+				<td></td>
+				<td valign="top" align="justify">Option to specify a delimiter-separated list of datasets as given in the master file <span style="white-space: nowrap">(e.g. 1,2 or 1|2)</span></td>
+				<td></td>
+				<td valign="top">All datasets are processed by default</td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--in-files</span></td>
+				<td>&nbsp;&nbsp;</td>
+				<td valign="top" align="justify"><span style="font-weight:normal">Master file (see below)</span></td>
+				<td>&nbsp;&nbsp;</td>
+				<td valign="top">With <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--bcor-to-text</span>, <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--write-bcor</span>, <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--write-bdose</span> and <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--write-text</span></td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--ld-file</span></td>
+				<td></td>
+				<td valign="top" align="justify"><span style="font-weight:normal">Option to specify a LD file</span></td>
+				<td></td>
+				<td valign="top">With <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--bcor-to-text</span></td>
+			</tr>
+			<tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata';">--memory</span></td>
+				<td></td>
+				<td valign="top" align="justify">Option to limit the amount of memory in gigabyte that can be used during computation of SNP correlations</td>
+				<td></td>
+				<td valign="top">Default is 1Gb. With <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--read-bdose</span> or <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--write-bdose</span> when using either <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--write-bcor</span> or <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--write-text</span></td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata';">--n-threads</span></td>
+				<td></td>
+				<td valign="top" align="justify">Option to set the number of parallel threads</td>
+				<td></td>
+				<td valign="top">Default is 1. With <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--write-bcor</span>, <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--write-bdose</span> or <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--write-text</span></td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata';">--range</span></td>
+				<td></td>
+				<td valign="top" align="justify">Option to specify a genomic range xx-yy to operate on when converting a BCOR file to a LD file where xx and yy are the start and end coordinates in base pairs</td>
+				<td></td>
+				<td valign="top">With <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--bcor-to-text</span></td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata';">--read-bdose</span></td>
+				<td></td>
+				<td valign="top" align="justify">Read dosage data from a BDOSE file</td>
+				<td></td>
+				<td valign="top">With <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--write-bcor</span> or <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--write-text</span></td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata';">--read-only-bgen</span></td>
+				<td></td>
+				<td valign="top" align="justify">Read genotype probabilities from a BGEN file and store dosage data in memory</td>
+				<td></td>
+				<td valign="top">With <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--write-bcor</span> or <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--write-text</span></td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata';">--rsids</span></td>
+				<td></td>
+				<td valign="top" align="justify">Option to sepcify a comma-separated list of SNP identifiers corresponding with the rsid column in a Z file (see below)</td>
+				<td></td>
+				<td valign="top">With <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--bcor-to-text</span> or <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--write-text</span></td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata';">--sample-miss</span></td>
+				<td></td>
+				<td valign="top" align="justify">Option to set a missing data threshold between 0 and 1. If the missing data rate for a SNP is above the specified threshold, then the correlation of any SNP pair that includes this SNP is set to NA. If the missing data rate for a SNP is below the specified threshold, then missing data is mean-imputed</span></td>
+				<td></td>
+				<td valign="top">Default is 0.1. With <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--write-bcor</span> or <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--write-text</span></td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata';">--write-bcor</span></td>
+				<td></td>
+				<td valign="top" align="justify">Write SNP correlations to a BCOR file</td>
+				<td></td>
+				<td valign="top">Subprogram</td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey"style="font-family: 'Inconsolata';">--write-bdose</span></td>
+				<td></td>
+				<td valign="top" align="justify">Write dosage data to a BDOSE file</td>
+				<td></td>
+				<td valign="top">Subprogram and with <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--write-bcor</span> or <span class="box-grey" style="font-family: 'Inconsolata'; font-weight: normal">--write-text</span></td>
+			</tr>
+            <tr>
+				<td nowrap="nowrap" valign="top"><span class="box-grey" style="font-family: 'Inconsolata';">--write-text</span></td>
+				<td></td>
+				<td valign="top" align="justify">Write SNP correlations to a text file</td>
+				<td></td>
+				<td valign="top">Subprogram</td>
+			</tr>
+		</table>
+        <a name="input_ld"></a><h3>Input</h3>
+        <a name="input"></a><h4>(1) Master file</h4>
+		<p align="justify">The <span class="box-grey" style="font-family: 'Inconsolata'">master</span> file is a <b>semicolon-separated</b> text file and contains no space. It contains the following mandatory column names and one dataset per line.</p>
+        	<ul>
+            	<li><p align="justify"; style="margin: 0px 5px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">z</span> column contains the names of Z files (input)</p></li>
+                 <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">bgen</span> column contains the names of BGEN files (input)</p></li>
+                 <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">bgi</span> column contains the names of BGI files (input)</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">bcor</span> column contains the names of BCOR files when using <span class="box-grey" style="font-family: 'Inconsolata'">--write-bcor</span> (output)</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">ld</span> column contains the names of LD files when using <span class="box-grey" style="font-family: 'Inconsolata'">--bcor-to-text</span> (output)</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">n_samples</span> column contains the number of samples to include in any processing</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">bdose</span> column contains the names of optional BDOSE files when using <span class="box-grey" style="font-family: 'Inconsolata'">--write-bdose</span> (optional output)</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">sample</span> column contains the names of optional sample files when using <span class="box-grey" style="font-family: 'Inconsolata'">--write-bdose</span> and <span class="box-grey" style="font-family: 'Inconsolata'">--bdose-version 1.1</span> (optional input)</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">incl</span> column contains the names of optional sample inclusion files (optional input)</p></li>
+            </ul>
+            <ul style="margin: 0px 0px 0px 22.5px" class="fa-ul">
+			<li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-exclamation-triangle"></i><p align="justify">File extensions must correspond with the column names in the header line!</p></li>
+            <li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-lightbulb-o"></i><p align="justify">The <span class="box-grey" style="font-family: 'Inconsolata'">master</span> file can contain columns <span class="box-grey" style="font-family: 'Inconsolata'">ld</span> and <span class="box-grey" style="font-family: 'Inconsolata'">bcor</span> simultaneously.</p></li>
+            <li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-user"></i><p align="justify">Columns <span class="box-grey" style="font-family: 'Inconsolata'">sample</span> and <span class="box-grey" style="font-family: 'Inconsolata'">incl</span> are required when including less samples in any processing than are available in BGEN files</p></li>
+            <li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-universal-access"></i><p align="justify">The <span class="box-grey" style="font-family: 'Inconsolata'">master</span> file can be omitted when extracting SNP correlations from a BCOR file with <span class="box-grey" style="font-family: 'Inconsolata'">--bcor-to-text</span> by directly specifying <span class="box-grey" style="font-family: 'Inconsolata'">--bcor-file</span> and <span class="box-grey" style="font-family: 'Inconsolata'">--ld-file</span>.</p></li>
+            <li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-chevron-circle-right"></i><p align="justify">A <span class="box-grey" style="font-family: 'Inconsolata'">master</span> file with two datasets for writing SNP correlations to a BCOR or text file could look as follows.</p></li>
+            <span class="box-grey" style="font-family: 'Inconsolata'; margin:10px 0px 10px 20px">
+            <table>
+				<tr><td><span style="font-family: 'Inconsolata'">z;bgen;bgi;bcor;ld;n_samples</span></td></tr>
+				<tr><td><span style="font-family: 'Inconsolata'">dataset1.z;dataset1.bgen;dataset1.bgen.bgi;dataset1.bcor;;5363</span></td></tr>
+				<tr><td><span style="font-family: 'Inconsolata'">dataset2.z;dataset2.bgen;dataset2.bgen.bgi;;dataset2.ld;5363</span></td></tr>
+			</table>
+            </ul>
+        <a name="input"></a><h4>(2) Z file</h4>
+		<p align="justify">The <span class="box-grey" style="font-family: 'Inconsolata'">dataset.z</span> file is a <b>space-delimited</b> text file and contains meta information about the SNPs one SNP per line. It contains the mandatory column names in the following order.</p>
+            <ul>
+            	<li><p align="justify"; style="margin: 0px 5px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">rsid</span> column contains the SNP identifiers. The identifier can be a rsID number or a combination of chromosome name and genomic position (e.g. XXX:yyy)</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">chromosome</span> column contains the chromosome names</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">position</span> column contains the base pair positions</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">allele1</span> column contains the "first" allele of the SNPs</p></li>
+                <li><p align="justify"; style="margin: 5px 0px 0px 0px"><span class="box-grey" style="font-family: 'Inconsolata'">allele2</span> column contains the "second" allele of the SNPs</p></li>
+            </ul>
+            <ul style="margin: 0px 0px 0px 22.5px" class="fa-ul">
+			<li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-lightbulb-o"></i><p align="justify">Additional columns can be inserted after column <span class="box-grey" style="font-family: 'Inconsolata'">allele2</span> such that a Z file from FINEMAP can be used.</p></li>
+            <li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-puzzle-piece"></i><p align="justify">Entries for each SNP in columns <span class="box-grey" style="font-family: 'Inconsolata'">rsid</span>, <span class="box-grey" style="font-family: 'Inconsolata'">chromosome</span>, <span class="box-grey" style="font-family: 'Inconsolata'">position</span>, <span class="box-grey" style="font-family: 'Inconsolata'">allele1</span> and <span class="box-grey" style="font-family: 'Inconsolata'">allele2</span> need to correspond with the information in BGEN files. The <span class="box-grey" style="font-family: 'Inconsolata'">chromosome</span> column may have to contain '0X' for X = 1,...,9, where X is the chromosome number.
+             <li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-sort-numeric-asc"></i><p align="justify">SNPs do not have to be ordered by genomic positions and can reside on different chromsomes.</p></li>
+            <li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-chevron-circle-right"></i><p align="justify">A <span class="box-grey" style="font-family: 'Inconsolata'">dataset.z</span> file with three SNPs could look as follows.</p></li>
+            <span class="box-grey" style="font-family: 'Inconsolata'; margin:10px 0px 10px 20px">
+            <table>
+                <tr><td>rsid chromosome position allele1 allele2</td></tr>
+                <tr><td>rs1 10 1 T C</td></tr>
+                <tr><td>rs2 10 1 A G</td></tr>
+                <tr><td>rs3 10 1 G A</td></tr>
+			</table>
+            </span>
+            </ul>
+        <a name="input"></a><h4>(3) BGEN, BGI, SAMPLE and INCL file</h4>
+		<p align="justify">These are Oxford file formats and described <a href='http://www.well.ox.ac.uk/~gav/bgen_format/' target="_blank">here</a> (BGEN), <a href='https://bitbucket.org/gavinband/bgen/wiki/The_bgenix_index_file_format' target="_blank">here</a> (BGI) and <a href='https://www.well.ox.ac.uk/~gav/qctool_v2/documentation/sample_file_formats.html' target="_blank">here</a> (SAMPLE). The <span class="box-grey" style="font-family: 'Inconsolata'">dataset.incl</span> file is a text file to specify inclusion of samples in any processing. It contains one sample ID per line.</p>
+        <ul style="margin: 0px 0px 0px 22.5px" class="fa-ul">
+			<li style="margin: 0px 0px 0px 22.5px"><i class="fa-li fa fa-lightbulb-o"></i><p align="justify">LDstore expects diploid genotype probability data. When converting chromosome X data from PLINK files to BGEN files, male samples need to be recoded as females before conversion to force PLINK to output diploid data.</p></li>
+            </ul>
+        <a name="output_ld"></a><h3>Output</h3>
+        <a name="input"></a><h4>(1) BCOR v1.1 file</h4>
+        BCOR v1.1 files are binary files that store SNP correlations together with information about the SNPs in the same file for fast lookups. BCOR v1.1 files can be used with FINEMAP v1.4 and also include correlations for more SNPs than will be fine-mapped.<br/><br/>The BCOR v1.1 file format is described <a href='bcor_v1.1.html' target="_blank">here</a>.</p>
+        <a name="input"></a><h4>(2) BDOSE v1.0 file</h4>
+        BDOSE v1.0 files are binary files and meant for speeding up one-time computations of SNP correlations in a genomic region when memory is limited. LDstore converts genotype probabilities from a BGEN file to dosage data and writes that data in floating-point format to a BDOSE v1.0 file (possibly in parallel). I/O speedups are achievied by memory-mapping the BDOSE v1.0 file and memory limitations are satisfied by computing SNP correlations in a block-wise fashion.<br/><br/>The BDOSE v1.0 file format is described <a href='bdose_v1.0.html' target="_blank">here</a>.</p>
+        <a name="input"></a><h4>(3) BDOSE v1.1 file</h4>
+        BDOSE v1.1 files are binary files and meant for compressing sequencing data and storing whole-chromosome dosage data. LDstore 1) converts genotype probabilities from a BGEN file to dosage data, 2) converts dosage data from floating-point format to integer format, 3) compresses dosage data in integer format according to the Zstandard compression algorithm, and 4) writes the compressed dosage data to a BDOSE v1.1 file (possibly in parallel). Memory limitations are satisfied by computing SNP correlations in a block-wise fashion.<br/><br/>The BDOSE v1.1 file format is described <a href='bdose_v1.1.html' target="_blank">here</a>.</p>
+        <a name="input"></a><h4>(4) LD file</h4>
+		<p align="justify">LD files are <b>space-delimited</b> text files that contain SNP correlation matrices. A LD file with three SNPs could look as follows.</p>
+		<span class="box-grey" style="font-family: 'Inconsolata'; margin:10px 0px 10px 20px">
+        <table>
+			<tr><td>1.00 0.95 0.98</td></tr>
+			<tr><td>0.95 1.00 0.96</td></tr>
+			<tr><td>0.97 0.96 1.00</td></tr>
+		</table>
+        </span>
+        <a name="examples_ld"></a><h3>Examples</h3>
+        <a name="sss"></a><h4>BGEN to BDOSE v1.1 file conversion</h3>
+		<p align="justify">Genotype data with 55 SNPs and 5363 individuals in BGEN format can be converted to dosage data in BDOSE v1.1 format as follows.</p>
+		<span class="box-grey" style="font-family: 'Inconsolata'; margin:10px 0px 10px 20px">./ldstore_v2.0_x86_64 --in-files example/data --write-bdose --bdose-version 1.1</span>
+        <p align="justify">Dosage data in the BDOSE v1.1 file can be compressed by using</p>
+        <span class="box-grey" style="font-family: 'Inconsolata'; margin:10px 0px 10px 20px">./ldstore_v2.0_x86_64 --in-files example/data --write-bdose --bdose-version 1.1 --compression low</span>
+        <a name="sss"></a><h4>Computation of SNP correlations</h3>
+		<p align="justify">SNP correlations for the same data as in the example above can be computed and written to a BCOR v1.1 file. There are several options for 1) storing intermediate dosage data in memory, 2) writing dosage data first to a BDOSE file, or 3) reading from an existing BDOSE file.</p>
+		<span class="box-grey" style="font-family: 'Inconsolata'; margin:10px 0px 10px 20px">./ldstore_v2.0_x86_64 --in-files example/data --write-bcor --read-only-bgen</span><br/>
+        <span class="box-grey" style="font-family: 'Inconsolata'; margin:10px 0px 10px 20px">./ldstore_v2.0_x86_64 --in-files example/data --write-bcor --write-bdose --bdose-version 1.0</span><br/>
+        <span class="box-grey" style="font-family: 'Inconsolata'; margin:10px 0px 10px 20px">./ldstore_v2.0_x86_64 --in-files example/data --write-bcor --write-bdose --bdose-version 1.1</span><br/>
+        <span class="box-grey" style="font-family: 'Inconsolata'; margin:10px 0px 10px 20px">./ldstore_v2.0_x86_64 --in-files example/data --write-bcor --read-bdose</span><br/>
+        <p align="justify">SNP correlations for a subset of SNPs can be computed and written to a LD file by either specifying a comma-delimited list of SNP identifiers or a text file with SNP identifiers one per line after <span class="box-grey" style="font-family: 'Inconsolata'">--rsids</span>. The same options for handling dosage data apply as in the example above.</p>
+        <span class="box-grey" style="font-family: 'Inconsolata'; margin:10px 0px 10px 20px">./ldstore_v2.0_x86_64 --in-files example/data --write-bcor --read-only-bgen --rsids rs30,rs11</span><br/>
+        <span class="box-grey" style="font-family: 'Inconsolata'; margin:10px 0px 10px 20px">./ldstore_v2.0_x86_64 --in-files example/data --write-bcor --read-only-bgen --rsids rsids.txt</span>
+        </a><h4>BCOR v1.1 to LD file conversion</h3>
+		<p align="justify">SNP correlations in a BCOR v1.1 file can be extracted and written to a LD file as follows.</p>
+		<span class="box-grey" style="font-family: 'Inconsolata'; margin:10px 0px 10px 20px">./ldstore_v2.0_x86_64 --in-files example/data --bcor-to-text</span><br/>
+        <span class="box-grey" style="font-family: 'Inconsolata'; margin:10px 0px 10px 20px">./ldstore_v2.0_x86_64 --bcor-to-text --bcor-file example/data.bcor --ld-file example/data.ld</span><br/>
+        <span class="box-grey" style="font-family: 'Inconsolata'; margin:10px 0px 10px 20px">./ldstore_v2.0_x86_64 --in-files example/data --bcor-to-text --rsids rs30,rs11</span><br/>
+        <span class="box-grey" style="font-family: 'Inconsolata'; margin:10px 0px 10px 20px">./ldstore_v2.0_x86_64 --in-files example/data --bcor-to-text --rsids rsids.txt</span><br/>
+        <span class="box-grey" style="font-family: 'Inconsolata'; margin:10px 0px 10px 20px">./ldstore_v2.0_x86_64 --in-files example/data --bcor-to-text --range 5-10</span><br/>
+        <span class="box-grey" style="font-family: 'Inconsolata'; margin:10px 0px 10px 20px">./ldstore_v2.0_x86_64 --bcor-to-text --bcor-file example/data.bcor --ld-file example/data.ld --rsids rs30,rs11</span><br/>
+        <span class="box-grey" style="font-family: 'Inconsolata'; margin:10px 0px 10px 20px">./ldstore_v2.0_x86_64 --bcor-to-text --bcor-file example/data.bcor --ld-file example/data.ld --rsids rsids.txt</span><br/>
+        <span class="box-grey" style="font-family: 'Inconsolata'; margin:10px 0px 10px 20px">./ldstore_v2.0_x86_64 --bcor-to-text --bcor-file example/data.bcor --ld-file example/data.ld --range 5-10</span><br/>
+        <a name="python_ld"></a><h3>Python library</h3>
+        <p align="justify">The LDstore python3 library contains functions for reading files from LDstore as well as limited functionalities for computing SNP correlations.</p>
+        <a name="sss"></a><h4>Installation</h3>
+        <span class="box-grey" style="font-family: 'Inconsolata'; margin:10px 0px 10px 20px">pip3 install https://files.pythonhosted.org/packages/a8/fd/f98ab7dea176f42cb61b80450b795ef19b329e8eb715b87b0d13c2a0854d/ldstore-0.1.9.tar.gz</span>
+		<a name="sss"></a><h4>BDOSE v1.0 example</h3>
+        <span class="box-grey" style="font-family: 'Inconsolata'; margin:10px 0px 10px 20px">
+        	>>> from ldstore.bdose import bdose<br/><br/>
+            >>> myBdose = bdose( 'example/data_v1.0.bdose' )<br/><br/>
+            >>> myBdose.getFname()<br/>
+            'example/data_v1.0.bdose'<br/><br/>
+            >>> myBdose.getFsize()<br/>
+            2363184<br/><br/>
+            >>> myBdose.getMeta().loc[ range( 5 ) ]<br/>
+            <table>
+				<tr><td></td><td align="right">rsid</td><td align="right">position</td><td align="right">chromosome</td><td align="right">allele1</td><td align="right">allele2</td></tr>
+				<tr><td>0</td><td align="right">rs1</td><td align="right">1.0</td><td align="right">01</td><td align="right">A</td><td align="right">G</td></tr>
+            	<tr><td>1</td><td align="right">rs2</td><td align="right">2.0</td><td align="right">01</td><td align="right">A</td><td align="right">G</td></tr>
+            	<tr><td>2</td><td align="right">rs3</td><td align="right">3.0</td><td align="right">01</td><td align="right">A</td><td align="right">G</td></tr>
+            	<tr><td>3</td><td align="right">rs4</td><td align="right">4.0</td><td align="right">01</td><td align="right">A</td><td align="right">G</td></tr>
+            	<tr><td>4</td><td align="right">rs5</td><td align="right">5.0</td><td align="right">01</td><td align="right">A</td><td align="right">G</td></tr>
+			</table><br/>
+            >>> myBdose.getMissingness()[ range( 5 ) ]<br/>
+            array([0, 0, 0, 0, 0], dtype=uint32)<br/><br/>
+            >>> myBdose.getNumOfSNPs()<br/>
+            55<br/><br/>
+            >>> myBdose.getNumOfSamples()<br/>
+            5363<br/><br/>
+            >>> myBdose.getOffsets()[ range( 5 ) ]<br/>
+            array([  3464,  46368,  89272, 132176, 175080], dtype=uint64)<br/><br/>
+            >>> myBdose.readDosages( [ 29, 10 ] )[ 0, : ]<br/>
+            array([-1.50769106, -1.57917029])<br/><br/>
+            >>> myBdose.readDosages( [] )[ 0, [ 29, 10 ] ]<br/>
+            array([-1.50769106, -1.57917029])<br/><br/>
+            >>> myBdose.computeCorr( [ 29, 10 ] )<br/>
+            <table>
+				<tr><td></td><td align="right">0</td><td align="right">1</td></tr>
+				<tr><td>0</td><td align="right">1.000000</td><td align="right">-0.082955</td></tr>
+				<tr><td>1</td><td align="right">-0.082955</td><td align="right">1.000000</td></tr>
+			</table><br/>
+            >>> myBdose.computeCorr( [] ).loc[ 29, 10 ]<br/>
+            -0.0829552808503373
+        </span>
+        <a name="sss"></a><h4>BDOSE v1.1 example</h3>
+        <span class="box-grey" style="font-family: 'Inconsolata'; margin:10px 0px 10px 20px">
+        	>>> from ldstore.bdose import bdose<br/><br/>
+            >>> myBdose = bdose( 'example/data_v1.1.bdose' )<br/><br/>
+            >>> myBdose.getFname()<br/>
+            'example/data_v1.1.bdose'<br/><br/>
+            >>> myBdose.getFsize()<br/>
+            125054<br/><br/>
+            >>> myBdose.getMeta().loc[ range( 5 ) ]<br/>
+            <table>
+				<tr><td></td><td align="right">rsid</td><td align="right">position</td><td align="right">chromosome</td><td align="right">allele1</td><td align="right">allele2</td></tr>
+				<tr><td>0</td><td align="right">rs1</td><td align="right">1.0</td><td align="right">01</td><td align="right">A</td><td align="right">G</td></tr>
+            	<tr><td>1</td><td align="right">rs2</td><td align="right">2.0</td><td align="right">01</td><td align="right">A</td><td align="right">G</td></tr>
+            	<tr><td>2</td><td align="right">rs3</td><td align="right">3.0</td><td align="right">01</td><td align="right">A</td><td align="right">G</td></tr>
+            	<tr><td>3</td><td align="right">rs4</td><td align="right">4.0</td><td align="right">01</td><td align="right">A</td><td align="right">G</td></tr>
+            	<tr><td>4</td><td align="right">rs5</td><td align="right">5.0</td><td align="right">01</td><td align="right">A</td><td align="right">G</td></tr>
+			</table><br/>
+            >>> myBdose.getNumOfSNPs()<br/>
+            55<br/><br/>
+            >>> myBdose.getNumOfSamples()<br/>
+            5363<br/><br/>
+            >>> myBdose.getOffsets()[ range( 5 ) ]<br/>
+            array([45066, 46430, 48122, 49810, 51508], dtype=uint64)<br/><br/>
+            >>> myBdose.getSamples()[ 0 : 5 ]<br/>
+            ['1', '2', '3', '4', '5']<br/><br/>
+            >>> myBdose.computeMAF( [ 29, 10 ] )<br/>
+            array([0.13499907, 0.43921313])<br/><br/>
+            >>> myBdose.computeMAF( [] )[ [ 29, 10 ] ]<br/>
+            array([0.13499907, 0.43921313])<br/><br/>
+            >>> myBdose.computeFrqAllele1( [ 29, 10 ] )<br/>
+            array([0.13499907, 0.43921313])<br/><br/>
+            >>> myBdose.computeFrqAllele1( [] )[ [ 29, 10 ] ]<br/>
+            array([0.13499907, 0.43921313])<br/><br/>
+            >>> myBdose.computeFrqAllele2( [ 29, 10 ] )<br/>
+            array([0.86500093, 0.56078687])<br/><br/>
+            >>> myBdose.computeFrqAllele2( [] )[ [ 29, 10 ] ]<br/>
+            array([0.86500093, 0.56078687])<br/><br/>
+            >>> myBdose.readDosages( [ 29, 10 ] )[ 0, : ]<br/>
+            array([1., 0.])<br/><br/>
+            >>> myBdose.readDosages( [] )[ 0, [ 29, 10 ] ]<br/>
+            array([1., 0.])<br/><br/>
+            >>> myBdose.computeCorr( [ 29, 10 ] )<br/>
+            <table>
+				<tr><td></td><td align="right">0</td><td align="right">1</td></tr>
+				<tr><td>0</td><td align="right">1.000000</td><td align="right">-0.082955</td></tr>
+				<tr><td>1</td><td align="right">-0.082955</td><td align="right">1.000000</td></tr>
+			</table><br/>
+            >>> myBdose.computeCorr( [] ).loc[ 29, 10 ]<br/>
+            -0.0829552808503373
+        </span>
+        <a name="sss"></a><h4>BCOR v1.1 example</h3>
+        <span class="box-grey" style="font-family: 'Inconsolata'; margin:10px 0px 10px 20px">
+        	>>> from ldstore.bcor import bcor<br/><br/>
+            >>> myBcor = bcor( 'example/data.bcor' )<br/><br/>
+            >>> myBcor.getFname()<br/>
+            'example/data.bcor'<br/><br/>
+            >>> myBcor.getFsize()<br/>
+            7723<br/><br/>
+            >>> myBcor.getMeta().loc[ range( 5 ) ]<br/>
+            <table>
+				<tr><td></td><td align="right">rsid</td><td align="right">position</td><td align="right">chromosome</td><td align="right">allele1</td><td align="right">allele2</td></tr>
+				<tr><td>0</td><td align="right">rs1</td><td align="right">1.0</td><td align="right">01</td><td align="right">A</td><td align="right">G</td></tr>
+            	<tr><td>1</td><td align="right">rs2</td><td align="right">2.0</td><td align="right">01</td><td align="right">A</td><td align="right">G</td></tr>
+            	<tr><td>2</td><td align="right">rs3</td><td align="right">3.0</td><td align="right">01</td><td align="right">A</td><td align="right">G</td></tr>
+            	<tr><td>3</td><td align="right">rs4</td><td align="right">4.0</td><td align="right">01</td><td align="right">A</td><td align="right">G</td></tr>
+            	<tr><td>4</td><td align="right">rs5</td><td align="right">5.0</td><td align="right">01</td><td align="right">A</td><td align="right">G</td></tr>
+			</table><br/>
+            >>> myBcor.getNumOfSNPs()<br/>
+            55<br/><br/>
+            >>> myBcor.getNumOfSamples()<br/>
+            5363<br/><br/>
+            >>> myBcor.readCorr( [ 29, 10 ] )[ 29, : ]<br/>
+            array([ 1.       , -0.0829553])<br/><br/>
+            >>> myBcor.readCorr( [] )[ 29, 10 ]<br/>
+            -0.08295530080795288
+        </span>
+        <h3>References</h3>
+		<table style="margin: 10px 0px 10px 20px;">
+			<tr>
+				<td align="justify">Benner, C. <i>et al</i>. <a href='https://doi.org/10.1016/j.ajhg.2017.08.012' target="_blank">Prospects of fine-papping trait-associated genomic regions by using summary statistics from genome-wide association studies</a>. <i>Am. J. Hum. Genet.</i> (2017).</td>
+			</tr>
+		</table>
+	</div>
+    <div id='menu'>
+		<ul style="margin: 0 5px 0 22.5px" class="fa-ul">
+			<li style="font-size:14px"><i class="fa-li fa fa-info-circle"></i><a href='notice.html' target="_blank">Legal disclosure (Impressum)</a></li>
+			<li style="font-size:14px"><i class="fa-li fa fa-database"></i><a href='privacy.html' target="_blank">Data privacy policy</a></li>
+		</ul>
+	</div>
+    <br class="clearfloat" />
+</div>
+<script>
+$(document).ready(function () {
+    $('#cssmenu').on('click touchend', 'li:not(.current) a', function () {
+        $('.current').not($(this).closest('li').addClass('current')).removeClass('active');
+    	$(this).closest('li').addClass('current').addClass('active');
+		//$(this).addClass('active');
+		$('.current').not($(this).closest('li').addClass('current')).removeClass('current');
+        // fade out all open subcontents
+        $('.mainContent:visible').hide(0);
+        // fade in new selected subcontent
+        $('.mainContent[id=' + $(this).attr('data-id') + ']').show(0);
+    }).find('a:first').click();
+});
+</script>
+</body>
+</html>

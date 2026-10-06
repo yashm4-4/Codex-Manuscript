@@ -1,0 +1,53 @@
+{
+  "accessed_utc": "2026-10-06T20:34:53.875985+00:00",
+  "command": [
+    "diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/scripts/alternatives_fetch.py",
+    "--url",
+    "https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/icd10-J44-both_sexes.tsv.bgz",
+    "--label",
+    "pan_J44_header",
+    "--range"
+  ],
+  "decompressed_prefix_bytes": 975921,
+  "header_and_first_records": [
+    "chr\tpos\tref\talt\taf_cases_meta_hq\taf_controls_meta_hq\tbeta_meta_hq\tse_meta_hq\tneglog10_pval_meta_hq\tneglog10_pval_heterogeneity_hq\taf_cases_meta\taf_controls_meta\tbeta_meta\tse_meta\tneglog10_pval_meta\tneglog10_pval_heterogeneity\taf_cases_AFR\taf_cases_CSA\taf_cases_EUR\taf_controls_AFR\taf_controls_CSA\taf_controls_EUR\tbeta_AFR\tbeta_CSA\tbeta_EUR\tse_AFR\tse_CSA\tse_EUR\tneglog10_pval_AFR\tneglog10_pval_CSA\tneglog10_pval_EUR\tlow_confidence_AFR\tlow_confidence_CSA\tlow_confidence_EUR",
+    "1\t11063\tT\tG\tNA\tNA\tNA\tNA\tNA\tNA\t2.125e-02\t1.538e-02\t4.576e-01\t7.096e-01\t2.848e-01\tNA\t2.125e-02\tNA\t4.045e-05\t1.538e-02\tNA\t4.819e-05\t4.576e-01\tNA\t-2.441e+00\t7.096e-01\tNA\t3.592e+00\t2.848e-01\tNA\t3.039e-01\tfalse\tNA\ttrue",
+    "1\t13259\tG\tA\t5.135e-04\t2.713e-04\t9.264e-01\t4.367e-01\t1.470e+00\tNA\t5.135e-04\t2.713e-04\t9.264e-01\t4.367e-01\t1.470e+00\tNA\tNA\tNA\t5.135e-04\tNA\tNA\t2.713e-04\tNA\tNA\t9.264e-01\tNA\tNA\t4.367e-01\tNA\tNA\t1.470e+00\tNA\tNA\tfalse",
+    "1\t17641\tG\tA\t8.553e-04\t8.303e-04\t1.887e-01\t2.810e-01\t2.994e-01\tNA\t8.553e-04\t8.303e-04\t1.887e-01\t2.810e-01\t2.994e-01\tNA\tNA\tNA\t8.553e-04\tNA\tNA\t8.303e-04\tNA\tNA\t1.887e-01\tNA\tNA\t2.810e-01\tNA\tNA\t2.994e-01\tNA\tNA\tfalse",
+    "1\t30741\tC\tA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\t0.000e+00\tNA\tNA\t3.024e-03\tNA\tNA\t-1.441e+00\tNA\tNA\t1.736e+00\tNA\tNA\t3.909e-01\tNA\tNA\ttrue\tNA\tNA",
+    "1\t51427\tT\tG\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\tNA\t7.075e-03\tNA\tNA\t1.689e-03\tNA\tNA\t3.199e+00\tNA\tNA\t2.048e+00\tNA\tNA\t9.271e-01\tNA\tNA\ttrue\tNA\tNA"
+  ],
+  "http_status": 206,
+  "maximum_bytes_requested_or_retained": 262144,
+  "prefix_decompression_does_not_verify_whole_file_CRC": true,
+  "purpose": "public source metadata or bounded schema sample; no fine-mapping",
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "Range": "bytes=0-262143",
+    "User-Agent": "COPD-scientific-preflight/1.0"
+  },
+  "requested_url": "https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/icd10-J44-both_sexes.tsv.bgz",
+  "response_EOF_before_byte_limit": false,
+  "response_headers": {
+    "Accept-Ranges": "bytes",
+    "Connection": "close",
+    "Content-Length": "262144",
+    "Content-Range": "bytes 0-262143/1827545082",
+    "Content-Type": "binary/octet-stream",
+    "Date": "Tue, 06 Oct 2026 20:34:54 GMT",
+    "ETag": "\"6f13aac841095c359bb37ebba5e234a7-55\"",
+    "Last-Modified": "Thu, 09 Feb 2023 16:47:40 GMT",
+    "Server": "AmazonS3",
+    "x-amz-id-2": "Dd88/TscLg2KXO0Evmq04CKjr1tBhZoQ6vuLPSZdL47bgspNWPPxYimLgrFRv4O8CDTDSyzszG0=",
+    "x-amz-request-id": "Y9QVZ50VW1QVAXF5",
+    "x-amz-server-side-encryption": "AES256",
+    "x-amz-storage-class": "INTELLIGENT_TIERING",
+    "x-amz-version-id": "MTbtTv5nK5NJfBBkof7SgR6x_Iji2Zi9"
+  },
+  "response_url": "https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/icd10-J44-both_sexes.tsv.bgz",
+  "retained_prefix_only": true,
+  "stored_body_reaches_declared_response_length": true,
+  "stored_bytes": 262144,
+  "stored_path": "audits/alternatives/downloads/pan_J44_header.bin",
+  "stored_sha256": "dcf4012f8a000b453cb1c12cff8e52b0567b22ad8637eef54f61c00f616f384a"
+}

@@ -1,0 +1,41 @@
+{
+  "LD_matrix_values_requested": false,
+  "completed_utc": "2026-10-06T20:34:16.469765+00:00",
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9839193/",
+  "http_status": 200,
+  "interpretation": "Exact returned bytes only; HTTP success does not establish semantic usability, schema correctness, locus coverage or fine-mapping eligibility.",
+  "maximum_response_bytes": 4000000,
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0 (public metadata audit)"
+  },
+  "request_method": "GET",
+  "requested_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9839193/",
+  "response_headers": {
+    "Alt-Svc": "clear",
+    "Connection": "close",
+    "Content-Length": "361798",
+    "Date": "Tue, 06 Oct 2026 20:34:16 GMT",
+    "Server": "istio-envoy",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Via": "1.1 google",
+    "X-UA-Compatible": "IE=Edge",
+    "X-XSS-Protection": "1; mode=block",
+    "content-type": "text/html; charset=utf-8",
+    "cross-origin-opener-policy": "same-origin",
+    "referrer-policy": "same-origin",
+    "set-cookie": "ncbi_sid=9639C326AC551773_33216SID; Domain=.nih.gov; expires=Wed, 06 Oct 2027 20:34:16 GMT; Max-Age=31536000; Path=/",
+    "vary": "Accept-Encoding,Cookie",
+    "x-content-type-options": "nosniff",
+    "x-envoy-upstream-service-time": "67",
+    "x-frame-options": "DENY"
+  },
+  "saved_bytes": 361798,
+  "saved_path": "audits/methods_ld/sources/gbmi_slalom_paper.body",
+  "saved_sha256": "3b63fd2302ac2b34bd648e936232c6546cd3fac4daf9ba62f5158f4d22227d97",
+  "source_id": "gbmi_slalom_paper",
+  "started_utc": "2026-10-06T20:34:16.342553+00:00",
+  "status": "HTTP_SUCCESS",
+  "truncated": false,
+  "wall_seconds": 0.12721136899199337
+}

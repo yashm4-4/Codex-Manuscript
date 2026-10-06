@@ -1,0 +1,16 @@
+{
+  "cloud_egress_request_cost": "UNKNOWN; public access is not proof of zero compute/egress cost",
+  "dense_float64_matrix_bytes_formula": "8*p*p",
+  "expected_locus_count": null,
+  "future_job_constraints": "CPU-only locus-bounded jobs, memory-limited concurrency; no whole 43.3TB matrix download or silent locus truncation",
+  "gpu_required": false,
+  "illustrative_dense_matrix_bytes": {
+    "10000": 800000000,
+    "20000": 3200000000,
+    "5000": 200000000,
+    "50000": 20000000000
+  },
+  "planning_workspace_matrix_copies": "3-6 provisional engineering headroom, not measured guarantee",
+  "runtime_measured": false,
+  "total_cpu_hours_or_wall_time": "NOT_ESTIMATED_WITHOUT_AUTHORIZED_LOCI_AND_RESOURCE_BENCHMARK"
+}

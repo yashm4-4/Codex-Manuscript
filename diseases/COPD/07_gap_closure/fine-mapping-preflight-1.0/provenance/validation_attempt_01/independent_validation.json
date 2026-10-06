@@ -1,0 +1,101 @@
+{
+  "bound_artifacts": [
+    {
+      "bytes": 21819,
+      "path": "FINE_MAPPING_PREFLIGHT_REPORT.md",
+      "sha256": "5839eb495586ffb24bf3e17dcaedb96d7ace93a8dc8d7684cfd4a89baf618133"
+    },
+    {
+      "bytes": 2378,
+      "path": "provenance/recommendations.json",
+      "sha256": "c7bb978c7d099f94234b6c692ee2c3ba045d736a587e9b8de594cc1e4029f92f"
+    },
+    {
+      "bytes": 739,
+      "path": "provenance/assembly_manifest.json",
+      "sha256": "a067c0369e7c071b71474e3957bcb2e91e6ca998fe6fc459e1cc807c41b5a2df"
+    },
+    {
+      "bytes": 169923,
+      "path": "tables/study_final_eligibility_matrix.tsv",
+      "sha256": "cffef52ffeb655643303e7126a4262b83fd43d185dc20581add7a1dd3ccae8b6"
+    },
+    {
+      "bytes": 15543,
+      "path": "tables/accessible_signed_direct_COPD_sources.tsv",
+      "sha256": "49062c7277d7c3909b21b01f95b44e6b71958b7f7e2969423fca7a71ee94de9b"
+    },
+    {
+      "bytes": 62652,
+      "path": "tables/signed_effect_risk_direction_feasibility.tsv",
+      "sha256": "000d4934d78241b1c0901703375395cfca02e5bd3f666b2482247959fe8d9481"
+    },
+    {
+      "bytes": 69301,
+      "path": "tables/study_specific_limitations.tsv",
+      "sha256": "361df6bcac5b4a8c26152309811b11620b5761bc3c4fa15edbe5a144ab0093ef"
+    },
+    {
+      "bytes": 58944,
+      "path": "tables/ancestry_cohort_sample_size.tsv",
+      "sha256": "26fbeaccf8de93b0bd04f94e602d4934111e5704b15925380f88c960f0b24f07"
+    },
+    {
+      "bytes": 38626,
+      "path": "tables/study_LD_requirements.tsv",
+      "sha256": "99200a4b79813048bd84feb8e966dabdcc97181d5fd5e57dcbdc130e0d767d68"
+    },
+    {
+      "bytes": 431816,
+      "path": "provenance/source_access_ledger.tsv",
+      "sha256": "ed2481526ceb6033e298bc36b75c80fbc390a044039242e1d3b2c302c99bfa4e"
+    },
+    {
+      "bytes": 1487,
+      "path": "provenance/shared_register_updates.json",
+      "sha256": "14aa2a56cd59dab6e3045587fbbc225c62531d0e7f59af069f55c027e39a7901"
+    }
+  ],
+  "candidate_and_model_contents_not_read_by_validator": true,
+  "catalog_headers": 138,
+  "checks": 4805,
+  "completed_utc": "2026-10-06T20:57:23.058381+00:00",
+  "core_accessions": 104,
+  "direct_accessions": 27,
+  "failed_checks": 4,
+  "failures": [
+    {
+      "check": "integrated_limitations_not_stale:GCST90016588",
+      "detail": "",
+      "passed": false
+    },
+    {
+      "check": "integrated_limitations_not_stale:GCST90016589",
+      "detail": "",
+      "passed": false
+    },
+    {
+      "check": "integrated_limitations_not_stale:GCST90016593",
+      "detail": "",
+      "passed": false
+    },
+    {
+      "check": "integrated_limitations_not_stale:GCST90016594",
+      "detail": "",
+      "passed": false
+    }
+  ],
+  "fine_mapping_not_executed_by_validator": true,
+  "future_freeze_not_self_referenced": true,
+  "historical_change_check_scope": "Git tracked content comparison to baseline and opaque frozen-input hashes; historical data not parsed. Append-only register prefixes checked.",
+  "prohibition_audit_limit": "File/receipt/static-contract and Git-state checks corroborate declared scope; this is not a system-wide process-forensics audit.",
+  "saved_source_bytes": 64623735,
+  "source_receipts": 802,
+  "stage": "fine-mapping-preflight-1.0",
+  "started_utc": "2026-10-06T20:57:21.531837+00:00",
+  "status": "FAIL",
+  "substantive_review": "Independent reviewer read the report and risk contract against source audits before validation: no execution-ready claim, unsigned dbGaP exports rejected, Kim joint-test locus counts not substituted, BBJ allele/sex schema separated, Pan-UKB remains secondary, eligible loci unknown, candidate/model/benchmark selection firewall explicit.",
+  "validator": "Independent metadata/schema/provenance audit",
+  "verified_signed_direct_sources": 7,
+  "whole_file_and_LD_scientific_QC_not_performed": true
+}

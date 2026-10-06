@@ -1,0 +1,36 @@
+{
+  "LD_matrix_values_requested": false,
+  "completed_utc": "2026-10-06T20:38:12.457184+00:00",
+  "final_url": "http://www.christianbenner.com/",
+  "http_status": 200,
+  "interpretation": "Exact returned bytes only; HTTP success does not establish semantic usability, schema correctness, locus coverage or fine-mapping eligibility.",
+  "maximum_response_bytes": 4000000,
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0 (public metadata audit)"
+  },
+  "request_method": "GET",
+  "requested_url": "http://www.christianbenner.com/",
+  "response_headers": {
+    "Accept-Ranges": "bytes",
+    "Connection": "close",
+    "Content-Length": "89521",
+    "Content-Type": "text/html",
+    "Date": "Tue, 06 Oct 2026 20:38:12 GMT",
+    "ETag": "\"52601d3-15db1-5fa5619576160\"",
+    "Last-Modified": "Thu, 27 Apr 2023 19:09:42 GMT",
+    "Server": "Apache",
+    "Vary": "Accept-Encoding",
+    "Via": "1.1 dtn24 (squid/4.15)",
+    "X-Cache": "MISS from dtn24",
+    "X-Cache-Lookup": "MISS from dtn24:3128"
+  },
+  "saved_bytes": 89521,
+  "saved_path": "audits/methods_ld/sources/finemap_official_http.body",
+  "saved_sha256": "53e62b0e4722edfefa6ed9e72908e1533a14a204bd12706a6f6d42fefc57eb2c",
+  "source_id": "finemap_official_http",
+  "started_utc": "2026-10-06T20:38:11.965463+00:00",
+  "status": "HTTP_SUCCESS",
+  "truncated": false,
+  "wall_seconds": 0.49172610393725336
+}

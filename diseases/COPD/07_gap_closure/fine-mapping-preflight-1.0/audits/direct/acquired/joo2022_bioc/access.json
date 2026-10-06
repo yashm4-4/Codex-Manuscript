@@ -1,0 +1,39 @@
+{
+  "acquired_bytes": 6148,
+  "acquired_sha256": "3acc5f4c51ec704cd708d3379196db9f66442a96c9bf275773710e0de0196b52",
+  "body_path": "audits/direct/acquired/joo2022_bioc/response.bin",
+  "complete_remote_object_hash": false,
+  "completed_utc": "2026-10-06T20:34:35.182027+00:00",
+  "effective_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC8861659/unicode",
+  "http_status": 200,
+  "purpose": "Public metadata/header/schema access audit; no statistical analysis",
+  "read_limit_bytes": 2097152,
+  "read_truncated": false,
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0 (bounded public metadata access)"
+  },
+  "requested_utc": "2026-10-06T20:34:35.099821+00:00",
+  "response_headers": {
+    "Alt-Svc": "clear",
+    "Connection": "close",
+    "Content-Length": "6148",
+    "Content-Security-Policy": "upgrade-insecure-requests",
+    "Content-Type": "text/html",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Tue, 06 Oct 2026 20:34:35 GMT",
+    "Referrer-Policy": "origin-when-cross-origin",
+    "Server": "istio-envoy",
+    "Set-Cookie": "ncbi_sid=FB4D02E6AC55B363_0025SID; Domain=.nih.gov; expires=Wed, 06 Oct 2027 20:34:35 GMT; Max-Age=31536000; Path=/",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Vary": "Cookie,Accept-Encoding",
+    "Via": "1.1 google",
+    "X-Content-Type-Options": "nosniff",
+    "X-Envoy-Upstream-Service-Time": "40",
+    "X-Frame-Options": "DENY",
+    "X-Ua-Compatible": "IE=Edge",
+    "X-Xss-Protection": "1; mode=block"
+  },
+  "transport_error": null,
+  "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC8861659/unicode"
+}

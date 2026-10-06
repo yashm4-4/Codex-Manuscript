@@ -1,0 +1,28 @@
+{
+  "stage": "fine-mapping-preflight-1.0",
+  "generated_utc": "2026-10-06T20:53:34.524759+00:00",
+  "core_accessions": 104,
+  "phenotype_classes": {
+    "direct_copd_susceptibility": 27,
+    "progression_decline": 1,
+    "ehr_copd_susceptibility": 41,
+    "unresolved": 5,
+    "materially_different_smoking_interaction": 2,
+    "exacerbation_treatment": 2,
+    "nonstandard_gene_burden_cnv": 16,
+    "chronic_bronchitis": 6,
+    "ml_surrogate_liability": 1,
+    "within_copd_severity": 1,
+    "mixed_ehr_self_report_susceptibility": 2
+  },
+  "api_200": 104,
+  "directory_200": 69,
+  "directory_404": 35,
+  "accessions_with_inspected_headers": 68,
+  "file_headers": 138,
+  "accessions_with_selected_header_and_records": 68,
+  "direct_accessions_with_Catalog_signed_header": 4,
+  "candidate_selection_inputs": [],
+  "association_or_locus_analysis_performed": false,
+  "fine_mapping_run": false
+}

@@ -1,0 +1,95 @@
+{
+  "accession": "GCST011793",
+  "phenotype_class_frozen": "direct_copd_susceptibility",
+  "publication_pmid": "33235445",
+  "file_inventory": [],
+  "headers": [],
+  "metadata_files": [],
+  "catalog_api_access": {
+    "requested_url": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST011793",
+    "accessed_utc": "2026-10-06T20:34:44.517635+00:00",
+    "method": "GET",
+    "anonymous": true,
+    "read_limit_bytes": 262144,
+    "requested_range": null,
+    "status": 200,
+    "final_url": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST011793",
+    "response_headers": {
+      "content-type": "application/json"
+    },
+    "downloaded_bytes": 1072,
+    "saved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/audits/catalog/GCST011793/study.json",
+    "sha256": "942e8952aa7b5c7fb9cedddb9b1d02f2539157ccac696349e4121bdc9a8eed84",
+    "bounded_read": false,
+    "hash_scope": "saved response bytes only; range/prefix is not a whole-file checksum"
+  },
+  "current_catalog_metadata": {
+    "initial_sample_size": "38 Korean ancestry cases, 1,778 Korean ancestry controls",
+    "replication_sample_size": "NA",
+    "gxe": false,
+    "gxg": false,
+    "snp_count": 345072,
+    "imputed": false,
+    "pooled": false,
+    "accession_id": "GCST011793",
+    "full_summary_stats_available": false,
+    "user_requested": false,
+    "pubmed_id": 33235445,
+    "platforms": "Affymetrix [345072]",
+    "disease_trait": "Early chronic obstructive pulmonary disease in never smokers",
+    "genotyping_technologies": [
+      "Genome-wide genotyping array"
+    ],
+    "efo_traits": [
+      {
+        "efo_id": "MONDO_0005002",
+        "efo_trait": "chronic obstructive pulmonary disease"
+      }
+    ],
+    "discovery_ancestry": [
+      "1816 East Asian (Republic of Korea)"
+    ],
+    "replication_ancestry": [],
+    "full_summary_stats": "NA",
+    "terms_of_license": "https://www.ebi.ac.uk/about/terms-of-use/",
+    "bg_efo_traits": [
+      {
+        "efo_id": "EFO_0006527",
+        "efo_trait": "smoking status measurement"
+      }
+    ],
+    "array_manufacturer": [
+      "Affymetrix"
+    ],
+    "_links": {
+      "self": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST011793"
+      },
+      "ancestries": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST011793/ancestries{?sort,direction}",
+        "templated": true
+      }
+    }
+  },
+  "directory_location_basis": "standard accession directory probe, not proof of release",
+  "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST011001-GCST012000/GCST011793/",
+  "directory_access": {
+    "requested_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST011001-GCST012000/GCST011793/",
+    "accessed_utc": "2026-10-06T20:34:44.951695+00:00",
+    "method": "GET",
+    "anonymous": true,
+    "read_limit_bytes": 262144,
+    "requested_range": null,
+    "status": 404,
+    "final_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST011001-GCST012000/GCST011793/",
+    "response_headers": {
+      "content-length": "196",
+      "content-type": "text/html; charset=iso-8859-1"
+    },
+    "downloaded_bytes": 196,
+    "saved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/audits/catalog/GCST011793/directory.html",
+    "sha256": "80c3fe2ae1062abf56456f52518bd670f9ec3917b7f85e152b347ac6b6faf880",
+    "bounded_read": false,
+    "hash_scope": "saved response bytes only; range/prefix is not a whole-file checksum"
+  }
+}

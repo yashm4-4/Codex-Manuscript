@@ -1,0 +1,40 @@
+{
+  "accessed_utc": "2026-10-06T20:39:21.343553+00:00",
+  "command": [
+    "diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/scripts/alternatives_fetch.py",
+    "--url",
+    "https://humandbs.dbcls.jp/en/dataset/NHA000089",
+    "--label",
+    "bbj_nha000089",
+    "--max-bytes",
+    "1048576"
+  ],
+  "http_status": 200,
+  "maximum_bytes_requested_or_retained": 1048576,
+  "purpose": "public source metadata or bounded schema sample; no fine-mapping",
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0"
+  },
+  "requested_url": "https://humandbs.dbcls.jp/en/dataset/NHA000089",
+  "response_EOF_before_byte_limit": true,
+  "response_headers": {
+    "Connection": "close",
+    "Content-Security-Policy": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self'; frame-src https://docs.google.com; frame-ancestors 'none'; base-uri 'self'; object-src 'none'",
+    "Content-Type": "text/html; charset=utf-8",
+    "Date": "Tue, 06 Oct 2026 20:39:22 GMT",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Server": "nginx",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY"
+  },
+  "response_url": "https://humandbs.dbcls.jp/en/dataset/NHA000089",
+  "retained_prefix_only": false,
+  "stored_body_reaches_declared_response_length": false,
+  "stored_bytes": 63659,
+  "stored_path": "audits/alternatives/downloads/bbj_nha000089.bin",
+  "stored_sha256": "0c6b703ef275d8250c2324b9e045eede7c34467bde42b23d5b93c81cd709852f"
+}

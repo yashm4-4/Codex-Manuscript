@@ -1,0 +1,34 @@
+{
+  "acquired_bytes": 1032,
+  "acquired_sha256": "d6119c96451a5ed91754d1c4f3af46b10c6da80686781634c7680a3b0692b23d",
+  "body_path": "audits/direct/acquired/copdgene_dbgap_public_v5/response.bin",
+  "complete_remote_object_hash": false,
+  "completed_utc": "2026-10-06T20:35:31.734433+00:00",
+  "effective_url": "https://ftp.ncbi.nlm.nih.gov/dbgap/studies/phs000179/phs000179.v5.p2/",
+  "http_status": 200,
+  "purpose": "Public metadata/header/schema access audit; no statistical analysis",
+  "read_limit_bytes": 1048576,
+  "read_truncated": false,
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0 (bounded public metadata access)"
+  },
+  "requested_utc": "2026-10-06T20:35:31.666250+00:00",
+  "response_headers": {
+    "Access-Control-Allow-Headers": "RANGE, Cache-control, If-None-Match, Content-Type",
+    "Access-Control-Allow-Methods": "GET,POST,PUT,OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Expose-Headers": "Content-Length, Content-Range, Content-Type",
+    "Cache-Control": "public, max-age=86400",
+    "Connection": "close",
+    "Content-Type": "text/html;charset=UTF-8",
+    "Date": "Tue, 06 Oct 2026 20:35:31 GMT",
+    "Expires": "Tue, 13 Oct 2026 20:35:31 GMT",
+    "Server": "Apache",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding"
+  },
+  "transport_error": null,
+  "url": "https://ftp.ncbi.nlm.nih.gov/dbgap/studies/phs000179/phs000179.v5.p2/"
+}

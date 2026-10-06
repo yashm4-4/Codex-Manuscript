@@ -1,0 +1,30 @@
+# Study meta-data
+gwas_id: GCST90244098
+gwas_catalog_api: https://www.ebi.ac.uk/gwas/rest/api/studies/GCST90244098
+date_metadata_last_modified: 2025-01-05
+
+# Trait Information
+trait_description:
+  - Chronic obstructive pulmonary disease liability (machine learning-based score)
+ontology_mapping:
+  - EFO_0000341
+
+# Genotyping Information
+genome_assembly: GRCh37
+genotyping_technology:
+  - Genome-wide genotyping array
+
+# Sample Information
+samples:
+  - sample_ancestry_category:
+      - European
+    sample_size: 325027
+
+# Summary Statistic information
+data_file_name: GCST90244098_buildGRCh37.tsv
+file_type: pre-GWAS-SSF
+data_file_md5sum: ffb04cda1cb79d537dfa34a5a377463d
+
+# Harmonization status
+is_harmonised: false
+is_sorted: false

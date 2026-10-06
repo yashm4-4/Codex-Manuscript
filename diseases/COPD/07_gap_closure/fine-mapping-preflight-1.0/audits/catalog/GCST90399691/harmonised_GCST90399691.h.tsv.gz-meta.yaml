@@ -1,0 +1,31 @@
+author_notes: "Additional headers:\nColumn name Description\ninv_var_het_p heterogeneity\
+  \ (Cochran\u2019s Q test) p value\ndirection direction of effect sizes in all data\
+  \ sets in the meta-analysis\nN_case number of cases\nN_ctrl number of controls\n\
+  n_bbk number of biobanks in the meta-analysis (minimum is 2)\nis_strand_flip flag\
+  \ to indicate whether this variant had a strand flip in any data set\nis_diff_AF_gnomAD\
+  \ flag to indicate whether this variant failed the AF QC (compared to gnomAD) in\
+  \ any data set"
+coordinate_system: 1-based
+data_file_md5sum: 255dadc71bc3c22d39cb2ef7c6769a5c
+data_file_name: GCST90399691.h.tsv.gz
+date_metadata_last_modified: 2025-02-07
+file_type: GWAS-SSF v1.0
+genome_assembly: GRCh38
+genotyping_technology:
+- Genome-wide genotyping array
+gwas_catalog_api: https://www.ebi.ac.uk/gwas/rest/api/studies/GCST90399691
+gwas_id: GCST90399691
+harmonisation_reference: ftp://ftp.ensembl.org/pub/release-95/fasta/homo_sapiens/dna/
+is_harmonised: true
+is_sorted: true
+ontology_mapping:
+- EFO_0000341
+samples:
+- sample_ancestry:
+  - African
+  sample_ancestry_category:
+  - African unspecified
+  sample_size: 29682
+sex: combined
+trait_description:
+- Chronic obstructive pulmonary disease

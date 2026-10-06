@@ -1,0 +1,61 @@
+{
+  "stage": "fine-mapping-preflight-1.0",
+  "created_utc": "2026-10-06T20:33:27.194726+00:00",
+  "baseline_commit": "1f41df67dcf18d626a3862a38877919d2d3114a4",
+  "frozen_inputs": [
+    {
+      "path": "diseases/COPD/02_gwas/results/COPD-S2-R001_studies_core.tsv",
+      "bytes": 68270,
+      "sha256": "de93232217fa7f833617a148974fe6ea5efbf87f0a918118b827cec4fbe1b495"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PHENO-R001_accession_adjudication.tsv",
+      "bytes": 286228,
+      "sha256": "52fba43fcbc07c98f135b2932fb887ac7c07cd59fcd99c921dc42892014555d6"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PHENO-R002_cohort_overlap_provenance.tsv",
+      "bytes": 125444,
+      "sha256": "e6e7208d7fc1a81e06b3ff9173aafa354c903d23d9b808efc44418bf6e4071b7"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PHENO-R002B_cohort_overlap_pairs.tsv",
+      "bytes": 316377,
+      "sha256": "e53e88d24afcfca43bdc3dfa3df345f1c6d76211980c77d1b3023575ae9e9145"
+    },
+    {
+      "path": "diseases/COPD/02_gwas/data/copd_ancestries.tsv",
+      "bytes": 124933,
+      "sha256": "b39980023f90421d1e2e7189e5512cdf59e3cbfd716555d4e8ae5636c3b95bf0"
+    }
+  ],
+  "baseline_registers": [
+    {
+      "path": "diseases/COPD/07_gap_closure/activity_log.tsv",
+      "bytes": 24814,
+      "sha256": "ca38919a901da5a0e270d6cd4c86d441d9bb5df58c670a9cf61ed7482480a078"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/gap_closure_decision_register.tsv",
+      "bytes": 21779,
+      "sha256": "b24cead3f232e12ec756cdd40c28888e792650f644c8b4da42325f36dc30a097"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/gap_closure_result_register.tsv",
+      "bytes": 33052,
+      "sha256": "32abff375c4729810cc079ec898ab3e7339d6a089f8d7332d7a28b5d56581b83"
+    }
+  ],
+  "core_accessions": 104,
+  "candidate_support_columns_excluded": [
+    "association_coverage_caveat",
+    "v1_candidate_records_supported",
+    "v1_frozen_337_supported",
+    "v1_gws_association_rows",
+    "v1_gws_tags"
+  ],
+  "candidate_membership_used": false,
+  "python": "3.9.15",
+  "platform": "Linux-4.18.0-425.19.3b.el8.x86_64-x86_64-with-glibc2.28",
+  "scope_sha256": "ae398c3179dce452d58e81659de8457ce7226055f3776e552daffba71b356f96"
+}

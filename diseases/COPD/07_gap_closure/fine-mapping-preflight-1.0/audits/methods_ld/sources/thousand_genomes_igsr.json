@@ -1,0 +1,38 @@
+{
+  "LD_matrix_values_requested": false,
+  "completed_utc": "2026-10-06T20:34:17.019392+00:00",
+  "final_url": "https://www.internationalgenome.org/category/phase-3/",
+  "http_status": 200,
+  "interpretation": "Exact returned bytes only; HTTP success does not establish semantic usability, schema correctness, locus coverage or fine-mapping eligibility.",
+  "maximum_response_bytes": 4000000,
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0 (public metadata audit)"
+  },
+  "request_method": "GET",
+  "requested_url": "https://www.internationalgenome.org/category/phase-3/",
+  "response_headers": {
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Connection": "close",
+    "Content-Length": "17017",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "accept-ranges": "bytes",
+    "cache-control": "no-cache,no-cache",
+    "content-type": "text/html",
+    "date": "Tue, 06 Oct 2026 20:34:16 GMT",
+    "etag": "\"6abd04c6-4279\"",
+    "expires": "Tue, 06 Oct 2026 20:34:15 GMT",
+    "last-modified": "Wed, 30 Sep 2026 12:47:02 GMT",
+    "server": "Google Frontend",
+    "via": "1.1 google",
+    "x-cloud-trace-context": "951039b11e508d1908c3272cfc8ae5a6;o=1"
+  },
+  "saved_bytes": 17017,
+  "saved_path": "audits/methods_ld/sources/thousand_genomes_igsr.body",
+  "saved_sha256": "510e203660f0fcfcfa4aab10428f5606889cd6abe4b845499fa3a999b1ce5550",
+  "source_id": "thousand_genomes_igsr",
+  "started_utc": "2026-10-06T20:34:16.804592+00:00",
+  "status": "HTTP_SUCCESS",
+  "truncated": false,
+  "wall_seconds": 0.2148005700437352
+}

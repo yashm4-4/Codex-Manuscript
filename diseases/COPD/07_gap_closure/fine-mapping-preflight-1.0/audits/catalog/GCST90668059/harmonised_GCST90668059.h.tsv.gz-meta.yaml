@@ -1,0 +1,27 @@
+adjusted_covariates:
+- age, sex, genotype array, and top 20 principal components
+analysis_software: PLINK
+author_notes: 2+ condition
+coordinate_system: 1-based
+data_file_md5sum: 4502991018d0b20be99bfe0e06bc38e1
+data_file_name: GCST90668059.h.tsv.gz
+date_metadata_last_modified: 2025-09-21
+file_type: GWAS-SSF v1.0
+genome_assembly: GRCh38
+genotyping_technology:
+- Genome-wide genotyping array
+gwas_catalog_api: https://www.ebi.ac.uk/gwas/rest/api/studies/GCST90668059
+gwas_id: GCST90668059
+harmonisation_reference: ftp://ftp.ensembl.org/pub/release-95/fasta/homo_sapiens/dna/
+is_harmonised: true
+is_sorted: true
+ontology_mapping:
+- EFO_0000341
+samples:
+- case_control_study: true
+  sample_ancestry_category:
+  - European
+  - NR
+  sample_size: 405811
+trait_description:
+- 'COPD (2+ condition: 255573)'

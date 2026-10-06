@@ -1,0 +1,2569 @@
+{
+  "access_ledger_path": "audits/direct/source_access_ledger.json",
+  "analysis_prohibition_respected": "No fine mapping, association recomputation, LD computation, candidate/locus selection, model scoring, colocalization, or retraining performed. Small public-export row/schema checks are release-scope audit only.",
+  "audit": "direct_COPD_access_and_schema",
+  "dbgap_schema_audit_path": "audits/direct/dbgap_public_export_schema_audit.json",
+  "frozen_metadata_path": "inputs/frozen_study_metadata.tsv",
+  "frozen_metadata_sha256": "c4ffa8b71336cea9637ae8a461ead13a66fbfb8ec5ea3b6fd03f8b486d71c25d",
+  "generated_utc": "2026-10-06T20:44:28.364580+00:00",
+  "global_recommendation": "Prefer direct phenotype. Kim smoking-stratum files are technically retrievable with signed OR but not execution-cleared until matchedLD and full-file QC. Ishigaki BBJ direct phenotype needs source-specific alternatives/LD audit integration. Sakornsakolpat and Hobbs public exports are unsuitable; request complete signed source files. No prospective eligible-locus count can be claimed from this audit.",
+  "selection_firewall": "Selected all27direct-COPD accessions solely by frozen phenotype class from104-study candidate-blind metadata projection. No candidate membership, model outputs, benchmark outcomes or candidate-support counts used.",
+  "stage": "fine-mapping-preflight-1.0",
+  "studies": [
+    {
+      "LD_requirement": "Study/ancestry-compatible signed LD with independently verified allele coding, variant coverage and sample provenance; none established by this direct-source artifact.",
+      "access_or_execution_blockers": [
+        "Full signed locus-complete statistics not verified",
+        "Matched signed LD and future locus-level QC not established"
+      ],
+      "ancestry_meta_analysis_status": "See source-specific override or frozen cohort description; aggregate Catalog labels alone do not verify pooled-analysis ancestry.",
+      "catalog_api_and_ftp_evidence": {
+        "audit_path": "audits/catalog/GCST000359/audit.json",
+        "audit_sha256": "ae46bc8010b969802bc98242b14ab3b4071da6d97a91c4f1d81be9376e08f6bd",
+        "catalog_flag_not_usability_proof": false,
+        "directory_http_status": 404,
+        "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST000001-GCST001000/GCST000359/"
+      },
+      "cohorts": "EOCOPD;GenKOLS;ICGN;NAS;NETT",
+      "current_catalog_discovery_ancestry": [
+        "1633 European (Norway)"
+      ],
+      "current_catalog_initial_N_description": "823 cases, 810 controls",
+      "current_catalog_replication_N_description": "1,891 European ancestry individuals from 606 families, 389 European ancestry cases, 472 European ancestry controls, 949 individuals from 127 families",
+      "current_catalog_replication_ancestry": [
+        "949 NR (NR)",
+        "2752 European (Norway, U.S.)"
+      ],
+      "doi": "10.1371/journal.pgen.1000421",
+      "expected_eligible_locus_count": null,
+      "frozen_initial_N_description": "823 cases, 810 controls",
+      "genome_build": "Not verified from an actual summary-file header",
+      "immediately_executable": false,
+      "locus_completeness_status": "Not established; Catalog association hits must not be used to reconstruct locus statistics.",
+      "new_primary_evidence": [],
+      "overlap_considerations": "GenKOLS, NETT/NAS and ICGN reused in subsequent Cho/Hobbs/Sakornsakolpat studies; cohort labels do not imply independent replication.",
+      "phenotype_class": "direct_copd_susceptibility",
+      "phenotype_definition": {
+        "ascertainment": "Study spirometry; cohort-specific recruitment.",
+        "case": "Bergen: post-BD FEV1<80% predicted and FEV1/FVC<0.7; replication includes severe NETT and family COPD.",
+        "control": "Bergen: post-BD FEV1>80% predicted and FEV1/FVC>0.7; normal-smoking controls.",
+        "sex_design": "Both sexes; NAS control component is male where present.",
+        "smoking_design": "Bergen cases/controls >=2.5 pack-years; all discovery/replication current/former smokers. Main associations adjust exposure; secondary interactions were separately tested.",
+        "spirometry": "Required; case and control definitions below."
+      },
+      "public_access_status": "No actual complete signed file verified in direct-source audit; consult current Catalog audit and source-specific alternative audit.",
+      "publication": "A genome-wide association study in chronic obstructive pulmonary disease (COPD): identification of two major susceptibility loci.",
+      "published_locus_count": null,
+      "pubmed_id": "19300482",
+      "review_scope": "Frozen phenotype adjudication plus current accession API/FTP checks; no additional full-text source-specific review claimed for this row.",
+      "risk_direction_status": "Not executable without signed file and verified effect-allele semantics.",
+      "signed_effect_fields": {
+        "P": "unverified",
+        "SE": "unverified",
+        "effect": "unverified",
+        "effect_allele": "unverified",
+        "frequency": "unverified",
+        "other_allele": "unverified",
+        "per_variant_N": "unverified",
+        "variant_id": "unverified",
+        "variant_quality": "unverified"
+      },
+      "source_references_frozen": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2650282/",
+        "https://www.ebi.ac.uk/gwas/studies/GCST000359"
+      ],
+      "study_accession": "GCST000359",
+      "unrestricted_download_verified": false,
+      "whole_file_validated": false
+    },
+    {
+      "LD_requirement": "Study/ancestry-compatible signed LD with independently verified allele coding, variant coverage and sample provenance; none established by this direct-source artifact.",
+      "access_or_execution_blockers": [
+        "Request original complete signed discovery file and exact release schema",
+        "Resolve hg18 build and harmonization without reusing lead tables",
+        "Obtain compatible signed LD and account for shared cohorts with later COPD meta-analyses"
+      ],
+      "ancestry_meta_analysis_status": "European-ancestry discovery cohorts; selected-locus family/case-control replication is not independent dense genome-wide release.",
+      "catalog_api_and_ftp_evidence": {
+        "audit_path": "audits/catalog/GCST000603/audit.json",
+        "audit_sha256": "577ca6079f021bf386ea5a344a9dc748418d724b5a6ef77429cfba9880b914b6",
+        "catalog_flag_not_usability_proof": false,
+        "directory_http_status": 404,
+        "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST000001-GCST001000/GCST000603/"
+      },
+      "cohorts": "COPDGene;ECLIPSE;EOCOPD;GenKOLS;ICGN;NAS;NETT",
+      "current_catalog_discovery_ancestry": [
+        "4320 European (Norway)"
+      ],
+      "current_catalog_initial_N_description": "2,940 European ancestry cases, 1,380 European ancestry controls",
+      "current_catalog_replication_N_description": "502 European ancestry cases, 504 European ancestry controls, 1,110 cases, 2,698 controls",
+      "current_catalog_replication_ancestry": [
+        "3808 NR (NR)",
+        "1006 European (NR)"
+      ],
+      "doi": "10.1038/ng.535",
+      "expected_eligible_locus_count": null,
+      "frozen_initial_N_description": "2,940 European ancestry cases, 1,380 European ancestry controls",
+      "genome_build": "Article coordinates explicitly hg18/NCBI36; no actual full-summary file header obtained.",
+      "immediately_executable": false,
+      "locus_completeness_status": "Not established; Catalog association hits must not be used to reconstruct locus statistics.",
+      "new_primary_evidence": [
+        {
+          "access_record": "audits/direct/acquired/cho2010_bioc/access.json",
+          "acquired_sha256": "4e8163170f4b8d5bd3af2a5046a9c26d5f24cb150deeb255d9a694c365d8b68c",
+          "body_path": "audits/direct/acquired/cho2010_bioc/response.bin",
+          "http_status": 200,
+          "label": "cho2010_bioc",
+          "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2828499/unicode"
+        }
+      ],
+      "overlap_considerations": "Discovery reuses Bergen and NETT/NAS from GCST000359; COPDGene replication becomes discovery in GCST001321.",
+      "phenotype_class": "direct_copd_susceptibility",
+      "phenotype_definition": {
+        "ascertainment": "Study spirometry; cohort-specific recruitment.",
+        "case": "GOLD moderate-to-very-severe COPD in GenKOLS, NETT and ECLIPSE; spirometric GOLD 2-4.",
+        "control": "Current/former smokers with normal lung function.",
+        "sex_design": "Both sexes; NAS control component is male where present.",
+        "smoking_design": "Current/former smokers; smoking covariate adjustment; accession is a susceptibility effect, not an interaction coefficient.",
+        "spirometry": "Required; case and control definitions below."
+      },
+      "public_access_status": "No actual complete signed file verified in direct-source audit; consult current Catalog audit and source-specific alternative audit.",
+      "publication": "Variants in FAM13A are associated with chronic obstructive pulmonary disease.",
+      "published_locus_count": {
+        "headline": "Cho2010 identifies FAM13A additional susceptibility locus; Cho2011 increases then-known COPD GWAS loci to4. These are publication-history claims, not executable-locus counts."
+      },
+      "pubmed_id": "20173748",
+      "review_scope": "Primary article reviewed in addition to frozen phenotype/current Catalog audits; no complete signed public file verified.",
+      "risk_direction_status": "Not executable without signed file and verified effect-allele semantics.",
+      "signed_effect_fields": {
+        "P": "unverified",
+        "SE": "unverified",
+        "effect": "unverified",
+        "effect_allele": "unverified",
+        "frequency": "unverified",
+        "other_allele": "unverified",
+        "per_variant_N": "unverified",
+        "variant_id": "unverified",
+        "variant_quality": "unverified"
+      },
+      "source_references_frozen": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2828499/",
+        "https://www.ebi.ac.uk/gwas/studies/GCST000603"
+      ],
+      "study_accession": "GCST000603",
+      "unrestricted_download_verified": false,
+      "whole_file_validated": false
+    },
+    {
+      "LD_requirement": "Study/ancestry-compatible signed LD with independently verified allele coding, variant coverage and sample provenance; none established by this direct-source artifact.",
+      "access_or_execution_blockers": [
+        "Request original complete signed discovery file and exact release schema",
+        "Resolve hg18 build and harmonization without reusing lead tables",
+        "Obtain compatible signed LD and account for shared cohorts with later COPD meta-analyses"
+      ],
+      "ancestry_meta_analysis_status": "European-ancestry discovery cohorts; selected-locus family/case-control replication is not independent dense genome-wide release.",
+      "catalog_api_and_ftp_evidence": {
+        "audit_path": "audits/catalog/GCST001321/audit.json",
+        "audit_sha256": "102ff017fd30f755630745763b306056b66867b888e9204c11b17c94ac8941b9",
+        "catalog_flag_not_usability_proof": false,
+        "directory_http_status": 404,
+        "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST001001-GCST002000/GCST001321/"
+      },
+      "cohorts": "COPDGene;ECLIPSE;GenKOLS;ICGN;NAS;NETT",
+      "current_catalog_discovery_ancestry": [
+        "5421 European (Norway)"
+      ],
+      "current_catalog_initial_N_description": "3,499 European ancestry cases, 1,922 European ancestry controls",
+      "current_catalog_replication_N_description": "983 cases, 1,876 sibling controls",
+      "current_catalog_replication_ancestry": [
+        "2859 NR (NR)"
+      ],
+      "doi": "10.1093/hmg/ddr524",
+      "expected_eligible_locus_count": null,
+      "frozen_initial_N_description": "3,499 European ancestry cases, 1,922 European ancestry controls",
+      "genome_build": "Article coordinates explicitly hg18/NCBI36; no actual full-summary file header obtained.",
+      "immediately_executable": false,
+      "locus_completeness_status": "Not established; Catalog association hits must not be used to reconstruct locus statistics.",
+      "new_primary_evidence": [
+        {
+          "access_record": "audits/direct/acquired/cho2011_pmc/access.json",
+          "acquired_sha256": "2b92a975f68ca0b6ced2fb63bd4647c2030bc4a884085b04cf943bcb79e67854",
+          "body_path": "audits/direct/acquired/cho2011_pmc/response.bin",
+          "http_status": 200,
+          "label": "cho2011_pmc",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3298111/"
+        }
+      ],
+      "overlap_considerations": "Four discovery cohorts overlap earlier Cho/Pillai and later Cho/Hobbs studies; ICGN reused for family follow-up.",
+      "phenotype_class": "direct_copd_susceptibility",
+      "phenotype_definition": {
+        "ascertainment": "Study spirometry; cohort-specific recruitment.",
+        "case": "Moderate-to-severe spirometric COPD; inherited GenKOLS/ECLIPSE/NETT and COPDGene case definitions (GOLD 2-4).",
+        "control": "Smoking controls with normal spirometry.",
+        "sex_design": "Both sexes; NAS control component is male where present.",
+        "smoking_design": "Current/former smokers; smoking covariate adjustment; accession is a susceptibility effect, not an interaction coefficient.",
+        "spirometry": "Required; case and control definitions below."
+      },
+      "public_access_status": "No actual complete signed file verified in direct-source audit; consult current Catalog audit and source-specific alternative audit.",
+      "publication": "A genome-wide association study of COPD identifies a susceptibility locus on chromosome 19q13.",
+      "published_locus_count": {
+        "headline": "Cho2010 identifies FAM13A additional susceptibility locus; Cho2011 increases then-known COPD GWAS loci to4. These are publication-history claims, not executable-locus counts."
+      },
+      "pubmed_id": "22080838",
+      "review_scope": "Primary article reviewed in addition to frozen phenotype/current Catalog audits; no complete signed public file verified.",
+      "risk_direction_status": "Not executable without signed file and verified effect-allele semantics.",
+      "signed_effect_fields": {
+        "P": "unverified",
+        "SE": "unverified",
+        "effect": "unverified",
+        "effect_allele": "unverified",
+        "frequency": "unverified",
+        "other_allele": "unverified",
+        "per_variant_N": "unverified",
+        "variant_id": "unverified",
+        "variant_quality": "unverified"
+      },
+      "source_references_frozen": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3298111/",
+        "https://www.ebi.ac.uk/gwas/studies/GCST001321"
+      ],
+      "study_accession": "GCST001321",
+      "unrestricted_download_verified": false,
+      "whole_file_validated": false
+    },
+    {
+      "LD_requirement": "Study/ancestry-compatible signed LD with independently verified allele coding, variant coverage and sample provenance; none established by this direct-source artifact.",
+      "access_or_execution_blockers": [
+        "Request original complete signed discovery summary statistics, preferably ancestry-specific",
+        "Do not infer final whole-genome completeness from selected ICGN follow-up",
+        "Matched ancestry-specific signed LD required"
+      ],
+      "ancestry_meta_analysis_status": "European-ancestry and African-American COPDGene plus ECLIPSE/NETT-NAS/GenKOLS fixed-effects meta-analysis. ICGN follow-up only selected top loci.",
+      "catalog_api_and_ftp_evidence": {
+        "audit_path": "audits/catalog/GCST002350/audit.json",
+        "audit_sha256": "3a9e09edcbcab83f380709420c0144ab607af54c8202b8be36b8198a8f07224e",
+        "catalog_flag_not_usability_proof": false,
+        "directory_http_status": 404,
+        "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST002001-GCST003000/GCST002350/"
+      },
+      "cohorts": "COPDGene;ECLIPSE;GenKOLS;ICGN;NAS;NETT",
+      "current_catalog_discovery_ancestry": [
+        "7100 European (Norway, U.S.)",
+        "2570 African American or Afro-Caribbean (U.S.)"
+      ],
+      "current_catalog_initial_N_description": "3,145 European ancestry cases, 3,955 European ancestry controls, 352 African American cases, 1,749 African American controls",
+      "current_catalog_replication_N_description": "2,651 cases and their relatives",
+      "current_catalog_replication_ancestry": [
+        "2651 NR (NR)"
+      ],
+      "doi": "10.1016/S2213-2600(14)70002-5",
+      "expected_eligible_locus_count": null,
+      "frozen_initial_N_description": "3,145 European ancestry cases, 3,955 European ancestry controls, 352 African American cases, 1,749 African American controls",
+      "genome_build": "Not verified from an actual summary-file header",
+      "immediately_executable": false,
+      "locus_completeness_status": "Discovery genome-wide, but selected ICGN follow-up jointly meta-analyzed only at top loci; public paper/result tables not complete signed files.",
+      "new_primary_evidence": [
+        {
+          "access_record": "audits/direct/acquired/cho2014_bioc/access.json",
+          "acquired_sha256": "28589bd77c63bb10ba52cebe82365a640ee0600d2fb242c4b4564b46381a7de6",
+          "body_path": "audits/direct/acquired/cho2014_bioc/response.bin",
+          "http_status": 200,
+          "label": "cho2014_bioc",
+          "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4176924/unicode"
+        }
+      ],
+      "overlap_considerations": "Nested severe subset of GCST002351 with shared controls; overlapping older discovery cohorts. Not an independent replication.",
+      "phenotype_class": "direct_copd_susceptibility",
+      "phenotype_definition": {
+        "ascertainment": "Study spirometry; cohort-specific recruitment.",
+        "case": "Severe/very-severe COPD: post-BD FEV1/FVC<0.7 and FEV1<50% predicted (GOLD 3-4).",
+        "control": "Smokers with normal spirometry.",
+        "sex_design": "Both sexes; NAS control component is male where present.",
+        "smoking_design": "Current/former smokers; smoking covariate adjustment; accession is a susceptibility effect, not an interaction coefficient.",
+        "spirometry": "Required; case and control definitions below."
+      },
+      "primary_publication_N": {
+        "controls": 5704,
+        "moderate_to_severe_cases": 6633,
+        "severe_cases": 3497
+      },
+      "public_access_status": "No actual complete signed file verified in direct-source audit; consult current Catalog audit and source-specific alternative audit.",
+      "publication": "Risk loci for chronic obstructive pulmonary disease: a genome-wide association study and meta-analysis.",
+      "published_locus_count": {
+        "across_moderate_and_severe_analyses": 6,
+        "additional": 3,
+        "known": 3,
+        "note": "Paper headline across related analyses; do not equate with either accession locus eligibility."
+      },
+      "pubmed_id": "24621683",
+      "review_scope": "Primary Cho2014 full article reviewed; no unrestricted full signed file verified.",
+      "risk_direction_status": "Not executable without signed file and verified effect-allele semantics.",
+      "signed_effect_fields": {
+        "P": "unverified",
+        "SE": "unverified",
+        "effect": "unverified",
+        "effect_allele": "unverified",
+        "frequency": "unverified",
+        "other_allele": "unverified",
+        "per_variant_N": "unverified",
+        "variant_id": "unverified",
+        "variant_quality": "unverified"
+      },
+      "source_method_QC": "PLINK1.07 logistic per cohort/race adjusted age/pack-years/PCs; METAL fixed effects; imputation1000GphaseIv3 European or cosmopolitan; marker required pass in all genome-wide cohorts.",
+      "source_references_frozen": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4176924/",
+        "https://www.ebi.ac.uk/gwas/studies/GCST002350"
+      ],
+      "study_accession": "GCST002350",
+      "unrestricted_download_verified": false,
+      "whole_file_validated": false
+    },
+    {
+      "LD_requirement": "Study/ancestry-compatible signed LD with independently verified allele coding, variant coverage and sample provenance; none established by this direct-source artifact.",
+      "access_or_execution_blockers": [
+        "Request original complete signed discovery summary statistics, preferably ancestry-specific",
+        "Do not infer final whole-genome completeness from selected ICGN follow-up",
+        "Matched ancestry-specific signed LD required"
+      ],
+      "ancestry_meta_analysis_status": "European-ancestry and African-American COPDGene plus ECLIPSE/NETT-NAS/GenKOLS fixed-effects meta-analysis. ICGN follow-up only selected top loci.",
+      "catalog_api_and_ftp_evidence": {
+        "audit_path": "audits/catalog/GCST002351/audit.json",
+        "audit_sha256": "2cecf25b4ce2b0e1ab994daec4cbc52628155065d3a4076828ba764b65973492",
+        "catalog_flag_not_usability_proof": false,
+        "directory_http_status": 404,
+        "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST002001-GCST003000/GCST002351/"
+      },
+      "cohorts": "COPDGene;ECLIPSE;GenKOLS;ICGN;NAS;NETT",
+      "current_catalog_discovery_ancestry": [
+        "9767 European (Norway, U.S.)",
+        "2570 African American or Afro-Caribbean (U.S.)"
+      ],
+      "current_catalog_initial_N_description": "5,812 European ancestry cases, 3,955 European ancestry controls, 821 African American cases, 1,749 African American controls",
+      "current_catalog_replication_N_description": "2,651 cases and their relatives",
+      "current_catalog_replication_ancestry": [
+        "2651 NR (NR)"
+      ],
+      "doi": "10.1016/S2213-2600(14)70002-5",
+      "expected_eligible_locus_count": null,
+      "frozen_initial_N_description": "5,812 European ancestry cases, 3,955 European ancestry controls, 821 African American cases, 1,749 African American controls",
+      "genome_build": "Not verified from an actual summary-file header",
+      "immediately_executable": false,
+      "locus_completeness_status": "Discovery genome-wide, but selected ICGN follow-up jointly meta-analyzed only at top loci; public paper/result tables not complete signed files.",
+      "new_primary_evidence": [
+        {
+          "access_record": "audits/direct/acquired/cho2014_bioc/access.json",
+          "acquired_sha256": "28589bd77c63bb10ba52cebe82365a640ee0600d2fb242c4b4564b46381a7de6",
+          "body_path": "audits/direct/acquired/cho2014_bioc/response.bin",
+          "http_status": 200,
+          "label": "cho2014_bioc",
+          "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4176924/unicode"
+        }
+      ],
+      "overlap_considerations": "Contains severe cases used in GCST002350 and shares controls; reuses earlier study cohorts.",
+      "phenotype_class": "direct_copd_susceptibility",
+      "phenotype_definition": {
+        "ascertainment": "Study spirometry; cohort-specific recruitment.",
+        "case": "Post-BD FEV1/FVC<0.7 and FEV1<80% predicted (GOLD 2-4); severe alpha-1 antitrypsin deficiency excluded.",
+        "control": "Smokers with normal spirometry.",
+        "sex_design": "Both sexes; NAS control component is male where present.",
+        "smoking_design": "Current/former smokers; smoking covariate adjustment; accession is a susceptibility effect, not an interaction coefficient.",
+        "spirometry": "Required; case and control definitions below."
+      },
+      "primary_publication_N": {
+        "controls": 5704,
+        "moderate_to_severe_cases": 6633,
+        "severe_cases": 3497
+      },
+      "public_access_status": "No actual complete signed file verified in direct-source audit; consult current Catalog audit and source-specific alternative audit.",
+      "publication": "Risk loci for chronic obstructive pulmonary disease: a genome-wide association study and meta-analysis.",
+      "published_locus_count": {
+        "across_moderate_and_severe_analyses": 6,
+        "additional": 3,
+        "known": 3,
+        "note": "Paper headline across related analyses; do not equate with either accession locus eligibility."
+      },
+      "pubmed_id": "24621683",
+      "review_scope": "Primary Cho2014 full article reviewed; no unrestricted full signed file verified.",
+      "risk_direction_status": "Not executable without signed file and verified effect-allele semantics.",
+      "signed_effect_fields": {
+        "P": "unverified",
+        "SE": "unverified",
+        "effect": "unverified",
+        "effect_allele": "unverified",
+        "frequency": "unverified",
+        "other_allele": "unverified",
+        "per_variant_N": "unverified",
+        "variant_id": "unverified",
+        "variant_quality": "unverified"
+      },
+      "source_method_QC": "PLINK1.07 logistic per cohort/race adjusted age/pack-years/PCs; METAL fixed effects; imputation1000GphaseIv3 European or cosmopolitan; marker required pass in all genome-wide cohorts.",
+      "source_references_frozen": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4176924/",
+        "https://www.ebi.ac.uk/gwas/studies/GCST002351"
+      ],
+      "study_accession": "GCST002351",
+      "unrestricted_download_verified": false,
+      "whole_file_validated": false
+    },
+    {
+      "LD_requirement": "Study/ancestry-compatible signed LD with independently verified allele coding, variant coverage and sample provenance; none established by this direct-source artifact.",
+      "access_or_execution_blockers": [
+        "Full signed locus-complete statistics not verified",
+        "Matched signed LD and future locus-level QC not established"
+      ],
+      "ancestry_meta_analysis_status": "See source-specific override or frozen cohort description; aggregate Catalog labels alone do not verify pooled-analysis ancestry.",
+      "catalog_api_and_ftp_evidence": {
+        "audit_path": "audits/catalog/GCST002624/audit.json",
+        "audit_sha256": "ecf5dc6124098a48fa624e724d18e276ea928e372c3b7ba1aeb86c3ee4322076",
+        "catalog_flag_not_usability_proof": false,
+        "directory_http_status": 404,
+        "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST002001-GCST003000/GCST002624/"
+      },
+      "cohorts": "COPDGene;ECLIPSE;GenKOLS",
+      "current_catalog_discovery_ancestry": [
+        "7297 European (NR)"
+      ],
+      "current_catalog_initial_N_description": "3,777 European ancestry cases, 3,520 European ancestry smoker controls",
+      "current_catalog_replication_N_description": "NA",
+      "current_catalog_replication_ancestry": [],
+      "doi": "10.1186/s12931-014-0113-2",
+      "expected_eligible_locus_count": null,
+      "frozen_initial_N_description": "3,777 European ancestry cases, 3,520 European ancestry smoker controls",
+      "genome_build": "Not verified from an actual summary-file header",
+      "immediately_executable": false,
+      "locus_completeness_status": "Not established; Catalog association hits must not be used to reconstruct locus statistics.",
+      "new_primary_evidence": [],
+      "overlap_considerations": "Subsets of cohorts already used in susceptibility GWAS; not independent replication.",
+      "phenotype_class": "direct_copd_susceptibility",
+      "phenotype_definition": {
+        "ascertainment": "Study spirometry; cohort-specific recruitment.",
+        "case": "3,777 COPD subjects WITHOUT CB; post-BD FEV1/FVC<0.7 and FEV1<80% predicted.",
+        "control": "3,520 current/former smokers with post-BD FEV1/FVC>=0.7 and FEV1>=80% predicted.",
+        "sex_design": "Both sexes; not sex-specific.",
+        "smoking_design": "Current/former smokers; smoking covariate adjustment; accession is a susceptibility effect, not an interaction coefficient.",
+        "spirometry": "Required; case and control definitions below."
+      },
+      "public_access_status": "No actual complete signed file verified in direct-source audit; consult current Catalog audit and source-specific alternative audit.",
+      "publication": "Genetic susceptibility for chronic bronchitis in chronic obstructive pulmonary disease.",
+      "published_locus_count": null,
+      "pubmed_id": "25241909",
+      "review_scope": "Frozen phenotype adjudication plus current accession API/FTP checks; no additional full-text source-specific review claimed for this row.",
+      "risk_direction_status": "Not executable without signed file and verified effect-allele semantics.",
+      "signed_effect_fields": {
+        "P": "unverified",
+        "SE": "unverified",
+        "effect": "unverified",
+        "effect_allele": "unverified",
+        "frequency": "unverified",
+        "other_allele": "unverified",
+        "per_variant_N": "unverified",
+        "variant_id": "unverified",
+        "variant_quality": "unverified"
+      },
+      "source_references_frozen": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4190389/",
+        "https://www.ebi.ac.uk/gwas/studies/GCST002624"
+      ],
+      "study_accession": "GCST002624",
+      "unrestricted_download_verified": false,
+      "whole_file_validated": false
+    },
+    {
+      "LD_requirement": "Study/ancestry-compatible signed LD with independently verified allele coding, variant coverage and sample provenance; none established by this direct-source artifact.",
+      "access_or_execution_blockers": [
+        "Full signed locus-complete statistics not verified",
+        "Matched signed LD and future locus-level QC not established"
+      ],
+      "ancestry_meta_analysis_status": "See source-specific override or frozen cohort description; aggregate Catalog labels alone do not verify pooled-analysis ancestry.",
+      "catalog_api_and_ftp_evidence": {
+        "audit_path": "audits/catalog/GCST002750/audit.json",
+        "audit_sha256": "ce737024d546c425839df7fba370c5d1916447e50a3ab98450c1d382bca2e7a9",
+        "catalog_flag_not_usability_proof": false,
+        "directory_http_status": 404,
+        "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST002001-GCST003000/GCST002750/"
+      },
+      "cohorts": "COPDGene;CostaRicaCOPD;LovelaceSmokers;MESA",
+      "current_catalog_discovery_ancestry": [
+        "1188 Hispanic or Latin American (Costa Rica, U.S.)"
+      ],
+      "current_catalog_initial_N_description": "94 Costa Rican founder population smoker cases, 412 Costa Rican founder population smoker controls, 63 Hispanic ancestry cases, 619 Hispanic ancestry controls",
+      "current_catalog_replication_N_description": "47 Hispanic ancestry smoker cases, 290 Hispanic ancestry smoker controls",
+      "current_catalog_replication_ancestry": [
+        "337 Hispanic or Latin American (U.S.)"
+      ],
+      "doi": "10.1513/AnnalsATS.201408-380OC",
+      "expected_eligible_locus_count": null,
+      "frozen_initial_N_description": "94 Costa Rican founder population smoker cases, 412 Costa Rican founder population smoker controls, 63 Hispanic ancestry cases, 619 Hispanic ancestry controls",
+      "genome_build": "Not verified from an actual summary-file header",
+      "immediately_executable": false,
+      "locus_completeness_status": "Not established; Catalog association hits must not be used to reconstruct locus statistics.",
+      "new_primary_evidence": [],
+      "overlap_considerations": "MESA and COPDGene overlap later consortium provenance; Costa Rica and Lovelace are separate named cohorts.",
+      "phenotype_class": "direct_copd_susceptibility",
+      "phenotype_definition": {
+        "ascertainment": "Study spirometry; cohort-specific recruitment.",
+        "case": "Analysis: post-BD FEV1<80% predicted and FEV1/FVC<0.70. Costa Rica recruitment also required physician COPD and FEV1<=65% predicted.",
+        "control": "Post-BD FEV1>=80% predicted and FEV1/FVC>=0.70; Costa Rica controls lacked physician COPD.",
+        "sex_design": "Both sexes; not sex-specific.",
+        "smoking_design": "Smoking-restricted Costa Rica/Lovelace recruitment; MESA population cohort. Lovelace >=10 pack-years.",
+        "spirometry": "Required; case and control definitions below."
+      },
+      "public_access_status": "No actual complete signed file verified in direct-source audit; consult current Catalog audit and source-specific alternative audit.",
+      "publication": "A genome-wide association study of chronic obstructive pulmonary disease in Hispanics.",
+      "published_locus_count": null,
+      "pubmed_id": "25584925",
+      "review_scope": "Frozen phenotype adjudication plus current accession API/FTP checks; no additional full-text source-specific review claimed for this row.",
+      "risk_direction_status": "Not executable without signed file and verified effect-allele semantics.",
+      "signed_effect_fields": {
+        "P": "unverified",
+        "SE": "unverified",
+        "effect": "unverified",
+        "effect_allele": "unverified",
+        "frequency": "unverified",
+        "other_allele": "unverified",
+        "per_variant_N": "unverified",
+        "variant_id": "unverified",
+        "variant_quality": "unverified"
+      },
+      "source_references_frozen": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4418314/",
+        "https://www.ebi.ac.uk/gwas/studies/GCST002750"
+      ],
+      "study_accession": "GCST002750",
+      "unrestricted_download_verified": false,
+      "whole_file_validated": false
+    },
+    {
+      "LD_requirement": "Study/ancestry-compatible signed LD with independently verified allele coding, variant coverage and sample provenance; none established by this direct-source artifact.",
+      "access_or_execution_blockers": [
+        "Full signed locus-complete statistics not verified",
+        "Matched signed LD and future locus-level QC not established"
+      ],
+      "ancestry_meta_analysis_status": "See source-specific override or frozen cohort description; aggregate Catalog labels alone do not verify pooled-analysis ancestry.",
+      "catalog_api_and_ftp_evidence": {
+        "audit_path": "audits/catalog/GCST002795/audit.json",
+        "audit_sha256": "0a523eea7bd5f4681ae356b031168eda6b8bbcc18573ff4c0decff9b4b252dc0",
+        "catalog_flag_not_usability_proof": false,
+        "directory_http_status": 404,
+        "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST002001-GCST003000/GCST002795/"
+      },
+      "cohorts": "COPDGene;ECLIPSE",
+      "current_catalog_discovery_ancestry": [
+        "2243 African American or Afro-Caribbean (U.S.)",
+        "5993 European (NR)"
+      ],
+      "current_catalog_initial_N_description": "3,281 European ancestry cases, 494 African American cases, 2,712 European ancestry smoker controls, 1,749 African American smoker controls",
+      "current_catalog_replication_N_description": "NA",
+      "current_catalog_replication_ancestry": [],
+      "doi": "10.1165/rcmb.2014-0210OC",
+      "expected_eligible_locus_count": null,
+      "frozen_initial_N_description": "3,281 European ancestry cases, 494 African American cases, 2,712 European ancestry smoker controls, 1,749 African American smoker controls",
+      "genome_build": "Not verified from an actual summary-file header",
+      "immediately_executable": false,
+      "locus_completeness_status": "Not established; Catalog association hits must not be used to reconstruct locus statistics.",
+      "new_primary_evidence": [],
+      "overlap_considerations": "Subtype-selected subsets of earlier susceptibility cohorts; COPDGene EUR/AFR and ECLIPSE share participants with other studies.",
+      "phenotype_class": "direct_copd_susceptibility",
+      "phenotype_definition": {
+        "ascertainment": "Study spirometry; cohort-specific recruitment.",
+        "case": "3,775 COPD subjects WITHOUT PAE (PA:A<=1); post-BD FEV1/FVC<0.7 and FEV1<80% predicted.",
+        "control": "4,461 smokers with post-BD FEV1/FVC>=0.7 and FEV1>=80% predicted.",
+        "sex_design": "Both sexes; not sex-specific.",
+        "smoking_design": "Current/former smokers; smoking covariate adjustment; accession is a susceptibility effect, not an interaction coefficient.",
+        "spirometry": "Required; case and control definitions below."
+      },
+      "public_access_status": "No actual complete signed file verified in direct-source audit; consult current Catalog audit and source-specific alternative audit.",
+      "publication": "IREB2 and GALC are associated with pulmonary artery enlargement in chronic obstructive pulmonary disease.",
+      "published_locus_count": null,
+      "pubmed_id": "25101718",
+      "review_scope": "Frozen phenotype adjudication plus current accession API/FTP checks; no additional full-text source-specific review claimed for this row.",
+      "risk_direction_status": "Not executable without signed file and verified effect-allele semantics.",
+      "signed_effect_fields": {
+        "P": "unverified",
+        "SE": "unverified",
+        "effect": "unverified",
+        "effect_allele": "unverified",
+        "frequency": "unverified",
+        "other_allele": "unverified",
+        "per_variant_N": "unverified",
+        "variant_id": "unverified",
+        "variant_quality": "unverified"
+      },
+      "source_references_frozen": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4370263/",
+        "https://www.ebi.ac.uk/gwas/studies/GCST002795"
+      ],
+      "study_accession": "GCST002795",
+      "unrestricted_download_verified": false,
+      "whole_file_validated": false
+    },
+    {
+      "LD_requirement": "Paper used COPDGene non-Hispanic white reference; not proof of public LD or matching to mixed-ancestry Stage1. Prefer ancestry-specific signed statistics + corresponding LD.",
+      "access_or_execution_blockers": [
+        "Obtain original complete signed Stage1 file with ancestry/cohort scope, excluding inference of completeness from selected Stage2 results",
+        "Obtain ancestry-appropriate signed LD",
+        "Resolve build and effect allele without display-export assumptions"
+      ],
+      "ancestry_meta_analysis_status": "Stage1 fixed-effects meta-analysis of22 genome-wide +4 custom-content cohorts explicitly included non-European populations; European-only subgroup additionally reported. Not inferred from Catalog labels.",
+      "catalog_api_and_ftp_evidence": {
+        "audit_path": "audits/catalog/GCST004147/audit.json",
+        "audit_sha256": "ef3c94785bfd4285ef4918fbecdbd146ab1c8ee40db5fc4e9ffe8b78c2c05299",
+        "catalog_flag_not_usability_proof": false,
+        "directory_http_status": 404,
+        "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004147/"
+      },
+      "cohorts": "ARIC;B58;CHS;COPACETIC;COPDGene;ECLIPSE;EOCOPD;FHS;GenKOLS;ICGC;ICGN;KARE;Lung_eQTL;MESA;NAS;NETT;Rotterdam;SPIROMICS;TCGS;UKB",
+      "current_catalog_discovery_ancestry": [
+        "47856 European (NR, Netherlands, Norway, U.K., U.S.)",
+        "6940 East Asian (Republic of Korea)",
+        "3522 African American or Afro-Caribbean (U.S.)",
+        "600 Hispanic or Latin American (U.S.)"
+      ],
+      "current_catalog_initial_N_description": "11,157 European ancestry cases, 36,699 European ancestry controls, 1,142 African American cases, 2,380 African American controls, 199 Korean ancestry cases, 6,741 Korean ancestry controls, 52 Hispanic cases, 548 Hispanic controls.\r\n\r\n",
+      "current_catalog_replication_N_description": "12,051 European ancestry cases, 11,111 European ancestry controls, 153 Korean ancestry cases, 205 Korean ancestry controls.",
+      "current_catalog_replication_ancestry": [
+        "23162 European (NR, Poland, U.K., U.S.)",
+        "358 East Asian (Republic of Korea)"
+      ],
+      "doi": "10.1038/ng.3752",
+      "expected_eligible_locus_count": null,
+      "frozen_initial_N_description": "11,157 European ancestry cases, 36,699 European ancestry controls, 1,142 African American cases, 2,380 African American controls, 199 Korean ancestry cases, 6,741 Korean ancestry controls, 52 Hispanic cases, 548 Hispanic controls.",
+      "genome_build": "Original upload methods hg19 with +strand effect/other alleles; public dbGaP display exports labelled build38 with some coordinates absent.",
+      "immediately_executable": false,
+      "locus_completeness_status": "25,412/25,338/25,350 export rows. Whole-genome Stage1 cannot be reconstructed from these selected display exports. Stage2 only selected top Stage1 associations (P<5e-6), not a dense final genome-wide meta-analysis.",
+      "new_primary_evidence": [
+        {
+          "access_record": "audits/direct/acquired/hobbs2017_bioc/access.json",
+          "acquired_sha256": "223e6f8bc7a846e69fe92a0f978e84e434bfabeb71cc5dfcb25056674695ed6e",
+          "body_path": "audits/direct/acquired/hobbs2017_bioc/response.bin",
+          "http_status": 200,
+          "label": "hobbs2017_bioc",
+          "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC5381275/unicode"
+        },
+        {
+          "access_record": "audits/direct/acquired/hobbs2017_nature/access.json",
+          "acquired_sha256": "d52a2881422261108ec3e3a91c7eedba92176ad6cd9bade445057565d48a6939",
+          "body_path": "audits/direct/acquired/hobbs2017_nature/response.bin",
+          "http_status": 200,
+          "label": "hobbs2017_nature",
+          "url": "https://www.nature.com/articles/ng.3752"
+        },
+        {
+          "access_record": "audits/direct/acquired/dbgap_pha004496_complete_small_export/access.json",
+          "acquired_sha256": "443f6aac27a9799ba9a2e31f8375cfd1969eb78f340e540373b60018af3c6add",
+          "body_path": "audits/direct/acquired/dbgap_pha004496_complete_small_export/response.bin",
+          "http_status": 200,
+          "label": "dbgap_pha004496_complete_small_export",
+          "url": "https://ftp.ncbi.nlm.nih.gov/dbgap/studies/phs000179/analyses/phs000179.pha004496.txt"
+        },
+        {
+          "access_record": "audits/direct/acquired/dbgap_pha004497_complete_small_export/access.json",
+          "acquired_sha256": "3705b3d4655d7308fe58bd99f7ee6362115ca184fc1dd537582d1f3ad9ec0131",
+          "body_path": "audits/direct/acquired/dbgap_pha004497_complete_small_export/response.bin",
+          "http_status": 200,
+          "label": "dbgap_pha004497_complete_small_export",
+          "url": "https://ftp.ncbi.nlm.nih.gov/dbgap/studies/phs000179/analyses/phs000179.pha004497.txt"
+        },
+        {
+          "access_record": "audits/direct/acquired/dbgap_pha004498_complete_small_export/access.json",
+          "acquired_sha256": "8e8d01938011dcf78c39cfb99c021aaab605e25e23ef16412d1079e7afdcb8af",
+          "body_path": "audits/direct/acquired/dbgap_pha004498_complete_small_export/response.bin",
+          "http_status": 200,
+          "label": "dbgap_pha004498_complete_small_export",
+          "url": "https://ftp.ncbi.nlm.nih.gov/dbgap/studies/phs000179/analyses/phs000179.pha004498.txt"
+        }
+      ],
+      "overlap_considerations": "Consortium reuses classic COPD cohorts; UK BiLEVE replication is a UKB subset and overlaps later UKB studies. Catalog discovery/replication counts differ from paper stage totals due genotyping/staging.",
+      "phenotype_class": "direct_copd_susceptibility",
+      "phenotype_definition": {
+        "ascertainment": "Study spirometry; cohort-specific recruitment.",
+        "case": "Moderate-to-severe COPD: pre-BD FEV1/FVC<0.7 and FEV1<80% predicted (modified GOLD).",
+        "control": "Normal spirometry; FEV1/FVC>=0.7 and FEV1>=80% predicted under modified GOLD case/control design.",
+        "sex_design": "Both sexes; NAS control component is male where present.",
+        "smoking_design": "Smoking status and pack-years adjusted; some population-based cohorts include never smokers. Main estimand is susceptibility.",
+        "spirometry": "Pre-bronchodilator across cohorts; post-BD sensitivity performed in available cohorts."
+      },
+      "primary_publication_N": {
+        "note": "Stage sizes from paper abstract; Catalog discovery/replication descriptors differ. Do not silently interchange or sum them.",
+        "stage1_cases": 15256,
+        "stage1_controls": 47936,
+        "stage2_cases": 9498,
+        "stage2_controls": 9748
+      },
+      "public_access_status": "Public pha004496/497/498 exports retrieved; original full signed Stage1 file not obtained; Catalog FTP404.",
+      "publication": "Genetic loci associated with chronic obstructive pulmonary disease overlap with loci for lung function and pulmonary fibrosis.",
+      "published_locus_count": {
+        "combined_after_selected_replication_loci": 22,
+        "note": "Do not assign22 as dense Stage1/fine-mapping-eligible count.",
+        "stage1_genome_wide_loci": 13
+      },
+      "pubmed_id": "28166215",
+      "review_scope": "Independent full primary article and three complete small dbGaP public exports reviewed.",
+      "risk_direction_status": "FAIL for public exports: absolute coefficients. Original signed Stage1 data must be requested.",
+      "signed_effect_fields": {
+        "P": "P-value present",
+        "SE": "present",
+        "effect": "|&beta;| explicitly absolute coefficient",
+        "effect_allele": "Coded Allele present; not sufficient to recover missing sign",
+        "frequency": "No AF field",
+        "other_allele": "Allele1/Allele2 present but original association alignment not verified",
+        "per_variant_N": "Sample size blank throughout exports",
+        "variant_id": "SNP ID and submitted ss identifiers",
+        "variant_quality": "Original QC documented, not reconstructed from public export"
+      },
+      "source_references_frozen": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5381275/",
+        "https://www.ebi.ac.uk/gwas/studies/GCST004147"
+      ],
+      "study_accession": "GCST004147",
+      "unrestricted_download_scope": "Only three incomplete unsigned public display exports, not full signed Stage1 statistics.",
+      "unrestricted_download_verified": true,
+      "whole_file_validated": false
+    },
+    {
+      "LD_requirement": "Study/ancestry-compatible signed LD with independently verified allele coding, variant coverage and sample provenance; none established by this direct-source artifact.",
+      "access_or_execution_blockers": [
+        "Full signed locus-complete statistics not verified",
+        "Matched signed LD and future locus-level QC not established"
+      ],
+      "ancestry_meta_analysis_status": "See source-specific override or frozen cohort description; aggregate Catalog labels alone do not verify pooled-analysis ancestry.",
+      "catalog_api_and_ftp_evidence": {
+        "audit_path": "audits/catalog/GCST005417/audit.json",
+        "audit_sha256": "a6f51d30bead50b5c42fdc100a6810c1bb27d2aa95daa943b86c49e7d7fe9a4d",
+        "catalog_flag_not_usability_proof": false,
+        "directory_http_status": 404,
+        "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005417/"
+      },
+      "cohorts": "CHARGE;HCHS_SOL",
+      "current_catalog_discovery_ancestry": [
+        "5616 Hispanic or Latin American (U.S.)"
+      ],
+      "current_catalog_initial_N_description": "363 Hispanic cases, 5,253 Hispanic controls",
+      "current_catalog_replication_N_description": "European ancestry cases and controls (see Wilk et al 2012)",
+      "current_catalog_replication_ancestry": [
+        "NA European (Croatia, Finland, Germany, NR, Sweden, U.K.)"
+      ],
+      "doi": "10.1164/rccm.201707-1493OC",
+      "expected_eligible_locus_count": null,
+      "frozen_initial_N_description": "363 Hispanic cases, 5,253 Hispanic controls",
+      "genome_build": "Not verified from an actual summary-file header",
+      "immediately_executable": false,
+      "locus_completeness_status": "Not established; Catalog association hits must not be used to reconstruct locus statistics.",
+      "new_primary_evidence": [],
+      "overlap_considerations": "HCHS/SOL may overlap later analyses using HCHS/SOL; European CHARGE follow-up cohorts are not independent of all later lung/COPD consortia.",
+      "phenotype_class": "direct_copd_susceptibility",
+      "phenotype_definition": {
+        "ascertainment": "Study spirometry; cohort-specific recruitment.",
+        "case": "Post-BD FEV1/FVC<0.70; 363 HCHS/SOL COPD cases.",
+        "control": "Pre-BD FEV1/FVC>0.70 and FVC>80% predicted; 5,253 controls.",
+        "sex_design": "Both sexes; not sex-specific.",
+        "smoking_design": "Population cohort including never/current/former smokers; not an interaction GWAS.",
+        "spirometry": "COPD uses post-BD ratio; separate pre-BD airflow limitation and quantitative lung-function GWAS are distinct."
+      },
+      "public_access_status": "No actual complete signed file verified in direct-source audit; consult current Catalog audit and source-specific alternative audit.",
+      "publication": "A Genome-wide Association Study in Hispanics/Latinos Identifies Novel Signals for Lung Function. The Hispanic Community Health Study/Study of Latinos.",
+      "published_locus_count": null,
+      "pubmed_id": "29394082",
+      "review_scope": "Frozen phenotype adjudication plus current accession API/FTP checks; no additional full-text source-specific review claimed for this row.",
+      "risk_direction_status": "Not executable without signed file and verified effect-allele semantics.",
+      "signed_effect_fields": {
+        "P": "unverified",
+        "SE": "unverified",
+        "effect": "unverified",
+        "effect_allele": "unverified",
+        "frequency": "unverified",
+        "other_allele": "unverified",
+        "per_variant_N": "unverified",
+        "variant_id": "unverified",
+        "variant_quality": "unverified"
+      },
+      "source_references_frozen": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6058984/",
+        "https://www.ebi.ac.uk/gwas/studies/GCST005417"
+      ],
+      "study_accession": "GCST005417",
+      "unrestricted_download_verified": false,
+      "whole_file_validated": false
+    },
+    {
+      "LD_requirement": "Paper used 10,000 unrelated UKB participants for GCTA-COJO LD; that does not establish public signed LD, or adequate matching to the multi-ancestry combined meta-analysis. Request ancestry-specific stats and matched LD or justify a meta-analysis-aware alternative.",
+      "access_or_execution_blockers": [
+        "Request original complete signed meta-analysis statistics and preferably ancestry-specific results from authors/ICGC or authorized dbGaP/UKB route",
+        "Clarify submission build and effect-allele coding rather than use dbGaP display fields",
+        "Obtain defensible study/ancestry-matched signed LD and per-variant sample contribution",
+        "No pseudo-fine-mapping from public display export or Catalog hits"
+      ],
+      "ancestry_meta_analysis_status": "Main fixed-effects UK Biobank + ICGC meta-analysis includes European and non-European cohorts. dbGaP methods list CHS African/European, MESA African/European/Hispanic, KARE and TCGS Korea. Article explicitly says predominantly European, not European-only. Per-variant ancestry weights unavailable.",
+      "catalog_api_and_ftp_evidence": {
+        "audit_path": "audits/catalog/GCST007692/audit.json",
+        "audit_sha256": "c18ef12243f301f29c4e82fcf1c88bd01950acbe4ea1fced99cefaf6e38230e7",
+        "catalog_flag_not_usability_proof": false,
+        "directory_http_status": 404,
+        "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST007001-GCST008000/GCST007692/"
+      },
+      "cohorts": "COPDGene;ECLIPSE;GenKOLS;ICGC;NAS;NETT;UKB",
+      "current_catalog_discovery_ancestry": [
+        "257811 African American or Afro-Caribbean,East Asian,European,Hispanic or Latin American,NR (Canada, Netherlands, Norway, Poland, Republic of Korea, U.K., U.S.)"
+      ],
+      "current_catalog_initial_N_description": "35,735 cases, 222,076 controls",
+      "current_catalog_replication_N_description": "NA",
+      "current_catalog_replication_ancestry": [],
+      "data_availability_statement": "Article names dbGaP phs000179.v5.p2 and UK Biobank; consortium announcement links pha4766 under phs000179.v6.p2. Public parent analyses directory is accessible, but its export is not the required full signed file.",
+      "doi": "10.1038/s41588-018-0342-2",
+      "expected_eligible_locus_count": null,
+      "frozen_initial_N_description": "35,735 cases, 222,076 controls",
+      "genome_build": "Submitted association methods hg19/GRCh37; public dbGaP display-export coordinates labelled build38. Cannot mix these representations.",
+      "immediately_executable": false,
+      "locus_completeness_status": "19,373 public export records versus 6,224,355 tested variants reported by paper/current Catalog. Not locus-complete.",
+      "new_primary_evidence": [
+        {
+          "access_record": "audits/direct/acquired/sakornsakolpat2019_bioc/access.json",
+          "acquired_sha256": "56176cbbfbc7a66460d6fa9078a0e57522e754c1c467b133cbdbb740417db86a",
+          "body_path": "audits/direct/acquired/sakornsakolpat2019_bioc/response.bin",
+          "http_status": 200,
+          "label": "sakornsakolpat2019_bioc",
+          "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC6546635/unicode"
+        },
+        {
+          "access_record": "audits/direct/acquired/sakornsakolpat2019_nature/access.json",
+          "acquired_sha256": "09f32783867658966cdfa9d575d26667294c41041c37c903e9445dd602635483",
+          "body_path": "audits/direct/acquired/sakornsakolpat2019_nature/response.bin",
+          "http_status": 200,
+          "label": "sakornsakolpat2019_nature",
+          "url": "https://www.nature.com/articles/s41588-018-0342-2"
+        },
+        {
+          "access_record": "audits/direct/acquired/consortium_sakorn_announcement/access.json",
+          "acquired_sha256": "c52e08e834b7af99bdf4c95f2adda1534dc807b49dedf7404c6c0d1f5ec27ec3",
+          "body_path": "audits/direct/acquired/consortium_sakorn_announcement/response.bin",
+          "http_status": 200,
+          "label": "consortium_sakorn_announcement",
+          "url": "https://sites.google.com/a/channing.harvard.edu/icopd-genetics-consortium/announcements/icgc-biobank-paper-published"
+        },
+        {
+          "access_record": "audits/direct/acquired/dbgap_pha004766_complete_small_export/access.json",
+          "acquired_sha256": "9c94aa9086ce658c154f9cccfde43146734ddbc90391a7236d4d9509fe103574",
+          "body_path": "audits/direct/acquired/dbgap_pha004766_complete_small_export/response.bin",
+          "http_status": 200,
+          "label": "dbgap_pha004766_complete_small_export",
+          "url": "https://ftp.ncbi.nlm.nih.gov/dbgap/studies/phs000179/analyses/phs000179.pha004766.txt"
+        }
+      ],
+      "overlap_considerations": "UKB plus ICGC reuse much of Hobbs 2017/earlier cohort provenance. Listed classic components are overlap anchors, not exhaustive 25-cohort enumeration.",
+      "phenotype_class": "direct_copd_susceptibility",
+      "phenotype_definition": {
+        "ascertainment": "Study spirometry; cohort-specific recruitment.",
+        "case": "Pre-BD FEV1/FVC<0.7 and FEV1<80% predicted; modified GOLD moderate-to-very-severe COPD.",
+        "control": "Normal spirometry under prior consortium case/control design; 222,076 controls.",
+        "sex_design": "Both sexes; NAS control component is male where present.",
+        "smoking_design": "Smoking status and pack-years covariates; includes population and smoking-enriched cohorts.",
+        "spirometry": "Pre-BD; UKB raw flow-volume series receive ATS/ERS QC."
+      },
+      "primary_publication_N": {
+        "ICGC_cases": 14654,
+        "ICGC_controls": 42365,
+        "UKB_cases": 21081,
+        "UKB_controls": 179711,
+        "cases": 35735,
+        "cohort_studies": 25,
+        "controls": 222076
+      },
+      "public_access_status": "Public dbGaP pha004766 display export retrieved completely; Catalog FTP 404. No unrestricted complete signed meta-analysis file obtained.",
+      "publication": "Genetic landscape of chronic obstructive pulmonary disease identifies heterogeneous cell-type and phenotype associations.",
+      "published_locus_count": {
+        "all_discovery_loci": 82,
+        "definition": "Paper used \u00b11Mb windows; not prospective eligible-locus count.",
+        "novel": 35,
+        "previously_known": 47
+      },
+      "pubmed_id": "30804561",
+      "review_scope": "Independent full primary article, consortium announcement, dbGaP directories and complete small public export reviewed.",
+      "risk_direction_status": "FAIL for public export: absolute coefficient and inconsistent effect-allele example. Neither minor allele nor coded allele recovers missing sign.",
+      "signed_effect_fields": {
+        "P": "P-value present",
+        "SE": "SE present",
+        "effect": "&beta; dictionary explicitly Absolute value of regression coefficient; all export effect strings nonnegative",
+        "effect_allele": "Coded Allele exists but first record T is not in displayed C/G pair; cannot use without source resolution",
+        "frequency": "No frequency column; Minor allele is an allele label, not AF",
+        "other_allele": "Allele1/Allele2 are displayed dbSNP alleles, not a validated association-oriented pair",
+        "per_variant_N": "Sample size column entirely blank in public export",
+        "variant_id": "SNP ID rs identifier; Submitted SNP ID is placeholder ss in first record",
+        "variant_quality": "pHWE and Call Rate columns exist but no original locus-complete QC release verified"
+      },
+      "source_references_frozen": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6546635/",
+        "https://www.ebi.ac.uk/gwas/studies/GCST007692"
+      ],
+      "study_accession": "GCST007692",
+      "unrestricted_download_scope": "Only incomplete, unsigned public display export; NOT original full summary statistics.",
+      "unrestricted_download_verified": true,
+      "whole_file_validated": false
+    },
+    {
+      "LD_requirement": "Study/ancestry-compatible signed LD with independently verified allele coding, variant coverage and sample provenance; none established by this direct-source artifact.",
+      "access_or_execution_blockers": [
+        "Full signed locus-complete statistics not verified",
+        "Matched signed LD and future locus-level QC not established"
+      ],
+      "ancestry_meta_analysis_status": "See source-specific override or frozen cohort description; aggregate Catalog labels alone do not verify pooled-analysis ancestry.",
+      "catalog_api_and_ftp_evidence": {
+        "audit_path": "audits/catalog/GCST010249/audit.json",
+        "audit_sha256": "e80815360adf1847fe8804595a154b8a649dc3fb19be9c37a59bd12fd0b39cdd",
+        "catalog_flag_not_usability_proof": false,
+        "directory_http_status": 404,
+        "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST010001-GCST011000/GCST010249/"
+      },
+      "cohorts": "Talca_Chile",
+      "current_catalog_discovery_ancestry": [
+        "407 Hispanic or Latin American (Chile)"
+      ],
+      "current_catalog_initial_N_description": "214 Chilean cases, 193 Chilean controls",
+      "current_catalog_replication_N_description": "NA",
+      "current_catalog_replication_ancestry": [],
+      "doi": "10.1159/000506649",
+      "expected_eligible_locus_count": null,
+      "frozen_initial_N_description": "214 Chilean cases, 193 Chilean controls",
+      "genome_build": "Not verified from an actual summary-file header",
+      "immediately_executable": false,
+      "locus_completeness_status": "Not established; Catalog association hits must not be used to reconstruct locus statistics.",
+      "new_primary_evidence": [],
+      "overlap_considerations": "Known same 214 cases/193 controls in Hosgood 2020 and Diaz-Pena 2020; not independent replication.",
+      "phenotype_class": "direct_copd_susceptibility",
+      "phenotype_definition": {
+        "ascertainment": "clinical respiratory assessment and GOLD spirometry",
+        "case": "214 GOLD-defined COPD patients recruited through Hospital Regional de Talca respiratory service",
+        "control": "193 healthy hospital-recruited volunteers without known specific illness",
+        "sex_design": "both sexes; no sex-stratified test reported for this accession",
+        "smoking_design": "cigarette and biomass exposure recorded; no smoking restriction established",
+        "spirometry": "GOLD criteria; exact post-bronchodilator threshold not_reported in retrieved methods"
+      },
+      "public_access_status": "No actual complete signed file verified in direct-source audit; consult current Catalog audit and source-specific alternative audit.",
+      "publication": "PRDM15 Is Associated with Risk of Chronic Obstructive Pulmonary Disease in a Rural Population in Chile.",
+      "published_locus_count": null,
+      "pubmed_id": "32222710",
+      "review_scope": "Frozen phenotype adjudication plus current accession API/FTP checks; no additional full-text source-specific review claimed for this row.",
+      "risk_direction_status": "Not executable without signed file and verified effect-allele semantics.",
+      "signed_effect_fields": {
+        "P": "unverified",
+        "SE": "unverified",
+        "effect": "unverified",
+        "effect_allele": "unverified",
+        "frequency": "unverified",
+        "other_allele": "unverified",
+        "per_variant_N": "unverified",
+        "variant_id": "unverified",
+        "variant_quality": "unverified"
+      },
+      "source_references_frozen": [
+        "https://pubmed.ncbi.nlm.nih.gov/32222710/",
+        "https://www.ebi.ac.uk/gwas/studies/GCST010249"
+      ],
+      "study_accession": "GCST010249",
+      "unrestricted_download_verified": false,
+      "whole_file_validated": false
+    },
+    {
+      "LD_requirement": "BBJ or demonstrably comparable Japanese signed LD matched to released statistics. Genotype controls are controlled-access; methods using1KGphase3v5 imputation do not establish a public cohort-matched LD release.",
+      "access_or_execution_blockers": [
+        "See actual provider file and allele-schema audit in audits/alternatives",
+        "BBJ/Japanese signed LD provenance and release matching must be established",
+        "Whole-file/locus missingness and per-variant N/QC require future validation"
+      ],
+      "ancestry_meta_analysis_status": "BioBank Japan Japanese ancestry; physician-diagnosed direct COPD. All-sex versus male/female subgroup releases remain distinct.",
+      "catalog_api_and_ftp_evidence": {
+        "audit_path": "audits/catalog/GCST90013709/audit.json",
+        "audit_sha256": "8cb28c419347ec06ebb3ef6f0a2f6874b66891cf1a336e686405e1015e8c3b4b",
+        "catalog_flag_not_usability_proof": false,
+        "directory_http_status": 404,
+        "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90013001-GCST90014000/GCST90013709/"
+      },
+      "cohorts": "BBJ;IMM;J-MICC;JPHC;ToMMo",
+      "current_catalog_discovery_ancestry": [
+        "204907 East Asian (Japan)"
+      ],
+      "current_catalog_initial_N_description": "3,315 Japanese ancestry cases, 201,592 Japanese ancestry controls",
+      "current_catalog_replication_N_description": "NA",
+      "current_catalog_replication_ancestry": [],
+      "doi": "10.1038/s41588-020-0640-3",
+      "expected_eligible_locus_count": null,
+      "frozen_initial_N_description": "3,315 Japanese ancestry cases, 201,592 Japanese ancestry controls",
+      "genome_build": "Primary methods GRCh37/hg19; actual provider schema/build corroboration in alternatives audit.",
+      "immediately_executable": false,
+      "locus_completeness_status": "Primary study is genome-wide; exact release scope, alleles and actual header verification are recorded in alternatives audit, not inferred solely from article.",
+      "new_primary_evidence": [
+        {
+          "access_record": "audits/direct/acquired/ishigaki2020_bioc/access.json",
+          "acquired_sha256": "285e442decf59681451c0f974ddacadf19cdb6219f1ac135f096743ffb447530",
+          "body_path": "audits/direct/acquired/ishigaki2020_bioc/response.bin",
+          "http_status": 200,
+          "label": "ishigaki2020_bioc",
+          "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC7968075/unicode"
+        }
+      ],
+      "overlap_considerations": "BBJ sex strata overlap the combined-sex accession and later BBJ/Sakaue/GBMI analyses; control cohorts shared across BBJ disease GWAS.",
+      "phenotype_class": "direct_copd_susceptibility",
+      "phenotype_definition": {
+        "ascertainment": "hospital physician diagnosis at recruitment; original BBJ target-disease ascertainment",
+        "case": "BBJ participants enrolled with physician-diagnosed COPD among original target diseases",
+        "control": "Population controls plus BBJ participants without COPD or related diagnoses",
+        "sex_design": "combined sexes",
+        "smoking_design": "not_reported",
+        "spirometry": "not_reported; do not assume uniform GOLD or spirometry confirmation"
+      },
+      "public_access_status": "Primary article declares unrestricted JENGER/NBDC hum0014 disease summary statistics. CatalogFTP404 is not global unavailability. See independent alternatives audit for verified NHA dataset/file retrieval.",
+      "publication": "Large-scale genome-wide association study in a Japanese population identifies novel susceptibility loci across different diseases.",
+      "published_locus_count": {
+        "COPD_specific": null,
+        "not_substitutable": "All42-disease study totals are not COPD locus counts."
+      },
+      "pubmed_id": "32514122",
+      "review_scope": "Primary Ishigaki methods/phenotype reviewed; actual NBDC/BBJ download verification delegated to audits/alternatives, whose source-specific audit supersedes any unverified access field here.",
+      "risk_direction_status": "Provider-specific allele2/ALT beta convention must be taken from alternatives file/schema audit; do not infer effect allele from generic REF/ALT labels.",
+      "signed_effect_fields": {
+        "P": "unverified",
+        "SE": "unverified",
+        "effect": "unverified",
+        "effect_allele": "unverified",
+        "frequency": "unverified",
+        "other_allele": "unverified",
+        "per_variant_N": "unverified",
+        "variant_id": "unverified",
+        "variant_quality": "unverified"
+      },
+      "source_method_QC": "SHAPEIT2 v2.778 and minimac3 v2.0.1 with1KGphase3v5; excludes imputationRsq<0.7; actual signed-summary file field coverage is a separate issue.",
+      "source_references_frozen": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5363792/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7968075/",
+        "https://www.ebi.ac.uk/gwas/studies/GCST90013709"
+      ],
+      "study_accession": "GCST90013709",
+      "unrestricted_download_verified": false,
+      "whole_file_validated": false
+    },
+    {
+      "LD_requirement": "BBJ or demonstrably comparable Japanese signed LD matched to released statistics. Genotype controls are controlled-access; methods using1KGphase3v5 imputation do not establish a public cohort-matched LD release.",
+      "access_or_execution_blockers": [
+        "See actual provider file and allele-schema audit in audits/alternatives",
+        "BBJ/Japanese signed LD provenance and release matching must be established",
+        "Whole-file/locus missingness and per-variant N/QC require future validation"
+      ],
+      "ancestry_meta_analysis_status": "BioBank Japan Japanese ancestry; physician-diagnosed direct COPD. All-sex versus male/female subgroup releases remain distinct.",
+      "catalog_api_and_ftp_evidence": {
+        "audit_path": "audits/catalog/GCST90013746/audit.json",
+        "audit_sha256": "7b01ffcdae267c0ae00240a387e63d2b8e6fdfe46b0de6db7c86f69e3bc348c9",
+        "catalog_flag_not_usability_proof": false,
+        "directory_http_status": 404,
+        "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90013001-GCST90014000/GCST90013746/"
+      },
+      "cohorts": "BBJ;IMM;J-MICC;JPHC;ToMMo",
+      "current_catalog_discovery_ancestry": [
+        "105944 East Asian (Japan)"
+      ],
+      "current_catalog_initial_N_description": "2,855 Japanese ancestry male cases, 103,089 Japanese ancestry male controls",
+      "current_catalog_replication_N_description": "NA",
+      "current_catalog_replication_ancestry": [],
+      "doi": "10.1038/s41588-020-0640-3",
+      "expected_eligible_locus_count": null,
+      "frozen_initial_N_description": "2,855 Japanese ancestry male cases, 103,089 Japanese ancestry male controls",
+      "genome_build": "Primary methods GRCh37/hg19; actual provider schema/build corroboration in alternatives audit.",
+      "immediately_executable": false,
+      "locus_completeness_status": "Primary study is genome-wide; exact release scope, alleles and actual header verification are recorded in alternatives audit, not inferred solely from article.",
+      "new_primary_evidence": [
+        {
+          "access_record": "audits/direct/acquired/ishigaki2020_bioc/access.json",
+          "acquired_sha256": "285e442decf59681451c0f974ddacadf19cdb6219f1ac135f096743ffb447530",
+          "body_path": "audits/direct/acquired/ishigaki2020_bioc/response.bin",
+          "http_status": 200,
+          "label": "ishigaki2020_bioc",
+          "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC7968075/unicode"
+        }
+      ],
+      "overlap_considerations": "BBJ sex strata overlap the combined-sex accession and later BBJ/Sakaue/GBMI analyses; control cohorts shared across BBJ disease GWAS.",
+      "phenotype_class": "direct_copd_susceptibility",
+      "phenotype_definition": {
+        "ascertainment": "hospital physician diagnosis at recruitment; original BBJ target-disease ascertainment",
+        "case": "BBJ participants enrolled with physician-diagnosed COPD among original target diseases",
+        "control": "Population controls plus BBJ participants without COPD or related diagnoses",
+        "sex_design": "male-only",
+        "smoking_design": "not_reported",
+        "spirometry": "not_reported; do not assume uniform GOLD or spirometry confirmation"
+      },
+      "public_access_status": "Primary article declares unrestricted JENGER/NBDC hum0014 disease summary statistics. CatalogFTP404 is not global unavailability. See independent alternatives audit for verified NHA dataset/file retrieval.",
+      "publication": "Large-scale genome-wide association study in a Japanese population identifies novel susceptibility loci across different diseases.",
+      "published_locus_count": {
+        "COPD_specific": null,
+        "not_substitutable": "All42-disease study totals are not COPD locus counts."
+      },
+      "pubmed_id": "32514122",
+      "review_scope": "Primary Ishigaki methods/phenotype reviewed; actual NBDC/BBJ download verification delegated to audits/alternatives, whose source-specific audit supersedes any unverified access field here.",
+      "risk_direction_status": "Provider-specific allele2/ALT beta convention must be taken from alternatives file/schema audit; do not infer effect allele from generic REF/ALT labels.",
+      "signed_effect_fields": {
+        "P": "unverified",
+        "SE": "unverified",
+        "effect": "unverified",
+        "effect_allele": "unverified",
+        "frequency": "unverified",
+        "other_allele": "unverified",
+        "per_variant_N": "unverified",
+        "variant_id": "unverified",
+        "variant_quality": "unverified"
+      },
+      "source_method_QC": "SHAPEIT2 v2.778 and minimac3 v2.0.1 with1KGphase3v5; excludes imputationRsq<0.7; actual signed-summary file field coverage is a separate issue.",
+      "source_references_frozen": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5363792/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7968075/",
+        "https://www.ebi.ac.uk/gwas/studies/GCST90013746"
+      ],
+      "study_accession": "GCST90013746",
+      "unrestricted_download_verified": false,
+      "whole_file_validated": false
+    },
+    {
+      "LD_requirement": "BBJ or demonstrably comparable Japanese signed LD matched to released statistics. Genotype controls are controlled-access; methods using1KGphase3v5 imputation do not establish a public cohort-matched LD release.",
+      "access_or_execution_blockers": [
+        "See actual provider file and allele-schema audit in audits/alternatives",
+        "BBJ/Japanese signed LD provenance and release matching must be established",
+        "Whole-file/locus missingness and per-variant N/QC require future validation"
+      ],
+      "ancestry_meta_analysis_status": "BioBank Japan Japanese ancestry; physician-diagnosed direct COPD. All-sex versus male/female subgroup releases remain distinct.",
+      "catalog_api_and_ftp_evidence": {
+        "audit_path": "audits/catalog/GCST90013781/audit.json",
+        "audit_sha256": "83638d5ed7d8d00422e0eb59810a09b9ce5a4d976cdc20e36a07d6d174fde51a",
+        "catalog_flag_not_usability_proof": false,
+        "directory_http_status": 404,
+        "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90013001-GCST90014000/GCST90013781/"
+      },
+      "cohorts": "BBJ;IMM;J-MICC;JPHC;ToMMo",
+      "current_catalog_discovery_ancestry": [
+        "98963 East Asian (Japan)"
+      ],
+      "current_catalog_initial_N_description": "460 Japanese ancestry female cases, 98,503 Japanese ancestry female controls",
+      "current_catalog_replication_N_description": "NA",
+      "current_catalog_replication_ancestry": [],
+      "doi": "10.1038/s41588-020-0640-3",
+      "expected_eligible_locus_count": null,
+      "frozen_initial_N_description": "460 Japanese ancestry female cases, 98,503 Japanese ancestry female controls",
+      "genome_build": "Primary methods GRCh37/hg19; actual provider schema/build corroboration in alternatives audit.",
+      "immediately_executable": false,
+      "locus_completeness_status": "Primary study is genome-wide; exact release scope, alleles and actual header verification are recorded in alternatives audit, not inferred solely from article.",
+      "new_primary_evidence": [
+        {
+          "access_record": "audits/direct/acquired/ishigaki2020_bioc/access.json",
+          "acquired_sha256": "285e442decf59681451c0f974ddacadf19cdb6219f1ac135f096743ffb447530",
+          "body_path": "audits/direct/acquired/ishigaki2020_bioc/response.bin",
+          "http_status": 200,
+          "label": "ishigaki2020_bioc",
+          "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC7968075/unicode"
+        }
+      ],
+      "overlap_considerations": "BBJ sex strata overlap the combined-sex accession and later BBJ/Sakaue/GBMI analyses; control cohorts shared across BBJ disease GWAS.",
+      "phenotype_class": "direct_copd_susceptibility",
+      "phenotype_definition": {
+        "ascertainment": "hospital physician diagnosis at recruitment; original BBJ target-disease ascertainment",
+        "case": "BBJ participants enrolled with physician-diagnosed COPD among original target diseases",
+        "control": "Population controls plus BBJ participants without COPD or related diagnoses",
+        "sex_design": "female-only",
+        "smoking_design": "not_reported",
+        "spirometry": "not_reported; do not assume uniform GOLD or spirometry confirmation"
+      },
+      "public_access_status": "Primary article declares unrestricted JENGER/NBDC hum0014 disease summary statistics. CatalogFTP404 is not global unavailability. See independent alternatives audit for verified NHA dataset/file retrieval.",
+      "publication": "Large-scale genome-wide association study in a Japanese population identifies novel susceptibility loci across different diseases.",
+      "published_locus_count": {
+        "COPD_specific": null,
+        "not_substitutable": "All42-disease study totals are not COPD locus counts."
+      },
+      "pubmed_id": "32514122",
+      "review_scope": "Primary Ishigaki methods/phenotype reviewed; actual NBDC/BBJ download verification delegated to audits/alternatives, whose source-specific audit supersedes any unverified access field here.",
+      "risk_direction_status": "Provider-specific allele2/ALT beta convention must be taken from alternatives file/schema audit; do not infer effect allele from generic REF/ALT labels.",
+      "signed_effect_fields": {
+        "P": "unverified",
+        "SE": "unverified",
+        "effect": "unverified",
+        "effect_allele": "unverified",
+        "frequency": "unverified",
+        "other_allele": "unverified",
+        "per_variant_N": "unverified",
+        "variant_id": "unverified",
+        "variant_quality": "unverified"
+      },
+      "source_method_QC": "SHAPEIT2 v2.778 and minimac3 v2.0.1 with1KGphase3v5; excludes imputationRsq<0.7; actual signed-summary file field coverage is a separate issue.",
+      "source_references_frozen": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5363792/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7968075/",
+        "https://www.ebi.ac.uk/gwas/studies/GCST90013781"
+      ],
+      "study_accession": "GCST90013781",
+      "unrestricted_download_verified": false,
+      "whole_file_validated": false
+    },
+    {
+      "LD_requirement": "Study/ancestry-compatible signed LD with independently verified allele coding, variant coverage and sample provenance; none established by this direct-source artifact.",
+      "access_or_execution_blockers": [
+        "Full signed locus-complete statistics not verified",
+        "Matched signed LD and future locus-level QC not established"
+      ],
+      "ancestry_meta_analysis_status": "See source-specific override or frozen cohort description; aggregate Catalog labels alone do not verify pooled-analysis ancestry.",
+      "catalog_api_and_ftp_evidence": {
+        "audit_path": "audits/catalog/GCST011435/audit.json",
+        "audit_sha256": "1d5e34a928b798f5e75db5d8d88c9fc5ef606adf1ee754467f62d78e61dbaf85",
+        "catalog_flag_not_usability_proof": false,
+        "directory_http_status": 404,
+        "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST011001-GCST012000/GCST011435/"
+      },
+      "cohorts": "Talca_Chile",
+      "current_catalog_discovery_ancestry": [
+        "407 Hispanic or Latin American (Chile)"
+      ],
+      "current_catalog_initial_N_description": "214 Chilean cases, 193 Chilean controls",
+      "current_catalog_replication_N_description": "NA",
+      "current_catalog_replication_ancestry": [],
+      "doi": "10.3390/jpm10030093",
+      "expected_eligible_locus_count": null,
+      "frozen_initial_N_description": "214 Chilean cases, 193 Chilean controls",
+      "genome_build": "Not verified from an actual summary-file header",
+      "immediately_executable": false,
+      "locus_completeness_status": "Not established; Catalog association hits must not be used to reconstruct locus statistics.",
+      "new_primary_evidence": [],
+      "overlap_considerations": "Known same 214 cases/193 controls in Hosgood 2020 and Diaz-Pena 2020; not independent replication.",
+      "phenotype_class": "direct_copd_susceptibility",
+      "phenotype_definition": {
+        "ascertainment": "clinical respiratory assessment and GOLD spirometry",
+        "case": "214 GOLD-defined COPD patients recruited through Hospital Regional de Talca respiratory service",
+        "control": "193 healthy hospital-recruited volunteers without known specific illness",
+        "sex_design": "both sexes; no sex-stratified test reported for this accession",
+        "smoking_design": "cigarette and biomass exposure recorded; no smoking restriction established",
+        "spirometry": "GOLD criteria; exact post-bronchodilator threshold not_reported in retrieved methods"
+      },
+      "public_access_status": "No actual complete signed file verified in direct-source audit; consult current Catalog audit and source-specific alternative audit.",
+      "publication": "Amerindian Ancestry Influences Genetic Susceptibility to Chronic Obstructive Pulmonary Disease.",
+      "published_locus_count": null,
+      "pubmed_id": "32824824",
+      "review_scope": "Frozen phenotype adjudication plus current accession API/FTP checks; no additional full-text source-specific review claimed for this row.",
+      "risk_direction_status": "Not executable without signed file and verified effect-allele semantics.",
+      "signed_effect_fields": {
+        "P": "unverified",
+        "SE": "unverified",
+        "effect": "unverified",
+        "effect_allele": "unverified",
+        "frequency": "unverified",
+        "other_allele": "unverified",
+        "per_variant_N": "unverified",
+        "variant_id": "unverified",
+        "variant_quality": "unverified"
+      },
+      "source_references_frozen": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7565405/",
+        "https://www.ebi.ac.uk/gwas/studies/GCST011435"
+      ],
+      "study_accession": "GCST011435",
+      "unrestricted_download_verified": false,
+      "whole_file_validated": false
+    },
+    {
+      "LD_requirement": "UKB European cohort-matched or comparable signed LD, verified exact allele/build coverage; smoking-stratum sample composition and no per-variant N/AF require specific justification. Do not treat all four overlapping smoking strata as independent meta-analysis cohorts.",
+      "access_or_execution_blockers": [
+        "Whole-file download, publisher checksum and genome/locus completeness validation deferred",
+        "Verify logOR SE lineage and finite valid fields before converting OR to logOR",
+        "Per-variant N/AF/quality absent; establish acceptable source assumptions and independent allele checks",
+        "Bind compatible signed UKB LD and perform future locus-level QC",
+        "Marginal stratum-specific locus counts not yet enumerated; no eligibility count invented"
+      ],
+      "ancestry_meta_analysis_status": "UK Biobank European ancestry; single-cohort smoking-stratum marginal logistic association, not pooled multi-ancestry meta-analysis.",
+      "catalog_api_and_ftp_evidence": {
+        "audit_path": "audits/catalog/GCST90016588/audit.json",
+        "audit_sha256": "54c935cde2dc24d5d8baf07531144f580f1ab54b64223e519c39a780832dfec2",
+        "catalog_flag_not_usability_proof": true,
+        "directory_http_status": 200,
+        "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90016001-GCST90017000/GCST90016588/"
+      },
+      "cohorts": "UKB",
+      "current_catalog_discovery_ancestry": [
+        "71591 European (U.K.)"
+      ],
+      "current_catalog_initial_N_description": "12,446 European ancestry cases, 59,145 European ancestry controls",
+      "current_catalog_replication_N_description": "NA",
+      "current_catalog_replication_ancestry": [],
+      "distinction": "Direct COPD susceptibility within a smoking-defined stratum. Do not substitute interaction main-effect coefficients GCST90016586/591, interaction terms, or2-df omnibus P values.",
+      "doi": "10.1093/aje/kwaa227",
+      "expected_eligible_locus_count": null,
+      "frozen_initial_N_description": "12,446 European ancestry cases, 59,145 European ancestry controls",
+      "genome_build": "Original raw GRCh37; harmonized hm_* coordinates GRCh38 by corresponding YAML. Do not combine raw allele/effect/position with hm_* counterparts.",
+      "immediately_executable": false,
+      "locus_completeness_status": "Genome-wide release supported by study design, current Catalog9,886,854 tested variants and actual raw prefix containing non-significant records. Whole-file completeness and locus density remain future checks, not proved by header.",
+      "new_primary_evidence": [
+        {
+          "access_record": "audits/direct/acquired/kim2021_pmc/access.json",
+          "acquired_sha256": "03f03f71d4e7456f5e561f622e3eb282e90036da17e495b48371ab12ce0eb0c7",
+          "body_path": "audits/direct/acquired/kim2021_pmc/response.bin",
+          "http_status": 200,
+          "label": "kim2021_pmc",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8096488/"
+        },
+        {
+          "access_record": "audits/direct/acquired/plink2_formats/access.json",
+          "acquired_sha256": "e89f64711155bc8efbb23b5830f12dbe4ad9fb62a9956486acc1da36daaa760a",
+          "body_path": "audits/direct/acquired/plink2_formats/response.bin",
+          "http_status": 200,
+          "label": "plink2_formats",
+          "url": "https://www.cog-genomics.org/plink/2.0/formats"
+        }
+      ],
+      "overlap_considerations": "Same UKB sample under different smoking strata/models; overlaps UKB COPD GWAS including Sakornsakolpat, Joo, Moll. COPDGene/SpiroMeta are selected-signal follow-up, not additional discovery participants in this accession.",
+      "phenotype_class": "direct_copd_susceptibility",
+      "phenotype_definition": {
+        "ascertainment": "quality-controlled spirometry",
+        "case": "UKB pre-bronchodilator FEV1/FVC <0.7 and FEV1 <80% predicted",
+        "control": "UKB comparison participants without the moderate-airflow-limitation case phenotype; exact control threshold not_reported in retrieved main text",
+        "sex_design": "both sexes; no sex-stratified test reported for this accession",
+        "smoking_design": "ordinary COPD case-control analysis restricted to ever smokers",
+        "spirometry": "pre-bronchodilator; FEV1/FVC <0.7 and FEV1 <80% predicted"
+      },
+      "primary_publication_N": {
+        "cases": 12446,
+        "controls": 59145,
+        "source": "Current Catalog accession metadata; paper whole analysis21,077cases/179,689controls.",
+        "stratum": "ever smokers"
+      },
+      "public_access_status": "Anonymous HTTP206 header+representative-record access successful for actual large raw file and formatted/harmonized equivalents.",
+      "publication": "Genome-wide Gene-by-smoking Interaction Study of Chronic Obstructive Pulmonary Disease.",
+      "published_locus_count": {
+        "not_substitutable": "48 ever-interaction and55 current-interaction loci belong to2-df joint tests, NOT the four marginal stratum GWAS.",
+        "this_stratum": null
+      },
+      "pubmed_id": "33106845",
+      "review_scope": "Primary methods, original/formatted/harmonized Catalog prefixes and metadata, official PLINK output-field definitions reviewed. No full-file statistical checks.",
+      "risk_direction_status": "Signed disease-risk direction feasible: OR relative to explicit effect allele. Future full-file checks must confirm finite positiveOR, valid paired alleles, scale and build; no risk-allele table constructed here.",
+      "signed_effect_fields": {
+        "P": "p_value",
+        "SE": "standard_error; log-odds interpretation supported by logistic PLINK methods and official schema, but Catalog transformation lineage requires future confirmation",
+        "effect": "odds_ratio; tested effect allele associated with COPD outcome",
+        "effect_allele": "effect_allele explicit",
+        "frequency": "absent from raw; formatted/harmonized AF placeholder columns NA in inspected records",
+        "other_allele": "other_allele explicit",
+        "per_variant_N": "absent from raw",
+        "variant_id": "variant_id rsID or quoted NA; preserve chromosome/position/alleles for exact keys",
+        "variant_quality": "absent from raw; paper inclusionMAF>=0.01 and imputation r2>=0.5 are study-level filters, not per-record QC fields"
+      },
+      "source_references_frozen": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8096488/",
+        "https://www.ebi.ac.uk/gwas/studies/GCST90016588"
+      ],
+      "study_accession": "GCST90016588",
+      "unrestricted_download_scope": "Actual file prefixes verified; complete large file deliberately not downloaded in preflight.",
+      "unrestricted_download_verified": true,
+      "verified_raw_file": {
+        "access_status": 206,
+        "header": [
+          "variant_id",
+          "p_value",
+          "chromosome",
+          "base_pair_location",
+          "effect_allele",
+          "other_allele",
+          "odds_ratio",
+          "standard_error"
+        ],
+        "inspection_scope": "first header and up to eight records only; no locus enumeration, effect analysis or whole-file QC",
+        "prefix_path": "audits/catalog/GCST90016588/GCST90016588_buildGRCh37.tsv.prefix",
+        "prefix_sha256": "2e82f23aef813dcd193200d34d4f71b35cac69f108894472167bdb09468cb15d",
+        "records_width_matches": true,
+        "representative_records": [
+          [
+            "rs533090414",
+            "0.651952",
+            "1",
+            "18849",
+            "C",
+            "G",
+            "0.97009",
+            "0.0673241"
+          ],
+          [
+            "rs568927205",
+            "0.847228",
+            "1",
+            "54712",
+            "T",
+            "TTTTC",
+            "0.996034",
+            "0.0206276"
+          ],
+          [
+            "\"NA\"",
+            "0.16109",
+            "1",
+            "82133",
+            "CAA",
+            "C",
+            "0.889408",
+            "0.0836291"
+          ],
+          [
+            "rs28619159",
+            "0.496677",
+            "1",
+            "91421",
+            "C",
+            "T",
+            "1.05438",
+            "0.0779082"
+          ],
+          [
+            "rs375085441",
+            "0.0781894",
+            "1",
+            "91551",
+            "GT",
+            "G",
+            "1.26486",
+            "0.133403"
+          ],
+          [
+            "rs377100675",
+            "0.945088",
+            "1",
+            "125271",
+            "C",
+            "T",
+            "1.00378",
+            "0.0547314"
+          ],
+          [
+            "rs62642131",
+            "0.777936",
+            "1",
+            "135982",
+            "A",
+            "G",
+            "0.972227",
+            "0.0998742"
+          ],
+          [
+            "rs189259765",
+            "0.881443",
+            "1",
+            "536095",
+            "T",
+            "C",
+            "1.00353",
+            "0.0236395"
+          ]
+        ],
+        "sample_records": 8,
+        "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90016001-GCST90017000/GCST90016588/GCST90016588_buildGRCh37.tsv",
+        "whole_file_downloaded_and_validated": false,
+        "whole_source_content_range": "bytes 0-131071/532494296"
+      },
+      "whole_file_validated": false
+    },
+    {
+      "LD_requirement": "UKB European cohort-matched or comparable signed LD, verified exact allele/build coverage; smoking-stratum sample composition and no per-variant N/AF require specific justification. Do not treat all four overlapping smoking strata as independent meta-analysis cohorts.",
+      "access_or_execution_blockers": [
+        "Whole-file download, publisher checksum and genome/locus completeness validation deferred",
+        "Verify logOR SE lineage and finite valid fields before converting OR to logOR",
+        "Per-variant N/AF/quality absent; establish acceptable source assumptions and independent allele checks",
+        "Bind compatible signed UKB LD and perform future locus-level QC",
+        "Marginal stratum-specific locus counts not yet enumerated; no eligibility count invented"
+      ],
+      "ancestry_meta_analysis_status": "UK Biobank European ancestry; single-cohort smoking-stratum marginal logistic association, not pooled multi-ancestry meta-analysis.",
+      "catalog_api_and_ftp_evidence": {
+        "audit_path": "audits/catalog/GCST90016589/audit.json",
+        "audit_sha256": "256c85b732899e97837bb011076aaafc39dcf134a1be07bc7ac0aa4a1b1339db",
+        "catalog_flag_not_usability_proof": true,
+        "directory_http_status": 200,
+        "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90016001-GCST90017000/GCST90016589/"
+      },
+      "cohorts": "UKB",
+      "current_catalog_discovery_ancestry": [
+        "129175 European (U.K.)"
+      ],
+      "current_catalog_initial_N_description": "8,631 European ancestry cases, 120,544 European ancestry controls",
+      "current_catalog_replication_N_description": "NA",
+      "current_catalog_replication_ancestry": [],
+      "distinction": "Direct COPD susceptibility within a smoking-defined stratum. Do not substitute interaction main-effect coefficients GCST90016586/591, interaction terms, or2-df omnibus P values.",
+      "doi": "10.1093/aje/kwaa227",
+      "expected_eligible_locus_count": null,
+      "frozen_initial_N_description": "8,631 European ancestry cases, 120,544 European ancestry controls",
+      "genome_build": "Original raw GRCh37; harmonized hm_* coordinates GRCh38 by corresponding YAML. Do not combine raw allele/effect/position with hm_* counterparts.",
+      "immediately_executable": false,
+      "locus_completeness_status": "Genome-wide release supported by study design, current Catalog9,886,854 tested variants and actual raw prefix containing non-significant records. Whole-file completeness and locus density remain future checks, not proved by header.",
+      "new_primary_evidence": [
+        {
+          "access_record": "audits/direct/acquired/kim2021_pmc/access.json",
+          "acquired_sha256": "03f03f71d4e7456f5e561f622e3eb282e90036da17e495b48371ab12ce0eb0c7",
+          "body_path": "audits/direct/acquired/kim2021_pmc/response.bin",
+          "http_status": 200,
+          "label": "kim2021_pmc",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8096488/"
+        },
+        {
+          "access_record": "audits/direct/acquired/plink2_formats/access.json",
+          "acquired_sha256": "e89f64711155bc8efbb23b5830f12dbe4ad9fb62a9956486acc1da36daaa760a",
+          "body_path": "audits/direct/acquired/plink2_formats/response.bin",
+          "http_status": 200,
+          "label": "plink2_formats",
+          "url": "https://www.cog-genomics.org/plink/2.0/formats"
+        }
+      ],
+      "overlap_considerations": "Same UKB sample under different smoking strata/models; overlaps UKB COPD GWAS including Sakornsakolpat, Joo, Moll. COPDGene/SpiroMeta are selected-signal follow-up, not additional discovery participants in this accession.",
+      "phenotype_class": "direct_copd_susceptibility",
+      "phenotype_definition": {
+        "ascertainment": "quality-controlled spirometry",
+        "case": "UKB pre-bronchodilator FEV1/FVC <0.7 and FEV1 <80% predicted",
+        "control": "UKB comparison participants without the moderate-airflow-limitation case phenotype; exact control threshold not_reported in retrieved main text",
+        "sex_design": "both sexes; no sex-stratified test reported for this accession",
+        "smoking_design": "ordinary COPD case-control analysis restricted to never smokers",
+        "spirometry": "pre-bronchodilator; FEV1/FVC <0.7 and FEV1 <80% predicted"
+      },
+      "primary_publication_N": {
+        "cases": 8631,
+        "controls": 120544,
+        "source": "Current Catalog accession metadata; paper whole analysis21,077cases/179,689controls.",
+        "stratum": "never smokers"
+      },
+      "public_access_status": "Anonymous HTTP206 header+representative-record access successful for actual large raw file and formatted/harmonized equivalents.",
+      "publication": "Genome-wide Gene-by-smoking Interaction Study of Chronic Obstructive Pulmonary Disease.",
+      "published_locus_count": {
+        "not_substitutable": "48 ever-interaction and55 current-interaction loci belong to2-df joint tests, NOT the four marginal stratum GWAS.",
+        "this_stratum": null
+      },
+      "pubmed_id": "33106845",
+      "review_scope": "Primary methods, original/formatted/harmonized Catalog prefixes and metadata, official PLINK output-field definitions reviewed. No full-file statistical checks.",
+      "risk_direction_status": "Signed disease-risk direction feasible: OR relative to explicit effect allele. Future full-file checks must confirm finite positiveOR, valid paired alleles, scale and build; no risk-allele table constructed here.",
+      "signed_effect_fields": {
+        "P": "p_value",
+        "SE": "standard_error; log-odds interpretation supported by logistic PLINK methods and official schema, but Catalog transformation lineage requires future confirmation",
+        "effect": "odds_ratio; tested effect allele associated with COPD outcome",
+        "effect_allele": "effect_allele explicit",
+        "frequency": "absent from raw; formatted/harmonized AF placeholder columns NA in inspected records",
+        "other_allele": "other_allele explicit",
+        "per_variant_N": "absent from raw",
+        "variant_id": "variant_id rsID or quoted NA; preserve chromosome/position/alleles for exact keys",
+        "variant_quality": "absent from raw; paper inclusionMAF>=0.01 and imputation r2>=0.5 are study-level filters, not per-record QC fields"
+      },
+      "source_references_frozen": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8096488/",
+        "https://www.ebi.ac.uk/gwas/studies/GCST90016589"
+      ],
+      "study_accession": "GCST90016589",
+      "unrestricted_download_scope": "Actual file prefixes verified; complete large file deliberately not downloaded in preflight.",
+      "unrestricted_download_verified": true,
+      "verified_raw_file": {
+        "access_status": 206,
+        "header": [
+          "variant_id",
+          "p_value",
+          "chromosome",
+          "base_pair_location",
+          "effect_allele",
+          "other_allele",
+          "odds_ratio",
+          "standard_error"
+        ],
+        "inspection_scope": "first header and up to eight records only; no locus enumeration, effect analysis or whole-file QC",
+        "prefix_path": "audits/catalog/GCST90016589/GCST90016589_buildGRCh37.tsv.prefix",
+        "prefix_sha256": "9350f1e265176b956bafe99fb9f236f9873756c4a6f5eab4e30ddc0444f3f81b",
+        "records_width_matches": true,
+        "representative_records": [
+          [
+            "rs533090414",
+            "0.207448",
+            "1",
+            "18849",
+            "C",
+            "G",
+            "1.09572",
+            "0.072511"
+          ],
+          [
+            "rs568927205",
+            "0.862608",
+            "1",
+            "54712",
+            "T",
+            "TTTTC",
+            "0.996047",
+            "0.0228876"
+          ],
+          [
+            "\"NA\"",
+            "0.268931",
+            "1",
+            "82133",
+            "CAA",
+            "C",
+            "1.10224",
+            "0.0880499"
+          ],
+          [
+            "rs28619159",
+            "0.160529",
+            "1",
+            "91421",
+            "C",
+            "T",
+            "1.12748",
+            "0.0855049"
+          ],
+          [
+            "rs375085441",
+            "0.713137",
+            "1",
+            "91551",
+            "GT",
+            "G",
+            "0.944011",
+            "0.156721"
+          ],
+          [
+            "rs377100675",
+            "0.773066",
+            "1",
+            "125271",
+            "C",
+            "T",
+            "1.01751",
+            "0.0601857"
+          ],
+          [
+            "rs62642131",
+            "0.173551",
+            "1",
+            "135982",
+            "A",
+            "G",
+            "0.856854",
+            "0.113521"
+          ],
+          [
+            "rs189259765",
+            "0.88098",
+            "1",
+            "536095",
+            "T",
+            "C",
+            "0.996082",
+            "0.0262196"
+          ]
+        ],
+        "sample_records": 8,
+        "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90016001-GCST90017000/GCST90016589/GCST90016589_buildGRCh37.tsv",
+        "whole_file_downloaded_and_validated": false,
+        "whole_source_content_range": "bytes 0-131071/532489662"
+      },
+      "whole_file_validated": false
+    },
+    {
+      "LD_requirement": "UKB European cohort-matched or comparable signed LD, verified exact allele/build coverage; smoking-stratum sample composition and no per-variant N/AF require specific justification. Do not treat all four overlapping smoking strata as independent meta-analysis cohorts.",
+      "access_or_execution_blockers": [
+        "Whole-file download, publisher checksum and genome/locus completeness validation deferred",
+        "Verify logOR SE lineage and finite valid fields before converting OR to logOR",
+        "Per-variant N/AF/quality absent; establish acceptable source assumptions and independent allele checks",
+        "Bind compatible signed UKB LD and perform future locus-level QC",
+        "Marginal stratum-specific locus counts not yet enumerated; no eligibility count invented"
+      ],
+      "ancestry_meta_analysis_status": "UK Biobank European ancestry; single-cohort smoking-stratum marginal logistic association, not pooled multi-ancestry meta-analysis.",
+      "catalog_api_and_ftp_evidence": {
+        "audit_path": "audits/catalog/GCST90016593/audit.json",
+        "audit_sha256": "23444e943aa26dc06b5ee7f52fefc21d07521bc787fafd8cad3aeb8eb6260edc",
+        "catalog_flag_not_usability_proof": true,
+        "directory_http_status": 200,
+        "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90016001-GCST90017000/GCST90016593/"
+      },
+      "cohorts": "UKB",
+      "current_catalog_discovery_ancestry": [
+        "14590 European (U.K.)"
+      ],
+      "current_catalog_initial_N_description": "4,589 European ancestry cases, 10,001 European ancestry controls",
+      "current_catalog_replication_N_description": "NA",
+      "current_catalog_replication_ancestry": [],
+      "distinction": "Direct COPD susceptibility within a smoking-defined stratum. Do not substitute interaction main-effect coefficients GCST90016586/591, interaction terms, or2-df omnibus P values.",
+      "doi": "10.1093/aje/kwaa227",
+      "expected_eligible_locus_count": null,
+      "frozen_initial_N_description": "4,589 European ancestry cases, 10,001 European ancestry controls",
+      "genome_build": "Original raw GRCh37; harmonized hm_* coordinates GRCh38 by corresponding YAML. Do not combine raw allele/effect/position with hm_* counterparts.",
+      "immediately_executable": false,
+      "locus_completeness_status": "Genome-wide release supported by study design, current Catalog9,886,854 tested variants and actual raw prefix containing non-significant records. Whole-file completeness and locus density remain future checks, not proved by header.",
+      "new_primary_evidence": [
+        {
+          "access_record": "audits/direct/acquired/kim2021_pmc/access.json",
+          "acquired_sha256": "03f03f71d4e7456f5e561f622e3eb282e90036da17e495b48371ab12ce0eb0c7",
+          "body_path": "audits/direct/acquired/kim2021_pmc/response.bin",
+          "http_status": 200,
+          "label": "kim2021_pmc",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8096488/"
+        },
+        {
+          "access_record": "audits/direct/acquired/plink2_formats/access.json",
+          "acquired_sha256": "e89f64711155bc8efbb23b5830f12dbe4ad9fb62a9956486acc1da36daaa760a",
+          "body_path": "audits/direct/acquired/plink2_formats/response.bin",
+          "http_status": 200,
+          "label": "plink2_formats",
+          "url": "https://www.cog-genomics.org/plink/2.0/formats"
+        }
+      ],
+      "overlap_considerations": "Same UKB sample under different smoking strata/models; overlaps UKB COPD GWAS including Sakornsakolpat, Joo, Moll. COPDGene/SpiroMeta are selected-signal follow-up, not additional discovery participants in this accession.",
+      "phenotype_class": "direct_copd_susceptibility",
+      "phenotype_definition": {
+        "ascertainment": "quality-controlled spirometry",
+        "case": "UKB pre-bronchodilator FEV1/FVC <0.7 and FEV1 <80% predicted",
+        "control": "UKB comparison participants without the moderate-airflow-limitation case phenotype; exact control threshold not_reported in retrieved main text",
+        "sex_design": "both sexes; no sex-stratified test reported for this accession",
+        "smoking_design": "ordinary COPD case-control analysis restricted to current smokers",
+        "spirometry": "pre-bronchodilator; FEV1/FVC <0.7 and FEV1 <80% predicted"
+      },
+      "primary_publication_N": {
+        "cases": 4589,
+        "controls": 10001,
+        "source": "Current Catalog accession metadata; paper whole analysis21,077cases/179,689controls.",
+        "stratum": "current smokers"
+      },
+      "public_access_status": "Anonymous HTTP206 header+representative-record access successful for actual large raw file and formatted/harmonized equivalents.",
+      "publication": "Genome-wide Gene-by-smoking Interaction Study of Chronic Obstructive Pulmonary Disease.",
+      "published_locus_count": {
+        "not_substitutable": "48 ever-interaction and55 current-interaction loci belong to2-df joint tests, NOT the four marginal stratum GWAS.",
+        "this_stratum": null
+      },
+      "pubmed_id": "33106845",
+      "review_scope": "Primary methods, original/formatted/harmonized Catalog prefixes and metadata, official PLINK output-field definitions reviewed. No full-file statistical checks.",
+      "risk_direction_status": "Signed disease-risk direction feasible: OR relative to explicit effect allele. Future full-file checks must confirm finite positiveOR, valid paired alleles, scale and build; no risk-allele table constructed here.",
+      "signed_effect_fields": {
+        "P": "p_value",
+        "SE": "standard_error; log-odds interpretation supported by logistic PLINK methods and official schema, but Catalog transformation lineage requires future confirmation",
+        "effect": "odds_ratio; tested effect allele associated with COPD outcome",
+        "effect_allele": "effect_allele explicit",
+        "frequency": "absent from raw; formatted/harmonized AF placeholder columns NA in inspected records",
+        "other_allele": "other_allele explicit",
+        "per_variant_N": "absent from raw",
+        "variant_id": "variant_id rsID or quoted NA; preserve chromosome/position/alleles for exact keys",
+        "variant_quality": "absent from raw; paper inclusionMAF>=0.01 and imputation r2>=0.5 are study-level filters, not per-record QC fields"
+      },
+      "source_references_frozen": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8096488/",
+        "https://www.ebi.ac.uk/gwas/studies/GCST90016593"
+      ],
+      "study_accession": "GCST90016593",
+      "unrestricted_download_scope": "Actual file prefixes verified; complete large file deliberately not downloaded in preflight.",
+      "unrestricted_download_verified": true,
+      "verified_raw_file": {
+        "access_status": 206,
+        "header": [
+          "variant_id",
+          "p_value",
+          "chromosome",
+          "base_pair_location",
+          "effect_allele",
+          "other_allele",
+          "odds_ratio",
+          "standard_error"
+        ],
+        "inspection_scope": "first header and up to eight records only; no locus enumeration, effect analysis or whole-file QC",
+        "prefix_path": "audits/catalog/GCST90016593/GCST90016593_buildGRCh37.tsv.prefix",
+        "prefix_sha256": "eda27b15cba46b7e4cc41662cb1196b198abccb2925bb7db0859c1caecf7a593",
+        "records_width_matches": true,
+        "representative_records": [
+          [
+            "rs533090414",
+            "0.6742",
+            "1",
+            "18849",
+            "C",
+            "G",
+            "1.0542",
+            "0.125563"
+          ],
+          [
+            "rs568927205",
+            "0.183687",
+            "1",
+            "54712",
+            "T",
+            "TTTTC",
+            "0.94944",
+            "0.0390246"
+          ],
+          [
+            "\"NA\"",
+            "0.115785",
+            "1",
+            "82133",
+            "CAA",
+            "C",
+            "0.778527",
+            "0.159184"
+          ],
+          [
+            "rs28619159",
+            "0.634491",
+            "1",
+            "91421",
+            "C",
+            "T",
+            "0.931908",
+            "0.148337"
+          ],
+          [
+            "rs375085441",
+            "0.038082",
+            "1",
+            "91551",
+            "GT",
+            "G",
+            "1.6935500000000001",
+            "0.254019"
+          ],
+          [
+            "rs377100675",
+            "0.939867",
+            "1",
+            "125271",
+            "C",
+            "T",
+            "1.00817",
+            "0.107923"
+          ],
+          [
+            "rs62642131",
+            "0.382928",
+            "1",
+            "135982",
+            "A",
+            "G",
+            "0.846283",
+            "0.191288"
+          ],
+          [
+            "rs189259765",
+            "0.462145",
+            "1",
+            "536095",
+            "T",
+            "C",
+            "1.03377",
+            "0.0451651"
+          ]
+        ],
+        "sample_records": 8,
+        "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90016001-GCST90017000/GCST90016593/GCST90016593_buildGRCh37.tsv",
+        "whole_file_downloaded_and_validated": false,
+        "whole_source_content_range": "bytes 0-131071/530937704"
+      },
+      "whole_file_validated": false
+    },
+    {
+      "LD_requirement": "UKB European cohort-matched or comparable signed LD, verified exact allele/build coverage; smoking-stratum sample composition and no per-variant N/AF require specific justification. Do not treat all four overlapping smoking strata as independent meta-analysis cohorts.",
+      "access_or_execution_blockers": [
+        "Whole-file download, publisher checksum and genome/locus completeness validation deferred",
+        "Verify logOR SE lineage and finite valid fields before converting OR to logOR",
+        "Per-variant N/AF/quality absent; establish acceptable source assumptions and independent allele checks",
+        "Bind compatible signed UKB LD and perform future locus-level QC",
+        "Marginal stratum-specific locus counts not yet enumerated; no eligibility count invented"
+      ],
+      "ancestry_meta_analysis_status": "UK Biobank European ancestry; single-cohort smoking-stratum marginal logistic association, not pooled multi-ancestry meta-analysis.",
+      "catalog_api_and_ftp_evidence": {
+        "audit_path": "audits/catalog/GCST90016594/audit.json",
+        "audit_sha256": "97eecf95cdb7c63888771b440f452ff5d81d5a46b612cf0fb2092add73e4f6d8",
+        "catalog_flag_not_usability_proof": true,
+        "directory_http_status": 200,
+        "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90016001-GCST90017000/GCST90016594/"
+      },
+      "cohorts": "UKB",
+      "current_catalog_discovery_ancestry": [
+        "186176 European (U.K.)"
+      ],
+      "current_catalog_initial_N_description": "16,488 European ancestry cases, 169,688 European ancestry controls",
+      "current_catalog_replication_N_description": "NA",
+      "current_catalog_replication_ancestry": [],
+      "distinction": "Direct COPD susceptibility within a smoking-defined stratum. Do not substitute interaction main-effect coefficients GCST90016586/591, interaction terms, or2-df omnibus P values.",
+      "doi": "10.1093/aje/kwaa227",
+      "expected_eligible_locus_count": null,
+      "frozen_initial_N_description": "16,488 European ancestry cases, 169,688 European ancestry controls",
+      "genome_build": "Original raw GRCh37; harmonized hm_* coordinates GRCh38 by corresponding YAML. Do not combine raw allele/effect/position with hm_* counterparts.",
+      "immediately_executable": false,
+      "locus_completeness_status": "Genome-wide release supported by study design, current Catalog9,886,854 tested variants and actual raw prefix containing non-significant records. Whole-file completeness and locus density remain future checks, not proved by header.",
+      "new_primary_evidence": [
+        {
+          "access_record": "audits/direct/acquired/kim2021_pmc/access.json",
+          "acquired_sha256": "03f03f71d4e7456f5e561f622e3eb282e90036da17e495b48371ab12ce0eb0c7",
+          "body_path": "audits/direct/acquired/kim2021_pmc/response.bin",
+          "http_status": 200,
+          "label": "kim2021_pmc",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8096488/"
+        },
+        {
+          "access_record": "audits/direct/acquired/plink2_formats/access.json",
+          "acquired_sha256": "e89f64711155bc8efbb23b5830f12dbe4ad9fb62a9956486acc1da36daaa760a",
+          "body_path": "audits/direct/acquired/plink2_formats/response.bin",
+          "http_status": 200,
+          "label": "plink2_formats",
+          "url": "https://www.cog-genomics.org/plink/2.0/formats"
+        }
+      ],
+      "overlap_considerations": "Same UKB sample under different smoking strata/models; overlaps UKB COPD GWAS including Sakornsakolpat, Joo, Moll. COPDGene/SpiroMeta are selected-signal follow-up, not additional discovery participants in this accession.",
+      "phenotype_class": "direct_copd_susceptibility",
+      "phenotype_definition": {
+        "ascertainment": "quality-controlled spirometry",
+        "case": "UKB pre-bronchodilator FEV1/FVC <0.7 and FEV1 <80% predicted",
+        "control": "UKB comparison participants without the moderate-airflow-limitation case phenotype; exact control threshold not_reported in retrieved main text",
+        "sex_design": "both sexes; no sex-stratified test reported for this accession",
+        "smoking_design": "ordinary COPD case-control analysis restricted to non-current smokers",
+        "spirometry": "pre-bronchodilator; FEV1/FVC <0.7 and FEV1 <80% predicted"
+      },
+      "primary_publication_N": {
+        "cases": 16488,
+        "controls": 169688,
+        "source": "Current Catalog accession metadata; paper whole analysis21,077cases/179,689controls.",
+        "stratum": "noncurrent smokers"
+      },
+      "public_access_status": "Anonymous HTTP206 header+representative-record access successful for actual large raw file and formatted/harmonized equivalents.",
+      "publication": "Genome-wide Gene-by-smoking Interaction Study of Chronic Obstructive Pulmonary Disease.",
+      "published_locus_count": {
+        "not_substitutable": "48 ever-interaction and55 current-interaction loci belong to2-df joint tests, NOT the four marginal stratum GWAS.",
+        "this_stratum": null
+      },
+      "pubmed_id": "33106845",
+      "review_scope": "Primary methods, original/formatted/harmonized Catalog prefixes and metadata, official PLINK output-field definitions reviewed. No full-file statistical checks.",
+      "risk_direction_status": "Signed disease-risk direction feasible: OR relative to explicit effect allele. Future full-file checks must confirm finite positiveOR, valid paired alleles, scale and build; no risk-allele table constructed here.",
+      "signed_effect_fields": {
+        "P": "p_value",
+        "SE": "standard_error; log-odds interpretation supported by logistic PLINK methods and official schema, but Catalog transformation lineage requires future confirmation",
+        "effect": "odds_ratio; tested effect allele associated with COPD outcome",
+        "effect_allele": "effect_allele explicit",
+        "frequency": "absent from raw; formatted/harmonized AF placeholder columns NA in inspected records",
+        "other_allele": "other_allele explicit",
+        "per_variant_N": "absent from raw",
+        "variant_id": "variant_id rsID or quoted NA; preserve chromosome/position/alleles for exact keys",
+        "variant_quality": "absent from raw; paper inclusionMAF>=0.01 and imputation r2>=0.5 are study-level filters, not per-record QC fields"
+      },
+      "source_references_frozen": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8096488/",
+        "https://www.ebi.ac.uk/gwas/studies/GCST90016594"
+      ],
+      "study_accession": "GCST90016594",
+      "unrestricted_download_scope": "Actual file prefixes verified; complete large file deliberately not downloaded in preflight.",
+      "unrestricted_download_verified": true,
+      "verified_raw_file": {
+        "access_status": 206,
+        "header": [
+          "variant_id",
+          "p_value",
+          "chromosome",
+          "base_pair_location",
+          "effect_allele",
+          "other_allele",
+          "odds_ratio",
+          "standard_error"
+        ],
+        "inspection_scope": "first header and up to eight records only; no locus enumeration, effect analysis or whole-file QC",
+        "prefix_path": "audits/catalog/GCST90016594/GCST90016594_buildGRCh37.tsv.prefix",
+        "prefix_sha256": "c5c3a1d385d038c30ea41a2d7d4ea57a650385347bdacf6fd96898220032f604",
+        "records_width_matches": true,
+        "representative_records": [
+          [
+            "rs533090414",
+            "0.697491",
+            "1",
+            "18849",
+            "C",
+            "G",
+            "1.0213699999999999",
+            "0.0544004"
+          ],
+          [
+            "rs568927205",
+            "0.807399",
+            "1",
+            "54712",
+            "T",
+            "TTTTC",
+            "1.00411",
+            "0.0168278"
+          ],
+          [
+            "\"NA\"",
+            "0.599357",
+            "1",
+            "82133",
+            "CAA",
+            "C",
+            "1.03526",
+            "0.0659661"
+          ],
+          [
+            "rs28619159",
+            "0.0755385",
+            "1",
+            "91421",
+            "C",
+            "T",
+            "1.11848",
+            "0.063004"
+          ],
+          [
+            "rs375085441",
+            "0.724347",
+            "1",
+            "91551",
+            "GT",
+            "G",
+            "1.04047",
+            "0.112506"
+          ],
+          [
+            "rs377100675",
+            "0.498833",
+            "1",
+            "125271",
+            "C",
+            "T",
+            "1.03025",
+            "0.0440672"
+          ],
+          [
+            "rs62642131",
+            "0.452369",
+            "1",
+            "135982",
+            "A",
+            "G",
+            "0.940482",
+            "0.0816575"
+          ],
+          [
+            "rs189259765",
+            "0.893043",
+            "1",
+            "536095",
+            "T",
+            "C",
+            "1.00259",
+            "0.0192665"
+          ]
+        ],
+        "sample_records": 8,
+        "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90016001-GCST90017000/GCST90016594/GCST90016594_buildGRCh37.tsv",
+        "whole_file_downloaded_and_validated": false,
+        "whole_source_content_range": "bytes 0-131071/532691285"
+      },
+      "whole_file_validated": false
+    },
+    {
+      "LD_requirement": "Study/ancestry-compatible signed LD with independently verified allele coding, variant coverage and sample provenance; none established by this direct-source artifact.",
+      "access_or_execution_blockers": [
+        "Full signed locus-complete statistics not verified",
+        "Matched signed LD and future locus-level QC not established"
+      ],
+      "ancestry_meta_analysis_status": "See source-specific override or frozen cohort description; aggregate Catalog labels alone do not verify pooled-analysis ancestry.",
+      "catalog_api_and_ftp_evidence": {
+        "audit_path": "audits/catalog/GCST011793/audit.json",
+        "audit_sha256": "a57ff1a110f5c32eddb6ad4ba60676ca3108041075d77378c71b4db659f30b29",
+        "catalog_flag_not_usability_proof": false,
+        "directory_http_status": 404,
+        "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST011001-GCST012000/GCST011793/"
+      },
+      "cohorts": "GENIE",
+      "current_catalog_discovery_ancestry": [
+        "1816 East Asian (Republic of Korea)"
+      ],
+      "current_catalog_initial_N_description": "38 Korean ancestry cases, 1,778 Korean ancestry controls",
+      "current_catalog_replication_N_description": "NA",
+      "current_catalog_replication_ancestry": [],
+      "doi": "10.2147/COPD.S269263",
+      "expected_eligible_locus_count": null,
+      "frozen_initial_N_description": "38 Korean ancestry cases, 1,778 Korean ancestry controls",
+      "genome_build": "Not verified from an actual summary-file header",
+      "immediately_executable": false,
+      "locus_completeness_status": "Not established; Catalog association hits must not be used to reconstruct locus statistics.",
+      "new_primary_evidence": [],
+      "overlap_considerations": "Never-smoker accession nested within full GENIE analysis; possible SNUH overlap with Do 2022, participant-level identity not_reported.",
+      "phenotype_class": "direct_copd_susceptibility",
+      "phenotype_definition": {
+        "ascertainment": "GENIE health-screening spirometry performed by trained staff",
+        "case": "Age >=40; FEV1/FVC <0.7 and FEV1 >=50% predicted",
+        "control": "FEV1/FVC >=0.7 and FEV1 >=80% predicted",
+        "sex_design": "both sexes; no sex-stratified test reported for this accession",
+        "smoking_design": "never-smoker restriction",
+        "spirometry": "ATS standardized spirometry; ratio <0.7; bronchodilator confirmation not_reported"
+      },
+      "public_access_status": "No actual complete signed file verified in direct-source audit; consult current Catalog audit and source-specific alternative audit.",
+      "publication": "A Genome-Wide Association Study in Early COPD: Identification of One Major Susceptibility Loci.",
+      "published_locus_count": null,
+      "pubmed_id": "33235445",
+      "review_scope": "Frozen phenotype adjudication plus current accession API/FTP checks; no additional full-text source-specific review claimed for this row.",
+      "risk_direction_status": "Not executable without signed file and verified effect-allele semantics.",
+      "signed_effect_fields": {
+        "P": "unverified",
+        "SE": "unverified",
+        "effect": "unverified",
+        "effect_allele": "unverified",
+        "frequency": "unverified",
+        "other_allele": "unverified",
+        "per_variant_N": "unverified",
+        "variant_id": "unverified",
+        "variant_quality": "unverified"
+      },
+      "source_references_frozen": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7680157/",
+        "https://www.ebi.ac.uk/gwas/studies/GCST011793"
+      ],
+      "study_accession": "GCST011793",
+      "unrestricted_download_verified": false,
+      "whole_file_validated": false
+    },
+    {
+      "LD_requirement": "Study/ancestry-compatible signed LD with independently verified allele coding, variant coverage and sample provenance; none established by this direct-source artifact.",
+      "access_or_execution_blockers": [
+        "Full signed locus-complete statistics not verified",
+        "Matched signed LD and future locus-level QC not established"
+      ],
+      "ancestry_meta_analysis_status": "See source-specific override or frozen cohort description; aggregate Catalog labels alone do not verify pooled-analysis ancestry.",
+      "catalog_api_and_ftp_evidence": {
+        "audit_path": "audits/catalog/GCST011794/audit.json",
+        "audit_sha256": "e5fb1116c1627667dbb729aaf5f11721b74dd5e3ee672e1d238f8569e5b41c5c",
+        "catalog_flag_not_usability_proof": false,
+        "directory_http_status": 404,
+        "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST011001-GCST012000/GCST011794/"
+      },
+      "cohorts": "GENIE",
+      "current_catalog_discovery_ancestry": [
+        "3608 East Asian (Republic of Korea)"
+      ],
+      "current_catalog_initial_N_description": "130 Korean ancestry cases, 3,478 Korean ancestry controls",
+      "current_catalog_replication_N_description": "NA",
+      "current_catalog_replication_ancestry": [],
+      "doi": "10.2147/COPD.S269263",
+      "expected_eligible_locus_count": null,
+      "frozen_initial_N_description": "130 Korean ancestry cases, 3,478 Korean ancestry controls",
+      "genome_build": "Not verified from an actual summary-file header",
+      "immediately_executable": false,
+      "locus_completeness_status": "Not established; Catalog association hits must not be used to reconstruct locus statistics.",
+      "new_primary_evidence": [],
+      "overlap_considerations": "Never-smoker accession nested within full GENIE analysis; possible SNUH overlap with Do 2022, participant-level identity not_reported.",
+      "phenotype_class": "direct_copd_susceptibility",
+      "phenotype_definition": {
+        "ascertainment": "GENIE health-screening spirometry performed by trained staff",
+        "case": "Age >=40; FEV1/FVC <0.7 and FEV1 >=50% predicted",
+        "control": "FEV1/FVC >=0.7 and FEV1 >=80% predicted",
+        "sex_design": "both sexes; no sex-stratified test reported for this accession",
+        "smoking_design": "all smoking categories; smoking adjustment/stratification reported",
+        "spirometry": "ATS standardized spirometry; ratio <0.7; bronchodilator confirmation not_reported"
+      },
+      "public_access_status": "No actual complete signed file verified in direct-source audit; consult current Catalog audit and source-specific alternative audit.",
+      "publication": "A Genome-Wide Association Study in Early COPD: Identification of One Major Susceptibility Loci.",
+      "published_locus_count": null,
+      "pubmed_id": "33235445",
+      "review_scope": "Frozen phenotype adjudication plus current accession API/FTP checks; no additional full-text source-specific review claimed for this row.",
+      "risk_direction_status": "Not executable without signed file and verified effect-allele semantics.",
+      "signed_effect_fields": {
+        "P": "unverified",
+        "SE": "unverified",
+        "effect": "unverified",
+        "effect_allele": "unverified",
+        "frequency": "unverified",
+        "other_allele": "unverified",
+        "per_variant_N": "unverified",
+        "variant_id": "unverified",
+        "variant_quality": "unverified"
+      },
+      "source_references_frozen": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7680157/",
+        "https://www.ebi.ac.uk/gwas/studies/GCST011794"
+      ],
+      "study_accession": "GCST011794",
+      "unrestricted_download_verified": false,
+      "whole_file_validated": false
+    },
+    {
+      "LD_requirement": "No LD reference can restore association statistics for unassayed/nonselected noncoding variants.",
+      "access_or_execution_blockers": [
+        "Unsuitable as primary dense locus fine-mapping input owing to exonic ascertainment",
+        "Do not mislabel appendix or20,536selected-variant release as genome-wide locus-complete data"
+      ],
+      "ancestry_meta_analysis_status": "Mixed-ancestry twelve-cohort meta-analysis, UKB+ICGC; not whole-genome dense coverage.",
+      "catalog_api_and_ftp_evidence": {
+        "audit_path": "audits/catalog/GCST011766/audit.json",
+        "audit_sha256": "975780c24252fef8091c5bf3727664fe9ef20c0c2f7f14b7c223fb24c8e34598",
+        "catalog_flag_not_usability_proof": false,
+        "directory_http_status": 404,
+        "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST011001-GCST012000/GCST011766/"
+      },
+      "cohorts": "ARIC;CHS;COPDGene;EOCOPD;FHS;HABC;ICGN;KARE;MESA;Rotterdam;TCGS;UKB;UKECC",
+      "current_catalog_discovery_ancestry": [
+        "236312 European (NR, Poland, U.K., U.S.)",
+        "7493 African unspecified (U.S.)",
+        "674 Hispanic or Latin American (U.S.)",
+        "7771 East Asian (U.K., U.S.)"
+      ],
+      "current_catalog_initial_N_description": "up to 31,465 European ancestry cases, up to 203,688 European ancestry controls, up to 1,413 African ancestry cases, up to 6,080 African ancestry controls, up to 287 East Asian ancestry cases, up to 7,484 East Asian ancestry controls, up to 61 Hispanic cases, up to 613 Hispanic controls",
+      "current_catalog_replication_N_description": "NA",
+      "current_catalog_replication_ancestry": [],
+      "doi": "10.1152/ajplung.00009.2021",
+      "expected_eligible_locus_count": null,
+      "frozen_initial_N_description": "up to 31,465 European ancestry cases, up to 203,688 European ancestry controls, up to 1,413 African ancestry cases, up to 6,080 African ancestry controls, up to 287 East Asian ancestry cases, up to 7,484 East Asian ancestry controls, up to 61 Hispanic cases, up to 613 Hispanic controls",
+      "genome_build": "Not verified from an actual summary-file header",
+      "immediately_executable": false,
+      "locus_completeness_status": "Analysis deliberately selected protein-altering exonic variants:109,036initial functional array variants,20,536retained; inappropriate as dense regional full GWAS input even if every retained exonic statistic were obtained.",
+      "new_primary_evidence": [
+        {
+          "access_record": "audits/direct/acquired/moll2021_pmc/access.json",
+          "acquired_sha256": "40e8095d7747855a38fc5b813a1593eab095ed7ba7ece7fcc15ae7504d799180",
+          "body_path": "audits/direct/acquired/moll2021_pmc/response.bin",
+          "http_status": 200,
+          "label": "moll2021_pmc",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8321852/"
+        },
+        {
+          "access_record": "audits/direct/acquired/moll2021_figshare_api/access.json",
+          "acquired_sha256": "54ff20665f681c4673dc59397c349beed2e2c41559b32c38e5e44ca00f709d37",
+          "body_path": "audits/direct/acquired/moll2021_figshare_api/response.bin",
+          "http_status": 200,
+          "label": "moll2021_figshare_api",
+          "url": "https://api.figshare.com/v2/articles/14538222"
+        }
+      ],
+      "overlap_considerations": "Substantial known/probable overlap with ICGC, UKB and COPDGene GWAS; exome-array platform does not create independent subjects.",
+      "phenotype_class": "direct_copd_susceptibility",
+      "phenotype_definition": {
+        "ascertainment": "spirometry in population and COPD case-control cohorts",
+        "case": "Mainly FEV1/FVC <0.7 and FEV1 <80% predicted; cohort-specific definitions",
+        "control": "Non-COPD participants defined by constituent cohorts; exact control thresholds vary",
+        "sex_design": "both sexes; no sex-stratified test reported for this accession",
+        "smoking_design": "cohort-dependent; COPD case-control cohorts enriched for smokers, population cohorts broader",
+        "spirometry": "primarily pre-bronchodilator; post-bronchodilator used when available"
+      },
+      "public_access_status": "Public supplement DOI10.6084/m9.figshare.14538222 lists only a6,177,157-byte DOCX appendix; no complete dense genome-wide association file verified.",
+      "publication": "A Systematic Analysis of Protein-altering Exonic Variants in Chronic Obstructive Pulmonary Disease.",
+      "published_locus_count": {
+        "LD_clumped_lead_variants": 35,
+        "exome_significant_variants": 80,
+        "note": "Not35dense fine-mapping loci; functional preselection violates region completeness."
+      },
+      "pubmed_id": "33909500",
+      "review_scope": "Primary Moll paper and figshare API inventory reviewed.",
+      "risk_direction_status": "Not executable without signed file and verified effect-allele semantics.",
+      "signed_effect_fields": {
+        "P": "unverified",
+        "SE": "unverified",
+        "effect": "unverified",
+        "effect_allele": "unverified",
+        "frequency": "unverified",
+        "other_allele": "unverified",
+        "per_variant_N": "unverified",
+        "variant_id": "unverified",
+        "variant_quality": "unverified"
+      },
+      "source_references_frozen": [
+        "https://doi.org/10.6084/m9.figshare.14538222.v1",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8321852/",
+        "https://www.ebi.ac.uk/gwas/studies/GCST011766"
+      ],
+      "study_accession": "GCST011766",
+      "unrestricted_download_verified": false,
+      "whole_file_validated": false
+    },
+    {
+      "LD_requirement": "Study used UKB white-British FUMA reference for locus identification; not proof of accessible signed full locus LD. Overlaps UKB Kim/Sakornsakolpat participants.",
+      "access_or_execution_blockers": [
+        "Request original complete signed sex-specific summary statistics with exact sample counts and allele/build fields",
+        "Bind matched UKB signed LD",
+        "Do not reconstruct genome-wide data from17/14lead loci or gene-level results"
+      ],
+      "ancestry_meta_analysis_status": "Sex-specific white British UK Biobank analyses, not meta-analysis.",
+      "catalog_api_and_ftp_evidence": {
+        "audit_path": "audits/catalog/GCST90103984/audit.json",
+        "audit_sha256": "01fd9fb42f9697f5607c7380f32854e7716b0b8ff54993ddd202e55c1f3f3123",
+        "catalog_flag_not_usability_proof": false,
+        "directory_http_status": 404,
+        "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90103001-GCST90104000/GCST90103984/"
+      },
+      "cohorts": "UKB",
+      "current_catalog_discovery_ancestry": [
+        "108589 European (U.K.)"
+      ],
+      "current_catalog_initial_N_description": "12,958 British ancestry male cases, 95,631 British ancestry male controls",
+      "current_catalog_replication_N_description": "NA",
+      "current_catalog_replication_ancestry": [],
+      "doi": "not_reported",
+      "expected_eligible_locus_count": null,
+      "frozen_initial_N_description": "12,958 British ancestry male cases, 95,631 British ancestry male controls",
+      "genome_build": "No actual full-file header verified; do not infer from UKB genotype build alone.",
+      "immediately_executable": false,
+      "locus_completeness_status": "Paper describes ~8.8million GWAS variants per sex, but publication lead tables are not locus-complete files.",
+      "new_primary_evidence": [
+        {
+          "access_record": "audits/direct/acquired/joo2022_pmc/access.json",
+          "acquired_sha256": "88485912091bfa41b2278877b8daac5736f6b82179ca1c2de3223f463bb354f7",
+          "body_path": "audits/direct/acquired/joo2022_pmc/response.bin",
+          "http_status": 200,
+          "label": "joo2022_pmc",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8861659/"
+        }
+      ],
+      "overlap_considerations": "Male/female strata distinct within publication but nested in overlapping UKB COPD GWAS; not independent cohorts.",
+      "phenotype_class": "direct_copd_susceptibility",
+      "phenotype_definition": {
+        "ascertainment": "quality-controlled pre-bronchodilator spirometry",
+        "case": "UKB FEV1/FVC <0.7 and FEV1 <80% predicted",
+        "control": "FEV1/FVC >0.7 and FEV1 >80% predicted",
+        "sex_design": "male-only",
+        "smoking_design": "both ever and never smokers; smoking used as study covariate",
+        "spirometry": "pre-bronchodilator; moderate/severe modified GOLD"
+      },
+      "primary_publication_N": {
+        "female_cases": 11311,
+        "female_controls_abstract_and_catalog": 123714,
+        "female_controls_methods_text": 123741,
+        "male_cases": 12958,
+        "male_controls": 95631,
+        "note": "Paper internal female-control count discrepancy retained, not silently reconciled."
+      },
+      "public_access_status": "Public primary article with lead/result tables; no unrestricted complete signed genome-wide file obtained.",
+      "publication": "Gene-Based Analysis Reveals Sex-Specific Genetic Risk Factors of COPD.",
+      "published_locus_count": {
+        "female": 14,
+        "male": 17,
+        "note": "Publication FUMA loci; not prospective eligible count.",
+        "shared": 9
+      },
+      "pubmed_id": "35308900",
+      "review_scope": "Primary paper reviewed; no public complete signed summary-file link located; generic CatalogFTP404 retained.",
+      "risk_direction_status": "Not executable without signed file and verified effect-allele semantics.",
+      "signed_effect_fields": {
+        "P": "unverified",
+        "SE": "unverified",
+        "effect": "unverified",
+        "effect_allele": "unverified",
+        "frequency": "unverified",
+        "other_allele": "unverified",
+        "per_variant_N": "unverified",
+        "variant_id": "unverified",
+        "variant_quality": "unverified"
+      },
+      "source_method_QC": "SAIGE v0.43.3; imputationINFO>=0.7 andMAF>=0.01; age, age2, height, ever-smoking and4PCs.",
+      "source_references_frozen": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8861659/",
+        "https://www.ebi.ac.uk/gwas/studies/GCST90103984"
+      ],
+      "study_accession": "GCST90103984",
+      "unrestricted_download_verified": false,
+      "whole_file_validated": false
+    },
+    {
+      "LD_requirement": "Study used UKB white-British FUMA reference for locus identification; not proof of accessible signed full locus LD. Overlaps UKB Kim/Sakornsakolpat participants.",
+      "access_or_execution_blockers": [
+        "Request original complete signed sex-specific summary statistics with exact sample counts and allele/build fields",
+        "Bind matched UKB signed LD",
+        "Do not reconstruct genome-wide data from17/14lead loci or gene-level results"
+      ],
+      "ancestry_meta_analysis_status": "Sex-specific white British UK Biobank analyses, not meta-analysis.",
+      "catalog_api_and_ftp_evidence": {
+        "audit_path": "audits/catalog/GCST90103985/audit.json",
+        "audit_sha256": "c407f9b9a659d6ad04d2127fd3d08783319ec3e0a166e169d7d2bb49cee35810",
+        "catalog_flag_not_usability_proof": false,
+        "directory_http_status": 404,
+        "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90103001-GCST90104000/GCST90103985/"
+      },
+      "cohorts": "UKB",
+      "current_catalog_discovery_ancestry": [
+        "135025 European (U.K.)"
+      ],
+      "current_catalog_initial_N_description": "11,311 British ancestry female cases, 123,714 British ancestry female controls",
+      "current_catalog_replication_N_description": "NA",
+      "current_catalog_replication_ancestry": [],
+      "doi": "not_reported",
+      "expected_eligible_locus_count": null,
+      "frozen_initial_N_description": "11,311 British ancestry female cases, 123,714 British ancestry female controls",
+      "genome_build": "No actual full-file header verified; do not infer from UKB genotype build alone.",
+      "immediately_executable": false,
+      "locus_completeness_status": "Paper describes ~8.8million GWAS variants per sex, but publication lead tables are not locus-complete files.",
+      "new_primary_evidence": [
+        {
+          "access_record": "audits/direct/acquired/joo2022_pmc/access.json",
+          "acquired_sha256": "88485912091bfa41b2278877b8daac5736f6b82179ca1c2de3223f463bb354f7",
+          "body_path": "audits/direct/acquired/joo2022_pmc/response.bin",
+          "http_status": 200,
+          "label": "joo2022_pmc",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8861659/"
+        }
+      ],
+      "overlap_considerations": "Male/female strata distinct within publication but nested in overlapping UKB COPD GWAS; not independent cohorts.",
+      "phenotype_class": "direct_copd_susceptibility",
+      "phenotype_definition": {
+        "ascertainment": "quality-controlled pre-bronchodilator spirometry",
+        "case": "UKB FEV1/FVC <0.7 and FEV1 <80% predicted",
+        "control": "FEV1/FVC >0.7 and FEV1 >80% predicted",
+        "sex_design": "female-only",
+        "smoking_design": "both ever and never smokers; smoking used as study covariate",
+        "spirometry": "pre-bronchodilator; moderate/severe modified GOLD"
+      },
+      "primary_publication_N": {
+        "female_cases": 11311,
+        "female_controls_abstract_and_catalog": 123714,
+        "female_controls_methods_text": 123741,
+        "male_cases": 12958,
+        "male_controls": 95631,
+        "note": "Paper internal female-control count discrepancy retained, not silently reconciled."
+      },
+      "public_access_status": "Public primary article with lead/result tables; no unrestricted complete signed genome-wide file obtained.",
+      "publication": "Gene-Based Analysis Reveals Sex-Specific Genetic Risk Factors of COPD.",
+      "published_locus_count": {
+        "female": 14,
+        "male": 17,
+        "note": "Publication FUMA loci; not prospective eligible count.",
+        "shared": 9
+      },
+      "pubmed_id": "35308900",
+      "review_scope": "Primary paper reviewed; no public complete signed summary-file link located; generic CatalogFTP404 retained.",
+      "risk_direction_status": "Not executable without signed file and verified effect-allele semantics.",
+      "signed_effect_fields": {
+        "P": "unverified",
+        "SE": "unverified",
+        "effect": "unverified",
+        "effect_allele": "unverified",
+        "frequency": "unverified",
+        "other_allele": "unverified",
+        "per_variant_N": "unverified",
+        "variant_id": "unverified",
+        "variant_quality": "unverified"
+      },
+      "source_method_QC": "SAIGE v0.43.3; imputationINFO>=0.7 andMAF>=0.01; age, age2, height, ever-smoking and4PCs.",
+      "source_references_frozen": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8861659/",
+        "https://www.ebi.ac.uk/gwas/studies/GCST90103985"
+      ],
+      "study_accession": "GCST90103985",
+      "unrestricted_download_verified": false,
+      "whole_file_validated": false
+    },
+    {
+      "LD_requirement": "Study/ancestry-compatible signed LD with independently verified allele coding, variant coverage and sample provenance; none established by this direct-source artifact.",
+      "access_or_execution_blockers": [
+        "Full signed locus-complete statistics not verified",
+        "Matched signed LD and future locus-level QC not established"
+      ],
+      "ancestry_meta_analysis_status": "See source-specific override or frozen cohort description; aggregate Catalog labels alone do not verify pooled-analysis ancestry.",
+      "catalog_api_and_ftp_evidence": {
+        "audit_path": "audits/catalog/GCST90162551/audit.json",
+        "audit_sha256": "12ecbfcf78bd746912a08fdb9db469468e86c319c48da16592af5a7dfc3ed45b",
+        "catalog_flag_not_usability_proof": false,
+        "directory_http_status": 404,
+        "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90162001-GCST90163000/GCST90162551/"
+      },
+      "cohorts": "COGEND;COPDGene;ECLIPSE",
+      "current_catalog_discovery_ancestry": [
+        "1525 African American or Afro-Caribbean (U.S.)",
+        "8936 European (U.S.)"
+      ],
+      "current_catalog_initial_N_description": "4,500 European ancestry cases, 4,436 European ancestry controls, 813 African American cases, 712 African American controls",
+      "current_catalog_replication_N_description": "NA",
+      "current_catalog_replication_ancestry": [],
+      "doi": "10.1038/s42003-022-03738-6",
+      "expected_eligible_locus_count": null,
+      "frozen_initial_N_description": "4,500 European ancestry cases, 4,436 European ancestry controls, 813 African American cases, 712 African American controls",
+      "genome_build": "Not verified from an actual summary-file header",
+      "immediately_executable": false,
+      "locus_completeness_status": "Not established; Catalog association hits must not be used to reconstruct locus statistics.",
+      "new_primary_evidence": [],
+      "overlap_considerations": "Known overlapping COPDGene/ECLIPSE cases with earlier COPD GWAS; COGEND controls from nicotine-dependence study.",
+      "phenotype_class": "direct_copd_susceptibility",
+      "phenotype_definition": {
+        "ascertainment": "GOLD spirometric cases; controls partly unscreened for spirometric COPD",
+        "case": "COPDGene/ECLIPSE GOLD 2-4 COPD cases",
+        "control": "COPDGene non-COPD smokers or COGEND smoking controls; COGEND lung-function phenotypes unavailable",
+        "sex_design": "both sexes; no sex-stratified test reported for this accession",
+        "smoking_design": "current/former smoking controls; smoking-related cohorts",
+        "spirometry": "case GOLD 2-4; COGEND controls not spirometrically screened"
+      },
+      "public_access_status": "No actual complete signed file verified in direct-source audit; consult current Catalog audit and source-specific alternative audit.",
+      "publication": "GAWMerge expands GWAS sample size and diversity by combining array-based genotyping and whole-genome sequencing.",
+      "published_locus_count": null,
+      "pubmed_id": "35953715",
+      "review_scope": "Frozen phenotype adjudication plus current accession API/FTP checks; no additional full-text source-specific review claimed for this row.",
+      "risk_direction_status": "Not executable without signed file and verified effect-allele semantics.",
+      "signed_effect_fields": {
+        "P": "unverified",
+        "SE": "unverified",
+        "effect": "unverified",
+        "effect_allele": "unverified",
+        "frequency": "unverified",
+        "other_allele": "unverified",
+        "per_variant_N": "unverified",
+        "variant_id": "unverified",
+        "variant_quality": "unverified"
+      },
+      "source_references_frozen": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9372058/",
+        "https://www.ebi.ac.uk/gwas/studies/GCST90162551"
+      ],
+      "study_accession": "GCST90162551",
+      "unrestricted_download_verified": false,
+      "whole_file_validated": false
+    },
+    {
+      "LD_requirement": "Study/ancestry-compatible signed LD with independently verified allele coding, variant coverage and sample provenance; none established by this direct-source artifact.",
+      "access_or_execution_blockers": [
+        "Full signed locus-complete statistics not verified",
+        "Matched signed LD and future locus-level QC not established"
+      ],
+      "ancestry_meta_analysis_status": "See source-specific override or frozen cohort description; aggregate Catalog labels alone do not verify pooled-analysis ancestry.",
+      "catalog_api_and_ftp_evidence": {
+        "audit_path": "audits/catalog/GCST90255361/audit.json",
+        "audit_sha256": "6a5a900bd40943a2882d8f9448eb244a6295067332089126981c8a0d6abf59aa",
+        "catalog_flag_not_usability_proof": false,
+        "directory_http_status": 404,
+        "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90255001-GCST90256000/GCST90255361/"
+      },
+      "cohorts": "KNUH;SNUH;UKB",
+      "current_catalog_discovery_ancestry": [
+        "6437 East Asian (Republic of Korea)"
+      ],
+      "current_catalog_initial_N_description": "1,091 Korean ancestry cases, 5,346 Korean ancestry controls",
+      "current_catalog_replication_N_description": "7,822 European ancestry cases, 109,871 European ancestry controls",
+      "current_catalog_replication_ancestry": [
+        "117693 European (U.K.)"
+      ],
+      "doi": "10.1038/s41598-022-24766-6",
+      "expected_eligible_locus_count": null,
+      "frozen_initial_N_description": "1,091 Korean ancestry cases, 5,346 Korean ancestry controls",
+      "genome_build": "Not verified from an actual summary-file header",
+      "immediately_executable": false,
+      "locus_completeness_status": "Not established; Catalog association hits must not be used to reconstruct locus statistics.",
+      "new_primary_evidence": [],
+      "overlap_considerations": "SNUH discovery may overlap GENIE (not verified); UKB replication overlaps other UKB studies. UKB not discovery ancestry for Korean coefficient.",
+      "phenotype_class": "direct_copd_susceptibility",
+      "phenotype_definition": {
+        "ascertainment": "clinical cohorts and health-screening spirometry",
+        "case": "Korean patients age >=40, FEV1/FVC <0.7, no asthma; ACO excluded",
+        "control": "Subjects without asthma/COPD/other respiratory disease by standardized questionnaire",
+        "sex_design": "both sexes; no sex-stratified test reported for this accession",
+        "smoking_design": "smoking-adjusted sensitivity of top signals; no universal smoking restriction",
+        "spirometry": "FEV1/FVC <0.7; post-bronchodilator confirmation not_reported"
+      },
+      "public_access_status": "No actual complete signed file verified in direct-source audit; consult current Catalog audit and source-specific alternative audit.",
+      "publication": "A genome-wide association study implicates the pleiotropic effect of NMUR2 on asthma and COPD.",
+      "published_locus_count": null,
+      "pubmed_id": "36543808",
+      "review_scope": "Frozen phenotype adjudication plus current accession API/FTP checks; no additional full-text source-specific review claimed for this row.",
+      "risk_direction_status": "Not executable without signed file and verified effect-allele semantics.",
+      "signed_effect_fields": {
+        "P": "unverified",
+        "SE": "unverified",
+        "effect": "unverified",
+        "effect_allele": "unverified",
+        "frequency": "unverified",
+        "other_allele": "unverified",
+        "per_variant_N": "unverified",
+        "variant_id": "unverified",
+        "variant_quality": "unverified"
+      },
+      "source_references_frozen": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9772307/",
+        "https://www.ebi.ac.uk/gwas/studies/GCST90255361"
+      ],
+      "study_accession": "GCST90255361",
+      "unrestricted_download_verified": false,
+      "whole_file_validated": false
+    }
+  ],
+  "study_count": 27
+}

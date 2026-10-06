@@ -1,0 +1,175 @@
+{
+  "COPD_bothsex_rows": [
+    [
+      "Chronic obstructive pulmonary disease",
+      "COPD",
+      "Bothsex",
+      "afr",
+      "all biobanks",
+      "BioMe,BioVU,CCPM,MGI,UCLA,UKBB",
+      "wget https://gbmi-sumstats.s3.amazonaws.com/COPD_Bothsex_afr_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz  -O COPD_Bothsex_afr_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz",
+      "wget https://gbmi-sumstats.s3.amazonaws.com/COPD_Bothsex_afr_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz.tbi -O COPD_Bothsex_afr_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz.tbi",
+      "wget https://gbmi-sumstats.s3.amazonaws.com/COPD_Bothsex_afr_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz_inv_var_meta_QQ.png  -O COPD_Bothsex_afr_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz_inv_var_meta_QQ.png",
+      "wget https://gbmi-sumstats.s3.amazonaws.com/COPD_Bothsex_afr_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz.Manhattan.png  -O COPD_Bothsex_afr_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz.Manhattan.png"
+    ],
+    [
+      "Chronic obstructive pulmonary disease",
+      "COPD",
+      "Bothsex",
+      "amr",
+      "all biobanks",
+      "BioMe,CCPM,UCLA",
+      "wget https://gbmi-sumstats.s3.amazonaws.com/COPD_Bothsex_amr_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz  -O COPD_Bothsex_amr_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz",
+      "wget https://gbmi-sumstats.s3.amazonaws.com/COPD_Bothsex_amr_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz.tbi -O COPD_Bothsex_amr_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz.tbi",
+      "wget https://gbmi-sumstats.s3.amazonaws.com/COPD_Bothsex_amr_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz_inv_var_meta_QQ.png  -O COPD_Bothsex_amr_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz_inv_var_meta_QQ.png",
+      "wget https://gbmi-sumstats.s3.amazonaws.com/COPD_Bothsex_amr_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz.Manhattan.png  -O COPD_Bothsex_amr_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz.Manhattan.png"
+    ],
+    [
+      "Chronic obstructive pulmonary disease",
+      "COPD",
+      "Bothsex",
+      "eas",
+      "all biobanks",
+      "BBJ,CKB,TWB,UCLA",
+      "wget https://gbmi-sumstats.s3.amazonaws.com/COPD_Bothsex_eas_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz  -O COPD_Bothsex_eas_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz",
+      "wget https://gbmi-sumstats.s3.amazonaws.com/COPD_Bothsex_eas_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz.tbi -O COPD_Bothsex_eas_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz.tbi",
+      "wget https://gbmi-sumstats.s3.amazonaws.com/COPD_Bothsex_eas_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz_inv_var_meta_QQ.png  -O COPD_Bothsex_eas_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz_inv_var_meta_QQ.png",
+      "wget https://gbmi-sumstats.s3.amazonaws.com/COPD_Bothsex_eas_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz.Manhattan.png  -O COPD_Bothsex_eas_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz.Manhattan.png"
+    ],
+    [
+      "Chronic obstructive pulmonary disease",
+      "COPD",
+      "Bothsex",
+      "eur",
+      "all biobanks",
+      "BioMe,BioVU,CCPM,ESTBB,FinnGen,GS,HUNT,Lifelines,MGB,MGI,UCLA,UKBB",
+      "wget https://gbmi-sumstats.s3.amazonaws.com/COPD_Bothsex_eur_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz  -O COPD_Bothsex_eur_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz",
+      "wget https://gbmi-sumstats.s3.amazonaws.com/COPD_Bothsex_eur_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz.tbi -O COPD_Bothsex_eur_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz.tbi",
+      "wget https://gbmi-sumstats.s3.amazonaws.com/COPD_Bothsex_eur_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz_inv_var_meta_QQ.png  -O COPD_Bothsex_eur_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz_inv_var_meta_QQ.png",
+      "wget https://gbmi-sumstats.s3.amazonaws.com/COPD_Bothsex_eur_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz.Manhattan.png  -O COPD_Bothsex_eur_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz.Manhattan.png"
+    ],
+    [
+      "Chronic obstructive pulmonary disease",
+      "COPD",
+      "Bothsex",
+      "eas,afr,eur,amr,sas",
+      "all biobanks",
+      "BBJ,BioMe,BioVU,CCPM,CKB,ESTBB,FinnGen,GNH,GS,HUNT,Lifelines,MGB,MGI,TWB,UCLA,UKBB",
+      "wget https://gbmi-sumstats.s3.amazonaws.com/COPD_Bothsex_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz  -O COPD_Bothsex_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz",
+      "wget https://gbmi-sumstats.s3.amazonaws.com/COPD_Bothsex_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz.tbi -O COPD_Bothsex_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz.tbi",
+      "wget https://gbmi-sumstats.s3.amazonaws.com/COPD_Bothsex_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz_inv_var_meta_QQ.png  -O COPD_Bothsex_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz_inv_var_meta_QQ.png",
+      "wget https://gbmi-sumstats.s3.amazonaws.com/COPD_Bothsex_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz.Manhattan.png  -O COPD_Bothsex_inv_var_meta_GBMI_052021_nbbkgt1.txt.gz.Manhattan.png"
+    ],
+    [
+      "Chronic obstructive pulmonary disease",
+      "COPD",
+      "Bothsex",
+      "eas,afr,eur,amr,sas",
+      "leave-UKBB-out",
+      "BBJ,BioMe,BioVU,CCPM,CKB,ESTBB,FinnGen,GNH,GS,HUNT,Lifelines,MGB,MGI,TWB,UCLA",
+      "wget https://gbmi-sumstats.s3.amazonaws.com/COPD_Bothsex_leave_UKBB_inv_var_meta_GBMI_052021.txt.gz -O COPD_Bothsex_leave_UKBB_inv_var_meta_GBMI_052021.txt.gz",
+      "wget https://gbmi-sumstats.s3.amazonaws.com/COPD_Bothsex_leave_UKBB_inv_var_meta_GBMI_052021.txt.gz.tbi -O COPD_Bothsex_leave_UKBB_inv_var_meta_GBMI_052021.txt.gz.tbi",
+      "wget https://gbmi-sumstats.s3.amazonaws.com/COPD_Bothsex_leave_UKBB_inv_var_meta_GBMI_052021.txt.gz_inv_var_meta_QQ.png -O COPD_Bothsex_leave_UKBB_inv_var_meta_GBMI_052021.txt.gz_inv_var_meta_QQ.png",
+      "wget https://gbmi-sumstats.s3.amazonaws.com/COPD_Bothsex_leave_UKBB_inv_var_meta_GBMI_052021.txt.gz.Manhattan.png -O COPD_Bothsex_leave_UKBB_inv_var_meta_GBMI_052021.txt.gz.Manhattan.png"
+    ]
+  ],
+  "complete_archive_CRC_check": "PASS",
+  "schema": [
+    [
+      "Links to download the summary statistics generated by GBMI are provided. For the association results, the headers are ",
+      ""
+    ],
+    [
+      "Column name",
+      "Description",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "#CHR",
+      "chromosome"
+    ],
+    [
+      "POS",
+      "genome coordinate (hg38)"
+    ],
+    [
+      "REF",
+      "reference allele"
+    ],
+    [
+      "ALT",
+      "alternative allele"
+    ],
+    [
+      "rsid",
+      "rs id"
+    ],
+    [
+      "all_meta_AF",
+      "frequency of ALT in the meta-analysis"
+    ],
+    [
+      "inv_var_meta_beta",
+      "effect size of ALT in the meta-analysis"
+    ],
+    [
+      "inv_var_meta_sebeta",
+      "standard error for effect size"
+    ],
+    [
+      "inv_var_meta_p",
+      "association p value in the meta-analysis"
+    ],
+    [
+      "inv_var_het_p",
+      "heterogeneity (Cochran\u2019s Q test) p value"
+    ],
+    [
+      "direction",
+      "direction of effect sizes in all data sets in the meta-analysis"
+    ],
+    [
+      "N_case",
+      "number of cases"
+    ],
+    [
+      "N_ctrl",
+      "number of controls"
+    ],
+    [
+      "n_bbk",
+      "number of biobanks in the meta-analysis (minimum is 2)"
+    ],
+    [
+      "is_strand_flip",
+      "flag to indicate whether this variant had a strand flip in any data set"
+    ],
+    [
+      "is_diff_AF_gnomAD",
+      "flag to indicate whether this variant failed the AF QC (compared to gnomAD) in any data set"
+    ]
+  ]
+}

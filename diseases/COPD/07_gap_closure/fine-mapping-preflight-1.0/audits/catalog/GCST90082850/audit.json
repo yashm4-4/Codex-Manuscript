@@ -1,0 +1,286 @@
+{
+  "accession": "GCST90082850",
+  "phenotype_class_frozen": "nonstandard_gene_burden_cnv",
+  "publication_pmid": "34662886",
+  "file_inventory": [
+    {
+      "name": "GCST90082850_buildGRCh38.tsv.gz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90082001-GCST90083000/GCST90082850/GCST90082850_buildGRCh38.tsv.gz",
+      "directory_evidence": "audits/catalog/GCST90082850/directory.html"
+    },
+    {
+      "name": "GCST90082850_buildGRCh38.tsv.gz-meta.yaml",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90082001-GCST90083000/GCST90082850/GCST90082850_buildGRCh38.tsv.gz-meta.yaml",
+      "directory_evidence": "audits/catalog/GCST90082850/directory.html"
+    },
+    {
+      "name": "README.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90082001-GCST90083000/GCST90082850/README.txt",
+      "directory_evidence": "audits/catalog/GCST90082850/directory.html"
+    },
+    {
+      "name": "md5sum.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90082001-GCST90083000/GCST90082850/md5sum.txt",
+      "directory_evidence": "audits/catalog/GCST90082850/directory.html"
+    }
+  ],
+  "headers": [
+    {
+      "header": [
+        "Name",
+        "chromosome",
+        "base_pair_location",
+        "other_allele",
+        "effect_allele",
+        "Trait",
+        "Cohort",
+        "Model",
+        "odds_ratio",
+        "ci_lower",
+        "ci_upper",
+        "p_value",
+        "effect_allele_frequency",
+        "standard_error"
+      ],
+      "representative_records": [
+        [
+          "SAMD11(ENSG00000187634).GENE.M1.0001",
+          "1",
+          "925941",
+          "ref",
+          "M1.0001",
+          "22130_DD_COPD_chronic_obstructive_pulmonary_disease_1_Yes_AnyInst__BIN",
+          "UKB_Freeze_450_EUR",
+          "ADD-WGR-FIRTH",
+          "1.03157",
+          "0.136226",
+          "7.81156",
+          "0.975994",
+          "0.000286377",
+          "1.03294"
+        ],
+        [
+          "SAMD11(ENSG00000187634).GENE.M1.001",
+          "1",
+          "925941",
+          "ref",
+          "M1.001",
+          "22130_DD_COPD_chronic_obstructive_pulmonary_disease_1_Yes_AnyInst__BIN",
+          "UKB_Freeze_450_EUR",
+          "ADD-WGR-FIRTH",
+          "1.04439",
+          "0.319437",
+          "3.4146",
+          "0.942714",
+          "0.00077137",
+          "0.604413"
+        ],
+        [
+          "SAMD11(ENSG00000187634).GENE.M1.01",
+          "1",
+          "925941",
+          "ref",
+          "M1.01",
+          "22130_DD_COPD_chronic_obstructive_pulmonary_disease_1_Yes_AnyInst__BIN",
+          "UKB_Freeze_450_EUR",
+          "ADD-WGR-FIRTH",
+          "1.13331",
+          "0.507969",
+          "2.5285",
+          "0.759869",
+          "0.00178755",
+          "0.409437"
+        ],
+        [
+          "SAMD11(ENSG00000187634).GENE.M1.1",
+          "1",
+          "925941",
+          "ref",
+          "M1.1",
+          "22130_DD_COPD_chronic_obstructive_pulmonary_disease_1_Yes_AnyInst__BIN",
+          "UKB_Freeze_450_EUR",
+          "ADD-WGR-FIRTH",
+          "1.53944",
+          "0.995327",
+          "2.38101",
+          "0.052512",
+          "0.00752432",
+          "0.222506"
+        ],
+        [
+          "SAMD11(ENSG00000187634).GENE.M1.singleton",
+          "1",
+          "925941",
+          "ref",
+          "M1.singleton",
+          "22130_DD_COPD_chronic_obstructive_pulmonary_disease_1_Yes_AnyInst__BIN",
+          "UKB_Freeze_450_EUR",
+          "ADD-WGR-FIRTH",
+          "0.355466",
+          "0.0103529",
+          "12.2049",
+          "0.566449",
+          "8.77606e-05",
+          "1.8042"
+        ],
+        [
+          "SAMD11(ENSG00000187634).GENE.M3.0001",
+          "1",
+          "925941",
+          "ref",
+          "M3.0001",
+          "22130_DD_COPD_chronic_obstructive_pulmonary_disease_1_Yes_AnyInst__BIN",
+          "UKB_Freeze_450_EUR",
+          "ADD-WGR-FIRTH",
+          "1.09962",
+          "0.252246",
+          "4.79357",
+          "0.899404",
+          "0.000623562",
+          "0.751194"
+        ],
+        [
+          "SAMD11(ENSG00000187634).GENE.M3.001",
+          "1",
+          "925941",
+          "ref",
+          "M3.001",
+          "22130_DD_COPD_chronic_obstructive_pulmonary_disease_1_Yes_AnyInst__BIN",
+          "UKB_Freeze_450_EUR",
+          "ADD-WGR-FIRTH",
+          "0.968364",
+          "0.432498",
+          "2.16817",
+          "0.937692",
+          "0.00182912",
+          "0.411247"
+        ],
+        [
+          "SAMD11(ENSG00000187634).GENE.M3.01",
+          "1",
+          "925941",
+          "ref",
+          "M3.01",
+          "22130_DD_COPD_chronic_obstructive_pulmonary_disease_1_Yes_AnyInst__BIN",
+          "UKB_Freeze_450_EUR",
+          "ADD-WGR-FIRTH",
+          "1.06828",
+          "0.587887",
+          "1.94122",
+          "0.828412",
+          "0.00335338",
+          "0.304734"
+        ]
+      ],
+      "sample_records": 8,
+      "records_width_matches": true,
+      "inspection_scope": "first header and up to eight records only; no locus enumeration, effect analysis or whole-file QC",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90082001-GCST90083000/GCST90082850/GCST90082850_buildGRCh38.tsv.gz",
+      "prefix_path": "audits/catalog/GCST90082850/GCST90082850_buildGRCh38.tsv.gz.prefix",
+      "access_status": 206,
+      "prefix_sha256": "88a91ee39799f4694c0639310f758a117cc9793e33c202ea16c108141dac8833",
+      "whole_source_content_range": "bytes 0-131071/4059641",
+      "whole_file_downloaded_and_validated": false
+    }
+  ],
+  "metadata_files": [
+    {
+      "path": "audits/catalog/GCST90082850/GCST90082850_buildGRCh38.tsv.gz-meta.yaml",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90082001-GCST90083000/GCST90082850/GCST90082850_buildGRCh38.tsv.gz-meta.yaml",
+      "status": 200
+    },
+    {
+      "path": "audits/catalog/GCST90082850/README.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90082001-GCST90083000/GCST90082850/README.txt",
+      "status": 200
+    },
+    {
+      "path": "audits/catalog/GCST90082850/md5sum.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90082001-GCST90083000/GCST90082850/md5sum.txt",
+      "status": 200
+    }
+  ],
+  "catalog_api_access": {
+    "requested_url": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST90082850",
+    "accessed_utc": "2026-10-06T20:35:02.149613+00:00",
+    "method": "GET",
+    "anonymous": true,
+    "read_limit_bytes": 262144,
+    "requested_range": null,
+    "status": 200,
+    "final_url": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST90082850",
+    "response_headers": {
+      "content-type": "application/json"
+    },
+    "downloaded_bytes": 1111,
+    "saved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/audits/catalog/GCST90082850/study.json",
+    "sha256": "13bba64c13c1fe4ada5eb29c53d5fa5442b5be12c9ad11d008c4d873be19bdc4",
+    "bounded_read": false,
+    "hash_scope": "saved response bytes only; range/prefix is not a whole-file checksum"
+  },
+  "current_catalog_metadata": {
+    "initial_sample_size": "1,566 European ancestry cases, 106,683 European ancestry controls",
+    "replication_sample_size": "NA",
+    "gxg": false,
+    "snp_count": 166035,
+    "imputed": false,
+    "accession_id": "GCST90082850",
+    "full_summary_stats_available": true,
+    "user_requested": false,
+    "pubmed_id": 34662886,
+    "platforms": "Illumina [166035]",
+    "disease_trait": "Chronic obstructive pulmonary disease (UKB data field 22130) (Gene-based burden)",
+    "genotyping_technologies": [
+      "Exome-wide sequencing"
+    ],
+    "efo_traits": [
+      {
+        "efo_id": "MONDO_0005002",
+        "efo_trait": "chronic obstructive pulmonary disease"
+      }
+    ],
+    "discovery_ancestry": [
+      "108249 European (U.K.)"
+    ],
+    "replication_ancestry": [],
+    "full_summary_stats": "http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90082001-GCST90083000/GCST90082850",
+    "terms_of_license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "bg_efo_traits": [],
+    "cohort": [
+      "UKB"
+    ],
+    "array_manufacturer": [
+      "Illumina"
+    ],
+    "_links": {
+      "self": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST90082850"
+      },
+      "ancestries": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST90082850/ancestries{?sort,direction}",
+        "templated": true
+      }
+    }
+  },
+  "directory_location_basis": "current or frozen Catalog advertised source",
+  "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90082001-GCST90083000/GCST90082850/",
+  "directory_access": {
+    "requested_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90082001-GCST90083000/GCST90082850/",
+    "accessed_utc": "2026-10-06T20:35:02.567839+00:00",
+    "method": "GET",
+    "anonymous": true,
+    "read_limit_bytes": 262144,
+    "requested_range": null,
+    "status": 200,
+    "final_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90082001-GCST90083000/GCST90082850/",
+    "response_headers": {
+      "content-length": "1774",
+      "content-type": "text/html;charset=UTF-8"
+    },
+    "downloaded_bytes": 1774,
+    "saved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/audits/catalog/GCST90082850/directory.html",
+    "sha256": "b37205092c247f1ccfbf864b9942582c3547825e705e6181c6ea1e63e743f3a3",
+    "bounded_read": false,
+    "hash_scope": "saved response bytes only; range/prefix is not a whole-file checksum"
+  }
+}

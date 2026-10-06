@@ -1,0 +1,50 @@
+{
+  "accessed_utc": "2026-10-06T20:40:13.830321+00:00",
+  "command": [
+    "diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/scripts/alternatives_fetch.py",
+    "--url",
+    "https://humandbs.dbcls.jp/files/hum0014/hum0014.v17.COPD.v1.zip",
+    "--label",
+    "bbj_copd_zip_prefix",
+    "--max-bytes",
+    "262144",
+    "--range"
+  ],
+  "http_status": 206,
+  "maximum_bytes_requested_or_retained": 262144,
+  "purpose": "public source metadata or bounded schema sample; no fine-mapping",
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "Range": "bytes=0-262143",
+    "User-Agent": "COPD-scientific-preflight/1.0"
+  },
+  "requested_url": "https://humandbs.dbcls.jp/files/hum0014/hum0014.v17.COPD.v1.zip",
+  "response_EOF_before_byte_limit": false,
+  "response_headers": {
+    "Accept-Ranges": "bytes",
+    "Connection": "close",
+    "Content-Disposition": "attachment",
+    "Content-Length": "262144",
+    "Content-Range": "bytes 0-262143/2244311450",
+    "Content-Security-Policy": "sandbox; default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'",
+    "Content-Type": "application/zip",
+    "Date": "Tue, 06 Oct 2026 20:40:14 GMT",
+    "Etag": "\"f93d17367e2df17d40a6e90e13ef9ed0-34\"",
+    "Last-Modified": "Thu, 24 Sep 2026 09:30:30 GMT",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Seaweed-X-Amz-ETag": "f93d17367e2df17d40a6e90e13ef9ed0-34",
+    "Seaweed-X-Amz-Owner": "app",
+    "Server": "nginx",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Amz-Request-Id": "18DC0B55B4D69485C08FA1C8",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN"
+  },
+  "response_url": "https://humandbs.dbcls.jp/files/hum0014/hum0014.v17.COPD.v1.zip",
+  "retained_prefix_only": true,
+  "stored_body_reaches_declared_response_length": true,
+  "stored_bytes": 262144,
+  "stored_path": "audits/alternatives/downloads/bbj_copd_zip_prefix.bin",
+  "stored_sha256": "dad9b21318f74a881755472c44504e7339754e15578c0bf7f6ba1aae744c8759"
+}

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>OpenGWAS</title>
+  <link rel="shortcut icon" type="image/png" sizes="32x32" href="../images/logo/opengwas/favicon.ico" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.7/css/bootstrap.min.css" integrity="sha512-fw7f+TcMjTb7bpbLJZlP8g2Y4XcCyFZW8uy8HsRZsH/SwbMw0plKHFHr99DN3l04VsYNwvzicUX/6qurvIxbxw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css" integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    td:first-child {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div id="header"></div>
+
+  <div id="copyToast" class="toast align-items-center text-white bg-success border-0 position-fixed bottom-0 end-0 m-3" role="alert" aria-live="assertive" aria-atomic="true" style="z-index: 9999; display: none;">
+    <div class="d-flex">
+      <div class="toast-body">
+        Copied to clipboard!
+      </div>
+    </div>
+  </div>
+
+  <main class="container mt-3" style="max-width: 1000px">
+    <div class="progress mb-3" role="progressbar" aria-label="Loading in progress" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+      <div id="progress" class="progress-bar progress-bar-animated" id="progress" style="width: 0%">0%</div>
+    </div>
+
+    <div class="row">
+      <div class="col-8">
+        <h3 id="trait">Loading...</h1>
+        <h6 class="text-muted">
+          OpenGWAS ID:
+          <code id="gwasId" role="button" class="text-primary copyable" title="Click to copy">Loading...</code>
+        </h6>
+        <table id="detailTable" class="table table-sm table-striped" style="display:none;">
+          <thead><tr><th width="30%">Field</th><th>Value</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="col">
+        <div>
+          <div class="btn-group">
+            <button class="btn btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Download
+              <div id="loadingSpinner" class="text-center" style="display: none;">
+                <div class="spinner-border spinner-border-sm text-primary" role="status">
+                  <span class="visually-hidden">Loading...</span>
+                </div>
+              </div>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#" id="getReportBtn">QC Report</a></li>
+              <li><a class="dropdown-item" href="#" id="getVcfBtn">VCF Files <small>*limit applies</small></a></li>
+            </ul>
+          </div>
+          <div class="modal fade" id="vcfModal" data-bs-backdrop="static" tabindex="-1" aria-labelledby="vcfModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="vcfModalLabel">VCF Download Links</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                  <div>The link(s) will be valid for 2 hours. Click on a link to copy to clipboard.</div>
+                  <div id="vcfLinksContainer">
+                    <!-- links will be inserted here -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="fw-light lh-sm mt-2">
+          <p class="mb-1">You can only download VCF files of 20 datasets per 24 hours on this website. For automated queries please use one of the following - in any case you will need to generate a <a href="https://api.opengwas.io/api/#authentication" target="_blank">token (JWT)</a>:
+            <ul>
+              <li><a href="https://mrcieu.github.io/ieugwasr/reference/gwasinfo_files.html" target="_blank"><code>ieugwasr::gwasinfo_files()</code></a></li>
+              <li><a href="https://mrcieu.github.io/ieugwaspy/query.html#ieugwaspy.query.gwasinfo_files" target="_blank"><code>ieugwaspy.gwasinfo_files()</code></a></li>
+              <li><a href="https://api.opengwas.io/api/docs" target="_blank">OpenGWAS API</a> (build your own wrapper)</li>
+            </ul>
+          </p>
+        </div>
+        <hr>
+        <div class="fw-light lh-sm mt-2">
+          <div class="d-flex align-items-center gap-2 mb-1">
+            <img src="../images/logo/gpmap.svg" alt="GPMap logo" height="20">
+            <span>The Genotype-Phenotype Map</span>
+          </div>
+          <div id="gpmapStatusText" class="small text-muted">This dataset may not be available in the <a href="https://gpmap.opengwas.io/" target="_blank" rel="noopener">GPMap</a> database yet.</div>
+          <div id="gpmapLinkContainer" class="small mt-1" style="display: none;">
+            <a id="gpmapLink" href="#" target="_blank" rel="noopener"></a>
+          </div>
+        </div>
+        <!-- <h5>Relevant datasets</h5>
+        <div class="list-group">
+          (service unavailable)
+          <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+        </div>
+        <div class="fw-light lh-sm mt-2">recommended by <a href="https://api.epigraphdb.org/#/OpenGWAS/get_gwas_recommender_opengwas_search_id_get" target="_blank">EpiGraphDB</a></small><br> -->
+      </div>
+      <div>
+        <a href="/datasets" target="_blank" class="icon-link"><i class="bi bi-arrow-90deg-up"></i> Back to all datasets</a>
+      </div>
+    </div>
+  </main>
+
+  <div id="footer"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.7/js/bootstrap.bundle.min.js" integrity="sha512-Tc0i+vRogmX4NN7tuLbQfBxa8JkfUSAxSFVzmU31nVdHyiHElPPy2cWfFacmCJKw0VqovrzKhdd2TSTMdAxp2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="module">
+    import { includeHTML } from '../js/include.js';
+    import { loadData } from '../js/gwas-storage.js';
+    import { parseUnicodeString } from '../js/utils.js';
+
+    includeHTML('#header', '/common/header.html');
+    includeHTML('#footer', '/common/footer.html', () => {
+      document.getElementById('footerYear').textContent = new Date().getFullYear();
+    });
+
+    const gwasinfoFilesTrialUrl = "https://api.opengwas.io/api/gwasinfo/files/trial";
+
+    const mainFieldsOrder = ['trait', 'build', 'category', 'subcategory', 'population', 'sex', 'author', 'year', 'ontology', 'unit', 'sample_size', 'consortium', 'mr', 'priority'];
+
+    const mainFieldIndex = Object.fromEntries(
+      mainFieldsOrder.map((field, idx) => [field, idx])
+    );
+
+    const gwasId = (() => {
+      return (new URLSearchParams(location.search)).get('id') || location.pathname.split('/').filter(Boolean).pop() || null;
+    })();
+
+    function decodeField(value, field, majorityCoding) {
+      if (
+        majorityCoding[field] &&
+        typeof value === 'number' &&
+        value >= 0 &&
+        value < majorityCoding[field].length
+      ) {
+        return majorityCoding[field][value];
+      }
+      if (field === 'author' && typeof value === 'string') {
+        return parseUnicodeString(value);
+      }
+      return value === null ? '(null)' : value;
+    }
+
+    function buildDetailData(id, json) {
+      const majorityCoding = json.majority_fields_and_coding;
+      const compressed = json.datasets_compressed;
+
+      if (id in compressed) {
+        document.getElementById("gwasId").textContent = id;
+      } else {
+        throw new Error(`ID "${id}" not found`);
+      }
+
+      const [mainArr, additionalObj] = compressed[id];
+      const detail = {};
+
+      for (const field of mainFieldsOrder) {
+        const idx = mainFieldIndex[field];
+        const rawValue = mainArr[idx];
+        detail[field] = decodeField(rawValue, field, majorityCoding);
+      }
+
+      if (additionalObj && typeof additionalObj === 'object') {
+        for (const [k, v] of Object.entries(additionalObj)) {
+          detail[k] = v === null ? 'NA' : v;
+        }
+      }
+
+      return detail;
+    }
+
+    function renderDetail(detail) {
+      const tbody = document.querySelector('#detailTable tbody');
+      tbody.innerHTML = '';
+
+      document.title = `${gwasId} - ${detail.trait} - OpenGWAS`;
+      document.getElementById('trait').textContent = detail.trait || '';
+
+      const rendered = new Set();
+
+      function addRow(field, value) {
+        const tr = document.createElement('tr');
+        const tdField = document.createElement('td');
+        const tdValue = document.createElement('td');
+
+        tdField.textContent = field;
+        if (typeof value === 'object' && value !== null) {
+          tdValue.textContent = JSON.stringify(value, null, 2);
+          tdValue.style.whiteSpace = 'pre-wrap';
+        } else {
+          tdValue.textContent = value;
+        }
+
+        tr.appendChild(tdField);
+        tr.appendChild(tdValue);
+        tbody.appendChild(tr);
+      }
+
+      mainFieldsOrder.forEach(field => {
+        if (field in detail) {
+          addRow(field, detail[field]);
+          rendered.add(field);
+        }
+      });
+
+      Object.entries(detail).forEach(([field, value]) => {
+        if (field !== 'is_nc' && !rendered.has(field)) {
+          addRow(field, value);
+        }
+      });
+
+      const isNCMessage = Object.prototype.hasOwnProperty.call(detail, 'is_nc')
+        ? 'Not for commercial use (unless approval is in place)'
+        : 'Unknown (commercial use might or might not be permitted - check with the author, not OpenGWAS)';
+      addRow('is_nc', isNCMessage);
+
+      document.getElementById('detailTable').style.display = '';
+    }
+
+    (async () => {
+      const progressBar = document.getElementById('progress');
+
+      loadData('gwasinfo', progress => {
+        progressBar.style.width = `${progress}%`;
+        progressBar.setAttribute('aria-valuenow', progress);
+        progressBar.textContent = `${progress}%`;
+      }).then(gwasinfo => {
+        const detail = buildDetailData(gwasId, gwasinfo);
+        progressBar.parentElement.style.display = 'none';
+        renderDetail(detail);
+      }).catch(err => {
+        progressBar.classList.add('bg-danger');
+        progressBar.style.width = '100%';
+        progressBar.textContent = `Failed to load data: ${err.message || 'unknown error'}`;
+      });
+
+      loadData('gpmap').then(gpmap => {
+        renderGPMap(gpmap);
+      }).catch(err => {
+        console.error('Failed to load gpmap', err);
+      });
+    })();
+
+    function showSpinner() {
+      document.getElementById("loadingSpinner").style.display = "inline";
+    }
+
+    function hideSpinner() {
+      document.getElementById("loadingSpinner").style.display = "none";
+    }
+
+    function postData(url, payload) {
+      showSpinner();
+      return fetch(url, {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify(payload)
+      }).then(async res => {
+        hideSpinner();
+        if (!res.ok) {
+          const text = await res.text();
+          throw new Error(text || `HTTP ${res.status}`);
+        }
+        return res.json();
+      }).catch(err => {
+        hideSpinner();
+        throw err;
+      });
+    }
+
+    document.getElementById("getReportBtn").addEventListener("click", async () => {
+      try {
+        const result = await postData(gwasinfoFilesTrialUrl, { id: gwasId, type: "report" });
+        if (result.length === 1) {
+          window.open(result[0], "_blank");
+        } else {
+          alert("Report is unavailable for this dataset.");
+        }
+      } catch (err) {
+        alert("Failed to fetch report: " + err.message);
+      }
+    });
+
+    document.getElementById("getVcfBtn").addEventListener("click", async () => {
+      try {
+        const result = await postData(gwasinfoFilesTrialUrl, { id: gwasId, type: "vcf" });
+        if (result.length === 0) {
+          alert("VCF is unavailable for this dataset.");
+          return;
+        }
+
+        // Clear previous and render links
+        const container = document.getElementById("vcfLinksContainer");
+        container.innerHTML = "";
+        result.forEach((url) => {
+          const linkDiv = document.createElement("div");
+          linkDiv.textContent = url;
+          linkDiv.className = "copyable text-primary text-break mb-2";
+          linkDiv.title = "Click to copy";
+          container.appendChild(linkDiv);
+        });
+
+        bindCopyHandlers();  // Make them copyable
+        new bootstrap.Modal(document.getElementById("vcfModal")).show();
+
+      } catch (err) {
+        alert("Failed to fetch VCF: " + err.message);
+      }
+    });
+
+    function showCopyToast() {
+      const toast = document.getElementById("copyToast");
+      toast.style.display = "block";
+      setTimeout(() => {
+        toast.style.display = "none";
+      }, 1500);
+    }
+
+    function bindCopyHandlers() {
+      document.querySelectorAll('.copyable').forEach(el => {
+        el.onclick = () => {
+          const text = el.dataset.copyText || el.textContent;
+          navigator.clipboard.writeText(text).then(showCopyToast);
+        };
+      });
+    }
+
+    bindCopyHandlers();
+
+    function renderGPMap(gpmap) {
+      if (!Array.isArray(gpmap)) {
+        return;
+      }
+
+      const gpmapStatusText = document.getElementById('gpmapStatusText');
+      const gpmapLinkContainer = document.getElementById('gpmapLinkContainer');
+      const gpmapLink = document.getElementById('gpmapLink');
+
+      if (!gpmap.includes(gwasId)) {
+        gpmapStatusText.innerHTML = 'This dataset may not be available in <a href="https://gpmap.opengwas.io/" target="_blank" rel="noopener">GPMap</a> yet.';
+        gpmapLinkContainer.style.display = 'none';
+        return;
+      }
+
+      gpmapStatusText.innerHTML = 'This dataset may also be available in <a href="https://gpmap.opengwas.io/" target="_blank" rel="noopener">GPMap</a>.';
+      gpmapLink.href = `https://gpmap.opengwas.io/trait.html?id=${encodeURIComponent(gwasId)}`;
+      gpmapLink.textContent = `View ${gwasId} in GPMap`;
+      gpmapLinkContainer.style.display = '';
+    }
+
+  </script>
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "sq9z63te1u");
+  </script>
+
+</body>
+</html>

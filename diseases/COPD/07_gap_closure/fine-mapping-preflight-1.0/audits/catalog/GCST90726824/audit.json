@@ -1,0 +1,477 @@
+{
+  "accession": "GCST90726824",
+  "phenotype_class_frozen": "ehr_copd_susceptibility",
+  "publication_pmid": "41896352",
+  "file_inventory": [
+    {
+      "name": "GCST90726824.tsv",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90726001-GCST90727000/GCST90726824/GCST90726824.tsv",
+      "directory_evidence": "audits/catalog/GCST90726824/directory.html"
+    },
+    {
+      "name": "GCST90726824.tsv-meta.yaml",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90726001-GCST90727000/GCST90726824/GCST90726824.tsv-meta.yaml",
+      "directory_evidence": "audits/catalog/GCST90726824/directory.html"
+    },
+    {
+      "name": "md5sum.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90726001-GCST90727000/GCST90726824/md5sum.txt",
+      "directory_evidence": "audits/catalog/GCST90726824/directory.html"
+    },
+    {
+      "name": "GCST90726824.h.tsv.gz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90726001-GCST90727000/GCST90726824/harmonised/GCST90726824.h.tsv.gz",
+      "directory_evidence": "audits/catalog/GCST90726824/harmonised_directory.html"
+    },
+    {
+      "name": "GCST90726824.h.tsv.gz-meta.yaml",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90726001-GCST90727000/GCST90726824/harmonised/GCST90726824.h.tsv.gz-meta.yaml",
+      "directory_evidence": "audits/catalog/GCST90726824/harmonised_directory.html"
+    },
+    {
+      "name": "GCST90726824.h.tsv.gz.tbi",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90726001-GCST90727000/GCST90726824/harmonised/GCST90726824.h.tsv.gz.tbi",
+      "directory_evidence": "audits/catalog/GCST90726824/harmonised_directory.html"
+    },
+    {
+      "name": "GCST90726824.running.log",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90726001-GCST90727000/GCST90726824/harmonised/GCST90726824.running.log",
+      "directory_evidence": "audits/catalog/GCST90726824/harmonised_directory.html"
+    },
+    {
+      "name": "md5sum.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90726001-GCST90727000/GCST90726824/harmonised/md5sum.txt",
+      "directory_evidence": "audits/catalog/GCST90726824/harmonised_directory.html"
+    }
+  ],
+  "headers": [
+    {
+      "header": [
+        "chromosome",
+        "base_pair_location",
+        "effect_allele",
+        "other_allele",
+        "beta",
+        "standard_error",
+        "effect_allele_frequency",
+        "p_value",
+        "variant_id",
+        "n",
+        "TEST",
+        "CHISQ",
+        "EXTRA"
+      ],
+      "representative_records": [
+        [
+          "1",
+          "925918",
+          "A",
+          "G",
+          "-0.680697",
+          "0.430847",
+          "0.00265879",
+          "0.11412899684965111",
+          "chr1_925918_G_A",
+          "44005",
+          "ADD",
+          "2.4961",
+          "#NA"
+        ],
+        [
+          "1",
+          "925935",
+          "A",
+          "G",
+          "-1.00842",
+          "5.64257",
+          "6.81431e-05",
+          "0.8581608543885958",
+          "chr1_925935_G_A",
+          "44025",
+          "ADD",
+          "0.0319394",
+          "#NA"
+        ],
+        [
+          "1",
+          "925949",
+          "C",
+          "A",
+          "-1.03297",
+          "2.70056",
+          "0.000170373",
+          "0.7020887271688998",
+          "chr1_925949_A_C",
+          "44021",
+          "ADD",
+          "0.146308",
+          "#NA"
+        ],
+        [
+          "1",
+          "925949",
+          "G",
+          "A",
+          "2.60463",
+          "1.91347",
+          "0.000215806",
+          "0.1734478816123439",
+          "chr1_925949_A_G",
+          "44021",
+          "ADD",
+          "1.85289",
+          "#NA"
+        ],
+        [
+          "1",
+          "926046",
+          "C",
+          "T",
+          "-1.01337",
+          "5.50919",
+          "6.81927e-05",
+          "0.8540590519089977",
+          "chr1_926046_T_C",
+          "43993",
+          "ADD",
+          "0.0338346",
+          "#NA"
+        ],
+        [
+          "1",
+          "930162",
+          "A",
+          "G",
+          "-1.08424",
+          "2.38755",
+          "7.95003e-05",
+          "0.6497390962217982",
+          "chr1_930162_G_A",
+          "44025",
+          "ADD",
+          "0.206228",
+          "#NA"
+        ],
+        [
+          "1",
+          "930163",
+          "A",
+          "G",
+          "-0.183753",
+          "0.972177",
+          "0.000760983",
+          "0.8500839175796455",
+          "chr1_930163_G_A",
+          "44022",
+          "ADD",
+          "0.0357253",
+          "#NA"
+        ],
+        [
+          "1",
+          "930165",
+          "A",
+          "G",
+          "1.2303",
+          "1.0783",
+          "0.000636031",
+          "0.253884975036454",
+          "chr1_930165_G_A",
+          "44023",
+          "ADD",
+          "1.3018",
+          "#NA"
+        ]
+      ],
+      "sample_records": 8,
+      "records_width_matches": true,
+      "inspection_scope": "first header and up to eight records only; no locus enumeration, effect analysis or whole-file QC",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90726001-GCST90727000/GCST90726824/GCST90726824.tsv",
+      "prefix_path": "audits/catalog/GCST90726824/GCST90726824.tsv.prefix",
+      "access_status": 206,
+      "prefix_sha256": "a75552c40956be8423e277690280ead869962ed9dd4c1389ec54b024e993d560",
+      "whole_source_content_range": "bytes 0-131071/155157455",
+      "whole_file_downloaded_and_validated": false
+    },
+    {
+      "header": [
+        "chromosome",
+        "base_pair_location",
+        "effect_allele",
+        "other_allele",
+        "beta",
+        "standard_error",
+        "effect_allele_frequency",
+        "p_value",
+        "variant_id",
+        "rsid",
+        "n",
+        "TEST",
+        "CHISQ",
+        "EXTRA",
+        "hm_coordinate_conversion",
+        "hm_code"
+      ],
+      "representative_records": [
+        [
+          "1",
+          "925918",
+          "A",
+          "G",
+          "-0.680697",
+          "0.430847",
+          "0.00265879",
+          "0.11412899684965111",
+          "chr1_925918_G_A",
+          "rs550164690",
+          "44005",
+          "ADD",
+          "2.4961",
+          "#NA",
+          "lo",
+          "10"
+        ],
+        [
+          "1",
+          "925935",
+          "A",
+          "G",
+          "-1.00842",
+          "5.64257",
+          "6.81431e-05",
+          "0.8581608543885958",
+          "chr1_925935_G_A",
+          "rs200140498",
+          "44025",
+          "ADD",
+          "0.0319394",
+          "#NA",
+          "lo",
+          "10"
+        ],
+        [
+          "1",
+          "925949",
+          "G",
+          "A",
+          "2.60463",
+          "1.91347",
+          "0.000215806",
+          "0.1734478816123439",
+          "chr1_925949_A_G",
+          "rs371217242",
+          "44021",
+          "ADD",
+          "1.85289",
+          "#NA",
+          "lo",
+          "10"
+        ],
+        [
+          "1",
+          "930162",
+          "A",
+          "G",
+          "-1.08424",
+          "2.38755",
+          "7.95003e-05",
+          "0.6497390962217982",
+          "chr1_930162_G_A",
+          "rs1318926045",
+          "44025",
+          "ADD",
+          "0.206228",
+          "#NA",
+          "lo",
+          "10"
+        ],
+        [
+          "1",
+          "930163",
+          "A",
+          "G",
+          "-0.183753",
+          "0.972177",
+          "0.000760983",
+          "0.8500839175796455",
+          "chr1_930163_G_A",
+          "rs370992396",
+          "44022",
+          "ADD",
+          "0.0357253",
+          "#NA",
+          "lo",
+          "10"
+        ],
+        [
+          "1",
+          "930165",
+          "A",
+          "G",
+          "1.2303",
+          "1.0783",
+          "0.000636031",
+          "0.253884975036454",
+          "chr1_930165_G_A",
+          "rs201186828",
+          "44023",
+          "ADD",
+          "1.3018",
+          "#NA",
+          "lo",
+          "10"
+        ],
+        [
+          "1",
+          "930188",
+          "A",
+          "G",
+          "1.22857",
+          "1.5506",
+          "0.000181748",
+          "0.4281746979190692",
+          "chr1_930188_G_A",
+          "rs770001898",
+          "44017",
+          "ADD",
+          "0.627769",
+          "#NA",
+          "lo",
+          "10"
+        ],
+        [
+          "1",
+          "930199",
+          "T",
+          "C",
+          "-1.08789",
+          "2.34202",
+          "7.94985e-05",
+          "0.6422838470859343",
+          "chr1_930199_C_T",
+          "rs764574771",
+          "44026",
+          "ADD",
+          "0.215768",
+          "#NA",
+          "lo",
+          "10"
+        ]
+      ],
+      "sample_records": 8,
+      "records_width_matches": true,
+      "inspection_scope": "first header and up to eight records only; no locus enumeration, effect analysis or whole-file QC",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90726001-GCST90727000/GCST90726824/harmonised/GCST90726824.h.tsv.gz",
+      "prefix_path": "audits/catalog/GCST90726824/harmonised_GCST90726824.h.tsv.gz.prefix",
+      "access_status": 206,
+      "prefix_sha256": "494ef1afc024383987dccb80c1795f800fdea76eb95b477dee8daa1235f0537a",
+      "whole_source_content_range": "bytes 0-131071/46950291",
+      "whole_file_downloaded_and_validated": false
+    }
+  ],
+  "metadata_files": [
+    {
+      "path": "audits/catalog/GCST90726824/GCST90726824.tsv-meta.yaml",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90726001-GCST90727000/GCST90726824/GCST90726824.tsv-meta.yaml",
+      "status": 200
+    },
+    {
+      "path": "audits/catalog/GCST90726824/md5sum.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90726001-GCST90727000/GCST90726824/md5sum.txt",
+      "status": 200
+    },
+    {
+      "path": "audits/catalog/GCST90726824/harmonised_GCST90726824.h.tsv.gz-meta.yaml",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90726001-GCST90727000/GCST90726824/harmonised/GCST90726824.h.tsv.gz-meta.yaml",
+      "status": 200
+    },
+    {
+      "path": "audits/catalog/GCST90726824/harmonised_md5sum.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90726001-GCST90727000/GCST90726824/harmonised/md5sum.txt",
+      "status": 200
+    }
+  ],
+  "catalog_api_access": {
+    "requested_url": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST90726824",
+    "accessed_utc": "2026-10-06T20:35:51.049297+00:00",
+    "method": "GET",
+    "anonymous": true,
+    "read_limit_bytes": 262144,
+    "requested_range": null,
+    "status": 200,
+    "final_url": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST90726824",
+    "response_headers": {
+      "content-type": "application/json"
+    },
+    "downloaded_bytes": 1193,
+    "saved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/audits/catalog/GCST90726824/study.json",
+    "sha256": "20d9da4f91c22dcf51e92104c6b6e8518cb59b81bddf706529139c0e7603bfce",
+    "bounded_read": false,
+    "hash_scope": "saved response bytes only; range/prefix is not a whole-file checksum"
+  },
+  "current_catalog_metadata": {
+    "initial_sample_size": "822 British Bangladeshi or British Pakistani cases, 43,204 British Bangladeshi or British Pakistani controls",
+    "replication_sample_size": "11,863 British Bangladeshi or British Pakistani individuals",
+    "gxg": false,
+    "snp_count": 1452232,
+    "imputed": false,
+    "accession_id": "GCST90726824",
+    "full_summary_stats_available": true,
+    "user_requested": false,
+    "pubmed_id": 41896352,
+    "platforms": "NR [1452232]",
+    "disease_trait": "Chronic obstructive pulmonary disease (HDR-UK definition)",
+    "genotyping_technologies": [
+      "Exome-wide sequencing"
+    ],
+    "efo_traits": [
+      {
+        "efo_id": "MONDO_0005002",
+        "efo_trait": "chronic obstructive pulmonary disease"
+      }
+    ],
+    "discovery_ancestry": [
+      "44026 South Asian (U.K.)"
+    ],
+    "replication_ancestry": [
+      "11863 South Asian (U.K.)"
+    ],
+    "full_summary_stats": "http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90726001-GCST90727000/GCST90726824",
+    "terms_of_license": "https://www.ebi.ac.uk/about/terms-of-use/",
+    "bg_efo_traits": [],
+    "cohort": [
+      "G&H"
+    ],
+    "array_manufacturer": [],
+    "_links": {
+      "self": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST90726824"
+      },
+      "ancestries": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST90726824/ancestries{?sort,direction}",
+        "templated": true
+      }
+    }
+  },
+  "directory_location_basis": "current or frozen Catalog advertised source",
+  "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90726001-GCST90727000/GCST90726824/",
+  "directory_access": {
+    "requested_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90726001-GCST90727000/GCST90726824/",
+    "accessed_utc": "2026-10-06T20:35:51.523896+00:00",
+    "method": "GET",
+    "anonymous": true,
+    "read_limit_bytes": 262144,
+    "requested_range": null,
+    "status": 200,
+    "final_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90726001-GCST90727000/GCST90726824/",
+    "response_headers": {
+      "content-length": "1715",
+      "content-type": "text/html;charset=UTF-8"
+    },
+    "downloaded_bytes": 1715,
+    "saved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/audits/catalog/GCST90726824/directory.html",
+    "sha256": "11d2f46697f255fbb73ee967a70032a424ba0d850ff79c05b9b13335c5fb5585",
+    "bounded_read": false,
+    "hash_scope": "saved response bytes only; range/prefix is not a whole-file checksum"
+  }
+}

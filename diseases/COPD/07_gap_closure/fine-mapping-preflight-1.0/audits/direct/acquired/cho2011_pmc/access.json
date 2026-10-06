@@ -1,0 +1,38 @@
+{
+  "acquired_bytes": 288347,
+  "acquired_sha256": "2b92a975f68ca0b6ced2fb63bd4647c2030bc4a884085b04cf943bcb79e67854",
+  "body_path": "audits/direct/acquired/cho2011_pmc/response.bin",
+  "complete_remote_object_hash": false,
+  "completed_utc": "2026-10-06T20:41:06.926379+00:00",
+  "effective_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3298111/",
+  "http_status": 200,
+  "purpose": "Public metadata/header/schema access audit; no statistical analysis",
+  "read_limit_bytes": 1048576,
+  "read_truncated": false,
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0 (bounded public metadata access)"
+  },
+  "requested_utc": "2026-10-06T20:41:06.742765+00:00",
+  "response_headers": {
+    "Alt-Svc": "clear",
+    "Connection": "close",
+    "Content-Length": "288347",
+    "Date": "Tue, 06 Oct 2026 20:41:06 GMT",
+    "Server": "istio-envoy",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Via": "1.1 google",
+    "X-UA-Compatible": "IE=Edge",
+    "X-XSS-Protection": "1; mode=block",
+    "content-type": "text/html; charset=utf-8",
+    "cross-origin-opener-policy": "same-origin",
+    "referrer-policy": "same-origin",
+    "set-cookie": "cloudpmc-viewer-csrftoken=Hg0L7ovRmlqeSLKP7Sf7wiXjwg6LzX6k; expires=Tue, 05 Oct 2027 20:41:06 GMT; Max-Age=31449600; Path=/; SameSite=Lax",
+    "vary": "Accept-Encoding,Cookie",
+    "x-content-type-options": "nosniff",
+    "x-envoy-upstream-service-time": "117",
+    "x-frame-options": "DENY"
+  },
+  "transport_error": null,
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3298111/"
+}

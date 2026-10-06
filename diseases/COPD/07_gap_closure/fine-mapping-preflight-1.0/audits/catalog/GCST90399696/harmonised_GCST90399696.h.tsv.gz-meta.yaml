@@ -1,0 +1,51 @@
+adjusted_covariates:
+- age, sex, age*sex, age*age, and 3PCs
+analysis_software: GCTA fastGWA
+author_notes: "Additional headers:\nColumn name Description\ninv_var_het_p heterogeneity\
+  \ (Cochran\u2019s Q test) p value\ndirection direction of effect sizes in all data\
+  \ sets in the meta-analysis\nN_case number of cases\nN_ctrl number of controls\n\
+  n_bbk number of biobanks in the meta-analysis (minimum is 2)\nis_strand_flip flag\
+  \ to indicate whether this variant had a strand flip in any data set\nis_diff_AF_gnomAD\
+  \ flag to indicate whether this variant failed the AF QC (compared to gnomAD) in\
+  \ any data set"
+coordinate_system: 1-based
+data_file_md5sum: 949f785ff88e0b8faa825e3bedfaf586
+data_file_name: GCST90399696.h.tsv.gz
+date_metadata_last_modified: 2024-07-27
+file_type: GWAS-SSF v1.0
+genome_assembly: GRCh38
+genotyping_technology:
+- Genome-wide genotyping array
+gwas_catalog_api: https://www.ebi.ac.uk/gwas/rest/api/studies/GCST90399696
+gwas_id: GCST90399696
+harmonisation_reference: ftp://ftp.ensembl.org/pub/release-95/fasta/homo_sapiens/dna/
+imputation_panel: 1KGP+SG10K
+imputation_software: IMPUTE2
+is_harmonised: true
+is_sorted: true
+minor_allele_freq_lower_limit: 0.01
+ontology_mapping:
+- EFO_0000341
+samples:
+- sample_ancestry:
+  - Admixed American
+  sample_ancestry_category:
+  - Hispanic or Latin American
+  sample_size: 5184
+- sample_ancestry_category:
+  - South Asian
+  sample_size: 12376
+- sample_ancestry:
+  - African
+  sample_ancestry_category:
+  - African unspecified
+  sample_size: 17050
+- sample_ancestry_category:
+  - East Asian
+  sample_size: 115737
+- sample_ancestry_category:
+  - European
+  sample_size: 453776
+sex: F
+trait_description:
+- Chronic obstructive pulmonary disease

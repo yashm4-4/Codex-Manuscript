@@ -1,0 +1,23 @@
+{
+  "requested_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90016001-GCST90017000/GCST90016591/harmonised/33106845-GCST90016591-EFO_0000341.h.tsv.gz",
+  "accessed_utc": "2026-10-06T20:34:44.048440+00:00",
+  "method": "GET",
+  "anonymous": true,
+  "read_limit_bytes": 131072,
+  "requested_range": "bytes=0-131071",
+  "status": 206,
+  "final_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90016001-GCST90017000/GCST90016591/harmonised/33106845-GCST90016591-EFO_0000341.h.tsv.gz",
+  "response_headers": {
+    "last-modified": "Sun, 09 May 2021 09:09:44 GMT",
+    "etag": "\"151728e0-5c1e205a10285\"",
+    "accept-ranges": "bytes",
+    "content-length": "131072",
+    "content-range": "bytes 0-131071/353839328",
+    "content-type": "application/x-gzip"
+  },
+  "downloaded_bytes": 131072,
+  "saved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/audits/catalog/GCST90016591/harmonised_33106845-GCST90016591-EFO_0000341.h.tsv.gz.prefix",
+  "sha256": "197d4c8fc18ee78c486ee0ebd04f086a9e0f03367098edb2c01a3d9d2829409b",
+  "bounded_read": true,
+  "hash_scope": "saved response bytes only; range/prefix is not a whole-file checksum"
+}

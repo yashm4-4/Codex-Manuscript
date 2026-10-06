@@ -1,0 +1,53 @@
+{
+  "accessed_utc": "2026-10-06T20:34:13.603684+00:00",
+  "command": [
+    "diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/scripts/alternatives_fetch.py",
+    "--url",
+    "https://raw.githubusercontent.com/atgu/ukbb_pan_ancestry/master/data/UKB_Phecode_v1.2b1_ICD_Mapping.txt",
+    "--label",
+    "pan_phecode_map",
+    "--max-bytes",
+    "1048576"
+  ],
+  "http_status": 200,
+  "maximum_bytes_requested_or_retained": 1048576,
+  "purpose": "public source metadata or bounded schema sample; no fine-mapping",
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0"
+  },
+  "requested_url": "https://raw.githubusercontent.com/atgu/ukbb_pan_ancestry/master/data/UKB_Phecode_v1.2b1_ICD_Mapping.txt",
+  "response_headers": {
+    "Accept-Ranges": "bytes",
+    "Access-Control-Allow-Origin": "*",
+    "Cache-Control": "max-age=300",
+    "Connection": "close",
+    "Content-Length": "508320",
+    "Content-Security-Policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+    "Content-Type": "text/plain; charset=utf-8",
+    "Cross-Origin-Resource-Policy": "cross-origin",
+    "Date": "Tue, 06 Oct 2026 20:34:13 GMT",
+    "ETag": "\"bf234b5713ca5290e5c2fd44a055c2a15c1a2505059b6373500baeb345cc675c\"",
+    "Expires": "Tue, 06 Oct 2026 20:39:13 GMT",
+    "Source-Age": "0",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Authorization,Accept-Encoding",
+    "Via": "1.1 varnish",
+    "X-Cache": "MISS",
+    "X-Cache-Hits": "0",
+    "X-Content-Type-Options": "nosniff",
+    "X-Fastly-Request-ID": "0d0eb4659d214dc170da52afc852302bc09fedb3",
+    "X-Frame-Options": "deny",
+    "X-GitHub-Request-Id": "4496:385F97:1AE04:2A1C0:6AC55B43",
+    "X-Served-By": "cache-iad-kiad7000147-IAD",
+    "X-Timer": "S1791318854.625793,VS0,VE131",
+    "X-XSS-Protection": "1; mode=block",
+    "x-github-edge-region": "iad"
+  },
+  "response_url": "https://raw.githubusercontent.com/atgu/ukbb_pan_ancestry/master/data/UKB_Phecode_v1.2b1_ICD_Mapping.txt",
+  "retained_prefix_only": false,
+  "stored_body_reaches_declared_response_length": true,
+  "stored_bytes": 508320,
+  "stored_path": "audits/alternatives/downloads/pan_phecode_map.bin",
+  "stored_sha256": "32c38760d88c306919fa712bbdedd1df19b4b7094d2c070767b716567afd844d"
+}

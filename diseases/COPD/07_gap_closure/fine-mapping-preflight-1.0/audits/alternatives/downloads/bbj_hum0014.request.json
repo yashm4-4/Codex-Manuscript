@@ -1,0 +1,40 @@
+{
+  "accessed_utc": "2026-10-06T20:35:31.151917+00:00",
+  "command": [
+    "diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/scripts/alternatives_fetch.py",
+    "--url",
+    "https://humandbs.dbcls.jp/en/hum0014",
+    "--label",
+    "bbj_hum0014",
+    "--max-bytes",
+    "2097152"
+  ],
+  "http_status": 200,
+  "maximum_bytes_requested_or_retained": 2097152,
+  "purpose": "public source metadata or bounded schema sample; no fine-mapping",
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0"
+  },
+  "requested_url": "https://humandbs.dbcls.jp/en/hum0014",
+  "response_EOF_before_byte_limit": true,
+  "response_headers": {
+    "Connection": "close",
+    "Content-Security-Policy": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self'; frame-src https://docs.google.com; frame-ancestors 'none'; base-uri 'self'; object-src 'none'",
+    "Content-Type": "text/html; charset=utf-8",
+    "Date": "Tue, 06 Oct 2026 20:35:32 GMT",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Server": "nginx",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY"
+  },
+  "response_url": "https://humandbs.dbcls.jp/en/research/hum0014",
+  "retained_prefix_only": false,
+  "stored_body_reaches_declared_response_length": false,
+  "stored_bytes": 927061,
+  "stored_path": "audits/alternatives/downloads/bbj_hum0014.bin",
+  "stored_sha256": "dfbbdddaffb6650688c66801ca84c77bfc73e218bb8f77fed435b1a7ee9bc85b"
+}

@@ -1,0 +1,96 @@
+{
+  "accession": "GCST004147",
+  "phenotype_class_frozen": "direct_copd_susceptibility",
+  "publication_pmid": "28166215",
+  "file_inventory": [],
+  "headers": [],
+  "metadata_files": [],
+  "catalog_api_access": {
+    "requested_url": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST004147",
+    "accessed_utc": "2026-10-06T20:34:31.888552+00:00",
+    "method": "GET",
+    "anonymous": true,
+    "read_limit_bytes": 262144,
+    "requested_range": null,
+    "status": 200,
+    "final_url": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST004147",
+    "response_headers": {
+      "content-type": "application/json"
+    },
+    "downloaded_bytes": 1515,
+    "saved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/audits/catalog/GCST004147/study.json",
+    "sha256": "9471e8b6f6b147d65367474d9be0b0cc175e2acf6ef08b54f47a7d73cf05e66e",
+    "bounded_read": false,
+    "hash_scope": "saved response bytes only; range/prefix is not a whole-file checksum"
+  },
+  "current_catalog_metadata": {
+    "initial_sample_size": "11,157 European ancestry cases, 36,699 European ancestry controls, 1,142 African American cases, 2,380 African American controls, 199 Korean ancestry cases, 6,741 Korean ancestry controls, 52 Hispanic cases, 548 Hispanic controls.\r\n\r\n",
+    "replication_sample_size": "12,051 European ancestry cases, 11,111 European ancestry controls, 153 Korean ancestry cases, 205 Korean ancestry controls.",
+    "gxe": false,
+    "gxg": false,
+    "imputed": true,
+    "pooled": false,
+    "accession_id": "GCST004147",
+    "full_summary_stats_available": false,
+    "user_requested": false,
+    "pubmed_id": 28166215,
+    "platforms": "Affymetrix,Illumina [NR] (imputed)",
+    "disease_trait": "Chronic obstructive pulmonary disease",
+    "genotyping_technologies": [
+      "Genome-wide genotyping array"
+    ],
+    "efo_traits": [
+      {
+        "efo_id": "MONDO_0005002",
+        "efo_trait": "chronic obstructive pulmonary disease"
+      }
+    ],
+    "discovery_ancestry": [
+      "47856 European (NR, Netherlands, Norway, U.K., U.S.)",
+      "6940 East Asian (Republic of Korea)",
+      "3522 African American or Afro-Caribbean (U.S.)",
+      "600 Hispanic or Latin American (U.S.)"
+    ],
+    "replication_ancestry": [
+      "23162 European (NR, Poland, U.K., U.S.)",
+      "358 East Asian (Republic of Korea)"
+    ],
+    "full_summary_stats": "NA",
+    "terms_of_license": "https://www.ebi.ac.uk/about/terms-of-use/",
+    "bg_efo_traits": [],
+    "array_manufacturer": [
+      "Affymetrix",
+      "Illumina"
+    ],
+    "_links": {
+      "self": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST004147"
+      },
+      "ancestries": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST004147/ancestries{?sort,direction}",
+        "templated": true
+      }
+    }
+  },
+  "directory_location_basis": "standard accession directory probe, not proof of release",
+  "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004147/",
+  "directory_access": {
+    "requested_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004147/",
+    "accessed_utc": "2026-10-06T20:34:32.441514+00:00",
+    "method": "GET",
+    "anonymous": true,
+    "read_limit_bytes": 262144,
+    "requested_range": null,
+    "status": 404,
+    "final_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004147/",
+    "response_headers": {
+      "content-length": "196",
+      "content-type": "text/html; charset=iso-8859-1"
+    },
+    "downloaded_bytes": 196,
+    "saved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/audits/catalog/GCST004147/directory.html",
+    "sha256": "80c3fe2ae1062abf56456f52518bd670f9ec3917b7f85e152b347ac6b6faf880",
+    "bounded_read": false,
+    "hash_scope": "saved response bytes only; range/prefix is not a whole-file checksum"
+  }
+}

@@ -1,0 +1,151 @@
+> For the complete documentation index, see [llms.txt](https://finngen.gitbook.io/documentation/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://finngen.gitbook.io/documentation/r11/data-description.md).
+
+# Data description
+
+File naming pattern and file structure
+
+## Summary association statistics
+
+GWAS summary statistics (tab-delimited, bgzipped, genome build 38, [tabix](https://github.com/samtools/htslib) index files included) are named as `{endpoint}.gz`. For example, endpoint `I9_CHD` has `I9_CHD.gz` and `I9_CHD.gz.tbi`.&#x20;
+
+To learn more about the methods used, see section [GWAS](/documentation/r11/methods/phewas.md).
+
+The `{endpoint}.gz` have the following structure:
+
+| Column name           | Description                                                                                                         |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| **`#chrom`**          | chromosome on build GRCh38 (`1-23`)                                                                                 |
+| **`pos`**             | position in base pairs on build GRCh38                                                                              |
+| **`ref`**             | reference allele                                                                                                    |
+| **`alt`**             | alternative allele (effect allele)                                                                                  |
+| **`rsids`**           | variant identifier                                                                                                  |
+| **`nearest_genes`**   | nearest gene(s) (comma separated) from variant                                                                      |
+| **`pval`**            | p-value from [regenie](https://github.com/FINNGEN/regenie)                                                          |
+| **`mlogp`**           | -log10(p-value)                                                                                                     |
+| **`beta`**            | effect size (log(OR) scale) estimated with [regenie](https://github.com/FINNGEN/regenie) for the alternative allele |
+| **`sebeta`**          | standard error of effect size estimated with [regenie](https://github.com/FINNGEN/regenie)                          |
+| **`af_alt`**          | alternative (effect) allele frequency                                                                               |
+| **`af_alt_cases`**    | alternative (effect) allele frequency among cases                                                                   |
+| **`af_alt_controls`** | alternative (effect) allele frequency among controls                                                                |
+
+## Fine-mapping results
+
+Two fine-mapping methods were used:
+
+* [SuSiE](https://stephenslab.github.io/susie-paper/index.html)
+* [FINEMAP](http://www.christianbenner.com)
+
+Fine-mapping results are tab-delimited and bgzipped.
+
+SuSiE results have the following filename pattern:
+
+* `{endpoint}.SUSIE.cred.bgz`
+* `{endpoint}.SUSIE.cred_99.bgz`&#x20;
+* `{endpoint}.SUSIE.snp.bgz`
+
+FINEMAP results have the following filename pattern:
+
+* `{endpoint}.FINEMAP.config.bgz`
+* `{endpoint}.FINEMAP.region.bgz`
+* `{endpoint}.FINEMAP.snp.bgz`
+
+To learn more about the methods used, see section [Fine-mapping](/documentation/r11/methods/finemapping.md).
+
+`{endpoint}.SUSIE.cred.bgz` contain credible set summaries from SuSiE fine-mapping for all genome-wide significant regions. `{endpoint}.SUSIE.cred_99.bgz` contain the 99% credible set summaries while the default is 95%. They have the following structure:
+
+| Column name     | Description                                                                                                      |
+| --------------- | ---------------------------------------------------------------------------------------------------------------- |
+| **Column name** | **Description**                                                                                                  |
+| **trait**       | phenotype                                                                                                        |
+| **region**      | region for which the fine-mapping was run                                                                        |
+| **cs**          | running number for independent credible sets in a region                                                         |
+| **cs\_log10bf** | Log10 bayes factor of comparing the solution of this model (cs independent credible sets) to cs -1 credible sets |
+| **cs\_avg\_r2** | Average correlation R2 between variants in the credible set                                                      |
+| **cs\_min\_r2** | minimum r2 between variants in the credible set                                                                  |
+| **low\_purity** |                                                                                                                  |
+| **cs\_size**    | how many snps does this credible set contain                                                                     |
+
+`{endpoint}.SUSIE.snp.bgz` contain variant summaries with credible set information and have the following structure:
+
+| **Column name** | **Description**                                                                                                                                             |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **trait**       | endpoint name                                                                                                                                               |
+| **region**      | chr:start-end                                                                                                                                               |
+| **v**           | variant identifier                                                                                                                                          |
+| **rsid**        | rs variant identifier                                                                                                                                       |
+| **chromosome**  | chromosome on build GRCh38 (`1-22, X`)                                                                                                                      |
+| **position**    | position in base pairs on build GRCh38                                                                                                                      |
+| **allele1**     | reference allele                                                                                                                                            |
+| **allele2**     | alternative allele (effect allele)                                                                                                                          |
+| **maf**         | minor allele frequency                                                                                                                                      |
+| **beta**        | effect size GWAS                                                                                                                                            |
+| **se**          | standard error GWAS                                                                                                                                         |
+| **p**           | p-value GWAS                                                                                                                                                |
+| **mean**        | posterior expectation of true effect size                                                                                                                   |
+| **sd**          | posterior standard deviation of true effect size                                                                                                            |
+| **prob**        | posterior probability of association                                                                                                                        |
+| **cs**          | identifier of 95% credible set (-1 = variant is not part of credible set)                                                                                   |
+| **lead\_r2**    | r2 value to a lead variant (the one with maximum PIP) in a credible set                                                                                     |
+| **alphax**      | posterior inclusion probability for the x-th single effect (x := 1..L where L is the number of single effects (causal variants) specified; default: L = 10) |
+
+`{endpoint}.FINEMAP.config.bgz` contain summary fine-mapping variant configurations from FINEMAP method and have the following structure:
+
+| Column name       | Description                                                                 |
+| ----------------- | --------------------------------------------------------------------------- |
+| **Column name**   | **Description**                                                             |
+| **trait**         | phenotype                                                                   |
+| **region**        | region for which the fine-mapping was run                                   |
+| **rank**          | rank of this configuration within a region                                  |
+| **config**        | causal variants in this configuration                                       |
+| **prob**          | probability across all n independent signal configurations                  |
+| **log10bf**       | log10 bayes factor for this configuration                                   |
+| **odds**          | odds of this configuration                                                  |
+| **k**             | how many independent signals in this configuration                          |
+| **prob\_norm\_k** | probability of this configuration within k independent signals solution     |
+| **h2**            | snp heritability of this solution                                           |
+| **h2\_0.95CI**    | 95% confidence interval limits of snp heritability of this solution         |
+| **mean**          | marginalized shrinkage estimates of the posterior effect size mean          |
+| **sd**            | marginalized shrinkage estimates of the posterior effect standard deviation |
+
+`{endpoint}.FINEMAP.region.bgz` contain summary statistics on number of independent signals in each region and have the following structure:
+
+<table><thead><tr><th width="197.11655081240139">Column name</th><th>Description</th></tr></thead><tbody><tr><td><strong>Column name</strong></td><td><strong>Description</strong></td></tr><tr><td><strong>trait</strong></td><td>phenotype</td></tr><tr><td><strong>region</strong></td><td>region for which the fine-mapping was run</td></tr><tr><td><strong>h2g</strong></td><td>heritability of this region</td></tr><tr><td><strong>h2g_sd</strong></td><td>standard deviation of snp heritability of this region</td></tr><tr><td><strong>h2g_lower95</strong></td><td>lower limit of 95% CI for snp heritability</td></tr><tr><td><strong>h2g_upper95</strong></td><td><strong>upper</strong> limit of 95% CI for snp heritability</td></tr><tr><td><strong>log10bf</strong></td><td>log bayes factor compared against null (no signals in the region)</td></tr><tr><td><strong>prob_xSNP</strong></td><td>columns for probabilities of different number of independent signals</td></tr><tr><td><strong>expectedvalue</strong></td><td>expectation (average) of the number of signals</td></tr></tbody></table>
+
+`{endpoint}.FINEMAP.snp.bgz` has summary statistics of variants and into what credible set they may belong to. Columns:
+
+| Column name     | Description                                                                 |
+| --------------- | --------------------------------------------------------------------------- |
+| **Column name** | **Description**                                                             |
+| **trait**       | phenotype                                                                   |
+| **region**      | region for which the fine-mapping was run                                   |
+| **v**           | variant                                                                     |
+| **index**       | running index                                                               |
+| **rsid**        | rs variant identifier                                                       |
+| **chromosome**  | chromosome                                                                  |
+| **position**    | position                                                                    |
+| **allele1**     | reference allele                                                            |
+| **allele2**     | alternative allele                                                          |
+| **maf**         | alternative allele frequency                                                |
+| **beta**        | original marginal effect size                                               |
+| **se**          | original standard error                                                     |
+| **z**           | original zscore                                                             |
+| **prob**        | post inclusion probability                                                  |
+| **log10bf**     | log10 bayes factor                                                          |
+| **mean**        | marginalized shrinkage estimates of the posterior effect size mean          |
+| **sd**          | marginalized shrinkage estimates of the posterior effect standard deviation |
+| **mean\_incl**  | conditional estimates of the posterior effect size mean                     |
+| **sd\_incl**    | conditional estimates of the posterior effect size standard deviation       |
+| **p**           | original p-value                                                            |
+| **csx**         | credible set index for given number of causal variants x                    |
+
+## LD estimation
+
+Linkage disequilibrium (LD) was estimated from [SISu v4.2](/documentation/r11/methods/genotype-imputation/sisu-reference-panel.md) for each chromosome. Use the tool [LDstore (v1.1)](http://www.christianbenner.com/ldstore_v1.1_x86_64.tgz) for further usage of the bcor files.
+
+`ldstore --bcor FG_LD_chr1.bcor --incl-range 20000000-50000000 --table output_file_name.table`
+
+To learn more about the methods used, see section [LD estimation](/documentation/r11/methods/genotype-imputation/ld-estimation.md).
+
+## Variant annotation
+
+The variant annotation has measures (`HWE`, `INFO`, ...) listed per batch.

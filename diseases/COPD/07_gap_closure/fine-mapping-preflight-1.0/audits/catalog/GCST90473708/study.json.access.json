@@ -1,0 +1,18 @@
+{
+  "requested_url": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST90473708",
+  "accessed_utc": "2026-10-06T20:35:42.241554+00:00",
+  "method": "GET",
+  "anonymous": true,
+  "read_limit_bytes": 262144,
+  "requested_range": null,
+  "status": 200,
+  "final_url": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST90473708",
+  "response_headers": {
+    "content-type": "application/json"
+  },
+  "downloaded_bytes": 1097,
+  "saved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/audits/catalog/GCST90473708/study.json",
+  "sha256": "083bdb8310657a1898fa65c66ed8d6769c4466630d3a5285c1f66b4bbd97d237",
+  "bounded_read": false,
+  "hash_scope": "saved response bytes only; range/prefix is not a whole-file checksum"
+}

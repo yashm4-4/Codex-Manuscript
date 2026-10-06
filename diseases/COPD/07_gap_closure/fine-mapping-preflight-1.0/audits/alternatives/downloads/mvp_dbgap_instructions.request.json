@@ -1,0 +1,47 @@
+{
+  "accessed_utc": "2026-10-06T20:35:44.113147+00:00",
+  "command": [
+    "diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/scripts/alternatives_fetch.py",
+    "--url",
+    "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetPdf.cgi?id=phd008760.1",
+    "--label",
+    "mvp_dbgap_instructions",
+    "--max-bytes",
+    "4194304"
+  ],
+  "http_status": 200,
+  "maximum_bytes_requested_or_retained": 4194304,
+  "purpose": "public source metadata or bounded schema sample; no fine-mapping",
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0"
+  },
+  "requested_url": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetPdf.cgi?id=phd008760.1",
+  "response_EOF_before_byte_limit": true,
+  "response_headers": {
+    "Access-Control-Allow-Credentials": "true",
+    "Access-Control-Allow-Headers": "Origin,X-Accept-Charset,X-Accept,Content-Type,X-Requested-With,NCBI-SID,NCBI-PHID",
+    "Access-Control-Allow-Methods": "POST, GET, PUT, OPTIONS, PATCH, DELETE",
+    "Access-Control-Allow-Origin": "",
+    "Alt-Svc": "clear",
+    "Connection": "close",
+    "Content-Security-Policy": "upgrade-insecure-requests",
+    "Content-Type": "application/pdf; charset=ISO-8859-1",
+    "Date": "Tue, 06 Oct 2026 20:35:44 GMT",
+    "Referrer-Policy": "origin-when-cross-origin",
+    "Server": "Apache",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "Via": "1.1 google",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Ua-Compatible": "IE=Edge",
+    "X-Xss-Protection": "1; mode=block"
+  },
+  "response_url": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetPdf.cgi?id=phd008760.1",
+  "retained_prefix_only": false,
+  "stored_body_reaches_declared_response_length": false,
+  "stored_bytes": 151113,
+  "stored_path": "audits/alternatives/downloads/mvp_dbgap_instructions.bin",
+  "stored_sha256": "58cfc5fac569c6f55b8c1f4945d5c94e8fa9af92a502cf218ac8e669822e136a"
+}

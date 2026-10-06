@@ -1,0 +1,40 @@
+# Study meta-data
+gwas_id: GCST90399694
+author_notes: "Additional headers:\nColumn name Description\ninv_var_het_p heterogeneity
+  (Cochran’s Q test) p value\ndirection direction of effect sizes in all data sets
+  in the meta-analysis\nN_case number of cases\nN_ctrl number of controls\nn_bbk number
+  of biobanks in the meta-analysis (minimum is 2)\nis_strand_flip flag to indicate
+  whether this variant had a strand flip in any data set\nis_diff_AF_gnomAD flag to
+  indicate whether this variant failed the AF QC (compared to gnomAD) in any data
+  set"
+gwas_catalog_api: https://www.ebi.ac.uk/gwas/rest/api/studies/GCST90399694
+date_metadata_last_modified: 2025-01-09
+
+# Trait Information
+trait_description:
+  - Chronic obstructive pulmonary disease
+ontology_mapping:
+  - EFO_0000341
+
+# Genotyping Information
+genome_assembly: GRCh38
+coordinate_system: 1-based
+genotyping_technology:
+  - Genome-wide genotyping array
+
+# Sample Information
+samples:
+  - sample_ancestry_category:
+      - European
+    sample_size: 995917
+sex: combined
+
+# Summary Statistic information
+data_file_name: GCST90399694.h.tsv.gz
+file_type: GWAS-SSF v1.0
+data_file_md5sum: 054a865de16ce0cab11b147f93b29e02
+
+# Harmonization status
+is_harmonised: true
+is_sorted: true
+harmonisation_reference: ftp://ftp.ensembl.org/pub/release-95/fasta/homo_sapiens/dna/

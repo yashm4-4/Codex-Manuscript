@@ -1,0 +1,737 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><meta name="generator" content="Gatsby 5.13.6"/><meta data-react-helmet="true" name="description" content="The Genome Aggregation Database (gnomAD) is a resource developed by an international coalition of investigators, with the goal of aggregating and harmonizing both exome and genome sequencing data from a wide variety of large-scale sequencing projects, and making summary data available for the wider scientific community."/><style data-href="/news/styles.2c5162338d314762170d.css" data-identity="gatsby-global-css">/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{-webkit-text-size-adjust:100%;line-height:1.15}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}[hidden],template{display:none}code[class*=language-],pre[class*=language-]{word-wrap:normal;background:none;color:#000;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:1em;-webkit-hyphens:none;hyphens:none;line-height:1.5;tab-size:4;text-align:left;text-shadow:0 1px #fff;white-space:pre;word-break:normal;word-spacing:normal}code[class*=language-] ::selection,code[class*=language-]::selection,pre[class*=language-] ::selection,pre[class*=language-]::selection{background:#b3d4fc;text-shadow:none}@media print{code[class*=language-],pre[class*=language-]{text-shadow:none}}pre[class*=language-]{margin:.5em 0;overflow:auto;padding:1em}:not(pre)>code[class*=language-],pre[class*=language-]{background:#f5f2f0}:not(pre)>code[class*=language-]{border-radius:.3em;padding:.1em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#999}.token.namespace{opacity:.7}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#905}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#690}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url{background:hsla(0,0%,100%,.5);color:#9a6e3a}.token.atrule,.token.attr-value,.token.keyword{color:#07a}.token.class-name,.token.function{color:#dd4a68}.token.important,.token.regex,.token.variable{color:#e90}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}body,html{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;font-size:14px;height:100%;width:100%}@media print{body,html{background:none}}main{padding-bottom:3em}a{text-decoration:none}a,a:visited{color:#1173bb}a:focus,a:hover{text-decoration:underline}.sr-only{clip:rect(0 0 0 0);border:0;height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}#header{align-items:center;background-color:#000;box-sizing:border-box;display:flex;flex-direction:row;justify-content:space-between;min-height:50px;overflow:hidden;padding:10px 30px;width:100%}#header a{color:#fff;text-decoration:none}.header-title{font-size:1.5em;font-weight:700;margin:0}#nav-toggle{background:none;border:1px solid #fff;border-radius:.5em;box-sizing:border-box;color:#fff;cursor:pointer;display:none;font-size:1em;height:calc(2em + 2px);line-height:1.25;outline:none;padding:.375em .75em;position:absolute;right:15px;top:10px;-webkit-user-select:none;user-select:none}#nav-toggle:focus,#nav-toggle:hover{background:#fff6}#nav-list{display:flex;flex-direction:row;list-style-type:none;margin:0;padding:0}#nav-list a{padding:.5em}@media (max-width:768px){#header{align-items:stretch;flex-direction:column}#nav-toggle{display:block}#nav-list{display:none;flex-direction:column;margin-top:1em}#nav-list.expanded{display:flex}#nav-list a{display:inline-block;padding:1em;width:100%}}.article{box-sizing:border-box;font-size:16px;margin:0 auto;max-width:645px;padding:0 15px;width:100%}.article-header{border-bottom:1px solid #ccc;display:flex;flex-direction:row;justify-content:space-between;margin:1.67em 0 .67em;padding-bottom:.5em}.article-title{margin:0}.article-meta{margin-bottom:2em}.article-authors{margin-top:1em}.article-body{font-size:16px}.article-body ol,.article-body p,.article-body ul{line-height:1.5}.article-body figure,.article-body p>img:only-child{margin:2em 0;text-align:center}.article-body figcaption{font-style:italic;margin-top:1em}.article-body img,.article-body video{max-width:100%}.article-nav{border-top:1px solid #ccc;box-sizing:border-box;font-size:16px;margin:1em auto 0;max-width:645px;padding:1em 15px;width:100%}.article-nav-item{margin-bottom:1em}.article-nav-item:last-child{margin-bottom:0}.article-list{margin:0 auto;max-width:645px;padding:0 15px}.article-list .article{padding:0}.article-list.no-sidebar{max-width:645px}.sidebar{display:none}.sidebar-list{list-style-type:none;margin:0;padding:0}.sidebar-list li{margin-bottom:1rem}.sidebar-list .item-description{color:#666}@media (min-width:1000px){.article-list{margin:0 auto;max-width:1000px}.article-list-inner{position:relative}.article-list .article{margin-left:0;margin-right:0}.sidebar{box-sizing:border-box;display:block;padding:0 1.5rem;position:absolute;right:0;top:0;width:300px}}table{border-collapse:collapse;border-spacing:0;font-size:14px;line-height:2;width:100%}td,th{border-top:1px solid #ccc;padding:.25em 2em .25em 0}th{font-weight:700;text-align:left}thead td,thead th{border-top:none}thead tr:last-child td,thead tr:last-child th{border-bottom:1px solid #000}tfoot tr:first-child td,tfoot tr:first-child th{border-top:1px solid #000}.category-list{font-size:16px;line-height:1.5}.category-list li{margin-bottom:.5em}:not(pre)>code[class*=language-],pre[class*=language-]{background:#fafafa;border:1px solid #ddd;border-radius:.25em;box-sizing:border-box;width:100%}</style><style type="text/css">
+    .anchor.before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateX(-100%);
+      padding-right: 4px;
+    }
+    .anchor.after {
+      display: inline-block;
+      padding-left: 4px;
+    }
+    h1 .anchor svg,
+    h2 .anchor svg,
+    h3 .anchor svg,
+    h4 .anchor svg,
+    h5 .anchor svg,
+    h6 .anchor svg {
+      visibility: hidden;
+    }
+    h1:hover .anchor svg,
+    h2:hover .anchor svg,
+    h3:hover .anchor svg,
+    h4:hover .anchor svg,
+    h5:hover .anchor svg,
+    h6:hover .anchor svg,
+    h1 .anchor:focus svg,
+    h2 .anchor:focus svg,
+    h3 .anchor:focus svg,
+    h4 .anchor:focus svg,
+    h5 .anchor:focus svg,
+    h6 .anchor:focus svg {
+      visibility: visible;
+    }
+  </style><script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var hash = window.decodeURI(location.hash.replace('#', ''))
+      if (hash !== '') {
+        var element = document.getElementById(hash)
+        if (element) {
+          var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
+          var clientTop = document.documentElement.clientTop || document.body.clientTop || 0
+          var offset = element.getBoundingClientRect().top + scrollTop - clientTop
+          // Wait for the browser to finish rendering before scrolling.
+          setTimeout((function() {
+            window.scrollTo(0, offset - 0)
+          }), 0)
+        }
+      }
+    })
+  </script><title data-react-helmet="true">gnomAD v2.1 | gnomAD browser</title><link rel="alternate" type="application/rss+xml" title="gnomAD blog" href="/news/rss.xml"/><link rel="alternate" type="application/rss+xml" title="gnomAD changelog" href="/news/changelog.xml"/><link rel="preconnect" href="https://www.googletagmanager.com"/><link rel="dns-prefetch" href="https://www.googletagmanager.com"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="sc-gEvEer hGcxy"><header id="header"><h1 class="header-title"><a href="https://gnomad.broadinstitute.org/">gnomAD browser</a></h1><nav role="navigation"><button id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-list"><span aria-hidden="true">☰</span><span class="sr-only">Menu</span></button><ul id="nav-list"><li class="nav-item"><a class="nav-link" href="https://gnomad.broadinstitute.org/about">About</a></li><li class="nav-item"><a class="nav-link" href="https://gnomad.broadinstitute.org/team">Team</a></li><li class="nav-item"><a class="nav-link" href="https://gnomad.broadinstitute.org/federated">Federated</a></li><li class="nav-item"><a class="nav-link" href="https://gnomad.broadinstitute.org/stats">Stats</a></li><li class="nav-item"><a class="nav-link" href="https://gnomad.broadinstitute.org/policies">Policies</a></li><li class="nav-item"><a class="nav-link" href="https://gnomad.broadinstitute.org/publications">Publications</a></li><li class="nav-item"><a class="nav-link" href="/news/">Blog</a></li><li class="nav-item"><a class="nav-link" href="/news/changelog/">Changelog</a></li><li class="nav-item"><a class="nav-link" href="https://gnomad.broadinstitute.org/data">Data</a></li><li class="nav-item"><a class="nav-link" href="https://discuss.gnomad.broadinstitute.org/" target="_blank" rel="noopener noreferrer">Forum</a></li><li class="nav-item"><a class="nav-link" href="https://gnomad.broadinstitute.org/contact">Contact</a></li><li class="nav-item"><a class="nav-link" href="https://gnomad.broadinstitute.org/help">Help/FAQ</a></li></ul></nav></header></div><main><article class="article"><header class="article-header"><h1 class="article-title">gnomAD v2.1</h1></header><div class="article-meta"><span class="article-date">October 17, 2018</span><span class="article-categories"> in <span class="article-category"><a href="/news/category/announcements/">Announcements</a></span> / <span class="article-category"><a href="/news/category/releases/">Releases</a></span></span><div class="article-authors"><a href="/news/author/laurent-francioli/">Laurent Francioli</a>, <a href="/news/author/grace-tiao/">Grace Tiao</a>, <a href="/news/author/konrad-karczewski/">Konrad Karczewski</a>, <a href="/news/author/matthew-solomonson/">Matthew Solomonson</a>, <a href="/news/author/nick-watts/">Nick Watts</a></div></div><section class="article-body"><div><p>Originally published on the <a href="https://macarthurlab.org/2018/10/17/gnomad-v2-1/">MacArthur Lab blog</a>.</p>
+<p>We are delighted to announce the release of gnomAD v2.1! This new release of gnomAD is based on the
+same underlying callset as gnomAD v2.0.2, but has the following improvements and new features:</p>
+<ul>
+<li><a href="https://gnomad.broadinstitute.org/">An awesome new browser</a></li>
+<li>Per-gene loss-of-function constraint</li>
+<li>Improved sample and variant filtering processes</li>
+<li>Allele frequencies in sub-continental populations in Europe and East Asia</li>
+<li>Allele frequencies computed for the following subsets of the data:
+<ul>
+<li>Controls-only (no cases from common disease case/control studies)</li>
+<li>Samples not assessed for a neurological phenotype</li>
+<li>Samples that were not part of a cancer cohort</li>
+<li>Samples that are not part of the Trans-Omics for Precision Medicine
+(TOPMed)-<a href="https://bravo.sph.umich.edu/">BRAVO</a> dataset</li>
+</ul>
+</li>
+<li>New annotations for each variant
+<ul>
+<li>Filtering allele frequency using Poisson 95% and 99% CI, per population</li>
+<li>Age histogram of heterozygous and homozygous carriers</li>
+</ul>
+</li>
+</ul>
+<p>gnomAD v2.1 comprises a total of 16mln SNVs and 1.2mln indels from 125,748 exomes, and 229mln SNVs
+and 33mln indels from 15,708 genomes. In addition to the 7 populations already present in gnomAD
+2.0.2, this release now breaks down the non-Finnish Europeans and East Asian populations further
+into sub-populations. The population breakdown is detailed below.</p>
+<!-- end_excerpt -->
+<p><img src="/news/images/2018/10/gnomad-v2-1/gnomad_barplot.png" alt=""></p>
+<table>
+<thead>
+<tr>
+<th>Population</th>
+<th>Description</th>
+<th>Genomes</th>
+<th>Exomes</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>afr</td>
+<td>African/African American</td>
+<td>4,359</td>
+<td>8,128</td>
+<td>12,487</td>
+</tr>
+<tr>
+<td>amr</td>
+<td>Latino/Admixed American</td>
+<td>424</td>
+<td>17,296</td>
+<td>17,720</td>
+</tr>
+<tr>
+<td>asj</td>
+<td>Ashkenazi Jewish</td>
+<td>145</td>
+<td>5,040</td>
+<td>5,185</td>
+</tr>
+<tr>
+<td>eas</td>
+<td>East Asian</td>
+<td>(780)</td>
+<td>(9,197)</td>
+<td>(9,977)</td>
+</tr>
+<tr>
+<td>kor</td>
+<td>Koreans</td>
+<td>0</td>
+<td>1,909</td>
+<td>1,909</td>
+</tr>
+<tr>
+<td>jpn</td>
+<td>Japanese</td>
+<td>0</td>
+<td>76</td>
+<td>76</td>
+</tr>
+<tr>
+<td>oea</td>
+<td>Other East Asian</td>
+<td>780</td>
+<td>7,212</td>
+<td>7,992</td>
+</tr>
+<tr>
+<td>fin</td>
+<td>Finnish</td>
+<td>1,738</td>
+<td>10,824</td>
+<td>12,562</td>
+</tr>
+<tr>
+<td>nfe</td>
+<td>Non-Finnish European</td>
+<td>(7,718)</td>
+<td>(56,885)</td>
+<td>(64,603)</td>
+</tr>
+<tr>
+<td>bgr</td>
+<td>Bulgarian</td>
+<td>0</td>
+<td>1,335</td>
+<td>1,335</td>
+</tr>
+<tr>
+<td>est</td>
+<td>Estonian</td>
+<td>2,297</td>
+<td>121</td>
+<td>2,418</td>
+</tr>
+<tr>
+<td>nwe</td>
+<td>North-Western European</td>
+<td>4,299</td>
+<td>21,111</td>
+<td>25,410</td>
+</tr>
+<tr>
+<td>seu</td>
+<td>Southern European</td>
+<td>53</td>
+<td>5,752</td>
+<td>5,805</td>
+</tr>
+<tr>
+<td>swe</td>
+<td>Swedish</td>
+<td>0</td>
+<td>13,067</td>
+<td>13,067</td>
+</tr>
+<tr>
+<td>onf</td>
+<td>Other non-Finnish European</td>
+<td>1,069</td>
+<td>15,499</td>
+<td>16,568</td>
+</tr>
+<tr>
+<td>sas</td>
+<td>South Asian</td>
+<td>0</td>
+<td>15,308</td>
+<td>15,308</td>
+</tr>
+<tr>
+<td>oth</td>
+<td>Other (population not assigned)</td>
+<td>544</td>
+<td>3,070</td>
+<td>3,614</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td></td>
+<td><strong>15,708</strong></td>
+<td><strong>125,748</strong></td>
+<td><strong>141,456</strong></td>
+</tr>
+</tbody>
+</table>
+<p>While the vast majority of these samples were also part of our previous release, our improved
+sample QC pipeline resulted in a few changes summarized in the table below:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Overlapping</th>
+<th>In 2.0.2 only</th>
+<th>In 2.1 only</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Genomes</strong></td>
+<td>14,977</td>
+<td>519</td>
+<td>731</td>
+</tr>
+<tr>
+<td><strong>Exomes</strong></td>
+<td>119,116</td>
+<td>4,020</td>
+<td>6,632</td>
+</tr>
+</tbody>
+</table>
+<p>In addition to providing allele-frequencies for sub-continental populations, we have also computed
+allele-frequencies on subsets of the data of particular interest:</p>
+<ul>
+<li>Non-TOPMed: only samples that are not present in the Trans-Omics for Precision Medicine (TOPMed)-
+<a href="https://bravo.sph.umich.edu/">BRAVO</a> release. The allele counts in this subset can thus be added
+to those of <a href="https://bravo.sph.umich.edu/">BRAVO</a> to federate both datasets.</li>
+<li>Non-cancer: Only samples from individuals who were not ascertained for having cancer in a cancer
+study</li>
+<li>Non-neuro: Only samples from individuals who were not ascertained for having a neurological
+condition in a neurological case/control study</li>
+<li>Controls-only: Only samples from individuals who were not selected as a case in a case/control
+study of common disease</li>
+</ul>
+<p><img src="/news/images/2018/10/gnomad-v2-1/subsets_barplot.png" alt=""></p>
+<p>As it has always been, gnomAD is available for download and on our browser and can be used freely
+by anyone without any restrictions. We are preparing a series of papers that will present some of
+the exciting scientific insights that can be gleaned from these data.</p>
+<h2 id="changes-in-the-release-vcf-and-hail-table" style="position:relative;"><a href="#changes-in-the-release-vcf-and-hail-table" aria-label="changes in the release vcf and hail table permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Changes in the release VCF and Hail Table</h2>
+<h3 id="new-annotations-filtering-allele-frequency-and-age-histograms" style="position:relative;"><a href="#new-annotations-filtering-allele-frequency-and-age-histograms" aria-label="new annotations filtering allele frequency and age histograms permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>New annotations: Filtering allele frequency and age histograms</h3>
+<p>With gnomAD 2.1, two new annotations are available for each variant:</p>
+<ol>
+<li>Filtering allele frequency: this annotation contains a threshold filter allele frequency for a
+variant. If the filter allele frequency of a variant is above the <em>maximum credible populationAF</em>
+for a condition of interest, then that variant should not be considered a plausible candidate
+ausative variant (see <a href="http://cardiodb.org/allelefrequencyapp/">http://cardiodb.org/allelefrequencyapp/</a>).
+This annotation is computed globally and for each population separately. Two thresholds are
+available for each population: 95% CI and 99% CI.</li>
+<li>Age histograms: For each variant, histogram of the age of heterozygous and homozygous carriers
+are available. The format for those is a pipe-delimited string of counts from age 30 to 80 by
+increments of 5 years. Counts of individuals below and above these thresholds are available in
+the <code class="language-text">age_hist_*_n_smaller</code> and <code class="language-text">age_hist_*_n_larger</code> fields (where * can be <code class="language-text">het</code> or <code class="language-text">hom</code>).</li>
+</ol>
+<h3 id="split-all-the-multi-allelic-variants" style="position:relative;"><a href="#split-all-the-multi-allelic-variants" aria-label="split all the multi allelic variants permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Split all the multi-allelic variants</h3>
+<p>For this release, all multi-allelic sites have been split. This means that multiple lines now have
+the same chromosome and position. This decision was made since the vast majority (all?) of gnomAD
+downstream users did not want to have multiple alleles on a single line.</p>
+<h3 id="hemizygote-counts" style="position:relative;"><a href="#hemizygote-counts" aria-label="hemizygote counts permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Hemizygote counts</h3>
+<p>For this release, there are no more hemizygote count annotations. Instead, our male counts
+correctly consider males as hemizygous in non-pseudo-autosomal (non-PAR) regions of the sex
+chromosomes and we provide a <code class="language-text">nonpar</code> flag to identify all variants that are in the these regions.</p>
+<h3 id="flagging-but-not-filtering-problematic-regions" style="position:relative;"><a href="#flagging-but-not-filtering-problematic-regions" aria-label="flagging but not filtering problematic regions permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Flagging, but not filtering problematic regions</h3>
+<p>We have moved the information about sites falling in low complexity (<code class="language-text">lcr</code>), decoy (<code class="language-text">decoy</code>) and
+segmental duplication (<code class="language-text">segdup</code>) regions to the <code class="language-text">INFO</code> field. This means that the information is
+still easily available in the VCF and Hail Table, but variants in these regions that pass other
+filters will have a <code class="language-text">PASS</code> value in the <code class="language-text">FILTER</code> column. In the browser, <code class="language-text">lcr</code>, <code class="language-text">decoy</code> and
+<code class="language-text">segdup</code> are displayed in the <em>Flags</em> column.</p>
+<h3 id="the-end-of-shouting-population-names" style="position:relative;"><a href="#the-end-of-shouting-population-names" aria-label="the end of shouting population names permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>The end of SHOUTING population names</h3>
+<p>It has been a tradition in the VCF annotations to SHOUT things. With this release, we have decided
+that while we would keep all original VCF and GATK annotations with their letter case (e.g. <code class="language-text">AC</code>,
+<code class="language-text">AN</code>, <code class="language-text">AF</code>), gnomAD populations, subsets, etc. will be lowercase. As an example, the allele
+frequency for African male samples is stored in <code class="language-text">AF_afr_male</code>.</p>
+<h3 id="hail-table-gets-a-new-schema" style="position:relative;"><a href="#hail-table-gets-a-new-schema" aria-label="hail table gets a new schema permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Hail Table gets a new schema</h3>
+<p>For those using <a href="https://www.hail.is/">Hail</a> to perform their analyses (highly recommended!), this
+new release comes with a different schema than gnomAD v.2.0.2. Instead of having a nested schema
+for the different subsets/populations/sex, all similar annotations are stored in an array. There
+are 5 such arrays at the root of the row schema:</p>
+<ul>
+<li><code class="language-text">freq</code>: Allele frequency information (AC, AN, AF, homozygote count)</li>
+<li><code class="language-text">age_hist_het</code>: Histogram of heterozygous carriers</li>
+<li><code class="language-text">age_hist_hom</code>: Histogram of homozygous carriers</li>
+<li><code class="language-text">popmax</code>: Allele frequency information for the non-bottlenecked population with the highest frequency.
+This excludes Ashkenazi Jewish (asj), European Finnish (fin), and “Other” (oth) populations.</li>
+<li><code class="language-text">faf</code>: Filtering allele frequency (see definition above)</li>
+</ul>
+<p>For each variant, these arrays contain the subsets/populations/sex combinations in a predetermined
+order. To find the correct index for a given combination of subset/population/sex, we provide a
+global index for each array:</p>
+<ul>
+<li><code class="language-text">freq_index_dict</code> for <code class="language-text">freq</code></li>
+<li><code class="language-text">age_index_dict</code> for <code class="language-text">age_hist_het</code> and <code class="language-text">age_hist_hom</code></li>
+<li><code class="language-text">popmax_index_dict</code> for <code class="language-text">popmax</code></li>
+<li><code class="language-text">faf_index_dict</code> for <code class="language-text">faf</code></li>
+</ul>
+<p>This structure allows users to prepare a desired expression by looking into the index (often
+programatically) and then accessing the desired element(s) in the array(s) through an expression.</p>
+<h3 id="constraint" style="position:relative;"><a href="#constraint" aria-label="constraint permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Constraint</h3>
+<p>With this release, we are finally releasing new per-gene constraint scores computed with gnomAD!
+These scores can either be downloaded as a table or viewed on the gnomAD browser.</p>
+<p>With gnomAD, we have shifted from using the <em>probability of being loss-of-function intolerant</em>
+(<em>pLI</em>) score developed with ExAC and now recommend using the <em>observed / expected</em> score. For this
+reason, the constraint table displayed on the browser (unless the ExAC data is selected) now also
+shows the <em>observed / expected</em> (<em>oe</em>) metric. It is very important to note that the scale of <em>oe</em>
+is very different from that of <em>pLI</em>; in particular low <em>oe</em> values are indicative of strong
+intolerance. In addition, while <em>pLI</em> incorporated the uncertainty around low counts (i.e a gene
+with low expected count could not have a high <em>pLI</em>), <em>oe</em> does not. Therefore, the <em>oe</em> metric
+comes with a 90% CI. It is important to consider the confidence interval when using <em>oe</em>.</p>
+<p>The change from <em>pLI</em> to <em>oe</em> was motivated mainly by its easier interpretation and its continuity
+across the spectrum of selection. As an example, let’s take a gene with a <em>pLI</em> of 0.8: this means
+that this gene cannot be categorized as a highly likely haploinsufficient gene based on our data.
+However, it is unclear whether this value was obtained because of sample size or because there were
+too many loss-of-function (LoF) variants observed in the gene. In addition, if the cause was the
+latter, <em>pLI</em> doesn’t tell much about the overall selection against loss-of-function in this gene.
+On the other hand, a gene with a LoF <em>oe</em> of 0.4 can clearly be interpreted as a gene where only
+40% of the expected loss-of-function variants were observed and therefore is likely under selection
+against LoF variants. In addition, the <em>oe</em> 90% CI allows us to clearly distinguish cases where
+there is a lot of uncertainty about the constraint for that gene due to sample size.</p>
+<p>Since <em>pLI</em> > 0.9 is widely used in research and clinical interpretation of Mendelian cases, we
+suggest using the upper bound of the <em>oe</em> confidence interval &#x3C; 0.35 if a hard threshold is
+needed. Note that we also provide <em>pLI</em> values computed with gnomAD.</p>
+<h2 id="the-new-gnomad-browser" style="position:relative;"><a href="#the-new-gnomad-browser" aria-label="the new gnomad browser permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>The new gnomAD browser</h2>
+<p><img src="/news/images/2018/10/gnomad-v2-1/blog-post-genepage.png" alt=""></p>
+<p>We are very excited to announce the release of the newly redesigned and re-engineered gnomAD
+browser! We kept aesthetic and utility of the original ExAC/gnomAD browsers while bringing the
+following improvements:</p>
+<ul>
+<li>Improved browsing performance/loading times; all genes should load successfully. If you find a
+gene that does not load, please <a href="mailto:gnomad@broadinstitute.org">email us</a></li>
+<li>Support for viewing subsets and ExAC</li>
+<li>Multiple new features on our gene and variants pages, including
+<ul>
+<li>Gene page
+<ul>
+<li>Gene model with multiple transcripts along with isoform expression from GTex</li>
+<li>Regional missense constraint (available for ExAC dataset only)</li>
+<li>ClinVar variants track</li>
+<li>Entirely redesigned variants table</li>
+</ul>
+</li>
+<li>Variants page
+<ul>
+<li>Filtering allele frequency annotations</li>
+<li>Sub-continental population breakdown</li>
+<li>Age histograms for heterozygote and homozygote carriers</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>A brand new region view: Specific intervals of the genome can be viewed using with a query
+formatted as <code class="language-text">chrom-start-stop</code>. We’ve capped the number of variants returnable for this search
+at 30,000. If your query is larger than this, the coverage and genes will still return but you’ll
+be asked to make your interval smaller. You can also click on a gene in the region to be taken to
+the gene page for that gene. (For example, try region:
+<a href="https://gnomad.broadinstitute.org/region/1-55405222-55630526?dataset=gnomad_r2_1">1-55405222-55630526</a>)</li>
+<li>Intuitive help system</li>
+<li>Behind-the-scenes technology improvements that improve user experience and allow us to develop
+new features more quickly</li>
+<li>Database and infrastructure improvements that address the increasing size and complexity of
+gnomAD</li>
+</ul>
+<h2 id="sample-qc" style="position:relative;"><a href="#sample-qc" aria-label="sample qc permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Sample QC</h2>
+<p>The overall sample QC process is similar to the 2.0.2 pipeline. The most profound difference is a
+much refined sequencing platform assignment process, especially for the exomes for which we
+developed a data-driven platform assignment method (step 2 bellow). In addition, we have now
+implemented the entire pipeline using <a href="https://hail.is/">Hail</a>, requiring no external software
+(except for <a href="https://broadinstitute.github.io/picard/">Picard tools</a> for the sequencing quality
+metrics). The process followed the following steps:</p>
+<ol>
+<li>Exclude samples based on hard thresholds on sequencing and raw calls metrics</li>
+<li>Assign sequencing platform</li>
+<li>Exclude relatives (up to 2nd degree relatives)</li>
+<li>Infer ancestry using PCA</li>
+<li>Exclude samples that are outliers for calling quality metrics in their ancestry/platform group.</li>
+</ol>
+<p>Steps 1 and 2 were performed on exomes and genomes separately, whereas the rest of the pipeline was
+performed on the combined data. These steps are described in more details in the next sections.</p>
+<h3 id="1-hard-filtering" style="position:relative;"><a href="#1-hard-filtering" aria-label="1 hard filtering permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1. Hard filtering</h3>
+<p>The hard filtering process was very similar to that of gnomAD 2.0.2, with the addition of a raw
+call rate cutoff at 0.85 and refined sex abnormality filters in exomes. In addition, all calling
+metrics were computed using Hail. We excluded samples based on the following thresholds:</p>
+<ul>
+<li>Both exomes and genomes:
+<ul>
+<li>High contamination: freemix > 0.05</li>
+<li>Low call rate: callrate &#x3C; 0.85</li>
+<li>Excess chimeric reads: pct_chimera > 0.05</li>
+</ul>
+</li>
+<li>Exomes only
+<ul>
+<li>No coverage: Average chrom20 coverage = 0</li>
+<li>Ambiguous sex (see plot below):</li>
+<li>F inbreeding on X (non-PAR) >= 0.5 &#x26; normalized Y chromosome coverage &#x3C;= 0.1</li>
+<li>0.6 &#x3C;= F inbreeding on X (non-PAR) >= 0.4 &#x26; normalized Y chromosome coverage > 0.1</li>
+<li>Sex aneuploidies</li>
+<li>F inbreeding on X (non-PAR) &#x3C; 0.4 &#x26; normalized Y chromosome coverage > 0.1</li>
+</ul>
+</li>
+<li>Genomes only
+<ul>
+<li>Low coverage: mean coverage &#x3C; 15x</li>
+<li>Small insert size: Median insert size &#x3C; 250bp</li>
+<li>Ambiguous sex: fell outside of:</li>
+<li>Male: chromosome X F-stat > 0.8</li>
+<li>Female: chromosome X F-stat &#x3C; 0.4</li>
+</ul>
+</li>
+</ul>
+<p><img src="/news/images/2018/10/gnomad-v2-1/sex-check.jpg" alt=""></p>
+<h3 id="2-assign-sequencing-platform" style="position:relative;"><a href="#2-assign-sequencing-platform" aria-label="2 assign sequencing platform permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2. Assign sequencing platform</h3>
+<p>The platform on which a sample is sequenced is a crucial determinant of the genomic information
+captured in that sample. Because our pipeline relies on an outlier detection strategy, it is very
+important that we apply that process to samples that were sequenced using a similar technology. For
+this new release, we have substantially improved our sequencing platform assignment as described
+below. This change is the most dramatic change in our sample QC process.</p>
+<h4 id="genomes" style="position:relative;"><a href="#genomes" aria-label="genomes permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Genomes</h4>
+<p>Since all the genomes in gnomAD v2 were sequenced at the Broad Institute, we have complete and
+detailed metadata for these samples. For this release, instead of classifying the genomes solely
+based on whether they used a PCR+ or PCR-free preparation process, we used the exact version of the
+protocol used for each sample. In total, we divided our genomes in 9 different sequencing
+protocols.</p>
+<h4 id="exomes" style="position:relative;"><a href="#exomes" aria-label="exomes permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Exomes</h4>
+<p>One of the major refinements to our sample QC pipeline is the introduction of a data-driven method
+to automatically discover and assign exome platforms. In our previous release, we had relied on
+metadata from the different projects that compose gnomAD to assign exome samples to a sequencing
+platform. This approach had two major caveats: first, many samples lacked this information and were
+thus lumped in an “other platform” category that was difficult to use for filtering as it grouped a
+collection of very different sequencing platforms that had different capture targets and coverage
+profiles. Second, the annotations provided were sometimes inaccurate, for example in the case of
+project that used different capture kits over time. Our method differentiates the different exome
+sequencing capture kits based on their capture targets. For each capture target in our well-behaved
+calling regions (as defined by <a href="https://gatkforums.broadinstitute.org/gatk">GATK</a>), we assigned a
+binary annotation to each sample based on whether this sample had a call rate above or below 25%.
+We then computed the 9 first principal components (PCs) of the resulting target-by-sample matrix
+using the <a href="https://hail.is/docs/devel/methods/stats.html?highlight=pca#hail.methods.pca"><em>pca</em> method in Hail</a>.
+Finally we used hierarchical density-based spatial clustering of applications with noise
+(<a href="https://github.com/scikit-learn-contrib/hdbscan">HDBSCAN</a> from the sklearn python package) to
+cluster our samples based on their PC values. When compared to labels from project where we knew
+the major exome sequencing platform, 97.7% of these were correctly assigned to their respective
+cluster (96.7% for agilent, 99% for ICE, 96.9% for ICE with 150bp read length and 100% for
+nimblegen).</p>
+<p><img src="/news/images/2018/10/gnomad-v2-1/platform_pca.jpg" alt=""></p>
+<h3 id="3-relatedness-filtering" style="position:relative;"><a href="#3-relatedness-filtering" aria-label="3 relatedness filtering permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3. Relatedness filtering</h3>
+<p>Relatedness filtering for this release was done very similarly to the 2.0.2 release. The only
+difference is that instead of using KING, we used the
+<a href="https://hail.is/docs/devel/methods/genetics.html?highlight=pc_re%20late#hail.methods.pc_relate"><em>pc</em>_<em>relate</em> method in Hail</a>
+to infer relatedness. Relatedness was computed amongst all samples that passed the hard filters in
+both exomes and genomes together. The sites we used for inferring relatedness were defined as
+follows:</p>
+<ul>
+<li>Present in both exomes and genomes</li>
+<li>Autosomal, bi-allelic single nucleotide variants (SNVs) only</li>
+<li>Allele frequency > 0.1%</li>
+<li>Call rate > 99%</li>
+<li>LD-pruned with a cutoff of r<sup>2</sup> = 0.1</li>
+</ul>
+<p>After running <a href="https://hail.is/docs/devel/methods/genetics.html?highlight=pc_re%20late#hail.methods.pc_relate"><em>pc</em>_<em>relate</em></a>,
+we used the <a href="https://hail.is/docs/devel/methods/misc.html?highlight=maximal#hail.methods.maximal_independent_set"><em>maximal</em>_<em>independent</em>_<em>set</em> method in Hail</a>
+to get the largest set of samples with no pair of samples related at the 2nd degree or closer. When
+we had to select a sample amongst multiple possibilities, we used the same scheme to favor a sample
+over another:</p>
+<ul>
+<li>Genomes had priority over exomes</li>
+<li>Within genomes
+<ul>
+<li>PCR free had priority over PCR+</li>
+<li>In a parent/child pair, the parent was kept</li>
+<li>Ties broken by the sample with highest mean coverage</li>
+</ul>
+</li>
+<li>Within exomes
+<ul>
+<li>Exomes sequenced at the Broad Institute had priority over others</li>
+<li>More recently sequenced samples were given priority (when information available)</li>
+<li>In a parent/child pair, the parent was kept</li>
+<li>Ties broken by the sample with the higher percent bases above 20x</li>
+</ul>
+</li>
+</ul>
+<h3 id="4-ancestry-assignment" style="position:relative;"><a href="#4-ancestry-assignment" aria-label="4 ancestry assignment permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>4. Ancestry assignment</h3>
+<p>The global ancestry assignment was entirely run within the <a href="https://hail.is/">Hail</a> framework but
+otherwise was the done in the same manner as for release 2.0.2. In addition, we performed
+sub-continental ancestry assignment Europeans and East Asians. We used principal components
+analysis (PCA) to assign both global and sub-continental ancestries. The figure below shows a 2D
+<a href="https://www.biorxiv.org/content/early/2018/09/23/423632">uniform manifold approximation and projection (UMAP)</a>
+of the global PCs 1-6 and 8, colored by the inferred ancestries of the samples. As can be seen, the
+different ancestries separate well in PC-space and recapitulate expected geographical proximity
+between populations.</p>
+<p><img src="/news/images/2018/10/gnomad-v2-1/pca-umap2.jpg" alt=""></p>
+<p>The process for ancestry assignment is detailed in the next subsections.</p>
+<h4 id="global-ancestry-assignment" style="position:relative;"><a href="#global-ancestry-assignment" aria-label="global ancestry assignment permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Global ancestry assignment</h4>
+<p>Using the <a href="https://hail.is/docs/devel/methods/genetics.html?highlight=hwe#hail.methods.hwe_normalized_pca"><em>hwe</em>_<em>normalized</em>_<em>pca</em> function in Hail</a>,
+we computed the 10 first principal components (PCs) on the same 94,176 well-behaved bi-allelic
+autosomal SNVs as described above on all unrelated samples (exomes and genomes combined). We then
+leveraged a set of 52,768 samples for which we knew the ancestry to train a random forests
+classifier using the PCs as features. We assigned ancestry to all samples for which the probability
+of that ancestry was > 90% according to the random forest model. All other samples were assigned
+the other ancestry (<code class="language-text">oth</code>). In addition, the 34 South Asian (<code class="language-text">sas</code>) samples among the genomes were
+assigned to other as well due to their low number.</p>
+<h4 id="sub-continental-ancestry-assignment" style="position:relative;"><a href="#sub-continental-ancestry-assignment" aria-label="sub continental ancestry assignment permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Sub-continental ancestry assignment</h4>
+<p>Sub-continental ancestry was computed for European and East Asian samples using PCA. The reason for
+computing for these two global ancestry groups only was (1) the presence of reliable labels of
+known sub-population for large enough samples of the data, and (2) the resulting PCA was
+convincingly splitting the data into separate clusters that matched our known labels. The following
+steps were taken for the non-Finnish European and East Asian samples separately:</p>
+<ol>
+<li>High-quality sites (same used for relatedness) were extracted for all samples of that global
+ancestry.</li>
+<li>Sites were further filtered to exclude
+<ul>
+<li>Sites where the allele frequency in that global population was &#x3C; 0.1%</li>
+<li>Sites where any platform had > 0.1% missingness (or more than 1 missing sample if there were
+less than 1,000 samples for a given platform)</li>
+</ul>
+</li>
+<li>Remaining sites were LD-pruned in that population down to r<sup>2</sup> = 0.1</li>
+<li>PCs were computed using <a href="https://hail.is/docs/devel/methods/genetics.html?highlight=hwe#hail.methods.hwe_normalized_pca"><em>hwe</em>_<em>normalized</em>_<em>pca</em> in Hail</a>.</li>
+<li>A random forest (RF) model was created using:
+<ul>
+<li>European samples: 3 first PCs as features and known sub-continental population labels for
+17,102 samples</li>
+<li>East Asian samples: first 2 PCs as features and known sub-continental population labels for
+2,067 samples.</li>
+</ul>
+</li>
+<li>All samples with a random forest prediction probability > 90% according to the random forest
+were assigned a sub-continental populations. Other samples were assigned the other non-Finnish
+European (<code class="language-text">onf</code>) or other East Asian (<code class="language-text">oea</code>) ancestry depending on their global ancestry.</li>
+</ol>
+<h3 id="5-stratified-qc-filtering" style="position:relative;"><a href="#5-stratified-qc-filtering" aria-label="5 stratified qc filtering permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>5. Stratified QC filtering</h3>
+<p>Similar to our 2.0.2 release, our final sample QC step was to exclude any sample falling outside 4
+median absolute deviations (MAD) from the median of any of the given metrics:</p>
+<ul>
+<li>Number of deletions</li>
+<li>Number of insertions</li>
+<li>Number of SNVs</li>
+<li>Insertion : deletion ratio</li>
+<li>Transition : transversion (TiTv) ratio</li>
+<li>Heterozygous : homozygous ratio</li>
+<li>Call rate (genomes only)</li>
+</ul>
+<p>Because these metrics are sensitive to population and sequencing platform, the distributions were
+computed separately for each global population / platform group. The populations and platforms used
+are those described above.</p>
+<h2 id="variant-qc" style="position:relative;"><a href="#variant-qc" aria-label="variant qc permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Variant QC</h2>
+<p>For variants QC, we used all sites present in the 141,456 release samples as well as sites present
+in family members forming trios (212 trios in genomes, 4,568 trios in exomes) that passed all of
+the sample QC filters. Including these trios allowed us to look at transmission and Mendelian
+violations for evaluation purposes. Variant QC was performed on the exomes and genomes separately
+but using the same pipeline (although different thresholds were used).</p>
+<p>For the gnomAD release 2.1, we used an improved random forests (RF) model using newly developed
+annotations. This updated model is described below and performs markedly better than both VQSR and
+our previous model on all the evaluation metrics we used. In addition to our RF filter, we also
+excluded all sites failing the following two hard filters:</p>
+<ul>
+<li><code class="language-text">InbreedingCoeff</code>: Excess heterozygotes defined by an inbreeding coefficient &#x3C; -0.3</li>
+<li><code class="language-text">AC0</code>: No sample had a high quality genotype (depth >= 10, genotype quality >= 20 and minor
+allele balance > 0.2 for heterozygous genotypes)</li>
+</ul>
+<p>Finally, for this release we have moved the information about sites falling in low complexity
+(<code class="language-text">lcr</code>), decoy (<code class="language-text">decoy</code>) and segmental duplication (<code class="language-text">segdup</code>) regions to the <code class="language-text">INFO</code> field. This
+means that the information is still easily available in the VCF but variants in these regions that
+pass other filters will have a <code class="language-text">PASS</code> value in the <code class="language-text">FILTER</code> column. In the browser, <code class="language-text">lcr</code>, <code class="language-text">decoy</code>
+and <code class="language-text">segdup</code> are displayed in the <em>Flags</em> column.</p>
+<h3 id="random-forests-model" style="position:relative;"><a href="#random-forests-model" aria-label="random forests model permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Random forests model</h3>
+<p>For our previous release, we had introduced a new variant filtering method based on a random
+forests model, which performed per-allele rather than per-site filtering. For this release, we have
+kept the model similar but have improved the features it is using for classification. The problem
+with the features used in 2.0.2 is that they relied heavily on the median sample quality to
+determine the filtering status of each allele. While this works very well with many samples, median
+can be unstable when dealing with low number of samples. As an example, if there are only two
+samples, median values could be really biased if the quality of those samples differ. Because
+gnomAD aggregates many cohorts sequenced on different platforms, this was sometimes problematic and
+filtered sites that had good evidence in some samples, but where the median sample was below the
+model’s quality threshold. For this reason, we dropped the median values entirely and introduced
+two new metrics:</p>
+<ol>
+<li><code class="language-text">qd</code>: This metric is inspired by the GATK quality / depth (<code class="language-text">QD</code>) metric, but is computed
+per-allele, only on the carriers of that allele. So for each allele, <code class="language-text">qd</code> is computed as the sum
+of the non-reference genotype likelihoods divided by the sum of the depth in all carrier of that
+allele.</li>
+<li><code class="language-text">pab_max</code>: This metric is the highest p-value for sampling the observed allele balance under a
+binomial model. Because we take the highest value, we effectively consider the “best looking”
+sample in terms of allele-balance.</li>
+</ol>
+<p>Other than that, most of our model building and evaluation was similar to what we used for release
+2.0.2.</p>
+<p><img src="/news/images/2018/10/gnomad-v2-1/feature_importance_barplot.png" alt=""></p>
+<p>Note that since random forests doesn’t tolerate missing data, we have naively imputed all missing
+values using the median value for that feature.</p>
+<h4 id="random-forest-training-examples" style="position:relative;"><a href="#random-forest-training-examples" aria-label="random forest training examples permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Random forest training examples</h4>
+<p>Our strategy for selecting training sites was the same as for gnomAD v2.0.2; however, because we
+had an increase in our number of trios, we had more positive transmitted singletons alleles than
+previously. The table below summarizes our training examples.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Class</th>
+<th>Number of alleles in genomes</th>
+<th>Number of alleles in exomes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>omni</td>
+<td>SNVs present on the Omni 2.5 genotyping array and found in 1000 genomes (available in the GATK bundle)</td>
+<td>TP</td>
+<td>2.3Mln</td>
+<td>95k</td>
+</tr>
+<tr>
+<td>mills</td>
+<td>Indels present in the Mills and Devine data (available in the GATK bundle)</td>
+<td>TP</td>
+<td>1.3Mln</td>
+<td>12k</td>
+</tr>
+<tr>
+<td>1000 Genomes high-quality sites</td>
+<td>Sites discovered in 1000 Genomes with high confidence (available in the GATK bundle)</td>
+<td>TP</td>
+<td>29Mln</td>
+<td>560k</td>
+</tr>
+<tr>
+<td>transmitted_singletons</td>
+<td>variants found in two and only two individuals, which were a parent-offspring pair</td>
+<td>TP</td>
+<td>116k</td>
+<td>106k</td>
+</tr>
+<tr>
+<td>fail_hard_filters</td>
+<td>variants failing traditional GATK hard filters: QD &#x3C; 2</td>
+<td></td>
+<td>FS > 60</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Note that for training the model, we used a balanced training set by randomly downsampling the
+class that had more training examples to match the number of training examples in the other class.</p>
+<h4 id="random-forests-filtering-thresholds" style="position:relative;"><a href="#random-forests-filtering-thresholds" aria-label="random forests filtering thresholds permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Random forests filtering thresholds</h4>
+<p>In order to set a threshold for the <code class="language-text">PASS</code> / <code class="language-text">RF</code> filter in the release, we have used a slightly
+different set of evaluation metrics. The reason being that some of the classical metrics such as
+transition/transversion ratio and insertion:deletion ratio are very difficult to interpret in large
+callsets. On the other hand, we have additional data and resources that can serve as useful proxy
+for callset quality, such as large number of trios, validated variants (e.g. validated <em>de novo</em>
+mutations in our exomes) or public databases such as ClinVar. We used the following metrics to
+determine a cutoff on the random forests model output, to build what we believed to be a high
+quality set of variants:</p>
+<ul>
+<li>Precision / recall against two well characterized samples:
+<ul>
+<li>NA12878 from <a href="https://github.com/genome-in-a-bottle/giab_latest_release">genome in a bottle</a></li>
+<li>CHM1_CHM13: A mixture of DNA (est. 50.7% / 49.3%) from two haploid CHM cell lines, deep
+sequenced with PacBio and <em>de novo</em> assembled, available <a href="https://github.com/lh3/CHM-eval">here</a>.
+Note that indels of size 1 were removed because of PacBio-specific problems.</li>
+</ul>
+</li>
+<li>Number of singleton Mendelian violations in our evaluation trios (N=1 amongst all samples and is
+found in a child)</li>
+<li>Singleton transmission ratio in trios</li>
+<li>Sensitivity to validated <em>de novo</em> mutations (exomes only)</li>
+<li>Sensitivity to singleton ClinVar variants</li>
+</ul>
+<p>For exomes, our filtration process removes 12.2% of SNVs (RF probability >= 0.1) and 24.7% of
+indels (RF probability >= 0.2). For genomes, we filtered 10.7% of SNVs (RF probability >= 0.4) and
+22.3% of indels (RF probability >= 0.4).</p>
+<h2 id="acknowledgments" style="position:relative;"><a href="#acknowledgments" aria-label="acknowledgments permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Acknowledgments</h2>
+<p>The creation of gnomAD 2.1 was an enormous team effort from a large team and we want here to thank
+the many people that have contributed behind the scenes.</p>
+<p>Massive thanks, as always, to everyone who allowed their data to be used in this project. The
+gnomAD consortium now includes more than 100 principal investigators, who are listed
+<a href="https://gnomad.broadinstitute.org/about">here</a>. We’re grateful to all of them for allowing their
+data to be used for this project.</p>
+<p>Jessica Alföldi played a critical role in communicating with principal investigators, assembling
+the sample list and gathering the permissions required to ensure that each and every sample in the
+project was authorized to be included – a seriously daunting task! Fengmei Zhao contributed to the
+assembly of the underlying data, and Kristen Laricchia and Monkol Lek played important roles in
+sample and variant quality control.</p>
+<p>Ben Weisburd helped with the gnomAD browser, and generated all of the read visualizations you can
+see on the variant pages.</p>
+<p>An enormous thanks to the entire <a href="https://hail.is/">Hail</a> team for working hand in hand with us in
+order to produce this resource: Cotton Seed, Jon Bloom, Tim Poterba, Jackie Goldstein, Daniel King,
+Amanda Wang, Patrick Schultz and Chris Vittal. As mentioned, all of our code for quality control,
+generation of the data and computation of all of the metrics is now done within Hail.</p>
+<p>The pipelines and infrastructure required to align and call variants, and the actual generation of
+the massive exome and genome call sets, are entirely the work of the heroic men and women of the
+Broad’s Data Sciences Platform. Many people deserve thanks here, but we wanted to single out Eric
+Banks, Kathleen Tibbetts, Charlotte Tolonen, Yossi Farjoun, Laura Gauthier, Dave Shiga, Jose Soto,
+George Grant, Sam Novod, Valentin Ruano-Rubio, and Bradley Taylor.</p>
+<p>And finally, special thanks to the Broad Institute Genomics Platform as a whole, who generated 90%
+of the data used in gnomAD, and also provided critical computing resources required for this work.</p>
+<p><em>Post was updated on April 20, 2022 to update popmax population labels and rephrase “outbred population” as “non-bottlenecked population”</em>.</p></div></section></article><nav class="article-nav"><div class="article-nav-item">Previous post:<!-- --> <a id="article-nav-previous" rel="prev" href="/news/2017-02-the-genome-aggregation-database/">The genome Aggregation Database (gnomAD)</a></div><div class="article-nav-item">Next post:<!-- --> <a id="article-nav-next" rel="next" href="/news/2019-03-structural-variants-in-gnomad/">Structural variants in gnomAD</a></div></nav></main></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-PLFTXFLR7Z"></script><script>
+      
+      
+      if(true) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-PLFTXFLR7Z', {"send_page_view":false});
+      }
+      </script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/2018-10-gnomad-v2-1/";/*]]>*/</script><!-- slice-start id="_gatsby-scripts-1" -->
+          <script
+            id="gatsby-chunk-mapping"
+          >
+            window.___chunkMapping="{\"app\":[\"/app-ac374b5ba9297bca2252.js\"],\"component---src-pages-404-js\":[\"/component---src-pages-404-js-d10f0d401c8ccda80ef0.js\"],\"component---src-pages-categories-js\":[\"/component---src-pages-categories-js-ebf2c986b6fdd540dd35.js\"],\"component---src-pages-changelog-js\":[\"/component---src-pages-changelog-js-8639f981d044437082cc.js\"],\"component---src-pages-index-js\":[\"/component---src-pages-index-js-c5bdc54548b97cd72dc5.js\"],\"component---src-templates-author-js\":[\"/component---src-templates-author-js-7b6b5e30e09bb6c9f6ae.js\"],\"component---src-templates-blog-post-js\":[\"/component---src-templates-blog-post-js-5c2bd168a90d3560bbca.js\"],\"component---src-templates-category-js\":[\"/component---src-templates-category-js-31ff192429f2ab4db58c.js\"]}";
+          </script>
+        <script>window.___webpackCompilationHash="d94fa91e2eb177f68712";</script><script src="/news/webpack-runtime-62350a104dd08a630a93.js" async></script><script src="/news/framework-9b3d4b0ae5b6f0f58415.js" async></script><script src="/news/app-ac374b5ba9297bca2252.js" async></script><!-- slice-end id="_gatsby-scripts-1" --></body></html>

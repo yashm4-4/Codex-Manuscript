@@ -1,0 +1,21 @@
+coordinate_system: 1-based
+data_file_md5sum: a6f31199fff49bd8d0a5b848d29abd39
+data_file_name: GCST90244098.h.tsv.gz
+date_metadata_last_modified: 2024-07-28
+file_type: pre-GWAS-SSF
+genome_assembly: GRCh38
+genotyping_technology:
+- Genome-wide genotyping array
+gwas_catalog_api: https://www.ebi.ac.uk/gwas/rest/api/studies/GCST90244098
+gwas_id: GCST90244098
+harmonisation_reference: ftp://ftp.ensembl.org/pub/release-95/fasta/homo_sapiens/dna/
+is_harmonised: true
+is_sorted: true
+ontology_mapping:
+- EFO_0000341
+samples:
+- sample_ancestry_category:
+  - European
+  sample_size: 325027
+trait_description:
+- Chronic obstructive pulmonary disease liability (machine learning-based score)

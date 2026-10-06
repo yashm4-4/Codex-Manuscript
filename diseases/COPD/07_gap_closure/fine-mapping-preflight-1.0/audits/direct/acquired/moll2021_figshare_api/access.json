@@ -1,0 +1,31 @@
+{
+  "acquired_bytes": 3003,
+  "acquired_sha256": "54ff20665f681c4673dc59397c349beed2e2c41559b32c38e5e44ca00f709d37",
+  "body_path": "audits/direct/acquired/moll2021_figshare_api/response.bin",
+  "complete_remote_object_hash": false,
+  "completed_utc": "2026-10-06T20:33:33.936531+00:00",
+  "effective_url": "https://api.figshare.com/v2/articles/14538222",
+  "http_status": 200,
+  "purpose": "Public metadata/header/schema access audit; no statistical analysis",
+  "read_limit_bytes": 1048576,
+  "read_truncated": false,
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0 (bounded public metadata access)"
+  },
+  "requested_utc": "2026-10-06T20:33:33.368903+00:00",
+  "response_headers": {
+    "Access-Control-Allow-Credentials": "true",
+    "Access-Control-Allow-Headers": "Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization,X-API-Revision",
+    "Access-Control-Allow-Methods": "GET, POST, OPTIONS, DELETE, PUT, PATCH",
+    "Access-Control-Expose-Headers": "Location",
+    "Connection": "close",
+    "Content-Length": "3003",
+    "Content-Type": "application/json",
+    "Date": "Tue, 06 Oct 2026 20:33:33 GMT",
+    "Server": "nginx",
+    "Vary": "Accept-Encoding"
+  },
+  "transport_error": null,
+  "url": "https://api.figshare.com/v2/articles/14538222"
+}

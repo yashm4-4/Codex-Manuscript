@@ -1,0 +1,90 @@
+{
+  "accession": "GCST90827700",
+  "phenotype_class_frozen": "within_copd_severity",
+  "publication_pmid": "38622589",
+  "file_inventory": [],
+  "headers": [],
+  "metadata_files": [],
+  "catalog_api_access": {
+    "requested_url": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST90827700",
+    "accessed_utc": "2026-10-06T20:35:27.058066+00:00",
+    "method": "GET",
+    "anonymous": true,
+    "read_limit_bytes": 262144,
+    "requested_range": null,
+    "status": 200,
+    "final_url": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST90827700",
+    "response_headers": {
+      "content-type": "application/json"
+    },
+    "downloaded_bytes": 974,
+    "saved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/audits/catalog/GCST90827700/study.json",
+    "sha256": "fc0f91c1e88d6d2da582b0b8f6f6bc09e628222529bb5f00679997b607317e0c",
+    "bounded_read": false,
+    "hash_scope": "saved response bytes only; range/prefix is not a whole-file checksum"
+  },
+  "current_catalog_metadata": {
+    "initial_sample_size": "97 East Asian ancestry individuals",
+    "replication_sample_size": "NA",
+    "gxe": false,
+    "gxg": false,
+    "snp_count": 5471650,
+    "imputed": true,
+    "pooled": false,
+    "accession_id": "GCST90827700",
+    "full_summary_stats_available": false,
+    "pubmed_id": 38622589,
+    "platforms": "NR [5471650] (imputed)",
+    "disease_trait": "COPD severity (based on Global Initiative for Chronic Obstructive Lung Disease)",
+    "genotyping_technologies": [
+      "Genome-wide sequencing"
+    ],
+    "efo_traits": [
+      {
+        "efo_id": "MONDO_0005002",
+        "efo_trait": "chronic obstructive pulmonary disease"
+      }
+    ],
+    "discovery_ancestry": [
+      "97 East Asian (China)"
+    ],
+    "replication_ancestry": [],
+    "full_summary_stats": "NA",
+    "terms_of_license": "https://www.ebi.ac.uk/about/terms-of-use/",
+    "bg_efo_traits": [],
+    "cohort": [
+      "NR"
+    ],
+    "array_manufacturer": [],
+    "_links": {
+      "self": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST90827700"
+      },
+      "ancestries": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST90827700/ancestries{?sort,direction}",
+        "templated": true
+      }
+    }
+  },
+  "directory_location_basis": "standard accession directory probe, not proof of release",
+  "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90827001-GCST90828000/GCST90827700/",
+  "directory_access": {
+    "requested_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90827001-GCST90828000/GCST90827700/",
+    "accessed_utc": "2026-10-06T20:35:27.619061+00:00",
+    "method": "GET",
+    "anonymous": true,
+    "read_limit_bytes": 262144,
+    "requested_range": null,
+    "status": 404,
+    "final_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90827001-GCST90828000/GCST90827700/",
+    "response_headers": {
+      "content-length": "196",
+      "content-type": "text/html; charset=iso-8859-1"
+    },
+    "downloaded_bytes": 196,
+    "saved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/audits/catalog/GCST90827700/directory.html",
+    "sha256": "80c3fe2ae1062abf56456f52518bd670f9ec3917b7f85e152b347ac6b6faf880",
+    "bounded_read": false,
+    "hash_scope": "saved response bytes only; range/prefix is not a whole-file checksum"
+  }
+}

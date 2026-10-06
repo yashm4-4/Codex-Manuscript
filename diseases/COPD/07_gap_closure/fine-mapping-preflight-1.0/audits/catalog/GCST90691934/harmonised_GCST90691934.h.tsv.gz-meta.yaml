@@ -1,0 +1,42 @@
+adjusted_covariates:
+- age
+- sex
+- age*sex
+- age2
+- age2*sex
+- first 10 PCs
+author_notes: 'Data were obtained with permission from https://pan.ukbb.broadinstitute.org/
+  and adapted into GWAS-SSF format. Refer to the website for more information. Citation:
+  Pan-UK Biobank GWAS improves discovery, analysis of genetic architecture, and resolution
+  into ancestry-enriched effects Konrad J. Karczewski, Rahul Gupta, Masahiro Kanai,
+  Wenhan Lu, Kristin Tsuo, Ying Wang, Raymond K. Walters, Patrick Turley, Shawneequa
+  Callier, Nikolas Baya, Duncan S. Palmer, Jacqueline I. Goldstein, Gopal Sarma, Matthew
+  Solomonson, Nathan Cheng, Sam Bryant, Claire Churchhouse, Caroline M. Cusick, Timothy
+  Poterba, John Compitello, Daniel King, Wei Zhou, Cotton Seed, Hilary K. Finucane,
+  Mark J. Daly, Benjamin M. Neale, Elizabeth G. Atkinson, Alicia R. Martin medRxiv
+  2024.03.13.24303864; doi: https://doi.org/10.1101/2024.03.13.24303864'
+coordinate_system: 1-based
+data_file_md5sum: 17dcc6b7a9c0962d0a3de72c8167eb76
+data_file_name: GCST90691934.h.tsv.gz
+date_metadata_last_modified: 2025-10-04
+file_type: GWAS-SSF v1.0
+genome_assembly: GRCh38
+genotyping_technology:
+- Genome-wide genotyping array
+gwas_catalog_api: https://www.ebi.ac.uk/gwas/rest/api/studies/GCST90691934
+gwas_id: GCST90691934
+harmonisation_reference: ftp://ftp.ensembl.org/pub/release-95/fasta/homo_sapiens/dna/
+is_harmonised: true
+is_sorted: true
+ontology_mapping:
+- ''
+samples:
+- ancestry_method:
+  - Genetically determined
+  case_control_study: true
+  sample_ancestry_category:
+  - European
+  sample_size: 420531
+sex: combined
+trait_description:
+- ICD10 J44 Other chronic obstructive pulmonary disease

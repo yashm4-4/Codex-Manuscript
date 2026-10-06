@@ -1,0 +1,7 @@
+role	rule	source_id	source_ids
+Conventional GWAS-only selection proposal	P<5e-8	finngen_methods_markdown	
+Initial design precedent, not proof of LD containment	3Mb total window	finngen_methods_markdown	
+Published pipeline design precedent and conditional posterior coverage	10 maximum effects;95%CS		"[""finngen_methods_markdown"", ""susie_rss_reference""]"
+Documented method reporting filter, not input eligibility	CS minimum abs(r)=0.5	susie_rss_reference	
+Resource filters; current source/documentation discrepancy unresolved	INFO/MAC PanUKB	panukb_ld_docs	
+NO universal hard readiness cutoff established or fabricated	LD overlap %, lambda, frequency delta, PSD epsilon		

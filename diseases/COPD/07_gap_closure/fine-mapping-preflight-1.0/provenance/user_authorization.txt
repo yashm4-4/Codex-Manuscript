@@ -1,0 +1,181 @@
+Begin a new versioned COPD V2 fine-mapping and risk-direction preflight only, e.g. fine-mapping-preflight-1.0.
+This stage is a data-access, phenotype, statistical-prerequisite and LD feasibility audit.
+Do not perform statistical fine-mapping yet.
+The purpose is to determine which COPD GWAS datasets, ancestries and loci can support scientifically defensible fine-mapping and signed disease-risk interpretation.
+Earlier V2 stages are immutable.
+Do not score V2 models.
+Do not score or rerank the 337 V1 candidates.
+Do not use candidate membership to select GWAS datasets or loci.
+Do not perform eQTL colocalization or target-gene analysis yet.
+Do not revise the manuscript.
+1. Start from the frozen phenotype hierarchy
+Use the completed COPD phenotype-robustness classification as the biological hierarchy.
+Distinguish at minimum:
+- primary direct COPD susceptibility: clinically/spirometrically defined COPD case-control association;
+- secondary EHR/PheCode/ICD COPD or airway-obstruction phenotypes;
+- ML-derived COPD/liability phenotypes;
+- COPD severity/progression/decline within cases;
+- chronic bronchitis or related COPD subphenotypes;
+- smoking-interaction analyses;
+- lung-function traits that are not themselves COPD.
+Direct COPD susceptibility should be preferred for the manuscript's primary causal-genetic analysis when statistically feasible.
+Do not combine these phenotype classes into one fine-mapping analysis.
+2. Audit all potentially usable GWAS studies
+Begin from the frozen 104-study core COPD inventory and the existing phenotype audit.
+For every study/accession that could plausibly support locus-level fine-mapping, verify rather than infer:
+- accession;
+- publication;
+- phenotype definition;
+- phenotype class above;
+- cohort(s);
+- ancestry or ancestries;
+- cases/controls or total N;
+- whether the result is ancestry-specific or a trans/multi-ancestry meta-analysis;
+- genome build;
+- variant identifier format;
+- REF/ALT or effect/non-effect allele fields;
+- effect allele;
+- OR/log(OR)/beta;
+- SE;
+- P value;
+- allele frequency if available;
+- per-variant N if available;
+- imputation/variant-quality fields if available;
+- whether statistics are genome-wide/locus-complete versus significant associations only;
+- current public access URL/source;
+- whether unrestricted download is actually possible;
+- exact source-file/header evidence supporting these claims.
+Do not treat the GWAS Catalog field indicating that summary statistics exist as proof that the file is usable for fine-mapping.
+Where appropriate, inspect public file headers and representative records to verify schema and signedness.
+Internet/public-resource lookup is authorized for this preflight, but retain URLs, access dates and checksums for any downloaded metadata or files.
+3. Explicitly audit the strongest direct-COPD anchors
+Give particular attention to direct COPD case-control studies including the Sakornsakolpat et al. 2019 COPD GWAS (GCST007692) and any other direct-COPD study for which full signed statistics may now be publicly obtainable.
+Determine whether complete locus-wide/meta-analysis summary statistics can actually be obtained.
+If they cannot:
+- say so explicitly;
+- identify whether author/consortium request would be required;
+- do not reconstruct the study from GWAS Catalog significant hits;
+- do not substitute another phenotype while continuing to call it the Sakornsakolpat COPD analysis.
+4. Evaluate technically tractable public alternatives without promoting them automatically
+Audit technically tractable resources such as UK Biobank/Pan-UKB, GBMI, MVP, BioBank Japan or other COPD resources only where relevant.
+For each, distinguish:
+- phenotype fidelity to COPD;
+- ancestry;
+- availability of signed complete statistics;
+- availability and compatibility of cohort-matched or closely matched LD;
+- cohort overlap with other analyses;
+- whether it is suitable for primary, secondary sensitivity, or not suitable use.
+A technically convenient EHR or ML phenotype must not silently replace a better direct-COPD phenotype.
+5. Risk/effect-allele direction contract
+Establish the exact rule that any future stage must use to define the disease-increasing allele.
+Disease-risk direction may come only from a valid signed association result, e.g.:
+- positive log(OR)/beta for the encoded effect allele;
+- OR > 1 for the effect allele;
+- if OR < 1, the opposite allele is disease-increasing after verified allele harmonization.
+Explicitly prohibit inferring the risk allele from:
+- REF versus ALT;
+- major/minor allele;
+- allele frequency;
+- ancestral/derived state;
+- LD correlation alone;
+- V1/V2 model direction;
+- GTEx NES;
+- nearest gene;
+- biological expectation.
+Record strand/allele harmonization rules and handling of palindromic SNPs, multi-allelic sites and indels.
+6. LD feasibility audit
+For each candidate GWAS dataset/ancestry, identify the best defensible LD source.
+Preference order should reflect scientific matching rather than convenience:
+1. cohort-matched LD where genuinely available;
+2. ancestry-matched LD from a highly comparable source;
+3. external ancestry reference only when justified and explicitly sensitivity-limited.
+Do not automatically reuse the V1 1000 Genomes LD-proxy resource for fine-mapping.
+For each possible LD source document:
+- population/cohort;
+- sample size;
+- variant set;
+- genome build;
+- phasing/genotyping/imputation context;
+- availability of signed LD/correlation rather than only r²;
+- allele coding;
+- access mechanism;
+- compatibility with the summary statistics.
+Flag mixed-ancestry meta-analysis statistics for which no defensible matching LD exists.
+Do not use single-European LD for a multi-ancestry meta-analysis merely because it is available.
+7. Define prospective fine-mapping eligibility gates
+Before any fine-mapping is run, propose explicit gates that a study/locus must satisfy.
+At minimum assess:
+- phenotype suitability;
+- complete locus-wide variant statistics;
+- signed effect information;
+- allele harmonization;
+- adequate variant density;
+- compatible genome build;
+- sufficiently matched LD;
+- signed summary-stat/LD allele consistency;
+- acceptable missingness/variant overlap;
+- valid sample-size information;
+- LD-matrix QC;
+- handling of multiple causal signals;
+- handling of long-range/complex LD regions such as the MHC;
+- ability to detect summary-statistic/LD inconsistencies.
+Do not invent permissive thresholds merely to make a dataset pass. Provide literature/methodological justification for numerical gates that would materially affect inclusion.
+8. Candidate/locus selection firewall
+Future fine-mapping loci must be defined from the selected GWAS dataset's own association evidence, not from whether a region contains:
+- a V1 337 candidate;
+- a V2 model call;
+- a known functional benchmark variant;
+- a desired gene.
+Record a prospective locus-definition strategy, for example independent genome-wide significant association regions with a prespecified genomic/LD boundary.
+Do not inspect V2 candidate overlap when deciding which loci are technically eligible.
+The purpose is to avoid selecting only loci where our prior model happens to look good.
+9. Fine-mapping-method recommendation — design only
+Based on the actual usable statistics and LD structures, recommend an appropriate future method or methods, such as a multi-signal summary-statistics approach.
+Consider:
+- SuSiE-RSS;
+- FINEMAP;
+- or another method if better justified.
+Do not run them in this preflight.
+Specify what inputs the chosen method requires, how multiple signals would be handled, how credible sets/PIPs would be interpreted, and what sensitivity analyses would be necessary.
+Do not call a high-PIP variant biologically causal; statistical fine-mapping narrows association uncertainty.
+10. Two-track outcome is acceptable
+It is acceptable if the preflight concludes that:
+- a high-quality direct-COPD dataset is suitable for primary fine-mapping;
+- a public EHR/ICD COPD dataset is suitable only for secondary sensitivity;
+- some historically important datasets cannot currently be fine-mapped defensibly.
+Do not force every dataset into the analysis.
+If no sufficiently defensible direct-COPD dataset is currently available, report that clearly rather than performing pseudo-fine-mapping from incomplete data.
+11. Required outputs
+Produce a versioned preflight bundle with:
+- study-level phenotype/summary-stat eligibility matrix;
+- verified source/accession/file inventory;
+- header/schema audit;
+- signed-effect/risk-allele feasibility table;
+- ancestry/cohort table;
+- study-overlap considerations;
+- LD-source compatibility matrix;
+- study-specific limitations;
+- proposed fine-mapping eligibility gates;
+- proposed locus-definition rules;
+- recommended fine-mapping method(s);
+- expected compute/storage requirements;
+- list of datasets immediately executable;
+- list requiring external access/request;
+- list unsuitable for fine-mapping;
+- explicit recommendation for the primary analysis dataset(s) and secondary sensitivity dataset(s);
+- provenance/checksums for any newly acquired metadata/files;
+- append-only activity/decision/result register updates;
+- final preflight report and freeze.
+12. Stop
+Do not execute statistical fine-mapping.
+At completion report:
+- which direct-COPD datasets are actually fine-mappable now;
+- which have valid signed risk direction;
+- which have defensible matched LD;
+- whether Sakornsakolpat 2019 is executable or requires external access;
+- the best primary dataset;
+- the best secondary/sensitivity dataset;
+- the number of loci expected to be eligible;
+- the proposed statistical method;
+- all blockers that must be resolved before execution.
+Then stop for investigator review.

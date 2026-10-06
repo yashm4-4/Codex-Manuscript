@@ -1,0 +1,37 @@
+{
+  "LD_matrix_values_requested": false,
+  "completed_utc": "2026-10-06T20:38:12.847377+00:00",
+  "final_url": "https://gnomad.broadinstitute.org/news/2018-10-gnomad-v2-1/",
+  "http_status": 200,
+  "interpretation": "Exact returned bytes only; HTTP success does not establish semantic usability, schema correctness, locus coverage or fine-mapping eligibility.",
+  "maximum_response_bytes": 4000000,
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0 (public metadata audit)"
+  },
+  "request_method": "GET",
+  "requested_url": "https://gnomad.broadinstitute.org/news/2018-10-gnomad-v2-1/",
+  "response_headers": {
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Cache-Control": "no-cache",
+    "Connection": "close",
+    "Content-Length": "66034",
+    "Content-Type": "text/html",
+    "Date": "Tue, 06 Oct 2026 20:38:12 GMT",
+    "ETag": "\"63a76b9c03366e6b86c9311ea59a124c\"",
+    "Expires": "Mon, 06 Oct 2025 20:38:12 GMT",
+    "Last-Modified": "Thu, 07 May 2026 19:05:50 GMT",
+    "Pragma": "no-cache",
+    "Server": "nginx/1.26.1",
+    "Vary": "Accept-Encoding",
+    "Via": "1.1 google"
+  },
+  "saved_bytes": 66034,
+  "saved_path": "audits/methods_ld/sources/gnomad_ld_docs.body",
+  "saved_sha256": "bc4626df221eafb340bc49abcf2d5c76a293190e21327194033dda46ac664a79",
+  "source_id": "gnomad_ld_docs",
+  "started_utc": "2026-10-06T20:38:12.717266+00:00",
+  "status": "HTTP_SUCCESS",
+  "truncated": false,
+  "wall_seconds": 0.1301103609148413
+}

@@ -1,0 +1,51 @@
+# Study meta-data
+gwas_id: GCST90726684
+author_notes: "Data were obtained with permission from https://www.genesandhealth.org/
+  and adapted into GWAS-SSF format. Refer to the website for more information. \n
+  Citation: Exome sequencing and analysis of 44,028 British South Asians enriched
+  for high autozygosity\nHye In Kim, Christopher DeBoever, Klaudia Walter, Georgios
+  Kalantzis, Chen Li, Sahar V. Mozaffari, Kousik Kundu, Benjamin M. Jacobs, Pedrum
+  Mohammadi-Shemirani, Anthony M. Musolf, Jonathan M. Davitte, Melis A. Aksit, Joseph
+  Gafton, Katrina Catalano, Adem Y. Dawed, Robert R. Graham, Bin Guo, Namrata Gupta,
+  Teng Hiang Heng, Karen A. Hunt, Vivek Iyer, Claudia Langenberg, Frederik H. Lassen,
+  Daniel G. MacArthur, Eamonn R. Maher, Cyrielle Maroteau, William Newman, Stephen
+  O’Rahilly, Duncan S. Palmer, Iaroslav Popov, Moneeza Siddiqui, Michael Simpson,
+  Marie Spreckley, John Wright, Genes and Health Research Team, Guillermo del Angel,
+  Slavé Petrovski, Emily R. Holzinger, Joseph C. Maranville, Laura Addis, Richard
+  M. Turner, Karol Estrada, Simone Longerich, View ORCID ProfileJoanna M. M. Howson,
+  Yalda Jamshidi, Eric B. Fauman, Melissa R. Miller, Dorothée Diogo, Richard C. Trembath,
+  Sarah Finer, Hilary C. Martin, David A. van Heel\ndoi: https://doi.org/10.1101/2025.06.05.25329068
+  \n\nG&H phenotype: COPD\nG&H Phenotype counts spreadsheet: https://tinyurl.com/GH-phenotypes-GoogleSheet"
+gwas_catalog_api: https://www.ebi.ac.uk/gwas/rest/api/studies/GCST90726684
+date_metadata_last_modified: 2026-04-16
+
+# Trait Information
+trait_description:
+  - Chronic obstructive pulmonary disease (MULTIPLY codelist)
+ontology_mapping:
+  - MONDO_0005002
+
+# Genotyping Information
+genome_assembly: GRCh38
+coordinate_system: 1-based
+genotyping_technology:
+  - Exome-wide sequencing
+
+# Sample Information
+samples:
+  - sample_ancestry_category:
+      - South Asian
+    sample_ancestry:
+      - British Bangladeshi or British Pakistani
+    sample_size: 44026
+    case_control_study: true
+
+# Summary Statistic information
+data_file_name: GCST90726684.tsv
+file_type: GWAS-SSF v1.0
+data_file_md5sum: ef11bfa36b3d9161acd95e4bb82fc82d
+analysis_software: REGENIE
+
+# Harmonization status
+is_harmonised: false
+is_sorted: false

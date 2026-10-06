@@ -1,0 +1,40 @@
+{
+  "stage": "fine-mapping-preflight-1.0",
+  "created_utc": "2026-10-06T20:51:54.073979+00:00",
+  "baseline_commit": "1f41df67dcf18d626a3862a38877919d2d3114a4",
+  "status": "PASS",
+  "prior_bytes_changed": false,
+  "registers": [
+    {
+      "path": "diseases/COPD/07_gap_closure/activity_log.tsv",
+      "before_bytes": 24814,
+      "before_sha256": "ca38919a901da5a0e270d6cd4c86d441d9bb5df58c670a9cf61ed7482480a078",
+      "bytes": 28116,
+      "sha256": "5b2a0e9a7e7ceb94472c8858f61d307a49b70a36cfd26426b47ecf1bd3206826",
+      "appended_bytes": 3302,
+      "appended_rows": 6,
+      "append_only": true
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/gap_closure_decision_register.tsv",
+      "before_bytes": 21779,
+      "before_sha256": "b24cead3f232e12ec756cdd40c28888e792650f644c8b4da42325f36dc30a097",
+      "bytes": 24887,
+      "sha256": "fc86ebb6c5faf6d8ab8514cd57c9afb274d7ff28f81e233cf2d64eafcbabd73c",
+      "appended_bytes": 3108,
+      "appended_rows": 6,
+      "append_only": true
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/gap_closure_result_register.tsv",
+      "before_bytes": 33052,
+      "before_sha256": "32abff375c4729810cc079ec898ab3e7339d6a089f8d7332d7a28b5d56581b83",
+      "bytes": 36386,
+      "sha256": "160fa0ab5de91ec9a0f1260656efc0eb6e317678454d86e6bc77fb9de8aea721",
+      "appended_bytes": 3334,
+      "appended_rows": 8,
+      "append_only": true
+    }
+  ],
+  "updates_applied_with": "apply_patch; this script verifies only"
+}

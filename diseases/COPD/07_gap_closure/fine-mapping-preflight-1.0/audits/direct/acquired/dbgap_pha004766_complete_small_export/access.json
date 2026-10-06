@@ -1,0 +1,36 @@
+{
+  "acquired_bytes": 1749842,
+  "acquired_sha256": "9c94aa9086ce658c154f9cccfde43146734ddbc90391a7236d4d9509fe103574",
+  "body_path": "audits/direct/acquired/dbgap_pha004766_complete_small_export/response.bin",
+  "complete_remote_object_hash": false,
+  "completed_utc": "2026-10-06T20:39:40.134306+00:00",
+  "effective_url": "https://ftp.ncbi.nlm.nih.gov/dbgap/studies/phs000179/analyses/phs000179.pha004766.txt",
+  "http_status": 200,
+  "purpose": "Public metadata/header/schema access audit; no statistical analysis",
+  "read_limit_bytes": 4194304,
+  "read_truncated": false,
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0 (bounded public metadata access)"
+  },
+  "requested_utc": "2026-10-06T20:39:40.073453+00:00",
+  "response_headers": {
+    "Accept-Ranges": "bytes",
+    "Access-Control-Allow-Headers": "RANGE, Cache-control, If-None-Match, Content-Type",
+    "Access-Control-Allow-Methods": "GET,POST,PUT,OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Expose-Headers": "Content-Length, Content-Range, Content-Type",
+    "Cache-Control": "public, max-age=86400",
+    "Connection": "close",
+    "Content-Length": "1749842",
+    "Content-Type": "text/plain; charset=utf-8",
+    "Date": "Tue, 06 Oct 2026 20:39:40 GMT",
+    "Expires": "Tue, 13 Oct 2026 20:39:40 GMT",
+    "Last-Modified": "Tue, 23 Apr 2019 21:38:09 GMT",
+    "Server": "Apache",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Vary": "Accept-Encoding"
+  },
+  "transport_error": null,
+  "url": "https://ftp.ncbi.nlm.nih.gov/dbgap/studies/phs000179/analyses/phs000179.pha004766.txt"
+}

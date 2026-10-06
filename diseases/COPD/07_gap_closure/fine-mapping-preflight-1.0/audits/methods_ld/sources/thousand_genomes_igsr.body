@@ -1,0 +1,451 @@
+<!--
+Experimenting with layout and tidying banner
+Original Author: susanfairley (content branch)
+Changes to test branch: ranjits@ebi.ac.uk
+Date: 19 April 2021
+Changes: replace <div class="container"> with <div class="container-fluid">
+--> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Phase 3 | 1000 Genomes</title>
+  <link rel="canonical" href="/category/phase-3/" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="shortcut icon" href="/sites/1000genomes.org/themes/custom/one_thousand_genomes/favicon.ico" type="image/x-icon" />
+
+  <link rel="stylesheet" href="/css/boilerplate-main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/1.1.3/normalize.css">
+  <link rel="stylesheet" href="/css/main.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="/js/external-links.js" defer></script>
+  
+  
+  
+  
+  <link rel="stylesheet" type="text/css" href="/vendor/cookieconsent.min.css" />
+<script src="/vendor/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "cookie": {
+    "domain": ".internationalgenome.org",
+    "name": "data_notice_20180523"
+  },
+  "palette": {
+    "popup": {
+      "background": "#262626",
+      "text": "#ffffff"
+    },
+    "button": {
+      "background": "#DAA406",
+      "text": "#ffffff"
+    }
+  },
+  "position": "bottom-right",
+  "content": {
+    "message": "This website uses cookies and Google Analytics. By using this site you are agreeing to this.",
+    "dismiss": "I agree, dismiss this notice",
+    "link": "Learn more",
+    "href": "/IGSR_disclaimer"
+  }
+})});
+</script>
+
+
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CZMMSVPEPC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CZMMSVPEPC');
+</script>
+
+
+  <script>
+  (function () {
+    // Only set a base if the page doesn't already define one (e.g. data-portal does).
+    if (document.querySelector('base')) return;
+    var b = document.createElement('base');
+    b.href = window.location.origin + '/';
+    var h = document.head || document.getElementsByTagName('head')[0];
+    h.insertBefore(b, h.firstChild);
+  })();
+  </script>
+
+</head>
+
+
+<body role="document">
+
+    <!--
+Experimenting with layout and tidying banner
+Original Author: susanfairley (content branch)
+Changes to test branch: ranjits@ebi.ac.uk
+Date: 19 April 2021
+Changes: replace <div class="container"> with <div class="container-fluid">
+--> 
+
+<header class="header clearfix" role="banner">
+
+<div class="top-banners">
+<div class="title-banner"><div class="title-banner-img"></div></div>
+
+<!--<div class="container">-->
+<div class="container-fluid">
+<div class="row">
+
+  <div class="col-md-12 col-sm-12 col-xs-12 top-banner-content">
+  <div class="top-banner-row"><div class="top-banner-inline"><h1 id="site-title"><a href="/" title="Home" rel="home">IGSR: The International Genome Sample Resource</a></h1></div></div>
+  <div class="top-banner-row"><div class="top-banner-inline"><h2 id="site-slogan">Supporting open human variation data</h2></div></div>
+  </div>
+</div></div>
+</div>
+
+<div class="nav-banner">
+<!--<div class="container">-->
+<div class="container-fluid">
+<div class="row">
+
+  <nav class="navbar">
+  
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+  </div>
+  
+  <div class="collapse navbar-collapse" id="navbar-collapse">
+    <ul class="nav navbar-nav">
+        <li ><a href="/home" title="Home">Home</a></li>
+        <li ><a href="/about" title="About">About</a></li>
+        <li ><a href="/data" title="Data">Data</a></li>
+        <li ><a href="/help" title="Help">Help</a></li>
+        <!--<li ><a href="/data-portal" title="Portal">Portal</a></li>
+        <li ><a href="/analysis" title="Analysis">Analysis</a></li>
+        <li ><a href="/contact" title="Contact">Contact</a></li>
+        <li ><a href="/1000-genomes-browsers" title="The 1000 Genomes Browser">Browser</a></li>
+        <li ><a href="/faq" title="FAQ">FAQ</a></li>-->
+    </ul>
+    
+
+    <form class="navbar-form navbar-right" role="search" action="/data-portal/search" method="get">
+    <div class="input-group center">
+    <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search IGSR" name="q" id="search_id">
+    </div>
+    <span class="input-group-btn">
+    <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+    </span>
+    </div>
+    </form>
+  
+  </div>
+  
+  </nav>
+
+
+</div>
+</div>
+</div>
+<!--
+Commented the code for display of banner on 31st March
+START OF IGSR-499 
+Description: Add a temporary banner to the IGSR website for 1-31st March 2021
+Author: Ranit S <ranjits@ebi.ac.uk>
+Date: 25 February 2021
+--> 
+<!-- <div class="col-md-12 ">  <!-- banner length -->
+<!-- minimise the space between nav-banner and IGSR-499 banner, and between  IGSR-499 banner and data section-->
+<!-- <div class="banner" style="text-align:center; position: relative;  top:-25px; background-color: white; margin-bottom: -40px">
+<div class="banner-content">
+    <hr style="height:1px; visibility:hidden;" /> <!-- add a white space above text -->
+    <!-- <h3 style="color:#79C7E7;font-weight: bold;">We need your help!</h3>
+    <p> If you’ve ever found our data helpful, please take our impact survey (15 min). 
+    <br>Your replies will help keep the data flowing to the scientific community. 
+    <br><a href="https://www.surveymonkey.co.uk/r/EMBL-EBI_Impact_DR"  class="btn btn-primary"  target="_blank">Take Survey</a> 
+    </p>
+    <hr style="height:1px; visibility:hidden;" /> <!-- add a white space below the button -->
+<!-- </div>
+</div>
+</div>-->
+<!--
+END of IGSR-499
+-->
+
+</header>
+
+<!--<div class="container">-->
+<div class="container-fluid">
+    <!--
+Experimenting with layout and tidying banner
+Original Author: susanfairley (content branch)
+Changes to test branch: ranjits@ebi.ac.uk
+Date: 19 April 2021
+Changes: Remove links seen at the right side of page
+
+<div class="col-md-3 col-md-push-9">
+  <h2>Links</h2>
+<div class="row"><div class="col-md-12 col-sm-5 col-xs-5">
+  <p><a href="/announcements">Announcements</a></p>
+  <p> <a href="/sample_collection_principles">IGSR Sample Collection Principles</a></p>
+  <p><a href="/1000-genomes-project-publications">1000 Genomes Project Publications</a></p>
+</div><div class="col-md-12 col-sm-3 col-xs-3">
+  <p><a href="/formats">File formats</a></p>
+  <p><a href="/tools">Software tools</a></p>
+</div><div class="col-md-12 col-sm-3 col-xs-3">
+  <p><a href="/data#download">Download data</a></p>
+  <p><a href="http://twitter.com/1000genomes">Twitter</a></p>
+  <p><a href="https://academic.oup.com/nar/article/doi/10.1093/nar/gkz836/5580898/">IGSR NAR publication</a></p>
+</div></div>
+
+</div>
+
+
+<div class="col-md-9 col-md-pull-3">
+<div class="row">-->
+
+
+<div class="col-md-12 section">
+    
+<h2 class="title">
+      <a href="/faq/how-do-i-find-specific-sequence-read-files/" title="How do I find specific sequence read files?">How do I find specific sequence read files?</a>
+    </h2>
+  
+  
+
+<ul class="breadcrumb">
+
+
+<li><a href="/category/alignment/" title="">Alignment</a></li>
+
+
+<li><a href="/category/bam/" title="">BAM</a></li>
+
+
+<li><a href="/category/fastq/" title="">FASTQ</a></li>
+
+
+<li><a href="/category/phase-3/" title="">Phase 3</a></li>
+
+
+<li><a href="/category/reads/" title="">Reads</a></li>
+
+
+<li><a href="/category/data-access/" title="">Data access</a></li>
+
+
+<li><a href="/category/sequence/" title="">Sequence</a></li>
+
+</ul>
+
+
+<h2>Answer:</h2>
+
+    <p>The easiest way to find the sequence files you’re looking for is with the <a href="https://www.internationalgenome.org/data-portal/sample">Data Portal</a>. You can search for individuals, populations and data collections, and filter the files by data type and technologies. This will give you locations of the files, which you can use to download directly, or to export a list to use with a download manager.</p>
+
+
+
+<h2>Related questions:</h2>
+<ul>
+
+
+<li><a href="/faq/about-index-files/">About index files</a></li>
+
+
+<li><a href="/faq/how-do-i-find-specific-alignment-files/">How do I find specific alignment files?</a></li>
+
+
+<li><a href="/faq/how-do-i-find-specific-variant-files/">How do I find specific variant files?</a></li>
+
+
+<li><a href="/faq/about-fastq-sequence-read-files/">About FASTQ sequence read files</a></li>
+
+</ul>
+
+
+</div>
+
+<div class="col-md-12 section">
+    
+<h2 class="title">
+      <a href="/faq/what-are-the-different-data-collections-available-for-1000-genomes/" title="What are the different data collections available for 1000 Genomes?">What are the different data collections available for 1000 Genomes?</a>
+    </h2>
+  
+  
+
+<ul class="breadcrumb">
+
+
+<li><a href="/category/data-analysis/" title="">Data analysis</a></li>
+
+
+<li><a href="/category/phase-1/" title="">Phase 1</a></li>
+
+
+<li><a href="/category/phase-2/" title="">Phase 2</a></li>
+
+
+<li><a href="/category/phase-3/" title="">Phase 3</a></li>
+
+</ul>
+
+
+<h2>Answer:</h2>
+
+    <p>In IGSR, data is organised into collections that roughly correspond to studies or projects.</p>
+
+<p>The samples collected by the 1000 Genomes Project have now been used in many different studies, some generating new data and others reanalysing existing data.</p>
+
+<p>The final phase of the 1000 Genomes Project was phase 3 and represents 2504 samples on GRCh37.</p>
+
+<p>The data from phase three of the 1000 Genomes Project was subsequently reanalysed on GRCh38.</p>
+
+<p>Following this work, the samples have been resequenced to high-coverage, with additional related samples being sequenced, bringing the total number of samples up to 3,202. This data was analysed on GRCh38.</p>
+
+<p>Further studies have also generated data on samples from the 1000 Genomes Project, including work by the Human Genome Structural Variation Consortium (HGSVC).</p>
+
+<p>These <a href="/data-portal/data-collection">data collections are listed in our data portal</a>.</p>
+
+
+
+<h2>Related questions:</h2>
+<ul>
+
+
+<li><a href="/faq/can-i-get-phenotype-gender-and-family-relationship-information-for-the-individuals/">Can I get phenotype, gender and family relationship information for the individuals?</a></li>
+
+
+<li><a href="/faq/do-i-need-permission-to-use-igsr-data-in-my-own-scientific-research/">Do I need permission to use IGSR data in my own scientific research?</a></li>
+
+
+<li><a href="/faq/how-do-i-find-the-most-up-to-date-data/">How do I find the most up-to-date data?</a></li>
+
+</ul>
+
+
+</div>
+
+<div class="col-md-12 section">
+    
+<h2 class="title">
+      <a href="/faq/why-are-there-differences-between-the-different-analyses-of-the-1000-genomes-samples/" title="Why are there differences between the different analyses of the 1000 Genomes samples?">Why are there differences between the different analyses of the 1000 Genomes samples?</a>
+    </h2>
+  
+  
+
+<ul class="breadcrumb">
+
+
+<li><a href="/category/data-analysis/" title="">Data analysis</a></li>
+
+
+<li><a href="/category/phase-1/" title="">Phase 1</a></li>
+
+
+<li><a href="/category/phase-3/" title="">Phase 3</a></li>
+
+
+<li><a href="/category/variants/" title="">Variants</a></li>
+
+</ul>
+
+
+<h2>Answer:</h2>
+
+    <p>The phase 1 variants list released in 2012 and the phase 3 variants list released in 2014 overlap but phase 3 is not a complete superset of phase 1.  The variant positions between phase 3 and phase 1 releases were compared using their positions. This shows that 2.3M phase 1 sites are not present in phase 3.  Of the 2.3M sites, 1.92M are SNPs, the rest are either indels or structural variations (SVs).</p>
+
+<p>The difference between the two lists can be explained by a number of different reasons.</p>
+
+<ol>
+  <li>
+    <p>Some phase 1 samples were not used in phase 3 for various reasons. If a sample was not part of phase 3, variants private to this sample are not be part of the phase 3 set.</p>
+  </li>
+  <li>
+    <p>Our input sequence data is different. In phase 1 we had a mixture of both read lengths 36bp to &gt;100bp and a mixture of sequencing platforms, Illumina, ABI SOLiD and 454. In phase 3 we only used data from the Illumina sequencing platform and we only used read lengths of 70bp+. We believe that these calls are higher quality, and that variants excluded this way were probably not real.</p>
+  </li>
+  <li>
+    <p>The first two reasons listed explain 548k missing SNPs, leaving 1.37M SNPs still to be explained.</p>
+
+    <p>The phase 1 and phase 3 variant calling pipelines are different. Phase 3 had an expanded set of variant callers, used haplotype aware variant callers and variant callers that used de novo assembly. It considered low coverage and exome sequence together rather than independently. Our genotype calling was also different using ShapeIt2 and MVNcall, allowing integration of multi allelic variants and complex events that weren’t possible in phase 1.</p>
+
+    <p>891k of the 1.37M sites missing from phase 1 were not identified by any phase 3 variant caller. These 891k SNPs have relatively high Ts/Tv ratio (1.84), which means these were likely missed in phase 3 because they are very rare, not because they are wrong; the increase in sample number in phase 3 made it harder to detect very rare events especially if the extra 1400 samples in phase 3 did not carry the alternative allele.</p>
+
+    <p>481k of these SNPs were initially called in phase 3. 340k of them failed our initial SVM filter so were not included in our final merged variant set. 57k overlapped with larger variant events so were not accurately called. 84k sites did not make it into our final set of genotypes due to losses in our pipeline. Some of these sites will be false positives but we have no strong evidence as to which of these sites are wrong and which were lost for other reasons.</p>
+  </li>
+  <li>
+    <p>The reference genomes used for our alignments are different. Phase 1 alignments were aligned to the standard GRCh37 primary reference including unplaced contigs. In phase 3 we added EBV and a decoy set to the reference to reduce mismapping. This will have reduced our false positive variant calling as it will have reduced mismapping leading to false SNP calls. We cannot quantify this effect.</p>
+  </li>
+</ol>
+
+<p>We have made no attempt to eludcidate why our SV and indel numbers changed. Since the release of phase 1 data, the algorithms to detect and validate indels and SVs have improved dramatically. By and large, we assume the indels and SVs in phase 1 that are missing from phase 3 are false positive in phase 1.</p>
+
+<p>You can get more details about our comparison from <a href="file://localhost/vol1/ftp/release/20130502/supporting/phase1_sites_missing_in_phase3">ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/supporting/phase1_sites_missing_in_phase3/</a></p>
+
+
+
+<h2>Related questions:</h2>
+<ul>
+
+
+<li><a href="/faq/are-the-variant-calls-in-igsr-phased/">Are the variant calls in IGSR phased?</a></li>
+
+
+<li><a href="/faq/are-the-igsr-variants-available-in-dbsnp/">Are the IGSR variants available in dbSNP?</a></li>
+
+
+<li><a href="/faq/how-do-i-find-specific-variant-files/">How do I find specific variant files?</a></li>
+
+</ul>
+
+
+</div>
+
+
+
+<!--
+</div>
+</div>
+-->
+</div>
+
+      
+    <footer>
+<div class="footer container-fluid">
+<div class="row">
+<div class="col-md-12">
+  <p> &copy; EMBL-EBI 2008-2026</p>
+  <p>Site maintained by <a href="http://www.ebi.ac.uk/">EMBL-EBI</a> | <a href="/IGSR_disclaimer">Terms of Use, Privacy and Cookies</a></p>
+</div>
+<div class="col-md-12">
+  <p>To cite IGSR please use our <a href="https://academic.oup.com/nar/article/48/D1/D941/5580898">NAR publication</a></p>
+</div>
+<div class="col-xs-6">
+  <p class="text">The International Genome Sample Resource (IGSR) has been established at EMBL-EBI to continue supporting data generated by the 1000 Genomes Project, supplemented with new data and new analysis.
+</p>
+</div>
+</div>
+</div>
+</footer>
+
+
+</body>
+
+
+
+</html>

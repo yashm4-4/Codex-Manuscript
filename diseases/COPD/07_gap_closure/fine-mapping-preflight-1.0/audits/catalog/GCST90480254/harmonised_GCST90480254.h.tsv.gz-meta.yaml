@@ -1,0 +1,35 @@
+coordinate_system: 1-based
+data_file_md5sum: 0a2c2f00b4f5a46708d8d652c16f322d
+data_file_name: GCST90480254.h.tsv.gz
+date_metadata_last_modified: 2025-06-22
+file_type: GWAS-SSF v1.0
+genome_assembly: GRCh38
+genotyping_technology:
+- Genome-wide genotyping array
+gwas_catalog_api: https://www.ebi.ac.uk/gwas/rest/api/studies/GCST90480254
+gwas_id: GCST90480254
+harmonisation_reference: ftp://ftp.ensembl.org/pub/release-95/fasta/homo_sapiens/dna/
+is_harmonised: true
+is_sorted: true
+ontology_mapping:
+- ''
+samples:
+- case_control_study: true
+  sample_ancestry_category:
+  - African American or Afro-Caribbean
+  sample_size: 112489
+- case_control_study: true
+  sample_ancestry_category:
+  - Hispanic or Latin American
+  sample_size: 56391
+- case_control_study: true
+  sample_ancestry_category:
+  - East Asian
+  sample_size: 6572
+- case_control_study: true
+  sample_ancestry_category:
+  - European
+  sample_size: 418504
+sex: NR
+trait_description:
+- Chronic airway obstruction (PheCode 496)

@@ -1,0 +1,28 @@
+{
+  "acquired_bytes": 150,
+  "acquired_sha256": "ad10a74a529dd731d13529f38197f322ca8b3d15947155b3eb80152665addb3d",
+  "body_path": "audits/direct/acquired/joo2022_xml/response.bin",
+  "complete_remote_object_hash": false,
+  "completed_utc": "2026-10-06T20:34:10.681868+00:00",
+  "effective_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8861659/fullTextXML",
+  "http_status": 500,
+  "purpose": "Public metadata/header/schema access audit; no statistical analysis",
+  "read_limit_bytes": 2097152,
+  "read_truncated": false,
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0 (bounded public metadata access)"
+  },
+  "requested_utc": "2026-10-06T20:34:10.068171+00:00",
+  "response_headers": {
+    "Connection": "close",
+    "Content-Type": "application/json",
+    "Date": "Tue, 06 Oct 2026 20:34:10 GMT",
+    "Set-Cookie": "JSESSIONID=78D504591541801B60C1A2E0C42570BA; Path=/europepmc/webservices/rest; Secure; HttpOnly",
+    "Transfer-Encoding": "chunked",
+    "Vary": "origin,access-control-request-method,access-control-request-headers,accept-encoding",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+  },
+  "transport_error": "HTTP Error 500: ",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8861659/fullTextXML"
+}

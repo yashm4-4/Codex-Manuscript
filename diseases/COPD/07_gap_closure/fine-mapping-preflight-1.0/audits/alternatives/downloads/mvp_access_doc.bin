@@ -1,0 +1,1445 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta charset="utf-8" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9TYPPSWFWF"></script>
+<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "G-9TYPPSWFWF", {"groups":"default","page_placeholder":"PLACEHOLDER_page_location"});</script>
+<meta name="description" content="MVP Enables High Quality Health ResearchThe Million Veteran Program (MVP) is the nation’s largest biorepository of Veteran data and has one of the world’s most diverse cohorts of any genetic research program. Thanks to our partnership with hundreds of researchers and their collaboration together, MVP data has already led to new findings about conditions such as anxiety, post-traumatic stress disorder (PTSD), heart disease, kidney disease, cancer and more." />
+<link rel="canonical" href="https://www.mvp.va.gov/pwa/discover-mvp-data" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/pwa/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<script src="/pwa/sites/default/files/google_tag/gtm/google_tag.script.js?tl2r23" defer></script>
+<script src="/pwa/sites/default/files/google_tag/va_mvp_reef_ga4/google_tag.script.js?tl2r23" defer></script>
+
+    <title>Discover MVP data | MVP</title>
+    <link rel="stylesheet" media="all" href="/pwa/core/assets/vendor/normalize-css/normalize.css?tl2r23" />
+<link rel="stylesheet" media="all" href="/pwa/core/assets/vendor/jquery.ui/themes/base/core.css?tl2r23" />
+<link rel="stylesheet" media="all" href="/pwa/core/assets/vendor/jquery.ui/themes/base/controlgroup.css?tl2r23" />
+<link rel="stylesheet" media="all" href="/pwa/core/assets/vendor/jquery.ui/themes/base/checkboxradio.css?tl2r23" />
+<link rel="stylesheet" media="all" href="/pwa/core/assets/vendor/jquery.ui/themes/base/resizable.css?tl2r23" />
+<link rel="stylesheet" media="all" href="/pwa/core/assets/vendor/jquery.ui/themes/base/button.css?tl2r23" />
+<link rel="stylesheet" media="all" href="/pwa/core/assets/vendor/jquery.ui/themes/base/dialog.css?tl2r23" />
+<link rel="stylesheet" media="all" href="/pwa/core/misc/components/progress.module.css?tl2r23" />
+<link rel="stylesheet" media="all" href="/pwa/core/misc/components/ajax-progress.module.css?tl2r23" />
+<link rel="stylesheet" media="all" href="/pwa/core/modules/system/css/components/align.module.css?tl2r23" />
+<link rel="stylesheet" media="all" href="/pwa/core/modules/system/css/components/fieldgroup.module.css?tl2r23" />
+<link rel="stylesheet" media="all" href="/pwa/core/modules/system/css/components/container-inline.module.css?tl2r23" />
+<link rel="stylesheet" media="all" href="/pwa/core/modules/system/css/components/clearfix.module.css?tl2r23" />
+<link rel="stylesheet" media="all" href="/pwa/core/modules/system/css/components/details.module.css?tl2r23" />
+<link rel="stylesheet" media="all" href="/pwa/core/modules/system/css/components/hidden.module.css?tl2r23" />
+<link rel="stylesheet" media="all" href="/pwa/core/modules/system/css/components/item-list.module.css?tl2r23" />
+<link rel="stylesheet" media="all" href="/pwa/core/modules/system/css/components/js.module.css?tl2r23" />
+<link rel="stylesheet" media="all" href="/pwa/core/modules/system/css/components/nowrap.module.css?tl2r23" />
+<link rel="stylesheet" media="all" href="/pwa/core/modules/system/css/components/position-container.module.css?tl2r23" />
+<link rel="stylesheet" media="all" href="/pwa/core/modules/system/css/components/reset-appearance.module.css?tl2r23" />
+<link rel="stylesheet" media="all" href="/pwa/core/modules/system/css/components/resize.module.css?tl2r23" />
+<link rel="stylesheet" media="all" href="/pwa/core/modules/system/css/components/system-status-counter.css?tl2r23" />
+<link rel="stylesheet" media="all" href="/pwa/core/modules/system/css/components/system-status-report-counters.css?tl2r23" />
+<link rel="stylesheet" media="all" href="/pwa/core/modules/system/css/components/system-status-report-general-info.css?tl2r23" />
+<link rel="stylesheet" media="all" href="/pwa/core/modules/system/css/components/tablesort.module.css?tl2r23" />
+<link rel="stylesheet" media="all" href="/pwa/core/modules/ckeditor5/css/ckeditor5.dialog.fix.css?tl2r23" />
+<link rel="stylesheet" media="all" href="/pwa/core/modules/views/css/views.module.css?tl2r23" />
+<link rel="stylesheet" media="all" href="/pwa/core/assets/vendor/jquery.ui/themes/base/theme.css?tl2r23" />
+<link rel="stylesheet" media="all" href="/pwa/core/modules/layout_discovery/layouts/onecol/onecol.css?tl2r23" />
+<link rel="stylesheet" media="all" href="/pwa/themes/custom/mvp/css/legacy/legacy.css?tl2r23" />
+<link rel="stylesheet" media="print" href="/pwa/themes/custom/mvp/css/theme/print.css?tl2r23" />
+<link rel="stylesheet" media="all" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,600;1,700;1,900&display=swap" rel="stylesheet">
+          <meta name="loadforge-site-verification" content="aacd94e2a6c74654ebeaaca993f48acd9339c024bf57bc1d86c2196909eeb3bbef6db393942425d06233437b91adfb476d64aa5d60b1cdca6029064976e7128a" />
+      </head>
+          
+    
+    <body class="page-discover-mvp-data section-discover-mvp-data role--anonymous not-frontpage no-sidebar page-node-type-page">
+        <a href="#main" role="skipnav" class="skipper exclude-exit-popup" style="max-width: 100rem;" tabindex="0" aria-label="Skip to main content">
+      Skip to main content
+    </a>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M5WC82N" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5LG8W55" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+<main>
+  <!-- ______________________ HEADER _______________________ -->
+  <div class="header clearfixes" id="banner">
+  <div class="official-strip va-notice--banner">
+    <div class="va-notice--banner-inner">
+      <div class="usa-banner">
+        <div class="usa-accordion">
+            <div>
+    <section class="views-element-container block block-views block-views-blockheader-notification-bar-block-1 clearfix" id="block-views-block-header-notification-bar-block-1">
+  
+      <h2 class="block-title">Header Notification Bar</h2>
+    
+
+      <div><div class="js-view-dom-id-c09a332cdbd154e012ae46003e4e8dfa2bef0252a12e521508e7df79132baf75">
+  
+  
+  
+
+      <header>
+      <div class="usa-banner">
+        <div class="usa-accordion">
+          <div class="usa-banner-header">
+            <div class="usa-grid usa-banner-inner">
+              <img alt="U.S. flag" src="https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/img/tiny-usa-flag.png"><p class="usa-desktop-banner">
+                An official website of the United States government
+              </p><button aria-label="Here’s how you know" class="usa-accordion-button usa-banner-button" id="usa-banner-toggle" aria-expanded="false">
+                <span class="usa-banner-button-text usa-desktop-banner">Here’s how you know</span><span class="usa-banner-button-text usa-mobile-banner">An official website of the United States government.</span>
+              </button>
+            </div>
+          </div>
+  <div>   
+  </div>
+          </div>
+      </div>
+    </header>
+  
+  
+  
+
+      <div class="views-view-grid horizontal cols-2 clearfix">
+            <div class="views-row clearfix row-1">
+                  <div class="header-notification-column views-col col-1" style="width: 50%;"><div class="usa-banner-content usa-grid usa-accordion-content ng-star-inserted" aria-hidden="false"> 
+<div class="usa-banner-guidance-gov usa-width-one-half">
+<img alt="Dot gov" class="usa-banner-icon usa-media_block-img" src="/pwa/sites/default/files/2020-10/icon-dot-gov_0.png" />              
+        <div class="usa-media_block-body">
+                  <strong>
+                    The .gov means it’s official.
+                  </strong><br> <p>The https:// ensures that you're connecting to the official website and that any information you provide is encrypted and sent securely.</p>
+
+              </div>
+            </div>
+</div></div>
+                  <div class="header-notification-column views-col col-2" style="width: 50%;"><div class="usa-banner-content usa-grid usa-accordion-content ng-star-inserted" aria-hidden="false"> 
+<div class="usa-banner-guidance-gov usa-width-one-half">
+<img alt="Dot gov" class="usa-banner-icon usa-media_block-img" src="/pwa/sites/default/files/2020-10/icon-https_0_1.png" />              
+        <div class="usa-media_block-body">
+                  <strong>
+                    The site is secure.
+                  </strong><br> <p>Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you're on a federal government site.</p>
+
+              </div>
+            </div>
+</div></div>
+              </div>
+      </div>
+
+    
+
+  
+  
+
+      <footer>
+      <div class="va-crisis-line-container">
+      <button class="va-crisis-line va-overlay-trigger" onclick="window.open(&quot;https://www.veteranscrisisline.net/&quot;,&quot;_blank&quot;,&quot;&quot;,&quot;&quot;)">
+        <span class="va-crisis-line-inner">
+          <span aria-hidden="true" class="va-crisis-line-icon">
+          </span><span class="va-crisis-line-text">            
+            Talk to the <strong>Veterans Crisis Line</strong> now
+          </span><i class="va-crisis-line-arrow fa fa-chevron-right" aria-hidden="true"></i>
+        </span>
+      </button>
+    </div>
+    </footer>
+  
+  
+</div>
+</div>
+
+  </section>
+
+
+  </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="va-notice--banner header_top-region">
+    
+  </div>
+
+  <div class="header-region">
+      <div>
+    <div class="contsign logo-menu-bar">
+  <div class="row va-flex">
+      <div class="milvegt site-logo-bar">
+        <a href="/pwa/">
+          <img
+            src="/pwa/sites/default/files/3038d6d0563958af03c9738f1b2ea1603ae52deb_0_0_0.png"
+            alt="VA Million Veteran Program"
+            class="site-logo"
+          />
+        </a>
+      </div>
+      <div class="consgn user-menu-bar">
+        <div class="maincsgn">
+          <div class="vetnav" id="va-nav-controls">
+<div class="controls-button vetnav-controller-close" style="display: none;"><span class="va-flex">Close </span></div>
+
+<div class="controls-button vetnav-controller-open"><span class="va-flex">Menu </span></div>
+</div>
+
+<div class="contus"><button class="contbtn" id="contbtnid">Contact Us</button>
+
+<ul class="dropdwn">
+	<li>Call MVP Info Center</li>
+	<li>toll-free at <a href="tel:8664416075">866-441-6075</a></li>
+	<li>Monday - Friday;</li>
+	<li>8:00 a.m. - 6:00 p.m. ET</li>
+	<li>Email MVP: <a href="mailto:askmvp@va.gov">askmvp@va.gov</a></li>
+</ul>
+</div>
+
+          <div class="signup dynamic-rep-signup" id ="signup">
+                        <div class="replace-signup"><a class="signup" tabindex="0" role="link">Sign In</a></div>
+                      </div>
+
+          <div class="target" style="display: none;">
+            <div class="hub-rowwrapper replace popup-show-signup">
+                 <button class="openpop pwa-btn-scaled"  id="login-pwa">Sign In</button>
+  <div class="myModal modal" style="z-index: 4;">
+    <div class="mat-dialog-container">
+      <div class="closeButtonContainer" tabindex="0" role="button">
+        <i class="fa fa-times-circle"></i>
+      </div>
+      <div class="first-area clearfix"><div class="first-area clearfix"><p><strong>Welcome to the Million Veteran Program (MVP)!</strong></p><p>Please sign-in to complete consent, surveys, and more. MVP uses AccessVA to offer two secure options: Login.gov and ID.me.</p><p><a class="pwa-btn pwa-flush-left" href="https://login.va.gov/app/va_millionveteranprogrammvp2228_1/exk1p3fsdwQzI2fN50j7/sso/saml" id="pwa-signin">Sign In</a></p><div class="clearfix">&nbsp;</div><div class="mat-divider mat-divider-horizontal" aria-orientation="horizontal" role="separator">&nbsp;</div><p class="popup-div clear">&nbsp;</p><p><strong>Learn how to join our program</strong></p><p><a class="pwa-btn pwa-flush-left" href="/pwa/joinmvp" id="pwa-accessva">Get started</a></p><div class="clearfix">&nbsp;</div></div><div class="clearfix"></div></div>
+    </div>
+  </div>
+
+
+            </div>
+            <a href="https://www.mvp.va.gov/pwa/saml/login" class="signup replace url-show-signup" id="login-saml">Sign In</a>
+            <div class="hub-rowwrapper replace browser-update-show-signup">
+              <button class="openpop pwa-btn-scaled" >Sign In</button>
+              <div class="myModal modal fw-modal browser-update" style="z-index: 10;">
+                <div class="mat-dialog-container-popup">
+                  <div class="first-area-popup clearfix"><div class="reef-dialog">
+  <img class="img-responsive"
+       src="/pwa/themes/custom/mvp/images/source/assets/images/icon-error-big.png" alt="Alert"/>
+  <div class="pwa-dialog visit-modal visit-modal1">
+    <h2>Unsupported Browser Warning</h2>
+    <div class="mat-dialog-content">
+      <p>We're sorry! The browser you are using is not supported. To sign in please use the supported browser for the best MVP Online Experience.</p>
+      <div class="pop-buttons">
+        <span class="pop-btn pop-btn1"><a class="popup-home popup-button" href="/pwa/"> Back to home page </a></span>
+        <span class="pop-btn pop-btn2"><a class="popup-redirect popup-button" href="/pwa/supported"> Supported Browsers</a></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+            <div class="myModal modal menupop browser-update" style="z-index: 10; display:none;">
+              <div class="mat-dialog-container-popup">
+                <div class="first-area-popup clearfix"><div class="reef-dialog">
+  <img class="img-responsive"
+       src="/pwa/themes/custom/mvp/images/source/assets/images/icon-error-big.png" alt="Alert"/>
+  <div class="pwa-dialog visit-modal visit-modal1">
+    <h2>Unsupported Browser Warning</h2>
+    <div class="mat-dialog-content">
+      <p>We're sorry! The browser you are using is not supported. To sign in please use the supported browser for the best MVP Online Experience.</p>
+      <div class="pop-buttons">
+        <span class="pop-btn pop-btn1"><a class="popup-home popup-button" href="/pwa/"> Back to home page </a></span>
+        <span class="pop-btn pop-btn2"><a class="popup-redirect popup-button" href="/pwa/supported"> Supported Browsers</a></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+              </div>
+            </div>
+            <div class="myModal_ modal samlpop browser-update" style="z-index: 10; display:none;">
+              <div class="mat-dialog-container-popup">
+                <div class="first-area-popup clearfix"><div class="reef-dialog">
+  <img class="img-responsive"
+       src="/pwa/themes/custom/mvp/images/source/assets/images/icon-error-big.png" alt="Alert"/>
+  <div class="pwa-dialog visit-modal visit-modal1">
+    <h2>Unsupported Browser Warning</h2>
+    <div class="mat-dialog-content">
+      <p>We're sorry! The browser you are using is not supported. To sign in please use the supported browser for the best MVP Online Experience.</p>
+      <div class="pop-buttons">
+        <span class="pop-btn pop-btn1"><a class="popup-home popup-button" href="/pwa/"> Back to home page </a></span>
+        <span class="pop-btn pop-btn2"><a class="popup-redirect popup-button" href="/pwa/supported"> Supported Browsers</a></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+              </div>
+            </div>
+
+                  </div>
+      </div>
+  </div>
+</div>
+  </div>
+
+    <div class="clearfixes"></div>
+  </div>
+
+  <div id="mega-menu">
+    <div class="login-container">
+      <div class="row va-flex">
+                <ul id="vetnav-menu">
+                                    
+        <li class="menu-item">
+          <a class='vetnav-level1' href="/pwa/" title="Home">
+            Home
+          </a>
+        </li>
+                                                                        
+        <li class="menu-item">
+          <a class='vetnav-level1' href="/pwa/about" title="About MVP">
+            About MVP
+          </a>
+        </li>
+                                                                        
+        <li class="menu-item">
+          <a class='vetnav-level1' href="/pwa/science" title="Science Corner">
+            Science Corner
+          </a>
+        </li>
+                                                                        
+        <li class="menu-item">
+          <a class='vetnav-level1' href="/pwa/news" title="MVP in the News">
+            MVP in the News
+          </a>
+        </li>
+                                                                      <li class="menu-item va-dropdown-trigger vetnav-level1 close">
+            <a href="#" class="prevent" role="button" aria-expanded="false">Resources</a>
+            <div class ="mobileFooter">
+              <button class="usa-button-unstyled usa-accordion-button mobilemenu va-footer-button" 
+              aria-expanded="false">Link</button>
+            </div>
+                           <div class="mat-menu-panel">
+  <div class="va-dropdown-panel">
+                    <p>
+           <a class='vetnav-level2' href="/pwa/resources" title="Resources Home">
+            Resources Home
+          </a>
+          </p>
+                  <p>
+           <a class='vetnav-level2' href="/pwa/insider" title="MVP Matters">
+            MVP Matters
+          </a>
+          </p>
+                  <p>
+           <a class='vetnav-level2' href="/pwa/faqs" title="FAQs">
+            FAQs
+          </a>
+          </p>
+                  <p>
+           <a class='vetnav-level2' href="/pwa/spreadtheword" title="Spread the word">
+            Spread the word
+          </a>
+          </p>
+               </div>
+ </div>
+
+                                            <li class="menu-item active-trail va-dropdown-trigger vetnav-level1 close">
+            <a href="#" class="prevent" role="button" aria-expanded="false">Researcher Hub</a>
+            <div class ="mobileFooter">
+              <button class="usa-button-unstyled usa-accordion-button mobilemenu va-footer-button" 
+              aria-expanded="false">Link</button>
+            </div>
+                           <div class="mat-menu-panel">
+  <div class="va-dropdown-panel">
+                    <p>
+           <a class='vetnav-level2' href="/pwa/discover-mvp-data" title="MVP Data Overview">
+            MVP Data Overview
+          </a>
+          </p>
+                  <p>
+           <a class='vetnav-level2' href="/pwa/analytics-and-tools" title="Analytics and tools">
+            Analytics and tools
+          </a>
+          </p>
+                  <p>
+           <a class='vetnav-level2' href="/pwa/mvp-data-available-research" title="Data Available for Researchers">
+            Data Available for Researchers
+          </a>
+          </p>
+                  <p>
+           <a class='vetnav-level2' href="/pwa/researcher-FAQ" title="Researcher FAQs">
+            Researcher FAQs
+          </a>
+          </p>
+               </div>
+ </div>
+
+                    </ul>
+  
+
+
+
+      </div>
+    </div>
+  </div>
+</div>  <!-- ______________________ MAIN _______________________ -->
+  <div id="main" class ="Discover MVP data clearfixes">
+    <div class="container">
+        <section id="content" class="pwa-content__mixed">
+          <div id="content-area">
+              <div>
+    <div data-drupal-messages-fallback class="hidden"></div><section id="block-pagetitle" class="block block-core block-page-title-block clearfix">
+  
+  <button>Save & exit</button>
+    
+
+      
+  <h1>
+<span>Discover MVP data</span>
+</h1>
+
+
+  </section>
+
+<section id="block-mainpagecontent" class="block block-system block-system-main-block clearfix">
+  
+    
+
+      
+
+<article class="node">
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      <section class="block block-layout-builder block-field-blocknodepagebody clearfix">
+  
+    
+
+      
+
+
+
+
+
+  </section>
+
+<section class="block block-layout-builder block-extra-field-blocknodepagelinks clearfix">
+  
+    
+
+      
+  </section>
+
+
+    </div>
+  </div>
+
+  </div><!-- /.content -->
+
+  
+</article><!-- /.node -->
+
+  </section>
+
+<section class="views-element-container block block-views block-views-blocknews-detail-news-detail clearfix" id="block-views-block-news-detail-news-detail">
+  
+    
+
+      <div><div class="base-width js-view-dom-id-e9de233108d6059eea90568d99ad27d3c33b3a06149f7e5defcbfe818f2d2c5a">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-row"><div><div><div class="rwa"><h2>MVP Enables High Quality Health Research</h2><p>The Million Veteran Program (MVP) is the nation’s largest biorepository of Veteran data and has one of the world’s most diverse cohorts of any genetic research program. Thanks to our partnership with hundreds of researchers and their collaboration together, MVP data has already led to <a href="/pwa/science" target="_blank " title="new findings">new findings</a> about conditions such as anxiety, post-traumatic stress disorder (PTSD), heart disease, kidney disease, cancer and more.</p><h3>Data snapshot: MVP by the Numbers</h3><div class="container-fluid"><div class="row"><div class="col-md-3"><div class="card"><h4>Researchers</h4><p class="text-align-center"><span class="large-text">800+</span></p></div></div><div class="col-md-3"><div class="card"><h4>Projects</h4><p class="text-align-center"><span class="large-text">100+</span></p></div></div><div class="col-md-3"><div class="card"><h4>Publications</h4><p class="text-align-center"><span class="large-text">550+</span></p></div></div></div></div><p>&nbsp;</p><h3>Data snapshot: A Diverse Cohort of Veterans</h3><div class="container-fluid container-2"><div class="row"><div class="col-md-3"><div class="card card-col-1"><h4>Veterans enrolled as of November 2023</h4><p class="text-align-center"><span class="large-text">1,000,000+</span></p></div><div class="card card-col-2"><div class="medium-text">Over 25% of enrollees are from minority racial backgrounds</div><div class="medium-text">Over 10% of enrollees are women Veterans</div></div></div><div class="col-md-3"><div class="card card-col-lg"><h4>Race/Ethnicity*</h4><table class="table"><tbody><tr><td class="td1">74%</td><td class="td2">White</td></tr><tr><td class="td1">18%</td><td class="td2">Black</td></tr><tr><td class="td1">8%</td><td class="td2">Hispanic¹</td></tr><tr><td class="td1">4%</td><td class="td2">Multiracial¹</td></tr><tr><td class="td1">2.5%</td><td class="td2">American Indian/ Alaska Native</td></tr><tr><td class="td1">1.5%</td><td class="td2">Asian</td></tr><tr><td class="td1">0.7%</td><td class="td2">Native Hawaiian/ Pacific Islander</td></tr><tr><td class="td1">0.5%</td><td class="td2">Other</td></tr></tbody></table></div></div><div class="col-md-3"><div class="card card-col-lg"><h4>Age*&nbsp;</h4><table class="table"><tbody><tr><td class="td3">3%</td><td class="td4">18 to 29</td></tr><tr><td class="td3">7%</td><td class="td4">30 to 39</td></tr><tr><td class="td3">9%</td><td class="td4">40 to 49</td></tr><tr><td class="td3">18%</td><td class="td4">50 to 59</td></tr><tr><td class="td3">35%</td><td class="td4">60 to 69</td></tr><tr><td class="td3">20%</td><td class="td4">70 to 79</td></tr><tr><td class="td3">7%</td><td class="td4">80 to 89</td></tr><tr><td class="td3">1%</td><td class="td4">90 to 99</td></tr><tr><td class="td3">&lt;0.01%</td><td class="td4">100+</td></tr></tbody></table></div></div></div></div><div class="explorer">&nbsp;</div></div><style type="text/css">.card{
+            text-align: center;
+            background: #def0ff;
+            border: 1px solid #979797;
+            border-radius: 0px;
+            margin-bottom: 1vw;
+padding: 20px;
+        }
+    .container-fluid {
+        padding-right: 0;
+        padding-left: 0;
+        width: 100%;
+    }
+    .col-md-3 {
+        flex: 0 0 30%;
+        max-width: 30%;
+    }
+    .rwa p {
+        color:  #323A45;
+    }
+    span.large-text {
+        font-size: 48px;
+        line-height: 0.90;
+        color: #000;
+        font-weight: 400;
+        margin:-4px 0 12px 0;
+}
+    a.button {
+        font-size: 16px;
+        font-weight: 600;
+        background-color: #0071bb;
+        border-radius: 5px;
+        padding: 8px 25px;
+    }
+.table { margin: 0 auto !important; }
+.table tbody {
+border: none;
+}
+        .table td {
+            border-top: none;
+            padding: 0.10rem;
+        }
+        .table .td1 {
+            text-align: end;
+padding-left: 70px;
+        }
+        .table .td2 {
+            text-align: left;
+padding-left: 15px;
+        }
+    .table .td3 {
+            text-align: end;
+        }
+        .table .td4 {
+            text-align: left;
+padding-left: 15px;
+        }
+.table&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;tbody&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;tr&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;td {
+  padding: 3.1px;
+  line-height: 1.1;
+  vertical-align: top;
+  border-top: none;
+    font-size: 18px;
+}
+    .card-col-1{
+        text-align: center;
+        height: 31%;
+        margin-bottom: 30px;
+    }
+    .card-col-2{
+        text-align: center;
+        height: 31%;
+    }
+    .card-col-lg {
+        padding: 20px;
+height: 82%;
+    }
+    ul {
+        padding: 0 22px;
+        list-style: disc;
+        font-size: 18px;
+    }
+    .explorer ul li a {
+        text-decoration: underline;
+        line-height: 2.5;
+        padding-left: 10px;
+    }
+.card h4 {margin:0 0 10px 0;}
+.rwa h2 {margin-top: 0;}
+span.medium-text {font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+padding: 10% 0;
+    display: block;}
+@media only screen and (max-width: 600px) {
+  .row {margin: 0 auto !important;}
+.col-md-3 {
+            flex: 0 0 100%;
+            max-width: 100%;
+padding-right: 0 !important;
+padding-left: 0 !important;
+        }
+}
+</style><p>*Reflects 1,000,000+ Veteran enrollees</p><p>¹Hispanic may be indicated in addition to one of the other categories.</p><h2>Exploring MVP Data</h2><p>The following resources allow researchers to explore MVP data while planning and developing research proposals. Some may only be accessible to VA users.</p><ul><li><p><a href="https://genhub.va.gov/" target="_blank"><strong>GenHub:</strong></a></p><p>The VA MVP Data Explorer tool enables a researcher to query data based on clinical and other data characteristics to build rough cohorts, estimate sample sizes, and perform power analyses.&nbsp;</p><p>This tool is accessible to VA users with a NT account to help explore MVP data while planning and developing research proposals.</p></li><li><p><a href="https://phenomics.va.ornl.gov/web/" target="_blank"><strong>CIPHER:</strong></a></p><p>The Centralized Interactive Phenomics Resource (CIPHER) is an online knowledge sharing platform that aims to optimize electronic health records (EHR) data for use in research and clinical operations. CIPHER’s standardized, searchable platform is a public resource that optimizes phenotype reproducibility, consistency, and scalability across health systems. Phenotype definitions contributed by MVP investigators can be found by browsing the CIPHER knowledgebase. To learn more about CIPHER, please refer to our <a href="https://pubmed.ncbi.nlm.nih.gov/38481028/" target="_blank"><strong>manuscript</strong></a> describing the platform.</p></li></ul><h3>Summary statistics available on <a href="https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001672.v11.p1" target="_blank">dbGaP</a></h3><p>Summary results for many of MVP’s projects are available via the MVP accession phs001672.v11.p1 in the Database of Genotypes and Phenotypes (dbGaP). Access individual SNP look-ups or fill out a short application to dbGaP to download full summary statistics <a href="https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001672.v11.p1" target="_blank"><span aria-label="Click to see MVP  Summary Results from Omics Studies.">here</span></a>.</p><p>View publications from MVP research studies in <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank">PubMed</a>.</p><h3>Explore the MVP cohort, data, analytic environments, and more:</h3><div class="explorer"><ul><li><a href="/pwa/mvp-data-available-research">Data available for researchers</a></li><li><a href="/pwa/analytics-and-tools">Analytics and tools</a></li><li><a href="/pwa/researcher-FAQ">Researcher FAQs</a></li></ul></div><style type="text/css">a.button {
+        font-size: 16px;
+        font-weight: 600;
+        background-color: #0071bb;
+        border-radius: 5px;
+        padding: 8px 25px;
+        text-decoration: none;
+    }
+    ul {
+        padding: 0 22px;
+        list-style: disc;
+    }
+    .rwa ul li {
+        padding-left: 10px;
+    }
+    .rwa a {
+        text-decoration: underline;
+    }
+    .sign-in-btn a {
+        text-decoration: none;
+    }
+    @media only screen and (max-width: 991px) {
+        
+    }
+</style></div></div></div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </section>
+
+
+  </div>
+
+          </div>
+        </section><!-- /#content -->
+    </div><!-- /.container -->
+  </div><!-- /#main -->
+  <!-- ______________________ FOOTER _______________________ -->
+  <footer class="pwa-footer">
+  <div class="footer-logo-wrapper">
+    <a href="/pwa/" class="va-header-logo">
+      <img alt="Go to MVP Homepage" src="/pwa/sites/default/files/mvp_top_footer_image_0_0_0.png" />
+    </a>
+  </div>
+  <div data-reactroot="" class="footerWrapper footerWrapper1">
+    <div class="footer-inner">
+      <div
+        class="usa-grid-full flex-container usa-grid-flex-mobile va-footer-content pwa-footer-content"
+      >
+        
+
+                                          <div class="va-footer-linkgroup">
+              <div class="va-footer-linkgroup-title">
+              <a href="/pwa/" title="Home">
+                Home
+              </a>
+            </div>
+          </div>
+                                        
+                                      <div class="va-footer-linkgroup">
+              <div class="va-footer-linkgroup-title">
+              <a href="/pwa/about" title="About MVP">
+                About MVP
+              </a>
+            </div>
+          </div>
+                                        
+                                      <div class="va-footer-linkgroup">
+              <div class="va-footer-linkgroup-title">
+              <a href="/pwa/science" title="Science Corner ">
+                Science Corner 
+              </a>
+            </div>
+          </div>
+                                        
+                                      <div class="va-footer-linkgroup">
+              <div class="va-footer-linkgroup-title">
+              <a href="/pwa/resources" title="Resources">
+                Resources
+              </a>
+            </div>
+          </div>
+                                        
+      
+
+
+        <div class="footerSpacer">&nbsp;</div>
+          <div>
+    <div class="va-footer-linkgroup footerSmall" >
+    <p><strong>Need help/information? Call us toll-free.<br>
+<a href="tel:18664416075">866-441-6075</a> | Monday - Friday; 8:00 a.m. - 6:00 p.m. ET</strong></p>
+
+</div><div class="va-footer-linkgroup footerSmall" >
+    <p><style type="text/css">@media (max-width: 480px), (max-height: 500px) {
+.ui-dialog.visit-dialog {
+top: 50% !important;
+transform: translate(-50%, -50%) !important;
+}
+.pwa-accent2.pwaCoverImage {
+width: 100%;
+}
+}
+
+body {
+                                        overscroll-behavior:auto !important;
+                                        }
+                                        .messages
+                                        {
+                                        display:none !important;
+                                        }
+                                        /* Add custom css here tesT */
+                                        .activities a .activity.selected + div + div + div {
+                                            display: none;
+                                        }
+                                        .card h4 {
+                                        text-align: center !important;
+                                        }
+                                        .card-col-2 {
+                                        padding-bottom: 19px;
+                                        }
+                                        .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+                                            position: relative;
+                                            width: 100%;
+                                            padding-right: 15px;
+                                            padding-left: 15px;
+                                        }
+                                        .row {
+                                            display: -webkit-box;
+                                            display: -webkit-flex;
+                                            display: -ms-flexbox;
+                                            display: flex;
+                                            -webkit-flex-wrap: wrap;
+                                            -ms-flex-wrap: wrap;
+                                            flex-wrap: wrap;
+                                            margin-right: -15px;
+                                            margin-left: -15px;
+                                        }
+                                        @media only screen and (max-width: 755px) {
+                                        .page-form-mvp-baseline .tabSlider .scroll-pane::after {
+                                            content: "Slide left/right and tap to jump to a section.";
+                                            position: absolute;
+                                            bottom: -4%;
+                                            left: 5%;
+                                            color: #005a87;
+                                            font-size: 1.2rem;
+                                            cursor: e-resize;
+                                          }
+                                            .my-activities.ng-star-inserted.activities-menu-block {
+                                            position: relative;
+                                            }
+                                            
+                                           .my-activities.ng-star-inserted.activities-menu-block .instructions-wrapper::after {
+                                            content: "Slide left/right to see more activities.";
+                                            position: absolute;
+                                            left: 5%;
+                                            bottom: 3%;
+                                            color: #FFFFFF;
+                                            font-weight: 900;
+                                            font-size: 1.2rem;
+                                            opacity: 0.5;
+                                            cursor: e-resize;
+                                            }
+                                        .page-form-mvp-lifestyle .tabSlider .scroll-pane::after { 
+                                        content: "Slide left/right and tap to jump to a section."; 
+                                        position: absolute; 
+                                        bottom: -4%; 
+                                        left: 5%; 
+                                        color: #005a87; 
+                                        font-size: 1.2rem; 
+                                        cursor: e-resize; 
+                                        } 
+                                          
+                                          }
+                                        @media screen and (max-width: 767px) {
+                                            .mvp-visit h2{
+                                            margin-left: 5%;
+                                        }
+                                        }
+                                        @media only screen and (max-width: 600px) {
+                                          .webform-options-display-two-columns {
+                                            display: -webkit-box;
+                                            display: -ms-flexbox;
+                                            display: flex !important;
+                                            -webkit-box-orient: vertical;
+                                            -webkit-box-direction: normal;
+                                            -ms-flex-direction: column;
+                                            flex-direction: column;
+                                            }
+                                        }
+                    /*--------------------------------------------------HOME---------------------------------------------------*/
+                    .frontpage #LeadingTheCharge .veteran-banner-text {
+                    margin-right: 1em !important;
+                    }
+                    .frontpage #LeadingTheCharge div.style1Wrapper div.veteran-banner-div-resize {
+                    /* background-size: 500px !important; */
+                    /* padding-right: 0 !important; */
+                    background-position: inherit !important;
+                    }
+                    .frontpage #HomePageVideo .style3Wrapper {                                                                                                                                                                                                 
+                    background-color: inherit !important;                                                                                                                                                                                                  
+                    } 
+                    .frontpage #HomePageVideo .bannerTextWrapper {                                                                                                                                                                                                 
+                    margin: 0 !important;                                                                                                                                                                                                   
+                    }       
+                    .frontpage #HomePageVideo .veteran-banner-text {                                                                                                                                                                                                 
+                    padding: 0 !important;                                                                                                                                                                                                   
+                    }
+                    .frontpage #HomePageVideo div.style1Wrapper {                                                                                                                                                                                                                                                       
+                    margin-bottom: 0 !important;  
+                    background-color: inherit !important; 
+                    }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+                    .frontpage #HomePageVideo div.veteran-banner-div-resize {                                                                                                                                                                                                                                                       
+                    margin: 0 0 0 0 !important;                                                                                                                                                                                                                                                       
+                    }
+                    .frontpage #HomePageVideo h2.pwa-tagline {                                                                                                                                                                                                                                                      
+                    padding-left: 0 !important;                                                                                                                                                                                                                                                     
+                    margin:0 !important;
+                    display: none !important;                                                                                                                                                                                                                                                      
+                    }                                                                                                                                                                    
+                    .frontpage #TheSpotlightShines .section2blueinner {
+                    background-color: #0071BB !important;
+                    padding: 1em 2em 0em 2em !important;
+                    }  
+                    .frontpage #TheSpotlightShines .hub-rowwrapper .pwa-btn-group {
+                    text-align: center !important;
+                    }
+                    .frontpage .single_block_archived_articles .style4Wrapper span {                                                                                                                                                                                                                                                       
+                    font-family:"Source Sans Pro" !important;                                                                                                                                                                                                                                                      
+                    font-weight: 700 !important;                                                                                                                                                                                                                                                  
+                    font-size: 28px !important;                                                                                                                                                                                                                                                  
+                    }  
+                    .frontpage .single_block_archived_articles .accordion span.mat-content {
+                    font-size: 24px !important;
+                    }
+                    .frontpage .section2blue.full_width_cta {
+                    background-color: inherit !important;
+                    }
+                    .frontpage .section1b {                                                                                                                                                     
+                    margin: 0 !important;                                                                                                                                                     
+                    border: none !important;                                                                                                                                                      
+                    border-radius: 0px !important;                                                                                                                                                   
+                    }
+                    .frontpage .layout__region .block_text:first-child .style3Wrapper h2 {                                                                                                                                                                                                                                                     
+                    display: block !important;                                                                                                                                                                                                                                                
+                    }
+                    .frontpage .section1b .set3Content2Wrapper p {                                                                                                                                                                                                                                                    
+                    font-family:"Source Sans Pro" !important;                                                                                                                                                                                                                                                    
+                    font-weight: 400 !important;                                                                                                                                                                                                                                               
+                    font-size: 18px !important;                                                                                                                                                                                                                                                
+                    }
+                    .frontpage .section1b .singleColWrapper h2{                                                                                                                                                                                                                                                    
+                    font-family:"Source Sans Pro" !important;                                                                                                                                                                                                                                                    
+                    font-weight: 700 !important;                                                                                                                                                                                                                                                
+                    font-size: 28px !important;                                                                                                                                                                                                                                                
+                    }
+                    .frontpage .style4Wrapper .set4ItemWrapper {
+                    margin-top: 2em !important;
+                    }                                                                                                                       
+                    .iframe-container {                                                                                                                                                                                                                                                     
+                    position: relative;                                                                                                                                                                                                                                                    
+                    width: 100%;                                                                                                                                                                                                                                                    
+                    padding-bottom: 56.2%;                                                                                                                                                                                                                                                  
+                    }                                                                                                            
+                    .iframe-container iframe {                                                                                                                                                                                
+                    position: absolute;                                                                                                                                                                                 
+                    width: 100%; height: 100%;                                                                                                                                                                                 
+                    top: 0; left: 0; right: 0; bottom: 0;
+                    border: 2px solid black !important;                                                                                                                                                                              
+                    }
+                    @media screen and (max-width: 700px){
+                    .home-container div:not(.image-middle) div.veteran-banner-div-resize {
+                        background-size: cover !important;
+                        min-height: 500px !important;
+                        /* height: 236px; */
+                        /* background-position: center !important; */
+                    }} 
+                    @media screen and (min-width: 700px){
+                    .home-container .hub-rowwrapper div.style1Wrapper div.veteran-banner-div-resize {
+                    background-size: cover;
+                    }}
+                    @media screen and (max-width: 1069px){
+                    .home-container .hub-rowwrapper {
+                        padding: 0 !important;
+                    }}
+                        /*------------------------------------------ABOUT MVP--------------------------------------------*/
+                        .page-about .container .hub-rowwrapper div.style1Wrapper div.veteran-banner-div {
+                        min-height: 300px !important;
+                        }
+                        .page-about .pwa-tagline {                                                                                                                                                                                                 
+                        display: none !important;                                                                                                                                                                                                  
+                        }
+                        .page-about .veteran-banner-text .bannerTextWrapper {
+                        margin: 0 !important;
+                        }
+                        .page-about .iframe-container iframe {                                                                                                                                                                                
+                        position: relative;                                                                                                                                                                                 
+                        width: 100%; height: 100%;                                                                                                                                                                                 
+                        top: 0; left: 0; right: 0; bottom: 0;
+                        border: 2px solid black !important;                                                                                                                                                                              
+                        }
+                        @media screen and (max-width: 767px){
+                        .page-about .container .hub-rowwrapper div.style1Wrapper div.veteran-banner-div-resize {
+                            height: 300px !important;
+                        	}
+                        }
+                        .page-about :is(#MVPMakesDiscoveries, #GroundbreakingDiscoveries, #MakeADifference) .style1Wrapper {
+                        background-color: #ddefff !important;
+                        }  
+                        .page-about :is(#MVPMakesDiscoveries, #GroundbreakingDiscoveries, #MakeADifference) .veteran-banner-text {                                                                                                                                                                                                 
+                        margin: 0 1em !important;
+                        background-color: #ddefff !important;
+                        }
+                        .page-about :is(#MVPMakesDiscoveries, #GroundbreakingDiscoveries, #MakeADifference) .style1Wrapper .veteran-banner-div {                                                                                                                                                                                                 
+                        margin: 1em !important;
+                        } 
+                        .page-about #MVPMakesDiscoveries .bannerTextButton {
+                        display: none;
+                        }
+                        .page-about #ThePowerOfHealthResearch div.style3Wrapper {                                                                                                                                                                                                 
+                        margin-top: 0 !important;
+                        }
+                        .page-about #GroundbreakingDiscoveries .bannerTextButton {
+                        display: none;
+                        }
+                        .page-about #ACommitmentToWomen div.style3Wrapper {                                                                                                                                                                                                 
+                        margin-top: 0 !important;
+                        }                                                                                                
+                        .page-about #ACommitmentToWomen h2.pwa-tagline {                                                                                                                                                                                                                                                      
+                        padding-left: 0 !important;                                                                                                                                                                                                                                                     
+                        margin:0 !important;                                                                                                                                                                                                                                                     
+                        }  
+                        .page-about #GetInvolved div.style3Wrapper {
+                        background-color: #0071BB !important;
+                        margin-top: 2em !important;
+                        } 
+                                        /*---------------------------------------Science Page Styling------------------------------------------------------*/
+                                        .page-science h1 span {
+                                         color: #323A45 !important;
+                                        }
+                                        .page-science .content h2{
+                                        color: #323A45 !important;
+                                        }
+                                        .page-science .content .veteran-banner-text h3 {
+                                        color: #323A45 !important;
+                                        }
+                                        .page-science .content .veteran-banner-text .bannerTextWrapper p{
+                                        color: #323A45 !important;
+                                        }
+                                        .page-science .content .veteran-banner-text li {
+                                        color: #323A45 !important;
+                                        }
+                                        .page-science .content .style1Wrapper .section1b .description h3 {
+                                        color: #323A45 !important;
+                                        }
+                                        .page-science .content .style1Wrapper .section1b .description p {
+                                        color: #323A45 !important;
+                                        }
+                                        /* ------------------Insider Page-----------------------------*/
+                                        .page-insider .block_cta_image.insider-first div.style1Wrapper div.veteran-banner-div-resize {
+                                        max-height: 610px
+                                        }
+                                        /*-------------------------------Consent Thank you---------------------------------*/
+                                        .page-thank-you .container .buttons-wrapper a.continue-to-dashboard, .page-document-unavailable .container .buttons-wrapper a.continue-to-dashboard {
+                                            line-height: 3;
+                                        }
+                                        /*-------------------------------Join MVP page------------------------------*/
+                                        .page-joinmvp .section2blueinner h2.pwa-subtitle{
+                                        text-align: left !important;
+                                        margin-left: 2em !important;
+                                        color: green !important;
+                                        display: none !important;
+                                        }
+                                        .page-joinmvp #block-pagetitle h1 span{
+                                        color: red !important;
+                                        display: none !important;
+                                        }
+                                        .page-joinmvp div #block-pagetitle {
+                                        display:none;
+                                        }
+                                        .container .hub-rowwrapper div.style1Wrapper div.veteran-banner-div-resize {
+                                            background-size: 500px;
+                                            margin-top: 2em !important;
+                                        }
+                                        .page-joinmvp .container .hub-rowwrapper div.style4Wrapper {
+                                            margin-top: 0;
+                                        }
+                                        .page-joinmvp .container .hub-rowwrapper div.style3Wrapper {
+                                            margin-top: 0;
+                                        }
+                                        .page-joinmvp .section2blueinner .set2Content2 h2 {
+                                            margin: 0em 0em 0em 1em !important;
+                                        }
+                                        .page-joinmvp .content .style1Wrapper .veteran-banner-text .bannerTextWrapper h1 {
+                                            padding-top: 1em;
+                                            margin: 0;
+                                            padding-bottom: 1em;
+                                            font-weight: 900;
+                                        }
+                                        .page-joinmvp .content .style1Wrapper .veteran-banner-text h2.pwa-tagline {
+                                        display: none !important;
+                                        }
+                                        .page-joinmvp .container .hub-rowwrapper .bannerTextButton {
+                                        text-align: left !important;
+                                        }
+                                        .page-joinmvp.contentWrapperva .pwa-list ol li {
+                                            border-bottom: none;
+                                        }
+                                        .va-h-ruled--stars {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            background: url(https://design.va.gov/storybook/static/media/stars.954f834f.7f751b3b.png) no-repeat 50%;
+                                            background-size: 11rem auto;
+                                            margin: 1.6rem auto auto;
+                                            padding: 2rem 0 0;
+                                            text-align: center;
+                                            height:1em;
+                                        }
+                                        .va-h-ruled--stars:after, .va-h-ruled--stars:before {
+                                            border-top: 1px solid #aeb0b5;
+                                            content: " ";
+                                            flex: 1 1 50%;
+                                            padding: 1rem 0;
+                                        }
+                                        .va-h-ruled--stars:before {
+                                            margin-right: 12rem;
+                                        }
+                                        *, :after, :before {
+                                            box-sizing: inherit;
+                                        }
+                                        .page-joinmvp .container .block_4_col_cta.variation- .multiColWrapper .cardTextDiv img {
+                                            width: auto !important;
+                                            max-width: 235px !important;
+                                            height: 100px !important;
+                                        }
+                                        .page-joinmvp .container .section1b {
+                                            padding: 1em;
+                                        	margin-top: 1em !important;
+                                        }
+                                        ------------Unsubscribe page---------------------
+                                        .page-unsubscribe div #block-pagetitle {display:none;}
+                                        .page-unsubscribe #block-pagetitle h1{display:none;}
+                                            /*----Spread the word-----*/
+                                            .page-spreadtheword .content .App div.react-search-field.search-field {
+                                                display: none !important;}
+                                            /*----Researcher FAQs-----*/
+                                            .page-researcher-FAQ .container .hub-rowwrapper div.style3Wrapper div.veteran-banner-text .bannerTextWrapper {
+                                                 margin: 1em 0em !important;}
+                                            .page-researcher-FAQ .content .style3Wrapper .veteran-banner-text h2.pwa-tagline {display: none !important;}
+                                            .description-faq {display: none !important;}
+                /*----------Hide Login Button ------*/
+                    /*   #login-pwa {visibility: hidden;}  	*/
+                                        </style></p>
+</div>
+  </div>
+
+        <div class="footerSpacer">&nbsp;</div>
+      </div>
+    </div>
+  </div>
+  <div class="footerWrapper footerWrapper2" id="footerWrapperLargeDiv">
+    <div class="footer-inner">
+      <div
+        class="usa-grid-full flex-container usa-grid-flex-mobile va-footer-content desktopFooter"
+      >
+        <div class="va-footer-linkgroup">
+          <h2 class="va-footer-linkgroup-title">
+            Veteran programs and services
+          </h2>
+
+          <div class="topnav">
+            
+
+        <ul class="va-footer-links">
+            <li>
+        <a href="https://www.va.gov/homeless/" target="_blank">Homeless Veterans</a>
+              </li>
+            <li>
+        <a href="https://www.va.gov/womenvet/" target="_blank">Women Veterans</a>
+              </li>
+            <li>
+        <a href="https://www.va.gov/centerforminorityveterans/" target="_blank">Minority Veterans</a>
+              </li>
+            <li>
+        <a href="https://www.ptsd.va.gov/" target="_blank">PTSD</a>
+              </li>
+            <li>
+        <a href="https://www.mentalhealth.va.gov/" target="_blank">Mental health</a>
+              </li>
+            <li>
+        <a href="https://www.nrd.gov/" target="_blank">National Resource Directory</a>
+              </li>
+          </ul>
+  
+
+
+          </div>
+        </div>
+        <div class="va-footer-linkgroup">
+          <h2 class="va-footer-linkgroup-title">More VA resources</h2>
+          <div class="topnav">
+            
+
+        <ul class="va-footer-links">
+            <li>
+        <a href="https://www.va.gov/vaforms/" target="_blank">Find a VA form</a>
+              </li>
+            <li>
+        <a href="https://www.mobile.va.gov/appstore/" target="_blank">Get VA mobile apps</a>
+              </li>
+            <li>
+        <a href="https://vacareers.va.gov/" target="_blank">Careers at VA</a>
+              </li>
+            <li>
+        <a href="https://www.va.gov/landing2_business.htm" target="_blank">Doing business with VA</a>
+              </li>
+            <li>
+        <a href="https://www.va.gov/welcome-kit/" target="_blank">Print your VA welcome kit</a>
+              </li>
+          </ul>
+  
+
+
+          </div>
+        </div>
+        <div class="va-footer-linkgroup">
+          <h2 class="va-footer-linkgroup-title">Get VA updates</h2>
+          <div class="topnav">
+            
+
+        <ul class="va-footer-links">
+            <li>
+        <a href="https://www.blogs.va.gov/VAntage/" target="_blank">VAntage Point blog</a>
+              </li>
+            <li>
+        <a href="https://public.govdelivery.com/accounts/USVA/subscriber/new/" target="_blank">Email updates</a>
+              </li>
+            <li>
+        <a href="https://www.facebook.com/VeteransAffairs" target="_blank">Facebook</a>
+              </li>
+            <li>
+        <a href="https://www.instagram.com/deptvetaffairs/" target="_blank">Instagram</a>
+              </li>
+            <li>
+        <a href="https://www.twitter.com/DeptVetAffairs/" target="_blank">Twitter</a>
+              </li>
+            <li>
+        <a href="https://www.youtube.com/user/DeptVetAffairs" target="_blank">YouTube</a>
+              </li>
+            <li>
+        <a href="https://www.va.gov/opa/socialmedia.asp" target="_blank">All VA social media</a>
+              </li>
+          </ul>
+  
+
+
+          </div>
+        </div>
+        <div class="va-footer-linkgroup">
+          <h2 class="va-footer-linkgroup-title">In crisis? Get help now</h2>
+          <div class="topnav">
+            
+
+        <ul class="va-footer-links">
+            <li>
+        <a href="https://www.veteranscrisisline.net/" target="_blank">Veterans Crisis Line</a>
+              </li>
+          </ul>
+  
+
+
+          </div>
+          <div class="va-footer-linkgroup">
+            <h2 class="va-footer-linkgroup-title">Contact VA</h2>
+            <div class="topnav">
+              
+
+        <ul class="va-footer-links">
+            <li>
+        <a href="https://www.va.gov/find-locations/" target="_blank">Find a VA location</a>
+              </li>
+            <li>
+        <a href="https://www.va.gov/contact-us/" target="_blank">Ask a question</a>
+              </li>
+          </ul>
+  
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="usa-grid-full flex-container usa-grid-flex-mobile va-footer-content mobileFooter"
+      >
+        <div class="va-footer-linkgroup">
+          <button
+            class="usa-accordion-button mobilemenu va-footer-button"
+            aria-controls="dd1"
+            aria-expanded="false"
+          >
+            Veteran programs and services
+          </button>
+          <div class="topnav" id="dd1">
+            
+
+        <ul class="va-footer-links">
+            <li>
+        <a href="https://www.va.gov/homeless/" target="_blank">Homeless Veterans</a>
+              </li>
+            <li>
+        <a href="https://www.va.gov/womenvet/" target="_blank">Women Veterans</a>
+              </li>
+            <li>
+        <a href="https://www.va.gov/centerforminorityveterans/" target="_blank">Minority Veterans</a>
+              </li>
+            <li>
+        <a href="https://www.ptsd.va.gov/" target="_blank">PTSD</a>
+              </li>
+            <li>
+        <a href="https://www.mentalhealth.va.gov/" target="_blank">Mental health</a>
+              </li>
+            <li>
+        <a href="https://www.nrd.gov/" target="_blank">National Resource Directory</a>
+              </li>
+          </ul>
+  
+
+
+          </div>
+        </div>
+        <div class="va-footer-linkgroup">
+          <button
+            class="usa-accordion-button mobilemenu va-footer-button"
+            aria-controls="dd2"
+            aria-expanded="false"
+          >
+            More VA resources
+          </button>
+          <div class="topnav" id="dd2">
+            
+
+        <ul class="va-footer-links">
+            <li>
+        <a href="https://www.va.gov/vaforms/" target="_blank">Find a VA form</a>
+              </li>
+            <li>
+        <a href="https://www.mobile.va.gov/appstore/" target="_blank">Get VA mobile apps</a>
+              </li>
+            <li>
+        <a href="https://vacareers.va.gov/" target="_blank">Careers at VA</a>
+              </li>
+            <li>
+        <a href="https://www.va.gov/landing2_business.htm" target="_blank">Doing business with VA</a>
+              </li>
+            <li>
+        <a href="https://www.va.gov/welcome-kit/" target="_blank">Print your VA welcome kit</a>
+              </li>
+          </ul>
+  
+
+
+          </div>
+        </div>
+        <div class="va-footer-linkgroup">
+          <button
+            class="usa-accordion-button mobilemenu va-footer-button"
+            aria-controls="dd3"
+            aria-expanded="false"
+          >
+            Get VA updates
+          </button>
+          <div class="topnav" id="dd3">
+            
+
+        <ul class="va-footer-links">
+            <li>
+        <a href="https://www.blogs.va.gov/VAntage/" target="_blank">VAntage Point blog</a>
+              </li>
+            <li>
+        <a href="https://public.govdelivery.com/accounts/USVA/subscriber/new/" target="_blank">Email updates</a>
+              </li>
+            <li>
+        <a href="https://www.facebook.com/VeteransAffairs" target="_blank">Facebook</a>
+              </li>
+            <li>
+        <a href="https://www.instagram.com/deptvetaffairs/" target="_blank">Instagram</a>
+              </li>
+            <li>
+        <a href="https://www.twitter.com/DeptVetAffairs/" target="_blank">Twitter</a>
+              </li>
+            <li>
+        <a href="https://www.youtube.com/user/DeptVetAffairs" target="_blank">YouTube</a>
+              </li>
+            <li>
+        <a href="https://www.va.gov/opa/socialmedia.asp" target="_blank">All VA social media</a>
+              </li>
+          </ul>
+  
+
+
+          </div>
+        </div>
+        <div class="va-footer-linkgroup">
+          <button
+            class="usa-accordion-button mobilemenu va-footer-button"
+            aria-controls="dd4"
+            aria-expanded="false"
+          >
+            Contact VA
+          </button>
+          <div class="topnav" id="dd4">
+            
+
+        <ul class="va-footer-links">
+            <li>
+        <a href="https://www.va.gov/find-locations/" target="_blank">Find a VA location</a>
+              </li>
+            <li>
+        <a href="https://www.va.gov/contact-us/" target="_blank">Ask a question</a>
+              </li>
+          </ul>
+  
+
+
+          </div>
+        </div>
+      </div>
+      <div class="usa-grid usa-grid-full footer-banner">
+        <a
+          href="https://www.va.gov/"
+          rel="noreferrer"
+          class="va-footer-logo"
+          title="Go to VA.gov"
+          target="_blank"
+        >
+          <img src=" /pwa/sites/default/files/mvp_bottom_footer_0_0.png" alt="VA logo" />
+        </a>
+      </div>
+      <div class="usa-grid usa-grid-full va-footer-links-bottom">
+        <ul>
+          
+
+            <li>
+        <a href="https://www.section508.va.gov/" target="_blank">Accessibility</a>
+              </li>
+          <li>
+        <a href="https://www.va.gov/oig/" target="_blank">Office of Inspector General</a>
+              </li>
+          <li>
+        <a href="https://www.va.gov/opa/Plain_Language.asp" target="_blank">Plain language</a>
+              </li>
+          <li>
+        <a href="https://www.oprm.va.gov/privacy/" target="_blank">Privacy, policies, and legal information</a>
+              </li>
+      
+
+
+        </ul>
+        <div>
+          MVPO v5.0.22 09/08/2026
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>  <div id="exit-wrapper-div" class="exit-wrapper">
+  <div class="exit-block" aria-modal="true" tabindex="0" role="dialog" aria-labelledby="dialog-title">
+    <img alt="Exit" class="cover" aria-hidden="true"
+         src="/pwa/themes/custom/mvp/images/source/assets/images/icon-error-big.png"/>
+    <div class="dialog-inner clearfix">
+      <h2 id="dialog-title">
+                Are you sure you want to exit the survey?
+              </h2>
+              <p>Warning! You are about to exit this survey. Your place in the survey and any data you have provided will not be saved. To submit your survey, please continue to the last question. You may sign in to return to your dashboard at any time if you wish to take the survey later.<br />
+<br />
+Click “Exit survey” to leave or “Continue survey” to finish the survey and submit your answers.</p>
+
+            <div class="pwa-flush-right">
+        <button class="pwa-button-white__exit" id="exit-button">
+                    Exit survey
+                  </button>
+        <button class="pwa-button-blue">
+                    Continue survey
+                  </button>
+        <div class="clearfix"></div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</div>
+</main>
+
+  </div>
+
+    
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'G-9TYPPSWFWF', 'auto');
+    </script>
+    <!-- End Google Analytics -->
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/pwa\/","pathPrefix":"","currentPath":"node\/241","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJxdikEOQiEMBS-EnyOR0v_ERqCGFgyeXqM7N5PJZIhdlrjAknRHGeSiPQ6cMsCeeIAc6aqjhTxjnhc2-9nBN_AdI7AOxP45qMoLoaiWikSd6nZhi_8hVNo6PZ1irAtjR-1graGtRyxVM9Vg2xwtZjKEJXha_PJoes6KN5pER3g","theme":"mvp","theme_token":null},"ajaxTrustedUrl":[],"bu":{"_core":{"default_config_hash":"hHRgRa8uaUJPBEvzD2uaerY4Z9xdbV4glRDRNp8euEE"},"notify_ie":10,"notify_firefox":-6,"notify_opera":-4,"notify_safari":10,"notify_chrome":-6,"insecure":false,"unsupported":false,"mobile":false,"visibility_type":"hide","visibility_pages":"admin\/*","source":"\/\/browser-update.org\/update.min.js","show_source":"","position":"top","text_override":"","reminder":null,"reminder_closed":null,"new_window":true,"url":"","no_close":false,"test_mode":false,"bu_never_show":1,"samsung":0,"bu_msg":"Google Chrome"},"clientside_validation_jquery":{"validate_all_ajax_forms":2,"force_validate_on_blur":false,"force_html5_validation":false,"messages":{"required":"This field is required.","remote":"Please fix this field.","email":"Please enter a valid email address.","url":"Please enter a valid URL.","date":"Please enter a valid date.","dateISO":"Please enter a valid date (ISO).","number":"Please enter a valid number.","digits":"Please enter only digits.","equalTo":"Please enter the same value again.","maxlength":"Please enter no more than {0} characters.","minlength":"Please enter at least {0} characters.","rangelength":"Please enter a value between {0} and {1} characters long.","range":"Please enter a value between {0} and {1}.","max":"Please enter a value less than or equal to {0}.","min":"Please enter a value greater than or equal to {0}.","step":"Please enter a multiple of {0}."}},"google_analytics":{"account":"G-9TYPPSWFWF","trackOutbound":true,"trackMailto":true,"trackTel":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"mvp_baseline":{"brthdtMax":1900,"brthdtMin":18,"oldestFatherAge":1840,"oldestMotherAge":1840,"minimumFatherAge":30,"minimumMotherAge":30},"user":{"uid":0,"permissionsHash":"dd88e78d7c1df928f4df8043d7a4c2494a9f0344c5e4100a79f4f41baec4238e"}}</script>
+<script src="/pwa/core/assets/vendor/jquery/jquery.min.js?v=3.7.1"></script>
+<script src="/pwa/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/pwa/core/misc/drupalSettingsLoader.js?v=10.6.14"></script>
+<script src="/pwa/core/misc/drupal.js?v=10.6.14"></script>
+<script src="/pwa/core/misc/drupal.init.js?v=10.6.14"></script>
+<script src="/pwa/core/assets/vendor/jquery.ui/ui/widget-min.js?v=10.6.14"></script>
+<script src="/pwa/core/assets/vendor/jquery.ui/ui/version-min.js?v=10.6.14"></script>
+<script src="/pwa/core/assets/vendor/jquery.ui/ui/data-min.js?v=10.6.14"></script>
+<script src="/pwa/core/assets/vendor/jquery.ui/ui/disable-selection-min.js?v=10.6.14"></script>
+<script src="/pwa/core/assets/vendor/jquery.ui/ui/jquery-patch-min.js?v=10.6.14"></script>
+<script src="/pwa/core/assets/vendor/jquery.ui/ui/scroll-parent-min.js?v=10.6.14"></script>
+<script src="/pwa/core/assets/vendor/jquery.ui/ui/unique-id-min.js?v=10.6.14"></script>
+<script src="/pwa/core/assets/vendor/jquery.ui/ui/focusable-min.js?v=10.6.14"></script>
+<script src="/pwa/core/assets/vendor/jquery.ui/ui/keycode-min.js?v=10.6.14"></script>
+<script src="/pwa/core/assets/vendor/jquery.ui/ui/plugin-min.js?v=10.6.14"></script>
+<script src="/pwa/core/assets/vendor/jquery.ui/ui/labels-min.js?v=10.6.14"></script>
+<script src="/pwa/core/assets/vendor/jquery.ui/ui/widgets/controlgroup-min.js?v=10.6.14"></script>
+<script src="/pwa/core/assets/vendor/jquery.ui/ui/form-reset-mixin-min.js?v=10.6.14"></script>
+<script src="/pwa/core/assets/vendor/jquery.ui/ui/widgets/mouse-min.js?v=10.6.14"></script>
+<script src="/pwa/core/assets/vendor/jquery.ui/ui/widgets/checkboxradio-min.js?v=10.6.14"></script>
+<script src="/pwa/core/assets/vendor/jquery.ui/ui/widgets/draggable-min.js?v=10.6.14"></script>
+<script src="/pwa/core/assets/vendor/jquery.ui/ui/widgets/resizable-min.js?v=10.6.14"></script>
+<script src="/pwa/core/assets/vendor/jquery.ui/ui/widgets/button-min.js?v=10.6.14"></script>
+<script src="/pwa/core/assets/vendor/jquery.ui/ui/widgets/dialog-min.js?v=10.6.14"></script>
+<script src="/pwa/core/assets/vendor/tabbable/index.umd.min.js?v=6.3.0"></script>
+<script src="/pwa/core/assets/vendor/tua-body-scroll-lock/tua-bsl.umd.min.js?v=10.6.14"></script>
+<script src="/pwa/modules/contrib/bu/js/bu.js?v=1"></script>
+<script src="/pwa/modules/contrib/google_analytics/js/google_analytics.js?v=10.6.14"></script>
+<script src="/pwa/core/misc/progress.js?v=10.6.14"></script>
+<script src="/pwa/core/assets/vendor/loadjs/loadjs.min.js?v=4.3.0"></script>
+<script src="/pwa/core/misc/debounce.js?v=10.6.14"></script>
+<script src="/pwa/core/misc/announce.js?v=10.6.14"></script>
+<script src="/pwa/core/misc/message.js?v=10.6.14"></script>
+<script src="/pwa/core/misc/ajax.js?v=10.6.14"></script>
+<script src="/pwa/core/misc/displace.js?v=10.6.14"></script>
+<script src="/pwa/core/misc/jquery.tabbable.shim.js?v=10.6.14"></script>
+<script src="/pwa/core/misc/position.js?v=10.6.14"></script>
+<script src="/pwa/core/misc/dialog/dialog-deprecation.js?v=10.6.14"></script>
+<script src="/pwa/core/misc/dialog/dialog.js?v=10.6.14"></script>
+<script src="/pwa/core/misc/dialog/dialog.position.js?v=10.6.14"></script>
+<script src="/pwa/core/misc/dialog/dialog.jquery-ui.js?v=10.6.14"></script>
+<script src="/pwa/core/modules/ckeditor5/js/ckeditor5.dialog.fix.js?v=10.6.14"></script>
+<script src="/pwa/themes/custom/mvp/js/modernizr.js?v=1.x"></script>
+<script src="/pwa/themes/custom/mvp/js/build/scripts.js?v=1.x"></script>
+<script src="/pwa/themes/custom/mvp/js/popup.js?v=1.x"></script>
+
+            <script>
+      // 508 keboard accessibility
+      var buttons = document.querySelectorAll('[role="button"], [role="menuitem"]');
+      buttons.forEach(function(button) {
+        button.addEventListener('keydown', function(evt) {
+          if(evt.keyCode == 13 || evt.keyCode == 32) {
+            button.click();
+          }
+        });
+      });
+      document.addEventListener('click', function(){
+        parent.jQuery('body').trigger('click');
+      });
+    </script>
+  </body>
+</html>

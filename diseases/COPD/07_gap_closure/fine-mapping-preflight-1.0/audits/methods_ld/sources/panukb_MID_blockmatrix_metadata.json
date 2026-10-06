@@ -1,0 +1,36 @@
+{
+  "LD_matrix_values_requested": false,
+  "completed_utc": "2026-10-06T20:34:18.372037+00:00",
+  "final_url": "https://pan-ukb-us-east-1.s3.amazonaws.com/ld_release/UKBB.MID.ldadj.bm/metadata.json",
+  "http_status": 200,
+  "interpretation": "Exact returned bytes only; HTTP success does not establish semantic usability, schema correctness, locus coverage or fine-mapping eligibility.",
+  "maximum_response_bytes": 4000000,
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0 (public metadata audit)"
+  },
+  "request_method": "GET",
+  "requested_url": "https://pan-ukb-us-east-1.s3.amazonaws.com/ld_release/UKBB.MID.ldadj.bm/metadata.json",
+  "response_headers": {
+    "Accept-Ranges": "bytes",
+    "Connection": "close",
+    "Content-Length": "3117083",
+    "Content-Type": "application/octet-stream",
+    "Date": "Tue, 06 Oct 2026 20:34:19 GMT",
+    "ETag": "\"b78760ec494f2f145f66ab756563ac70\"",
+    "Last-Modified": "Fri, 23 Oct 2020 18:34:28 GMT",
+    "Server": "AmazonS3",
+    "x-amz-id-2": "pPjJ6w45ofPwtxFvjHeoYX9ExwnmAZGzlhz49nlWJPClHaXKsBnup1ZuVfLyhgoL3n9j5wMOBzs=",
+    "x-amz-request-id": "EB7PCP73X6K1QW9A",
+    "x-amz-storage-class": "INTELLIGENT_TIERING",
+    "x-amz-version-id": "vYUcvMbWQlyBqP9kC8hGRrfg3FR2gTqL"
+  },
+  "saved_bytes": 3117083,
+  "saved_path": "audits/methods_ld/sources/panukb_MID_blockmatrix_metadata.body",
+  "saved_sha256": "57c3d7ffcaf465fb6ba62db18bb834cc6ab72b151a9eced5b9126b63459a0d79",
+  "source_id": "panukb_MID_blockmatrix_metadata",
+  "started_utc": "2026-10-06T20:34:17.964358+00:00",
+  "status": "HTTP_SUCCESS",
+  "truncated": false,
+  "wall_seconds": 0.40767875500023365
+}

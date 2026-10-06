@@ -1,0 +1,36 @@
+# Study meta-data
+gwas_id: GCST90018587
+author_notes: Sakaue S, Kanai M, et al. A global atlas of genetic associations of
+  220 deep phenotypes. medRxiv (2020) https://doi.org/10.1101/2020.10.23.20213652
+  [In Press in Nature Genetics]
+gwas_catalog_api: https://www.ebi.ac.uk/gwas/rest/api/studies/GCST90018587
+date_metadata_last_modified: 2025-01-14
+
+# Trait Information
+trait_description:
+  - Chronic obstructive pulmonary disease
+ontology_mapping:
+  - ''
+
+# Genotyping Information
+genome_assembly: GRCh37
+genotyping_technology:
+  - Genome-wide genotyping array
+
+# Sample Information
+samples:
+  - sample_ancestry_category:
+      - East Asian
+    sample_size: 166670
+  - sample_ancestry_category:
+      - East Asian
+    sample_size: 166670
+
+# Summary Statistic information
+data_file_name: GCST90018587_buildGRCh37.tsv.gz
+file_type: pre-GWAS-SSF
+data_file_md5sum: 83a98d7f3a40dc9e62977eaa58c412ee
+
+# Harmonization status
+is_harmonised: false
+is_sorted: false

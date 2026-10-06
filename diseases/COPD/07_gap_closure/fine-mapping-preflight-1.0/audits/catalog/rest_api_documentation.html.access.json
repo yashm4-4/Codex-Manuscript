@@ -1,0 +1,22 @@
+{
+  "requested_url": "https://www.ebi.ac.uk/gwas/docs/programmatic-access/rest-api/",
+  "accessed_utc": "2026-10-06T20:34:54.345582+00:00",
+  "method": "GET",
+  "anonymous": true,
+  "read_limit_bytes": 262144,
+  "requested_range": null,
+  "status": 200,
+  "final_url": "https://www.ebi.ac.uk/gwas/docs/programmatic-access/rest-api/",
+  "response_headers": {
+    "content-type": "text/html; charset=utf-8",
+    "accept-ranges": "bytes",
+    "etag": "\"6f0eb13558a9a4b26efc3fa87cd6e17aec40743f5b4be59e47d24fc206a28404\"",
+    "last-modified": "Tue, 06 Oct 2026 14:55:12 GMT",
+    "content-length": "28557"
+  },
+  "downloaded_bytes": 28557,
+  "saved_path": "diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/audits/catalog/rest_api_documentation.html",
+  "sha256": "4cb6020e3c6ad78eb1d1dce22e1f9ffd39fa2c8d051942c0a4004115267afe88",
+  "bounded_read": false,
+  "hash_scope": "saved response bytes only; range/prefix is not a whole-file checksum"
+}

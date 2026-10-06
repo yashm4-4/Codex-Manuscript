@@ -1,0 +1,40 @@
+{
+  "LD_matrix_values_requested": false,
+  "completed_utc": "2026-10-06T20:45:06.242601+00:00",
+  "final_url": "https://www.medrxiv.org/content/10.1101/2021.09.03.21262975v1.full.pdf",
+  "http_status": 403,
+  "interpretation": "Exact returned bytes only; HTTP success does not establish semantic usability, schema correctness, locus coverage or fine-mapping eligibility.",
+  "maximum_response_bytes": 4000000,
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0 (public metadata audit)"
+  },
+  "request_method": "GET",
+  "requested_url": "https://www.medrxiv.org/content/10.1101/2021.09.03.21262975v1.full.pdf",
+  "response_headers": {
+    "CF-RAY": "a4678201fdb8d631-IAD",
+    "Cache-Control": "no-store, no-cache, must-revalidate, private",
+    "Connection": "close",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Date": "Tue, 06 Oct 2026 20:45:06 GMT",
+    "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+    "Pragma": "no-cache",
+    "Referrer-Policy": "same-origin",
+    "Server": "cloudflare",
+    "Speculation-Rules": "\"/cdn-cgi/speculation\"",
+    "Strict-Transport-Security": "max-age=31536000; preload",
+    "Transfer-Encoding": "chunked",
+    "Vary": "accept-encoding",
+    "X-Frame-Options": "SAMEORIGIN",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "set-cookie": "__cf_bm=j1nnLZ9qNEOOXekLE83v0z6blxuy7NBfmAt7rOsknug-1791319506.233552-1.0.1.1-oV9hfmDAjHwwkt0.bN6bb0V4.4mz9tVgWX_2a3Ye4YA2Jl0xCFbyWRiFDaq45JvNJccuZUywPPEfaykZoZtPk5P_dh0M6u52g3eLmRqm.i_eTLBmZquGbiOzhk9O5Ogn; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.medrxiv.org; Expires=Tue, 06 Oct 2026 21:15:06 GMT"
+  },
+  "saved_bytes": 4549,
+  "saved_path": "audits/methods_ld/sources/bbj_finemapping_methods_pdf.body",
+  "saved_sha256": "0424b92e16dc297d76d96c9121d5f5e9157de0d37c9722ed1f887a345665c5c2",
+  "source_id": "bbj_finemapping_methods_pdf",
+  "started_utc": "2026-10-06T20:45:06.136001+00:00",
+  "status": "HTTP_ERROR",
+  "truncated": false,
+  "wall_seconds": 0.10659298801328987
+}

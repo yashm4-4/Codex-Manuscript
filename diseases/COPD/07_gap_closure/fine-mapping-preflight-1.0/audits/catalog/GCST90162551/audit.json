@@ -1,0 +1,95 @@
+{
+  "accession": "GCST90162551",
+  "phenotype_class_frozen": "direct_copd_susceptibility",
+  "publication_pmid": "35953715",
+  "file_inventory": [],
+  "headers": [],
+  "metadata_files": [],
+  "catalog_api_access": {
+    "requested_url": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST90162551",
+    "accessed_utc": "2026-10-06T20:35:13.461234+00:00",
+    "method": "GET",
+    "anonymous": true,
+    "read_limit_bytes": 262144,
+    "requested_range": null,
+    "status": 200,
+    "final_url": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST90162551",
+    "response_headers": {
+      "content-type": "application/json"
+    },
+    "downloaded_bytes": 1115,
+    "saved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/audits/catalog/GCST90162551/study.json",
+    "sha256": "658339d19b71dd89f9c370c2c9bc18a3acac567303b6d0f23bd3e3b29a916da9",
+    "bounded_read": false,
+    "hash_scope": "saved response bytes only; range/prefix is not a whole-file checksum"
+  },
+  "current_catalog_metadata": {
+    "initial_sample_size": "4,500 European ancestry cases, 4,436 European ancestry controls, 813 African American cases, 712 African American controls",
+    "replication_sample_size": "NA",
+    "gxe": false,
+    "gxg": false,
+    "imputed": true,
+    "pooled": false,
+    "accession_id": "GCST90162551",
+    "full_summary_stats_available": false,
+    "pubmed_id": 35953715,
+    "platforms": "Illumina [NR] (imputed)",
+    "disease_trait": "Chronic obstructive pulmonary disease",
+    "genotyping_technologies": [
+      "Genome-wide sequencing",
+      "Genome-wide genotyping array"
+    ],
+    "efo_traits": [
+      {
+        "efo_id": "MONDO_0005002",
+        "efo_trait": "chronic obstructive pulmonary disease"
+      }
+    ],
+    "discovery_ancestry": [
+      "1525 African American or Afro-Caribbean (U.S.)",
+      "8936 European (U.S.)"
+    ],
+    "replication_ancestry": [],
+    "full_summary_stats": "NA",
+    "terms_of_license": "https://www.ebi.ac.uk/about/terms-of-use/",
+    "bg_efo_traits": [],
+    "cohort": [
+      "COGEND",
+      "COPDGene",
+      "ECLIPSE"
+    ],
+    "array_manufacturer": [
+      "Illumina"
+    ],
+    "_links": {
+      "self": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST90162551"
+      },
+      "ancestries": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST90162551/ancestries{?sort,direction}",
+        "templated": true
+      }
+    }
+  },
+  "directory_location_basis": "standard accession directory probe, not proof of release",
+  "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90162001-GCST90163000/GCST90162551/",
+  "directory_access": {
+    "requested_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90162001-GCST90163000/GCST90162551/",
+    "accessed_utc": "2026-10-06T20:35:13.907829+00:00",
+    "method": "GET",
+    "anonymous": true,
+    "read_limit_bytes": 262144,
+    "requested_range": null,
+    "status": 404,
+    "final_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90162001-GCST90163000/GCST90162551/",
+    "response_headers": {
+      "content-length": "196",
+      "content-type": "text/html; charset=iso-8859-1"
+    },
+    "downloaded_bytes": 196,
+    "saved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/audits/catalog/GCST90162551/directory.html",
+    "sha256": "80c3fe2ae1062abf56456f52518bd670f9ec3917b7f85e152b347ac6b6faf880",
+    "bounded_read": false,
+    "hash_scope": "saved response bytes only; range/prefix is not a whole-file checksum"
+  }
+}

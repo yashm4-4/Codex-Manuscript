@@ -1,0 +1,58 @@
+{
+  "stage": "fine-mapping-preflight-1.0",
+  "frozen_utc": "2026-10-06T20:59:39.298456+00:00",
+  "status": "FROZEN_PREFLIGHT_STOP_FOR_INVESTIGATOR_REVIEW",
+  "baseline_commit": "1f41df67dcf18d626a3862a38877919d2d3114a4",
+  "payload_files_bound_by_ledger": 1794,
+  "payload_bytes_bound_by_ledger": 72027800,
+  "total_stage_payload_files_including_ledger_and_freeze": 1796,
+  "artifact_checksums_path": "provenance/artifact_checksums.tsv",
+  "artifact_checksums_sha256": "fee69968c8e7eba91ca14bcd316b8cbefa10c8e5a865dd917871cd825eef1e0a",
+  "checksum_closure": "All stage payload files bound by artifact_checksums.tsv except ledger and freeze itself; freeze binds ledger. External shared registers bound separately.",
+  "excluded_ephemeral_files": "Interpreter __pycache__ directories and .pyc files only; no acquired source or scientific artifact excluded.",
+  "independent_validation_path": "provenance/independent_validation.json",
+  "independent_validation_sha256": "55bb13818af3781ed8d95d4acac69cedcaecf5962657e134d18fe128fad828f1",
+  "independent_validation_checks": 4815,
+  "independent_validation_status": "PASS",
+  "shared_registers": [
+    {
+      "path": "diseases/COPD/07_gap_closure/activity_log.tsv",
+      "before_bytes": 24814,
+      "before_sha256": "ca38919a901da5a0e270d6cd4c86d441d9bb5df58c670a9cf61ed7482480a078",
+      "bytes": 28116,
+      "sha256": "5b2a0e9a7e7ceb94472c8858f61d307a49b70a36cfd26426b47ecf1bd3206826",
+      "appended_bytes": 3302,
+      "appended_rows": 6,
+      "append_only": true
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/gap_closure_decision_register.tsv",
+      "before_bytes": 21779,
+      "before_sha256": "b24cead3f232e12ec756cdd40c28888e792650f644c8b4da42325f36dc30a097",
+      "bytes": 24887,
+      "sha256": "fc86ebb6c5faf6d8ab8514cd57c9afb274d7ff28f81e233cf2d64eafcbabd73c",
+      "appended_bytes": 3108,
+      "appended_rows": 6,
+      "append_only": true
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/gap_closure_result_register.tsv",
+      "before_bytes": 33052,
+      "before_sha256": "32abff375c4729810cc079ec898ab3e7339d6a089f8d7332d7a28b5d56581b83",
+      "bytes": 36386,
+      "sha256": "160fa0ab5de91ec9a0f1260656efc0eb6e317678454d86e6bc77fb9de8aea721",
+      "appended_bytes": 3334,
+      "appended_rows": 8,
+      "append_only": true
+    }
+  ],
+  "historical_preservation_scope": "Baseline Git tree and current tracked content comparison, explicit frozen-input SHA256 and original-register prefix verification; no historical scientific data parsed.",
+  "source_receipts": 802,
+  "saved_source_bytes": 64623735,
+  "fine_mapping_executed": false,
+  "model_or_candidate_scoring_executed": false,
+  "external_benchmark_evaluation_executed": false,
+  "manuscript_revised": false,
+  "commit_or_push_performed": false,
+  "future_execution_authorized": false
+}

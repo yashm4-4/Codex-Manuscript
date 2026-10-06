@@ -1,0 +1,53 @@
+{
+  "accessed_utc": "2026-10-06T20:41:29.393791+00:00",
+  "command": [
+    "diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/scripts/alternatives_fetch.py",
+    "--url",
+    "https://zenodo.org/api/records/14284047/files/conditions.txt/content",
+    "--label",
+    "gemini_conditions",
+    "--max-bytes",
+    "65536"
+  ],
+  "http_status": 200,
+  "maximum_bytes_requested_or_retained": 65536,
+  "purpose": "public source metadata or bounded schema sample; no fine-mapping",
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0"
+  },
+  "requested_url": "https://zenodo.org/api/records/14284047/files/conditions.txt/content",
+  "response_EOF_before_byte_limit": true,
+  "response_headers": {
+    "accept-ranges": "bytes",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Content-Type, ETag, Link, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset",
+    "connection": "close",
+    "content-disposition": "inline",
+    "content-length": "8341",
+    "content-security-policy": "default-src 'self' fonts.googleapis.com *.gstatic.com data: 'unsafe-inline' 'unsafe-eval' blob: zenodo-broker.web.cern.ch zenodo-broker-qa.web.cern.ch maxcdn.bootstrapcdn.com cdnjs.cloudflare.com ajax.googleapis.com webanalytics.web.cern.ch",
+    "content-type": "text/plain; charset=utf-8",
+    "date": "Tue, 06 Oct 2026 20:41:29 GMT",
+    "oc-checksum": "MD5:2944544c7844dda9ef6a58c6d397954",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "retry-after": "43",
+    "server": "nginx",
+    "strict-transport-security": "max-age=31556926; includeSubDomains",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-download-options": "noopen",
+    "x-frame-options": "sameorigin",
+    "x-permitted-cross-domain-policies": "none",
+    "x-ratelimit-limit": "133",
+    "x-ratelimit-remaining": "130",
+    "x-ratelimit-reset": "1791319333",
+    "x-source": "files-primary",
+    "x-xss-protection": "1; mode=block"
+  },
+  "response_url": "https://zenodo.org/api/records/14284047/files/conditions.txt/content",
+  "retained_prefix_only": false,
+  "stored_body_reaches_declared_response_length": true,
+  "stored_bytes": 8341,
+  "stored_path": "audits/alternatives/downloads/gemini_conditions.bin",
+  "stored_sha256": "470cebe9655b9e7940deb7ef28da17e954e14b8d4e4d4afaf5e9afce0a3ae9fb"
+}

@@ -1,0 +1,33 @@
+adjusted_covariates:
+- 'genetic PCs {1-20} '
+- ' sex '
+- ' age at baseline '
+- ' sex:age '
+- ' age2 '
+- ' sequencing protocol'
+analysis_software: regenie_v3.2.5
+coordinate_system: 1-based
+data_file_md5sum: 1e7be9b831b986872c1fcfa02216bd4b
+data_file_name: GCST90473708.h.tsv.gz
+date_metadata_last_modified: 2025-09-04
+file_type: GWAS-SSF v1.0
+genome_assembly: GRCh38
+genotyping_technology:
+- Whole genome sequencing
+gwas_catalog_api: https://www.ebi.ac.uk/gwas/rest/api/studies/GCST90473708
+gwas_id: GCST90473708
+harmonisation_reference: ftp://ftp.ensembl.org/pub/release-95/fasta/homo_sapiens/dna/
+is_harmonised: true
+is_sorted: true
+ontology_mapping:
+- EFO_0000341
+samples:
+- ancestry_method:
+  - gnomAD v3.1
+  case_control_study: true
+  sample_ancestry_category:
+  - South Asian
+  sample_size: 9613
+sex: combined
+trait_description:
+- 'ICD10 J44: Other chronic obstructive pulmonary disease'

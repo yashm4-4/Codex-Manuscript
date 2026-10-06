@@ -1,0 +1,31 @@
+# Study meta-data
+gwas_id: GCST90478144
+gwas_catalog_api: https://www.ebi.ac.uk/gwas/rest/api/studies/GCST90478144
+date_metadata_last_modified: 2026-09-10
+
+# Trait Information
+trait_description:
+  - Obstructive chronic bronchitis (PheCode 496.21)
+ontology_mapping:
+  - MONDO_0005002
+
+# Genotyping Information
+genome_assembly: GRCh38
+genotyping_technology:
+  - Genome-wide genotyping array
+
+# Sample Information
+samples:
+  - sample_ancestry_category:
+      - African American or Afro-Caribbean
+    sample_size: 118019
+    case_control_study: true
+
+# Summary Statistic information
+data_file_name: GCST90478144.tsv.gz
+file_type: GWAS-SSF v1.0
+data_file_md5sum: f24ba85a17ae6d03b2c5661588f946c0
+
+# Harmonization status
+is_harmonised: false
+is_sorted: false

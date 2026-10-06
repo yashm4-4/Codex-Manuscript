@@ -1,0 +1,94 @@
+{
+  "accession": "GCST002350",
+  "phenotype_class_frozen": "direct_copd_susceptibility",
+  "publication_pmid": "24621683",
+  "file_inventory": [],
+  "headers": [],
+  "metadata_files": [],
+  "catalog_api_access": {
+    "requested_url": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST002350",
+    "accessed_utc": "2026-10-06T20:34:27.884827+00:00",
+    "method": "GET",
+    "anonymous": true,
+    "read_limit_bytes": 262144,
+    "requested_range": null,
+    "status": 200,
+    "final_url": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST002350",
+    "response_headers": {
+      "content-type": "application/json"
+    },
+    "downloaded_bytes": 1177,
+    "saved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/audits/catalog/GCST002350/study.json",
+    "sha256": "9eb794073a4ee2b9314f25859e74bae016767dde18e19c0822f87f237979e41a",
+    "bounded_read": false,
+    "hash_scope": "saved response bytes only; range/prefix is not a whole-file checksum"
+  },
+  "current_catalog_metadata": {
+    "initial_sample_size": "3,145 European ancestry cases, 3,955 European ancestry controls, 352 African American cases, 1,749 African American controls",
+    "replication_sample_size": "2,651 cases and their relatives",
+    "gxe": false,
+    "gxg": false,
+    "snp_count": 701491,
+    "qualifier": "up to",
+    "imputed": true,
+    "pooled": false,
+    "accession_id": "GCST002350",
+    "full_summary_stats_available": false,
+    "user_requested": false,
+    "pubmed_id": 24621683,
+    "platforms": "Illumina [up to 701491] (imputed)",
+    "disease_trait": "Chronic obstructive pulmonary disease (severe)",
+    "genotyping_technologies": [
+      "Genome-wide genotyping array"
+    ],
+    "efo_traits": [
+      {
+        "efo_id": "MONDO_0005002",
+        "efo_trait": "chronic obstructive pulmonary disease"
+      }
+    ],
+    "discovery_ancestry": [
+      "7100 European (Norway, U.S.)",
+      "2570 African American or Afro-Caribbean (U.S.)"
+    ],
+    "replication_ancestry": [
+      "2651 NR (NR)"
+    ],
+    "full_summary_stats": "NA",
+    "terms_of_license": "https://www.ebi.ac.uk/about/terms-of-use/",
+    "bg_efo_traits": [],
+    "array_manufacturer": [
+      "Illumina"
+    ],
+    "_links": {
+      "self": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST002350"
+      },
+      "ancestries": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST002350/ancestries{?sort,direction}",
+        "templated": true
+      }
+    }
+  },
+  "directory_location_basis": "standard accession directory probe, not proof of release",
+  "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST002001-GCST003000/GCST002350/",
+  "directory_access": {
+    "requested_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST002001-GCST003000/GCST002350/",
+    "accessed_utc": "2026-10-06T20:34:28.389301+00:00",
+    "method": "GET",
+    "anonymous": true,
+    "read_limit_bytes": 262144,
+    "requested_range": null,
+    "status": 404,
+    "final_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST002001-GCST003000/GCST002350/",
+    "response_headers": {
+      "content-length": "196",
+      "content-type": "text/html; charset=iso-8859-1"
+    },
+    "downloaded_bytes": 196,
+    "saved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/audits/catalog/GCST002350/directory.html",
+    "sha256": "80c3fe2ae1062abf56456f52518bd670f9ec3917b7f85e152b347ac6b6faf880",
+    "bounded_read": false,
+    "hash_scope": "saved response bytes only; range/prefix is not a whole-file checksum"
+  }
+}

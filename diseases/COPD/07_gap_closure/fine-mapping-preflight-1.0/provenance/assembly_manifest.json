@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-10-06T20:58:24.569061+00:00",
+  "bound_source_audits": [
+    {
+      "path": "audits/direct/direct_source_audit.json",
+      "bytes": 149941,
+      "sha256": "2c42d555266d3387c81f14025f8dc9c6814947b00466598ada901ef4873902ad"
+    },
+    {
+      "path": "audits/alternatives/alternatives_audit.json",
+      "bytes": 242447,
+      "sha256": "c419a420b607f89bc735e0bc8ed7d6feebc500bc2b2c37a23319db82caed88c9"
+    },
+    {
+      "path": "audits/methods_ld/methods_ld_audit.json",
+      "bytes": 158807,
+      "sha256": "da90856f0f44b8a8fe577dc8aeef4ebb58f156a8a804a95fad947d060a54c747"
+    }
+  ],
+  "study_matrix_rows": 104,
+  "provider_rows": 25,
+  "direct_signed_rows": 7,
+  "scientific_inference_performed": false
+}

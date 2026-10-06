@@ -1,0 +1,43 @@
+{
+  "acquired_bytes": 259210,
+  "acquired_sha256": "2171c95056c5128f96c8835fd08859352459cb57d18c825d4762d9fca4d3aa92",
+  "body_path": "audits/direct/acquired/copdconsortium_site/response.bin",
+  "complete_remote_object_hash": false,
+  "completed_utc": "2026-10-06T20:40:38.588175+00:00",
+  "effective_url": "https://sites.google.com/a/channing.harvard.edu/icopd-genetics-consortium/home",
+  "http_status": 200,
+  "purpose": "Public metadata/header/schema access audit; no statistical analysis",
+  "read_limit_bytes": 1048576,
+  "read_truncated": false,
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0 (bounded public metadata access)"
+  },
+  "requested_utc": "2026-10-06T20:40:38.080585+00:00",
+  "response_headers": {
+    "Accept-Ranges": "none",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "Connection": "close",
+    "Content-Security-Policy": "base-uri 'self';object-src 'none';report-uri /_/view/cspreport;script-src 'report-sample' 'nonce-xwuSh-8PsDjHvO8U-qgU0Q' 'unsafe-inline' 'unsafe-eval';worker-src 'self';frame-ancestors https://google-admin.corp.google.com/",
+    "Content-Type": "text/html; charset=utf-8",
+    "Cross-Origin-Opener-Policy": "unsafe-none",
+    "Cross-Origin-Resource-Policy": "same-site",
+    "Date": "Tue, 06 Oct 2026 20:40:38 GMT",
+    "Expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+    "P3P": "CP=\"This is not a P3P policy! See g.co/p3phelp for more info.\"",
+    "Pragma": "no-cache",
+    "Referrer-Policy": "origin",
+    "Server": "ESF",
+    "Set-Cookie": "NID=CuYBCAESmAEBOxGDSAIbyDFMMA6xhXRwUWyN8IuM5RpXG5q5zpQgEEayUx7Wkfb-f3BBUFDjRvn3IKu6TL62x0ao59AgYc9ucrr4dMYk6eLjaEae5RKc5LFCHSAWxd9TRPzrqPWqaraMdC97Y8cCBdehJ_zHVo8vwaZ-3GHMsDT8J1mE4JhDVPKffH3CfCVVO488kWxNPq7sGfWIiDA3SCgBMkUB0qwHz0u2hDqoE8_cjpPMa_yCTVAMNgvrNpqkx6tIPnk5XFaqUQXq4_vXfX-UwNWEyX9WhceMK0u-dJE5Fo3rjZpiyQ8; expires=Wed, 07-Apr-2027 20:40:38 GMT; path=/; domain=.google.com; HttpOnly",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site,Accept-Encoding",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "0",
+    "document-policy": "include-js-call-stacks-in-crash-reports",
+    "reporting-endpoints": "default=\"/web-reports?jobset=prod&wcrumsspbp=true&bl=editors.sites-viewer-frontend_20260928.02_p2&app=25&clss=1&context=eJwN0GdUlAcWBuBx-L57EYY-SB9mvkGkMyCCUgQXFSJZYkkC0bMWlBiKRhGU6CZqbMHYQ_GkaXCyomBBEKy4MVlMYgA7RsESiChKFWRGQPb98Zz33HvO_fFesxKHA6ZJsmPmSbKZyiTZu2CzJ0mmAaE4SaaEHI9k2RYI922UvQHya5SpIPqvXnkcdG3slw_AJxkD8o3wW6RBfh1epRrkb-DwdoP8BKT8bpSng9PcN3INLJeNyFeDwXVELnMbkffljsiHIHqjiUkczP7bxGQu5HaFCxtAvj9SMIOzZZHCTxA_MUqYCT0zpghGuL_uH0ILFKyIFb6DxatjhQyQn4wVzGBSVawwBSamTxNiYOzKaYI_bH4yTdgByROmCwshf1ecoIe2gTihC_ZnxAsHocX2LeE5NPEMoRXWzDkgroe71QfER1AdflC8BNdfHhT_hE-7Dolb4GimXjwFv7foxRtQl_gf8TY4uZeIGvD6oETUgVRWIs5uPyrOhaCEUnESHEksFcsha_FxcS1YrWkXHSA5-oW4EOZdfiEuhtvJHWIzWH3TITrA4GEFmZQo6KSVBZ0BzzMWFACNv1jSQ_jnASt6D0qf2lAFfNRuQyvg3HFbugx2lbbkAqMkOxoNFWF2dB5iJtpRPFQswgzBzUoKB_tEe3KDfWvt6WtYXzyGtsG4pjEUCCkqB0oHs0wHsoU8tSPthcpjjnQBbhU7UROs2e5M66F1jwu9gHkzXGkheP_iSkHwsFRFv95TUR08a1JRJ7zXo6K5cA8ewoV57nT2Q3eqgfbP3KkL5IKaGBJYTXPgeZqaOs-o6RUkFGhoDqw7pKFNcPyxhqogxk-ieMgMlCgbQuMkioDBLRKZbJXo_BcS_QwZByVaBRfrJLoMinqJbGAAhmB6g0QJUALHwOaaRGNg5xuJCmA4UktilJZGsrXEOVrq_kRL_ZC1VktroGidlr6Fjf_W0laYe0tLKTDPoKXFoPfwpDKYkeRJs6Fe8KI7UEZeVAm9Fl70GqxsvEgJZ6EGrhR7UQPceeJFD-CGLIKulkbQTVhSHkFpYHIqgkzhKlyDwooIKk2MpApYURhFuVCUN5kOQMLoaJoD2l9iyBeeXZtCPbCxfQrlQU9mLBlhyapYygS_TbEUAoFVsRQGd6pj6QH8z34q1cGDzqn0BJZumE4fg1Y_nXyhIzuO-kEqiyMfsPszjlxgw6M4-gK-Coinb-Dnh_F0FVz2_EVqeNbZQj1gO6uVnOEKNICZsZVsoaPkCfVDeukTyoI_otvoOixIaKOlsOydNsqBk3VtdAaW6Z9SDrwyttMbkGyfkw8cqX5B5VCY2kHfQ0djB_VDR2Qn9YNHdSfZftFFwxVdJFZ20cqobpLmd5MPfPBhNy2Co5u6qaipmzoedZMupIdKC3pIsb-H8iN76Vu4_3Yv_ZHeS3bHe8kRZilf0qVZL9HpJT1Z8JISU15S0to-al7XRznlffQpzP65j3Jh2vM-ioeGvf3UCPWv--kmPLv7ijrhh_kD5Lt0gGoVBnJxM1CMZCAeNJAV1I0Y6DZ0y41kgBrBSLXQ5GikVvj9hJEmnzRSDCjuGkkJofeMFA735w1S2YZBqoSwG4PkkD5E7hB9aojiIOXxEDUvGqa_Ydm3w5QF2w4P026Ye3qYUqBmZJhqYbv8De2Dk6oRcs4bIc-pMg6Anj4ZG2G9UcbbID9pFBeBw_xRvLN4FBfAldpRrP51FD-ulHNip5wNShPe72DCByHTyYSzoeK0CassBO6QBF60ROA0WPC5wGENAk-FMmi_LrCpq8gZoSKr_yVysyNxUy9xKxy-zvxjrinnf2bKEVtNOazSlLPDRvOD16O5Bd4abcazYPkkM14Njy6Z8VPIf2rGPWPNOdHTnDO8zfnCNHPe3mrODeMU3Ah5IQpemqBgl0wFj-gV7HpRwWduKvi_cL9FwX7DCg6Bx5ct-FyjBSseWLAl-EGPkyUHelryT_Ab6L0tuQy0UZY8_5Al32qz5CaoWGzFOYVWfKXTihvAYG_NVe9Y89Fka76YY81-JdYcAGNP2LA_pG-x5cpLttywzo7lv9rxtZVK9t2t5PEw86CSFfeUvPtvJR9qU7JKY897J9iza6g9q0ANEniAJ3iBD_iBDqqK7Fk_egyvGO_AuWBMduAhyZEFrSMfT3HkKgg678hbaxx5F3Q8dGQroyM7wOJhRy5VO_GO8U780TIn3pXrxIWw75wTv3PRic1fO3H0TGeOgVjYcdiZPx125mI45uPCJ6AcKuA0VEONnwsPfOPCO8td-EK9C3834sIFSjf2HePGumI3PnbBjU_DxSoVN5xV8S04ck7FPkMqrjdz5zvQHObOu9LduRAyzrtzzX13rgVlizu7wkfhav5juZpvwbIGNReBwzU1e91Vsw6-fKTmr6CWNVwPLnEaVoPuLQ0nbtCw_KKGzeBwv4ZPQKu5xC9gT5TE9psldgOnQonH-2h57RYtl-_U8lnYvU_LRTB5v5ZtvtbyQr2Wa59peZWtBze4erDOdixPBH3iWJZdGsvZPp68Gu4GeLLVBE_WtHryq4xxPFI3jrl-HLfeHMcvoP2UF79q9eIjPt74pzffHO_N5he82Q5-a_LmleY-vGG_D7un-fKsTb5crfflzUv9OA8eDfrxPgd_1p_z5-sP_Fm0DuDb3gHcDG_nB_C7UK0L5MsJgTx9k44TwPeGjo-HB_G8WUG8LTmI8-BL2AG7YS88XRjEc5YGcf61IO7uDuL0oSAODAnmEMiMD-aV8MmdYJ50L5gnw6mc8Tx9cggnwJKrIZwJR2ZM4Pe_nsA_fj-Bl5uH8mpQN4RykhjOk4siuL42goNkkRwqRfJEmASREAXRMAWmwjSIgxnwNiTCAoj3QHrhPjySv9wZxbYK09qzBXfI-uSfP-yUOwvvp6WukfxSl6Rlf5y1KmBVWnbqKv_V2KVm-X-Y9fHy7NTlSxYE64JDdZOCJwboghesCP4_EZIOjQ&build-label=editors.sites-viewer-frontend_20260928.02_p2&imp-sid=CPmSk5egppcDFXmILQkdXRUgxw&is-cached-offline=false\""
+  },
+  "transport_error": null,
+  "url": "https://www.copdconsortium.org/"
+}

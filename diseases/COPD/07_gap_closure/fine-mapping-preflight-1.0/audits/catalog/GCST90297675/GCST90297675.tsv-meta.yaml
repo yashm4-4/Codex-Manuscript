@@ -1,0 +1,86 @@
+# Study meta-data
+gwas_id: GCST90297675
+author_notes: "1. Auwerx, C., Jõeloo, M., Sadler, M.C., Tesio, N., Ojavee, S., Clark,
+  C.J., Mägi, R., Estonian Biobank Research Team, Reymond, A., and Kutalik, Z., 2023.
+  Rare copy-number variants as modulators of common disease susceptibility.\n\n2.
+  Effect_allele: impact of which type of deviation in copy number is assessed (\"
+  additional copy\" (mirror model) -> additive effect of each additional copy; \"
+  copy number variant (+/- 2 copies)\" (U-shape model) -> effect of any deviation
+  from the normal state of 2 copies, i.e., deletions (< 2 copies) or duplications
+  (> 2 copies); \"duplication (> 2 copies)\" (duplication-only model) -> duplication
+  (> 2 copies); \"deletion (< 2 copies)\" (deletion-only model) -> deletion (< 2 copies).
+  other_allele: always \"copy-neutral (2 copies)\", indicating the expected presence
+  of 2 copies. effect_allele_frequency: provides the frequency [0-1] of high confidence
+  CNVs (|quality score| > 0.5) in the pool of 331'522 individuals considered. The
+  CNV (deletion + duplication) frequency is given when the effect_allele is \"additional
+  copy\" or \"copy number variant (+/- 2 copies)\"; the duplication frequency is given
+  when the effect_allele is \"duplication (> 2 copies)\"; the deletion frequency is
+  given when the effect_allele is \"deletion (< 2 copies)\".    \n\n3. CNV-GWAS assessing
+  the impact of altered copy number of CNV-proxy microarray probes on 60 binary common
+  diseases definitions based on ICD-10 diagnoses, as well as on the disease burden
+  (i.e., number of diagnoses, out of the 60 assessed ones, an individual has received).
+  GWASs were performed on unrelated UK Biobank participants of white British ancestry,
+  excluding sample with a report of blood malignancy or suspected aneuploidy. CNVs
+  were called with PennCNV and only high confidence CNVs (|quality score| > 0.5; Macé
+  et al., 2016) were retained. CNV calls were transformed to the probe level, filtered
+  for CNV frequency >= 0.0001 and pruned at r^2 < 0.9999. Associations were performed
+  according to four models assessing different mechanisms of dosage sensitivity (i.e.,
+  mirror, U-shape, duplication-only, and deletion-only models). For each  disease-model
+  pair, a subset of relevant covariates and genotyping probes were retained for the
+  CNV-GWAS model. Due to the high correlation between the copy number state of probes,
+  the number of effective tests was calculated to estimate the adequate threshold
+  for genome-wide significance (p <= 0.05/6633 = 7.5e-6)."
+gwas_catalog_api: https://www.ebi.ac.uk/gwas/rest/api/studies/GCST90297675
+date_metadata_last_modified: 2025-01-04
+
+# Trait Information
+trait_description:
+  - 'ICD10 J44: chronic obstructive pulmonary disease (CNV duplication-only model)'
+ontology_mapping:
+  - EFO_0000341
+
+# Genotyping Information
+genome_assembly: GRCh37
+genotyping_technology:
+  - Genome-wide genotyping array
+
+# Sample Information
+samples:
+  - sample_ancestry_category:
+      - European
+    sample_ancestry:
+      - British
+    sample_size: 283124
+    case_control_study: true
+sex: combined
+
+# Summary Statistic information
+data_file_name: GCST90297675.tsv
+file_type: non-GWAS-SSF
+data_file_md5sum: 6830519c960c1026734f970656134aff
+analysis_software: PLINK v2.0
+adjusted_covariates:
+  - age
+  - sex
+  - array
+  - PC4
+  - PC5
+  - PC9
+  - PC11
+  - PC12
+  - PC14
+  - PC16
+  - PC18
+  - PC19
+  - PC20
+  - PC21
+  - PC23
+  - PC25
+  - PC29
+  - PC37
+  - PC38
+minor_allele_freq_lower_limit: 0.0001
+
+# Harmonization status
+is_harmonised: false
+is_sorted: false

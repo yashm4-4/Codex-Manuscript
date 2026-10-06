@@ -1,0 +1,39 @@
+{
+  "acquired_bytes": 17235,
+  "acquired_sha256": "3634757c2a493878269b26d8d2f532b19ab357307e9f7754dcfcadefa8ba10d3",
+  "body_path": "audits/direct/acquired/sakorn_dbgap_analysis_page/response.bin",
+  "complete_remote_object_hash": false,
+  "completed_utc": "2026-10-06T20:41:53.070903+00:00",
+  "effective_url": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/analysis.cgi?study_id=phs000179.v6.p2&phv=159563&phd=3571&pha=4766&pht=2239&phvf=&phdf=&phaf=&phtf=&dssp=1&consent=&temp=1",
+  "http_status": 200,
+  "purpose": "Public metadata/header/schema access audit; no statistical analysis",
+  "read_limit_bytes": 1048576,
+  "read_truncated": false,
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0 (bounded public metadata access)"
+  },
+  "requested_utc": "2026-10-06T20:41:51.933660+00:00",
+  "response_headers": {
+    "Access-Control-Allow-Credentials": "true",
+    "Access-Control-Allow-Headers": "Origin,X-Accept-Charset,X-Accept,Content-Type,X-Requested-With,NCBI-SID,NCBI-PHID",
+    "Access-Control-Allow-Methods": "POST, GET, PUT, OPTIONS, PATCH, DELETE",
+    "Access-Control-Allow-Origin": "",
+    "Alt-Svc": "clear",
+    "Connection": "close",
+    "Content-Security-Policy": "upgrade-insecure-requests",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Date": "Tue, 06 Oct 2026 20:41:51 GMT",
+    "Referrer-Policy": "origin-when-cross-origin",
+    "Server": "Apache",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "Via": "1.1 google",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Ua-Compatible": "IE=Edge",
+    "X-Xss-Protection": "1; mode=block"
+  },
+  "transport_error": null,
+  "url": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/analysis.cgi?study_id=phs000179.v6.p2&phv=159563&phd=3571&pha=4766&pht=2239&phvf=&phdf=&phaf=&phtf=&dssp=1&consent=&temp=1"
+}

@@ -1,0 +1,22 @@
+{
+  "LD_matrix_values_requested": false,
+  "completed_utc": "2026-10-06T20:34:16.494381+00:00",
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1129)>",
+  "error_type": "URLError",
+  "interpretation": "Exact returned bytes only; HTTP success does not establish semantic usability, schema correctness, locus coverage or fine-mapping eligibility.",
+  "maximum_response_bytes": 4000000,
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0 (public metadata audit)"
+  },
+  "request_method": "GET",
+  "requested_url": "https://christianbenner.com/",
+  "saved_bytes": 0,
+  "saved_path": "audits/methods_ld/sources/finemap_official.body",
+  "saved_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "source_id": "finemap_official",
+  "started_utc": "2026-10-06T20:34:16.131611+00:00",
+  "status": "TRANSPORT_ERROR",
+  "truncated": false,
+  "wall_seconds": 0.36276651604566723
+}

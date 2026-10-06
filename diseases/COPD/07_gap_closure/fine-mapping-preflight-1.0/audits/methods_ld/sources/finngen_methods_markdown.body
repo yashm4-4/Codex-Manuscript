@@ -1,0 +1,45 @@
+> For the complete documentation index, see [llms.txt](https://finngen.gitbook.io/documentation/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://finngen.gitbook.io/documentation/methods/finemapping.md).
+
+# Finemapping
+
+We use two state-of-the-art methods, FINEMAP ([Benner, C. et al., 2016](https://doi.org/10.1093/bioinformatics/btw018); [Benner, C. et al., 2018](https://doi.org/10.1101/318618)) and SuSiE ([Wang, G. et al., 2020](https://doi.org/10.1111/rssb.12388)) to fine-map genome-wide significant loci in FinnGen endpoints.
+
+Briefly, there are three main steps:
+
+#### 1. Preprocessing
+
+For each genome-wide significant locus (default configuration: P < 5e-8), we define a fine-mapping region by taking a 3 Mb window around a lead variant (and merge regions if they overlap). If a merged window exceeds 10MB, we iteratively shrink the window by 10%, until the merged window fits into 10MB or is split into merged windows that each fit into 10MB. We preprocess an input GWAS summary statistics into separate files per region for the following steps.
+
+**Note**: Due to the complexity of the HLA region and the difficulty in finemapping this region, by default we exclude the region 25Mb to 34Mb (hg38; inclusive) of chromosome 6 during the preprocessing step. Therefore, the HLA region is not finemapped as part of the standard FinnGen finemapping pipelines.
+
+#### 2. LD computation
+
+We compute in-sample dosage LD using [LDstore2](http://www.christianbenner.com/) for each fine-mapping region.
+
+#### 3. Fine-mapping
+
+With the inputs of summary statistics and in-sample LD from the steps 1-2, we conduct fine-mapping using [FINEMAP](http://www.christianbenner.com/) and [SuSiE](https://github.com/stephenslab/susieR) with the maximum number of causal variants in a locus L = 10.
+
+## Integration to PheWeb
+
+The "Credible Sets"-table on a phenotype page in the [R12 PheWeb browser](https://r12.finngen.fi/) shows the SuSiE-fine-mapped credible sets of that phenotype. The variant shown per credible set is the maximum PIP (posterior inclusion probability) variant of that credible set. In addition to the causal variants, variants that were in sufficient LD (Pearson r^2 > 0.05), had a small enough p-value (pval < 0.01), and were close enough to the lead variant (distance to lead variant < 1.5 megabases) were clumped together with the credible set. Variants have been compared against GWAS Catalog and annotated. The LD grouping, annotation and GWAS Catalog comparison were done using the autoreporting pipeline.
+
+The columns of the table are explained below:
+
+| Column name                       | Explanation                                                                                                                                                                                                                                 |
+| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| top PIP variant                   | variant with largest PIP int he credible set. Click the arrow to the left of the variant to show the credible set variants.                                                                                                                 |
+| CS quality                        | This column shows whether the credible set is well-formed. a 'true' value means that the credible set is likely trustworthy, and a 'false' value means that the credible set is likely not trustworthy.                                     |
+| chromosome                        | The chromosome in which the credible set lies.                                                                                                                                                                                              |
+| position                          | The position of the lead variant                                                                                                                                                                                                            |
+| p-value                           | p-value of the top PIP variant.                                                                                                                                                                                                             |
+| -log10(p)                         | -log10(p-value)                                                                                                                                                                                                                             |
+| effect size (beta)                | effect size of the top PIP variant.                                                                                                                                                                                                         |
+| Finnish Enrichment                | Finnish enrichment of the top PIP variant.                                                                                                                                                                                                  |
+| Alternate allele frequency        | alternate allele frequency of the top PIP variant.                                                                                                                                                                                          |
+| Lead Variant Gene                 | A probable gene of the top PIP variant.                                                                                                                                                                                                     |
+| # coding in cs                    | number of coding variants in the credible set. Hover over the number to see the variant, the consequence, and the correlation (pearsonr squared) to the lead variant.                                                                       |
+| # credible variants               | number of variants in the credible set.                                                                                                                                                                                                     |
+| Credible set bayes factor (log10) | The bayes factor related to the credible set.                                                                                                                                                                                               |
+| CS matching Traits                | Number of matches found in GWAS Catalog for the credible set variants. Hover over the number to see the trait, as well as the associated variant's LD (pearsonr squared) to the lead variant.                                               |
+| LD Partner Traits                 | Number of matches found in GWAS Catalog to the group of credible variants and variants in LD with the top PIP variant.Hover over the numbr to see the trait, as well as the associated variant's LD (pearsonr squared) to the lead variant. |

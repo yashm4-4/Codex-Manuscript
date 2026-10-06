@@ -1,0 +1,51 @@
+[ File names ]
+- GWAS using both sexes
+*.auto.rsq07.mac10.txt.gz
+*.chrx.rsq07.mac10.txt.gz
+
+- Sex stratified GWAS
+*.auto_sex_stratified.txt.gz
+*.chrx_sex_stratified.txt.gz
+
+
+[ Information ]
+- Removed variants with MAC < 10
+- Effect allele = alternative allele
+- Positions are based on hg19
+- Association test was performed using SAIGE (v 0.29.4.2; Wei Zhou et al. Nature Genetics 2018)
+- Please visit wiki page of SAIGE for more information (https://github.com/weizhouUMICH/SAIGE/wiki)
+
+[ Header ]
+CHR: chromosome
+POS: genome position
+SNPID: variant ID
+Allele1: reference allele
+Allele2: alternative allele
+AC_Allele2: allele count of alternative allele
+AF_Allele2: allele frequency of alternative allele
+N: sample size
+BETA: effect size (effect of alternative allele)
+SE: standard error of BETA
+Tstat: t statistic
+p.value: p value with the saddlepoint approximation method (SPA) applied
+p.value.NA: p value when SPA is not applied
+Is.SPA.converge: whether SPA is converged (1) or not (0)
+varT: estimated variance of score statistic with sample related incorporated
+varTstar: variance of score statistic without sample related incorporated
+AF.Cases/AF.Controls: allele frequency of alternative allele
+Rsq: imputation quality measure in minimac3
+MAC: minor allele count
+Rsq.male: imputation quality for male
+Rsq.female: imputation quality for female
+**.x/**.y; male data and female data (e.g. BETA.x is BETA in male GWAS. In single sex diseases, **.x suggests target sex data, and **.y is set to NA)
+single sex diseases: Breast cancer, Cervical cancer, Endometrial cancer, Endometriosis, Ovarian cancer, Uterine fibroid, and Prostate cancer
+
+
+[ Additional header in *sex_stratified.txt.gz ]
+metabeta: beta estimated by fixed effect meta-analysis between male and female specific GWAS.
+metase: se of metabeta
+metap: p of metabeta
+Qpvalue: heterogeneity in effect size between male and female specific GWAS (Cochran’s Q test).
+
+Sample sizes in each GWAS (sex_stratified) are shown in the file named "hum0014_v21_sample_size.xlsx" 
+(Click "Sample size file" [under "Dictionary file" at the hum0014.v17/hum0014.v18/hum0014.v21 MOLECULAR DATA table] to download the file).

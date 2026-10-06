@@ -1,0 +1,162 @@
+<!doctype html>
+<head>
+<title>CKB PheWeb</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+  window.model = window.model || {};
+  window.model.urlprefix = "";
+  window.model.hg_build_number = 38;
+  window.model.grch_build_number = 38;
+</script>
+
+<link href="/static/common.css" rel="stylesheet" type="text/css">
+<script src="/static/common.js" type="text/javascript"></script>
+
+
+
+
+<style type="text/css">
+  .navbar-default {
+    border: none;
+  }
+</style>
+<script type="text/javascript">
+$(function() { $('.typeahead').focus(); }); // autofocus attribute doesn't work in FF.
+</script>
+
+</head>
+
+<body>
+<nav class="navbar navbar-default" style="background: white;">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle pull-right" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <span class="navbar-brand">
+                <a href="/">
+                    <img id="logo" src="https://www.ckbiobank.org/images/header-logo/ckb-logo_positive.png" width="40" height="40" alt="CKB">
+                </a>
+            </span>
+            <div class="navbar-left" id="navbar_form_container">
+                <form action="/go" class="navbar-form" role="search">
+                    <div class="form-group" id="navbar-awesomebar">
+                        <input id="navbar-searchbox-input" name="query" class="form-control typeahead" autocomplete="off" type="text" size="40" placeholder="Search for a variant, gene, or phenotype">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                  <li>  <a href="/phenotypes" style="color: #333; font-weight: bold;">Phenotypes</a></li>  
+                  <li>  <a href="/top_hits" style="color: #333; font-weight: bold;">Top Hits</a></li>      
+                  <li><a href="/random" style="color: #333; font-weight: bold;">Random</a></li>          
+                  <li><a href="/about" style="color: #333; font-weight: bold;">About</a></li>           
+              
+                
+
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+
+    </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container-fluid">
+    
+      
+    
+    
+
+<br style="margin-top:2em">
+
+<br style="margin-top: 3em">
+
+
+<div class="row">
+    <div class="col-xs-12 col-sm-offset-1 col-sm-10">
+        <h1><img id="logo" src="https://www.ckbiobank.org/images/header-logo/ckb-logo_positive.png" width=400 alt="CKB">
+China Kadoorie Biobank PheWeb (pheweb.ckbiobank.org) </h1>
+        
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-sm-offset-1 col-sm-10">
+        <div id="home-searchbox">
+            <form action="/go">
+               <fieldset>
+                  <div class="form-group">
+                    <input name="query" class="form-control typeahead" autocomplete="off" type="text" placeholder="Search for a variant, gene, or phenotype" autofocus>
+                  </div>
+               </fieldset>
+            </form>
+            <div class="panel">
+<!--
+  Example queries:
+  <a href="/pheno/e11" class="btn btn-link">E11</a>
+  <a href="/pheno/e11" class="btn btn-link">Type 2 diabetes (T2D)</a>
+  <a href="/variant/12-112241766-G-A" class="btn btn-link">rs671</a>
+  <a href="/gene/FGF5" class="btn btn-link">FGF5</a>
+-->
+</div>
+
+
+<div class="well">
+  <p>
+    This website releases genome-wide association study (GWAS) summary 
+statistics of the China Kadoorie Biobank (CKB). 
+We provide GWAS results in the Chinese population using the PheWeb platform, 
+with public access to the full summary statistics.
+  </p>
+  <p>
+    CKB is a prospective population-based biobank which recruited approximately 
+512,000 participants during 2004-2008, in 10 geographically diverse regions of 
+China. Disease follow-up is by electronic linkage using unique national identity 
+numbers to death and disease registries and the Chinese national health insurance 
+system.  
+  </p>
+</div>
+
+<div class="panel panel-primary">
+  <div class="panel-heading">News</div>
+  <div class="panel-body list-group">
+
+    <div class="list-group-item">
+      <h4 class="list-group-item-heading">24 March 2025: positions lifted to GRCh38</h4>
+      <p class="list-group-item-text">
+          Includes GWAS results of 2923 OLINK traits from <a href="https://www.medrxiv.org/content/10.1101/2023.11.13.23298365" > Pozarickij, A., et al. (2025) </a>. Summary stats download will be made available after the publication.  
+      </p><p></o>
+      <h4 class="list-group-item-heading">11 March 2025: add blood pressure GWAS </h4>
+      <p class="list-group-item-text">
+          Includes results of 8 GWAS for blood pressure traits from
+          <a href="https://www.nature.com/articles/s41467-024-50297-x">Pozarickij, A., et al. (2024)
+          </a>
+      </p><p></p>
+      <h4 class="list-group-item-heading">20 July 2023: CKB PheWeb first release.</h4>
+      <p class="list-group-item-text">
+          Includes results of 219 GWAS for ICD-10-coded diseases from 
+          <a href="https://www.cell.com/cell-genomics/fulltext/S2666-979X(23)00144-1">
+              Walters, R.G., et al. (2023)
+          </a>
+      </p>
+    </div>
+
+  </div>
+</div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+</body>
+</html>

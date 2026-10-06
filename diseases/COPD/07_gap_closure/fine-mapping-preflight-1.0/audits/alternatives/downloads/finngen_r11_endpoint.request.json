@@ -1,0 +1,25 @@
+{
+  "accessed_utc": "2026-10-06T20:35:31.176952+00:00",
+  "command": [
+    "diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/scripts/alternatives_fetch.py",
+    "--url",
+    "https://r11.risteys.finregistry.fi/endpoints/J10_COPD",
+    "--label",
+    "finngen_r11_endpoint",
+    "--max-bytes",
+    "2097152"
+  ],
+  "error": "URLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1129)'))",
+  "http_status": null,
+  "maximum_bytes_requested_or_retained": 2097152,
+  "purpose": "public source metadata or bounded schema sample; no fine-mapping",
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0"
+  },
+  "requested_url": "https://r11.risteys.finregistry.fi/endpoints/J10_COPD",
+  "retained_prefix_only": true,
+  "stored_bytes": 0,
+  "stored_path": "audits/alternatives/downloads/finngen_r11_endpoint.bin",
+  "stored_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

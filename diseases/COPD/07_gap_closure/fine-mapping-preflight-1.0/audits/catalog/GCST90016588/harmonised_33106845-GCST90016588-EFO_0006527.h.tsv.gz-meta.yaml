@@ -1,0 +1,32 @@
+# Study meta-data
+gwas_id: GCST90016588
+gwas_catalog_api: https://www.ebi.ac.uk/gwas/rest/api/studies/GCST90016588
+date_metadata_last_modified: 2025-01-14
+
+# Trait Information
+trait_description:
+  - COPD
+ontology_mapping:
+  - ''
+
+# Genotyping Information
+genome_assembly: GRCh38
+coordinate_system: 1-based
+genotyping_technology:
+  - Genome-wide genotyping array
+
+# Sample Information
+samples:
+  - sample_ancestry_category:
+      - European
+    sample_size: 71591
+
+# Summary Statistic information
+data_file_name: 33106845-GCST90016588-EFO_0006527.h.tsv.gz
+file_type: pre-GWAS-SSF
+data_file_md5sum: dff05dfa3451b259a7eae0f656833b56
+
+# Harmonization status
+is_harmonised: true
+is_sorted: false
+harmonisation_reference: ftp://ftp.ensembl.org/pub/release-95/fasta/homo_sapiens/dna/

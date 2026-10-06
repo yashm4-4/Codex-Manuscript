@@ -1,0 +1,504 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/xhtml1-strict.dtd">
+<html>
+<head>
+	<script type="text/javascript" src="/core/jig/1.15.11/js/jig.min.js"></script>
+	<meta name="ncbi_db" content="gap"/>
+	<meta name="ncbi_app" content="gap"/>
+	<meta name="ncbi_pdid" content="analysis"/>
+	<meta name="ncbi_phid" content="07517C1CAC55D10D0000000000015D10"/>
+	<meta name="ncbi_uid" content="pha004766.1"/>
+	<meta name="ncbi_op" content="view"/>
+
+	<link rel="stylesheet" type="text/css" media="all" href="/projects/gap/css/ReportStyle.css"/>
+	<link rel="stylesheet" type="text/css" media="all" href="/projects/gap/css/AnalysisReportStyle.css"/>
+	<link rel="stylesheet" type="text/css" media="all" href="/projects/gap/css/tree.css"/>
+	<link rel="stylesheet" type="text/css" media="all" href="/projects/gap/css/folder.css"/>
+	<link rel="stylesheet" type="text/css" media="all" href="/projects/gap/css/navigationBarTab.css"/>
+	<script type="text/javascript" src="/projects/gap/jscript/tree.js"></script>
+	<script type="text/javascript" src="/projects/gap/jscript/reference.js"></script>
+	<script type="text/javascript" src="/projects/gap/jscript/folder.js"></script>
+	<script type="text/javascript" src="/projects/gap/jscript/expandCollapse.js"></script>
+	<script type="text/javascript" src="/projects/gap/jscript/replaceText.js"></script>	
+	<script type="text/javascript" src="/projects/gap/jscript/manageState.js"></script>
+	<script type="text/javascript" src="/projects/gap/jscript/getPage.js"></script>
+	<script type="text/javascript" src="/projects/gap/jscript/curatorInfo.js"></script>
+	<script type="text/javascript" src="/projects/gap/jscript/globalAlert.js"></script>
+	<script type="text/javascript" src="/projects/gap/jscript/requestAccessButton.js"></script>	
+	<script type="text/javascript"> 
+		window.ncbi_startTime = new Date();
+  	</script>
+		
+	<title>
+	dbGaP | pha004766.1 | Genome-Wide Association Meta-Analysis Of COPD From The International COPD Genetics Consortium (ICGC) And The UK Biobank
+	</title>
+</head>
+
+
+
+
+<!--=================================================================================
+=====================================================================================
+
+	JAVASCRIPT CODE THAT IS LOADED UPON PAGE LOAD
+
+=====================================================================================
+===================================================================================-->
+
+
+
+
+
+
+
+
+
+
+
+<body onload="requestAccessButton('phs000179.v6.p2');initializeAnalysisReferences('4766', 1, 1);updateAssociatedBox('phs000179.v6.p2', 0, '179', 104);">
+
+<div id="page">
+<!--=================================================================================
+=====================================================================================
+
+	LOAD HIDDEN FORM WHICH IS USED TO MAINTAIN STATE
+
+=====================================================================================
+===================================================================================-->
+
+
+<form name="HistoryFormPersist" id="HistoryFormPersist" action="" method="get">
+
+	<input type="hidden" name="consent" value=""/>
+
+	<input type="hidden" name="dssp" value="1"/>
+
+	<input type="hidden" name="pha" value="4766"/>
+
+	<input type="hidden" name="phaf" value=""/>
+
+	<input type="hidden" name="phd" value="3571"/>
+
+	<input type="hidden" name="phdf" value=""/>
+
+	<input type="hidden" name="phsf" value=""/>
+
+	<input type="hidden" name="pht" value="2239"/>
+
+	<input type="hidden" name="phtf" value=""/>
+
+	<input type="hidden" name="phv" value="159563"/>
+
+	<input type="hidden" name="phvf" value=""/>
+
+	<input type="hidden" name="study_id" value="phs000179.v6.p2"/>
+
+</form>
+
+	
+<form name="HistoryFormSubmit" id="HistoryFormSubmit" action="" method="get">
+
+	<input type="hidden" name="consent" value=""/>
+
+	<input type="hidden" name="dssp" value="1"/>
+
+	<input type="hidden" name="pha" value="4766"/>
+
+	<input type="hidden" name="phaf" value=""/>
+
+	<input type="hidden" name="phd" value="3571"/>
+
+	<input type="hidden" name="phdf" value=""/>
+
+	<input type="hidden" name="phsf" value=""/>
+
+	<input type="hidden" name="pht" value="2239"/>
+
+	<input type="hidden" name="phtf" value=""/>
+
+	<input type="hidden" name="phv" value="159563"/>
+
+	<input type="hidden" name="phvf" value=""/>
+
+	<input type="hidden" name="study_id" value="phs000179.v6.p2"/>
+
+</form>
+
+<form name="EnvironmentSettings" id="EnvironmentSettings" action="" method="get">
+<input type="hidden" name="basePathCgiBin" value="/projects/gap/cgi-bin/"/>
+</form>
+
+
+<div id="header">
+
+<!--=================================================================================
+=====================================================================================
+ 
+	LOGO-HEADER DIV
+	
+=====================================================================================
+===================================================================================-->
+
+<div id="logo-header">
+<table width="100%">
+<tr><td><div id="global-alert"></div></td></tr>
+<tr id="banner-row">
+<td class="left">
+<a href="https://www.ncbi.nlm.nih.gov/gap">
+<img src="/projects/gap/images/dbGaP_logo_final.jpg" id="gap-logo" alt="dbGaP-logo" border="0"/>
+</a>
+</td>
+</tr>
+</table>
+
+</div>  <!-- id="logo-header" -->
+
+<!--=================================================================================
+=====================================================================================
+
+	IF DEV SITE, OUTPUT TABLE OF USEFUL INFORMATION FOR CURATORS
+	
+=====================================================================================
+===================================================================================-->
+
+
+
+<!--=================================================================================
+=====================================================================================
+
+	DISPLAY IF DEV, PREVIEW, OR PRE-PRODUCTION SITE. IF PRODUCTION, NOTHING IS DISPLAYED
+	
+=====================================================================================
+==================================================================================-->
+
+<!--=================================================================================
+=====================================================================================
+
+	SPECIAL COMMENTS FOR PREVIEW SITE
+	
+=====================================================================================
+==================================================================================-->
+
+
+
+	
+
+
+<h1 class="report">
+	
+
+
+
+
+
+
+
+<!--=================================================================================
+=====================================================================================
+
+	DISPLAY NAME OF STUDY, AND, IF NECESSARY, NAME OF PARENT STUDY
+	
+=====================================================================================
+==================================================================================-->
+
+
+<span id="study-name" name="study-name">Genetic Epidemiology of COPD (COPDGene) Funded by the National Heart, Lung, and Blood Institute</span><br/>
+
+</h1>
+
+
+
+
+
+	
+	<b>dbGaP Study Accession:</b>
+	<span id="study-id" name="study-id">phs000179.v6.p2</span><br/><br/>	
+
+	
+		<font color="red">Note: This version of the study has been superseded.</font>
+		<a href="/projects/gap/cgi-bin/study.cgi?study_id=phs000179.v7.p2">
+		See most recent version </a><br/>
+	
+
+
+<div id="requestAccessButton"></div><br/>
+
+
+<!--=================================================================================
+=====================================================================================
+
+	LINK TO SSTR
+	
+=====================================================================================
+==================================================================================-->
+
+	<a href="https://www.ncbi.nlm.nih.gov/gap/sstr/report/phs000179.v6.p2" target="_blank">Subject Sample Telemetry Report (SSTR)</a><br/><br/>
+
+	
+
+
+
+<!--=================================================================================
+=====================================================================================
+
+	STUDY VERSION HISTORY
+	
+=====================================================================================
+==================================================================================-->
+<a href="#studyHistoryTable" data-jig="ncbitoggler">Study version history</a>
+<div class="ui-widget" id="studyHistoryTable">
+
+<table border="1" width="20%">
+<tr><th align="left">Study</th></tr>
+
+
+	<tr><td>
+	<a href="/projects/gap/cgi-bin/study.cgi?study_id=phs000179.v1.p1">phs000179.v1.p1</a>
+	</td></tr>
+
+	<tr><td>
+	<a href="/projects/gap/cgi-bin/study.cgi?study_id=phs000179.v2.p2">phs000179.v2.p2</a>
+	</td></tr>
+
+	<tr><td>
+	<a href="/projects/gap/cgi-bin/study.cgi?study_id=phs000179.v3.p2">phs000179.v3.p2</a>
+	</td></tr>
+
+	<tr><td>
+	<a href="/projects/gap/cgi-bin/study.cgi?study_id=phs000179.v4.p2">phs000179.v4.p2</a>
+	</td></tr>
+
+	<tr><td>
+	<a href="/projects/gap/cgi-bin/study.cgi?study_id=phs000179.v5.p2">phs000179.v5.p2</a>
+	</td></tr>
+
+	<tr><td>
+	<a href="/projects/gap/cgi-bin/study.cgi?study_id=phs000179.v6.p2">phs000179.v6.p2</a>
+	</td></tr>
+
+	<tr><td>
+	<a href="/projects/gap/cgi-bin/study.cgi?study_id=phs000179.v7.p2">phs000179.v7.p2</a>
+	</td></tr>
+
+
+</table>
+</div>
+
+<!--=================================================================================
+=====================================================================================
+
+	OUTPUT NAVIGATION BAR
+	
+=====================================================================================
+==================================================================================-->
+
+</div> <!-- id="header" -->
+
+
+<div id="navigationBarTab">
+<ul>
+
+
+
+
+
+
+
+
+
+
+	<li><a class="selectableTab"  href="#" onclick="javascript:getPage(this,'study.cgi', 'phs000179.v6.p2');return true;" oncontextmenu="javascript:getPage(this,'study.cgi', 'phs000179.v6.p2');return true;">Study</a></li>
+
+
+
+
+	<li><a class="selectableTab" href="#" onclick="javascript:getPage(this,'dataset.cgi', '2239');return true;" oncontextmenu="javascript:getPage(this,'dataset.cgi', '2239');return true;">Phenotype Datasets</a></li>
+
+
+
+	<li><a class="selectableTab" href="#" onclick="javascript:getPage(this,'variable.cgi', '159563');return true;" oncontextmenu="javascript:getPage(this,'variable.cgi', '159563');return true;">Variables</a></li>
+
+
+
+
+	<li><a class="selectableTab" href="#" onclick="javascript:getPage(this, 'molecular.cgi', '0');return true;" oncontextmenu="javascript:getPage(this, 'molecular.cgi', '0');return true;">Molecular Datasets</a></li>
+
+
+
+
+
+	<li><a href="#" id="current">Analyses</a></li>
+
+
+
+
+	<li><a class="selectableTab" href="#" onclick="javascript:getPage(this,'document.cgi', '3571');return true;" oncontextmenu="javascript:getPage(this,'document.cgi', '3571');return true;">Documents</a></li>
+
+
+
+</ul>
+</div> <!-- id="navigationBarTab" -->
+
+
+
+
+<!--=================================================================================
+=====================================================================================
+
+	HEADER DIV
+
+=====================================================================================
+===================================================================================-->
+
+
+
+<!--=================================================================================
+=====================================================================================
+
+	CONTAINER DIV
+
+=====================================================================================
+==================================================================================-->
+
+
+<div id="container">
+
+<!--=================================================================================
+=====================================================================================
+
+	MAIN DIV
+
+=====================================================================================
+==================================================================================-->
+
+
+<div id="main">
+
+
+<!--=================================================================================
+=====================================================================================
+
+	REPORT DIV
+
+=====================================================================================
+==================================================================================-->
+
+<dl class="report">
+
+<p>
+
+	<!-- == 3 prod display advanced search link by [  analysisURL  ] 
+        <a href="https://www.ncbi.nlm.nih.gov/gap/advanced_search/?OBJ=analysis&amp;COND=%7B%22study_accession%22:%5B%22phs000179.v6.p2%22%5D%7D" target="_blank">Browse all analyses within this study</a>
+    -->
+    <ul>
+    <li><a href="https://www.ncbi.nlm.nih.gov/gap/advanced_search/?OBJ=analysis&amp;COND=%7B%22study_accession%22:%5B%22phs000179.v6.p2%22%5D%7D" target="_blank">Browse all analyses within this study via Advanced Search</a></li>
+    <li><a href="/projects/gap/cgi-bin/GetListOfAllObjects.cgi?study_id=phs000179.v6.p2&object_type=analysis" target="_blank">List all analyses within this study</a></li>
+	<li>Summary of available analyses from this study is freely available from the <a href="https://ftp.ncbi.nlm.nih.gov/dbgap/studies/phs000179/analyses/">dbGaP public ftp site</a> 
+		(nb. these summary files do not require Authorized Access approval).     
+    </ul>
+
+</p>
+
+
+
+<dt>Analysis Name and Accession</dt>
+<dd>
+<b>Analysis Name</b>: Genome-Wide Association Meta-Analysis Of COPD From The International COPD Genetics Consortium (ICGC) And The UK Biobank<br/>
+<b>Analysis Accession</b>: pha004766.1 <br/>
+<b>Phenotype</b>: Pulmonary Disease, Chronic Obstructive <br/>
+<b>Population</b>: European, African American, Hispanic, East Asian <br/>
+
+<p>
+
+	<a href="https://www.ncbi.nlm.nih.gov/genome/gdv/gwas/4766/">
+	View association results in Genome Browser
+	</a>
+	</p>
+
+</dd>
+
+
+<dt>Analysis Description</dt>
+<dd>Genome-wide association meta-analysis; included the COPDGene study, the UK Biobank, and the following ICGC cohorts: ARIC - Atherosclerosis Risk in Communities Study, Cardiovascular Health Study (African and European ancestries), ECLIPSE - Evaluation of COPD Longitudinally to Identify Predictive Surrogate End-points, EOCOPD and ICGN - Boston Early-Onset COPD Study and International COPD Genetics Network, Lung Expression Quantitative Trait Loci Study, Framingham Heart Study, KARE - Korean Association Resource project, Transcontinental COPD Genetics Study, Korea, Lifelines, Lovelace, MESA - Multi-Ethnic Study of Atherosclerosis (African, European, and Hispanic ancestries), NETT/NAS - National Emphysema Treatment Trial / Normative Aging Study, GenKOLS - Bergen, Norway COPD Cohort, Transcontinental COPD Genetics Study, Poland, Rotterdam Study (1, 2 and 3), and SPIROMICS - Subpopulations and intermediate outcome measures in COPD study.</dd>
+
+<dt>Analysis Methods</dt>
+<dd>Logistic regression, with COPD as outcome, was performed in individual cohorts, checked for orientation and hg19 chr and positions. Summary statistics for each cohort were further assessed using EasyQC. Then, a fixed-effects meta-analysis was performed using METAL. Variants from the meta-analysis were only further examined if they were present in the UK Biobank as well as at least 11 ICGC studies.</dd>
+
+
+
+
+
+	<dt>Analysis Plots</dt>
+	<dd>
+	The following plots were generated by dbGaP based on the data that was submitted and are not
+	necessarily from any publications noted under <b>Selected Publications</b>. 	
+	
+		<p>
+		<img src="./GetImage.cgi?analysis_id=pha004766&amp;image_name=4766.1.pg.png"/>
+		</p>
+	
+	
+		<p>
+		<img src="./GetImage.cgi?analysis_id=pha004766&amp;image_name=4766.1.qq.png"/>
+		</p>
+	
+	
+
+</dd>
+
+<dt>Selected Publications</dt>
+<dd>
+<div id="associatedReferences"/>
+</dd>
+
+</dl> <!--================= class="report" ======================-->
+</div> <!--================= id="main" ======================-->
+</div>
+</div> <!--================= id="container" ======================-->
+
+
+<!--=================================================================================
+=====================================================================================
+
+	SIDEBAR
+
+
+=====================================================================================
+==================================================================================-->
+
+
+<div id="sidebar">
+
+<!--=================================================================================
+=====================================================================================
+
+	ASSOCIATED ANALYSES
+
+=====================================================================================
+==================================================================================-->
+
+
+	<div class="p" id="anas">
+	<h2 class="right">Analysis</h2>
+	<div class="q">
+	<table id="analysis" class="display">
+	<tbody>
+	<tr><td>
+	<div id="analysis-scroll">
+	<div id="associatedAnalyses" />
+	</div>
+	</td></tr>
+	</tbody>
+	</table>
+	</div>
+	</div>
+
+
+</div>  <!-- sidebar -->
+
+
+
+</div> <!--================= id="page" ======================-->
+<script type="text/javascript" src="/core/pinger/pinger.js"></script>
+
+</body>
+</html>

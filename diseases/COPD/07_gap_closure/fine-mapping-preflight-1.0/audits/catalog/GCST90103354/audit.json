@@ -1,0 +1,202 @@
+{
+  "accession": "GCST90103354",
+  "phenotype_class_frozen": "nonstandard_gene_burden_cnv",
+  "publication_pmid": "36779085",
+  "file_inventory": [
+    {
+      "name": "GCST90103354_buildGRCh38.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90103001-GCST90104000/GCST90103354/GCST90103354_buildGRCh38.txt",
+      "directory_evidence": "audits/catalog/GCST90103354/directory.html"
+    },
+    {
+      "name": "GCST90103354_buildGRCh38.txt-meta.yaml",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90103001-GCST90104000/GCST90103354/GCST90103354_buildGRCh38.txt-meta.yaml",
+      "directory_evidence": "audits/catalog/GCST90103354/directory.html"
+    },
+    {
+      "name": "md5sum.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90103001-GCST90104000/GCST90103354/md5sum.txt",
+      "directory_evidence": "audits/catalog/GCST90103354/directory.html"
+    }
+  ],
+  "headers": [
+    {
+      "header": [
+        "SNP",
+        "CHR",
+        "BP",
+        "P",
+        "start",
+        "end"
+      ],
+      "representative_records": [
+        [
+          "cnvr1",
+          "1",
+          "11001",
+          "0.617377610142188",
+          "10001",
+          "12001"
+        ],
+        [
+          "cnvr2",
+          "1",
+          "15001",
+          "0.691709832474236",
+          "14001",
+          "16001"
+        ],
+        [
+          "cnvr3",
+          "1",
+          "16001",
+          "0.352756026204217",
+          "15001",
+          "17001"
+        ],
+        [
+          "cnvr4",
+          "1",
+          "17001",
+          "0.998432574651368",
+          "16001",
+          "18001"
+        ],
+        [
+          "cnvr5",
+          "1",
+          "18001",
+          "0.703651777892755",
+          "17001",
+          "19001"
+        ],
+        [
+          "cnvr6",
+          "1",
+          "19001",
+          "0.772458861644256",
+          "18001",
+          "20001"
+        ],
+        [
+          "cnvr7",
+          "1",
+          "25001",
+          "0.874618702721773",
+          "24001",
+          "26001"
+        ],
+        [
+          "cnvr8",
+          "1",
+          "26001",
+          "0.506265805280216",
+          "25001",
+          "27001"
+        ]
+      ],
+      "sample_records": 8,
+      "records_width_matches": true,
+      "inspection_scope": "first header and up to eight records only; no locus enumeration, effect analysis or whole-file QC",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90103001-GCST90104000/GCST90103354/GCST90103354_buildGRCh38.txt",
+      "prefix_path": "audits/catalog/GCST90103354/GCST90103354_buildGRCh38.txt.prefix",
+      "access_status": 206,
+      "prefix_sha256": "c6a68385b958bd6690b89ab0c3c09988b89ef956e2c548d8707f91f7a7d0821f",
+      "whole_source_content_range": "bytes 0-131071/17615303",
+      "whole_file_downloaded_and_validated": false
+    }
+  ],
+  "metadata_files": [
+    {
+      "path": "audits/catalog/GCST90103354/GCST90103354_buildGRCh38.txt-meta.yaml",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90103001-GCST90104000/GCST90103354/GCST90103354_buildGRCh38.txt-meta.yaml",
+      "status": 200
+    },
+    {
+      "path": "audits/catalog/GCST90103354/md5sum.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90103001-GCST90104000/GCST90103354/md5sum.txt",
+      "status": 200
+    }
+  ],
+  "catalog_api_access": {
+    "requested_url": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST90103354",
+    "accessed_utc": "2026-10-06T20:35:12.660737+00:00",
+    "method": "GET",
+    "anonymous": true,
+    "read_limit_bytes": 262144,
+    "requested_range": null,
+    "status": 200,
+    "final_url": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST90103354",
+    "response_headers": {
+      "content-type": "application/json"
+    },
+    "downloaded_bytes": 1111,
+    "saved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/audits/catalog/GCST90103354/study.json",
+    "sha256": "bec6a94638901ace350294eb9858e739d028a1f42b2f7ed008a58d41d7141687",
+    "bounded_read": false,
+    "hash_scope": "saved response bytes only; range/prefix is not a whole-file checksum"
+  },
+  "current_catalog_metadata": {
+    "initial_sample_size": "5,757 European ancestry cases, 165,012 European ancestry controls",
+    "replication_sample_size": "NA",
+    "gxg": false,
+    "snp_count": 299582,
+    "imputed": false,
+    "accession_id": "GCST90103354",
+    "full_summary_stats_available": true,
+    "user_requested": false,
+    "pubmed_id": 36779085,
+    "platforms": "NR [299582]",
+    "disease_trait": "Source of chronic obstructive pulmonary disease report (UKB data field 42017) (CNV dosage model)",
+    "genotyping_technologies": [
+      "Exome-wide sequencing"
+    ],
+    "efo_traits": [
+      {
+        "efo_id": "MONDO_0005002",
+        "efo_trait": "chronic obstructive pulmonary disease"
+      }
+    ],
+    "discovery_ancestry": [
+      "170769 European (U.K.)"
+    ],
+    "replication_ancestry": [],
+    "full_summary_stats": "http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90103001-GCST90104000/GCST90103354",
+    "terms_of_license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "bg_efo_traits": [],
+    "cohort": [
+      "UKB"
+    ],
+    "array_manufacturer": [],
+    "_links": {
+      "self": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST90103354"
+      },
+      "ancestries": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST90103354/ancestries{?sort,direction}",
+        "templated": true
+      }
+    }
+  },
+  "directory_location_basis": "current or frozen Catalog advertised source",
+  "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90103001-GCST90104000/GCST90103354/",
+  "directory_access": {
+    "requested_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90103001-GCST90104000/GCST90103354/",
+    "accessed_utc": "2026-10-06T20:35:13.113787+00:00",
+    "method": "GET",
+    "anonymous": true,
+    "read_limit_bytes": 262144,
+    "requested_range": null,
+    "status": 200,
+    "final_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90103001-GCST90104000/GCST90103354/",
+    "response_headers": {
+      "content-length": "1561",
+      "content-type": "text/html;charset=UTF-8"
+    },
+    "downloaded_bytes": 1561,
+    "saved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/audits/catalog/GCST90103354/directory.html",
+    "sha256": "dbf382d8237d2110c0e14d4b07cafe5c781c815b2609d4f0ff6b113030647ced",
+    "bounded_read": false,
+    "hash_scope": "saved response bytes only; range/prefix is not a whole-file checksum"
+  }
+}

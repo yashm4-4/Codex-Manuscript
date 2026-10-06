@@ -1,0 +1,49 @@
+{
+  "accessed_utc": "2026-10-06T20:38:59.137557+00:00",
+  "command": [
+    "diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/scripts/alternatives_fetch.py",
+    "--url",
+    "https://finngen.gitbook.io/documentation/data-download.md",
+    "--label",
+    "finngen_docs_markdown",
+    "--max-bytes",
+    "1048576"
+  ],
+  "http_status": 200,
+  "maximum_bytes_requested_or_retained": 1048576,
+  "purpose": "public source metadata or bounded schema sample; no fine-mapping",
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0"
+  },
+  "requested_url": "https://finngen.gitbook.io/documentation/data-download.md",
+  "response_EOF_before_byte_limit": true,
+  "response_headers": {
+    "CF-Ray": "a467790bccf58aaa-IAD",
+    "Cache-Control": "s-maxage=63797, stale-while-revalidate=2592000",
+    "Connection": "close",
+    "Content-Type": "text/markdown; charset=utf-8",
+    "Date": "Tue, 06 Oct 2026 20:38:59 GMT",
+    "ETag": "\"5f420fa8147367e23e1b0f2d3f30ced4\"",
+    "Server": "cloudflare",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Transfer-Encoding": "chunked",
+    "Vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, accept-encoding, accept",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "content-security-policy": "default-src 'self' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *; style-src 'self' 'unsafe-inline' blob: *; img-src * 'self' blob: data:; connect-src *; font-src *; frame-src *; object-src 'none'; base-uri 'self' https://static-2c.gitbook.com; form-action 'self' https://static-2c.gitbook.com *; frame-ancestors https: ;",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "x-content-type-options": "nosniff",
+    "x-gitbook-route-site": "finngen.gitbook.io/documentation/",
+    "x-gitbook-route-type": "static",
+    "x-gitbook-target": "2c",
+    "x-opennext-cache": "HIT",
+    "x-opennext-request-id": "0.7ydy3g1ckmh",
+    "x-robots-tag": "noindex"
+  },
+  "response_url": "https://finngen.gitbook.io/documentation/data-download.md",
+  "retained_prefix_only": false,
+  "stored_body_reaches_declared_response_length": false,
+  "stored_bytes": 2072,
+  "stored_path": "audits/alternatives/downloads/finngen_docs_markdown.bin",
+  "stored_sha256": "2c33f0f31a003cf72146f927240fb988073d7a480d95ad4b39454da7786cb1c0"
+}

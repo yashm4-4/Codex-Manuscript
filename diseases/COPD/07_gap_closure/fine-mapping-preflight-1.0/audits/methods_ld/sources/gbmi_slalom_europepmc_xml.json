@@ -1,0 +1,31 @@
+{
+  "LD_matrix_values_requested": false,
+  "completed_utc": "2026-10-06T20:34:18.443785+00:00",
+  "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9839193/fullTextXML",
+  "http_status": 200,
+  "interpretation": "Exact returned bytes only; HTTP success does not establish semantic usability, schema correctness, locus coverage or fine-mapping eligibility.",
+  "maximum_response_bytes": 4000000,
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0 (public metadata audit)"
+  },
+  "request_method": "GET",
+  "requested_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9839193/fullTextXML",
+  "response_headers": {
+    "Connection": "close",
+    "Content-Type": "application/xml",
+    "Date": "Tue, 06 Oct 2026 20:34:18 GMT",
+    "Set-Cookie": "JSESSIONID=9FDB0E2AA705C7346E353E94F41C36E2; Path=/europepmc/webservices/rest; Secure; HttpOnly",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Access-Control-Request-Headers",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+  },
+  "saved_bytes": 268252,
+  "saved_path": "audits/methods_ld/sources/gbmi_slalom_europepmc_xml.body",
+  "saved_sha256": "b55c3f46d10da9ca5f4a1169e2a1d1930a564036301d80e65df722d26a75cf2c",
+  "source_id": "gbmi_slalom_europepmc_xml",
+  "started_utc": "2026-10-06T20:34:16.477830+00:00",
+  "status": "HTTP_SUCCESS",
+  "truncated": false,
+  "wall_seconds": 1.9659568649949506
+}

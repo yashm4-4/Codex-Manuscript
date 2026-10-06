@@ -1,0 +1,36 @@
+adjusted_covariates:
+- 'genetic PCs {1-20} '
+- ' sex '
+- ' age at baseline '
+- ' sex:age '
+- ' age2 '
+- ' sequencing protocol'
+analysis_software: regenie_v3.2.5
+author_notes: 'pre-print describing the study here: https://www.medrxiv.org/content/10.1101/2023.12.06.23299426v1'
+coordinate_system: 1-based
+data_file_md5sum: 83362b23ae82588aa7a6a6820c64a9ee
+data_file_name: GCST90473706.h.tsv.gz
+date_metadata_last_modified: 2025-07-23
+file_type: GWAS-SSF v1.0
+genome_assembly: GRCh38
+genotyping_technology:
+- Whole genome sequencing
+gwas_catalog_api: https://www.ebi.ac.uk/gwas/rest/api/studies/GCST90473706
+gwas_id: GCST90473706
+harmonisation_reference: ftp://ftp.ensembl.org/pub/release-95/fasta/homo_sapiens/dna/
+is_harmonised: true
+is_sorted: true
+ontology_mapping:
+- ''
+samples:
+- ancestry_method:
+  - gnomAD v3.1
+  case_control_study: true
+  sample_ancestry:
+  - African/African American
+  sample_ancestry_category:
+  - African unspecified
+  sample_size: 9215
+sex: combined
+trait_description:
+- 'ICD10 J44: Other chronic obstructive pulmonary disease, first occurrence'

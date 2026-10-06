@@ -1,0 +1,34 @@
+adjusted_covariates:
+- age
+- sex
+- age^2
+- age x sex
+- age^2 x sex
+- PC1:PC20
+analysis_software: Quickdraws v1.0
+coordinate_system: 1-based
+data_file_md5sum: 253591046ff41447ab49981ddee0195b
+data_file_name: GCST90468119.h.tsv.gz
+date_metadata_last_modified: 2025-07-08
+file_type: GWAS-SSF v1.0
+genome_assembly: GRCh38
+genotyping_technology:
+- Genome-wide genotyping array
+gwas_catalog_api: https://www.ebi.ac.uk/gwas/rest/api/studies/GCST90468119
+gwas_id: GCST90468119
+harmonisation_reference: ftp://ftp.ensembl.org/pub/release-95/fasta/homo_sapiens/dna/
+imputation_panel: HRC|UK10K
+imputation_software: IMPUTE4
+is_harmonised: true
+is_sorted: true
+minor_allele_freq_lower_limit: 0.0001
+ontology_mapping:
+- EFO_0000341
+samples:
+- case_control_study: true
+  sample_ancestry_category:
+  - European
+  sample_size: 394626
+sex: combined
+trait_description:
+- Chronic obstructive airways disease

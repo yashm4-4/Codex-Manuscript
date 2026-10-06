@@ -1,0 +1,36 @@
+{
+  "acquired_bytes": 59057,
+  "acquired_sha256": "666e499ee7a1b60b63e78dd32d02c9386cc5d967f6674b5b9c103b7f3fc7b310",
+  "body_path": "audits/direct/acquired/copdgene_dbgap_v6_metadata/response.bin",
+  "complete_remote_object_hash": false,
+  "completed_utc": "2026-10-06T20:35:31.694089+00:00",
+  "effective_url": "https://ftp.ncbi.nlm.nih.gov/dbgap/studies/phs000179/phs000179.v6.p2/GapExchange_phs000179.v6.p2.xml",
+  "http_status": 200,
+  "purpose": "Public metadata/header/schema access audit; no statistical analysis",
+  "read_limit_bytes": 1048576,
+  "read_truncated": false,
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0 (bounded public metadata access)"
+  },
+  "requested_utc": "2026-10-06T20:35:31.637967+00:00",
+  "response_headers": {
+    "Accept-Ranges": "bytes",
+    "Access-Control-Allow-Headers": "RANGE, Cache-control, If-None-Match, Content-Type",
+    "Access-Control-Allow-Methods": "GET,POST,PUT,OPTIONS",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Expose-Headers": "Content-Length, Content-Range, Content-Type",
+    "Cache-Control": "public, max-age=86400",
+    "Connection": "close",
+    "Content-Length": "59057",
+    "Content-Type": "text/xml",
+    "Date": "Tue, 06 Oct 2026 20:35:31 GMT",
+    "Expires": "Tue, 13 Oct 2026 20:35:31 GMT",
+    "Last-Modified": "Mon, 06 May 2019 15:32:40 GMT",
+    "Server": "Apache",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Vary": "Accept-Encoding"
+  },
+  "transport_error": null,
+  "url": "https://ftp.ncbi.nlm.nih.gov/dbgap/studies/phs000179/phs000179.v6.p2/GapExchange_phs000179.v6.p2.xml"
+}

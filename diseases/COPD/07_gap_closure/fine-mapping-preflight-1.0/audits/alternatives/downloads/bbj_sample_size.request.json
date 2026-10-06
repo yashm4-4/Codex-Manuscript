@@ -1,0 +1,48 @@
+{
+  "accessed_utc": "2026-10-06T20:39:51.763621+00:00",
+  "command": [
+    "diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/scripts/alternatives_fetch.py",
+    "--url",
+    "https://humandbs.dbcls.jp/files/hum0014/hum0014_v17_v18_v21_sample_size.xlsx",
+    "--label",
+    "bbj_sample_size",
+    "--max-bytes",
+    "65536"
+  ],
+  "http_status": 200,
+  "maximum_bytes_requested_or_retained": 65536,
+  "purpose": "public source metadata or bounded schema sample; no fine-mapping",
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0"
+  },
+  "requested_url": "https://humandbs.dbcls.jp/files/hum0014/hum0014_v17_v18_v21_sample_size.xlsx",
+  "response_EOF_before_byte_limit": true,
+  "response_headers": {
+    "Accept-Ranges": "bytes",
+    "Connection": "close",
+    "Content-Disposition": "attachment",
+    "Content-Encoding": "aws-chunked",
+    "Content-Length": "12991",
+    "Content-Security-Policy": "sandbox; default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'",
+    "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "Date": "Tue, 06 Oct 2026 20:39:52 GMT",
+    "Etag": "\"66daf8444dfcb53de04eccda341c4f2e\"",
+    "Last-Modified": "Thu, 24 Sep 2026 09:32:50 GMT",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Seaweed-X-Amz-ETag": "66daf8444dfcb53de04eccda341c4f2e",
+    "Seaweed-X-Amz-Owner": "app",
+    "Server": "nginx",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Amz-Request-Id": "18DC0B509135EEDC7C13ABDE",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN"
+  },
+  "response_url": "https://humandbs.dbcls.jp/files/hum0014/hum0014_v17_v18_v21_sample_size.xlsx",
+  "retained_prefix_only": false,
+  "stored_body_reaches_declared_response_length": true,
+  "stored_bytes": 12991,
+  "stored_path": "audits/alternatives/downloads/bbj_sample_size.bin",
+  "stored_sha256": "222662a136de76e41eaa003fe15dcd285e3a531fb6468e064652a7c4c449c5a9"
+}

@@ -1,0 +1,15 @@
+{
+  "stage": "fine-mapping-preflight-1.0",
+  "generated_utc": "2026-10-06T20:47:29.691920+00:00",
+  "access_attempt_receipts": 802,
+  "distinct_saved_response_files": 802,
+  "saved_response_bytes": 64623735,
+  "saved_response_hashes_verified": true,
+  "all_hashes_are_saved_byte_hashes_not_assumed_full_downloads": true,
+  "source_ledger": "provenance/source_access_ledger.tsv",
+  "source_ledger_sha256": "ed2481526ceb6033e298bc36b75c80fbc390a044039242e1d3b2c302c99bfa4e",
+  "public_source_audit_only": true,
+  "no_statistics_or_LD_matrix_analysis": true,
+  "python": "3.9.15 | packaged by conda-forge | (main, Nov 22 2022, 08:45:29) \n[GCC 10.4.0]",
+  "platform": "Linux-4.18.0-425.19.3b.el8.x86_64-x86_64-with-glibc2.28"
+}

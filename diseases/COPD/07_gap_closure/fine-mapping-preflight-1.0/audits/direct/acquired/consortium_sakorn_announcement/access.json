@@ -1,0 +1,43 @@
+{
+  "acquired_bytes": 263514,
+  "acquired_sha256": "c52e08e834b7af99bdf4c95f2adda1534dc807b49dedf7404c6c0d1f5ec27ec3",
+  "body_path": "audits/direct/acquired/consortium_sakorn_announcement/response.bin",
+  "complete_remote_object_hash": false,
+  "completed_utc": "2026-10-06T20:41:16.472542+00:00",
+  "effective_url": "https://sites.google.com/a/channing.harvard.edu/icopd-genetics-consortium/announcements/icgc-biobank-paper-published",
+  "http_status": 200,
+  "purpose": "Public metadata/header/schema access audit; no statistical analysis",
+  "read_limit_bytes": 1048576,
+  "read_truncated": false,
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0 (bounded public metadata access)"
+  },
+  "requested_utc": "2026-10-06T20:41:16.317588+00:00",
+  "response_headers": {
+    "Accept-Ranges": "none",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "Connection": "close",
+    "Content-Security-Policy": "base-uri 'self';object-src 'none';report-uri /_/view/cspreport;script-src 'report-sample' 'nonce-dH5_tMh3vTr2dMsWln_HCw' 'unsafe-inline' 'unsafe-eval';worker-src 'self';frame-ancestors https://google-admin.corp.google.com/",
+    "Content-Type": "text/html; charset=utf-8",
+    "Cross-Origin-Opener-Policy": "unsafe-none",
+    "Cross-Origin-Resource-Policy": "same-site",
+    "Date": "Tue, 06 Oct 2026 20:41:16 GMT",
+    "Expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+    "P3P": "CP=\"This is not a P3P policy! See g.co/p3phelp for more info.\"",
+    "Pragma": "no-cache",
+    "Referrer-Policy": "origin",
+    "Server": "ESF",
+    "Set-Cookie": "NID=CuYBCAESmAEBOxGDSL_9JIj6YIUy4uVVxERaDu5GIhitFFWHgJoFhFaUjLGtO-5L_vLshPE-kmsbYPLDo9pKhhkvGf4NIfe2BEt7Rc8skppWzR6lyBsuHvba2r5DrHxB-TVERkOlM2rywt7PGYroS-nwHkFQROAw2GXrzH2VaOvxd0zXudJ2aHV3OeQ5zLK5okw7C7O1d1F4lpONnl_esigBMkUB0qwHz20tMNcGIHPQEm_eYmmNws9-ZMD4oJsbx_vlcWbhrwrXOnszherS8elvDeF2hdraxS4RLP6Pq6fqgrinMWPa4w8; expires=Wed, 07-Apr-2027 20:41:16 GMT; path=/; domain=.google.com; HttpOnly",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site,Accept-Encoding",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "0",
+    "document-policy": "include-js-call-stacks-in-crash-reports",
+    "reporting-endpoints": "default=\"/web-reports?jobset=prod&wcrumsspbp=true&bl=editors.sites-viewer-frontend_20260928.02_p2&app=25&clss=1&context=eJwN0GdUlAcWBuBh-L57EYY2DMJQZ75BpDcRlO6iQiRLLHEheE5UFAlFowhKdBM1Vow9Am6aRtkVBRUExYZujItJDMWKUbAEIopSBWEEZN8fz3nPvefcH-81LrM5aJQgO2GSIJupSpB9CJZ7EmRaEA4nyFSQ45Io2wwhno2yd0BejTIniPyzVx4DXRv65QPwWcaAfAP8GjYovwlvUgbl7-Do9kH5KUj-TS9PB3XSO7kWlslG5atg0GFULnMclffljsqHIXKDoWEMzP7L0DAJcrtChPUgPxAmGMP50jDhJ4idFC7MhJ4ZUwQ9PFz7N6EF8pdHC9_DolXRQgbIy6IFY5h8NlqYApPSpwlRMG7FNMEbNj2bJuyAxInThQWwf1eMUARtAzFCFxzIiBUOQYvyPeElNPEMoRVWzzkoroP7VQfFJ1AVcki8AjdfHxL_gM-7joib4XhmkXgafmspEm9Bbfx_xLugdi4WteD2UbHoB1JpsTi7_biYBP5xJeJkOBZfIpZD1qKT4howX90u2kBi5CtxAcy7-kpcBHcTO8RmMP-2Q7SBoaMKMixWUJm5KZ0D13Om5AON18zoMfz9oDnNhZLnllQBn7Rb0nK4cFJJV8GqUkn2YCBZ0RioCLaiixA1yYpioWIhZghoVlEIWMdbkyPsW2NN38C6w2NpK4xvGku-kOxkQ-lgnGlDSsjT2NJeqDxhS5fgzmE1NcHq7Xa0Dlr32NMrmDfDgRaA-zUH8ofHJU70ywMnqoUXTU7UCXN7nCgJHsBjuDTPma4scaZr0P6FM3WBXNAQQxxraA68TNNQ5zkNvYG4fC3NgbVHtLQRTj7V0lmI8pIoFjJ9JcqGoBiJQmFos0SGWyS6uE2inyHjkEQrobpWoqugqJPIEgZgGKbXSxQHxXACLBskGgs730mUDyNhOhLDdTSarSPO0VH3Zzrqh6w1OloNhWt19B1s-KeOtkDSHR0lw7xBHS2CIhdXKoUZCa40G-oEN7oHpeRGldBr6kZvwdzSjVRwHi7D9cNuVA_3nrnRI7glC6UbJaF0GxaXh1IaGJ4OJSO4AQ1QUBFKJfFhVAHLC8IpFwrzIuggxI2JpDmguxZFnvCiYQr1wIb2KZQHPZnRpIfFK6MpE7w2RlMg-J6NpmC4VxVNj-B_1lOpFh51TqVnkLp-On0KuqLp5Akd2THUD1JpDHmA1R8xZA_rn8TQNvjaJ5a-hZ8fx9INsN_zJ2ngRWcL9YByVivZwXWoB2N9Kymho_gZ9UN6yTPKgt8j2-gmzI9ro1RY-kEb5UBZbRudg6VFzykH3ujb6R1IypfkAceqXlE5FKR00A_Q0dhB_dAR1kn94FLVScptXTRS0UViZRetCO8m6eNu8oCPlnTTQji-sZsKm7qp40k3-QX2UEl-DykO9NC_zvTQ_rBe-g4ev99Lv6f3ktXJXrKFuarXdGXWa_R6Tc_mv6b45NeUsKaPmtf2UU55H30Os3_uo1yY9rKPYqF-bz81Qt3bfroNL-6_oU748eMB8kwdoBrFINk7DlKUNEg8NEjmUDs6SHehW66nQbgs6KkGmmz11Aq_ndJTRJmeokBxX08qCHqgpxB4OG-IStcPUSUE3xqiyNPDFAPJT4epeeEI_QVLvxuhLNh6dIR2Q9KZEUqGy6MjVAPb5e9oH5Q5jZJd3ii5TpWxD_T0yVgP6_Qy3gr7Ewy4ENQfG_DOwwacD9drDNj5FwN-Winn-E45D6oM-YCNIR-CTLUhZ0PFGUPWmgrcIQm8cLHAaTC4VuD5XwocXC_wVCiF9psCGzmInBEkclMvcSscvcn871wj_voLIw7dYsTBlUacGzyGH70dwy3w3hhjngXLJhvzKnhyxZifw_7nxtwzzoTjXU04w92EL04z4e2tJlw_XsGNkBeo4NQ4BdtlKni0SMEO1Qo-d1vB_4WHLQoOGlFwBDy9aspVt0z5QqMpKx6Zshl4QY_ajH1dzfgn-BWK3M24FHThZnynzYyboGKROecUmPP1TnOuhyFrCz73gQUfT7Tg6hwL9iq2YB-4K1pyM4w7ZcnekL5ZyZVXlNyw1orlv1hxwwoVzzykYsUDFe_-S8VH2lTspLXmvROt2SHImp1AAxK4gCu4gQd4gR-cLbTmojFjefkEG84FfaIND0u2LOhs-WSyLZ8F_4u2vOWyLe-Cjse2bK63ZRtYNGLLJRo175ig5tSlat6Vq-YC2HdBzR9Uq9nkrZojZtpxFETDjqN2_PmIHf8IJzzs-RSUQwWcgSq47GXPA9_a885ye75UZ8_fj9pzvsqRPcc6cvUSR74Kfocd-cQlRz4D1WeduP68E9-BYxec2GPYieuMnfkeNAc78650Zy6ATy468-WHzlwDqhZndoBPQjT8-zIN34Gl9RouBJsGDbvd17AffPVEw19DDWu5DuxjtKwBv_e0HL9ey_JqLRvD0X4tn4JWE4lfwZ5wia03SewI6gKJJ3joeM1mHZfv1PF52L1Px4UQfkDHlt_oeEGRjq-_0PFKpQvXO7iwn3IcT4Ki-HFscGUcZ3u48iq47-PK5hNdWdvqym8yxvNo7XjmuvH84PZ4_hPaT7vxm1Y3Pubhjr-68-0J7mxyyZ2t4Ncmd15h4sHrD3iwc5onz9royeeLPHlTqhfnwZMhL95n481FF7z55iNvFi18-K67DzfD-_t9-EOo8vPlq3G-PH2jH8eB5y0_Phniz_Nm-fPWRH_Og69gB-yGvfBigT9_mOrP-xv8uafbn9OG_dk3MIADITM2gFfAZ_cCePKDAI6A_OAJ_D2czpnA0yMCOQ6SbgRyMhybMZHnfjORj_wwkZeZBPEq0NQHcYIYwhGFoVxXE8r-sjAOksJ4EkyGMAiHSJgCU2EaxMAMeB_iYT7EuiDdcB8Sxrt2hrNSYfTqfP49sijb1n7HwE74R1rKaskrZXFa9qdZK31WpmWnrPRehV1KlveSrE-XZacsWzw_wC8gyG9ywCQfv4D5ywP-DwOUE5U&build-label=editors.sites-viewer-frontend_20260928.02_p2&imp-sid=CNLumqmgppcDFaVYqwIdUw4EUg&is-cached-offline=false\""
+  },
+  "transport_error": null,
+  "url": "https://sites.google.com/a/channing.harvard.edu/icopd-genetics-consortium/announcements/icgc-biobank-paper-published"
+}

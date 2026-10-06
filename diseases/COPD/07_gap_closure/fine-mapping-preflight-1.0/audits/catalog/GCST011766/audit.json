@@ -1,0 +1,94 @@
+{
+  "accession": "GCST011766",
+  "phenotype_class_frozen": "direct_copd_susceptibility",
+  "publication_pmid": "33909500",
+  "file_inventory": [],
+  "headers": [],
+  "metadata_files": [],
+  "catalog_api_access": {
+    "requested_url": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST011766",
+    "accessed_utc": "2026-10-06T20:34:46.118603+00:00",
+    "method": "GET",
+    "anonymous": true,
+    "read_limit_bytes": 262144,
+    "requested_range": null,
+    "status": 200,
+    "final_url": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST011766",
+    "response_headers": {
+      "content-type": "application/json"
+    },
+    "downloaded_bytes": 1346,
+    "saved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/audits/catalog/GCST011766/study.json",
+    "sha256": "b49a0c692421f11a7f753997421478dde7f1cbca346e32fb8b63428383f7d2f1",
+    "bounded_read": false,
+    "hash_scope": "saved response bytes only; range/prefix is not a whole-file checksum"
+  },
+  "current_catalog_metadata": {
+    "initial_sample_size": "up to 31,465 European ancestry cases, up to 203,688 European ancestry controls, up to 1,413 African ancestry cases, up to 6,080 African ancestry controls, up to 287 East Asian ancestry cases, up to 7,484 East Asian ancestry controls, up to 61 Hispanic cases, up to 613 Hispanic controls",
+    "replication_sample_size": "NA",
+    "gxe": false,
+    "gxg": false,
+    "snp_count": 109036,
+    "qualifier": "at least",
+    "imputed": false,
+    "pooled": false,
+    "accession_id": "GCST011766",
+    "full_summary_stats_available": false,
+    "user_requested": false,
+    "pubmed_id": 33909500,
+    "platforms": "Illumina [at least 109036]",
+    "disease_trait": "Chronic obstructive pulmonary disease",
+    "genotyping_technologies": [
+      "Exome genotyping array"
+    ],
+    "efo_traits": [
+      {
+        "efo_id": "MONDO_0005002",
+        "efo_trait": "chronic obstructive pulmonary disease"
+      }
+    ],
+    "discovery_ancestry": [
+      "236312 European (NR, Poland, U.K., U.S.)",
+      "7493 African unspecified (U.S.)",
+      "674 Hispanic or Latin American (U.S.)",
+      "7771 East Asian (U.K., U.S.)"
+    ],
+    "replication_ancestry": [],
+    "full_summary_stats": "NA",
+    "terms_of_license": "https://www.ebi.ac.uk/about/terms-of-use/",
+    "bg_efo_traits": [],
+    "array_manufacturer": [
+      "Illumina"
+    ],
+    "_links": {
+      "self": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST011766"
+      },
+      "ancestries": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST011766/ancestries{?sort,direction}",
+        "templated": true
+      }
+    }
+  },
+  "directory_location_basis": "standard accession directory probe, not proof of release",
+  "directory_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST011001-GCST012000/GCST011766/",
+  "directory_access": {
+    "requested_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST011001-GCST012000/GCST011766/",
+    "accessed_utc": "2026-10-06T20:34:46.628653+00:00",
+    "method": "GET",
+    "anonymous": true,
+    "read_limit_bytes": 262144,
+    "requested_range": null,
+    "status": 404,
+    "final_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST011001-GCST012000/GCST011766/",
+    "response_headers": {
+      "content-length": "196",
+      "content-type": "text/html; charset=iso-8859-1"
+    },
+    "downloaded_bytes": 196,
+    "saved_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/audits/catalog/GCST011766/directory.html",
+    "sha256": "80c3fe2ae1062abf56456f52518bd670f9ec3917b7f85e152b347ac6b6faf880",
+    "bounded_read": false,
+    "hash_scope": "saved response bytes only; range/prefix is not a whole-file checksum"
+  }
+}

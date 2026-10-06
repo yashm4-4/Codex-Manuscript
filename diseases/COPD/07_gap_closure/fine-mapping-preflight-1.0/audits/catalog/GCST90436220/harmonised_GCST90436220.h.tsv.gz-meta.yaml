@@ -1,0 +1,24 @@
+coordinate_system: 1-based
+data_file_md5sum: cb6242e5f7e47d44102437db4e2a8b96
+data_file_name: GCST90436220.h.tsv.gz
+date_metadata_last_modified: 2025-01-22
+file_type: pre-GWAS-SSF
+genome_assembly: GRCh38
+genotyping_technology:
+- Genome-wide genotyping array
+gwas_catalog_api: https://www.ebi.ac.uk/gwas/rest/api/studies/GCST90436220
+gwas_id: GCST90436220
+harmonisation_reference: ftp://ftp.ensembl.org/pub/release-95/fasta/homo_sapiens/dna/
+is_harmonised: true
+is_sorted: true
+ontology_mapping:
+- EFO_0000341
+samples:
+- sample_ancestry:
+  - British
+  sample_ancestry_category:
+  - European
+  sample_size: 386007
+sex: NR
+trait_description:
+- Chronic airway obstruction (PheCode 496)

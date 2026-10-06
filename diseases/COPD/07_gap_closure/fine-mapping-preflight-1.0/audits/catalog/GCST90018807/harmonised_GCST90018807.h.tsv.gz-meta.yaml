@@ -1,0 +1,33 @@
+author_notes: Sakaue S, Kanai M, et al. A global atlas of genetic associations of
+  220 deep phenotypes. medRxiv (2020) https://doi.org/10.1101/2020.10.23.20213652
+  [In Press in Nature Genetics]
+coordinate_system: 1-based
+data_file_md5sum: 2875c159113c8da3b185a608881fdabb
+data_file_name: GCST90018807.h.tsv.gz
+date_metadata_last_modified: 2025-09-19
+file_type: pre-GWAS-SSF
+genome_assembly: GRCh38
+genotyping_technology:
+- Genome-wide genotyping array
+gwas_catalog_api: https://www.ebi.ac.uk/gwas/rest/api/studies/GCST90018807
+gwas_id: GCST90018807
+harmonisation_reference: ftp://ftp.ensembl.org/pub/release-95/fasta/homo_sapiens/dna/
+is_harmonised: true
+is_sorted: true
+ontology_mapping:
+- ''
+samples:
+- sample_ancestry_category:
+  - European
+  sample_size: 468475
+- sample_ancestry_category:
+  - East Asian
+  sample_size: 166670
+- sample_ancestry_category:
+  - East Asian
+  sample_size: 166670
+- sample_ancestry_category:
+  - European
+  sample_size: 468475
+trait_description:
+- Chronic obstructive pulmonary disease

@@ -1,0 +1,14 @@
+gate_id	requirement	scientific_status
+phenotype	Exact disease/trait definition, direction, controls, tier, ancestry, sex/subgroup, source release; no weaker-phenotype relabeling	NOT_RUN_PREFLIGHT_ONLY
+full_file	Genome-wide signed statistics include null measurements; complete download/hash/schema/row validation, not header/range proof	NOT_RUN_PREFLIGHT_ONLY
+signed_statistic	Verified effect allele and scale; finite beta/valid positive OR; positive SE or valid signed statistic; P encoding/test and N resolved	NOT_RUN_PREFLIGHT_ONLY
+identity	Native assembly/reference and exact allelic contrast verified; deterministic duplicate/palindromic/indel rules; no rsID-only join	NOT_RUN_PREFLIGHT_ONLY
+ld_origin	LD release, cohort/subgroup, ancestry, sample N, imputation, dosages/covariates and signed counted allele documented	NOT_RUN_PREFLIGHT_ONLY
+density	All retained variants share exact ordered signed LD; missingness/attrition and lead/strong-variant losses audited; no universal coverage percent invented	NOT_RUN_PREFLIGHT_ONLY
+ld_numerics	Triangle reconstruction, scaling/diagonal, symmetry, range, PSD/rank/condition and distance bands verified under frozen precision tolerances; no silent repairs	NOT_RUN_PREFLIGHT_ONLY
+sample_compatibility	Per-variant case/control/nominal/effective N, test and cohort weights match approved likelihood; no automatic Neff substitution	NOT_RUN_PREFLIGHT_ONLY
+consistency	Future z/R conditional diagnostics reviewed; no universal lambda threshold or fit-improving allele flip	NOT_RUN_PREFLIGHT_ONLY
+overlap	Cohort overlap/repeated releases/controls cataloged; no unsupported independent replication or meta-combination	NOT_RUN_PREFLIGHT_ONLY
+locus_boundary	GWAS-only deterministic intervals, MHC/complex regions excluded/deferred, boundary/long-range coverage checked	NOT_RUN_PREFLIGHT_ONLY
+execution_freeze	User authorization plus pinned packages/binaries/environment/options/seeds and full signed input/LD freeze	NOT_RUN_PREFLIGHT_ONLY
+postfit	Future convergence, cap sensitivity, CS purity, search/ELBO and instability assessed; method agreement does not fix input errors	NOT_RUN_PREFLIGHT_ONLY

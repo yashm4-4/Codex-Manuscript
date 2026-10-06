@@ -1,0 +1,39 @@
+{
+  "LD_matrix_values_requested": false,
+  "completed_utc": "2026-10-06T20:38:12.663125+00:00",
+  "final_url": "https://www.medrxiv.org/content/10.1101/2021.09.03.21262975v1.full",
+  "http_status": 403,
+  "interpretation": "Exact returned bytes only; HTTP success does not establish semantic usability, schema correctness, locus coverage or fine-mapping eligibility.",
+  "maximum_response_bytes": 4000000,
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0 (public metadata audit)"
+  },
+  "request_method": "GET",
+  "requested_url": "https://www.medrxiv.org/content/10.1101/2021.09.03.21262975v1.full",
+  "response_headers": {
+    "CF-RAY": "a46777e90b91fdd8-IAD",
+    "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "Connection": "close",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Date": "Tue, 06 Oct 2026 20:38:12 GMT",
+    "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+    "Referrer-Policy": "same-origin",
+    "Server": "cloudflare",
+    "Speculation-Rules": "\"/cdn-cgi/speculation\"",
+    "Strict-Transport-Security": "max-age=31536000; preload",
+    "Transfer-Encoding": "chunked",
+    "Vary": "accept-encoding",
+    "X-Frame-Options": "SAMEORIGIN",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "set-cookie": "__cf_bm=u_P6t80wGQ7gDbs8seLRmqtO2plRJjDqnmnwq2UWPig-1791319092.6510942-1.0.1.1-P93F1CdoDQkdnf0lfuoMb4C_tR70GXRaZ6p5.eK26OZTJvxHshPjKmc5ZWFqWEwhpwRxT1DaxFuimSqQqItsdOJ4tSMVZpFLnUqipRXPOx6IabwNk37W6iS3DwGRmxEx; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.medrxiv.org; Expires=Tue, 06 Oct 2026 21:08:12 GMT"
+  },
+  "saved_bytes": 5022,
+  "saved_path": "audits/methods_ld/sources/bbj_finemapping_methods.body",
+  "saved_sha256": "b449b316c814e943834711a949f7ac002ab8fd522732d146c8c3f796a9c08191",
+  "source_id": "bbj_finemapping_methods",
+  "started_utc": "2026-10-06T20:38:12.607301+00:00",
+  "status": "HTTP_ERROR",
+  "truncated": false,
+  "wall_seconds": 0.05582385906018317
+}

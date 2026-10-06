@@ -1,0 +1,43 @@
+{
+  "LD_matrix_values_requested": false,
+  "completed_utc": "2026-10-06T20:38:12.032783+00:00",
+  "final_url": "https://stephenslab.github.io/susieR/reference/susie_summarize.html",
+  "http_status": 404,
+  "interpretation": "Exact returned bytes only; HTTP success does not establish semantic usability, schema correctness, locus coverage or fine-mapping eligibility.",
+  "maximum_response_bytes": 4000000,
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0 (public metadata audit)"
+  },
+  "request_method": "GET",
+  "requested_url": "https://stephenslab.github.io/susieR/reference/susie_summarize.html",
+  "response_headers": {
+    "Accept-Ranges": "bytes",
+    "Access-Control-Allow-Origin": "*",
+    "Age": "0",
+    "Connection": "close",
+    "Content-Length": "6322",
+    "Content-Type": "text/html; charset=utf-8",
+    "Date": "Tue, 06 Oct 2026 20:38:12 GMT",
+    "ETag": "\"6a936b85-18b2\"",
+    "Server": "GitHub.com",
+    "Vary": "Accept-Encoding",
+    "Via": "1.1 varnish",
+    "X-Cache": "MISS",
+    "X-Cache-Hits": "0",
+    "X-Fastly-Request-ID": "44e79d5b2cabdf5f706ae1882e0ab8bb84b44856",
+    "X-GitHub-Request-Id": "7A14:147976:63126:780B4:6AC55C33",
+    "X-Served-By": "cache-iad-kcgs7200023-IAD",
+    "X-Timer": "S1791319092.999471,VS0,VE30",
+    "x-github-edge-region": "iad",
+    "x-proxy-cache": "MISS"
+  },
+  "saved_bytes": 6322,
+  "saved_path": "audits/methods_ld/sources/susie_summarize_reference.body",
+  "saved_sha256": "4cead2e8d2352d0e8883cf16a96ab82a168d47a3bc2a0e514eef72e5a0b3eaa1",
+  "source_id": "susie_summarize_reference",
+  "started_utc": "2026-10-06T20:38:11.964663+00:00",
+  "status": "HTTP_ERROR",
+  "truncated": false,
+  "wall_seconds": 0.06811628409195691
+}

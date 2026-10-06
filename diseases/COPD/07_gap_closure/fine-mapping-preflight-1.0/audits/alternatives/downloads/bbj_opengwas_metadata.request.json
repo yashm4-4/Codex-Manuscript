@@ -1,0 +1,37 @@
+{
+  "accessed_utc": "2026-10-06T20:35:44.112186+00:00",
+  "command": [
+    "diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/scripts/alternatives_fetch.py",
+    "--url",
+    "https://gwas.mrcieu.ac.uk/datasets/bbj-a-103/",
+    "--label",
+    "bbj_opengwas_metadata",
+    "--max-bytes",
+    "1048576"
+  ],
+  "http_status": 200,
+  "maximum_bytes_requested_or_retained": 1048576,
+  "purpose": "public source metadata or bounded schema sample; no fine-mapping",
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0"
+  },
+  "requested_url": "https://gwas.mrcieu.ac.uk/datasets/bbj-a-103/",
+  "response_EOF_before_byte_limit": true,
+  "response_headers": {
+    "Accept-Ranges": "bytes",
+    "Connection": "close",
+    "Content-Length": "14625",
+    "Content-Type": "text/html",
+    "Date": "Tue, 06 Oct 2026 20:35:45 GMT",
+    "ETag": "\"6a289691-3921\"",
+    "Last-Modified": "Tue, 09 Jun 2026 22:41:21 GMT",
+    "Server": "openresty"
+  },
+  "response_url": "https://opengwas.io/datasets/bbj-a-103",
+  "retained_prefix_only": false,
+  "stored_body_reaches_declared_response_length": true,
+  "stored_bytes": 14625,
+  "stored_path": "audits/alternatives/downloads/bbj_opengwas_metadata.bin",
+  "stored_sha256": "2a169539feb823fb2ed39a5e6b6c2098a72500e363e68bcecf53b9a74f2dd1bc"
+}

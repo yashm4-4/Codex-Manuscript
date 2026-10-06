@@ -1,0 +1,1567 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+  <title>File format reference - PLINK 2.0</title>
+
+<link rel="stylesheet" href="/static/css/template.css" type="text/css" />
+<link rel="shortcut icon" type="image/png" href="/static/img/favicon.ico" type="image/png" />
+<noscript><link rel="stylesheet" href="/static/css/no-js.css" type="text/css" /></noscript>
+<![if gt IE 6]>
+
+
+<![endif]>
+</head>
+
+<body>
+<!--[if lte IE 6]>
+<p>This website does not support Internet Explorer 6.  Please upgrade to a newer version of IE, or a different browser.</p>
+<![endif]-->
+<![if gt IE 6]>
+<script src="/static/js/thirdparty/jquery-1.11.1.min.js"></script>
+<script src="/static/js/cog_library.js"></script>
+
+<!-- to deal with static/js caching, the wdist_flag_search filename includes a
+     datestamp.
+     possible todo: use Django 1.7's method of achieving DRY here. -->
+<script src="/static/js/plink2_flag_search_251229.js"></script>
+
+<script src="/static/js/plink2_generic.js"></script>
+
+
+<div id="outer_frame">
+  <div id="main_body">
+    
+<a href="/plink/1.9/">
+  <div id="topleft" class="navbar" style="width: 155px; margin-right: 0;">
+    <p id="menu1_text"><span class="ellipsis">&lt;&lt;&nbsp;</span>PLINK 1.9</p>
+  </div>
+</a>
+
+    
+<a href="/plink/2.0/">
+  <div id="topmenu2" class="navbar">
+    <p id="menu2_text">PLINK 2.0 home<span class="ellipsis js-required">...</span></p>
+  </div>
+</a>
+
+    
+<a href="/plink/2.0/tutorials/tutorial_setup">
+  <div id="topmenu3" class="navbar">
+    <p id="menu3_text">Tutorials<span class="ellipsis js-required">...</span></p>
+  </div>
+</a>
+
+    
+<a href="https://groups.google.com/d/forum/plink2-users">
+  <div id="topmenu4" class="navbar">
+    <p id="menu4_text">plink2-users<span class="ellipsis js-required">...</span></p>
+  </div>
+</a>
+
+    
+<div id="topmenu5" class="navbar_current">
+  <p id="menu5_text">File formats<span class="ellipsis"></span></p>
+</div>
+
+    
+<a href="/plink/2.0/index">
+  <div id="topmenu6" class="navbar">
+    <p id="menu6_text">PLINK 2.0 index<span class="ellipsis js-required">...</span></p>
+  </div>
+</a>
+
+    <div class="clear">
+    </div>
+    
+<table style="margin-left: auto; margin-right: auto; border-collapse: collapse;">
+  <tr style="background-color: #eeeeee;">
+    <td id="leftbar_full" style="margin-top: 0; border: 0;">
+      <a href="/plink/2.0/"><p class="leftbar" style="margin-top: 24px;"><b>Introduction, downloads</b></p></a>
+      <p class="lb_indent" style="color: #666666;">D: 5 Oct 2026</p>
+      
+      <a href="/plink/2.0/#recent"><p class="leftbar lb_indent">Recent version history</p></a>
+      
+      <a href="/plink/2.0/#new"><p class="leftbar lb_indent">What's new?</p></a>
+      <a href="/plink/2.0/#next"><p class="leftbar lb_indent">Coming next</p></a>
+      <a href="" onClick="$('#plink2_flag_search').focus(); window.scrollBy(0, 150); return false;"><p class="leftbar lb_heading">[Jump to search box]</p></a>
+      <a href="/plink/2.0/general_usage"><p class="leftbar lb_heading">General usage</p>
+      <a href="/plink/2.0/general_usage"><p class="leftbar lb_indent">Getting started</p></a>
+      <a href="/plink/2.0/general_usage#flag_usage"><p class="leftbar lb_indent">Flag usage summaries</p></a>
+      <a href="/plink/2.0/general_usage#colset"><p class="leftbar lb_indent2">Column set descriptors</p></a>
+      <a href="/plink/2.0/general_usage#cite"><p class="leftbar lb_indent">Citation instructions</p></a>
+      <a href="/plink/2.0/input"><p class="leftbar lb_heading">Standard data input</p></a>
+      <a href="/plink/2.0/input#bed"><p class="leftbar lb_indent">PLINK 1 binary (.bed)</p></a>
+      <a href="/plink/2.0/input#provisional_ref"><p class="leftbar lb_indent2">PROVISIONAL_REF?</p></a>
+      <a href="/plink/2.0/input#pgen"><p class="leftbar lb_indent">PLINK 2 binary (.pgen)</p></a>
+      <a href="/plink/2.0/input#keep_autoconv"><p class="leftbar lb_indent2">Autoconversion behavior</p></a>
+      <a href="/plink/2.0/input#vcf"><p class="leftbar lb_indent">VCF/BCF (.vcf[.gz], .bcf)</p></a>
+      <a href="/plink/2.0/input#oxford"><p class="leftbar lb_indent">Oxford genotype (.bgen)</p></a>
+      <a href="/plink/2.0/input#haps"><p class="leftbar lb_indent">Oxford haplotype (.haps)</p></a>
+      <a href="/plink/2.0/input#eigfile"><p class="leftbar lb_indent">EIGENSOFT binary</p></a>
+      <a href="/plink/2.0/input#plink1text"><p class="leftbar lb_indent">PLINK 1 text (.ped, .tped)</p></a>
+      <a href="/plink/2.0/input#import_dosage"><p class="leftbar lb_indent">PLINK 1 dosage</p></a>
+      <a href="/plink/2.0/input#sample_id_convert"><p class="leftbar lb_indent">Sample ID conversion</p></a>
+      <a href="/plink/2.0/input#dosage_import_settings"><p class="leftbar lb_indent">Dosage import settings</p></a>
+      <a href="/plink/2.0/input#random"><p class="leftbar lb_indent">Generate random</p></a>
+      <a href="/plink/2.0/input#allow_extra_chr"><p class="leftbar lb_indent">Unusual chromosome IDs</p></a>
+      <a href="/plink/2.0/input#read_freq"><p class="leftbar lb_indent">Allele frequencies</p></a>
+      <a href="/plink/2.0/input#pheno"><p class="leftbar lb_indent">Phenotypes</p></a>
+      <a href="/plink/2.0/input#covar"><p class="leftbar lb_indent">Covariates</p></a>
+      <a href="/plink/2.0/input#within"><p class="leftbar lb_indent">'Cluster' import</p></a>
+      <a href="/plink/2.0/input#fa"><p class="leftbar lb_indent">Reference genome (.fa)</p></a>
+      <a href="/plink/2.0/filter"><p class="leftbar lb_heading">Input filtering</p></a>
+      <a href="/plink/2.0/filter#sample"><p class="leftbar lb_indent">Sample ID file</p></a>
+      <a href="/plink/2.0/filter#variant"><p class="leftbar lb_indent">Variant ID file</p></a>
+      <a href="/plink/2.0/filter#variant"><p class="leftbar lb_indent">Interval-BED file</p></a>
+      <a href="/plink/2.0/filter#extract_col_cond"><p class="leftbar lb_indent" title="Extract variants based on text column contents.">--extract-col-cond</p></a>
+      <a href="/plink/2.0/filter#pvar_aux"><p class="leftbar lb_indent">QUAL, FILTER, INFO</p></a>
+      <a href="/plink/2.0/filter#chr"><p class="leftbar lb_indent">Chromosomes</p></a>
+      <a href="/plink/2.0/filter#snps_only"><p class="leftbar lb_indent">SNPs only</p></a>
+      <a href="/plink/2.0/filter#exclude_palindromic_snps"><p class="leftbar lb_indent">Palindromic SNPs</p></a>
+      <a href="/plink/2.0/filter#vrange_id"><p class="leftbar lb_indent">Simple variant window</p></a>
+      <a href="/plink/2.0/filter#snps_flag"><p class="leftbar lb_indent">Multiple variant ranges</p></a>
+      <a href="/plink/2.0/filter#rm_dup"><p class="leftbar lb_indent">Deduplicate variants</p></a>
+      <a href="/plink/2.0/filter#thin"><p class="leftbar lb_indent">Sample/variant thinning</p></a>
+      <a href="/plink/2.0/filter#keep_if"><p class="leftbar lb_indent">Pheno./covar. condition</p></a>
+      <a href="/plink/2.0/filter#require_pheno"><p class="leftbar lb_indent2">Missingness</p></a>
+      <a href="/plink/2.0/filter#keep_cats"><p class="leftbar lb_indent2">Category subset</p></a>
+      <a href="/plink/2.0/filter#keep_col_match"><p class="leftbar lb_indent" title="Filter samples based on text column contents, without treating it as a phenotype/covariate.">--keep-col-match</p></a>
+      <a href="/plink/2.0/filter#missing"><p class="leftbar lb_indent">Missing genotypes</p></a>
+      <a href="/plink/2.0/filter#select_sid_representatives"><p class="leftbar lb_indent">Same-indiv selection</p></a>
+      <a href="/plink/2.0/filter#min_alleles"><p class="leftbar lb_indent">Number of distinct alleles</p></a>
+      <a href="/plink/2.0/filter#maf"><p class="leftbar lb_indent">Allele frequencies/counts</p></a>
+      <a href="/plink/2.0/filter#hwe"><p class="leftbar lb_indent">Hardy-Weinberg</p></a>
+      <a href="/plink/2.0/filter#mach_r2_filter"><p class="leftbar lb_indent">Imputation quality</p></a>
+      <a href="/plink/2.0/filter#me"><p class="leftbar lb_indent">Mendel errors</p></a>
+      <a href="/plink/2.0/filter#sex"><p class="leftbar lb_indent">Sex</p></a>
+      <a href="/plink/2.0/filter#keep_founders"><p class="leftbar lb_indent">Founder status</p></a>
+        <p class="lb_heading" style="color: #444444;">Main functions</p>
+        <a href="/plink/2.0/data"><p class="leftbar lb_indent">Data management</p></a>
+        <a href="/plink/2.0/data#make_pgen"><p class="leftbar lb_indent2" title="Generate a new binary fileset.">--make-[b]pgen/--make-bed</p></a>
+        <a href="/plink/2.0/data#export"><p class="leftbar lb_indent2" title="Export a non-PLINK 2 fileset.">--export</p></a>
+        <a href="/plink/2.0/data#irreg_output"><p class="leftbar lb_indent2" title="Specify chromosome coding scheme in output files.">--output-chr</p></a>
+        <a href="/plink/2.0/data#zero_cluster"><p class="leftbar lb_indent2" title="Set blocks of genotype calls to missing.">--zero-cluster</p></a>
+        <a href="/plink/2.0/data#split_par"><p class="leftbar lb_indent2" title="Toggle representation of X chromosome pseudo-autosomal region.">--split-par/--merge-par</p></a>
+        <a href="/plink/2.0/data#set_me_missing"><p class="leftbar lb_indent2" title="Set Mendel errors to missing.">--set-me-missing</p></a>
+        <a href="/plink/2.0/data#set_all_var_ids"><p class="leftbar lb_indent2" title="Assign new chromosome-and-position-based IDs to variants.">--set-all-var-ids</p></a>
+        <a href="/plink/2.0/data#recover_var_ids"><p class="leftbar lb_indent2" title="Recover original variant IDs from a .pvar/VCF/.bim, after clobbering them with --set-all-var-ids.">--recover-var-ids</p></a>
+        <a href="/plink/2.0/data#update_map"><p class="leftbar lb_indent2" title="Update variant chromosome codes, positions, or names.">--update-map...</p></a>
+        <a href="/plink/2.0/data#update_indiv"><p class="leftbar lb_indent2" title="Update sample IDs, parental IDs, or sexes.">--update-ids...</p></a>
+        <a href="/plink/2.0/data#flip"><p class="leftbar lb_indent2" title="Flip strand for some SNPs.">--flip</p></a>
+        <a href="/plink/2.0/data#ref_allele"><p class="leftbar lb_indent2" title="Set REF alleles from a tab-delimited file (e.g. VCF).">--ref-allele</p></a>
+        <a href="/plink/2.0/data#ref_allele"><p class="leftbar lb_indent2" title="Set REF alleles from a FASTA file.">--ref-from-fa</p></a>
+        <a href="/plink/2.0/data#normalize"><p class="leftbar lb_indent2" title="Left-normalize variants.">--normalize</p></a>
+        <a href="/plink/2.0/data#indiv_sort"><p class="leftbar lb_indent2" title="Sort sample IDs.">--indiv-sort</p></a>
+        <a href="/plink/2.0/data#write_covar"><p class="leftbar lb_indent2" title="Create a pruned covariate file.">--write-covar</p></a>
+        <a href="/plink/2.0/data#variance_standardize"><p class="leftbar lb_indent2" title="Linearly transform quantitative phenotypes and covariates to mean-zero, variance 1.">--variance-standardize</p></a>
+        <a href="/plink/2.0/data#quantile_normalize"><p class="leftbar lb_indent2" title="Force quantitative phenotypes and covariates to a N(0, 1) distribution, keeping only rank order.">--quantile-normalize</p></a>
+        <a href="/plink/2.0/data#split_cat_pheno"><p class="leftbar lb_indent2" title="Split categorical phenotype(s)/covariate(s) into multiple binary phenotypes/covariates.">--split-cat-pheno</p></a>
+        <a href="/plink/2.0/data#pheno_svd"><p class="leftbar lb_indent2" title="Generate summary phenotypes via SVD.">--pheno-svd</p></a>
+        <a href="/plink/2.0/data#pmerge"><p class="leftbar lb_indent2" title="Merge filesets.">--pmerge[-list]</p></a>
+        <a href="/plink/2.0/data#write_samples"><p class="leftbar lb_indent2" title="Write sample IDs which pass all filters.">--write-samples</p></a>
+        <a href="/plink/2.0/basic_stats"><p class="leftbar lb_indent">Basic statistics</p></a>
+        <a href="/plink/2.0/basic_stats#freq"><p class="leftbar lb_indent2" title="Report allele frequencies.">--freq</p></a>
+        <a href="/plink/2.0/basic_stats#geno_counts"><p class="leftbar lb_indent2" title="Report genotype hardcall counts.">--geno-counts</p></a>
+        <a href="/plink/2.0/basic_stats#sample_counts"><p class="leftbar lb_indent2" title="Report sample variant-counts.">--sample-counts</p></a>
+        <a href="/plink/2.0/basic_stats#missing"><p class="leftbar lb_indent2" title="Sample- and variant-based missing data reports.">--missing</p></a>
+        <a href="/plink/2.0/basic_stats#genotyping_rate"><p class="leftbar lb_indent2" title="Print genotyping rate (was automatic in PLINK 1.x).">--genotyping-rate</p></a>
+        <a href="/plink/2.0/basic_stats#hardy"><p class="leftbar lb_indent2" title="Hardy-Weinberg equilibrium exact test p-value report.">--hardy</p></a>
+        <a href="/plink/2.0/basic_stats#mendel"><p class="leftbar lb_indent2" title="Mendel error report.">--mendel</p></a>
+        <a href="/plink/2.0/basic_stats#het"><p class="leftbar lb_indent2" title="Calculate inbreeding coefficients.">--het</p></a>
+        <a href="/plink/2.0/basic_stats#check_sex"><p class="leftbar lb_indent2" title="Impute sexes from chrX/chrY genotype calls.">--check-sex/--impute-sex</p></a>
+        <a href="/plink/2.0/basic_stats#fst"><p class="leftbar lb_indent2" title="Estimate per-variant and between-population Wright's Fst.">--fst</p></a>
+        <a href="/plink/2.0/basic_stats#pgen_info"><p class="leftbar lb_indent2" title="Print .pgen dimensions, and which data types are present.">--pgen-info</p></a>
+        <a href="/plink/2.0/diff"><p class="leftbar lb_indent">Pairwise diffs</p></a>
+        <a href="/plink/2.0/diff#pgen_diff"><p class="leftbar lb_indent2" title="Report genotype/dosage differences in the intersection of two filesets.">--pgen-diff</p></a>
+        <a href="/plink/2.0/diff#sample_diff"><p class="leftbar lb_indent2" title="Report discordances and discordance-counts between pairs of samples.">--sample-diff</p></a>
+        <a href="/plink/2.0/ld"><p class="leftbar lb_indent">Linkage disequilibrium</p></a>
+        <a href="/plink/2.0/ld#indep"><p class="leftbar lb_indent2" title="Generate a pruned marker list in approximate linkage equilibrium.">--indep...</p></a>
+        <a href="/plink/2.0/ld#r"><p class="leftbar lb_indent2" title="Report LD statistics.">--r[2]-[un]phased</p></a>
+        <a href="/plink/2.0/ld#ld_flag"><p class="leftbar lb_indent2" title="Display LD statistics for a single pair of variants.">--ld</p></a>
+        <a href="/plink/2.0/distance"><p class="leftbar lb_indent">Sample-distance matrices</p></a>
+        <a href="/plink/2.0/distance#make_rel"><p class="leftbar lb_indent2">Relationship/covariance</p></a>
+        <p class="lb_indent2n">&nbsp; (--make-grm-bin...)</p>
+        <a href="/plink/2.0/distance#make_king"><p class="leftbar lb_indent2" title="KING-robust kinship estimator.">--make-king...</p></a>
+        <a href="/plink/2.0/distance#king_cutoff"><p class="leftbar lb_indent2" title="Prune samples to remove close relations.">--king-cutoff</p></a>
+        <a href="/plink/2.0/strat"><p class="leftbar lb_indent">Population stratification</p></a>
+        <a href="/plink/2.0/strat#pca"><p class="leftbar lb_indent2" title="Extract principal components.">--pca</p></a>
+        <a href="/plink/2.0/score#pca_project"><p class="leftbar lb_indent2" title="Project samples onto PCs computed off another dataset.">PCA projection</p></a>
+        <a href="/plink/2.0/assoc"><p class="leftbar lb_indent">Association analysis</p></a>
+        <a href="/plink/2.0/assoc#glm"><p class="leftbar lb_indent2" title="Linear and logistic/Firth regression with covariates.">--glm</p></a>
+        <a href="/plink/2.0/assoc#glm_errcode"><p class="leftbar lb_indent2" title="Reasons for --glm 'NA' results.">--glm ERRCODE values</p></a>
+        <a href="/plink/2.0/assoc#gwas_ssf"><p class="leftbar lb_indent2" title="Reformat --glm output for GWAS Catalog.">--gwas-ssf</p></a>
+        <a href="/plink/2.0/assoc#adjust"><p class="leftbar lb_indent2" title="Basic multiple testing correction.">--adjust-file</p></a>
+        <a href="/plink/2.0/assoc#perm"><p class="leftbar lb_indent2">Monte Carlo permutation</p></a>
+        <a href="/plink/2.0/postproc"><p class="leftbar lb_indent">Report postprocessing</p></a>
+        <a href="/plink/2.0/postproc#clump"><p class="leftbar lb_indent2" title="Organize association reports into LD-based clumps.">--clump</p></a>
+        <a href="/plink/2.0/score"><p class="leftbar lb_indent">Linear scoring</p></a>
+        <a href="/plink/2.0/score"><p class="leftbar lb_indent2" title="Compute sample scores, given allele coefficients.">--score[-list]</p></a>
+        <a href="/plink/2.0/score#vscore"><p class="leftbar lb_indent2" title="Compute variant scores, given sample coefficients.">--variant-score</p></a>
+        <a href="/plink/2.0/parallel"><p class="leftbar lb_heading">Distributed computation</p></a>
+        <a href="/plink/2.0/help"><p class="leftbar lb_heading">Command-line help</p></a>
+        <a href="/plink/2.0/other"><p class="leftbar lb_heading">Miscellaneous</p></a>
+        <a href="/plink/2.0/other#script"><p class="leftbar lb_indent">Flag/parameter reuse</p></a>
+        <a href="/plink/2.0/other#memory"><p class="leftbar lb_indent">System resource usage</p></a>
+        <a href="/plink/2.0/other#loop_cats"><p class="leftbar lb_indent" title="Execute PLINK 2's main body once for each category.">--loop-cats</p></a>
+        <a href="/plink/2.0/other#zstd"><p class="leftbar lb_indent">.zst decompression</p></a>
+        <a href="/plink/2.0/other#seed"><p class="leftbar lb_indent">Pseudorandom numbers</p></a>
+        <a href="/plink/2.0/other#warning_errcode"><p class="leftbar lb_indent">Warnings as errors</p></a>
+        <a href="/plink/2.0/other#validate"><p class="leftbar lb_indent">.pgen validation</p></a>
+        <a href="/plink/2.0/resources"><p class="leftbar lb_heading">Resources</p></a>
+        <a href="/plink/2.0/resources#phase3_1kg"><p class="leftbar lb_indent">1000 Genomes phase 3</p></a>
+        <a href="/plink/2.0/resources#hgdp"><p class="leftbar lb_indent">HGDP-CEPH</p></a>
+        <a href="/plink/2.0/resources#fa"><p class="leftbar lb_indent">FASTA files</p></a>
+        <a href="/plink/2.0/errors"><p class="leftbar lb_heading">Errors and warnings</p></a>
+        <a href="/plink/2.0/output"><p class="leftbar lb_heading">Output file list</p></a>
+        <a href="/plink/2.0/order"><p class="leftbar lb_heading">Order of operations</p></a>
+        <a href="/plink/2.0/dev"><p class="leftbar lb_heading">Developer information</p></a>
+        <a href="https://github.com/chrchang/plink-ng/tree/master/2.0/"><p class="leftbar lb_indent">GitHub root</p></a>
+        <a href="https://pypi.org/project/Pgenlib/"><p class="leftbar lb_indent">Python library</p></a>
+        <a href="https://CRAN.R-project.org/package=pgenlibr"><p class="leftbar lb_indent">R library</p></a>
+        <a href="/plink/2.0/dev#compile"><p class="leftbar lb_indent">Compilation</p></a>
+        <a href="/plink/2.0/dev#extend"><p class="leftbar lb_indent">Adding new functionality</p></a>
+        <a href="/plink/2.0/mailing"><p class="leftbar lb_heading">Discussion forums</p></a>
+        <a href="/plink/2.0/credits"><p class="leftbar lb_heading">Credits</p></a>
+        <a href="/plink/2.0/formats"><p class="leftbar lb_heading">File formats</p></a>
+        <p class="leftbar lb_heading">Tutorials</p>
+        <a href="/plink/2.0/tutorials/tutorial_setup"><p class="leftbar lb_indent">Setup</p></a>
+        <a href="/plink/2.0/tutorials/rulesofthumb"><p class="leftbar lb_indent">Rules of Thumb</p></a>
+        <a href="/plink/2.0/tutorials/qc1"><p class="leftbar lb_indent">Data Exploration 1 &mdash; HWE, Allele Frequency Spectrum<p/></a>
+        <a><p class="leftbar lb_indent" style="color: #666666;">Data Exploration 2 &mdash; Genomic Structure</p></a>
+        <a href="/plink/2.0/tutorials/qc2a"><p class="leftbar lb_indent2">Linkage<p/></a>
+        <a href="/plink/2.0/tutorials/qc2b" style="color: inherit; text-decoration: none;"><p class="leftbar lb_indent2">Relationship Matrix<p/></a>
+        <a><p class="leftbar lb_indent" style="color: #666666;">Genome-Wide Assocation Analyses (GWAS)</p></a>
+        <a href="/plink/2.0/tutorials/qwas1"><p class="leftbar lb_indent2">Regressions<p/></a>
+        <a href="/plink/2.0/tutorials/qwas2" style="color: inherit; text-decoration: none;"><p class="leftbar lb_indent2">Post-Hoc<p/></a>
+        <a><p class="leftbar lb_indent" style="color: #666666;">Formatting Files</p></a>
+        <a href="/plink/2.0/tutorials/pformat1"><p class="leftbar lb_indent2">bcftools<p/></a>
+        <a href="/plink/2.0/tutorials/pformat2" style="color: inherit; text-decoration: none;"><p class="leftbar lb_indent2">Variant IDs<p/></a>
+        <a href="/plink/2.0/tutorials/pformat3" style="color: inherit; text-decoration: none;"><p class="leftbar lb_indent2">Reference Alleles<p/></a>
+        <a href="/plink/2.0/tutorials/pformat4" style="color: inherit; text-decoration: none;"><p class="leftbar lb_indent2">Format for R<p/></a>
+        <a href="/plink/2.0/tutorials/tutorialshortcuts"><p class="leftbar lb_indent">Shortcuts</p></a>
+        <p style="margin-top: 6px;">Quick <a href="/plink/2.0/index">index</a> search<br />
+          <input id="plink2_flag_search" name="plink2_flag_search" value="" style="width: 132px; font-size: 10px;" onchange="BGICG.plink2_flag_search();" tabindex=1 />
+        </p>
+        <div id="plink2_flag_search_return" style="margin-top: 6px; min-height: 100px;">
+        </div>
+    </td>
+    <td style="width: 10px; background-color: #ffffff;"></td>
+    <td id="content" style="background-color: #fafafa; width: 713px;" valign="top">
+      
+<style type="text/css">
+  body #content tr {font-size: 15px;}
+  body #content td {color: #555555; padding-right: 12px; padding-top: 2px; padding-bottom: 2px;}
+  body #content table {margin-left: 24px; margin-bottom: 15px;}
+  body #content ol {margin-top: 0;}
+</style>
+<h1>File format reference</h1>
+<p>This page describes specialized PLINK 2.0 input and <a href="/plink/2.0/output">output</a> file formats which are identifiable by file extension.  (Most extensions not listed here have very simple one-entry-per-line or two-entry-per-line text formats.)</p>
+<p>Unless otherwise specified, all multicolumn text files generated by PLINK 2.0 are tab-delimited, with one header line starting with '#'.  In the column summaries, columns which are present unless removed by the column set descriptor are <b>boldface</b>, and columns which only appear under some data/flag/modifier combination(s) are <i>italicized</i>.</p>
+<p><b>Jump to:</b>
+  <a href="#afreq">.acount</a> |
+  <a href="#adjusted">.adjusted</a> |
+  <a href="#afreq">.afreq</a> |
+  <a href="#allele_no_snp">.allele.no.snp</a> |
+  <a href="#perm">.aperm</a> |
+  <a href="#vcf">.bcf</a> |
+  <a href="#beagle">.beagle.dat[.phased]</a> |
+  <a href="#bed">.bed</a> |
+  <a href="#bgen">.bgen</a> |
+  <a href="#bim">.bim</a> |
+  <a href="#bins">.bins</a> |
+  <a href="#blocks">.blocks</a> |
+  <a href="#clumps">.clumps</a> |
+  <a href="#cov">.cov</a> |
+  <a href="#dist">.dist</a> |
+  <a href="#eigenvec">.eigenvec{,.allele|.var}</a> |
+  <a href="#epi">.epi.*</a> |
+  <a href="#fam">.fam</a> |
+  <a href="#fst_summary">.fst.summary</a> |
+  <a href="#fst_var">.fst.var</a> |
+  <a href="#gcount">.gcount</a> |
+  <a href="#gen">.gen</a> |
+  <a href="#geno">.geno</a> |
+  <a href="#glm_logistic">.glm.firth</a> |
+  <a href="#glm_linear">.glm.linear</a> |
+  <a href="#glm_logistic">.glm.logistic[.hybrid]</a> |
+  <a href="#grm">.grm</a> |
+  <a href="#grm_bin">.grm.N.bin</a> |
+  <a href="#grm_bin">.grm.bin</a> |
+  <a href="#grm_sp">.grm.sp</a> |
+  <a href="#haps">.haps</a> |
+  <a href="#hardy">.hardy</a> |
+  <a href="#hardy_x">.hardy.x</a> |
+  <a href="#het">.het</a> |
+  <a href="#hom">.hom</a> |
+  <a href="#hom_indiv">.hom.indiv</a> |
+  <a href="#hom_summary">.hom.summary</a> |
+  <a href="#id">.*.id</a> |
+  <a href="#ind">.ind</a> |
+  <a href="#kin0">.kin0</a> |
+  <a href="#king">.king[.bin]</a> |
+  <a href="#legend">.legend</a> |
+  <a href="#lgen">.lgen</a> |
+  <a href="#map">.map</a> |
+  <a href="#mendel">.*mendel</a> |
+  <a href="#perm">.mperm</a> |
+  <a href="#pdiff">.pdiff</a> |
+  <a href="#ped">.ped</a> |
+  <a href="#pgen"><b>.pgen{,.pgi}</b></a> |
+  <a href="#phy">.phy</a> |
+  <a href="#psam"><b>.psam</b></a> |
+  <a href="#pvar"><b>.pvar</b></a> |
+  <a href="#raw">.raw</a> |
+  <a href="#ref">.ref</a> |
+  <a href="#rel">.rel[.bin]</a> |
+  <a href="#sample">.sample</a> |
+  <a href="#scount">.scount</a> |
+  <a href="#sdiff">.sdiff</a> |
+  <a href="#sdiff_summary">.sdiff.summary</a> |
+  <a href="#sexcheck">.sexcheck</a> |
+  <a href="#smiss">.smiss</a> |
+  <a href="#snp">.snp</a> |
+  <a href="#sscore">.sscore</a> |
+  <a href="#ssf_tsv">.ssf.tsv</a> |
+  <a href="#svd_pheno">.svd.pheno</a> |
+  <a href="#svd_pheno_wts">.svd.pheno_wts</a> |
+  <a href="#tfam">.tfam</a> |
+  <a href="#tped">.tped</a> |
+  <a href="#traw">.traw</a> |
+  <a href="#twolocus">.twolocus</a> |
+  <a href="#vcf">.vcf</a> |
+  <a href="#vcor">.vcor</a> |
+  <a href="#vcor_matrix">.vcor{1|2}[.bin]</a> |
+  <a href="#vmiss">.vmiss</a> |
+  <a href="#vscore">.vscore</a> |
+  <a href="#vscore_bin">.vscore.bin</a>
+</p>
+<br />
+<h6><a name="afreq">.acount, .afreq</a> (allele count/frequency report)</h6>
+<p>Produced by <a href="/plink/2.0/basic_stats#freq">--freq</a>.</p>
+<p>A text file with a header line, and then one line per variant with the following columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u><a href="/plink/2.0/general_usage#colset">Column set</a></u></td><td><u>Contents</u></td></tr>
+  <tr><td><b>CHROM</b></td><td><b>chrom</b></td><td>Chromosome code</td></tr>
+  <tr><td>POS</td><td>pos</td><td>Base-pair coordinate</td></tr>
+  <tr><td><b>ID</b></td><td><b>(required)</b></td><td>Variant ID</td></tr>
+  <tr><td><b>REF</b></td><td><b>ref</b></td><td>Reference allele</td></tr>
+  <tr><td>ALT1</td><td>alt1</td><td>Alternate allele 1</td></tr>
+  <tr><td><b>ALT</b></td><td><b>alt</b></td><td>All alternate alleles, comma-separated</td></tr>
+  <tr><td><b><i><a href="/plink/2.0/input#provisional_ref">PROVISIONAL_REF?</a></i></b></td><td><b>maybeprovref</b>, provref</td><td>Reports whether REF allele is provisional</td></tr>
+  <tr><td>'REF_FREQ'/'REF_CT'</td><td>reffreq</td><td>Reference allele frequency/dosage</td></tr>
+  <tr><td>'ALT1_FREQ'/'ALT1_CT'</td><td>alt1freq</td><td>Alternate allele 1 frequency/dosage</td></tr>
+  <tr><td><b>'ALT_FREQS'</b>/<b>'ALT_CTS'</b></td><td><b>altfreq</b>, alteq, alteqz</td><td>Comma-separated freqs/dosages for all alts; 'eq' requests '1=&lt;ALT1 value&gt;,2=&lt;ALT2 value&gt;,...' formatting with zero-values omitted, 'eqz' includes zeroes</td></tr>
+  <tr><td>'ALT_NUM_{FREQS,CTS}'</td><td>altnumeq</td><td>Comma-separated freqs/dosages for all alts</td></tr>
+  <tr><td>'FREQS'/'CTS'</td><td>freq, eq, eqz</td><td>Comma-separated freqs/dosages for all alleles</td></tr>
+  <tr><td>'NUM_FREQS'/'NUM_CTS'</td><td>numeq</td><td>Comma-separated freqs/dosages for all alleles</td></tr>
+  <tr><td>MACH_R2</td><td>machr2</td><td>MaCH imputation quality metric</td></tr>
+  <tr><td>MINIMAC3_R2</td><td>minimac3r2</td><td>Minimac3 phased-dosage imputation quality metric; <b>inaccurate unless phased dosages were imported with e.g. <a href="/plink/2.0/input#vcf">"--vcf dosage=HDS"</a></b> (dosage=DS is not enough)</td></tr>
+  <tr><td><b>OBS_CT</b></td><td><b>nobs</b></td><td>Number of allele observations</td></tr>
+</table>
+<br />
+<h6><a name="adjusted">.adjusted</a> (basic multiple-testing corrections)</h6>
+<p>Produced by <a href="/plink/2.0/assoc#adjust">--adjust[-file]</a>.</p>
+<p>A text file with a header line, and then one line per tested allele with the following columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u><a href="/plink/2.0/general_usage#colset">Column set</a></u></td><td><u>Contents</u></td></tr>
+  <tr><td><b>CHROM</b></td><td><b>chrom</b></td><td>Chromosome code</td></tr>
+  <tr><td>POS</td><td>pos</td><td>Base-pair coordinate</td></tr>
+  <tr><td><b>ID</b></td><td><b>(required)</b></td><td>Variant ID</td></tr>
+  <tr><td>REF</b></td><td>ref</td><td>Reference allele</td></tr>
+  <tr><td>ALT1</td><td>alt1</td><td>Alternate allele 1</td></tr>
+  <tr><td>ALT</td><td>alt</td><td>All alternate alleles, comma-separated</td></tr>
+  <tr><td><b><i><a href="/plink/2.0/input#provisional_ref">PROVISIONAL_REF?</a></i></b></td><td><b>maybeprovref</b>, provref</td><td>Reports whether REF allele is provisional</td></tr>
+  <tr><td><b><i>A1</i></b></td><td><b>a1</b></td><td>Tested allele</td></tr>
+  <tr><td><b>[NEG_LOG10_]UNADJ</b></td><td><b>unadj</b></td><td>Unadjusted p-value</td></tr>
+  <tr><td><b><i>[NEG_LOG10_]GC</i></b></td><td><b>gc</b></td><td>Devlin &amp; Roeder
+    (1999) genomic control corrected p-value (additive model only)</td></tr>
+  <tr><td>QQ</td><td>qq</td><td>P-value quantile.</td></tr>
+  <tr><td><b>[NEG_LOG10_]BONF</b></td><td><b>bonf</b></td><td>Bonferroni correction</td></tr>
+  <tr><td><b>[NEG_LOG10_]HOLM</b></td><td><b>holm</b></td><td>Holm-Bonferroni (1979) adjusted p-value</td></tr>
+  <tr><td><b>[NEG_LOG10_]SIDAK_SS</b></td><td><b>sidakss</b></td><td>&Scaron;id&aacute;k
+    single-step adjusted p-value</td></tr>
+  <tr><td><b>[NEG_LOG10_]SIDAK_SD</b></td><td><b>sidaksd</b></td><td>&Scaron;id&aacute;k
+    step-down adjusted p-value</td></tr>
+  <tr><td><b>[NEG_LOG10_]FDR_BH</b></td><td><b>fdrbh</b></td><td>Benjamini &amp; Hochberg
+    (1995) step-up false discovery control</td></tr>
+  <tr><td><b>[NEG_LOG10_]FDR_BY</b></td><td><b>fdrby</b></td><td>Benjamini &amp;
+    Yekutieli (2001) step-up false discovery control</td></tr>
+</table>
+<p>Entries are sorted in increasing p-value order.  (Thus, if the QQ field is present, its values just increase linearly.)</p>
+<br />
+<h6><a name="allele_no_snp">.allele.no.snp</a> (allele mismatch report)</h6>
+<p>Produced by <a href="/plink/2.0/data#update_map">--update-alleles</a> when there are too many mismatches between the loaded alleles for a variant and the old-allele column(s) of the --update-alleles input file..</p>
+<p>A text file with no header line, and one line per mismatching variant with the following three columns:</p>
+<ol>
+  <li>Variant identifier</li>
+  <li>Expected allele #1 (from --update-alleles input file)</li>
+  <li>Remaining expected alleles, comma-separated; or "." if none</li>
+</ol>
+<h6><a name="bcf">.bcf (binary Variant Call Format)</a></h6>
+<p>Variant information + sample ID + genotype call binary file.  Imported with <a href="/plink/2.0/input#vcf">--bcf</a>, and produced by <a href="/plink/2.0/data#export">"--export bcf"</a>.</p>
+<p>Refer to the <a href="https://samtools.github.io/hts-specs/VCFv4.3.pdf">hts-specs GitHub repository</a> for a detailed description of the format.  "--export bcf" uses binary encoding v2.2.</p>
+<br />
+<h6><a name="beagle">.beagle.dat, .beagle.dat.phased (BEAGLE 3.3 genotype+variant info file)</a></h6>
+<p>Produced by <a href="/plink/2.0/data#export">"--export beagle-[un]phased"</a>, for use by BEAGLE 3.3.  (Newer BEAGLE versions accept VCF input.)  <span style="color: #ee1111;">This format cannot be loaded by PLINK.</span></p>
+<p>A text file with 2+<b>P</b> header lines, followed by one line per variant with 2<b>N</b>+2 space/tab-delimited columns (where <b>N</b> is the number of samples and <b>P</b> is the number of phenotypes):</p>
+<table>
+  <tr><td><u>1st header line</u></td><td><u>2nd header line</u></td><td><u>Pheno header line(s)</u></td><td><u>Subsequent contents</u></td>
+  <tr><td>'P'</td><td>'I'</td><td>'A'/'T'/'C' class</td><td>'M'</td></tr>
+  <tr><td>'FID'</td><td>'IID'</td><td>'PHE'</td><td>Variant identifier</td></tr>
+  <tr><td>FIDs, 2x per sample...</td><td>IIDs, 2x per sample</td><td>Pheno values, 2x per sample</td><td>Allele calls</td></tr>
+</table>
+<p>The phenotype classes are 'A'=case/control, 'T'=scalar, 'C'=categorical.  The allele calls are phased iff the file extension is .beagle.dat.phased rather than .beagle.dat .  Up to 128 distinct allele codes are allowed per variant.</p>
+<br />
+<h6><a name="bed">.bed (PLINK 1 binary biallelic genotype table)</a></h6>
+<p>PLINK 1's preferred way to represent genotype calls.  Must be accompanied by <a href="#bim">.bim</a> and <a href="#fam">.fam</a> files.  Loaded with <a href="/plink/2.0/input#bed">--bfile</a>, and generated by <a href="/plink/2.0/data#make_pgen">--make-bed</a>.</p>
+<p>Do not confuse this with the <a href="https://genome.ucsc.edu/FAQ/FAQformat.html#format1">UCSC Genome Browser's BED format</a>, which is totally different.  (It is safe to change a PLINK 1 .bed file's extension to .pgen and use <a href="/plink/2.0/input#pgen">--bpfile</a> to load it.)</p>
+<p>See <a href="/plink/1.9/formats#bed"><b>the PLINK 1.9 documentation</b></a> for a detailed description of the usual variant-major form, along with an example.  PLINK 2 can also efficiently export the sample-major form (<a href="/plink/2.0/data#export">"--export ind-major-bed"</a>); it has third byte equal to zero instead of one, but is otherwise analogous.</p>
+<br />
+<h6><a name="bgen">.bgen (Oxford variant info + genomic data binary file)</a></h6>
+<p>Native binary file format for Oxford statistical genetics tools, such as <a href="https://mathgen.stats.ox.ac.uk/impute/impute_v2.html">IMPUTE2</a> and <a href="https://www.chg.ox.ac.uk/~gav/snptest/">SNPTEST</a>.  BGEN v1.1 files should always be accompanied by a <a href="#sample">.sample</a> file.  Loaded with <a href="/plink/2.0/input#oxford">--bgen</a>, and produced by <a href="/plink/2.0/data#export">"--export bgen-1.{1,2,3}"</a>.</p>
+<p>Refer to <a href="https://www.chg.ox.ac.uk/~gav/bgen_format/"><b>https://www.chg.ox.ac.uk/~gav/bgen_format/</b></a> for a detailed description of the format.</p>
+<br />
+<h6><a name="bim">.bim (PLINK extended MAP file)</a></h6>
+<p>Variant information file accompanying a <a href="#bed">.bed</a> or biallelic <a href="#pgen">.pgen</a> binary genotype table.  (<a href="/plink/2.0/data#make_just_pvar">--make-just-bim</a> can be used to update just this file.)</p>
+<p>A text file with no header line, and one line per variant with the following six columns:</p>
+<ol>
+  <li>Chromosome code</li>
+  <li>Variant ID</li>
+  <li>Position in centimorgans (safe to use dummy value of '0')</li>
+  <li>Base-pair coordinate (1-based; limited to 2<sup>31</sup>-2)</li>
+  <li>ALT ('A1' in PLINK 1.x) allele code</li>
+  <li>REF ('A2' in PLINK 1.x) allele code</li>
+</ol>
+<p>A few notes:</p>
+<ul>
+  <li>Yes, the ALT column comes <i>before</i> the REF column in a .bim file.</li>
+  <li>When .bed files are involved, the ALT and REF allele codes will sometimes be swapped, since that's PLINK 1.x's default behavior whenever the true REF allele is less common than the ALT allele in the current dataset.  If that's a problem, you can use <a href="/plink/2.0/data#ref_allele">--ref-allele</a> to swap them back.</li>
+  <li>It is safe to change a .bim file's extension to <a href="#pvar">.pvar</a> and use <a href="/plink/2.0/input#pgen">--pfile</a> to load it.</li>
+  <li>Variants with negative bp coordinates are ignored by PLINK.</li>
+  <li>PLINK 1.9 and 2.0 permit the centimorgan column to be omitted.  (However, omission is not recommended if the .bim file needs to be read by other software.)</li>
+</ul>
+<br />
+<h6><a name="bins">.bins (allele count or frequency histogram)</a></h6>
+<p>A text file with a header line, followed by one line per [start, end) histogram bin with the following two columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u>Contents</u></td></tr>
+  <tr><td>BIN_START</td><td>Start of bin</td></tr>
+  <tr><td>OBS_CT</td><td>Number of variants in the bin</td></tr>
+</table>
+<p>The end of the current bin interval is the next line's BIN_START value (or positive infinity if there is no next line).</p>
+<br />
+<h6><a name="blocks">.blocks, .blocks.det (haplotype blocks, estimated using Haploview's default algorithm)</a></h6>
+<p>Produced by --blocks.</p>
+<p>.blocks files contain one line per block, each with an asterisk followed by variant IDs.</p>
+<p>.blocks.det files have a header line, followed by one line per block with the following six columns:</p>
+<table>
+  <tr><td>CHROM</td><td>Chromosome code</td></tr>
+  <tr><td>BP1</td><td>First base-pair coordinate</td></tr>
+  <tr><td>BP2</td><td>Last base-pair coordinate</td></tr>
+  <tr><td>KB</td><td>Block length in kbs</td></tr>
+  <tr><td>NSNPS</td><td>Number of variants in block</td></tr>
+  <tr><td>SNPS</td><td>'|'-delimited variant IDs</td></tr>
+</table>
+<p>Contact us if you want to be able to customize this.</p>
+<br />
+<h6><a name="clumps">.clumps (reprocessed LD-clumped reports)</a></h6>
+<p>Produced by <a href="/plink/2.0/postproc#clump">--clump</a>.</p>
+<p>A text file with a header line, and one line per index variant (lowest p-values first) with the following columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u><a href="/plink/2.0/general_usage#colset">Column set</a></u></td><td><u>Contents</u></td></tr>
+  <tr><td><b>CHROM</b></td><td><b>chrom</b></td><td>Chromosome code</td></tr>
+  <tr><td><b>POS</b></td><td><b>pos</b></td><td>Base-pair coordinate</td></tr>
+  <tr><td><b>ID</b></td><td><b>(required)</b></td><td>Variant ID</td></tr>
+  <tr><td>REF</b></td><td>ref</td><td>Reference allele</td></tr>
+  <tr><td>ALT1</td><td>alt1</td><td>Alternate allele 1</td></tr>
+  <tr><td>ALT</td><td>alt</td><td>All alternate alleles, comma-separated</td></tr>
+  <tr><td><b><i><a href="/plink/2.0/input#provisional_ref">PROVISIONAL_REF?</a></i></b></td><td><b>maybeprovref</b>, provref</td><td>Reports whether REF allele is provisional</td></tr>
+  <tr><td><b><i>A1</i></b></td><td><b>maybea1</b>, a1</td><td>Tested allele</td></tr>
+  <tr><td><b><i>F</i></b></td><td><b>maybef</b>, f</td><td>1-based file number</td></tr>
+  <tr><td><b>[NEG_LOG10_]P</b></td><td><b>(required)</b></td><td>Index variant p-value (or -log10(p))</td></tr>
+  <tr><td><b>TOTAL</b></td><td><b>total</b></td><td>Number of other variants in clump</td></tr>
+  <tr><td><b><i>CLUMP_FIRST_POS</i></b></td><td><b>maybebounds</b>, bounds</td><td>POS of first member with p &lt; --clump-p2 threshold</td></tr>
+  <tr><td><b><i>CLUMP_LAST_POS</i></b></td><td><b>maybebounds</b>, bounds</td><td>POS of last member with p &lt; --clump-p2 threshold</td></tr>
+  <tr><td><b>NONSIG</b></td><td><b>bins</b></td><td>Number of clumped variants with p &ge; [highest p-value boundary]</td></tr>
+  <tr><td><b>S&lt;bin boundary&gt;</b>, ...</td><td><b>bins</b></td><td>Number of clumped variants with [lower boundary] &le; p &lt; [this boundary]</td></tr>
+  <tr><td><b>SP2</b></td><td><b>sp2</b></td><td>Comma-delimited IDs, and possibly A1 allele and/or file number, of members with p &lt; --clump-p2 threshold.</td></tr>
+  <tr><td><i>RANGES</i></td><td>(with --clump-range[0])</td><td>Comma-separated list of overlapping ranges</td></tr>
+</table>
+<p>S&lt;bin boundary&gt; columns are in decreasing-p-value order, and the bin-boundary component of the column names no longer omit the leading "0.".</p>
+<h6><a name="cov">.cov (covariate table)</a></h6>
+<p>Produced by <a href="/plink/2.0/data#write_covar">--write-covar</a>, <a href="/plink/2.0/data#make_pgen">--make-[b]pgen/--make-bed</a>, and <a href="/plink/2.0/data#export">--export</a> when covariates have been loaded/specified.  Valid input for <a href="/plink/2.0/input#covar">--covar</a>.</p>
+<p>A text file with a header line, and one line per sample with the following columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u><a href="/plink/2.0/general_usage#colset">Column set</a></u></td><td><u>Contents</u></td></tr>
+  <tr><td><b><i>FID</i></b></td><td><b>maybefid</b>, fid</td><td>Family ID</td></tr>
+  <tr><td><b>IID</b></td><td><b>(required)</b></td><td>Individual ID</td></tr>
+  <tr><td><b><i>SID</i></b></td><td><b>maybesid</b>, sid</td><td>Source ID</td></tr>
+  <tr><td>PAT</td><td>maybeparents, parents</td><td>Paternal individual ID</td></tr>
+  <tr><td>MAT</td><td>maybeparents, parents</td><td>Maternal individual ID</td></tr>
+  <tr><td>SEX</td><td>sex</td><td>Sex (1 = male, 2 = female, 'NA' = unknown)</td></tr>
+  <tr><td>PHENO1</td><td>pheno1</td><td>All-missing phenotype column, if none loaded</td></tr>
+  <tr><td>&lt;Pheno name&gt;, ...</td><td>pheno1, phenos</td><td>Phenotype value(s) (only first if just 'pheno1')</td></tr>
+  <tr><td><b>&lt;Covar name&gt;</b>, ...</td><td><b>(required)</b></td><td>Covariate values</td></tr>
+</table>
+<p>(Note that --covar can also be used with files lacking a header row.)</p>
+<br />
+<h6><a name="dist">.dist (genomic Hamming distance matrix)</a></h6>
+<p>Produced by --distance.</p>
+<p>A tab-delimited text file that is either lower-triangular (first line has only one entry containing the &lt;genome 1-genome 2&gt; Hamming distance, second line has two entries containing the &lt;genome 1-genome 3&gt; and &lt;genome 2-genome 3&gt; Hamming distances in that order, etc.) or square.  If square, the upper-right triangle may be either zeroed out or the mirror-image of the lower-left triangle, depending on whether the 'square0' or 'square' modifier was used.</p>
+<p>When missing values are present, the affected raw Hamming distances are rescaled to be comparable to pairwise distances unaffected by missing data, unless 'flat-missing' was specified.</p>
+<br />
+<h6><a name="eigenvec">.eigenvec, .eigenvec.allele, .eigenvec.var (principal components)</a></h6>
+<p>Produced by <a href="/plink/2.0/strat#pca">--pca</a>.  Accompanied by an .eigenval file, which contains one eigenvalue per line.</p>
+<p>The .eigenvec file is a text file with a header line and between 1+<b>V</b> and 3+<b>V</b> columns per sample, where <b>V</b> is the number of requested principal components.  The first columns contain the sample ID, and the rest are principal component scores in the same order as the .eigenval values (with column headers 'PC1', 'PC2', ...).</p>
+<p>With the 'allele-wts' modifier, an .eigenvec.allele file is also generated.  It's a text file with a header line, followed by one line per allele with the following columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u><a href="/plink/2.0/general_usage#colset">Column set</a></u></td><td><u>Contents</u></td></tr>
+  <tr><td><b>CHROM</b></td><td><b>chrom</b></td><td>Chromosome code</td></tr>
+  <tr><td>POS</td><td>pos</td><td>Base-pair coordinate</td></tr>
+  <tr><td><b>ID</b></td><td><b>(required)</b></td><td>Variant ID</td></tr>
+  <tr><td><b>REF</b></td><td><b>ref</b></td><td>Reference allele</td></tr>
+  <tr><td>ALT1</td><td>alt1</td><td>Alternate allele 1</td></tr>
+  <tr><td><b>ALT</b></td><td><b>alt</b></td><td>All alternate alleles, comma-separated</td></tr>
+  <tr><td><b><i><a href="/plink/2.0/input#provisional_ref">PROVISIONAL_REF?</a></i></b></td><td><b>maybeprovref</b>, provref</td><td>Reports whether REF allele is provisional</td></tr>
+  <tr><td><b>A1</b></td><td><b>(required)</b></td><td>Current allele</td></tr>
+  <tr><td>AX</td><td>ax</td><td>Other alleles, comma-separated</td></tr>
+  <tr><td><b>PC1</b>, <b>PC2</b>, ...</td><td><b>(required)</b></td><td>Principal component allele scores</td></tr>
+</table>
+<p>Alternatively, with the 'biallelic-var-wts' modifier, an old-style .eigenvec.var file is generated.  It's a text file with a header line, followed by one line per variant with the following columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u><a href="/plink/2.0/general_usage#colset">Column set</a></u></td><td><u>Contents</u></td></tr>
+  <tr><td><b>CHROM</b></td><td><b>chrom</b></td><td>Chromosome code</td></tr>
+  <tr><td>POS</td><td>pos</td><td>Base-pair coordinate</td></tr>
+  <tr><td><b>ID</b></td><td><b>(required)</b></td><td>Variant ID</td></tr>
+  <tr><td>REF</td><td>ref</td><td>Reference allele</td></tr>
+  <tr><td>ALT1</td><td>alt1</td><td>Alternate allele 1</td></tr>
+  <tr><td>ALT</td><td>alt</td><td>All alternate alleles, comma-separated</td></tr>
+  <tr><td><b><i><a href="/plink/2.0/input#provisional_ref">PROVISIONAL_REF?</a></i></b></td><td><b>maybeprovref</b>, provref</td><td>Reports whether REF allele is provisional</td></tr>
+  <tr><td><b>MAJ</b></td><td><b>maj</b></td><td>Major allele</td></tr>
+  <tr><td><b>NONMAJ</b></td><td><b>nonmaj</b></td><td>All nonmajor alleles, comma separated</td></tr>
+  <tr><td><b>PC1</b>, <b>PC2</b>, ...</td><td><b>(required)</b></td><td>Principal component variant weights; signs are w.r.t. the major allele</td></tr>
+</table>
+<br />
+<h6><a name="epi">.epi.{cc,qt}, .epi.{cc,qt}.summary (epistatic interaction scan reports)</a></h6>
+<p>Produced by --epistasis and --epistasis-boost.  'cc' secondary extension indicates a case/control test, while 'qt' indicates --epistasis linear regression on a quantitative trait.</p>
+<p>The --epistasis main report is normally a text file with a header line, followed by one line per variant pair clearing the --epi1 threshold with the following columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u><a href="/plink/2.0/general_usage#colset">Column set</a></u></td><td><u>Contents</u></td></tr>
+  <tr><td><b>CHROM1</b></td><td><b>chrom</b></td><td>Variant 1 chromosome code</td></tr>
+  <tr><td>POS1</td><td>pos</td><td>Variant 1 base-pair coordinate</td></tr>
+  <tr><td><b>ID1</b></td><td><b>(required)</b></td><td>Variant 1 identifier</td></tr>
+  <tr><td><b><i>ALLELE1</i></b></td><td><b>maybea1</b>, a1</td><td>Variant 1 counted allele, if multiallelic or 'a1'</td></tr>
+  <tr><td><b>CHROM2</b></td><td><b>chrom</b></td><td>Variant 2 chromosome code</td></tr>
+  <tr><td>POS2</td><td>pos</td><td>Variant 2 base-pair coordinate</td></tr>
+  <tr><td><b>ID2</b></td><td><b>(required)</b></td><td>Variant 2 identifier</td></tr>
+  <tr><td><b><i>ALLELE2</i></b></td><td><b>maybea1</b>, a1</td><td>Variant 2 counted allele, if multiallelic or 'a1'</td></tr>
+  <tr><td><b><i>BETA_INT</i></b></td><td>beta, <b>orbeta</b></td><td>Regression coefficient, if 'beta' or quantitative trait</td></tr>
+  <tr><td><b><i>OR_INT</i></b></td><td><b>orbeta</b></td><td>Odds ratio, if binary trait</td></tr>
+  <tr><td><b>SE</b></td><td><b>se</b></td><td>Standard error of beta</td></tr>
+  <tr><td><b>'T_STAT'/'Z_STAT'</b></i></b></td><td><b>stat</b></td><td>T-stat for linear regression, Wald Z-score for logistic/Firth</td></tr>
+  <tr><td><b>[NEG_LOG10_]P</b></td><td><b>p</b></td><td>Asymptotic p-value (or -log10(p))</td></tr>
+</table>
+<p>The --epistasis-boost main report is similar, with the columns after ALLELE2 replaced with</p>
+<table>
+  <tr><td><b>STAT</b></i></b></td><td><b>stat</b></td><td>Chi-square statistic</td></tr>
+  <tr><td><b>DF</b></td><td><b>df</b></td><td>Chi-square degrees of freedom</td></tr>
+  <tr><td><b>[NEG_LOG10_]P</b></td><td><b>p</b></td><td>Asymptotic p-value (or -log10(p))</td></tr>
+</table>
+<p>In both cases, a .summary file is also generated.  This is a text file, followed by one line per variant (or just one line per variant in set #1, if 'set-by-set' or 'set-by-all' was specified) with the following columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u><a href="/plink/2.0/general_usage#colset">Column set</a></u></td><td><u>Contents</u></td></tr>
+  <tr><td><b>CHROM</b></td><td><b>chrom</b></td><td>Chromosome code</td></tr>
+  <tr><td>POS</td><td>pos</td><td>Base-pair coordinate</td></tr>
+  <tr><td><b>ID</b></td><td><b>(required)</b></td><td>Variant identifier</td></tr>
+  <tr><td><b><i>ALLELE</i></b></td><td><b>maybea1</b>, a1</td><td>Counted allele, if multiallelic or 'a1'</td></tr>
+  <tr><td><b>N_SIG</b></td><td><b>nsig</b></td><td>Number of 'significant' (based on --epi2 value) epistatic test results</td></tr>
+  <tr><td><b>N_TOT</b></td><td><b>ntot</b></td><td>Total number of valid test results</td></tr>
+  <tr><td><b><i>PROP</i></b></td><td><b>prop</b></td><td>Proportion significant, if not --parallel</td></tr>
+  <tr><td><b>BEST_CHISQ</b></td><td><b>(required)</b></td><td>Largest chi-square statistic (approximate when 'boost' test and &le; --epi1 threshold)</td></tr>
+  <tr><td><b>BEST_CHROM</b></td><td><b>chrom</b></td><td>Chromosome of largest-statistic variant</td></tr>
+  <tr><td><b>BEST_ID</b></td><td><b>(required)</b></td><td>ID of largest-statistic variant</td></tr>
+</table>
+<p>For the 'boost' test, the BEST_CHISQ/BEST_CHROM/BEST_ID entry occasionally doesn't correspond to lowest p-value, since DF is variable.</p>
+<p>For two-set tests, if variant v<sub>1</sub> is in both sets but v<sub>2</sub> is only in set #1, the v<sub>1</sub>-v<sub>2</sub> test is only counted in the v<sub>2</sub> summary row.</p>
+<br />
+<h6><a name="fam">.fam (PLINK sample information file)</a></h6>
+<p>Sample information file accompanying a <a href="#bed">.bed</a> or biallelic <a href="#pgen">.pgen</a> binary genotype table.  (<a href="/plink/2.0/data#make_just_pvar">--make-just-fam</a> can be used to update just this file.)</p>
+<p>A text file with no header line, and one line per sample with the following six columns:</p>
+<ol>
+  <li>Family ID ('FID')</li>
+  <li>Individual ID ('IID'; cannot be '0')</li>
+  <li>Individual ID of father ('0' if father isn't in dataset)</li>
+  <li>Individual ID of mother ('0' if mother isn't in dataset)</li>
+  <li>Sex code ('1' = male, '2' = female, '0' = unknown)</li>
+  <li>Phenotype value ('1' = control, '2' = case, '-9'/'0'/non-numeric = missing data if case/control)</li>
+</ol>
+<br />
+<h6><a name="fst_summary">.fst.summary (all-population-pairs Wright's F<sub>ST</sub> report)</a></h6>
+<p>Produced by <a href="/plink/2.0/basic_stats#fst">--fst</a>.</p>
+<p>A text file with a header line, and then one line per population-pair with the following columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u><a href="/plink/2.0/general_usage#colset">Column set</a></u></td><td><u>Contents</u></td></tr>
+  <tr><td><b>POP1</b></td><td><b>(required)</b></td><td>First population ID</td></tr>
+  <tr><td><b>POP2</b></td><td><b>(required)</b></td><td>Second population ID</td></tr>
+  <tr><td>OBS_CT</td><td>nobs</td><td>Number of variants with valid F<sub>ST</sub> estimates</td></tr>
+  <tr><td><b>'HUDSON_FST'/'WC_FST'</b></td><td><b>(required)</b></td><td>Between-population F<sub>ST</sub> estimate</td></tr>
+  <tr><td><b><i>SE</i></b></td><td><b>(required)</b></td><td>Standard error of F<sub>ST</sub> estimate, if blocksize= specified</td></tr>
+</table>
+<br />
+<h6><a name="fst_var">.fst.var (per-variant Wright's F<sub>ST</sub> report for one population pair)</a></h6>
+<p>Produced by <a href="/plink/2.0/basic_stats#fst">--fst</a> when 'report-variants' is specified.  A separate file is generated for each population pair.</p>
+<p>A text file with a header line, and then one line per autosomal variant with the following columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u><a href="/plink/2.0/general_usage#colset">Column set</a></u></td><td><u>Contents</u></td></tr>
+  <tr><td><b>CHROM</b></td><td><b>chrom</b></td><td>Chromosome code</td></tr>
+  <tr><td><b>POS</b></td><td><b>pos</b></td><td>Base-pair coordinate</td></tr>
+  <tr><td><b>ID</b></td><td><b>(required)</b></td><td>Variant ID</td></tr>
+  <tr><td>REF</td><td>ref</td><td>Reference allele</td></tr>
+  <tr><td>ALT</td><td>alt</td><td>All alternate alleles, comma-separated</td></tr>
+  <tr><td><b><i><a href="/plink/2.0/input#provisional_ref">PROVISIONAL_REF?</a></i></b></td><td><b>maybeprovref</b>, provref</td><td>Reports whether REF allele is provisional</td></tr>
+  <tr><td><b>OBS_CT</b></td><td><b>nobs</b></td><td>Number of (nonmissing) genotype observations across population pair</td></tr>
+  <tr><td>POP1_ALLELE_CT</b></td><td>nallele</td><td>Number of nonmissing allele observations in first population</td></tr>
+  <tr><td>POP2_ALLELE_CT</b></td><td>nallele</td><td>Number of nonmissing allele observations in second population</td></tr>
+  <tr><td>FST_NUMER</td><td>fstfrac</td><td>Numerator of F<sub>ST</sub> estimate</td></tr>
+  <tr><td>FST_DENOM</td><td>fstfrac</td><td>Denominator of F<sub>ST</sub> estimate</td></tr>
+  <tr><td><b>'HUDSON_FST'/'WC_FST'</b></td><td><b>fst</b></td><td>Wright's F<sub>ST</sub> estimate</td></tr>
+</table>
+<br />
+<h6><a name="gcount">.gcount</a> (genotype count report)</h6>
+<p>Produced by <a href="/plink/2.0/basic_stats#geno_counts">--geno-counts.</p>
+<p>A text file with a header line, and then one line per variant with the following columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u>Col. set</u></td><td><u>Contents</u></td></tr>
+  <tr><td><b>CHROM</b></td><td><b>chrom</b></td><td>Chromosome code</td></tr>
+  <tr><td>POS</td><td>pos</td><td>Base-pair coordinate</td></tr>
+  <tr><td><b>ID</b></td><td><b>(required)</b></td><td>Variant ID</td></tr>
+  <tr><td><b>REF</b></td><td><b>ref</b></td><td>Reference allele</td></tr>
+  <tr><td>ALT1</td><td>alt1</td><td>Alternate allele 1</td></tr>
+  <tr><td><b>ALT</b></td><td><b>alt</b></td><td>All alternate alleles, comma-separated</td></tr>
+  <tr><td><b><i><a href="/plink/2.0/input#provisional_ref">PROVISIONAL_REF?</a></i></b></td><td><b>maybeprovref</b>, provref</td><td>Reports whether REF allele is provisional</td></tr>
+  <tr><td><b>HOM_REF_CT</b></td><td><b>homref</b></td><td>Homozygous-ref count</td></tr>
+  <tr><td>HET_REF_ALT1_CT</td><td>refalt1</td><td>Heterozygous ref-alt1 count</td></tr>
+  <tr><td><b>HET_REF_ALT_CTS</b></td><td><b>refalt</b></td><td>Comma-separated het ref-altx counts</td></tr>
+  <tr><td>HOM_ALT1_CT</td><td>homalt1</td><td>Homozygous-alt1 count</td></tr>
+  <tr><td><b>TWO_ALT_GENO_CTS</b></td><td><b>altxy</b></td><td>Comma-separated altx-alty counts, in (1/1)-(1/2)-(2/2)-(1/3)-... order</td></tr>
+  <tr><td>DIPLOID_GENO_CTS</td><td>xy</td><td>Similar to altxy, except reference allele included</td></tr>
+  <tr><td><b>HAP_REF_CT</b></td><td><b>hapref</b></td><td>Haploid-ref count</td></tr>
+  <tr><td>HAP_ALT1_CT</td><td>hapalt1</td><td>Haploid-alt1 count</td></tr>
+  <tr><td><b>HAP_ALT_CTS</b></td><td><b>hapalt</b></td><td>Comma-separated haploid-altx counts</td></tr>
+  <tr><td>HAP_CTS</td><td>hap</td><td>Similar to hapalt, except ref also included</td></tr>
+  <tr><td>GENO_NUM_CTS</td><td>numeq</td><td>"0/0=&lt;hom ref ct&gt;,0/1=&lt;het ref-alt1&gt;,...,0=&lt;hap ref&gt;" etc.; zero-counts are omitted; '.' if all genotypes missing</td></tr>
+  <tr><td><b>MISSING_CT</b></td><td><b>missing</b></td><td>Number of missing genotypes</td></tr>
+  <tr><td>OBS_CT</td><td>nobs</td><td>Number of (nonmissing) genotype observations</td></tr>
+</table>
+<br />
+<h6><a name="gen">.gen (Oxford text genotype file format)</a></h6>
+<p>Native text genotype file format for Oxford statistical genetics tools, such as <a href="https://mathgen.stats.ox.ac.uk/impute/impute_v2.html">IMPUTE2</a> and <a href="https://www.chg.ox.ac.uk/~gav/snptest/">SNPTEST</a>.  Should always be accompanied by a <a href="#sample">.sample</a> file.  Imported with <a href="/plink/2.0/input#oxford">--data/--gen</a>, and produced by <a href="/plink/2.0/data#export">"--export oxford[-v2]"</a>.</p>
+<p>A text file with no header line, and one line per variant with either 3<b>N</b>+5 or 3<b>N</b>+6 columns where <b>N</b> is the number of samples.  Each line stores information for a single SNP.</p>
+<p>In the 3<b>N</b>+5 case (corresponding to the original specification), the first five columns are:</p>
+<ol>
+  <li>"SNP ID"</li>
+  <li>rsID (treated by PLINK as the main variant ID)</li>
+  <li>Base-pair coordinate</li>
+  <li>Allele 1 (usually minor, use 'ref-first' when importing to treat as REF)</li>
+  <li>Allele 2 (usually major, use 'ref-last' when importing to treat as REF)</li>
+</ol>
+<p>Unless the chromosome code was declared with <a href="/plink/2.0/input#oxford">--oxford-single-chr</a> (in which case the SNP ID column is ignored), PLINK has no choice but to assume that the "SNP ID" column actually stores chromosome codes.  (This is the convention when PLINK exports a 5-leading-column .gen file.)</p>
+<p>The newer 3<b>N</b>+6 column flavor has a dedicated chromosome column in front.  <span style="color: #ee1111;">This was not supported by PLINK 1.9 or 2.0 before 16 Apr 2021.</span></p>
+<p>Each subsequent triplet of values then indicate likelihoods of homozygote A1, heterozygote, and homozygote A2 genotypes at this variant, respectively, for one sample.  If they add up to less than one, the remainder is a no-call probability weight.</p>
+<p>The PLINK 2 binary format can represent allele count expected values, but it does not distinguish between e.g. {P(hom-ref)=0.28, P(het)=0.52, P(hom-alt)=0.2} and {P(hom-ref)=0.08, P(het)=0.92, P(hom-alt)=0}, and it ignores the no-call probability weight (though "0 0 0" will be correctly converted to a missing call).  The <a href="/plink/2.0/input#dosage_import_settings">--import-dosage-certainty</a> flag can be used during import to replace some of the most uncertain genotype calls with missing values.</p>
+<br />
+<h6><a name="geno">.geno (EIGENSOFT PACKEDANCESTRYMAP or TGENO binary genotype format)</a></h6>
+<p>Native binary genotype file format for <a href="https://github.com/DReichLab/EIG">EIGENSOFT</a> and <a href="https://github.com/DReichLab/AdmixTools">ADMIXTOOLS</a>.  Should always be accompanied by <a href="#ind">.ind</a> and <a href="#ind">.snp</a> files.  Imported with <a href="/plink/2.0/input#eigfile">--eigfile/--eiggeno</a>.  The original variant-major PACKEDANCESTRYMAP form is produced by <a href="/plink/2.0/data#export">"--export eig"</a>, while the sample-major TGENO form is produced by <a href="/plink/2.0/data#export">"--export eigt"</a></p>
+<br />
+<p>A PACKEDANCESTRYMAP file has <b>V</b>+1 blocks of max(48, &#8968;<b>N</b>/4&#8969;) bytes each, where <b>V</b> is the number of variants and <b>N</b> is the number of samples.  The first block is a header, starting with a space/tab-delimited string with the following entries:</p>
+<ol>
+  <li>"GENO"</li>
+  <li>Number of samples</li>
+  <li>Number of variants</li>
+  <li><span class="monospace">hasharr(sample_ids, </span><b>N</b><span class="monospace">)</span> in hex</li>
+  <li><span class="monospace">hasharr(variant_ids, </span><b>V</b><span class="monospace">)</span> in hex</li>
+</ol>
+<p>and followed by null bytes.  In C, the <span class="monospace">hasharr()</span> function can be defined as follows:</p>
+<p class="monospace" style="font-size: 14px;">uint32_t hasharr(const char* const* ids, uint32_t n) {<br />
+  &nbsp; uint32_t hash = 0;<br />
+  &nbsp; for (uint32_t i = 0; i < n; ++i) {<br />
+  &nbsp; &nbsp; hash = (hash * 17) ^ hashone(ids[i]);<br />
+  &nbsp; }<br />
+  &nbsp; return hash;<br />
+  }</p>
+<p>where <span class="monospace">hashone()</span> is:</p>
+<p class="monospace" style="font-size: 14px;">uint32_t hashone(const char* id) {<br />
+  &nbsp; uint32_t hash = 0;<br />
+  &nbsp; for (uint32_t i = 0; ; ++i) {<br />
+  &nbsp; &nbsp; unsigned char cur_char = id[i];<br />
+  &nbsp; &nbsp; if (cur_char == 0) {<br />
+  &nbsp; &nbsp; &nbsp; return hash;<br />
+  &nbsp; &nbsp; }<br />
+  &nbsp; &nbsp; hash = (hash * 23) + cur_char;<br />
+  &nbsp; }<br />
+  }</p>
+<p>Each remaining block corresponds to one marker in the .snp file.  The <i>high-order</i> two bits of a block's first byte store the first sample's genotype code, using the following encoding:</p>
+<table>
+  <tr><td>00</td><td>Zero copies of REF allele (i.e. homozygous-ALT)</td></tr>
+  <tr><td>01</td><td>One copy of REF allele</td></tr>
+  <tr><td>10</td><td>Two copies of REF allele</td></tr>
+  <tr><td>11</td><td>Missing genotype</td></tr>
+</table>
+<p>Next three samples are stored in lower-order bits of the first byte, etc.  Trailing bits in the block are always zero.</p>
+<br />
+<p>A TGENO file has a 48-byte header, starting with a space/tab-delimited string; the first field in that string is "TGENO", and the other four fields match those in the PACKEDANCESTRYMAP header.  This is followed by <b>N</b> blocks of max(48, &#8968;<b>V</b>/4&#8969;) bytes each, each corresponding to one sample in the .ind file.  Encoding is otherwise the same as with PACKEDANCESTRYMAP.</p>
+<br />
+<h6><a name="glm_logistic">.glm.firth, .glm.logistic[.hybrid]</a> (logistic/Firth regression association statistics)</h6>
+<p>Produced by <a href="/plink/2.0/assoc#glm">--glm</a> with a case/control phenotype.</p>
+<p>A text file with a header line, and then one group of lines per variant with the following columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u><a href="/plink/2.0/general_usage#colset">Column set</a></u></td><td><u>Contents</u></td></tr>
+  <tr><td><b>CHROM</b></td><td><b>chrom</b></td><td>Chromosome code</td></tr>
+  <tr><td><b>POS</b></td><td><b>pos</b></td><td>Base-pair coordinate</td></tr>
+  <tr><td><b>ID</b></td><td><b>(required)</b></td><td>Variant ID</td></tr>
+  <tr><td><b>REF</b></td><td><b>ref</b></td><td>Reference allele</td></tr>
+  <tr><td>ALT1</td><td>alt1</td><td>Alternate allele 1</td></tr>
+  <tr><td><b>ALT</b></td><td><b>alt</b></td><td>All alternate alleles, comma-separated</td></tr>
+  <tr><td><b><a href="/plink/2.0/input#provisional_ref">PROVISIONAL_REF?</a></b></td><td>maybeprovref, <b>provref</b></td><td>Reports whether REF allele is provisional</td></tr>
+  <tr><td><b>A1</b></td><td><b>(required)</b></td><td>Counted allele<sup><a href="#footnote1">1</a></sup> in regression</td></tr>
+  <tr><td><b>OMITTED</b></td><td><b>omitted</b></td><td>Omitted allele</td></tr>
+  <tr><td>A1_CT<sup><a href="#footnote2">2</a></sup></td><td>a1count</td><td>Total A1 allele count (can be decimal with dosage data)</td></tr>
+  <tr><td>ALLELE_CT<sup><a href="#footnote2">2</a></sup></td><td>totallele</td><td>Allele observation count</td></tr>
+  <tr><td>A1_CASE_CT<sup><a href="#footnote2">2</a></sup></td><td>a1countcc</td><td>A1 count in cases</td></tr>
+  <tr><td>A1_CTRL_CT<sup><a href="#footnote2">2</a></sup></td><td>a1countcc</td><td>A1 count in controls</td></tr>
+  <tr><td>CASE_ALLELE_CT<sup><a href="#footnote2">2</a></sup></td><td>totallelecc</td><td>Case allele observation count</td></tr>
+  <tr><td>CTRL_ALLELE_CT<sup><a href="#footnote2">2</a></sup></td><td>totallelecc</td><td>Control allele observation count</td></tr>
+  <tr><td>CASE_NON_A1_CT</td><td>gcountcc</td><td>Case genotypes with 0 copies of A1</td></tr>
+  <tr><td>CASE_HET_A1_CT</td><td>gcountcc</td><td>Case genotypes with 1 copy of A1</td></tr>
+  <tr><td>CASE_HOM_A1_CT</td><td>gcountcc</td><td>Case genotypes with 2 copies of A1</td></tr>
+  <tr><td>CTRL_NON_A1_CT</td><td>gcountcc</td><td>Control genotypes with 0 copies of A1</td></tr>
+  <tr><td>CTRL_HET_A1_CT</td><td>gcountcc</td><td>Control genotypes with 1 copy of A1</td></tr>
+  <tr><td>CTRL_HOM_A1_CT</td><td>gcountcc</td><td>Control genotypes with 2 copies of A1</td></tr>
+  <tr><td><b>A1_FREQ</b></td><td><b>a1freq</b></td><td>A1 allele frequency</td></tr>
+  <tr><td>A1_CASE_FREQ</td><td>a1freqcc</td><td>A1 allele frequency in cases</td></tr>
+  <tr><td>A1_CTRL_FREQ</td><td>a1freqcc</td><td>A1 allele frequency in controls</td></tr>
+  <tr><td>MACH_R2</td><td>machr2</td><td>MaCH imputation quality metric</td></tr>
+  <tr><td><b><i>FIRTH?</i></b></td><td><b>firth</b></td><td>Reports whether Firth reg. was used ('firth-fallback' only)</td></tr>
+  <tr><td><b>TEST</b></td><td><b>test</b></td><td>Test identifier</td></tr>
+  <tr><td><b>OBS_CT</b></td><td><b>nobs</b></td><td>Number of samples in regression</td></tr>
+  <tr><td>BETA</td><td>beta</td><td>Regression coefficient (for A1 allele)</td></tr>
+  <tr><td><b>OR</b></td><td><b>orbeta</b></td><td>Odds ratio (for A1 allele)</td></tr>
+  <tr><td><b>[LOG(OR)_]SE</b></td><td><b>se</b></td><td>Standard error of log-odds (i.e. beta)</td></tr>
+  <tr><td><b><i>L##</i></b></td><td><b>ci</b></td><td>Bottom of symmetric approx. confidence interval (with --ci)</td></tr>
+  <tr><td><b><i>U##</i></b></td><td><b>ci</b></td><td>Top of symmetric approx. confidence interval (with --ci)</td></tr>
+  <tr><td><b>Z_[OR_F_]STAT</b></td><td><b>tz</b></td><td>F-statistic for joint test, Wald Z-score for logistic/Firth regression</td></tr>
+  <tr><td><b>[NEG_LOG10_]P</b></td><td><b>p</b></td><td>Asymptotic p-value (or -log10(p)) for Z/chisq-stat</td></tr>
+  <tr><td><b>ERRCODE</b></td><td><b>err</b></td><td>When result is 'NA', an <a href="/plink/2.0/assoc#glm_errcode">error code describing the reason</a></td></tr>
+</table>
+<p>All statistics are computed across just the samples used in the regression.</p>
+<br />
+<h6><a name="glm_linear">.glm.linear</a> (linear regression association statistics)</h6>
+<p>Produced by <a href="/plink/2.0/assoc#glm">--glm</a> with a quantitative phenotype.</p>
+<p>A text file with a header line, and then one group of lines per variant with the following columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u><a href="/plink/2.0/general_usage#colset">Column set</a></u></td><td><u>Contents</u></td></tr>
+  <tr><td><b>CHROM</b></td><td><b>chrom</b></td><td>Chromosome code</td></tr>
+  <tr><td><b>POS</b></td><td><b>pos</b></td><td>Base-pair coordinate</td></tr>
+  <tr><td><b>ID</b></td><td><b>(required)</b></td><td>Variant ID</td></tr>
+  <tr><td><b>REF</b></td><td><b>ref</b></td><td>Reference allele</td></tr>
+  <tr><td>ALT1</td><td>alt1</td><td>Alternate allele 1</td></tr>
+  <tr><td><b>ALT</b></td><td><b>alt</b></td><td>All alternate alleles, comma-separated</td></tr>
+  <tr><td><b><a href="/plink/2.0/input#provisional_ref">PROVISIONAL_REF?</a></b></td><td>maybeprovref, <b>provref</b></td><td>Reports whether REF allele is provisional</td></tr>
+  <tr><td><b>A1</b></td><td><b>(required)</b></td><td>Counted allele<sup><a href="#footnote1">1</a></sup> in regression</td></tr>
+  <tr><td><b>OMITTED</b></td><td><b>omitted</b></td><td>Omitted allele</td></tr>
+  <tr><td>A1_CT<sup><a href="#footnote2">2</a></sup></td><td>a1count</td><td>Total A1 allele count (can be decimal with dosage data)</td></tr>
+  <tr><td>ALLELE_CT<sup><a href="#footnote2">2</a></sup></td><td>totallele</td><td>Allele observation count</td></tr>
+  <tr><td><b>A1_FREQ</b></td><td><b>a1freq</b></td><td>A1 allele frequency</td></tr>
+  <tr><td>MACH_R2</td><td>machr2</td><td>MaCH imputation quality metric</td></tr>
+  <tr><td><b>TEST</b></td><td><b>test</b></td><td>Test identifier</td></tr>
+  <tr><td><b>OBS_CT</b></td><td><b>nobs</b></td><td>Number of samples in regression</td></tr>
+  <tr><td><b>BETA</b></td><td>beta, <b>orbeta</b></td><td>Regression coefficient (for A1 allele)</td></tr>
+  <tr><td><b>SE</b></td><td><b>se</b></td><td>Standard error of log-odds (i.e. beta)</td></tr>
+  <tr><td><b><i>L##</i></b></td><td><b>ci</b></td><td>Bottom of symmetric approx. confidence interval (with --ci)</td></tr>
+  <tr><td><b><i>U##</i></b></td><td><b>ci</b></td><td>Top of symmetric approx. confidence interval (with --ci)</td></tr>
+  <tr><td><b>T_[OR_F_]STAT</b></td><td><b>tz</b></td><td>F-statistic for joint test; t-statistic for linear regression</td></tr>
+  <tr><td><b>[NEG_LOG10_]P</b></td><td><b>p</b></td><td>Asymptotic p-value (or -log10(p)) for T/chisq-stat</td></tr>
+  <tr><td><b>ERRCODE</b></td><td><b>err</b></td><td>When result is 'NA', an <a href="/plink/2.0/assoc#glm_errcode">error code describing the reason</a></td></tr>
+</table>
+<p>All statistics are computed across just the samples used in the regression.</p>
+<p style="font-size: 11px; line-height: 15px;"><a name="footnote1">1</a>: For multiallelic variants, this column may contain multiple comma-separated alleles when the result doesn't depend on which allele is A1.<br />
+  <a name="footnote2">2</a>: For males on chrX, these values are normally computed as if males were diploid, since that's the encoding used in the regression.  The exception is when "<a href="/plink/2.0/assoc#xchr_model">--xchr-model</a> 1" is specified, where male 0..1 values coexist with female 0..2 values in the regression.  In that case, these columns will also be based on the mixed male 0..1, female 0..2 scaling.<br />
+  To be clear, --glm only uses this 0..2 haploid coding on chrX, to put males and females on an equal footing in a world where <a href="https://en.wikipedia.org/wiki/X-inactivation">X-inactivation</a> is common.  chrY/chrM use 0..1 coding.</p>
+<br />
+<h6><a name="grm">.grm (GCTA text relationship matrix)</a></h6>
+<p>Produced by <a href="/plink/2.0/distance#make_grm">--make-grm-list</a>.</p>
+<p>A text file with no header line, and one line per pair of samples (not necessarily distinct) with the following four columns:</p>
+<ol>
+  <li>1-based index of first sample in .grm.id file</li>
+  <li>1-based index of second sample in .grm.id file</li>
+  <li>Number of observations (variants where neither sample has a missing call)</li>
+  <li>Relationship value</li>
+</ol>
+<br />
+<h6><a name="grm_bin">.grm.N.bin, .grm.bin (GCTA 1.1+ triangular binary relationship matrix)</a></h6>
+<p>Produced by <a href="/plink/2.0/distance#make_grm">--make-grm-bin</a>.</p>
+<p>These files contain single-precision (4-byte) floating point values.  Using 1-based matrix indices, the first value in each file is the (1, 1) relationship value (.grm.bin) or observation count (.grm.N.bin); the second and third values are the (2, 1) and (2, 2) relationships/counts; the fourth through sixth values are the (3, 1), (3, 2) and (3, 3) relationships/counts in that order; and so on.</p>
+<p>Note that .grm.bin files generated by GCTA versions before 1.1 have a different format.</p>  <br />
+<h6><a name="grm_sp">.grm.sp (GCTA sparse relationship matrix)</a></h6>
+<p>Produced by <a href="/plink/2.0/distance#make_grm">--make-grm-sparse</a>.</p>
+<p>A text file with no header line, and one line per qualifying pair of samples (not necessarily distinct) with the following three columns:</p>
+<ol>
+  <li>0-based index of first sample in .grm.id file</li>
+  <li>0-based index of second sample in .grm.id file</li>
+  <li>Relationship value</li>
+</ol>
+<br />
+<h6><a name="haps">.haps (Oxford phased haplotype file)</a></h6>
+<p>Reference panel haplotype file format for <a href="https://mathgen.stats.ox.ac.uk/impute/impute_v2.html">IMPUTE2</a>.  Must be accompanied by a <a href="#legend">.legend</a> file when no variant info header columns are present.  Imported with <a href="/plink/2.0/input#haps">--haps</a>, and produced by <a href="/plink/2.0/data#export">"--export haps[legend]"</a>.</p>
+<p>A text file with no header line, and either 2<b>N</b>+5 or 2<b>N</b> columns where <b>N</b> is the number of samples.  In the former case, the first five columns are:</p>
+<ol>
+  <li>Chromosome code</li>
+  <li>Variant ID</li>
+  <li>Base-pair coordinate</li>
+  <li>Allele 0 (usually minor, use 'ref-first' when importing to treat as REF)</li>
+  <li>Allele 1 (usually major, use 'ref-last' when importing to treat as REF)</li>
+</ol>
+<p>This is followed by a pair of 0/1-valued haplotype columns for the first sample, then a pair of haplotype columns for the second sample, etc.  (For male samples on chrX, the second column may contain dummy '-' entries; otherwise, missing genotype calls are not permitted.)</p>
+<br />
+<h6><a name="hardy">.hardy (Hardy-Weinberg equilibrium exact test report)</a></h6>
+<p>Produced by <a href="/plink/2.0/basic_stats#hardy">--hardy</a> when autosomal diploid variants are present.</p>
+<p>A text file with a header line, and one line per autosomal diploid variant with the following columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u><a href="/plink/2.0/general_usage#colset">Column set</a></u></td><td><u>Contents</u></td></tr>
+  <tr><td><b>CHROM</b></td><td><b>chrom</b></td><td>Chromosome code</td></tr>
+  <tr><td>POS</td><td>pos</td><td>Base-pair coordinate</td></tr>
+  <tr><td><b>ID</b></td><td><b>(required)</b></td><td>Variant ID</td></tr>
+  <tr><td>REF</td><td>ref</td><td>Reference allele</td></tr>
+  <tr><td>ALT1</td><td>alt1</td><td>Alternate allele 1</td></tr>
+  <tr><td>ALT</td><td>alt</td><td>All alternate alleles, comma-separated</td></tr>
+  <tr><td><b><i><a href="/plink/2.0/input#provisional_ref">PROVISIONAL_REF?</a></i></b></td><td><b>maybeprovref</b>, provref</td><td>Reports whether REF allele is provisional</td></tr>
+  <tr><td><b>A1</b></td><td><b>(required)</b></td><td>Tested allele</td></tr>
+  <tr><td><b>AX</b></td><td><b>ax</b></td><td>Non-A1 alleles, comma-separated</td></tr>
+  <tr><td><b>HOM_A1_CT</b></td><td><b>gcounts</b></td><td>Homozygous-A1 genotype count</td></tr>
+  <tr><td><b>HET_A1_CT</b></td><td><b>gcounts</b></td><td>Heterozygous-A1 genotype count</td></tr>
+  <tr><td><b>TWO_AX_CT</b></td><td><b>gcounts</b></td><td># of nonmissing calls with no A1 copies</td></tr>
+  <tr><td>GCOUNTS</td><td>gcount1col</td><td>gcounts values in a single comma-separated column</td></tr>
+  <tr><td><b>O(HET_A1)</b></td><td><b>hetfreq</b></td><td>Observed heterozygous-major frequency</td></tr>
+  <tr><td><b>E(HET_A1)</b></td><td><b>hetfreq</b></td><td>Expected heterozygous-major frequency</td></tr>
+  <tr><td><b>[NEG_LOG10_][MID]P</b></td><td><b>p</b></td><td>Hardy-Weinberg equilibrium exact test [mid-]p-value (or -log10(p))</td></tr>
+</table>
+<br />
+<h6><a name="hardy_x">.hardy.x (Graffelman-Weir extended chrX HWE test report)</a></h6>
+<p>Produced by <a href="/plink/2.0/basic_stats#hardy">--hardy</a> when chrX variants are present.</p>
+<p>A text file with a header line, and one line per chrX variant with the following columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u><a href="/plink/2.0/general_usage#colset">Column set</a></u></td><td><u>Contents</u></td></tr>
+  <tr><td><b>CHROM</b></td><td><b>chrom</b></td><td>Chromosome code</td></tr>
+  <tr><td>POS</td><td>pos</td><td>Base-pair coordinate</td></tr>
+  <tr><td><b>ID</b></td><td><b>(required)</b></td><td>Variant ID</td></tr>
+  <tr><td>REF</td><td>ref</td><td>Reference allele</td></tr>
+  <tr><td>ALT1</td><td>alt1</td><td>Alternate allele 1</td></tr>
+  <tr><td>ALT</td><td>alt</td><td>All alternate alleles, comma-separated</td></tr>
+  <tr><td><b><i><a href="/plink/2.0/input#provisional_ref">PROVISIONAL_REF?</a></i></b></td><td><b>maybeprovref</b>, provref</td><td>Reports whether REF allele is provisional</td></tr>
+  <tr><td><b>A1</b></td><td><b>(required)</b></td><td>Tested allele</td></tr>
+  <tr><td><b>AX</b></td><td><b>ax</b></td><td>Non-A1 alleles, comma-separated</td></tr>
+  <tr><td><b>FEMALE_HOM_A1_CT</b></td><td><b>gcounts</b></td><td>Female homozygous-A1 genotype count</td></tr>
+  <tr><td><b>FEMALE_HET_A1_CT</b></td><td><b>gcounts</b></td><td>Female heterozygous-A1 genotype count</td></tr>
+  <tr><td><b>FEMALE_TWO_AX_CT</b></td><td><b>gcounts</b></td><td># of nonmissing female calls with no A1 copies</td></tr>
+  <tr><td><b>MALE_A1_CT</b></td><td><b>gcounts</b></td><td>Male A1 allele count</td></tr>
+  <tr><td><b>MALE_AX_CT</b></td><td><b>gcounts</b></td><td>Male non-A1 allele count</td></tr>
+  <tr><td>GCOUNTS</td><td>gcount1col</td><td>gcounts values in a single comma-separated column</td></tr>
+  <tr><td><b>O(FEMALE_HET_A1)</b></td><td><b>hetfreq</b></td><td>Observed het-A1 frequency</td></tr>
+  <tr><td><b>E(FEMALE_HET_A1)</b></td><td><b>hetfreq</b></td><td>Expected het-A1 frequency</td></tr>
+  <tr><td><b>FEMALE_A1_FREQ</b></td><td><b>sexaf</b></td><td>Female A1 allele frequency</td></tr>
+  <tr><td><b>MALE_A1_FREQ</b></td><td><b>sexaf</b></td><td>Male A1 allele frequency</td></tr>
+  <tr><td>FEMALE_ONLY_[NEG_LOG10_][MID]P</td><td>femalep</td><td>Old female-only HWE exact test [mid-]p-value (or -log10(p))</td></tr>
+  <tr><td><b>[NEG_LOG10_][MID]P</b></td><td><b>p</b></td><td>Graffelman-Weir HWE test [mid-]p-value (or -log10(p))</td></tr>
+</table>
+<br />
+<h6><a name="het">.het (method-of-moments F coefficient estimates)</a></h6>
+<p>Produced by <a href="/plink/2.0/basic_stats#het">--het</a>.</p>
+<p>A text file with a header line, and one line per sample with the following columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u><a href="/plink/2.0/general_usage#colset">Column set</a></u></td><td><u>Contents</u></td></tr>
+  <tr><td><b><i>FID</i></b></td><td><b>maybefid</b>, fid</td><td>Family ID</td></tr>
+  <tr><td><b>IID</b></td><td><b>(required)</b></td><td>Individual ID</td></tr>
+  <tr><td><b><i>SID</i></b></td><td><b>maybesid</b>, sid</td><td>Source ID</td></tr>
+  <tr><td><b>O(HOM)</b></td><td><b>hom</b></td><td>Observed number of homozygous genotypes</td></tr>
+  <tr><td><b>E(HOM)</b></td><td><b>hom</b></td><td>Expected number of homozygous genotypes</td></tr>
+  <tr><td>O(HET)</td><td>het</td><td>Observed number of heterozygous genotypes</td></tr>
+  <tr><td>E(HET)</td><td>het</td><td>Expected number of heterozygous genotypes</td></tr>
+  <tr><td><b>OBS_CT</b></td><td><b>nobs</b></td><td>Number of (nonmissing, non-monomorphic) autosomal genotype observations</td></tr>
+  <tr><td><b>F</b></td><td><b>f</b></td><td>Method-of-moments F coefficient estimate</td></tr>
+</table>
+<br />
+<h6><a name="hom">.hom (run-of-homozygosity list)</a></h6>
+<p>Produced by --homozyg.  Accompanied by a <a href="#hom_indiv">.hom.indiv</a> and a <a href="#hom_summary">.hom.summary</a> file.</p>
+<p>A text file with a header line, and one line per run with the following columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u><a href="/plink/2.0/general_usage#colset">Column set</a></u></td><td><u>Contents</u></td></tr>
+  <tr><td><b><i>FID</i></b></td><td><b>maybefid</b>, fid</td><td>Family ID</td></tr>
+  <tr><td><b>IID</b></td><td><b>(required)</b></td><td>Individual ID</td></tr>
+  <tr><td><b><i>SID</i></b></td><td><b>maybesid</b>, sid</td><td>Source ID</td></tr>
+  <tr><td><b><i>PHENO</i></b></td><td><b>maybepheno</b>, pheno</td><td>Phenotype value</td></tr>
+  <tr><td><b>CHROM</b></td><td><b>chrom</b></td><td>Chromosome code</td></tr>
+  <tr><td><b>POS1</b></td><td><b>pos</b></td><td>Base-pair coordinate of first variant in run</td></tr>
+  <tr><td><b>ID1</b></td><td><b>(required)</b></td><td>ID of first variant in run</td></tr>
+  <tr><td><b>ID2</b></td><td><b>(required)</b></td><td>ID of last variant in run</td></tr>
+  <tr><td><b>KB</b></td><td><b>kb</b></td><td>Length of region in kb>/td></tr>
+  <tr><td><b>NSNP</b></td><td><b>nsnp</b></td><td>Number of SNPs in run</td></tr>
+  <tr><td><b>DENSITY</b></td><td><b>density</b></td><td>Inverse SNP density in kb/SNP</td></tr>
+  <tr><td><b>PHOM</b></td><td><b>phom</b></td><td>Proportion of calls homozygous</td></tr>
+  <tr><td><b>PHET</b></td><td><b>phet</b></td><td>Proportion of calls heterozygous</td></tr>
+</table>
+<p>Note that PHOM + PHET can be less than 1 when missing calls are present.</p>
+<br />
+<h6><a name="hom_indiv">.hom.indiv (sample-based runs-of-homozygosity report)</a></h6>
+<p>Produced by --homozyg.</p>
+<p>A text file with a header line, and one line per sample with the following columns:</p>
+<table>
+  <tr><td><b><i>FID</i></b></td><td><b>maybefid</b>, fid</td><td>Family ID</td></tr>
+  <tr><td><b>IID</b></td><td><b>(required)</b></td><td>Individual ID</td></tr>
+  <tr><td><b><i>SID</i></b></td><td><b>maybesid</b>, sid</td><td>Source ID</td></tr>
+  <tr><td><b><i>PHENO</i></b></td><td><b>maybepheno</b>, pheno</td><td>Phenotype value</td></tr>
+  <tr><td><b>NSEG</b></td><td><b>nseg</b></td><td>Number of runs of homozygosity</td></tr>
+  <tr><td><b>KB</b></td><td><b>kbtot</b></td><td>Total length of runs (kb)</td></tr>
+  <tr><td><b>KBAVG</b></td><td><b>kbavg</b></td><td>Average length of runs (kb)</td></tr>
+  <tr><td><b>FROH</b></td><td><b>froh</b></td><td>Genomic inbreeding coefficient (kbtot / &lt;total length scanned&gt;)</td></tr>
+</table>
+<br />
+<h6><a name="hom_summary">.hom.summary (SNP-based runs-of-homozygosity report)</a></h6>
+<p>Produced by --homozyg.</p>
+<p>A text file with a header line, and one line per SNP with the following columns:</p>
+<table>
+  <tr><td><b>CHROM</b></td><td><b>chrom</b></td><td>Chromosome code</td></tr>
+  <tr><td><b>POS</b></td><td><b>pos</b></td><td>Base-pair coordinate</td></tr>
+  <tr><td><b>ID</b></td><td><b>(required)</b></td><td>Variant ID</td></tr>
+  <tr><td><b><i>ROH_CT</i></b></td><td><b>mayberohct</b>, rohct</td><td>Number of samples with a ROH including this variant</tr>
+  <tr><td>&lt;category name&gt;_ROH_CT</td><td><b>stratrohct</b></td><td>Number of samples in category (binary: 'CASE'/'CTRL') with ROH including variant</td></tr>
+</table>
+<p>Note that, unlike PLINK 1.x, samples with missing binary-phenotype values are not counted in CTRL_ROH_CT.</p>
+<br />
+<h6><a name="id">.id (Sample ID list)</a></h6>
+<p>When generated by PLINK 2, this is a text file which may or may not have a header line.  If there's no header line (default with .grm.id files, can be forced for other .id files with <a href="/plink/2.0/data#write_samples">--no-id-header</a>), and there's a single column, they are IIDs; if there are two columns, they are FID/IID.  Otherwise, there's one line per sample after the header line with the following columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u>Contents</u></td></tr>
+  <tr><td>FID</td><td>Family ID (present iff .psam or --update-ids file has it)</td></tr>
+  <tr><td>IID</td><td>Individual ID (always present)</td></tr>
+  <tr><td>SID</td><td>Source ID (present iff .psam or --update-ids file has it)</td></tr>
+</table>
+<br />
+<h6><a name="ind">.ind (EIGENSOFT sample information file)</a></h6>
+<p>Sample information file accompanying an EIGENSOFT <a href="#geno">.geno</a> binary genotype table.  Loaded with <a href="/plink/2.0/input#eigfile">--eigfile/--eigind</a>, and produced by <a href="/plink/2.0/data#export">--export eig[t]</a>.</p>
+<p>A text file with no header line, and one line per sample with the following three columns:</p>
+<ol>
+  <li>Sample ID (max 39 characters)</li>
+  <li>Sex code ('M' = male, 'F' = female, 'U' = unknown)</li>
+  <li>Label (binary phenotype represented as 'Case'/'Control')</li>
+</ol>
+<br />
+<h6><a name="kin0">.kin0 (KING-robust kinship coefficient report)</a></h6>
+<p>Produced by <a href="/plink/2.0/distance#make_king">--make-king-table</a>.</p>
+<p>A text file with a header line, and one line per sample pair with kinship coefficient no smaller than the --king-table-filter value.  When --king-table-filter is not specified, all sample pairs are included.  The following columns are present:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u><a href="/plink/2.0/general_usage#colset">Column set</a></u></td><td><u>Contents</u></td></tr>
+  <tr><td><b><i>FID1</i></b></td><td><b>maybefid</b>, fid</td><td>FID of first sample in current pair</td></tr>
+  <tr><td><b>ID1</b></td><td><b>id</b></td><td>IID of first sample in current pair</td></tr>
+  <tr><td><b><i>SID1</i></b></td><td><b>maybesid</b>, sid</td><td>SID of first sample in current pair</td></tr>
+  <tr><td><b><i>FID2</i></b></td><td><b>maybefid</b>, fid</td><td>FID of second sample in current pair</td></tr>
+  <tr><td><b>ID2</b></td><td><b>id</b></td><td>IID of second sample in current pair</td></tr>
+  <tr><td><b><i>SID2</i></b></td><td><b>maybesid</b>, sid</td><td>SID of second sample in current pair</td></tr>
+  <tr><td><b>NSNP</b></td><td><b>nsnp</b></td><td>Number of variants considered (autosomal, neither call missing)</td></tr>
+  <tr><td><b>HETHET</b></td><td><b>hethet</b></td><td>Proportion/count of considered call pairs which are het-het</td></tr>
+  <tr><td><b>IBS0</b></td><td><b>ibs0</b></td><td>Proportion/count of considered call pairs which are opposite homs</td></tr>
+  <tr><td>HET1_HOM2</td><td>ibs1</td><td>Proportion/count of sample 1 het, sample 2 hom</td></tr>
+  <tr><td>HET2_HOM1</td><td>ibs1</td><td>Proportion/count of sample 1 hom, sample 2 het</td></tr>
+  <tr><td>IBS</td><td>ibs</td><td>Hamming distance (2 * ibs0 + ibs1), divided by 2 * nsnp if proportion</td></tr>
+  <tr><td><b>KINSHIP</b></td><td><b>kinship</b></td><td>KING-robust between-family kinship estimate</td></tr>
+</table>
+<br />
+<h6><a name="king">.king[.bin] (KING-robust kinship coefficient matrix)</a></h6>
+<p>Produced by <a href="/plink/2.0/distance#make_king">--make-king</a>.  Accompanied by a .king[.bin].id file containing sample IDs.</p>
+<p>If text, a tab-delimited file that is either lower-triangular (excluding the diagonal) or square.  If it's square, the upper-right triangle may be either zeroed out or the mirror-image of the lower-left triangle, depending on whether the 'square0' or 'square' modifier was used.</p>
+<p>The binary format is semantically identical; it just has nothing but single- (4-byte) or double-precision (8-byte) floating point values, instead of text+delimiters+linebreaks.</p>
+<br />
+<h6><a name="legend">.legend (Oxford single-chromosome variant information file)</a></h6>
+<p>Single-chromosome variant information file accompanying a bare <a href="#haps">.haps</a> reference panel haplotype file.  Imported with <a href="/plink/2.0/input#haps">--legend</a>, and produced by <a href="/plink/2.0/data#export">"--export hapslegend"</a>.</p>
+<p>A text file with a header line, and one line per variant with the following four columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u>Contents</u></td></tr>
+  <tr><td>id</td><td>Variant ID</td></tr>
+  <tr><td>position</td><td>Base-pair coordinate</td></tr>
+  <tr><td>a0</td><td>Allele 0 (usually minor, use 'ref-first' to treat as REF)</td></tr>
+  <tr><td>a1</td><td>Allele 1 (usually major, use 'ref-last' to treat as REF)</td></tr>
+</table>
+<br />
+<h6><a name="lgen">.lgen (PLINK long-format genotype file)</a></h6>
+<p>Produced by <a href="/plink/2.0/data#export">"--export lgen" and "--export lgen-ref"</a>.  Accompanied by a <a href="#fam">.fam</a>, <a href="#map">.map</a>, and possibly a <a href="#ref">.ref</a> file.  Loaded with <a href="/plink/2.0/input#lfile">--lfile</a>.</p>
+<p>A text file with no header line, and one line per genotype call (or just not-homozygous-major calls if 'lgen-ref' was invoked) usually with the following five fields:</p>
+<ol>
+  <li>Family ID</li>
+  <li>Within-family ID</li>
+  <li>Variant identifier</li>
+  <li>Allele call 1 ('0' for missing)</li>
+  <li>Allele call 2</li>
+</ol>
+<p>There are several variations which are also handled by PLINK; see the <a href="https://zzz.bwh.harvard.edu/plink/data.shtml#long">original discussion</a> for details.</p>
+<br />
+<h6><a name="map">.map (PLINK 1 text fileset variant information file)</a></h6>
+<p>Variant information file accompanying a <a href="#ped">.ped</a> text pedigree + genotype table.</p>
+<p>A text file with no expected header line, and one line per variant with the following 3-4 columns:</p>
+<ol>
+  <li>Chromosome code.  PLINK 1.9 and 2.0 also permit contig names here, but most older programs do not.</li>
+  <li>Variant ID</li>
+  <li>Position in centimorgans (optional; safe to use dummy value of '0')</li>
+  <li>Base-pair coordinate (1-based; limited to 2<sup>31</sup>-2)</li>
+</ol>
+<p>All lines must have the same number of columns (so either no lines contain the centimorgans column, or all of them do).</p>
+<p>Lines starting with '#' are supposed to be treated as comments, <span style="color: #ee1111;">but this was not consistently supported by PLINK 1.9 and 2.0 before Aug 2024</span>.</p>
+<br />
+<h6><a name="mendel">.mendel, .imendel, .fmendel, .lmendel (Mendel error reports)</a></h6>
+<p>Produced by <a href="/plink/2.0/basic_stats#mendel">--mendel</a>.</p>
+<p>The .mendel file is a text file with a header line, and one line per error with the following columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u><a href="/plink/2.0/general_usage#colset">Column set</a></u></td><td><u>Contents</u></td></tr>
+  <tr><td><b><i>FID</i></b></td><td><b>maybefid</b>, fid</td><td>Family ID</td></tr>
+  <tr><td><b>KID</b></td><td><b>(required)</b></td><td>Kid's IID</td></tr>
+  <tr><td><b><i>KID_SID</i></b></td><td><b>maybesid</b>, sid</td><td>Kid's source-ID</td></tr>
+  <tr><td><b>CHROM</b></td><td><b>chrom</b></td><td>Chromosome code</td></tr>
+  <tr><td>POS</td><td>pos</td><td>Base-pair coordinate</td></tr>
+  <tr><td><b>ID</b></td><td><b>(required)</b></td><td>Variant ID</td></tr>
+  <tr><td>REF</td><td>ref</td><td>Reference allele</td></tr>
+  <tr><td>ALT</td><td>alt</td><td>All alternate alleles, comma-separated</td></tr>
+  <tr><td><b>CODE</b></td><td><b>code</b></td><td>Numeric error code</td></tr>
+  <tr><td><b>ERROR</b></td><td><b>error</b></td><td>Description of error (no longer contains spaces)</td></tr>
+</table>
+<p>Note that '*/*' or '*' in the error description does not (necessarily) refer to a missing genotype call; instead, it means the Mendel error is unrelated to that parent.</p>
+<p>The .fmendel file has a header line, and one line per nuclear family with the following columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u><a href="/plink/2.0/general_usage#colset">Column set</a></u></td><td><u>Contents</u></td></tr>
+  <tr><td><b><i>FID</i></b></td><td><b>maybefid</b>, fid</td><td>Family ID</td></tr>
+  <tr><td><b>PAT</b></td><td><b>(required)</b></td><td>Paternal IID (0 if missing)</td></tr>
+  <tr><td><b>MAT</b></td><td><b>(required)</b></td><td>Maternal IID (0 if missing)</td></tr>
+  <tr><td><b>CHLD</b></td><td><b>(required)</b></td><td>Number of offspring samples in nuclear family</td></tr>
+  <tr><td><b>N</b></td><td><b>(required)</b></td><td>Number of Mendel errors in nuclear family</td></tr>
+</table>
+<p>The .imendel file has a header line, and one subsection per trio/duo.  Each subsection contains one line per trio/duo member (father first, then mother, then child) with the following columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u><a href="/plink/2.0/general_usage#colset">Column set</a></u></td><td><u>Contents</u></td></tr>
+  <tr><td>TRIO_NUM</td><td>trionum</td><td>1-based trio/duo number</td></tr>
+  <tr><td><b><i>FID</i></b></td><td><b>maybefid</b>, fid</td><td>Family ID</td></tr>
+  <tr><td><b>IID</b></td><td><b>(required)</b></td><td>Individual ID</td></tr>
+  <tr><td><b><i>SID</i></b></td><td><b>maybesid</b>, sid</td><td>Source ID</td></tr>
+  <tr><td><b>N</b></td><td><b>ni</b></td><td>Number of errors implicating this sample (only considering trio/duo)</td></tr>
+  <tr><td>OBS_CT</td><td>nobsi</td><td>Number of variants considered</td></tr>
+  <tr><td>F_ERR</td><td>fraci</td><td>Sample's Mendel error rate (only considering trio/duo)</td></tr>
+</table>
+<p>Samples may appear more than once in this file.</p>
+<p>Finally, the .lmendel file has a header line, and one line per variant with the following columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u><a href="/plink/2.0/general_usage#colset">Column set</a></u></td><td><u>Contents</u></td></tr>
+  <tr><td><b>CHROM</b></td><td><b>chrom</b></td><td>Chromosome code</td></tr>
+  <tr><td>POS</td><td>pos</td><td>Base-pair coordinate</td></tr>
+  <tr><td><b>ID</b></td><td><b>(required)</b></td><td>Variant ID</td></tr>
+  <tr><td>REF</td><td>ref</td><td>Reference allele</td></tr>
+  <tr><td>ALT</td><td>alt</td><td>All alternate alleles, comma-separated</td></tr>
+  <tr><td><b>N</b></td><td><b>nl</b></td><td>Number of Mendel errors</td></tr>
+  <tr><td>OBS_CT</td><td>nobsl</td><td>Number of trios considered</td></tr>
+  <tr><td>F_ERR</td><td>fracl</td><td>Variant's Mendel error rate</td></tr>
+</table>
+<h6><a name="perm">.*.{a,m}perm (permutation test report)</a></h6>
+<p>Produced by <a href="/plink/2.0/assoc#glm">--glm</a> when the 'aperm' or 'mperm=&lt;value&gt;' modifier is used.  <a href="/plink/2.0/assoc#perm_format">--perm-format</a> controls the format of this file.</p>
+<p>A text file with a header line, and then one line per tested allele with the following columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u><a href="/plink/2.0/general_usage#colset">Column set</a></u></td><td><u>Contents</u></td></tr>
+  <tr><td><b>CHROM</b></td><td><b>chrom</b></td><td>Chromosome code</td></tr>
+  <tr><td>POS</td><td>pos</td><td>Base-pair coordinate</td></tr>
+  <tr><td><b>ID</b></td><td><b>(required)</b></td><td>Variant ID</td></tr>
+  <tr><td><b>REF</b></td><td><b>ref</b></td><td>Reference allele</td></tr>
+  <tr><td>ALT1</td><td>alt1</td><td>Alternate allele 1</td></tr>
+  <tr><td><b>ALT</b></td><td><b>alt</b></td><td>All alternate alleles, comma-separated</td></tr>
+  <tr><td><b><a href="/plink/2.0/input#provisional_ref">PROVISIONAL_REF?</a></b></td><td>maybeprovref, <b>provref</b></td><td>Reports whether REF allele is provisional</td></tr>
+  <tr><td><b>A1</b></td><td><b>(required)</b></td><td>Counted allele<sup><a href="#footnote1">1</a></sup> in regression</td></tr>
+  <tr><td><b>OMITTED</b></td><td><b>omitted</b></td><td>If linear/logistic/Firth regression, omitted allele</td></tr>
+  <tr><td><b>EMP1[_CT]</b></td><td><b>(required)</b></td><td># of more-extreme permutation results for this allele (tie=0.5), or empirical pointwise p-value</td></tr>
+  <tr><td><b><i>PERM_CT</i></b></td><td><b>(required)</b></td><td># of permutations (.aperm only)</td></tr>
+  <tr><td><b><i>EMP2[_CT]</i></b></td><td><b>(required)</b></td><td># of permutations with a more-extreme result for any allele (tie=0.5), or empirical max(T) p-value (.mperm only)</td></tr>
+</table>
+<br />
+<h6><a name="pdiff">.pdiff (two-fileset genotype/dosage discordance report)</a></h6>
+<p>Produced by <a href="/plink/2.0/diff#pgen_diff">--pgen-diff</a>.</p>
+<p>A text file with a header line, and then one line per discordance with the following columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u><a href="/plink/2.0/general_usage#colset">Column set</a></u></td><td><u>Contents</u></td></tr>
+  <tr><td>CHROM</td><td>chrom</td><td>Chromosome code</td></tr>
+  <tr><td>POS</td><td>pos</td><td>Base-pair coordinate</td></tr>
+  <tr><td><b>ID</b></td><td><b>id</b></td><td>Variant ID</td></tr>
+  <tr><td>REF</td><td>ref</td><td>Reference allele</td></tr>
+  <tr><td>ALT</td><td>alt</td><td>All alternate alleles, comma-separated</td></tr>
+  <tr><td><b><i><a href="/plink/2.0/input#provisional_ref">PROVISIONAL_REF?</a></i></b></td><td><b>maybeprovref</b>, provref</td><td>Reports whether REF allele is provisional</td></tr>
+  <tr><td><b><i>FID</i></b></td><td><b>maybefid</b>, fid</td><td>Family ID</td></tr>
+  <tr><td><b>IID</b></td><td><b>(required)</b></td><td>Individual ID</td></tr>
+  <tr><td><b><i>SID</i></b></td><td><b>maybesid</b>, sid</td><td>Source ID</td></tr>
+  <tr><td><b>'GT1'</b>/<b>'DS1'</b></td><td><b>geno</b></td><td>Genotype/dosage of first sample</td></tr>
+  <tr><td><b>'GT2'</b>/<b>'DS2'</b></td><td><b>geno</b></td><td>Genotype/dosage of second sample</td></tr>
+</table>
+<br />
+<h6><a name="ped">.ped (PLINK 1/MERLIN/Haploview sample-major text genotype table)</a></h6>
+<p>Pedigree information + genotype call text file.  Must be accompanied by a <a href="#map">.map</a> file.  Loaded with <a href="/plink/2.0/input#plink1text">--pedmap</a>, and produced by <a href="/plink/2.0/data#export">"--export ped"</a>.  <span style="color: #ee1111;">This format is simultaneously highly inefficient, even relative to other text formats, and limited in scope (unobserved minor allele codes can't be stored); continued use is strongly discouraged.</span></p>
+<p>Contains no header line, and one line per sample with 2<b>V</b>+6 columns where <b>V</b> is the number of variants.  The first six columns are the same as those in a <a href="#fam">.fam</a> file.  The seventh and eighth columns are allele calls for the first variant in the .map file ('0' = no call); the 9th and 10th are allele calls for the second variant; and so on.  All variants must be biallelic (or monomorphic, or all-missing).</p>
+<p>If all alleles are single-character, PLINK 1.9 and 2.0 will correctly parse the more compact "compound genotype" variant of this format, where each genotype call is represented as a single two-character string.  This does not require the use of an additional loading flag.  You can produce such a file with <a href="/plink/2.0/data#export">"--export compound-genotypes"</a>.</p>
+<p>It is also possible to <a href="/plink/2.0/input#plink_irreg">load .ped files missing some initial columns</a>.</p>
+<p>Lines starting with '#' are supposed to be treated as comments, <span style="color: #ee1111;">but this was not supported by PLINK 1.9 and 2.0 before Aug 2024</span>.</p>
+<br />
+<h6><a name="pgen">.pgen, .pgen.pgi (PLINK 2 binary genotype table)</a></h6>
+<p>PLINK 2's preferred way to represent genotype calls.  Must be accompanied by <a href="#pvar">.pvar</a>/<a href="#bim">.bim</a> and <a href="#psam">.psam</a>/<a href="#fam">.fam</a> files.  Loaded with <a href="/plink/2.0/input#pgen">--pfile/--bpfile</a>, and generated with <a href="/plink/2.0/data#make_pgen">--make-pgen/--make-bpgen</a> and <a href="/plink/2.0/input#keep_autoconv">all import commands</a>.</p>
+<p>Most .pgen files have an embedded index, and do not have an accompanying .pgen.pgi file.  When the index is not embedded, PLINK 2 expects it to be stored in "&lt;.pgen filename&gt;.pgi".</p>
+<p>A <a href="https://github.com/chrchang/plink-ng/tree/master/pgen_spec">draft specification</a> of these formats is available.  The first version will be finalized around the beginning of PLINK 2.0 beta testing.</p>
+<br />
+<h6><a name="psam">.psam (PLINK 2 sample information file)</a></h6>
+<p>Sample information file accompanying a <a href="#pgen">.pgen</a> binary genotype table.  (<a href="/plink/2.0/data#make_just_pvar">--make-just-psam</a> can be used to update just this file.)</p>
+<p>A text file which usually has at least one header line, where only the last header line starts with '#FID' or '#IID'.  This final header line specifies the columns in the .psam file; the following intermediate column headers are recognized:</p>
+<ol>
+  <li>IID (individual ID; required)</li>
+  <li>SID (source ID, when there are multiple samples for the same individual)</li>
+  <li>PAT (individual ID of father, '0' if unknown)</li>
+  <li>MAT (individual ID of mother, '0' if unknown)</li>
+  <li>SEX ('1' = male, '2' = female, 'NA'/'0' = unknown)</li>
+</ol>
+<p>(FID must either be the first column, or absent.  If it's absent, all FID values are now assumed to be '0'.)  <b>Any other value is treated as a phenotype/covariate name</b>; see <a href="/plink/2.0/input#pheno">the phenotype/covariate documentation</a> for column encoding details.</p>
+<p>If no header line is present, the columns are assumed to be in <a href="#fam">.fam</a> file order (FID, IID, PAT, MAT, SEX, PHENO1).</p>
+<br />
+<h6><a name="phy">.phy (relaxed PHYLIP format)</a></h6>
+<p>Multiple sequence alignment text file, produced by <a href="/plink/2.0/data#export">"--export phylip[-phased]"</a>, and recognized by <a href="http://www.microbesonline.org/fasttree/">FastTree</a>, <a href="http://www.iqtree.org">IQ-TREE</a>, and several other phylogenetic tools.  <span style="color: #ee1111;">This format cannot be loaded by PLINK.</span></p>
+<p>The header line contains two numbers, the number of sequences followed by the number of nucleotide codes per sequence.</p>
+<p>Each subsequent line contains two columns.  The first column contains the sample ID, and is padded by spaces to a fixed width, such that the longest sample ID is followed by exactly 3 spaces.  (This imitates the behavior of <a href="https://github.com/edgardomortiz/vcf2phylip">vcf2phylip</a>.)  The second column contains <a href="https://genome.ucsc.edu/goldenPath/help/iupac.html">IUPAC nucleotide codes</a>.</p>
+<br />
+<h6><a name="pvar">.pvar (PLINK 2 variant information file)</a></h6>
+<p>Variant information file accompanying a <a href="#pgen">.pgen</a> binary genotype table.  (<a href="/plink/2.0/data#make_just_pvar">--make-just-pvar</a> can be used to update just this file.)</p>
+<p>A text file which usually has at least one header line, where only the last header line starts with '#CHROM'.  This final header line specifies the columns in the .pvar file; the following intermediate column headers are recognized:</p>
+<ol>
+  <li>POS (base-pair coordinate)</li>
+  <li>ID (variant ID; required)</li>
+  <li>REF (reference allele)</li>
+  <li>ALT (alternate alleles, comma-separated; some commands expect uniqueness)</li>
+  <li>QUAL (phred-scaled quality score for whether the locus is variable at all)</li>
+  <li>FILTER ('PASS', '.', or semicolon-separated list of failing filter codes)</li>
+  <li>INFO (semicolon-separated list of flags and key-value pairs, with types declared in header)</li>
+  <li>FORMAT (terminates header line parsing)</li>
+  <li>CM (centimorgan position)</li>
+</ol>
+<p>In particular, a VCF file, or a trimmed VCF file with all columns past the 5th (or 6th, etc.) removed, is valid input for anything expecting a .pvar-format file.</p>
+<p>The following VCF-style header lines are also recognized:</p>
+<ol>
+  <li>"##INFO=&lt;ID=PR,Number=0,Type=Flag...": Indicates the INFO/PR flag, which marks 'provisional' reference alleles (i.e. imported from a file which does not consistently track which allele is reference and which are alternates), is present.  (This information is also present in .pgen files, and the loader reports an error when the .pvar and .pgen flags don't match.)</li>
+  <li>"##chrSet=...": Explicitly specifies the chromosome set.  E.g. <a href="/plink/2.0/data#make_pgen">--make-pgen</a> + <a href="/plink/2.0/input#chr_set">--dog</a> will cause "##chrSet=&lt;ID=1,autosomePairCt=38,X,Y,XY,M&gt;" to be written to the .pvar header, and as a consequence it isn't necessary to include the --dog flag when loading the new fileset.</li>
+</ol>
+<p>When no header line is present, the columns are assumed to be in <a href="#bim">.bim</a> file order (CHROM, ID, CM, POS, ALT, REF; or if only 5 columns are present, CM is assumed to be omitted).</p>
+<br />
+<h6><a name="raw">.raw (additive + dominant component file)</a></h6>
+<p>Produced by <a href="/plink/2.0/data#export">"--export {A,AD}"</a>; suitable for loading from R.  <span style="color: #ee1111;">This format cannot be loaded by PLINK.</span></p>
+<p>A text file with a header line, and then one line per sample with <b>V</b>+6 (for "--export A") or 2<b>V</b>+6 (for "--export AD") columns, where <b>V</b> is the number of variants.  The header line does <i>not</i> contain a preceding '#'.  The first six columns are:</p>
+<table>
+  <tr><td>FID</td><td>Family ID</td></tr>
+  <tr><td>IID</td><td>Individual ID</td></tr>
+  <tr><td>PAT</td><td>Paternal individual ID</td></tr>
+  <tr><td>MAT</td><td>Maternal individual ID</td></tr>
+  <tr><td>SEX</td><td>Sex (1 = male, 2 = female, 0 = unknown)</td></tr>
+  <tr><td>PHENOTYPE</td><td>First active non-categorical phenotype (missing value if none)</td></tr>
+</table>
+<p>This is followed by one or two columns per variant:</p>
+<table>
+  <tr><td>&lt;Variant ID&gt;_&lt;counted allele&gt;</td><td>Allelic dosage (missing = 'NA', haploid scaled to 0..2)</td></tr>
+  <tr><td><i>&lt;Variant ID&gt;_HET</i></td><td>Dominant component (1 = het).  <i>Requires "--export AD".</i></td></tr>
+</table>
+<p>If 'include-alt' was specified, the header line also names alternate allele codes in parentheses, e.g. 'rs5939319_G(/A)'.</p>
+<br />
+<h6><a name="ref">.ref (long-format reference allele file)</a></h6>
+<p>Reference allele file which accompanies a <a href="#lgen">.lgen</a> file when it's generated with "<a href="/plink/2.0/data#export">--export lgen-ref</a>".  Loaded with <a href="/plink/2.0/input#lfile">--lfile + --reference</a>.</p>
+<p>A text file with no header line, and one line per variant with the following 2-3 fields:</p>
+<ol>
+  <li>Variant identifier</li>
+  <li>REF allele</li>
+  <li>ALT allele <i>(entire field omitted if value is missing)</i></li>
+</ol>
+<br />
+<h6><a name="rel">.rel[.bin] (relationship matrix)</a></h6>
+<p>Produced by <a href="/plink/2.0/distance#make_rel">--make-rel</a>.  Accompanied by a .rel[.bin].id file containing sample IDs.</p>
+<p>Contents are identical to that of a <a href="#grm">.grm</a>/<a href="#grm_bin">.grm.bin</a> file.  Possible shapes are essentially the same as for <a href="#king">.king</a> files; the only difference is that .king files have an omitted or constant-0.5 diagonal while .rel files do not.</p>
+<br />
+<h6><a name="sample">.sample (Oxford sample information file)</a></h6>
+<p>Sample information file accompanying a <a href="#gen">.gen</a> or <a href="#bgen">.bgen</a> genotype dosage file, or a <a href="#haps">.haps</a> phased reference panel.  Loaded with <a href="/plink/2.0/input#oxford">--data/--sample</a>, and produced by <a href="/plink/2.0/data#export">--export</a> in several cases.</p>
+<p>By default, the .sample space-delimited files emitted by --export have two header lines, and then one line per sample with 4+ columns:</p>
+<table>
+  <tr><td><u>First header line</u></td><td><u>Second header line</u></td><td><u>Subsequent contents</u></td>
+  <tr><td>ID_1</td><td>0</td><td>Family ID</td></tr>
+  <tr><td>ID_2</td><td>0</td><td>Individual ID</td></tr>
+  <tr><td>missing</td><td>0</td><td>Missing call frequency</td></tr>
+  <tr><td>sex</td><td>D</td><td>Sex code ('1' = male, '2' = female, '0' = unknown)</td></tr>
+  <tr><td>&lt;Pheno name&gt;, ...</td><td>'B'/'D'/'P'</td><td><b>B</b>inary ('0' = control, '1' = case), <b>d</b>iscrete (categorical, positive integers), or continuous <b>p</b>henotype; missing values represented by 'NA'</td></tr>
+</table>
+<p>(As of 6 Apr 2021, PLINK 2 accepts 'C' as a synonym for column type 'P' in .sample input files.)</p>
+<p>With --export's 'sample-v2' modifier, this is adjusted to:</p>
+<table>
+  <tr><td><u>First header line</u></td><td><u>Second header line</u></td><td><u>Subsequent contents</u></td>
+  <tr><td>ID</td><td>0</td><td>Sample ID</td></tr>
+  <tr><td>missing</td><td>0</td><td>(unchanged)</td></tr>
+  <tr><td><i>father</i></td><td>D</td><td>Paternal individual ID</td></tr>
+  <tr><td><i>mother</i></td><td>D</td><td>Maternal individual ID</td></tr>
+  <tr><td>sex</td><td>D</td><td>Unknown sex encoded as 'NA' instead of '0'</td></tr>
+  <tr><td>&lt;Pheno name&gt;, ...</td><td>'B'/'D'/'P'</td><td>For type 'D', original category names are saved instead of just integers; otherwise unchanged</td></tr>
+</table>
+<p>Note that older programs are likely to support only the first .sample dialect.</p>
+<p>A specification for this format is on the <a href="https://www.chg.ox.ac.uk/~gav/qctool_v2/documentation/sample_file_formats.html">QCTOOL v2 website</a>.</p>
+<br />
+<h6><a name="scount">.scount (sample variant-count report)</a></h6>
+<p>Produced by <a href="/plink/2.0/basic_stats#sample_counts">--sample-counts</a>.</p>
+<p>A text file with a header line, and then one line per discordance with the following columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u><a href="/plink/2.0/general_usage#colset">Column set</a></u></td><td><u>Contents</u></td></tr>
+  <tr><td><b><i>FID</i></b></td><td><b>maybefid</b>, fid</td><td>Family ID</td></tr>
+  <tr><td><b>IID</b></td><td><b>(required)</b></td><td>Individual ID</td></tr>
+  <tr><td><b><i>SID</i></b></td><td><b>maybesid</b>, sid</td><td>Source ID</td></tr>
+  <tr><td>SEX</td><td>sex</td><td>Sex (1 = male, 2 = female, 'NA' = unknown)</td></tr>
+  <tr><td>HOM_CT</td><td>hom</td><td>Homozygous genotype count</td></tr>
+  <tr><td><b>HOM_REF_CT</b></td><td><b>homref</b></td><td>Hom-REF genotype count</td></tr>
+  <tr><td>HOM_ALT_CT</td><td>homalt</td><td>Hom-ALT genotype count</td></tr>
+  <tr><td><b>HOM_ALT_SNP_CT</b></td><td><b>homaltsnp</b></td><td>Hom-ALT SNP (single-character REF and ALT) count</td></tr>
+  <tr><td>HET_CT</td><td>het</td><td>Heterozygous genotype count</td></tr>
+  <tr><td>HET_REF_ALT_CT</td><td>refalt</td><td>Het. REF-ALTx genotype count</td></tr>
+  <tr><td>HET_2ALT_CT</td><td>het2alt</td><td>Het. ALTx-ALTy genotype count</td></tr>
+  <tr><td><b>HET_SNP_CT</b></td><td><b>hetsnp</b></td><td>Het. SNP genotype count</td></tr>
+  <tr><td><b>DIPLOID_TRANSITION_CT</b></td><td><b>dipts</b></td><td>Diploid SNP transition (A&harr;G, C&harr;T) count</td></tr>
+  <tr><td>TRANSITION_CT</td><td>ts</td><td>SNP transition count</td></tr>
+  <tr><td><b>DIPLOID_TRANSVERSION_CT</b></td><td><b>diptv</b></td><td>Diploid SNP transversion count</td></tr>
+  <tr><td>TRANSVERSION_CT</td><td>tv</td><td>SNP transversion count</td></tr>
+  <tr><td><b>DIPLOID_NONSNP_NONSYMBOLIC_CT</b></td><td><b>dipnonsnpsymb</b></td><td>Diploid non-SNP, non-symbolic variant count</td></tr>
+  <tr><td>NONSNP_NONSYMBOLIC_CT</td><td>nonsnpsymb</td><td>Non-SNP, non-symbolic variant count</td></tr>
+  <tr><td>SYMBOLIC_CT</td><td>symbolic</td><td>Symbolic (starting with '&lt;') variant count</td></tr>
+  <tr><td>NONSNP_CT</td><td>nonsnp</td><td>Non-SNP variant count</td></tr>
+  <tr><td><b>DIPLOID_SINGLETON_CT</b></td><td><b>dipsingle</b></td><td>Number of singletons relative to this dataset, considering just diploid calls<sup><a href="#footnote3">3</a></sup></td></tr>
+  <tr><td>SINGLETON_CT</td><td>single</td><td>Number of singletons relative to this dataset</td></tr>
+  <tr><td><b>HAP_REF_INCL_FEMALE_Y_CT</b></td><td><b>haprefwfemaley</b></td><td>Haploid REF count, counting chrY for everyone</td></tr>
+  <tr><td>HAP_REF_CT</td><td>hapref</td><td>Haploid REF count, excluding chrY for nonmales</td></tr>
+  <tr><td><b>HAP_ALT_INCL_FEMALE_Y_CT</b></td><td><b>hapaltwfemaley</b></td><td>Haploid ALT count, counting chrY for everyone</td></tr>
+  <tr><td>HAP_ALT_CT</td><td>hapalt</td><td>Haploid ALT count, excluding chrY for nonmales</td></tr>
+  <tr><td><b>MISSING_INCL_FEMALE_Y_CT</b></td><td><b>missingwfemaley</b></td><td>Missing call count, counting chrY for everyone</td></tr>
+  <tr><td>MISSING_CT</td><td>missing</td><td>Missing call count, excluding chrY for nonmales</td></tr>
+</table>
+<p>The 'hetsnp', 'dipts'/'ts'/'diptv'/'tv', 'dipnonsnpsymb'/'nonsnpsymb', 'symbolic', and 'nonsnp' columns count each ALT allele in a heterozygous ALTx-ALTy genotype separately, since they can be of different subtypes.  (I.e. if they are of the same subtype, the corresponding count is incremented by 2.)  As a consequence, these columns are unaffected by variant split/join.</p>
+<p style="font-size: 11px; line-height: 15px;"><a name="footnote3">3</a>: If the ALT allele in a chrX biallelic variant appears in exactly one female and one male, that counts as a singleton in this column for just the female.</p>
+<br />
+<h6><a name="sdiff">.sdiff (sample-pair discordance report)</a></h6>
+<p>Produced by <a href="/plink/2.0/diff#sample_diff">--sample-diff</a>.</p>
+<p>A text file with a header line, and then one line per discordance with the following columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u><a href="/plink/2.0/general_usage#colset">Column set</a></u></td><td><u>Contents</u></td></tr>
+  <tr><td><b>CHROM</b></td><td><b>chrom</b></td><td>Chromosome code</td></tr>
+  <tr><td><b>POS</b></td><td><b>pos</b></td><td>Base-pair coordinate</td></tr>
+  <tr><td><b>ID</b></td><td><b>(required)</b></td><td>Variant ID</td></tr>
+  <tr><td><b>REF</b></td><td><b>ref</b></td><td>Reference allele</td></tr>
+  <tr><td><b>ALT</b></td><td><b>alt</b></td><td>All alternate alleles, comma-separated</td></tr>
+  <tr><td><b><i><a href="/plink/2.0/input#provisional_ref">PROVISIONAL_REF?</a></i></b></td><td><b>maybeprovref</b>, provref</td><td>Reports whether REF allele is provisional</td></tr>
+  <tr><td><b><i>FID1</i></b></td><td><b><i>maybefid</i></b>, fid</td><td>FID of first sample in current pair</td></tr>
+  <tr><td><b><i>IID1</i></b></td><td><b><i>id</i></b></td><td>IID of first sample in current pair</td></tr>
+  <tr><td><b><i>SID1</i></b></td><td><b><i>maybesid</i></b>, sid</td><td>SID of first sample in current pair</td></tr>
+  <tr><td><b><i>FID2</i></b></td><td><b><i>maybefid</i></b>, fid</td><td>FID of second sample in current pair</td></tr>
+  <tr><td><b><i>IID2</i></b></td><td><b><i>id</i></b></td><td>IID of second sample in current pair</td></tr>
+  <tr><td><b><i>SID2</i></b></td><td><b><i>maybesid</i></b>, sid</td><td>SID of second sample in current pair</td></tr>
+  <tr><td><b>'GT1'</b>/<b>'DS1'</b></td><td><b>geno</b></td><td>Genotype/dosage of first sample</td></tr>
+  <tr><td><b>'GT2'</b>/<b>'DS2'</b></td><td><b>geno</b></td><td>Genotype/dosage of second sample</td></tr>
+</table>
+<br />
+<h6><a name="sdiff_summary">.sdiff.summary (sample-pair discordance count summary)</a></h6>
+<p>Produced by <a href="/plink/2.0/diff#sample_diff">--sample-diff</a>.</p>
+<p>A text file with a header line, and then one line per sample pair with the following columns:</p>
+<table>
+  <tr><td><b><i>FID1</i></b></td><td><b>maybefid</b>, fid</td><td>FID of first sample in current pair</td></tr>
+  <tr><td><b>IID1</b></td><td><b>(required)</b></td><td>IID of first sample in current pair</td></tr>
+  <tr><td><b><i>SID1</i></b></td><td><b>maybesid</b>, sid</td><td>SID of first sample in current pair</td></tr>
+  <tr><td><b><i>FID2</i></b></td><td><b>maybefid</b>, fid</td><td>FID of second sample in current pair</td></tr>
+  <tr><td><b>IID2</b></td><td><b>(required)</b></td><td>IID of second sample in current pair</td></tr>
+  <tr><td><b><i>SID2</i></b></td><td><b>maybesid</b>, sid</td><td>SID of second sample in current pair</td></tr>
+  <tr><td><b>OBS_CT</b></td><td><b>nobs</b></td><td>Number of genotype/dosage pairs considered</td></tr>
+  <tr><td>IBS_OBS_CT</td><td>nobsibs</td><td>Number of diploid hardcall-pairs</td></tr>
+  <tr><td>IBS0_CT</td><td>ibs0</td><td># of diploid hardcall-pairs with no matching alleles</td></tr>
+  <tr><td>IBS1_CT</td><td>ibs1</td><td># of diploid hardcall-pairs with exactly 1 matching allele</td></tr>
+  <tr><td>IBS2_CT</td><td>ibs2</td><td># of diploid hardcall-pairs with 2 matching alleles</td></tr>
+  <tr><td><b>HALFMISS_CT</b></td><td><b>halfmiss</b></td><td># of genotype/dosage pairs with exactly 1 missing call</td></tr>
+  <tr><td><b>DIFF_CT</b></td><td><b>diff</b></td><td># of genotype/dosage discordances</td></tr>
+</table>
+<br />
+<h6><a name="sexcheck">.sexcheck (sex imputation report)</a></h6>
+<p>Produced by <a href="/plink/2.0/basic_stats#check_sex">--check-sex/--impute-sex</a>.</p>
+<p>A text file with a header line, and one line per sample with the following columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u><a href="/plink/2.0/general_usage#colset">Column set</a></u></td><td><u>Contents</u></td></tr>
+  <tr><td><b><i>FID</i></b></td><td><b>maybefid</b>, fid</td><td>Family ID</td></tr>
+  <tr><td><b>IID</b></td><td><b>(required)</b></td><td>Individual ID</td></tr>
+  <tr><td><b><i>SID</i></b></td><td><b>maybesid</b>, sid</td><td>Source ID</td></tr>
+  <tr><td><b>PEDSEX</b></td><td><b>pedsex</b></td><td>Sex code in input file (1 = male, 2 = female, NA = unknown)</td></tr>
+  <tr><td><b>SNPSEX</b></td><td><b>(required)</b></td><td>Imputed sex code (1/2/NA)</td></tr>
+  <tr><td><b>STATUS</b></td><td><b>status</b></td><td>'OK' on nonmissing PEDSEX and SNPSEX match, 'PROBLEM' otherwise</td></tr>
+  <tr><td><b><i>F</i></b></td><td><b>xf</b></td><td>If chrX used, inbreeding coefficient estimated off chrX</td></tr>
+  <tr><td><i>YCOUNT</i></td><td>ycount</td><td>If chrY used, number of valid chrY genotypes</td></tr>
+  <tr><td><b><i>YRATE</i></b></td><td><b>yrate</b></td><td>If chrY used, chrY valid genotype rate</td></tr>
+  <tr><td><i>YOBS</i></td><td>yobs</td><td>If chrY used, number of chrY variants considered</td></tr>
+</table>
+<br />
+<h6><a name="smiss">.smiss (sample-based missing data report)</a></h6>
+<p>Produced by <a href="/plink/2.0/basic_stats#missing">--missing</a>.</p>
+<p>A text file with a header line, and then one line per variant with the following columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u><a href="/plink/2.0/general_usage#colset">Column set</a></u></td><td><u>Contents</u></td></tr>
+  <tr><td><b><i>FID</i></b></td><td><b>maybefid</b>, fid</td><td>Family ID</td></tr>
+  <tr><td><b>IID</b></td><td><b>(required)</b></td><td>Individual ID</td></tr>
+  <tr><td><b><i>SID</i></b></td><td><b>maybesid</b>, sid</td><td>Source ID</td></tr>
+  <tr><td>MISS_PHENO1</td><td>misspheno1</td><td>First active phenotype missing (Y/N), Y if none</td></tr>
+  <tr><td><b>&lt;Pheno name&gt;</b>, ...</td><td><b>missphenos</b></td><td>Y/N column for each loaded phenotype</td></tr>
+  <tr><td>MISSING_DOSAGE_CT</td><td>nmissdosage</td><td>Number of missing dosages</td></tr>
+  <tr><td><b>MISSING_CT</b></td><td><b>nmiss</b></td><td>Number of missing hardcalls, not counting het haploids</td></tr>
+  <tr><td>MISSING_AND_HETHAP_CT</td><td>nmisshh</td><td>Number of missing hardcalls, counting het haploids</td></tr>
+  <tr><td>HETHAP_CT</td><td>hethap</td><td>Number of heterozygous haploid hardcalls</td></tr>
+  <tr><td><b>OBS_CT</b></td><td><b>nobs</b></td><td>Denominator (# samples, females excluded on chrY)</td></tr>
+  <tr><td>F_MISS_DOSAGE</td><td>fmissdosage</td><td>Missing dosage rate</td></tr>
+  <tr><td><b>F_MISS</b></td><td><b>fmiss</b></td><td>Missing hardcall rate, not counting het haploids</td></tr>
+  <tr><td>F_MISS_AND_HETHAP</td><td>fmisshh</td><td>Missing hardcall rate, counting het haploids</td></tr>
+</table>
+<p>When dosages are present, MISSING_DOSAGE_CT will typically be slightly lower than MISSING_CT, since hardcalls normally aren't saved for dosages in (0.1, 0.9) or (1.1, 1.9).</p>
+<br />
+<h6><a name="snp">.snp (EIGENSOFT variant information file)</a></h6>
+<p>Variant information file accompanying an EIGENSOFT <a href="#geno">.geno</a> binary genotype table.  Loaded with <a href="/plink/2.0/input#eigfile">--eigfile/--eigsnp</a>, and produced by <a href="/plink/2.0/data#export">--export eig[t]</a>.</p>
+<p>A text file with no header line, and one line per variant with the following three columns:</p>
+<ol>
+  <li>Variant ID</li>
+  <li>Numeric chromosome code (90 = MT, 91 = XY)</li>
+  <li>Position in centimorgans (safe to use dummy value of '0')</li>
+  <li>Base-pair coordinate (1-based; limited to 2<sup>31</sup>-2)</li>
+  <li>REF single-character allele code</li>
+  <li>ALT single-character allele code ('X' = missing)</li>
+</ol>
+<br />
+<h6><a name="sscore">.sscore (sample scores)</a></h6>
+<p>Produced by <a href="/plink/2.0/score">--score</a> and <a href="/plink/2.0/score">--score-list</a>.</p>
+<p>A text file with a header line, and then one line per sample with the following columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u><a href="/plink/2.0/general_usage#colset">Column set</a></u></td><td><u>Contents</u></td></tr>
+  <tr><td><b><i>FID</i></b></td><td><b>maybefid</b>, fid</td><td>Family ID</td></tr>
+  <tr><td><b>IID</b></td><td><b>(required)</b></td><td>Individual ID</td></tr>
+  <tr><td><b><i>SID</i></b></td><td><b>maybesid</b>, sid</td><td>Source ID</td></tr>
+  <tr><td>PHENO1</td><td>pheno1</td><td>All-missing phenotype column, if none loaded</td></tr>
+  <tr><td><b>&lt;Pheno name&gt;</b>, ...</td><td>pheno1, <b>phenos</b></td><td>Phenotype value(s) (only first if just 'pheno1')</td></tr>
+  <tr><td><b><i>ALLELE_CT</i></b></td><td><b>nallele</b></td><td>Number of alleles across scored variants (--score only)</td></tr>
+  <tr><td><i>DENOM</i></td><td>denom</td><td>Denominator used for score average (--score only)</td></tr>
+  <tr><td><b><i>NAMED_ALLELE_DOSAGE_SUM</i></b></td><td><b>dosagesum</b></td><td>Sum of named allele dosages (--score only)</td></tr>
+  <tr><td><b>&lt;Score name&gt;_AVG</b>, ...</td><td><b>scoreavgs</b></td><td>Score averages</td></tr>
+  <tr><td>&lt;Score name&gt;_SUM, ...</td><td>scoresums</td><td>Score sums</td></tr>
+</table>
+<br />
+<h6><a name="ssf_tsv">.ssf.tsv</a> (association statistics in GWAS-SSF format)</h6>
+<p>Produced by <a href="/plink/2.0/assoc#gwas_ssf">--gwas-ssf</a> postprocessing <a href="/plink/2.0/assoc#gwas_ssf">--glm</a> output.</p>
+<p>A text file with a header line, and then one line per variant with the following columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u>Contents</u></td></tr>
+  <tr><td><b>chromosome</b></td><td>Chromosome code (1-25, where X=23, Y=24, MT=25)</td></tr>
+  <tr><td><b>base_pair_location</b></td><td>Base-pair coordinate</td></tr>
+  <tr><td><b>effect_allele</b></td><td>Counted allele in regression</td></tr>
+  <tr><td><b>other_allele</b></td><td>Omitted allele</td></tr>
+  <tr><td><b>'beta'/'odds_ratio'</b></td><td>Regression coefficient or odds ratio for effect_allele</td></tr>
+  <tr><td><b>standard_error</b></td><td>Standard error of beta</td></tr>
+  <tr><td><b>effect_allele_frequency</b></td><td>Frequency of effect_allele in regression</td></tr>
+  <tr><td><b>[neg_log_10_]p_value</b></td><td>Asymptotic p-value or -log10(p)</td></tr>
+  <tr><td><i>variant_id</i></td><td>&lt;chrom&gt;_&lt;pos&gt;_&lt;ref&gt;_&lt;alt&gt; variant ID</td></tr>
+  <tr><td><i>rsid</i></td><td>rsID</td></tr>
+  <tr><td><i>ci_upper</i></td><td>Upper end of beta/odds_ratio confidence interval</td></tr>
+  <tr><td><i>ci_lower</i></td><td>Lower end of beta/odds_ratio confidence interval</td></tr>
+  <tr><td>n</td><td>Number of samples in regression</td></tr>
+  <tr><td><i>ref_allele</i></td><td>Indicates which allele is REF ('EA', 'OA', or '#NA')</td></tr>
+</table>
+<p>(Since the --gwas-ssf command does not have a cols= modifier, <b>boldface</b> is used to denote mandatory GWAS-SSF columns in this table.)</p>
+<br />
+<h6><a name="svd_pheno">.svd.pheno</a> (summary phenotypes generated via SVD)</h6>
+<p>Produced by <a href="/plink/2.0/data#pheno_svd">--pheno-svd</a>.</p>
+<p>A text file with a header line, and then one line per sample with the following columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u><a href="/plink/2.0/general_usage#colset">Column set</a></u></td><td><u>Contents</u></td></tr>
+  <tr><td><b><i>FID</i></b></td><td><b>maybefid</b>, fid</td><td>Family ID</td></tr>
+  <tr><td><b>IID</b></td><td><b>(required)</b></td><td>Individual ID</td></tr>
+  <tr><td><b><i>SID</i></b></td><td><b>maybesid</b>, sid</td><td>Source ID</td>  <tr><td><b>SVDPHENO1</b>, ...</td><td><b>(required)</b></td><td>New phenotype values</td></tr>
+</table>
+<h6><a name="svd_pheno_wts">.svd.pheno_wts</a> (singular values and right-singular vectors from phenotype SVD)</h6>
+<p>Produced by <a href="/plink/2.0/data#pheno_svd">--pheno-svd</a>.</p>
+<p>A text file with a header line, and then one line per new phenotype with the following columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u><a href="/plink/2.0/general_usage#colset">Column set</a></u></td><td><u>Contents</u></td></tr>
+  <tr><td><b>NEW_PHENO_ID</b></td><td><b>id</b></td><td>New phenotype ID</td></tr>
+  <tr><td><b>SINGULAR_VALUE</b></td><td><b>sv</b></td><td>Singular value from SVD</td></tr>
+  <tr><td><b>&lt;Old pheno name&gt;</b>, ...</td><td><b>(required)</b></td><td>Right-singular vectors from SVD</td></tr>
+</table>
+<h6><a name="tfam">.tfam (PLINK 1 sample information file)</a></h6>
+<p>Sample information file accompanying a <a href="#tped">.tped</a> file; identical format to <a href="#fam">.fam</a> files.</p>
+<br />
+<h6><a name="tped">.tped (PLINK 1 variant-major text genotype table)</a></h6>
+<p>Variant information + genotype call text file.  Must be accompanied by a <a href="#tfam">.tfam</a> file.  Loaded with <a href="/plink/2.0/input#plink1text">--tfile</a>, and produced by <a href="/plink/2.0/data#export">"--export tped"</a>.</p>
+<p>Contains no header line, and one line per variant with 2<b>N</b>+4 columns where <b>N</b> is the number of samples.  The first four columns are the same as those in a <a href="#map">.map</a> file.  The fifth and sixth columns are allele calls for the first sample in the .tfam file ('0' = no call); the 7th and 8th are allele calls for the second sample; and so on.  All variants must be biallelic (or monomorphic, or all-missing).</p>
+<br />
+<h6><a name="traw">.traw (variant-major additive component file)</a></h6>
+<p>Produced by <a href="/plink/2.0/data#export">"--export Av"</a>; suitable for loading from R.  Loaded with <a href="/plink/2.0/input#import_dosage">--import-dosage</a> (note that several modifiers must be specified).</p>
+<p>A text file with a header line <i>without</i> a leading '#', and then one line per variant with the following <b>N</b>+6 columns (where <b>N</b> is the number of samples):</p>
+<table>
+  <tr><td>CHR</td><td>Chromosome code</td></tr>
+  <tr><td>SNP</td><td>Variant identifier</td></tr>
+  <tr><td>(C)M</td><td>Position in centimorgans</td></tr>
+  <tr><td>POS</td><td>Base-pair coordinate</td></tr>
+  <tr><td>COUNTED</td><td>Counted allele (now defaults to REF)</td></tr>
+  <tr><td>ALT</td><td>Other allele(s), comma-separated</td></tr>
+  <tr><td>&lt;FID&gt;_&lt;IID&gt;...</td><td>Allelic dosages (missing = 'NA', haploid scaled to 0..2)</td></tr>
+</table>
+<br />
+<h6><a name="used_sites">.used_sites.tsv (variant information for relaxed-PHYLIP file)</a></h6>
+<p>Produced by <a href="/plink/2.0/data#export">"--export phylip[-phased] used-sites"</a>.  Accompanied by a <a href="#phy">.phy</a> file.</p>
+<p>A text file with a header line, and then one line per variant with the following 3 columns:</p>
+<table>
+  <tr><td>CHROM</td><td>Chromosome code</td></tr>
+  <tr><td>POS</td><td>Base-pair coordinate</td></tr>
+  <tr><td>NUM_SAMPLES</td><td>Number of samples with nonmissing nucleotides</td></tr>
+</table>
+<h6><a name="twolocus">.twolocus (genotype-count table, single variant pair)</a></h6>
+<p>Produced by --twolocus.</p>
+<p>A text file with a header line, and then one line per (GROUP, GT1, GT2) tuple with the following 7 columns:</p>
+<table>
+  <tr><td>GROUP</td><td>'ALL', or phenotype category label ('CASE'/'CONTROL' for binary)</td></tr>
+  <tr><td>ID1</td><td>First variant identifier</td></tr>
+  <tr><td>GT1</td><td>Genotype at first variant</td></tr>
+  <tr><td>ID2</td><td>Second variant identifier</td></tr>
+  <tr><td>GT2</td><td>Genotype at second variant</td></tr>
+  <tr><td>CT</td><td>Number of samples with genotype-pair</td></tr>
+  <tr><td>FREQ</td><td>Rate of samples with genotype-pair</td></tr>
+</table>
+<p>Note that this is rather different than the <a href="/plink/1.9/formats#twolocus">corresponding PLINK 1.x format</a>.</p>
+<p>Contact us if you want to be able to customize this.</p>
+<h6><a name="vcf">.vcf, .bcf (1000 Genomes Project Variant Call Format)</a></h6>
+<p>Variant information + sample ID + genotype call file; text if .vcf, binary if .bcf.  Imported with <a href="/plink/2.0/input#vcf">--vcf/--bcf</a>, and produced by <a href="/plink/2.0/data#export">"--export {b,v}cf"</a>.</p>
+<p><b>Note that, while PLINK 2.0 supports a much larger subset of the VCF standard than PLINK 1.9, it still isn't appropriate for general-purpose VCF handling.</b>  Instead, the goal is to provide a very useful complement to <a href="https://samtools.github.io/bcftools/bcftools.html">bcftools</a>.  For example, PLINK 2.0 does not save per-call read depths, so any data management or analysis which requires them to be kept around should be done with bcftools or a similarly general tool; but once you're done with variant calling/imputation and are ready to treat your data as a single matrix of hardcalls or dosages (possibly with missing entries), PLINK 2.0 is much more efficient.</p>
+<p>The VCFv4.3 files emitted by "--export vcf" start with the following three header lines:</p>
+<ol>
+  <li><span class="monospace">##fileformat=VCFv4.3</span></li>
+  <li><span class="monospace">##fileDate=</span>&lt;yyyymmdd date&gt;</li>
+  <li><span class="monospace">##source=PLINKv2.00</span></li>
+</ol>
+<p>This is usually followed by all the VCF header lines (if any) present in the loaded .pvar file, a "##chrSet=" chromosome set description when appropriate, and additional "##contig=", INFO/PR, and FORMAT header lines when necessary to make the file conform to the VCF standard.</p>
+<p>Next comes a tab-delimited header line with the following <b>N</b>+9 columns (where <b>N</b> is the number of samples), and one tab-delimited line per variant with the same columns:</p>
+<table>
+  <tr><td>#CHROM</td><td>Chromosome code</td></tr>
+  <tr><td>POS</td><td>Base-pair coordinate</td></tr>
+  <tr><td>ID</td><td>Variant identifier</td></tr>
+  <tr><td>REF</td><td>Reference allele (missing = 'N')</td></tr>
+  <tr><td>ALT</td><td>All alternate alleles, comma-separated (missing = '.')</td></tr>
+  <tr><td>QUAL</td><td>Phred-scaled quality score for whether the locus is variable at all</td></tr>
+  <tr><td>FILTER</td><td>'PASS', '.', or semicolon-separated list of failing filter codes</td></tr>
+  <tr><td>INFO</td><td>Semicolon-separated list of flags and key-value pairs, with types declared in header</td></li>
+  <tr><td>FORMAT</td><td>'GT', 'DS', 'HDS', and/or 'GP' can be emitted by PLINK 2</td></tr>
+  <tr><td>&lt;Sample ID&gt;, ...</td><td>Genotype/dosage calls</td></tr>
+</table>
+<p>Allele codes are supposed to either start with '&lt;', only contain characters in the set {A,C,G,T,N,a,c,g,t,n}, be an isolated '*', or represent a breakend.  --export issues a warning if an allele code does not satisfy this restriction.</p>
+<p>The full VCFv4.3 specification is in the <a href="https://samtools.github.io/hts-specs/VCFv4.3.pdf">hts-specs GitHub repository</a>; this includes details on the BCF binary encoding.</p>
+<br />
+<h6><a name="vcor">.vcor (LD-statistic report)</a></h6>
+<p>Produced by <a href="/plink/2.0/ld#r">--r[2]-[un]phased</a> when in its default tabular-output mode.</p>
+<p>A text file with a header line, and one line per variant-pair passing all filters.  The following columns are present:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u><a href="/plink/2.0/general_usage#colset">Column set</a></u></td><td><u>Contents</u></td></tr>
+  <tr><td><b>CHROM_A</b></td><td><b>chrom</b></td><td>Chromosome code for first variant in pair</td></tr>
+  <tr><td><b>POS_A</b></td><td><b>pos</b></td><td>Base-pair coordinate of first variant in pair</td></tr>
+  <tr><td><b>ID_A</b></td><td><b>id</b></td><td>ID of first variant in pair</td></tr>
+  <tr><td><b><i>REF_A</i></b></td><td><b><i>ref</i></b><sup><a href="#footnote4">4</a></sup></td><td>Reference allele for first variant in pair</td></tr>
+  <tr><td>ALT1_A</td><td>alt1</td><td>Alternate allele 1 for first variant in pair</td></tr>
+  <tr><td>ALT_A</td><td>alt</td><td>Comma-separated alternate alleles for first variant in pair</td></tr>
+  <tr><td><b><i><a href="/plink/2.0/input#provisional_ref">PROVISIONAL_REF_A?</a></i></b></td><td><b>maybeprovref</b>, provref</td><td>Reports whether REF_A allele is provisional</td></tr>
+  <tr><td><b><i>MAJ_A</i></b></td><td><b><i>maj</i></b><sup><a href="#footnote4">4</a></sup></td><td>Major allele for first variant in pair</td></tr>
+  <tr><td>NONMAJ_A</td><td>nonmaj</td><td>Comma-separated nonmajor alleles for first variant in pair</td></tr>
+  <tr><td>NONMAJ_FREQ_A</td><td>freq</td><td>(1 - &lt;major-allele frequency&gt;) for first variant in pair</td></tr>
+  <tr><td><b>CHROM_B</b></td><td><b>chrom</b></td><td>Chromosome code for second variant in pair</td></tr>
+  <tr><td><b>POS_B</b></td><td><b>pos</b></td><td>Base-pair coordinate of second variant in pair</td></tr>
+  <tr><td><b>ID_B</b></td><td><b>id</b></td><td>ID of second variant in pair</td></tr>
+  <tr><td><b><i>REF_B</i></b></td><td><b><i>ref</i></b><sup><a href="#footnote4">4</a></sup></td><td>Reference allele for second variant in pair</td></tr>
+  <tr><td>ALT1_B</td><td>alt1</td><td>Alternate allele 1 for second variant in pair</td></tr>
+  <tr><td>ALT_B</td><td>alt</td><td>Comma-separated alternate alleles for second variant in pair</td></tr>
+  <tr><td><b><i><a href="/plink/2.0/input#provisional_ref">PROVISIONAL_REF_B?</a></i></b></td><td><b>maybeprovref</b>, provref</td><td>Reports whether REF_B allele is provisional</td></tr>
+  <tr><td><b><i>MAJ_B</i></b></td><td><b><i>maj</i></b><sup><a href="#footnote4">4</a></sup></td><td>Major allele for second variant in pair</td></tr>
+  <tr><td>NONMAJ_B</td><td>nonmaj</td><td>Comma-separated nonmajor alleles for second variant in pair</td></tr>
+  <tr><td>NONMAJ_FREQ_B</td><td>freq</td><td>(1 - &lt;major-allele frequency&gt;) for second variant in pair</td></tr>
+  <tr><td><b>[UN]PHASED_R[2]</b></td><td><b>(required)</b></td><td>Variant correlation coefficient</td></tr>
+  <tr><td><i>D</i></td><td>d</td><td>Linkage disequilibrium D (phased only)</td></tr>
+  <tr><td><i>DPRIME</i></td><td>dprime</td><td>Lewontin's D' (phased only)</td></tr>
+  <tr><td><i>ABS_DPRIME</i></td><td>dprimeabs</td><td>Absolute value of Lewontin's D' (phased only)</td></tr>
+</table>
+<p>Sign of [UN]PHASED_R, D, and DPRIME is positive when the major (or, with 'ref-based', REF) alleles are positively correlated.</p>
+<p style="font-size: 11px; line-height: 15px;"><a name="footnote4">4</a>: The 'maj' (or 'ref' when the 'ref-based' modifier is specified) column-set is included by default in --r-phased and --r-unphased's tabular output, but excluded by default for --r2-phased and --r2-unphased.</p>
+<br />
+<h6><a name="vcor_matrix">.vcor{1|2}[.bin] (variant-correlation matrix)</a></h6>
+<p>Produced by <a href="/plink/2.0/ld#r">--r[2]-[un]phased</a> when in matrix-output mode; the exact file extension distinguishes phased vs. unphased (which appears in the component before '.vcor1' or '.vcor2'), r vs. r<sup>2</sup>, and text vs. binary format.  Accompanied by a &lt;matrix filename&gt;.vars file containing variant IDs.</p>
+<p>Possible shapes are the same as for <a href="#king">.king</a> files, except that triangular files include the diagonal.</p>
+<br />
+<h6><a name="vmiss">.vmiss (variant-based missing data report)</a></h6>
+<p>Produced by <a href="/plink/2.0/basic_stats#missing">--missing</a>.</p>
+<p>A text file with a header line, and then one line per variant with the following columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u><a href="/plink/2.0/general_usage#colset">Column set</a></u></td><td><u>Contents</u></td></tr>
+  <tr><td><b>CHROM</b></td><td><b>chrom</b></td><td>Chromosome code</td></tr>
+  <tr><td>POS</td><td>pos</td><td>Base-pair coordinate</td></tr>
+  <tr><td><b>ID</b></td><td><b>(required)</b></td><td>Variant ID</td></tr>
+  <tr><td>REF</td><td>ref</td><td>Reference allele</td></tr>
+  <tr><td>ALT</td><td>alt</td><td>All alternate alleles, comma-separated</td></tr>
+  <tr><td><b><i><a href="/plink/2.0/input#provisional_ref">PROVISIONAL_REF?</a></i></b></td><td><b>maybeprovref</b>, provref</td><td>Reports whether REF allele is provisional</td></tr>
+  <tr><td>MISSING_DOSAGE_CT</td><td>nmissdosage</td><td>Number of missing dosages</td></tr>
+  <tr><td><b>MISSING_CT</b></td><td><b>nmiss</b></td><td>Number of missing hardcalls, not counting het haploids</td></tr>
+  <tr><td>MISSING_AND_HETHAP_CT</td><td>nmisshh</td><td>Number of missing hardcalls, counting het haploids</td></tr>
+  <tr><td>HETHAP_CT</td><td>hethap</td><td>Number of heterozygous haploid hardcalls</td></tr>
+  <tr><td><b>OBS_CT</b></td><td><b>nobs</b></td><td>Denominator (# variants for males, excludes chrY for females)</td></tr>
+  <tr><td>F_MISS_DOSAGE</td><td>fmissdosage</td><td>Missing dosage rate</td></tr>
+  <tr><td><b>F_MISS</b></td><td><b>fmiss</b></td><td>Missing hardcall rate, not counting het haploids</td></tr>
+  <tr><td>F_MISS_AND_HETHAP</td><td>fmisshh</td><td>Missing hardcall rate, counting het haploids</td></tr>
+  <tr><td>F_HETHAP</td><td>fhethap</td><td>Heterozygous haploid rate.</td></tr>
+</table>
+<p>When dosages are present, MISSING_DOSAGE_CT will typically be slightly lower than MISSING_CT, since hardcalls normally aren't saved for dosages in (0.1, 0.9) or (1.1, 1.9).</p>
+<br />
+<h6><a name="vscore">.vscore (text variant score report)</a></h6>
+<p>Produced by <a href="/plink/2.0/score#vscore">--variant-score</a>.</p>
+<p>A text file with a header line, and then one line per sample with the following columns:</p>
+<table>
+  <tr><td><u>Header</u></td><td><u><a href="/plink/2.0/general_usage#colset">Column set</a></u></td><td><u>Contents</u></td></tr>
+  <tr><td><b>CHROM</b></td><td><b>chrom</b></td><td>Chromosome code</td></tr>
+  <tr><td><b>POS</b></td><td><b>pos</b></td><td>Base-pair coordinate</td></tr>
+  <tr><td><b>ID</b></td><td><b>(required)</b></td><td>Variant ID</td></tr>
+  <tr><td><b>REF</b></td><td><b>ref</b></td><td>Reference allele</td></tr>
+  <tr><td>ALT1</td><td>alt1</td><td>Alternate allele 1</td></tr>
+  <tr><td><b>ALT</b></td><td><b>alt</b></td><td>All alternate alleles, comma-separated</td></tr>
+  <tr><td><b><i><a href="/plink/2.0/input#provisional_ref">PROVISIONAL_REF?</a></i></b></td><td><b>maybeprovref</b>, provref</td><td>Reports whether REF allele is provisional</td></tr>
+  <tr><td>ALT_FREQ</td><td>altfreq</td><td>ALT total-frequency used for mean-imputation</td></tr>
+  <tr><td>MISSING_CT</td><td>nmiss</td><td>Number of missing (and thus mean-imputed) dosages</td></tr>
+  <tr><td>OBS_CT</td><td>nobs</td><td>Number of (nonmissing) sample observations</td></tr>
+  <tr><td><b>&lt;Variant score&gt;</b>, ...</td><td><b>(required)</b></td><td>Variant scores</td></tr>
+</tr>
+</table>
+<br />
+<h6><a name="vscore_bin">.vscore.bin (binary variant scores)</a></h6>
+<p>Produced by "<a href="/plink/2.0/score#vscore">--variant-score bin</a>".  Accompanied by .vscore.cols and .vscore.vars text files containing column (score) and row (variant ID) labels, respectively.</p>
+<p>A matrix of double-precision (8-byte) floating point variant scores.</p>
+<p align=center><a href="/plink/2.0/tutorials/tutorial_setup">Tutorial Setup &gt;&gt;</a></p>
+
+    </td>
+    <td style="width: 9px; background-color: #ffffff;"></td>
+  </tr>
+</table>
+
+    
+    <div id="footer">
+    
+      <p>Copyright &copy; 2026 Christopher Chang, Shashaank Vattikuti.</p>
+    </div>
+  </div>
+</div>
+
+
+<![endif]>
+
+</body>
+</html>

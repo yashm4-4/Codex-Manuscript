@@ -1,0 +1,11 @@
+rule	proposal	executed
+complex_loci	Defer if long-range/multisignal/structural/boundary/size conditions exceed frozen validated plan; no memory-motivated trimming	False
+expected_eligible_loci		False
+expected_loci_status	NOT_DETERMINED; no locus scan permitted/performed	False
+initial_chromosomes	autosomes only; sex-chromosome contract separate	False
+mhc_mask_proposal	"{""builds"": [""GRCh37"", ""GRCh38""], ""chrom"": ""6"", ""end1"": 36000000, ""interpretation"": ""Deliberately conservative same-number native-build operational mask; NOT asserted exact liftover; exclude whole intersecting merged interval"", ""source_grch38_finngen_mask"": ""chr6:25-34Mb inclusive"", ""start1"": 25000000, ""wider_precedent"": ""BBJ/FinnGen/UKBB methods chr6:25-36Mb""}"	False
+proposed_genomewide_p_threshold	5e-08	False
+proposed_initial_window_bp	3000000	False
+selection	GWAS own validated association test only; no candidates/genes/models/benchmarks	False
+tie_rule	association significance; chromosome; position; exact allelic key; source row ID	False
+window_rule	plus/minus 1.5Mb, chromosome clipped, transitive overlap merge; dense nonsignificant rows retained	False

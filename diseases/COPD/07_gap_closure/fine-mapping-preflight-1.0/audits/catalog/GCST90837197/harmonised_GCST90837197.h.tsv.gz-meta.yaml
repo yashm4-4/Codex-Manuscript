@@ -1,0 +1,45 @@
+adjusted_covariates:
+- age
+- sex
+- PC1
+- PC2
+- PC3
+- PC4
+- PC5
+- PC6
+- PC7
+- PC8
+- PC9
+- PC10
+analysis_software: SAIGE v1.3.0
+author_notes: GWAS of chronic obstructive pulmonary disease in UK Biobank European
+  ancestry samples, analysed with SAIGE v1.3.0.
+coordinate_system: 1-based
+data_file_md5sum: a19910e67aef2e5fed16e78f6acbce82
+data_file_name: GCST90837197.h.tsv.gz
+date_metadata_last_modified: 2026-07-01
+file_type: GWAS-SSF v1.0
+genome_assembly: GRCh38
+genotyping_technology:
+- Genome-wide genotyping array
+gwas_catalog_api: https://www.ebi.ac.uk/gwas/rest/api/studies/GCST90837197
+gwas_id: GCST90837197
+harmonisation_reference: ftp://ftp.ensembl.org/pub/release-95/fasta/homo_sapiens/dna/
+imputation_panel: HRC + UK10K + 1000 Genomes Phase 3
+imputation_software: IMPUTE4
+is_harmonised: true
+is_sorted: true
+ontology_mapping:
+- MONDO_0005002
+samples:
+- ancestry_method:
+  - genetically determined
+  case_control_study: true
+  sample_ancestry:
+  - European
+  sample_ancestry_category:
+  - European
+  sample_size: 457512
+sex: combined
+trait_description:
+- Chronic obstructive pulmonary disease

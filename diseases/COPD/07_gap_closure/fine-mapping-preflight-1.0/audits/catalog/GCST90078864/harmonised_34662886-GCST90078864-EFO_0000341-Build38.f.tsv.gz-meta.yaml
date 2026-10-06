@@ -1,0 +1,35 @@
+# Study meta-data
+gwas_id: GCST90078864
+author_notes: Backman, J.D., Li, A.H., Marcketta, A. et al. Exome sequencing and analysis
+  of 454,787 UK Biobank participants. Nature (2021). https://doi.org/10.1038/s41586-021-04103-z
+gwas_catalog_api: https://www.ebi.ac.uk/gwas/rest/api/studies/GCST90078864
+date_metadata_last_modified: 2024-07-23
+
+# Trait Information
+trait_description:
+  - Chronic obstructive pulmonary disease (UKB data field 22130)
+ontology_mapping:
+  - EFO_0000341
+
+# Genotyping Information
+genome_assembly: GRCh38
+coordinate_system: 1-based
+genotyping_technology:
+  - Exome-wide sequencing
+  - Genome-wide genotyping array
+
+# Sample Information
+samples:
+  - sample_ancestry_category:
+      - European
+    sample_size: 108249
+
+# Summary Statistic information
+data_file_name: 34662886-GCST90078864-EFO_0000341-Build38.f.tsv.gz
+file_type: pre-GWAS-SSF
+data_file_md5sum: be628c2237623124cc83a842f55a4fd7
+
+# Harmonization status
+is_harmonised: true
+is_sorted: false
+harmonisation_reference: ftp://ftp.ensembl.org/pub/release-95/fasta/homo_sapiens/dna/

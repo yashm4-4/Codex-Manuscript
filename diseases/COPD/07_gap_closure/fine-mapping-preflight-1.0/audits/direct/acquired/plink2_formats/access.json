@@ -1,0 +1,35 @@
+{
+  "acquired_bytes": 136947,
+  "acquired_sha256": "e89f64711155bc8efbb23b5830f12dbe4ad9fb62a9956486acc1da36daaa760a",
+  "body_path": "audits/direct/acquired/plink2_formats/response.bin",
+  "complete_remote_object_hash": false,
+  "completed_utc": "2026-10-06T20:40:21.699447+00:00",
+  "effective_url": "https://www.cog-genomics.org/plink/2.0/formats",
+  "http_status": 200,
+  "purpose": "Public metadata/header/schema access audit; no statistical analysis",
+  "read_limit_bytes": 1048576,
+  "read_truncated": false,
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0 (bounded public metadata access)"
+  },
+  "requested_utc": "2026-10-06T20:40:21.412598+00:00",
+  "response_headers": {
+    "CF-RAY": "a4677b0e28d93bd1-IAD",
+    "Connection": "close",
+    "Content-Type": "text/html",
+    "Date": "Tue, 06 Oct 2026 20:40:21 GMT",
+    "Server": "cloudflare",
+    "Transfer-Encoding": "chunked",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cache-control": "public, max-age=0, s-maxage=300",
+    "cf-cache-status": "EXPIRED",
+    "etag": "W/\"cbe92ae1451f876d36ce41819255c019\"",
+    "last-modified": "Tue, 06 Oct 2026 04:27:45 UTC",
+    "rndr-id": "94725577-3812-478a",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff"
+  },
+  "transport_error": null,
+  "url": "https://www.cog-genomics.org/plink/2.0/formats"
+}

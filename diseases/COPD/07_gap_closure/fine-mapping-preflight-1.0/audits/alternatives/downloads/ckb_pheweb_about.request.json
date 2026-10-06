@@ -1,0 +1,37 @@
+{
+  "accessed_utc": "2026-10-06T20:38:58.739300+00:00",
+  "command": [
+    "diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0/scripts/alternatives_fetch.py",
+    "--url",
+    "https://pheweb.ckbiobank.org/about",
+    "--label",
+    "ckb_pheweb_about",
+    "--max-bytes",
+    "1048576"
+  ],
+  "http_status": 200,
+  "maximum_bytes_requested_or_retained": 1048576,
+  "purpose": "public source metadata or bounded schema sample; no fine-mapping",
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "COPD-scientific-preflight/1.0"
+  },
+  "requested_url": "https://pheweb.ckbiobank.org/about",
+  "response_EOF_before_byte_limit": true,
+  "response_headers": {
+    "Connection": "close",
+    "Content-Length": "11196",
+    "Content-Type": "text/html; charset=utf-8",
+    "Date": "Tue, 06 Oct 2026 20:38:58 GMT",
+    "Server": "Apache",
+    "Strict-Transport-Security": "max-age=63072000",
+    "Vary": "Accept-Encoding",
+    "X-Frame-Options": "SAMEORIGIN"
+  },
+  "response_url": "https://pheweb.ckbiobank.org/about",
+  "retained_prefix_only": false,
+  "stored_body_reaches_declared_response_length": true,
+  "stored_bytes": 11196,
+  "stored_path": "audits/alternatives/downloads/ckb_pheweb_about.bin",
+  "stored_sha256": "7cde65e35b6892c847cb0b8b38d29cbf927f549792964d0860480f8e227b6a6a"
+}

@@ -1,0 +1,43 @@
+analysis_software: REGENIE
+author_notes: "Data were obtained with permission from https://www.genesandhealth.org/\
+  \ and adapted into GWAS-SSF format. Refer to the website for more information. \n\
+  \ Citation: Exome sequencing and analysis of 44,028 British South Asians enriched\
+  \ for high autozygosity\nHye In Kim, Christopher DeBoever, Klaudia Walter, Georgios\
+  \ Kalantzis, Chen Li, Sahar V. Mozaffari, Kousik Kundu, Benjamin M. Jacobs, Pedrum\
+  \ Mohammadi-Shemirani, Anthony M. Musolf, Jonathan M. Davitte, Melis A. Aksit, Joseph\
+  \ Gafton, Katrina Catalano, Adem Y. Dawed, Robert R. Graham, Bin Guo, Namrata Gupta,\
+  \ Teng Hiang Heng, Karen A. Hunt, Vivek Iyer, Claudia Langenberg, Frederik H. Lassen,\
+  \ Daniel G. MacArthur, Eamonn R. Maher, Cyrielle Maroteau, William Newman, Stephen\
+  \ O\u2019Rahilly, Duncan S. Palmer, Iaroslav Popov, Moneeza Siddiqui, Michael Simpson,\
+  \ Marie Spreckley, John Wright, Genes and Health Research Team, Guillermo del Angel,\
+  \ Slav\xE9 Petrovski, Emily R. Holzinger, Joseph C. Maranville, Laura Addis, Richard\
+  \ M. Turner, Karol Estrada, Simone Longerich, View ORCID ProfileJoanna M. M. Howson,\
+  \ Yalda Jamshidi, Eric B. Fauman, Melissa R. Miller, Doroth\xE9e Diogo, Richard\
+  \ C. Trembath, Sarah Finer, Hilary C. Martin, David A. van Heel\ndoi: https://doi.org/10.1101/2025.06.05.25329068\
+  \ \n\nG&H phenotype: J44\nG&H Phenotype counts spreadsheet: https://tinyurl.com/GH-phenotypes-GoogleSheet"
+coordinate_system: 1-based
+data_file_md5sum: ff96fd64e7ac80027c7dc52c72cdc0d4
+data_file_name: GCST90726958.h.tsv.gz
+date_metadata_last_modified: 2026-01-08
+file_type: GWAS-SSF v1.0
+genome_assembly: GRCh38
+genotyping_technology:
+- Exome-wide sequencing
+gwas_catalog_api: https://www.ebi.ac.uk/gwas/rest/api/studies/GCST90726958
+gwas_id: GCST90726958
+harmonisation_reference: ftp://ftp.ensembl.org/pub/release-95/fasta/homo_sapiens/dna/
+is_harmonised: true
+is_sorted: true
+ontology_mapping:
+- ''
+samples:
+- ancestry_method:
+  - self-reported
+  case_control_study: true
+  sample_ancestry:
+  - British Bangladeshi or British Pakistani
+  sample_ancestry_category:
+  - South Asian
+  sample_size: 44026
+trait_description:
+- Other chronic obstructive pulmonary disease (ICD10 J44)
