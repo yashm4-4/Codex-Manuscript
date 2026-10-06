@@ -1,0 +1,89 @@
+[
+  {
+    "filename": "pubmed.html",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42745457/",
+    "retrieved_utc": "2026-10-05T23:04:16.833056+00:00",
+    "status": 203,
+    "resolved_url": "https://pubmed.ncbi.nlm.nih.gov/42745457/",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 5590,
+    "sha256": "d21a530ff009beaa57cb87d1cc9b6c497310bb2199166d0d65bb2cf60793cccf",
+    "local_path": "data/COPD-V2-BENCH/gong/pubmed.html"
+  },
+  {
+    "filename": "publisher.html",
+    "url": "https://academic.oup.com/ajrcmb/advance-article/doi/10.1093/ajrcmb/aanag179/8798774",
+    "retrieved_utc": "2026-10-05T23:04:16.889198+00:00",
+    "status": 403,
+    "resolved_url": "https://academic.oup.com/ajrcmb/advance-article/doi/10.1093/ajrcmb/aanag179/8798774",
+    "content_type": "text/html; charset=UTF-8",
+    "error": "HTTP Error 403: Forbidden",
+    "bytes": 5688,
+    "sha256": "69cf9907675aee7769468ffc96c5552c87e8af111cb41286b049751198acc5c6",
+    "local_path": "data/COPD-V2-BENCH/gong/publisher.html"
+  },
+  {
+    "filename": "supplement.zip",
+    "url": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/ajrcmb/PAP/10.1093_ajrcmb_aanag179/1/aanag179_supplementary_data.zip",
+    "retrieved_utc": "2026-10-05T23:04:16.949205+00:00",
+    "status": 403,
+    "resolved_url": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/ajrcmb/PAP/10.1093_ajrcmb_aanag179/1/aanag179_supplementary_data.zip",
+    "content_type": "text/xml",
+    "error": "HTTP Error 403: Forbidden",
+    "bytes": 146,
+    "sha256": "95769eb326e23b8cd1b7a9b82d884a713a9724f49b2794ac5b967d8cd706de83",
+    "local_path": "data/COPD-V2-BENCH/gong/supplement.zip"
+  },
+  {
+    "filename": "europepmc.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42745457%20AND%20SRC:MED&format=json",
+    "retrieved_utc": "2026-10-05T23:04:17.005090+00:00",
+    "status": 200,
+    "resolved_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42745457%20AND%20SRC:MED&format=json",
+    "content_type": "application/json;charset=UTF-8",
+    "bytes": 1041,
+    "sha256": "d9e6694fd699bb5df1e06854179a6b3795fde5b33a1821a1832122d373de8dce",
+    "local_path": "data/COPD-V2-BENCH/gong/europepmc.json"
+  },
+  {
+    "filename": "europepmc_core.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42745457%20AND%20SRC:MED&format=json&resultType=core",
+    "retrieved_utc": "2026-10-05T23:15:43.117991+00:00",
+    "status": 200,
+    "resolved_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42745457%20AND%20SRC:MED&format=json&resultType=core",
+    "content_type": "application/json;charset=UTF-8",
+    "bytes": 9193,
+    "sha256": "d10b3bf07d390293a50a070a06fac24a00ba90553bc1a058d73bc734f2b93760",
+    "local_path": "data/COPD-V2-BENCH/gong/europepmc_core.json"
+  },
+  {
+    "filename": "crossref.json",
+    "url": "https://api.crossref.org/works/10.1093/ajrcmb/aanag179",
+    "retrieved_utc": "2026-10-05T23:04:17.384012+00:00",
+    "status": 200,
+    "resolved_url": "https://api.crossref.org/works/10.1093/ajrcmb/aanag179",
+    "content_type": "application/json",
+    "bytes": 9726,
+    "sha256": "4ec12d396f79b444c0f57f0bcc199a2462008da2d67eae8ff6620bb6bc70b8a5",
+    "local_path": "data/COPD-V2-BENCH/gong/crossref.json"
+  },
+  {
+    "filename": "supplement_signed.zip",
+    "url": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/ajrcmb/PAP/10.1093_ajrcmb_aanag179/1/aanag179_supplementary_data.zip?Expires=1794016783&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&Signature=cNGJpBF3eLnlLhW8c7r2FeMFCKzpoNPgQsdzpAQId8st6-UCHNM9skLntGFpOfeg5jVt6GmGwIZcPLI7QkRYtqref~nSAmvV7qz7GoZ~8OxQ72okY5IeuuvsFSRPD12uHn29pRQNzUumk-2UI8PzsdG5qcSS8eKuyHODm8nb2bnT5Mmj2VCAxESTXv1k3FCPF5VLm45P8cO-I49ScUEzwM3L~m0XFPVXHHcVoI3fr~z0xs~xl74yHMPsSay76NOZ-lkvtr6JjkGsOidAWyrmQoMZW41C1SS6LxaYTAOEtKX7GgZrZWDH2TfRRLGMrtb8RtunUvHGmvZCD0VK~POa7w__",
+    "retrieved_utc": "2026-10-05T23:04:33.563792+00:00",
+    "status": 200,
+    "resolved_url": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/ajrcmb/PAP/10.1093_ajrcmb_aanag179/1/aanag179_supplementary_data.zip?Expires=1794016783&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&Signature=cNGJpBF3eLnlLhW8c7r2FeMFCKzpoNPgQsdzpAQId8st6-UCHNM9skLntGFpOfeg5jVt6GmGwIZcPLI7QkRYtqref~nSAmvV7qz7GoZ~8OxQ72okY5IeuuvsFSRPD12uHn29pRQNzUumk-2UI8PzsdG5qcSS8eKuyHODm8nb2bnT5Mmj2VCAxESTXv1k3FCPF5VLm45P8cO-I49ScUEzwM3L~m0XFPVXHHcVoI3fr~z0xs~xl74yHMPsSay76NOZ-lkvtr6JjkGsOidAWyrmQoMZW41C1SS6LxaYTAOEtKX7GgZrZWDH2TfRRLGMrtb8RtunUvHGmvZCD0VK~POa7w__",
+    "content_type": "application/zip",
+    "bytes": 4013832,
+    "sha256": "3488db935af99baa45c904f120c70dafbd3814ba885f4e057248512d8a90b43a",
+    "local_path": "data/COPD-V2-BENCH/gong/supplement_signed.zip",
+    "archive_members": [
+      "Table_S3_mpraSigGwasResults.numbers",
+      "Table_S4_TFs_analysis.csv",
+      "MPRA_Sul_File_Final_CLEAN_July2026.docx",
+      "Supplementary_figures_V3_July2026.pdf",
+      "Table_S1_mpraDesignOligos.csv",
+      "Table_S2_MPRA_RESULT_three_cell_lines.xls"
+    ]
+  }
+]

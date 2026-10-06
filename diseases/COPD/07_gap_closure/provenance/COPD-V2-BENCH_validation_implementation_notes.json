@@ -1,0 +1,14 @@
+{
+  "correction_type": "validator_only_mechanism_selector",
+  "initial_preliminary_checks": 3492,
+  "initial_preliminary_pass": 3491,
+  "initial_preliminary_fail": 1,
+  "failed_check": "NPNT retained out-of-scope, never enhancer/H3K27me3 false negative",
+  "cause": "Validator mistakenly required every rs34712979 assay to be outside model scope. Six independently reported Gong MPRA null assays are correctly in scope, while the Saferali positive splice assay is correctly outside scope.",
+  "correction": "Restrict the NPNT splice-scope assertion to assay_class=splicing. Preserve distinct reporter and transcript mechanisms for the same exact variant.",
+  "frozen_benchmark_modified": false,
+  "experimental_labels_modified": false,
+  "comparison_modified": false,
+  "model_scores_calls_or_thresholds_modified": false,
+  "independent_numeric_reconstruction_passed_initial_attempt": true
+}

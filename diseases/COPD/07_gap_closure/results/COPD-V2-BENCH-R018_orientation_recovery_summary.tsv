@@ -1,0 +1,7 @@
+RC_only	forward_only	model	negative_both	stable_both	subset	unique_variants
+3	3	enhancer	719	1	all_exact_scored_variants	726
+5	4	silencer	715	2	all_exact_scored_variants	726
+6	7	union	710	3	all_exact_scored_variants	726
+0	1	enhancer	22	0	any_in_scope_positive_scored_variants	23
+0	0	silencer	23	0	any_in_scope_positive_scored_variants	23
+0	1	union	22	0	any_in_scope_positive_scored_variants	23

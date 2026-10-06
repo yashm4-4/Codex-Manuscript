@@ -7,3 +7,9 @@ Completed modules have `COPD-V2-PHENO_run_log.json`,
 `COPD-V2-RC_scoring.log`, and `COPD-V2-RC_analysis_summary.json`.
 The RC scoring log preserves both the failed partial-batch verification and
 its successful correction before any RC inference. Figure caches are ignored.
+
+The completed external benchmark records commands/retrieval outcomes in
+`../data/COPD-V2-BENCH/` and run history in
+`../provenance/COPD-V2-BENCH_comparison_manifest.json`. It used existing scores;
+no inference or training job was launched. Failed source-access attempts are
+retained separately from successful raw evidence downloads.

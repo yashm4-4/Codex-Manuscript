@@ -28,3 +28,21 @@ verification attempt exposed partial-batch numerical dependence; the corrected
 verification pads execution to full minibatches while retaining exactly the
 same 142 assessed IDs and fixed tolerances. RC scoring preserves original V1
 batch shapes. Every new output is confined to V2; no script retrains or modifies V1.
+
+## External functional benchmark
+
+- `initialize_external_benchmark.py`: one-time protocol/baseline lock; refuses overwrite.
+- `collect_benchmark_castaldi.py`, `collect_benchmark_gong.py`,
+  `collect_benchmark_mechanisms.py`: public retrieval and source-only evidence extraction.
+- `assemble_external_benchmark.py`: authoritative allele mapping, construct/reference
+  checks, source-only tables and benchmark freeze; refuses any operation after freezing.
+- `compare_external_benchmark.py`: verifies frozen source hashes before exact joins to
+  existing V1/RC scores; preserves original calls/ranks and descriptive denominators.
+- `validate_external_benchmark.py`: independent source, score, call, summary, freeze,
+  boundary and final-checksum validation; requires `--comparison-complete`.
+
+Do not rerun source collectors into this frozen namespace. Post-freeze comparison
+can be reproduced as documented in the report; it executes no model and creates
+no new model sequences. Its history records implementation-only refinements.
+Source/runtime package details are in collection and run manifests. Benchmark
+labels and results must never be used for training or model selection.

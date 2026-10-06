@@ -1,0 +1,88 @@
+{
+  "module": "COPD-V2-BENCH",
+  "manifest_recorded_utc": "2026-10-05T23:41:52Z",
+  "baseline_git_head": "6343deb2b8dbacb31ea3e64dcd68e5e6e9b6d8e1",
+  "authorization": {
+    "attachment": "/home/maheshwarany2/.codex/attachments/31c0f2f1-803e-4c5e-81ad-bd39763c2f0a/pasted-text.txt",
+    "sha256": "ee8a3b800ec2530d376f97efe02ce27700693f9bff746d4142cf483647589425",
+    "scope": "External functional benchmark and frozen V1/previous-RC comparison only",
+    "followup": "Investigator supplied GEO GSE109452 and requested direct public count/design retrieval and denominator audit; both files successfully retrieved."
+  },
+  "protocol_sha256": "46d3aac26b1f980d7c2dcd5034d6cc64566524ca7d99cc635f7d979e04f2de65",
+  "benchmark_master_sha256": "a69a8b1d5c82299075b2d5203fee3d4a23105572c6cf456bab834b82ef13bbdd",
+  "benchmark_frozen_utc": "2026-10-05T23:31:15.558468+00:00",
+  "frozen_source_protocol_assembly_files": 200,
+  "immutable_prior_input_files": 316,
+  "runtime": {
+    "python_executable": "/usr/local/bin/python3",
+    "python_version": "3.9.15",
+    "python_build": "conda-forge; GCC 10.4.0",
+    "source_assembly_packages": {
+      "requests": "2.31.0",
+      "pysam": "0.21.0",
+      "beautifulsoup4": "4.12.2",
+      "pandas": "2.0.3",
+      "xlrd": "2.0.1",
+      "lxml": "4.8.0"
+    },
+    "gong_format_reader_environment": {
+      "PYTHONPATH": "/tmp/copd-bench-gong.0rsWZ7",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "numbers-parser": "4.16.3",
+      "pypdf": "6.19.0",
+      "purpose": "Public Numbers spreadsheet and PDF source-format readers; temporary environment is not a scientific artifact. Versions are pinned here."
+    },
+    "comparison": "Python standard library; authoritative serialized scores read without model execution",
+    "reference_access": "Existing hg38.fa and index, read-only via pysam; reference hash pinned in assembly manifest",
+    "execution_note": "Filesystem sandbox namespace creation failed with ENOSPC; authorized scoped commands were executed with reviewed host-environment permissions."
+  },
+  "workflow_commands": [
+    "python3 -B diseases/COPD/07_gap_closure/scripts/initialize_external_benchmark.py",
+    "Source collection commands and URLs are preserved in collect_benchmark_*.py, source evidence JSON, retrieval manifests and per-file retrieval records.",
+    "PYTHONPATH=/tmp/copd-bench-gong.0rsWZ7 PYTHONDONTWRITEBYTECODE=1 python3 -B diseases/COPD/07_gap_closure/scripts/collect_benchmark_gong.py --curate",
+    "python3 -B diseases/COPD/07_gap_closure/scripts/assemble_external_benchmark.py fetch --rsid-file diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong/experimental_rsids.txt",
+    "python3 -B diseases/COPD/07_gap_closure/scripts/assemble_external_benchmark.py fetch --rsid-file diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/GSE109452_variant_panel.tsv",
+    "python3 -B diseases/COPD/07_gap_closure/scripts/assemble_external_benchmark.py resolve-aliases --rsids rs201292172 rs72556188",
+    "python3 -B diseases/COPD/07_gap_closure/scripts/assemble_external_benchmark.py assemble",
+    "python3 -B diseases/COPD/07_gap_closure/scripts/assemble_external_benchmark.py freeze",
+    "python3 -B diseases/COPD/07_gap_closure/scripts/compare_external_benchmark.py",
+    "python3 -B diseases/COPD/07_gap_closure/scripts/validate_external_benchmark.py --comparison-complete"
+  ],
+  "pre_freeze_GEO_independent_reconciliation": {
+    "variants": 606,
+    "designed_and_observed_allele_constructs": 7270,
+    "paired_window_orientation_contexts": 3635,
+    "designed_barcodes": 239910,
+    "observed_unique_barcodes": 218526,
+    "curated_individual_promoter_context_rows": 7270,
+    "all_observed_barcodes_match_design": true,
+    "all_variants_have_two_reported_alleles": true,
+    "all_checks_passed_before_freeze": true,
+    "published_binary_labels_recomputed": false
+  },
+  "results": {
+    "master_rows": 14025,
+    "reported_rsids": 1731,
+    "exact_identity_rows": 13899,
+    "unique_exact_variants": 1710,
+    "existing_V1_scored_unique_variants": 726,
+    "any_in_scope_positive_unique_cases": 40,
+    "positive_cases_with_existing_exact_scores": 23,
+    "positive_cases_without_existing_record": 16,
+    "positive_cases_with_unresolved_identity": 1,
+    "forward_positive_case_recovery_count": 1,
+    "RC_positive_case_recovery_count": 0,
+    "interpretation": "Coverage-conditioned descriptive case series, not sensitivity or population performance."
+  },
+  "implementation_history": "comparison_manifest.json preserves the original and refined comparison runs. Added fixed-gate/orientation/null-overlap summaries and replaced an exemplar-assay direction field with context-count summaries. No frozen source, membership, label, score or threshold changed. Validator-only NPNT assay-selector correction is recorded separately.",
+  "final_validation": "COPD-V2-BENCH_final_validation_manifest.json is authoritative for final PASS status, exact check count and completion time; artifact_checksums.tsv pins the completed bundle.",
+  "new_sequences": false,
+  "new_model_inference": false,
+  "training_or_model_selection": false,
+  "threshold_changes": false,
+  "orientation_averaging": false,
+  "fine_mapping_or_target_analysis": false,
+  "manuscript_revision": false,
+  "commit_or_push": false,
+  "future_use": "FROZEN_EXTERNAL_EVALUATION_DATA; labels and outcomes prohibited from training or any model-design/selection/calibration decision."
+}

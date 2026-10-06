@@ -1,0 +1,400 @@
+{
+  "review_id": "COPD-V2-BENCH_SOURCE_IDENTITY_REVIEW_001",
+  "reviewed_utc": "2026-10-05 23:23:22 UTC",
+  "reviewer": "independent source adjudication agent /root/bench_gong",
+  "scope": "Pre-freeze review of source-only allele identity harmonization; no model outputs or model-recovery aggregates inspected",
+  "protocol_sha256": "46d3aac26b1f980d7c2dcd5034d6cc64566524ca7d99cc635f7d979e04f2de65",
+  "reviewed_script": "scripts/assemble_external_benchmark.py",
+  "reviewed_strict_script_sha256": "152a1dfdabdaaf468c7ba678bc6e7139766799358306d9b181f50088b44632ef",
+  "reviewed_source": "data/COPD-V2-BENCH/gong_evidence.json",
+  "reviewed_source_sha256": "38d84a23c8f748e784c5806e1887f8d0c78469bd17486b8979e0fce2ef666d3f",
+  "inputs_read": [
+    "Locked analysis specification",
+    "Source-only assembly code",
+    "Gong source curation and deposited allele inserts",
+    "Cached public Ensembl GRCh38 and GRCh37 records",
+    "Existing local models/TREDNET_v2/fasta/hg38.fa reference sequence"
+  ],
+  "forbidden_model_outputs_read": false,
+  "source_labels_modified": false,
+  "source_eligibility_or_assay_labels_retuned": false,
+  "strict_reproduction": {
+    "experimental_unique_variants": 1120,
+    "direct_construct_mapping_verified": 1098,
+    "direct_construct_mapping_failed": 20,
+    "missing_unique_primary_mapping": 2,
+    "missing_mapping_rsids": [
+      "rs201292172",
+      "rs72556188"
+    ],
+    "harmonize_forward_exact_with_source_flags": 1097,
+    "harmonize_forward_unevaluable_with_source_flags": 23,
+    "explanation": "rs76419734 passes the first retained forward construct representation but is independently marked source-invalid due to duplicated conflicting design and missing results; harmonize properly excludes it.",
+    "reference_match_but_alternate_disagrees_with_all_database_contrasts": 18,
+    "neither_insert_fully_matches_due_shared_background_or_context": [
+      "rs11732650",
+      "rs142307498"
+    ]
+  },
+  "source_flag_review": {
+    "field": "construct_exact_allele_identity_valid",
+    "false_rows": 48,
+    "false_forward_rows": 3,
+    "false_reverse_rows": 45,
+    "all_false_rows_remain_unevaluable_in_harmonize": true,
+    "excluded_before_fallback": true,
+    "false_flag_categories": {
+      "14_internal_reverse_ALT_mismatches_x_3_cells": 42,
+      "rs76419734_2_orientations_x_3_cells": 6
+    },
+    "positive_experimental_label_preserved_for_unevaluable_construct": "rs57658727, 16HBE, REV",
+    "note": "Flags concern exact allele identity, not reversal of published experimental states."
+  },
+  "independent_indel_checks": [
+    {
+      "rsid": "rs10634924",
+      "source_reference_insert_exactly_matches_local_GRCh38": true,
+      "deposited_isolated_edit_left_normalized": "3:128297771:G:GAA",
+      "authoritative_database_contrasts_left_normalized": [
+        "3:128297770:T:TA",
+        "3:128297770:T:TAA"
+      ],
+      "equals_any_database_contrast": false,
+      "adjudication": "unevaluable; do not substitute a nearby or differently sized dbSNP allele"
+    },
+    {
+      "rsid": "rs10637017",
+      "source_reference_insert_exactly_matches_local_GRCh38": true,
+      "deposited_isolated_edit_left_normalized": "3:128258070:A:AAAG",
+      "authoritative_database_contrasts_left_normalized": [
+        "3:128258069:A:AAAG"
+      ],
+      "equals_any_database_contrast": false,
+      "adjudication": "unevaluable; do not substitute a nearby or differently sized dbSNP allele"
+    },
+    {
+      "rsid": "rs10699204",
+      "source_reference_insert_exactly_matches_local_GRCh38": true,
+      "deposited_isolated_edit_left_normalized": "4:105543217:G:GGCATC",
+      "authoritative_database_contrasts_left_normalized": [
+        "4:105543216:G:GGCATC"
+      ],
+      "equals_any_database_contrast": false,
+      "adjudication": "unevaluable; do not substitute a nearby or differently sized dbSNP allele"
+    },
+    {
+      "rsid": "rs113955166",
+      "source_reference_insert_exactly_matches_local_GRCh38": true,
+      "deposited_isolated_edit_left_normalized": "5:157430987:G:GGAAAA",
+      "authoritative_database_contrasts_left_normalized": [
+        "5:157430986:CGAAAA:C",
+        "5:157430986:C:CGAAAA",
+        "5:157430986:C:CGAAAAGAAAA"
+      ],
+      "equals_any_database_contrast": false,
+      "adjudication": "unevaluable; do not substitute a nearby or differently sized dbSNP allele"
+    },
+    {
+      "rsid": "rs199856654",
+      "source_reference_insert_exactly_matches_local_GRCh38": true,
+      "deposited_isolated_edit_left_normalized": "4:105749186:G:GATGTAAAAT",
+      "authoritative_database_contrasts_left_normalized": [
+        "4:105749185:C:CAT",
+        "4:105749185:C:CATGTAAAAT"
+      ],
+      "equals_any_database_contrast": false,
+      "adjudication": "unevaluable; do not substitute a nearby or differently sized dbSNP allele"
+    },
+    {
+      "rsid": "rs199910359",
+      "source_reference_insert_exactly_matches_local_GRCh38": true,
+      "deposited_isolated_edit_left_normalized": "3:128127535:C:CATG",
+      "authoritative_database_contrasts_left_normalized": [
+        "3:128127535:C:CTG",
+        "3:128127535:C:CTGA",
+        "3:128127535:C:CTGAACTTTCTT"
+      ],
+      "equals_any_database_contrast": false,
+      "adjudication": "unevaluable; do not substitute a nearby or differently sized dbSNP allele"
+    },
+    {
+      "rsid": "rs200077507",
+      "source_reference_insert_exactly_matches_local_GRCh38": true,
+      "deposited_isolated_edit_left_normalized": "4:105668669:G:GGAT",
+      "authoritative_database_contrasts_left_normalized": [
+        "4:105668668:A:AGAT"
+      ],
+      "equals_any_database_contrast": false,
+      "adjudication": "unevaluable; do not substitute a nearby or differently sized dbSNP allele"
+    },
+    {
+      "rsid": "rs200407928",
+      "source_reference_insert_exactly_matches_local_GRCh38": true,
+      "deposited_isolated_edit_left_normalized": "5:157569388:A:AAC",
+      "authoritative_database_contrasts_left_normalized": [
+        "5:157569387:G:GAC"
+      ],
+      "equals_any_database_contrast": false,
+      "adjudication": "unevaluable; do not substitute a nearby or differently sized dbSNP allele"
+    },
+    {
+      "rsid": "rs200608396",
+      "source_reference_insert_exactly_matches_local_GRCh38": true,
+      "deposited_isolated_edit_left_normalized": "4:105710236:T:TA",
+      "authoritative_database_contrasts_left_normalized": [
+        "4:105710235:T:TA",
+        "4:105710235:T:TATTTTA"
+      ],
+      "equals_any_database_contrast": false,
+      "adjudication": "unevaluable; do not substitute a nearby or differently sized dbSNP allele"
+    },
+    {
+      "rsid": "rs201529721",
+      "source_reference_insert_exactly_matches_local_GRCh38": true,
+      "deposited_isolated_edit_left_normalized": "4:105710235:T:TTA",
+      "authoritative_database_contrasts_left_normalized": [
+        "4:105710234:T:TTA"
+      ],
+      "equals_any_database_contrast": false,
+      "adjudication": "unevaluable; do not substitute a nearby or differently sized dbSNP allele"
+    },
+    {
+      "rsid": "rs202157195",
+      "source_reference_insert_exactly_matches_local_GRCh38": true,
+      "deposited_isolated_edit_left_normalized": "5:157498687:T:TTGTG",
+      "authoritative_database_contrasts_left_normalized": [
+        "5:157498686:ATG:A",
+        "5:157498686:A:ATG",
+        "5:157498686:A:ATGTG"
+      ],
+      "equals_any_database_contrast": false,
+      "adjudication": "unevaluable; do not substitute a nearby or differently sized dbSNP allele"
+    },
+    {
+      "rsid": "rs34671427",
+      "source_reference_insert_exactly_matches_local_GRCh38": true,
+      "deposited_isolated_edit_left_normalized": "4:105833458:T:TGA",
+      "authoritative_database_contrasts_left_normalized": [
+        "4:105833457:C:CAA",
+        "4:105833457:C:CGA"
+      ],
+      "equals_any_database_contrast": false,
+      "adjudication": "unevaluable; do not substitute a nearby or differently sized dbSNP allele"
+    },
+    {
+      "rsid": "rs35053582",
+      "source_reference_insert_exactly_matches_local_GRCh38": true,
+      "deposited_isolated_edit_left_normalized": "4:105467679:A:AAG",
+      "authoritative_database_contrasts_left_normalized": [
+        "4:105467678:C:CAG"
+      ],
+      "equals_any_database_contrast": false,
+      "adjudication": "unevaluable; do not substitute a nearby or differently sized dbSNP allele"
+    },
+    {
+      "rsid": "rs3835235",
+      "source_reference_insert_exactly_matches_local_GRCh38": true,
+      "deposited_isolated_edit_left_normalized": "6:142410490:A:AT",
+      "authoritative_database_contrasts_left_normalized": [
+        "6:142410488:G:GT"
+      ],
+      "equals_any_database_contrast": false,
+      "adjudication": "unevaluable; do not substitute a nearby or differently sized dbSNP allele"
+    },
+    {
+      "rsid": "rs55840827",
+      "source_reference_insert_exactly_matches_local_GRCh38": true,
+      "deposited_isolated_edit_left_normalized": "5:157501791:G:GTCACGCCT",
+      "authoritative_database_contrasts_left_normalized": [
+        "5:157501782:C:CTCACGCCT"
+      ],
+      "equals_any_database_contrast": false,
+      "adjudication": "unevaluable; do not substitute a nearby or differently sized dbSNP allele"
+    },
+    {
+      "rsid": "rs57658727",
+      "source_reference_insert_exactly_matches_local_GRCh38": true,
+      "deposited_isolated_edit_left_normalized": "4:105539069:T:TTTTTATCAACC",
+      "authoritative_database_contrasts_left_normalized": [
+        "4:105539068:A:ATTATCAACC"
+      ],
+      "equals_any_database_contrast": false,
+      "adjudication": "unevaluable; do not substitute a nearby or differently sized dbSNP allele"
+    },
+    {
+      "rsid": "rs71153122",
+      "source_reference_insert_exactly_matches_local_GRCh38": true,
+      "deposited_isolated_edit_left_normalized": "3:128131513:A:AAAAC",
+      "authoritative_database_contrasts_left_normalized": [
+        "3:128131512:AAAAC:A",
+        "3:128131512:A:AAAAC"
+      ],
+      "equals_any_database_contrast": false,
+      "adjudication": "unevaluable; do not substitute a nearby or differently sized dbSNP allele"
+    },
+    {
+      "rsid": "rs72589169",
+      "source_reference_insert_exactly_matches_local_GRCh38": true,
+      "deposited_isolated_edit_left_normalized": "3:128297770:T:TAA",
+      "authoritative_database_contrasts_left_normalized": [
+        "3:128297769:T:TAA"
+      ],
+      "equals_any_database_contrast": false,
+      "adjudication": "unevaluable; do not substitute a nearby or differently sized dbSNP allele"
+    }
+  ],
+  "snv_fallback_review": {
+    "recommendation": "Approve the narrow source-only SNP fallback with all stated conditions; shared nonreference background is an assay-context limitation, not loss of an otherwise isolated exact nucleotide contrast.",
+    "implementation_status": "Production implementation verified in production_final_review; all identity rows independently reproduced with the guarded branch.",
+    "mandatory_gates": [
+      "Require exactly one authoritative primary-assembly GRCh38 mapping, a one-base REF, and start=end.",
+      "Never override construct_exact_allele_identity_valid=false.",
+      "Require both deposited inserts to contain only A/C/G/T, have equal length, and differ at exactly one position.",
+      "Require the two differing bases to equal the reported tested allele pair, contain the local GRCh38 reference base, and identify exactly one explicitly recorded database ALT.",
+      "Use a terminal 20-mer identical in both inserts, so the anchor cannot span the tested difference.",
+      "Require the terminal anchor to have exactly one match in the reference-check window and infer an insert placement whose differing base maps exactly to the authoritative variant coordinate.",
+      "Require the entire inferred insert interval to lie within the fetched reference window.",
+      "If both terminal anchors support a placement, require the inferred start coordinates to agree; reject conflicts.",
+      "Record every shared background mismatch with position, reference base, construct base, and offset from the tested nucleotide.",
+      "Do not apply this fallback to indels, multiple tested changes, differing insert lengths, unresolved source-construct flags, or nonunique genomic mappings."
+    ],
+    "independent_accepted_shared_background_count": 1,
+    "accepted_example": {
+      "rsid": "rs11732650",
+      "canonical_variant_id": "4:105833074:G:C",
+      "insert_length": 84,
+      "difference_index_0based": 42,
+      "tested_bases_in_source_order": [
+        "C",
+        "G"
+      ],
+      "source_reference_allele_role": 2,
+      "shared_right_terminal_20mer": "TGCTTTCCTCTTCCTGATAG",
+      "anchor_local_window_occurrences": 1,
+      "inferred_insert_start_0based": 105833031,
+      "shared_background_mismatches": [
+        {
+          "grch38_chrom": "4",
+          "grch38_pos": 105833047,
+          "reference_base": "T",
+          "construct_base": "A",
+          "relative_to_tested_variant": -27
+        }
+      ],
+      "interpretation": "Both alleles share the same nonreference background. The isolated assayed C/G difference maps unambiguously to the exact authoritative nucleotide; do not claim the assay background is the full GRCh38 reference context."
+    },
+    "indel_rs142307498": "No SNP fallback; unequal-length constructs plus shared context mismatch remain unevaluable under the proposed bounded implementation.",
+    "expected_forward_identity_counts_after_fallback": {
+      "exact": 1098,
+      "unevaluable": 22
+    },
+    "limitation": "Terminal-anchor uniqueness is evaluated within the authoritative local locus window; it is not a claim that this 20-mer is globally unique in the genome."
+  },
+  "locus_group_review": {
+    "recommendation": "Use the source Figure S1B hg19 displayed locus intervals with the independent GRCh37 mappings, and label this source-defined grouping rather than a new target-gene analysis.",
+    "expected_source_locus_counts": {
+      "GSTCD": 492,
+      "EEFSEC": 224,
+      "ADAM19": 204,
+      "ADGRG6": 108,
+      "HTR4": 92
+    },
+    "source_locator": "Gong Supplementary Figures S1A-S1B, page1; source hg19_MPRA_SNPs tracks",
+    "source_region_metadata": "gong_evidence.json denominator_audit.locus_source_regions"
+  },
+  "conclusion": "Final source-only production review PASS. Gong contributes6720 assay rows with6594 exact identities across1099 source rsIDs and126 unevaluable rows across21 source rsIDs. All experimental labels and48 source-invalid construct flags are preserved. One narrow SNP fallback and one authoritative alias rescue are supported; unresolved indel contrasts remain excluded from exact joining. Source-locus actual/stated count discrepancies are explicitly preserved, not forced into agreement. Acceptable for benchmark freeze; no model outcomes were inspected.",
+  "production_final_review": {
+    "reviewed_utc": "2026-10-05T23:30:16.098988+00:00",
+    "production_script_sha256": "6a7643599ba3fd73df2903018f332a8ab719a2229d8e445d9270a34647bc24f2",
+    "source_curation_sha256": "38d84a23c8f748e784c5806e1887f8d0c78469bd17486b8979e0fce2ef666d3f",
+    "checks": {
+      "assay_ids_preserved": true,
+      "assay_labels_unchanged": true,
+      "all_identity_rows_reproduce": true,
+      "all48_source_invalid_flags_honored": true,
+      "fallback_only_rs11732650_six_contexts": true,
+      "all1120_source_locus_assignments_unique_and_reproduce": true,
+      "both_locus_count_totals1120": true,
+      "mapping_end_guard_present": true,
+      "interval_guard_present": true
+    },
+    "identity_counts": {
+      "exact": 6594,
+      "unevaluable": 126
+    },
+    "unique_exact_ids": 1099,
+    "unevaluable_ids": [
+      "rs10634924",
+      "rs10637017",
+      "rs10699204",
+      "rs113955166",
+      "rs142307498",
+      "rs199856654",
+      "rs199910359",
+      "rs200077507",
+      "rs200407928",
+      "rs200608396",
+      "rs201292172",
+      "rs201529721",
+      "rs202157195",
+      "rs34671427",
+      "rs35053582",
+      "rs3835235",
+      "rs55840827",
+      "rs57658727",
+      "rs71153122",
+      "rs72589169",
+      "rs76419734"
+    ],
+    "source_locus_stated_counts": {
+      "GSTCD": 492,
+      "EEFSEC": 224,
+      "ADAM19": 204,
+      "ADGRG6": 108,
+      "HTR4": 92
+    },
+    "source_locus_actual_range_assignment_counts": {
+      "GSTCD": 493,
+      "HTR4": 91,
+      "ADAM19": 203,
+      "ADGRG6": 109,
+      "EEFSEC": 224
+    },
+    "source_locus_count_differences": {
+      "GSTCD": 1,
+      "EEFSEC": 0,
+      "ADAM19": -1,
+      "ADGRG6": 1,
+      "HTR4": -1
+    },
+    "table_sha256": {
+      "COPD-V2-BENCH-R002_exact_allele_harmonization.tsv": "f187fb3eea2b72b5770d43e1c1abaa8e5cd2c0da383abd74c5d417f604c0d784",
+      "COPD-V2-BENCH-R003_frozen_benchmark_master.tsv": "a69a8b1d5c82299075b2d5203fee3d4a23105572c6cf456bab834b82ef13bbdd",
+      "COPD-V2-BENCH-R006B_source_locus_assignment.tsv": "23e2cd7fa621bea34b1069de4d721524298c507fefc14b0dba27b2b908ce2856"
+    },
+    "authoritative_aliases": [
+      {
+        "source_rsid": "rs72556188",
+        "resolved_rsid": "rs3835235",
+        "evidence": "NCBI merged_snapshot_data.merged_into=['3835235']",
+        "final_identity_status": "exact",
+        "canonical_variant_id": "6:142410488:G:GT",
+        "reason": "Explicit rsID merge and exact deposited allele-construct/reference validation; not an LD proxy."
+      },
+      {
+        "source_rsid": "rs201292172",
+        "resolved_rsid": "rs58515654",
+        "evidence": "NCBI merged_snapshot_data.merged_into=['58515654']",
+        "final_identity_status": "unevaluable",
+        "canonical_variant_id": "",
+        "reason": "Explicit merge resolves the identifier but deposited constructs still fail authoritative allele-contrast validation."
+      }
+    ],
+    "source_locus_discrepancy_adjudication": "Accept range-based assignments as independently reproducible source-region grouping while preserving Figure S1A stated counts separately. Differences are +1 GSTCD, 0 EEFSEC, -1 ADAM19, +1 ADGRG6, -1 HTR4; both totals remain1120. Do not change memberships, labels, or denominators to force agreement with the figure. No new target-gene or LD analysis was performed.",
+    "production_fallback_implementation": "Both requested defensive guards were added: mapping end=start and entire inferred query placement inside the fetched reference window. The source-only production rerun reproduces all frozen-master identities, and only rs11732650 receives the single-SNV/shared-background fallback.",
+    "all_required_identity_review_checks_pass": true,
+    "acceptable_for_benchmark_freeze": true,
+    "model_outcomes_read": false,
+    "source_labels_modified": false
+  }
+}

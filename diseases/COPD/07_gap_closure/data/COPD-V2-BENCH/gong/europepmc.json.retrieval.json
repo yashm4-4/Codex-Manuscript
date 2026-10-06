@@ -1,0 +1,11 @@
+{
+  "filename": "europepmc.json",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42745457%20AND%20SRC:MED&format=json",
+  "retrieved_utc": "2026-10-05T23:04:17.005090+00:00",
+  "status": 200,
+  "resolved_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42745457%20AND%20SRC:MED&format=json",
+  "content_type": "application/json;charset=UTF-8",
+  "bytes": 1041,
+  "sha256": "d9e6694fd699bb5df1e06854179a6b3795fde5b33a1821a1832122d373de8dce",
+  "local_path": "data/COPD-V2-BENCH/gong/europepmc.json"
+}

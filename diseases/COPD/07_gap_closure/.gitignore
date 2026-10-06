@@ -30,3 +30,11 @@ logs/cuda_cache/
 logs/tmp/
 provenance/runtime/
 provenance/COPD-V2-RC_runtime/
+
+# Authorized external functional benchmark: source evidence and derived outputs.
+!data/COPD-V2-BENCH/
+!data/COPD-V2-BENCH/**
+!results/COPD-V2-BENCH*.tsv
+!results/COPD-V2-BENCH*.tsv.gz
+!results/COPD-V2-BENCH*.md
+!logs/COPD-V2-BENCH*.json

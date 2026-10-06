@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "experimental_design_ids": true,
+    "experimental_rows_complete_design_cross_product": true,
+    "unique_assay_ids": true,
+    "unique_positive_variants_match_abstract": true,
+    "positive_rows": true,
+    "explicit_complete_result_nulls": true,
+    "unavailable_not_null": true,
+    "missing_statistics_never_null": true,
+    "controls_separated": true,
+    "all_experimental_rows_have_source_alleles": true,
+    "all_experimental_rows_have_source_locator": true,
+    "no_inferred_reporter_direction": true,
+    "internal_reverse_insert_mismatches_retained": true,
+    "unreconciled_construct_rows_blocked": true,
+    "full_denominator_gate_closed": true,
+    "source_hashes_recorded": true
+  },
+  "all_pass": true,
+  "model_inputs_read": false
+}

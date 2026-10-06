@@ -1,0 +1,51 @@
+{
+  "geo_accession": "GSE109452",
+  "processed_columns": [
+    "tag",
+    "oligo",
+    "SNP",
+    "allele",
+    "chr",
+    "pos",
+    "loc",
+    "orient",
+    "minP_input",
+    "minP_output",
+    "SV40_input",
+    "SV40_output"
+  ],
+  "source_counts_rows": 218526,
+  "unique_observed_barcodes": 218526,
+  "designed_barcodes": 239910,
+  "designed_tags_not_in_processed": 21384,
+  "processed_tags_not_in_design": 0,
+  "unique_variants": 606,
+  "unique_allele_constructs": 7270,
+  "paired_oligo_contexts": 3635,
+  "promoter_contexts": 7270,
+  "expected_606x6_oligo_contexts": 3636,
+  "missing_design_and_processed_contexts": [
+    [
+      "rs3017926",
+      "C",
+      "RC"
+    ]
+  ],
+  "all_zero_count_rows": 0,
+  "minP_both_counts_zero_rows": 4940,
+  "SV40_both_counts_zero_rows": 4701,
+  "per_construct_observed_barcodes_range": [
+    4,
+    33
+  ],
+  "every_construct_has_33_designed_barcodes": true,
+  "coordinates_unique_per_variant": true,
+  "allele_count_each_variant": 2,
+  "published_significance_columns_available": false,
+  "published_QC_exclusions_available": false,
+  "genome_build_reported_in_SOFT": false,
+  "numerical_MPRA_calling_rule_available": false,
+  "barcode_rows_are_independent_variants": false,
+  "statistical_reanalysis_performed": false,
+  "interpretation": "Complete 606-variant design and observed barcode panel are enumerable, but count data alone do not supply published positive/null labels. No missing barcode, zero count, or non-hit was labeled null."
+}

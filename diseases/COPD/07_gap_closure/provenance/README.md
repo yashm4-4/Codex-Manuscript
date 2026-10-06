@@ -25,3 +25,16 @@ ignored cache directory, not an analysis result.
 Shared V2 registers/documentation evolve by authorized module additions; prior
 PHENO checksum entries for these shared files describe their earlier completed
 state. PHENO-specific outputs and the prior checksum ledger remain preserved.
+
+The external benchmark adds `COPD-V2-BENCH_*`: protocol lock, 316-entry immutable
+input baseline, assembly manifest, independent source/identity reviews, a
+200-file benchmark freeze, comparison run history, interpretation review,
+independent QC and completed-artifact checksums. The master was frozen before
+new benchmark-wide model extraction. No frozen benchmark membership or labels
+were changed after comparison. Implementation-only validation notes are separate.
+
+`COPD-V2-BENCH_external_evaluation_firewall.md` is mandatory for future use:
+labels are not training data and outcomes cannot select models or settings.
+The current V1 analysis is descriptive, not an untouched V1 selection test.
+Prior PHENO/RC-specific files and ledgers remain byte-identical; their hashes of
+shared V2 registers/documentation describe earlier historical completion states.

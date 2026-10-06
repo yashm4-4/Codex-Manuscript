@@ -1,0 +1,152 @@
+{
+  "review_id": "COPD-V2-BENCH_EXPERIMENTAL_LABEL_REVIEW",
+  "reviewed_utc": "2026-10-05T23:27:47Z",
+  "reviewer": "independent source-review agent bench_castaldi",
+  "review_scope": "Pre-freeze Gong and other-mechanism experimental labels, source denominators, direction semantics and coverage of eight prior literature metadata rows. No V1 or RC scores, ranks, candidates or model comparisons inspected.",
+  "independence": {
+    "gong_and_mechanisms_curator": false,
+    "castaldi_curator": true,
+    "castaldi_review_is_not_claimed_independent": true,
+    "prior_literature_access": "Only source_id, tested_rsids, target_gene and literature_caveat columns were extracted from the frozen R009 literature register. No model values were exposed."
+  },
+  "specification_sha256": "46d3aac26b1f980d7c2dcd5034d6cc64566524ca7d99cc635f7d979e04f2de65",
+  "reviewed_snapshot_hashes": {
+    "data/COPD-V2-BENCH/gong_evidence.json": "38d84a23c8f748e784c5806e1887f8d0c78469bd17486b8979e0fce2ef666d3f",
+    "data/COPD-V2-BENCH/mechanisms_evidence.json": "2d6b938da577a1227ba04934fd7bb9b0ab440de1e8083539594e837e55ae8162",
+    "data/COPD-V2-BENCH/gong/supplement/Table_S2_MPRA_RESULT_three_cell_lines.xls": "1c192bc2fe3b706d0d3efbc027a296ff32655afca1ddafde7c416b90092999f9",
+    "data/COPD-V2-BENCH/gong/supplement/MPRA_Sul_File_Final_CLEAN_July2026.docx": "1b8e90f0d7f2ef4b7c8793f415ee706caea6bc69fec2c0145718e67824421bed",
+    "data/COPD-V2-BENCH/mechanisms/Zhou2012_Figure3.jpg": "e32225e5044090fd58fccc941c4c175b0722c190f212500b83311528b1df133d"
+  },
+  "overall_status": "PASS_WITH_DOCUMENTED_SOURCE_LIMITATIONS",
+  "blocking_curation_errors_found": 0,
+  "checks": [
+    {
+      "check_id": "GONG_PUBLISHED_CALL_RULE",
+      "status": "PASS",
+      "evidence": "Original supplementary DOCX Methods paragraph 37 explicitly requires significance from all three methods with Benjamini-Hochberg-adjusted P<0.05. This is a conjunction, not an any-method rule. It applies to QuASAR, mpralm_sum and DESeq2 fields in S2.",
+      "source_url": "https://academic.oup.com/ajrcmb/advance-article/doi/10.1093/ajrcmb/aanag179/8798774"
+    },
+    {
+      "check_id": "GONG_ORIGINAL_XLS_STATISTIC_FIDELITY",
+      "status": "PASS",
+      "evidence": "Independently read the original XLS with xlrd, recognizing its two header rows, and compared every QuASAR/mpralm_sum/DESeq2 field to the extracted TSVs. All three sheets contain 2,306 body rows. No differences above 1e-14; maximum serialization difference was 6.462348535570529e-27. Original NA fields remain absent, not zeros.",
+      "original_missing_method_fields": {"16HBE": 0, "HUVEC": 12, "MRC5": 2}
+    },
+    {
+      "check_id": "GONG_INDEPENDENT_LABEL_RECONCILIATION",
+      "status": "PASS",
+      "evidence": "Independently applied the published conjunction to all 6,714 reported experimental result rows and compared with curation. Zero state mismatches. Six additional design-defined rows absent from S2 remain unavailable, yielding 6,720 expected experimental cell/orientation contrasts.",
+      "expected_experimental_rows": 6720,
+      "source_reported_experimental_rows": 6714,
+      "positive_rows": 29,
+      "null_rows": 6671,
+      "unavailable_rows": 20,
+      "positive_unique_variants": 25,
+      "per_cell": {
+        "16HBE": {"positive": 16, "null": 2222, "unavailable": 2},
+        "HUVEC": {"positive": 6, "null": 2220, "unavailable": 14},
+        "MRC5": {"positive": 7, "null": 2229, "unavailable": 4}
+      }
+    },
+    {
+      "check_id": "GONG_MISSING_IS_NOT_NULL",
+      "status": "PASS",
+      "evidence": "Two rs76419734 orientation rows are absent in each cell. Twelve HUVEC and two MRC5 reported contrasts lack a required method statistic. None is labeled null or positive. The 6,671 nulls are complete reported contrasts that fail the authors' consensus rule, not inferred absence-of-hit labels. Nonsignificance is assay-specific, not biological inactivity."
+    },
+    {
+      "check_id": "GONG_QC_RULE_AND_DENOMINATOR",
+      "status": "PASS",
+      "evidence": "The source DOCX stores the two missing comparison glyphs as Symbol F0A3 (less-than-or-equal). Barcode thresholds are mean DNA count <=10 in 16HBE/MRC5 and <=3 in HUVEC; low-correlation DNA replicates are removed. A per-variant QC/exclusion ledger and the reason for missing rs76419734 are absent. Complete-assayed-denominator validity is correctly false despite extensive recoverable null results. No full-panel sensitivity, specificity, AUROC/AP or false-positive-rate claim is supported."
+    },
+    {
+      "check_id": "GONG_CONTROLS_AND_DIRECTION",
+      "status": "PASS",
+      "evidence": "Design CON controls are in the context/exclusion collection, not the 1,120-variant experimental denominator. S2 provides statistical evidence but no signed allele effect; curation correctly withholds direction. GWAS effect alleles in S3 and QBiC TF predictions are not treated as measured reporter direction or experimental TF-binding labels."
+    },
+    {
+      "check_id": "HHIP_ISOLATED_ALLELE_CONTRASTS",
+      "status": "PASS",
+      "evidence": "Independently visually inspected primary Figure 3B and read its caption, Results and statistical methods. Isolated rs6537296 G-to-A on rs1542725=T background is significant in the forward insert and explicitly NS in reverse. Isolated rs1542725 T-to-C on rs6537296=G background is explicitly NS in forward and significant in reverse. Thus four exact contrast rows contain two positive and two null outcomes. The double-mutant risk haplotype is kept separately and is not substituted for either single nucleotide.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3284120/"
+    },
+    {
+      "check_id": "HHIP_BINDING_AND_CONTACT_SEPARATION",
+      "status": "PASS",
+      "evidence": "Primary Figure 4 and Results support greater Sp3 binding with rs1542725-C. This remains TF_binding with partial model scope, not a higher-reporter-activity label. Contacts and the two-SNP haplotype are contextual. Experimental insert orientation is not equated with computational frozen-sequence reverse complementation."
+    },
+    {
+      "check_id": "LIN_REVERSE_ALLELES_AND_LABELS",
+      "status": "PASS",
+      "evidence": "Independently viewed primary Figure 1. Its pairs are rs2276936 forward A/C, reverse T/G; rs2167750 forward C/T, reverse G/A; rs7695177 forward C/G, reverse G/C. The single marked allelic significance is rs2276936 forward, with A higher than C. Five unmarked contrasts have no explicit NS or numerical P and remain ambiguous, not inferred null. Reverse labels are preserved as printed; central genomic complementation remains a separate harmonization step. rs7695177 is palindromic.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7063182/"
+    },
+    {
+      "check_id": "LIN_REUSE_AND_DISEASE_ASCERTAINMENT",
+      "status": "PASS",
+      "evidence": "HepG2 reporter experiments are a metabolic follow-up of the COPD FAM13A locus, not an independent COPD disease-validation panel. Reused Castaldi MPRA positives are identified as the same original experiment in contextual evidence and source-reported summaries, not counted as new independent replication. Regional deletion does not establish exact allele editing."
+    },
+    {
+      "check_id": "NPNT_SCOPE_AND_EVIDENCE_DESIGN",
+      "status": "PASS",
+      "evidence": "Primary Methods and Results confirm long-read RNA from five AA and five GG LTRC lung donors, with exon/isoform usage differences and an allele-dependent splice acceptor. This is not an isogenic edit. The splicing label has mechanism_in_model_scope=no. Four explicit nonsignificant isoform endpoints are preserved as within-assay contexts, not independent variants. Structural consequences are predictions, not direct protein-function experiments. NPNT cannot be counted as an enhancer/H3K27me3 false negative.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11968218/"
+    },
+    {
+      "check_id": "ADDITIONAL_REPORTER_EDITING_SPOT_CHECKS",
+      "status": "PASS",
+      "evidence": "Direct primary text confirms rs7962469-A higher than G in both 16HBE and Jurkat (Boueiz Figure 5 has allelic P=.008); Hao reports rs2076295-T higher DSP promoter activity and TT higher DSP expression than GG in HDR clones. Regional deletion/CRISPRi are separately contextual. Hao's IPF-risk direction must not be assumed to be COPD-risk direction.",
+      "source_urls": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC6444627/", "https://pmc.ncbi.nlm.nih.gov/articles/PMC7605184/"]
+    },
+    {
+      "check_id": "HETEROGENEOUS_CASE_SERIES_DENOMINATOR",
+      "status": "PASS",
+      "evidence": "The mechanism collection contains deliberately selected variants, correlated HHIP contrasts, different assays/cells and an out-of-scope splice mechanism. Its complete_positive_null_panel and performance_metrics_permitted fields are false. Four enumerated HHIP tests do not turn two selected linked SNPs into an independent screening panel. Counts and descriptive case recovery are appropriate; population-like performance metrics are not."
+    },
+    {
+      "check_id": "ALL_EIGHT_PRIOR_LITERATURE_ROWS_REPRESENTED",
+      "status": "PASS",
+      "evidence": "Metadata-only audit maps all eight frozen V1 literature observations to exact assay or separate regional/TF contexts. No source was dropped because of model coverage.",
+      "rows": [
+        {"source_id": "COPD-SRC-044", "tested_rsids": "rs2013701", "represented_in": "Castaldi MPRA, reporter, endogenous editing and separate contact context"},
+        {"source_id": "COPD-SRC-044", "tested_rsids": "rs7671167", "represented_in": "Castaldi MPRA, reporter and separate contact context"},
+        {"source_id": "COPD-SRC-044", "tested_rsids": "rs1795739", "represented_in": "Castaldi MPRA, positive reporter and explicitly null regional contact context"},
+        {"source_id": "COPD-SRC-045", "tested_rsids": "rs1542725;rs6537296", "represented_in": "Four isolated HHIP reporter assays; haplotype and contacts separately contextual"},
+        {"source_id": "COPD-SRC-045", "tested_rsids": "rs1542725", "represented_in": "HHIP isolated Sp3-binding assay"},
+        {"source_id": "COPD-SRC-047", "tested_rsids": "rs35421223", "represented_in": "Six Gong MPRA cell/orientation contrasts and separate RUVBL1/RAB7A regional perturbation contexts"},
+        {"source_id": "COPD-SRC-048", "tested_rsids": "rs1800469", "represented_in": "Stuart regional CRISPRi gene/cell readouts, not natural-allele labels"},
+        {"source_id": "COPD-SRC-048", "tested_rsids": "rs2241712", "represented_in": "Stuart regional CRISPRi TGFB1, B9D2 and TMEM91 readouts, not natural-allele labels"}
+      ]
+    }
+  ],
+  "issues_and_required_interpretive_caveats": [
+    {
+      "issue_id": "HISTORICAL_V1_RS1795739_CONTACT_ANNOTATION",
+      "severity": "nonblocking_historical_source_annotation_error",
+      "finding": "The frozen V1 literature caveat says promoter contact strengthens rs1795739 target assignment. Castaldi primary Results instead report contact for the segment containing rs2013701/rs7671167, in contrast to rs1795739.",
+      "disposition": "Current V2 context correctly records rs1795739 regional contact as null. Preserve the frozen V1 file and explicitly document the V2 source-annotation correction; do not turn the positive reporter into a nucleotide null."
+    },
+    {
+      "issue_id": "GONG_S7_SOURCE_CONTRADICTION",
+      "severity": "nonblocking_source_inconsistency",
+      "finding": "S7 caption says its rows have combined P<.01, but GSTCD=.08222 and RUVBL1=.09719 exceed that rule. The abstract's RUVBL1 claim also conflicts with the S7 16HBE combined test.",
+      "disposition": "Curation preserves numerical-rule nulls and the source conflict in notes; describe the disagreement explicitly rather than changing the threshold. These are regional contexts, not exact nucleotide labels."
+    },
+    {
+      "issue_id": "GONG_NHBE_PERTURBATION_CLASS_UNRESOLVED",
+      "severity": "nonblocking_source_inconsistency",
+      "finding": "Authors label NHBE experiments CRISPRi, while their delivery method describes HiFi Cas9 nuclease RNP, not a dCas9 repressor.",
+      "disposition": "Keep the reported class with the explicit mechanistic inconsistency. No natural-allele validation is inferred."
+    },
+    {
+      "issue_id": "NO_COMPLETE_LABELLED_SCREENING_DENOMINATOR",
+      "severity": "scientific_analysis_gate",
+      "finding": "Gong has recoverable explicit nulls but unresolved missing/QC states; Castaldi has complete design/count identities but incomplete published statistical labels; the other sources are selected heterogeneous cases.",
+      "disposition": "Omit full-panel sensitivity/specificity, AUROC/AP and false-positive-rate claims. Preserve panel coverage and selected-case descriptive results with every unavailable/unevaluable state exposed."
+    }
+  ],
+  "limitations": [
+    "This is a source-label review, not an independent genomic harmonization audit or model-comparison validation.",
+    "Publisher-inaccessible details are not reconstructed by assumptions; source limitations remain explicit.",
+    "Reviewed JSON hashes bind this review to a snapshot. Substantive later label changes require re-review before freeze."
+  ]
+}

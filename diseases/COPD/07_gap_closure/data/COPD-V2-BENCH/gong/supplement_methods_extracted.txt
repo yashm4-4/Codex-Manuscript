@@ -1,0 +1,259 @@
+0: Supplementary Information
+1: Interrogation of functional variants in COPD GWAS loci by massively parallel reporter assays
+2: Lu Gong1,2,#, Feng Guo1,2,#, Divyaa Srinivasan4,5, Dandi Qiao1,2, Vidhi Malik1,2, Nicholaus DeCuzzi4,5, Matthew Hegedus4,5, Yuzhen Yu1,2, Wardatul Jannat Anamika1,2, Shreya Mishra3, Christopher Benway1,2, Jiangyuan Liu1,2, Junyi Duan1,2, Yihan Zhou1,2, Ming Hu3, Michael H. Cho1,2,*, Edwin K. Silverman1,2,* and Anny Xiaobo Zhou4,5*,&
+3: 1 Channing Division of Network Medicine, Brigham and Women's Hospital, 2 Harvard Medical School, Boston, MA 02115, USA
+4: 3 Department of Quantitative Health Sciences, Lerner Research Institute, Cleveland Clinic Foundation, Cleveland, OH 44195, USA
+5: 4 Division of Pulmonary and Critical Care, Department of Medicine, 5Department of Genome Science, University of Virginia, Charlottesville, VA 22903
+6: #, co-first author
+7: *, co-correspondence 
+8: & Current address of the Lead Contact:
+9: Anny Xiaobo Zhou, Ph.D, ATSF
+10: University of Virginia
+11: Phone: 1-434-243-2003
+12: E-mail: zhou1@virginia.edu
+13: Address: 
+14: Division of Pulmonary and Critical Care, Department of Medicine, Department of Genome Science
+15: University of Virginia
+16: 450 Ray C. Hunt Dr.
+17: Charlottesville, VA 22903
+18: 
+19: Methods
+20: 
+21: Selection and prioritization of COPD GWAS loci
+22: We selected COPD GWAS loci for MPRA screening from the genome-wide significant loci reported by Hobbs et al.¹ Because MPRA library design and downstream validation experiments limit the number of loci that can be examined simultaneously, we applied a stepwise prioritization strategy to identify a subset of loci for detailed functional study.
+23: Loci were prioritized using three criteria:(1) genome-wide significance in the first phase of the International COPD Genetics Consortium genetic association analysis;(2) replication in the second phase of association analysis in the same study; and(3) locus complexity, defined as genomic regions containing multiple nearby candidate genes in which the functional regulatory variant(s) and key effector gene(s) remained unresolved.
+24: Alternative loci were considered during study design. Among loci meeting the first two criteria, we excluded loci such as HHIP, FAM13A, and RIN3 because prior studies had already provided strong functional candidate genes and/or regulatory variants for these regions1,2,3. We also excluded the chromosome 15q locus because the association signal in this region is thought to be influenced, at least in part, by smoking behavior or nicotine dependence4,5, which could complicate interpretation in the context of COPD-specific regulatory mechanisms. From the remaining eligible loci, we selected five loci with the strongest meta-analysis association signals reported in the COPD GWAS meta-analysis: ADAM19, ADGRG6, EEFSEC, GSTCD, and HTR4.
+25: 
+26: Fine-mapping of five COPD GWAS loci
+27: We performed statistical fine mapping using the Hobbs et al. COPD GWAS1, by three methods (CAVIARBF, PICS and Wakefield method). First, we performed fine mapping with the Wakefield method using European ancestry subjects with genome-wide genotyping data, excluding variants that were not present in at least 80% of the full sample. We assumed a single causal variant at each locus, examined +/− 250kb region around the top variant, and calculated approximate Bayes factors to determine the 95% credible set1. To allow for more than one causal variant, we also performed fine mapping using CAVIARBF6. We used the 1000 Genomes European ancestry reference panel, setting the maximum number of causal variants to 2, and setting the diagonal of the LD matrix to 1.1 to reflect differences in the target versus reference LD structure, and signal (-t -a 0.1) using a stepwise search. Finally, we used PICS7 via the PICS web portal with the 1000 Genomes European reference population (https://pubs.broadinstitute.org/pubs/finemapping/pics.php) for the lead SNPs in each region. Lastly, we sought a fourth source of variants - during the design phase of this project, we performed a new GWAS8. We performed fine mapping using the Wakefield method on this larger dataset. For two of the loci (ADAM19 and EEFSEC), we identified 12 additional variants in the 95% credible set that were not yet included in our list of variants to be interrogated. The union of all three methods on the GWAS data from Hobbs et al.1, plus additional variants from the new GWAS by Sakornsakolpat et al.8, removing variants that were not able to be lifted over to build 38, resulted in 1120 variants to be interrogated (Table S1) at an average of ~220 SNPs/locus for the five selected COPD GWAS loci (Figure S1).
+28: Oligonucleotide design for MPRAs
+29: In this assay, an oligonucleotide (oligo) library is constructed to contain a candidate regulatory sequence spanning the variants to be tested and is introduced into three types of cell lines9. In addition to a candidate regulatory sequence of interest, a minimal promoter and a unique DNA “barcode” connected to the luciferase gene are also included in the MPRA library. Therefore, the effects of oligo sequences containing opposing alleles for each given variant that can potentially regulate the transcription of the luciferase gene can be quantified by counting the number of corresponding DNA barcodes, enabling allele-specific comparisons within the same vector backbone. For each selected SNP, we positioned two opposing alleles in the center of the 144 bp oligo sequence in either forward or reverse orientations connected with twenty barcodes for each oligo sequence combination to improve detection performance. We also included 34 additional oligos as positive controls according to a previous publication10, making the total oligo number 92,400. Reporter activity across oligos in the minimal promoter context defines the baseline distribution used for statistical testing across barcodes. We then designed the sequences of the oligonucleotide library with “mpradesigntools” R package11. Oligos were synthesized from GenScript as described previously10. 
+30: Cell culture
+31: Human bronchial epithelial cell line (16HBE14o-) was purchased from Sigma-Aldrich (Temecula, CA). Human umbilical vein endothelial cell line (HUVEC) and human fetal lung fibroblast cell line (MRC5) were purchased from American Type Culture Collection (ATCC, Manassas, VA). 16HBE and MRC5 cells were cultured in Eagle's minimal essential medium, supplemented with 10% fetal bovine serum, penicillin (50 units/ml), and streptomycin (50 µg/ml). HEK293FT cells were cultured in Dulbecco's modified Eagle medium, supplemented with 10% fetal bovine serum, penicillin (50 units/ml), and streptomycin (50 µg/ml). HUVEC cells were cultured in Vascular Cell Basal Medium, supplemented with Endothelial Cell Growth Kit-BBE to create a complete ATCC Primary Cell Solution. Human primary normal bronchial epithelial (NHBE) cells were purchased from Lonza. NHBE cells were cultured with the small airway epithelial cell growth medium kit (PromocCell Inc, C-21170) with growth factor supplement and used for transfection within passage five. All cells were cultured in humidified cell incubators set at 37 degrees with 5% CO2.
+32: Generation of the MPRA library
+33: All oligos were cloned into the MPRA vector as we have done previously10. Briefly, PCR-amplified oligos were cloned into a vector (pMPRA1), with the minimal promoter (minP) and luciferase gene to generate MPRA plasmid libraries (~96k oligos). The plasmid libraries were transfected into three cell lines (16HBE, MRC5, and HUVEC), followed by DNA and RNA extraction and generation of sequencing libraries from transfected cells in each cell type and for each replicate. 
+34: MPRA data analysis
+35: RNA and DNA samples extracted from MPRA library-transfected cells were sequenced to quantify barcode count and compare RNA-to-DNA ratio for each given oligo sequence to infer allelic effects. Whole transcriptomes from 4-6 independent transfections were sequenced for each library in each cell type. All libraries were sequenced in an indexed pool of eight multiplexing single-end reads with Illumina Nextseq 550 instrument (Biopolymers Facility, Harvard Medical School, HMS).
+36: Quantification of the activity of thousands of putative regulatory sequences in a single experiment by high-throughput sequencing enhances the throughput for assessments of regulatory sequences. Recent progress in optimizing this method in human mammalian cells has greatly increased its scalability, sensitivity and capacity12-14. 
+37: Quality control steps were performed to remove replicates of unsatisfactory quality (low correlation with other DNA replicates) and exclude barcodes with low counts in the DNA replicates. Barcodes with mean DNA count  10 in 16HBE and MRC5, and with mean DNA count  3 in HUVEC, were excluded based on the correlation of reads of low count barcodes across replicates. Barcode counts were then normalized by the total number of reads in each replicate and multiplied by the maximum of total number of reads across all replicates. To analyze MPRA sequencing results, we used three different differential expression analytic algorithms (QuASAR, Mpralm, and DESeq2) implemented in the atMPRA library15-18. To identify statistically significant SNP effects on enhancer or silencer activity, we applied DESeq2 by comparing expression counts in the RNA sample relative to the DNA sample. Furthermore, we compared the log ratios of normalized DNA and RNA counts between the reference and alternative alleles using the R package that we developed for MPRA analysis, atMPRA (github.com/redaq/atMPRA) (Detailed results for all SNPs are included in Table S2). Only significant SNPs identified by all three methods using Benjamini-Hochberg-adjusted p-values < 0.05 were selected as the final set of MPRA significant SNPs (Figure 1C). This strategy reduces possible false positives related to an individual method but is likely susceptible to false negative results. For the subsequent reporter assays, we used a fold-change cutoff of ≥1.5-fold difference in activity between the reference and alternate alleles to define an enhancer or repressor.
+38: 
+39: Reporter assay
+40: Reporter assay plasmids were purchased from GenScript. DNA fragment of 150bp length spanning each SNP with either of two opposing alleles in forward or reverse orientation was inserted into the reporter vector of pGL4.23 containing a minimal promoter for transfection. Reporter assays were done as previously described10. Briefly, 50% confluent 16HBE cells were seeded into a 24-well plate at a density of 1 × 105 cells per well. Forty-eight hours after transfection with various reporter constructs along with TK-Renilla, cells were collected to measure enhancer activity using the Dual-Luciferase Reporter Assay System (Promega) according to the manufacturer’s protocol. Luminescence signals were captured in a Synergy H1 microplate reader (BioTek). Firefly signals were normalized to TK-renilla signals to calculate enhancer activities for each construct. Independent transfections and reporter assays were performed at least three times.
+41: Transcription factor binding prediction on significant variants
+42: To identify potential transcription factors affected by variants, we used QBiC-Pred19 (qbic.genome.duke.edu), which uses high-throughput protein-binding microarray data to train regression models. We used the b38 reference, and the QBiC results include normalized binding change z-scores and significance. Results are shown in Table S4.
+43: CRISPRi construct cloning and delivery
+44: Guide RNAs were designed to target selected SNPs and synthesized from IDT (Table S5). A non-targeting guide RNA (listed in Table S5) was included as a negative control to account for non-specific effects of CRISPRi delivery and gene repression. Oligos carrying guide RNA sequences were annealed and cloned into CRISPRi vector crop-seq-opti plasmid (Addgene, #106280) using Gibson assembly (NEB, #E2621L) based on a protocol from Dr. Feng Zhang’s lab20. As previously described10, 16HBE-dCas9-KREB-MeCP2 stable cells expressing dCas-9 were generated, then infected with lentivirus containing desired gRNA constructs (2gRNAs/SNP, Table S5) followed by selection with puromycin for 3 days. Effects of CRISPRi perturbation were assessed by measuring expression of nearby genes. Expression of target genes in resulting stable cells was quantified using SYBR Green RT-qPCR (primer sequences in Table S6), and results are reported in Table S7.
+45: To deliver gRNA into primary NHBE cells, we applied RNP (ribonucleoprotein) method as we have done previously21. Briefly, 200 pmole sgRNAs(crRNA:tracrRNA) targeting each variant of sgRNA were annealed in Nuclease free duplex buffer (IDT) by PCR with a condition of heating at 95C for 10 min followed by gradual decrease of the temperature to 25C at 1 degree/min. Then annealed gRNAs were incubated with Alt-R S.p. HiFi Cas9 Nuclease (IDT) at a ratio of 4:1 in 350ul nucleofector buffer and supplement mix (P3 Primary Cell 4D-Nucleofector X Kit L (Lonza, V4XP-3024) for 10 mins at room temperature to form the RNP complex. For electroporation, NHBE cells (5x10^5 in 50ul of buffer) were mixed with 50ul of Cas9:sgRNA RNP mix and incubated for 10 mins at room temperature followed by electroporation using DC-100 program (Lonza, nucleofector). The electroporated cells were then allowed to settle down for 10 mins before gentle transfer of cells in 6 well plates. The media was changed after 24 hours, and cells were collected for RT-qPCR to measure expression of genes near the target variant at 48 hours after electroporation.
+46: Quantitative PCR
+47: Reverse transcription was done using extracted RNA from cells with knockdown of targeted SNPs by High-Capacity cDNA Reverse Transcription Kit (4368813, Thermo Fisher Scientific) as per manufacturer’s protocol. Real-time qPCR was performed to validate expression change on potential targeted genes upon SNP knockdown by Applied Biosystems Power SYBR Green PCR Master Mix (4368702, Thermo Fisher Scientific).
+48: Western Blotting following CRISPRi
+49: Whole-cell lysates were prepared from NHBE cells 48 h after CRISPRi targeting of the rs35421223-containing regulatory element using two independent guide RNAs or a non-targeting control guide. Protein concentrations were determined using a standard protein assay, and 40 μg of total protein was resolved on 4–15% gradient SDS-PAGE gels and transferred to nitrocellulose membranes. Membranes were blocked with 5% non-fat milk for 1 h at room temperature and incubated overnight at 4°C with primary antibodies against RAB7A (Abcam, ab137029; 1:1000) or RUVBL1 (Abcam, ab316004; 1:1000). After washing with TBS-T, membranes were incubated with HRP-conjugated goat anti-rabbit IgG (1:5000) together with Rhodamine-conjugated anti-β-actin (1:5000) as a loading control. Protein bands were detected using enhanced chemiluminescence (ECL) and visualized with a ChemiDoc imaging system. Band intensities were quantified by densitometry and normalized to β-actin.
+50: HUVEC and IMR90 Hi-C data visualization
+51: The Hi-C results of HUVEC and IMR90 (Figure S5) were obtained from the public database (GSE63525)22, and visualized via the UCSC genome browser interact format with a 5 kb resolution (human hg19).
+52: ChIP-Seq 
+53: DNA samples were extracted from cells at 80% confluency, roughly 1x107 16HBE cells or human lung fibroblasts and fragmented by sonication into 150-700bp, then pulled down using anti-H3K27ac antibody (#ab4729, Abcam) using standard protocol. Sequencing library was prepared with NEBNext® Multiplex Oligos for Illumina® kit (NEB #E7335 and #7500) and sequenced at 20M paired reads (2x75bp) per sample at MedGenome (348 Hatch Drive, Foster City, CA 94404, USA).
+54: Raw short reads were preprocessed with fastp (0.23.2) and aligned to human genome hg38 with bowtie2 (2.5.0). Read coverage was acquired by DeepTools/bamCoverage (3.5.1.0.0). Peaks were called with MACS2/callpeak (2.2.7.1). Reads coverage and peaks were visualized with IGV (2.4.10). Usage of tools was guided by their official manuals.
+55: Immunoprecipitation and Western blotting:
+56: Flag-tagged FAM13A was transfected into 16HBE cells followed by immunoprecipitation using Flag antibody(Sigma, F1804) as described previously23. Western blotting was performed in the immunoprecipitated complex using antibodies recognizing either RUVBL1 (Anti-TIP49A, Abcam, ab316004), Rab7A (Abcam, ab137029) or Flag. GAPDH (Abcam, ab9485) was used as an internal reference.
+57: 
+58: Supplementary Tables
+59: Table S5. List of gRNA primers sequence for CRISPRi editing targeting each variant.
+60: SNP
+61: gRNA
+62: Sequence
+63: rs35421223
+64: Sg1F
+65: GGAAAGGACGAAACACCGCAAGACCATCCTGGCCAACAGTTTAAGAGCTATGCTGG
+66: 
+67: Sg1R
+68: CCAGCATAGCTCTTAAACTGTTGGCCAGGATGGTCTTGCGGTGTTTCGTCCTTTCC
+69: 
+70: Sg2F
+71: GGAAAGGACGAAACACCG CAGGAAATCAAGACCATCC AAGAGCTATGCTGG
+72: 
+73: Sg2R
+74: CCAGCATAGCTCTTGGATGGTCTTGATTTCCTGCGGTGTTTCGTCCTTTCC
+75: rs7684442
+76: Sg1F
+77: GGAAAGGACGAAACACCGGGGAGGCTGAGGCAGGAGAAGTTTAAGAGCTATGCTGG
+78: 
+79: Sg1R
+80: CCAGCATAGCTCTTAAACTTCTCCTGCCTCAGCCTCCCCGGTGTTTCGTCCTTTCC
+81: 
+82: Sg2F
+83: GGAAAGGACGAAACACCG GCTACTCGGGAGGCTGAGGC AAGAGCTATGCTGG
+84: 
+85: Sg2R
+86: CCAGCATAGCTCTTGCCTCAGCCTCCCGAGTAGCCGGTGTTTCGTCCTTTCC
+87: rs6439124
+88: Sg1F
+89: GGAAAGGACGAAACACCG TGACTTCAGGGAGTTCTCCT GTTTAAGAGCTATGCTGG
+90: 
+91: Sg1R
+92: CCAGCATAGCTCTTAAACAGGAGAACTCCCTGAAGTCACGGTGTTTCGTCCTTTCC
+93: 
+94: Sg2F
+95: GGAAAGGACGAAACACCG CTCTACTCCAACCAATGTAC AAGAGCTATGCTGG
+96: 
+97: Sg2R
+98: CCAGCATAGCTCTTGTACATTGGTTGGAGTAGAGCGGTGTTTCGTCCTTTCC
+99: rs2955083
+100: Sg1F
+101: GGAAAGGACGAAACACCG AATAAATAAATAACAAATAAGTTTAAGAGCTATGCTGG
+102: 
+103: Sg1R
+104: CCAGCATAGCTCTTAAACTTATTTGTTATTTATTTATTCGGTGTTTCGTCCTTTCC
+105: 
+106: Sg2F
+107: GGAAAGGACGAAACACCGGCAGGGTCTTACTGTTGCCCAAGAGCTATGCTGG
+108: 
+109: Sg2R
+110: CCAGCATAGCTCTTGGGCAACAGTAAGACCCTGCCGGTGTTTCGTCCTTTCC
+111: non-targeting 
+112: F
+113: GGAAAGGACGAAACACCGGTGTGTGTAGCACCGCGTAAGTTTAAGAGCTATGCTGG
+114: 
+115: R
+116: CCAGCATAGCTCTTAAAC TTACGCGGTGCTACACACACCGGTGTTTCGTCCTTTCC
+117: 
+118: Table S6 Primers for qPCR assay for gene expression measurements by SYBR Green method
+119: Primer ID
+120: Sequence
+121: qPCR-hINTS12-F
+122: GCAAGGATTTACCTATGGCTGAC
+123: qPCR-hINTS12-R
+124: CATTTGCCTACAAACAACGCA
+125: qPCR-hGSTCD-F
+126: AACCTCAACTGAACAGCATCC
+127: qPCR-hGSTCD-R
+128: GGTTGGTCTTGGTCCTCCTAT
+129: qPCR-hPPA2-F
+130: AAGAAGTTCAAACCGGGTTACC
+131: qPCR-hPPA2-R
+132: GCAACGGAAAGGGCTATCAGA
+133: qPCR-hTBCK-F
+134: CCCTGAAGGACGCTGAAATGG
+135: qPCR-hTBCK-R
+136: AAGGATTTGAAAGCGCCCTAA
+137: qPCR-hTET2-F
+138: GGCTACAAAGCTCCAGAATGG
+139: qPCR-hTET2-R
+140: AAGAGTGCCACTTGGTGTCTC
+141: qPCR-hEEFSEC-F
+142: CCTTGTGATCGGCCAGATTG
+143: qPCR-hEEFSEC-R
+144: TGTTCTCTAGGGTCTTCTGCATT
+145: qPCR-hRUVBL1-F
+146: AGGTGAAGAGCACTACGAAGA
+147: qPCR-hRUVBL1-R
+148: CTACTATGACGCCACATGCCT
+149: qPCR-hSEC61A1-F
+150: TCATCCTGCCGGAAATTCAGA
+151: qPCR-hSEC61A1-R
+152: AGGGTGATAGCGGTCCACA
+153: qPCR-hMGLL-F
+154: AATGCAGACGGACAGTACCTC
+155: qPCR-hMGLL-R
+156: GAGCCAGCTCTTCATAGCGG
+157: qPCR-hABTB1-F
+158: GATGCTAGACGAGGACACTGT
+159: qPCR-hABTB1-R
+160: GTCCACCAGCGGGATAGAG
+161: qPCR-hGATA2-F
+162: CAGCAAGGCTCGTTCCTGTT
+163: qPCR-hGATA2-R
+164: GGCTTGATGAGTGGTCGGT
+165: qPCR-hRPN1-F
+166: GGCCAAGATTTCAGTCATTGTGG
+167: qPCR-hRPN1-R
+168: CTTCGTTGGATAGGGAGAGTAGA
+169: qPCR-hRAB7A-F
+170: GTGTTGCTGAAGGTTATCATCCT
+171: qPCR-hRAB7A-R
+172: GCTCCTATTGTGGCTTTGTACTG
+173: 
+174: Table S7. Analysis of RT-PCR results shown in Figure S6 with two gRNAs in three replicates for each variant. T-statistics and P-values are shown for each guide RNA; results were combined using Stouffer’s method. SNP-Gene pairs with significant Stouffer combined p value <0.01 were listed.
+175: 
+176: 
+177: t Value
+178: P value
+179: 
+180: Gene
+181: SNP
+182: gRNA1
+183: gRNA2
+184: gRNA 1
+185: gRNA 2
+186: stouffer
+187: TBCK
+188: rs7684442
+189: 14.70646
+190: 2.1637
+191: 0.00012
+192: 0.09649
+193: 0.00022
+194: PPA2
+195: rs7684442
+196: -1.91392
+197: -6.15344
+198: 0.12817
+199: 0.00354
+200: 0.00339
+201: GSTCD
+202: rs7684442
+203: -0.48094
+204: -4.75025
+205: 0.65569
+206: 0.00897
+207: 0.08222
+208: RAB7A
+209: rs35421223
+210: -5.07171
+211: -2.01967
+212: 0.00712
+213: 0.11354
+214: 0.00484
+215: RUVBL1
+216: rs35421223
+217: -4.5237
+218: -0.44379
+219: 0.01063
+220: 0.68014
+221: 0.09719
+222: 
+223: Supplementary Figure Legends
+224: Figure S1. Distribution of 1120 SNPs at 5 GWAS loci.
+225: (A) Bar chart showing the number of variants in the five COPD GWAS loci. (B) IGV tracks showing distribution if variants at each of the 5 COPD GWAS loci.
+226: Figure S2. Raw Sequencing reads in 16HBE cells after MPRA library transfection from five biological replicates.
+227: DNA samples are extracted from the cells transfected with MPRA libraries and then generated for next-generation sequencing to determine the composition of oligos in the input samples. RNA samples were also extracted from 16HBE cells after transfection with MPRA library for 48 hours.
+228: Figure S3. Correlations of RNA sequencing results among biological replicates in 16HBE cells (A), HUVEC (B) and MRC5 (C) transfected with MPRA libraries. R = correlation coefficient.
+229: Figure S4. Open chromatin signals near MPRA significant variants. (A) H3K27Ac ChIP-Seq signal and peaks nearby genomic region (chr3:128,100 kb - 128,300 kb, hg38) at EEFSEC gene locus in 16HBE cells. C. ATAC-Seq peaks in multiple human lung cell types nearby three MPRA significant SNPs in the EEFSEC locus (hg19). 
+230: Figure S5. Public HiC data from UCSC genome browser in HUVEC endothelial cells and IMR90 lung fibroblasts. A. Chromatin interaction matrix in HUVEC cells near four functional SNPs. B. Chromatin interaction matrix in IMR90 cells nearby four functional SNPs. Resolution: 5.0 kB. Red dotted lines indicate the location of SNPs at the EEFSEC locus (rs35421223, rs2955083 and rs6439124) and GSTCD locus (rs7684442) in hg19.
+231: Figure S6. Gene expression measurements in 16HBE cells after CRISPRi targeting each variant with 2gRNAs/SNP in three independent replicates for each gRNA. Statistical analysis is shown in Table S7.
+232: Figure S7. Protein-level validation of CRISPRi targeting of the rs35421223-containing regulatory element in NHBE cells. Representative Western blots showing RAB7A and RUVBL1 protein expression following CRISPRi targeting of the rs35421223-containing regulatory element with two independent guide RNAs (sgRNA1 and sgRNA2) in primary normal human bronchial epithelial (NHBE) cells. A non-targeting guide RNA was used as the control. β-actin served as the loading control. Quantification of protein expression relative to the non-targeting control is shown below each blot.
+233: 
+234: References
+235: 1.Hobbs, B.D., de Jong, K., Lamontagne, M., Bosse, Y., Shrine, N., Artigas, M.S., Wain, L.V., Hall, I.P., Jackson, V.E., Wyss, A.B., et al. (2017). Genetic loci associated with chronic obstructive pulmonary disease overlap with loci for lung function and pulmonary fibrosis. Nat Genet 49, 426-432. 10.1038/ng.3752.
+236: 2.Cho, M., Boutaoui, N., Klanderman, B. et al. Variants in FAM13A are associated with chronic obstructive pulmonary disease. Nat Genet 42, 200–202 (2010). https://doi.org/10.1038/ng.535
+237: 3Zhou, X., Baron, R., Hardin, M. et al. Identification of a chronic obstructive pulmonary disease genetic determinant that regulates HHIP. Hum Mol Genet 21, 1325–1335 (2012). https://doi.org/10.1093/hmg/ddr569
+238: 4.Thorgeirsson, T., Gudbjartsson, D., Surakka, I. et al. Sequence variants at CHRNB3–CHRNA6 and CYP2A6 affect smoking behavior. Nat Genet 42, 448–453 (2010). https://doi.org/10.1038/ng.573
+239: 5.Saccone, N., Culverhouse, R., Schwantes-An, T. et al. Multiple independent loci at chromosome 15q25.1 affect smoking quantity: a meta-analysis and comparison with lung cancer and COPD. PLoS Genet 6, e1001053 (2010). https://doi.org/10.1371/journal.pgen.1001053
+240: 6 .Chen, W., Larrabee, B.R., Ovsyannikova, I.G., Kennedy, R.B., Haralambieva, I.H., Poland, G.A., and Schaid, D.J. (2015). Fine Mapping Causal Variants with an Approximate Bayesian Method Using Marginal Test Statistics. Genetics 200, 719-736. 10.1534/genetics.115.176107.
+241: 7 .Farh, K.K., Marson, A., Zhu, J., Kleinewietfeld, M., Housley, W.J., Beik, S., Shoresh, N., Whitton, H., Ryan, R.J., Shishkin, A.A., et al. (2015). Genetic and epigenetic fine mapping of causal autoimmune disease variants. Nature 518, 337-343. 10.1038/nature13835.
+242: 8.Sakornsakolpat, P., Prokopenko, D., Lamontagne, M., Reeve, N.F., Guyatt, A.L., Jackson, V.E., Shrine, N., Qiao, D., Bartz, T.M., Kim, D.K., et al. (2019). Genetic landscape of chronic obstructive pulmonary disease identifies heterogeneous cell-type and phenotype associations. Nat Genet 51, 494-505. 10.1038/s41588-018-0342-2.
+243: 9.Melnikov, A., Murugan, A., Zhang, X., Tesileanu, T., Wang, L., Rogov, P., Feizi, S., Gnirke, A., Callan, C.G., Jr., Kinney, J.B., et al. (2012). Systematic dissection and optimization of inducible enhancers in human cells using a massively parallel reporter assay. Nat Biotechnol 30, 271-277. 10.1038/nbt.2137/nbt.2137 [pii].
+244: 10.Castaldi, P.J., Guo, F., Qiao, D., Du, F., Naing, Z.Z.C., Li, Y., Pham, B., Mikkelsen, T.S., Cho, M.H., Silverman, E.K., and Zhou, X. (2019). Identification of Functional Variants in the FAM13A Chronic Obstructive Pulmonary Disease Genome-Wide Association Study Locus by Massively Parallel Reporter Assays. Am J Respir Crit Care Med 199, 52-61. 10.1164/rccm.201802-0337OC.
+245: 11.Ghazi, A.R., Chen, E.S., Henke, D.M., Madan, N., Edelstein, L.C., and Shaw, C.A. (2018). Design tools for MPRA experiments. Bioinformatics 34, 2682-2683. 10.1093/bioinformatics/bty150.
+246: 12.Klein, J.C., Agarwal, V., Inoue, F., Keith, A., Martin, B., Kircher, M., Ahituv, N., and Shendure, J. (2020). A systematic evaluation of the design and context dependencies of massively parallel reporter assays. Nat Methods. 10.1038/s41592-020-0965-y.
+247: 13.Maricque, B.B., Chaudhari, H.G., and Cohen, B.A. (2018). A massively parallel reporter assay dissects the influence of chromatin structure on cis-regulatory activity. Nat Biotechnol. 10.1038/nbt.4285.
+248: 14.Gordon, M.G., Inoue, F., Martin, B., Schubach, M., Agarwal, V., Whalen, S., Feng, S., Zhao, J., Ashuach, T., Ziffra, R., et al. (2020). lentiMPRA and MPRAflow for high-throughput functional characterization of gene regulatory elements. Nat Protoc 15, 2387-2412. 10.1038/s41596-020-0333-5.
+249: 15.Kalita, C.A., Moyerbrailean, G.A., Brown, C., Wen, X., Luca, F., and Pique-Regi, R. (2018). QuASAR-MPRA: accurate allele-specific analysis for massively parallel reporter assays. Bioinformatics 34, 787-794. 10.1093/bioinformatics/btx598.
+250: 16.Myint, L., Avramopoulos, D.G., Goff, L.A., and Hansen, K.D. (2019). Linear models enable powerful differential activity analysis in massively parallel reporter assays. BMC Genomics 20, 209. 10.1186/s12864-019-5556-x.
+251: 17.Love, M.I., Huber, W., and Anders, S. (2014). Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. Genome Biol 15, 550. 10.1186/s13059-014-0550-8.
+252: 18.Qiao, D., Zigler, C.M., Cho, M.H., Silverman, E.K., Zhou, X., Castaldi, P.J., and Laird, N.H. (2020). Statistical considerations for the analysis of massively parallel reporter assays data. Genet Epidemiol 44, 785-794. 10.1002/gepi.22337.
+253: 19.Martin, V., Zhao, J., Afek, A., Mielko, Z., and Gordan, R. (2019). QBiC-Pred: quantitative predictions of transcription factor binding changes due to sequence variants. Nucleic Acids Res 47, W127-W135. 10.1093/nar/gkz363.
+254: 20.Ran, F.A., Hsu, P.D., Wright, J., Agarwala, V., Scott, D.A., and Zhang, F. (2013). Genome engineering using the CRISPR-Cas9 system. Nat Protoc 8, 2281-2308. 10.1038/nprot.2013.143.
+255: 21.Hao, Y., Bates, S., Mou, H., Yun, J.H., Pham, B., Liu, J., Qiu, W., Guo, F., Morrow, J.D., Hersh, C.P., et al. (2020). Genome-Wide Association Study: Functional Variant rs2076295 Regulates Desmoplakin Expression in Airway Epithelial Cells. Am J Respir Crit Care Med 202, 1225-1236. 10.1164/rccm.201910-1958OC.
+256: 22.Rao, S.S., Huntley, M.H., Durand, N.C., Stamenova, E.K., Bochkov, I.D., Robinson, J.T., Sanborn, A.L., Machol, I., Omer, A.D., Lander, E.S., and Aiden, E.L. (2014). A 3D map of the human genome at kilobase resolution reveals principles of chromatin looping. Cell 159, 1665-1680. 10.1016/j.cell.2014.11.021.
+257: 23.Jiang, Z., Knudsen, N.H., Wang, G., Qiu, W., Naing, Z.Z.C., Bai, Y., Ai, X., Lee, C.H., and Zhou, X. (2017). Genetic Control of Fatty Acid beta-Oxidation in Chronic Obstructive Pulmonary Disease. Am J Respir Cell Mol Biol 56, 738-748. 10.1165/rcmb.2016-0282OC.
+258: 

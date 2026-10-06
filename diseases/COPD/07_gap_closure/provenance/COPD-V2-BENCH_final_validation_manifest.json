@@ -1,0 +1,17 @@
+{
+  "started_utc": "2026-10-05T23:43:07.416390+00:00",
+  "completed_utc": "2026-10-05T23:43:15.278692+00:00",
+  "validator_sha256": "28438a6a598d1d1ba55959883fb849dc73d39c4f7812725b3d241db0a6202732",
+  "protocol_sha256": "46d3aac26b1f980d7c2dcd5034d6cc64566524ca7d99cc635f7d979e04f2de65",
+  "checks": 3503,
+  "passed": 3503,
+  "failed": 0,
+  "status": "PASS",
+  "failures": [],
+  "independent_of_assembly_comparison_imports": true,
+  "new_model_inference": false,
+  "output_path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-BENCH_final_validation.tsv",
+  "output_sha256": "df41135d312486ab4a6879f1a016aca6a5a0c3c83eb2539ed22ae8ec039cf3ee",
+  "artifact_checksum_path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-BENCH_artifact_checksums.tsv",
+  "artifact_checksum_self_excluded": true
+}

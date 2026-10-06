@@ -39,3 +39,27 @@ any call and 118 retain exact model support. RC-only positives are diagnostic
 observations, not a replacement candidate list. H3K27me3-associated is the
 interpretation of the internal `silencer` model name. PHENO strata do not change
 model decisions. Undefined metrics are explicitly `not_evaluable`.
+
+## Frozen external functional benchmark
+
+Start with [the benchmark report](COPD-V2-BENCH_external_functional_benchmark_report.md).
+`COPD-V2-BENCH-R001` through `R006B` are the source inventory, exact identities,
+frozen master, assay classifications, separate contextual/excluded evidence,
+denominator/search audit and source-locus grouping. R007/R008 preserve all
+14,025 evidence rows in the forward and forward/RC comparisons. R009–R011 are
+study/context, mechanism and locus summaries; R012 records why full-panel metrics
+are not calculated; R013/R014 contain descriptive distributions and coverage;
+R015 deduplicates variants without hiding context conflicts; R016 is analysis QC;
+R017/R018 show original gate failures and orientation categories.
+
+Empty model scores/calls mean unevaluable, not zero or negative. Explicit assay
+`null` means reported nonsignificance under that study's rule, not biological
+inactivity. Castaldi count-only records have unavailable binary labels even
+though measurements are present. Original source rsIDs and exact biological
+alleles remain distinct from model coverage. `silencer` means H3K27me3-associated,
+not demonstrated functional silencing. No orientation is selected using labels.
+
+Forty variants have any in-scope positive evidence; 23 are exactly scored, one
+recovered forward and none RC. Do not interpret 1/23 as population sensitivity.
+All frozen source/master files and future-use restrictions are pinned in
+`../provenance/COPD-V2-BENCH_benchmark_freeze.json` and the firewall document.

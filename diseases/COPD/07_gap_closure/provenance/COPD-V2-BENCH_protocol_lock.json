@@ -1,0 +1,17 @@
+{
+  "started_utc": "2026-10-05T23:02:08.908769+00:00",
+  "protocol_locked_utc": "2026-10-05T23:02:10.620947+00:00",
+  "protocol_path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-BENCH_analysis_specification.md",
+  "protocol_sha256": "46d3aac26b1f980d7c2dcd5034d6cc64566524ca7d99cc635f7d979e04f2de65",
+  "baseline_git_head": "6343deb2b8dbacb31ea3e64dcd68e5e6e9b6d8e1",
+  "baseline_git_status": "?? diseases/COPD/07_gap_closure/provenance/COPD-V2-BENCH_analysis_specification.md\n?? diseases/COPD/07_gap_closure/provenance/COPD-V2-BENCH_frozen_input_hashes_before.tsv\n?? diseases/COPD/07_gap_closure/scripts/initialize_external_benchmark.py\n",
+  "frozen_input_count": 316,
+  "frozen_input_ledger": "diseases/COPD/07_gap_closure/provenance/COPD-V2-BENCH_frozen_input_hashes_before.tsv",
+  "frozen_input_ledger_sha256": "004969236148f9f3b1667f292abd0e5fc9b2e6a2a0123b398596fc0f3e592fda",
+  "new_benchmark_model_comparison_started": false,
+  "known_prior_observations_disclosed": [
+    "rs2013701 forward recovery and RC loss",
+    "prior V1/RC selected literature examples"
+  ],
+  "future_external_evaluation_firewall": true
+}

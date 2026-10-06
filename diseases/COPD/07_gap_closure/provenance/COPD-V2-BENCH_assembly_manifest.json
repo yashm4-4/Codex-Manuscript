@@ -1,0 +1,84 @@
+{
+  "Gong_figure_stated_locus_counts": {
+    "ADAM19": 204,
+    "ADGRG6": 108,
+    "EEFSEC": 224,
+    "GSTCD": 492,
+    "HTR4": 92
+  },
+  "Gong_locus_count_caveat": "Source Figure S1A counts and rsID-position assignments differ slightly; retained explicitly without adjusting boundaries or labels",
+  "Gong_source_locus_counts": {
+    "ADAM19": 203,
+    "ADGRG6": 109,
+    "EEFSEC": 224,
+    "GSTCD": 493,
+    "HTR4": 91
+  },
+  "assay_rows": 14025,
+  "assembled_utc": "2026-10-05T23:26:43.224995+00:00",
+  "exact_assay_rows": 13899,
+  "experimental_states": {
+    "ambiguous": 37,
+    "null": 6677,
+    "positive": 53,
+    "unavailable": 7258
+  },
+  "model_outputs_read": false,
+  "outputs": {
+    "diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R001_source_study_inventory.tsv": {
+      "bytes": 10913,
+      "rows": 19,
+      "sha256": "ce085a406a62004747ce39206133e12e39ce58e8f23b6d941f5a38cc2f91eb72"
+    },
+    "diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R002_exact_allele_harmonization.tsv": {
+      "bytes": 9742915,
+      "rows": 14025,
+      "sha256": "f187fb3eea2b72b5770d43e1c1abaa8e5cd2c0da383abd74c5d417f604c0d784"
+    },
+    "diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R003_frozen_benchmark_master.tsv": {
+      "bytes": 34449014,
+      "rows": 14025,
+      "sha256": "a69a8b1d5c82299075b2d5203fee3d4a23105572c6cf456bab834b82ef13bbdd"
+    },
+    "diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R004B_contextual_and_excluded_evidence.tsv": {
+      "bytes": 515010,
+      "rows": 267,
+      "sha256": "a0f46eb619af50ac9976f06f4c849b0a97b782a5fc7e3c97864099e25821df5a"
+    },
+    "diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R004_assay_mechanism_classification.tsv": {
+      "bytes": 6494026,
+      "rows": 14025,
+      "sha256": "23f4b609ea69cb2533de90ab325b0706153a8e2da16fc106177ee31ac116ea8a"
+    },
+    "diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R005_assayed_denominator_audit.tsv": {
+      "bytes": 13637,
+      "rows": 7,
+      "sha256": "784478ffcb99c484a7bdb17556426f3320e81a7c414c44f85d6eca8c178368ea"
+    },
+    "diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R006B_source_locus_assignment.tsv": {
+      "bytes": 520101,
+      "rows": 1120,
+      "sha256": "23e2cd7fa621bea34b1069de4d721524298c507fefc14b0dba27b2b908ce2856"
+    },
+    "diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R006_source_search_audit.tsv": {
+      "bytes": 10041,
+      "rows": 32,
+      "sha256": "637198dfad5ea1295d59cc29305796c7f03309d6ac534c7e0f80d1c4ed49d04f"
+    }
+  },
+  "protocol_sha256": "46d3aac26b1f980d7c2dcd5034d6cc64566524ca7d99cc635f7d979e04f2de65",
+  "reference": {
+    "bytes": 3273481150,
+    "index_sha256": "3b425de206296a5c8053023fa5ca61da43cfe78c1737c12e58c83367c7e83c21",
+    "path": "models/TREDNET_v2/fasta/hg38.fa",
+    "resolved_path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/fasta/hg38.fa",
+    "sha256": "5be01555d98347fdb3714dc84c6f77c9d8bc774adcf32c6f7a8fa06f5baf5e51"
+  },
+  "source_files": {
+    "diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi_evidence.json": "52608dcabb23740833cadc7df7255c1c1eb0d041364c177496567571af1dfe9e",
+    "diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong_evidence.json": "38d84a23c8f748e784c5806e1887f8d0c78469bd17486b8979e0fce2ef666d3f",
+    "diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/mechanisms_evidence.json": "2d6b938da577a1227ba04934fd7bb9b0ab440de1e8083539594e837e55ae8162"
+  },
+  "unique_exact_variants": 1710,
+  "unique_reported_rsids": 1731
+}

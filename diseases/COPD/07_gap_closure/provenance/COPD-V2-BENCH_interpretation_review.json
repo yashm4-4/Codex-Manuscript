@@ -1,0 +1,252 @@
+{
+  "review_id": "COPD-V2-BENCH-independent-scientific-interpretation-review",
+  "reviewed_utc": "2026-10-05 23:38:43 UTC",
+  "reviewer": "independent Gong source and interpretation reviewer (/root/bench_gong)",
+  "verdict": "PASS_WITH_INTERPRETATION_LIMITATIONS",
+  "scope": "Independent scientific interpretation review of completed R007-R015 comparison outputs and comparison manifest after source benchmark freeze. Read-only aggregation checks; no new model inference, sequences, source searches, experimental labels, thresholds, or inclusion changes.",
+  "source_benchmark_unchanged": true,
+  "provenance": {
+    "protocol_sha256": "46d3aac26b1f980d7c2dcd5034d6cc64566524ca7d99cc635f7d979e04f2de65",
+    "benchmark_freeze_sha256": "3ad3b92914e7564c43592fe8e553c18d31778c385a09c0beecf8b11b0554e19b",
+    "benchmark_master_sha256": "a69a8b1d5c82299075b2d5203fee3d4a23105572c6cf456bab834b82ef13bbdd",
+    "comparison_manifest_sha256_at_review": "60deefeab4d48a59abdc5c8074fdbf064fab79494fe971472a6c10c87f14a0a8",
+    "comparison_script_sha256_at_review": "191ea5dbc1f655f25dec11e79ce15e4fda18bf1b06674a7e89984b1f200732b5",
+    "comparison_completed_utc_at_review": "2026-10-05T23:33:09.736741+00:00",
+    "repeat_comparison_note": "The manifest transparently preserves the earlier comparison run in previous_runs; frozen master and row-level R007/R008 hashes are unchanged. The rerun adds descriptive summaries without source relabeling."
+  },
+  "denominator_review": {
+    "assay_rows": 14025,
+    "unique_variant_keys_including_unresolved": 1731,
+    "unique_exact_variants": 1710,
+    "existing_model_covered_unique_variants": 726,
+    "positive_assay_rows_all_mechanisms": 53,
+    "positive_unique_variant_keys_all_mechanisms": 41,
+    "any_in_scope_positive_unique_variants": 40,
+    "any_in_scope_positive_model_covered": 23,
+    "any_in_scope_positive_model_unevaluable": 17,
+    "missing_positive_existing_model_records": 16,
+    "unresolved_positive_assayed_identity": {
+      "count": 1,
+      "rsid": "rs57658727"
+    },
+    "covered_positive_with_positive_null_context_heterogeneity": 17,
+    "unique_state_partition": {
+      "positive": 11,
+      "conflicting": 29,
+      "null": 1082,
+      "unevaluable": 609
+    },
+    "full_panel_metric_eligible_contexts": 0,
+    "audited_metric_contexts": 32,
+    "interpretation": [
+      "The primary denominator is 23 exact existing model-covered variants with at least one eligible in-scope positive assay, not all 40 positive variants, all 53 positive assay rows, or all 726 model-covered benchmark variants.",
+      "The all-mechanism positive denominator additionally contains NPNT splicing. Its model-negative result is not an enhancer/H3K27me3 false negative.",
+      "Label-specific unique counts in study/mechanism/locus summaries overlap when a variant has different labels in different contexts; they must not be summed as a partition.",
+      "The R015 unique-state partition correctly restricts null to variants whose reported in-scope labels are all null and retains positive/null context heterogeneity as conflicting.",
+      "Missing results, failed or unknown QC, inaccessible outcomes, ambiguous contrasts and absent existing model sequences are not experimental nulls.",
+      "All 32 study/assay/context groups fail the locked full-panel metric gate. Omission of sensitivity, specificity, FPR, AUROC, AP and inferential intervals is appropriate."
+    ]
+  },
+  "study_locus_positive_case_series": [
+    {
+      "study_id": "CASTALDI2019",
+      "locus": "FAM13A",
+      "source_positive_variants": 11,
+      "model_covered_positive_variants": 6,
+      "forward_union_recovered": 1,
+      "rc_union_recovered": 0
+    },
+    {
+      "study_id": "GONG2026",
+      "locus": "GSTCD",
+      "source_positive_variants": 9,
+      "model_covered_positive_variants": 5,
+      "forward_union_recovered": 0,
+      "rc_union_recovered": 0
+    },
+    {
+      "study_id": "GONG2026",
+      "locus": "EEFSEC",
+      "source_positive_variants": 6,
+      "model_covered_positive_variants": 5,
+      "forward_union_recovered": 0,
+      "rc_union_recovered": 0
+    },
+    {
+      "study_id": "GONG2026",
+      "locus": "ADAM19",
+      "source_positive_variants": 4,
+      "model_covered_positive_variants": 2,
+      "forward_union_recovered": 0,
+      "rc_union_recovered": 0
+    },
+    {
+      "study_id": "GONG2026",
+      "locus": "ADGRG6",
+      "source_positive_variants": 1,
+      "model_covered_positive_variants": 1,
+      "forward_union_recovered": 0,
+      "rc_union_recovered": 0
+    },
+    {
+      "study_id": "GONG2026",
+      "locus": "HTR4",
+      "source_positive_variants": 5,
+      "model_covered_positive_variants": 1,
+      "forward_union_recovered": 0,
+      "rc_union_recovered": 0
+    },
+    {
+      "study_id": "ZHOU2012_HHIP",
+      "locus": "HHIP_4q31",
+      "source_positive_variants": 2,
+      "model_covered_positive_variants": 2,
+      "forward_union_recovered": 0,
+      "rc_union_recovered": 0
+    },
+    {
+      "study_id": "BOUEIZ2019_ACVR1B",
+      "locus": "ACVR1B_12q13",
+      "source_positive_variants": 1,
+      "model_covered_positive_variants": 0,
+      "forward_union_recovered": 0,
+      "rc_union_recovered": 0
+    },
+    {
+      "study_id": "HAO2020_DSP",
+      "locus": "DSP_6p24",
+      "source_positive_variants": 1,
+      "model_covered_positive_variants": 1,
+      "forward_union_recovered": 0,
+      "rc_union_recovered": 0
+    },
+    {
+      "study_id": "LIN2020_FAM13A",
+      "locus": "FAM13A_4q22",
+      "source_positive_variants": 1,
+      "model_covered_positive_variants": 0,
+      "forward_union_recovered": 0,
+      "rc_union_recovered": 0
+    }
+  ],
+  "independence_review": [
+    "The study-level source-positive counts sum to 41, but there are only 40 unique in-scope positive variants because LIN2020_FAM13A repeats CASTALDI2019 rs2276936.",
+    "FAM13A and FAM13A_4q22 are source naming variants of the same biological locus, not independent locus replications.",
+    "Gong contributes 14 model-covered positive variants across five source-defined loci; its six assay contexts are not six independent panels of variants.",
+    "Repeated assays, promoter/orientation contexts, study follow-ups, linked variants and technical/biological replicate measurements must not be treated as independent variant-level validation replicates.",
+    "The global 1/23 fraction is a descriptive selected-case recovery count. Neither a pooled binomial confidence interval nor a pooled performance claim is justified.",
+    "Five Gong loci alone do not activate the bootstrap rule because the complete scored panel eligibility gate fails."
+  ],
+  "frozen_call_recovery": {
+    "covered_in_scope_positive_variants": 23,
+    "forward_enhancer_recovered": 1,
+    "forward_H3K27me3_recovered": 0,
+    "forward_union_recovered": 1,
+    "reverse_complement_union_recovered": 0,
+    "descriptive_forward_case_fraction": "1/23",
+    "orientation_categories": {
+      "forward_only": 1,
+      "negative_both": 22,
+      "RC_only": 0,
+      "stable_both": 0
+    },
+    "covered_positive_blacklisted": 0,
+    "forward_enhancer_gate_counts": {
+      "fail_region_and_delta": 19,
+      "fail_region_only": 2,
+      "fail_delta_only": 1,
+      "pass_both": 1
+    },
+    "forward_H3K27me3_gate_counts": {
+      "fail_region_and_delta": 20,
+      "fail_region_only": 2,
+      "fail_delta_only": 1,
+      "pass_both": 0
+    },
+    "examples": [
+      {
+        "rsid": "rs2076295",
+        "locus": "DSP",
+        "explanation": "Enhancer absolute delta approximately 0.199954 passes the fixed delta threshold, but region score approximately 0.568677 is below 0.643623; no enhancer call. Both-gate call failure is not absence of any predicted allele difference."
+      },
+      {
+        "rsid": "rs72671892",
+        "locus": "GSTCD",
+        "explanation": "Enhancer absolute delta approximately 0.124910 passes its fixed threshold, but region score approximately 0.164826 fails. H3K27me3 delta also passes while its region gate fails."
+      },
+      {
+        "rsid": "rs141807665",
+        "locus": "GSTCD",
+        "explanation": "Region scores pass both model region gates, but enhancer absolute delta approximately 0.009025 and H3K27me3 absolute delta approximately 0.000118 fail the fixed indel delta gates."
+      }
+    ],
+    "interpretation": "Most covered positive cases fail both fixed forward enhancer gates; low recovery is not solely the known reverse-complement loss. No outcome-driven threshold relaxation, orientation selection or rescoring is warranted."
+  },
+  "rs2013701_review": {
+    "canonical_variant_id": "4:88963935:G:T",
+    "original_V1_candidate_rank": 210,
+    "pre_disclosed_before_benchmark": true,
+    "forward_enhancer_ref_score": 0.846710801,
+    "forward_enhancer_alt_score": 0.910054922,
+    "forward_enhancer_delta": 0.06334412100000009,
+    "rc_enhancer_ref_score": 0.8842763304710388,
+    "rc_enhancer_alt_score": 0.9379419684410095,
+    "rc_enhancer_delta": 0.0536656379699707,
+    "fixed_SNV_enhancer_abs_delta_threshold": 0.05706318769999998,
+    "interpretation": [
+      "The forward call is enhancer-only. Reverse complement preserves a positive enhancer ALT-minus-REF sign and passes the region gate, but falls below the unchanged delta cutoff.",
+      "This is a cutoff-crossing loss, not an allelic activity direction reversal, and is not rescued by an H3K27me3 call.",
+      "It is the sole recovered variant among the 23 model-covered in-scope positive cases and therefore is not representative evidence of broad positive recovery.",
+      "It is also the sole forward-only case among those 23, while 22 are negative in both orientations. The small selected series cannot establish how common this behavior is among true functional variants generally.",
+      "Across all 726 model-covered benchmark variants there are 7 forward-only, 6 RC-only, 3 stable-both and 710 negative-both cases; this broader mixture contains many null, unavailable or ambiguous assay outcomes and is not a positive validation cohort.",
+      "Independent biological evidence for this locus does not repair model orientation instability or turn a pre-disclosed case into an untouched external test."
+    ]
+  },
+  "direction_review": {
+    "direction_evaluable_positive_reporter_variants": 6,
+    "forward_sign_agreement_variants": 6,
+    "variants": [
+      "rs2013701",
+      "rs7671167",
+      "rs1795739",
+      "rs6537296",
+      "rs1542725",
+      "rs2076295"
+    ],
+    "biological_loci": [
+      "FAM13A",
+      "HHIP",
+      "DSP"
+    ],
+    "interpretation": "All six evaluable positive conventional-reporter variants agree with forward enhancer delta sign, but five fail fixed candidate call rules. This selected, locus-correlated six-variant observation is not independent validation of effect magnitude, sensitivity, or generalized direction accuracy. Gong statistical significance does not provide a documented higher-activity allele; GWAS effect direction must not substitute for reporter direction."
+  },
+  "source_and_mechanism_limitations": [
+    "Gong's 25 positive source variants produce 29 positive assay rows; all 25 also have null contexts. Null means no detected allelic effect under the reported study rule, not proof of biological inactivity.",
+    "Gong's design contains 1120 experimental variants; 1119 have S2 results, rs76419734 is absent for unknown reasons, and additional cells have missing statistical fields. The available 6671 explicit null rows do not establish a complete QC-accounted assayed denominator.",
+    "Gong exact harmonization retains 1099 exact source identities and excludes 21 unresolved identities from model comparison without changing their experimental labels; the experimentally positive rs57658727 remains source-identity unevaluable.",
+    "Gong's publisher S1 figure locus counts (GSTCD 492, EEFSEC 224, ADAM19 204, ADGRG6 108, HTR4 92) and enumerated source-range assignment counts (493, 224, 203, 109, 91) differ. Both are preserved; neither was forced to agree using outcomes.",
+    "Castaldi design/count tables and selected significant or reporter outcomes do not yield a complete per-context null panel. Design-only, ambiguous, and inaccessible results cannot become negative controls.",
+    "Regional CRISPR perturbation, chromatin contacts, GWAS/QTL associations and predicted TF binding remain context, not new exact allele-positive labels. Regional perturbation of a fragment does not validate its nominated nucleotide.",
+    "Splicing at NPNT is out of the primary regulatory-activity scope. Endogenous-expression editing and isolated TF-binding evidence remain partial-scope annotations unless a matching mechanism is established.",
+    "The H3K27me3 model is not a demonstrated functional silencer assay. H3K27me3 scores or their sign cannot be read as proof of transcriptional repression.",
+    "Any descriptive calls among reporter-null cases are assay disagreements, not a genomic false-positive rate. Forward calls in Castaldi cases with unavailable outcomes are not false positives."
+  ],
+  "plausible_alternative_explanations_not_demonstrated": [
+    "Assay cell-type/state differences from frozen bulk-lung model context.",
+    "Episomal reporter or MPRA fragment, promoter, orientation, local sequence-background and chromatin-context differences from existing model inputs.",
+    "Assay power, multiple-testing requirements, per-cell QC or missing results; experimental nonsignificance does not imply biological inactivity.",
+    "The existing V1 sequence universe covers only 726 of 1710 exact benchmark variants and 23 of 40 primary positive variants, creating an ascertained intersection rather than a full external assay panel.",
+    "Broad transcriptional regulatory scope does not imply that the model and every reporter readout measure the same molecular mechanism."
+  ],
+  "required_reporting_language": [
+    "Use 'descriptive recovery of model-covered positive cases' rather than sensitivity or independent validation performance.",
+    "State the positive source, exact-identity, existing-model-coverage and assay-context denominators separately.",
+    "State that no eligible complete scored assay panel was recovered, so AUROC/AP/FPR/sensitivity/specificity and inferential intervals are omitted under the locked protocol.",
+    "Keep biological evidence separate from candidate selection and model orientation robustness.",
+    "Mark this as descriptive V1 characterization and frozen external evaluation data, not an untouched V1 test.",
+    "No benchmark outcome may select future model architecture, thresholds, controls, seeds, orientation rules or retained runs; stop for investigator review."
+  ],
+  "required_source_or_label_corrections": [],
+  "frozen_artifacts_edited": [],
+  "new_analysis_started": false
+}
