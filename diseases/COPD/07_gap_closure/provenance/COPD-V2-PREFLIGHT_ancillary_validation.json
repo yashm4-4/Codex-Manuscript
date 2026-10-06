@@ -1,0 +1,3714 @@
+{
+  "checks": [
+    {
+      "check": "covariates:complete_unique_rows",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:train:positive:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:train:positive:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:train:positive:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:train:positive:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:train:positive:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:train:positive:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:train:control:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:train:control:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:train:control:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:train:control:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:train:control:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:train:control:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:validation:positive:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:validation:positive:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:validation:positive:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:validation:positive:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:validation:positive:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:validation:positive:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:validation:control:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:validation:control:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:validation:control:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:validation:control:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:validation:control:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:validation:control:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:test:control:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:test:control:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:test:control:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:test:control:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:test:control:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:test:control:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:test:positive:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:test:positive:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:test:positive:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:test:positive:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:test:positive:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:enhancer:test:positive:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:train:positive:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:train:positive:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:train:positive:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:train:positive:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:train:positive:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:train:positive:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:train:control:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:train:control:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:train:control:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:train:control:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:train:control:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:train:control:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:validation:positive:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:validation:positive:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:validation:positive:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:validation:positive:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:validation:positive:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:validation:positive:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:validation:control:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:validation:control:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:validation:control:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:validation:control:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:validation:control:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:validation:control:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:test:control:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:test:control:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:test:control:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:test:control:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:test:control:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:test:control:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:test:positive:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:test:positive:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:test:positive:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:test:positive:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:test:positive:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:enhancer:test:positive:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:train:positive:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:train:positive:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:train:positive:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:train:positive:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:train:positive:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:train:positive:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:train:control:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:train:control:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:train:control:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:train:control:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:train:control:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:train:control:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:validation:positive:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:validation:positive:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:validation:positive:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:validation:positive:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:validation:positive:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:validation:positive:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:validation:control:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:validation:control:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:validation:control:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:validation:control:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:validation:control:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:validation:control:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:test:control:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:test:control:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:test:control:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:test:control:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:test:control:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:test:control:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:test:positive:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:test:positive:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:test:positive:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:test:positive:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:test:positive:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:enhancer:test:positive:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:train:positive:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:train:positive:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:train:positive:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:train:positive:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:train:positive:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:train:positive:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:train:control:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:train:control:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:train:control:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:train:control:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:train:control:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:train:control:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:validation:positive:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:validation:positive:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:validation:positive:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:validation:positive:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:validation:positive:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:validation:positive:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:validation:control:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:validation:control:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:validation:control:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:validation:control:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:validation:control:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:validation:control:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:test:control:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:test:control:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:test:control:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:test:control:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:test:control:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:test:control:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:test:positive:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:test:positive:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:test:positive:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:test:positive:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:test:positive:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-A:h3k27me3:test:positive:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:train:control:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:train:control:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:train:control:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:train:control:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:train:control:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:train:control:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:train:positive:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:train:positive:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:train:positive:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:train:positive:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:train:positive:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:train:positive:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:validation:control:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:validation:control:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:validation:control:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:validation:control:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:validation:control:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:validation:control:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:validation:positive:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:validation:positive:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:validation:positive:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:validation:positive:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:validation:positive:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:validation:positive:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:test:control:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:test:control:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:test:control:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:test:control:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:test:control:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:test:control:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:test:positive:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:test:positive:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:test:positive:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:test:positive:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:test:positive:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-B:h3k27me3:test:positive:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:train:control:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:train:control:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:train:control:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:train:control:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:train:control:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:train:control:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:train:positive:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:train:positive:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:train:positive:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:train:positive:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:train:positive:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:train:positive:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:validation:control:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:validation:control:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:validation:control:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:validation:control:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:validation:control:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:validation:control:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:validation:positive:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:validation:positive:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:validation:positive:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:validation:positive:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:validation:positive:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:validation:positive:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:test:control:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:test:control:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:test:control:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:test:control:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:test:control:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:test:control:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:test:positive:gc_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:test:positive:atac_signal_percentile_max",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:test:positive:repeat_fraction_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:test:positive:blacklist_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:test:positive:promoter_bp_2001",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "covariates:V2-C:h3k27me3:test:positive:non_acgt_fraction",
+      "details": {
+        "incorrect_fields": []
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "ATAC_denominators:exact_verified_covariate_subset",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:complete_unique_categories",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:train:positive:atac_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:train:positive:enhancer_same_lobe_support_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:train:positive:atac_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:train:positive:enhancer_same_lobe_support_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:train:positive:atac_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:train:positive:enhancer_same_lobe_support_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:train:control:atac_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:train:control:enhancer_same_lobe_support_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:train:positive:enhancer_same_lobe_support_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:train:positive:atac_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:train:positive:enhancer_same_lobe_support_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:train:positive:atac_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:train:positive:enhancer_same_lobe_support_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:train:positive:atac_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:train:positive:enhancer_same_lobe_support_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:train:positive:atac_lobes:lower_left;lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:train:positive:enhancer_same_lobe_support_lobes:lower_left;lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:train:control:atac_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:train:control:atac_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:train:control:atac_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:train:control:atac_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:validation:positive:atac_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:validation:positive:enhancer_same_lobe_support_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:validation:positive:atac_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:validation:positive:enhancer_same_lobe_support_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:validation:positive:atac_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:validation:positive:enhancer_same_lobe_support_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:validation:control:atac_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:validation:control:enhancer_same_lobe_support_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:validation:positive:enhancer_same_lobe_support_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:validation:positive:atac_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:validation:positive:enhancer_same_lobe_support_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:validation:positive:atac_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:validation:positive:enhancer_same_lobe_support_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:validation:positive:atac_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:validation:positive:enhancer_same_lobe_support_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:validation:control:atac_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:validation:control:atac_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:validation:positive:atac_lobes:lower_left;lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:validation:positive:enhancer_same_lobe_support_lobes:lower_left;lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:test:control:atac_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:test:control:enhancer_same_lobe_support_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:test:positive:atac_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:test:positive:enhancer_same_lobe_support_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:test:positive:atac_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:test:positive:enhancer_same_lobe_support_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:test:positive:atac_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:test:positive:enhancer_same_lobe_support_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:test:positive:atac_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:test:positive:enhancer_same_lobe_support_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:test:positive:atac_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:test:positive:enhancer_same_lobe_support_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:test:positive:enhancer_same_lobe_support_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:test:positive:atac_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:test:positive:enhancer_same_lobe_support_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:test:control:atac_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:test:control:atac_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:test:positive:atac_lobes:lower_left;lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:enhancer:test:positive:enhancer_same_lobe_support_lobes:lower_left;lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:train:positive:atac_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:train:positive:enhancer_same_lobe_support_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:train:positive:atac_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:train:positive:enhancer_same_lobe_support_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:train:positive:atac_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:train:positive:enhancer_same_lobe_support_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:train:control:atac_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:train:control:enhancer_same_lobe_support_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:train:control:atac_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:train:control:atac_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:train:control:atac_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:train:control:atac_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:train:positive:enhancer_same_lobe_support_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:train:positive:atac_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:train:positive:enhancer_same_lobe_support_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:train:positive:atac_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:train:positive:enhancer_same_lobe_support_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:train:positive:atac_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:train:positive:enhancer_same_lobe_support_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:train:control:atac_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:train:positive:atac_lobes:lower_left;lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:train:positive:enhancer_same_lobe_support_lobes:lower_left;lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:train:control:atac_lobes:lower_left;lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:validation:positive:atac_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:validation:positive:enhancer_same_lobe_support_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:validation:positive:atac_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:validation:positive:enhancer_same_lobe_support_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:validation:positive:atac_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:validation:positive:enhancer_same_lobe_support_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:validation:control:atac_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:validation:control:enhancer_same_lobe_support_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:validation:control:atac_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:validation:control:atac_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:validation:positive:enhancer_same_lobe_support_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:validation:positive:atac_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:validation:positive:enhancer_same_lobe_support_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:validation:positive:atac_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:validation:positive:enhancer_same_lobe_support_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:validation:control:atac_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:validation:positive:atac_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:validation:positive:enhancer_same_lobe_support_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:validation:control:atac_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:validation:control:atac_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:validation:positive:atac_lobes:lower_left;lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:validation:positive:enhancer_same_lobe_support_lobes:lower_left;lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:test:control:atac_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:test:control:enhancer_same_lobe_support_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:test:control:atac_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:test:positive:atac_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:test:positive:enhancer_same_lobe_support_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:test:positive:atac_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:test:positive:enhancer_same_lobe_support_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:test:positive:atac_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:test:control:atac_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:test:positive:enhancer_same_lobe_support_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:test:positive:atac_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:test:control:atac_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:test:positive:enhancer_same_lobe_support_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:test:positive:atac_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:test:positive:enhancer_same_lobe_support_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:test:positive:enhancer_same_lobe_support_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:test:positive:atac_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:test:positive:enhancer_same_lobe_support_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:test:control:atac_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:test:control:atac_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:test:positive:atac_lobes:lower_left;lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:enhancer:test:positive:enhancer_same_lobe_support_lobes:lower_left;lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:train:positive:atac_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:train:positive:enhancer_same_lobe_support_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:train:positive:atac_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:train:positive:enhancer_same_lobe_support_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:train:control:atac_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:train:control:enhancer_same_lobe_support_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:train:control:atac_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:train:control:atac_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:train:control:atac_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:train:control:atac_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:train:positive:atac_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:train:positive:enhancer_same_lobe_support_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:train:positive:atac_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:train:positive:enhancer_same_lobe_support_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:train:positive:atac_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:train:positive:enhancer_same_lobe_support_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:train:positive:atac_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:train:positive:enhancer_same_lobe_support_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:train:control:atac_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:train:positive:atac_lobes:lower_left;lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:train:positive:enhancer_same_lobe_support_lobes:lower_left;lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:train:control:atac_lobes:lower_left;lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:validation:positive:atac_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:validation:positive:enhancer_same_lobe_support_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:validation:positive:atac_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:validation:positive:enhancer_same_lobe_support_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:validation:control:atac_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:validation:control:enhancer_same_lobe_support_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:validation:control:atac_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:validation:control:atac_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:validation:positive:atac_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:validation:positive:enhancer_same_lobe_support_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:validation:positive:atac_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:validation:positive:enhancer_same_lobe_support_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:validation:positive:atac_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:validation:positive:enhancer_same_lobe_support_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:validation:control:atac_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:validation:positive:atac_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:validation:positive:enhancer_same_lobe_support_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:validation:control:atac_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:validation:control:atac_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:validation:positive:atac_lobes:lower_left;lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:validation:positive:enhancer_same_lobe_support_lobes:lower_left;lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:test:control:atac_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:test:control:enhancer_same_lobe_support_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:test:control:atac_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:test:positive:atac_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:test:positive:enhancer_same_lobe_support_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:test:control:atac_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:test:positive:atac_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:test:positive:enhancer_same_lobe_support_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:test:control:atac_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:test:positive:atac_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:test:positive:atac_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:test:positive:enhancer_same_lobe_support_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:test:positive:atac_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:test:positive:enhancer_same_lobe_support_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:test:positive:enhancer_same_lobe_support_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:test:positive:atac_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:test:positive:enhancer_same_lobe_support_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:test:control:atac_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:test:control:atac_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:test:positive:atac_lobes:lower_left;lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:enhancer:test:positive:enhancer_same_lobe_support_lobes:lower_left;lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:train:positive:atac_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:train:positive:h3k27me3_same_lobe_support_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:train:positive:atac_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:train:positive:h3k27me3_same_lobe_support_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:train:positive:atac_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:train:positive:h3k27me3_same_lobe_support_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:train:positive:h3k27me3_same_lobe_support_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:train:positive:atac_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:train:positive:h3k27me3_same_lobe_support_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:train:control:atac_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:train:control:h3k27me3_same_lobe_support_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:train:positive:atac_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:train:positive:h3k27me3_same_lobe_support_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:train:positive:atac_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:train:positive:h3k27me3_same_lobe_support_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:train:positive:atac_lobes:lower_left;lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:train:positive:h3k27me3_same_lobe_support_lobes:lower_left;lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:train:control:atac_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:train:control:atac_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:train:control:atac_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:train:control:atac_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:validation:positive:atac_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:validation:positive:h3k27me3_same_lobe_support_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:validation:positive:atac_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:validation:positive:h3k27me3_same_lobe_support_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:validation:positive:atac_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:validation:positive:h3k27me3_same_lobe_support_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:validation:control:atac_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:validation:control:h3k27me3_same_lobe_support_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:validation:positive:h3k27me3_same_lobe_support_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:validation:positive:atac_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:validation:positive:atac_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:validation:positive:atac_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:validation:positive:h3k27me3_same_lobe_support_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:validation:control:atac_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:validation:positive:h3k27me3_same_lobe_support_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:validation:positive:atac_lobes:lower_left;lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:validation:positive:h3k27me3_same_lobe_support_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:test:control:atac_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:test:control:h3k27me3_same_lobe_support_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:test:positive:atac_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:test:positive:h3k27me3_same_lobe_support_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:test:positive:atac_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:test:positive:h3k27me3_same_lobe_support_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:test:positive:atac_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:test:positive:h3k27me3_same_lobe_support_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:test:positive:h3k27me3_same_lobe_support_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:test:positive:atac_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:test:positive:atac_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:test:positive:h3k27me3_same_lobe_support_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:test:positive:h3k27me3_same_lobe_support_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:test:positive:atac_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:test:positive:h3k27me3_same_lobe_support_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:test:control:atac_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:test:control:atac_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-A:h3k27me3:test:control:atac_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:train:control:atac_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:train:control:h3k27me3_same_lobe_support_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:train:control:atac_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:train:positive:atac_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:train:positive:h3k27me3_same_lobe_support_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:train:positive:atac_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:train:positive:h3k27me3_same_lobe_support_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:train:positive:atac_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:train:positive:h3k27me3_same_lobe_support_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:train:positive:h3k27me3_same_lobe_support_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:train:positive:atac_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:train:positive:h3k27me3_same_lobe_support_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:train:control:atac_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:train:control:atac_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:train:control:atac_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:train:control:atac_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:train:positive:atac_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:train:positive:h3k27me3_same_lobe_support_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:train:positive:atac_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:train:positive:h3k27me3_same_lobe_support_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:train:positive:atac_lobes:lower_left;lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:train:positive:h3k27me3_same_lobe_support_lobes:lower_left;lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:train:control:atac_lobes:lower_left;lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:validation:control:atac_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:validation:control:h3k27me3_same_lobe_support_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:validation:positive:atac_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:validation:positive:h3k27me3_same_lobe_support_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:validation:positive:atac_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:validation:positive:h3k27me3_same_lobe_support_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:validation:positive:atac_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:validation:positive:h3k27me3_same_lobe_support_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:validation:control:atac_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:validation:control:atac_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:validation:control:atac_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:validation:control:atac_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:validation:positive:h3k27me3_same_lobe_support_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:validation:control:atac_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:validation:positive:atac_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:validation:positive:atac_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:validation:positive:atac_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:validation:positive:h3k27me3_same_lobe_support_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:validation:positive:h3k27me3_same_lobe_support_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:validation:positive:atac_lobes:lower_left;lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:validation:positive:h3k27me3_same_lobe_support_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:test:control:atac_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:test:control:h3k27me3_same_lobe_support_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:test:control:atac_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:test:control:atac_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:test:positive:atac_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:test:positive:h3k27me3_same_lobe_support_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:test:positive:atac_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:test:positive:h3k27me3_same_lobe_support_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:test:positive:atac_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:test:positive:h3k27me3_same_lobe_support_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:test:positive:h3k27me3_same_lobe_support_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:test:positive:atac_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:test:control:atac_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:test:positive:atac_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:test:control:atac_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:test:control:atac_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:test:positive:h3k27me3_same_lobe_support_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:test:positive:h3k27me3_same_lobe_support_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:test:positive:atac_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-B:h3k27me3:test:positive:h3k27me3_same_lobe_support_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:train:control:atac_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:train:control:h3k27me3_same_lobe_support_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:train:control:atac_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:train:positive:atac_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:train:positive:h3k27me3_same_lobe_support_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:train:positive:atac_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:train:positive:h3k27me3_same_lobe_support_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:train:positive:atac_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:train:positive:h3k27me3_same_lobe_support_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:train:positive:atac_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:train:positive:h3k27me3_same_lobe_support_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:train:control:atac_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:train:control:atac_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:train:control:atac_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:train:control:atac_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:train:positive:atac_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:train:positive:h3k27me3_same_lobe_support_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:train:positive:atac_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:train:positive:h3k27me3_same_lobe_support_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:train:positive:atac_lobes:lower_left;lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:train:positive:h3k27me3_same_lobe_support_lobes:lower_left;lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:train:control:atac_lobes:lower_left;lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:validation:control:atac_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:validation:control:h3k27me3_same_lobe_support_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:validation:positive:atac_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:validation:positive:h3k27me3_same_lobe_support_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:validation:positive:atac_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:validation:positive:h3k27me3_same_lobe_support_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:validation:control:atac_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:validation:control:atac_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:validation:control:atac_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:validation:control:atac_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:validation:positive:atac_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:validation:positive:h3k27me3_same_lobe_support_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:validation:control:atac_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:validation:positive:atac_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:validation:positive:atac_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:validation:positive:atac_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:validation:positive:h3k27me3_same_lobe_support_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:validation:positive:h3k27me3_same_lobe_support_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:validation:positive:h3k27me3_same_lobe_support_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:test:control:atac_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:test:control:h3k27me3_same_lobe_support_lobes:NO_EXACT_ANCHOR_OR_SUPPORT",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:test:control:atac_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:test:control:atac_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:test:positive:atac_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:test:positive:h3k27me3_same_lobe_support_lobes:lower_left",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:test:positive:atac_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:test:positive:h3k27me3_same_lobe_support_lobes:lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:test:positive:atac_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:test:positive:h3k27me3_same_lobe_support_lobes:upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:test:positive:atac_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:test:control:atac_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:test:positive:atac_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:test:control:atac_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:test:control:atac_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:test:positive:h3k27me3_same_lobe_support_lobes:lower_right;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:test:positive:h3k27me3_same_lobe_support_lobes:lower_left;upper_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:test:positive:atac_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "source_context:V2-C:h3k27me3:test:positive:h3k27me3_same_lobe_support_lobes:lower_left;lower_right",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "matched_counts:all_strata_and_counts",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "unmatched_counts:all_strata_and_counts",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:enhancer:fifty_original_epochs",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:h3k27me3:fifty_original_epochs",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:exact_eighteen_run_set",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:scaled_fit:V2-A_enhancer_seed104729",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:request_metadata:V2-A_enhancer_seed104729",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:scaled_fit:V2-A_enhancer_seed130363",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:request_metadata:V2-A_enhancer_seed130363",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:scaled_fit:V2-A_enhancer_seed155921",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:request_metadata:V2-A_enhancer_seed155921",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:scaled_fit:V2-B_enhancer_seed104729",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:request_metadata:V2-B_enhancer_seed104729",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:scaled_fit:V2-B_enhancer_seed130363",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:request_metadata:V2-B_enhancer_seed130363",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:scaled_fit:V2-B_enhancer_seed155921",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:request_metadata:V2-B_enhancer_seed155921",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:scaled_fit:V2-C_enhancer_seed104729",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:request_metadata:V2-C_enhancer_seed104729",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:scaled_fit:V2-C_enhancer_seed130363",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:request_metadata:V2-C_enhancer_seed130363",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:scaled_fit:V2-C_enhancer_seed155921",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:request_metadata:V2-C_enhancer_seed155921",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:scaled_fit:V2-A_h3k27me3_seed104729",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:request_metadata:V2-A_h3k27me3_seed104729",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:scaled_fit:V2-A_h3k27me3_seed130363",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:request_metadata:V2-A_h3k27me3_seed130363",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:scaled_fit:V2-A_h3k27me3_seed155921",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:request_metadata:V2-A_h3k27me3_seed155921",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:scaled_fit:V2-B_h3k27me3_seed104729",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:request_metadata:V2-B_h3k27me3_seed104729",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:scaled_fit:V2-B_h3k27me3_seed130363",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:request_metadata:V2-B_h3k27me3_seed130363",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:scaled_fit:V2-B_h3k27me3_seed155921",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:request_metadata:V2-B_h3k27me3_seed155921",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:scaled_fit:V2-C_h3k27me3_seed104729",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:request_metadata:V2-C_h3k27me3_seed104729",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:scaled_fit:V2-C_h3k27me3_seed130363",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:request_metadata:V2-C_h3k27me3_seed130363",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:scaled_fit:V2-C_h3k27me3_seed155921",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:request_metadata:V2-C_h3k27me3_seed155921",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:total_scaled_fit_hours",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:cache_bytes",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:cache_GiB",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:actual_feature_seconds",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:actual_feature_RSS",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:actual_configuration_seconds",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:walltime_cap_sum",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "compute:not_authorized_not_started",
+      "details": "",
+      "status": "PASS"
+    },
+    {
+      "check": "runtime:no_TensorFlow_or_Keras",
+      "details": "",
+      "status": "PASS"
+    }
+  ],
+  "completed_utc": "2026-10-06T01:50:44.326797+00:00",
+  "failure_details": [],
+  "inputs": [
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_covariate_distributions.tsv",
+      "sha256": "e3f1648ec4187f2776e7f4d2dd34505ba815f7ec547cd6ca2be999e50ea019a5"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_ATAC_strength_available_denominators.tsv",
+      "sha256": "c6c598acf4a3b60242aca1eb9e367a2e66335a52c9e71fd43707dba6cbf3a6df"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_source_context_distribution.tsv",
+      "sha256": "e43c601e2d09d4d440f01398fe8578605117844b4d877a88e315d6427d1bab6f"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_matched_control_counts.tsv",
+      "sha256": "49577ebe3e6a54c8d1ddf57c4e541176340112577de6812ec92c31e222858a69"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_unmatched_target_counts.tsv",
+      "sha256": "618350783d34fd76067729f907ddc235da8717a7c9e1ffd6b58b890eba385b5e"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_compute_projection_by_run.tsv",
+      "sha256": "a263c4d8c7e851b67e425f405cfbff3f3e88190da9c01ff930460330570bbfbb"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_compute_plan.json",
+      "sha256": "acd654f736881ca902db86c3dd85dbd83140781301c5682ce48d180a83b64b69"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/configuration_registry.tsv",
+      "sha256": "3542ae99affc33979e7ce6a58fdc1d75484db421e66652186381f56145c464ca"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/run_matrix.tsv",
+      "sha256": "dacf7b29d2ed626e930a909ea8d6959883f8da38cfd0b62a7cf3897590af3952"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/control_matching_pairs.tsv.gz",
+      "sha256": "b39032cca893f309d83ee0ef71841be877f713cadd4ef2a41582de4d0a593c4a"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/unmatched_positive_targets.tsv.gz",
+      "sha256": "98863bdfc8fb17d1f83a7835a7ba6bc9b54d15e98d62ef7ddee02fb8376db6a7"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/configurations/V2-A_enhancer_interval_manifest.tsv.gz",
+      "sha256": "83d35eef432231f259b1ec6f89bf3e09fb25a5b6f63faa56eb3e93ceb0a1ec66"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/configurations/V2-B_enhancer_interval_manifest.tsv.gz",
+      "sha256": "28acc14d63c26f81218476e20123650824509c0b808c5c0c6b7e5508f8c461b2"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/configurations/V2-C_enhancer_interval_manifest.tsv.gz",
+      "sha256": "6e547e602c8e630ab3b975efd96a13b24ff4b4c2b4022135c6c6ec5ecb516a33"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/configurations/V2-A_h3k27me3_interval_manifest.tsv.gz",
+      "sha256": "9bb823a5ae44c836abf078ad7ee28b3136f99924a7202a9f4841113c7d98e0b9"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/configurations/V2-B_h3k27me3_interval_manifest.tsv.gz",
+      "sha256": "6c6b19413922aacca227defa8def6775a1706184372be1e49bdd8a324ada6752"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/configurations/V2-C_h3k27me3_interval_manifest.tsv.gz",
+      "sha256": "998a320875880628f8ab31af3e2c2259cf543f65f453dcd621f66b5fb4fe0350"
+    }
+  ],
+  "module": "COPD-V2-PREFLIGHT",
+  "n_checks": 639,
+  "n_failures": 0,
+  "no_benchmark_contents_read": true,
+  "no_model_execution": true,
+  "scaled_fit_only_GPU_hours": 5.800821611133835,
+  "status": "PASS",
+  "validator": {
+    "path": "diseases/COPD/07_gap_closure/scripts/validate_preflight_ancillary.py",
+    "sha256": "3a1cac56d5bb1490d685f754a389bee4047da5cb9032c368603c2fd4ba3c625a"
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "absolute_tolerance": 1e-06,
+  "actual_trained_network_invariance_validation": "NOT_RUN; required after training before release",
+  "bootstrap_seed": 314159,
+  "checks": [
+    {
+      "check": "1001_independent_synthetic_REF_ALT_pairs",
+      "status": "PASS"
+    },
+    {
+      "check": "string_RC_involution_REF_and_ALT",
+      "status": "PASS"
+    },
+    {
+      "check": "ALT_is_complemented_not_swapped_with_REF",
+      "status": "PASS"
+    },
+    {
+      "check": "onehot_string_RC_agreement_REF",
+      "status": "PASS"
+    },
+    {
+      "check": "onehot_RC_involution_REF",
+      "status": "PASS"
+    },
+    {
+      "check": "onehot_string_RC_agreement_ALT",
+      "status": "PASS"
+    },
+    {
+      "check": "onehot_RC_involution_ALT",
+      "status": "PASS"
+    },
+    {
+      "check": "N_encoded_as_zero_and_preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "ensemble_invariance_REF",
+      "maximum_absolute_error": 0.0,
+      "status": "PASS"
+    },
+    {
+      "check": "per_seed_invariance_REF_104729",
+      "status": "PASS"
+    },
+    {
+      "check": "orientation_columns_swap_only_REF_104729",
+      "status": "PASS"
+    },
+    {
+      "check": "per_seed_invariance_REF_130363",
+      "status": "PASS"
+    },
+    {
+      "check": "orientation_columns_swap_only_REF_130363",
+      "status": "PASS"
+    },
+    {
+      "check": "per_seed_invariance_REF_155921",
+      "status": "PASS"
+    },
+    {
+      "check": "orientation_columns_swap_only_REF_155921",
+      "status": "PASS"
+    },
+    {
+      "check": "ensemble_invariance_ALT",
+      "maximum_absolute_error": 0.0,
+      "status": "PASS"
+    },
+    {
+      "check": "per_seed_invariance_ALT_104729",
+      "status": "PASS"
+    },
+    {
+      "check": "orientation_columns_swap_only_ALT_104729",
+      "status": "PASS"
+    },
+    {
+      "check": "per_seed_invariance_ALT_130363",
+      "status": "PASS"
+    },
+    {
+      "check": "orientation_columns_swap_only_ALT_130363",
+      "status": "PASS"
+    },
+    {
+      "check": "per_seed_invariance_ALT_155921",
+      "status": "PASS"
+    },
+    {
+      "check": "orientation_columns_swap_only_ALT_155921",
+      "status": "PASS"
+    },
+    {
+      "check": "mock_predictors_are_deliberately_orientation_sensitive",
+      "maximum_forward_RC_gap": 0.5880188716011405,
+      "status": "PASS"
+    },
+    {
+      "check": "ALT_minus_REF_delta_invariant",
+      "status": "PASS"
+    },
+    {
+      "check": "max_REF_ALT_region_score_invariant",
+      "status": "PASS"
+    },
+    {
+      "check": "ensemble_delta_equals_equal_weight_mean_seed_deltas",
+      "status": "PASS"
+    },
+    {
+      "check": "seed_SD_is_sample_SD_ddof1",
+      "status": "PASS"
+    },
+    {
+      "check": "seed_mapping_insertion_order_does_not_change_mean",
+      "status": "PASS"
+    },
+    {
+      "check": "shuffled_chunk_order_invariance_1",
+      "status": "PASS"
+    },
+    {
+      "check": "shuffled_chunk_order_invariance_17",
+      "status": "PASS"
+    },
+    {
+      "check": "shuffled_chunk_order_invariance_256",
+      "status": "PASS"
+    },
+    {
+      "check": "cutoff_empirical_FPR_bound_all_zero",
+      "status": "PASS"
+    },
+    {
+      "check": "cutoff_serialization_roundtrip_all_zero",
+      "status": "PASS"
+    },
+    {
+      "check": "cutoff_empirical_FPR_bound_all_one",
+      "status": "PASS"
+    },
+    {
+      "check": "cutoff_serialization_roundtrip_all_one",
+      "status": "PASS"
+    },
+    {
+      "check": "cutoff_empirical_FPR_bound_all_tied_half",
+      "status": "PASS"
+    },
+    {
+      "check": "cutoff_serialization_roundtrip_all_tied_half",
+      "status": "PASS"
+    },
+    {
+      "check": "cutoff_empirical_FPR_bound_untied_200",
+      "status": "PASS"
+    },
+    {
+      "check": "cutoff_serialization_roundtrip_untied_200",
+      "status": "PASS"
+    },
+    {
+      "check": "cutoff_empirical_FPR_bound_boundary_ties",
+      "status": "PASS"
+    },
+    {
+      "check": "cutoff_serialization_roundtrip_boundary_ties",
+      "status": "PASS"
+    },
+    {
+      "check": "cutoff_empirical_FPR_bound_nonmultiple_n_211",
+      "status": "PASS"
+    },
+    {
+      "check": "cutoff_serialization_roundtrip_nonmultiple_n_211",
+      "status": "PASS"
+    },
+    {
+      "check": "boundary_ties_are_not_randomly_split",
+      "status": "PASS"
+    },
+    {
+      "check": "all_one_cutoff_can_exceed_one",
+      "status": "PASS"
+    },
+    {
+      "check": "reject_missing_seed",
+      "status": "PASS"
+    },
+    {
+      "check": "reject_nonfinite_prediction",
+      "status": "PASS"
+    },
+    {
+      "check": "reject_out_of_range_prediction",
+      "status": "PASS"
+    },
+    {
+      "check": "reject_incorrect_prediction_shape",
+      "status": "PASS"
+    },
+    {
+      "check": "reject_nonfinite_cutoff_input",
+      "status": "PASS"
+    },
+    {
+      "check": "reject_insufficient_calibration_controls",
+      "status": "PASS"
+    },
+    {
+      "check": "reject_unsupported_base",
+      "status": "PASS"
+    },
+    {
+      "check": "reject_incorrect_onehot_shape",
+      "status": "PASS"
+    }
+  ],
+  "created_utc": "2026-10-06T01:16:55.238678+00:00",
+  "external_benchmark_or_biological_data_read": false,
+  "fixture_seed": 271828,
+  "module": "COPD-V2-PREFLIGHT",
+  "n_checks": 53,
+  "n_failures": 0,
+  "numpy": "1.24.4",
+  "python": "3.9.15",
+  "reduction_dtype": "float64",
+  "relative_tolerance": 1e-06,
+  "scope": "CPU-only synthetic mathematical/wrapper contract; NO trained-network validation",
+  "script_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/scripts/preflight_orientation_contract.py",
+  "script_sha256": "4d6f6bc1674d398037174b3b2b488544b7a294e25cc87b6e00dab39d6542ff29",
+  "sequence_length": 2001,
+  "status": "PASS",
+  "synthetic_ref_alt_pairs": 1001,
+  "threshold_fixtures": {
+    "all_one": {
+      "allowed_false_positives": 10,
+      "called_calibration_controls": 0,
+      "comparison": "score >= cutoff",
+      "cutoff": 1.0000000000000002,
+      "cutoff_decimal_17_significant": "1.0000000000000002",
+      "cutoff_hex": "0x1.0000000000001p+0",
+      "empirical_calibration_fpr": 0.0,
+      "n_calibration_controls": 200,
+      "population_fpr_guaranteed": false,
+      "target_fpr": 0.05
+    },
+    "all_tied_half": {
+      "allowed_false_positives": 10,
+      "called_calibration_controls": 0,
+      "comparison": "score >= cutoff",
+      "cutoff": 0.5000000000000001,
+      "cutoff_decimal_17_significant": "0.50000000000000011",
+      "cutoff_hex": "0x1.0000000000001p-1",
+      "empirical_calibration_fpr": 0.0,
+      "n_calibration_controls": 200,
+      "population_fpr_guaranteed": false,
+      "target_fpr": 0.05
+    },
+    "all_zero": {
+      "allowed_false_positives": 10,
+      "called_calibration_controls": 0,
+      "comparison": "score >= cutoff",
+      "cutoff": 5e-324,
+      "cutoff_decimal_17_significant": "4.9406564584124654e-324",
+      "cutoff_hex": "0x0.0000000000001p-1022",
+      "empirical_calibration_fpr": 0.0,
+      "n_calibration_controls": 200,
+      "population_fpr_guaranteed": false,
+      "target_fpr": 0.05
+    },
+    "boundary_ties": {
+      "allowed_false_positives": 10,
+      "called_calibration_controls": 8,
+      "comparison": "score >= cutoff",
+      "cutoff": 0.8000000000000002,
+      "cutoff_decimal_17_significant": "0.80000000000000016",
+      "cutoff_hex": "0x1.999999999999bp-1",
+      "empirical_calibration_fpr": 0.04,
+      "n_calibration_controls": 200,
+      "population_fpr_guaranteed": false,
+      "target_fpr": 0.05
+    },
+    "nonmultiple_n_211": {
+      "allowed_false_positives": 10,
+      "called_calibration_controls": 10,
+      "comparison": "score >= cutoff",
+      "cutoff": 0.9523809523809526,
+      "cutoff_decimal_17_significant": "0.95238095238095255",
+      "cutoff_hex": "0x1.e79e79e79e7a0p-1",
+      "empirical_calibration_fpr": 0.04739336492890995,
+      "n_calibration_controls": 211,
+      "population_fpr_guaranteed": false,
+      "target_fpr": 0.05
+    },
+    "untied_200": {
+      "allowed_false_positives": 10,
+      "called_calibration_controls": 10,
+      "comparison": "score >= cutoff",
+      "cutoff": 0.9497487437185931,
+      "cutoff_decimal_17_significant": "0.94974874371859308",
+      "cutoff_hex": "0x1.e64577a3607b9p-1",
+      "empirical_calibration_fpr": 0.05,
+      "n_calibration_controls": 200,
+      "population_fpr_guaranteed": false,
+      "target_fpr": 0.05
+    }
+  },
+  "training_or_model_loading_performed": false,
+  "training_seeds": [
+    104729,
+    130363,
+    155921
+  ]
+}

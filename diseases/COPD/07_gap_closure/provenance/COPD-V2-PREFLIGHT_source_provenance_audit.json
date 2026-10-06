@@ -1,0 +1,130 @@
+{
+  "module": "COPD-V2-PREFLIGHT",
+  "audit": "Independent read-only source, same-lobe label and V1 control audit",
+  "audit_utc": "2026-10-06T01:14:36.296856+00:00",
+  "auditor": "preflight_provenance",
+  "repository_relative_paths": true,
+  "external_benchmark_files_opened": false,
+  "gpu_training_or_model_inference_performed": false,
+  "source_data_modified": false,
+  "coordinate_convention": "GRCh38, zero-based half-open intervals",
+  "source_manifest": "diseases/COPD/03_regulatory_landscape/data/encode_peaks/manifest.tsv",
+  "experiment_metadata_snapshot": "diseases/COPD/03_regulatory_landscape/data/encode_lung_experiments.tsv",
+  "donor": "ENCDO520EJG",
+  "donor_metadata": {
+    "health_status": "DM: no; HTN: yes; CAD: no; lungs with severe emphysema",
+    "age_years": 60,
+    "sex": "male",
+    "ethnicity": "European"
+  },
+  "source_peak_directory": "diseases/COPD/03_regulatory_landscape/data/encode_peaks",
+  "source_peak_filename_rule": "{file_accession}.bed.gz",
+  "source_files": [
+    {"lobe":"upper_right","assay":"ATAC-seq","mark":"accessibility","experiment":"ENCSR990NNX","file_accession":"ENCFF906HOT","biosample":"ENCBS423PNW","sha256_from_frozen_manifest":"d218b0cc0ab907957db4454683b5cf3546024a74efdf9b1b4965cfe724bd43d7","canonical_peak_count":246314,"signalValue_min":1.26822,"signalValue_max":37.69655,"nonpositive_signal_values":0,"audit_warning":"mild to moderate bottlenecking;moderate library complexity"},
+    {"lobe":"upper_right","assay":"Histone ChIP-seq","mark":"H3K27ac","experiment":"ENCSR954JMZ","file_accession":"ENCFF149QUM","biosample":"ENCBS339XRG","sha256_from_frozen_manifest":"d9efa7986d753dcb2a69e83ddb3fab032cf362ddf1d57906f119f524e9962629","canonical_peak_count":60451,"signalValue_min":1.79456,"signalValue_max":59.78652,"nonpositive_signal_values":0,"audit_warning":"missing controlled_by"},
+    {"lobe":"upper_right","assay":"Histone ChIP-seq","mark":"H3K27me3","experiment":"ENCSR337LGY","file_accession":"ENCFF685CNW","biosample":"ENCBS339XRG","sha256_from_frozen_manifest":"cdf105747c83e3eec672f5c52a070ea13e99f0e971a19f3a81a341d5881cde31","canonical_peak_count":33416,"signalValue_min":1.72023,"signalValue_max":11.23478,"nonpositive_signal_values":0,"audit_warning":"mild to moderate bottlenecking;missing controlled_by"},
+    {"lobe":"lower_right","assay":"ATAC-seq","mark":"accessibility","experiment":"ENCSR923VTG","file_accession":"ENCFF189LZA","biosample":"ENCBS595DKG","sha256_from_frozen_manifest":"896207d32911a0d39ce278fcfa9c3dc7e93cd98381962b08200f129215c17e13","canonical_peak_count":220641,"signalValue_min":1.2865,"signalValue_max":35.91446,"nonpositive_signal_values":0,"audit_warning":"mild to moderate bottlenecking;moderate library complexity"},
+    {"lobe":"lower_right","assay":"Histone ChIP-seq","mark":"H3K27ac","experiment":"ENCSR837DVF","file_accession":"ENCFF299FWI","biosample":"ENCBS706XDW","sha256_from_frozen_manifest":"938b78811c20e934c43b3291e7a87352dfefc3263949fd735dbcaebe954d0d82","canonical_peak_count":61640,"signalValue_min":1.88336,"signalValue_max":79.08716,"nonpositive_signal_values":0,"audit_warning":"missing controlled_by"},
+    {"lobe":"lower_right","assay":"Histone ChIP-seq","mark":"H3K27me3","experiment":"ENCSR930JRJ","file_accession":"ENCFF591PDC","biosample":"ENCBS706XDW","sha256_from_frozen_manifest":"4ece742e3c3212a7dc1f2df68da8ce967b819d7eaba322f8202ab4cdc4fa1c58","canonical_peak_count":40742,"signalValue_min":1.76272,"signalValue_max":14.29142,"nonpositive_signal_values":0,"audit_warning":"low read depth;missing controlled_by"},
+    {"lobe":"lower_left","assay":"ATAC-seq","mark":"accessibility","experiment":"ENCSR555ZDH","file_accession":"ENCFF899TQV","biosample":"ENCBS878VRG","sha256_from_frozen_manifest":"e15138199a6ccc62a6160b0aa24292b6d1af47b87721977bbcf03ca6dd135cad","canonical_peak_count":278090,"signalValue_min":1.33227,"signalValue_max":42.58039,"nonpositive_signal_values":0,"audit_warning":"mild to moderate bottlenecking;moderate library complexity"},
+    {"lobe":"lower_left","assay":"Histone ChIP-seq","mark":"H3K27ac","experiment":"ENCSR875OQJ","file_accession":"ENCFF014OZD","biosample":"ENCBS105KGA","sha256_from_frozen_manifest":"21319d99090c9858c8674b46439987cda59c647d649b9cf231b54905ef706cc6","canonical_peak_count":67566,"signalValue_min":1.65297,"signalValue_max":61.73056,"nonpositive_signal_values":0,"audit_warning":"missing controlled_by"},
+    {"lobe":"lower_left","assay":"Histone ChIP-seq","mark":"H3K27me3","experiment":"ENCSR842LST","file_accession":"ENCFF725NIC","biosample":"ENCBS105KGA","sha256_from_frozen_manifest":"fd5b2b07ce1eec326c0a6c6b9448e8266fa2de7c7988d2b628e82fbf1cf68440","canonical_peak_count":68141,"signalValue_min":1.6203,"signalValue_max":15.49652,"nonpositive_signal_values":0,"audit_warning":"missing controlled_by"}
+  ],
+  "same_lobe_technical_compatibility": {
+    "all_files_released_GRCh38_pseudoreplicated_narrowPeak": true,
+    "all_files_biological_replicate": "1",
+    "all_files_technical_replicates": "1_1;1_2",
+    "error_or_not_compliant_flags_in_local_experiment_snapshot": 0,
+    "matching_basis": "Same documented donor, same anatomically named lung lobe, same reference assembly; bulk-tissue ATAC and histone evidence.",
+    "not_established": ["same physical aliquot", "same cells", "single-cell co-occurrence", "biological replication across independent donors"],
+    "biosample_caveat": "ATAC and ChIP biosample accessions differ within every lobe. Same-lobe compatibility must not be described as matched aliquots or cell-level co-occurrence.",
+    "lab_caveat": "ATAC experiments are from Michael Snyder, Stanford; histone ChIP experiments are from Bradley Bernstein, Broad. Same-lobe comparison does not remove assay/laboratory technical differences.",
+    "lower_right_H3K27me3": "ENCSR930JRJ has a low-read-depth warning. Retain and flag under the prespecified all-compatible-lobes construction; do not exclude based on model or external outcomes. Absence of a peak is an operational assay-negative label, not proof of biological absence.",
+    "histone_controls": "All six selected histone experiments carry missing controlled_by warnings in the frozen local metadata snapshot. This is a technical caveat, not evidence that read-level controls were proven absent."
+  },
+  "reference_and_annotations": {
+    "V1_fasta_link": "diseases/COPD/04_modeling/trednet/fasta/hg38.fa",
+    "V1_fasta_resolved_path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/fasta/hg38.fa",
+    "V1_fasta_index": "models/TREDNET_v2/fasta/hg38.fa.fai",
+    "blacklist": "data/blacklist/hg38-blacklist.v2.bed.gz",
+    "promoter_annotation": "data/gencode/gencode.v50.annotation.gtf.gz",
+    "repeatmasker_raw": "data/repeats/rmsk.txt.gz",
+    "repeatmasker_raw_schema": "UCSC rmsk table: zero-based columns 5,6,7 are chrom,start,end; columns 10,11,12 are repeat name,class,family.",
+    "repeatmasker_normalized": "diseases/COPD/03_regulatory_landscape/data/regulatory_references/ucsc_repeatmasker.grch38.canonical.bed.gz",
+    "repeatmasker_normalized_schema": "chrom,start,end,feature_id,feature_type,source_detail",
+    "signal_availability": "All 745045 canonical ATAC rows have positive narrowPeak signalValue in column 7. This is peak-level assay signal, not a per-base bigWig or directly calibrated absolute accessibility across libraries. Prefer within-source-lobe ranks for matching."
+  },
+  "V1_input_paths": {
+    "interval_directory": "diseases/COPD/04_modeling/trednet/input_training_data",
+    "enhancer_positive": "COPD_SevereEmphysema_Lung_Enhancer_DHS_x2_positive_1kb.bed",
+    "enhancer_control": "COPD_SevereEmphysema_Lung_Enhancer_DHS_x2_control_1kb.bed",
+    "H3K27me3_positive": "COPD_SevereEmphysema_Lung_Silencer_DHS_x2_positive_1kb.bed",
+    "H3K27me3_control": "COPD_SevereEmphysema_Lung_Silencer_DHS_x2_control_1kb.bed",
+    "interval_schema": "No header; chromosome,start,end; exactly 1000bp",
+    "external_control_pool": "models/TREDNET_v2/input_training_data/control/allDHS.merge.nonPromoterExon",
+    "control_provenance_limitation": "Global pooled DHS-derived windows; not a donor-accessible control definition. The filename alone cannot establish contributing donor, tissue, or assay source for each row.",
+    "positive_construction_script": "models/TREDNET_v2/make_input_training_data.py",
+    "all_lobe_aggregation_script": "diseases/COPD/04_modeling/scripts/00_prepare_training_peaks.py",
+    "V1_wrapper": "diseases/COPD/04_modeling/scripts/01_build_training_inputs.py",
+    "sequence_constructor": "diseases/COPD/04_modeling/trednet/TREDNet_v2_seeded_v1.py",
+    "sequence_cache_template": "diseases/COPD/04_modeling/trednet/models_output/{EID}/{EID}_phase_two_dataset.hdf5"
+  },
+  "query_definitions": {
+    "canonical_chromosomes": "chr1-22,chrX,chrY",
+    "partition": {"train":"chr1-6,chr10-22,chrX,chrY","validation":"chr7","test":"chr8,chr9"},
+    "overlap": "Positive-length intersection: interval_start < query_end and interval_end > query_start; at least 1bp.",
+    "summit": "ATAC start+column10 when summit offset >=0; otherwise floor((start+end)/2).",
+    "window_identity": "(chromosome,summit-500,summit+500); exact genomic interval identity, not mere overlapping flanks.",
+    "historical_positive": "Original ATAC peak overlaps any relevant mark peak from any of three donor lobes. Window passes original 1kb blacklist and GENCODE gene-TSS +/-2kb filters, start>=501; exact summit windows deduplicated.",
+    "same_lobe_positive": "A frozen V1 positive window has at least one original source ATAC peak with EXACT matching summit-window identity and >=1bp overlap with the relevant mark in that SAME lobe. Union eligible windows across lobes; preserve all supporting lobe/file identities, count each exact window once.",
+    "cross_lobe_only": "Frozen V1 positive with all-lobe support but zero qualifying same-lobe source ATAC/histone pairs at its exact window identity.",
+    "support_histogram": "Number of distinct same-lobe co-occurrence-supporting lobes per frozen V1 positive window, values0-3. Multiple technical/source observations in a lobe count once.",
+    "ATAC_accessible_1kb": "V1 control [s,e) overlaps >=1bp of any canonical donor ATAC peak in any of three lobes.",
+    "ATAC_accessible_actual2001bp": "V1 control [s-501,e+500) overlaps >=1bp of any donor ATAC peak.",
+    "ATAC_accessible_original_center": "V1 1kb midpoint [s+500,s+501) overlaps a donor ATAC peak; this is the original summit convention, not an assertion that V1 controls were summit-centered in donor ATAC.",
+    "input_offset_caveat": "Historical 1000bp BED expansion [s-501,e+500) makes a 2001bp sequence whose zero-based central base is s+499, one base left of the original summit s+500. Preserve the frozen V1 coordinate rule for the staged comparison and document it explicitly.",
+    "mark_contamination": "Control overlap with the same-model relevant histone union tested separately at1kb and full2001bp. H3K27ac is tested only for enhancer controls; H3K27me3 only for that model.",
+    "efficient_overlap_implementation": "Per chromosome sort interval starts and prefix maxima of ends; i=bisect_left(starts,query_end); overlap iff i>0 and prefix_max_end[i-1]>query_start. Counts computed directly from nine compressed source files and four frozen BEDs; no model predictions used."
+  },
+  "counts": {
+    "enhancer": {
+      "V1_positive":181352,"V1_control":362704,"same_lobe_positive":145200,"cross_lobe_only_positive":36152,"cross_lobe_only_fraction":0.19934712603114385,
+      "all_V1_positive_windows_reconcile_to_all_lobe_source_peaks":true,
+      "same_lobe_support_histogram":{"0":36152,"1":141822,"2":3330,"3":48},
+      "positive_by_partition":{"train":{"V1":156789,"same_lobe":125874,"cross_lobe_only":30915},"validation":{"V1":8460,"same_lobe":6631,"cross_lobe_only":1829},"test":{"V1":16103,"same_lobe":12695,"cross_lobe_only":3408}},
+      "control_accessibility":{"total":362704,"overlap_1kb":44639,"fraction_1kb":0.12307280868145926,"overlap_actual2001bp":67244,"fraction_actual2001bp":0.18539635625744408,"original_center_overlap":17049,"fraction_original_center":0.04700527151616745},
+      "control_by_partition":{"train":{"total":307473,"accessible_1kb":37769,"accessible_actual2001bp":56870,"accessible_original_center":14398,"mark_overlap_actual2001bp":5140},"validation":{"total":20328,"accessible_1kb":2547,"accessible_actual2001bp":3812,"accessible_original_center":998,"mark_overlap_actual2001bp":282},"test":{"total":34903,"accessible_1kb":4323,"accessible_actual2001bp":6562,"accessible_original_center":1653,"mark_overlap_actual2001bp":544}},
+      "control_mark_overlap":{"1kb":0,"original_center":0,"actual2001bp":5966,"fraction_actual2001bp":0.016448674401164588}
+    },
+    "H3K27me3_associated": {
+      "V1_positive":30584,"V1_control":61168,"same_lobe_positive":19982,"cross_lobe_only_positive":10602,"cross_lobe_only_fraction":0.34665184410149097,
+      "all_V1_positive_windows_reconcile_to_all_lobe_source_peaks":true,
+      "same_lobe_support_histogram":{"0":10602,"1":19638,"2":338,"3":6},
+      "positive_by_partition":{"train":{"V1":26326,"same_lobe":17132,"cross_lobe_only":9194},"validation":{"V1":1612,"same_lobe":1096,"cross_lobe_only":516},"test":{"V1":2646,"same_lobe":1754,"cross_lobe_only":892}},
+      "control_accessibility":{"total":61168,"overlap_1kb":9490,"fraction_1kb":0.15514648182055976,"overlap_actual2001bp":13893,"fraction_actual2001bp":0.22712856395500916,"original_center_overlap":3787,"fraction_original_center":0.06191145697096521},
+      "control_by_partition":{"train":{"total":51839,"accessible_1kb":8050,"accessible_actual2001bp":11782,"accessible_original_center":3210,"mark_overlap_actual2001bp":888},"validation":{"total":3427,"accessible_1kb":491,"accessible_actual2001bp":712,"accessible_original_center":236,"mark_overlap_actual2001bp":48},"test":{"total":5902,"accessible_1kb":949,"accessible_actual2001bp":1399,"accessible_original_center":341,"mark_overlap_actual2001bp":105}},
+      "control_mark_overlap":{"1kb":0,"original_center":0,"actual2001bp":1041,"fraction_actual2001bp":0.01701870258958933}
+    }
+  },
+  "construction_recommendations_from_inputs_only": [
+    "Preserve all frozen V1 controls unchanged for V2-A, including documented accessibility deficit and full-window histone flank contamination.",
+    "For V2-B/C construct negatives around donor ATAC summits, require the original ATAC observation be mark-negative, and exclude relevant mark overlap across the actual2001bp input in every lobe. This conservatively prevents known relevant-mark positives from entering negative sequences.",
+    "Do not relabel cross-lobe-only positives as negatives merely because they fail same-lobe co-occurrence; exclude them from C positives and retain their documented marked context in negative exclusions.",
+    "Union same-lobe-supported exact windows across lobes once, retaining all provenance; audit near-overlapping windows and exact/RC sequence duplicates separately. Exact-window deduplication alone does not establish independence of near-identical loci.",
+    "Match accessible controls by chromosome, comparable source-lobe provenance, GC, within-lobe accessibility signal rank, and repeat burden with prespecified common-support diagnostics. Histone strength itself must not be matched away.",
+    "Audit blacklist/promoter status at both historical1kb and actual2001bp extents without silently changing V2-A or B positives. Any full-window exclusion that changes positives beyond the requested staged factor needs an explicit versioned decision.",
+    "Freeze source provenance and all internal data definitions before training. Do not change lobe inclusion, controls, or other design choices in response to external benchmark outcomes."
+  ],
+  "freshly_computed_source_sha256": {
+    "diseases/COPD/03_regulatory_landscape/data/encode_peaks/manifest.tsv":"c8220526548be91276bb69e8cb0c04e4cab4d7dcae4f361843e5c84690ee1ba4",
+    "diseases/COPD/03_regulatory_landscape/data/encode_lung_experiments.tsv":"86a37a5573da90b838fddb3bbe19c72584c3a759205c2e9d17b98383ea96a771",
+    "diseases/COPD/04_modeling/trednet/input_training_data/COPD_SevereEmphysema_Lung_Enhancer_DHS_x2_positive_1kb.bed":"d9bad3ad3ee29a3d432f1eb4b05f374ff76a0b7ecae096634b011002d5494d46",
+    "diseases/COPD/04_modeling/trednet/input_training_data/COPD_SevereEmphysema_Lung_Enhancer_DHS_x2_control_1kb.bed":"83188fd07f65d484fd38e967f99db4850492671c6e3a8fdca078f5bae645d05c",
+    "diseases/COPD/04_modeling/trednet/input_training_data/COPD_SevereEmphysema_Lung_Silencer_DHS_x2_positive_1kb.bed":"921d20ba75bf3146a01fa66a3f851eda63d91050fa4e40b5663b9e61f95cf3a4",
+    "diseases/COPD/04_modeling/trednet/input_training_data/COPD_SevereEmphysema_Lung_Silencer_DHS_x2_control_1kb.bed":"ca3ac6e633751fef1caefdd1bf2a9e807337bed29fcd3b035b3f944d4f9bf871",
+    "data/blacklist/hg38-blacklist.v2.bed.gz":"c92e763af17271446194991e71917ac220593a5a3d40a06667be24178ef08cf2",
+    "data/repeats/rmsk.txt.gz":"db60e6aa7ac175f8f5465cd01b48b550e67e1fb0fd828608d8343481867bb276",
+    "models/TREDNET_v2/make_input_training_data.py":"c93ee73fc36770dea9ee53e1212284d819599310be61259695c00adb089bc528"
+  },
+  "readiness": "The required frozen interval, same-donor per-lobe peaks, peak-level accessibility signal, blacklist, repeatmasker, annotation and exact V1 reference sequence resources are locally available. Same-lobe labels and accessibility-confounding fractions are exactly quantifiable. Matching feasibility and sequence-level duplicate/availability QC require the main pretraining constructor; this independent audit does not claim those checks complete."
+}

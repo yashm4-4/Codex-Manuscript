@@ -1,0 +1,25 @@
+{
+  "module": "COPD-V2-PREFLIGHT",
+  "audit": "Post-construction independent reconciliation against the earlier source-provenance audit",
+  "status": "PASS",
+  "source_provenance_audit": "COPD-V2-PREFLIGHT_source_provenance_audit.json",
+  "feature_manifest": "COPD-V2-PREFLIGHT_feature_manifest.json",
+  "checks": {
+    "randomized_merged_index_overlap_and_covered_base_queries": {"n": 3000, "status": "PASS", "method": "Before construction, compare merged-index hit/bp against exhaustive basewise interval-union membership for fixed random seed90210;100 randomly generated30-interval sets,30 queries each."},
+    "independent_V1_and_same_lobe_counts": {"n": 24, "status": "PASS", "method": "Compare feature counts against the independently computed earlier source-provenance audit: two models x three partitions x positive/same-lobe/cross-lobe-only/control totals."},
+    "raw_source_peak_hashes_vs_frozen_manifest": {"n": 9, "status": "PASS", "method": "Compare freshly calculated consumed-input hashes to the original ENCODE source manifest hashes copied into source_inventory.tsv."},
+    "feature_artifact_hashes": {"n": 10, "status": "PASS", "method": "Independently recompute SHA256 for every artifact listed in the completed feature manifest."},
+    "sequence_availability": {"n_intervals": 1143370, "n_available_exact2001bp": 1143370, "n_unavailable": 0, "status": "PASS"},
+    "chromosome_partition_sequence_duplicates": {"identity_groups_across_exact_and_model_canonical_RC_types": 86, "cross_partition_groups": 0, "status": "PASS", "caveat": "The86 identity groups include both exact and canonical-RC identities and are not86 independent biological loci. Within-partition duplicates remain explicitly listed for subsequent weighting/selection audit."}
+  },
+  "candidate_control_pools": {
+    "enhancer": {"train": 243969, "validation": 16727, "test": 26247, "total": 286943},
+    "h3k27me3": {"train": 381634, "validation": 24081, "test": 40584, "total": 446299},
+    "note": "Counts are eligibility pools, not selected matched controls. All are donor-ATAC anchored and satisfy the prespecified control-exclusion rule. Enhancer pool cannot supply2:1 controls without replacement for all181352 V1 positives; matching feasibility and balance remain separate checks."
+  },
+  "runtime": {"elapsed_seconds": 160.17198133468628, "peak_rss_kib": 1941532, "cpu_workers": 1, "GPU_use": false, "model_execution": false},
+  "protected_baselines": {"consumed_files": 28, "prior_tracked_files": 522, "freeze_before_feature_construction": true, "post_module_immutability_recheck": "To be performed by final module validator; this independent feature QC does not claim the final whole-module check."},
+  "packaging_note": "interval_features.tsv.gz is125556971 bytes, above GitHub's100MiB single-file limit. No commit/push was requested or performed. If repository packaging is needed, preserve this canonical local artifact and add deterministic smaller row shards or a verified smaller compressed equivalent before the final module freeze.",
+  "external_benchmark_contents_opened": false,
+  "existing_V1_or_prior_module_artifacts_modified": false
+}

@@ -1,0 +1,49 @@
+{
+  "module": "COPD-V2-PREFLIGHT",
+  "observed_tie_exception": {
+    "n_pairs_audited": 199788,
+    "n_global_coordinate_tie_exceptions": 1,
+    "positive_id": "chr1:25562128-25563128",
+    "observed_control_id": "chr1:8862169-8863169",
+    "global_coordinate_first_alternative": "chr1:41639318-41640318",
+    "identical_normalized_Chebyshev_distance": 0.6196901540000006,
+    "GC_absolute_difference": 0.0309845077,
+    "ATAC_percentile_absolute_difference": 0.1225366808,
+    "repeat_fraction_absolute_difference": 0.1089455272,
+    "interpretation": "A true equal-distance tie within all calipers. Observed selection follows bounded-neighbor tie semantics; the stronger global-coordinate rule was not satisfied. No interval changed.",
+    "audit": "provenance/COPD-V2-PREFLIGHT_matching_tie_contract_audit.json",
+    "initial_stricter_audit_preserved": true
+  },
+  "scope": "Append-only clarification of recorded construction semantics; no selected interval, label, control, caliper, threshold, or training rule was changed.",
+  "initial_specification": "provenance/COPD-V2-PREFLIGHT_matching_specification.json",
+  "authoritative_executed_code": "scripts/construct_preflight_configurations.py",
+  "CPU_software": {
+    "python": "3.9.15",
+    "numpy": "1.24.4",
+    "scipy": "1.11.1",
+    "pandas": "2.0.3"
+  },
+  "role_hash": "int(hashlib.sha256(('chr7-role-v1|'+component_id).encode()).hexdigest()[:16],16) % 4; use first16hex, not entire digest",
+  "nearest_neighbor_ties": {
+    "distance": "minimum unused Chebyshev distance subject to all3calipers and exact strata",
+    "returned_batch": "cKDTree.query k=min(64,n), then ×4 up to1024 or n; if queried candidates exhausted, radius-one query_ball_point fallback; see executed code for exhaustion branches",
+    "tie_resolution": "lexsort(distance, coordinate-ID-sorted candidate index) within returned candidate batch; fallback radius query considers all returned radius candidates",
+    "initial_wording_exception": "Initial brief specification said coordinate-ID order resolves ties without stating bounded candidate scope. That does NOT guarantee globally lowest coordinate ID if a distance tie extends beyond k.",
+    "synthetic_counterexample": "1000 points all Chebyshev distance1; k64 can omit global index0. This establishes a specification-precision issue, not an error in actual calipers or frozen counts.",
+    "reproducibility": "Actual matched interval IDs and all software/code/data hashes are frozen. Do not rerun using an assumed globally lexicographic tie implementation.",
+  "performance_tuning": false
+  },
+  "A_ATAC_signal_missingness": {
+    "definition": "signal percentile exists only for exact donor ATAC summit anchors; most historical A controls lack such a source-matched intensity value",
+    "warning": "A control signal SMD uses available values only. Table control_n is the full control count, not the observed-intensity denominator. Empty anchor-lobe metadata is not evidence of no ATAC overlap.",
+    "correct_accessibility_audit": "Use atac_overlap_1kb / atac_overlap_2001 / atac_overlap_summit from feature table and independent source audit; separate availability/distribution table provides observed denominators.",
+    "B_C": "All new controls are ATAC anchors with available source-normalized signal; same missingness problem does not apply."
+  },
+  "artifact_validation_vs_readiness": {
+    "artifact_validation": "checks faithful source construction, exclusion rules, exact memberships, hashes, arithmetic and documented algorithm",
+    "training_readiness": "FAIL until matching issues are resolved in a separately approved version; artifact validation cannot waive biological design gates"
+  },
+  "primary_dataset_preservation": "A exact historical membership; B all V1 positives; C same-lobe subset; B/C exact same selected controls. No control reuse by genomic ID.",
+  "conditional_next_design": "Review C-specific rematching (labels plus induced rematching) and B common-support/ratio tradeoff. Do not silently drop positives, loosen gates, or start new configurations.",
+  "test_data_policy": "Only prescribed construction/availability/covariate QC was performed; no model scores or performance-driven test decisions."
+}

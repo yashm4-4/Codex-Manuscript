@@ -1,0 +1,44 @@
+{
+  "exception_count": 1,
+  "exceptions": [
+    {
+      "calipers_unchanged": true,
+      "documented_bounded_query_control_id": "chr1:8862169-8863169",
+      "frozen_control_unchanged": true,
+      "global_coordinate_first_at_minimum_distance": "chr1:41639318-41640318",
+      "global_minimum_available_distance": 0.6196901540000006,
+      "interpretation": "Equal-distance coordinate tie outside returned-batch scope; not a caliper or nearest-distance failure.",
+      "model": "enhancer",
+      "observed_control_id": "chr1:8862169-8863169",
+      "observed_distance": 0.6196901540000006,
+      "positive_id": "chr1:25562128-25563128",
+      "query_k": 64,
+      "query_mode": "bounded_nearest_query",
+      "unused_candidates_at_exact_minimum_distance": 2
+    }
+  ],
+  "final_contract": "Minimum unused distance; coordinate-ID tie resolution within actual returned nearest-k batch, as the unchanged executed constructor implements.",
+  "implementation_notes_sha256": "6b06234939f5bfbc16e96ec65b566bd25bd679620a39434c87442447b32337ee",
+  "initial_validator_preserved_path": "diseases/COPD/07_gap_closure/scripts/validate_model_redesign_preflight_strict_tie_attempt.py",
+  "module": "COPD-V2-PREFLIGHT",
+  "no_rematching_or_dataset_edits": true,
+  "preliminary_evidence_relocations": [
+    {
+      "original_historical_path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_final_validation.tsv",
+      "preserved_path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_preliminary_strict_tie_validation.tsv",
+      "sha256": "56dc1b46e69419702b3175431b0f0f3d809bc088c14422c2efc822f80bb27bbf"
+    },
+    {
+      "original_historical_path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_training_readiness.tsv",
+      "preserved_path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_preliminary_training_readiness.tsv",
+      "sha256": "5780dce4bdcd6b075e86fbbaea100ccf38105510924d0b394e8f8878bb997c1b"
+    },
+    {
+      "original_historical_path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_final_validation_manifest.json",
+      "preserved_path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_preliminary_strict_tie_validation_manifest.json",
+      "sha256": "95b64c9857ed3e3ca0e72016508f2b35a338cb823c53df444858d8b63996da96"
+    }
+  ],
+  "strict_global_coordinate_tie_property": "DOES_NOT_HOLD_FOR_ALL_OBSERVED_PAIRS",
+  "strict_minimum_available_distance_tested_for_all_pairs": true
+}

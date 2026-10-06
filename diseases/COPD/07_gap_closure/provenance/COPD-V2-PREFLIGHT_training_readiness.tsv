@@ -1,0 +1,17 @@
+condition	status	observed	required
+enhancer:B_matching_fraction_at_least_0.90	SATISFIED	0.9340012792800741	0.9
+h3k27me3:B_matching_fraction_at_least_0.90	SATISFIED	0.9941472665445985	0.9
+enhancer:common_calibration_at_least_200_controls	SATISFIED	1944	200
+enhancer:common_selection_class_and_component_minima	SATISFIED	{'positive': 1755, 'control': 2171, 'components': 1405}	100+/200-/30 components
+h3k27me3:common_calibration_at_least_200_controls	SATISFIED	391	200
+h3k27me3:common_selection_class_and_component_minima	SATISFIED	{'positive': 271, 'control': 379, 'components': 303}	100+/200-/30 components
+V2-A:enhancer:sequence_available_2001bp	SATISFIED	{'unavailable': 0, 'wrong_length': 0}	
+V2-B:enhancer:sequence_available_2001bp	SATISFIED	{'unavailable': 0, 'wrong_length': 0}	
+V2-C:enhancer:sequence_available_2001bp	SATISFIED	{'unavailable': 0, 'wrong_length': 0}	
+V2-A:h3k27me3:sequence_available_2001bp	SATISFIED	{'unavailable': 0, 'wrong_length': 0}	
+V2-B:h3k27me3:sequence_available_2001bp	SATISFIED	{'unavailable': 0, 'wrong_length': 0}	
+V2-C:h3k27me3:sequence_available_2001bp	SATISFIED	{'unavailable': 0, 'wrong_length': 0}	
+no_selected_cross_partition_encoded_sequence_duplicates	SATISFIED	0	0
+no_selected_component_spans_chromosome_partitions	SATISFIED	0	0
+all_B_C_prespecified_balance_gates	BLOCKED	18	0
+investigator_training_authorization	BLOCKED	Not requested or granted by this preflight	Explicit investigator approval after review

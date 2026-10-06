@@ -1,0 +1,341 @@
+{
+  "available_cpu_count": 64,
+  "benchmark_contents_inspected": false,
+  "completed_utc": "2026-10-06T01:25:56.387451+00:00",
+  "construction_counts": [
+    {
+      "count": 103307,
+      "metric": "sequence_available",
+      "model": "all",
+      "partition": "test"
+    },
+    {
+      "count": 103307,
+      "metric": "union_intervals",
+      "model": "all",
+      "partition": "test"
+    },
+    {
+      "count": 978795,
+      "metric": "sequence_available",
+      "model": "all",
+      "partition": "train"
+    },
+    {
+      "count": 978795,
+      "metric": "union_intervals",
+      "model": "all",
+      "partition": "train"
+    },
+    {
+      "count": 61268,
+      "metric": "sequence_available",
+      "model": "all",
+      "partition": "validation"
+    },
+    {
+      "count": 61268,
+      "metric": "union_intervals",
+      "model": "all",
+      "partition": "validation"
+    },
+    {
+      "count": 34903,
+      "metric": "V1_control",
+      "model": "enhancer",
+      "partition": "test"
+    },
+    {
+      "count": 16103,
+      "metric": "V1_positive",
+      "model": "enhancer",
+      "partition": "test"
+    },
+    {
+      "count": 3408,
+      "metric": "V1_positive_cross_lobe_only",
+      "model": "enhancer",
+      "partition": "test"
+    },
+    {
+      "count": 12695,
+      "metric": "V1_positive_same_lobe",
+      "model": "enhancer",
+      "partition": "test"
+    },
+    {
+      "count": 26247,
+      "metric": "accessible_control_eligible",
+      "model": "enhancer",
+      "partition": "test"
+    },
+    {
+      "count": 307473,
+      "metric": "V1_control",
+      "model": "enhancer",
+      "partition": "train"
+    },
+    {
+      "count": 156789,
+      "metric": "V1_positive",
+      "model": "enhancer",
+      "partition": "train"
+    },
+    {
+      "count": 30915,
+      "metric": "V1_positive_cross_lobe_only",
+      "model": "enhancer",
+      "partition": "train"
+    },
+    {
+      "count": 125874,
+      "metric": "V1_positive_same_lobe",
+      "model": "enhancer",
+      "partition": "train"
+    },
+    {
+      "count": 243969,
+      "metric": "accessible_control_eligible",
+      "model": "enhancer",
+      "partition": "train"
+    },
+    {
+      "count": 20328,
+      "metric": "V1_control",
+      "model": "enhancer",
+      "partition": "validation"
+    },
+    {
+      "count": 8460,
+      "metric": "V1_positive",
+      "model": "enhancer",
+      "partition": "validation"
+    },
+    {
+      "count": 1829,
+      "metric": "V1_positive_cross_lobe_only",
+      "model": "enhancer",
+      "partition": "validation"
+    },
+    {
+      "count": 6631,
+      "metric": "V1_positive_same_lobe",
+      "model": "enhancer",
+      "partition": "validation"
+    },
+    {
+      "count": 16727,
+      "metric": "accessible_control_eligible",
+      "model": "enhancer",
+      "partition": "validation"
+    },
+    {
+      "count": 5902,
+      "metric": "V1_control",
+      "model": "h3k27me3",
+      "partition": "test"
+    },
+    {
+      "count": 2646,
+      "metric": "V1_positive",
+      "model": "h3k27me3",
+      "partition": "test"
+    },
+    {
+      "count": 892,
+      "metric": "V1_positive_cross_lobe_only",
+      "model": "h3k27me3",
+      "partition": "test"
+    },
+    {
+      "count": 1754,
+      "metric": "V1_positive_same_lobe",
+      "model": "h3k27me3",
+      "partition": "test"
+    },
+    {
+      "count": 40584,
+      "metric": "accessible_control_eligible",
+      "model": "h3k27me3",
+      "partition": "test"
+    },
+    {
+      "count": 51839,
+      "metric": "V1_control",
+      "model": "h3k27me3",
+      "partition": "train"
+    },
+    {
+      "count": 26326,
+      "metric": "V1_positive",
+      "model": "h3k27me3",
+      "partition": "train"
+    },
+    {
+      "count": 9194,
+      "metric": "V1_positive_cross_lobe_only",
+      "model": "h3k27me3",
+      "partition": "train"
+    },
+    {
+      "count": 17132,
+      "metric": "V1_positive_same_lobe",
+      "model": "h3k27me3",
+      "partition": "train"
+    },
+    {
+      "count": 381634,
+      "metric": "accessible_control_eligible",
+      "model": "h3k27me3",
+      "partition": "train"
+    },
+    {
+      "count": 3427,
+      "metric": "V1_control",
+      "model": "h3k27me3",
+      "partition": "validation"
+    },
+    {
+      "count": 1612,
+      "metric": "V1_positive",
+      "model": "h3k27me3",
+      "partition": "validation"
+    },
+    {
+      "count": 516,
+      "metric": "V1_positive_cross_lobe_only",
+      "model": "h3k27me3",
+      "partition": "validation"
+    },
+    {
+      "count": 1096,
+      "metric": "V1_positive_same_lobe",
+      "model": "h3k27me3",
+      "partition": "validation"
+    },
+    {
+      "count": 24081,
+      "metric": "accessible_control_eligible",
+      "model": "h3k27me3",
+      "partition": "validation"
+    }
+  ],
+  "consumed_inputs": 28,
+  "cpu_workers": 1,
+  "cross_partition_duplicate_groups": 0,
+  "distinct_ATAC_anchor_windows": 725105,
+  "duplicate_groups": 86,
+  "elapsed_seconds": 160.17198133468628,
+  "feature_columns": [
+    "interval_id",
+    "chrom",
+    "core_start",
+    "core_end",
+    "input_start",
+    "input_end",
+    "partition",
+    "v1_enhancer_positive",
+    "v1_enhancer_control",
+    "v1_h3k27me3_positive",
+    "v1_h3k27me3_control",
+    "atac_anchor_count",
+    "atac_peak_ids",
+    "atac_file_ids",
+    "atac_lobes",
+    "atac_signal_raw_max",
+    "atac_signal_percentile_max",
+    "enhancer_all_lobe_peak_support",
+    "enhancer_same_lobe_peak_support",
+    "enhancer_all_lobe_histone_file_ids",
+    "enhancer_same_lobe_histone_file_ids",
+    "enhancer_same_lobe_support_lobes",
+    "h3k27me3_all_lobe_peak_support",
+    "h3k27me3_same_lobe_peak_support",
+    "h3k27me3_all_lobe_histone_file_ids",
+    "h3k27me3_same_lobe_histone_file_ids",
+    "h3k27me3_same_lobe_support_lobes",
+    "atac_overlap_1kb",
+    "atac_overlap_2001",
+    "atac_overlap_summit",
+    "enhancer_mark_overlap_1kb",
+    "enhancer_mark_overlap_2001",
+    "enhancer_v1_positive_input_overlap",
+    "h3k27me3_mark_overlap_1kb",
+    "h3k27me3_mark_overlap_2001",
+    "h3k27me3_v1_positive_input_overlap",
+    "blacklist_bp_1kb",
+    "blacklist_bp_2001",
+    "promoter_bp_1kb",
+    "promoter_bp_2001",
+    "repeat_fraction_2001",
+    "sequence_available",
+    "sequence_length",
+    "gc_fraction",
+    "non_acgt_fraction",
+    "sequence_sha256",
+    "canonical_rc_sequence_sha256",
+    "enhancer_accessible_control_eligible",
+    "h3k27me3_accessible_control_eligible"
+  ],
+  "files": [
+    {
+      "bytes": 125556971,
+      "path": "diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/interval_features.tsv.gz",
+      "sha256": "dbf146d974802d7912b91c193e2b815882caac1d6f71ba4a4345817937260625"
+    },
+    {
+      "bytes": 23001603,
+      "path": "diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/ATAC_peak_evidence.tsv.gz",
+      "sha256": "fb8c71e4cbd0bb1e16e4080a62b18ea58533b4da56a55373da7ad6fbbd8dfb92"
+    },
+    {
+      "bytes": 1639,
+      "path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_feature_rules.json",
+      "sha256": "e3d78a7bab6abd2d622188072c4b5b439f88aa181ec52a1879ca5bf95004076f"
+    },
+    {
+      "bytes": 8244,
+      "path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_consumed_input_hashes.tsv",
+      "sha256": "3786b8409dd6bce359c41bf6a6f54e5ddb40b50f8babf20acc65c29941c0a318"
+    },
+    {
+      "bytes": 88560,
+      "path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_protected_tracked_hashes_before.tsv",
+      "sha256": "ffc0895e35e50a147021c8017f00cd31203ba36ac84ee1b14ddade3be313cca4"
+    },
+    {
+      "bytes": 2617,
+      "path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_source_inventory.tsv",
+      "sha256": "7664318cf3a0df4b9d2d59706c5b564224edbc2242bf1155e30dee6b030c0d6c"
+    },
+    {
+      "bytes": 1774,
+      "path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_feature_schema.json",
+      "sha256": "1487ee183c60397f1eb58acd3a6c89005371d4a8b44007e17bdc5df09f53e27f"
+    },
+    {
+      "bytes": 198,
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_structural_control_pool_counts.tsv",
+      "sha256": "7beae62cbc7b496fb4f90646168d21e63453c78d04551935dd8a221ffc3b6aa5"
+    },
+    {
+      "bytes": 1545,
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_feature_construction_counts.tsv",
+      "sha256": "08855c11f98f8223924413c2686e9307b48f58bf45e1abb2cbc52f5f88673d0c"
+    },
+    {
+      "bytes": 12497,
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_sequence_duplicate_audit.tsv",
+      "sha256": "f2cd6208ea40756f52a185a0a0b03db67b9b1b3f92c2b04a75481826d7f4ca06"
+    }
+  ],
+  "interval_count": 1143370,
+  "module": "COPD-V2-PREFLIGHT",
+  "peak_rss_kib": 1941532,
+  "protected_tracked_files": 522,
+  "sequence_available_count": 1143370,
+  "source_files": 9,
+  "stage": "features",
+  "status": "COMPLETE_CPU_ONLY_NO_TRAINING",
+  "training_or_inference": false
+}

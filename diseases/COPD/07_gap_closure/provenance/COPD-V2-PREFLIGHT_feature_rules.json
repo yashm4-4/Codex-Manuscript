@@ -1,0 +1,24 @@
+{
+  "V1_and_prior_modules_immutable": true,
+  "blacklist_flanks": "Audit full input; core-only filter retained to avoid an unprespecified additional exclusion",
+  "duplicate_policy": "Audit raw exact sequence and model-encoded canonical forward/RC identity across fixed chromosome partitions; normalize all nonACGT symbols to N before canonical identity, matching V1 zero encoding; do not silently reassign/drop frozen V1 examples",
+  "eligible_control": "ATAC summit anchor; original V1 core filters; no relevant all-lobe mark in ANY anchor peak or full2001bp input; no overlap with full2001bp V1 positive inputs for that model; sequence available",
+  "encoding": "Uppercase A/C/G/T one-hot; every other symbol zero; no N-based exclusion",
+  "external_benchmark_firewall": "No benchmark contents inspected; tracked benchmark files may be opaque byte-hashed for immutability only",
+  "genome": "GRCh38",
+  "initialized_utc": "2026-10-06T01:23:16.220386+00:00",
+  "input_rule": "[core_start-501,core_end+500),2001bp; preserve V1 expansion",
+  "matching_seed": 271828,
+  "module": "COPD-V2-PREFLIGHT",
+  "no_training_or_inference": true,
+  "peak_overlap": ">=1bp original ATAC peak overlap; preserve exact summit-window identity",
+  "promoter": "GENCODE v50 gene TSS +/-2000bp, strand aware, exactly V1 rule",
+  "same_lobe": "Union exact summit windows supported by ATAC and relevant mark in same lobe; no duplicate weighting",
+  "seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "signal_percentile": "Within each source ATAC file, average rank/n among canonical rows; maximum rank over identical anchor windows",
+  "stage": "features"
+}

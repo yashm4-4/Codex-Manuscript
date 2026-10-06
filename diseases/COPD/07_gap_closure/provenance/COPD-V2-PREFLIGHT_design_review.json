@@ -1,0 +1,168 @@
+{
+  "module": "COPD-V2-PREFLIGHT",
+  "experimental_version": "pretraining-1.0",
+  "reviewer": "independent preflight design-methods review agent",
+  "reviewed_utc": "2026-10-06T01:43:47.800636+00:00",
+  "methodology_review_status": "PASS",
+  "dataset_training_readiness": "NOT_READY",
+  "training_authorized": false,
+  "scope": "Review of scientific prespecification clarity, internal selection/firewall rules, documented implementation semantics, existing construction diagnostics and duplicate/count disclosures; not a replacement for the separate exhaustive source/interval validator.",
+  "interpretation": "PASS means the proposed methods, exceptions, and stop conditions are explicit and internally coherent. It does not mean the constructed datasets pass matching-readiness gates or that training may start.",
+  "external_benchmark_contents_inspected": false,
+  "model_scoring_or_training_performed": false,
+  "reviewed_artifacts": [
+    {
+      "path": "MODEL_REDESIGN_PREFLIGHT.md",
+      "sha256": "045c9628766f01e4963a8452cced38cee740f8f019a3710a15e3f8845949500e"
+    },
+    {
+      "path": "provenance/COPD-V2-PREFLIGHT_selection_specification.json",
+      "sha256": "d7c8a511d200fd2e124699b8732da71475c38132b82c4a8cbc970c751fa0d976"
+    },
+    {
+      "path": "provenance/COPD-V2-PREFLIGHT_matching_specification.json",
+      "sha256": "68e75c00526304b35c5d8a87f98134ff6a3b9d24a2f7fe13dd982cdc2a3c6aa0"
+    },
+    {
+      "path": "provenance/COPD-V2-PREFLIGHT_configuration_manifest.json",
+      "sha256": "2f765d761c4eb5b243fff614144176946b3fe2c470aae739eba4afb4aa7c6ede"
+    },
+    {
+      "path": "scripts/construct_preflight_configurations.py",
+      "sha256": "169940b967db03b1d8cb42b7a752c0293b431608b5818fdb1c784cc0eb9d4efe"
+    },
+    {
+      "path": "scripts/preflight_orientation_contract.py",
+      "sha256": "4d6f6bc1674d398037174b3b2b488544b7a294e25cc87b6e00dab39d6542ff29"
+    },
+    {
+      "path": "provenance/COPD-V2-PREFLIGHT_orientation_contract_qc.json",
+      "sha256": "1bc5b71a2fd899679be3600d7229e48826a10c6d3e60da94e692473cf50e4b2a"
+    },
+    {
+      "path": "results/COPD-V2-PREFLIGHT_matching_diagnostics.tsv",
+      "sha256": "a86835b330d692d42b0ab62033cae244d9e1f2aafa0db5f34e8324caf56dce0c"
+    },
+    {
+      "path": "results/COPD-V2-PREFLIGHT_ATAC_strength_available_denominators.tsv",
+      "sha256": "c6c598acf4a3b60242aca1eb9e367a2e66335a52c9e71fd43707dba6cbf3a6df"
+    },
+    {
+      "path": "data/COPD-V2-PREFLIGHT/selected_sequence_duplicate_audit.tsv.gz",
+      "sha256": "1d8d1b5b20170b63b8abae690917eabe031a3d8b004d96b67b5a747e1e3d57f0"
+    }
+  ],
+  "review_addendum": "After initial review, section 8 was clarified to describe assay-wide ATAC percentile construction exactly. Only the document/review changed; frozen features, matches and datasets were not modified. The revised document hash above is authoritative for this final review.",
+  "methodology_checks": [
+    {
+      "check": "assay_wide_covariate_normalization_limitation_disclosed",
+      "status": "PASS",
+      "evidence": "Section 8 now states that within-source ATAC percentiles use all canonical chromosomes, including chr7-9, and therefore are not train-fitted preprocessing. These are matching annotations, not neural-network inputs. Held-out covariate distributions contribute to construction; held-out predictive scores and performance remain unopened. A source-specific training-chromosome-only empirical CDF is a prospective approved-version improvement, not a retroactive claim or silent feature change.",
+      "readiness_effect": "This disclosed covariate-distribution use limits a strictly inductive description but is not evidence of test-performance tuning or a new automatic hard gate under the requested all-split construction/QC scope. The existing 18 matching failures continue to make the dataset NOT_READY."
+    },
+    {
+      "check": "staged_contrasts_and_identifiability",
+      "status": "PASS",
+      "evidence": "Sections 2, 4 and 17 preserve A membership, B positives and identical B/C controls in the constructed version; V1-to-A is explicitly an orientation/validation package. Conditional rematching or common-support restriction requires an approved new version and an explicitly changed estimand."
+    },
+    {
+      "check": "native_checkpoint_vs_common_selection_roles",
+      "status": "PASS",
+      "evidence": "Sections 7-10 and selection JSON separate native checkpoint-role symmetric BCE from the shared selection panel and unopened calibration controls. Global overlap/encoded-identity groups cannot cross roles."
+    },
+    {
+      "check": "common_task_comparability",
+      "status": "PASS",
+      "evidence": "Common same-lobe-positive/accessibility-control panels are fixed across A/B/C; native AUPRC is descriptive and cannot rank models across differing prevalence/labels. Common panel sample counts are adequate in number only, without waiving matching failures."
+    },
+    {
+      "check": "formal_configuration_selection",
+      "status": "PASS",
+      "evidence": "Section 10 and selection JSON define AP primary, separate AUROC/Brier guardrails, explicit superiority/equivalence/noninferiority conditions, pragmatic 0.02 margins and distinct noninferior-only results. Retaining full C requires both model contexts to be adequate and C noninferior to B; no test-based tie breaker or automatic mixed configuration."
+    },
+    {
+      "check": "bootstrap_units_and_adequacy",
+      "status": "PASS",
+      "evidence": "Bootstrap resamples represented genomic/encoded-sequence components with replacement, carries all rows and identical multiplicities across configurations, conditions on fixed matching rather than merging remote matching links, uses 2000 valid draws and explicit invalid-draw limits. Adequacy bootstraps AP minus replicate prevalence and Brier skill directly."
+    },
+    {
+      "check": "three_seed_policy_and_stability",
+      "status": "PASS",
+      "evidence": "Seeds 104729, 130363 and 155921 are fixed across all configurations/models. All three contribute equal prediction weight. Native checkpoint selection, earliest-epoch ties, explicit RNG substreams and hard seed-stability review stops preclude seed or checkpoint cherry-picking."
+    },
+    {
+      "check": "orientation_math_and_CPU_contract",
+      "status": "PASS",
+      "evidence": "Final probabilities are averaged over independently embedded forward/RC nucleotide sequences and then over all three seeds. REF/ALT identities remain separate. The CPU-only synthetic contract has 53 passing checks and zero failures; real trained-network invariance remains explicitly NOT_RUN and mandatory later."
+    },
+    {
+      "check": "threshold_leakage_and_ties",
+      "status": "PASS",
+      "evidence": "Only common chr7 calibration negatives after retained-model freeze determine the nextafter-based conservative 5% empirical FPR threshold. One-based Markdown and zero-based JSON/script formulas agree, n>=200 is required, and serialized float precision is retained. No population or two-allele-maximum 5% FPR claim is made."
+    },
+    {
+      "check": "region_allele_effect_separation_and_external_firewall",
+      "status": "PASS",
+      "evidence": "Region performance is not claimed to validate allele deltas. The historical candidate-universe 95th percentile is descriptive only; no new delta cutoff or causal list is introduced. External labels/outcomes cannot select design, thresholds or configurations, and future external opening follows model/inference/threshold freeze."
+    },
+    {
+      "check": "readiness_not_confused_with_artifact_fidelity",
+      "status": "PASS",
+      "evidence": "Opening disposition and sections 16-17 explicitly prohibit training the current freeze because matching fails. Investigator choices concern changed population/contrast design, not post-outcome seed/model tuning or gate relaxation."
+    },
+    {
+      "check": "duplicate_disclosure_verified_against_selected_manifests",
+      "status": "PASS",
+      "evidence": "Selected duplicate table contains 18 rows in 9 canonical encoded/RC groups, all train role. Intersecting their IDs with all six configuration manifests gives 18 in enhancer B, 18 in enhancer C and zero in A or H3K27me3, matching the final document."
+    },
+    {
+      "check": "ATAC_strength_missingness_disclosure",
+      "status": "PASS",
+      "evidence": "The available-denominator table confirms A enhancer control intensities observed for only 60/307473 train, 3/20328 validation and 7/34903 test; A H3K27me3 has 12/51839, 2/3427 and 3/5902. These cannot represent all-control accessibility. Final prose distinguishes them from complete interval-overlap fractions; B/C intensities are fully observed."
+    }
+  ],
+  "documented_implementation_exceptions": [
+    {
+      "topic": "nearest_neighbor_tie_scope",
+      "initial_claim": "The abbreviated matching specification states coordinate-ID tie ordering without limiting its candidate scope.",
+      "executed_semantics": "The constructor resolves equal distances within a returned cKDTree nearest-neighbor batch; a tie extending beyond the batch need not select the globally lowest coordinate ID.",
+      "synthetic_confirmation": "For 1000 equal-distance candidates generated with RNG seed 0, k=64 omitted global index 0 and returned minimum index 14.",
+      "observed_independent_audit": "The retained preliminary strict-tie validation reports 1 discrepancy among 199788 matching pairs under the stronger global lexicographic check. This finding is not erased by documenting the weaker executed semantics.",
+      "evidence": "provenance/COPD-V2-PREFLIGHT_preliminary_strict_tie_validation.tsv; matching_pairs:independent_nearest_unused_assignment",
+      "resolution": "Final Markdown and append-only matching implementation notes disclose bounded-query semantics. Selected intervals/calipers are preserved, not silently rematched. The exhaustive validator separately evaluates distance/caliper validity and records the observed tie exception."
+    },
+    {
+      "topic": "role_hash_truncation",
+      "executed_semantics": "int(SHA256('chr7-role-v1|'+component_id).hexdigest()[:16],16) modulo 4",
+      "resolution": "Selection JSON and append-only implementation notes explicitly specify the first 16 hex digits; the original abbreviated matching specification remains preserved."
+    }
+  ],
+  "independently_reconciled_readiness": {
+    "B_C_failed_balance_rows": 18,
+    "source": "results/COPD-V2-PREFLIGHT_matching_diagnostics.tsv",
+    "examples": {
+      "B_enhancer_train_GC_SMD": 0.1160187356,
+      "B_enhancer_test_GC_SMD": 0.1322332338,
+      "C_enhancer_train_GC_SMD": 0.1802271304,
+      "C_enhancer_train_repeat_SMD": -0.1233718436,
+      "C_h3k27me3_train_GC_SMD": 0.177614432,
+      "C_h3k27me3_train_repeat_SMD": -0.1108029279,
+      "C_h3k27me3_train_lower_left_proportion_gap": 0.09493856085,
+      "C_h3k27me3_train_upper_right_proportion_gap": -0.1052596224
+    },
+    "absolute_SMD_limit": 0.1,
+    "absolute_lobe_proportion_gap_limit": 0.05,
+    "conclusion": "NOT_READY: accessible donor provenance is established, but the selected covariate distributions violate the frozen gates. Passing fidelity checks cannot waive these failures."
+  },
+  "remaining_actions_requiring_approval": [
+    "Choose a separately versioned B matching/common-support/ratio correction, explicitly acknowledging any change to the full V1-positive contrast.",
+    "Choose whether to authorize C-specific rematching, explicitly treating its comparison as label change plus induced control-rematching rather than a pure label-only effect.",
+    "Require replacement audited data/rule freeze before considering separate GPU authorization; current freeze cannot be trained as a clean matched experiment."
+  ],
+  "not_certified_by_this_review": [
+    "The current dataset is not training-ready.",
+    "No actual trained-network invariance, region predictive performance or allele-effect validity has been established.",
+    "The review does not approve the pragmatic margins as uniquely optimal or clinically meaningful.",
+    "The separate exhaustive final source/interval validation and final artifact checksum ledger remain authoritative for their own scopes."
+  ]
+}

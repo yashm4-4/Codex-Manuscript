@@ -1,0 +1,358 @@
+{
+  "B_C_balance_failures": [
+    {
+      "SMD": 0.11601873556180281,
+      "configuration": "V2-B",
+      "control_mean": 0.46434053005126247,
+      "control_n": 146031,
+      "model": "enhancer",
+      "partition": "train",
+      "positive_mean": 0.47275712225762323,
+      "positive_n": 156789,
+      "status": "FAIL",
+      "variable": "gc_fraction"
+    },
+    {
+      "SMD": 0.13223323379105484,
+      "configuration": "V2-B",
+      "control_mean": 0.45982170247817533,
+      "control_n": 15093,
+      "model": "enhancer",
+      "partition": "test",
+      "positive_mean": 0.46951376823429797,
+      "positive_n": 16103,
+      "status": "FAIL",
+      "variable": "gc_fraction"
+    },
+    {
+      "SMD": 0.18022713040392202,
+      "configuration": "V2-C",
+      "control_mean": 0.46434053005126247,
+      "control_n": 146031,
+      "model": "enhancer",
+      "partition": "train",
+      "positive_mean": 0.4775038478179179,
+      "positive_n": 125874,
+      "status": "FAIL",
+      "variable": "gc_fraction"
+    },
+    {
+      "SMD": -0.12337184364708433,
+      "configuration": "V2-C",
+      "control_mean": 0.34564939455792165,
+      "control_n": 146031,
+      "model": "enhancer",
+      "partition": "train",
+      "positive_mean": 0.31728190673748974,
+      "positive_n": 125874,
+      "status": "FAIL",
+      "variable": "repeat_fraction_2001"
+    },
+    {
+      "SMD": 0.12223334637440555,
+      "configuration": "V2-C",
+      "control_mean": 0.46258061186095173,
+      "control_n": 8259,
+      "model": "enhancer",
+      "partition": "validation",
+      "positive_mean": 0.4718875669986729,
+      "positive_n": 6631,
+      "status": "FAIL",
+      "variable": "gc_fraction"
+    },
+    {
+      "SMD": 0.202790791772313,
+      "configuration": "V2-C",
+      "control_mean": 0.45982170247817533,
+      "control_n": 15093,
+      "model": "enhancer",
+      "partition": "test",
+      "positive_mean": 0.47487071745640014,
+      "positive_n": 12695,
+      "status": "FAIL",
+      "variable": "gc_fraction"
+    },
+    {
+      "SMD": -0.12621303676225323,
+      "configuration": "V2-C",
+      "control_mean": 0.34044178467364383,
+      "control_n": 15093,
+      "model": "enhancer",
+      "partition": "test",
+      "positive_mean": 0.31268304406329384,
+      "positive_n": 12695,
+      "status": "FAIL",
+      "variable": "repeat_fraction_2001"
+    },
+    {
+      "SMD": 0.177614431994936,
+      "configuration": "V2-C",
+      "control_mean": 0.5346371038930624,
+      "control_n": 26162,
+      "model": "h3k27me3",
+      "partition": "train",
+      "positive_mean": 0.547899643454261,
+      "positive_n": 17132,
+      "status": "FAIL",
+      "variable": "gc_fraction"
+    },
+    {
+      "SMD": -0.11080292788078065,
+      "configuration": "V2-C",
+      "control_mean": 0.27446799496117413,
+      "control_n": 26162,
+      "model": "h3k27me3",
+      "partition": "train",
+      "positive_mean": 0.24970491056194077,
+      "positive_n": 17132,
+      "status": "FAIL",
+      "variable": "repeat_fraction_2001"
+    },
+    {
+      "configuration": "V2-C",
+      "control_mean": 0.32054124302423365,
+      "control_n": 26162,
+      "model": "h3k27me3",
+      "partition": "train",
+      "positive_mean": 0.415479803875788,
+      "positive_n": 17132,
+      "proportion_gap": 0.09493856085155433,
+      "status": "FAIL",
+      "variable": "atac_lobes=lower_left"
+    },
+    {
+      "configuration": "V2-C",
+      "control_mean": 0.3362892745202966,
+      "control_n": 26162,
+      "model": "h3k27me3",
+      "partition": "train",
+      "positive_mean": 0.2310296521130049,
+      "positive_n": 17132,
+      "proportion_gap": -0.1052596224072917,
+      "status": "FAIL",
+      "variable": "atac_lobes=upper_right"
+    },
+    {
+      "SMD": 0.1678531781789737,
+      "configuration": "V2-C",
+      "control_mean": 0.5439584772961226,
+      "control_n": 1599,
+      "model": "h3k27me3",
+      "partition": "validation",
+      "positive_mean": 0.5568032589539234,
+      "positive_n": 1096,
+      "status": "FAIL",
+      "variable": "gc_fraction"
+    },
+    {
+      "SMD": -0.12319554700271726,
+      "configuration": "V2-C",
+      "control_mean": 0.2493384327242289,
+      "control_n": 1599,
+      "model": "h3k27me3",
+      "partition": "validation",
+      "positive_mean": 0.2218589610304918,
+      "positive_n": 1096,
+      "status": "FAIL",
+      "variable": "repeat_fraction_2001"
+    },
+    {
+      "configuration": "V2-C",
+      "control_mean": 0.3070669168230144,
+      "control_n": 1599,
+      "model": "h3k27me3",
+      "partition": "validation",
+      "positive_mean": 0.3914233576642336,
+      "positive_n": 1096,
+      "proportion_gap": 0.08435644084121918,
+      "status": "FAIL",
+      "variable": "atac_lobes=lower_left"
+    },
+    {
+      "configuration": "V2-C",
+      "control_mean": 0.33458411507191993,
+      "control_n": 1599,
+      "model": "h3k27me3",
+      "partition": "validation",
+      "positive_mean": 0.2545620437956204,
+      "positive_n": 1096,
+      "proportion_gap": -0.08002207127629951,
+      "status": "FAIL",
+      "variable": "atac_lobes=upper_right"
+    },
+    {
+      "SMD": 0.14534558807619014,
+      "configuration": "V2-C",
+      "control_mean": 0.5340393343419819,
+      "control_n": 2644,
+      "model": "h3k27me3",
+      "partition": "test",
+      "positive_mean": 0.5455718548940136,
+      "positive_n": 1754,
+      "status": "FAIL",
+      "variable": "gc_fraction"
+    },
+    {
+      "configuration": "V2-C",
+      "control_mean": 0.32488653555219366,
+      "control_n": 2644,
+      "model": "h3k27me3",
+      "partition": "test",
+      "positive_mean": 0.40992018244013684,
+      "positive_n": 1754,
+      "proportion_gap": 0.08503364688794318,
+      "status": "FAIL",
+      "variable": "atac_lobes=lower_left"
+    },
+    {
+      "configuration": "V2-C",
+      "control_mean": 0.3332072617246596,
+      "control_n": 2644,
+      "model": "h3k27me3",
+      "partition": "test",
+      "positive_mean": 0.24002280501710377,
+      "positive_n": 1754,
+      "proportion_gap": -0.09318445670755582,
+      "status": "FAIL",
+      "variable": "atac_lobes=upper_right"
+    }
+  ],
+  "GPU_model_execution": false,
+  "artifact_checks": 2225,
+  "artifact_failures": 0,
+  "artifact_validation_status": "PASS",
+  "benchmark_content_parsing": false,
+  "completed_utc": "2026-10-06T01:49:03.657267+00:00",
+  "configuration_count": 6,
+  "consumed_files_hash_verified": 28,
+  "documented_equal_distance_tie_scope_exceptions": 1,
+  "elapsed_seconds": 276.84423208236694,
+  "failure_details": [],
+  "master_intervals_independently_source_and_sequence_checked": 1143370,
+  "module": "COPD-V2-PREFLIGHT",
+  "outputs": [
+    {
+      "bytes": 333997,
+      "path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_final_validation.tsv",
+      "sha256": "b086b2345251bfeda787285c8d96ee5e91657eb83b1975fea48e5f81be283a7c"
+    },
+    {
+      "bytes": 1471,
+      "path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_training_readiness.tsv",
+      "sha256": "5780dce4bdcd6b075e86fbbaea100ccf38105510924d0b394e8f8878bb997c1b"
+    },
+    {
+      "bytes": 2466,
+      "path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_matching_tie_contract_audit.json",
+      "sha256": "40662821af6e6066b7df0eb18acd83de24822c64a40a95c3a49e9a907eedbae5"
+    }
+  ],
+  "peak_rss_kib": 9288328,
+  "planned_fit_count": 18,
+  "protected_files_opaque_hash_verified": 522,
+  "real_network_invariance": "NOT_RUN; no training/inference authorized",
+  "selected_unique_intervals": 780226,
+  "training_readiness": "BLOCKED_NOT_AUTHORIZED",
+  "training_readiness_conditions": [
+    {
+      "condition": "enhancer:B_matching_fraction_at_least_0.90",
+      "observed": "0.9340012792800741",
+      "required": "0.9",
+      "status": "SATISFIED"
+    },
+    {
+      "condition": "h3k27me3:B_matching_fraction_at_least_0.90",
+      "observed": "0.9941472665445985",
+      "required": "0.9",
+      "status": "SATISFIED"
+    },
+    {
+      "condition": "enhancer:common_calibration_at_least_200_controls",
+      "observed": "1944",
+      "required": "200",
+      "status": "SATISFIED"
+    },
+    {
+      "condition": "enhancer:common_selection_class_and_component_minima",
+      "observed": "{'positive': 1755, 'control': 2171, 'components': 1405}",
+      "required": "100+/200-/30 components",
+      "status": "SATISFIED"
+    },
+    {
+      "condition": "h3k27me3:common_calibration_at_least_200_controls",
+      "observed": "391",
+      "required": "200",
+      "status": "SATISFIED"
+    },
+    {
+      "condition": "h3k27me3:common_selection_class_and_component_minima",
+      "observed": "{'positive': 271, 'control': 379, 'components': 303}",
+      "required": "100+/200-/30 components",
+      "status": "SATISFIED"
+    },
+    {
+      "condition": "V2-A:enhancer:sequence_available_2001bp",
+      "observed": "{'unavailable': 0, 'wrong_length': 0}",
+      "required": "",
+      "status": "SATISFIED"
+    },
+    {
+      "condition": "V2-B:enhancer:sequence_available_2001bp",
+      "observed": "{'unavailable': 0, 'wrong_length': 0}",
+      "required": "",
+      "status": "SATISFIED"
+    },
+    {
+      "condition": "V2-C:enhancer:sequence_available_2001bp",
+      "observed": "{'unavailable': 0, 'wrong_length': 0}",
+      "required": "",
+      "status": "SATISFIED"
+    },
+    {
+      "condition": "V2-A:h3k27me3:sequence_available_2001bp",
+      "observed": "{'unavailable': 0, 'wrong_length': 0}",
+      "required": "",
+      "status": "SATISFIED"
+    },
+    {
+      "condition": "V2-B:h3k27me3:sequence_available_2001bp",
+      "observed": "{'unavailable': 0, 'wrong_length': 0}",
+      "required": "",
+      "status": "SATISFIED"
+    },
+    {
+      "condition": "V2-C:h3k27me3:sequence_available_2001bp",
+      "observed": "{'unavailable': 0, 'wrong_length': 0}",
+      "required": "",
+      "status": "SATISFIED"
+    },
+    {
+      "condition": "no_selected_cross_partition_encoded_sequence_duplicates",
+      "observed": "0",
+      "required": "0",
+      "status": "SATISFIED"
+    },
+    {
+      "condition": "no_selected_component_spans_chromosome_partitions",
+      "observed": "0",
+      "required": "0",
+      "status": "SATISFIED"
+    },
+    {
+      "condition": "all_B_C_prespecified_balance_gates",
+      "observed": "18",
+      "required": "0",
+      "status": "BLOCKED"
+    },
+    {
+      "condition": "investigator_training_authorization",
+      "observed": "Not requested or granted by this preflight",
+      "required": "Explicit investigator approval after review",
+      "status": "BLOCKED"
+    }
+  ],
+  "validator": {
+    "path": "diseases/COPD/07_gap_closure/scripts/validate_model_redesign_preflight.py",
+    "sha256": "034fcd95c62dc07bef45b92888530d3686421d790c68bb13854c557b72f95a67"
+  }
+}

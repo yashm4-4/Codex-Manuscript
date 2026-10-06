@@ -1,0 +1,76 @@
+{
+  "module": "COPD-V2-PREFLIGHT",
+  "version": "pretraining-1.0",
+  "record_type": "post_freeze_publication_metadata",
+  "date_utc": "2026-10-06",
+  "baseline_commit": "ae83856e35945073047b4ea6c40e19d4acf31b00",
+  "target_repository": "https://github.com/yashm4-4/Codex-Manuscript.git",
+  "target_branch": "main",
+  "authorization": "Publish only the completed preflight/data-construction artifacts and updated V2 registers; no GPU training or new V2 analysis.",
+  "publication_state_at_commit": "Prepared for commit and push; final commit SHA and remote confirmation are reported separately.",
+  "frozen_status_preserved": "FROZEN_REVIEW_ONLY_TRAINING_BLOCKED",
+  "frozen_artifacts_changed": false,
+  "analysis_or_validation_scripts_rerun_for_publication": false,
+  "GPU_work_launched": false,
+  "other_V2_analysis_started": false,
+  "original_freeze": {
+    "path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_freeze.json",
+    "sha256": "2d022d19b4fbdd485d0762c0946519334e654b1de0581c5075758b7550d15fcb",
+    "historical_publication_statement": "The original freeze's no-commit/no-push statement describes the completed analysis phase and is intentionally unchanged by this later publication request."
+  },
+  "original_checksum_ledger": {
+    "path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_artifact_checksums.tsv",
+    "sha256": "7a6440c17be3374e5b4732c0bd6a5450fa61b74e4849e99a19b856a02e9e5055",
+    "payload_count": 100,
+    "payload_bytes": 389278293,
+    "publication_byte_integrity_check": "PASS: all 100 frozen payload SHA-256 checksums match; original ledger and freeze hashes also match."
+  },
+  "existing_scientific_QC_not_rerun": {
+    "artifact_checks_passed": 2225,
+    "ancillary_checks_passed": 639,
+    "matching_balance_failures_preserved": 18,
+    "training_readiness": "NOT READY FOR TRAINING"
+  },
+  "exact_byte_large_file_storage": {
+    "method": "Git LFS; original working-tree path and compressed file bytes are unchanged",
+    "path": "diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/interval_features.tsv.gz",
+    "bytes": 125556971,
+    "sha256_and_LFS_oid": "dbf146d974802d7912b91c193e2b815882caac1d6f71ba4a4345817937260625",
+    "attributes_path": ".gitattributes",
+    "attributes_sha256": "59a68d078a9c3bdedd1abd0095e326ca002b2feb6240b5146f1df3f6fad04e65",
+    "scope": "Only this exact path is LFS-managed; no prior Git history is rewritten.",
+    "checkout_requirement": "Use a Git LFS-enabled clone, then git lfs pull, before checking the original payload ledger. A Git pointer alone is not the frozen data file."
+  },
+  "append_only_shared_V2_register_updates": [
+    {
+      "path": "diseases/COPD/07_gap_closure/activity_log.tsv",
+      "baseline_sha256": "1189c65f7f2c16510f648e8bdf7746106660df84094ed96560f7a1e9b5f18d31",
+      "publication_sha256": "f8b8a62056d34d3b2a87aac281e582c39d35c21b10169e56e22400ca4fed8bbc",
+      "rows_appended": 3,
+      "new_ids": ["COPD-V2-ACT-021", "COPD-V2-ACT-022", "COPD-V2-ACT-023"]
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/gap_closure_decision_register.tsv",
+      "baseline_sha256": "586ca697f288e3f152236cf85ca9970e6f0621760de9eb50eb6af7e4ffa3da5e",
+      "publication_sha256": "08ca9142be47dcc1e38504404ff0418e5cfc705850dfdc15f7f2bd1564a37a49",
+      "rows_appended": 3,
+      "new_ids": ["COPD-V2-DEC-033", "COPD-V2-DEC-034", "COPD-V2-DEC-035"]
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/gap_closure_result_register.tsv",
+      "baseline_sha256": "552e0c80fad06047a2a8169b3187865f2b376624728e83c4885bb82dad4d6932",
+      "publication_sha256": "4ec3fde6e70741be07a3c955a354bfef6e7ee03a54ea5e8284be0f53664756a1",
+      "rows_appended": 8,
+      "new_ids": ["COPD-V2-PREFLIGHT-REPORT-001", "COPD-V2-PREFLIGHT-DESIGN-001", "COPD-V2-PREFLIGHT-DATA-001", "COPD-V2-PREFLIGHT-AUDIT-001", "COPD-V2-PREFLIGHT-COMPUTE-001", "COPD-V2-PREFLIGHT-QC-001", "COPD-V2-PREFLIGHT-FREEZE-001", "COPD-V2-PREFLIGHT-PUBLICATION-001"]
+    }
+  ],
+  "commit_scope": {
+    "original_frozen_files": 102,
+    "new_publication_metadata_files": [".gitattributes", "diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_publication_manifest.json"],
+    "existing_shared_registers_appended": 3,
+    "total_changed_paths": 107,
+    "unrelated_files_included": false,
+    "original_freeze_ledgers_regenerated": false,
+    "self_hash_policy": "This post-freeze metadata file is covered by the Git commit object, not added retroactively to the immutable scientific checksum ledger."
+  }
+}

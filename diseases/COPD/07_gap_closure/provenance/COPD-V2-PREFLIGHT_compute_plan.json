@@ -1,0 +1,33 @@
+{
+  "CPU_preflight_reproduction_request": {
+    "CPUs": 8,
+    "RAM_GiB": 16,
+    "walltime_hours": 1
+  },
+  "actual_CPU_configuration_stage_seconds": 142.7171950340271,
+  "actual_CPU_feature_peak_RSS_KiB": 1941532,
+  "actual_CPU_feature_stage_seconds": 160.17198133468628,
+  "cache_release_rule": "Do not compute test model scores before retained-model freeze; construct/cache train/chr7 first, defer final-test execution. Cache shape known without extracting any representation.",
+  "conservative_total_GPU_hours": [
+    12,
+    24
+  ],
+  "cost_uncertainty": "Linear count scaling of original logged epoch times is an estimate, not a measured V2 fit; symmetric validation, I/O, cache extraction and implementation overhead are budgeted conservatively. No historical MaxRSS was recovered.",
+  "estimated_execution_walltime_hours_excluding_queue": [
+    4,
+    8
+  ],
+  "future_feature_cache_GiB": 26.50759756565094,
+  "future_feature_cache_bytes_for_all_unique_selected_sequences_both_orientations": 28462316160,
+  "future_per_fit_CPUs": 8,
+  "future_per_fit_RAM_GiB": 48,
+  "local_scratch_budget_GiB": 120,
+  "max_concurrent_fits": 4,
+  "n_fits": 18,
+  "one_A100_per_fit": true,
+  "readiness": "NOT_READY_MATCHING_GATES_FAILED",
+  "scaled_fit_only_GPU_hours": 5.800821611133834,
+  "sum_requested_walltime_caps_GPU_hours": 72,
+  "training_authorized": false,
+  "training_started": false
+}

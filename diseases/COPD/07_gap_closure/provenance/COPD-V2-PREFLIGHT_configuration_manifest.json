@@ -1,0 +1,77 @@
+{
+  "B_C_balance_failures": 18,
+  "all_master_intervals": 1143370,
+  "benchmark_outcomes_read": false,
+  "configuration_registry": [
+    {
+      "configuration": "V2-A",
+      "control": 362704,
+      "manifest": "diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/configurations/V2-A_enhancer_interval_manifest.tsv.gz",
+      "model": "enhancer",
+      "n_intervals": 544056,
+      "positive": 181352,
+      "sha256": "83d35eef432231f259b1ec6f89bf3e09fb25a5b6f63faa56eb3e93ceb0a1ec66"
+    },
+    {
+      "configuration": "V2-B",
+      "control": 169383,
+      "manifest": "diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/configurations/V2-B_enhancer_interval_manifest.tsv.gz",
+      "model": "enhancer",
+      "n_intervals": 350735,
+      "positive": 181352,
+      "sha256": "28acc14d63c26f81218476e20123650824509c0b808c5c0c6b7e5508f8c461b2"
+    },
+    {
+      "configuration": "V2-C",
+      "control": 169383,
+      "manifest": "diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/configurations/V2-C_enhancer_interval_manifest.tsv.gz",
+      "model": "enhancer",
+      "n_intervals": 314583,
+      "positive": 145200,
+      "sha256": "6e547e602c8e630ab3b975efd96a13b24ff4b4c2b4022135c6c6ec5ecb516a33"
+    },
+    {
+      "configuration": "V2-A",
+      "control": 61168,
+      "manifest": "diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/configurations/V2-A_h3k27me3_interval_manifest.tsv.gz",
+      "model": "h3k27me3",
+      "n_intervals": 91752,
+      "positive": 30584,
+      "sha256": "9bb823a5ae44c836abf078ad7ee28b3136f99924a7202a9f4841113c7d98e0b9"
+    },
+    {
+      "configuration": "V2-B",
+      "control": 30405,
+      "manifest": "diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/configurations/V2-B_h3k27me3_interval_manifest.tsv.gz",
+      "model": "h3k27me3",
+      "n_intervals": 60989,
+      "positive": 30584,
+      "sha256": "6c6b19413922aacca227defa8def6775a1706184372be1e49bdd8a324ada6752"
+    },
+    {
+      "configuration": "V2-C",
+      "control": 30405,
+      "manifest": "diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/configurations/V2-C_h3k27me3_interval_manifest.tsv.gz",
+      "model": "h3k27me3",
+      "n_intervals": 50387,
+      "positive": 19982,
+      "sha256": "998a320875880628f8ab31af3e2c2259cf543f65f453dcd621f66b5fb4fe0350"
+    }
+  ],
+  "cross_partition_selected_duplicate_groups": 0,
+  "elapsed_seconds": 142.7171950340271,
+  "future_two_orientation_feature_cache_bytes": 28462316160,
+  "matched_controls": {
+    "enhancer": 169383,
+    "h3k27me3": 30405
+  },
+  "matching_rules_sha256": "68e75c00526304b35c5d8a87f98134ff6a3b9d24a2f7fe13dd982cdc2a3c6aa0",
+  "model_inference_performed": false,
+  "selected_unique_intervals": 780226,
+  "training_started": false,
+  "unique_selected_encoded_sequences": 780217,
+  "unmatched_positive_targets": {
+    "enhancer": 11969,
+    "h3k27me3": 179
+  }
+}

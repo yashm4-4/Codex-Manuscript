@@ -1,0 +1,198 @@
+{
+  "module": "COPD-V2-PREFLIGHT",
+  "experimental_version": "pretraining-1.0",
+  "scope": "Design and CPU data construction only; no model inference, phase-I extraction, training, job submission, candidate ranking or external benchmark evaluation.",
+  "training_authorized": false,
+  "training_readiness": "BLOCKED_BY_PRESPECIFIED_MATCHING_GATES",
+  "configurations": [
+    "V2-A",
+    "V2-B",
+    "V2-C"
+  ],
+  "models": [
+    "enhancer",
+    "h3k27me3"
+  ],
+  "seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "n_planned_fits": 18,
+  "phase_I_weights_sha256": "483b6c0cafd750ea8e97932cbc8a949276eaf1e77e7d8766f9a22eeddc2916d6",
+  "architecture_source": "provenance/COPD-V2-PREFLIGHT_architecture_compute_audit.json",
+  "training": {
+    "phase_I": "frozen inference-mode representation; never random fallback",
+    "phase_II": "independent initialization using fixed seed, unchanged V1 architecture",
+    "loss": "unweighted binary crossentropy",
+    "optimizer": "Adadelta",
+    "learning_rate": 0.001,
+    "rho": 0.95,
+    "epsilon": 1e-7,
+    "batch_size": 256,
+    "max_epochs": 50,
+    "early_stopping_patience": 15,
+    "min_delta": 0,
+    "class_weights": null,
+    "optimizer_search": false,
+    "mixed_precision": false,
+    "jit_compile": false,
+    "software": "Preserve original TF2.20.0/Keras3.14.1 environment captured in architecture audit; exact environment must be checked before any later approved execution."
+  },
+  "augmentation": {
+    "views_per_interval_per_epoch": 1,
+    "reverse_complement_probability": 0.5,
+    "epoch_index": "zero-based",
+    "input_order": "frozen genomic coordinate ordering",
+    "shuffle_rng": "numpy.random.default_rng(numpy.random.SeedSequence([training_seed,1,epoch]))",
+    "orientation_rng": "numpy.random.default_rng(numpy.random.SeedSequence([training_seed,2,epoch]))",
+    "cache": "g(forward nucleotide sequence) and g(RC nucleotide sequence) independently; never reverse 4560-dimensional embedding"
+  },
+  "inference": {
+    "per_seed": "(p_forward+p_reverse_complement)/2",
+    "seed_aggregation": "equal-weight arithmetic mean of all3 seeds in fixed seed order",
+    "reduction_dtype": "float64",
+    "dropout": false,
+    "batch_norm_updates": false,
+    "ref_alt_identity": "complement independently, do not exchange REF and ALT",
+    "atol": 0.000001,
+    "rtol": 0.000001,
+    "real_network_numeric_gate": "NOT_RUN_REQUIRED_AFTER_TRAINING"
+  },
+  "checkpoint": {
+    "data": "configuration-native labels and controls on global chr7 checkpoint-role IDs only",
+    "objective": "minimum symmetric-inference BCE",
+    "tie_breaker": "earliest epoch",
+    "selection_role_access": false,
+    "calibration_role_access": false,
+    "test_access": false,
+    "external_access": false
+  },
+  "validation_roles": {
+    "chr": "chr7",
+    "unit": "global full2001bp overlap components unioned by encoded-sequence/RC identity",
+    "rule": "SHA256(chr7-role-v1|component_id) first16 hex modulo4",
+    "assignment": {
+      "0": "checkpoint",
+      "1": "checkpoint",
+      "2": "selection",
+      "3": "calibration"
+    },
+    "matching_pair_roles": "identical by exact stratum; no role-specific outcomes used"
+  },
+  "selection": {
+    "panel": "same frozen common challenge panel for all configurations, each model separately",
+    "primary": "average_precision_score stepwise AP",
+    "guardrails": [
+      "AUROC",
+      "Brier"
+    ],
+    "omnibus_score": false,
+    "margins": {
+      "AP": 0.02,
+      "AUROC": 0.02,
+      "Brier": 0.02
+    },
+    "margin_status": "pragmatic proposed pretraining tolerances for investigator approval, not data/outcome optimized",
+    "bootstrap": {
+      "seed": 314159,
+      "valid_replicates": 2000,
+      "max_attempts": 20000,
+      "max_invalid_fraction_exclusive": 0.1,
+      "unit": "global genomic overlap/encoded-sequence component, conditional on fixed matching design; not matching links between distant loci",
+      "paired": "same resampled component IDs and multiplicities across model predictions",
+      "resample": "sample represented component IDs with replacement, same number of components as observed; carry all component rows",
+      "invalid": "one-class draw or undefined metric; no imputation",
+      "CI95_percentiles": [
+        2.5,
+        97.5
+      ],
+      "CI90_percentiles": [
+        5,
+        95
+      ]
+    },
+    "minimum_selection": {
+      "positive": 100,
+      "control": 200,
+      "components": 30
+    },
+    "superiority": "lower95(delta_AP)>0 AND point(delta_AP)>=0.02 AND lower95(delta_AUROC)>=-0.02 AND upper95(delta_Brier)<=0.02",
+    "equivalence": "entire90CI for each of delta_AP, delta_AUROC, delta_Brier lies inside[-0.02,0.02]",
+    "noninferiority": "lower95(delta_AP)>=-0.02 AND lower95(delta_AUROC)>=-0.02 AND upper95(delta_Brier)<=0.02",
+    "adequacy": "construction gates PASS; all3 seeds complete; real-network invariance PASS; lower95(AUROC)>0.5; lower95(AP minus replicate prevalence)>0; lower95(BrierSkill)>0",
+    "brier_skill": "1 - Brier/[replicate_prevalence*(1-replicate_prevalence)]",
+    "seed_stability_hard_stop": {
+      "AP_sample_SD_gt": 0.03,
+      "AP_range_gt": 0.1
+    },
+    "reliability": "ten fixed bins [0,.1),...,[.9,1]; descriptive, no fitted recalibration",
+    "stratification": "GC quintiles, ATAC-rank quintiles, repeat quintiles using TRAIN positive cutpoints only; lobe support, chromosome, ambiguous-base status; cells<100 observations descriptive only",
+    "retention": "Retain whole V2-C only if BOTH model contexts adequate and C noninferior to B. Superior/equivalent/noninferior are distinct labels. Otherwise stop; no automatic mixed configuration or fallback to known-defective A/B.",
+    "test_or_external_tiebreaker": false
+  },
+  "threshold": {
+    "data": "only common chr7-calibration negative-control distribution after retained model and ensemble freeze",
+    "target_empirical_FPR": 0.05,
+    "minimum_controls": 200,
+    "formula": "k=floor(0.05*n); d=descending negative scores; t=nextafter(d[k] in zero-based indexing,+infinity)",
+    "call": "score>=t",
+    "tie_policy": "conservative, may achieve less than5%",
+    "storage": [
+      "float.hex()",
+      "17-significant-digit decimal"
+    ],
+    "test_recalibration": false,
+    "variant_FPR_guarantee": false
+  },
+  "candidate_plan": {
+    "execute_now": false,
+    "fields": [
+      "per-seed per-orientation REF",
+      "per-seed per-orientation ALT",
+      "Q_REF",
+      "Q_ALT",
+      "max(Q_REF,Q_ALT)",
+      "Q_ALT-Q_REF",
+      "seed_SD_ddof1",
+      "seed_range",
+      "orientation_invariance",
+      "region_threshold_status"
+    ],
+    "binary_causal_list": false,
+    "allele_delta_cutoff": null,
+    "historical_V1_P95": "historical descriptive comparator only, not calibrated allele-effect FDR"
+  },
+  "external_firewall": {
+    "version": "COPD-V2-BENCH1.0",
+    "permitted_pretraining_access": "opaque file hashing only; no parsed benchmark outcomes/labels",
+    "model_design_sources": [
+      "frozen V1 architecture/data",
+      "independent RC diagnostic",
+      "control-source issue",
+      "same-lobe provenance",
+      "internal validation principles"
+    ],
+    "open_once_only_after": "retained configuration, checkpoints, all3seeds, inference, threshold and selection record frozen; no redesign after external outcome"
+  },
+  "stop_conditions": [
+    "input/hash drift",
+    "benchmark outcome access",
+    "missing frozen phase-I weights",
+    "sequence/geometry failure",
+    "B/C negative known-positive-mark overlap",
+    "cross-partition duplicate leakage",
+    "chr7role leakage",
+    "matching balance or support gates fail",
+    "same-lobe provenance inconsistency",
+    "insufficient selection/calibration support",
+    "later seed instability or real-network invariance failure"
+  ],
+  "conditional_not_launched": [
+    "C-specific control rematching to restore same-lobe covariate/source balance, explicitly estimating label-plus-induced-rematching contrast",
+    "B common-support restriction or revised ratio/algorithm, only after investigator accepts changed estimand/design",
+    "new model family only after corrected internal design remains inadequate",
+    "independent allele-effect calibration protocol"
+  ],
+  "implementation_note": "This is an immutable proposal/data-construction snapshot, not a training-ready approval. No model-performance outcome was generated or used."
+}

@@ -1,0 +1,39 @@
+{
+  "B_C_controls": "identical selected control IDs; C differs only by same-lobe positive restriction; audit balance against both positive sets",
+  "bootstrap_seed": 314159,
+  "bootstrap_unit": "global genomic overlap/encoded-sequence component; matching links are design links, not biological shared-sample units; condition on frozen matching design",
+  "chr7_roles": "union full2001bp-overlap components with encoded-sequence/RC duplicate equivalence; SHA256(chr7-role-v1|component_id) modulo4:0,1 checkpoint;2 selection;3 calibration",
+  "exact_strata": [
+    "chrom",
+    "validation_role",
+    "atac_lobes",
+    "blacklist_input_any",
+    "non_acgt_any"
+  ],
+  "hard_balance_limits": {
+    "absolute_SMD": 0.1,
+    "absolute_chromosome_proportion_gap": 0.02,
+    "absolute_lobe_signature_proportion_gap": 0.05,
+    "minimum_B_matching_fraction": 0.9
+  },
+  "implementation_sha256": "169940b967db03b1d8cb42b7a752c0293b431608b5818fdb1c784cc0eb9d4efe",
+  "input_feature_sha256": "dbf146d974802d7912b91c193e2b815882caac1d6f71ba4a4345817937260625",
+  "matching": "deterministic greedy nearest Chebyshev distance on GC/.05, within-source ATAC signal percentile/.20, repeat fraction/.20; require all three absolute calipers",
+  "matching_seed": 271828,
+  "no_benchmark_outcome_access": true,
+  "no_model_inference": true,
+  "no_training": true,
+  "positive_processing_order": "SHA256(271828|model|interval_id), ascending; candidate coordinate-ID order resolves ties",
+  "positive_subsampling": false,
+  "ratio_rationale": "Enhancer eligible pool286943 is less than2*181352; use a prespecified common1:1 target for both models, without replacement, without dropping positives or fabricating controls.",
+  "recorded_before_matching_utc": "2026-10-06T01:28:54.596152+00:00",
+  "requested_controls_per_B_positive": 1,
+  "training_seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "unmatched_positive_policy": "retain all V1 positives; no outside-caliper rescue; report every unmatched positive and realized ratio",
+  "version": "pretraining-1.0",
+  "without_replacement": true
+}
