@@ -1,0 +1,63 @@
+{
+  "B_C": "Independently constructed controls. B-to-C is same-lobe label correction plus induced control rematching, not a pure label-only experiment.",
+  "attempt_id": "001_full_population",
+  "balance_gates": {
+    "absolute_ATAC_lobe_signature_proportion_gap": 0.05,
+    "absolute_SMD": 0.1,
+    "absolute_chromosome_proportion_gap": 0.02,
+    "absolute_each_lobe_support_proportion_gap": 0.05
+  },
+  "canonical_coordinate_order": "chromosome ordinal chr1..chr22,chrX,chrY; numeric core_start; numeric core_end; interval_id lexicographic",
+  "control_eligibility": "Unchanged frozen 1.0 donor-ATAC/full-input-mark/known-positive/core-blacklist/core-TSS/sequence eligibility. No duplicated controls within a configuration/model.",
+  "exchange": {
+    "accept": "Scan the globally ordered proposals and accept a swap only if actual recomputed quadratic loss strictly decreases by >1e-15; accept at most 256 per round, then refresh the gradient. Stop immediately when all five actual role-specific |SMD|<=.10.",
+    "failure": "Keep the failed attempt. No silent parameter/gate modification or model-based tuning.",
+    "loss": "sum of squared standardized control-minus-positive mean residuals",
+    "max_accepted_per_round": 256,
+    "max_rounds": 200,
+    "round": "Freeze residual gradient. Within every exchange group, globally order selected controls by descending gradient projection (coordinate tie) and unused controls by ascending projection (coordinate tie). Pair these two complete ordered lists by rank up to the shorter length. Globally order all resulting disjoint proposals by (linear loss derivative, removed coordinate rank, added coordinate rank). This explicit proposal family is a heuristic, not a claim of globally optimal Cartesian swaps.",
+    "scale": "positive sample SD / sqrt(2); if zero, use same-role eligible-pool sample SD / sqrt(2). If both zero and equal means, assign unit scale to the identically-zero coordinate; unequal constants reject the attempt. This numerical loss scale never replaces actual SMD gates.",
+    "scope": "Each validation_role independently; swaps preserve control counts within exact chromosome x ATAC lobe signature.",
+    "tie_rule": "Every projection/derivative tie uses the full global canonical coordinate order; candidate ranking is never truncated before tie resolution.",
+    "variables": [
+      "gc_fraction",
+      "atac_signal_percentile_max_train_only",
+      "repeat_fraction_2001",
+      "blacklist_input_any",
+      "non_acgt_any"
+    ]
+  },
+  "firewall": {
+    "GWAS_or_functional_priority": false,
+    "benchmark_outcome_access": false,
+    "model_inference": false,
+    "model_training": false,
+    "phase_I_extraction": false
+  },
+  "gating_scopes": "train, whole chr7 validation, chr8-9 test; chr7 roles additionally reported and optimized, not substitutes for whole-partition gates",
+  "global_nearest_tie": "Find an unused nearest candidate, then query the COMPLETE radius d+1e-12 (nextafter outward), recompute exact float64 distances for ALL unused candidates in that radius, and minimize (distance, canonical coordinate rank). Never choose from a bounded-k tie subset.",
+  "implementation_sha256": "6648fdc03bec9c3c65f027aa1acf5b576e27ca8d0683a1bf5795b326490acee2",
+  "initial_candidate_priority": [
+    "same validation_role + ATAC lobe signature + chromosome",
+    "same validation_role + ATAC lobe signature, any chromosome",
+    "same validation_role, any chromosome/signature"
+  ],
+  "initial_distance": "float64 Chebyshev on GC/.05, training-only ATAC midpoint-ECDF/.20, repeat/.20; these are distance scales, NOT hard pair calipers",
+  "input_sha256": {
+    "old_features": "dbf146d974802d7912b91c193e2b815882caac1d6f71ba4a4345817937260625",
+    "old_roles": "1501b15be85e6dc89b9fc4045e93ae2522c7cb83c82d0a4c67ddc43a6ce717dc",
+    "train_only_ATAC_sidecar": "23dbc6012152c922ca4259ba23049e72afb840bff82e6e52ece3356dcc7df592"
+  },
+  "old_pair_calipers": "Removed in favor of the unchanged prespecified distributional balance gates. No inference of pairwise biological exchangeability; distances and cross-chromosome/signature matches remain auditable.",
+  "partition_role_contract": "Unchanged full master 1.0 genomic-overlap/encoded-RC components and chr7 role assignments. Controls never cross a target partition or chr7 role.",
+  "positive_order": "Ascending SHA256(271828|model|configuration|interval_id), with canonical coordinate rank as secondary tie.",
+  "positive_population": {
+    "V2-B": "all exact V1 positives",
+    "V2-C": "all V1 positives with same-lobe original ATAC-peak/relevant-mark support"
+  },
+  "purpose": "Prefer all original B positives and all same-lobe C positives with unique 1:1 controls; distributional balance, not arbitrary close pairs, is the scientific requirement.",
+  "recorded_before_execution_utc": "2026-10-06T13:21:17.061736+00:00",
+  "support": "This attempt retains 100% of B/C target positives. A separately specified later common-support attempt is permitted only after rejection of full-population construction; minimum retention remains .90.",
+  "test_history": "chr8-9 is a fixed internal V2 training/selection holdout, not historically untouched; only construction/QC covariates may be accessed here.",
+  "version": "pretraining-1.1"
+}

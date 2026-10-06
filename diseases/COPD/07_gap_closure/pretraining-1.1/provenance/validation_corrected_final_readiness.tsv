@@ -1,0 +1,28 @@
+condition	status	observed	required
+V2-B:enhancer:train:positive_support	SATISFIED	156789/156789=1	>=0.90
+V2-B:enhancer:validation:positive_support	SATISFIED	8460/8460=1	>=0.90
+V2-B:enhancer:test:positive_support	SATISFIED	16103/16103=1	>=0.90
+V2-B:enhancer:total_positive_support	SATISFIED	181352/181352=1	>=0.90
+V2-B:h3k27me3:train:positive_support	SATISFIED	26326/26326=1	>=0.90
+V2-B:h3k27me3:validation:positive_support	SATISFIED	1612/1612=1	>=0.90
+V2-B:h3k27me3:test:positive_support	SATISFIED	2646/2646=1	>=0.90
+V2-B:h3k27me3:total_positive_support	SATISFIED	30584/30584=1	>=0.90
+V2-C:enhancer:train:positive_support	SATISFIED	125874/125874=1	>=0.90
+V2-C:enhancer:validation:positive_support	SATISFIED	6631/6631=1	>=0.90
+V2-C:enhancer:test:positive_support	SATISFIED	12695/12695=1	>=0.90
+V2-C:enhancer:total_positive_support	SATISFIED	145200/145200=1	>=0.90
+V2-C:h3k27me3:train:positive_support	SATISFIED	17132/17132=1	>=0.90
+V2-C:h3k27me3:validation:positive_support	SATISFIED	1096/1096=1	>=0.90
+V2-C:h3k27me3:test:positive_support	SATISFIED	1754/1754=1	>=0.90
+V2-C:h3k27me3:total_positive_support	SATISFIED	19982/19982=1	>=0.90
+V2-B:enhancer:all_balance_gates	SATISFIED	0	0
+V2-B:h3k27me3:all_balance_gates	SATISFIED	0	0
+V2-C:enhancer:all_balance_gates	SATISFIED	0	0
+V2-C:h3k27me3:all_balance_gates	SATISFIED	0	0
+panel:enhancer:calibration_minima	SATISFIED	{'model': 'enhancer', 'role': 'calibration', 'positive': 1576, 'control': 1576, 'components': 1157, 'control_components': 809}	{'controls': 200, 'control_components': 30}
+panel:enhancer:selection_minima	SATISFIED	{'model': 'enhancer', 'role': 'selection', 'positive': 1755, 'control': 1755, 'components': 1295, 'control_components': 885}	{'positive': 100, 'control': 200, 'components': 30}
+panel:h3k27me3:calibration_minima	SATISFIED	{'model': 'h3k27me3', 'role': 'calibration', 'positive': 263, 'control': 263, 'components': 259, 'control_components': 176}	{'controls': 200, 'control_components': 30}
+panel:h3k27me3:selection_minima	SATISFIED	{'model': 'h3k27me3', 'role': 'selection', 'positive': 271, 'control': 271, 'components': 244, 'control_components': 160}	{'positive': 100, 'control': 200, 'components': 30}
+no_cross_partition_canonical_rc_sequence_sha256	SATISFIED	0	0
+no_cross_partition_component_id	SATISFIED	0	0
+artifact_correctness	SATISFIED	0	0

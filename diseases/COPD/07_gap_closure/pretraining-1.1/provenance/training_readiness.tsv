@@ -1,0 +1,17 @@
+condition	scope	status	observed	required
+B_prespecified_balance_gates	construction_review	SATISFIED	0 failures	|SMD|<=.10; chromosome gap<=.02; signature and each-lobe gap<=.05
+C_prespecified_balance_gates	construction_review	SATISFIED	0 failures with independent C controls	|SMD|<=.10; chromosome gap<=.02; signature and each-lobe gap<=.05
+B_positive_retention	construction_review	SATISFIED	100% all V1 positives; unique 1:1 controls; 0 exclusions	prefer all; >=90% if restriction necessary
+C_positive_retention	construction_review	SATISFIED	100% same-lobe positives; unique 1:1 controls; 0 exclusions	prefer all; >=90% if restriction necessary
+contamination_and_source_eligibility	construction_review	SATISFIED	independent raw-source audit passes	donor ATAC; no relevant full-input mark or known same-model positive; preserved exclusions
+sequence_and_duplicate_leakage	construction_review	SATISFIED	792681 selected intervals verified; 0 cross-partition/role leakage	available 2001bp sequences; fixed chromosome/role boundary integrity
+C_common_selection_panels	construction_review	SATISFIED	enhancer 1755+/1755-/1295 components; H3K27me3 271+/271-/244 components	>=100 positives; >=200 controls; >=30 components per context
+C_calibration_control_panels	construction_review	SATISFIED	enhancer 1576 controls/809 control components; H3K27me3 263/176	>=200 controls and >=30 control components per context
+training_only_ATAC_normalization	construction_review	SATISFIED	source ECDFs independently reconstructed from training chromosomes only	frozen ties/outside-range mapping unchanged on held-out rows
+global_tie_and_exchange_contract	construction_review	SATISFIED	377118 initial assignments and 1371 exchanges independently replayed	complete deterministic global ties; exact final mapping
+independent_validation	construction_review	SATISFIED	1154 core checks plus 625 packaging checks; 0 failures	all scientific and artifact checks pass
+historical_1_0_and_benchmark_preservation	construction_review	SATISFIED	708 tracked historical byte hashes unchanged; benchmark opaque hashing only	no edits or benchmark outcome access
+all_specifications_and_payloads_frozen	construction_review	SATISFIED_AT_THIS_FREEZE	covered by artifact_checksums.tsv and freeze.json	immutable local version before V2 inference
+no_model_or_GPU_execution	construction_review	SATISFIED	none	no training, phase-I extraction, inference or scoring
+investigator_training_authorization	execution	NOT_GRANTED_STOP	review-only CPU repair; no GPU permission	separate explicit investigator authorization
+future_C_model_absolute_adequacy	post_training_release	NOT_EVALUATED	no predictions generated	both contexts pass all fixed adequacy/stability/invariance/calibration gates; no A/B fallback

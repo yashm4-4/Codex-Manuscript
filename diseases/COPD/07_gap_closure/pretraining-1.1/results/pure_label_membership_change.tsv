@@ -1,0 +1,9 @@
+model	scope_type	scope	complete_V1_positive_n	same_lobe_positive_n	cross_lobe_only_removed_n	fraction_removed	common_support_restriction_exclusions_B	common_support_restriction_exclusions_C	pure_membership_change_is_directly_measured	trained_B_C_contrast_is_label_plus_control_rematching
+enhancer	overall	all	181352	145200	36152	0.19934712603114385	0	0	True	True
+enhancer	partition	train	156789	125874	30915	0.19717582228345101	0	0	True	True
+enhancer	partition	validation	8460	6631	1829	0.21619385342789599	0	0	True	True
+enhancer	partition	test	16103	12695	3408	0.2116375830590573	0	0	True	True
+h3k27me3	overall	all	30584	19982	10602	0.34665184410149097	0	0	True	True
+h3k27me3	partition	train	26326	17132	9194	0.34923649623945907	0	0	True	True
+h3k27me3	partition	validation	1612	1096	516	0.32009925558312657	0	0	True	True
+h3k27me3	partition	test	2646	1754	892	0.33711262282690851	0	0	True	True

@@ -1,0 +1,96 @@
+{
+  "all_unanchored_missing_values_preserved": true,
+  "application_partition_counts": [
+    {
+      "file_accession": "ENCFF189LZA",
+      "partition": "test",
+      "peak_rows": 19191
+    },
+    {
+      "file_accession": "ENCFF189LZA",
+      "partition": "train",
+      "peak_rows": 189831
+    },
+    {
+      "file_accession": "ENCFF189LZA",
+      "partition": "validation",
+      "peak_rows": 11619
+    },
+    {
+      "file_accession": "ENCFF899TQV",
+      "partition": "test",
+      "peak_rows": 24267
+    },
+    {
+      "file_accession": "ENCFF899TQV",
+      "partition": "train",
+      "peak_rows": 239613
+    },
+    {
+      "file_accession": "ENCFF899TQV",
+      "partition": "validation",
+      "peak_rows": 14210
+    },
+    {
+      "file_accession": "ENCFF906HOT",
+      "partition": "test",
+      "peak_rows": 21264
+    },
+    {
+      "file_accession": "ENCFF906HOT",
+      "partition": "train",
+      "peak_rows": 212067
+    },
+    {
+      "file_accession": "ENCFF906HOT",
+      "partition": "validation",
+      "peak_rows": 12983
+    }
+  ],
+  "cdf_sha256": "2c2b9978c4442d23a30376053e72fb6a509df1ce18ed7ce14672d5090d2f99b6",
+  "completed_utc": "2026-10-06T13:14:25.271093+00:00",
+  "every_interval_max_aggregation_verified": true,
+  "every_normalized_peak_reconciled_to_raw_source": true,
+  "fit_chromosome_peak_counts": {
+    "chr1": 70663,
+    "chr10": 37737,
+    "chr11": 37365,
+    "chr12": 35214,
+    "chr13": 19624,
+    "chr14": 24089,
+    "chr15": 25432,
+    "chr16": 26015,
+    "chr17": 34456,
+    "chr18": 16961,
+    "chr19": 26375,
+    "chr2": 61032,
+    "chr20": 19877,
+    "chr21": 10374,
+    "chr22": 15683,
+    "chr3": 47453,
+    "chr4": 33627,
+    "chr5": 38912,
+    "chr6": 43860,
+    "chrX": 15779,
+    "chrY": 983
+  },
+  "heldout_rows_in_fit": 0,
+  "interval_rows_validated": 1143370,
+  "mapping_denominators": {
+    "ENCFF189LZA": 189831,
+    "ENCFF899TQV": 239613,
+    "ENCFF906HOT": 212067
+  },
+  "method": "Independent Python Counter/bisect reconstruction from original donor ATAC narrowPeak rows; full frozen-CDF and full normalized-sidecar audit",
+  "model_or_benchmark_information_read": false,
+  "no_duplicate_or_omitted_source_peaks": true,
+  "original_interval_ids_order_and_partitions_preserved": true,
+  "original_raw_source_hashes_verified": true,
+  "sidecar_sha256": "23dbc6012152c922ca4259ba23049e72afb840bff82e6e52ece3356dcc7df592",
+  "source_peak_rows_validated": 745045,
+  "status": "PASS",
+  "unique_training_signal_rows_validated": 393579,
+  "validator_sha256": "2db956dc39863b77ef77067d00c0e2aeb6a74adc42c912dc71d592448a713108",
+  "version": "pretraining-1.1",
+  "wall_seconds": 22.880547046661377
+}

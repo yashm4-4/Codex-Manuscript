@@ -1,0 +1,12 @@
+{
+  "version": "pretraining-1.1",
+  "request_attachment_sha256": "fec8b96f82e1d8ab98fe31d457ff7cc61618de66929dc011e56dd02b32912d3c",
+  "baseline_commit": "71f7b3105184d7e4425aa39a6d1d441b20bdc473",
+  "authorized": ["versioned outcome-blind CPU data-construction repair", "independent validation", "prospective specification revision", "local immutable freeze"],
+  "not_authorized_or_performed": ["GPU training", "phase-I feature extraction", "model inference", "candidate scoring", "external-benchmark evaluation", "fine-mapping", "target-gene analysis", "manuscript revision", "commit", "push"],
+  "historical_pretraining_1_0": "Permanently preserved as the original failed construction attempt; no frozen artifact, register or publication metadata is changed.",
+  "new_output_boundary": "diseases/COPD/07_gap_closure/pretraining-1.1/",
+  "benchmark_firewall": "Opaque hash checks only; no benchmark label, membership, outcome or model-score table is parsed for construction, selection specifications or validation.",
+  "test_partition": "chr8-9 remains a fixed internal V2 model-training/model-selection holdout. It is not historically untouched. Construction covariates and QC may be inspected, but no model outcomes or thresholds are generated or used.",
+  "stop": "After construction, validation and freeze. READY FOR INVESTIGATOR TRAINING REVIEW is not GPU execution permission."
+}

@@ -1,0 +1,237 @@
+{
+  "module": "COPD-V2-PREFLIGHT",
+  "experimental_version": "pretraining-1.1",
+  "status": "PRESPECIFIED_DESIGN_ONLY_NO_TRAINING_AUTHORIZATION",
+  "scope": "Outcome-blind versioned data-construction repair and frozen prospective specification only. No GPU execution, phase-I extraction, model inference, training, candidate scoring, external-benchmark evaluation, fine-mapping, target-gene analysis or manuscript revision.",
+  "pretraining_1_0": {
+    "preserved_without_modification": true,
+    "specification_path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_selection_specification.json",
+    "specification_sha256": "d7c8a511d200fd2e124699b8732da71475c38132b82c4a8cbc970c751fa0d976",
+    "interpretation": "Historical failed construction attempt; its frozen data, results and decision rule are not reinterpreted or retroactively amended. This file defines the prospective pretraining-1.1 decision rule."
+  },
+  "training_authorized": false,
+  "training_started": false,
+  "models": ["enhancer", "h3k27me3"],
+  "model_terminology": {
+    "enhancer": "enhancer-associated region-label model",
+    "h3k27me3": "H3K27me3-associated region-label model, not an experimentally established silencer classifier"
+  },
+  "donor": "ENCDO520EJG",
+  "context": "same-donor severe-emphysema lung; bulk lobe-level provenance does not establish matched single cells or aliquots",
+  "configurations": {
+    "V2-A": {
+      "role": "orientation-corrected historical-task diagnostic ablation",
+      "labels": "unchanged V1 positive population and historical controls",
+      "eligible_final_configuration": false
+    },
+    "V2-B": {
+      "role": "orientation-corrected plus donor-accessible matched-control diagnostic ablation",
+      "labels": "prefer complete V1 positive population; only if infeasible, explicitly recorded outcome-blind common-support restriction retaining at least 90% under the frozen construction specification",
+      "controls": "unique donor-accessible, relevant-mark-absent B-matched controls",
+      "eligible_final_configuration": false
+    },
+    "V2-C": {
+      "role": "orientation-corrected plus donor-accessible matched controls plus same-lobe labels; intended final corrected model",
+      "labels": "same-lobe positives, subject only to explicitly recorded outcome-blind common-support restriction retaining at least 90% under the frozen construction specification",
+      "controls": "independently C-matched donor-accessible, relevant-mark-absent controls; never unchanged reuse of the B control manifest",
+      "eligible_final_configuration": true
+    }
+  },
+  "ablation_interpretation": {
+    "A_to_B": "historical controls replaced by matched donor-accessible controls; if common-support restriction is needed, positive-population restriction is an additional explicit change",
+    "B_to_C": "same-lobe label correction plus induced independent control rematching; if restriction differs, report both positive-population restrictions explicitly",
+    "pure_label_membership_change": "quantify directly from the full pre-restriction and retained positive interval manifests; do not infer an isolated label effect from the trained B-versus-C comparison",
+    "native_configuration_metrics": "descriptive only because labels, controls and prevalence can differ",
+    "no_configuration_competition": true
+  },
+  "seeds": [104729, 130363, 155921],
+  "n_planned_fits": 18,
+  "phase_I_weights_sha256": "483b6c0cafd750ea8e97932cbc8a949276eaf1e77e7d8766f9a22eeddc2916d6",
+  "architecture_source": "diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_architecture_compute_audit.json",
+  "training": {
+    "phase_I": "frozen inference-mode representation; never random fallback",
+    "phase_II": "independent initialization using fixed seed, unchanged V1 architecture",
+    "loss": "unweighted binary crossentropy",
+    "optimizer": "Adadelta",
+    "learning_rate": 0.001,
+    "rho": 0.95,
+    "epsilon": 1e-7,
+    "batch_size": 256,
+    "max_epochs": 50,
+    "early_stopping_patience": 15,
+    "min_delta": 0,
+    "class_weights": null,
+    "optimizer_search": false,
+    "mixed_precision": false,
+    "jit_compile": false,
+    "software": "Preserve original TF2.20.0/Keras3.14.1 environment captured in architecture audit; exact environment must be checked before any later approved execution."
+  },
+  "augmentation": {
+    "views_per_interval_per_epoch": 1,
+    "reverse_complement_probability": 0.5,
+    "epoch_index": "zero-based",
+    "input_order": "frozen genomic coordinate ordering",
+    "shuffle_rng": "numpy.random.default_rng(numpy.random.SeedSequence([training_seed,1,epoch]))",
+    "orientation_rng": "numpy.random.default_rng(numpy.random.SeedSequence([training_seed,2,epoch]))",
+    "cache": "g(forward nucleotide sequence) and g(RC nucleotide sequence) independently; never reverse 4560-dimensional embedding"
+  },
+  "inference": {
+    "per_seed": "(p_forward+p_reverse_complement)/2",
+    "seed_aggregation": "equal-weight arithmetic mean of all3 seeds in fixed seed order",
+    "reduction_dtype": "float64",
+    "dropout": false,
+    "batch_norm_updates": false,
+    "ref_alt_identity": "complement independently, do not exchange REF and ALT",
+    "atol": 0.000001,
+    "rtol": 0.000001,
+    "real_network_numeric_gate": "NOT_RUN_REQUIRED_AFTER_TRAINING",
+    "finite_range_gate": "all per-orientation, per-seed and ensemble region probabilities finite and in [0,1]",
+    "validation_scope": "after separately authorized training, compare original versus nucleotide-RC inputs for every frozen internal validation-panel sequence, at each seed and the ensemble, with inference-mode stochastic layers disabled; require abs(a-b)<=atol+rtol*abs(b). CPU algebra/synthetic checks cannot substitute for this real-network gate."
+  },
+  "chromosome_partitions": {
+    "train": ["chr1", "chr2", "chr3", "chr4", "chr5", "chr6", "chr10", "chr11", "chr12", "chr13", "chr14", "chr15", "chr16", "chr17", "chr18", "chr19", "chr20", "chr21", "chr22", "chrX", "chrY"],
+    "validation": ["chr7"],
+    "test": ["chr8", "chr9"],
+    "test_interpretation": "fixed internal holdout from V2 training and model selection, not historically untouched; V1 and prior construction exposed aspects of chr8-9",
+    "test_pretraining_access": "construction variables, covariate balance, support, sequence integrity, contamination, provenance and leakage QC only; no model scores, performance or thresholds may guide construction",
+    "freeze_before_inference": true
+  },
+  "checkpoint": {
+    "data": "configuration-native labels and controls on global chr7 checkpoint-role IDs only",
+    "objective": "minimum symmetric-inference BCE",
+    "tie_breaker": "earliest epoch",
+    "selection_role_access": false,
+    "calibration_role_access": false,
+    "test_access": false,
+    "external_access": false
+  },
+  "validation_roles": {
+    "chr": "chr7",
+    "unit": "global full2001bp overlap components unioned by encoded-sequence/RC identity",
+    "rule": "SHA256(chr7-role-v1|component_id) first16 hex modulo4",
+    "assignment": {"0": "checkpoint", "1": "checkpoint", "2": "selection", "3": "calibration"},
+    "preserve_frozen_component_role_assignments": true,
+    "matching_pair_roles": "identical global role; lobe need not be an exact pairwise stratum in the repaired matching algorithm",
+    "no_role_reassignment_to_improve_support": true
+  },
+  "common_panels": {
+    "path_template": "diseases/COPD/07_gap_closure/pretraining-1.1/data/evaluation/{model}_common_challenge_panel.tsv.gz",
+    "task": "the final retained C biological region-label task in each model context",
+    "positives": "retained same-lobe C positives",
+    "controls": "independently C-matched accessible controls",
+    "roles": ["selection", "calibration", "test"],
+    "checkpoint_included": false,
+    "frozen_before_training": true,
+    "A_B_C_comparability": "all three configurations evaluated on identical sequence IDs, labels and component units separately within each common panel",
+    "calibration_positive_use": "retained for transparent counts/descriptive reporting only; no positive score is used to choose the operating threshold",
+    "training_chr_covariate_normalization": "source-specific ATAC mapping and stratification cutpoints use training chromosomes only, then apply unchanged to chr7 and chr8-9"
+  },
+  "selection": {
+    "meaning_of_selection_role": "absolute internal adequacy assessment of intended configuration C; paired A/B/C ablation reporting, not configuration competition",
+    "panel": "common C-task chr7 selection-role panel, independently for enhancer and H3K27me3-associated contexts",
+    "primary": "average_precision_score stepwise AP",
+    "additional_absolute_metrics": ["AUROC", "BrierSkill"],
+    "omnibus_score": false,
+    "bootstrap": {
+      "seed": 314159,
+      "valid_replicates": 2000,
+      "max_attempts": 20000,
+      "max_invalid_fraction_exclusive": 0.1,
+      "unit": "global genomic overlap/encoded-sequence component, conditional on fixed matching design; not matching links between distant loci",
+      "paired": "same resampled component IDs and multiplicities across model predictions",
+      "resample": "sample represented component IDs with replacement, same number of components as observed; carry all component rows",
+      "invalid": "one-class draw or undefined metric; no imputation; count attempted/invalid draws explicitly",
+      "CI95_percentiles": [2.5, 97.5],
+      "CI90_percentiles": [5, 95],
+      "failure": "if fewer than 2000 valid draws or invalid fraction >=0.10 among all attempted draws, adequacy is INCONCLUSIVE and release stops; do not change seed, confidence level or resampling unit",
+      "generalization_limit": "conditional internal genomic-component uncertainty, not independent-donor or population generalization"
+    },
+    "minimum_selection": {"positive": 100, "control": 200, "components": 30},
+    "minimum_selection_scope": "each model context separately; count distinct represented global overlap/encoded-sequence components, not interval rows or matching pairs",
+    "adequacy": {
+      "construction_gates": "PASS for both B and C, with support and sample/component minima met before any training review",
+      "seeds": "all three required seeds completed for each C model; no favorable-seed subset",
+      "real_network_invariance": "PASS, not CPU-only synthetic evidence",
+      "prediction_validity": "all probabilities finite and in [0,1]",
+      "lower95_AUROC_strictly_gt": 0.5,
+      "lower95_AP_minus_replicate_prevalence_strictly_gt": 0.0,
+      "lower95_BrierSkill_strictly_gt": 0.0,
+      "definition": "all conditions are conjunctive, evaluated for the fixed equal-three-seed C ensemble on the common chr7 selection panel separately in BOTH model contexts",
+      "equality_at_null_boundary": "FAIL_OR_INCONCLUSIVE; equality does not pass the strict lower-confidence-bound gate",
+      "no_extra_minimum_delta": "the old comparative 0.02 margins are not absolute adequacy requirements"
+    },
+    "AP_gain": "compute AP minus prevalence separately in every bootstrap replicate, then take the lower percentile of those differences; do not subtract the original-sample prevalence from an AP-only confidence limit",
+    "brier_skill": "1 - mean((probability-label)^2)/[replicate_prevalence*(1-replicate_prevalence)]; the baseline is the constant predictor at that replicate's prevalence; compute skill in each valid replicate before the confidence interval",
+    "seed_stability_hard_stop": {"AP_sample_SD_gt": 0.03, "AP_range_gt": 0.1},
+    "seed_stability_definition": "compute sample standard deviation with ddof=1 and range over the three seed-specific symmetric AP point estimates on the identical common chr7 selection panel, separately by model context; either strict exceedance stops C retention",
+    "seed_gate_consistency_note": "For exactly three values, sample SD >= range/2. Thus a passing SD<=0.03 entails range<=0.06, making the preserved range>0.10 stop redundant but not contradictory. Both historical numerical limits remain unchanged; no data-driven revision is made.",
+    "reliability": "ten fixed bins [0,.1),...,[.9,1]; descriptive, no fitted recalibration",
+    "stratification": "GC quintiles, train-derived ATAC-rank quintiles and repeat quintiles using retained C TRAIN positive cutpoints only; apply fixed cutpoints to all configurations' common panels. Also report lobe support, chromosome and ambiguous-base status; cells<100 observations descriptive only.",
+    "paired_ablation_report": {
+      "comparisons": ["V2-B minus V2-A", "V2-C minus V2-B", "V2-C minus V2-A"],
+      "metrics": ["AP", "AUROC", "Brier"],
+      "uncertainty": "paired component-bootstrap differences on the same C-task selection panel; report point estimates and 95% confidence intervals; paired 90% intervals may also be supplied descriptively under the preserved percentile definition",
+      "Brier_direction": "negative difference means lower Brier error for the first configuration",
+      "comparative_margins_used_for_retention": false,
+      "superiority_equivalence_noninferiority_required": false,
+      "old_margin_record": {"AP": 0.02, "AUROC": 0.02, "Brier": 0.02, "status": "historical pretraining-1.0 comparative margins only, retired from prospective decision-making; not absolute adequacy gates"}
+    },
+    "retention": "Retain intended configuration V2-C only if BOTH model contexts pass every absolute adequacy, seed-stability, real-network invariance and sample/component gate and the calibration contract is satisfied. No C-versus-B superiority, equivalence or noninferiority condition applies.",
+    "C_failure": "STOP; no automatic A/B fallback, mixed configuration or favorable-seed selection. Any proposed scientific redesign requires separately authorized new versioning before new model outcomes are used.",
+    "test_or_external_tiebreaker": false
+  },
+  "threshold": {
+    "data": "only independently C-matched common chr7-calibration negative-control distribution after C adequacy, checkpoint and ensemble freeze",
+    "target_empirical_FPR": 0.05,
+    "minimum_controls": 200,
+    "minimum_control_components": 30,
+    "component_minimum_provenance": "new conservative pretraining-1.1 clarification: extend the unchanged selection-component floor to calibration controls to operationalize the user-required selection/calibration component safeguard; not derived from model outcomes",
+    "formula": "k=floor(0.05*n); d=descending negative scores; t=nextafter(d[k] in zero-based indexing,+infinity)",
+    "call": "score>=t",
+    "tie_policy": "conservative, may achieve less than5%",
+    "allowed_numerical_edge_case": "threshold may be slightly above 1 if a boundary score equals 1; do not clip it back to 1 or split ties",
+    "storage": ["float.hex()", "17-significant-digit decimal"],
+    "operating_predictor": "fixed equal-three-seed nucleotide-RC-symmetric C ensemble; per-seed calibration is descriptive only and cannot replace the ensemble rule",
+    "empirical_FPR_gate": "observed number of called calibration controls <=floor(0.05*n), with exact threshold serialization round-trip; failure is a stop, not permission to optimize a different rule",
+    "population_FPR_guarantee": false,
+    "dependence_caveat": "the rule bounds the observed calibration-row fraction only; the component minimum does not turn it into a prospective population-FPR confidence guarantee",
+    "test_recalibration": false,
+    "external_recalibration": false,
+    "variant_FPR_guarantee": false
+  },
+  "prospective_execution_order": [
+    "Freeze pretraining-1.1 specifications, interval manifests, common panels and hashes after independent CPU construction validation; report readiness for investigator review only.",
+    "STOP now. Training and feature extraction require a separate explicit investigator authorization.",
+    "After future authorization only, train all 18 prespecified fits; select checkpoints solely by each native chr7 checkpoint-role symmetric BCE.",
+    "Freeze all three checkpoints per configuration/head and the symmetric ensemble implementation; run mandatory real-network invariance and finite-range checks using validation sequences.",
+    "Assess C absolute adequacy and seed stability separately for both heads on the common chr7 selection panel; report A/B/C paired ablations without using their ordering for retention.",
+    "If either C head fails or is inconclusive, stop without A/B fallback, test/external opening or new threshold tuning.",
+    "If both C heads pass, freeze the internal adequacy decision and calibrate each C ensemble using only its dedicated common chr7 calibration controls under the fixed threshold formula.",
+    "Freeze C checkpoints, seed ensemble, inference contract, calibration thresholds and decision record before test opening; apply them unchanged to chr8-9 for fixed internal-holdout reporting. Test findings cannot select A/B or retune any model/threshold.",
+    "External benchmark access remains separately out of scope for this construction repair; any later authorized one-time evaluation occurs only after all internal decisions are frozen and cannot cause outcome-guided redesign."
+  ],
+  "candidate_plan": {
+    "execute_now": false,
+    "binary_causal_list": false,
+    "allele_delta_cutoff": null,
+    "historical_V1_P95": "historical descriptive comparator only, not calibrated allele-effect FDR",
+    "region_threshold_limit": "region-label calibration is not an allele-effect, variant-level FPR, causal-probability or mechanistic-evidence calibration"
+  },
+  "external_firewall": {
+    "version": "COPD-V2-BENCH1.0",
+    "permitted_pretraining_access": "opaque file hashing only; no parsed benchmark outcomes/labels",
+    "model_design_sources": ["frozen V1 architecture/data", "independent RC diagnostic", "control-source issue", "same-lobe provenance", "internal validation principles", "outcome-blind pretraining-1.0 construction diagnostics", "explicit investigator pretraining-1.1 instructions"],
+    "construction_information_allowed": ["support/coverage", "covariate balance", "contamination", "sequence integrity", "provenance", "duplicate/leakage checks"],
+    "construction_information_forbidden": ["model training or predictions", "external benchmark labels/outcomes", "GWAS priority", "known functional variants", "future AP/AUROC/Brier values"],
+    "open_once_only_after": "separate authorization plus retained C checkpoints, all3 seeds, inference contract, thresholds and internal adequacy record frozen; no redesign after external outcome"
+  },
+  "stop_conditions": ["input/hash drift", "benchmark outcome access", "missing frozen phase-I weights", "sequence/geometry failure", "B/C control contamination", "cross-partition duplicate leakage", "chr7 role leakage", "matching balance or >=90% support failure", "same-lobe provenance inconsistency", "insufficient common selection/calibration samples or components", "later missing seed, seed instability, prediction invalidity or real-network invariance failure", "later failed or inconclusive C absolute adequacy", "later calibration contract failure"],
+  "numerical_margin_review": {
+    "absolute_null_margins_preserved": {"AUROC": 0.5, "AP_gain": 0.0, "BrierSkill": 0.0},
+    "old_comparative_0_02_margins": "not transferred into absolute gates and not used to accept/reject C",
+    "seed_SD_and_range_limits": "preserved exactly; range gate redundant for three seeds",
+    "bootstrap_quantile_levels": "preserved 95% lower-bound adequacy assessment; no post-result switch to 90% intervals",
+    "adequacy_claim_limit": "These strict above-null safeguards are minimal internal statistical adequacy, not prespecified clinically meaningful effect sizes or proof of variant-mechanism utility.",
+    "outcome_based_tuning": false
+  }
+}

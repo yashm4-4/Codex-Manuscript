@@ -1,0 +1,85 @@
+{
+  "module": "COPD-V2-PREFLIGHT",
+  "version": "pretraining-1.1",
+  "record_type": "post_freeze_publication_metadata",
+  "date_utc": "2026-10-06",
+  "baseline_commit": "71f7b3105184d7e4425aa39a6d1d441b20bdc473",
+  "target_repository": "https://github.com/yashm4-4/Codex-Manuscript.git",
+  "target_branch": "main",
+  "authorization": "Publish only completed pretraining-1.1 artifacts and append-only shared V2 register updates; preserve all pretraining-1.0 artifacts. No analysis or model execution.",
+  "publication_state_at_commit": "Prepared for commit and push; the containing Git commit identifies the publication and remote confirmation is reported separately.",
+  "frozen_status_preserved": "READY_FOR_INVESTIGATOR_TRAINING_REVIEW",
+  "training_authorized": false,
+  "analysis_or_validation_scripts_rerun": false,
+  "GPU_training_or_phase_I_extraction_launched": false,
+  "model_inference_benchmark_evaluation_or_candidate_scoring_performed": false,
+  "other_V2_module_started": false,
+  "frozen_pretraining_1_1": {
+    "directory": "diseases/COPD/07_gap_closure/pretraining-1.1",
+    "files": 126,
+    "payload_count": 124,
+    "payload_bytes": 306989453,
+    "freeze_path": "diseases/COPD/07_gap_closure/pretraining-1.1/provenance/freeze.json",
+    "freeze_sha256": "6933f98bd6a1a7b7afe5adddc8a6bf9d7b1201df4b25f06d0cd8c35e183941a0",
+    "checksum_ledger_path": "diseases/COPD/07_gap_closure/pretraining-1.1/provenance/artifact_checksums.tsv",
+    "checksum_ledger_sha256": "48f7fb6478daa7ad2478fd7d4e9fbe1ee0179c06ac76abb3a4f65ebc11763b0d",
+    "report_sha256": "0a843925ec4f325915e87ee17dd9b9568be62cdf408d366e25ef1aebf9a91a76",
+    "publication_integrity_check": "All 124 payload byte counts and SHA-256 values, plus the original freeze and ledger hashes, match the completed local freeze.",
+    "frozen_files_modified": false,
+    "original_failed_and_corrected_validation_records_preserved": true,
+    "scientific_QC_not_rerun": {"core_checks": 1154, "packaging_checks": 625, "pair_metadata_checks": 57, "final_failures": 0},
+    "historical_scope_language": "No-commit/no-push statements in the original report, request record and freeze describe the completed repair phase. They remain unchanged; the current user request separately authorizes this publication."
+  },
+  "pretraining_1_0_preservation": {
+    "frozen_files_modified": false,
+    "freeze_sha256": "2d022d19b4fbdd485d0762c0946519334e654b1de0581c5075758b7550d15fcb",
+    "checksum_ledger_sha256": "7a6440c17be3374e5b4732c0bd6a5450fa61b74e4849e99a19b856a02e9e5055",
+    "payloads_verified_unchanged": 100,
+    "historical_failure_interpretation_unchanged": true,
+    "LFS_attributes_and_original_LFS_file_unchanged": true
+  },
+  "storage": {
+    "method": "Ordinary Git blobs for all new pretraining-1.1 files; no recompression, splitting or content changes",
+    "maximum_new_file_bytes": 60812778,
+    "new_LFS_configuration": false,
+    "ignored_python_bytecode_included": false
+  },
+  "append_only_shared_V2_register_updates": [
+    {
+      "path": "diseases/COPD/07_gap_closure/activity_log.tsv",
+      "baseline_sha256": "f8b8a62056d34d3b2a87aac281e582c39d35c21b10169e56e22400ca4fed8bbc",
+      "publication_sha256": "d89c7e0adf591b8994068c37e5b1d73c7da029bf425e348a128aa27911dbdb85",
+      "rows_appended": 3,
+      "new_ids": ["COPD-V2-ACT-024", "COPD-V2-ACT-025", "COPD-V2-ACT-026"]
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/gap_closure_decision_register.tsv",
+      "baseline_sha256": "08ca9142be47dcc1e38504404ff0418e5cfc705850dfdc15f7f2bd1564a37a49",
+      "publication_sha256": "0c43a84121c239a0b292e5135be5b2dcc0bccc5bd57790b607a71b64ec14643f",
+      "rows_appended": 3,
+      "new_ids": ["COPD-V2-DEC-036", "COPD-V2-DEC-037", "COPD-V2-DEC-038"]
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/gap_closure_result_register.tsv",
+      "baseline_sha256": "4ec3fde6e70741be07a3c955a354bfef6e7ee03a54ea5e8284be0f53664756a1",
+      "publication_sha256": "fa13efba734fa1c06e893c9c46786f44eadf8bb3f1f0285325d4d3461e9abd63",
+      "rows_appended": 9,
+      "new_ids": ["COPD-V2-PREFLIGHT11-REPORT-001", "COPD-V2-PREFLIGHT11-MATCH-001", "COPD-V2-PREFLIGHT11-ATAC-001", "COPD-V2-PREFLIGHT11-PANELS-001", "COPD-V2-PREFLIGHT11-SELECT-001", "COPD-V2-PREFLIGHT11-QC-001", "COPD-V2-PREFLIGHT11-COMPUTE-001", "COPD-V2-PREFLIGHT11-FREEZE-001", "COPD-V2-PREFLIGHT11-PUBLICATION-001"]
+    }
+  ],
+  "historical_tracked_snapshot": {
+    "ledger": "diseases/COPD/07_gap_closure/pretraining-1.1/provenance/historical_tracked_state.tsv",
+    "baseline_files": 708,
+    "files_remaining_byte_identical": 705,
+    "only_exceptions": "The three shared V2 registers explicitly requested by the user are append-only. Every prior row, including every pretraining-1.0 record, remains byte-identical. The historical snapshot ledger itself is not regenerated."
+  },
+  "commit_scope": {
+    "original_frozen_files": 126,
+    "new_post_freeze_publication_records": 1,
+    "existing_shared_registers_appended": 3,
+    "total_changed_paths": 130,
+    "unrelated_files_included": false,
+    "frozen_checksum_ledgers_regenerated": false,
+    "self_hash_policy": "This separate publication record is covered by its containing Git commit, not retroactively inserted into either immutable scientific freeze."
+  }
+}

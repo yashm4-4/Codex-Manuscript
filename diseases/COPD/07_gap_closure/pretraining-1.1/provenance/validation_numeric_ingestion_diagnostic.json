@@ -1,0 +1,66 @@
+{
+  "version": "pretraining-1.1",
+  "configuration": "V2-B",
+  "model": "enhancer",
+  "positive_id": "chr1:28927943-28928943",
+  "constructor_selected_control_id": "chr1:119372216-119373216",
+  "initial_independent_validator_selected_control_id": "chr1:58044888-58045888",
+  "purpose": "Explain the single initial validator false tie without changing data, matching, or exact tie semantics.",
+  "python": "3.9.15 | packaged by conda-forge | (main, Nov 22 2022, 08:45:29) [GCC 10.4.0]",
+  "pandas": "2.0.3",
+  "numpy": "1.24.4",
+  "scipy": "1.11.1",
+  "matching_implementation": "scripts/construct_matched_design.py",
+  "numeric_ingestion_contract": "Use pandas.read_csv with its default C engine and default float_precision for the complete normalized-ATAC sidecar; then join by interval_id and convert to numpy float64, as in the frozen constructor. Frozen original feature numeric fields also use pandas.read_csv conversion.",
+  "independent_mapping_validation": "Every raw source training distribution, CDF knot and sidecar value is still independently reconstructed using original narrowPeak sources, Counter/bisect and Python float conversion before checking pandas operand differences are <=1e-15. That source verification tolerance does not define matching ties.",
+  "exact_matching_contract": "Compute float64 Chebyshev distances after dividing GC/ATAC/repeat by .05/.20/.20. Compare actual distance values exactly; if equal, choose the global canonical-coordinate first available control. No approximate tie tolerance, bounded-k tie exception or post hoc pairing change is permitted.",
+  "operands": [
+    {
+      "interval_id": "chr1:28927943-28928943",
+      "source_ATAC_numeric_string": "0.1817892458515469",
+      "pandas_float_decimal": "0.1817892458515469",
+      "pandas_float_hex": "0x1.744deb8d933f1p-3",
+      "Python_float_decimal": "0.1817892458515469",
+      "Python_float_hex": "0x1.744deb8d933f1p-3",
+      "gc_fraction_float_hex": "0x1.9a6b35dc6f7cfp-2",
+      "repeat_fraction_float_hex": "0x1.67c191348f369p-2"
+    },
+    {
+      "interval_id": "chr1:58044888-58045888",
+      "source_ATAC_numeric_string": "0.14727892599980194",
+      "pandas_float_decimal": "0.14727892599980191",
+      "pandas_float_hex": "0x1.2da092d479256p-3",
+      "Python_float_decimal": "0.14727892599980194",
+      "Python_float_hex": "0x1.2da092d479257p-3",
+      "gc_fraction_float_hex": "0x1.97dc2d8c010a0p-2",
+      "repeat_fraction_float_hex": "0x1.717ab0cea915cp-2"
+    },
+    {
+      "interval_id": "chr1:119372216-119373216",
+      "source_ATAC_numeric_string": "0.2162995657032919",
+      "pandas_float_decimal": "0.2162995657032919",
+      "pandas_float_hex": "0x1.bafb4446ad58cp-3",
+      "Python_float_decimal": "0.2162995657032919",
+      "Python_float_hex": "0x1.bafb4446ad58cp-3",
+      "gc_fraction_float_hex": "0x1.93c4203dd3994p-2",
+      "repeat_fraction_float_hex": "0x1.5c7f6c9e6e279p-2"
+    }
+  ],
+  "distances": {
+    "constructor_pandas": {
+      "selected": {"decimal": "0.17255159925872487", "hex": "0x1.6162bb9d82804p-3"},
+      "alternative": {"decimal": "0.17255159925872499", "hex": "0x1.6162bb9d82808p-3"},
+      "interpretation": "Selected control is strictly closer; this is not a constructor tie."
+    },
+    "initial_validator_Python": {
+      "selected": {"decimal": "0.17255159925872487", "hex": "0x1.6162bb9d82804p-3"},
+      "alternative": {"decimal": "0.17255159925872487", "hex": "0x1.6162bb9d82804p-3"},
+      "interpretation": "Different decimal ingestion artificially equalized the two distances, causing the validator to prefer the coordinate-earlier alternative."
+    }
+  },
+  "scientific_artifacts_modified": false,
+  "matching_or_exchange_rerun": false,
+  "benchmark_outcomes_read": false,
+  "model_execution": false,
+  "corrected_validation_requirement": "Complete all-row replay with constructor-identical ingestion; require every selected-control identity and tie count exactly correct, retaining the initial failed audit and source snapshot unchanged."
+}

@@ -1,0 +1,7 @@
+configuration	model	manifest	n_intervals	positive	control	sha256	configuration_role	training_authorized
+V2-A	enhancer	diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-A_enhancer_interval_manifest.tsv.gz	544056	181352	362704	f6c1eaf2d4f25f2f95fdc553aa46210f01ce953808d1bd618303596a6d152298	diagnostic_ablation	False
+V2-B	enhancer	diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-B_enhancer_interval_manifest.tsv.gz	362704	181352	181352	fa4e9eb1360b26b7129c507526999482322e16e6aaeffd3c7a108ae550fbe40b	diagnostic_ablation	False
+V2-C	enhancer	diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-C_enhancer_interval_manifest.tsv.gz	290400	145200	145200	5165080dbeba1a43decb57286c9ed44e820eaa73617f252cecda6ebe4321e72f	intended_corrected_model	False
+V2-A	h3k27me3	diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-A_h3k27me3_interval_manifest.tsv.gz	91752	30584	61168	d7341760f83173023004b9c558cb6dfd2314e19733f014d8970e09000c23ae2a	diagnostic_ablation	False
+V2-B	h3k27me3	diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-B_h3k27me3_interval_manifest.tsv.gz	61168	30584	30584	04a062c730c3ad00b367c34d4829b898d55a1f42097785cd329edcc8262b14f5	diagnostic_ablation	False
+V2-C	h3k27me3	diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-C_h3k27me3_interval_manifest.tsv.gz	39964	19982	19982	1d325e61ae5c41bfabe955c12e0b84f683a80472fb855dbac9a19fabd1cbc7ec	intended_corrected_model	False

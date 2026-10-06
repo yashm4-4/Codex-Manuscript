@@ -1,0 +1,94 @@
+{
+  "GPU_training_or_model_inference_performed": false,
+  "artifact_checks": 1154,
+  "artifact_failures": 0,
+  "benchmark_outcomes_parsed": false,
+  "completed_utc": "2026-10-06T13:44:11.559806+00:00",
+  "elapsed_seconds": 481.6354601383209,
+  "outputs": [
+    {
+      "bytes": 131500,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/provenance/validation_corrected_final_checks.tsv",
+      "sha256": "a9c5bd01cd8374b3b50d1a897db0e8a75d7e1b30f382b31c6448d0e14519945a"
+    },
+    {
+      "bytes": 2324,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/provenance/validation_corrected_final_readiness.tsv",
+      "sha256": "eb50c3cb0ec23f2b177b1297161bfcdf6925bf24955739c2c2a94cc2d9362945"
+    },
+    {
+      "bytes": 48473,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/provenance/validation_corrected_final_balance.tsv",
+      "sha256": "11939510e34af8f1ac086820adf59c5717e80d0791af257c6713a4034d4c4c2c"
+    },
+    {
+      "bytes": 815555,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/provenance/validation_corrected_final_ties.tsv",
+      "sha256": "a745f4e1f6fb7ee171cd260bdca05eb15a3142e69ee72765d66230343d8b12ac"
+    }
+  ],
+  "phase_I_extraction_performed": false,
+  "readiness_failures": 0,
+  "summary": {
+    "B_C_partition_balance_failures": 0,
+    "accepted_exchanges_fully_replayed": 1371,
+    "common_C_panels": [
+      {
+        "components": 1157,
+        "control": 1576,
+        "control_components": 809,
+        "model": "enhancer",
+        "positive": 1576,
+        "role": "calibration"
+      },
+      {
+        "components": 1295,
+        "control": 1755,
+        "control_components": 885,
+        "model": "enhancer",
+        "positive": 1755,
+        "role": "selection"
+      },
+      {
+        "components": 8754,
+        "control": 12695,
+        "control_components": 5877,
+        "model": "enhancer",
+        "positive": 12695,
+        "role": "test"
+      },
+      {
+        "components": 259,
+        "control": 263,
+        "control_components": 176,
+        "model": "h3k27me3",
+        "positive": 263,
+        "role": "calibration"
+      },
+      {
+        "components": 244,
+        "control": 271,
+        "control_components": 160,
+        "model": "h3k27me3",
+        "positive": 271,
+        "role": "selection"
+      },
+      {
+        "components": 1809,
+        "control": 1754,
+        "control_components": 1157,
+        "model": "h3k27me3",
+        "positive": 1754,
+        "role": "test"
+      }
+    ],
+    "initial_assignments_global_tie_audited": 377118,
+    "initial_assignments_with_exact_global_ties": 6868,
+    "readiness_interpretation": "Construction validation only. Freeze all payloads/specifications before READY FOR INVESTIGATOR TRAINING REVIEW. No training authorization; actual-network adequacy and invariance remain future mandatory gates.",
+    "selected_unique_encoded_sequences": 792672,
+    "selected_unique_intervals": 792681
+  },
+  "training_authorized": false,
+  "validator_sha256": "1a6939d6fe83e2c9e6905eabe0688145133875bd9f3f78d655f643039fb7eebd",
+  "version": "pretraining-1.1"
+}

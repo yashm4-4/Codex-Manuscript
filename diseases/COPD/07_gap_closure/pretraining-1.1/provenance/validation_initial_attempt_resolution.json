@@ -1,0 +1,41 @@
+{
+  "version": "pretraining-1.1",
+  "initial_manifest": "provenance/validation_final_manifest.json",
+  "initial_validator_snapshot": "scripts/validate_preflight11_initial_attempt.py",
+  "initial_validator_sha256": "c4ccab0c85ce19b6bd09eb8eaa3815e7859441a89cdd666613adf9c31a272d0e",
+  "initial_checks": 1071,
+  "initial_failures": 2,
+  "scientific_artifacts_changed": false,
+  "matching_rerun_or_retuning": false,
+  "initial_outputs_retained_unchanged": true,
+  "corrections": [
+    {
+      "check": "selection:preserved:threshold:external_recalibration",
+      "cause": "The original selection specification had no external_recalibration key. The new specification explicitly forbids it with false. Comparing absent/None to false was an invalid preservation test.",
+      "repair": "Verify unchanged fields against the old specification, and verify the explicit new external_recalibration prohibition independently."
+    },
+    {
+      "check": "initial_global_matching:global_natural_coordinate_tie",
+      "configuration": "V2-B",
+      "model": "enhancer",
+      "positive_id": "chr1:28927943-28928943",
+      "selected_control": "chr1:119372216-119373216",
+      "alternative_control": "chr1:58044888-58045888",
+      "cause": "The independent validator used Python float decimal parsing for the verified ATAC sidecar, whereas the constructor uses pandas 2.0.3 default C-reader parsing. One alternative ATAC operand differed by one ulp, converting an actually unequal distance into an artificial exact tie in the validator.",
+      "positive_ATAC_rank": "0.1817892458515469",
+      "alternative_ATAC_rank_constructor_pandas": "0.14727892599980191",
+      "alternative_ATAC_rank_validator_Python": "0.14727892599980194",
+      "selected_ATAC_rank_both_readers": "0.2162995657032919",
+      "selected_distance_both_readers": "0.17255159925872487",
+      "alternative_distance_constructor_pandas": "0.17255159925872499",
+      "alternative_distance_validator_Python": "0.17255159925872487",
+      "repair": "Continue independently reconstructing every CDF and source-derived value, then replay matching with the constructor-identical pandas numeric-ingestion contract. All minimum-distance and canonical-coordinate comparisons remain exact; no approximate tie tolerance is introduced."
+    }
+  ],
+  "additional_validator_safeguards": [
+    "Explicit finite-covariate and class-size prerequisites for every B/C diagnostic scope",
+    "Explicit initial processing-order, candidate-priority, distance and global-tie-count reconciliation"
+  ],
+  "corrected_output_label": "corrected_final",
+  "corrected_audit_required": "Repeat the complete independent audit on unchanged artifacts; use only the corrected manifest for final readiness if every check passes."
+}

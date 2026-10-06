@@ -1,0 +1,242 @@
+{
+  "B_C_independent_rematching": true,
+  "B_C_interpretation": "same-lobe label correction plus induced control rematching",
+  "B_C_unique_one_to_one_controls": true,
+  "V2_B_complete_V1_positive_population": true,
+  "all_master_intervals": 1143370,
+  "all_original_feature_strings_preserved": true,
+  "assembly_only_no_new_matching": true,
+  "attempt_rule_sha256": "98e7df83f91636153e7a7f3a1c182f4f9b44d9f44d47a92e5425ffe370440be0",
+  "benchmark_outcomes_read": false,
+  "checkpoint_role_excluded_from_common_panels": true,
+  "common_C_panels": [
+    {
+      "bytes": 4962271,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/evaluation/enhancer_common_challenge_panel.tsv.gz",
+      "sha256": "4f374ebf993b1e3b6a5fff5aba51ac6e0efaf6859300bf752f56245a7db65c20"
+    },
+    {
+      "bytes": 719591,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/evaluation/h3k27me3_common_challenge_panel.tsv.gz",
+      "sha256": "895979a83b12d0bb372dd93a1baaa1a83d174e96a57e17acc4f5f3bea8775c26"
+    }
+  ],
+  "common_panel_roles": [
+    "selection",
+    "calibration",
+    "test"
+  ],
+  "completed_utc": "2026-10-06T13:30:55.546987+00:00",
+  "configuration_registry": [
+    {
+      "configuration": "V2-A",
+      "configuration_role": "diagnostic_ablation",
+      "control": 362704,
+      "manifest": "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-A_enhancer_interval_manifest.tsv.gz",
+      "model": "enhancer",
+      "n_intervals": 544056,
+      "positive": 181352,
+      "sha256": "f6c1eaf2d4f25f2f95fdc553aa46210f01ce953808d1bd618303596a6d152298",
+      "training_authorized": false
+    },
+    {
+      "configuration": "V2-B",
+      "configuration_role": "diagnostic_ablation",
+      "control": 181352,
+      "manifest": "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-B_enhancer_interval_manifest.tsv.gz",
+      "model": "enhancer",
+      "n_intervals": 362704,
+      "positive": 181352,
+      "sha256": "fa4e9eb1360b26b7129c507526999482322e16e6aaeffd3c7a108ae550fbe40b",
+      "training_authorized": false
+    },
+    {
+      "configuration": "V2-C",
+      "configuration_role": "intended_corrected_model",
+      "control": 145200,
+      "manifest": "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-C_enhancer_interval_manifest.tsv.gz",
+      "model": "enhancer",
+      "n_intervals": 290400,
+      "positive": 145200,
+      "sha256": "5165080dbeba1a43decb57286c9ed44e820eaa73617f252cecda6ebe4321e72f",
+      "training_authorized": false
+    },
+    {
+      "configuration": "V2-A",
+      "configuration_role": "diagnostic_ablation",
+      "control": 61168,
+      "manifest": "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-A_h3k27me3_interval_manifest.tsv.gz",
+      "model": "h3k27me3",
+      "n_intervals": 91752,
+      "positive": 30584,
+      "sha256": "d7341760f83173023004b9c558cb6dfd2314e19733f014d8970e09000c23ae2a",
+      "training_authorized": false
+    },
+    {
+      "configuration": "V2-B",
+      "configuration_role": "diagnostic_ablation",
+      "control": 30584,
+      "manifest": "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-B_h3k27me3_interval_manifest.tsv.gz",
+      "model": "h3k27me3",
+      "n_intervals": 61168,
+      "positive": 30584,
+      "sha256": "04a062c730c3ad00b367c34d4829b898d55a1f42097785cd329edcc8262b14f5",
+      "training_authorized": false
+    },
+    {
+      "configuration": "V2-C",
+      "configuration_role": "intended_corrected_model",
+      "control": 19982,
+      "manifest": "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-C_h3k27me3_interval_manifest.tsv.gz",
+      "model": "h3k27me3",
+      "n_intervals": 39964,
+      "positive": 19982,
+      "sha256": "1d325e61ae5c41bfabe955c12e0b84f683a80472fb855dbac9a19fabd1cbc7ec",
+      "training_authorized": false
+    }
+  ],
+  "cross_partition_selected_duplicate_groups": {
+    "encoded_forward_RC": 0,
+    "raw_exact": 0
+  },
+  "cross_validation_role_selected_duplicate_groups": {
+    "encoded_forward_RC": 0,
+    "raw_exact": 0
+  },
+  "duplicate_groups": {
+    "encoded_forward_RC": 9,
+    "raw_exact": 0
+  },
+  "elapsed_seconds": 98.97805953025818,
+  "future_two_orientation_feature_cache_bytes": 28916674560,
+  "inputs": [
+    {
+      "bytes": 125556971,
+      "path": "diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/interval_features.tsv.gz",
+      "sha256": "dbf146d974802d7912b91c193e2b815882caac1d6f71ba4a4345817937260625"
+    },
+    {
+      "bytes": 57529183,
+      "path": "diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/interval_role_assignment.tsv.gz",
+      "sha256": "1501b15be85e6dc89b9fc4045e93ae2522c7cb83c82d0a4c67ddc43a6ce717dc"
+    },
+    {
+      "bytes": 25512739,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/atac_normalized_features.tsv.gz",
+      "sha256": "23dbc6012152c922ca4259ba23049e72afb840bff82e6e52ece3356dcc7df592"
+    },
+    {
+      "bytes": 5277,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/specification/matching_attempt_001.json",
+      "sha256": "98e7df83f91636153e7a7f3a1c182f4f9b44d9f44d47a92e5425ffe370440be0"
+    },
+    {
+      "bytes": 570,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/attempts/001_full_population/attempt_manifest.json",
+      "sha256": "6b0a37c311b79a102121ccdb37ce0835781ef75a48801955a192b5d3a1b51fa0"
+    },
+    {
+      "bytes": 16305226,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/attempts/001_full_population/control_matching_pairs.tsv.gz",
+      "sha256": "e3e451aeeceec51a30bfa261f9cc22e26ef26ec0853ade5a40fa1812bbbd3f25"
+    },
+    {
+      "bytes": 14993821,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/attempts/001_full_population/initial_pairs.tsv.gz",
+      "sha256": "6f6e8f2293de706097f10bfe752d7c57214f7881000adcd6a03f797048ec5fc5"
+    },
+    {
+      "bytes": 736,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/attempts/001_full_population/positive_retention.tsv",
+      "sha256": "cf7a8cf1571f89d5f631e7175dd9c71b33e7e25771195f9e944df4954c5824a0"
+    },
+    {
+      "bytes": 142720,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/attempts/001_full_population/covariate_balance.tsv",
+      "sha256": "38e684e9448e82036d6bf9b8f80b5475e5eae9e80e6ae1bb20fadef1b7de0adb"
+    },
+    {
+      "bytes": 19841,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/specification/selection_adequacy.json",
+      "sha256": "3f5f8f1a2ef8a1713d77d15d88f4dae53e21d76bc554fe28448991515088b32f"
+    },
+    {
+      "bytes": 26744,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/scripts/assemble_preflight11.py",
+      "sha256": "45dc194badaeb397abb9b68bac264d302c939ee1a982ae200d4c74a1e4222796"
+    }
+  ],
+  "local_pair_calipers_removed": true,
+  "model_inference_performed": false,
+  "no_local_common_support_or_pairwise_exchangeability_claim": true,
+  "pair_distance_summary": "diseases/COPD/07_gap_closure/pretraining-1.1/results/matched_pair_distance_summary.tsv",
+  "peak_RSS_KiB": 3408024,
+  "phase_I_feature_extraction_performed": false,
+  "rich_manifest_columns": [
+    "interval_id",
+    "chrom",
+    "core_start",
+    "core_end",
+    "input_start",
+    "input_end",
+    "partition",
+    "v1_enhancer_positive",
+    "v1_enhancer_control",
+    "v1_h3k27me3_positive",
+    "v1_h3k27me3_control",
+    "atac_anchor_count",
+    "atac_peak_ids",
+    "atac_file_ids",
+    "atac_lobes",
+    "atac_signal_raw_max",
+    "atac_signal_percentile_max",
+    "enhancer_all_lobe_peak_support",
+    "enhancer_same_lobe_peak_support",
+    "enhancer_all_lobe_histone_file_ids",
+    "enhancer_same_lobe_histone_file_ids",
+    "enhancer_same_lobe_support_lobes",
+    "h3k27me3_all_lobe_peak_support",
+    "h3k27me3_same_lobe_peak_support",
+    "h3k27me3_all_lobe_histone_file_ids",
+    "h3k27me3_same_lobe_histone_file_ids",
+    "h3k27me3_same_lobe_support_lobes",
+    "atac_overlap_1kb",
+    "atac_overlap_2001",
+    "atac_overlap_summit",
+    "enhancer_mark_overlap_1kb",
+    "enhancer_mark_overlap_2001",
+    "enhancer_v1_positive_input_overlap",
+    "h3k27me3_mark_overlap_1kb",
+    "h3k27me3_mark_overlap_2001",
+    "h3k27me3_v1_positive_input_overlap",
+    "blacklist_bp_1kb",
+    "blacklist_bp_2001",
+    "promoter_bp_1kb",
+    "promoter_bp_2001",
+    "repeat_fraction_2001",
+    "sequence_available",
+    "sequence_length",
+    "gc_fraction",
+    "non_acgt_fraction",
+    "sequence_sha256",
+    "canonical_rc_sequence_sha256",
+    "enhancer_accessible_control_eligible",
+    "h3k27me3_accessible_control_eligible",
+    "component_id",
+    "validation_role",
+    "atac_signal_percentile_max_train_only",
+    "blacklist_input_any",
+    "non_acgt_any",
+    "configuration",
+    "model",
+    "label",
+    "matched_positive_id",
+    "matched_control_id",
+    "matched_final_normalized_chebyshev_distance"
+  ],
+  "selected_unique_intervals": 792681,
+  "status": "ASSEMBLED_PENDING_INDEPENDENT_FINAL_VALIDATION",
+  "training_started": false,
+  "unique_selected_encoded_sequences": 792672,
+  "version": "pretraining-1.1"
+}

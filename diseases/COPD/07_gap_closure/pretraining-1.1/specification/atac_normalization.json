@@ -1,0 +1,23 @@
+{
+  "version": "pretraining-1.1",
+  "purpose": "Outcome-blind matching metadata only; never a neural-network input",
+  "fit_unit": "Every canonical-chromosome ATAC narrowPeak row from each original donor source separately; retain genuine source rows without treating duplicate anchors as new fit observations",
+  "training_chromosomes": ["chr1", "chr2", "chr3", "chr4", "chr5", "chr6", "chr10", "chr11", "chr12", "chr13", "chr14", "chr15", "chr16", "chr17", "chr18", "chr19", "chr20", "chr21", "chr22", "chrX", "chrY"],
+  "validation_chromosomes": ["chr7"],
+  "test_chromosomes": ["chr8", "chr9"],
+  "signal_field": "narrowPeak field 7, the original finite signalValue",
+  "mapping": "Frozen per-source mid-distribution empirical CDF: (count(training signal < x) + 0.5 * count(training signal = x)) / n_training",
+  "ties": "All equal numeric signal values receive the identical midpoint of their empirical probability mass; this is not the pretraining-1.0 average-rank/n convention",
+  "between_training_values": "Step mapping count(training signal < x) / n_training; no interpolation",
+  "outside_training_range": {"below_minimum": 0.0, "above_maximum": 1.0},
+  "missing_or_nonfinite_signal": "Stop rather than impute or fit a different denominator",
+  "empty_source_training_set": "Stop",
+  "application": "Apply exactly the same frozen source mapping to train, chr7 and chr8-9 rows without refitting, including the training observations themselves",
+  "anchor_aggregation": "Maximum mapped percentile across all source ATAC peaks that generate the identical 1000 bp summit anchor",
+  "unanchored_intervals": "Retain interval_id and leave normalized value empty, as in the original feature table; never impute accessibility",
+  "output_contract": "Sidecar preserves every original interval_id and ordering. Join by interval_id. Replace only the matching covariate atac_signal_percentile_max with atac_signal_percentile_max_train_only; all other original features remain unchanged",
+  "source_of_truth": "Original donor ATAC narrowPeak files, reconciled row-for-row to frozen pretraining-1.0 ATAC_peak_evidence; original files and feature table remain untouched",
+  "heldout_use": "Held-out construction covariates may be mapped and audited, but are excluded from all mapping-fit counts and extrema",
+  "forbidden_inputs": ["model predictions", "model performance", "external benchmark labels or outcomes", "GWAS priority", "functional-variant status"],
+  "execution": "CPU data construction only; no phase-I feature extraction, model inference or training"
+}

@@ -1,0 +1,20 @@
+{
+  "purpose": "Record the actual CPU construction environment for exact numeric ingestion and deterministic matching replay; not a GPU model environment.",
+  "python": "3.9.15",
+  "numpy": "1.24.4",
+  "pandas": "2.0.3",
+  "scipy": "1.11.1",
+  "operating_system": "Linux",
+  "machine": "x86_64",
+  "matching_command_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "CUDA_VISIBLE_DEVICES_set_by_constructor": "-1"
+  },
+  "numeric_ingestion": "Matching reads frozen master features and the training-derived ATAC sidecar with pandas.read_csv default C-parser float conversion, then operates in float64. Independent exact matching replay uses the same decoded input values while independently reconstructing raw-source ECDF correctness.",
+  "exact_tie_definition": "Exact equality of recomputed float64 distance within the first available candidate-priority tier. Radius expansion is only for complete candidate enumeration, never an approximate-tie acceptance rule.",
+  "reproducibility_caveat": "Use the recorded parser and numerical environment for bit-level replay; changing decimal parsing can change whether near-equal operands form an exact tie. The preserved validator-only discrepancy demonstrates this without changing any constructed pair.",
+  "diagnostic": "provenance/validation_numeric_ingestion_diagnostic.json",
+  "model_frameworks_loaded_for_matching": false,
+  "future_model_environment": "The unchanged prospective training specification preserves the historical model environment; no model framework is initialized here."
+}

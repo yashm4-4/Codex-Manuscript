@@ -1,0 +1,441 @@
+{
+  "C_absolute_adequacy": "NOT_EVALUATED_NO_MODEL_PREDICTIONS",
+  "audit": "CPU specification invariants and synthetic decision-boundary contracts only",
+  "check_count": 95,
+  "checks": [
+    {
+      "check": "historical_specification_hash_unchanged",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_models",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_seeds",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_n_planned_fits",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_phase_I_weights_sha256",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_training",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_augmentation",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_checkpoint",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_inference_per_seed",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_inference_seed_aggregation",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_inference_reduction_dtype",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_inference_dropout",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_inference_batch_norm_updates",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_inference_ref_alt_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_inference_atol",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_inference_rtol",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_inference_real_network_numeric_gate",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_validation_roles_chr",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_validation_roles_unit",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_validation_roles_rule",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_validation_roles_assignment",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_bootstrap_seed",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_bootstrap_valid_replicates",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_bootstrap_max_attempts",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_bootstrap_max_invalid_fraction_exclusive",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_bootstrap_unit",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_bootstrap_paired",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_bootstrap_resample",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_bootstrap_CI95_percentiles",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_bootstrap_CI90_percentiles",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_selection_minimum_selection",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_selection_seed_stability_hard_stop",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_selection_reliability",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_selection_test_or_external_tiebreaker",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_threshold_target_empirical_FPR",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_threshold_minimum_controls",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_threshold_formula",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_threshold_call",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_threshold_tie_policy",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_threshold_storage",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_threshold_test_recalibration",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_threshold_variant_FPR_guarantee",
+      "status": "PASS"
+    },
+    {
+      "check": "training_not_authorized_or_started",
+      "status": "PASS"
+    },
+    {
+      "check": "exact_fixed_seed_list",
+      "status": "PASS"
+    },
+    {
+      "check": "exact_18_prospective_fits",
+      "status": "PASS"
+    },
+    {
+      "check": "C_only_eligible_configuration",
+      "status": "PASS"
+    },
+    {
+      "check": "no_comparative_margins_for_C_retention",
+      "status": "PASS"
+    },
+    {
+      "check": "no_comparative_hypothesis_gate",
+      "status": "PASS"
+    },
+    {
+      "check": "common_panels_exclude_checkpoint",
+      "status": "PASS"
+    },
+    {
+      "check": "panels_frozen_before_training",
+      "status": "PASS"
+    },
+    {
+      "check": "no_new_allele_delta_cutoff",
+      "status": "PASS"
+    },
+    {
+      "check": "calibration_component_floor_explicit_conservative_clarification",
+      "status": "PASS"
+    },
+    {
+      "check": "absolute_null_margins_preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "no_outcome_based_tuning",
+      "status": "PASS"
+    },
+    {
+      "check": "real_network_gate_not_claimed_run",
+      "status": "PASS"
+    },
+    {
+      "check": "decision_predicate_has_no_A_or_B_input",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_adequacy_above_null_passes_without_0_02_improvement",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_lower_AUROC_null_equality_does_not_pass",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_lower_AP_gain_null_equality_does_not_pass",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_lower_BrierSkill_null_equality_does_not_pass",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_construction_failure_stops",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_all_seeds_failure_stops",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_invariance_failure_stops",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_finite_failure_stops",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_bootstrap_valid_failure_stops",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_insufficient_positive_stops",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_insufficient_control_stops",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_insufficient_components_stops",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_seed_SD_above_boundary_stops",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_both_C_heads_required",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_two_adequate_C_heads_pass",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_three_seed_SD_range_bound_1002_cases",
+      "status": "PASS"
+    },
+    {
+      "check": "range_limit_redundant_not_contradictory",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_threshold_FPR_bound_all_zero",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_threshold_hex_roundtrip_all_zero",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_threshold_decimal_roundtrip_all_zero",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_threshold_FPR_bound_all_one",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_threshold_hex_roundtrip_all_one",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_threshold_decimal_roundtrip_all_one",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_threshold_FPR_bound_all_half",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_threshold_hex_roundtrip_all_half",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_threshold_decimal_roundtrip_all_half",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_threshold_FPR_bound_untied",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_threshold_hex_roundtrip_untied",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_threshold_decimal_roundtrip_untied",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_threshold_FPR_bound_nonmultiple",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_threshold_hex_roundtrip_nonmultiple",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_threshold_decimal_roundtrip_nonmultiple",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_threshold_FPR_bound_boundary_ties",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_threshold_hex_roundtrip_boundary_ties",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_threshold_decimal_roundtrip_boundary_ties",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_all_one_threshold_not_clipped",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_threshold_rejects_too_few",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_threshold_rejects_nonfinite",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_threshold_rejects_out_of_range",
+      "status": "PASS"
+    }
+  ],
+  "construction_panel_minima": "NOT_ASSESSED_BY_THIS_SPECIFICATION_ONLY_REVIEW; require independent final interval validation",
+  "experimental_version": "pretraining-1.1",
+  "external_benchmark_outcomes_parsed": false,
+  "failure_count": 0,
+  "historical_specification_sha256": "d7c8a511d200fd2e124699b8732da71475c38132b82c4a8cbc970c751fa0d976",
+  "model_inference_run": false,
+  "model_training_run": false,
+  "numerical_review_findings": [
+    "Comparative 0.02 AP/AUROC/Brier margins are not absolute adequacy gates and no longer determine C retention.",
+    "The three-seed sample-SD limit already implies a stricter range ceiling than the preserved 0.10 range stop; this is redundancy, not a conflicting requirement.",
+    "Strict lower95 AUROC>0.5, AP-over-replicate-prevalence>0 and Brier-skill>0 are preserved without tuning.",
+    "The new calibration-control component floor of 30 is an explicit conservative clarification; the existing 200-control floor is unchanged.",
+    "The observed calibration-row FPR bound is not a population, donor-generalization or variant-level FPR guarantee."
+  ],
+  "pass_count": 95,
+  "phase_I_extraction_run": false,
+  "real_network_invariance": "NOT_RUN_REQUIRED_AFTER_SEPARATELY_AUTHORIZED_TRAINING",
+  "script_path": "diseases/COPD/07_gap_closure/pretraining-1.1/scripts/validate_selection_adequacy.py",
+  "script_sha256": "5f9a18726ab6c40b9ec87d7cba37519d6ddd61e7c61087b97552b650bc45dec1",
+  "specification_path": "diseases/COPD/07_gap_closure/pretraining-1.1/specification/selection_adequacy.json",
+  "specification_sha256": "3f5f8f1a2ef8a1713d77d15d88f4dae53e21d76bc554fe28448991515088b32f",
+  "synthetic_threshold_fixtures": {
+    "all_half": {
+      "called": 0,
+      "n": 200,
+      "threshold_hex": "0x1.0000000000001p-1"
+    },
+    "all_one": {
+      "called": 0,
+      "n": 200,
+      "threshold_hex": "0x1.0000000000001p+0"
+    },
+    "all_zero": {
+      "called": 0,
+      "n": 200,
+      "threshold_hex": "0x0.0000000000001p-1022"
+    },
+    "boundary_ties": {
+      "called": 0,
+      "n": 200,
+      "threshold_hex": "0x1.ccccccccccccep-1"
+    },
+    "nonmultiple": {
+      "called": 10,
+      "n": 211,
+      "threshold_hex": "0x1.e79e79e79e79fp-1"
+    },
+    "untied": {
+      "called": 10,
+      "n": 200,
+      "threshold_hex": "0x1.e64577a3607b9p-1"
+    }
+  },
+  "training_authorized": false
+}

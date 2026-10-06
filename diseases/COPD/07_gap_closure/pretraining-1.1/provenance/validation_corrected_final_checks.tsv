@@ -1,0 +1,1155 @@
+check	status	observed	expected	domain
+historical_1.0:freeze_unchanged	PASS			artifact
+historical_1.0:ledger_unchanged	PASS			artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/MODEL_REDESIGN_PREFLIGHT.md	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/MODEL_REDESIGN_PREFLIGHT.md	PASS	35058	35058	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/MODEL_REDESIGN_PREFLIGHT.md	PASS		045c9628766f01e4963a8452cced38cee740f8f019a3710a15e3f8845949500e	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/ATAC_peak_evidence.tsv.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/ATAC_peak_evidence.tsv.gz	PASS	23001603	23001603	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/ATAC_peak_evidence.tsv.gz	PASS		fb8c71e4cbd0bb1e16e4080a62b18ea58533b4da56a55373da7ad6fbbd8dfb92	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/configuration_registry.tsv	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/configuration_registry.tsv	PASS	1292	1292	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/configuration_registry.tsv	PASS		3542ae99affc33979e7ce6a58fdc1d75484db421e66652186381f56145c464ca	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/configurations/V2-A_enhancer_interval_manifest.tsv.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/configurations/V2-A_enhancer_interval_manifest.tsv.gz	PASS	56346152	56346152	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/configurations/V2-A_enhancer_interval_manifest.tsv.gz	PASS		83d35eef432231f259b1ec6f89bf3e09fb25a5b6f63faa56eb3e93ceb0a1ec66	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/configurations/V2-A_h3k27me3_interval_manifest.tsv.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/configurations/V2-A_h3k27me3_interval_manifest.tsv.gz	PASS	9705135	9705135	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/configurations/V2-A_h3k27me3_interval_manifest.tsv.gz	PASS		9bb823a5ae44c836abf078ad7ee28b3136f99924a7202a9f4841113c7d98e0b9	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/configurations/V2-B_enhancer_interval_manifest.tsv.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/configurations/V2-B_enhancer_interval_manifest.tsv.gz	PASS	38409708	38409708	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/configurations/V2-B_enhancer_interval_manifest.tsv.gz	PASS		28acc14d63c26f81218476e20123650824509c0b808c5c0c6b7e5508f8c461b2	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/configurations/V2-B_h3k27me3_interval_manifest.tsv.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/configurations/V2-B_h3k27me3_interval_manifest.tsv.gz	PASS	6815237	6815237	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/configurations/V2-B_h3k27me3_interval_manifest.tsv.gz	PASS		6c6b19413922aacca227defa8def6775a1706184372be1e49bdd8a324ada6752	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/configurations/V2-C_enhancer_interval_manifest.tsv.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/configurations/V2-C_enhancer_interval_manifest.tsv.gz	PASS	34552061	34552061	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/configurations/V2-C_enhancer_interval_manifest.tsv.gz	PASS		6e547e602c8e630ab3b975efd96a13b24ff4b4c2b4022135c6c6ec5ecb516a33	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/configurations/V2-C_h3k27me3_interval_manifest.tsv.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/configurations/V2-C_h3k27me3_interval_manifest.tsv.gz	PASS	5670801	5670801	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/configurations/V2-C_h3k27me3_interval_manifest.tsv.gz	PASS		998a320875880628f8ab31af3e2c2259cf543f65f453dcd621f66b5fb4fe0350	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/control_matching_pairs.tsv.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/control_matching_pairs.tsv.gz	PASS	8545140	8545140	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/control_matching_pairs.tsv.gz	PASS		b39032cca893f309d83ee0ef71841be877f713cadd4ef2a41582de4d0a593c4a	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/evaluation/enhancer_common_challenge_panel.tsv.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/evaluation/enhancer_common_challenge_panel.tsv.gz	PASS	4845246	4845246	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/evaluation/enhancer_common_challenge_panel.tsv.gz	PASS		76846c797a0c53468df9dfc988a5dde1f4c34d95573cadbeb8543bada6a9ce2c	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/evaluation/h3k27me3_common_challenge_panel.tsv.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/evaluation/h3k27me3_common_challenge_panel.tsv.gz	PASS	814516	814516	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/evaluation/h3k27me3_common_challenge_panel.tsv.gz	PASS		c436fa55bcde5fdcd7d7ef3c2c91bb23c428facc4a7519c178ffac6451abd53f	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/interval_features.tsv.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/interval_features.tsv.gz	PASS	125556971	125556971	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/interval_features.tsv.gz	PASS		dbf146d974802d7912b91c193e2b815882caac1d6f71ba4a4345817937260625	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/interval_role_assignment.tsv.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/interval_role_assignment.tsv.gz	PASS	57529183	57529183	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/interval_role_assignment.tsv.gz	PASS		1501b15be85e6dc89b9fc4045e93ae2522c7cb83c82d0a4c67ddc43a6ce717dc	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_enhancer_test_control.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_enhancer_test_control.bed.gz	PASS	414784	414784	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_enhancer_test_control.bed.gz	PASS		3ea3c3082572573561574b39e11eb6c32c246d7991df1c2cb1799bf9bc3c134d	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_enhancer_test_positive.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_enhancer_test_positive.bed.gz	PASS	171926	171926	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_enhancer_test_positive.bed.gz	PASS		cbc911c8af81877d970a49662da435e2130992b4353e6ba3c2ac600ed3cf184e	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_enhancer_train_control.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_enhancer_train_control.bed.gz	PASS	3661096	3661096	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_enhancer_train_control.bed.gz	PASS		50fadb80dc78fffef235e26a29daca50988f14b0dd38767e94d0908a524a0f92	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_enhancer_train_positive.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_enhancer_train_positive.bed.gz	PASS	1660036	1660036	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_enhancer_train_positive.bed.gz	PASS		5f4afbbf3b93ca6c01fe01efb6cabff1145fe24edf3c414e832595cef317371a	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_enhancer_validation_control.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_enhancer_validation_control.bed.gz	PASS	241029	241029	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_enhancer_validation_control.bed.gz	PASS		fa0151e1f44bfdb8b57c8df0fbe5f70b8ddf5d0177fb8c587bd55c395d178736	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_enhancer_validation_positive.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_enhancer_validation_positive.bed.gz	PASS	89142	89142	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_enhancer_validation_positive.bed.gz	PASS		aa6d7558ed12b52adaa370d933e744b40ddfd18ac07496914332177f284b2109	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_h3k27me3_test_control.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_h3k27me3_test_control.bed.gz	PASS	73074	73074	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_h3k27me3_test_control.bed.gz	PASS		868331993d3f2b1ea55cbf0ab7dcb828ca2907a91b1d4b615cf4a10db0648442	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_h3k27me3_test_positive.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_h3k27me3_test_positive.bed.gz	PASS	29500	29500	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_h3k27me3_test_positive.bed.gz	PASS		5a8ec6e60d2b60531f4aaaafd980ec08a8c52cb339a31dfc8c7cbdd03d3ff211	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_h3k27me3_train_control.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_h3k27me3_train_control.bed.gz	PASS	644902	644902	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_h3k27me3_train_control.bed.gz	PASS		bd8ebe7a35a197d8f524e10ddfc264995619b76272dc0bbfb84dd05fef53deb8	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_h3k27me3_train_positive.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_h3k27me3_train_positive.bed.gz	PASS	293296	293296	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_h3k27me3_train_positive.bed.gz	PASS		73ded79be2b77826d16f7fd1c834c4d53168affeff805cdf7c03dac2cd4bebb4	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_h3k27me3_validation_control.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_h3k27me3_validation_control.bed.gz	PASS	42405	42405	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_h3k27me3_validation_control.bed.gz	PASS		2611bf25c8b9cb2ea3fb1459be79339bea1cdeb8d8caf9ce5b9162f3517ffb82	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_h3k27me3_validation_positive.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_h3k27me3_validation_positive.bed.gz	PASS	18226	18226	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-A_h3k27me3_validation_positive.bed.gz	PASS		c19734e38dbcbd6453c363a94fb97a871101417492185a933b88161021fb785b	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_enhancer_test_control.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_enhancer_test_control.bed.gz	PASS	170680	170680	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_enhancer_test_control.bed.gz	PASS		d9c4df05ab545b643900ad533ac378f231fd605d8400c3fbb8a39d173293db41	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_enhancer_test_positive.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_enhancer_test_positive.bed.gz	PASS	171926	171926	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_enhancer_test_positive.bed.gz	PASS		2d0b8cd6a8f4d0365faeae1f012279546a7a52e19d1ce1c2d0fd899aa19f244c	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_enhancer_train_control.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_enhancer_train_control.bed.gz	PASS	1642249	1642249	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_enhancer_train_control.bed.gz	PASS		25babe9c8694bc484b605d297001548a84a2bc432957fc2b889856268b9a6476	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_enhancer_train_positive.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_enhancer_train_positive.bed.gz	PASS	1660036	1660036	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_enhancer_train_positive.bed.gz	PASS		27a42e93c63d1794090ee9bf4cccc1ae40fd93be100377669f2dd37f3d23bd8b	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_enhancer_validation_control.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_enhancer_validation_control.bed.gz	PASS	93527	93527	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_enhancer_validation_control.bed.gz	PASS		df2c1281f1dd3d6001cbd03f98d3076c380e5fe0b025dad2eb88deb521f6596f	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_enhancer_validation_positive.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_enhancer_validation_positive.bed.gz	PASS	89142	89142	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_enhancer_validation_positive.bed.gz	PASS		7d95904fbb25bb8189f53a75e23fc393a68c9b226f338b036714ac1b953b2af0	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_h3k27me3_test_control.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_h3k27me3_test_control.bed.gz	PASS	32575	32575	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_h3k27me3_test_control.bed.gz	PASS		97b9232fd8ece73e442fd96b7ba29916e04250bb6a7ea4e1e53c08cd5c0e63be	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_h3k27me3_test_positive.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_h3k27me3_test_positive.bed.gz	PASS	29500	29500	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_h3k27me3_test_positive.bed.gz	PASS		39e83f4fffb8b212b170c0e55ac880750da2633031fe2342d4d33456d9c65b45	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_h3k27me3_train_control.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_h3k27me3_train_control.bed.gz	PASS	320188	320188	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_h3k27me3_train_control.bed.gz	PASS		4d2d613ae1e46ef7ac08595b769ca70c021a3e06c69d21036aab47ea312be414	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_h3k27me3_train_positive.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_h3k27me3_train_positive.bed.gz	PASS	293296	293296	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_h3k27me3_train_positive.bed.gz	PASS		d35ac2252d9f626b2700e12bc012251cc3f1129bd6643e4286939efeb6486eab	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_h3k27me3_validation_control.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_h3k27me3_validation_control.bed.gz	PASS	19681	19681	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_h3k27me3_validation_control.bed.gz	PASS		b919ee2c2fa7d0f2dc182489de85fd7210603cb314d61b8000ab9df12fa7aa57	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_h3k27me3_validation_positive.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_h3k27me3_validation_positive.bed.gz	PASS	18226	18226	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-B_h3k27me3_validation_positive.bed.gz	PASS		b3da142e3954b51d0cbfd2642bc9206a2cc9cbcc5c607264e47c8cfd149a23f7	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_enhancer_test_control.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_enhancer_test_control.bed.gz	PASS	170680	170680	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_enhancer_test_control.bed.gz	PASS		3600280d9d3e28461be70f05b8051a50bab1bc50b64a31039068e88baa259a10	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_enhancer_test_positive.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_enhancer_test_positive.bed.gz	PASS	138109	138109	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_enhancer_test_positive.bed.gz	PASS		e21accc7d40f4271c4ca4d58784f4cb37c2d08170a3039e9ceeb6949b2a603e1	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_enhancer_train_control.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_enhancer_train_control.bed.gz	PASS	1642249	1642249	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_enhancer_train_control.bed.gz	PASS		ccb788d5b161a915f2970e2b59eb5b31561817626539fdb8c214dcc9e504ffd1	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_enhancer_train_positive.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_enhancer_train_positive.bed.gz	PASS	1362373	1362373	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_enhancer_train_positive.bed.gz	PASS		d3882f17a9dfff2becf10152421bfa3bdb1786805a6e5555f3c764b7d8559077	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_enhancer_validation_control.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_enhancer_validation_control.bed.gz	PASS	93527	93527	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_enhancer_validation_control.bed.gz	PASS		ab7d9b1f01c6554c65a14664e094550b235f2647c7538569951ac3b34a5a4f33	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_enhancer_validation_positive.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_enhancer_validation_positive.bed.gz	PASS	72092	72092	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_enhancer_validation_positive.bed.gz	PASS		a8b8a28dbbe932003466daa8764305fc4e1ccec114ed99eb52d0b7261a6cf3ce	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_h3k27me3_test_control.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_h3k27me3_test_control.bed.gz	PASS	32575	32575	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_h3k27me3_test_control.bed.gz	PASS		fddebbc2bb8cca5cc57202caee40f66458b3685f7a5a0cc46545709b739ac9c6	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_h3k27me3_test_positive.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_h3k27me3_test_positive.bed.gz	PASS	20706	20706	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_h3k27me3_test_positive.bed.gz	PASS		a7671fe789415bfb6f365cfe19bbab9788851c8673934028b72e0e1bf683dc76	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_h3k27me3_train_control.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_h3k27me3_train_control.bed.gz	PASS	320188	320188	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_h3k27me3_train_control.bed.gz	PASS		cd4e3cb8a5e0b5801ea79fc331e4926af6cf669b561684c5e6f76e6b14b3c9ee	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_h3k27me3_train_positive.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_h3k27me3_train_positive.bed.gz	PASS	199440	199440	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_h3k27me3_train_positive.bed.gz	PASS		62fea621437a317e2cc6bef4ebcfac2da44fff3bcdd8be4addd090f5f04b80c1	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_h3k27me3_validation_control.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_h3k27me3_validation_control.bed.gz	PASS	19681	19681	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_h3k27me3_validation_control.bed.gz	PASS		e3777d9a46f20b4f1783220b5c6a081800fdbbdc56443b9fbdf311aa72c7be4e	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_h3k27me3_validation_positive.bed.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_h3k27me3_validation_positive.bed.gz	PASS	12793	12793	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/intervals/V2-C_h3k27me3_validation_positive.bed.gz	PASS		a6b0167ecc87cde0aee30fa150746d7a7b080ecc0b90b1c9ff2b4eb279697ace	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/run_matrix.tsv	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/run_matrix.tsv	PASS	5398	5398	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/run_matrix.tsv	PASS		dacf7b29d2ed626e930a909ea8d6959883f8da38cfd0b62a7cf3897590af3952	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/selected_sequence_duplicate_audit.tsv.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/selected_sequence_duplicate_audit.tsv.gz	PASS	703	703	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/selected_sequence_duplicate_audit.tsv.gz	PASS		1d8d1b5b20170b63b8abae690917eabe031a3d8b004d96b67b5a747e1e3d57f0	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/unmatched_positive_targets.tsv.gz	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/unmatched_positive_targets.tsv.gz	PASS	120490	120490	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/unmatched_positive_targets.tsv.gz	PASS		98863bdfc8fb17d1f83a7835a7ba6bc9b54d15e98d62ef7ddee02fb8376db6a7	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_ancillary_validation.json	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_ancillary_validation.json	PASS	106560	106560	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_ancillary_validation.json	PASS		a7161ef4840f254aa804d1a44061a7f86eb32c6cf1981e4b3a712fff237dea36	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_architecture_compute_audit.json	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_architecture_compute_audit.json	PASS	21416	21416	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_architecture_compute_audit.json	PASS		a91e9f8a4c3e618fa23d40d3e3e044fad24e914b84c96f0dd19cead924980e4e	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_compute_plan.json	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_compute_plan.json	PASS	1390	1390	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_compute_plan.json	PASS		acd654f736881ca902db86c3dd85dbd83140781301c5682ce48d180a83b64b69	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_configuration_manifest.json	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_configuration_manifest.json	PASS	2851	2851	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_configuration_manifest.json	PASS		2f765d761c4eb5b243fff614144176946b3fe2c470aae739eba4afb4aa7c6ede	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_consumed_input_hashes.tsv	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_consumed_input_hashes.tsv	PASS	8244	8244	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_consumed_input_hashes.tsv	PASS		3786b8409dd6bce359c41bf6a6f54e5ddb40b50f8babf20acc65c29941c0a318	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_design_review.json	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_design_review.json	PASS	12254	12254	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_design_review.json	PASS		1aa54d947be5a164563f0b441a197116dea77e60b6c2463f11bbcfe9537519eb	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_feature_independent_qc.json	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_feature_independent_qc.json	PASS	3146	3146	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_feature_independent_qc.json	PASS		e31355ebfeba8261e3a434e30063054cd2513a58966e41060ea3ac9d02dd9adf	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_feature_manifest.json	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_feature_manifest.json	PASS	8909	8909	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_feature_manifest.json	PASS		5957483368e0258f7f0ee7a0b6083cf5f5b9daa964f14ade94cd6b947b674be5	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_feature_rules.json	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_feature_rules.json	PASS	1639	1639	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_feature_rules.json	PASS		e3d78a7bab6abd2d622188072c4b5b439f88aa181ec52a1879ca5bf95004076f	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_feature_schema.json	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_feature_schema.json	PASS	1774	1774	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_feature_schema.json	PASS		1487ee183c60397f1eb58acd3a6c89005371d4a8b44007e17bdc5df09f53e27f	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_final_validation.tsv	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_final_validation.tsv	PASS	333997	333997	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_final_validation.tsv	PASS		b086b2345251bfeda787285c8d96ee5e91657eb83b1975fea48e5f81be283a7c	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_final_validation_manifest.json	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_final_validation_manifest.json	PASS	10734	10734	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_final_validation_manifest.json	PASS		d16e5fc2f62d18fc069eac117101be8463213bcfbeae059c7c742a1a417ddf63	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_matching_implementation_notes.json	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_matching_implementation_notes.json	PASS	4228	4228	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_matching_implementation_notes.json	PASS		6b06234939f5bfbc16e96ec65b566bd25bd679620a39434c87442447b32337ee	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_matching_specification.json	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_matching_specification.json	PASS	2075	2075	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_matching_specification.json	PASS		68e75c00526304b35c5d8a87f98134ff6a3b9d24a2f7fe13dd982cdc2a3c6aa0	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_matching_tie_contract_audit.json	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_matching_tie_contract_audit.json	PASS	2466	2466	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_matching_tie_contract_audit.json	PASS		40662821af6e6066b7df0eb18acd83de24822c64a40a95c3a49e9a907eedbae5	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_orientation_contract_qc.json	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_orientation_contract_qc.json	PASS	8538	8538	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_orientation_contract_qc.json	PASS		1bc5b71a2fd899679be3600d7229e48826a10c6d3e60da94e692473cf50e4b2a	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_preliminary_strict_tie_validation.tsv	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_preliminary_strict_tie_validation.tsv	PASS	333793	333793	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_preliminary_strict_tie_validation.tsv	PASS		56dc1b46e69419702b3175431b0f0f3d809bc088c14422c2efc822f80bb27bbf	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_preliminary_strict_tie_validation_manifest.json	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_preliminary_strict_tie_validation_manifest.json	PASS	10773	10773	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_preliminary_strict_tie_validation_manifest.json	PASS		95b64c9857ed3e3ca0e72016508f2b35a338cb823c53df444858d8b63996da96	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_preliminary_training_readiness.tsv	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_preliminary_training_readiness.tsv	PASS	1471	1471	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_preliminary_training_readiness.tsv	PASS		5780dce4bdcd6b075e86fbbaea100ccf38105510924d0b394e8f8878bb997c1b	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_protected_tracked_hashes_before.tsv	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_protected_tracked_hashes_before.tsv	PASS	88560	88560	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_protected_tracked_hashes_before.tsv	PASS		ffc0895e35e50a147021c8017f00cd31203ba36ac84ee1b14ddade3be313cca4	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_selection_specification.json	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_selection_specification.json	PASS	8399	8399	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_selection_specification.json	PASS		d7c8a511d200fd2e124699b8732da71475c38132b82c4a8cbc970c751fa0d976	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_source_inventory.tsv	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_source_inventory.tsv	PASS	2617	2617	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_source_inventory.tsv	PASS		7664318cf3a0df4b9d2d59706c5b564224edbc2242bf1155e30dee6b030c0d6c	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_source_provenance_audit.json	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_source_provenance_audit.json	PASS	17687	17687	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_source_provenance_audit.json	PASS		1a5a1062cb9dfbfb9ffcaf56c51e1eecf335f366ea4a1e56326acacb54766638	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_training_readiness.tsv	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_training_readiness.tsv	PASS	1471	1471	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_training_readiness.tsv	PASS		5780dce4bdcd6b075e86fbbaea100ccf38105510924d0b394e8f8878bb997c1b	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_ATAC_strength_available_denominators.tsv	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_ATAC_strength_available_denominators.tsv	PASS	6929	6929	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_ATAC_strength_available_denominators.tsv	PASS		c6c598acf4a3b60242aca1eb9e367a2e66335a52c9e71fd43707dba6cbf3a6df	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_class_counts.tsv	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_class_counts.tsv	PASS	7437	7437	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_class_counts.tsv	PASS		62bc903dcbf44cb21a05fe14fa840af3ededfaeab2a8f0a3a66aa9a359375225	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_compute_projection_by_run.tsv	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_compute_projection_by_run.tsv	PASS	1555	1555	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_compute_projection_by_run.tsv	PASS		a263c4d8c7e851b67e425f405cfbff3f3e88190da9c01ff930460330570bbfbb	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_configuration_overlap.tsv	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_configuration_overlap.tsv	PASS	452	452	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_configuration_overlap.tsv	PASS		b1eef5128e52d3fc16830f172049ef191d32b57bdec93f77be3c8d3d7e28773c	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_covariate_distributions.tsv	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_covariate_distributions.tsv	PASS	28879	28879	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_covariate_distributions.tsv	PASS		e3f1648ec4187f2776e7f4d2dd34505ba815f7ec547cd6ca2be999e50ea019a5	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_feature_construction_counts.tsv	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_feature_construction_counts.tsv	PASS	1545	1545	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_feature_construction_counts.tsv	PASS		08855c11f98f8223924413c2686e9307b48f58bf45e1abb2cbc52f5f88673d0c	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_matched_control_counts.tsv	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_matched_control_counts.tsv	PASS	13833	13833	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_matched_control_counts.tsv	PASS		49577ebe3e6a54c8d1ddf57c4e541176340112577de6812ec92c31e222858a69	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_matching_diagnostics.tsv	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_matching_diagnostics.tsv	PASS	35085	35085	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_matching_diagnostics.tsv	PASS		a86835b330d692d42b0ab62033cae244d9e1f2aafa0db5f34e8324caf56dce0c	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_role_class_counts.tsv	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_role_class_counts.tsv	PASS	2352	2352	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_role_class_counts.tsv	PASS		bf52f0c868eed271161d07ed57798195d8b41dc47be5dad38c8a1c3eba3476c9	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_sequence_context_qc.tsv	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_sequence_context_qc.tsv	PASS	398	398	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_sequence_context_qc.tsv	PASS		31b372334ca24f850a7740bb7836faa05781acacf8ae15c27e353e3b6149a0e3	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_sequence_duplicate_audit.tsv	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_sequence_duplicate_audit.tsv	PASS	12497	12497	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_sequence_duplicate_audit.tsv	PASS		f2cd6208ea40756f52a185a0a0b03db67b9b1b3f92c2b04a75481826d7f4ca06	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_source_context_distribution.tsv	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_source_context_distribution.tsv	PASS	29429	29429	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_source_context_distribution.tsv	PASS		e43c601e2d09d4d440f01398fe8578605117844b4d877a88e315d6427d1bab6f	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_structural_control_pool_counts.tsv	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_structural_control_pool_counts.tsv	PASS	198	198	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_structural_control_pool_counts.tsv	PASS		7beae62cbc7b496fb4f90646168d21e63453c78d04551935dd8a221ffc3b6aa5	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_unmatched_target_counts.tsv	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_unmatched_target_counts.tsv	PASS	2944	2944	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_unmatched_target_counts.tsv	PASS		618350783d34fd76067729f907ddc235da8717a7c9e1ffd6b58b890eba385b5e	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/scripts/build_model_redesign_preflight.py	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/scripts/build_model_redesign_preflight.py	PASS	24342	24342	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/scripts/build_model_redesign_preflight.py	PASS		4a3d874a395c051f766c34d5261892df8c10a0f6463087c66a86449c66a8c530	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/scripts/construct_preflight_configurations.py	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/scripts/construct_preflight_configurations.py	PASS	16676	16676	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/scripts/construct_preflight_configurations.py	PASS		169940b967db03b1d8cb42b7a752c0293b431608b5818fdb1c784cc0eb9d4efe	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/scripts/freeze_model_redesign_preflight.py	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/scripts/freeze_model_redesign_preflight.py	PASS	6900	6900	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/scripts/freeze_model_redesign_preflight.py	PASS		7b2b36fa090c64a00263c2ab0c66ec376d0e9bb39467500e051f1856f6dc684c	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/scripts/preflight_orientation_contract.py	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/scripts/preflight_orientation_contract.py	PASS	15633	15633	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/scripts/preflight_orientation_contract.py	PASS		4d6f6bc1674d398037174b3b2b488544b7a294e25cc87b6e00dab39d6542ff29	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/scripts/summarize_preflight_readiness.py	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/scripts/summarize_preflight_readiness.py	PASS	4872	4872	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/scripts/summarize_preflight_readiness.py	PASS		6305acc155e9b7820f9e36db6ff516a18f9ac35a81e462d7970934094cddbd2a	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/scripts/validate_model_redesign_preflight.py	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/scripts/validate_model_redesign_preflight.py	PASS	65048	65048	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/scripts/validate_model_redesign_preflight.py	PASS		034fcd95c62dc07bef45b92888530d3686421d790c68bb13854c557b72f95a67	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/scripts/validate_model_redesign_preflight_strict_tie_attempt.py	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/scripts/validate_model_redesign_preflight_strict_tie_attempt.py	PASS	59373	59373	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/scripts/validate_model_redesign_preflight_strict_tie_attempt.py	PASS		2a1d40548286aec4ecb48ea6629b60bbaedc644444a02e106c10a9911ef78766	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/scripts/validate_preflight_ancillary.py	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/scripts/validate_preflight_ancillary.py	PASS	10429	10429	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/scripts/validate_preflight_ancillary.py	PASS		3a1cac56d5bb1490d685f754a389bee4047da5cb9032c368603c2fd4ba3c625a	artifact
+historical_1.0:exists:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_artifact_inventory.tsv	PASS			artifact
+historical_1.0:bytes:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_artifact_inventory.tsv	PASS	16946	16946	artifact
+historical_1.0:sha256:diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_artifact_inventory.tsv	PASS		200382a5c90567c4722f7950275b1cce64125f2be9f85d403ed33e9f3f4cedb3	artifact
+historical_1.0:all_100_payloads_present	PASS			artifact
+consumed_input:exists:diseases/COPD/03_regulatory_landscape/data/encode_peaks/manifest.tsv	PASS			artifact
+consumed_input:bytes:diseases/COPD/03_regulatory_landscape/data/encode_peaks/manifest.tsv	PASS	5133	5133	artifact
+consumed_input:sha256:diseases/COPD/03_regulatory_landscape/data/encode_peaks/manifest.tsv	PASS		c8220526548be91276bb69e8cb0c04e4cab4d7dcae4f361843e5c84690ee1ba4	artifact
+consumed_input:exists:diseases/COPD/03_regulatory_landscape/data/encode_lung_experiments.tsv	PASS			artifact
+consumed_input:bytes:diseases/COPD/03_regulatory_landscape/data/encode_lung_experiments.tsv	PASS	57598	57598	artifact
+consumed_input:sha256:diseases/COPD/03_regulatory_landscape/data/encode_lung_experiments.tsv	PASS		86a37a5573da90b838fddb3bbe19c72584c3a759205c2e9d17b98383ea96a771	artifact
+consumed_input:exists:diseases/COPD/04_modeling/trednet/fasta/hg38.fa	PASS			artifact
+consumed_input:bytes:diseases/COPD/04_modeling/trednet/fasta/hg38.fa	PASS	3273481150	3273481150	artifact
+consumed_input:sha256:diseases/COPD/04_modeling/trednet/fasta/hg38.fa	PASS		5be01555d98347fdb3714dc84c6f77c9d8bc774adcf32c6f7a8fa06f5baf5e51	artifact
+consumed_input:exists:diseases/COPD/04_modeling/trednet/fasta/hg38.fa.fai	PASS			artifact
+consumed_input:bytes:diseases/COPD/04_modeling/trednet/fasta/hg38.fa.fai	PASS	19381	19381	artifact
+consumed_input:sha256:diseases/COPD/04_modeling/trednet/fasta/hg38.fa.fai	PASS		3b425de206296a5c8053023fa5ca61da43cfe78c1737c12e58c83367c7e83c21	artifact
+consumed_input:exists:data/gencode/gencode.v50.annotation.gtf.gz	PASS			artifact
+consumed_input:bytes:data/gencode/gencode.v50.annotation.gtf.gz	PASS	124527720	124527720	artifact
+consumed_input:sha256:data/gencode/gencode.v50.annotation.gtf.gz	PASS		83fba3e9b03f0b8c958f3595c6c350adc55f468abf8b0e47b6d5284cfe13a453	artifact
+consumed_input:exists:data/blacklist/hg38-blacklist.v2.bed.gz	PASS			artifact
+consumed_input:bytes:data/blacklist/hg38-blacklist.v2.bed.gz	PASS	5867	5867	artifact
+consumed_input:sha256:data/blacklist/hg38-blacklist.v2.bed.gz	PASS		c92e763af17271446194991e71917ac220593a5a3d40a06667be24178ef08cf2	artifact
+consumed_input:exists:data/repeats/rmsk.txt.gz	PASS			artifact
+consumed_input:bytes:data/repeats/rmsk.txt.gz	PASS	155633856	155633856	artifact
+consumed_input:sha256:data/repeats/rmsk.txt.gz	PASS		db60e6aa7ac175f8f5465cd01b48b550e67e1fb0fd828608d8343481867bb276	artifact
+consumed_input:exists:diseases/COPD/07_gap_closure/scripts/build_model_redesign_preflight.py	PASS			artifact
+consumed_input:bytes:diseases/COPD/07_gap_closure/scripts/build_model_redesign_preflight.py	PASS	24342	24342	artifact
+consumed_input:sha256:diseases/COPD/07_gap_closure/scripts/build_model_redesign_preflight.py	PASS		4a3d874a395c051f766c34d5261892df8c10a0f6463087c66a86449c66a8c530	artifact
+consumed_input:exists:diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF906HOT.bed.gz	PASS			artifact
+consumed_input:bytes:diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF906HOT.bed.gz	PASS	6360864	6360864	artifact
+consumed_input:sha256:diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF906HOT.bed.gz	PASS		d218b0cc0ab907957db4454683b5cf3546024a74efdf9b1b4965cfe724bd43d7	artifact
+consumed_input:exists:diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF149QUM.bed.gz	PASS			artifact
+consumed_input:bytes:diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF149QUM.bed.gz	PASS	1418076	1418076	artifact
+consumed_input:sha256:diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF149QUM.bed.gz	PASS		d9efa7986d753dcb2a69e83ddb3fab032cf362ddf1d57906f119f524e9962629	artifact
+consumed_input:exists:diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF685CNW.bed.gz	PASS			artifact
+consumed_input:bytes:diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF685CNW.bed.gz	PASS	631798	631798	artifact
+consumed_input:sha256:diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF685CNW.bed.gz	PASS		cdf105747c83e3eec672f5c52a070ea13e99f0e971a19f3a81a341d5881cde31	artifact
+consumed_input:exists:diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF189LZA.bed.gz	PASS			artifact
+consumed_input:bytes:diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF189LZA.bed.gz	PASS	5548138	5548138	artifact
+consumed_input:sha256:diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF189LZA.bed.gz	PASS		896207d32911a0d39ce278fcfa9c3dc7e93cd98381962b08200f129215c17e13	artifact
+consumed_input:exists:diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF299FWI.bed.gz	PASS			artifact
+consumed_input:bytes:diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF299FWI.bed.gz	PASS	1498164	1498164	artifact
+consumed_input:sha256:diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF299FWI.bed.gz	PASS		938b78811c20e934c43b3291e7a87352dfefc3263949fd735dbcaebe954d0d82	artifact
+consumed_input:exists:diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF591PDC.bed.gz	PASS			artifact
+consumed_input:bytes:diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF591PDC.bed.gz	PASS	754361	754361	artifact
+consumed_input:sha256:diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF591PDC.bed.gz	PASS		4ece742e3c3212a7dc1f2df68da8ce967b819d7eaba322f8202ab4cdc4fa1c58	artifact
+consumed_input:exists:diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF899TQV.bed.gz	PASS			artifact
+consumed_input:bytes:diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF899TQV.bed.gz	PASS	7395410	7395410	artifact
+consumed_input:sha256:diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF899TQV.bed.gz	PASS		e15138199a6ccc62a6160b0aa24292b6d1af47b87721977bbcf03ca6dd135cad	artifact
+consumed_input:exists:diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF014OZD.bed.gz	PASS			artifact
+consumed_input:bytes:diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF014OZD.bed.gz	PASS	1732961	1732961	artifact
+consumed_input:sha256:diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF014OZD.bed.gz	PASS		21319d99090c9858c8674b46439987cda59c647d649b9cf231b54905ef706cc6	artifact
+consumed_input:exists:diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF725NIC.bed.gz	PASS			artifact
+consumed_input:bytes:diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF725NIC.bed.gz	PASS	1320094	1320094	artifact
+consumed_input:sha256:diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF725NIC.bed.gz	PASS		fd5b2b07ce1eec326c0a6c6b9448e8266fa2de7c7988d2b628e82fbf1cf68440	artifact
+consumed_input:exists:diseases/COPD/04_modeling/trednet/input_training_data/COPD_SevereEmphysema_Lung_Enhancer_DHS_x2_positive_1kb.bed	PASS			artifact
+consumed_input:bytes:diseases/COPD/04_modeling/trednet/input_training_data/COPD_SevereEmphysema_Lung_Enhancer_DHS_x2_positive_1kb.bed	PASS	4332442	4332442	artifact
+consumed_input:sha256:diseases/COPD/04_modeling/trednet/input_training_data/COPD_SevereEmphysema_Lung_Enhancer_DHS_x2_positive_1kb.bed	PASS		d9bad3ad3ee29a3d432f1eb4b05f374ff76a0b7ecae096634b011002d5494d46	artifact
+consumed_input:exists:diseases/COPD/04_modeling/trednet/input_training_data/COPD_SevereEmphysema_Lung_Enhancer_DHS_x2_control_1kb.bed	PASS			artifact
+consumed_input:bytes:diseases/COPD/04_modeling/trednet/input_training_data/COPD_SevereEmphysema_Lung_Enhancer_DHS_x2_control_1kb.bed	PASS	8671057	8671057	artifact
+consumed_input:sha256:diseases/COPD/04_modeling/trednet/input_training_data/COPD_SevereEmphysema_Lung_Enhancer_DHS_x2_control_1kb.bed	PASS		83188fd07f65d484fd38e967f99db4850492671c6e3a8fdca078f5bae645d05c	artifact
+consumed_input:exists:diseases/COPD/04_modeling/trednet/input_training_data/COPD_SevereEmphysema_Lung_Silencer_DHS_x2_positive_1kb.bed	PASS			artifact
+consumed_input:bytes:diseases/COPD/04_modeling/trednet/input_training_data/COPD_SevereEmphysema_Lung_Silencer_DHS_x2_positive_1kb.bed	PASS	729901	729901	artifact
+consumed_input:sha256:diseases/COPD/04_modeling/trednet/input_training_data/COPD_SevereEmphysema_Lung_Silencer_DHS_x2_positive_1kb.bed	PASS		921d20ba75bf3146a01fa66a3f851eda63d91050fa4e40b5663b9e61f95cf3a4	artifact
+consumed_input:exists:diseases/COPD/04_modeling/trednet/input_training_data/COPD_SevereEmphysema_Lung_Silencer_DHS_x2_control_1kb.bed	PASS			artifact
+consumed_input:bytes:diseases/COPD/04_modeling/trednet/input_training_data/COPD_SevereEmphysema_Lung_Silencer_DHS_x2_control_1kb.bed	PASS	1462538	1462538	artifact
+consumed_input:sha256:diseases/COPD/04_modeling/trednet/input_training_data/COPD_SevereEmphysema_Lung_Silencer_DHS_x2_control_1kb.bed	PASS		ca3ac6e633751fef1caefdd1bf2a9e807337bed29fcd3b035b3f944d4f9bf871	artifact
+consumed_input:exists:diseases/COPD/04_modeling/trednet/model_phase_I/phase_one_weights.h5	PASS			artifact
+consumed_input:bytes:diseases/COPD/04_modeling/trednet/model_phase_I/phase_one_weights.h5	PASS	565399080	565399080	artifact
+consumed_input:sha256:diseases/COPD/04_modeling/trednet/model_phase_I/phase_one_weights.h5	PASS		483b6c0cafd750ea8e97932cbc8a949276eaf1e77e7d8766f9a22eeddc2916d6	artifact
+consumed_input:exists:diseases/COPD/04_modeling/trednet/TREDNet_v2_seeded.py	PASS			artifact
+consumed_input:bytes:diseases/COPD/04_modeling/trednet/TREDNet_v2_seeded.py	PASS	20843	20843	artifact
+consumed_input:sha256:diseases/COPD/04_modeling/trednet/TREDNet_v2_seeded.py	PASS		cc756722c832f559074f4b326ac84edb914eea143c0bd8c319dcbd225181dc31	artifact
+consumed_input:exists:diseases/COPD/04_modeling/trednet/TREDNet_v2_seeded_v1.py	PASS			artifact
+consumed_input:bytes:diseases/COPD/04_modeling/trednet/TREDNet_v2_seeded_v1.py	PASS	21162	21162	artifact
+consumed_input:sha256:diseases/COPD/04_modeling/trednet/TREDNet_v2_seeded_v1.py	PASS		8c3f634e00dc0e33ff4369e89bd3696f6004bfd098583a3c7412dba796c9ba24	artifact
+consumed_input:exists:diseases/COPD/04_modeling/trednet/models_output/COPD_SevereEmphysema_Lung_Enhancer_DHS_x2/phase_two_model.keras	PASS			artifact
+consumed_input:bytes:diseases/COPD/04_modeling/trednet/models_output/COPD_SevereEmphysema_Lung_Enhancer_DHS_x2/phase_two_model.keras	PASS	350064483	350064483	artifact
+consumed_input:sha256:diseases/COPD/04_modeling/trednet/models_output/COPD_SevereEmphysema_Lung_Enhancer_DHS_x2/phase_two_model.keras	PASS		2c897426a9002ca5238b530d039f817ea422b5d6ca24a06c2a5ff2d88ebf6abb	artifact
+consumed_input:exists:diseases/COPD/04_modeling/trednet/models_output/COPD_SevereEmphysema_Lung_Silencer_DHS_x2/phase_two_model.keras	PASS			artifact
+consumed_input:bytes:diseases/COPD/04_modeling/trednet/models_output/COPD_SevereEmphysema_Lung_Silencer_DHS_x2/phase_two_model.keras	PASS	350064483	350064483	artifact
+consumed_input:sha256:diseases/COPD/04_modeling/trednet/models_output/COPD_SevereEmphysema_Lung_Silencer_DHS_x2/phase_two_model.keras	PASS		7fc394760dfb025f509a46c4b266a02825767d311c7a456e7c9c473fc68cbe0f	artifact
+consumed_input:exists:models/TREDNET_v2/make_input_training_data.py	PASS			artifact
+consumed_input:bytes:models/TREDNET_v2/make_input_training_data.py	PASS	9813	9813	artifact
+consumed_input:sha256:models/TREDNET_v2/make_input_training_data.py	PASS		c93ee73fc36770dea9ee53e1212284d819599310be61259695c00adb089bc528	artifact
+consumed_input:exists:models/TREDNET_v2/input_training_data/control/allDHS.merge.nonPromoterExon	PASS			artifact
+consumed_input:bytes:models/TREDNET_v2/input_training_data/control/allDHS.merge.nonPromoterExon	PASS	108295034	108295034	artifact
+consumed_input:sha256:models/TREDNET_v2/input_training_data/control/allDHS.merge.nonPromoterExon	PASS		1fa69c7798972d12361c55665c10ac810bfa13043a6ca4f628a1d1bff693ac0a	artifact
+historical_1.0:all_28_consumed_inputs_unchanged	PASS			artifact
+historical_1.0:failed_preflight_status_preserved	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_0dc3a6125eb9d312.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_0dc3a6125eb9d312.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_16bf5d8854a64964.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_16bf5d8854a64964.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_1f4c0cc475715e5c.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_1f4c0cc475715e5c.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_447a024aa567a215.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_447a024aa567a215.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_4dd10cd6f8dc1972.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_4dd10cd6f8dc1972.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_6175b9e31d07325b.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_6175b9e31d07325b.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_6802a01e9d7f25ff.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_6802a01e9d7f25ff.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_6aa8e18f211cd5fd.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_6aa8e18f211cd5fd.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_853c5df092438f74.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_853c5df092438f74.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_8a0bf232d6243866.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_8a0bf232d6243866.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_8e1cdd76d94b1469.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_8e1cdd76d94b1469.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_ab32840272d576c5.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_ab32840272d576c5.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_c76e2d16dd9aa984.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_c76e2d16dd9aa984.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_c9a3ea2e459ad724.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_c9a3ea2e459ad724.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_de9d15e09cd0d0c5.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_de9d15e09cd0d0c5.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_e4c0b510e83c7092.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_e4c0b510e83c7092.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_e7fbdcbd46116bb7.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_e7fbdcbd46116bb7.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_f3aa0bebe2648a47.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_f3aa0bebe2648a47.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_fe9d04fcdc4348cb.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_fe9d04fcdc4348cb.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh37_resolved_merged_aliases.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_0dc3a6125eb9d312.failure.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_0dc3a6125eb9d312.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_0dc3a6125eb9d312.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_16bf5d8854a64964.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_16bf5d8854a64964.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_1f4c0cc475715e5c.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_1f4c0cc475715e5c.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_447a024aa567a215.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_447a024aa567a215.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_4dd10cd6f8dc1972.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_4dd10cd6f8dc1972.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_6175b9e31d07325b.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_6175b9e31d07325b.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_6802a01e9d7f25ff.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_6802a01e9d7f25ff.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_6aa8e18f211cd5fd.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_6aa8e18f211cd5fd.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_853c5df092438f74.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_853c5df092438f74.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_8a0bf232d6243866.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_8a0bf232d6243866.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_8e1cdd76d94b1469.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_8e1cdd76d94b1469.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_ab32840272d576c5.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_ab32840272d576c5.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_c76e2d16dd9aa984.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_c76e2d16dd9aa984.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_c9a3ea2e459ad724.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_c9a3ea2e459ad724.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_de9d15e09cd0d0c5.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_de9d15e09cd0d0c5.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_e4c0b510e83c7092.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_e4c0b510e83c7092.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_e7fbdcbd46116bb7.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_e7fbdcbd46116bb7.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_f3aa0bebe2648a47.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_f3aa0bebe2648a47.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_fe9d04fcdc4348cb.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_fe9d04fcdc4348cb.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/GRCh38_resolved_merged_aliases.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/NCBI_rs115119491.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/NCBI_rs115119491.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/NCBI_rs115624983.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/NCBI_rs115624983.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/NCBI_rs201292172.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/NCBI_rs201292172.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/NCBI_rs72556188.json.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/NCBI_rs72556188.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/merged_alias_resolution.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/Castaldi_lab_data_page.html	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/Castaldi_lab_data_page.html.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/Castaldi_source_curation_checks.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/GSE109452_FAM13A_MPRA.txt.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/GSE109452_FAM13A_MPRA.txt.gz.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/GSE109452_count_design_audit.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/GSE109452_family.soft.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/GSE109452_family.soft.gz.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/GSE109452_oligo_count_coverage.tsv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/GSE109452_secondary_design_barcodes.dat.gz	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/GSE109452_secondary_design_barcodes.dat.gz.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/GSE109452_supplement_directory.html	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/GSE109452_supplement_directory.html.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/GSE109452_variant_panel.tsv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/Lin2020_Castaldi_MPRA_reuse_primary.html	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/Lin2020_Castaldi_MPRA_reuse_primary.html.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/PMC6353020_article.html	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/PMC6353020_article.html.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/PMC6353020_f5.jpg	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/PMC6353020_f5.jpg.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/PMC6353020_f6.jpg	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/PMC6353020_f6.jpg.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/Table1_source_rows.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/article_EuropePMC_XML_response.txt	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/article_EuropePMC_XML_response.txt.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/publisher_response.html	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/publisher_response.html.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/supplement_ATS_response.html	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/supplement_ATS_response.html.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/supplement_EuropePMC_response.html	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/supplement_EuropePMC_response.html.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/supplement_EuropePMC_service_response.xml	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/supplement_EuropePMC_service_response.xml.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/supplement_PMC_response.html	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/supplement_PMC_response.html.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi_evidence.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong/Table_S2_16HBE_extracted.tsv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong/Table_S2_HUVEC_extracted.tsv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong/Table_S2_MRC5_extracted.tsv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong/Table_S3_extracted.tsv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong/allele_constructs.tsv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong/construct_sequence_qc.tsv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong/crossref.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong/crossref.json.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong/curation_qc.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong/europepmc.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong/europepmc.json.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong/europepmc_core.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong/europepmc_core.json.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong/experimental_rsids.txt	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong/indel_allele_constructs.tsv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong/publisher.html	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong/publisher.html.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong/pubmed.html	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong/pubmed.html.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong/retrieval_manifest.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong/rs76419734_design_discrepancy.tsv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong/supplement.zip	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong/supplement.zip.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong/supplement/MPRA_Sul_File_Final_CLEAN_July2026.docx	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong/supplement/Supplementary_figures_V3_July2026.pdf	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong/supplement/Table_S1_mpraDesignOligos.csv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong/supplement/Table_S2_MPRA_RESULT_three_cell_lines.xls	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong/supplement/Table_S3_mpraSigGwasResults.numbers	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong/supplement/Table_S4_TFs_analysis.csv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong/supplement_figures_extracted.txt	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong/supplement_methods_extracted.txt	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong/supplement_signed.zip	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong/supplement_signed.zip.retrieval.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong_evidence.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/mechanisms/Boueiz2019.html	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/mechanisms/Boueiz2019_supplement.pdf	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/mechanisms/Guo2024.xml	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/mechanisms/Guo2024_supplements.zip	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/mechanisms/Hao2020.html	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/mechanisms/Hao2020_supplement.pdf	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/mechanisms/Lin2020.html	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/mechanisms/Lin2020_supplements.zip	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/mechanisms/Parker2019.xml	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/mechanisms/Parker2019_supplement.xlsx	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/mechanisms/Saferali2025.html	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/mechanisms/Saferali2025_supplement.docx	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/mechanisms/Stuart2020.xml	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/mechanisms/Stuart2020_supplements.zip	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/mechanisms/Zhou2012.html	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/mechanisms/Zhou2012_Figure3.jpg	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/mechanisms/Zhou2012_bioc.xml	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/mechanisms/Zhou2012_supplement.pdf	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/mechanisms/Zhou2012_supplements.zip	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/mechanisms/Zhou2013.html	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/mechanisms/curated_extraction.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/mechanisms/retrievals.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/mechanisms_evidence.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/provenance/COPD-V2-BENCH_analysis_specification.md	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/provenance/COPD-V2-BENCH_artifact_checksums.tsv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/provenance/COPD-V2-BENCH_assembly_manifest.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/provenance/COPD-V2-BENCH_benchmark_freeze.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/provenance/COPD-V2-BENCH_comparison_manifest.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/provenance/COPD-V2-BENCH_experimental_label_review.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/provenance/COPD-V2-BENCH_external_evaluation_firewall.md	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/provenance/COPD-V2-BENCH_final_validation.tsv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/provenance/COPD-V2-BENCH_final_validation_manifest.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/provenance/COPD-V2-BENCH_frozen_input_hashes_before.tsv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/provenance/COPD-V2-BENCH_interpretation_review.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/provenance/COPD-V2-BENCH_preliminary_validation.tsv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/provenance/COPD-V2-BENCH_protocol_lock.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/provenance/COPD-V2-BENCH_run_manifest.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/provenance/COPD-V2-BENCH_source_identity_review.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/provenance/COPD-V2-BENCH_validation_implementation_notes.json	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R001_source_study_inventory.tsv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R002_exact_allele_harmonization.tsv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R003_frozen_benchmark_master.tsv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R004B_contextual_and_excluded_evidence.tsv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R004_assay_mechanism_classification.tsv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R005_assayed_denominator_audit.tsv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R006B_source_locus_assignment.tsv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R006_source_search_audit.tsv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R007_V1_forward_comparison.tsv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R008_forward_RC_comparison.tsv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R009_study_specific_summary.tsv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R010_mechanism_specific_summary.tsv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R011_locus_specific_summary.tsv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R012_quantitative_metric_eligibility.tsv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R013_score_distributions.tsv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R014_benchmark_coverage_flow.tsv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R015_unique_variant_summary.tsv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R016_analysis_validation.tsv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R017_positive_case_gate_failures.tsv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R018_orientation_recovery_summary.tsv	PASS			artifact
+benchmark_opaque_integrity:diseases/COPD/07_gap_closure/results/COPD-V2-BENCH_external_functional_benchmark_report.md	PASS			artifact
+benchmark_opaque_integrity:files_checked	PASS	218		artifact
+matching:specification_recorded_before_execution_hash	PASS			artifact
+matching:implementation_hash	PASS			artifact
+matching:input_hash:old_features	PASS			artifact
+matching:input_hash:old_roles	PASS			artifact
+matching:input_hash:train_only_ATAC_sidecar	PASS			artifact
+matching:original_balance_gates_unrelaxed	PASS			artifact
+matching:forbidden_execution_flags	PASS			artifact
+matching:training_started	PASS			artifact
+matching:model_inference_performed	PASS			artifact
+matching:benchmark_outcomes_read	PASS			artifact
+matching:common_support_exclusions_empty	PASS			artifact
+selection:preserved:seeds	PASS			artifact
+selection:preserved:phase_I_weights_sha256	PASS			artifact
+selection:preserved:training	PASS			artifact
+selection:preserved:augmentation	PASS			artifact
+selection:preserved:checkpoint	PASS			artifact
+selection:preserved:inference:per_seed	PASS			artifact
+selection:preserved:inference:seed_aggregation	PASS			artifact
+selection:preserved:inference:reduction_dtype	PASS			artifact
+selection:preserved:inference:dropout	PASS			artifact
+selection:preserved:inference:batch_norm_updates	PASS			artifact
+selection:preserved:inference:ref_alt_identity	PASS			artifact
+selection:preserved:inference:atol	PASS			artifact
+selection:preserved:inference:rtol	PASS			artifact
+selection:preserved:inference:real_network_numeric_gate	PASS			artifact
+selection:preserved:threshold:formula	PASS			artifact
+selection:preserved:threshold:call	PASS			artifact
+selection:preserved:threshold:target_empirical_FPR	PASS			artifact
+selection:preserved:threshold:minimum_controls	PASS			artifact
+selection:preserved:threshold:tie_policy	PASS			artifact
+selection:preserved:threshold:test_recalibration	PASS			artifact
+selection:preserved:threshold:variant_FPR_guarantee	PASS			artifact
+selection:explicit_external_recalibration_prohibition	PASS			artifact
+selection:training_not_authorized_started	PASS			artifact
+selection:only_C_final_eligible	PASS			artifact
+selection:no_C_over_B_requirement	PASS			artifact
+selection:absolute_adequacy:lower95_AUROC_strictly_gt	PASS			artifact
+selection:absolute_adequacy:lower95_AP_minus_replicate_prevalence_strictly_gt	PASS			artifact
+selection:absolute_adequacy:lower95_BrierSkill_strictly_gt	PASS			artifact
+selection:seed_instability_limits_preserved	PASS			artifact
+selection:minimum_selection_preserved	PASS			artifact
+selection:calibration_component_minimum	PASS			artifact
+selection:no_test_external_tiebreaker	PASS			artifact
+selection:no_allele_delta_cutoff	PASS			artifact
+selection:common_panels_roles	PASS			artifact
+synthetic_global_tie:257_equal_distance_candidates	PASS	(0, 1.0, 257)	(1.0, 0)	artifact
+synthetic_global_tie:unused_global_tie_beyond_bounded_k	PASS	(200, 1.0, 57)	(1.0, 200)	artifact
+synthetic_global_tie:near_distance_not_false_tie	PASS	(1, 1.0, 2)	(1.0, 1)	artifact
+synthetic_global_tie:all_candidates_used	PASS	None	None	artifact
+synthetic_global_tie:zero_distance_unused_duplicate	PASS	(1, 0.0, 1)	(0.0, 1)	artifact
+synthetic_global_tie:discrete_full_ties_0	PASS	(61, 0.0, 3)	(0.0, 61)	artifact
+synthetic_global_tie:discrete_full_ties_1	PASS	(75, 0.0, 2)	(0.0, 75)	artifact
+synthetic_global_tie:discrete_full_ties_2	PASS	(0, 0.0, 1)	(0.0, 0)	artifact
+synthetic_global_tie:discrete_full_ties_3	PASS	(115, 0.0, 1)	(0.0, 115)	artifact
+synthetic_global_tie:discrete_full_ties_4	PASS	(147, 0.0, 1)	(0.0, 147)	artifact
+synthetic_global_tie:discrete_full_ties_5	PASS	(5, 1.0, 41)	(1.0, 5)	artifact
+synthetic_global_tie:discrete_full_ties_6	PASS	(68, 0.0, 1)	(0.0, 68)	artifact
+synthetic_global_tie:discrete_full_ties_7	PASS	(6, 1.0, 36)	(1.0, 6)	artifact
+synthetic_global_tie:discrete_full_ties_8	PASS	(10, 0.0, 1)	(0.0, 10)	artifact
+synthetic_global_tie:discrete_full_ties_9	PASS	(141, 0.0, 3)	(0.0, 141)	artifact
+synthetic_global_tie:discrete_full_ties_10	PASS	(15, 0.0, 1)	(0.0, 15)	artifact
+synthetic_global_tie:discrete_full_ties_11	PASS	(153, 0.0, 2)	(0.0, 153)	artifact
+synthetic_global_tie:discrete_full_ties_12	PASS	(296, 0.0, 1)	(0.0, 296)	artifact
+synthetic_global_tie:discrete_full_ties_13	PASS	(92, 0.0, 1)	(0.0, 92)	artifact
+synthetic_global_tie:discrete_full_ties_14	PASS	(115, 0.0, 1)	(0.0, 115)	artifact
+synthetic_global_tie:discrete_full_ties_15	PASS	(10, 1.0, 44)	(1.0, 10)	artifact
+synthetic_global_tie:discrete_full_ties_16	PASS	(27, 0.0, 1)	(0.0, 27)	artifact
+synthetic_global_tie:discrete_full_ties_17	PASS	(19, 0.0, 1)	(0.0, 19)	artifact
+synthetic_global_tie:discrete_full_ties_18	PASS	(169, 0.0, 2)	(0.0, 169)	artifact
+synthetic_global_tie:discrete_full_ties_19	PASS	(146, 0.0, 1)	(0.0, 146)	artifact
+master:unique_interval_ids	PASS	1143370		artifact
+roles:complete_master_coverage	PASS			artifact
+ATAC:training_chromosomes_exact	PASS			artifact
+ATAC:CDF_complete:ENCFF906HOT	PASS	128795	128795	artifact
+ATAC:CDF_complete:ENCFF189LZA	PASS	112218	112218	artifact
+ATAC:CDF_complete:ENCFF899TQV	PASS	152566	152566	artifact
+ATAC:all_master_rows	PASS	1143370	1143370	artifact
+ATAC:all_original_peak_rows_once	PASS	745045	745045	artifact
+ATAC:matching_numeric_ingestion_within_one_ulp_scale	PASS			artifact
+ATAC_training_mapping:CDF_equal_count	PASS	"{""n"": 393579, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+ATAC_training_mapping:CDF_less_count	PASS	"{""n"": 393579, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+ATAC_training_mapping:CDF_train_denominator	PASS	"{""n"": 393579, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+ATAC_training_mapping:CDF_unique_source_signal	PASS	"{""n"": 393579, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+ATAC_training_mapping:CDF_value	PASS	"{""n"": 393579, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+ATAC_training_mapping:anchor_maximum	PASS	"{""n"": 1143370, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+ATAC_training_mapping:master_row_order	PASS	"{""n"": 1143370, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+ATAC_training_mapping:peak_list_lengths	PASS	"{""n"": 1143370, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+ATAC_training_mapping:peak_names_match_frozen_master	PASS	"{""n"": 1143370, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+ATAC_training_mapping:peak_source_signal_interval	PASS	"{""n"": 745045, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+ATAC_training_mapping:peak_train_only_percentile	PASS	"{""n"": 745045, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+ATAC_training_mapping:unique_original_peak_row	PASS	"{""n"": 745045, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+ATAC:synthetic_ties_steps_outside_range	PASS	[0.0, 0.25, 0.5, 0.625, 0.75, 0.875, 1.0]		artifact
+global_roles:component_reconstructed	PASS	"{""n"": 1143370, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+global_roles:partition_fixed	PASS	"{""n"": 1143370, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+global_roles:role_reconstructed	PASS	"{""n"": 1143370, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+initial_global_matching:control_in_priority_pool	PASS	"{""n"": 377118, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+initial_global_matching:control_unused	PASS	"{""n"": 377118, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+initial_global_matching:full_positive_population	PASS	"{""n"": 4, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+initial_global_matching:global_natural_coordinate_tie	PASS	"{""n"": 377118, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+initial_global_matching:globally_nearest_available_control	PASS	"{""n"": 377118, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+initial_global_matching:known_configuration_model	PASS	"{""n"": 4, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+initial_global_matching:reported_candidate_priority	PASS	"{""n"": 377118, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+initial_global_matching:reported_global_minimum_tie_count	PASS	"{""n"": 377118, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+initial_global_matching:reported_initial_distance	PASS	"{""n"": 377118, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+initial_global_matching:reported_processing_order	PASS	"{""n"": 377118, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+initial_global_matching:same_partition_and_validation_role	PASS	"{""n"": 377118, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+initial_global_matching:unique_control	PASS	"{""n"": 4, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+initial_global_matching:unique_positive	PASS	"{""n"": 4, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+initial_matching:all_four_constructions	PASS			artifact
+exchange_independent_replay:accepted_and_rejected_round_counts	PASS	"{""n"": 6, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+exchange_independent_replay:complete_accepted_swap_ledger	PASS	"{""n"": 20, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+exchange_independent_replay:complete_global_proposal_count	PASS	"{""n"": 6, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+exchange_independent_replay:constant_feature_feasibility	PASS	"{""n"": 20, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+exchange_independent_replay:final_controls_unique	PASS	"{""n"": 4, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+exchange_independent_replay:final_mapping_exact_replay	PASS	"{""n"": 4, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+exchange_independent_replay:frozen_gradient_derivative	PASS	"{""n"": 1371, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+exchange_independent_replay:global_proposal_order_and_ties	PASS	"{""n"": 1371, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+exchange_independent_replay:recorded_quadratic_loss	PASS	"{""n"": 1371, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+exchange_independent_replay:round_loss	PASS	"{""n"": 26, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+exchange_independent_replay:round_maximum_actual_SMD	PASS	"{""n"": 26, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+exchange_independent_replay:round_record_unique_present	PASS	"{""n"": 26, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+exchange_independent_replay:stop_when_role_gates_pass	PASS	"{""n"": 20, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+exchange:all_accepted_swaps_replayed	PASS	1371	1371	artifact
+V1_membership:enhancer:positive	PASS	181352		artifact
+V1_membership:enhancer:control	PASS	362704		artifact
+V1_membership:h3k27me3:positive	PASS	30584		artifact
+V1_membership:h3k27me3:control	PASS	61168		artifact
+configuration:V2-A:enhancer:unique_ids	PASS			artifact
+configuration:V2-A:enhancer:known_ids	PASS			artifact
+configuration:V2-A:enhancer:binary_labels	PASS			artifact
+configuration:V2-A:enhancer:master_column:chrom	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:core_start	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:core_end	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:input_start	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:input_end	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:partition	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:v1_enhancer_positive	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:v1_enhancer_control	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:v1_h3k27me3_positive	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:v1_h3k27me3_control	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:atac_anchor_count	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:atac_peak_ids	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:atac_file_ids	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:atac_lobes	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:atac_signal_percentile_max	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:enhancer_all_lobe_peak_support	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:enhancer_same_lobe_peak_support	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:h3k27me3_all_lobe_peak_support	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:h3k27me3_same_lobe_peak_support	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:enhancer_mark_overlap_2001	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:enhancer_v1_positive_input_overlap	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:h3k27me3_mark_overlap_2001	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:h3k27me3_v1_positive_input_overlap	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:blacklist_bp_1kb	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:blacklist_bp_2001	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:promoter_bp_1kb	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:promoter_bp_2001	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:repeat_fraction_2001	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:sequence_available	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:sequence_length	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:gc_fraction	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:non_acgt_fraction	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:sequence_sha256	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:canonical_rc_sequence_sha256	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:enhancer_accessible_control_eligible	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:h3k27me3_accessible_control_eligible	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:component_id	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:validation_role	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:atac_signal_percentile_max_train_only	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:blacklist_input_any	PASS	0	0	artifact
+configuration:V2-A:enhancer:master_column:non_acgt_any	PASS	0	0	artifact
+configuration:V2-A:enhancer:positive_universe	PASS			artifact
+configuration:V2-A:enhancer:unchanged_V1_positive	PASS			artifact
+configuration:V2-A:enhancer:unchanged_V1_control	PASS			artifact
+balance:V2-A:enhancer:test:classes_n_at_least_two	PASS	16103/34903	>=2 each	artifact
+balance:V2-A:enhancer:train:classes_n_at_least_two	PASS	156789/307473	>=2 each	artifact
+balance:V2-A:enhancer:validation:classes_n_at_least_two	PASS	8460/20328	>=2 each	artifact
+configuration:V2-A:h3k27me3:unique_ids	PASS			artifact
+configuration:V2-A:h3k27me3:known_ids	PASS			artifact
+configuration:V2-A:h3k27me3:binary_labels	PASS			artifact
+configuration:V2-A:h3k27me3:master_column:chrom	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:core_start	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:core_end	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:input_start	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:input_end	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:partition	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:v1_enhancer_positive	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:v1_enhancer_control	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:v1_h3k27me3_positive	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:v1_h3k27me3_control	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:atac_anchor_count	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:atac_peak_ids	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:atac_file_ids	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:atac_lobes	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:atac_signal_percentile_max	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:enhancer_all_lobe_peak_support	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:enhancer_same_lobe_peak_support	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:h3k27me3_all_lobe_peak_support	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:h3k27me3_same_lobe_peak_support	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:enhancer_mark_overlap_2001	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:enhancer_v1_positive_input_overlap	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:h3k27me3_mark_overlap_2001	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:h3k27me3_v1_positive_input_overlap	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:blacklist_bp_1kb	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:blacklist_bp_2001	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:promoter_bp_1kb	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:promoter_bp_2001	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:repeat_fraction_2001	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:sequence_available	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:sequence_length	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:gc_fraction	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:non_acgt_fraction	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:sequence_sha256	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:canonical_rc_sequence_sha256	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:enhancer_accessible_control_eligible	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:h3k27me3_accessible_control_eligible	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:component_id	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:validation_role	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:atac_signal_percentile_max_train_only	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:blacklist_input_any	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:master_column:non_acgt_any	PASS	0	0	artifact
+configuration:V2-A:h3k27me3:positive_universe	PASS			artifact
+configuration:V2-A:h3k27me3:unchanged_V1_positive	PASS			artifact
+configuration:V2-A:h3k27me3:unchanged_V1_control	PASS			artifact
+balance:V2-A:h3k27me3:test:classes_n_at_least_two	PASS	2646/5902	>=2 each	artifact
+balance:V2-A:h3k27me3:train:classes_n_at_least_two	PASS	26326/51839	>=2 each	artifact
+balance:V2-A:h3k27me3:validation:classes_n_at_least_two	PASS	1612/3427	>=2 each	artifact
+configuration:V2-B:enhancer:unique_ids	PASS			artifact
+configuration:V2-B:enhancer:known_ids	PASS			artifact
+configuration:V2-B:enhancer:binary_labels	PASS			artifact
+configuration:V2-B:enhancer:master_column:chrom	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:core_start	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:core_end	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:input_start	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:input_end	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:partition	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:v1_enhancer_positive	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:v1_enhancer_control	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:v1_h3k27me3_positive	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:v1_h3k27me3_control	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:atac_anchor_count	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:atac_peak_ids	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:atac_file_ids	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:atac_lobes	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:atac_signal_percentile_max	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:enhancer_all_lobe_peak_support	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:enhancer_same_lobe_peak_support	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:h3k27me3_all_lobe_peak_support	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:h3k27me3_same_lobe_peak_support	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:enhancer_mark_overlap_2001	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:enhancer_v1_positive_input_overlap	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:h3k27me3_mark_overlap_2001	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:h3k27me3_v1_positive_input_overlap	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:blacklist_bp_1kb	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:blacklist_bp_2001	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:promoter_bp_1kb	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:promoter_bp_2001	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:repeat_fraction_2001	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:sequence_available	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:sequence_length	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:gc_fraction	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:non_acgt_fraction	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:sequence_sha256	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:canonical_rc_sequence_sha256	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:enhancer_accessible_control_eligible	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:h3k27me3_accessible_control_eligible	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:component_id	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:validation_role	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:atac_signal_percentile_max_train_only	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:blacklist_input_any	PASS	0	0	artifact
+configuration:V2-B:enhancer:master_column:non_acgt_any	PASS	0	0	artifact
+configuration:V2-B:enhancer:positive_universe	PASS			artifact
+configuration:V2-B:enhancer:one_to_one	PASS	181352+/181352-		artifact
+configuration:V2-B:enhancer:controls_eligible	PASS			artifact
+balance:V2-B:enhancer:test:classes_n_at_least_two	PASS	16103/16103	>=2 each	artifact
+balance:V2-B:enhancer:test:gc_fraction:finite_covariates	PASS			artifact
+balance:V2-B:enhancer:test:atac_signal_percentile_max_train_only:finite_covariates	PASS			artifact
+balance:V2-B:enhancer:test:repeat_fraction_2001:finite_covariates	PASS			artifact
+balance:V2-B:enhancer:test:blacklist_input_any:finite_covariates	PASS			artifact
+balance:V2-B:enhancer:test:non_acgt_any:finite_covariates	PASS			artifact
+balance:V2-B:enhancer:train:classes_n_at_least_two	PASS	156789/156789	>=2 each	artifact
+balance:V2-B:enhancer:train:gc_fraction:finite_covariates	PASS			artifact
+balance:V2-B:enhancer:train:atac_signal_percentile_max_train_only:finite_covariates	PASS			artifact
+balance:V2-B:enhancer:train:repeat_fraction_2001:finite_covariates	PASS			artifact
+balance:V2-B:enhancer:train:blacklist_input_any:finite_covariates	PASS			artifact
+balance:V2-B:enhancer:train:non_acgt_any:finite_covariates	PASS			artifact
+balance:V2-B:enhancer:validation:classes_n_at_least_two	PASS	8460/8460	>=2 each	artifact
+balance:V2-B:enhancer:validation:gc_fraction:finite_covariates	PASS			artifact
+balance:V2-B:enhancer:validation:atac_signal_percentile_max_train_only:finite_covariates	PASS			artifact
+balance:V2-B:enhancer:validation:repeat_fraction_2001:finite_covariates	PASS			artifact
+balance:V2-B:enhancer:validation:blacklist_input_any:finite_covariates	PASS			artifact
+balance:V2-B:enhancer:validation:non_acgt_any:finite_covariates	PASS			artifact
+configuration:V2-B:h3k27me3:unique_ids	PASS			artifact
+configuration:V2-B:h3k27me3:known_ids	PASS			artifact
+configuration:V2-B:h3k27me3:binary_labels	PASS			artifact
+configuration:V2-B:h3k27me3:master_column:chrom	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:core_start	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:core_end	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:input_start	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:input_end	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:partition	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:v1_enhancer_positive	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:v1_enhancer_control	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:v1_h3k27me3_positive	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:v1_h3k27me3_control	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:atac_anchor_count	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:atac_peak_ids	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:atac_file_ids	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:atac_lobes	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:atac_signal_percentile_max	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:enhancer_all_lobe_peak_support	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:enhancer_same_lobe_peak_support	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:h3k27me3_all_lobe_peak_support	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:h3k27me3_same_lobe_peak_support	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:enhancer_mark_overlap_2001	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:enhancer_v1_positive_input_overlap	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:h3k27me3_mark_overlap_2001	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:h3k27me3_v1_positive_input_overlap	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:blacklist_bp_1kb	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:blacklist_bp_2001	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:promoter_bp_1kb	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:promoter_bp_2001	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:repeat_fraction_2001	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:sequence_available	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:sequence_length	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:gc_fraction	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:non_acgt_fraction	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:sequence_sha256	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:canonical_rc_sequence_sha256	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:enhancer_accessible_control_eligible	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:h3k27me3_accessible_control_eligible	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:component_id	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:validation_role	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:atac_signal_percentile_max_train_only	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:blacklist_input_any	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:master_column:non_acgt_any	PASS	0	0	artifact
+configuration:V2-B:h3k27me3:positive_universe	PASS			artifact
+configuration:V2-B:h3k27me3:one_to_one	PASS	30584+/30584-		artifact
+configuration:V2-B:h3k27me3:controls_eligible	PASS			artifact
+balance:V2-B:h3k27me3:test:classes_n_at_least_two	PASS	2646/2646	>=2 each	artifact
+balance:V2-B:h3k27me3:test:gc_fraction:finite_covariates	PASS			artifact
+balance:V2-B:h3k27me3:test:atac_signal_percentile_max_train_only:finite_covariates	PASS			artifact
+balance:V2-B:h3k27me3:test:repeat_fraction_2001:finite_covariates	PASS			artifact
+balance:V2-B:h3k27me3:test:blacklist_input_any:finite_covariates	PASS			artifact
+balance:V2-B:h3k27me3:test:non_acgt_any:finite_covariates	PASS			artifact
+balance:V2-B:h3k27me3:train:classes_n_at_least_two	PASS	26326/26326	>=2 each	artifact
+balance:V2-B:h3k27me3:train:gc_fraction:finite_covariates	PASS			artifact
+balance:V2-B:h3k27me3:train:atac_signal_percentile_max_train_only:finite_covariates	PASS			artifact
+balance:V2-B:h3k27me3:train:repeat_fraction_2001:finite_covariates	PASS			artifact
+balance:V2-B:h3k27me3:train:blacklist_input_any:finite_covariates	PASS			artifact
+balance:V2-B:h3k27me3:train:non_acgt_any:finite_covariates	PASS			artifact
+balance:V2-B:h3k27me3:validation:classes_n_at_least_two	PASS	1612/1612	>=2 each	artifact
+balance:V2-B:h3k27me3:validation:gc_fraction:finite_covariates	PASS			artifact
+balance:V2-B:h3k27me3:validation:atac_signal_percentile_max_train_only:finite_covariates	PASS			artifact
+balance:V2-B:h3k27me3:validation:repeat_fraction_2001:finite_covariates	PASS			artifact
+balance:V2-B:h3k27me3:validation:blacklist_input_any:finite_covariates	PASS			artifact
+balance:V2-B:h3k27me3:validation:non_acgt_any:finite_covariates	PASS			artifact
+configuration:V2-C:enhancer:unique_ids	PASS			artifact
+configuration:V2-C:enhancer:known_ids	PASS			artifact
+configuration:V2-C:enhancer:binary_labels	PASS			artifact
+configuration:V2-C:enhancer:master_column:chrom	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:core_start	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:core_end	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:input_start	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:input_end	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:partition	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:v1_enhancer_positive	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:v1_enhancer_control	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:v1_h3k27me3_positive	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:v1_h3k27me3_control	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:atac_anchor_count	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:atac_peak_ids	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:atac_file_ids	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:atac_lobes	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:atac_signal_percentile_max	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:enhancer_all_lobe_peak_support	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:enhancer_same_lobe_peak_support	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:h3k27me3_all_lobe_peak_support	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:h3k27me3_same_lobe_peak_support	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:enhancer_mark_overlap_2001	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:enhancer_v1_positive_input_overlap	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:h3k27me3_mark_overlap_2001	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:h3k27me3_v1_positive_input_overlap	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:blacklist_bp_1kb	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:blacklist_bp_2001	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:promoter_bp_1kb	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:promoter_bp_2001	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:repeat_fraction_2001	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:sequence_available	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:sequence_length	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:gc_fraction	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:non_acgt_fraction	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:sequence_sha256	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:canonical_rc_sequence_sha256	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:enhancer_accessible_control_eligible	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:h3k27me3_accessible_control_eligible	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:component_id	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:validation_role	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:atac_signal_percentile_max_train_only	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:blacklist_input_any	PASS	0	0	artifact
+configuration:V2-C:enhancer:master_column:non_acgt_any	PASS	0	0	artifact
+configuration:V2-C:enhancer:positive_universe	PASS			artifact
+configuration:V2-C:enhancer:one_to_one	PASS	145200+/145200-		artifact
+configuration:V2-C:enhancer:controls_eligible	PASS			artifact
+balance:V2-C:enhancer:test:classes_n_at_least_two	PASS	12695/12695	>=2 each	artifact
+balance:V2-C:enhancer:test:gc_fraction:finite_covariates	PASS			artifact
+balance:V2-C:enhancer:test:atac_signal_percentile_max_train_only:finite_covariates	PASS			artifact
+balance:V2-C:enhancer:test:repeat_fraction_2001:finite_covariates	PASS			artifact
+balance:V2-C:enhancer:test:blacklist_input_any:finite_covariates	PASS			artifact
+balance:V2-C:enhancer:test:non_acgt_any:finite_covariates	PASS			artifact
+balance:V2-C:enhancer:train:classes_n_at_least_two	PASS	125874/125874	>=2 each	artifact
+balance:V2-C:enhancer:train:gc_fraction:finite_covariates	PASS			artifact
+balance:V2-C:enhancer:train:atac_signal_percentile_max_train_only:finite_covariates	PASS			artifact
+balance:V2-C:enhancer:train:repeat_fraction_2001:finite_covariates	PASS			artifact
+balance:V2-C:enhancer:train:blacklist_input_any:finite_covariates	PASS			artifact
+balance:V2-C:enhancer:train:non_acgt_any:finite_covariates	PASS			artifact
+balance:V2-C:enhancer:validation:classes_n_at_least_two	PASS	6631/6631	>=2 each	artifact
+balance:V2-C:enhancer:validation:gc_fraction:finite_covariates	PASS			artifact
+balance:V2-C:enhancer:validation:atac_signal_percentile_max_train_only:finite_covariates	PASS			artifact
+balance:V2-C:enhancer:validation:repeat_fraction_2001:finite_covariates	PASS			artifact
+balance:V2-C:enhancer:validation:blacklist_input_any:finite_covariates	PASS			artifact
+balance:V2-C:enhancer:validation:non_acgt_any:finite_covariates	PASS			artifact
+configuration:V2-C:h3k27me3:unique_ids	PASS			artifact
+configuration:V2-C:h3k27me3:known_ids	PASS			artifact
+configuration:V2-C:h3k27me3:binary_labels	PASS			artifact
+configuration:V2-C:h3k27me3:master_column:chrom	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:core_start	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:core_end	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:input_start	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:input_end	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:partition	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:v1_enhancer_positive	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:v1_enhancer_control	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:v1_h3k27me3_positive	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:v1_h3k27me3_control	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:atac_anchor_count	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:atac_peak_ids	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:atac_file_ids	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:atac_lobes	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:atac_signal_percentile_max	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:enhancer_all_lobe_peak_support	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:enhancer_same_lobe_peak_support	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:h3k27me3_all_lobe_peak_support	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:h3k27me3_same_lobe_peak_support	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:enhancer_mark_overlap_2001	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:enhancer_v1_positive_input_overlap	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:h3k27me3_mark_overlap_2001	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:h3k27me3_v1_positive_input_overlap	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:blacklist_bp_1kb	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:blacklist_bp_2001	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:promoter_bp_1kb	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:promoter_bp_2001	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:repeat_fraction_2001	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:sequence_available	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:sequence_length	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:gc_fraction	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:non_acgt_fraction	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:sequence_sha256	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:canonical_rc_sequence_sha256	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:enhancer_accessible_control_eligible	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:h3k27me3_accessible_control_eligible	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:component_id	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:validation_role	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:atac_signal_percentile_max_train_only	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:blacklist_input_any	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:master_column:non_acgt_any	PASS	0	0	artifact
+configuration:V2-C:h3k27me3:positive_universe	PASS			artifact
+configuration:V2-C:h3k27me3:one_to_one	PASS	19982+/19982-		artifact
+configuration:V2-C:h3k27me3:controls_eligible	PASS			artifact
+balance:V2-C:h3k27me3:test:classes_n_at_least_two	PASS	1754/1754	>=2 each	artifact
+balance:V2-C:h3k27me3:test:gc_fraction:finite_covariates	PASS			artifact
+balance:V2-C:h3k27me3:test:atac_signal_percentile_max_train_only:finite_covariates	PASS			artifact
+balance:V2-C:h3k27me3:test:repeat_fraction_2001:finite_covariates	PASS			artifact
+balance:V2-C:h3k27me3:test:blacklist_input_any:finite_covariates	PASS			artifact
+balance:V2-C:h3k27me3:test:non_acgt_any:finite_covariates	PASS			artifact
+balance:V2-C:h3k27me3:train:classes_n_at_least_two	PASS	17132/17132	>=2 each	artifact
+balance:V2-C:h3k27me3:train:gc_fraction:finite_covariates	PASS			artifact
+balance:V2-C:h3k27me3:train:atac_signal_percentile_max_train_only:finite_covariates	PASS			artifact
+balance:V2-C:h3k27me3:train:repeat_fraction_2001:finite_covariates	PASS			artifact
+balance:V2-C:h3k27me3:train:blacklist_input_any:finite_covariates	PASS			artifact
+balance:V2-C:h3k27me3:train:non_acgt_any:finite_covariates	PASS			artifact
+balance:V2-C:h3k27me3:validation:classes_n_at_least_two	PASS	1096/1096	>=2 each	artifact
+balance:V2-C:h3k27me3:validation:gc_fraction:finite_covariates	PASS			artifact
+balance:V2-C:h3k27me3:validation:atac_signal_percentile_max_train_only:finite_covariates	PASS			artifact
+balance:V2-C:h3k27me3:validation:repeat_fraction_2001:finite_covariates	PASS			artifact
+balance:V2-C:h3k27me3:validation:blacklist_input_any:finite_covariates	PASS			artifact
+balance:V2-C:h3k27me3:validation:non_acgt_any:finite_covariates	PASS			artifact
+configuration:enhancer:C_not_unchanged_reuse_B_controls	PASS			artifact
+configuration:h3k27me3:C_not_unchanged_reuse_B_controls	PASS			artifact
+panel:enhancer:unique_complete_C_task	PASS			artifact
+panel:enhancer:C_manifest:label	PASS			artifact
+panel:enhancer:C_manifest:chrom	PASS			artifact
+panel:enhancer:C_manifest:partition	PASS			artifact
+panel:enhancer:C_manifest:validation_role	PASS			artifact
+panel:enhancer:C_manifest:component_id	PASS			artifact
+panel:enhancer:C_manifest:sequence_sha256	PASS			artifact
+panel:enhancer:C_manifest:canonical_rc_sequence_sha256	PASS			artifact
+panel:enhancer:no_checkpoint_training_rows	PASS			artifact
+panel:h3k27me3:unique_complete_C_task	PASS			artifact
+panel:h3k27me3:C_manifest:label	PASS			artifact
+panel:h3k27me3:C_manifest:chrom	PASS			artifact
+panel:h3k27me3:C_manifest:partition	PASS			artifact
+panel:h3k27me3:C_manifest:validation_role	PASS			artifact
+panel:h3k27me3:C_manifest:component_id	PASS			artifact
+panel:h3k27me3:C_manifest:sequence_sha256	PASS			artifact
+panel:h3k27me3:C_manifest:canonical_rc_sequence_sha256	PASS			artifact
+panel:h3k27me3:no_checkpoint_training_rows	PASS			artifact
+reported_balance:all_partition_metrics_present	PASS	271	271	artifact
+reported_balance:class_counts	PASS	"{""n"": 271, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+reported_balance:independent_metric_value	PASS	"{""n"": 271, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+reported_balance:known_unique_key	PASS	"{""n"": 271, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+reported_balance:status	PASS	"{""n"": 271, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+reported_balance:unrelaxed_limit	PASS	"{""n"": 271, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+final_pairs:V2-B:enhancer:complete_manifest_membership	PASS			artifact
+final_pairs:V2-B:h3k27me3:complete_manifest_membership	PASS			artifact
+final_pairs:V2-C:enhancer:complete_manifest_membership	PASS			artifact
+final_pairs:V2-C:h3k27me3:complete_manifest_membership	PASS			artifact
+source:one_severe_emphysema_donor	PASS			artifact
+source:GRCh38	PASS			artifact
+selected_source_and_sequence:2001bp_available	PASS	"{""n"": 792681, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+selected_source_and_sequence:GC_recomputed	PASS	"{""n"": 792681, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+selected_source_and_sequence:ambiguity_recomputed	PASS	"{""n"": 792681, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+selected_source_and_sequence:blacklist_1kb	PASS	"{""n"": 792681, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+selected_source_and_sequence:blacklist_2001	PASS	"{""n"": 792681, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+selected_source_and_sequence:encoded_forward_RC_hash	PASS	"{""n"": 792681, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+selected_source_and_sequence:enhancer:blacklist_TSS_core_exclusions	PASS	"{""n"": 184634, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+selected_source_and_sequence:enhancer:donor_anchor	PASS	"{""n"": 184634, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+selected_source_and_sequence:enhancer:full_known_positive_absent	PASS	"{""n"": 184634, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+selected_source_and_sequence:enhancer:full_mark_absent	PASS	"{""n"": 184634, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+selected_source_and_sequence:enhancer:same_lobe_positive_reconstructed	PASS	"{""n"": 145200, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+selected_source_and_sequence:h3k27me3:blacklist_TSS_core_exclusions	PASS	"{""n"": 31190, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+selected_source_and_sequence:h3k27me3:donor_anchor	PASS	"{""n"": 31190, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+selected_source_and_sequence:h3k27me3:full_known_positive_absent	PASS	"{""n"": 31190, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+selected_source_and_sequence:h3k27me3:full_mark_absent	PASS	"{""n"": 31190, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+selected_source_and_sequence:h3k27me3:same_lobe_positive_reconstructed	PASS	"{""n"": 19982, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+selected_source_and_sequence:promoter_1kb	PASS	"{""n"": 792681, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+selected_source_and_sequence:promoter_2001	PASS	"{""n"": 792681, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+selected_source_and_sequence:raw_sequence_hash	PASS	"{""n"": 792681, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+selected_source_and_sequence:repeat_recomputed	PASS	"{""n"": 792681, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+selected_source_and_sequence:source_anchor_provenance	PASS	"{""n"": 374416, ""failures"": 0, ""examples"": []}"	zero failures	artifact
+leakage:canonical_rc_sequence_sha256:no_cross_partition	PASS	0	0	artifact
+leakage:canonical_rc_sequence_sha256:no_chr7_cross_role	PASS	0	0	artifact
+leakage:component_id:no_cross_partition	PASS	0	0	artifact
+leakage:component_id:no_chr7_cross_role	PASS	0	0	artifact
+matching:reported_balance_failure_total	PASS	0	0	artifact
+execution:no_accelerator_framework_imported	PASS			artifact

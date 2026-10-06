@@ -1,0 +1,13 @@
+configuration	model	partition	original_positive_n	retained_positive_n	unique_control_n	excluded_positive_n	retention	B_represents_complete_V1_positive_population	interpretation
+V2-B	enhancer	train	156789	156789	156789	0	1	True	full target population retained; distributional matching, not a local-caliper common-support claim
+V2-B	enhancer	validation	8460	8460	8460	0	1	True	full target population retained; distributional matching, not a local-caliper common-support claim
+V2-B	enhancer	test	16103	16103	16103	0	1	True	full target population retained; distributional matching, not a local-caliper common-support claim
+V2-C	enhancer	train	125874	125874	125874	0	1	False	full target population retained; distributional matching, not a local-caliper common-support claim
+V2-C	enhancer	validation	6631	6631	6631	0	1	False	full target population retained; distributional matching, not a local-caliper common-support claim
+V2-C	enhancer	test	12695	12695	12695	0	1	False	full target population retained; distributional matching, not a local-caliper common-support claim
+V2-B	h3k27me3	train	26326	26326	26326	0	1	True	full target population retained; distributional matching, not a local-caliper common-support claim
+V2-B	h3k27me3	validation	1612	1612	1612	0	1	True	full target population retained; distributional matching, not a local-caliper common-support claim
+V2-B	h3k27me3	test	2646	2646	2646	0	1	True	full target population retained; distributional matching, not a local-caliper common-support claim
+V2-C	h3k27me3	train	17132	17132	17132	0	1	False	full target population retained; distributional matching, not a local-caliper common-support claim
+V2-C	h3k27me3	validation	1096	1096	1096	0	1	False	full target population retained; distributional matching, not a local-caliper common-support claim
+V2-C	h3k27me3	test	1754	1754	1754	0	1	False	full target population retained; distributional matching, not a local-caliper common-support claim

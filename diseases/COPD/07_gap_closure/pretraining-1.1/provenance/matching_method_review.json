@@ -1,0 +1,83 @@
+{
+  "experimental_version": "pretraining-1.1",
+  "attempt_id": "001_full_population",
+  "review_scope": "Independent source/specification methodology review plus CPU synthetic nearest-neighbor tie fixtures; not a rerun of construction or replacement for complete retained-set independent validation.",
+  "status": "PASS_METHOD_CONTRACT_WITH_BOUNDED_ROBUSTNESS_CAVEAT",
+  "specification": {
+    "path": "diseases/COPD/07_gap_closure/pretraining-1.1/specification/matching_attempt_001.json",
+    "sha256": "98e7df83f91636153e7a7f3a1c182f4f9b44d9f44d47a92e5425ffe370440be0",
+    "recorded_before_execution_utc": "2026-10-06T13:21:17.061736+00:00"
+  },
+  "implementation": {
+    "path": "diseases/COPD/07_gap_closure/pretraining-1.1/scripts/construct_matched_design.py",
+    "sha256": "6648fdc03bec9c3c65f027aa1acf5b576e27ca8d0683a1bf5795b326490acee2",
+    "matches_specification_implementation_hash": true
+  },
+  "checks": [
+    {"check": "specification_written_before_initial_matching", "status": "PASS", "evidence": "main writes the exclusive-create specification before loading the construction frame and invoking initial_match"},
+    {"check": "B_retains_complete_V1_positive_population", "status": "PASS_SOURCE_CONTRACT", "evidence": "B mask uses exact frozen v1_{model}_positive flag without positive filtering"},
+    {"check": "C_uses_same_lobe_positive_population", "status": "PASS_SOURCE_CONTRACT", "evidence": "C mask additionally requires frozen {model}_same_lobe_peak_support"},
+    {"check": "C_controls_independently_matched", "status": "PASS", "evidence": "initial_match creates fresh used flags per configuration/model and the frozen target hash includes configuration"},
+    {"check": "control_eligibility_preserved", "status": "PASS_SOURCE_CONTRACT", "evidence": "control pool reads unchanged frozen {model}_accessible_control_eligible; independent input and eligibility verification still required"},
+    {"check": "partition_and_chr7_role_compatibility", "status": "PASS_SOURCE_CONTRACT", "evidence": "every priority tier includes the unchanged validation_role; historical roles encode train/test separately from chr7 checkpoint/selection/calibration"},
+    {"check": "canonical_coordinate_rank", "status": "PASS", "evidence": "master rows sorted by numeric chromosome ordinal, numeric core_start/core_end and interval_id before indices become tie ranks"},
+    {"check": "deterministic_positive_order", "status": "PASS", "evidence": "ascending SHA256(271828|model|configuration|interval_id), with canonical coordinate rank secondary"},
+    {"check": "candidate_priority_tiers", "status": "PASS", "evidence": "first nonempty unused tier: role+lobe-signature+chromosome, then role+lobe-signature, then role; global distance claims are within that explicitly preferred tier"},
+    {"check": "global_distance_tie_contract", "status": "PASS", "evidence": "bounded-k search locates a radius only; complete query_ball_point radius nextafter(d+1e-12,+inf) is enumerated, unused candidates are filtered, exact float64 Chebyshev distances are recomputed, and lexsort(distance,canonical-rank) chooses the winner"},
+    {"check": "radius_epsilon_is_not_distance_tie_tolerance", "status": "PASS", "evidence": "expanded radius admits nearby candidates but exact recomputed distances determine winner and exact equality determines tie count"},
+    {"check": "one_to_one_without_replacement", "status": "PASS_SOURCE_CONTRACT", "evidence": "used flags prevent initial reuse; exchange proposals have disjoint selected and unused members; complete retained-set uniqueness remains independently checked"},
+    {"check": "exchange_preserves_chromosome_and_lobe_counts", "status": "PASS", "evidence": "swaps occur within exact same validation_role, control chromosome and control ATAC-lobe signature"},
+    {"check": "exchange_global_ordering_and_ties", "status": "PASS", "evidence": "complete within-group projection ranks are lexsorted with coordinate ties; resulting disjoint rank-pair proposals are globally sorted by derivative, removed coordinate and added coordinate"},
+    {"check": "exchange_optimality_claim", "status": "PASS", "evidence": "written specification explicitly limits claims to the deterministic rank-paired proposal family, not globally optimal Cartesian swaps or optimal matching"},
+    {"check": "exchange_actual_loss_acceptance", "status": "PASS", "evidence": "each accepted proposal recomputes the quadratic loss at the updated residual and requires improvement greater than 1e-15; acceptance is not based solely on the frozen gradient"},
+    {"check": "exchange_limits_and_stop", "status": "PASS", "evidence": "at most 256 accepted exchanges per gradient refresh and 200 rounds; actual pooled-sample-variance SMD is rechecked before success"},
+    {"check": "no_balance_gate_epsilon_relaxation", "status": "PASS", "evidence": "the provisional +1e-12 SMD bound only triggers a full recomputation; final success and diagnostics use actual abs(SMD)<=0.10 without added tolerance"},
+    {"check": "zero_positive_variance_fallback", "status": "PASS", "evidence": "fixed same-role eligible-pool sample SD/sqrt(2) is used when positive SD is zero; equal constants receive unit objective scale and unequal constants reject"},
+    {"check": "actual_SMD_not_replaced_by_search_surrogate", "status": "PASS", "evidence": "diagnostics and stopping use pooled positive/control ddof=1 variances; the positive/pool fixed scale is restricted to search loss"},
+    {"check": "original_distribution_gates_unchanged", "status": "PASS", "evidence": "absolute SMD 0.10, chromosome gap 0.02 and lobe-signature gap 0.05 are retained; individual-lobe support gap 0.05 is additionally explicit"},
+    {"check": "whole_partition_gates_not_replaced_by_role_gates", "status": "PASS", "evidence": "acceptance uses final train/validation/test diagnostics while chr7 roles are separately optimized and reported"},
+    {"check": "no_hidden_caliper_equivalence_claim", "status": "PASS", "evidence": "old distance calipers are explicitly removed; distance scales are not presented as pairwise admissibility limits, and full retention is not evidence of every target's local common support"},
+    {"check": "matching_development_firewall", "status": "PASS_SOURCE_CONTRACT", "evidence": "source imports CPU array/table/spatial code only and reads frozen construction features, role assignments and training-derived ATAC metadata; no model, prediction, GWAS or benchmark-outcome input"},
+    {"check": "pretraining_1_0_preservation", "status": "PASS_SOURCE_CONTRACT", "evidence": "historical files are read-only inputs; constructor output targets are exclusive-create pretraining-1.1 attempt/specification paths"},
+    {"check": "synthetic_full_radius_tie_fixtures", "status": "PASS", "evidence": "142 fixtures independently compared AvailableNearest.choose against exhaustive distance/coordinate ranking; zero discrepancies"}
+  ],
+  "synthetic_tie_audit": {
+    "execution": "CPU-only temporary in-memory harness; imported constructor without calling main; PYTHONDONTWRITEBYTECODE=1; no generated model or biological scores",
+    "random_generator": "numpy.random.default_rng(271828)",
+    "randomized_fixtures": {
+      "candidate_sizes": [1, 2, 16, 17, 64, 65, 129],
+      "replicates_per_size": 20,
+      "candidate_points_and_query": "integer coordinates sampled uniformly from -2 through 2 in three dimensions, converted to float64",
+      "used_mask": "independent uniform<0.5; force last candidate unused if all are used",
+      "reference": "enumerate every unused candidate, recompute Chebyshev distance, lexsort by exact distance and canonical candidate rank, count exact minimum ties"
+    },
+    "large_tie_fixture": {
+      "points": "257 identical points (1,0,0), query (0,0,0), first 200 candidates already used",
+      "observed_and_expected": {"winner": 200, "distance": 1.0, "unused_minimum_ties": 57}
+    },
+    "nearby_unequal_fixture": {
+      "points": "candidate0=(1+2e-13,0,0), candidate1=(1,0,0), query=(0,0,0), neither used",
+      "observed_and_expected": {"winner": 1, "distance": 1.0, "unused_minimum_ties": 1}
+    },
+    "total_cases": 142,
+    "discrepancies": 0
+  },
+  "bounded_implementation_caveat": {
+    "finding": "smds initializes a zero vector and divides only where pooled SD>0; a NaN pooled SD from n<2 or nonfinite input can therefore remain zero. A synthetic singleton positive0/control1 fixture returns zero instead of undefined.",
+    "severity": "Potential robustness issue outside the intended valid-input contract; not evidence of failure in the retained construction populations.",
+    "required_independent_validation": "Assert at least two positive and two control rows, finite values for all five features, and finite independently recomputed pooled variances in EVERY diagnostic scope. Treat undefined SMD as failure. If any prerequisite fails, block readiness rather than accept the constructor's apparent pass.",
+    "constructor_modified_during_run": false
+  },
+  "limitations_and_required_followup": [
+    "Full retained-set replay of every initial priority-tier/global-tie decision and accepted exchange belongs to the independent final validator; the synthetic fixtures and this source review do not substitute for it.",
+    "Swaps preserve chromosome and lobe counts and cannot repair an initial failing chromosome/lobe margin; final independent diagnostics must reject such an attempt.",
+    "Removing pair calipers changes matching semantics. Report initial and final distance tails and the fraction beyond the historical calipers; do not equate 100% retained labels with local pairwise biological exchangeability.",
+    "Control selection is a deterministic distributional heuristic. Passing these construction gates does not establish unmeasured-confounding control, cross-donor generalization or model performance.",
+    "Final readiness still requires independent contamination, sequence, duplicate/leakage, sample/component and checksum audits; this review neither authorizes training nor declares model adequacy."
+  ],
+  "model_training_run": false,
+  "model_inference_run": false,
+  "phase_I_extraction_run": false,
+  "external_benchmark_outcomes_parsed": false,
+  "training_authorized": false
+}

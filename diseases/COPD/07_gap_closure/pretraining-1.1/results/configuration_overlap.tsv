@@ -1,0 +1,73 @@
+model	configuration_1	configuration_2	scope_type	scope	class	n_1	n_2	shared	only_1	only_2	Jaccard	B_C_interpretation
+enhancer	V2-A	V2-B	overall	all	all	544056	362704	181392	362664	181312	0.2500689305290556	staged diagnostic ablation
+enhancer	V2-A	V2-B	overall	all	positive	181352	181352	181352	0	0	1	staged diagnostic ablation
+enhancer	V2-A	V2-B	overall	all	control	362704	181352	40	362664	181312	7.352724919855299e-05	staged diagnostic ablation
+enhancer	V2-A	V2-C	overall	all	all	544056	290400	145235	398821	145165	0.21072341092334679	staged diagnostic ablation
+enhancer	V2-A	V2-C	overall	all	positive	181352	145200	145200	36152	0	0.80065287396885609	staged diagnostic ablation
+enhancer	V2-A	V2-C	overall	all	control	362704	145200	35	362669	145165	6.8915409288615762e-05	staged diagnostic ablation
+enhancer	V2-B	V2-C	overall	all	all	362704	290400	287118	75586	3282	0.78450541824004194	same-lobe label correction plus induced control rematching
+enhancer	V2-B	V2-C	overall	all	positive	181352	145200	145200	36152	0	0.80065287396885609	same-lobe label correction plus induced control rematching
+enhancer	V2-B	V2-C	overall	all	control	181352	145200	141918	39434	3282	0.76864499496300787	same-lobe label correction plus induced control rematching
+enhancer	V2-A	V2-B	partition	train	all	464262	313578	156823	307439	156755	0.25252609831936967	staged diagnostic ablation
+enhancer	V2-A	V2-B	partition	train	positive	156789	156789	156789	0	0	1	staged diagnostic ablation
+enhancer	V2-A	V2-B	partition	train	control	307473	156789	34	307439	156755	7.3239873510430215e-05	staged diagnostic ablation
+enhancer	V2-A	V2-C	partition	train	all	464262	251748	125904	338358	125844	0.21335827800429075	staged diagnostic ablation
+enhancer	V2-A	V2-C	partition	train	positive	156789	125874	125874	30915	0	0.80282417771654901	staged diagnostic ablation
+enhancer	V2-A	V2-C	partition	train	control	307473	125874	30	307443	125844	6.9233378796585413e-05	staged diagnostic ablation
+enhancer	V2-B	V2-C	partition	train	all	313578	251748	249047	64531	2701	0.78742818840327689	same-lobe label correction plus induced control rematching
+enhancer	V2-B	V2-C	partition	train	positive	156789	125874	125874	30915	0	0.80282417771654901	same-lobe label correction plus induced control rematching
+enhancer	V2-B	V2-C	partition	train	control	156789	125874	123173	33616	2701	0.77229293372625241	same-lobe label correction plus induced control rematching
+enhancer	V2-A	V2-B	partition	validation	all	28788	16920	8460	20328	8460	0.22712628865979381	staged diagnostic ablation
+enhancer	V2-A	V2-B	partition	validation	positive	8460	8460	8460	0	0	1	staged diagnostic ablation
+enhancer	V2-A	V2-B	partition	validation	control	20328	8460	0	20328	8460	0	staged diagnostic ablation
+enhancer	V2-A	V2-C	partition	validation	all	28788	13262	6631	22157	6631	0.18721590107004715	staged diagnostic ablation
+enhancer	V2-A	V2-C	partition	validation	positive	8460	6631	6631	1829	0	0.78380614657210401	staged diagnostic ablation
+enhancer	V2-A	V2-C	partition	validation	control	20328	6631	0	20328	6631	0	staged diagnostic ablation
+enhancer	V2-B	V2-C	partition	validation	all	16920	13262	13016	3904	246	0.7582430385646044	same-lobe label correction plus induced control rematching
+enhancer	V2-B	V2-C	partition	validation	positive	8460	6631	6631	1829	0	0.78380614657210401	same-lobe label correction plus induced control rematching
+enhancer	V2-B	V2-C	partition	validation	control	8460	6631	6385	2075	246	0.73340225132092807	same-lobe label correction plus induced control rematching
+enhancer	V2-A	V2-B	partition	test	all	51006	32206	16109	34897	16097	0.24006378254325439	staged diagnostic ablation
+enhancer	V2-A	V2-B	partition	test	positive	16103	16103	16103	0	0	1	staged diagnostic ablation
+enhancer	V2-A	V2-B	partition	test	control	34903	16103	6	34897	16097	0.00011764705882352942	staged diagnostic ablation
+enhancer	V2-A	V2-C	partition	test	all	51006	25390	12700	38306	12690	0.19938457673951268	staged diagnostic ablation
+enhancer	V2-A	V2-C	partition	test	positive	16103	12695	12695	3408	0	0.78836241694094267	staged diagnostic ablation
+enhancer	V2-A	V2-C	partition	test	control	34903	12695	5	34898	12690	0.00010505746643413947	staged diagnostic ablation
+enhancer	V2-B	V2-C	partition	test	all	32206	25390	25055	7151	335	0.76995175317292031	same-lobe label correction plus induced control rematching
+enhancer	V2-B	V2-C	partition	test	positive	16103	12695	12695	3408	0	0.78836241694094267	same-lobe label correction plus induced control rematching
+enhancer	V2-B	V2-C	partition	test	control	16103	12695	12360	3743	335	0.75191629151964956	same-lobe label correction plus induced control rematching
+h3k27me3	V2-A	V2-B	overall	all	all	91752	61168	30584	61168	30584	0.25	staged diagnostic ablation
+h3k27me3	V2-A	V2-B	overall	all	positive	30584	30584	30584	0	0	1	staged diagnostic ablation
+h3k27me3	V2-A	V2-B	overall	all	control	61168	30584	0	61168	30584	0	staged diagnostic ablation
+h3k27me3	V2-A	V2-C	overall	all	all	91752	39964	19982	71770	19982	0.17883544847584443	staged diagnostic ablation
+h3k27me3	V2-A	V2-C	overall	all	positive	30584	19982	19982	10602	0	0.65334815589850903	staged diagnostic ablation
+h3k27me3	V2-A	V2-C	overall	all	control	61168	19982	0	61168	19982	0	staged diagnostic ablation
+h3k27me3	V2-B	V2-C	overall	all	all	61168	39964	39358	21810	606	0.63712888917667632	same-lobe label correction plus induced control rematching
+h3k27me3	V2-B	V2-C	overall	all	positive	30584	19982	19982	10602	0	0.65334815589850903	same-lobe label correction plus induced control rematching
+h3k27me3	V2-B	V2-C	overall	all	control	30584	19982	19376	11208	606	0.621224751522924	same-lobe label correction plus induced control rematching
+h3k27me3	V2-A	V2-B	partition	train	all	78165	52652	26326	51839	26326	0.25194514360088427	staged diagnostic ablation
+h3k27me3	V2-A	V2-B	partition	train	positive	26326	26326	26326	0	0	1	staged diagnostic ablation
+h3k27me3	V2-A	V2-B	partition	train	control	51839	26326	0	51839	26326	0	staged diagnostic ablation
+h3k27me3	V2-A	V2-C	partition	train	all	78165	34264	17132	61033	17132	0.17977480928046002	staged diagnostic ablation
+h3k27me3	V2-A	V2-C	partition	train	positive	26326	17132	17132	9194	0	0.65076350376054093	staged diagnostic ablation
+h3k27me3	V2-A	V2-C	partition	train	control	51839	17132	0	51839	17132	0	staged diagnostic ablation
+h3k27me3	V2-B	V2-C	partition	train	all	52652	34264	33752	18900	512	0.63486569859303288	same-lobe label correction plus induced control rematching
+h3k27me3	V2-B	V2-C	partition	train	positive	26326	17132	17132	9194	0	0.65076350376054093	same-lobe label correction plus induced control rematching
+h3k27me3	V2-B	V2-C	partition	train	control	26326	17132	16620	9706	512	0.6192711826514643	same-lobe label correction plus induced control rematching
+h3k27me3	V2-A	V2-B	partition	validation	all	5039	3224	1612	3427	1612	0.24236956848594196	staged diagnostic ablation
+h3k27me3	V2-A	V2-B	partition	validation	positive	1612	1612	1612	0	0	1	staged diagnostic ablation
+h3k27me3	V2-A	V2-B	partition	validation	control	3427	1612	0	3427	1612	0	staged diagnostic ablation
+h3k27me3	V2-A	V2-C	partition	validation	all	5039	2192	1096	3943	1096	0.17864710676446618	staged diagnostic ablation
+h3k27me3	V2-A	V2-C	partition	validation	positive	1612	1096	1096	516	0	0.67990074441687343	staged diagnostic ablation
+h3k27me3	V2-A	V2-C	partition	validation	control	3427	1096	0	3427	1096	0	staged diagnostic ablation
+h3k27me3	V2-B	V2-C	partition	validation	all	3224	2192	2151	1073	41	0.65880551301684531	same-lobe label correction plus induced control rematching
+h3k27me3	V2-B	V2-C	partition	validation	positive	1612	1096	1096	516	0	0.67990074441687343	same-lobe label correction plus induced control rematching
+h3k27me3	V2-B	V2-C	partition	validation	control	1612	1096	1055	557	41	0.63823351482153656	same-lobe label correction plus induced control rematching
+h3k27me3	V2-A	V2-B	partition	test	all	8548	5292	2646	5902	2646	0.23637663033768089	staged diagnostic ablation
+h3k27me3	V2-A	V2-B	partition	test	positive	2646	2646	2646	0	0	1	staged diagnostic ablation
+h3k27me3	V2-A	V2-B	partition	test	control	5902	2646	0	5902	2646	0	staged diagnostic ablation
+h3k27me3	V2-A	V2-C	partition	test	all	8548	3508	1754	6794	1754	0.17025820229081731	staged diagnostic ablation
+h3k27me3	V2-A	V2-C	partition	test	positive	2646	1754	1754	892	0	0.66288737717309143	staged diagnostic ablation
+h3k27me3	V2-A	V2-C	partition	test	control	5902	1754	0	5902	1754	0	staged diagnostic ablation
+h3k27me3	V2-B	V2-C	partition	test	all	5292	3508	3455	1837	53	0.64639850327408799	same-lobe label correction plus induced control rematching
+h3k27me3	V2-B	V2-C	partition	test	positive	2646	1754	1754	892	0	0.66288737717309143	same-lobe label correction plus induced control rematching
+h3k27me3	V2-B	V2-C	partition	test	control	2646	1754	1701	945	53	0.63023341978510561	same-lobe label correction plus induced control rematching

@@ -1,0 +1,2974 @@
+{
+  "benchmark_outcomes_read": false,
+  "check_count": 625,
+  "checks": [
+    {
+      "check": "six_configuration_registry_rows",
+      "status": "PASS"
+    },
+    {
+      "check": "36_class_count_rows",
+      "status": "PASS"
+    },
+    {
+      "check": "six_rich_manifests_present",
+      "status": "PASS"
+    },
+    {
+      "check": "36_BED_files_present",
+      "status": "PASS"
+    },
+    {
+      "check": "assembly_no_model_execution",
+      "status": "PASS"
+    },
+    {
+      "check": "master_role_ATAC_ID_order",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:enhancer:hash",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:enhancer:registry_authorization",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:enhancer:registry_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:enhancer:unique_IDs_labels_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:enhancer:historical_fields_and_roles_preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:enhancer:complete_expected_positive_population",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:enhancer:original_controls",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:enhancer:train:positive:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:enhancer:train:positive:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:enhancer:train:control:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:enhancer:train:control:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:enhancer:validation:positive:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:enhancer:validation:positive:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:enhancer:validation:control:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:enhancer:validation:control:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:enhancer:test:positive:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:enhancer:test:positive:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:enhancer:test:control:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:enhancer:test:control:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:enhancer:hash",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:enhancer:registry_authorization",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:enhancer:registry_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:enhancer:unique_IDs_labels_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:enhancer:historical_fields_and_roles_preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:enhancer:complete_expected_positive_population",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:enhancer:one_to_one_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:enhancer:train:positive:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:enhancer:train:positive:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:enhancer:train:control:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:enhancer:train:control:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:enhancer:validation:positive:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:enhancer:validation:positive:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:enhancer:validation:control:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:enhancer:validation:control:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:enhancer:test:positive:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:enhancer:test:positive:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:enhancer:test:control:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:enhancer:test:control:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:hash",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:registry_authorization",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:registry_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:unique_IDs_labels_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:historical_fields_and_roles_preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:complete_expected_positive_population",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:one_to_one_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:train:positive:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:train:positive:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:train:control:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:train:control:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:validation:positive:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:validation:positive:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:validation:control:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:validation:control:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:test:positive:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:test:positive:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:test:control:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:test:control:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:common_panel_exact_C_rows",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:common_panel_roles",
+      "status": "PASS"
+    },
+    {
+      "check": "enhancer:calibration_minima",
+      "status": "PASS"
+    },
+    {
+      "check": "enhancer:calibration:common_count_table",
+      "status": "PASS"
+    },
+    {
+      "check": "enhancer:selection_minima",
+      "status": "PASS"
+    },
+    {
+      "check": "enhancer:selection:common_count_table",
+      "status": "PASS"
+    },
+    {
+      "check": "enhancer:test:common_count_table",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:h3k27me3:hash",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:h3k27me3:registry_authorization",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:h3k27me3:registry_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:h3k27me3:unique_IDs_labels_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:h3k27me3:historical_fields_and_roles_preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:h3k27me3:complete_expected_positive_population",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:h3k27me3:original_controls",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:h3k27me3:train:positive:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:h3k27me3:train:positive:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:h3k27me3:train:control:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:h3k27me3:train:control:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:h3k27me3:validation:positive:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:h3k27me3:validation:positive:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:h3k27me3:validation:control:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:h3k27me3:validation:control:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:h3k27me3:test:positive:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:h3k27me3:test:positive:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:h3k27me3:test:control:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:h3k27me3:test:control:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:h3k27me3:hash",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:h3k27me3:registry_authorization",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:h3k27me3:registry_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:h3k27me3:unique_IDs_labels_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:h3k27me3:historical_fields_and_roles_preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:h3k27me3:complete_expected_positive_population",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:h3k27me3:one_to_one_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:h3k27me3:train:positive:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:h3k27me3:train:positive:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:h3k27me3:train:control:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:h3k27me3:train:control:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:h3k27me3:validation:positive:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:h3k27me3:validation:positive:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:h3k27me3:validation:control:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:h3k27me3:validation:control:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:h3k27me3:test:positive:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:h3k27me3:test:positive:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:h3k27me3:test:control:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:h3k27me3:test:control:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:hash",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:registry_authorization",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:registry_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:unique_IDs_labels_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:historical_fields_and_roles_preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:complete_expected_positive_population",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:one_to_one_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:train:positive:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:train:positive:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:train:control:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:train:control:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:validation:positive:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:validation:positive:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:validation:control:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:validation:control:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:test:positive:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:test:positive:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:test:control:BED_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:test:control:BED_hash_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:common_panel_exact_C_rows",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:common_panel_roles",
+      "status": "PASS"
+    },
+    {
+      "check": "h3k27me3:calibration_minima",
+      "status": "PASS"
+    },
+    {
+      "check": "h3k27me3:calibration:common_count_table",
+      "status": "PASS"
+    },
+    {
+      "check": "h3k27me3:selection_minima",
+      "status": "PASS"
+    },
+    {
+      "check": "h3k27me3:selection:common_count_table",
+      "status": "PASS"
+    },
+    {
+      "check": "h3k27me3:test:common_count_table",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:V2-A:enhancer:calibration",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:V2-A:enhancer:checkpoint",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:V2-A:enhancer:selection",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:V2-A:enhancer:test",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:V2-A:enhancer:train",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:V2-B:enhancer:calibration",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:V2-B:enhancer:checkpoint",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:V2-B:enhancer:selection",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:V2-B:enhancer:test",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:V2-B:enhancer:train",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:V2-C:enhancer:calibration",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:V2-C:enhancer:checkpoint",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:V2-C:enhancer:selection",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:V2-C:enhancer:test",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:V2-C:enhancer:train",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:COMMON_C_TASK:enhancer:calibration",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:COMMON_C_TASK:enhancer:selection",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:COMMON_C_TASK:enhancer:test",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:V2-A:h3k27me3:calibration",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:V2-A:h3k27me3:checkpoint",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:V2-A:h3k27me3:selection",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:V2-A:h3k27me3:test",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:V2-A:h3k27me3:train",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:V2-B:h3k27me3:calibration",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:V2-B:h3k27me3:checkpoint",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:V2-B:h3k27me3:selection",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:V2-B:h3k27me3:test",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:V2-B:h3k27me3:train",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:V2-C:h3k27me3:calibration",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:V2-C:h3k27me3:checkpoint",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:V2-C:h3k27me3:selection",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:V2-C:h3k27me3:test",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:V2-C:h3k27me3:train",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:COMMON_C_TASK:h3k27me3:calibration",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:COMMON_C_TASK:h3k27me3:selection",
+      "status": "PASS"
+    },
+    {
+      "check": "role_counts:COMMON_C_TASK:h3k27me3:test",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-A:V2-B:all:all",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-A:V2-B:all:positive",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-A:V2-B:all:control",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-A:V2-C:all:all",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-A:V2-C:all:positive",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-A:V2-C:all:control",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-B:V2-C:all:all",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-B:V2-C:all:positive",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-B:V2-C:all:control",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-A:V2-B:train:all",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-A:V2-B:train:positive",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-A:V2-B:train:control",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-A:V2-C:train:all",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-A:V2-C:train:positive",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-A:V2-C:train:control",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-B:V2-C:train:all",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-B:V2-C:train:positive",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-B:V2-C:train:control",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-A:V2-B:validation:all",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-A:V2-B:validation:positive",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-A:V2-B:validation:control",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-A:V2-C:validation:all",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-A:V2-C:validation:positive",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-A:V2-C:validation:control",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-B:V2-C:validation:all",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-B:V2-C:validation:positive",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-B:V2-C:validation:control",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-A:V2-B:test:all",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-A:V2-B:test:positive",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-A:V2-B:test:control",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-A:V2-C:test:all",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-A:V2-C:test:positive",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-A:V2-C:test:control",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-B:V2-C:test:all",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-B:V2-C:test:positive",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:enhancer:V2-B:V2-C:test:control",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-A:V2-B:all:all",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-A:V2-B:all:positive",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-A:V2-B:all:control",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-A:V2-C:all:all",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-A:V2-C:all:positive",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-A:V2-C:all:control",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-B:V2-C:all:all",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-B:V2-C:all:positive",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-B:V2-C:all:control",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-A:V2-B:train:all",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-A:V2-B:train:positive",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-A:V2-B:train:control",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-A:V2-C:train:all",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-A:V2-C:train:positive",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-A:V2-C:train:control",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-B:V2-C:train:all",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-B:V2-C:train:positive",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-B:V2-C:train:control",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-A:V2-B:validation:all",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-A:V2-B:validation:positive",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-A:V2-B:validation:control",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-A:V2-C:validation:all",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-A:V2-C:validation:positive",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-A:V2-C:validation:control",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-B:V2-C:validation:all",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-B:V2-C:validation:positive",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-B:V2-C:validation:control",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-A:V2-B:test:all",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-A:V2-B:test:positive",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-A:V2-B:test:control",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-A:V2-C:test:all",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-A:V2-C:test:positive",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-A:V2-C:test:control",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-B:V2-C:test:all",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-B:V2-C:test:positive",
+      "status": "PASS"
+    },
+    {
+      "check": "overlap:h3k27me3:V2-B:V2-C:test:control",
+      "status": "PASS"
+    },
+    {
+      "check": "selected_union_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_exact:duplicate_rows_complete",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_exact:duplicate_counts_and_no_leakage",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_exact:duplicate_membership_metadata",
+      "status": "PASS"
+    },
+    {
+      "check": "encoded_forward_RC:duplicate_rows_complete",
+      "status": "PASS"
+    },
+    {
+      "check": "encoded_forward_RC:duplicate_counts_and_no_leakage",
+      "status": "PASS"
+    },
+    {
+      "check": "encoded_forward_RC:duplicate_membership_metadata",
+      "status": "PASS"
+    },
+    {
+      "check": "18_exact_runs_seeds_unique",
+      "status": "PASS"
+    },
+    {
+      "check": "18_runs_not_authorized_or_started",
+      "status": "PASS"
+    },
+    {
+      "check": "enhancer:historical_reference_count",
+      "status": "PASS"
+    },
+    {
+      "check": "enhancer:historical_reference_seconds",
+      "status": "PASS"
+    },
+    {
+      "check": "h3k27me3:historical_reference_count",
+      "status": "PASS"
+    },
+    {
+      "check": "h3k27me3:historical_reference_seconds",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A_enhancer_seed104729:manifest_counts_parameters",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A_enhancer_seed104729:independent_compute",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A_enhancer_seed130363:manifest_counts_parameters",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A_enhancer_seed130363:independent_compute",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A_enhancer_seed155921:manifest_counts_parameters",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A_enhancer_seed155921:independent_compute",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B_enhancer_seed104729:manifest_counts_parameters",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B_enhancer_seed104729:independent_compute",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B_enhancer_seed130363:manifest_counts_parameters",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B_enhancer_seed130363:independent_compute",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B_enhancer_seed155921:manifest_counts_parameters",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B_enhancer_seed155921:independent_compute",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C_enhancer_seed104729:manifest_counts_parameters",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C_enhancer_seed104729:independent_compute",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C_enhancer_seed130363:manifest_counts_parameters",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C_enhancer_seed130363:independent_compute",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C_enhancer_seed155921:manifest_counts_parameters",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C_enhancer_seed155921:independent_compute",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A_h3k27me3_seed104729:manifest_counts_parameters",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A_h3k27me3_seed104729:independent_compute",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A_h3k27me3_seed130363:manifest_counts_parameters",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A_h3k27me3_seed130363:independent_compute",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A_h3k27me3_seed155921:manifest_counts_parameters",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A_h3k27me3_seed155921:independent_compute",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B_h3k27me3_seed104729:manifest_counts_parameters",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B_h3k27me3_seed104729:independent_compute",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B_h3k27me3_seed130363:manifest_counts_parameters",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B_h3k27me3_seed130363:independent_compute",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B_h3k27me3_seed155921:manifest_counts_parameters",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B_h3k27me3_seed155921:independent_compute",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C_h3k27me3_seed104729:manifest_counts_parameters",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C_h3k27me3_seed104729:independent_compute",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C_h3k27me3_seed130363:manifest_counts_parameters",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C_h3k27me3_seed130363:independent_compute",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C_h3k27me3_seed155921:manifest_counts_parameters",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C_h3k27me3_seed155921:independent_compute",
+      "status": "PASS"
+    },
+    {
+      "check": "compute_18_fit_total",
+      "status": "PASS"
+    },
+    {
+      "check": "compute_dual_orientation_float32_cache",
+      "status": "PASS"
+    },
+    {
+      "check": "compute_planning_not_authorization",
+      "status": "PASS"
+    },
+    {
+      "check": "retention_table_preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "retention:V2-B:enhancer:train",
+      "status": "PASS"
+    },
+    {
+      "check": "retention:V2-B:enhancer:validation",
+      "status": "PASS"
+    },
+    {
+      "check": "retention:V2-B:enhancer:test",
+      "status": "PASS"
+    },
+    {
+      "check": "retention:V2-C:enhancer:train",
+      "status": "PASS"
+    },
+    {
+      "check": "retention:V2-C:enhancer:validation",
+      "status": "PASS"
+    },
+    {
+      "check": "retention:V2-C:enhancer:test",
+      "status": "PASS"
+    },
+    {
+      "check": "retention:V2-B:h3k27me3:train",
+      "status": "PASS"
+    },
+    {
+      "check": "retention:V2-B:h3k27me3:validation",
+      "status": "PASS"
+    },
+    {
+      "check": "retention:V2-B:h3k27me3:test",
+      "status": "PASS"
+    },
+    {
+      "check": "retention:V2-C:h3k27me3:train",
+      "status": "PASS"
+    },
+    {
+      "check": "retention:V2-C:h3k27me3:validation",
+      "status": "PASS"
+    },
+    {
+      "check": "retention:V2-C:h3k27me3:test",
+      "status": "PASS"
+    },
+    {
+      "check": "no_positive_common_support_exclusions",
+      "status": "PASS"
+    },
+    {
+      "check": "pure_label_change:enhancer:all",
+      "status": "PASS"
+    },
+    {
+      "check": "pure_label_change:enhancer:train",
+      "status": "PASS"
+    },
+    {
+      "check": "pure_label_change:enhancer:validation",
+      "status": "PASS"
+    },
+    {
+      "check": "pure_label_change:enhancer:test",
+      "status": "PASS"
+    },
+    {
+      "check": "pure_label_change:h3k27me3:all",
+      "status": "PASS"
+    },
+    {
+      "check": "pure_label_change:h3k27me3:train",
+      "status": "PASS"
+    },
+    {
+      "check": "pure_label_change:h3k27me3:validation",
+      "status": "PASS"
+    },
+    {
+      "check": "pure_label_change:h3k27me3:test",
+      "status": "PASS"
+    },
+    {
+      "check": "initial:V2-B:enhancer:complete_distance_table",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:enhancer:all:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:enhancer:all:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:enhancer:all:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:enhancer:all:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:enhancer:train:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:enhancer:train:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:enhancer:train:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:enhancer:train:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:enhancer:validation:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:enhancer:validation:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:enhancer:validation:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:enhancer:validation:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:enhancer:test:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:enhancer:test:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:enhancer:test:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:enhancer:test:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:enhancer:checkpoint:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:enhancer:checkpoint:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:enhancer:checkpoint:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:enhancer:checkpoint:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:enhancer:selection:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:enhancer:selection:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:enhancer:selection:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:enhancer:selection:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:enhancer:calibration:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:enhancer:calibration:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:enhancer:calibration:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:enhancer:calibration:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "initial:V2-B:h3k27me3:complete_distance_table",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:h3k27me3:all:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:h3k27me3:all:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:h3k27me3:all:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:h3k27me3:all:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:h3k27me3:train:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:h3k27me3:train:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:h3k27me3:train:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:h3k27me3:train:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:h3k27me3:validation:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:h3k27me3:validation:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:h3k27me3:validation:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:h3k27me3:validation:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:h3k27me3:test:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:h3k27me3:test:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:h3k27me3:test:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:h3k27me3:test:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:h3k27me3:checkpoint:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:h3k27me3:checkpoint:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:h3k27me3:checkpoint:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:h3k27me3:checkpoint:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:h3k27me3:selection:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:h3k27me3:selection:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:h3k27me3:selection:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:h3k27me3:selection:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:h3k27me3:calibration:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:h3k27me3:calibration:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:h3k27me3:calibration:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-B:h3k27me3:calibration:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "initial:V2-C:enhancer:complete_distance_table",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:enhancer:all:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:enhancer:all:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:enhancer:all:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:enhancer:all:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:enhancer:train:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:enhancer:train:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:enhancer:train:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:enhancer:train:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:enhancer:validation:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:enhancer:validation:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:enhancer:validation:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:enhancer:validation:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:enhancer:test:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:enhancer:test:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:enhancer:test:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:enhancer:test:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:enhancer:checkpoint:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:enhancer:checkpoint:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:enhancer:checkpoint:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:enhancer:checkpoint:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:enhancer:selection:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:enhancer:selection:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:enhancer:selection:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:enhancer:selection:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:enhancer:calibration:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:enhancer:calibration:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:enhancer:calibration:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:enhancer:calibration:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "initial:V2-C:h3k27me3:complete_distance_table",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:h3k27me3:all:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:h3k27me3:all:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:h3k27me3:all:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:h3k27me3:all:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:h3k27me3:train:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:h3k27me3:train:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:h3k27me3:train:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:h3k27me3:train:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:h3k27me3:validation:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:h3k27me3:validation:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:h3k27me3:validation:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:h3k27me3:validation:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:h3k27me3:test:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:h3k27me3:test:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:h3k27me3:test:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:h3k27me3:test:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:h3k27me3:checkpoint:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:h3k27me3:checkpoint:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:h3k27me3:checkpoint:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:h3k27me3:checkpoint:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:h3k27me3:selection:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:h3k27me3:selection:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:h3k27me3:selection:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:h3k27me3:selection:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:h3k27me3:calibration:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:h3k27me3:calibration:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:h3k27me3:calibration:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:initial:V2-C:h3k27me3:calibration:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "final:V2-B:enhancer:complete_distance_table",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:enhancer:pair_manifest_membership",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:enhancer:all:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:enhancer:all:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:enhancer:all:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:enhancer:all:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:enhancer:train:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:enhancer:train:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:enhancer:train:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:enhancer:train:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:enhancer:validation:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:enhancer:validation:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:enhancer:validation:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:enhancer:validation:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:enhancer:test:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:enhancer:test:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:enhancer:test:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:enhancer:test:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:enhancer:checkpoint:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:enhancer:checkpoint:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:enhancer:checkpoint:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:enhancer:checkpoint:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:enhancer:selection:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:enhancer:selection:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:enhancer:selection:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:enhancer:selection:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:enhancer:calibration:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:enhancer:calibration:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:enhancer:calibration:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:enhancer:calibration:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "final:V2-B:h3k27me3:complete_distance_table",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:h3k27me3:pair_manifest_membership",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:h3k27me3:all:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:h3k27me3:all:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:h3k27me3:all:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:h3k27me3:all:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:h3k27me3:train:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:h3k27me3:train:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:h3k27me3:train:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:h3k27me3:train:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:h3k27me3:validation:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:h3k27me3:validation:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:h3k27me3:validation:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:h3k27me3:validation:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:h3k27me3:test:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:h3k27me3:test:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:h3k27me3:test:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:h3k27me3:test:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:h3k27me3:checkpoint:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:h3k27me3:checkpoint:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:h3k27me3:checkpoint:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:h3k27me3:checkpoint:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:h3k27me3:selection:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:h3k27me3:selection:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:h3k27me3:selection:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:h3k27me3:selection:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:h3k27me3:calibration:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:h3k27me3:calibration:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:h3k27me3:calibration:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-B:h3k27me3:calibration:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "final:V2-C:enhancer:complete_distance_table",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:pair_manifest_membership",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:enhancer:all:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:enhancer:all:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:enhancer:all:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:enhancer:all:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:enhancer:train:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:enhancer:train:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:enhancer:train:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:enhancer:train:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:enhancer:validation:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:enhancer:validation:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:enhancer:validation:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:enhancer:validation:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:enhancer:test:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:enhancer:test:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:enhancer:test:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:enhancer:test:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:enhancer:checkpoint:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:enhancer:checkpoint:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:enhancer:checkpoint:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:enhancer:checkpoint:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:enhancer:selection:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:enhancer:selection:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:enhancer:selection:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:enhancer:selection:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:enhancer:calibration:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:enhancer:calibration:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:enhancer:calibration:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:enhancer:calibration:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "final:V2-C:h3k27me3:complete_distance_table",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:pair_manifest_membership",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:h3k27me3:all:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:h3k27me3:all:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:h3k27me3:all:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:h3k27me3:all:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:h3k27me3:train:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:h3k27me3:train:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:h3k27me3:train:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:h3k27me3:train:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:h3k27me3:validation:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:h3k27me3:validation:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:h3k27me3:validation:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:h3k27me3:validation:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:h3k27me3:test:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:h3k27me3:test:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:h3k27me3:test:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:h3k27me3:test:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:h3k27me3:checkpoint:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:h3k27me3:checkpoint:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:h3k27me3:checkpoint:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:h3k27me3:checkpoint:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:h3k27me3:selection:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:h3k27me3:selection:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:h3k27me3:selection:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:h3k27me3:selection:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:h3k27me3:calibration:normalized_chebyshev_distance",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:h3k27me3:calibration:gc_fraction_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:h3k27me3:calibration:atac_signal_percentile_max_train_only_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "distance_summary:final:V2-C:h3k27me3:calibration:repeat_fraction_2001_absolute_difference",
+      "status": "PASS"
+    },
+    {
+      "check": "all_224_distance_summary_rows_present",
+      "status": "PASS"
+    },
+    {
+      "check": "SMD_validity_prerequisites:V2-B:enhancer:partition:test",
+      "detail": {
+        "control_n": 16103,
+        "positive_n": 16103
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "independent_SMD:V2-B:enhancer:partition:test",
+      "status": "PASS"
+    },
+    {
+      "check": "SMD_validity_prerequisites:V2-B:enhancer:partition:train",
+      "detail": {
+        "control_n": 156789,
+        "positive_n": 156789
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "independent_SMD:V2-B:enhancer:partition:train",
+      "status": "PASS"
+    },
+    {
+      "check": "SMD_validity_prerequisites:V2-B:enhancer:partition:validation",
+      "detail": {
+        "control_n": 8460,
+        "positive_n": 8460
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "independent_SMD:V2-B:enhancer:partition:validation",
+      "status": "PASS"
+    },
+    {
+      "check": "SMD_validity_prerequisites:V2-B:enhancer:validation_role:calibration",
+      "detail": {
+        "control_n": 2024,
+        "positive_n": 2024
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "independent_SMD:V2-B:enhancer:validation_role:calibration",
+      "status": "PASS"
+    },
+    {
+      "check": "SMD_validity_prerequisites:V2-B:enhancer:validation_role:checkpoint",
+      "detail": {
+        "control_n": 4216,
+        "positive_n": 4216
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "independent_SMD:V2-B:enhancer:validation_role:checkpoint",
+      "status": "PASS"
+    },
+    {
+      "check": "SMD_validity_prerequisites:V2-B:enhancer:validation_role:selection",
+      "detail": {
+        "control_n": 2220,
+        "positive_n": 2220
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "independent_SMD:V2-B:enhancer:validation_role:selection",
+      "status": "PASS"
+    },
+    {
+      "check": "SMD_validity_prerequisites:V2-B:h3k27me3:partition:test",
+      "detail": {
+        "control_n": 2646,
+        "positive_n": 2646
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "independent_SMD:V2-B:h3k27me3:partition:test",
+      "status": "PASS"
+    },
+    {
+      "check": "SMD_validity_prerequisites:V2-B:h3k27me3:partition:train",
+      "detail": {
+        "control_n": 26326,
+        "positive_n": 26326
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "independent_SMD:V2-B:h3k27me3:partition:train",
+      "status": "PASS"
+    },
+    {
+      "check": "SMD_validity_prerequisites:V2-B:h3k27me3:partition:validation",
+      "detail": {
+        "control_n": 1612,
+        "positive_n": 1612
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "independent_SMD:V2-B:h3k27me3:partition:validation",
+      "status": "PASS"
+    },
+    {
+      "check": "SMD_validity_prerequisites:V2-B:h3k27me3:validation_role:calibration",
+      "detail": {
+        "control_n": 397,
+        "positive_n": 397
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "independent_SMD:V2-B:h3k27me3:validation_role:calibration",
+      "status": "PASS"
+    },
+    {
+      "check": "SMD_validity_prerequisites:V2-B:h3k27me3:validation_role:checkpoint",
+      "detail": {
+        "control_n": 834,
+        "positive_n": 834
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "independent_SMD:V2-B:h3k27me3:validation_role:checkpoint",
+      "status": "PASS"
+    },
+    {
+      "check": "SMD_validity_prerequisites:V2-B:h3k27me3:validation_role:selection",
+      "detail": {
+        "control_n": 381,
+        "positive_n": 381
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "independent_SMD:V2-B:h3k27me3:validation_role:selection",
+      "status": "PASS"
+    },
+    {
+      "check": "SMD_validity_prerequisites:V2-C:enhancer:partition:test",
+      "detail": {
+        "control_n": 12695,
+        "positive_n": 12695
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "independent_SMD:V2-C:enhancer:partition:test",
+      "status": "PASS"
+    },
+    {
+      "check": "SMD_validity_prerequisites:V2-C:enhancer:partition:train",
+      "detail": {
+        "control_n": 125874,
+        "positive_n": 125874
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "independent_SMD:V2-C:enhancer:partition:train",
+      "status": "PASS"
+    },
+    {
+      "check": "SMD_validity_prerequisites:V2-C:enhancer:partition:validation",
+      "detail": {
+        "control_n": 6631,
+        "positive_n": 6631
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "independent_SMD:V2-C:enhancer:partition:validation",
+      "status": "PASS"
+    },
+    {
+      "check": "SMD_validity_prerequisites:V2-C:enhancer:validation_role:calibration",
+      "detail": {
+        "control_n": 1576,
+        "positive_n": 1576
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "independent_SMD:V2-C:enhancer:validation_role:calibration",
+      "status": "PASS"
+    },
+    {
+      "check": "SMD_validity_prerequisites:V2-C:enhancer:validation_role:checkpoint",
+      "detail": {
+        "control_n": 3300,
+        "positive_n": 3300
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "independent_SMD:V2-C:enhancer:validation_role:checkpoint",
+      "status": "PASS"
+    },
+    {
+      "check": "SMD_validity_prerequisites:V2-C:enhancer:validation_role:selection",
+      "detail": {
+        "control_n": 1755,
+        "positive_n": 1755
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "independent_SMD:V2-C:enhancer:validation_role:selection",
+      "status": "PASS"
+    },
+    {
+      "check": "SMD_validity_prerequisites:V2-C:h3k27me3:partition:test",
+      "detail": {
+        "control_n": 1754,
+        "positive_n": 1754
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "independent_SMD:V2-C:h3k27me3:partition:test",
+      "status": "PASS"
+    },
+    {
+      "check": "SMD_validity_prerequisites:V2-C:h3k27me3:partition:train",
+      "detail": {
+        "control_n": 17132,
+        "positive_n": 17132
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "independent_SMD:V2-C:h3k27me3:partition:train",
+      "status": "PASS"
+    },
+    {
+      "check": "SMD_validity_prerequisites:V2-C:h3k27me3:partition:validation",
+      "detail": {
+        "control_n": 1096,
+        "positive_n": 1096
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "independent_SMD:V2-C:h3k27me3:partition:validation",
+      "status": "PASS"
+    },
+    {
+      "check": "SMD_validity_prerequisites:V2-C:h3k27me3:validation_role:calibration",
+      "detail": {
+        "control_n": 263,
+        "positive_n": 263
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "independent_SMD:V2-C:h3k27me3:validation_role:calibration",
+      "status": "PASS"
+    },
+    {
+      "check": "SMD_validity_prerequisites:V2-C:h3k27me3:validation_role:checkpoint",
+      "detail": {
+        "control_n": 562,
+        "positive_n": 562
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "independent_SMD:V2-C:h3k27me3:validation_role:checkpoint",
+      "status": "PASS"
+    },
+    {
+      "check": "SMD_validity_prerequisites:V2-C:h3k27me3:validation_role:selection",
+      "detail": {
+        "control_n": 271,
+        "positive_n": 271
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "independent_SMD:V2-C:h3k27me3:validation_role:selection",
+      "status": "PASS"
+    },
+    {
+      "check": "method_review_hashes_current",
+      "status": "PASS"
+    },
+    {
+      "check": "method_tie_fixtures_pass",
+      "status": "PASS"
+    },
+    {
+      "check": "selection_95_invariant_checks",
+      "status": "PASS"
+    },
+    {
+      "check": "selection_review_current_spec_and_script",
+      "status": "PASS"
+    },
+    {
+      "check": "normalization_23_checks",
+      "status": "PASS"
+    },
+    {
+      "check": "normalization_independent_PASS",
+      "status": "PASS"
+    },
+    {
+      "check": "normalization_review_current_outputs",
+      "status": "PASS"
+    },
+    {
+      "check": "registered_hash:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/interval_features.tsv.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "registered_hash:diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/interval_role_assignment.tsv.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "registered_hash:diseases/COPD/07_gap_closure/pretraining-1.1/data/atac_normalized_features.tsv.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "registered_hash:diseases/COPD/07_gap_closure/pretraining-1.1/specification/matching_attempt_001.json",
+      "status": "PASS"
+    },
+    {
+      "check": "registered_hash:diseases/COPD/07_gap_closure/pretraining-1.1/attempts/001_full_population/attempt_manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "registered_hash:diseases/COPD/07_gap_closure/pretraining-1.1/attempts/001_full_population/control_matching_pairs.tsv.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "registered_hash:diseases/COPD/07_gap_closure/pretraining-1.1/attempts/001_full_population/initial_pairs.tsv.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "registered_hash:diseases/COPD/07_gap_closure/pretraining-1.1/attempts/001_full_population/positive_retention.tsv",
+      "status": "PASS"
+    },
+    {
+      "check": "registered_hash:diseases/COPD/07_gap_closure/pretraining-1.1/attempts/001_full_population/covariate_balance.tsv",
+      "status": "PASS"
+    },
+    {
+      "check": "registered_hash:diseases/COPD/07_gap_closure/pretraining-1.1/specification/selection_adequacy.json",
+      "status": "PASS"
+    },
+    {
+      "check": "registered_hash:diseases/COPD/07_gap_closure/pretraining-1.1/scripts/assemble_preflight11.py",
+      "status": "PASS"
+    },
+    {
+      "check": "registered_hash:diseases/COPD/07_gap_closure/pretraining-1.1/data/evaluation/enhancer_common_challenge_panel.tsv.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "registered_hash:diseases/COPD/07_gap_closure/pretraining-1.1/data/evaluation/h3k27me3_common_challenge_panel.tsv.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "registered_hash:diseases/COPD/07_gap_closure/pretraining-1.1/data/atac_training_cdf.tsv.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "registered_hash:diseases/COPD/07_gap_closure/pretraining-1.1/data/atac_normalized_features.tsv.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "registered_hash:diseases/COPD/07_gap_closure/pretraining-1.1/results/atac_normalization_denominators.tsv",
+      "status": "PASS"
+    },
+    {
+      "check": "registered_hash:diseases/COPD/07_gap_closure/pretraining-1.1/results/atac_normalization_qc.tsv",
+      "status": "PASS"
+    }
+  ],
+  "completed_utc": "2026-10-06T13:36:50.999581+00:00",
+  "failures": 0,
+  "input_hashes": {
+    "diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/interval_features.tsv.gz": {
+      "bytes": 125556971,
+      "sha256": "dbf146d974802d7912b91c193e2b815882caac1d6f71ba4a4345817937260625"
+    },
+    "diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/interval_role_assignment.tsv.gz": {
+      "bytes": 57529183,
+      "sha256": "1501b15be85e6dc89b9fc4045e93ae2522c7cb83c82d0a4c67ddc43a6ce717dc"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/attempts/001_full_population/attempt_manifest.json": {
+      "bytes": 570,
+      "sha256": "6b0a37c311b79a102121ccdb37ce0835781ef75a48801955a192b5d3a1b51fa0"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/attempts/001_full_population/control_matching_pairs.tsv.gz": {
+      "bytes": 16305226,
+      "sha256": "e3e451aeeceec51a30bfa261f9cc22e26ef26ec0853ade5a40fa1812bbbd3f25"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/attempts/001_full_population/covariate_balance.tsv": {
+      "bytes": 142720,
+      "sha256": "38e684e9448e82036d6bf9b8f80b5475e5eae9e80e6ae1bb20fadef1b7de0adb"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/attempts/001_full_population/initial_pairs.tsv.gz": {
+      "bytes": 14993821,
+      "sha256": "6f6e8f2293de706097f10bfe752d7c57214f7881000adcd6a03f797048ec5fc5"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/attempts/001_full_population/positive_common_support_exclusions.tsv.gz": {
+      "bytes": 111,
+      "sha256": "e41ef2df176d75ef1a1bf17d444fbf4a8f92b33d8cfa85d0e6a860d00c681ad0"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/attempts/001_full_population/positive_retention.tsv": {
+      "bytes": 736,
+      "sha256": "cf7a8cf1571f89d5f631e7175dd9c71b33e7e25771195f9e944df4954c5824a0"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/atac_normalized_features.tsv.gz": {
+      "bytes": 25512739,
+      "sha256": "23dbc6012152c922ca4259ba23049e72afb840bff82e6e52ece3356dcc7df592"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/atac_training_cdf.tsv.gz": {
+      "bytes": 6311083,
+      "sha256": "2c2b9978c4442d23a30376053e72fb6a509df1ce18ed7ce14672d5090d2f99b6"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/configuration_registry.tsv": {
+      "bytes": 1485,
+      "sha256": "e38ba48f2a707dd759fdb35ceca19580cf4e77643b51d4a967b6d6032d51c112"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-A_enhancer_interval_manifest.tsv.gz": {
+      "bytes": 60812778,
+      "sha256": "f6c1eaf2d4f25f2f95fdc553aa46210f01ce953808d1bd618303596a6d152298"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-A_h3k27me3_interval_manifest.tsv.gz": {
+      "bytes": 10541936,
+      "sha256": "d7341760f83173023004b9c558cb6dfd2314e19733f014d8970e09000c23ae2a"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-B_enhancer_interval_manifest.tsv.gz": {
+      "bytes": 55839908,
+      "sha256": "fa4e9eb1360b26b7129c507526999482322e16e6aaeffd3c7a108ae550fbe40b"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-B_h3k27me3_interval_manifest.tsv.gz": {
+      "bytes": 9573636,
+      "sha256": "04a062c730c3ad00b367c34d4829b898d55a1f42097785cd329edcc8262b14f5"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-C_enhancer_interval_manifest.tsv.gz": {
+      "bytes": 44914883,
+      "sha256": "5165080dbeba1a43decb57286c9ed44e820eaa73617f252cecda6ebe4321e72f"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-C_h3k27me3_interval_manifest.tsv.gz": {
+      "bytes": 6293534,
+      "sha256": "1d325e61ae5c41bfabe955c12e0b84f683a80472fb855dbac9a19fabd1cbc7ec"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/evaluation/enhancer_common_challenge_panel.tsv.gz": {
+      "bytes": 4962271,
+      "sha256": "4f374ebf993b1e3b6a5fff5aba51ac6e0efaf6859300bf752f56245a7db65c20"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/evaluation/h3k27me3_common_challenge_panel.tsv.gz": {
+      "bytes": 719591,
+      "sha256": "895979a83b12d0bb372dd93a1baaa1a83d174e96a57e17acc4f5f3bea8775c26"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-A_enhancer_test_control.bed.gz": {
+      "bytes": 414591,
+      "sha256": "57ddb29c43f49918f2ddb11f1cf706e21561e397a64a611341e8f5d8fa1f7e54"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-A_enhancer_test_positive.bed.gz": {
+      "bytes": 171860,
+      "sha256": "88f2d09e522b8f4af161858f62bdba8c0d5f103c821cc06f735eff4df2378e84"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-A_enhancer_train_control.bed.gz": {
+      "bytes": 3659772,
+      "sha256": "5a714e7a82ee33c5f903fcac81e6b649910b0afd6bb2096196a2e6eec2ab5268"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-A_enhancer_train_positive.bed.gz": {
+      "bytes": 1660991,
+      "sha256": "5c418536efa6b8a2edbd2b716e8f8ba8ca8553fd471c156ccda8ce541f7481ca"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-A_enhancer_validation_control.bed.gz": {
+      "bytes": 240895,
+      "sha256": "0e2ece7dc17421e2d67feb8d23fc0e63909e7c52ef8a533427f99b93e9d581ee"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-A_enhancer_validation_positive.bed.gz": {
+      "bytes": 89081,
+      "sha256": "b22496ea98ddfb58081dbb55b9b46fb1a7cae701fe33eeb7c485c6924f77423f"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-A_h3k27me3_test_control.bed.gz": {
+      "bytes": 72873,
+      "sha256": "1ce546c18eedd3573258d466b38cf926bc0d016f4e4ca0ac1e4d6abd78663cca"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-A_h3k27me3_test_positive.bed.gz": {
+      "bytes": 29433,
+      "sha256": "a9ec53971364f5dafbc66b1ed2af555ab0b218ce38c286ee10d22b7305cf27e0"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-A_h3k27me3_train_control.bed.gz": {
+      "bytes": 643371,
+      "sha256": "ad949be0a58c633249266eef15b8cb6c913c9404681c5171fa57cbc953694f18"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-A_h3k27me3_train_positive.bed.gz": {
+      "bytes": 293140,
+      "sha256": "418fe4a00d960d4bbf7e8b892cd0b73688e3f9f24b12af32369e7c14c9c252db"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-A_h3k27me3_validation_control.bed.gz": {
+      "bytes": 42272,
+      "sha256": "69cf07c2b5974fc327e4c8ca81509157bc19ce989da8ba1ec1082c8a69c4e9d5"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-A_h3k27me3_validation_positive.bed.gz": {
+      "bytes": 18164,
+      "sha256": "bd432896f76ec3547a3a9231997179fd49f5a71c2f52e58a9cd28fac629af8ba"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-B_enhancer_test_control.bed.gz": {
+      "bytes": 180791,
+      "sha256": "c5c3cdb376f6bbabeae398e2ae27ab9100927f638d41393767e99f0d98443248"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-B_enhancer_test_positive.bed.gz": {
+      "bytes": 171860,
+      "sha256": "88f2d09e522b8f4af161858f62bdba8c0d5f103c821cc06f735eff4df2378e84"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-B_enhancer_train_control.bed.gz": {
+      "bytes": 1755549,
+      "sha256": "9cb6be553618331abf0b40e8028ebcfd27bcb6cfa26b0c695e70cafac98a8bbc"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-B_enhancer_train_positive.bed.gz": {
+      "bytes": 1660991,
+      "sha256": "5c418536efa6b8a2edbd2b716e8f8ba8ca8553fd471c156ccda8ce541f7481ca"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-B_enhancer_validation_control.bed.gz": {
+      "bytes": 95496,
+      "sha256": "1f8a33848cb1071d1aa1e98686682c59732e8b2435d85839ca77019c96442c5e"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-B_enhancer_validation_positive.bed.gz": {
+      "bytes": 89081,
+      "sha256": "b22496ea98ddfb58081dbb55b9b46fb1a7cae701fe33eeb7c485c6924f77423f"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-B_h3k27me3_test_control.bed.gz": {
+      "bytes": 32561,
+      "sha256": "d029b39439032b3185d3d97be9eb94b5e1d0d9b9af6fd374804187eaed8c487d"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-B_h3k27me3_test_positive.bed.gz": {
+      "bytes": 29433,
+      "sha256": "a9ec53971364f5dafbc66b1ed2af555ab0b218ce38c286ee10d22b7305cf27e0"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-B_h3k27me3_train_control.bed.gz": {
+      "bytes": 320615,
+      "sha256": "ebc841b28d9ff23bb1d35102531192556d28f714852ecba26170917346607476"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-B_h3k27me3_train_positive.bed.gz": {
+      "bytes": 293140,
+      "sha256": "418fe4a00d960d4bbf7e8b892cd0b73688e3f9f24b12af32369e7c14c9c252db"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-B_h3k27me3_validation_control.bed.gz": {
+      "bytes": 19710,
+      "sha256": "b804dd0f8812ef1a40e3529f999ee7ea6cf2a7d30d5ec306a7ff7bad3895f375"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-B_h3k27me3_validation_positive.bed.gz": {
+      "bytes": 18164,
+      "sha256": "bd432896f76ec3547a3a9231997179fd49f5a71c2f52e58a9cd28fac629af8ba"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-C_enhancer_test_control.bed.gz": {
+      "bytes": 145229,
+      "sha256": "023777e2d9fa1ac8aa0e5f0942cf3d455c12b8d00f1a88a4949a0ccd5c8f4913"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-C_enhancer_test_positive.bed.gz": {
+      "bytes": 138041,
+      "sha256": "76338285c2ab881d9a8688fa692394f2d312d6f2a798bb8a4f13520eae387e82"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-C_enhancer_train_control.bed.gz": {
+      "bytes": 1428515,
+      "sha256": "24f1069ed658492eeff1e1e9232ec0868c877007915b3a032bf372dbe051bc46"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-C_enhancer_train_positive.bed.gz": {
+      "bytes": 1362260,
+      "sha256": "afd166128df2cbc7d77113b01428e601348a21190cb225f821dae4c84dc16c5b"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-C_enhancer_validation_control.bed.gz": {
+      "bytes": 76185,
+      "sha256": "5946aadd7c4db45d9b272969b5e881408753ad99819e2ef73cc1e54009be9be6"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-C_enhancer_validation_positive.bed.gz": {
+      "bytes": 72012,
+      "sha256": "6d6dc6e285789ffbec274821528811e028b78a33541818005411b7db442cf4ca"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-C_h3k27me3_test_control.bed.gz": {
+      "bytes": 22066,
+      "sha256": "c1fd1ed41bb70c6fb466500a26a42627dbb8fc40f3eb7cf294da921cabde0e16"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-C_h3k27me3_test_positive.bed.gz": {
+      "bytes": 20651,
+      "sha256": "beb596be5c5cc2e78e51ca82a62f5ffc5ee0e95a13b1bc973b46bb21f18af718"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-C_h3k27me3_train_control.bed.gz": {
+      "bytes": 212404,
+      "sha256": "e43072c7d697ff03efb516a18020d2c177b1bc1dad1946272ff649245a6d942d"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-C_h3k27me3_train_positive.bed.gz": {
+      "bytes": 198814,
+      "sha256": "cc055cac4591583188b66dea3092a761032d1184a2b9c2a5a5d1813f9b02f67a"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-C_h3k27me3_validation_control.bed.gz": {
+      "bytes": 13490,
+      "sha256": "813ff04b38abbf727a278afc099f264183877572c05bc71281a3b98829d4a148"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/intervals/V2-C_h3k27me3_validation_positive.bed.gz": {
+      "bytes": 12728,
+      "sha256": "7279cf39f4ba9a5a02f3c6624bb8a3b99c69d5c363c81367fdeb1dc4882baff5"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/run_matrix.tsv": {
+      "bytes": 5362,
+      "sha256": "87f57f443d2262728395d902b45bba51c310e1637e44d09337e22964664e985e"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/provenance/atac_normalization_manifest.json": {
+      "bytes": 9258,
+      "sha256": "56dc9602c238054540828310867731386800b37a0dfbd05a1c0bff00438898a0"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/provenance/compute_plan.json": {
+      "bytes": 1984,
+      "sha256": "f6a86a3c771e45b06784bca1a717b104193c7f18928144c4ecd6612cbd679eff"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/provenance/configuration_manifest.json": {
+      "bytes": 9054,
+      "sha256": "ce8c45bb20a7989014d47607ff7af601441668bf028aa4d9329d07c9b7974520"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/provenance/matching_method_review.json": {
+      "bytes": 10251,
+      "sha256": "ce995dcc6e79247b48c75a65eb79fcac98b28132c0f27ce3eeeb6f5f62ebe47f"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/provenance/selection_adequacy_review.json": {
+      "bytes": 11164,
+      "sha256": "c0653d73a6606f7d261931b210590405b99ff5c66ed3efacff856150a84c4005"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/results/atac_independent_validation.json": {
+      "bytes": 2651,
+      "sha256": "0ee59d6d6cf99b20fdbbf8b7c1c61a520befdba73408015da73784b4c51ba0ef"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/results/atac_normalization_denominators.tsv": {
+      "bytes": 1387,
+      "sha256": "c29da344aa444506abda768a90a1d068342cfb49428bdf60ed99272f5bfdf90c"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/results/atac_normalization_qc.tsv": {
+      "bytes": 1887,
+      "sha256": "d48bc2af928f7253506cea2f92a32f286c18a315cb2f4e85643087acdb421826"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/results/class_counts.tsv": {
+      "bytes": 7597,
+      "sha256": "63ac0909d8ffa431e93801869177eb98ca695d0cf12ac9ea315392e2022b28bd"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/results/compute_projection_by_run.tsv": {
+      "bytes": 2355,
+      "sha256": "fcded5fcbe1365f87ecf4886d0995828dc938e1c0b34cfba16c2648a760b2b1b"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/results/configuration_overlap.tsv": {
+      "bytes": 8861,
+      "sha256": "7fafbd10c1f985bd8fa13ccc9323e4e9347ccbdc731c0761c7729b0653a19952"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/results/matched_pair_distance_summary.tsv": {
+      "bytes": 101160,
+      "sha256": "1ec9e1e38909f8b00d5fb13988263f33eb2f4ad89185f9ad80607b0ba00a6d9d"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/results/positive_retention.tsv": {
+      "bytes": 1939,
+      "sha256": "2cae02a5ec76f22f82f5c4a8c1d5d95f9faed65307d2ae153a431a72f4d00a43"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/results/pure_label_membership_change.tsv": {
+      "bytes": 894,
+      "sha256": "05873c9ca13744dee12fe909ee3031230e07611b0466ffac6afa44a3cb86bdd2"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/results/role_class_counts.tsv": {
+      "bytes": 2867,
+      "sha256": "7ce73a195e1daf8308e4ec500dce9db9d212e6fd275251162942f6883edc1979"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/results/selected_sequence_duplicate_audit.tsv.gz": {
+      "bytes": 782,
+      "sha256": "610b957c9923c2abafb85ebda83752c860ff85a8b1ad167f1e5952caa95240dd"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/scripts/assemble_preflight11.py": {
+      "bytes": 26744,
+      "sha256": "45dc194badaeb397abb9b68bac264d302c939ee1a982ae200d4c74a1e4222796"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/specification/matching_attempt_001.json": {
+      "bytes": 5277,
+      "sha256": "98e7df83f91636153e7a7f3a1c182f4f9b44d9f44d47a92e5425ffe370440be0"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/specification/selection_adequacy.json": {
+      "bytes": 19841,
+      "sha256": "3f5f8f1a2ef8a1713d77d15d88f4dae53e21d76bc554fe28448991515088b32f"
+    },
+    "diseases/COPD/07_gap_closure/results/COPD-V2-PREFLIGHT_compute_projection_by_run.tsv": {
+      "bytes": 1555,
+      "sha256": "a263c4d8c7e851b67e425f405cfbff3f3e88190da9c01ff930460330570bbfbb"
+    }
+  },
+  "limitation": "Packaging/count/compute audit only; complete deterministic matching replay and final historical freeze preservation have independent audits. This pass does not authorize GPU work or establish model adequacy.",
+  "observations": {
+    "common_C_panel_counts": [
+      {
+        "components": 1157,
+        "control": 1576,
+        "control_components": 809,
+        "model": "enhancer",
+        "positive": 1576,
+        "role": "calibration"
+      },
+      {
+        "components": 1295,
+        "control": 1755,
+        "control_components": 885,
+        "model": "enhancer",
+        "positive": 1755,
+        "role": "selection"
+      },
+      {
+        "components": 8754,
+        "control": 12695,
+        "control_components": 5877,
+        "model": "enhancer",
+        "positive": 12695,
+        "role": "test"
+      },
+      {
+        "components": 259,
+        "control": 263,
+        "control_components": 176,
+        "model": "h3k27me3",
+        "positive": 263,
+        "role": "calibration"
+      },
+      {
+        "components": 244,
+        "control": 271,
+        "control_components": 160,
+        "model": "h3k27me3",
+        "positive": 271,
+        "role": "selection"
+      },
+      {
+        "components": 1809,
+        "control": 1754,
+        "control_components": 1157,
+        "model": "h3k27me3",
+        "positive": 1754,
+        "role": "test"
+      }
+    ],
+    "dual_orientation_cache_bytes": 28916674560,
+    "method_review_SMD_caveat": "All final diagnostic scopes independently checked for >=2 observations per class, finite five-feature arrays and finite pooled variance; undefined-SMD counterexample does not apply to these artifacts.",
+    "scaled_fit_only_GPU_hours": 5.713048878688652,
+    "selected_unique_intervals": 792681,
+    "unique_selected_encoded_sequences": 792672
+  },
+  "peak_RSS_KiB": 2982092,
+  "script_sha256": "fc6dfd330aca5bfc6127a9969435f9ae1c3346fc1a8ac117725739d6142735e7",
+  "status": "PASS",
+  "training_authorized": false,
+  "training_or_model_inference_run": false,
+  "wall_seconds": 53.508620738983154
+}

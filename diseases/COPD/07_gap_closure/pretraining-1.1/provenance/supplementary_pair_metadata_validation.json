@@ -1,0 +1,333 @@
+{
+  "check_count": 57,
+  "checks": [
+    {
+      "check": "V2-A:enhancer:unique_manifest_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:enhancer:all_historical_link_fields_empty",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:h3k27me3:unique_manifest_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-A:h3k27me3:all_historical_link_fields_empty",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:enhancer:unique_manifest_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:enhancer:unique_one_to_one_pair_endpoints",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:enhancer:complete_both_endpoints",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:enhancer:positive_id:correct_class",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:enhancer:positive_id:matched_positive_id:exact_ledger_strings",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:enhancer:positive_id:matched_control_id:exact_ledger_strings",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:enhancer:positive_id:matched_final_normalized_chebyshev_distance:exact_ledger_strings",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:enhancer:control_id:correct_class",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:enhancer:control_id:matched_positive_id:exact_ledger_strings",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:enhancer:control_id:matched_control_id:exact_ledger_strings",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:enhancer:control_id:matched_final_normalized_chebyshev_distance:exact_ledger_strings",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:enhancer:finite_distance_covariates",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:enhancer:distances_independently_recomputed",
+      "details": {
+        "maximum_absolute_error": 8.881784197001252e-16
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:h3k27me3:unique_manifest_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:h3k27me3:unique_one_to_one_pair_endpoints",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:h3k27me3:complete_both_endpoints",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:h3k27me3:positive_id:correct_class",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:h3k27me3:positive_id:matched_positive_id:exact_ledger_strings",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:h3k27me3:positive_id:matched_control_id:exact_ledger_strings",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:h3k27me3:positive_id:matched_final_normalized_chebyshev_distance:exact_ledger_strings",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:h3k27me3:control_id:correct_class",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:h3k27me3:control_id:matched_positive_id:exact_ledger_strings",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:h3k27me3:control_id:matched_control_id:exact_ledger_strings",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:h3k27me3:control_id:matched_final_normalized_chebyshev_distance:exact_ledger_strings",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:h3k27me3:finite_distance_covariates",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-B:h3k27me3:distances_independently_recomputed",
+      "details": {
+        "maximum_absolute_error": 4.440892098500626e-16
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:unique_manifest_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:unique_one_to_one_pair_endpoints",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:complete_both_endpoints",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:positive_id:correct_class",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:positive_id:matched_positive_id:exact_ledger_strings",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:positive_id:matched_control_id:exact_ledger_strings",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:positive_id:matched_final_normalized_chebyshev_distance:exact_ledger_strings",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:control_id:correct_class",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:control_id:matched_positive_id:exact_ledger_strings",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:control_id:matched_control_id:exact_ledger_strings",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:control_id:matched_final_normalized_chebyshev_distance:exact_ledger_strings",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:finite_distance_covariates",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:enhancer:distances_independently_recomputed",
+      "details": {
+        "maximum_absolute_error": 8.881784197001252e-16
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:unique_manifest_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:unique_one_to_one_pair_endpoints",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:complete_both_endpoints",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:positive_id:correct_class",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:positive_id:matched_positive_id:exact_ledger_strings",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:positive_id:matched_control_id:exact_ledger_strings",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:positive_id:matched_final_normalized_chebyshev_distance:exact_ledger_strings",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:control_id:correct_class",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:control_id:matched_positive_id:exact_ledger_strings",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:control_id:matched_control_id:exact_ledger_strings",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:control_id:matched_final_normalized_chebyshev_distance:exact_ledger_strings",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:finite_distance_covariates",
+      "status": "PASS"
+    },
+    {
+      "check": "V2-C:h3k27me3:distances_independently_recomputed",
+      "details": {
+        "maximum_absolute_error": 4.440892098500626e-16
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "all_complete_pairs_covered_once",
+      "status": "PASS"
+    }
+  ],
+  "completed_utc": "2026-10-06T13:43:29.585091+00:00",
+  "failures": 0,
+  "input_hashes": {
+    "diseases/COPD/07_gap_closure/pretraining-1.1/attempts/001_full_population/control_matching_pairs.tsv.gz": {
+      "bytes": 16305226,
+      "sha256": "e3e451aeeceec51a30bfa261f9cc22e26ef26ec0853ade5a40fa1812bbbd3f25"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-A_enhancer_interval_manifest.tsv.gz": {
+      "bytes": 60812778,
+      "sha256": "f6c1eaf2d4f25f2f95fdc553aa46210f01ce953808d1bd618303596a6d152298"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-A_h3k27me3_interval_manifest.tsv.gz": {
+      "bytes": 10541936,
+      "sha256": "d7341760f83173023004b9c558cb6dfd2314e19733f014d8970e09000c23ae2a"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-B_enhancer_interval_manifest.tsv.gz": {
+      "bytes": 55839908,
+      "sha256": "fa4e9eb1360b26b7129c507526999482322e16e6aaeffd3c7a108ae550fbe40b"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-B_h3k27me3_interval_manifest.tsv.gz": {
+      "bytes": 9573636,
+      "sha256": "04a062c730c3ad00b367c34d4829b898d55a1f42097785cd329edcc8262b14f5"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-C_enhancer_interval_manifest.tsv.gz": {
+      "bytes": 44914883,
+      "sha256": "5165080dbeba1a43decb57286c9ed44e820eaa73617f252cecda6ebe4321e72f"
+    },
+    "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-C_h3k27me3_interval_manifest.tsv.gz": {
+      "bytes": 6293534,
+      "sha256": "1d325e61ae5c41bfabe955c12e0b84f683a80472fb855dbac9a19fabd1cbc7ec"
+    }
+  },
+  "matching_rerun": false,
+  "model_or_benchmark_execution": false,
+  "populations": [
+    {
+      "configuration": "V2-A",
+      "historical_empty_link_rows": 544056,
+      "manifest_rows": 544056,
+      "matched_pairs": 0,
+      "model": "enhancer"
+    },
+    {
+      "configuration": "V2-A",
+      "historical_empty_link_rows": 91752,
+      "manifest_rows": 91752,
+      "matched_pairs": 0,
+      "model": "h3k27me3"
+    },
+    {
+      "both_endpoint_link_fields_verified": true,
+      "configuration": "V2-B",
+      "distance_maximum_absolute_error": 8.881784197001252e-16,
+      "manifest_rows": 362704,
+      "matched_pairs": 181352,
+      "model": "enhancer"
+    },
+    {
+      "both_endpoint_link_fields_verified": true,
+      "configuration": "V2-B",
+      "distance_maximum_absolute_error": 4.440892098500626e-16,
+      "manifest_rows": 61168,
+      "matched_pairs": 30584,
+      "model": "h3k27me3"
+    },
+    {
+      "both_endpoint_link_fields_verified": true,
+      "configuration": "V2-C",
+      "distance_maximum_absolute_error": 8.881784197001252e-16,
+      "manifest_rows": 290400,
+      "matched_pairs": 145200,
+      "model": "enhancer"
+    },
+    {
+      "both_endpoint_link_fields_verified": true,
+      "configuration": "V2-C",
+      "distance_maximum_absolute_error": 4.440892098500626e-16,
+      "manifest_rows": 39964,
+      "matched_pairs": 19982,
+      "model": "h3k27me3"
+    }
+  ],
+  "previous_packaging_validation_modified": false,
+  "scope": "Complete rich-manifest pair-link strings and independently recomputed Chebyshev distances; historical A rows have no invented pair links.",
+  "script_sha256": "74fcc945ac8c0462b872835d475ec3f34413e43fd4595e36a1f33210f81f7418",
+  "status": "PASS",
+  "training_authorized": false,
+  "wall_seconds": 9.64996862411499
+}

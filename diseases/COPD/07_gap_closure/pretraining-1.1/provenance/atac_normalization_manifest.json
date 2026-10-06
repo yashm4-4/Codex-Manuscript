@@ -1,0 +1,273 @@
+{
+  "all_pretraining_1_0_inputs_read_only": true,
+  "anchored_interval_partition_counts": {
+    "test": 63054,
+    "train": 624209,
+    "validation": 37842
+  },
+  "apply_rule": "Frozen per-source mid-distribution empirical CDF: (count(training signal < x) + 0.5 * count(training signal = x)) / n_training",
+  "benchmark_outcomes_inspected": false,
+  "cdf_denominators": [
+    {
+      "above_training_range_rows": 0,
+      "application_partition": "train",
+      "application_peak_rows": 189831,
+      "below_training_range_rows": 0,
+      "file_accession": "ENCFF189LZA",
+      "fit_test_peak_rows": 0,
+      "fit_training_peak_rows": 189831,
+      "fit_validation_peak_rows": 0,
+      "lobe": "lower_right",
+      "mapped_maximum": "0.99999736607824852",
+      "mapped_minimum": "2.6339217514526079e-06",
+      "training_signal_maximum": "35.914459999999998",
+      "training_signal_minimum": "1.2865"
+    },
+    {
+      "above_training_range_rows": 0,
+      "application_partition": "validation",
+      "application_peak_rows": 11619,
+      "below_training_range_rows": 0,
+      "file_accession": "ENCFF189LZA",
+      "fit_test_peak_rows": 0,
+      "fit_training_peak_rows": 189831,
+      "fit_validation_peak_rows": 0,
+      "lobe": "lower_right",
+      "mapped_maximum": "0.99996312509547969",
+      "mapped_minimum": "2.1071374011620864e-05",
+      "training_signal_maximum": "35.914459999999998",
+      "training_signal_minimum": "1.2865"
+    },
+    {
+      "above_training_range_rows": 0,
+      "application_partition": "test",
+      "application_peak_rows": 19191,
+      "below_training_range_rows": 0,
+      "file_accession": "ENCFF189LZA",
+      "fit_test_peak_rows": 0,
+      "fit_training_peak_rows": 189831,
+      "fit_validation_peak_rows": 0,
+      "lobe": "lower_right",
+      "mapped_maximum": "0.99996312509547969",
+      "mapped_minimum": "0.0001000890265551991",
+      "training_signal_maximum": "35.914459999999998",
+      "training_signal_minimum": "1.2865"
+    },
+    {
+      "above_training_range_rows": 0,
+      "application_partition": "train",
+      "application_peak_rows": 239613,
+      "below_training_range_rows": 0,
+      "file_accession": "ENCFF899TQV",
+      "fit_test_peak_rows": 0,
+      "fit_training_peak_rows": 239613,
+      "fit_validation_peak_rows": 0,
+      "lobe": "lower_left",
+      "mapped_maximum": "0.99999791330186594",
+      "mapped_minimum": "2.0866981340745284e-06",
+      "training_signal_maximum": "39.328420000000001",
+      "training_signal_minimum": "1.3322700000000001"
+    },
+    {
+      "above_training_range_rows": 0,
+      "application_partition": "validation",
+      "application_peak_rows": 14210,
+      "below_training_range_rows": 0,
+      "file_accession": "ENCFF899TQV",
+      "fit_test_peak_rows": 0,
+      "fit_training_peak_rows": 239613,
+      "fit_validation_peak_rows": 0,
+      "lobe": "lower_left",
+      "mapped_maximum": "0.99988731830075994",
+      "mapped_minimum": "8.3467925362981136e-06",
+      "training_signal_maximum": "39.328420000000001",
+      "training_signal_minimum": "1.3322700000000001"
+    },
+    {
+      "above_training_range_rows": 2,
+      "application_partition": "test",
+      "application_peak_rows": 24267,
+      "below_training_range_rows": 0,
+      "file_accession": "ENCFF899TQV",
+      "fit_test_peak_rows": 0,
+      "fit_training_peak_rows": 239613,
+      "fit_validation_peak_rows": 0,
+      "lobe": "lower_left",
+      "mapped_maximum": "1",
+      "mapped_minimum": "1.2520188804447171e-05",
+      "training_signal_maximum": "39.328420000000001",
+      "training_signal_minimum": "1.3322700000000001"
+    },
+    {
+      "above_training_range_rows": 0,
+      "application_partition": "train",
+      "application_peak_rows": 212067,
+      "below_training_range_rows": 0,
+      "file_accession": "ENCFF906HOT",
+      "fit_test_peak_rows": 0,
+      "fit_training_peak_rows": 212067,
+      "fit_validation_peak_rows": 0,
+      "lobe": "upper_right",
+      "mapped_maximum": "0.99999764225457044",
+      "mapped_minimum": "2.357745429510485e-06",
+      "training_signal_maximum": "37.237050000000004",
+      "training_signal_minimum": "1.2682199999999999"
+    },
+    {
+      "above_training_range_rows": 0,
+      "application_partition": "validation",
+      "application_peak_rows": 12983,
+      "below_training_range_rows": 0,
+      "file_accession": "ENCFF906HOT",
+      "fit_test_peak_rows": 0,
+      "fit_training_peak_rows": 212067,
+      "fit_validation_peak_rows": 0,
+      "lobe": "upper_right",
+      "mapped_maximum": "0.99994341410969179",
+      "mapped_minimum": "2.3577454295104849e-05",
+      "training_signal_maximum": "37.237050000000004",
+      "training_signal_minimum": "1.2682199999999999"
+    },
+    {
+      "above_training_range_rows": 2,
+      "application_partition": "test",
+      "application_peak_rows": 21264,
+      "below_training_range_rows": 0,
+      "file_accession": "ENCFF906HOT",
+      "fit_test_peak_rows": 0,
+      "fit_training_peak_rows": 212067,
+      "fit_validation_peak_rows": 0,
+      "lobe": "upper_right",
+      "mapped_maximum": "1",
+      "mapped_minimum": "4.2439417731188729e-05",
+      "training_signal_maximum": "37.237050000000004",
+      "training_signal_minimum": "1.2682199999999999"
+    }
+  ],
+  "completed_utc": "2026-10-06T13:12:37.362100+00:00",
+  "gpu_work_run": false,
+  "inputs": [
+    {
+      "bytes": 2562,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/specification/atac_normalization.json",
+      "sha256": "e4b55a3d1effd9df9e6188db248ebbbfddcceeeb16719be3cfff60d5e494af55"
+    },
+    {
+      "bytes": 2617,
+      "path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_source_inventory.tsv",
+      "sha256": "7664318cf3a0df4b9d2d59706c5b564224edbc2242bf1155e30dee6b030c0d6c"
+    },
+    {
+      "bytes": 23001603,
+      "path": "diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/ATAC_peak_evidence.tsv.gz",
+      "sha256": "fb8c71e4cbd0bb1e16e4080a62b18ea58533b4da56a55373da7ad6fbbd8dfb92"
+    },
+    {
+      "bytes": 125556971,
+      "path": "diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/interval_features.tsv.gz",
+      "sha256": "dbf146d974802d7912b91c193e2b815882caac1d6f71ba4a4345817937260625"
+    },
+    {
+      "bytes": 13896,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/scripts/normalize_atac.py",
+      "sha256": "419585d31a0e15b99fb258f99dd80e55c9844247b3e9203818f9bd65851d6b96"
+    },
+    {
+      "bytes": 5548138,
+      "path": "diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF189LZA.bed.gz",
+      "sha256": "896207d32911a0d39ce278fcfa9c3dc7e93cd98381962b08200f129215c17e13"
+    },
+    {
+      "bytes": 7395410,
+      "path": "diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF899TQV.bed.gz",
+      "sha256": "e15138199a6ccc62a6160b0aa24292b6d1af47b87721977bbcf03ca6dd135cad"
+    },
+    {
+      "bytes": 6360864,
+      "path": "diseases/COPD/03_regulatory_landscape/data/encode_peaks/ENCFF906HOT.bed.gz",
+      "sha256": "d218b0cc0ab907957db4454683b5cf3546024a74efdf9b1b4965cfe724bd43d7"
+    }
+  ],
+  "interval_partition_counts": {
+    "test": 103307,
+    "train": 978795,
+    "validation": 61268
+  },
+  "interval_rows": 1143370,
+  "join_key": "interval_id",
+  "max_over_sources_applied_after_source_mapping": true,
+  "missing_values": "empty string only for unanchored intervals",
+  "model_inference_run": false,
+  "numpy_version": "1.24.4",
+  "original_atac_peak_rows_reconciled": 745045,
+  "output_schema": [
+    "interval_id",
+    "chrom",
+    "partition",
+    "atac_anchor_count",
+    "atac_peak_ids",
+    "atac_peak_file_ids",
+    "atac_peak_signal_values",
+    "atac_peak_train_percentiles",
+    "atac_signal_percentile_max_train_only"
+  ],
+  "outputs": [
+    {
+      "bytes": 6311083,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/atac_training_cdf.tsv.gz",
+      "sha256": "2c2b9978c4442d23a30376053e72fb6a509df1ce18ed7ce14672d5090d2f99b6"
+    },
+    {
+      "bytes": 25512739,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/atac_normalized_features.tsv.gz",
+      "sha256": "23dbc6012152c922ca4259ba23049e72afb840bff82e6e52ece3356dcc7df592"
+    },
+    {
+      "bytes": 1387,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/results/atac_normalization_denominators.tsv",
+      "sha256": "c29da344aa444506abda768a90a1d068342cfb49428bdf60ed99272f5bfdf90c"
+    },
+    {
+      "bytes": 1887,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/results/atac_normalization_qc.tsv",
+      "sha256": "d48bc2af928f7253506cea2f92a32f286c18a315cb2f4e85643087acdb421826"
+    }
+  ],
+  "peak_rss_kib": 621880,
+  "qc_fail": 0,
+  "qc_pass": 23,
+  "specification_frozen_before_run_sha256": "e4b55a3d1effd9df9e6188db248ebbbfddcceeeb16719be3cfff60d5e494af55",
+  "test_chromosomes": [
+    "chr8",
+    "chr9"
+  ],
+  "training_chromosomes": [
+    "chr1",
+    "chr10",
+    "chr11",
+    "chr12",
+    "chr13",
+    "chr14",
+    "chr15",
+    "chr16",
+    "chr17",
+    "chr18",
+    "chr19",
+    "chr2",
+    "chr20",
+    "chr21",
+    "chr22",
+    "chr3",
+    "chr4",
+    "chr5",
+    "chr6",
+    "chrX",
+    "chrY"
+  ],
+  "training_only_fit": true,
+  "validation_chromosomes": [
+    "chr7"
+  ],
+  "version": "pretraining-1.1",
+  "wall_seconds": 41.66741132736206
+}

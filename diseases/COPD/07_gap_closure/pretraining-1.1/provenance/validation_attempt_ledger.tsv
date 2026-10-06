@@ -1,0 +1,5 @@
+attempt	artifact_checks	artifact_failures	readiness_blockers	status	reason	manifest	scientific_artifacts_modified
+initial_independent_audit	1071	2	1	PRESERVED_VALIDATOR_FAILURES	Absent-versus-false specification comparison and one parser-induced artificial exact tie; preserve outputs and exact validator source.	provenance/validation_final_manifest.json	no
+corrected_independent_audit	1154	0	0	PASS	Independently verify the explicit external-recalibration prohibition; independently reconstruct raw source ECDFs then replay constructor-identical decoded numeric inputs; strict global ties unchanged; complete audit repeated.	provenance/validation_corrected_final_manifest.json	no
+independent_packaging_audit	625	0	0	PASS	Six rich manifests,36BEDs,18seedruns,counts,distances,duplicates,compute and finite-input prerequisites reconcile.	provenance/final_packaging_validation.json	no
+supplementary_pair_metadata_audit	57	0	0	PASS	All377118pairs and754236endpointmetadata rows reconcile; all635808historicalArows have empty pair fields.	provenance/supplementary_pair_metadata_validation.json	no

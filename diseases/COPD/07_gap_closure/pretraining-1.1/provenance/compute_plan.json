@@ -1,0 +1,45 @@
+{
+  "CPU_preflight_reproduction_request": {
+    "CPUs": 8,
+    "RAM_GiB": 24,
+    "walltime_hours": 1
+  },
+  "actual_CPU_ATAC_normalization_seconds": 41.66741132736206,
+  "actual_CPU_assembly_peak_RSS_KiB": 3408024,
+  "actual_CPU_assembly_seconds": 98.96956467628479,
+  "actual_CPU_matching_attempt001_seconds": 100.75582814216614,
+  "cache_release_rule": "Construct/cache train and chr7 only after separate authorization; defer chr8-9 model execution until final retained-model freeze. No representation has been extracted in this preflight.",
+  "conservative_total_GPU_hours": [
+    12,
+    24
+  ],
+  "cost_uncertainty": "Count scaling is not a measured V2 fit; frozen phase-I two-orientation cache extraction, symmetric validation, I/O and implementation overhead remain unmeasured and are covered by a conservative unchanged planning range, not a guarantee.",
+  "estimated_execution_walltime_hours_excluding_queue": [
+    4,
+    8
+  ],
+  "future_feature_cache_GiB": 26.93075180053711,
+  "future_feature_cache_bytes_for_all_unique_selected_sequences_both_orientations": 28916674560,
+  "future_per_fit_CPUs": 8,
+  "future_per_fit_RAM_GiB": 48,
+  "future_two_orientation_float32_cache_bytes_per_encoded_sequence": 36480,
+  "local_scratch_budget_GiB": 120,
+  "max_concurrent_fits": 4,
+  "model_inference_performed": false,
+  "n_fits": 18,
+  "one_A100_per_fit": true,
+  "readiness": "AWAITING_INDEPENDENT_FINAL_VALIDATION_AND_INVESTIGATOR_REVIEW",
+  "scaled_fit_only_GPU_hours": 5.713048878688652,
+  "scaling_method": "historical fit seconds * current training interval count / historical training interval count; enhancer 2659 s / 464262 intervals, H3K27me3-associated 454 s / 78165 intervals",
+  "selected_unique_intervals": 792681,
+  "sum_requested_walltime_caps_GPU_hours": 72,
+  "training_authorized": false,
+  "training_seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "training_started": false,
+  "unique_selected_encoded_sequences": 792672,
+  "version": "pretraining-1.1"
+}
