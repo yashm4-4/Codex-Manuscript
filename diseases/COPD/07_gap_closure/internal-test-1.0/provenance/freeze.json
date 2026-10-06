@@ -1,0 +1,45 @@
+{
+  "artifact_checksums": {
+    "bytes": 20446,
+    "path": "provenance/artifact_checksums.tsv",
+    "sha256": "c354375030411b346145709da0ec6ef1512ca981648813789e38675750a7f1f2"
+  },
+  "both_C_contexts_pass": true,
+  "candidate_scoring_performed": false,
+  "checksum_scope": "All regular stage payloads except __pycache__ and the checksum ledger/freeze self-references; original checkpoints are external immutable sources, not copied into this stage.",
+  "commit_or_push_performed": false,
+  "created_utc": "2026-10-06T19:21:38.714044+00:00",
+  "external_benchmark_opened": false,
+  "git_HEAD_unchanged": "07d72dad0f57d605f5f50bbc7fa6d2c7843a94ba",
+  "independent_final_validation": {
+    "bytes": 3044,
+    "path": "provenance/final_validation.json",
+    "sha256": "8b788b303af81948e14be00472efb7bb4dee0b4e6031c087ddcc0e89c0b31727"
+  },
+  "model_contexts": {
+    "enhancer": {
+      "failed_or_inconclusive_gates": [],
+      "status": "PASS"
+    },
+    "h3k27me3": {
+      "failed_or_inconclusive_gates": [],
+      "status": "PASS"
+    }
+  },
+  "n_payloads": 172,
+  "next_action": "STOP_FOR_INVESTIGATOR_REVIEW_NO_EXTERNAL_OR_CANDIDATE_ACCESS",
+  "no_further_analysis_authorized": true,
+  "prospective_specification_freeze": {
+    "bytes": 5934,
+    "path": "provenance/prospective_specification_freeze.json",
+    "sha256": "ce597fd8bcc59c05690df0b8ae19cefbcc5174a30df91f0d2a7964cb3b1b4642"
+  },
+  "report": {
+    "bytes": 46429,
+    "path": "INTERNAL_TEST_REPORT.md",
+    "sha256": "cb48a6bac33d4bfb13944ab30ebc87600db80a608dd4589a499dd5bf9cce7380"
+  },
+  "status": "FROZEN_INTERNAL_HOLDOUT_COMPLETE",
+  "total_payload_bytes": 1093208401,
+  "version": "internal-test-1.0"
+}

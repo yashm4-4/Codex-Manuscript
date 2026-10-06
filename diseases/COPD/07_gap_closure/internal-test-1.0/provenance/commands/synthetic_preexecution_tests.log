@@ -1,0 +1,53 @@
+test_bootstrap_attempt_limit_no_imputation (test_test_evaluation.FrozenArithmeticTests.test_bootstrap_attempt_limit_no_imputation) ... ok
+test_bootstrap_exactly_reuses_inherited_ensemble_stream (test_test_evaluation.FrozenArithmeticTests.test_bootstrap_exactly_reuses_inherited_ensemble_stream) ... ok
+test_bootstrap_invalid_draw_safeguard (test_test_evaluation.FrozenArithmeticTests.test_bootstrap_invalid_draw_safeguard) ... ok
+test_component_multiplicity_is_row_weight_not_matching_pair (test_test_evaluation.FrozenArithmeticTests.test_component_multiplicity_is_row_weight_not_matching_pair) ... ok
+test_ensemble_uses_all_seeds_float64 (test_test_evaluation.FrozenArithmeticTests.test_ensemble_uses_all_seeds_float64) ... ok
+test_reliability_boundaries_keep_empty_bins (test_test_evaluation.FrozenArithmeticTests.test_reliability_boundaries_keep_empty_bins) ... ok
+test_weighted_tied_metrics_independent_sklearn_reference (test_test_evaluation.FrozenArithmeticTests.test_weighted_tied_metrics_independent_sklearn_reference) ... ok
+test_exact_panel_counts_components (test_test_evaluation.GateAndPanelTests.test_exact_panel_counts_components) ... ok
+test_invalid_fraction_equality_is_inconclusive (test_test_evaluation.GateAndPanelTests.test_invalid_fraction_equality_is_inconclusive) ... ok
+test_panel_rejects_chromosome_role_sequence_and_duplicates (test_test_evaluation.GateAndPanelTests.test_panel_rejects_chromosome_role_sequence_and_duplicates) ... ok
+test_positive_gates_do_not_require_C_superiority_or_low_test_FPR (test_test_evaluation.GateAndPanelTests.test_positive_gates_do_not_require_C_superiority_or_low_test_FPR) ... ok
+test_prediction_exactness_and_extra_row_firewall (test_test_evaluation.GateAndPanelTests.test_prediction_exactness_and_extra_row_firewall) ... ok
+test_stratification_uses_frozen_right_boundary (test_test_evaluation.GateAndPanelTests.test_stratification_uses_frozen_right_boundary) ... ok
+test_strict_C_gate_boundaries_and_seed_sample_SD (test_test_evaluation.GateAndPanelTests.test_strict_C_gate_boundaries_and_seed_sample_SD) ... ok
+test_exact_frozen_threshold_encodings (test_test_evaluation.ThresholdTests.test_exact_frozen_threshold_encodings) ... ok
+test_ties_use_greater_equal_and_no_recalibration (test_test_evaluation.ThresholdTests.test_ties_use_greater_equal_and_no_recalibration) ... ok
+test_undefined_operating_ratio_does_not_change_draw_stream (test_test_evaluation.ThresholdTests.test_undefined_operating_ratio_does_not_change_draw_stream) ... ok
+test_undefined_ratios_explicit_none (test_test_evaluation.ThresholdTests.test_undefined_ratios_explicit_none) ... ok
+test_weighted_operating_counts_match_expansion (test_test_evaluation.ThresholdTests.test_weighted_operating_counts_match_expansion) ... ok
+test_freeze_chain_substitution_rejected_even_at_same_size (test_test_inputs.FastaAndGateTests.test_freeze_chain_substitution_rejected_even_at_same_size) ... ok
+test_preinference_attestation_required_even_if_hash_chain_valid (test_test_inputs.FastaAndGateTests.test_preinference_attestation_required_even_if_hash_chain_valid) ... ok
+test_prospective_hash_and_independent_gate_required (test_test_inputs.FastaAndGateTests.test_prospective_hash_and_independent_gate_required) ... ok
+test_reader_exact_panel_allowlist_and_bounds (test_test_inputs.FastaAndGateTests.test_reader_exact_panel_allowlist_and_bounds) ... ok
+test_reader_rejects_broad_or_non_test_allowlist (test_test_inputs.FastaAndGateTests.test_reader_rejects_broad_or_non_test_allowlist) ... ok
+test_test_only_reader_keeps_inconsistent_rows_for_rejection (test_test_inputs.FastaAndGateTests.test_test_only_reader_keeps_inconsistent_rows_for_rejection) ... ok
+test_any_frozen_metadata_change_rejected (test_test_inputs.FrozenPanelTests.test_any_frozen_metadata_change_rejected) ... ok
+test_cross_model_component_conflict_is_hard_stop (test_test_inputs.FrozenPanelTests.test_cross_model_component_conflict_is_hard_stop) ... ok
+test_cross_model_shared_interval_reuses_one_cache_row (test_test_inputs.FrozenPanelTests.test_cross_model_shared_interval_reuses_one_cache_row) ... ok
+test_deterministic_gzip_has_no_filename_or_timestamp (test_test_inputs.FrozenPanelTests.test_deterministic_gzip_has_no_filename_or_timestamp) ... ok
+test_digest_preserves_row_order_and_string_encodings (test_test_inputs.FrozenPanelTests.test_digest_preserves_row_order_and_string_encodings) ... ok
+test_duplicate_membership_rejected (test_test_inputs.FrozenPanelTests.test_duplicate_membership_rejected) ... ok
+test_invalid_source_eligibility_rejected_even_if_shared (test_test_inputs.FrozenPanelTests.test_invalid_source_eligibility_rejected_even_if_shared) ... ok
+test_missing_rows_rejected (test_test_inputs.FrozenPanelTests.test_missing_rows_rejected) ... ok
+test_panel_exact_metadata_passes (test_test_inputs.FrozenPanelTests.test_panel_exact_metadata_passes) ... ok
+test_table_roundtrip_preserves_frozen_strings_and_empty_fields (test_test_inputs.FrozenPanelTests.test_table_roundtrip_preserves_frozen_strings_and_empty_fields) ... ok
+test_wrong_component_count_rejected (test_test_inputs.FrozenPanelTests.test_wrong_component_count_rejected) ... ok
+test_ambiguous_symbols_normalize_before_canonicalization (test_test_inputs.GeometryAndSequenceTests.test_ambiguous_symbols_normalize_before_canonicalization) ... ok
+test_exact_2001_geometry_passes (test_test_inputs.GeometryAndSequenceTests.test_exact_2001_geometry_passes) ... ok
+test_forward_orientation (test_test_inputs.GeometryAndSequenceTests.test_forward_orientation) ... ok
+test_reject_malformed_hash (test_test_inputs.GeometryAndSequenceTests.test_reject_malformed_hash) ... ok
+test_reject_non_test_chromosome (test_test_inputs.GeometryAndSequenceTests.test_reject_non_test_chromosome) ... ok
+test_reject_unavailable_sequence (test_test_inputs.GeometryAndSequenceTests.test_reject_unavailable_sequence) ... ok
+test_reject_wrong_canonical_hash (test_test_inputs.GeometryAndSequenceTests.test_reject_wrong_canonical_hash) ... ok
+test_reject_wrong_gc_or_non_acgt (test_test_inputs.GeometryAndSequenceTests.test_reject_wrong_gc_or_non_acgt) ... ok
+test_reject_wrong_geometry (test_test_inputs.GeometryAndSequenceTests.test_reject_wrong_geometry) ... ok
+test_reject_wrong_partition_or_role (test_test_inputs.GeometryAndSequenceTests.test_reject_wrong_partition_or_role) ... ok
+test_reject_wrong_raw_sequence_hash (test_test_inputs.GeometryAndSequenceTests.test_reject_wrong_raw_sequence_hash) ... ok
+test_reverse_orientation (test_test_inputs.GeometryAndSequenceTests.test_reverse_orientation) ... ok
+
+----------------------------------------------------------------------
+Ran 48 tests in 0.150s
+
+OK

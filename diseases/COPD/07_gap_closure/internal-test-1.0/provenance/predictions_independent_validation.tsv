@@ -1,0 +1,466 @@
+check	status	detail
+prospective_status_and_order_attestation	PASS	
+authorized_hash_path	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/specification/test_specification.json
+file_hash_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/specification/test_specification.json
+file_size_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/specification/test_specification.json
+authorized_hash_path	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/TEST_SPECIFICATION.md
+file_hash_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/TEST_SPECIFICATION.md
+file_size_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/TEST_SPECIFICATION.md
+authorized_hash_path	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/provenance/user_authorization.txt
+file_hash_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/provenance/user_authorization.txt
+file_size_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/provenance/user_authorization.txt
+independent_initial_source_integrity_PASS	PASS	
+authorized_hash_path	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/provenance/prospective_specification_freeze.json
+file_hash_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/provenance/prospective_specification_freeze.json
+file_size_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/provenance/prospective_specification_freeze.json
+actual_network_RC_gate_PASS	PASS	
+authorized_hash_path	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/predictions/enhancer_chr8_9.tsv.gz
+file_hash_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/predictions/enhancer_chr8_9.tsv.gz
+file_size_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/predictions/enhancer_chr8_9.tsv.gz
+authorized_hash_path	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/predictions/enhancer_independent_rc_pass.tsv.gz
+file_hash_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/predictions/enhancer_independent_rc_pass.tsv.gz
+file_size_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/predictions/enhancer_independent_rc_pass.tsv.gz
+authorized_hash_path	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/predictions/h3k27me3_chr8_9.tsv.gz
+file_hash_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/predictions/h3k27me3_chr8_9.tsv.gz
+file_size_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/predictions/h3k27me3_chr8_9.tsv.gz
+authorized_hash_path	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/predictions/h3k27me3_independent_rc_pass.tsv.gz
+file_hash_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/predictions/h3k27me3_independent_rc_pass.tsv.gz
+file_size_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/predictions/h3k27me3_independent_rc_pass.tsv.gz
+exact_24_RC_units	PASS	
+RC_audit_unique_unit	PASS	
+RC_full_sequence_count_and_tolerance	PASS	
+RC_audit_unique_unit	PASS	
+RC_full_sequence_count_and_tolerance	PASS	
+RC_audit_unique_unit	PASS	
+RC_full_sequence_count_and_tolerance	PASS	
+RC_audit_unique_unit	PASS	
+RC_full_sequence_count_and_tolerance	PASS	
+RC_audit_unique_unit	PASS	
+RC_full_sequence_count_and_tolerance	PASS	
+RC_audit_unique_unit	PASS	
+RC_full_sequence_count_and_tolerance	PASS	
+RC_audit_unique_unit	PASS	
+RC_full_sequence_count_and_tolerance	PASS	
+RC_audit_unique_unit	PASS	
+RC_full_sequence_count_and_tolerance	PASS	
+RC_audit_unique_unit	PASS	
+RC_full_sequence_count_and_tolerance	PASS	
+RC_audit_unique_unit	PASS	
+RC_full_sequence_count_and_tolerance	PASS	
+RC_audit_unique_unit	PASS	
+RC_full_sequence_count_and_tolerance	PASS	
+RC_audit_unique_unit	PASS	
+RC_full_sequence_count_and_tolerance	PASS	
+RC_audit_unique_unit	PASS	
+RC_full_sequence_count_and_tolerance	PASS	
+RC_audit_unique_unit	PASS	
+RC_full_sequence_count_and_tolerance	PASS	
+RC_audit_unique_unit	PASS	
+RC_full_sequence_count_and_tolerance	PASS	
+RC_audit_unique_unit	PASS	
+RC_full_sequence_count_and_tolerance	PASS	
+RC_audit_unique_unit	PASS	
+RC_full_sequence_count_and_tolerance	PASS	
+RC_audit_unique_unit	PASS	
+RC_full_sequence_count_and_tolerance	PASS	
+RC_audit_unique_unit	PASS	
+RC_full_sequence_count_and_tolerance	PASS	
+RC_audit_unique_unit	PASS	
+RC_full_sequence_count_and_tolerance	PASS	
+RC_audit_unique_unit	PASS	
+RC_full_sequence_count_and_tolerance	PASS	
+RC_audit_unique_unit	PASS	
+RC_full_sequence_count_and_tolerance	PASS	
+RC_audit_unique_unit	PASS	
+RC_full_sequence_count_and_tolerance	PASS	
+RC_audit_unique_unit	PASS	
+RC_full_sequence_count_and_tolerance	PASS	
+all_prescribed_RC_units	PASS	
+enhancer:exact_prediction_order_and_membership	PASS	
+enhancer:repeated_prediction_order	PASS	
+finite_range:V2-A_p_forward_104729	PASS	
+finite_range:V2-A_p_rc_104729	PASS	
+finite_range:V2-A_q_104729	PASS	
+exact_symmetric_float64	PASS	enhancer:V2-A:104729
+finite_range:V2-A_rc_input_first_104729	PASS	
+finite_range:V2-A_rc_input_second_104729	PASS	
+finite_range:V2-A_q_rc_input_104729	PASS	
+exact_repeated_symmetric_float64	PASS	
+seed_numeric_RC_tolerance	PASS	enhancer:V2-A:104729
+RC_audit_array_digest	PASS	enhancer:V2-A:104729:original_forward
+RC_audit_array_digest	PASS	enhancer:V2-A:104729:original_rc
+RC_audit_array_digest	PASS	enhancer:V2-A:104729:reverse_pass_first
+RC_audit_array_digest	PASS	enhancer:V2-A:104729:reverse_pass_second
+RC_audit_array_digest	PASS	enhancer:V2-A:104729:original_wrapper
+RC_audit_array_digest	PASS	enhancer:V2-A:104729:reverse_wrapper
+RC_recorded_max_residual	PASS	observed=0.0; independent=np.float64(0.0); atol=0
+finite_range:V2-A_p_forward_130363	PASS	
+finite_range:V2-A_p_rc_130363	PASS	
+finite_range:V2-A_q_130363	PASS	
+exact_symmetric_float64	PASS	enhancer:V2-A:130363
+finite_range:V2-A_rc_input_first_130363	PASS	
+finite_range:V2-A_rc_input_second_130363	PASS	
+finite_range:V2-A_q_rc_input_130363	PASS	
+exact_repeated_symmetric_float64	PASS	
+seed_numeric_RC_tolerance	PASS	enhancer:V2-A:130363
+RC_audit_array_digest	PASS	enhancer:V2-A:130363:original_forward
+RC_audit_array_digest	PASS	enhancer:V2-A:130363:original_rc
+RC_audit_array_digest	PASS	enhancer:V2-A:130363:reverse_pass_first
+RC_audit_array_digest	PASS	enhancer:V2-A:130363:reverse_pass_second
+RC_audit_array_digest	PASS	enhancer:V2-A:130363:original_wrapper
+RC_audit_array_digest	PASS	enhancer:V2-A:130363:reverse_wrapper
+RC_recorded_max_residual	PASS	observed=0.0; independent=np.float64(0.0); atol=0
+finite_range:V2-A_p_forward_155921	PASS	
+finite_range:V2-A_p_rc_155921	PASS	
+finite_range:V2-A_q_155921	PASS	
+exact_symmetric_float64	PASS	enhancer:V2-A:155921
+finite_range:V2-A_rc_input_first_155921	PASS	
+finite_range:V2-A_rc_input_second_155921	PASS	
+finite_range:V2-A_q_rc_input_155921	PASS	
+exact_repeated_symmetric_float64	PASS	
+seed_numeric_RC_tolerance	PASS	enhancer:V2-A:155921
+RC_audit_array_digest	PASS	enhancer:V2-A:155921:original_forward
+RC_audit_array_digest	PASS	enhancer:V2-A:155921:original_rc
+RC_audit_array_digest	PASS	enhancer:V2-A:155921:reverse_pass_first
+RC_audit_array_digest	PASS	enhancer:V2-A:155921:reverse_pass_second
+RC_audit_array_digest	PASS	enhancer:V2-A:155921:original_wrapper
+RC_audit_array_digest	PASS	enhancer:V2-A:155921:reverse_wrapper
+RC_recorded_max_residual	PASS	observed=0.0; independent=np.float64(0.0); atol=0
+finite_range:V2-A_ensemble_q	PASS	
+equal_fixed_three_seed_float64_ensemble	PASS	enhancer:V2-A
+finite_range:V2-A_ensemble_q_rc_input	PASS	
+exact_repeated_ensemble	PASS	
+ensemble_numeric_RC_tolerance	PASS	
+ensemble_RC_array_digests	PASS	
+ensemble_RC_recorded_max_residual	PASS	observed=0.0; independent=np.float64(0.0); atol=0
+finite_range:V2-B_p_forward_104729	PASS	
+finite_range:V2-B_p_rc_104729	PASS	
+finite_range:V2-B_q_104729	PASS	
+exact_symmetric_float64	PASS	enhancer:V2-B:104729
+finite_range:V2-B_rc_input_first_104729	PASS	
+finite_range:V2-B_rc_input_second_104729	PASS	
+finite_range:V2-B_q_rc_input_104729	PASS	
+exact_repeated_symmetric_float64	PASS	
+seed_numeric_RC_tolerance	PASS	enhancer:V2-B:104729
+RC_audit_array_digest	PASS	enhancer:V2-B:104729:original_forward
+RC_audit_array_digest	PASS	enhancer:V2-B:104729:original_rc
+RC_audit_array_digest	PASS	enhancer:V2-B:104729:reverse_pass_first
+RC_audit_array_digest	PASS	enhancer:V2-B:104729:reverse_pass_second
+RC_audit_array_digest	PASS	enhancer:V2-B:104729:original_wrapper
+RC_audit_array_digest	PASS	enhancer:V2-B:104729:reverse_wrapper
+RC_recorded_max_residual	PASS	observed=0.0; independent=np.float64(0.0); atol=0
+finite_range:V2-B_p_forward_130363	PASS	
+finite_range:V2-B_p_rc_130363	PASS	
+finite_range:V2-B_q_130363	PASS	
+exact_symmetric_float64	PASS	enhancer:V2-B:130363
+finite_range:V2-B_rc_input_first_130363	PASS	
+finite_range:V2-B_rc_input_second_130363	PASS	
+finite_range:V2-B_q_rc_input_130363	PASS	
+exact_repeated_symmetric_float64	PASS	
+seed_numeric_RC_tolerance	PASS	enhancer:V2-B:130363
+RC_audit_array_digest	PASS	enhancer:V2-B:130363:original_forward
+RC_audit_array_digest	PASS	enhancer:V2-B:130363:original_rc
+RC_audit_array_digest	PASS	enhancer:V2-B:130363:reverse_pass_first
+RC_audit_array_digest	PASS	enhancer:V2-B:130363:reverse_pass_second
+RC_audit_array_digest	PASS	enhancer:V2-B:130363:original_wrapper
+RC_audit_array_digest	PASS	enhancer:V2-B:130363:reverse_wrapper
+RC_recorded_max_residual	PASS	observed=0.0; independent=np.float64(0.0); atol=0
+finite_range:V2-B_p_forward_155921	PASS	
+finite_range:V2-B_p_rc_155921	PASS	
+finite_range:V2-B_q_155921	PASS	
+exact_symmetric_float64	PASS	enhancer:V2-B:155921
+finite_range:V2-B_rc_input_first_155921	PASS	
+finite_range:V2-B_rc_input_second_155921	PASS	
+finite_range:V2-B_q_rc_input_155921	PASS	
+exact_repeated_symmetric_float64	PASS	
+seed_numeric_RC_tolerance	PASS	enhancer:V2-B:155921
+RC_audit_array_digest	PASS	enhancer:V2-B:155921:original_forward
+RC_audit_array_digest	PASS	enhancer:V2-B:155921:original_rc
+RC_audit_array_digest	PASS	enhancer:V2-B:155921:reverse_pass_first
+RC_audit_array_digest	PASS	enhancer:V2-B:155921:reverse_pass_second
+RC_audit_array_digest	PASS	enhancer:V2-B:155921:original_wrapper
+RC_audit_array_digest	PASS	enhancer:V2-B:155921:reverse_wrapper
+RC_recorded_max_residual	PASS	observed=0.0; independent=np.float64(0.0); atol=0
+finite_range:V2-B_ensemble_q	PASS	
+equal_fixed_three_seed_float64_ensemble	PASS	enhancer:V2-B
+finite_range:V2-B_ensemble_q_rc_input	PASS	
+exact_repeated_ensemble	PASS	
+ensemble_numeric_RC_tolerance	PASS	
+ensemble_RC_array_digests	PASS	
+ensemble_RC_recorded_max_residual	PASS	observed=0.0; independent=np.float64(0.0); atol=0
+finite_range:V2-C_p_forward_104729	PASS	
+finite_range:V2-C_p_rc_104729	PASS	
+finite_range:V2-C_q_104729	PASS	
+exact_symmetric_float64	PASS	enhancer:V2-C:104729
+finite_range:V2-C_rc_input_first_104729	PASS	
+finite_range:V2-C_rc_input_second_104729	PASS	
+finite_range:V2-C_q_rc_input_104729	PASS	
+exact_repeated_symmetric_float64	PASS	
+seed_numeric_RC_tolerance	PASS	enhancer:V2-C:104729
+RC_audit_array_digest	PASS	enhancer:V2-C:104729:original_forward
+RC_audit_array_digest	PASS	enhancer:V2-C:104729:original_rc
+RC_audit_array_digest	PASS	enhancer:V2-C:104729:reverse_pass_first
+RC_audit_array_digest	PASS	enhancer:V2-C:104729:reverse_pass_second
+RC_audit_array_digest	PASS	enhancer:V2-C:104729:original_wrapper
+RC_audit_array_digest	PASS	enhancer:V2-C:104729:reverse_wrapper
+RC_recorded_max_residual	PASS	observed=0.0; independent=np.float64(0.0); atol=0
+finite_range:V2-C_p_forward_130363	PASS	
+finite_range:V2-C_p_rc_130363	PASS	
+finite_range:V2-C_q_130363	PASS	
+exact_symmetric_float64	PASS	enhancer:V2-C:130363
+finite_range:V2-C_rc_input_first_130363	PASS	
+finite_range:V2-C_rc_input_second_130363	PASS	
+finite_range:V2-C_q_rc_input_130363	PASS	
+exact_repeated_symmetric_float64	PASS	
+seed_numeric_RC_tolerance	PASS	enhancer:V2-C:130363
+RC_audit_array_digest	PASS	enhancer:V2-C:130363:original_forward
+RC_audit_array_digest	PASS	enhancer:V2-C:130363:original_rc
+RC_audit_array_digest	PASS	enhancer:V2-C:130363:reverse_pass_first
+RC_audit_array_digest	PASS	enhancer:V2-C:130363:reverse_pass_second
+RC_audit_array_digest	PASS	enhancer:V2-C:130363:original_wrapper
+RC_audit_array_digest	PASS	enhancer:V2-C:130363:reverse_wrapper
+RC_recorded_max_residual	PASS	observed=0.0; independent=np.float64(0.0); atol=0
+finite_range:V2-C_p_forward_155921	PASS	
+finite_range:V2-C_p_rc_155921	PASS	
+finite_range:V2-C_q_155921	PASS	
+exact_symmetric_float64	PASS	enhancer:V2-C:155921
+finite_range:V2-C_rc_input_first_155921	PASS	
+finite_range:V2-C_rc_input_second_155921	PASS	
+finite_range:V2-C_q_rc_input_155921	PASS	
+exact_repeated_symmetric_float64	PASS	
+seed_numeric_RC_tolerance	PASS	enhancer:V2-C:155921
+RC_audit_array_digest	PASS	enhancer:V2-C:155921:original_forward
+RC_audit_array_digest	PASS	enhancer:V2-C:155921:original_rc
+RC_audit_array_digest	PASS	enhancer:V2-C:155921:reverse_pass_first
+RC_audit_array_digest	PASS	enhancer:V2-C:155921:reverse_pass_second
+RC_audit_array_digest	PASS	enhancer:V2-C:155921:original_wrapper
+RC_audit_array_digest	PASS	enhancer:V2-C:155921:reverse_wrapper
+RC_recorded_max_residual	PASS	observed=0.0; independent=np.float64(0.0); atol=0
+finite_range:V2-C_ensemble_q	PASS	
+equal_fixed_three_seed_float64_ensemble	PASS	enhancer:V2-C
+finite_range:V2-C_ensemble_q_rc_input	PASS	
+exact_repeated_ensemble	PASS	
+ensemble_numeric_RC_tolerance	PASS	
+ensemble_RC_array_digests	PASS	
+ensemble_RC_recorded_max_residual	PASS	observed=0.0; independent=np.float64(0.0); atol=0
+h3k27me3:exact_prediction_order_and_membership	PASS	
+h3k27me3:repeated_prediction_order	PASS	
+finite_range:V2-A_p_forward_104729	PASS	
+finite_range:V2-A_p_rc_104729	PASS	
+finite_range:V2-A_q_104729	PASS	
+exact_symmetric_float64	PASS	h3k27me3:V2-A:104729
+finite_range:V2-A_rc_input_first_104729	PASS	
+finite_range:V2-A_rc_input_second_104729	PASS	
+finite_range:V2-A_q_rc_input_104729	PASS	
+exact_repeated_symmetric_float64	PASS	
+seed_numeric_RC_tolerance	PASS	h3k27me3:V2-A:104729
+RC_audit_array_digest	PASS	h3k27me3:V2-A:104729:original_forward
+RC_audit_array_digest	PASS	h3k27me3:V2-A:104729:original_rc
+RC_audit_array_digest	PASS	h3k27me3:V2-A:104729:reverse_pass_first
+RC_audit_array_digest	PASS	h3k27me3:V2-A:104729:reverse_pass_second
+RC_audit_array_digest	PASS	h3k27me3:V2-A:104729:original_wrapper
+RC_audit_array_digest	PASS	h3k27me3:V2-A:104729:reverse_wrapper
+RC_recorded_max_residual	PASS	observed=0.0; independent=np.float64(0.0); atol=0
+finite_range:V2-A_p_forward_130363	PASS	
+finite_range:V2-A_p_rc_130363	PASS	
+finite_range:V2-A_q_130363	PASS	
+exact_symmetric_float64	PASS	h3k27me3:V2-A:130363
+finite_range:V2-A_rc_input_first_130363	PASS	
+finite_range:V2-A_rc_input_second_130363	PASS	
+finite_range:V2-A_q_rc_input_130363	PASS	
+exact_repeated_symmetric_float64	PASS	
+seed_numeric_RC_tolerance	PASS	h3k27me3:V2-A:130363
+RC_audit_array_digest	PASS	h3k27me3:V2-A:130363:original_forward
+RC_audit_array_digest	PASS	h3k27me3:V2-A:130363:original_rc
+RC_audit_array_digest	PASS	h3k27me3:V2-A:130363:reverse_pass_first
+RC_audit_array_digest	PASS	h3k27me3:V2-A:130363:reverse_pass_second
+RC_audit_array_digest	PASS	h3k27me3:V2-A:130363:original_wrapper
+RC_audit_array_digest	PASS	h3k27me3:V2-A:130363:reverse_wrapper
+RC_recorded_max_residual	PASS	observed=0.0; independent=np.float64(0.0); atol=0
+finite_range:V2-A_p_forward_155921	PASS	
+finite_range:V2-A_p_rc_155921	PASS	
+finite_range:V2-A_q_155921	PASS	
+exact_symmetric_float64	PASS	h3k27me3:V2-A:155921
+finite_range:V2-A_rc_input_first_155921	PASS	
+finite_range:V2-A_rc_input_second_155921	PASS	
+finite_range:V2-A_q_rc_input_155921	PASS	
+exact_repeated_symmetric_float64	PASS	
+seed_numeric_RC_tolerance	PASS	h3k27me3:V2-A:155921
+RC_audit_array_digest	PASS	h3k27me3:V2-A:155921:original_forward
+RC_audit_array_digest	PASS	h3k27me3:V2-A:155921:original_rc
+RC_audit_array_digest	PASS	h3k27me3:V2-A:155921:reverse_pass_first
+RC_audit_array_digest	PASS	h3k27me3:V2-A:155921:reverse_pass_second
+RC_audit_array_digest	PASS	h3k27me3:V2-A:155921:original_wrapper
+RC_audit_array_digest	PASS	h3k27me3:V2-A:155921:reverse_wrapper
+RC_recorded_max_residual	PASS	observed=0.0; independent=np.float64(0.0); atol=0
+finite_range:V2-A_ensemble_q	PASS	
+equal_fixed_three_seed_float64_ensemble	PASS	h3k27me3:V2-A
+finite_range:V2-A_ensemble_q_rc_input	PASS	
+exact_repeated_ensemble	PASS	
+ensemble_numeric_RC_tolerance	PASS	
+ensemble_RC_array_digests	PASS	
+ensemble_RC_recorded_max_residual	PASS	observed=0.0; independent=np.float64(0.0); atol=0
+finite_range:V2-B_p_forward_104729	PASS	
+finite_range:V2-B_p_rc_104729	PASS	
+finite_range:V2-B_q_104729	PASS	
+exact_symmetric_float64	PASS	h3k27me3:V2-B:104729
+finite_range:V2-B_rc_input_first_104729	PASS	
+finite_range:V2-B_rc_input_second_104729	PASS	
+finite_range:V2-B_q_rc_input_104729	PASS	
+exact_repeated_symmetric_float64	PASS	
+seed_numeric_RC_tolerance	PASS	h3k27me3:V2-B:104729
+RC_audit_array_digest	PASS	h3k27me3:V2-B:104729:original_forward
+RC_audit_array_digest	PASS	h3k27me3:V2-B:104729:original_rc
+RC_audit_array_digest	PASS	h3k27me3:V2-B:104729:reverse_pass_first
+RC_audit_array_digest	PASS	h3k27me3:V2-B:104729:reverse_pass_second
+RC_audit_array_digest	PASS	h3k27me3:V2-B:104729:original_wrapper
+RC_audit_array_digest	PASS	h3k27me3:V2-B:104729:reverse_wrapper
+RC_recorded_max_residual	PASS	observed=0.0; independent=np.float64(0.0); atol=0
+finite_range:V2-B_p_forward_130363	PASS	
+finite_range:V2-B_p_rc_130363	PASS	
+finite_range:V2-B_q_130363	PASS	
+exact_symmetric_float64	PASS	h3k27me3:V2-B:130363
+finite_range:V2-B_rc_input_first_130363	PASS	
+finite_range:V2-B_rc_input_second_130363	PASS	
+finite_range:V2-B_q_rc_input_130363	PASS	
+exact_repeated_symmetric_float64	PASS	
+seed_numeric_RC_tolerance	PASS	h3k27me3:V2-B:130363
+RC_audit_array_digest	PASS	h3k27me3:V2-B:130363:original_forward
+RC_audit_array_digest	PASS	h3k27me3:V2-B:130363:original_rc
+RC_audit_array_digest	PASS	h3k27me3:V2-B:130363:reverse_pass_first
+RC_audit_array_digest	PASS	h3k27me3:V2-B:130363:reverse_pass_second
+RC_audit_array_digest	PASS	h3k27me3:V2-B:130363:original_wrapper
+RC_audit_array_digest	PASS	h3k27me3:V2-B:130363:reverse_wrapper
+RC_recorded_max_residual	PASS	observed=0.0; independent=np.float64(0.0); atol=0
+finite_range:V2-B_p_forward_155921	PASS	
+finite_range:V2-B_p_rc_155921	PASS	
+finite_range:V2-B_q_155921	PASS	
+exact_symmetric_float64	PASS	h3k27me3:V2-B:155921
+finite_range:V2-B_rc_input_first_155921	PASS	
+finite_range:V2-B_rc_input_second_155921	PASS	
+finite_range:V2-B_q_rc_input_155921	PASS	
+exact_repeated_symmetric_float64	PASS	
+seed_numeric_RC_tolerance	PASS	h3k27me3:V2-B:155921
+RC_audit_array_digest	PASS	h3k27me3:V2-B:155921:original_forward
+RC_audit_array_digest	PASS	h3k27me3:V2-B:155921:original_rc
+RC_audit_array_digest	PASS	h3k27me3:V2-B:155921:reverse_pass_first
+RC_audit_array_digest	PASS	h3k27me3:V2-B:155921:reverse_pass_second
+RC_audit_array_digest	PASS	h3k27me3:V2-B:155921:original_wrapper
+RC_audit_array_digest	PASS	h3k27me3:V2-B:155921:reverse_wrapper
+RC_recorded_max_residual	PASS	observed=0.0; independent=np.float64(0.0); atol=0
+finite_range:V2-B_ensemble_q	PASS	
+equal_fixed_three_seed_float64_ensemble	PASS	h3k27me3:V2-B
+finite_range:V2-B_ensemble_q_rc_input	PASS	
+exact_repeated_ensemble	PASS	
+ensemble_numeric_RC_tolerance	PASS	
+ensemble_RC_array_digests	PASS	
+ensemble_RC_recorded_max_residual	PASS	observed=0.0; independent=np.float64(0.0); atol=0
+finite_range:V2-C_p_forward_104729	PASS	
+finite_range:V2-C_p_rc_104729	PASS	
+finite_range:V2-C_q_104729	PASS	
+exact_symmetric_float64	PASS	h3k27me3:V2-C:104729
+finite_range:V2-C_rc_input_first_104729	PASS	
+finite_range:V2-C_rc_input_second_104729	PASS	
+finite_range:V2-C_q_rc_input_104729	PASS	
+exact_repeated_symmetric_float64	PASS	
+seed_numeric_RC_tolerance	PASS	h3k27me3:V2-C:104729
+RC_audit_array_digest	PASS	h3k27me3:V2-C:104729:original_forward
+RC_audit_array_digest	PASS	h3k27me3:V2-C:104729:original_rc
+RC_audit_array_digest	PASS	h3k27me3:V2-C:104729:reverse_pass_first
+RC_audit_array_digest	PASS	h3k27me3:V2-C:104729:reverse_pass_second
+RC_audit_array_digest	PASS	h3k27me3:V2-C:104729:original_wrapper
+RC_audit_array_digest	PASS	h3k27me3:V2-C:104729:reverse_wrapper
+RC_recorded_max_residual	PASS	observed=0.0; independent=np.float64(0.0); atol=0
+finite_range:V2-C_p_forward_130363	PASS	
+finite_range:V2-C_p_rc_130363	PASS	
+finite_range:V2-C_q_130363	PASS	
+exact_symmetric_float64	PASS	h3k27me3:V2-C:130363
+finite_range:V2-C_rc_input_first_130363	PASS	
+finite_range:V2-C_rc_input_second_130363	PASS	
+finite_range:V2-C_q_rc_input_130363	PASS	
+exact_repeated_symmetric_float64	PASS	
+seed_numeric_RC_tolerance	PASS	h3k27me3:V2-C:130363
+RC_audit_array_digest	PASS	h3k27me3:V2-C:130363:original_forward
+RC_audit_array_digest	PASS	h3k27me3:V2-C:130363:original_rc
+RC_audit_array_digest	PASS	h3k27me3:V2-C:130363:reverse_pass_first
+RC_audit_array_digest	PASS	h3k27me3:V2-C:130363:reverse_pass_second
+RC_audit_array_digest	PASS	h3k27me3:V2-C:130363:original_wrapper
+RC_audit_array_digest	PASS	h3k27me3:V2-C:130363:reverse_wrapper
+RC_recorded_max_residual	PASS	observed=0.0; independent=np.float64(0.0); atol=0
+finite_range:V2-C_p_forward_155921	PASS	
+finite_range:V2-C_p_rc_155921	PASS	
+finite_range:V2-C_q_155921	PASS	
+exact_symmetric_float64	PASS	h3k27me3:V2-C:155921
+finite_range:V2-C_rc_input_first_155921	PASS	
+finite_range:V2-C_rc_input_second_155921	PASS	
+finite_range:V2-C_q_rc_input_155921	PASS	
+exact_repeated_symmetric_float64	PASS	
+seed_numeric_RC_tolerance	PASS	h3k27me3:V2-C:155921
+RC_audit_array_digest	PASS	h3k27me3:V2-C:155921:original_forward
+RC_audit_array_digest	PASS	h3k27me3:V2-C:155921:original_rc
+RC_audit_array_digest	PASS	h3k27me3:V2-C:155921:reverse_pass_first
+RC_audit_array_digest	PASS	h3k27me3:V2-C:155921:reverse_pass_second
+RC_audit_array_digest	PASS	h3k27me3:V2-C:155921:original_wrapper
+RC_audit_array_digest	PASS	h3k27me3:V2-C:155921:reverse_wrapper
+RC_recorded_max_residual	PASS	observed=0.0; independent=np.float64(0.0); atol=0
+finite_range:V2-C_ensemble_q	PASS	
+equal_fixed_three_seed_float64_ensemble	PASS	h3k27me3:V2-C
+finite_range:V2-C_ensemble_q_rc_input	PASS	
+exact_repeated_ensemble	PASS	
+ensemble_numeric_RC_tolerance	PASS	
+ensemble_RC_array_digests	PASS	
+ensemble_RC_recorded_max_residual	PASS	observed=0.0; independent=np.float64(0.0); atol=0
+authorized_hash_path	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_enhancer_seed104729/attempt-001/selected_checkpoint.keras
+file_hash_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_enhancer_seed104729/attempt-001/selected_checkpoint.keras
+file_size_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_enhancer_seed104729/attempt-001/selected_checkpoint.keras
+authorized_hash_path	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_enhancer_seed130363/attempt-001/selected_checkpoint.keras
+file_hash_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_enhancer_seed130363/attempt-001/selected_checkpoint.keras
+file_size_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_enhancer_seed130363/attempt-001/selected_checkpoint.keras
+authorized_hash_path	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_enhancer_seed155921/attempt-001/selected_checkpoint.keras
+file_hash_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_enhancer_seed155921/attempt-001/selected_checkpoint.keras
+file_size_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_enhancer_seed155921/attempt-001/selected_checkpoint.keras
+authorized_hash_path	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras
+file_hash_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras
+file_size_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras
+authorized_hash_path	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras
+file_hash_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras
+file_size_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras
+authorized_hash_path	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras
+file_hash_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras
+file_size_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras
+authorized_hash_path	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_enhancer_seed104729/attempt-001/selected_checkpoint.keras
+file_hash_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_enhancer_seed104729/attempt-001/selected_checkpoint.keras
+file_size_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_enhancer_seed104729/attempt-001/selected_checkpoint.keras
+authorized_hash_path	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_enhancer_seed130363/attempt-001/selected_checkpoint.keras
+file_hash_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_enhancer_seed130363/attempt-001/selected_checkpoint.keras
+file_size_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_enhancer_seed130363/attempt-001/selected_checkpoint.keras
+authorized_hash_path	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_enhancer_seed155921/attempt-001/selected_checkpoint.keras
+file_hash_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_enhancer_seed155921/attempt-001/selected_checkpoint.keras
+file_size_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_enhancer_seed155921/attempt-001/selected_checkpoint.keras
+authorized_hash_path	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras
+file_hash_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras
+file_size_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras
+authorized_hash_path	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras
+file_hash_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras
+file_size_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras
+authorized_hash_path	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras
+file_hash_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras
+file_size_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras
+authorized_hash_path	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_enhancer_seed104729/attempt-001/selected_checkpoint.keras
+file_hash_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_enhancer_seed104729/attempt-001/selected_checkpoint.keras
+file_size_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_enhancer_seed104729/attempt-001/selected_checkpoint.keras
+authorized_hash_path	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_enhancer_seed130363/attempt-001/selected_checkpoint.keras
+file_hash_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_enhancer_seed130363/attempt-001/selected_checkpoint.keras
+file_size_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_enhancer_seed130363/attempt-001/selected_checkpoint.keras
+authorized_hash_path	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_enhancer_seed155921/attempt-001/selected_checkpoint.keras
+file_hash_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_enhancer_seed155921/attempt-001/selected_checkpoint.keras
+file_size_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_enhancer_seed155921/attempt-001/selected_checkpoint.keras
+authorized_hash_path	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras
+file_hash_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras
+file_size_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras
+authorized_hash_path	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras
+file_hash_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras
+file_size_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras
+authorized_hash_path	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras
+file_hash_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras
+file_size_unchanged	PASS	/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras

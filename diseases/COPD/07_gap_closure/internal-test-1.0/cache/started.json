@@ -1,0 +1,22 @@
+{
+  "batch_size": 32,
+  "input_manifest": {
+    "bytes": 4306,
+    "path": "inputs/input_manifest.json",
+    "sha256": "b52a58156ebb40fe31dfcd111667148c564f9a2a55146f0c23ea69afbd644c19"
+  },
+  "optimizer": null,
+  "phase_I_gate": {
+    "bytes": 4252,
+    "path": "provenance/phase_I_execution_gate.json",
+    "sha256": "1bf725f8ecc50ddc7ad1796a16f09cce5898c76bf4008954823a3387d2103a46"
+  },
+  "phase_I_weights_sha256": "483b6c0cafd750ea8e97932cbc8a949276eaf1e77e7d8766f9a22eeddc2916d6",
+  "representation_axis_reversal": false,
+  "shape": [
+    26225,
+    4560
+  ],
+  "started_utc": "2026-10-06T19:06:50.603742+00:00",
+  "two_independent_nucleotide_orientation_passes": true
+}

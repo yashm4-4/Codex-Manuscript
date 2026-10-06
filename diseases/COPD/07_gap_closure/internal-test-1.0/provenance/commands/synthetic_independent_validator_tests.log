@@ -1,0 +1,9 @@
+test_bootstrap_null_uses_replicate_prevalence (test_independent_validator.IndependentValidatorTests.test_bootstrap_null_uses_replicate_prevalence) ... ok
+test_one_class_component_draw_invalid (test_independent_validator.IndependentValidatorTests.test_one_class_component_draw_invalid) ... ok
+test_threshold_equality_and_undefined_ratios (test_independent_validator.IndependentValidatorTests.test_threshold_equality_and_undefined_ratios) ... ok
+test_weighted_ties_and_zero_weight_rows_against_sklearn (test_independent_validator.IndependentValidatorTests.test_weighted_ties_and_zero_weight_rows_against_sklearn) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.163s
+
+OK

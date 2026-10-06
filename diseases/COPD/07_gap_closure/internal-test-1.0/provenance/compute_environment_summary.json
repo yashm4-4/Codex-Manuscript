@@ -1,0 +1,232 @@
+{
+  "GPU_use": "Recorded phase-I extraction and frozen-checkpoint inference only; no training",
+  "command_wall_seconds_completed_sum": 296.2452801046893,
+  "compute_records": [
+    {
+      "recorded_resources": {
+        "elapsed_seconds": 15.592166801914573
+      },
+      "source": {
+        "bytes": 4306,
+        "path": "inputs/input_manifest.json",
+        "sha256": "b52a58156ebb40fe31dfcd111667148c564f9a2a55146f0c23ea69afbd644c19"
+      }
+    },
+    {
+      "recorded_resources": {
+        "completed_utc": "2026-10-06T19:07:05.989388+00:00",
+        "finished_utc": "2026-10-06T19:07:05.989837+00:00",
+        "peak_RSS_KiB": 2395568,
+        "system_cpu_seconds": 2.591425,
+        "user_cpu_seconds": 14.413587,
+        "wall_seconds": 26.03783931955695
+      },
+      "source": {
+        "bytes": 1814,
+        "path": "cache/cache_manifest.json",
+        "sha256": "32477660f2173c97967ab920c9984d081f061d523ecc6c2c14a42b9457c2b11c"
+      }
+    },
+    {
+      "recorded_resources": {
+        "finished_utc": "2026-10-06T19:10:44.687363+00:00",
+        "peak_RSS_KiB": 3087964,
+        "system_cpu_seconds": 6.714681,
+        "user_cpu_seconds": 63.291767,
+        "wall_seconds": 71.59064218308777
+      },
+      "source": {
+        "bytes": 1160,
+        "path": "predictions/completed.json",
+        "sha256": "e1ff7380b82135d165da9918893a7a5e160dc670530042605589667154cc2ece"
+      }
+    },
+    {
+      "recorded_resources": {
+        "completed_utc": "2026-10-06T19:06:03.266563+00:00",
+        "started_utc": "2026-10-06T19:05:52.244903+00:00",
+        "wall_seconds": 11.021683437749743
+      },
+      "source": {
+        "bytes": 4930,
+        "path": "provenance/inputs_independent_validation.json",
+        "sha256": "be966fbdd12d2e25c4b04bdd6eba778123d9bec7ef0fbebf5fe5c170c15eb01e"
+      }
+    },
+    {
+      "recorded_resources": {
+        "completed_utc": "2026-10-06T19:07:39.042299+00:00",
+        "started_utc": "2026-10-06T19:07:37.094692+00:00",
+        "wall_seconds": 1.9476325940340757
+      },
+      "source": {
+        "bytes": 3716,
+        "path": "provenance/cache_independent_validation.json",
+        "sha256": "2845a0843c7e57f818bcc1d65d1fa16985e7d96be8042efbcaf1e655628b4ba6"
+      }
+    },
+    {
+      "recorded_resources": {
+        "completed_utc": "2026-10-06T19:11:10.696676+00:00",
+        "started_utc": "2026-10-06T19:11:04.476013+00:00",
+        "wall_seconds": 6.2207059701904655
+      },
+      "source": {
+        "bytes": 8931,
+        "path": "provenance/predictions_independent_validation.json",
+        "sha256": "8a4ec1b517c974ffa64a80a0cd12b6da72833cd7e9b0f6fb2aeafd9b434b3a80"
+      }
+    },
+    {
+      "recorded_resources": {
+        "completed_utc": "2026-10-06T19:13:36.818485+00:00",
+        "started_utc": "2026-10-06T19:13:07.410826+00:00",
+        "wall_seconds": 29.40768902003765
+      },
+      "source": {
+        "bytes": 6030,
+        "path": "provenance/evaluation_independent_validation.json",
+        "sha256": "e266827794f211f370e391710b3c4559aac0ddb4b2dae95c900f84da91980791"
+      }
+    },
+    {
+      "recorded_resources": {
+        "completed_utc": "2026-10-06T19:16:31.478321+00:00",
+        "started_utc": "2026-10-06T19:15:58.099197+00:00",
+        "wall_seconds": 33.379150941967964
+      },
+      "source": {
+        "bytes": 188946,
+        "path": "provenance/preservation_independent_validation.json",
+        "sha256": "ebd1532b69aa41ac5642890b9c67527da7fa5724b064eedbc63ebb7a95141ad1"
+      }
+    }
+  ],
+  "created_utc": "2026-10-06T19:16:41.629006+00:00",
+  "environment_records": [
+    {
+      "record": {
+        "environment": {
+          "CUDA_VISIBLE_DEVICES": "0",
+          "PYTHONHASHSEED": "104729",
+          "SLURM_ARRAY_TASK_ID": null,
+          "SLURM_CPUS_PER_TASK": "16",
+          "SLURM_JOB_GPUS": "1",
+          "SLURM_JOB_ID": "31881465",
+          "TF_CUDNN_DETERMINISTIC": "1",
+          "TF_DETERMINISTIC_OPS": "1",
+          "TF_ENABLE_ONEDNN_OPTS": null,
+          "TF_XLA_FLAGS": "--tf_xla_enable_xla_devices=false"
+        },
+        "executable": "/home/maheshwarany2/.local/share/uv/python/cpython-3.13.0-linux-x86_64-gnu/bin/python3.13",
+        "keras_epsilon": 1e-07,
+        "keras_floatx": "float32",
+        "logical_devices": [
+          "LogicalDevice(name='/device:CPU:0', device_type='CPU')",
+          "LogicalDevice(name='/device:GPU:0', device_type='GPU')"
+        ],
+        "nvidia_smi": {
+          "returncode": 0,
+          "stderr": "",
+          "stdout": "NVIDIA A100-SXM4-80GB, GPU-c0f9ea40-1229-3a05-cb51-36356549035c, 580.173.02, 81920 MiB\n"
+        },
+        "packages": {
+          "h5py": "3.16.0",
+          "keras": "3.14.1",
+          "numpy": "2.5.0",
+          "scikit-learn": "1.9.0",
+          "scipy": "1.18.0",
+          "tensorflow": "2.20.0"
+        },
+        "platform": "Linux-4.18.0-425.19.3b.el8.x86_64-x86_64-with-glibc2.28",
+        "python": "3.13.0",
+        "tensorflow_build": {
+          "cpu_compiler": "clang 18",
+          "cuda_compute_capabilities": [
+            "sm_60",
+            "sm_70",
+            "sm_80",
+            "sm_89",
+            "compute_90"
+          ],
+          "cuda_version": "12.5.1",
+          "cudnn_version": "9",
+          "is_cuda_build": true,
+          "is_rocm_build": false,
+          "is_tensorrt_build": false
+        }
+      },
+      "source": {
+        "bytes": 1444,
+        "path": "cache/environment.json",
+        "sha256": "65cf393ddaaed2aae9a8eb9d0e168510a308002c1df992d4918bc044e7fd7594"
+      }
+    },
+    {
+      "record": {
+        "environment": {
+          "CUDA_VISIBLE_DEVICES": "0",
+          "PYTHONHASHSEED": "104729",
+          "SLURM_ARRAY_TASK_ID": null,
+          "SLURM_CPUS_PER_TASK": "16",
+          "SLURM_JOB_GPUS": "1",
+          "SLURM_JOB_ID": "31881465",
+          "TF_CUDNN_DETERMINISTIC": "1",
+          "TF_DETERMINISTIC_OPS": "1",
+          "TF_ENABLE_ONEDNN_OPTS": null,
+          "TF_XLA_FLAGS": "--tf_xla_enable_xla_devices=false"
+        },
+        "executable": "/home/maheshwarany2/.local/share/uv/python/cpython-3.13.0-linux-x86_64-gnu/bin/python3.13",
+        "keras_epsilon": 1e-07,
+        "keras_floatx": "float32",
+        "logical_devices": [
+          "LogicalDevice(name='/device:CPU:0', device_type='CPU')",
+          "LogicalDevice(name='/device:GPU:0', device_type='GPU')"
+        ],
+        "nvidia_smi": {
+          "returncode": 0,
+          "stderr": "",
+          "stdout": "NVIDIA A100-SXM4-80GB, GPU-c0f9ea40-1229-3a05-cb51-36356549035c, 580.173.02, 81920 MiB\n"
+        },
+        "packages": {
+          "h5py": "3.16.0",
+          "keras": "3.14.1",
+          "numpy": "2.5.0",
+          "scikit-learn": "1.9.0",
+          "scipy": "1.18.0",
+          "tensorflow": "2.20.0"
+        },
+        "platform": "Linux-4.18.0-425.19.3b.el8.x86_64-x86_64-with-glibc2.28",
+        "python": "3.13.0",
+        "tensorflow_build": {
+          "cpu_compiler": "clang 18",
+          "cuda_compute_capabilities": [
+            "sm_60",
+            "sm_70",
+            "sm_80",
+            "sm_89",
+            "compute_90"
+          ],
+          "cuda_version": "12.5.1",
+          "cudnn_version": "9",
+          "is_cuda_build": true,
+          "is_rocm_build": false,
+          "is_tensorrt_build": false
+        }
+      },
+      "source": {
+        "bytes": 1444,
+        "path": "predictions/environment.json",
+        "sha256": "65cf393ddaaed2aae9a8eb9d0e168510a308002c1df992d4918bc044e7fd7594"
+      }
+    }
+  ],
+  "input_preparation_environment": {
+    "executable": "/home/maheshwarany2/.local/share/uv/python/cpython-3.13.0-linux-x86_64-gnu/bin/python3.13",
+    "numpy": "2.5.0",
+    "platform": "Linux-4.18.0-425.19.3b.el8.x86_64-x86_64-with-glibc2.28",
+    "python": "3.13.0"
+  },
+  "scientific_analysis_performed_by_this_script": false,
+  "wall_sum_interpretation": "Sum of logged subprocess durations, not elapsed calendar time or exclusively GPU time; validation and preparation can overlap. CPU/RSS fields are recorded per process and are not summed as independent incremental resources."
+}

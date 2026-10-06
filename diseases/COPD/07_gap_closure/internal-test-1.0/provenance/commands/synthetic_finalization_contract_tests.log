@@ -1,0 +1,10 @@
+test_exclusive_write_and_hash_mismatch (test_finalization_contract.AdministrativeSealTests.test_exclusive_write_and_hash_mismatch) ... ok
+test_freeze_ledger_and_seal_are_last_writes_and_hashes_match (test_finalization_contract.AdministrativeSealTests.test_freeze_ledger_and_seal_are_last_writes_and_hashes_match) ... ok
+test_payload_scope_excludes_only_pycache_and_seal_selfreferences (test_finalization_contract.AdministrativeSealTests.test_payload_scope_excludes_only_pycache_and_seal_selfreferences) ... ok
+test_stage_reference_cannot_escape (test_finalization_contract.AdministrativeSealTests.test_stage_reference_cannot_escape) ... ok
+test_unfinished_command_blocks_freeze_but_is_explicit_in_snapshot (test_finalization_contract.AdministrativeSealTests.test_unfinished_command_blocks_freeze_but_is_explicit_in_snapshot) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+OK

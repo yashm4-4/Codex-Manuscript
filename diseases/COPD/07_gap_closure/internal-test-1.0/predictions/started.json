@@ -1,0 +1,16 @@
+{
+  "argv": [
+    "diseases/COPD/07_gap_closure/internal-test-1.0/scripts/predict_test.py",
+    "--repo",
+    "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow",
+    "--stage",
+    "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0"
+  ],
+  "prospective_freeze": {
+    "bytes": 5934,
+    "path": "provenance/prospective_specification_freeze.json",
+    "sha256": "ce597fd8bcc59c05690df0b8ae19cefbcc5174a30df91f0d2a7964cb3b1b4642"
+  },
+  "scope": "frozen common C-task chr8-9 panels only; no metric evaluation or threshold selection",
+  "started_utc": "2026-10-06T19:09:33.096738+00:00"
+}

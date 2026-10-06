@@ -1,0 +1,251 @@
+{
+  "evaluation_execution_gate": {
+    "bytes": 6957,
+    "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/provenance/evaluation_execution_gate.json",
+    "sha256": "0e2fe4d9af52124583410b8f764f12da807be71b6e26ce0e6d9979d2a5ab9839"
+  },
+  "frozen_cutpoints": {
+    "bytes": 1338,
+    "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/results/chr7_evaluation/stratification_cutpoints.json",
+    "sha256": "ba29550847ea755e8d08b40e5bbfe2947673860e5a17560d4dc706b6f8057c81"
+  },
+  "frozen_design": {
+    "bytes": 19841,
+    "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/pretraining-1.1/specification/selection_adequacy.json",
+    "sha256": "3f5f8f1a2ef8a1713d77d15d88f4dae53e21d76bc554fe28448991515088b32f"
+  },
+  "frozen_thresholds": {
+    "bytes": 2440,
+    "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/results/chr7_calibration/C_region_thresholds.json",
+    "sha256": "48f9a7a742a32ebb39d21ecfcde71c340cb2702ef124467d84ce40d0e33037a8"
+  },
+  "models": {
+    "enhancer": {
+      "predictions": {
+        "bytes": 7083965,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/predictions/enhancer_chr8_9.tsv.gz",
+        "sha256": "fe3df5131e5794e2888b9aaffd9e07ec3bdffa00c979d33cfb2aef785ee60fbb"
+      },
+      "test": {
+        "bytes": 3953962,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/inputs/common/enhancer_test.tsv.gz",
+        "sha256": "b4617484a7d62e32897368b2db704d137b0ef13e3c79db474cedc65918456b82"
+      }
+    },
+    "h3k27me3": {
+      "predictions": {
+        "bytes": 982684,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/predictions/h3k27me3_chr8_9.tsv.gz",
+        "sha256": "7acca2b44a6428f63ac55d7663f247ac4b9d5ab182f3e7b238fa45166506bd23"
+      },
+      "test": {
+        "bytes": 555440,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/inputs/common/h3k27me3_test.tsv.gz",
+        "sha256": "7e3cdd3a3fb7214e81713c21779791a65d15927ddc484c3de72647daef6970f0"
+      }
+    }
+  },
+  "prerequisites": {
+    "checkpoint_verification": {
+      "evidence": {
+        "bytes": 7904,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/provenance/checkpoint_verification.json",
+        "sha256": "382be6d9345cfcc38504b43a6ce0c7e86ff29680e5d5c2eceaa006617dde2fbc"
+      },
+      "status": "PASS"
+    },
+    "checkpoints": [
+      {
+        "bytes": 350064314,
+        "completed": true,
+        "configuration": "V2-A",
+        "model": "enhancer",
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_enhancer_seed104729/attempt-001/selected_checkpoint.keras",
+        "seed": 104729,
+        "sha256": "8eb380c37e92f5cbe9cb71256421565f5924d1fe373ce7ee507dbb3545272a60"
+      },
+      {
+        "bytes": 350064314,
+        "completed": true,
+        "configuration": "V2-A",
+        "model": "enhancer",
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_enhancer_seed130363/attempt-001/selected_checkpoint.keras",
+        "seed": 130363,
+        "sha256": "fb1f9103e7c824ffa280aa98fb2274a0abdb5eebbfcc381b2e8ed6df030faeed"
+      },
+      {
+        "bytes": 350064314,
+        "completed": true,
+        "configuration": "V2-A",
+        "model": "enhancer",
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_enhancer_seed155921/attempt-001/selected_checkpoint.keras",
+        "seed": 155921,
+        "sha256": "a74ee692f8b7386678a37de827e5ecb1bd597f665c6b475ba19fddadea961168"
+      },
+      {
+        "bytes": 350064314,
+        "completed": true,
+        "configuration": "V2-A",
+        "model": "h3k27me3",
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras",
+        "seed": 104729,
+        "sha256": "67b6c55c2dc7c79b8e70331ce4ee17c2f6b228ae95198312c8476084723b6249"
+      },
+      {
+        "bytes": 350064314,
+        "completed": true,
+        "configuration": "V2-A",
+        "model": "h3k27me3",
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras",
+        "seed": 130363,
+        "sha256": "d20a5e35ac9e348ea09b1418abf18fd3a4c5c040811a8324d25ff39911b25ae8"
+      },
+      {
+        "bytes": 350064314,
+        "completed": true,
+        "configuration": "V2-A",
+        "model": "h3k27me3",
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras",
+        "seed": 155921,
+        "sha256": "b350d45b7d126adf329c8379e5340a8cdd8b95c4028c00a99e726513c7a03820"
+      },
+      {
+        "bytes": 350064314,
+        "completed": true,
+        "configuration": "V2-B",
+        "model": "enhancer",
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_enhancer_seed104729/attempt-001/selected_checkpoint.keras",
+        "seed": 104729,
+        "sha256": "1dc13e371414fd81072b07689f3ce64446a32692e917d236983db024f28cabca"
+      },
+      {
+        "bytes": 350064314,
+        "completed": true,
+        "configuration": "V2-B",
+        "model": "enhancer",
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_enhancer_seed130363/attempt-001/selected_checkpoint.keras",
+        "seed": 130363,
+        "sha256": "97bbc39bc5e93bf49b51169ad015fb4710708c7f1d3e7aeb232d28d3fa40d9ab"
+      },
+      {
+        "bytes": 350064314,
+        "completed": true,
+        "configuration": "V2-B",
+        "model": "enhancer",
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_enhancer_seed155921/attempt-001/selected_checkpoint.keras",
+        "seed": 155921,
+        "sha256": "c0e2a96ed19c3b9d5ddbb51a85b0d4ffce7701e41f12bd25ce69bcf763d6300e"
+      },
+      {
+        "bytes": 350064314,
+        "completed": true,
+        "configuration": "V2-B",
+        "model": "h3k27me3",
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras",
+        "seed": 104729,
+        "sha256": "c74842f069069ef544fbf8ddab04690188282a07c2aa7ebf2a2a67994d567e0c"
+      },
+      {
+        "bytes": 350064314,
+        "completed": true,
+        "configuration": "V2-B",
+        "model": "h3k27me3",
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras",
+        "seed": 130363,
+        "sha256": "935e054078b14a491d69e89719a68a2fa359beb42afce814a5a496d74c95cb72"
+      },
+      {
+        "bytes": 350064314,
+        "completed": true,
+        "configuration": "V2-B",
+        "model": "h3k27me3",
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras",
+        "seed": 155921,
+        "sha256": "2e2fa2ec39cbaf8fea4080bd0576d6a1da6d968e2481c349d737f3db641553f6"
+      },
+      {
+        "bytes": 350064314,
+        "completed": true,
+        "configuration": "V2-C",
+        "model": "enhancer",
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_enhancer_seed104729/attempt-001/selected_checkpoint.keras",
+        "seed": 104729,
+        "sha256": "1cb670f778a2d148d0ac2b71bea5c97f5a421bb64f744af1dc5b373a60ea3114"
+      },
+      {
+        "bytes": 350064314,
+        "completed": true,
+        "configuration": "V2-C",
+        "model": "enhancer",
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_enhancer_seed130363/attempt-001/selected_checkpoint.keras",
+        "seed": 130363,
+        "sha256": "0e42ecc9364f967220ecc6c3bb0007dc25aced5d9c360355f6e48027c39f0795"
+      },
+      {
+        "bytes": 350064314,
+        "completed": true,
+        "configuration": "V2-C",
+        "model": "enhancer",
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_enhancer_seed155921/attempt-001/selected_checkpoint.keras",
+        "seed": 155921,
+        "sha256": "733ca1845061508c820240d04d4b7c30d8ba0fa7c1086419eaec0b5c2bb041d5"
+      },
+      {
+        "bytes": 350064314,
+        "completed": true,
+        "configuration": "V2-C",
+        "model": "h3k27me3",
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras",
+        "seed": 104729,
+        "sha256": "503683295ebeb48587f42748181bf6c5815f6a8c79b8dfdd4b669c931109be81"
+      },
+      {
+        "bytes": 350064314,
+        "completed": true,
+        "configuration": "V2-C",
+        "model": "h3k27me3",
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras",
+        "seed": 130363,
+        "sha256": "56a2d331b6ed27e49f103dce228dda3c26a80ff296e91c9c740e52b9c36841c6"
+      },
+      {
+        "bytes": 350064314,
+        "completed": true,
+        "configuration": "V2-C",
+        "model": "h3k27me3",
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras",
+        "seed": 155921,
+        "sha256": "995dc295d163a703b80bb3e451b8fc3bd7af01fb6ce041099fc5ce3d9cc82560"
+      }
+    ],
+    "input_integrity": {
+      "evidence": {
+        "bytes": 4930,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/provenance/inputs_independent_validation.json",
+        "sha256": "be966fbdd12d2e25c4b04bdd6eba778123d9bec7ef0fbebf5fe5c170c15eb01e"
+      },
+      "status": "PASS"
+    },
+    "invariance": {
+      "all_configurations_all_seeds_and_ensembles": true,
+      "evidence": {
+        "bytes": 38091,
+        "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/predictions/real_network_invariance.json",
+        "sha256": "01b4551112688c9f7f1f86bf34aad3b5df3dc8b7f23debe2123cdb24386468ec"
+      },
+      "real_network": true,
+      "status": "PASS"
+    }
+  },
+  "prospective_freeze": {
+    "bytes": 5934,
+    "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/provenance/prospective_specification_freeze.json",
+    "sha256": "ce597fd8bcc59c05690df0b8ae19cefbcc5174a30df91f0d2a7964cb3b1b4642"
+  },
+  "specification": {
+    "bytes": 16678,
+    "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/specification/test_specification.json",
+    "sha256": "55e5a7f340596244dd45150ce393b645bcc000d64e34c19c7c517f784e41dcca"
+  },
+  "version": "internal-test-1.0"
+}

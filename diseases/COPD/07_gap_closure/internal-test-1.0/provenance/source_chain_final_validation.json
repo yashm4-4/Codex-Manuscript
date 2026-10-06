@@ -1,0 +1,595 @@
+{
+  "approved_sources": [
+    {
+      "bytes": 1151,
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/provenance/freeze.json",
+      "resolved_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/provenance/freeze.json",
+      "sha256": "c151e61dba04a9e5500534e507a392d51e1af0601a6e62565288bc6b276e6de4"
+    },
+    {
+      "bytes": 59147,
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/provenance/artifact_checksums.tsv",
+      "resolved_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/provenance/artifact_checksums.tsv",
+      "sha256": "661d2e95956068819713ed5d2ba01591f0019f5cb98f61e5b61e221aec8fd691"
+    },
+    {
+      "bytes": 35371,
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/provenance/checkpoint_freeze.json",
+      "resolved_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/provenance/checkpoint_freeze.json",
+      "sha256": "d2330e4881c477cb7d8e5b2b621940674761133b779c89d0db1ad88635eee379"
+    },
+    {
+      "bytes": 9467,
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/specification/internal_evaluation_implementation.json",
+      "resolved_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/specification/internal_evaluation_implementation.json",
+      "sha256": "2ea34b80347899b08ef2bf9a03508f1f0e1d8c1509156460bb24bfe511a7d667"
+    },
+    {
+      "bytes": 1338,
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/results/chr7_evaluation/stratification_cutpoints.json",
+      "resolved_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/results/chr7_evaluation/stratification_cutpoints.json",
+      "sha256": "ba29550847ea755e8d08b40e5bbfe2947673860e5a17560d4dc706b6f8057c81"
+    },
+    {
+      "bytes": 2440,
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/results/chr7_calibration/C_region_thresholds.json",
+      "resolved_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/results/chr7_calibration/C_region_thresholds.json",
+      "sha256": "48f9a7a742a32ebb39d21ecfcde71c340cb2702ef124467d84ce40d0e33037a8"
+    },
+    {
+      "bytes": 2473,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/provenance/freeze.json",
+      "resolved_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/pretraining-1.1/provenance/freeze.json",
+      "sha256": "6933f98bd6a1a7b7afe5adddc8a6bf9d7b1201df4b25f06d0cd8c35e183941a0"
+    },
+    {
+      "bytes": 20270,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/provenance/artifact_checksums.tsv",
+      "resolved_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/pretraining-1.1/provenance/artifact_checksums.tsv",
+      "sha256": "48f7fb6478daa7ad2478fd7d4e9fbe1ee0179c06ac76abb3a4f65ebc11763b0d"
+    },
+    {
+      "bytes": 19841,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/specification/selection_adequacy.json",
+      "resolved_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/pretraining-1.1/specification/selection_adequacy.json",
+      "sha256": "3f5f8f1a2ef8a1713d77d15d88f4dae53e21d76bc554fe28448991515088b32f"
+    },
+    {
+      "bytes": 13066,
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/phase_two_contract.py",
+      "resolved_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/scripts/phase_two_contract.py",
+      "sha256": "f50f226b901df6bbd66455462e4da922d8229a4d030f09613a8483a74f636e2f"
+    },
+    {
+      "bytes": 8628,
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/extract_phase_one.py",
+      "resolved_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/scripts/extract_phase_one.py",
+      "sha256": "d1b77cf5a8468ee3516d6a89bcfd4f1e7994087642c851f409425242408621dd"
+    },
+    {
+      "bytes": 12036,
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/predict_chr7.py",
+      "resolved_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/scripts/predict_chr7.py",
+      "sha256": "1316cb5e79d9102779bb5611e561eed6482b61315345f62ddc74d6545ef2fe99"
+    },
+    {
+      "bytes": 24330,
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/evaluate_chr7.py",
+      "resolved_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/scripts/evaluate_chr7.py",
+      "sha256": "55b916dfd94c432b8463b0b6232792222f2fc1b020f060fec2edc4ff11d43e83"
+    },
+    {
+      "bytes": 937,
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/runtime.sh",
+      "resolved_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/scripts/runtime.sh",
+      "sha256": "bd4ebbfcd3443dece86d4d535f313f3676ead7fb5dd8319e7ce0ec2f843eb0fc"
+    },
+    {
+      "bytes": 2044,
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/run_logged.py",
+      "resolved_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/scripts/run_logged.py",
+      "sha256": "150cd5e2a10b5355349528bc480705cd3b2079ea8c11b3dbcad209327040cc7a"
+    },
+    {
+      "bytes": 4962271,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/evaluation/enhancer_common_challenge_panel.tsv.gz",
+      "resolved_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/pretraining-1.1/data/evaluation/enhancer_common_challenge_panel.tsv.gz",
+      "sha256": "4f374ebf993b1e3b6a5fff5aba51ac6e0efaf6859300bf752f56245a7db65c20"
+    },
+    {
+      "bytes": 719591,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/evaluation/h3k27me3_common_challenge_panel.tsv.gz",
+      "resolved_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/pretraining-1.1/data/evaluation/h3k27me3_common_challenge_panel.tsv.gz",
+      "sha256": "895979a83b12d0bb372dd93a1baaa1a83d174e96a57e17acc4f5f3bea8775c26"
+    },
+    {
+      "bytes": 44914883,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-C_enhancer_interval_manifest.tsv.gz",
+      "resolved_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-C_enhancer_interval_manifest.tsv.gz",
+      "sha256": "5165080dbeba1a43decb57286c9ed44e820eaa73617f252cecda6ebe4321e72f"
+    },
+    {
+      "bytes": 6293534,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-C_h3k27me3_interval_manifest.tsv.gz",
+      "resolved_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-C_h3k27me3_interval_manifest.tsv.gz",
+      "sha256": "1d325e61ae5c41bfabe955c12e0b84f683a80472fb855dbac9a19fabd1cbc7ec"
+    },
+    {
+      "path": "diseases/COPD/04_modeling/trednet/model_phase_I/phase_one_weights.h5",
+      "resolved_managed_storage_path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/model_phase_I/phase_one_weights.h5",
+      "role": "original frozen phase-I weights; size recorded at integrity verification",
+      "sha256": "483b6c0cafd750ea8e97932cbc8a949276eaf1e77e7d8766f9a22eeddc2916d6"
+    },
+    {
+      "bytes": 3273481150,
+      "path": "diseases/COPD/04_modeling/trednet/fasta/hg38.fa",
+      "resolved_managed_storage_path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/fasta/hg38.fa",
+      "sha256": "5be01555d98347fdb3714dc84c6f77c9d8bc774adcf32c6f7a8fa06f5baf5e51"
+    },
+    {
+      "bytes": 19381,
+      "path": "diseases/COPD/04_modeling/trednet/fasta/hg38.fa.fai",
+      "resolved_managed_storage_path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/fasta/hg38.fa.fai",
+      "sha256": "3b425de206296a5c8053023fa5ca61da43cfe78c1737c12e58c83367c7e83c21"
+    }
+  ],
+  "consumed_stage_files": [
+    {
+      "bytes": 6435,
+      "path": "TEST_SPECIFICATION.md",
+      "sha256": "5c279df5c09699f3dbb70a953502e7cd994ed4fe093a7b4fdacad8a1bc8d1a19"
+    },
+    {
+      "bytes": 17371,
+      "path": "cache/architecture.json",
+      "sha256": "f6f529bb64af870e3efda95bbf90095d2800d6731e228c4db9cdced8449adad4"
+    },
+    {
+      "bytes": 1814,
+      "path": "cache/cache_manifest.json",
+      "sha256": "32477660f2173c97967ab920c9984d081f061d523ecc6c2c14a42b9457c2b11c"
+    },
+    {
+      "bytes": 1444,
+      "path": "cache/environment.json",
+      "sha256": "65cf393ddaaed2aae9a8eb9d0e168510a308002c1df992d4918bc044e7fd7594"
+    },
+    {
+      "bytes": 478344128,
+      "path": "cache/features_canonical.npy",
+      "sha256": "6681952719517712d123cd753c388b04049b88251ac5c434875ad4a98d32ed6e"
+    },
+    {
+      "bytes": 478344128,
+      "path": "cache/features_rc.npy",
+      "sha256": "2b99b0a2509c07af7ba5141ec7f67ca49b34c97f78285d3be5a190376985dcaa"
+    },
+    {
+      "bytes": 677,
+      "path": "cache/started.json",
+      "sha256": "5abdd2a9e7be29c6a7df5cf06ceafb28fcbadd748c9309db5500355efe6660ba"
+    },
+    {
+      "bytes": 2464584,
+      "path": "inputs/cache_index.tsv.gz",
+      "sha256": "0cec328a1dc83376bb5135176997e191b3ad905b6db2ab9254fa9c09d9c6d6d6"
+    },
+    {
+      "bytes": 52476353,
+      "path": "inputs/canonical_sequences.npy",
+      "sha256": "589ce6195f339aec072a7f20453cb13071d9d37a5bbf3f3705aa763cac616975"
+    },
+    {
+      "bytes": 3953962,
+      "path": "inputs/common/enhancer_test.tsv.gz",
+      "sha256": "b4617484a7d62e32897368b2db704d137b0ef13e3c79db474cedc65918456b82"
+    },
+    {
+      "bytes": 555440,
+      "path": "inputs/common/h3k27me3_test.tsv.gz",
+      "sha256": "7e3cdd3a3fb7214e81713c21779791a65d15927ddc484c3de72647daef6970f0"
+    },
+    {
+      "bytes": 4306,
+      "path": "inputs/input_manifest.json",
+      "sha256": "b52a58156ebb40fe31dfcd111667148c564f9a2a55146f0c23ea69afbd644c19"
+    },
+    {
+      "bytes": 5729,
+      "path": "inputs/test_panel_integrity_audit.json",
+      "sha256": "9ad1ead0b7a9c778812b3ce4bd7d4a3a024006e631ef5983d44c20687664a380"
+    },
+    {
+      "bytes": 7083965,
+      "path": "predictions/enhancer_chr8_9.tsv.gz",
+      "sha256": "fe3df5131e5794e2888b9aaffd9e07ec3bdffa00c979d33cfb2aef785ee60fbb"
+    },
+    {
+      "bytes": 7084322,
+      "path": "predictions/enhancer_independent_rc_pass.tsv.gz",
+      "sha256": "5fbd2f8daa5932c96593c9547bd39fdca1bb388f0027dc9a89cca4599c84d3b0"
+    },
+    {
+      "bytes": 982684,
+      "path": "predictions/h3k27me3_chr8_9.tsv.gz",
+      "sha256": "7acca2b44a6428f63ac55d7663f247ac4b9d5ab182f3e7b238fa45166506bd23"
+    },
+    {
+      "bytes": 982557,
+      "path": "predictions/h3k27me3_independent_rc_pass.tsv.gz",
+      "sha256": "a2efa6d13a1bc2614273c96fa5f7f2a0b70ed1b049dd57ea12e5a039b9ccfacb"
+    },
+    {
+      "bytes": 38091,
+      "path": "predictions/real_network_invariance.json",
+      "sha256": "01b4551112688c9f7f1f86bf34aad3b5df3dc8b7f23debe2123cdb24386468ec"
+    },
+    {
+      "bytes": 3716,
+      "path": "provenance/cache_independent_validation.json",
+      "sha256": "2845a0843c7e57f818bcc1d65d1fa16985e7d96be8042efbcaf1e655628b4ba6"
+    },
+    {
+      "bytes": 7904,
+      "path": "provenance/checkpoint_verification.json",
+      "sha256": "382be6d9345cfcc38504b43a6ce0c7e86ff29680e5d5c2eceaa006617dde2fbc"
+    },
+    {
+      "bytes": 5702,
+      "path": "provenance/inference_execution_gate.json",
+      "sha256": "54f87127659b706600ab22979786d1a3b5dddc99f25135ddc4f3aba38a81e355"
+    },
+    {
+      "bytes": 143835,
+      "path": "provenance/input_integrity_verified_before.json",
+      "sha256": "b64cea169dee9cc74d53aaad490caa1f63a91d9985d3535f7e7ab39bc9759503"
+    },
+    {
+      "bytes": 4930,
+      "path": "provenance/inputs_independent_validation.json",
+      "sha256": "be966fbdd12d2e25c4b04bdd6eba778123d9bec7ef0fbebf5fe5c170c15eb01e"
+    },
+    {
+      "bytes": 4252,
+      "path": "provenance/phase_I_execution_gate.json",
+      "sha256": "1bf725f8ecc50ddc7ad1796a16f09cce5898c76bf4008954823a3387d2103a46"
+    },
+    {
+      "bytes": 8931,
+      "path": "provenance/predictions_independent_validation.json",
+      "sha256": "8a4ec1b517c974ffa64a80a0cd12b6da72833cd7e9b0f6fb2aeafd9b434b3a80"
+    },
+    {
+      "bytes": 5934,
+      "path": "provenance/prospective_specification_freeze.json",
+      "sha256": "ce597fd8bcc59c05690df0b8ae19cefbcc5174a30df91f0d2a7964cb3b1b4642"
+    },
+    {
+      "bytes": 8089,
+      "path": "provenance/user_authorization.txt",
+      "sha256": "7246ef0075296dc79cb4e7b8da5366df9aa764a481b4e99d8dd104a0dd54de29"
+    },
+    {
+      "bytes": 1817,
+      "path": "results/chr8_9_evaluation/C_holdout_generalization.tsv",
+      "sha256": "c81d22bd2464aadb15f76b013efb8837203415664f0798697c93e8006e8da2e3"
+    },
+    {
+      "bytes": 893,
+      "path": "results/chr8_9_evaluation/bootstrap_audit.json",
+      "sha256": "1c77c8fefd6905c6b67586e4a651bef19bd87001066fc9a824ff699340d01fbc"
+    },
+    {
+      "bytes": 2393160,
+      "path": "results/chr8_9_evaluation/bootstrap_replicates.tsv.gz",
+      "sha256": "a4065df6be3a38b5d0692373fa80d249bf40586d58ad8d557a217546a1568e50"
+    },
+    {
+      "bytes": 19792,
+      "path": "results/chr8_9_evaluation/bootstrap_summary.tsv",
+      "sha256": "1d73fea393d1324c3ff37ef2e0cf47401e67113956f87ee499b5179a676e0bb3"
+    },
+    {
+      "bytes": 4129315,
+      "path": "results/chr8_9_evaluation/common_test_scores.tsv.gz",
+      "sha256": "ec1c69d1f1b7b9967dc5ac970fbdb34f17462e855473e152c7977021b841c7dc"
+    },
+    {
+      "bytes": 256506,
+      "path": "results/chr8_9_evaluation/fixed_threshold_bootstrap.tsv.gz",
+      "sha256": "10dd685a6f9c5a3a2d35b255617be8517d8ca667d1146abf4b12265e3853df23"
+    },
+    {
+      "bytes": 2913,
+      "path": "results/chr8_9_evaluation/fixed_threshold_intervals.tsv",
+      "sha256": "ebbec4d389d3e8d6dbbc52282ca6c393e9bc7117af4a1de42a75b008cc2b659d"
+    },
+    {
+      "bytes": 842,
+      "path": "results/chr8_9_evaluation/fixed_threshold_operating.tsv",
+      "sha256": "a92da9d4e4f5de5570ceb3953fc9cf364af85ac2b9431d2d8dd8aee76e8b716e"
+    },
+    {
+      "bytes": 819,
+      "path": "results/chr8_9_evaluation/holdout_decision.json",
+      "sha256": "8c6b66b16f96af9fe5b27fb3753e9d9913bbb4916cbce36ddc9a34669f83adde"
+    },
+    {
+      "bytes": 3645,
+      "path": "results/chr8_9_evaluation/metrics.tsv",
+      "sha256": "8e02c4b66d24a571c9cd165a89efe55f64163c7209dee1449324997d2a24c870"
+    },
+    {
+      "bytes": 2719,
+      "path": "results/chr8_9_evaluation/paired_ablation.tsv",
+      "sha256": "918f119b23a74e949dae421c892e864e06f28ea2cdf790b9919ef1065a40d61d"
+    },
+    {
+      "bytes": 20230,
+      "path": "results/chr8_9_evaluation/reliability_bins.tsv",
+      "sha256": "74fb07e324d861ff1d71cfac95a34f27e2ff5ce5aafc47f30972027989a86068"
+    },
+    {
+      "bytes": 796,
+      "path": "results/chr8_9_evaluation/seed_stability.tsv",
+      "sha256": "5dd9c509122c8085ea1b9106264bc83b47111a0c9866c60195496153f705e538"
+    },
+    {
+      "bytes": 138756,
+      "path": "results/chr8_9_evaluation/stratified_metrics.tsv",
+      "sha256": "b05681affd41e08e7a97e599ab06b27f5f7185e29463faf774e4f2a90ce3ca48"
+    },
+    {
+      "bytes": 28585,
+      "path": "scripts/evaluate_test.py",
+      "sha256": "e69b25f157803d1ea73392fb910871f59c412c3fc1c0f15104b4ff460a086c5d"
+    },
+    {
+      "bytes": 9010,
+      "path": "scripts/extract_test_phase_one.py",
+      "sha256": "eda5fafc9faf2437b9467d428f511e35f170179cbf81b7d0d15ebacdfe292398"
+    },
+    {
+      "bytes": 11330,
+      "path": "scripts/predict_test.py",
+      "sha256": "cff52b8fad7613f06cbd99195399ae074e9623adfec1063941c381d8b444a9c1"
+    },
+    {
+      "bytes": 6851,
+      "path": "scripts/prepare_test_gates.py",
+      "sha256": "72f8b74cb5929f6a05e61d34aa4971cbef2ebc0e69064113d139d7414151bd6a"
+    },
+    {
+      "bytes": 19460,
+      "path": "scripts/prepare_test_inputs.py",
+      "sha256": "8561447b249f61c3e50cc36ee77370115dde4d0c9013981a3c8799771e542966"
+    },
+    {
+      "bytes": 2044,
+      "path": "scripts/run_logged.py",
+      "sha256": "150cd5e2a10b5355349528bc480705cd3b2079ea8c11b3dbcad209327040cc7a"
+    },
+    {
+      "bytes": 937,
+      "path": "scripts/runtime.sh",
+      "sha256": "bd4ebbfcd3443dece86d4d535f313f3676ead7fb5dd8319e7ce0ec2f843eb0fc"
+    },
+    {
+      "bytes": 4591,
+      "path": "scripts/test_contract.py",
+      "sha256": "4f26fd6ebea3ae2f23ae7ad5ba78439356ef47882a2920e302dbad13f6682618"
+    },
+    {
+      "bytes": 16678,
+      "path": "specification/test_specification.json",
+      "sha256": "55e5a7f340596244dd45150ce393b645bcc000d64e34c19c7c517f784e41dcca"
+    },
+    {
+      "bytes": 2541,
+      "path": "tests/test_independent_validator.py",
+      "sha256": "ef69ea89eb99b8d20514f4b0485325f6ea402fcb66be3febdc55ee8590611ab4"
+    },
+    {
+      "bytes": 12640,
+      "path": "tests/test_test_evaluation.py",
+      "sha256": "dfef83ff8ce3af9086c4e91088ed578367113dd1cbc00bd58e9922dae363eeff"
+    },
+    {
+      "bytes": 13885,
+      "path": "tests/test_test_inference.py",
+      "sha256": "888ff8164812e5b4846353ce695cb0fc766082ed3247b4619e2c54dfc2be945c"
+    },
+    {
+      "bytes": 14475,
+      "path": "tests/test_test_inputs.py",
+      "sha256": "2a2f37cfabf6e2b3a8ebd59475d74429241adc822ef8aa9d29adb0a7fe18c25e"
+    }
+  ],
+  "n_original_checkpoints_unchanged": 18,
+  "no_external_benchmark_or_candidate_file_opened": true,
+  "original_checkpoints": [
+    {
+      "bytes": 350064314,
+      "configuration": "V2-A",
+      "model": "enhancer",
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_enhancer_seed104729/attempt-001/selected_checkpoint.keras",
+      "preserved_original_archive": true,
+      "seed": 104729,
+      "sha256": "8eb380c37e92f5cbe9cb71256421565f5924d1fe373ce7ee507dbb3545272a60",
+      "status": "PASS"
+    },
+    {
+      "bytes": 350064314,
+      "configuration": "V2-A",
+      "model": "enhancer",
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_enhancer_seed130363/attempt-001/selected_checkpoint.keras",
+      "preserved_original_archive": true,
+      "seed": 130363,
+      "sha256": "fb1f9103e7c824ffa280aa98fb2274a0abdb5eebbfcc381b2e8ed6df030faeed",
+      "status": "PASS"
+    },
+    {
+      "bytes": 350064314,
+      "configuration": "V2-A",
+      "model": "enhancer",
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_enhancer_seed155921/attempt-001/selected_checkpoint.keras",
+      "preserved_original_archive": true,
+      "seed": 155921,
+      "sha256": "a74ee692f8b7386678a37de827e5ecb1bd597f665c6b475ba19fddadea961168",
+      "status": "PASS"
+    },
+    {
+      "bytes": 350064314,
+      "configuration": "V2-A",
+      "model": "h3k27me3",
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras",
+      "preserved_original_archive": true,
+      "seed": 104729,
+      "sha256": "67b6c55c2dc7c79b8e70331ce4ee17c2f6b228ae95198312c8476084723b6249",
+      "status": "PASS"
+    },
+    {
+      "bytes": 350064314,
+      "configuration": "V2-A",
+      "model": "h3k27me3",
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras",
+      "preserved_original_archive": true,
+      "seed": 130363,
+      "sha256": "d20a5e35ac9e348ea09b1418abf18fd3a4c5c040811a8324d25ff39911b25ae8",
+      "status": "PASS"
+    },
+    {
+      "bytes": 350064314,
+      "configuration": "V2-A",
+      "model": "h3k27me3",
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras",
+      "preserved_original_archive": true,
+      "seed": 155921,
+      "sha256": "b350d45b7d126adf329c8379e5340a8cdd8b95c4028c00a99e726513c7a03820",
+      "status": "PASS"
+    },
+    {
+      "bytes": 350064314,
+      "configuration": "V2-B",
+      "model": "enhancer",
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_enhancer_seed104729/attempt-001/selected_checkpoint.keras",
+      "preserved_original_archive": true,
+      "seed": 104729,
+      "sha256": "1dc13e371414fd81072b07689f3ce64446a32692e917d236983db024f28cabca",
+      "status": "PASS"
+    },
+    {
+      "bytes": 350064314,
+      "configuration": "V2-B",
+      "model": "enhancer",
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_enhancer_seed130363/attempt-001/selected_checkpoint.keras",
+      "preserved_original_archive": true,
+      "seed": 130363,
+      "sha256": "97bbc39bc5e93bf49b51169ad015fb4710708c7f1d3e7aeb232d28d3fa40d9ab",
+      "status": "PASS"
+    },
+    {
+      "bytes": 350064314,
+      "configuration": "V2-B",
+      "model": "enhancer",
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_enhancer_seed155921/attempt-001/selected_checkpoint.keras",
+      "preserved_original_archive": true,
+      "seed": 155921,
+      "sha256": "c0e2a96ed19c3b9d5ddbb51a85b0d4ffce7701e41f12bd25ce69bcf763d6300e",
+      "status": "PASS"
+    },
+    {
+      "bytes": 350064314,
+      "configuration": "V2-B",
+      "model": "h3k27me3",
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras",
+      "preserved_original_archive": true,
+      "seed": 104729,
+      "sha256": "c74842f069069ef544fbf8ddab04690188282a07c2aa7ebf2a2a67994d567e0c",
+      "status": "PASS"
+    },
+    {
+      "bytes": 350064314,
+      "configuration": "V2-B",
+      "model": "h3k27me3",
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras",
+      "preserved_original_archive": true,
+      "seed": 130363,
+      "sha256": "935e054078b14a491d69e89719a68a2fa359beb42afce814a5a496d74c95cb72",
+      "status": "PASS"
+    },
+    {
+      "bytes": 350064314,
+      "configuration": "V2-B",
+      "model": "h3k27me3",
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras",
+      "preserved_original_archive": true,
+      "seed": 155921,
+      "sha256": "2e2fa2ec39cbaf8fea4080bd0576d6a1da6d968e2481c349d737f3db641553f6",
+      "status": "PASS"
+    },
+    {
+      "bytes": 350064314,
+      "configuration": "V2-C",
+      "model": "enhancer",
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_enhancer_seed104729/attempt-001/selected_checkpoint.keras",
+      "preserved_original_archive": true,
+      "seed": 104729,
+      "sha256": "1cb670f778a2d148d0ac2b71bea5c97f5a421bb64f744af1dc5b373a60ea3114",
+      "status": "PASS"
+    },
+    {
+      "bytes": 350064314,
+      "configuration": "V2-C",
+      "model": "enhancer",
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_enhancer_seed130363/attempt-001/selected_checkpoint.keras",
+      "preserved_original_archive": true,
+      "seed": 130363,
+      "sha256": "0e42ecc9364f967220ecc6c3bb0007dc25aced5d9c360355f6e48027c39f0795",
+      "status": "PASS"
+    },
+    {
+      "bytes": 350064314,
+      "configuration": "V2-C",
+      "model": "enhancer",
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_enhancer_seed155921/attempt-001/selected_checkpoint.keras",
+      "preserved_original_archive": true,
+      "seed": 155921,
+      "sha256": "733ca1845061508c820240d04d4b7c30d8ba0fa7c1086419eaec0b5c2bb041d5",
+      "status": "PASS"
+    },
+    {
+      "bytes": 350064314,
+      "configuration": "V2-C",
+      "model": "h3k27me3",
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras",
+      "preserved_original_archive": true,
+      "seed": 104729,
+      "sha256": "503683295ebeb48587f42748181bf6c5815f6a8c79b8dfdd4b669c931109be81",
+      "status": "PASS"
+    },
+    {
+      "bytes": 350064314,
+      "configuration": "V2-C",
+      "model": "h3k27me3",
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras",
+      "preserved_original_archive": true,
+      "seed": 130363,
+      "sha256": "56a2d331b6ed27e49f103dce228dda3c26a80ff296e91c9c740e52b9c36841c6",
+      "status": "PASS"
+    },
+    {
+      "bytes": 350064314,
+      "configuration": "V2-C",
+      "model": "h3k27me3",
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras",
+      "preserved_original_archive": true,
+      "seed": 155921,
+      "sha256": "995dc295d163a703b80bb3e451b8fc3bd7af01fb6ce041099fc5ce3d9cc82560",
+      "status": "PASS"
+    }
+  ],
+  "scientific_extraction_inference_evaluation_code_unchanged": true,
+  "status": "PASS",
+  "verified_utc": "2026-10-06T19:21:37.682332+00:00"
+}

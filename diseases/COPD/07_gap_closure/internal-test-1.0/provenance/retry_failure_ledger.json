@@ -1,0 +1,155 @@
+{
+  "command_count": 17,
+  "command_issues": [
+    {
+      "interpretation": "Nonzero evaluation exit 3 can represent a prospective C gate stop; do not silently classify it as an infrastructure failure.",
+      "label": "collect_execution_provenance",
+      "returncode": null,
+      "status": "RUNNING_AT_PROVENANCE_SNAPSHOT"
+    }
+  ],
+  "complete_command_snapshot": false,
+  "created_utc": "2026-10-06T19:16:41.603794+00:00",
+  "failure_records": [],
+  "model_execution_attempt_records": [
+    {
+      "file": {
+        "bytes": 677,
+        "path": "cache/started.json",
+        "sha256": "5abdd2a9e7be29c6a7df5cf06ceafb28fcbadd748c9309db5500355efe6660ba"
+      },
+      "record": {
+        "batch_size": 32,
+        "input_manifest": {
+          "bytes": 4306,
+          "path": "inputs/input_manifest.json",
+          "sha256": "b52a58156ebb40fe31dfcd111667148c564f9a2a55146f0c23ea69afbd644c19"
+        },
+        "optimizer": null,
+        "phase_I_gate": {
+          "bytes": 4252,
+          "path": "provenance/phase_I_execution_gate.json",
+          "sha256": "1bf725f8ecc50ddc7ad1796a16f09cce5898c76bf4008954823a3387d2103a46"
+        },
+        "phase_I_weights_sha256": "483b6c0cafd750ea8e97932cbc8a949276eaf1e77e7d8766f9a22eeddc2916d6",
+        "representation_axis_reversal": false,
+        "shape": [
+          26225,
+          4560
+        ],
+        "started_utc": "2026-10-06T19:06:50.603742+00:00",
+        "two_independent_nucleotide_orientation_passes": true
+      }
+    },
+    {
+      "file": {
+        "bytes": 684,
+        "path": "predictions/started.json",
+        "sha256": "05ed039f4edab9419192c54ce3c317129d5e7537364d0fb324f73b3d7cc2a3be"
+      },
+      "record": {
+        "argv": [
+          "diseases/COPD/07_gap_closure/internal-test-1.0/scripts/predict_test.py",
+          "--repo",
+          "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow",
+          "--stage",
+          "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0"
+        ],
+        "prospective_freeze": {
+          "bytes": 5934,
+          "path": "provenance/prospective_specification_freeze.json",
+          "sha256": "ce597fd8bcc59c05690df0b8ae19cefbcc5174a30df91f0d2a7964cb3b1b4642"
+        },
+        "scope": "frozen common C-task chr8-9 panels only; no metric evaluation or threshold selection",
+        "started_utc": "2026-10-06T19:09:33.096738+00:00"
+      }
+    }
+  ],
+  "n_recorded_checkpoint_inference_attempts": 1,
+  "n_recorded_phase_I_attempts": 1,
+  "nonzero_command_exits": 0,
+  "retry_inference": "Every distinct launched command/attempt is preserved; no failed attempt or code-version change is removed. No absence-of-retry claim is inferred solely from warning text.",
+  "unfinished_commands": 1,
+  "validator_version_history": {
+    "file": {
+      "bytes": 1307,
+      "path": "provenance/independent_validator_code_versions.json",
+      "sha256": "eafa54180e72c4d059bf2fc2551cfd9a2fed4b41ec17d501d57cc20b55149be3"
+    },
+    "record": {
+      "before_phase_II_test_inference": true,
+      "change_scope": "Independent prediction auditor additionally verifies every stored orientation/symmetric/ensemble array SHA-256 and exact maximum RC residual against saved prediction tables.",
+      "extraction_inference_evaluation_code_modified": false,
+      "initial_code_archived_by_exact_inverse_patch_and_hash_verified": true,
+      "initial_script": {
+        "inputs_QC_completed_utc": "2026-10-06T19:06:03.266563+00:00",
+        "path": "scripts/history/validate_test_stage_initial.py",
+        "sha256": "8f0f75eda7a8ead141df39887df8ff87398bd47f5ebfa64018d17401eada72be",
+        "used_by": "provenance/inputs_independent_validation.json"
+      },
+      "prior_validation_evidence_overwritten": false,
+      "scientific_specification_modified": false,
+      "status": "PASS_VERSION_LINEAGE_PRESERVED",
+      "strengthened_script": {
+        "cache_QC_completed_utc": "2026-10-06T19:07:39.042299+00:00",
+        "change_time_utc": "2026-10-06T19:07:28.674681568+00:00",
+        "path": "scripts/validate_test_stage.py",
+        "sha256": "9b08fc873af942d309be4fec70c458b37035414fbbf29834cd801c2883adcb53",
+        "used_by": "cache and subsequent independent validation modes"
+      },
+      "test_performance_outcome_viewed": false,
+      "unchanged_validation_function_bodies": [
+        "inputs",
+        "cache",
+        "evaluation",
+        "preservation"
+      ]
+    }
+  },
+  "warning_interpretation": "Exact diagnostic lines retained. A warning/error keyword, including error:null or nonfatal runtime diagnostics, is not itself proof of a failed command. Full logs and exit statuses are authoritative.",
+  "warning_line_count": 7,
+  "warning_or_error_keyword_lines": [
+    {
+      "label": "frozen18_test_inference_and_real_RC",
+      "line": "WARNING: All log messages before absl::InitializeLog() is called are written to STDERR",
+      "line_number": 3,
+      "log_path": "provenance/commands/frozen18_test_inference_and_real_RC.log"
+    },
+    {
+      "label": "independent_cache_validation",
+      "line": "{\"status\": \"PASS\", \"mode\": \"cache\", \"checks\": 151, \"failures\": 0, \"error\": null, \"wall_seconds\": 1.9476325940340757}",
+      "line_number": 1,
+      "log_path": "provenance/commands/independent_cache_validation.log"
+    },
+    {
+      "label": "independent_evaluation_validation",
+      "line": "{\"status\": \"PASS\", \"mode\": \"evaluation\", \"checks\": 383885, \"failures\": 0, \"error\": null, \"wall_seconds\": 29.40768902003765}",
+      "line_number": 1,
+      "log_path": "provenance/commands/independent_evaluation_validation.log"
+    },
+    {
+      "label": "independent_historical_preservation",
+      "line": "{\"status\": \"PASS\", \"mode\": \"preservation\", \"checks\": 1974, \"failures\": 0, \"error\": null, \"wall_seconds\": 33.379150941967964}",
+      "line_number": 1,
+      "log_path": "provenance/commands/independent_historical_preservation.log"
+    },
+    {
+      "label": "independent_input_validation",
+      "line": "{\"status\": \"PASS\", \"mode\": \"inputs\", \"checks\": 244105, \"failures\": 0, \"error\": null, \"wall_seconds\": 11.021683437749743}",
+      "line_number": 1,
+      "log_path": "provenance/commands/independent_input_validation.log"
+    },
+    {
+      "label": "independent_prediction_validation",
+      "line": "{\"status\": \"PASS\", \"mode\": \"predictions\", \"checks\": 465, \"failures\": 0, \"error\": null, \"wall_seconds\": 6.2207059701904655}",
+      "line_number": 1,
+      "log_path": "provenance/commands/independent_prediction_validation.log"
+    },
+    {
+      "label": "phase_I_test_forward_and_RC",
+      "line": "WARNING: All log messages before absl::InitializeLog() is called are written to STDERR",
+      "line_number": 3,
+      "log_path": "provenance/commands/phase_I_test_forward_and_RC.log"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "after_freeze_no_bundle_writes_permitted": true,
+  "all_logged_commands_completed": true,
+  "argv": [
+    "diseases/COPD/07_gap_closure/internal-test-1.0/scripts/finalize_test_stage.py",
+    "--repo",
+    "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow",
+    "--stage",
+    "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0",
+    "--phase",
+    "freeze"
+  ],
+  "created_utc": "2026-10-06T19:21:37.765353+00:00",
+  "cwd": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow",
+  "direct_invocation_required": true,
+  "executable": "/home/maheshwarany2/.local/share/uv/python/cpython-3.13.0-linux-x86_64-gnu/bin/python3.13",
+  "final_writes": [
+    "provenance/artifact_checksums.tsv",
+    "provenance/freeze.json"
+  ],
+  "git_HEAD_unchanged": "07d72dad0f57d605f5f50bbc7fa6d2c7843a94ba",
+  "no_models_evaluations_retraining_external_benchmark_or_candidates_executed_by_finalizer": true,
+  "python": "3.13.0",
+  "script": {
+    "bytes": 23191,
+    "path": "scripts/finalize_test_stage.py",
+    "sha256": "935168e0ee46e876339fd86ea324569db7a0cb88372acd4b1736518fc0d2b277"
+  },
+  "status": "ALL_PRESEAL_CHECKS_PASS_READY_FOR_PAYLOAD_HASHING"
+}

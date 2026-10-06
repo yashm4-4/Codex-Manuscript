@@ -1,0 +1,173 @@
+Proceed with only the frozen COPD V2 chr8–9 internal holdout evaluation, as a new versioned stage, e.g. internal-test-1.0.
+The completed and published internal-training-1.0 is immutable. Do not modify or rerun it.
+This authorization permits:
+- preparation of the already-frozen chr8–9 common C-task test panels;
+- phase-I feature extraction for those test-panel sequences only, in both nucleotide orientations;
+- inference with the already-frozen 18 A/B/C checkpoints;
+- fixed three-seed symmetric ensembles;
+- real-network reverse-complement invariance verification on the test sequences;
+- one-time common-panel chr8–9 evaluation;
+- application of the already-frozen chr7 C region-score thresholds to C test scores;
+- reporting and freezing the internal-holdout results.
+Do not open or parse the external functional benchmark.
+Do not score the COPD candidate universe, V1 337 candidates, GWAS variants, or arbitrary REF/ALT sequences.
+Do not fine-map, perform target-gene analysis, alter models, retrain, recalibrate thresholds, change matching, or revise the manuscript.
+1. Freeze the test-stage specification before model inference
+Before generating any chr8–9 model score, create and hash a prospective internal-test-1.0 specification.
+Record that chr8–9 is:
+- held out from V2 training;
+- held out from V2 checkpoint selection;
+- held out from chr7 calibration;
+- not historically pristine, because V1 used these chromosomes and V2 construction/QC inspected outcome-blind covariates;
+- therefore a fixed internal V2 holdout, not independent external validation.
+No model-performance outcome from chr8–9 may alter this specification.
+2. Fixed test population
+Use only the already-frozen common C-task chr8–9 panels from pretraining-1.1.
+Expected populations:
+- enhancer: 12,695 positives + 12,695 controls;
+- H3K27me3-associated: 1,754 positives + 1,754 controls.
+Verify exact membership, role, component IDs, hashes, labels and sequence eligibility against the frozen manifests before inference.
+Do not substitute rows or rebuild matching based on test outcomes.
+3. Phase-I extraction
+Extract frozen phase-I representations for these chr8–9 test sequences only.
+Compute nucleotide forward and nucleotide reverse-complement representations independently through the original frozen phase-I model.
+Never approximate RC by reversing representation columns.
+Record:
+- sequence count;
+- encoded-identity count;
+- geometry/QC;
+- phase-I weight hash;
+- forward/RC feature hashes;
+- environment;
+- compute use.
+Any sequence, hash, geometry or phase-I mismatch is a hard stop.
+4. Frozen checkpoints and ensembles only
+Load the exact original published checkpoints from internal-training-1.0.
+Verify their SHA-256 hashes before inference.
+Evaluate:
+- V2-A enhancer, all three frozen seeds;
+- V2-B enhancer, all three frozen seeds;
+- V2-C enhancer, all three frozen seeds;
+- V2-A H3K27me3-associated, all three frozen seeds;
+- V2-B H3K27me3-associated, all three frozen seeds;
+- V2-C H3K27me3-associated, all three frozen seeds.
+Use the already-frozen inference rule:
+q_s(x) = [p_s(x) + p_s(RC(x))] / 2
+and fixed equal-three-seed float64 ensemble:
+Q(x) = mean_s q_s(x)
+No seed weighting, checkpoint replacement or favorable-seed selection.
+5. Test-set RC invariance
+Verify actual-network symmetric-inference invariance on every frozen test-panel sequence:
+Q(x) == Q(RC(x))
+under the previously frozen numerical tolerances.
+Check every seed and every ensemble for A/B/C in both contexts.
+Failure is a hard stop.
+6. Primary common-panel test evaluation
+Evaluate A, B and C on the same frozen C-task chr8–9 panel within each context.
+Report per-seed and ensemble:
+- AP;
+- AUROC;
+- Brier score;
+- Brier skill;
+- fixed reliability bins.
+Use the existing global overlap/encoded-sequence components as the bootstrap unit.
+Perform the same fixed 2,000-valid-replicate component bootstrap framework used internally, with its prespecified invalid-draw safeguards.
+Report 95% confidence intervals.
+A/B/C comparisons are diagnostic ablations only.
+Report paired:
+- B − A;
+- C − B;
+- C − A
+for AP, AUROC and Brier.
+Do not require C to outperform B.
+Test performance must not change the already-frozen model configuration.
+7. Prospective C holdout-generalization gate
+Before viewing test outcomes, record the following fixed test-stage release rule separately for enhancer and H3K27me3-associated C:
+Require:
+- all three frozen C seeds evaluable;
+- real-network RC invariance PASS;
+- all predictions finite and within [0,1];
+- required test sample/component counts present;
+- 2,000 valid component-bootstrap replicates under the frozen procedure;
+- invalid-bootstrap fraction <0.10;
+- lower 95% CI AUROC >0.5;
+- lower 95% CI AP-minus-replicate-prevalence >0;
+- lower 95% CI Brier skill >0.
+Also report seed AP SD and range using the same definitions as chr7. Apply the existing stability limits prospectively:
+- sample SD ≤0.03;
+- range ≤0.10.
+These are internal generalization safeguards, not clinically meaningful effect-size thresholds.
+If either C context fails or is inconclusive:
+STOP.
+Do not open the external benchmark.
+Do not redesign or retrain within this version.
+Report the failed condition for investigator review.
+8. Apply the frozen chr7 thresholds without recalibration
+For C only, apply unchanged:
+- enhancer threshold: 0.74848511815071117
+- H3K27me3-associated threshold: 0.76960810025533055
+using score >= threshold.
+Do not use any chr8–9 score to alter these values.
+Report on the common test panel:
+- TP;
+- FP;
+- TN;
+- FN;
+- sensitivity;
+- specificity;
+- precision;
+- NPV;
+- accuracy;
+- observed negative-row FPR.
+Report confidence intervals where appropriate.
+A test FPR above 5% is not automatically a protocol failure, because the chr7 empirical 5% calibration rule was never claimed to guarantee population/test FPR. Report calibration drift rather than recalibrating.
+These remain region-label thresholds only. They are not variant-level FPR control, allele-effect thresholds or causal probabilities.
+9. Frozen stratified diagnostics
+Apply only the previously specified stratifications using already-frozen/train-derived cutpoints:
+- GC;
+- training-derived ATAC rank;
+- repeat content;
+- lobe provenance;
+- chromosome;
+- ambiguous-base status.
+Treat subgroup results as diagnostic/descriptive. Do not create new subgroup definitions after seeing outcomes.
+10. External and candidate firewall
+The external functional benchmark must remain unopened.
+Do not access benchmark labels or outcomes even to “check” a result.
+Do not score:
+- the 15,389 COPD variant records;
+- the 337 V1 candidates;
+- the 12 experimental shortlist variants;
+- rs2013701 or other known functional variants as special cases.
+This stage evaluates only frozen region-label generalization.
+11. Required outputs
+Produce a versioned internal-test-1.0 bundle containing:
+- prospective test specification and freeze hash created before inference;
+- input/test-panel integrity audit;
+- phase-I test cache manifest and hashes;
+- checkpoint-hash verification;
+- per-seed test predictions;
+- ensemble test predictions;
+- actual-network RC invariance audit;
+- common-panel A/B/C metrics;
+- component-bootstrap summaries;
+- paired ablation comparisons;
+- C holdout-generalization gate table;
+- frozen-threshold confusion/operating metrics;
+- reliability results;
+- frozen stratified diagnostics;
+- environment/compute provenance;
+- complete independent validation;
+- append-only V2 activity/decision/result register updates;
+- final checksum/freeze manifest.
+12. Stop
+At completion, report:
+- enhancer A/B/C test AP, AUROC and Brier/Brier skill;
+- H3K27me3 A/B/C test AP, AUROC and Brier/Brier skill;
+- paired A→B→C findings;
+- C seed stability;
+- C PASS/FAIL/INCONCLUSIVE under the prospective holdout rule;
+- frozen-threshold test operating characteristics;
+- whether both C contexts are ready for investigator review before any external functional evaluation.
+Then stop.
+Do not open the external benchmark or begin candidate/allele scoring without another explicit authorization.

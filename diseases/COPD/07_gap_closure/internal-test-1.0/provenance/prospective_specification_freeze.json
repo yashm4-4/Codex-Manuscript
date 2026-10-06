@@ -1,0 +1,139 @@
+{
+  "status": "PASS",
+  "version": "internal-test-1.0",
+  "created_utc": "2026-10-06T18:59:34.340609+00:00",
+  "baseline_commit": "07d72dad0f57d605f5f50bbc7fa6d2c7843a94ba",
+  "before_any_test_model_inference": true,
+  "predictions_present": false,
+  "cache_present": false,
+  "checkpoints_present_in_new_stage": false,
+  "specification": {
+    "path": "specification/test_specification.json",
+    "bytes": 16678,
+    "sha256": "55e5a7f340596244dd45150ce393b645bcc000d64e34c19c7c517f784e41dcca"
+  },
+  "markdown": {
+    "path": "TEST_SPECIFICATION.md",
+    "bytes": 6435,
+    "sha256": "5c279df5c09699f3dbb70a953502e7cd994ed4fe093a7b4fdacad8a1bc8d1a19"
+  },
+  "authorization": {
+    "path": "provenance/user_authorization.txt",
+    "bytes": 8089,
+    "sha256": "7246ef0075296dc79cb4e7b8da5366df9aa764a481b4e99d8dd104a0dd54de29"
+  },
+  "sources": [
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/provenance/freeze.json",
+      "bytes": 1151,
+      "sha256": "c151e61dba04a9e5500534e507a392d51e1af0601a6e62565288bc6b276e6de4"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/provenance/artifact_checksums.tsv",
+      "bytes": 59147,
+      "sha256": "661d2e95956068819713ed5d2ba01591f0019f5cb98f61e5b61e221aec8fd691"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/provenance/checkpoint_freeze.json",
+      "bytes": 35371,
+      "sha256": "d2330e4881c477cb7d8e5b2b621940674761133b779c89d0db1ad88635eee379"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/specification/internal_evaluation_implementation.json",
+      "bytes": 9467,
+      "sha256": "2ea34b80347899b08ef2bf9a03508f1f0e1d8c1509156460bb24bfe511a7d667"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/results/chr7_evaluation/stratification_cutpoints.json",
+      "bytes": 1338,
+      "sha256": "ba29550847ea755e8d08b40e5bbfe2947673860e5a17560d4dc706b6f8057c81"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/results/chr7_calibration/C_region_thresholds.json",
+      "bytes": 2440,
+      "sha256": "48f9a7a742a32ebb39d21ecfcde71c340cb2702ef124467d84ce40d0e33037a8"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/provenance/freeze.json",
+      "bytes": 2473,
+      "sha256": "6933f98bd6a1a7b7afe5adddc8a6bf9d7b1201df4b25f06d0cd8c35e183941a0"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/provenance/artifact_checksums.tsv",
+      "bytes": 20270,
+      "sha256": "48f7fb6478daa7ad2478fd7d4e9fbe1ee0179c06ac76abb3a4f65ebc11763b0d"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/specification/selection_adequacy.json",
+      "bytes": 19841,
+      "sha256": "3f5f8f1a2ef8a1713d77d15d88f4dae53e21d76bc554fe28448991515088b32f"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/phase_two_contract.py",
+      "bytes": 13066,
+      "sha256": "f50f226b901df6bbd66455462e4da922d8229a4d030f09613a8483a74f636e2f"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/extract_phase_one.py",
+      "bytes": 8628,
+      "sha256": "d1b77cf5a8468ee3516d6a89bcfd4f1e7994087642c851f409425242408621dd"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/predict_chr7.py",
+      "bytes": 12036,
+      "sha256": "1316cb5e79d9102779bb5611e561eed6482b61315345f62ddc74d6545ef2fe99"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/evaluate_chr7.py",
+      "bytes": 24330,
+      "sha256": "55b916dfd94c432b8463b0b6232792222f2fc1b020f060fec2edc4ff11d43e83"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/runtime.sh",
+      "bytes": 937,
+      "sha256": "bd4ebbfcd3443dece86d4d535f313f3676ead7fb5dd8319e7ce0ec2f843eb0fc"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/run_logged.py",
+      "bytes": 2044,
+      "sha256": "150cd5e2a10b5355349528bc480705cd3b2079ea8c11b3dbcad209327040cc7a"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/evaluation/enhancer_common_challenge_panel.tsv.gz",
+      "bytes": 4962271,
+      "sha256": "4f374ebf993b1e3b6a5fff5aba51ac6e0efaf6859300bf752f56245a7db65c20"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/evaluation/h3k27me3_common_challenge_panel.tsv.gz",
+      "bytes": 719591,
+      "sha256": "895979a83b12d0bb372dd93a1baaa1a83d174e96a57e17acc4f5f3bea8775c26"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-C_enhancer_interval_manifest.tsv.gz",
+      "bytes": 44914883,
+      "sha256": "5165080dbeba1a43decb57286c9ed44e820eaa73617f252cecda6ebe4321e72f"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-C_h3k27me3_interval_manifest.tsv.gz",
+      "bytes": 6293534,
+      "sha256": "1d325e61ae5c41bfabe955c12e0b84f683a80472fb855dbac9a19fabd1cbc7ec"
+    },
+    {
+      "path": "diseases/COPD/04_modeling/trednet/model_phase_I/phase_one_weights.h5",
+      "sha256": "483b6c0cafd750ea8e97932cbc8a949276eaf1e77e7d8766f9a22eeddc2916d6",
+      "role": "original frozen phase-I weights; size recorded at integrity verification"
+    },
+    {
+      "path": "diseases/COPD/04_modeling/trednet/fasta/hg38.fa",
+      "bytes": 3273481150,
+      "sha256": "5be01555d98347fdb3714dc84c6f77c9d8bc774adcf32c6f7a8fa06f5baf5e51"
+    },
+    {
+      "path": "diseases/COPD/04_modeling/trednet/fasta/hg38.fa.fai",
+      "bytes": 19381,
+      "sha256": "3b425de206296a5c8053023fa5ca61da43cfe78c1737c12e58c83367c7e83c21"
+    }
+  ],
+  "independent_prospective_review": "PASS: full JSON and Markdown reviewed before freeze; no missing/deviating user policy",
+  "amendment_policy": "Immutable. No model-performance outcome may alter these specifications."
+}

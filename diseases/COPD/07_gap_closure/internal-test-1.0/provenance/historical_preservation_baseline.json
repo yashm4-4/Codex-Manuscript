@@ -1,0 +1,46 @@
+{
+  "baseline_commit": "07d72dad0f57d605f5f50bbc7fa6d2c7843a94ba",
+  "candidate_payloads_opened": false,
+  "created_utc": "2026-10-06T19:00:53.937861+00:00",
+  "external_benchmark_files_opened": false,
+  "external_benchmark_payloads_hashed": false,
+  "historical_tree_interpretation": "Git object identities only; external payload preservation is not claimed from newly reading those forbidden files",
+  "registers": [
+    {
+      "bytes": 17537,
+      "path": "diseases/COPD/07_gap_closure/activity_log.tsv",
+      "preservation_rule": "Original byte prefix must remain exact; append-only stage records permitted later",
+      "sha256": "a7f7f36424042a9d9c82d6730f39577282cf1b8b644c10a9eaf34776e03565bf"
+    },
+    {
+      "bytes": 17113,
+      "path": "diseases/COPD/07_gap_closure/gap_closure_decision_register.tsv",
+      "preservation_rule": "Original byte prefix must remain exact; append-only stage records permitted later",
+      "sha256": "3d837bb54066298f55f43d5a564eeab572f1dd2b0c126f7a3314cceff276dcb6"
+    },
+    {
+      "bytes": 26811,
+      "path": "diseases/COPD/07_gap_closure/gap_closure_result_register.tsv",
+      "preservation_rule": "Original byte prefix must remain exact; append-only stage records permitted later",
+      "sha256": "69e2fc0ceee6e6972f3e98fa24c92a5abe0cbe781a9a8e82b8725acb7f006790"
+    }
+  ],
+  "status": "PASS",
+  "tracked_entries": 1310,
+  "tree_metadata_file": "provenance/historical_git_tree_before.tsv",
+  "working_status_filenames_only": [
+    "?? diseases/COPD/07_gap_closure/internal-test-1.0/TEST_SPECIFICATION.md",
+    "?? diseases/COPD/07_gap_closure/internal-test-1.0/provenance/commands/verify_immutable_test_sources.log",
+    "?? diseases/COPD/07_gap_closure/internal-test-1.0/provenance/commands/verify_immutable_test_sources.started.json",
+    "?? diseases/COPD/07_gap_closure/internal-test-1.0/provenance/prospective_specification_freeze.json",
+    "?? diseases/COPD/07_gap_closure/internal-test-1.0/provenance/user_authorization.txt",
+    "?? diseases/COPD/07_gap_closure/internal-test-1.0/scripts/evaluate_test.py",
+    "?? diseases/COPD/07_gap_closure/internal-test-1.0/scripts/prepare_test_inputs.py",
+    "?? diseases/COPD/07_gap_closure/internal-test-1.0/scripts/run_logged.py",
+    "?? diseases/COPD/07_gap_closure/internal-test-1.0/scripts/runtime.sh",
+    "?? diseases/COPD/07_gap_closure/internal-test-1.0/scripts/verify_test_sources.py",
+    "?? diseases/COPD/07_gap_closure/internal-test-1.0/specification/test_specification.json",
+    "?? diseases/COPD/07_gap_closure/internal-test-1.0/tests/test_test_evaluation.py",
+    "?? diseases/COPD/07_gap_closure/internal-test-1.0/tests/test_test_inputs.py"
+  ]
+}

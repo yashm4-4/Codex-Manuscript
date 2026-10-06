@@ -1,0 +1,383 @@
+{
+  "version": "internal-test-1.0",
+  "status": "PROSPECTIVE_BEFORE_ANY_CHR8_CHR9_MODEL_SCORE",
+  "baseline_commit": "07d72dad0f57d605f5f50bbc7fa6d2c7843a94ba",
+  "authorization_attachment": "b986bcdf-66c2-41bd-83e7-24ac596230a1/pasted-text.txt",
+  "scope": "Only already-frozen common C-task chr8–9 region-label internal holdout; no scientific design changes",
+  "holdout_interpretation": {
+    "V2_training_held_out": true,
+    "V2_checkpoint_selection_held_out": true,
+    "chr7_calibration_held_out": true,
+    "historically_pristine": false,
+    "reasons": [
+      "V1 used these chromosomes",
+      "V2 construction/QC inspected outcome-blind covariates"
+    ],
+    "claim": "Fixed internal V2 holdout, not independent external validation"
+  },
+  "immutability": {
+    "internal_training_1_0": true,
+    "pretraining_1_1": true,
+    "all_other_historical_artifacts": true,
+    "only_shared_register_changes": "Append-only completed-stage activity/decision/result entries",
+    "commit_or_push_authorized": false
+  },
+  "forbidden": [
+    "External functional benchmark opening or parsing, including labels/outcomes",
+    "COPD candidate universe,15,389variantrecords,337V1candidates,12shortlist,rs2013701 or other special variants",
+    "Arbitrary REF/ALT scoring",
+    "Retraining or changing any checkpoint/model/seed/ensemble",
+    "Threshold recalibration",
+    "Matching reconstruction or row substitution",
+    "Fine-mapping,target genes,manuscript revision",
+    "Additional V2 modules"
+  ],
+  "test_population": {
+    "enhancer": {
+      "panel": "diseases/COPD/07_gap_closure/pretraining-1.1/data/evaluation/enhancer_common_challenge_panel.tsv.gz",
+      "configuration_manifest": "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-C_enhancer_interval_manifest.tsv.gz",
+      "n_positive": 12695,
+      "n_control": 12695,
+      "n_rows": 25390,
+      "n_components": 8754,
+      "chromosome_counts": {
+        "chr8": 11963,
+        "chr9": 13427
+      }
+    },
+    "h3k27me3": {
+      "panel": "diseases/COPD/07_gap_closure/pretraining-1.1/data/evaluation/h3k27me3_common_challenge_panel.tsv.gz",
+      "configuration_manifest": "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-C_h3k27me3_interval_manifest.tsv.gz",
+      "n_positive": 1754,
+      "n_control": 1754,
+      "n_rows": 3508,
+      "n_components": 1809,
+      "chromosome_counts": {
+        "chr8": 1724,
+        "chr9": 1784
+      }
+    },
+    "filter": {
+      "partition": "test",
+      "validation_role": "test",
+      "chromosomes": [
+        "chr8",
+        "chr9"
+      ]
+    },
+    "union": {
+      "unique_intervals": 26225,
+      "encoded_identities": 26225,
+      "components": 8926,
+      "chromosome_counts": {
+        "chr8": 12416,
+        "chr9": 13809
+      }
+    },
+    "order": "Preserve each frozen panel subset row order; cache union sorted chromosome numeric order/core_start/interval_id as in training preparation.",
+    "verification": "Hash source panels/configuration manifests against unchanged pretraining1.1 ledger; exact subset membership,label,role,component,geometry and sequence-eligibility equality; no missing/substituted rows."
+  },
+  "sequence_and_phase_I": {
+    "core_length": 1000,
+    "input_length": 2001,
+    "input_bounds": "[core_start-501,core_end+500)",
+    "raw_sequence": "Uppercase FASTA substring SHA equals frozen sequence_sha256",
+    "encoding": "Every non-ACGT maps to N, all-zero onehot; canonical identity=min(normalized forward,nucleotide RC); hash equals canonical_rc_sequence_sha256; mapping restores genomic forward",
+    "sequence_geometry": [
+      26225,
+      2001
+    ],
+    "sequence_dtype": "uint8 ASCII",
+    "feature_geometry": [
+      26225,
+      4560
+    ],
+    "feature_dtype": "float32",
+    "phase_I_weight_sha256": "483b6c0cafd750ea8e97932cbc8a949276eaf1e77e7d8766f9a22eeddc2916d6",
+    "representation": "final4560sigmoid",
+    "orientations": "Independent actual phase-I calls for canonical nucleotide sequence and its nucleotide RC; NEVER reverse feature columns",
+    "batch_size": 32,
+    "training": false,
+    "stop_on_any_sequence_hash_geometry_or_phase_I_mismatch": true
+  },
+  "checkpoints": {
+    "source_stage": "internal-training-1.0",
+    "count": 18,
+    "configurations": [
+      "V2-A",
+      "V2-B",
+      "V2-C"
+    ],
+    "models": [
+      "enhancer",
+      "h3k27me3"
+    ],
+    "seeds": [
+      104729,
+      130363,
+      155921
+    ],
+    "archive_policy": "Load exact unchanged selected_checkpoint.keras archives with compile=False; verify each frozen SHA-256 before inference and after completion; never re-save",
+    "inference_batch_size": 256,
+    "network_dtype": "float32",
+    "symmetric_seed": "q_s=(float64(p_s(x))+float64(p_s(RC(x))))/2",
+    "ensemble": "np.mean(np.stack(q_s in frozen seed order).astype(float64),axis=0,dtype=float64)",
+    "seed_weights": "equal"
+  },
+  "RC_audit": {
+    "units": "Every test-panel sequence, all18seedmodels and6ensembles",
+    "procedure": "Independent additional actual-network calls with swapped nucleotide-orientation feature inputs in identical row order/batching; do not algebraically reuse saved p pairs",
+    "atol": 0.000001,
+    "rtol": 0.000001,
+    "rule": "abs(q(x)-q(RC(x)))<=atol+rtol*abs(q(RC(x)))",
+    "finite_range": "All raw,repeated,symmetric,and ensemble predictions finite within[0,1]",
+    "hard_stop_on_failure": true
+  },
+  "evaluation": {
+    "same_common_C_task_panel_for_A_B_C": true,
+    "predictors": "18 seed-specific symmetric models plus6fixed equal-seed ensembles",
+    "metrics": [
+      "AP",
+      "AUROC",
+      "Brier",
+      "BrierSkill",
+      "AP_gain"
+    ],
+    "AP": "Stepwise tie-grouped average precision; not trapezoidal PR-AUC",
+    "AUROC": "Tie-aware",
+    "Brier": "Mean squared probability error",
+    "BrierSkill": "1-Brier/(prevalence*(1-prevalence))",
+    "AP_gain": "AP minus prevalence",
+    "reliability": "Ten fixed bins[0,.1),...,[.9,1]; retain empty bins",
+    "model_ordering": "A/B/C comparisons diagnostic only; no superiority/noninferiority/selection condition"
+  },
+  "bootstrap": {
+    "unit": "Existing global full2001bp overlap/encoded-sequence component_id, not matching-pair IDs",
+    "component_order": "np.unique lexical sorted",
+    "rng": "Fresh np.random.default_rng(314159) separately per context",
+    "draw": "Generator.integers(0,n_components,size=n_components); bincount multiplicities; each row inherits component multiplicity",
+    "paired": "Identical draws for allseedandensemble A/B/C predictions and C fixed-threshold operating metrics withincontext",
+    "valid_replicates": 2000,
+    "maximum_attempts": 20000,
+    "invalid": "One-class/undefined required classification metrics invalid; do not impute",
+    "invalid_fraction": "invalid/attempted strictly<0.10",
+    "CI": "np.percentile(method='linear'),95%[2.5,97.5]",
+    "replicate_null": "AP_gain and BrierSkill computed with each replicate's own weighted prevalence",
+    "paired_comparisons": [
+      "B-A",
+      "C-B",
+      "C-A"
+    ],
+    "paired_metrics": [
+      "AP",
+      "AUROC",
+      "Brier"
+    ],
+    "uncertainty": "Conditional internal genomic-component uncertainty, not independent-donor/population uncertainty"
+  },
+  "C_holdout_generalization": {
+    "per_context": true,
+    "all_conjunctive": [
+      "All3frozen C seeds evaluable",
+      "Real-network seed/ensemble RC audit PASS",
+      "Every prediction finite/in[0,1]",
+      "Exact frozen positive/control/component and totalcounts present",
+      "Exactly2000valid component-bootstrap replicates",
+      "Invalid-bootstrap fraction<0.10",
+      "Lower95%CI AUROC>0.5",
+      "Lower95%CI AP-minus-replicate-prevalence>0",
+      "Lower95%CI BrierSkill>0",
+      "Three-seed AP sample SD(ddof=1)<=0.03",
+      "Three-seed AP range<=0.10"
+    ],
+    "status": "PASS iff allconditions; FAIL forobservedfailedcondition; INCONCLUSIVE forinsufficient/evaluation evidence; either nonPASS stops any downstreammodule",
+    "interpretation": "Internal generalization safeguards, not clinically meaningful effect-size thresholds",
+    "no_automatic_fallback_or_retraining": true
+  },
+  "thresholds": {
+    "source": "diseases/COPD/07_gap_closure/internal-training-1.0/results/chr7_calibration/C_region_thresholds.json",
+    "enhancer": {
+      "decimal_17g": "0.74848511815071117",
+      "hex": "0x1.7f39710000001p-1"
+    },
+    "h3k27me3": {
+      "decimal_17g": "0.76960810025533055",
+      "hex": "0x1.8a0a12aaaaaacp-1"
+    },
+    "apply_to": "V2-C equal-three-seed symmetric ensemble only",
+    "rule": "score>=threshold",
+    "outputs": [
+      "TP",
+      "FP",
+      "TN",
+      "FN",
+      "sensitivity",
+      "specificity",
+      "precision",
+      "NPV",
+      "accuracy",
+      "observed_negative_row_FPR"
+    ],
+    "CI": "Same2000valid component draws, fixed unchanged threshold; 95%linear percentile CIs for rates. Undefined precision/NPV denominators omitted with explicit valid/undefined counts; not a metric-bootstrap invalid draw. Confusion counts descriptive.",
+    "FPR_above_0_05": "Report calibration drift; not automatic protocol failure; never recalibrate",
+    "claims": "Region-label thresholds only; no variant FPR control,allele-effect threshold,causal probability or population FPR guarantee"
+  },
+  "stratification": {
+    "source": "diseases/COPD/07_gap_closure/internal-training-1.0/results/chr7_evaluation/stratification_cutpoints.json",
+    "cutpoints": "Use already-frozen retained C TRAIN positive cutpoints verbatim, never re-estimate",
+    "covariates": [
+      "gc_fraction",
+      "atac_signal_percentile_max_train_only",
+      "repeat_fraction_2001"
+    ],
+    "assignment": "np.searchsorted(cutpoints,value,side='right')+1",
+    "categorical": [
+      "atac_lobes exact signature",
+      "model-specific same_lobe_support_lobes exact signature",
+      "chromosome",
+      "non_acgt_fraction>0"
+    ],
+    "interpretation": "Diagnostic/descriptive only; n<100 explicitly flagged; no new subgroupdefinitions; one-class undefined metric fields left empty"
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "tensorflow": "2.20.0",
+    "keras": "3.14.1",
+    "numpy": "2.5.0",
+    "phase_I_and_inference_GPU": "One already allocated idle A100; no extra training jobs",
+    "threads": 8,
+    "PYTHONHASHSEED": "104729",
+    "determinism": "Same frozen runtime configuration; PYTHONDONTWRITEBYTECODE=1; read-only frozen helper imports",
+    "compute_projection": "26,225 identities (~3.65% previouscache); prior pairedphaseI393.57s for719,147identities; linear kernel estimate14.4s plus initialization/hash/IO. Inference4 actual orientation passes perseed percontext; allow up to1hour. CPU2000draw bootstrap+independentvalidation; no outcome-driven reruns."
+  },
+  "outputs": [
+    "Prospective specification+hash/freeze beforemodelinference",
+    "Input/testpanelintegrity",
+    "Phase-Itestcachemanifest+hashes",
+    "CheckpointSHAverification",
+    "Perseedandensembletestpredictions",
+    "ActualnetworkRCaudit",
+    "CommonpanelA/B/Cmetrics,reliability,bootstrap,CIs,pairedcomparisons",
+    "Cgeneralizationgatetable",
+    "Frozen-thresholdoperatingmetrics",
+    "Frozenstratifieddiagnostics",
+    "Environment,compute,commands/failures",
+    "Independentvalidation",
+    "Append-only3V2registers",
+    "Report+finalchecksum/freeze"
+  ],
+  "execution_gates": "Verify prospective freeze and source hashes before preparation; bind all code/scripts and prepared inputs before phaseI; bind cache+18checkpoint verification+code before phaseII; bind all predictions/RC/sources before one-time evaluation.",
+  "stop": "Finish report/freeze and stop for investigator review; external benchmark and candidate/allele scoring require separate explicit authorization even if both C PASS.",
+  "sources": [
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/provenance/freeze.json",
+      "bytes": 1151,
+      "sha256": "c151e61dba04a9e5500534e507a392d51e1af0601a6e62565288bc6b276e6de4"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/provenance/artifact_checksums.tsv",
+      "bytes": 59147,
+      "sha256": "661d2e95956068819713ed5d2ba01591f0019f5cb98f61e5b61e221aec8fd691"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/provenance/checkpoint_freeze.json",
+      "bytes": 35371,
+      "sha256": "d2330e4881c477cb7d8e5b2b621940674761133b779c89d0db1ad88635eee379"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/specification/internal_evaluation_implementation.json",
+      "bytes": 9467,
+      "sha256": "2ea34b80347899b08ef2bf9a03508f1f0e1d8c1509156460bb24bfe511a7d667"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/results/chr7_evaluation/stratification_cutpoints.json",
+      "bytes": 1338,
+      "sha256": "ba29550847ea755e8d08b40e5bbfe2947673860e5a17560d4dc706b6f8057c81"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/results/chr7_calibration/C_region_thresholds.json",
+      "bytes": 2440,
+      "sha256": "48f9a7a742a32ebb39d21ecfcde71c340cb2702ef124467d84ce40d0e33037a8"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/provenance/freeze.json",
+      "bytes": 2473,
+      "sha256": "6933f98bd6a1a7b7afe5adddc8a6bf9d7b1201df4b25f06d0cd8c35e183941a0"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/provenance/artifact_checksums.tsv",
+      "bytes": 20270,
+      "sha256": "48f7fb6478daa7ad2478fd7d4e9fbe1ee0179c06ac76abb3a4f65ebc11763b0d"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/specification/selection_adequacy.json",
+      "bytes": 19841,
+      "sha256": "3f5f8f1a2ef8a1713d77d15d88f4dae53e21d76bc554fe28448991515088b32f"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/phase_two_contract.py",
+      "bytes": 13066,
+      "sha256": "f50f226b901df6bbd66455462e4da922d8229a4d030f09613a8483a74f636e2f"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/extract_phase_one.py",
+      "bytes": 8628,
+      "sha256": "d1b77cf5a8468ee3516d6a89bcfd4f1e7994087642c851f409425242408621dd"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/predict_chr7.py",
+      "bytes": 12036,
+      "sha256": "1316cb5e79d9102779bb5611e561eed6482b61315345f62ddc74d6545ef2fe99"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/evaluate_chr7.py",
+      "bytes": 24330,
+      "sha256": "55b916dfd94c432b8463b0b6232792222f2fc1b020f060fec2edc4ff11d43e83"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/runtime.sh",
+      "bytes": 937,
+      "sha256": "bd4ebbfcd3443dece86d4d535f313f3676ead7fb5dd8319e7ce0ec2f843eb0fc"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/run_logged.py",
+      "bytes": 2044,
+      "sha256": "150cd5e2a10b5355349528bc480705cd3b2079ea8c11b3dbcad209327040cc7a"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/evaluation/enhancer_common_challenge_panel.tsv.gz",
+      "bytes": 4962271,
+      "sha256": "4f374ebf993b1e3b6a5fff5aba51ac6e0efaf6859300bf752f56245a7db65c20"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/evaluation/h3k27me3_common_challenge_panel.tsv.gz",
+      "bytes": 719591,
+      "sha256": "895979a83b12d0bb372dd93a1baaa1a83d174e96a57e17acc4f5f3bea8775c26"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-C_enhancer_interval_manifest.tsv.gz",
+      "bytes": 44914883,
+      "sha256": "5165080dbeba1a43decb57286c9ed44e820eaa73617f252cecda6ebe4321e72f"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-C_h3k27me3_interval_manifest.tsv.gz",
+      "bytes": 6293534,
+      "sha256": "1d325e61ae5c41bfabe955c12e0b84f683a80472fb855dbac9a19fabd1cbc7ec"
+    },
+    {
+      "path": "diseases/COPD/04_modeling/trednet/model_phase_I/phase_one_weights.h5",
+      "sha256": "483b6c0cafd750ea8e97932cbc8a949276eaf1e77e7d8766f9a22eeddc2916d6",
+      "role": "original frozen phase-I weights; size recorded at integrity verification"
+    },
+    {
+      "path": "diseases/COPD/04_modeling/trednet/fasta/hg38.fa",
+      "bytes": 3273481150,
+      "sha256": "5be01555d98347fdb3714dc84c6f77c9d8bc774adcf32c6f7a8fa06f5baf5e51"
+    },
+    {
+      "path": "diseases/COPD/04_modeling/trednet/fasta/hg38.fa.fai",
+      "bytes": 19381,
+      "sha256": "3b425de206296a5c8053023fa5ca61da43cfe78c1737c12e58c83367c7e83c21"
+    }
+  ]
+}

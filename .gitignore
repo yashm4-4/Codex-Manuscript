@@ -42,3 +42,8 @@ __pycache__/
 /diseases/COPD/07_gap_closure/internal-training-1.0/cache/features_canonical.npy
 /diseases/COPD/07_gap_closure/internal-training-1.0/cache/features_rc.npy
 /diseases/COPD/07_gap_closure/internal-training-1.0/inputs/canonical_sequences.npy
+
+# Frozen internal-test-1.0 reconstructable phase-I caches: external, not LFS.
+# Exact hashes, schemas, dependencies and managed paths are in its publication addendum.
+/diseases/COPD/07_gap_closure/internal-test-1.0/cache/features_canonical.npy
+/diseases/COPD/07_gap_closure/internal-test-1.0/cache/features_rc.npy

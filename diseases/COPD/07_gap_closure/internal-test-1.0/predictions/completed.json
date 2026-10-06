@@ -1,0 +1,36 @@
+{
+  "files": [
+    {
+      "bytes": 7083965,
+      "path": "predictions/enhancer_chr8_9.tsv.gz",
+      "sha256": "fe3df5131e5794e2888b9aaffd9e07ec3bdffa00c979d33cfb2aef785ee60fbb"
+    },
+    {
+      "bytes": 7084322,
+      "path": "predictions/enhancer_independent_rc_pass.tsv.gz",
+      "sha256": "5fbd2f8daa5932c96593c9547bd39fdca1bb388f0027dc9a89cca4599c84d3b0"
+    },
+    {
+      "bytes": 982684,
+      "path": "predictions/h3k27me3_chr8_9.tsv.gz",
+      "sha256": "7acca2b44a6428f63ac55d7663f247ac4b9d5ab182f3e7b238fa45166506bd23"
+    },
+    {
+      "bytes": 982557,
+      "path": "predictions/h3k27me3_independent_rc_pass.tsv.gz",
+      "sha256": "a2efa6d13a1bc2614273c96fa5f7f2a0b70ed1b049dd57ea12e5a039b9ccfacb"
+    }
+  ],
+  "finished_utc": "2026-10-06T19:10:44.687363+00:00",
+  "invariance_record": {
+    "bytes": 38091,
+    "path": "predictions/real_network_invariance.json",
+    "sha256": "01b4551112688c9f7f1f86bf34aad3b5df3dc8b7f23debe2123cdb24386468ec"
+  },
+  "invariance_status": "PASS",
+  "peak_RSS_KiB": 3087964,
+  "status": "COMPLETED",
+  "system_cpu_seconds": 6.714681,
+  "user_cpu_seconds": 63.291767,
+  "wall_seconds": 71.59064218308777
+}

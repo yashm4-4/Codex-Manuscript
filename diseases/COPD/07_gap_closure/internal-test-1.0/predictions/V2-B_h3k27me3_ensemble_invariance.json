@@ -1,0 +1,22 @@
+{
+  "atol": 1e-06,
+  "configuration": "V2-B",
+  "fixed_seed_order": [
+    104729,
+    130363,
+    155921
+  ],
+  "max_absolute_difference": 0.0,
+  "max_tolerance_normalized_difference": 0.0,
+  "model": "h3k27me3",
+  "n_failed": 0,
+  "n_sequences": 3508,
+  "original_wrapper_array_sha256": "a8afef9f55424e6eccbb87bbe4b36570907dc1e88d0555c6130c1621493ab13f",
+  "real_network": true,
+  "reduction_dtype": "float64",
+  "reverse_wrapper_array_sha256": "a8afef9f55424e6eccbb87bbe4b36570907dc1e88d0555c6130c1621493ab13f",
+  "rtol": 1e-06,
+  "seed": "all3",
+  "status": "PASS",
+  "unit": "ensemble"
+}

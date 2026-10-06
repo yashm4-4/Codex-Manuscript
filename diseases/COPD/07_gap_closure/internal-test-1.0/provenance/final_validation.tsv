@@ -1,0 +1,8 @@
+check	status	detail
+independent_inputs_QC	PASS	244105 checks; zero failures
+independent_cache_QC	PASS	151 checks; zero failures
+independent_predictions_QC	PASS	465 checks; zero failures
+independent_evaluation_QC	PASS	383885 checks; zero failures
+independent_preservation_QC	PASS	1974 checks; zero failures
+independent_report_review	PASS	Report hash unchanged after independent review
+three_append_only_registers	PASS	Full current hashes and historical byte prefixes verified

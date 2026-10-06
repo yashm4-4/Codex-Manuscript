@@ -1,0 +1,27 @@
+model	gate	status	observed	criterion
+enhancer	all_three_C_seeds_evaluable	PASS	3	3 fixed seeds; no seed selection
+enhancer	real_network_invariance	PASS	PASS	hash-bound actual-network all seeds/ensembles PASS
+enhancer	finite_valid_probabilities	PASS	PASS	all orientations/seeds/ensembles finite in [0,1]
+enhancer	exact_test_positive	PASS	12695	exactly 12695
+enhancer	exact_test_control	PASS	12695	exactly 12695
+enhancer	exact_test_components	PASS	8754	exactly 8754
+enhancer	bootstrap_valid_replicates	PASS	2000	exactly 2000 valid; at most 20000 attempts
+enhancer	bootstrap_invalid_fraction	PASS	0.0	strictly <0.10
+enhancer	lower95_AUROC	PASS	0.790251570476658	strictly >0.5
+enhancer	lower95_AP_gain	PASS	0.2872608458402373	strictly >0.0
+enhancer	lower95_BrierSkill	PASS	0.2490104267151466	strictly >0.0
+enhancer	seed_AP_sample_SD	PASS	0.0003720143229471607	<=0.03; ddof=1
+enhancer	seed_AP_range	PASS	0.0007336050444008979	<=0.10
+h3k27me3	all_three_C_seeds_evaluable	PASS	3	3 fixed seeds; no seed selection
+h3k27me3	real_network_invariance	PASS	PASS	hash-bound actual-network all seeds/ensembles PASS
+h3k27me3	finite_valid_probabilities	PASS	PASS	all orientations/seeds/ensembles finite in [0,1]
+h3k27me3	exact_test_positive	PASS	1754	exactly 1754
+h3k27me3	exact_test_control	PASS	1754	exactly 1754
+h3k27me3	exact_test_components	PASS	1809	exactly 1809
+h3k27me3	bootstrap_valid_replicates	PASS	2000	exactly 2000 valid; at most 20000 attempts
+h3k27me3	bootstrap_invalid_fraction	PASS	0.0	strictly <0.10
+h3k27me3	lower95_AUROC	PASS	0.7722317312841127	strictly >0.5
+h3k27me3	lower95_AP_gain	PASS	0.27738755698445244	strictly >0.0
+h3k27me3	lower95_BrierSkill	PASS	0.2150256954778419	strictly >0.0
+h3k27me3	seed_AP_sample_SD	PASS	0.0007666085587933202	<=0.03; ddof=1
+h3k27me3	seed_AP_range	PASS	0.0015283613320178357	<=0.10

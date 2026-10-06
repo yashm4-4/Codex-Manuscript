@@ -1,0 +1,33 @@
+{
+  "atol": 1e-06,
+  "checkpoint": {
+    "bytes": 350064314,
+    "original_archive_unchanged": true,
+    "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras",
+    "path_base": "repository",
+    "sha256": "d20a5e35ac9e348ea09b1418abf18fd3a4c5c040811a8324d25ff39911b25ae8"
+  },
+  "configuration": "V2-A",
+  "max_absolute_difference": 0.0,
+  "max_same_orientation_repeated_forward_difference": 0.0,
+  "max_same_orientation_repeated_rc_difference": 0.0,
+  "max_tolerance_normalized_difference": 0.0,
+  "model": "h3k27me3",
+  "n_failed": 0,
+  "n_sequences": 3508,
+  "original_batch_size": 256,
+  "original_forward_array_sha256": "0ed99adbd6e2f61113ad8bd4c0dd9b64b71559c68101504f95177089601b40b3",
+  "original_rc_array_sha256": "6ad5eaa20414fed1cc2cdf197efea6cabf7dc8a8700ef634bd6f1ad2cfe12332",
+  "original_wrapper_array_sha256": "a8120546b59dd3997887a434549c82988466c5b271706543ba71d377d0a41e2e",
+  "real_network": true,
+  "reverse_batch_size": 256,
+  "reverse_pass_first_array_sha256": "6ad5eaa20414fed1cc2cdf197efea6cabf7dc8a8700ef634bd6f1ad2cfe12332",
+  "reverse_pass_forward_orientation": "nucleotide RC via independently extracted opposite phase-I cache",
+  "reverse_pass_row_order": "same frozen genomic row order and fixed batching as original wrapper",
+  "reverse_pass_second_array_sha256": "0ed99adbd6e2f61113ad8bd4c0dd9b64b71559c68101504f95177089601b40b3",
+  "reverse_wrapper_array_sha256": "a8120546b59dd3997887a434549c82988466c5b271706543ba71d377d0a41e2e",
+  "rtol": 1e-06,
+  "seed": 130363,
+  "status": "PASS",
+  "unit": "seed"
+}

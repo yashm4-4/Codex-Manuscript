@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "recorded_utc": "2026-10-06T19:40:48Z",
+  "scope": "Publication-only read-only independent integrity audit; not a rerun of scientific validation",
+  "independent_reviewer": "test_publication_integrity",
+  "baseline_commit": "07d72dad0f57d605f5f50bbc7fa6d2c7843a94ba",
+  "frozen_local_payload_hashes_and_sizes": "172/172 PASS",
+  "frozen_local_payload_bytes": 1093208401,
+  "stage_regular_files_excluding_pycache": 174,
+  "original_checksum_ledger": {
+    "bytes": 20446,
+    "sha256": "c354375030411b346145709da0ec6ef1512ca981648813789e38675750a7f1f2"
+  },
+  "original_freeze_record": {
+    "bytes": 1676,
+    "sha256": "db514e7877ce948718be3632fb8e8626350da03b8fce3878ffa2acb2698a3d55"
+  },
+  "authorized_register_current_hashes_and_historical_prefixes": "3/3 PASS",
+  "append_only_register_rows": {
+    "activity": 7,
+    "decision": 4,
+    "result": 9
+  },
+  "original_training_checkpoint_local_sha256_and_baseline_lfs_pointers": "18/18 PASS",
+  "original_training_checkpoint_bytes": 6301157652,
+  "checkpoint_copies_in_test_stage": 0,
+  "historical_tracked_artifacts_unchanged_except_authorized_register_appends": true,
+  "oversized_classification": {
+    "scientifically_essential_non_regenerable": [],
+    "reconstructable_external_intermediates": [
+      "internal-test-1.0/cache/features_canonical.npy",
+      "internal-test-1.0/cache/features_rc.npy"
+    ],
+    "other_artifacts_requiring_storage_decision": []
+  },
+  "canonical_sequence_array_included_unchanged_in_ordinary_git": true,
+  "scientific_payloads_modified": false,
+  "inference_or_metric_recomputation_or_threshold_recalibration": false,
+  "external_benchmark_outcomes_or_candidate_content_accessed": false,
+  "retraining_or_new_analysis_performed": false,
+  "remote_publication_verification": "Pending at the time of this prepublication record; see subsequent remote verification receipt."
+}

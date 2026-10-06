@@ -1,0 +1,95 @@
+{
+  "candidate_payloads_opened": false,
+  "checked_files": [
+    {
+      "bytes": 16678,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/specification/test_specification.json",
+      "sha256": "55e5a7f340596244dd45150ce393b645bcc000d64e34c19c7c517f784e41dcca"
+    },
+    {
+      "bytes": 6435,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/TEST_SPECIFICATION.md",
+      "sha256": "5c279df5c09699f3dbb70a953502e7cd994ed4fe093a7b4fdacad8a1bc8d1a19"
+    },
+    {
+      "bytes": 8089,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/provenance/user_authorization.txt",
+      "sha256": "7246ef0075296dc79cb4e7b8da5366df9aa764a481b4e99d8dd104a0dd54de29"
+    },
+    {
+      "bytes": 5934,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/provenance/prospective_specification_freeze.json",
+      "sha256": "ce597fd8bcc59c05690df0b8ae19cefbcc5174a30df91f0d2a7964cb3b1b4642"
+    },
+    {
+      "bytes": 2464584,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/inputs/cache_index.tsv.gz",
+      "sha256": "0cec328a1dc83376bb5135176997e191b3ad905b6db2ab9254fa9c09d9c6d6d6"
+    },
+    {
+      "bytes": 52476353,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/inputs/canonical_sequences.npy",
+      "sha256": "589ce6195f339aec072a7f20453cb13071d9d37a5bbf3f3705aa763cac616975"
+    },
+    {
+      "bytes": 3953962,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/inputs/common/enhancer_test.tsv.gz",
+      "sha256": "b4617484a7d62e32897368b2db704d137b0ef13e3c79db474cedc65918456b82"
+    },
+    {
+      "bytes": 555440,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/inputs/common/h3k27me3_test.tsv.gz",
+      "sha256": "7e3cdd3a3fb7214e81713c21779791a65d15927ddc484c3de72647daef6970f0"
+    },
+    {
+      "bytes": 5729,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/inputs/test_panel_integrity_audit.json",
+      "sha256": "9ad1ead0b7a9c778812b3ce4bd7d4a3a024006e631ef5983d44c20687664a380"
+    },
+    {
+      "bytes": 4962271,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/pretraining-1.1/data/evaluation/enhancer_common_challenge_panel.tsv.gz",
+      "sha256": "4f374ebf993b1e3b6a5fff5aba51ac6e0efaf6859300bf752f56245a7db65c20"
+    },
+    {
+      "bytes": 719591,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/pretraining-1.1/data/evaluation/h3k27me3_common_challenge_panel.tsv.gz",
+      "sha256": "895979a83b12d0bb372dd93a1baaa1a83d174e96a57e17acc4f5f3bea8775c26"
+    },
+    {
+      "bytes": 44914883,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-C_enhancer_interval_manifest.tsv.gz",
+      "sha256": "5165080dbeba1a43decb57286c9ed44e820eaa73617f252cecda6ebe4321e72f"
+    },
+    {
+      "bytes": 6293534,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-C_h3k27me3_interval_manifest.tsv.gz",
+      "sha256": "1d325e61ae5c41bfabe955c12e0b84f683a80472fb855dbac9a19fabd1cbc7ec"
+    },
+    {
+      "bytes": 3273481150,
+      "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/fasta/hg38.fa",
+      "sha256": "5be01555d98347fdb3714dc84c6f77c9d8bc774adcf32c6f7a8fa06f5baf5e51"
+    },
+    {
+      "bytes": 19381,
+      "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/fasta/hg38.fa.fai",
+      "sha256": "3b425de206296a5c8053023fa5ca61da43cfe78c1737c12e58c83367c7e83c21"
+    }
+  ],
+  "checks": 244105,
+  "completed_utc": "2026-10-06T19:06:03.266563+00:00",
+  "error": null,
+  "external_benchmark_opened": false,
+  "failures": 0,
+  "historical_sources_written": false,
+  "mode": "inputs",
+  "model_execution_performed": false,
+  "script": {
+    "path": "scripts/validate_test_stage.py",
+    "sha256": "8f0f75eda7a8ead141df39887df8ff87398bd47f5ebfa64018d17401eada72be"
+  },
+  "started_utc": "2026-10-06T19:05:52.244903+00:00",
+  "status": "PASS",
+  "wall_seconds": 11.021683437749743
+}

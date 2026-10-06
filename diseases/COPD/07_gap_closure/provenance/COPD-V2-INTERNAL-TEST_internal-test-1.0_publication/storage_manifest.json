@@ -1,0 +1,621 @@
+{
+  "schema": "COPD-internal-test-publication-storage-v1",
+  "stage": "internal-test-1.0",
+  "publication_scope": "Storage/publication addendum only. No change to any frozen scientific artifact.",
+  "repository": "yashm4-4/Codex-Manuscript",
+  "branch": "main",
+  "baseline_commit": "07d72dad0f57d605f5f50bbc7fa6d2c7843a94ba",
+  "stage_repository_path": "diseases/COPD/07_gap_closure/internal-test-1.0",
+  "managed_repository_root": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow",
+  "original_scientific_freeze": {
+    "artifact_checksums": {
+      "bytes": 20446,
+      "path": "provenance/artifact_checksums.tsv",
+      "sha256": "c354375030411b346145709da0ec6ef1512ca981648813789e38675750a7f1f2"
+    },
+    "both_C_contexts_pass": true,
+    "candidate_scoring_performed": false,
+    "checksum_scope": "All regular stage payloads except __pycache__ and the checksum ledger/freeze self-references; original checkpoints are external immutable sources, not copied into this stage.",
+    "commit_or_push_performed": false,
+    "created_utc": "2026-10-06T19:21:38.714044+00:00",
+    "external_benchmark_opened": false,
+    "git_HEAD_unchanged": "07d72dad0f57d605f5f50bbc7fa6d2c7843a94ba",
+    "independent_final_validation": {
+      "bytes": 3044,
+      "path": "provenance/final_validation.json",
+      "sha256": "8b788b303af81948e14be00472efb7bb4dee0b4e6031c087ddcc0e89c0b31727"
+    },
+    "model_contexts": {
+      "enhancer": {
+        "failed_or_inconclusive_gates": [],
+        "status": "PASS"
+      },
+      "h3k27me3": {
+        "failed_or_inconclusive_gates": [],
+        "status": "PASS"
+      }
+    },
+    "n_payloads": 172,
+    "next_action": "STOP_FOR_INVESTIGATOR_REVIEW_NO_EXTERNAL_OR_CANDIDATE_ACCESS",
+    "no_further_analysis_authorized": true,
+    "prospective_specification_freeze": {
+      "bytes": 5934,
+      "path": "provenance/prospective_specification_freeze.json",
+      "sha256": "ce597fd8bcc59c05690df0b8ae19cefbcc5174a30df91f0d2a7964cb3b1b4642"
+    },
+    "report": {
+      "bytes": 46429,
+      "path": "INTERNAL_TEST_REPORT.md",
+      "sha256": "cb48a6bac33d4bfb13944ab30ebc87600db80a608dd4589a499dd5bf9cce7380"
+    },
+    "status": "FROZEN_INTERNAL_HOLDOUT_COMPLETE",
+    "total_payload_bytes": 1093208401,
+    "version": "internal-test-1.0"
+  },
+  "original_freeze_file": {
+    "path": "provenance/freeze.json",
+    "bytes": 1676,
+    "sha256": "db514e7877ce948718be3632fb8e8626350da03b8fce3878ffa2acb2698a3d55"
+  },
+  "original_checksum_ledger": {
+    "path": "provenance/artifact_checksums.tsv",
+    "bytes": 20446,
+    "sha256": "c354375030411b346145709da0ec6ef1512ca981648813789e38675750a7f1f2"
+  },
+  "count_and_size_conventions": {
+    "frozen_payload_count": 172,
+    "frozen_payload_bytes": 1093208401,
+    "git_hosted_frozen_payload_count": 170,
+    "git_hosted_frozen_payload_bytes": 136520145,
+    "git_hosted_original_freeze_and_ledger_count": 2,
+    "git_hosted_original_freeze_and_ledger_bytes": 22122,
+    "total_git_hosted_stage_file_count": 172,
+    "total_git_hosted_stage_bytes": 136542267,
+    "external_reconstructable_count": 2,
+    "external_reconstructable_bytes": 956688256,
+    "new_lfs_objects": 0,
+    "duplicated_training_checkpoints": 0,
+    "shared_register_count": 3,
+    "shared_register_full_file_bytes": 70126,
+    "note": "Stage totals exclude shared-register files, .gitignore policy additions, publication addendum/verification files, prior Git history and Git object overhead. The unchanged original checksum ledger intentionally lists all 172 scientific payloads, including the two external caches. It does not list itself or freeze.json."
+  },
+  "oversized_artifact_classification": {
+    "threshold_bytes": 104857600,
+    "essential_non_regenerable": [],
+    "reconstructable_caches": [
+      "cache/features_canonical.npy",
+      "cache/features_rc.npy"
+    ],
+    "other_storage_decision_required": [],
+    "no_oversized_ordinary_payload_remaining": true
+  },
+  "storage_inventory": "storage_inventory.tsv",
+  "storage_inventory_scope": "Every original stage checksum-ledger payload plus the unchanged original checksum ledger/freeze and three exact shared-register files. Self-referential administrative publication files and .gitignore are instead bound by the publication Git commit.",
+  "git_ordinary": {
+    "stage_inclusion": "Every frozen stage payload except the two explicitly listed external feature caches, plus unchanged provenance/artifact_checksums.tsv and provenance/freeze.json. Includes predictions, bootstrap draws, validation tables, all reports/specifications/scripts/provenance, and inputs/canonical_sequences.npy.",
+    "sequence_input": {
+      "path": "inputs/canonical_sequences.npy",
+      "bytes": 52476353,
+      "sha256": "589ce6195f339aec072a7f20453cb13071d9d37a5bbf3f3705aa763cac616975",
+      "dtype": "uint8 ASCII A/C/G/T/N",
+      "shape": [
+        26225,
+        2001
+      ],
+      "numpy_descr": "|u1",
+      "fortran_order": false,
+      "header_bytes": 128,
+      "git_lfs": false
+    },
+    "shared_registers": [
+      {
+        "path": "diseases/COPD/07_gap_closure/activity_log.tsv",
+        "bytes": 21017,
+        "sha256": "2355f5834a4aa0b231663d3ac9b044aabb3bee087194d89a7480122ed4713c18",
+        "append_only": true,
+        "before_bytes": 17537,
+        "before_sha256": "a7f7f36424042a9d9c82d6730f39577282cf1b8b644c10a9eaf34776e03565bf",
+        "appended_bytes": 3480,
+        "appended_rows": 7
+      },
+      {
+        "path": "diseases/COPD/07_gap_closure/gap_closure_decision_register.tsv",
+        "bytes": 19029,
+        "sha256": "655d6e2757b6422d43602f26e5481b7351b5512d0be3d58f41a6f51f44c91351",
+        "append_only": true,
+        "before_bytes": 17113,
+        "before_sha256": "3d837bb54066298f55f43d5a564eeab572f1dd2b0c126f7a3314cceff276dcb6",
+        "appended_bytes": 1916,
+        "appended_rows": 4
+      },
+      {
+        "path": "diseases/COPD/07_gap_closure/gap_closure_result_register.tsv",
+        "bytes": 30080,
+        "sha256": "db82dacd38e21575fc9d51a1ff269f6947b7ff64e6993ce4d5d6154734b5bea4",
+        "append_only": true,
+        "before_bytes": 26811,
+        "before_sha256": "69e2fc0ceee6e6972f3e98fa24c92a5abe0cbe781a9a8e82b8725acb7f006790",
+        "appended_bytes": 3269,
+        "appended_rows": 9
+      }
+    ]
+  },
+  "git_lfs": {
+    "new_objects": [],
+    "existing_training_checkpoint_count": 18,
+    "existing_training_checkpoint_stage": "diseases/COPD/07_gap_closure/internal-training-1.0",
+    "existing_checkpoint_metadata_source": {
+      "path": "provenance/checkpoint_verification.json",
+      "bytes": 7904,
+      "sha256": "382be6d9345cfcc38504b43a6ce0c7e86ff29680e5d5c2eceaa006617dde2fbc"
+    },
+    "policy": "All 18 original selected training checkpoint archives remain at their already-published paths with unchanged LFS objects. No duplicate checkpoint archive, re-save or model execution is part of this stage publication."
+  },
+  "external_reconstructable_intermediates": [
+    {
+      "path": "cache/features_canonical.npy",
+      "bytes": 478344128,
+      "sha256": "6681952719517712d123cd753c388b04049b88251ac5c434875ad4a98d32ed6e",
+      "repository_path": "diseases/COPD/07_gap_closure/internal-test-1.0/cache/features_canonical.npy",
+      "managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/cache/features_canonical.npy",
+      "resolved_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/cache/features_canonical.npy",
+      "storage_class": "external_reconstructable_intermediate",
+      "not_part_of_git_hosted_frozen_payload": true,
+      "git_tracked": false,
+      "git_lfs": false,
+      "file_type": "NumPy NPY version 1.0 numeric array",
+      "dtype": "float32",
+      "numpy_descr": "<f4",
+      "endianness": "little",
+      "fortran_order": false,
+      "shape": [
+        26225,
+        4560
+      ],
+      "header_bytes": 128,
+      "contains": "Original frozen phase-I final-4560 sigmoid activations for canonical nucleotide sequences",
+      "row_identity_source": "inputs/cache_index.tsv.gz",
+      "reconstruction_contract": "shared_cache_reconstruction",
+      "retention_statement": "Remains at its existing managed shared-filesystem location. This publication records current location and integrity, not a new backup, replication or retention guarantee."
+    },
+    {
+      "path": "cache/features_rc.npy",
+      "bytes": 478344128,
+      "sha256": "2b99b0a2509c07af7ba5141ec7f67ca49b34c97f78285d3be5a190376985dcaa",
+      "repository_path": "diseases/COPD/07_gap_closure/internal-test-1.0/cache/features_rc.npy",
+      "managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/cache/features_rc.npy",
+      "resolved_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/cache/features_rc.npy",
+      "storage_class": "external_reconstructable_intermediate",
+      "not_part_of_git_hosted_frozen_payload": true,
+      "git_tracked": false,
+      "git_lfs": false,
+      "file_type": "NumPy NPY version 1.0 numeric array",
+      "dtype": "float32",
+      "numpy_descr": "<f4",
+      "endianness": "little",
+      "fortran_order": false,
+      "shape": [
+        26225,
+        4560
+      ],
+      "header_bytes": 128,
+      "contains": "Original frozen phase-I final-4560 sigmoid activations from independently evaluated nucleotide reverse-complement sequences",
+      "row_identity_source": "inputs/cache_index.tsv.gz",
+      "reconstruction_contract": "shared_cache_reconstruction",
+      "retention_statement": "Remains at its existing managed shared-filesystem location. This publication records current location and integrity, not a new backup, replication or retention guarantee."
+    }
+  ],
+  "shared_cache_reconstruction": {
+    "status": "DOCUMENTED_ONLY_NOT_EXECUTED_DURING_PUBLICATION",
+    "deterministic_intent": true,
+    "independent_same_byte_regeneration_demonstrated": false,
+    "bitwise_caveat": "Reconstruction is conditional on availability of the recorded source weights, original sequence/order inputs and compatible exact software/hardware/runtime. Deterministic settings were used, but independent same-byte regeneration has not been demonstrated. Do not promise bitwise identity across changed GPU/driver/library stacks. Verify the frozen hashes before accepting recovered arrays.",
+    "stage_dependencies": [
+      {
+        "path": "inputs/cache_index.tsv.gz",
+        "bytes": 2464584,
+        "sha256": "0cec328a1dc83376bb5135176997e191b3ad905b6db2ab9254fa9c09d9c6d6d6"
+      },
+      {
+        "path": "inputs/canonical_sequences.npy",
+        "bytes": 52476353,
+        "sha256": "589ce6195f339aec072a7f20453cb13071d9d37a5bbf3f3705aa763cac616975"
+      },
+      {
+        "path": "inputs/common/enhancer_test.tsv.gz",
+        "bytes": 3953962,
+        "sha256": "b4617484a7d62e32897368b2db704d137b0ef13e3c79db474cedc65918456b82"
+      },
+      {
+        "path": "inputs/common/h3k27me3_test.tsv.gz",
+        "bytes": 555440,
+        "sha256": "7e3cdd3a3fb7214e81713c21779791a65d15927ddc484c3de72647daef6970f0"
+      },
+      {
+        "path": "inputs/input_manifest.json",
+        "bytes": 4306,
+        "sha256": "b52a58156ebb40fe31dfcd111667148c564f9a2a55146f0c23ea69afbd644c19"
+      },
+      {
+        "path": "inputs/test_panel_integrity_audit.json",
+        "bytes": 5729,
+        "sha256": "9ad1ead0b7a9c778812b3ce4bd7d4a3a024006e631ef5983d44c20687664a380"
+      },
+      {
+        "path": "scripts/extract_test_phase_one.py",
+        "bytes": 9010,
+        "sha256": "eda5fafc9faf2437b9467d428f511e35f170179cbf81b7d0d15ebacdfe292398"
+      },
+      {
+        "path": "scripts/test_contract.py",
+        "bytes": 4591,
+        "sha256": "4f26fd6ebea3ae2f23ae7ad5ba78439356ef47882a2920e302dbad13f6682618"
+      },
+      {
+        "path": "scripts/runtime.sh",
+        "bytes": 937,
+        "sha256": "bd4ebbfcd3443dece86d4d535f313f3676ead7fb5dd8319e7ce0ec2f843eb0fc"
+      },
+      {
+        "path": "specification/test_specification.json",
+        "bytes": 16678,
+        "sha256": "55e5a7f340596244dd45150ce393b645bcc000d64e34c19c7c517f784e41dcca"
+      },
+      {
+        "path": "TEST_SPECIFICATION.md",
+        "bytes": 6435,
+        "sha256": "5c279df5c09699f3dbb70a953502e7cd994ed4fe093a7b4fdacad8a1bc8d1a19"
+      },
+      {
+        "path": "provenance/prospective_specification_freeze.json",
+        "bytes": 5934,
+        "sha256": "ce597fd8bcc59c05690df0b8ae19cefbcc5174a30df91f0d2a7964cb3b1b4642"
+      },
+      {
+        "path": "provenance/input_integrity_verified_before.json",
+        "bytes": 143835,
+        "sha256": "b64cea169dee9cc74d53aaad490caa1f63a91d9985d3535f7e7ab39bc9759503"
+      },
+      {
+        "path": "provenance/phase_I_execution_gate.json",
+        "bytes": 4252,
+        "sha256": "1bf725f8ecc50ddc7ad1796a16f09cce5898c76bf4008954823a3387d2103a46"
+      }
+    ],
+    "complete_phase_I_gate_file_list": [
+      {
+        "bytes": 6435,
+        "path": "TEST_SPECIFICATION.md",
+        "sha256": "5c279df5c09699f3dbb70a953502e7cd994ed4fe093a7b4fdacad8a1bc8d1a19"
+      },
+      {
+        "bytes": 2464584,
+        "path": "inputs/cache_index.tsv.gz",
+        "sha256": "0cec328a1dc83376bb5135176997e191b3ad905b6db2ab9254fa9c09d9c6d6d6"
+      },
+      {
+        "bytes": 52476353,
+        "path": "inputs/canonical_sequences.npy",
+        "sha256": "589ce6195f339aec072a7f20453cb13071d9d37a5bbf3f3705aa763cac616975"
+      },
+      {
+        "bytes": 3953962,
+        "path": "inputs/common/enhancer_test.tsv.gz",
+        "sha256": "b4617484a7d62e32897368b2db704d137b0ef13e3c79db474cedc65918456b82"
+      },
+      {
+        "bytes": 555440,
+        "path": "inputs/common/h3k27me3_test.tsv.gz",
+        "sha256": "7e3cdd3a3fb7214e81713c21779791a65d15927ddc484c3de72647daef6970f0"
+      },
+      {
+        "bytes": 4306,
+        "path": "inputs/input_manifest.json",
+        "sha256": "b52a58156ebb40fe31dfcd111667148c564f9a2a55146f0c23ea69afbd644c19"
+      },
+      {
+        "bytes": 5729,
+        "path": "inputs/test_panel_integrity_audit.json",
+        "sha256": "9ad1ead0b7a9c778812b3ce4bd7d4a3a024006e631ef5983d44c20687664a380"
+      },
+      {
+        "bytes": 7904,
+        "path": "provenance/checkpoint_verification.json",
+        "sha256": "382be6d9345cfcc38504b43a6ce0c7e86ff29680e5d5c2eceaa006617dde2fbc"
+      },
+      {
+        "bytes": 143835,
+        "path": "provenance/input_integrity_verified_before.json",
+        "sha256": "b64cea169dee9cc74d53aaad490caa1f63a91d9985d3535f7e7ab39bc9759503"
+      },
+      {
+        "bytes": 4930,
+        "path": "provenance/inputs_independent_validation.json",
+        "sha256": "be966fbdd12d2e25c4b04bdd6eba778123d9bec7ef0fbebf5fe5c170c15eb01e"
+      },
+      {
+        "bytes": 5934,
+        "path": "provenance/prospective_specification_freeze.json",
+        "sha256": "ce597fd8bcc59c05690df0b8ae19cefbcc5174a30df91f0d2a7964cb3b1b4642"
+      },
+      {
+        "bytes": 8089,
+        "path": "provenance/user_authorization.txt",
+        "sha256": "7246ef0075296dc79cb4e7b8da5366df9aa764a481b4e99d8dd104a0dd54de29"
+      },
+      {
+        "bytes": 28585,
+        "path": "scripts/evaluate_test.py",
+        "sha256": "e69b25f157803d1ea73392fb910871f59c412c3fc1c0f15104b4ff460a086c5d"
+      },
+      {
+        "bytes": 9010,
+        "path": "scripts/extract_test_phase_one.py",
+        "sha256": "eda5fafc9faf2437b9467d428f511e35f170179cbf81b7d0d15ebacdfe292398"
+      },
+      {
+        "bytes": 11330,
+        "path": "scripts/predict_test.py",
+        "sha256": "cff52b8fad7613f06cbd99195399ae074e9623adfec1063941c381d8b444a9c1"
+      },
+      {
+        "bytes": 6851,
+        "path": "scripts/prepare_test_gates.py",
+        "sha256": "72f8b74cb5929f6a05e61d34aa4971cbef2ebc0e69064113d139d7414151bd6a"
+      },
+      {
+        "bytes": 19460,
+        "path": "scripts/prepare_test_inputs.py",
+        "sha256": "8561447b249f61c3e50cc36ee77370115dde4d0c9013981a3c8799771e542966"
+      },
+      {
+        "bytes": 2044,
+        "path": "scripts/run_logged.py",
+        "sha256": "150cd5e2a10b5355349528bc480705cd3b2079ea8c11b3dbcad209327040cc7a"
+      },
+      {
+        "bytes": 937,
+        "path": "scripts/runtime.sh",
+        "sha256": "bd4ebbfcd3443dece86d4d535f313f3676ead7fb5dd8319e7ce0ec2f843eb0fc"
+      },
+      {
+        "bytes": 4591,
+        "path": "scripts/test_contract.py",
+        "sha256": "4f26fd6ebea3ae2f23ae7ad5ba78439356ef47882a2920e302dbad13f6682618"
+      },
+      {
+        "bytes": 16678,
+        "path": "specification/test_specification.json",
+        "sha256": "55e5a7f340596244dd45150ce393b645bcc000d64e34c19c7c517f784e41dcca"
+      },
+      {
+        "bytes": 12640,
+        "path": "tests/test_test_evaluation.py",
+        "sha256": "dfef83ff8ce3af9086c4e91088ed578367113dd1cbc00bd58e9922dae363eeff"
+      },
+      {
+        "bytes": 13885,
+        "path": "tests/test_test_inference.py",
+        "sha256": "888ff8164812e5b4846353ce695cb0fc766082ed3247b4619e2c54dfc2be945c"
+      },
+      {
+        "bytes": 14475,
+        "path": "tests/test_test_inputs.py",
+        "sha256": "2a2f37cfabf6e2b3a8ebd59475d74429241adc822ef8aa9d29adb0a7fe18c25e"
+      }
+    ],
+    "repository_dependencies": [
+      {
+        "bytes": 13066,
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/phase_two_contract.py",
+        "resolved_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/scripts/phase_two_contract.py",
+        "sha256": "f50f226b901df6bbd66455462e4da922d8229a4d030f09613a8483a74f636e2f"
+      },
+      {
+        "path": "diseases/COPD/04_modeling/trednet/model_phase_I/phase_one_weights.h5",
+        "resolved_managed_storage_path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/model_phase_I/phase_one_weights.h5",
+        "role": "original frozen phase-I weights; size recorded at integrity verification",
+        "sha256": "483b6c0cafd750ea8e97932cbc8a949276eaf1e77e7d8766f9a22eeddc2916d6",
+        "bytes": 565399080
+      }
+    ],
+    "optional_sequence_reconstruction_upstream_dependencies": [
+      {
+        "bytes": 4962271,
+        "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/evaluation/enhancer_common_challenge_panel.tsv.gz",
+        "resolved_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/pretraining-1.1/data/evaluation/enhancer_common_challenge_panel.tsv.gz",
+        "sha256": "4f374ebf993b1e3b6a5fff5aba51ac6e0efaf6859300bf752f56245a7db65c20"
+      },
+      {
+        "bytes": 719591,
+        "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/evaluation/h3k27me3_common_challenge_panel.tsv.gz",
+        "resolved_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/pretraining-1.1/data/evaluation/h3k27me3_common_challenge_panel.tsv.gz",
+        "sha256": "895979a83b12d0bb372dd93a1baaa1a83d174e96a57e17acc4f5f3bea8775c26"
+      },
+      {
+        "bytes": 44914883,
+        "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-C_enhancer_interval_manifest.tsv.gz",
+        "resolved_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-C_enhancer_interval_manifest.tsv.gz",
+        "sha256": "5165080dbeba1a43decb57286c9ed44e820eaa73617f252cecda6ebe4321e72f"
+      },
+      {
+        "bytes": 6293534,
+        "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-C_h3k27me3_interval_manifest.tsv.gz",
+        "resolved_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-C_h3k27me3_interval_manifest.tsv.gz",
+        "sha256": "1d325e61ae5c41bfabe955c12e0b84f683a80472fb855dbac9a19fabd1cbc7ec"
+      },
+      {
+        "bytes": 3273481150,
+        "path": "diseases/COPD/04_modeling/trednet/fasta/hg38.fa",
+        "resolved_managed_storage_path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/fasta/hg38.fa",
+        "sha256": "5be01555d98347fdb3714dc84c6f77c9d8bc774adcf32c6f7a8fa06f5baf5e51"
+      },
+      {
+        "bytes": 19381,
+        "path": "diseases/COPD/04_modeling/trednet/fasta/hg38.fa.fai",
+        "resolved_managed_storage_path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/fasta/hg38.fa.fai",
+        "sha256": "3b425de206296a5c8053023fa5ca61da43cfe78c1737c12e58c83367c7e83c21"
+      }
+    ],
+    "optional_sequence_reconstruction_script": {
+      "path": "scripts/prepare_test_inputs.py",
+      "bytes": 19460,
+      "sha256": "8561447b249f61c3e50cc36ee77370115dde4d0c9013981a3c8799771e542966"
+    },
+    "optional_sequence_reconstruction_note": "Not needed while Git-hosted canonical_sequences.npy is available. If recovering it in a separately authorized workspace, the original script uses frozen pretraining-1.1 C challenge/interval panels and exact hg38 FASTA/FAI, normalizes nonACGT to N and chooses canonical=min(forward,nucleotide_RC), preserving cache-index identity order. Do not replace original frozen input manifests with timestamp-changing regenerated metadata.",
+    "original_command": {
+      "argv": [
+        "bash",
+        "diseases/COPD/07_gap_closure/internal-test-1.0/scripts/runtime.sh",
+        "diseases/COPD/07_gap_closure/internal-test-1.0/scripts/extract_test_phase_one.py",
+        "--repo",
+        "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow",
+        "--stage",
+        "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0"
+      ],
+      "cwd": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow",
+      "environment": {
+        "CUDA_VISIBLE_DEVICES": "0",
+        "PYTHONHASHSEED": "104729",
+        "SLURM_ARRAY_TASK_ID": null,
+        "SLURM_JOB_ID": "31881465"
+      },
+      "label": "phase_I_test_forward_and_RC",
+      "launcher": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/scripts/run_logged.py",
+      "launcher_sha256": "150cd5e2a10b5355349528bc480705cd3b2079ea8c11b3dbcad209327040cc7a",
+      "started_utc": "2026-10-06T19:06:39.571828+00:00"
+    },
+    "original_command_completion": {
+      "path": "provenance/commands/phase_I_test_forward_and_RC.completed.json",
+      "bytes": 1131,
+      "sha256": "5cc6308bb5833b950bffdbed13711514952fe6528122981241e5b6e26f3def01"
+    },
+    "procedure": [
+      "Future recovery only, requiring separate authorization: do not execute reconstruction during publication or overwrite the immutable frozen stage.",
+      "Materialize an isolated scratch stage at an explicit new path. Preserve the original repository-relative script tree and the internal-training-1.0 numerical helper. Copy the exact Git-hosted input files, scripts, specification, TEST_SPECIFICATION.md and all provenance records named by the prospective freeze, phase-I execution gate and input manifest. Do not copy any cache directory into the scratch stage: extract_test_phase_one.py requires that output directory not already exist.",
+      "Verify all preserved stage-side dependencies, original phase-I source weights and numerical helper against the recorded SHA-256 values. The complete phase-I gate file list below enumerates the required stage-side records. Direct cache recovery uses the already Git-hosted canonical_sequences.npy; it does not require regenerating sequences/labels or loading any selected phase-II checkpoint.",
+      "Reproduce the strict recorded Python, NumPy, TensorFlow and Keras releases, deterministic environment and exactly one allocated GPU. Set PYTHONHASHSEED=104729 before interpreter startup. The preserved runtime.sh points at the recorded managed interpreter and package locations; keep them available, or separately document an equivalent runtime without modifying the frozen wrapper.",
+      "From the frozen repository working directory, invoke the preserved runtime.sh with the preserved extract_test_phase_one.py, --repo pointing at the frozen repository and --stage pointing only at the new scratch stage. The exact original argv is retained below; change only the --stage argument for future recovery. Do not run the recorded command against the frozen stage.",
+      "The extractor strictly loads original phase-I weights, one-hot encodes ASCII A/C/G/T (N becomes four zeros), and processes 32 rows per batch. It independently evaluates canonical and nucleotide reverse-complement inputs and writes final-4560 sigmoid float32 outputs. Reverse complementation reverses nucleotide positions and A/C/G/T channels, never the representation axis. Preserve cache_index.tsv.gz row ordering.",
+      "Hash both recovered NPY files and compare exact sizes, headers/shapes and SHA-256 against the frozen target values. Treat any mismatch as failed exact recovery; never change frozen checksums or replace original files. Do not run phase-II inference, metrics, recalibration, external benchmarking or candidate scoring."
+    ],
+    "representation": {
+      "input": "[26225,2001] uint8 ASCII canonical nucleotide sequences",
+      "one_hot_channel_order": "ACGT",
+      "N_encoding": "four zeros",
+      "orientation_passes": 2,
+      "network_evaluations": 52450,
+      "batch_size": 32,
+      "output": "[26225,4560] float32 final sigmoid",
+      "weights_trainable": false,
+      "optimizer": null,
+      "network_call_training": false,
+      "jit_compile": false,
+      "representation_axis_reversal": false
+    },
+    "recorded_environment": {
+      "environment": {
+        "CUDA_VISIBLE_DEVICES": "0",
+        "PYTHONHASHSEED": "104729",
+        "SLURM_ARRAY_TASK_ID": null,
+        "SLURM_CPUS_PER_TASK": "16",
+        "SLURM_JOB_GPUS": "1",
+        "SLURM_JOB_ID": "31881465",
+        "TF_CUDNN_DETERMINISTIC": "1",
+        "TF_DETERMINISTIC_OPS": "1",
+        "TF_ENABLE_ONEDNN_OPTS": null,
+        "TF_XLA_FLAGS": "--tf_xla_enable_xla_devices=false"
+      },
+      "executable": "/home/maheshwarany2/.local/share/uv/python/cpython-3.13.0-linux-x86_64-gnu/bin/python3.13",
+      "keras_epsilon": 1e-7,
+      "keras_floatx": "float32",
+      "logical_devices": [
+        "LogicalDevice(name='/device:CPU:0', device_type='CPU')",
+        "LogicalDevice(name='/device:GPU:0', device_type='GPU')"
+      ],
+      "nvidia_smi": {
+        "returncode": 0,
+        "stderr": "",
+        "stdout": "NVIDIA A100-SXM4-80GB, GPU-c0f9ea40-1229-3a05-cb51-36356549035c, 580.173.02, 81920 MiB\n"
+      },
+      "packages": {
+        "h5py": "3.16.0",
+        "keras": "3.14.1",
+        "numpy": "2.5.0",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.18.0",
+        "tensorflow": "2.20.0"
+      },
+      "platform": "Linux-4.18.0-425.19.3b.el8.x86_64-x86_64-with-glibc2.28",
+      "python": "3.13.0",
+      "tensorflow_build": {
+        "cpu_compiler": "clang 18",
+        "cuda_compute_capabilities": [
+          "sm_60",
+          "sm_70",
+          "sm_80",
+          "sm_89",
+          "compute_90"
+        ],
+        "cuda_version": "12.5.1",
+        "cudnn_version": "9",
+        "is_cuda_build": true,
+        "is_rocm_build": false,
+        "is_tensorrt_build": false
+      }
+    },
+    "runtime_wrapper": {
+      "path": "scripts/runtime.sh",
+      "bytes": 937,
+      "sha256": "bd4ebbfcd3443dece86d4d535f313f3676ead7fb5dd8319e7ce0ec2f843eb0fc"
+    },
+    "runtime_additional_settings": {
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "PYTHONNOUSERSITE": "1",
+      "PYTHONHASHSEED": "104729",
+      "OMP_NUM_THREADS": "8",
+      "TF_NUM_INTRAOP_THREADS": "8",
+      "TF_NUM_INTEROP_THREADS": "2",
+      "mixed_precision_policy": "float32",
+      "tf_enable_op_determinism": true,
+      "gpu_memory_growth": true,
+      "GPU_count_required": 1,
+      "site_packages": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/models/TREDNET_v2/.venv/lib/python3.13/site-packages",
+      "LD_LIBRARY_PATH": "NVIDIA dependency library directories beneath the recorded site-packages/nvidia/*/lib, as assembled by unchanged runtime.sh"
+    },
+    "recorded_regeneration_cost_basis": {
+      "meaning": "Original execution observations, not a newly measured recovery, service guarantee or per-array charge. Feature cost covers both caches jointly.",
+      "paired_cache_extraction_resources": {
+        "finished_utc": "2026-10-06T19:07:05.989837+00:00",
+        "peak_RSS_KiB": 2395568,
+        "system_cpu_seconds": 2.591425,
+        "user_cpu_seconds": 14.413587,
+        "wall_seconds": 26.03783931955695
+      },
+      "paired_cache_logged_wrapper_wall_seconds": 28.86424876190722,
+      "GPU": "one NVIDIA A100-SXM4-80GB",
+      "optional_sequence_preparation_wall_seconds": 15.592166801914573,
+      "optional_sequence_preparation_peak_RSS_KiB": 358512,
+      "cost_excludes": "GPU queue/provisioning, recovery setup, transfer and source revalidation. Phase-II inference and metrics are not needed for phase-I cache reconstruction."
+    }
+  },
+  "administrative_publication_files": [
+    "README.md",
+    "storage_manifest.json",
+    "storage_inventory.tsv",
+    "verify_publication.py",
+    "prepublication_validation.json"
+  ],
+  "subsequent_remote_verification_receipt": "remote_verification.json",
+  "post_publication_verification": "Independently verify the remote commit and ordinary payload hashes, explicit external-cache exclusions, original stage hashes, append-only register prefixes and unchanged historical tree/checkpoint pointers. A separate remote_verification.json may record evidence outside the frozen stage. This storage manifest does not itself assert successful remote publication.",
+  "scope_restrictions": {
+    "retrain": false,
+    "rerun_inference": false,
+    "recompute_metrics": false,
+    "recalibrate_thresholds": false,
+    "open_external_benchmark_outcomes": false,
+    "score_COPD_candidates": false,
+    "begin_other_V2_module": false,
+    "alter_frozen_stage": false
+  }
+}

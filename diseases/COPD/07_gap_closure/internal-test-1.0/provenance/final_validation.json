@@ -1,0 +1,99 @@
+{
+  "checks": [
+    {
+      "check": "independent_inputs_QC",
+      "detail": "244105 checks; zero failures",
+      "evidence": {
+        "bytes": 4930,
+        "path": "provenance/inputs_independent_validation.json",
+        "sha256": "be966fbdd12d2e25c4b04bdd6eba778123d9bec7ef0fbebf5fe5c170c15eb01e"
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "independent_cache_QC",
+      "detail": "151 checks; zero failures",
+      "evidence": {
+        "bytes": 3716,
+        "path": "provenance/cache_independent_validation.json",
+        "sha256": "2845a0843c7e57f818bcc1d65d1fa16985e7d96be8042efbcaf1e655628b4ba6"
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "independent_predictions_QC",
+      "detail": "465 checks; zero failures",
+      "evidence": {
+        "bytes": 8931,
+        "path": "provenance/predictions_independent_validation.json",
+        "sha256": "8a4ec1b517c974ffa64a80a0cd12b6da72833cd7e9b0f6fb2aeafd9b434b3a80"
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "independent_evaluation_QC",
+      "detail": "383885 checks; zero failures",
+      "evidence": {
+        "bytes": 6030,
+        "path": "provenance/evaluation_independent_validation.json",
+        "sha256": "e266827794f211f370e391710b3c4559aac0ddb4b2dae95c900f84da91980791"
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "independent_preservation_QC",
+      "detail": "1974 checks; zero failures",
+      "evidence": {
+        "bytes": 188946,
+        "path": "provenance/preservation_independent_validation.json",
+        "sha256": "ebd1532b69aa41ac5642890b9c67527da7fa5724b064eedbc63ebb7a95141ad1"
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "independent_report_review",
+      "detail": "Report hash unchanged after independent review",
+      "evidence": {
+        "bytes": 22085,
+        "path": "provenance/report_independent_review.json",
+        "sha256": "87e709008e35c07908d414e0b2c36a8b48c3ad0f689820ee8240d1cc835a7c94"
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "three_append_only_registers",
+      "detail": "Full current hashes and historical byte prefixes verified",
+      "evidence": {
+        "bytes": 1447,
+        "path": "provenance/shared_register_updates.json",
+        "sha256": "e1d0b6fe73e6c5c78eeba591763b7b874cb434ffced141b6027770e43e0e6907"
+      },
+      "status": "PASS"
+    }
+  ],
+  "created_utc": "2026-10-06T19:21:37.746405+00:00",
+  "independent_validation_modes": [
+    "inputs",
+    "cache",
+    "predictions",
+    "evaluation",
+    "preservation"
+  ],
+  "scientific_gate_status_not_overridden": {
+    "enhancer": {
+      "failed_or_inconclusive_gates": [],
+      "status": "PASS"
+    },
+    "h3k27me3": {
+      "failed_or_inconclusive_gates": [],
+      "status": "PASS"
+    }
+  },
+  "source_chain": {
+    "bytes": 26106,
+    "path": "provenance/source_chain_final_validation.json",
+    "sha256": "24c45c128276dd1bd2dd3d64a5cc8d8c985b93f6dde17b0fcfa5f158ed95ce92"
+  },
+  "status": "PASS",
+  "validation_is_QC_not_new_scientific_evaluation": true
+}

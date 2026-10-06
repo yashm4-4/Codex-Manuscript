@@ -1,0 +1,130 @@
+{
+  "created_utc": "2026-10-06T19:06:13.070684+00:00",
+  "files": [
+    {
+      "bytes": 6435,
+      "path": "TEST_SPECIFICATION.md",
+      "sha256": "5c279df5c09699f3dbb70a953502e7cd994ed4fe093a7b4fdacad8a1bc8d1a19"
+    },
+    {
+      "bytes": 2464584,
+      "path": "inputs/cache_index.tsv.gz",
+      "sha256": "0cec328a1dc83376bb5135176997e191b3ad905b6db2ab9254fa9c09d9c6d6d6"
+    },
+    {
+      "bytes": 52476353,
+      "path": "inputs/canonical_sequences.npy",
+      "sha256": "589ce6195f339aec072a7f20453cb13071d9d37a5bbf3f3705aa763cac616975"
+    },
+    {
+      "bytes": 3953962,
+      "path": "inputs/common/enhancer_test.tsv.gz",
+      "sha256": "b4617484a7d62e32897368b2db704d137b0ef13e3c79db474cedc65918456b82"
+    },
+    {
+      "bytes": 555440,
+      "path": "inputs/common/h3k27me3_test.tsv.gz",
+      "sha256": "7e3cdd3a3fb7214e81713c21779791a65d15927ddc484c3de72647daef6970f0"
+    },
+    {
+      "bytes": 4306,
+      "path": "inputs/input_manifest.json",
+      "sha256": "b52a58156ebb40fe31dfcd111667148c564f9a2a55146f0c23ea69afbd644c19"
+    },
+    {
+      "bytes": 5729,
+      "path": "inputs/test_panel_integrity_audit.json",
+      "sha256": "9ad1ead0b7a9c778812b3ce4bd7d4a3a024006e631ef5983d44c20687664a380"
+    },
+    {
+      "bytes": 7904,
+      "path": "provenance/checkpoint_verification.json",
+      "sha256": "382be6d9345cfcc38504b43a6ce0c7e86ff29680e5d5c2eceaa006617dde2fbc"
+    },
+    {
+      "bytes": 143835,
+      "path": "provenance/input_integrity_verified_before.json",
+      "sha256": "b64cea169dee9cc74d53aaad490caa1f63a91d9985d3535f7e7ab39bc9759503"
+    },
+    {
+      "bytes": 4930,
+      "path": "provenance/inputs_independent_validation.json",
+      "sha256": "be966fbdd12d2e25c4b04bdd6eba778123d9bec7ef0fbebf5fe5c170c15eb01e"
+    },
+    {
+      "bytes": 5934,
+      "path": "provenance/prospective_specification_freeze.json",
+      "sha256": "ce597fd8bcc59c05690df0b8ae19cefbcc5174a30df91f0d2a7964cb3b1b4642"
+    },
+    {
+      "bytes": 8089,
+      "path": "provenance/user_authorization.txt",
+      "sha256": "7246ef0075296dc79cb4e7b8da5366df9aa764a481b4e99d8dd104a0dd54de29"
+    },
+    {
+      "bytes": 28585,
+      "path": "scripts/evaluate_test.py",
+      "sha256": "e69b25f157803d1ea73392fb910871f59c412c3fc1c0f15104b4ff460a086c5d"
+    },
+    {
+      "bytes": 9010,
+      "path": "scripts/extract_test_phase_one.py",
+      "sha256": "eda5fafc9faf2437b9467d428f511e35f170179cbf81b7d0d15ebacdfe292398"
+    },
+    {
+      "bytes": 11330,
+      "path": "scripts/predict_test.py",
+      "sha256": "cff52b8fad7613f06cbd99195399ae074e9623adfec1063941c381d8b444a9c1"
+    },
+    {
+      "bytes": 6851,
+      "path": "scripts/prepare_test_gates.py",
+      "sha256": "72f8b74cb5929f6a05e61d34aa4971cbef2ebc0e69064113d139d7414151bd6a"
+    },
+    {
+      "bytes": 19460,
+      "path": "scripts/prepare_test_inputs.py",
+      "sha256": "8561447b249f61c3e50cc36ee77370115dde4d0c9013981a3c8799771e542966"
+    },
+    {
+      "bytes": 2044,
+      "path": "scripts/run_logged.py",
+      "sha256": "150cd5e2a10b5355349528bc480705cd3b2079ea8c11b3dbcad209327040cc7a"
+    },
+    {
+      "bytes": 937,
+      "path": "scripts/runtime.sh",
+      "sha256": "bd4ebbfcd3443dece86d4d535f313f3676ead7fb5dd8319e7ce0ec2f843eb0fc"
+    },
+    {
+      "bytes": 4591,
+      "path": "scripts/test_contract.py",
+      "sha256": "4f26fd6ebea3ae2f23ae7ad5ba78439356ef47882a2920e302dbad13f6682618"
+    },
+    {
+      "bytes": 16678,
+      "path": "specification/test_specification.json",
+      "sha256": "55e5a7f340596244dd45150ce393b645bcc000d64e34c19c7c517f784e41dcca"
+    },
+    {
+      "bytes": 12640,
+      "path": "tests/test_test_evaluation.py",
+      "sha256": "dfef83ff8ce3af9086c4e91088ed578367113dd1cbc00bd58e9922dae363eeff"
+    },
+    {
+      "bytes": 13885,
+      "path": "tests/test_test_inference.py",
+      "sha256": "888ff8164812e5b4846353ce695cb0fc766082ed3247b4619e2c54dfc2be945c"
+    },
+    {
+      "bytes": 14475,
+      "path": "tests/test_test_inputs.py",
+      "sha256": "2a2f37cfabf6e2b3a8ebd59475d74429241adc822ef8aa9d29adb0a7fe18c25e"
+    }
+  ],
+  "phase": "phase-I",
+  "phase_II_inference_authorized": false,
+  "phase_I_authorized": true,
+  "scope": "Frozen common C-task chr8-9 internal holdout only",
+  "status": "PASS"
+}

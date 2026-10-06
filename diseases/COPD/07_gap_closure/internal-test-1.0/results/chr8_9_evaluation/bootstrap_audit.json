@@ -1,0 +1,30 @@
+{
+  "enhancer": {
+    "all_seed_and_ensemble_predictors_share_draws": true,
+    "attempted": 2000,
+    "bootstrap_unit": "frozen global overlap/encoded-sequence component",
+    "invalid": 0,
+    "invalid_fraction": 0.0,
+    "max_attempts": 20000,
+    "represented_components": 8754,
+    "required_valid": 2000,
+    "seed": 314159,
+    "status": "PASS",
+    "undefined_operating_ratio_does_not_invalidate_metric_draw": true,
+    "valid": 2000
+  },
+  "h3k27me3": {
+    "all_seed_and_ensemble_predictors_share_draws": true,
+    "attempted": 2000,
+    "bootstrap_unit": "frozen global overlap/encoded-sequence component",
+    "invalid": 0,
+    "invalid_fraction": 0.0,
+    "max_attempts": 20000,
+    "represented_components": 1809,
+    "required_valid": 2000,
+    "seed": 314159,
+    "status": "PASS",
+    "undefined_operating_ratio_does_not_invalidate_metric_draw": true,
+    "valid": 2000
+  }
+}

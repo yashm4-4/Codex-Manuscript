@@ -1,0 +1,25 @@
+{
+  "argv": [
+    "bash",
+    "diseases/COPD/07_gap_closure/internal-test-1.0/scripts/runtime.sh",
+    "diseases/COPD/07_gap_closure/internal-test-1.0/scripts/evaluate_test.py",
+    "--input-manifest",
+    "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/provenance/evaluation_input.json",
+    "--output",
+    "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/results/chr8_9_evaluation"
+  ],
+  "completed_utc": "2026-10-06T19:12:28.979517+00:00",
+  "cwd": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow",
+  "elapsed_seconds": 27.695638379082084,
+  "environment": {
+    "CUDA_VISIBLE_DEVICES": "0",
+    "PYTHONHASHSEED": "104729",
+    "SLURM_ARRAY_TASK_ID": null,
+    "SLURM_JOB_ID": "31881465"
+  },
+  "label": "one_time_common_test_evaluation",
+  "launcher": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/scripts/run_logged.py",
+  "launcher_sha256": "150cd5e2a10b5355349528bc480705cd3b2079ea8c11b3dbcad209327040cc7a",
+  "returncode": 0,
+  "started_utc": "2026-10-06T19:12:01.276686+00:00"
+}

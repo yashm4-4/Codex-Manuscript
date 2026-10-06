@@ -1,0 +1,59 @@
+{
+  "completed": true,
+  "completed_utc": "2026-10-06T19:07:05.989388+00:00",
+  "dtype": "float32",
+  "encoded_identity_count": 26225,
+  "failures": 0,
+  "files": [
+    {
+      "bytes": 478344128,
+      "path": "cache/features_canonical.npy",
+      "sha256": "6681952719517712d123cd753c388b04049b88251ac5c434875ad4a98d32ed6e"
+    },
+    {
+      "bytes": 478344128,
+      "path": "cache/features_rc.npy",
+      "sha256": "2b99b0a2509c07af7ba5141ec7f67ca49b34c97f78285d3be5a190376985dcaa"
+    },
+    {
+      "bytes": 1444,
+      "path": "cache/environment.json",
+      "sha256": "65cf393ddaaed2aae9a8eb9d0e168510a308002c1df992d4918bc044e7fd7594"
+    },
+    {
+      "bytes": 17371,
+      "path": "cache/architecture.json",
+      "sha256": "f6f529bb64af870e3efda95bbf90095d2800d6731e228c4db9cdced8449adad4"
+    },
+    {
+      "bytes": 677,
+      "path": "cache/started.json",
+      "sha256": "5abdd2a9e7be29c6a7df5cf06ceafb28fcbadd748c9309db5500355efe6660ba"
+    }
+  ],
+  "missing_sequences": 0,
+  "nucleotide_rc_independently_evaluated": true,
+  "orientation_network_evaluations": 52450,
+  "phase_I_weights_sha256": "483b6c0cafd750ea8e97932cbc8a949276eaf1e77e7d8766f9a22eeddc2916d6",
+  "prospective_freeze": {
+    "bytes": 5934,
+    "path": "provenance/prospective_specification_freeze.json",
+    "sha256": "ce597fd8bcc59c05690df0b8ae19cefbcc5174a30df91f0d2a7964cb3b1b4642"
+  },
+  "representation": "final4560sigmoid",
+  "resources": {
+    "finished_utc": "2026-10-06T19:07:05.989837+00:00",
+    "peak_RSS_KiB": 2395568,
+    "system_cpu_seconds": 2.591425,
+    "user_cpu_seconds": 14.413587,
+    "wall_seconds": 26.03783931955695
+  },
+  "scope": "frozen common C-task chr8-9 panels only",
+  "sequence_intervals": 26225,
+  "shape": [
+    26225,
+    4560
+  ],
+  "status": "PASS",
+  "test_sequence_extractions": 26225
+}

@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "bash",
+    "diseases/COPD/07_gap_closure/internal-test-1.0/scripts/runtime.sh",
+    "diseases/COPD/07_gap_closure/internal-test-1.0/scripts/validate_test_stage.py",
+    "--repo",
+    "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow",
+    "--stage",
+    "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0",
+    "--mode",
+    "evaluation"
+  ],
+  "cwd": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow",
+  "environment": {
+    "CUDA_VISIBLE_DEVICES": "0",
+    "PYTHONHASHSEED": "104729",
+    "SLURM_ARRAY_TASK_ID": null,
+    "SLURM_JOB_ID": "31881465"
+  },
+  "label": "independent_evaluation_validation",
+  "launcher": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-test-1.0/scripts/run_logged.py",
+  "launcher_sha256": "150cd5e2a10b5355349528bc480705cd3b2079ea8c11b3dbcad209327040cc7a",
+  "started_utc": "2026-10-06T19:13:07.039249+00:00"
+}
