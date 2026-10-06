@@ -1,0 +1,344 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Post-publication storage and byte-preservation verification; no scientific analysis",
+  "status": "PASS",
+  "verified_utc": "2026-10-06T17:31:30.056182+00:00",
+  "artifact_commit": "276a7881ae970fbdb19c78fd17dd1453c8b6f58f",
+  "remote_main_verified": "276a7881ae970fbdb19c78fd17dd1453c8b6f58f",
+  "baseline_commit": "7c0caf4af5f8f346089c92f43b88161331ca420b",
+  "verification_kind": "Read-only byte/hash/tree preservation checks only",
+  "isolated_lfs_storage": "/tmp/copd-internal-lfs-verification.MDS2vm",
+  "inventory_class_counts": {
+    "git_ordinary": 456,
+    "external_reconstructable_intermediate": 3,
+    "git_lfs_original_checkpoint": 18
+  },
+  "inventory_class_bytes": {
+    "git_ordinary": 295072240,
+    "external_reconstructable_intermediate": 27673496091,
+    "git_lfs_original_checkpoint": 6301157652
+  },
+  "local_frozen_payloads_rehashed_unchanged": 470,
+  "original_freeze_and_ledger_hashes_unchanged": {
+    "provenance/artifact_checksums.tsv": "661d2e95956068819713ed5d2ba01591f0019f5cb98f61e5b61e221aec8fd691",
+    "provenance/freeze.json": "c151e61dba04a9e5500534e507a392d51e1af0601a6e62565288bc6b276e6de4"
+  },
+  "ordinary_stage_files_verified": 451,
+  "remote_lfs_objects_verified": 18,
+  "checkpoints": [
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_enhancer_seed104729/attempt-001/selected_checkpoint.keras",
+      "bytes": 350064314,
+      "frozen_sha256": "8eb380c37e92f5cbe9cb71256421565f5924d1fe373ce7ee507dbb3545272a60",
+      "local_sha256": "8eb380c37e92f5cbe9cb71256421565f5924d1fe373ce7ee507dbb3545272a60",
+      "downloaded_sha256": "8eb380c37e92f5cbe9cb71256421565f5924d1fe373ce7ee507dbb3545272a60",
+      "downloaded_object_path": "/tmp/copd-internal-lfs-verification.MDS2vm/objects/8e/b3/8eb380c37e92f5cbe9cb71256421565f5924d1fe373ce7ee507dbb3545272a60",
+      "pointer_resolves_and_hash_matches": true
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_enhancer_seed130363/attempt-001/selected_checkpoint.keras",
+      "bytes": 350064314,
+      "frozen_sha256": "fb1f9103e7c824ffa280aa98fb2274a0abdb5eebbfcc381b2e8ed6df030faeed",
+      "local_sha256": "fb1f9103e7c824ffa280aa98fb2274a0abdb5eebbfcc381b2e8ed6df030faeed",
+      "downloaded_sha256": "fb1f9103e7c824ffa280aa98fb2274a0abdb5eebbfcc381b2e8ed6df030faeed",
+      "downloaded_object_path": "/tmp/copd-internal-lfs-verification.MDS2vm/objects/fb/1f/fb1f9103e7c824ffa280aa98fb2274a0abdb5eebbfcc381b2e8ed6df030faeed",
+      "pointer_resolves_and_hash_matches": true
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_enhancer_seed155921/attempt-001/selected_checkpoint.keras",
+      "bytes": 350064314,
+      "frozen_sha256": "a74ee692f8b7386678a37de827e5ecb1bd597f665c6b475ba19fddadea961168",
+      "local_sha256": "a74ee692f8b7386678a37de827e5ecb1bd597f665c6b475ba19fddadea961168",
+      "downloaded_sha256": "a74ee692f8b7386678a37de827e5ecb1bd597f665c6b475ba19fddadea961168",
+      "downloaded_object_path": "/tmp/copd-internal-lfs-verification.MDS2vm/objects/a7/4e/a74ee692f8b7386678a37de827e5ecb1bd597f665c6b475ba19fddadea961168",
+      "pointer_resolves_and_hash_matches": true
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras",
+      "bytes": 350064314,
+      "frozen_sha256": "67b6c55c2dc7c79b8e70331ce4ee17c2f6b228ae95198312c8476084723b6249",
+      "local_sha256": "67b6c55c2dc7c79b8e70331ce4ee17c2f6b228ae95198312c8476084723b6249",
+      "downloaded_sha256": "67b6c55c2dc7c79b8e70331ce4ee17c2f6b228ae95198312c8476084723b6249",
+      "downloaded_object_path": "/tmp/copd-internal-lfs-verification.MDS2vm/objects/67/b6/67b6c55c2dc7c79b8e70331ce4ee17c2f6b228ae95198312c8476084723b6249",
+      "pointer_resolves_and_hash_matches": true
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras",
+      "bytes": 350064314,
+      "frozen_sha256": "d20a5e35ac9e348ea09b1418abf18fd3a4c5c040811a8324d25ff39911b25ae8",
+      "local_sha256": "d20a5e35ac9e348ea09b1418abf18fd3a4c5c040811a8324d25ff39911b25ae8",
+      "downloaded_sha256": "d20a5e35ac9e348ea09b1418abf18fd3a4c5c040811a8324d25ff39911b25ae8",
+      "downloaded_object_path": "/tmp/copd-internal-lfs-verification.MDS2vm/objects/d2/0a/d20a5e35ac9e348ea09b1418abf18fd3a4c5c040811a8324d25ff39911b25ae8",
+      "pointer_resolves_and_hash_matches": true
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras",
+      "bytes": 350064314,
+      "frozen_sha256": "b350d45b7d126adf329c8379e5340a8cdd8b95c4028c00a99e726513c7a03820",
+      "local_sha256": "b350d45b7d126adf329c8379e5340a8cdd8b95c4028c00a99e726513c7a03820",
+      "downloaded_sha256": "b350d45b7d126adf329c8379e5340a8cdd8b95c4028c00a99e726513c7a03820",
+      "downloaded_object_path": "/tmp/copd-internal-lfs-verification.MDS2vm/objects/b3/50/b350d45b7d126adf329c8379e5340a8cdd8b95c4028c00a99e726513c7a03820",
+      "pointer_resolves_and_hash_matches": true
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_enhancer_seed104729/attempt-001/selected_checkpoint.keras",
+      "bytes": 350064314,
+      "frozen_sha256": "1dc13e371414fd81072b07689f3ce64446a32692e917d236983db024f28cabca",
+      "local_sha256": "1dc13e371414fd81072b07689f3ce64446a32692e917d236983db024f28cabca",
+      "downloaded_sha256": "1dc13e371414fd81072b07689f3ce64446a32692e917d236983db024f28cabca",
+      "downloaded_object_path": "/tmp/copd-internal-lfs-verification.MDS2vm/objects/1d/c1/1dc13e371414fd81072b07689f3ce64446a32692e917d236983db024f28cabca",
+      "pointer_resolves_and_hash_matches": true
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_enhancer_seed130363/attempt-001/selected_checkpoint.keras",
+      "bytes": 350064314,
+      "frozen_sha256": "97bbc39bc5e93bf49b51169ad015fb4710708c7f1d3e7aeb232d28d3fa40d9ab",
+      "local_sha256": "97bbc39bc5e93bf49b51169ad015fb4710708c7f1d3e7aeb232d28d3fa40d9ab",
+      "downloaded_sha256": "97bbc39bc5e93bf49b51169ad015fb4710708c7f1d3e7aeb232d28d3fa40d9ab",
+      "downloaded_object_path": "/tmp/copd-internal-lfs-verification.MDS2vm/objects/97/bb/97bbc39bc5e93bf49b51169ad015fb4710708c7f1d3e7aeb232d28d3fa40d9ab",
+      "pointer_resolves_and_hash_matches": true
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_enhancer_seed155921/attempt-001/selected_checkpoint.keras",
+      "bytes": 350064314,
+      "frozen_sha256": "c0e2a96ed19c3b9d5ddbb51a85b0d4ffce7701e41f12bd25ce69bcf763d6300e",
+      "local_sha256": "c0e2a96ed19c3b9d5ddbb51a85b0d4ffce7701e41f12bd25ce69bcf763d6300e",
+      "downloaded_sha256": "c0e2a96ed19c3b9d5ddbb51a85b0d4ffce7701e41f12bd25ce69bcf763d6300e",
+      "downloaded_object_path": "/tmp/copd-internal-lfs-verification.MDS2vm/objects/c0/e2/c0e2a96ed19c3b9d5ddbb51a85b0d4ffce7701e41f12bd25ce69bcf763d6300e",
+      "pointer_resolves_and_hash_matches": true
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras",
+      "bytes": 350064314,
+      "frozen_sha256": "c74842f069069ef544fbf8ddab04690188282a07c2aa7ebf2a2a67994d567e0c",
+      "local_sha256": "c74842f069069ef544fbf8ddab04690188282a07c2aa7ebf2a2a67994d567e0c",
+      "downloaded_sha256": "c74842f069069ef544fbf8ddab04690188282a07c2aa7ebf2a2a67994d567e0c",
+      "downloaded_object_path": "/tmp/copd-internal-lfs-verification.MDS2vm/objects/c7/48/c74842f069069ef544fbf8ddab04690188282a07c2aa7ebf2a2a67994d567e0c",
+      "pointer_resolves_and_hash_matches": true
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras",
+      "bytes": 350064314,
+      "frozen_sha256": "935e054078b14a491d69e89719a68a2fa359beb42afce814a5a496d74c95cb72",
+      "local_sha256": "935e054078b14a491d69e89719a68a2fa359beb42afce814a5a496d74c95cb72",
+      "downloaded_sha256": "935e054078b14a491d69e89719a68a2fa359beb42afce814a5a496d74c95cb72",
+      "downloaded_object_path": "/tmp/copd-internal-lfs-verification.MDS2vm/objects/93/5e/935e054078b14a491d69e89719a68a2fa359beb42afce814a5a496d74c95cb72",
+      "pointer_resolves_and_hash_matches": true
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras",
+      "bytes": 350064314,
+      "frozen_sha256": "2e2fa2ec39cbaf8fea4080bd0576d6a1da6d968e2481c349d737f3db641553f6",
+      "local_sha256": "2e2fa2ec39cbaf8fea4080bd0576d6a1da6d968e2481c349d737f3db641553f6",
+      "downloaded_sha256": "2e2fa2ec39cbaf8fea4080bd0576d6a1da6d968e2481c349d737f3db641553f6",
+      "downloaded_object_path": "/tmp/copd-internal-lfs-verification.MDS2vm/objects/2e/2f/2e2fa2ec39cbaf8fea4080bd0576d6a1da6d968e2481c349d737f3db641553f6",
+      "pointer_resolves_and_hash_matches": true
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_enhancer_seed104729/attempt-001/selected_checkpoint.keras",
+      "bytes": 350064314,
+      "frozen_sha256": "1cb670f778a2d148d0ac2b71bea5c97f5a421bb64f744af1dc5b373a60ea3114",
+      "local_sha256": "1cb670f778a2d148d0ac2b71bea5c97f5a421bb64f744af1dc5b373a60ea3114",
+      "downloaded_sha256": "1cb670f778a2d148d0ac2b71bea5c97f5a421bb64f744af1dc5b373a60ea3114",
+      "downloaded_object_path": "/tmp/copd-internal-lfs-verification.MDS2vm/objects/1c/b6/1cb670f778a2d148d0ac2b71bea5c97f5a421bb64f744af1dc5b373a60ea3114",
+      "pointer_resolves_and_hash_matches": true
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_enhancer_seed130363/attempt-001/selected_checkpoint.keras",
+      "bytes": 350064314,
+      "frozen_sha256": "0e42ecc9364f967220ecc6c3bb0007dc25aced5d9c360355f6e48027c39f0795",
+      "local_sha256": "0e42ecc9364f967220ecc6c3bb0007dc25aced5d9c360355f6e48027c39f0795",
+      "downloaded_sha256": "0e42ecc9364f967220ecc6c3bb0007dc25aced5d9c360355f6e48027c39f0795",
+      "downloaded_object_path": "/tmp/copd-internal-lfs-verification.MDS2vm/objects/0e/42/0e42ecc9364f967220ecc6c3bb0007dc25aced5d9c360355f6e48027c39f0795",
+      "pointer_resolves_and_hash_matches": true
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_enhancer_seed155921/attempt-001/selected_checkpoint.keras",
+      "bytes": 350064314,
+      "frozen_sha256": "733ca1845061508c820240d04d4b7c30d8ba0fa7c1086419eaec0b5c2bb041d5",
+      "local_sha256": "733ca1845061508c820240d04d4b7c30d8ba0fa7c1086419eaec0b5c2bb041d5",
+      "downloaded_sha256": "733ca1845061508c820240d04d4b7c30d8ba0fa7c1086419eaec0b5c2bb041d5",
+      "downloaded_object_path": "/tmp/copd-internal-lfs-verification.MDS2vm/objects/73/3c/733ca1845061508c820240d04d4b7c30d8ba0fa7c1086419eaec0b5c2bb041d5",
+      "pointer_resolves_and_hash_matches": true
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras",
+      "bytes": 350064314,
+      "frozen_sha256": "503683295ebeb48587f42748181bf6c5815f6a8c79b8dfdd4b669c931109be81",
+      "local_sha256": "503683295ebeb48587f42748181bf6c5815f6a8c79b8dfdd4b669c931109be81",
+      "downloaded_sha256": "503683295ebeb48587f42748181bf6c5815f6a8c79b8dfdd4b669c931109be81",
+      "downloaded_object_path": "/tmp/copd-internal-lfs-verification.MDS2vm/objects/50/36/503683295ebeb48587f42748181bf6c5815f6a8c79b8dfdd4b669c931109be81",
+      "pointer_resolves_and_hash_matches": true
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras",
+      "bytes": 350064314,
+      "frozen_sha256": "56a2d331b6ed27e49f103dce228dda3c26a80ff296e91c9c740e52b9c36841c6",
+      "local_sha256": "56a2d331b6ed27e49f103dce228dda3c26a80ff296e91c9c740e52b9c36841c6",
+      "downloaded_sha256": "56a2d331b6ed27e49f103dce228dda3c26a80ff296e91c9c740e52b9c36841c6",
+      "downloaded_object_path": "/tmp/copd-internal-lfs-verification.MDS2vm/objects/56/a2/56a2d331b6ed27e49f103dce228dda3c26a80ff296e91c9c740e52b9c36841c6",
+      "pointer_resolves_and_hash_matches": true
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras",
+      "bytes": 350064314,
+      "frozen_sha256": "995dc295d163a703b80bb3e451b8fc3bd7af01fb6ce041099fc5ce3d9cc82560",
+      "local_sha256": "995dc295d163a703b80bb3e451b8fc3bd7af01fb6ce041099fc5ce3d9cc82560",
+      "downloaded_sha256": "995dc295d163a703b80bb3e451b8fc3bd7af01fb6ce041099fc5ce3d9cc82560",
+      "downloaded_object_path": "/tmp/copd-internal-lfs-verification.MDS2vm/objects/99/5d/995dc295d163a703b80bb3e451b8fc3bd7af01fb6ce041099fc5ce3d9cc82560",
+      "pointer_resolves_and_hash_matches": true
+    }
+  ],
+  "external_intermediates": [
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/cache/features_canonical.npy",
+      "bytes": 13117241408,
+      "sha256": "8d7bcb61888150e9d44ba9eb1204a2825e421827500628ed6a2c69a560f1cd0a",
+      "local_bytes_preserved": true,
+      "git_hosted": false
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/cache/features_rc.npy",
+      "bytes": 13117241408,
+      "sha256": "4fab1cc6c84eab0f27d8ab2f70d23081617966afb8282c94cbb377dbb536fa33",
+      "local_bytes_preserved": true,
+      "git_hosted": false
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/inputs/canonical_sequences.npy",
+      "bytes": 1439013275,
+      "sha256": "b2521b7cc218e96d43334e3a4408161570744683c151068081c2f224dfafb3e5",
+      "local_bytes_preserved": true,
+      "git_hosted": false
+    }
+  ],
+  "historical_tree_entries_checked": 835,
+  "historical_unchanged_except_authorized_append_only_paths": [
+    ".gitattributes",
+    ".gitignore",
+    "diseases/COPD/07_gap_closure/activity_log.tsv",
+    "diseases/COPD/07_gap_closure/gap_closure_decision_register.tsv",
+    "diseases/COPD/07_gap_closure/gap_closure_result_register.tsv"
+  ],
+  "V1_benchmark_pretraining_1_0_pretraining_1_1_unchanged": true,
+  "publication_payload_at_artifact_commit": {
+    "ordinary_files": 461,
+    "ordinary_bytes": 295349074,
+    "lfs_pointer_bytes": 2412,
+    "lfs_original_checkpoint_bytes": 6301157652,
+    "combined_original_content_bytes": 6596506726,
+    "accounting_note": "Changed paths counted at full content size; excludes Git history/pack overhead and the later verification receipt. LFS pointer bytes reported separately."
+  },
+  "target_repository": "https://github.com/yashm4-4/Codex-Manuscript",
+  "target_branch": "main",
+  "upload": {
+    "status": "PASS",
+    "command": [
+      ".git/git-lfs-3.8.0/git-lfs",
+      "push",
+      "--object-id",
+      "codex-manuscript",
+      "--stdin"
+    ],
+    "stdin_description": "Exactly the 18 original frozen checkpoint SHA-256 object IDs",
+    "returncode": 0,
+    "objects": 18,
+    "bytes": 6301157652,
+    "quota_or_storage_rejection": false
+  },
+  "artifact_publication": {
+    "commit": "276a7881ae970fbdb19c78fd17dd1453c8b6f58f",
+    "command": [
+      "git",
+      "push",
+      "codex-manuscript",
+      "main:main"
+    ],
+    "returncode": 0,
+    "nonblocking_remote_warnings": [
+      {
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/inputs/cache_index.tsv.gz",
+        "reported_size": "64.57 MB",
+        "warning": "Exceeds GitHub recommended ordinary-file size of 50.00 MB; accepted unchanged"
+      },
+      {
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/inputs/configurations/V2-A_enhancer_train.tsv.gz",
+        "reported_size": "50.48 MB",
+        "warning": "Exceeds GitHub recommended ordinary-file size of 50.00 MB; accepted unchanged"
+      }
+    ]
+  },
+  "fresh_download": {
+    "started_utc": "2026-10-06T17:28:21.751512+00:00",
+    "storage": "/tmp/copd-internal-lfs-verification.MDS2vm",
+    "initial_object_count": 0,
+    "initial_files_or_symlinks": 0,
+    "local_reference_dirs": [],
+    "local_originals_copied_or_linked_into_download_storage": false,
+    "preparation_note": "mktemp created an empty unique directory. git lfs env created only empty objects/ and tmp/ directories. An initial overly strict emptiness assertion stopped before any network fetch; checking zero files/symlinks then permitted the single successful fetch.",
+    "completed_utc": "2026-10-06T17:30:35.202695+00:00",
+    "returncode": 0,
+    "downloaded_object_files": 18,
+    "downloaded_bytes": 6301157652,
+    "command": [
+      "git",
+      "-c",
+      "lfs.storage=/tmp/copd-internal-lfs-verification.MDS2vm",
+      "-c",
+      "lfs.fetchinclude=diseases/COPD/07_gap_closure/internal-training-1.0/runs/*/attempt-001/selected_checkpoint.keras",
+      "-c",
+      "lfs.fetchexclude=",
+      "-c",
+      "lfs.fetchrecentalways=false",
+      "lfs",
+      "fetch",
+      "codex-manuscript",
+      "276a7881ae970fbdb19c78fd17dd1453c8b6f58f"
+    ]
+  },
+  "independent_audit": {
+    "status": "PASS",
+    "artifact_commit": "276a7881ae970fbdb19c78fd17dd1453c8b6f58f",
+    "historical_entries_checked": 835,
+    "unchanged_historical_entries": 830,
+    "append_only_frozen_registers": 3,
+    "append_only_policy_files": 2,
+    "scoped_changed_paths": 479,
+    "metadata_inventory_records_checked": 477,
+    "hash_bearing_manifest_references_checked": 92,
+    "external_npy_headers_match_manifest": true,
+    "unrelated_changes": false,
+    "benchmark_content_not_parsed": true
+  },
+  "quota_visibility": {
+    "preflight_file": "preflight.json",
+    "billing_usage_api_http_status": 404,
+    "exact_remaining_quota_verified": false,
+    "known_blocker_before_upload": false,
+    "actual_checkpoint_upload_accepted": true,
+    "storage_quota_rejection_encountered": false
+  },
+  "independent_fresh_download_audit": {
+    "status": "PASS",
+    "objects_rehashed": 18,
+    "bytes_rehashed": 6301157652,
+    "exact_object_set_matches_frozen_checkpoints": true,
+    "pointers_match_frozen_oids_and_sizes": true,
+    "remote_main_confirmed": "276a7881ae970fbdb19c78fd17dd1453c8b6f58f",
+    "model_archives_loaded_or_altered": false
+  },
+  "verification_command": [
+    "python",
+    "diseases/COPD/07_gap_closure/provenance/COPD-V2-INTERNAL_internal-training-1.0_publication/verify_publication.py",
+    "--commit",
+    "276a7881ae970fbdb19c78fd17dd1453c8b6f58f",
+    "--lfs-storage",
+    "/tmp/copd-internal-lfs-verification.MDS2vm"
+  ],
+  "receipt_publication_note": "This receipt is committed after the verified artifact commit. Its containing commit adds only publication verification metadata/documentation, leaving the scientific stage and checkpoint pointers unchanged. The containing commit is identified by Git history; no circular self-commit hash is asserted.",
+  "no_new_scientific_analysis_performed": true,
+  "no_chr8_chr9_execution": true,
+  "no_external_benchmark_evaluation": true,
+  "no_candidate_scoring": true,
+  "no_retraining_or_checkpoint_resaving": true
+}

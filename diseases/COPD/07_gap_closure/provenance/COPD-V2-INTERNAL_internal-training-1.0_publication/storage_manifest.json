@@ -144,9 +144,9 @@
       "diseases/COPD/07_gap_closure/provenance/COPD-V2-INTERNAL_internal-training-1.0_publication/storage_inventory.tsv",
       "diseases/COPD/07_gap_closure/provenance/COPD-V2-INTERNAL_internal-training-1.0_publication/preflight.json"
     ],
-    "planned_post_publication_verification_receipt": {
+    "post_publication_verification_receipt": {
       "path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-INTERNAL_internal-training-1.0_publication/remote_verification.json",
-      "status": "Planned after remote upload/publication and fresh download verification; this manifest does not assert that the receipt already exists or passes.",
+      "status": "PASS after publication of artifact commit 276a7881ae970fbdb19c78fd17dd1453c8b6f58f: all 18 remote objects freshly downloaded and SHA-256 verified against frozen originals; see the receipt for complete checks and transfer evidence.",
       "scope": "All 18 remote LFS objects independently downloaded and hashed against frozen originals; all remaining publication and historical preservation checks."
     },
     "optional_future_verification_helpers": "Any publication-verification helper subsequently added in this directory is a Git-tracked publication-only artifact, not an alteration of the original frozen stage."
