@@ -1,0 +1,28 @@
+{
+  "argv": [
+    "bash",
+    "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/scripts/runtime.sh",
+    "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/scripts/train_phase_two.py",
+    "--stage",
+    "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0",
+    "--configuration",
+    "V2-A",
+    "--model",
+    "enhancer",
+    "--seed",
+    "155921",
+    "--attempt",
+    "1"
+  ],
+  "cwd": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow",
+  "environment": {
+    "CUDA_VISIBLE_DEVICES": "0",
+    "PYTHONHASHSEED": "155921",
+    "SLURM_ARRAY_TASK_ID": "2",
+    "SLURM_JOB_ID": "32021392"
+  },
+  "label": "V2-A_enhancer_seed155921_attempt001",
+  "launcher": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/scripts/run_logged.py",
+  "launcher_sha256": "150cd5e2a10b5355349528bc480705cd3b2079ea8c11b3dbcad209327040cc7a",
+  "started_utc": "2026-10-06T14:51:05.079433+00:00"
+}

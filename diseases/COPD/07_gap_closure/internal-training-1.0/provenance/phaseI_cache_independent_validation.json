@@ -1,0 +1,14 @@
+{
+  "checks": 21,
+  "checks_path": "diseases/COPD/07_gap_closure/internal-training-1.0/provenance/phaseI_cache_independent_validation.tsv",
+  "checks_sha256": "4b5d4c16358eee2cb77959ffa1838752fdb0e50ab34b1d23606c8e72ebab4724",
+  "created_utc": "2026-10-06T14:49:53.084718+00:00",
+  "failures": 0,
+  "model_execution": false,
+  "module": "COPD-V2-INTERNAL-TRAINING-1.0",
+  "phase": "cache",
+  "script_sha256": "4d99f9a9e4aa95baa5b149f193d794a1196df602286d0418dd94ecbc3928e488",
+  "status": "PASS",
+  "test_or_benchmark_outcomes_parsed": false,
+  "validator": "independent-execution-audit"
+}

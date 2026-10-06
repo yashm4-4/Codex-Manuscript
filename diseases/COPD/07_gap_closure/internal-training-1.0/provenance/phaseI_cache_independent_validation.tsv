@@ -1,0 +1,22 @@
+check	status	observed	expected
+cache:complete	PASS		
+cache:weight_identity	PASS		
+cache:independent_nucleotide_RC	PASS		
+cache:exact_identity_counts	PASS		
+cache_artifact:cache/features_canonical.npy:sha256	PASS	8d7bcb61888150e9d44ba9eb1204a2825e421827500628ed6a2c69a560f1cd0a	8d7bcb61888150e9d44ba9eb1204a2825e421827500628ed6a2c69a560f1cd0a
+cache_artifact:cache/features_canonical.npy:bytes	PASS	13117241408	13117241408
+cache_artifact:cache/features_rc.npy:sha256	PASS	4fab1cc6c84eab0f27d8ab2f70d23081617966afb8282c94cbb377dbb536fa33	4fab1cc6c84eab0f27d8ab2f70d23081617966afb8282c94cbb377dbb536fa33
+cache_artifact:cache/features_rc.npy:bytes	PASS	13117241408	13117241408
+cache_artifact:cache/environment.json:sha256	PASS	65cf393ddaaed2aae9a8eb9d0e168510a308002c1df992d4918bc044e7fd7594	65cf393ddaaed2aae9a8eb9d0e168510a308002c1df992d4918bc044e7fd7594
+cache_artifact:cache/environment.json:bytes	PASS	1444	1444
+cache_artifact:cache/architecture.json:sha256	PASS	f6f529bb64af870e3efda95bbf90095d2800d6731e228c4db9cdced8449adad4	f6f529bb64af870e3efda95bbf90095d2800d6731e228c4db9cdced8449adad4
+cache_artifact:cache/architecture.json:bytes	PASS	17371	17371
+cache_artifact:cache/started.json:sha256	PASS	46acad963d0cd535c8721a5df37b9367e9ff4ab91ebaa04393f3778c8d1c988f	46acad963d0cd535c8721a5df37b9367e9ff4ab91ebaa04393f3778c8d1c988f
+cache_artifact:cache/started.json:bytes	PASS	678	678
+cache:features_canonical.npy:shape_dtype	PASS		
+cache:features_canonical.npy:all_finite_sigmoid_representations	PASS		
+cache:features_rc.npy:shape_dtype	PASS		
+cache:features_rc.npy:all_finite_sigmoid_representations	PASS		
+cache:test_sequence_extractions	PASS		
+cache:failures	PASS		
+cache:missing_sequences	PASS		

@@ -1,0 +1,27 @@
+{
+  "adequacy_decision": {
+    "path": "results/chr7_evaluation/adequacy_decision.json",
+    "sha256": "267b7eeec486801fc5e0716089710d5c61dbb3ce25a64457dac39fed50adaf5e"
+  },
+  "artifact_checksums": {
+    "path": "provenance/artifact_checksums.tsv",
+    "sha256": "661d2e95956068819713ed5d2ba01591f0019f5cb98f61e5b61e221aec8fd691"
+  },
+  "automatic_A_B_fallback": false,
+  "both_C_contexts_pass": true,
+  "candidate_or_allele_scoring_performed": false,
+  "chr8_chr9_authorized_or_evaluated": false,
+  "commit_or_push_performed": false,
+  "external_benchmark_evaluated": false,
+  "frozen_utc": "2026-10-06T16:26:11.182988+00:00",
+  "module": "COPD-V2-INTERNAL-TRAINING",
+  "payload_bytes": 34269599724,
+  "payload_files": 470,
+  "pretraining_version": "pretraining-1.1",
+  "publication_baseline_commit": "7c0caf4af5f8f346089c92f43b88161331ca420b",
+  "ready_for_investigator_review_before_test_opening": true,
+  "scope_limit": "Region-label modeling only; no causal variant or REF-ALT validity claim.",
+  "status": "COMPLETE_INTERNAL_STAGE_STOP_FOR_INVESTIGATOR_REVIEW",
+  "threshold_calibration_completed": true,
+  "version": "internal-training-1.0"
+}

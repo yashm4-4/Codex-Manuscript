@@ -1,0 +1,20 @@
+{
+  "argv": [
+    "bash",
+    "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/runtime.sh",
+    "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/prepare_calibration_path_adapter.py",
+    "--stage",
+    "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0"
+  ],
+  "cwd": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow",
+  "environment": {
+    "CUDA_VISIBLE_DEVICES": "0",
+    "PYTHONHASHSEED": null,
+    "SLURM_ARRAY_TASK_ID": null,
+    "SLURM_JOB_ID": "31881465"
+  },
+  "label": "freeze_C_release_path_adapter",
+  "launcher": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/scripts/run_logged.py",
+  "launcher_sha256": "150cd5e2a10b5355349528bc480705cd3b2079ea8c11b3dbcad209327040cc7a",
+  "started_utc": "2026-10-06T16:19:34.008797+00:00"
+}

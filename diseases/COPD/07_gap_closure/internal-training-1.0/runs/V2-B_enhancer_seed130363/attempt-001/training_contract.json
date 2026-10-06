@@ -1,0 +1,74 @@
+{
+  "batch_size": 256,
+  "cache_manifest": {
+    "bytes": 1572,
+    "path": "cache/cache_manifest.json",
+    "sha256": "671cf1161763a712a89c186200b449f0cd30892e2280018ba1427db5de55ce66"
+  },
+  "checkpoint_BCE": "float64 symmetric probabilities; clip to [1e-7,1-1e-7]; float64 mean unweighted Bernoulli log loss",
+  "checkpoint_ties": "earliest epoch, update only on strict numerical decrease",
+  "epoch_index": "zero-based",
+  "initial_weights_digest": "7beee0dff9ff357294884d1be460da2c9af19c53ad94a26a06bbbab2e57f42a2",
+  "input_gate": {
+    "bytes": 6388,
+    "path": "provenance/execution_input_gate.json",
+    "sha256": "344834610ded7f51b8ed7cad5f9429da1d722acae1137e660da81dfde09f487d"
+  },
+  "inputs": [
+    {
+      "bytes": 48658457,
+      "path": "inputs/configurations/V2-B_enhancer_train.tsv.gz",
+      "sha256": "6a381aa9e4e8a40615f8550127bf7ded5b9954a1fd47f28dff187d2b34e1bc45"
+    },
+    {
+      "bytes": 1313561,
+      "path": "inputs/configurations/V2-B_enhancer_checkpoint.tsv.gz",
+      "sha256": "858a972b00e4e0b45297ba31c4f9aea7f73ceabb1264f232fd84cdfa0d8600b5"
+    },
+    {
+      "bytes": 1572,
+      "path": "cache/cache_manifest.json",
+      "sha256": "671cf1161763a712a89c186200b449f0cd30892e2280018ba1427db5de55ce66"
+    },
+    {
+      "bytes": 13727,
+      "path": "scripts/train_phase_two.py",
+      "sha256": "b39accf4d1c45a8743550b209ed9cf0eda95c675475f1481f896b1dfef1e6959"
+    },
+    {
+      "bytes": 13066,
+      "path": "scripts/phase_two_contract.py",
+      "sha256": "f50f226b901df6bbd66455462e4da922d8229a4d030f09613a8483a74f636e2f"
+    }
+  ],
+  "jit_compile": false,
+  "max_epochs": 50,
+  "min_delta": 0,
+  "mixed_precision": false,
+  "n_checkpoint": 8432,
+  "n_train": 313578,
+  "optimizer": {
+    "clipnorm": null,
+    "clipvalue": null,
+    "ema_momentum": 0.99,
+    "ema_overwrite_frequency": null,
+    "epsilon": 1e-07,
+    "global_clipnorm": null,
+    "gradient_accumulation_steps": null,
+    "learning_rate": 0.0010000000474974513,
+    "loss_scale_factor": null,
+    "name": "adadelta",
+    "rho": 0.95,
+    "use_ema": false,
+    "weight_decay": null
+  },
+  "orientation_draw": "random(n)<0.5 in frozen genomic row order before applying permutation",
+  "orientation_substream": "SeedSequence([seed,2,epoch])",
+  "parameters_total": 29167889,
+  "patience": 15,
+  "run_id": "V2-B_enhancer_seed130363",
+  "selected_checkpoint_scope": "inference-only full architecture and all selected-epoch trainable/BatchNorm weights; no resumable optimizer state",
+  "shuffle_substream": "SeedSequence([seed,1,epoch])",
+  "trainable_parameters": 29167761,
+  "unweighted_BCE": true
+}

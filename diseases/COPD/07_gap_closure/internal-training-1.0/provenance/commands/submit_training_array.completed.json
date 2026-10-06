@@ -1,0 +1,21 @@
+{
+  "argv": [
+    "sbatch",
+    "--parsable",
+    "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/train_array.sh"
+  ],
+  "completed_utc": "2026-10-06T14:50:35.849957+00:00",
+  "cwd": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow",
+  "elapsed_seconds": 1.1260583540424705,
+  "environment": {
+    "CUDA_VISIBLE_DEVICES": "0",
+    "PYTHONHASHSEED": null,
+    "SLURM_ARRAY_TASK_ID": null,
+    "SLURM_JOB_ID": "31881465"
+  },
+  "label": "submit_training_array",
+  "launcher": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/scripts/run_logged.py",
+  "launcher_sha256": "150cd5e2a10b5355349528bc480705cd3b2079ea8c11b3dbcad209327040cc7a",
+  "returncode": 0,
+  "started_utc": "2026-10-06T14:50:34.718190+00:00"
+}

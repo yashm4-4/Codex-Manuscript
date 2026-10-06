@@ -1,0 +1,72 @@
+{
+  "authorization_attachment_sha256": "eea652047706a764dfa9fda7b9b7435c1fceb721ca19ac93667d6c4acbb6220d",
+  "created_utc": "2026-10-06T14:40:48.563597+00:00",
+  "encoded_identity_count": 719147,
+  "files": [
+    {
+      "bytes": 6258,
+      "path": "EXECUTION_SPECIFICATION.md",
+      "sha256": "0cc5b22880bd4fc26f53a170fadefb2d0cee3e705b91628504405edda8173b4c"
+    },
+    {
+      "bytes": 7588,
+      "path": "specification/internal_evaluation_implementation.json",
+      "sha256": "f6e9961e9b60aeb57a40413586d5f5111be6f2f0bea00ec7258986eb6d2432fb"
+    },
+    {
+      "bytes": 937,
+      "path": "scripts/runtime.sh",
+      "sha256": "bd4ebbfcd3443dece86d4d535f313f3676ead7fb5dd8319e7ce0ec2f843eb0fc"
+    },
+    {
+      "bytes": 2044,
+      "path": "scripts/run_logged.py",
+      "sha256": "150cd5e2a10b5355349528bc480705cd3b2079ea8c11b3dbcad209327040cc7a"
+    },
+    {
+      "bytes": 13066,
+      "path": "scripts/phase_two_contract.py",
+      "sha256": "f50f226b901df6bbd66455462e4da922d8229a4d030f09613a8483a74f636e2f"
+    },
+    {
+      "bytes": 11280,
+      "path": "scripts/prepare_internal_inputs.py",
+      "sha256": "72e5b1b42f736d7ae902d1175a3a41a55eb9df599bc0d3550213cd7733b728fa"
+    },
+    {
+      "bytes": 5487,
+      "path": "scripts/prepare_execution_gate.py",
+      "sha256": "9d6010874f45df543c9648039ce02c353095356aaa12ce0dd06ea460557edede"
+    },
+    {
+      "bytes": 8941,
+      "path": "inputs/input_manifest.json",
+      "sha256": "4c56f1aa34bc69da121e825d31c70c46d7b3de9be769d5b26a9c426d476bb538"
+    },
+    {
+      "bytes": 588,
+      "path": "provenance/input_integrity_verified_before.json",
+      "sha256": "f87bfdd10777db35cd40141e2d92ee072bf8ba43819d3d8b3b0dacc40aa391bc"
+    },
+    {
+      "bytes": 96276,
+      "path": "provenance/input_integrity_verified_before.tsv",
+      "sha256": "1d4c06bf7898db0fb50f11f029f6476eb4f25854e924021b7b6e44f00d9f319e"
+    },
+    {
+      "bytes": 8628,
+      "path": "scripts/extract_phase_one.py",
+      "sha256": "d1b77cf5a8468ee3516d6a89bcfd4f1e7994087642c851f409425242408621dd"
+    },
+    {
+      "bytes": 91708,
+      "path": "provenance/executed_environment.json",
+      "sha256": "686c46ea9ba74c16d226c140f0854feff6e3258b2035b72236eb73f75097b96c"
+    }
+  ],
+  "phase": "phase-I",
+  "phase_I_authorized": true,
+  "sequence_intervals": 719156,
+  "status": "PASS",
+  "test_extraction_authorized": false
+}

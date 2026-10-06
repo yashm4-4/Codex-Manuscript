@@ -1,0 +1,771 @@
+{
+  "action": "Append-only packaging clarification; no retraining, checkpoint replacement, seed replacement, inference-policy change or scientific redesign.",
+  "audit_scope": "ZIP/HDF5 container metadata and tensor integrity only",
+  "checkpoints": [
+    {
+      "archive_bytes": 350064314,
+      "archive_member_bytes": {
+        "config.json": 7616,
+        "metadata.json": 64,
+        "model.weights.h5": 350056304
+      },
+      "checkpoint": {
+        "bytes": 350064314,
+        "path": "runs/V2-A_enhancer_seed104729/attempt-001/selected_checkpoint.keras",
+        "sha256": "8eb380c37e92f5cbe9cb71256421565f5924d1fe373ce7ee507dbb3545272a60"
+      },
+      "checks": {
+        "all_archive_tensors_finite": true,
+        "all_optimizer_slots_zero": true,
+        "checkpoint_permitted_use_inference_only": true,
+        "compile_configuration_present": true,
+        "completed_selected_weight_bitwise_roundtrip_reported_PASS": true,
+        "fourteen_model_tensors": true,
+        "model_parameter_count_matches_frozen_architecture": true,
+        "optimizer_iteration_zero": true,
+        "selected_checkpoint_hash_unchanged": true,
+        "serialized_optimizer_Adadelta": true,
+        "twenty_four_optimizer_slots": true
+      },
+      "model_tensor_bytes": 116671556,
+      "model_tensor_count": 14,
+      "optimizer_iterations": 0,
+      "optimizer_learning_rate": 0.0010000000474974513,
+      "optimizer_slot_bytes": 233342088,
+      "optimizer_slot_count": 24,
+      "optimizer_tensor_bytes": 233342100,
+      "optimizer_tensor_count": 26,
+      "packaging_checks_pass": true,
+      "run_id": "V2-A_enhancer_seed104729",
+      "selected_checkpoint_record": {
+        "path": "runs/V2-A_enhancer_seed104729/attempt-001/selected_checkpoint.json",
+        "sha256": "473518eb63b4c89745bea7247a9d56327063d6bd64ca00c4b7baefdf4c01c6cb"
+      }
+    },
+    {
+      "archive_bytes": 350064314,
+      "archive_member_bytes": {
+        "config.json": 7616,
+        "metadata.json": 64,
+        "model.weights.h5": 350056304
+      },
+      "checkpoint": {
+        "bytes": 350064314,
+        "path": "runs/V2-A_enhancer_seed130363/attempt-001/selected_checkpoint.keras",
+        "sha256": "fb1f9103e7c824ffa280aa98fb2274a0abdb5eebbfcc381b2e8ed6df030faeed"
+      },
+      "checks": {
+        "all_archive_tensors_finite": true,
+        "all_optimizer_slots_zero": true,
+        "checkpoint_permitted_use_inference_only": true,
+        "compile_configuration_present": true,
+        "completed_selected_weight_bitwise_roundtrip_reported_PASS": true,
+        "fourteen_model_tensors": true,
+        "model_parameter_count_matches_frozen_architecture": true,
+        "optimizer_iteration_zero": true,
+        "selected_checkpoint_hash_unchanged": true,
+        "serialized_optimizer_Adadelta": true,
+        "twenty_four_optimizer_slots": true
+      },
+      "model_tensor_bytes": 116671556,
+      "model_tensor_count": 14,
+      "optimizer_iterations": 0,
+      "optimizer_learning_rate": 0.0010000000474974513,
+      "optimizer_slot_bytes": 233342088,
+      "optimizer_slot_count": 24,
+      "optimizer_tensor_bytes": 233342100,
+      "optimizer_tensor_count": 26,
+      "packaging_checks_pass": true,
+      "run_id": "V2-A_enhancer_seed130363",
+      "selected_checkpoint_record": {
+        "path": "runs/V2-A_enhancer_seed130363/attempt-001/selected_checkpoint.json",
+        "sha256": "d3bbfe3d34cd5c734b5bc414b002700bedd77bb8815b8fc0e803a8408727c674"
+      }
+    },
+    {
+      "archive_bytes": 350064314,
+      "archive_member_bytes": {
+        "config.json": 7616,
+        "metadata.json": 64,
+        "model.weights.h5": 350056304
+      },
+      "checkpoint": {
+        "bytes": 350064314,
+        "path": "runs/V2-A_enhancer_seed155921/attempt-001/selected_checkpoint.keras",
+        "sha256": "a74ee692f8b7386678a37de827e5ecb1bd597f665c6b475ba19fddadea961168"
+      },
+      "checks": {
+        "all_archive_tensors_finite": true,
+        "all_optimizer_slots_zero": true,
+        "checkpoint_permitted_use_inference_only": true,
+        "compile_configuration_present": true,
+        "completed_selected_weight_bitwise_roundtrip_reported_PASS": true,
+        "fourteen_model_tensors": true,
+        "model_parameter_count_matches_frozen_architecture": true,
+        "optimizer_iteration_zero": true,
+        "selected_checkpoint_hash_unchanged": true,
+        "serialized_optimizer_Adadelta": true,
+        "twenty_four_optimizer_slots": true
+      },
+      "model_tensor_bytes": 116671556,
+      "model_tensor_count": 14,
+      "optimizer_iterations": 0,
+      "optimizer_learning_rate": 0.0010000000474974513,
+      "optimizer_slot_bytes": 233342088,
+      "optimizer_slot_count": 24,
+      "optimizer_tensor_bytes": 233342100,
+      "optimizer_tensor_count": 26,
+      "packaging_checks_pass": true,
+      "run_id": "V2-A_enhancer_seed155921",
+      "selected_checkpoint_record": {
+        "path": "runs/V2-A_enhancer_seed155921/attempt-001/selected_checkpoint.json",
+        "sha256": "eb6078fecb0352e124b8962d3a6f0aee40ea00be17a0217a05bd643204058f64"
+      }
+    },
+    {
+      "archive_bytes": 350064314,
+      "archive_member_bytes": {
+        "config.json": 7616,
+        "metadata.json": 64,
+        "model.weights.h5": 350056304
+      },
+      "checkpoint": {
+        "bytes": 350064314,
+        "path": "runs/V2-A_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras",
+        "sha256": "67b6c55c2dc7c79b8e70331ce4ee17c2f6b228ae95198312c8476084723b6249"
+      },
+      "checks": {
+        "all_archive_tensors_finite": true,
+        "all_optimizer_slots_zero": true,
+        "checkpoint_permitted_use_inference_only": true,
+        "compile_configuration_present": true,
+        "completed_selected_weight_bitwise_roundtrip_reported_PASS": true,
+        "fourteen_model_tensors": true,
+        "model_parameter_count_matches_frozen_architecture": true,
+        "optimizer_iteration_zero": true,
+        "selected_checkpoint_hash_unchanged": true,
+        "serialized_optimizer_Adadelta": true,
+        "twenty_four_optimizer_slots": true
+      },
+      "model_tensor_bytes": 116671556,
+      "model_tensor_count": 14,
+      "optimizer_iterations": 0,
+      "optimizer_learning_rate": 0.0010000000474974513,
+      "optimizer_slot_bytes": 233342088,
+      "optimizer_slot_count": 24,
+      "optimizer_tensor_bytes": 233342100,
+      "optimizer_tensor_count": 26,
+      "packaging_checks_pass": true,
+      "run_id": "V2-A_h3k27me3_seed104729",
+      "selected_checkpoint_record": {
+        "path": "runs/V2-A_h3k27me3_seed104729/attempt-001/selected_checkpoint.json",
+        "sha256": "4b608f82298c3307fec820386c529e762889c9a3674f6e184d561cf899831ca4"
+      }
+    },
+    {
+      "archive_bytes": 350064314,
+      "archive_member_bytes": {
+        "config.json": 7616,
+        "metadata.json": 64,
+        "model.weights.h5": 350056304
+      },
+      "checkpoint": {
+        "bytes": 350064314,
+        "path": "runs/V2-A_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras",
+        "sha256": "d20a5e35ac9e348ea09b1418abf18fd3a4c5c040811a8324d25ff39911b25ae8"
+      },
+      "checks": {
+        "all_archive_tensors_finite": true,
+        "all_optimizer_slots_zero": true,
+        "checkpoint_permitted_use_inference_only": true,
+        "compile_configuration_present": true,
+        "completed_selected_weight_bitwise_roundtrip_reported_PASS": true,
+        "fourteen_model_tensors": true,
+        "model_parameter_count_matches_frozen_architecture": true,
+        "optimizer_iteration_zero": true,
+        "selected_checkpoint_hash_unchanged": true,
+        "serialized_optimizer_Adadelta": true,
+        "twenty_four_optimizer_slots": true
+      },
+      "model_tensor_bytes": 116671556,
+      "model_tensor_count": 14,
+      "optimizer_iterations": 0,
+      "optimizer_learning_rate": 0.0010000000474974513,
+      "optimizer_slot_bytes": 233342088,
+      "optimizer_slot_count": 24,
+      "optimizer_tensor_bytes": 233342100,
+      "optimizer_tensor_count": 26,
+      "packaging_checks_pass": true,
+      "run_id": "V2-A_h3k27me3_seed130363",
+      "selected_checkpoint_record": {
+        "path": "runs/V2-A_h3k27me3_seed130363/attempt-001/selected_checkpoint.json",
+        "sha256": "699a198b921584a87265e88ea9fe85b437c84c820f03a4cd71e239a6a7348619"
+      }
+    },
+    {
+      "archive_bytes": 350064314,
+      "archive_member_bytes": {
+        "config.json": 7616,
+        "metadata.json": 64,
+        "model.weights.h5": 350056304
+      },
+      "checkpoint": {
+        "bytes": 350064314,
+        "path": "runs/V2-A_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras",
+        "sha256": "b350d45b7d126adf329c8379e5340a8cdd8b95c4028c00a99e726513c7a03820"
+      },
+      "checks": {
+        "all_archive_tensors_finite": true,
+        "all_optimizer_slots_zero": true,
+        "checkpoint_permitted_use_inference_only": true,
+        "compile_configuration_present": true,
+        "completed_selected_weight_bitwise_roundtrip_reported_PASS": true,
+        "fourteen_model_tensors": true,
+        "model_parameter_count_matches_frozen_architecture": true,
+        "optimizer_iteration_zero": true,
+        "selected_checkpoint_hash_unchanged": true,
+        "serialized_optimizer_Adadelta": true,
+        "twenty_four_optimizer_slots": true
+      },
+      "model_tensor_bytes": 116671556,
+      "model_tensor_count": 14,
+      "optimizer_iterations": 0,
+      "optimizer_learning_rate": 0.0010000000474974513,
+      "optimizer_slot_bytes": 233342088,
+      "optimizer_slot_count": 24,
+      "optimizer_tensor_bytes": 233342100,
+      "optimizer_tensor_count": 26,
+      "packaging_checks_pass": true,
+      "run_id": "V2-A_h3k27me3_seed155921",
+      "selected_checkpoint_record": {
+        "path": "runs/V2-A_h3k27me3_seed155921/attempt-001/selected_checkpoint.json",
+        "sha256": "9175a0750335aaadeed1aaaeb9b285cf0694c98588cb790dc2800a0c281fa129"
+      }
+    },
+    {
+      "archive_bytes": 350064314,
+      "archive_member_bytes": {
+        "config.json": 7616,
+        "metadata.json": 64,
+        "model.weights.h5": 350056304
+      },
+      "checkpoint": {
+        "bytes": 350064314,
+        "path": "runs/V2-B_enhancer_seed104729/attempt-001/selected_checkpoint.keras",
+        "sha256": "1dc13e371414fd81072b07689f3ce64446a32692e917d236983db024f28cabca"
+      },
+      "checks": {
+        "all_archive_tensors_finite": true,
+        "all_optimizer_slots_zero": true,
+        "checkpoint_permitted_use_inference_only": true,
+        "compile_configuration_present": true,
+        "completed_selected_weight_bitwise_roundtrip_reported_PASS": true,
+        "fourteen_model_tensors": true,
+        "model_parameter_count_matches_frozen_architecture": true,
+        "optimizer_iteration_zero": true,
+        "selected_checkpoint_hash_unchanged": true,
+        "serialized_optimizer_Adadelta": true,
+        "twenty_four_optimizer_slots": true
+      },
+      "model_tensor_bytes": 116671556,
+      "model_tensor_count": 14,
+      "optimizer_iterations": 0,
+      "optimizer_learning_rate": 0.0010000000474974513,
+      "optimizer_slot_bytes": 233342088,
+      "optimizer_slot_count": 24,
+      "optimizer_tensor_bytes": 233342100,
+      "optimizer_tensor_count": 26,
+      "packaging_checks_pass": true,
+      "run_id": "V2-B_enhancer_seed104729",
+      "selected_checkpoint_record": {
+        "path": "runs/V2-B_enhancer_seed104729/attempt-001/selected_checkpoint.json",
+        "sha256": "7f3f1396188c9b008211466ade061428e3a21351326f8a7213227b6c3d292c03"
+      }
+    },
+    {
+      "archive_bytes": 350064314,
+      "archive_member_bytes": {
+        "config.json": 7616,
+        "metadata.json": 64,
+        "model.weights.h5": 350056304
+      },
+      "checkpoint": {
+        "bytes": 350064314,
+        "path": "runs/V2-B_enhancer_seed130363/attempt-001/selected_checkpoint.keras",
+        "sha256": "97bbc39bc5e93bf49b51169ad015fb4710708c7f1d3e7aeb232d28d3fa40d9ab"
+      },
+      "checks": {
+        "all_archive_tensors_finite": true,
+        "all_optimizer_slots_zero": true,
+        "checkpoint_permitted_use_inference_only": true,
+        "compile_configuration_present": true,
+        "completed_selected_weight_bitwise_roundtrip_reported_PASS": true,
+        "fourteen_model_tensors": true,
+        "model_parameter_count_matches_frozen_architecture": true,
+        "optimizer_iteration_zero": true,
+        "selected_checkpoint_hash_unchanged": true,
+        "serialized_optimizer_Adadelta": true,
+        "twenty_four_optimizer_slots": true
+      },
+      "model_tensor_bytes": 116671556,
+      "model_tensor_count": 14,
+      "optimizer_iterations": 0,
+      "optimizer_learning_rate": 0.0010000000474974513,
+      "optimizer_slot_bytes": 233342088,
+      "optimizer_slot_count": 24,
+      "optimizer_tensor_bytes": 233342100,
+      "optimizer_tensor_count": 26,
+      "packaging_checks_pass": true,
+      "run_id": "V2-B_enhancer_seed130363",
+      "selected_checkpoint_record": {
+        "path": "runs/V2-B_enhancer_seed130363/attempt-001/selected_checkpoint.json",
+        "sha256": "b77107e98a85834b5ce42ee4037502e7142d01aacfda22905f588bca0dd5cb50"
+      }
+    },
+    {
+      "archive_bytes": 350064314,
+      "archive_member_bytes": {
+        "config.json": 7616,
+        "metadata.json": 64,
+        "model.weights.h5": 350056304
+      },
+      "checkpoint": {
+        "bytes": 350064314,
+        "path": "runs/V2-B_enhancer_seed155921/attempt-001/selected_checkpoint.keras",
+        "sha256": "c0e2a96ed19c3b9d5ddbb51a85b0d4ffce7701e41f12bd25ce69bcf763d6300e"
+      },
+      "checks": {
+        "all_archive_tensors_finite": true,
+        "all_optimizer_slots_zero": true,
+        "checkpoint_permitted_use_inference_only": true,
+        "compile_configuration_present": true,
+        "completed_selected_weight_bitwise_roundtrip_reported_PASS": true,
+        "fourteen_model_tensors": true,
+        "model_parameter_count_matches_frozen_architecture": true,
+        "optimizer_iteration_zero": true,
+        "selected_checkpoint_hash_unchanged": true,
+        "serialized_optimizer_Adadelta": true,
+        "twenty_four_optimizer_slots": true
+      },
+      "model_tensor_bytes": 116671556,
+      "model_tensor_count": 14,
+      "optimizer_iterations": 0,
+      "optimizer_learning_rate": 0.0010000000474974513,
+      "optimizer_slot_bytes": 233342088,
+      "optimizer_slot_count": 24,
+      "optimizer_tensor_bytes": 233342100,
+      "optimizer_tensor_count": 26,
+      "packaging_checks_pass": true,
+      "run_id": "V2-B_enhancer_seed155921",
+      "selected_checkpoint_record": {
+        "path": "runs/V2-B_enhancer_seed155921/attempt-001/selected_checkpoint.json",
+        "sha256": "c0a6a003486e47743773b074d7d47315886c582d90c75004f99be7ce82504714"
+      }
+    },
+    {
+      "archive_bytes": 350064314,
+      "archive_member_bytes": {
+        "config.json": 7616,
+        "metadata.json": 64,
+        "model.weights.h5": 350056304
+      },
+      "checkpoint": {
+        "bytes": 350064314,
+        "path": "runs/V2-B_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras",
+        "sha256": "c74842f069069ef544fbf8ddab04690188282a07c2aa7ebf2a2a67994d567e0c"
+      },
+      "checks": {
+        "all_archive_tensors_finite": true,
+        "all_optimizer_slots_zero": true,
+        "checkpoint_permitted_use_inference_only": true,
+        "compile_configuration_present": true,
+        "completed_selected_weight_bitwise_roundtrip_reported_PASS": true,
+        "fourteen_model_tensors": true,
+        "model_parameter_count_matches_frozen_architecture": true,
+        "optimizer_iteration_zero": true,
+        "selected_checkpoint_hash_unchanged": true,
+        "serialized_optimizer_Adadelta": true,
+        "twenty_four_optimizer_slots": true
+      },
+      "model_tensor_bytes": 116671556,
+      "model_tensor_count": 14,
+      "optimizer_iterations": 0,
+      "optimizer_learning_rate": 0.0010000000474974513,
+      "optimizer_slot_bytes": 233342088,
+      "optimizer_slot_count": 24,
+      "optimizer_tensor_bytes": 233342100,
+      "optimizer_tensor_count": 26,
+      "packaging_checks_pass": true,
+      "run_id": "V2-B_h3k27me3_seed104729",
+      "selected_checkpoint_record": {
+        "path": "runs/V2-B_h3k27me3_seed104729/attempt-001/selected_checkpoint.json",
+        "sha256": "e79c924db7397dc42a2f994a533f4e849751bb111586d85bb3e21128953bcd83"
+      }
+    },
+    {
+      "archive_bytes": 350064314,
+      "archive_member_bytes": {
+        "config.json": 7616,
+        "metadata.json": 64,
+        "model.weights.h5": 350056304
+      },
+      "checkpoint": {
+        "bytes": 350064314,
+        "path": "runs/V2-B_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras",
+        "sha256": "935e054078b14a491d69e89719a68a2fa359beb42afce814a5a496d74c95cb72"
+      },
+      "checks": {
+        "all_archive_tensors_finite": true,
+        "all_optimizer_slots_zero": true,
+        "checkpoint_permitted_use_inference_only": true,
+        "compile_configuration_present": true,
+        "completed_selected_weight_bitwise_roundtrip_reported_PASS": true,
+        "fourteen_model_tensors": true,
+        "model_parameter_count_matches_frozen_architecture": true,
+        "optimizer_iteration_zero": true,
+        "selected_checkpoint_hash_unchanged": true,
+        "serialized_optimizer_Adadelta": true,
+        "twenty_four_optimizer_slots": true
+      },
+      "model_tensor_bytes": 116671556,
+      "model_tensor_count": 14,
+      "optimizer_iterations": 0,
+      "optimizer_learning_rate": 0.0010000000474974513,
+      "optimizer_slot_bytes": 233342088,
+      "optimizer_slot_count": 24,
+      "optimizer_tensor_bytes": 233342100,
+      "optimizer_tensor_count": 26,
+      "packaging_checks_pass": true,
+      "run_id": "V2-B_h3k27me3_seed130363",
+      "selected_checkpoint_record": {
+        "path": "runs/V2-B_h3k27me3_seed130363/attempt-001/selected_checkpoint.json",
+        "sha256": "dfc4a323fcde07ab561c8ce4dfd6e3a82b9c5cf956b735aaa14bfd3b54e66755"
+      }
+    },
+    {
+      "archive_bytes": 350064314,
+      "archive_member_bytes": {
+        "config.json": 7616,
+        "metadata.json": 64,
+        "model.weights.h5": 350056304
+      },
+      "checkpoint": {
+        "bytes": 350064314,
+        "path": "runs/V2-B_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras",
+        "sha256": "2e2fa2ec39cbaf8fea4080bd0576d6a1da6d968e2481c349d737f3db641553f6"
+      },
+      "checks": {
+        "all_archive_tensors_finite": true,
+        "all_optimizer_slots_zero": true,
+        "checkpoint_permitted_use_inference_only": true,
+        "compile_configuration_present": true,
+        "completed_selected_weight_bitwise_roundtrip_reported_PASS": true,
+        "fourteen_model_tensors": true,
+        "model_parameter_count_matches_frozen_architecture": true,
+        "optimizer_iteration_zero": true,
+        "selected_checkpoint_hash_unchanged": true,
+        "serialized_optimizer_Adadelta": true,
+        "twenty_four_optimizer_slots": true
+      },
+      "model_tensor_bytes": 116671556,
+      "model_tensor_count": 14,
+      "optimizer_iterations": 0,
+      "optimizer_learning_rate": 0.0010000000474974513,
+      "optimizer_slot_bytes": 233342088,
+      "optimizer_slot_count": 24,
+      "optimizer_tensor_bytes": 233342100,
+      "optimizer_tensor_count": 26,
+      "packaging_checks_pass": true,
+      "run_id": "V2-B_h3k27me3_seed155921",
+      "selected_checkpoint_record": {
+        "path": "runs/V2-B_h3k27me3_seed155921/attempt-001/selected_checkpoint.json",
+        "sha256": "2fcbf0083a4458bedc4175bae14da95a465a3b8abbea303bb4f404198cc17c0e"
+      }
+    },
+    {
+      "archive_bytes": 350064314,
+      "archive_member_bytes": {
+        "config.json": 7616,
+        "metadata.json": 64,
+        "model.weights.h5": 350056304
+      },
+      "checkpoint": {
+        "bytes": 350064314,
+        "path": "runs/V2-C_enhancer_seed104729/attempt-001/selected_checkpoint.keras",
+        "sha256": "1cb670f778a2d148d0ac2b71bea5c97f5a421bb64f744af1dc5b373a60ea3114"
+      },
+      "checks": {
+        "all_archive_tensors_finite": true,
+        "all_optimizer_slots_zero": true,
+        "checkpoint_permitted_use_inference_only": true,
+        "compile_configuration_present": true,
+        "completed_selected_weight_bitwise_roundtrip_reported_PASS": true,
+        "fourteen_model_tensors": true,
+        "model_parameter_count_matches_frozen_architecture": true,
+        "optimizer_iteration_zero": true,
+        "selected_checkpoint_hash_unchanged": true,
+        "serialized_optimizer_Adadelta": true,
+        "twenty_four_optimizer_slots": true
+      },
+      "model_tensor_bytes": 116671556,
+      "model_tensor_count": 14,
+      "optimizer_iterations": 0,
+      "optimizer_learning_rate": 0.0010000000474974513,
+      "optimizer_slot_bytes": 233342088,
+      "optimizer_slot_count": 24,
+      "optimizer_tensor_bytes": 233342100,
+      "optimizer_tensor_count": 26,
+      "packaging_checks_pass": true,
+      "run_id": "V2-C_enhancer_seed104729",
+      "selected_checkpoint_record": {
+        "path": "runs/V2-C_enhancer_seed104729/attempt-001/selected_checkpoint.json",
+        "sha256": "b3076cf944e66b5abd8517c38a7c2a79db7767805a0037694831811c2b78959d"
+      }
+    },
+    {
+      "archive_bytes": 350064314,
+      "archive_member_bytes": {
+        "config.json": 7616,
+        "metadata.json": 64,
+        "model.weights.h5": 350056304
+      },
+      "checkpoint": {
+        "bytes": 350064314,
+        "path": "runs/V2-C_enhancer_seed130363/attempt-001/selected_checkpoint.keras",
+        "sha256": "0e42ecc9364f967220ecc6c3bb0007dc25aced5d9c360355f6e48027c39f0795"
+      },
+      "checks": {
+        "all_archive_tensors_finite": true,
+        "all_optimizer_slots_zero": true,
+        "checkpoint_permitted_use_inference_only": true,
+        "compile_configuration_present": true,
+        "completed_selected_weight_bitwise_roundtrip_reported_PASS": true,
+        "fourteen_model_tensors": true,
+        "model_parameter_count_matches_frozen_architecture": true,
+        "optimizer_iteration_zero": true,
+        "selected_checkpoint_hash_unchanged": true,
+        "serialized_optimizer_Adadelta": true,
+        "twenty_four_optimizer_slots": true
+      },
+      "model_tensor_bytes": 116671556,
+      "model_tensor_count": 14,
+      "optimizer_iterations": 0,
+      "optimizer_learning_rate": 0.0010000000474974513,
+      "optimizer_slot_bytes": 233342088,
+      "optimizer_slot_count": 24,
+      "optimizer_tensor_bytes": 233342100,
+      "optimizer_tensor_count": 26,
+      "packaging_checks_pass": true,
+      "run_id": "V2-C_enhancer_seed130363",
+      "selected_checkpoint_record": {
+        "path": "runs/V2-C_enhancer_seed130363/attempt-001/selected_checkpoint.json",
+        "sha256": "9dadd284915a2cf253bed62f88a31849019eb992b8b2af6cbfdf2b4adebd95c8"
+      }
+    },
+    {
+      "archive_bytes": 350064314,
+      "archive_member_bytes": {
+        "config.json": 7616,
+        "metadata.json": 64,
+        "model.weights.h5": 350056304
+      },
+      "checkpoint": {
+        "bytes": 350064314,
+        "path": "runs/V2-C_enhancer_seed155921/attempt-001/selected_checkpoint.keras",
+        "sha256": "733ca1845061508c820240d04d4b7c30d8ba0fa7c1086419eaec0b5c2bb041d5"
+      },
+      "checks": {
+        "all_archive_tensors_finite": true,
+        "all_optimizer_slots_zero": true,
+        "checkpoint_permitted_use_inference_only": true,
+        "compile_configuration_present": true,
+        "completed_selected_weight_bitwise_roundtrip_reported_PASS": true,
+        "fourteen_model_tensors": true,
+        "model_parameter_count_matches_frozen_architecture": true,
+        "optimizer_iteration_zero": true,
+        "selected_checkpoint_hash_unchanged": true,
+        "serialized_optimizer_Adadelta": true,
+        "twenty_four_optimizer_slots": true
+      },
+      "model_tensor_bytes": 116671556,
+      "model_tensor_count": 14,
+      "optimizer_iterations": 0,
+      "optimizer_learning_rate": 0.0010000000474974513,
+      "optimizer_slot_bytes": 233342088,
+      "optimizer_slot_count": 24,
+      "optimizer_tensor_bytes": 233342100,
+      "optimizer_tensor_count": 26,
+      "packaging_checks_pass": true,
+      "run_id": "V2-C_enhancer_seed155921",
+      "selected_checkpoint_record": {
+        "path": "runs/V2-C_enhancer_seed155921/attempt-001/selected_checkpoint.json",
+        "sha256": "cdeb9734b5604ab0798facd559d2d2e58e12cd0470c0420e1cb1ddf8f1299db7"
+      }
+    },
+    {
+      "archive_bytes": 350064314,
+      "archive_member_bytes": {
+        "config.json": 7616,
+        "metadata.json": 64,
+        "model.weights.h5": 350056304
+      },
+      "checkpoint": {
+        "bytes": 350064314,
+        "path": "runs/V2-C_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras",
+        "sha256": "503683295ebeb48587f42748181bf6c5815f6a8c79b8dfdd4b669c931109be81"
+      },
+      "checks": {
+        "all_archive_tensors_finite": true,
+        "all_optimizer_slots_zero": true,
+        "checkpoint_permitted_use_inference_only": true,
+        "compile_configuration_present": true,
+        "completed_selected_weight_bitwise_roundtrip_reported_PASS": true,
+        "fourteen_model_tensors": true,
+        "model_parameter_count_matches_frozen_architecture": true,
+        "optimizer_iteration_zero": true,
+        "selected_checkpoint_hash_unchanged": true,
+        "serialized_optimizer_Adadelta": true,
+        "twenty_four_optimizer_slots": true
+      },
+      "model_tensor_bytes": 116671556,
+      "model_tensor_count": 14,
+      "optimizer_iterations": 0,
+      "optimizer_learning_rate": 0.0010000000474974513,
+      "optimizer_slot_bytes": 233342088,
+      "optimizer_slot_count": 24,
+      "optimizer_tensor_bytes": 233342100,
+      "optimizer_tensor_count": 26,
+      "packaging_checks_pass": true,
+      "run_id": "V2-C_h3k27me3_seed104729",
+      "selected_checkpoint_record": {
+        "path": "runs/V2-C_h3k27me3_seed104729/attempt-001/selected_checkpoint.json",
+        "sha256": "f10b32b928e2ba11349b1cf1f889228c31a47d69454ede7f78256dd38f0bbcca"
+      }
+    },
+    {
+      "archive_bytes": 350064314,
+      "archive_member_bytes": {
+        "config.json": 7616,
+        "metadata.json": 64,
+        "model.weights.h5": 350056304
+      },
+      "checkpoint": {
+        "bytes": 350064314,
+        "path": "runs/V2-C_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras",
+        "sha256": "56a2d331b6ed27e49f103dce228dda3c26a80ff296e91c9c740e52b9c36841c6"
+      },
+      "checks": {
+        "all_archive_tensors_finite": true,
+        "all_optimizer_slots_zero": true,
+        "checkpoint_permitted_use_inference_only": true,
+        "compile_configuration_present": true,
+        "completed_selected_weight_bitwise_roundtrip_reported_PASS": true,
+        "fourteen_model_tensors": true,
+        "model_parameter_count_matches_frozen_architecture": true,
+        "optimizer_iteration_zero": true,
+        "selected_checkpoint_hash_unchanged": true,
+        "serialized_optimizer_Adadelta": true,
+        "twenty_four_optimizer_slots": true
+      },
+      "model_tensor_bytes": 116671556,
+      "model_tensor_count": 14,
+      "optimizer_iterations": 0,
+      "optimizer_learning_rate": 0.0010000000474974513,
+      "optimizer_slot_bytes": 233342088,
+      "optimizer_slot_count": 24,
+      "optimizer_tensor_bytes": 233342100,
+      "optimizer_tensor_count": 26,
+      "packaging_checks_pass": true,
+      "run_id": "V2-C_h3k27me3_seed130363",
+      "selected_checkpoint_record": {
+        "path": "runs/V2-C_h3k27me3_seed130363/attempt-001/selected_checkpoint.json",
+        "sha256": "f8ea045676a4f5de23f5e2c502703064c59309df26874f8c2a90f78f733ae4b3"
+      }
+    },
+    {
+      "archive_bytes": 350064314,
+      "archive_member_bytes": {
+        "config.json": 7616,
+        "metadata.json": 64,
+        "model.weights.h5": 350056304
+      },
+      "checkpoint": {
+        "bytes": 350064314,
+        "path": "runs/V2-C_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras",
+        "sha256": "995dc295d163a703b80bb3e451b8fc3bd7af01fb6ce041099fc5ce3d9cc82560"
+      },
+      "checks": {
+        "all_archive_tensors_finite": true,
+        "all_optimizer_slots_zero": true,
+        "checkpoint_permitted_use_inference_only": true,
+        "compile_configuration_present": true,
+        "completed_selected_weight_bitwise_roundtrip_reported_PASS": true,
+        "fourteen_model_tensors": true,
+        "model_parameter_count_matches_frozen_architecture": true,
+        "optimizer_iteration_zero": true,
+        "selected_checkpoint_hash_unchanged": true,
+        "serialized_optimizer_Adadelta": true,
+        "twenty_four_optimizer_slots": true
+      },
+      "model_tensor_bytes": 116671556,
+      "model_tensor_count": 14,
+      "optimizer_iterations": 0,
+      "optimizer_learning_rate": 0.0010000000474974513,
+      "optimizer_slot_bytes": 233342088,
+      "optimizer_slot_count": 24,
+      "optimizer_tensor_bytes": 233342100,
+      "optimizer_tensor_count": 26,
+      "packaging_checks_pass": true,
+      "run_id": "V2-C_h3k27me3_seed155921",
+      "selected_checkpoint_record": {
+        "path": "runs/V2-C_h3k27me3_seed155921/attempt-001/selected_checkpoint.json",
+        "sha256": "98353baf88326453c0a2084dec4bc5b9f1c79c8a0ffb25ac30fa755fd1dc7c05"
+      }
+    }
+  ],
+  "checkpoints_audited": 18,
+  "checks": 222,
+  "checks_path": "diseases/COPD/07_gap_closure/internal-training-1.0/provenance/checkpoint_packaging_final_validation.tsv",
+  "checks_sha256": "135c292806a0b045a0bec59e1fbfe09585e9f30645177e557241c859617cdef7",
+  "clarification": "Keras3.14.1 model.to_json includes compile_config; model_from_json restores compilation and initializes optimizer slots. The frozen source comment claiming architecture-only/uncompiled serialization is inaccurate. Existing archives retain the selected network weights and additional freshly initialized optimizer state.",
+  "created_utc": "2026-10-06T16:04:18.711260+00:00",
+  "dataset_table": {
+    "path": "provenance/checkpoint_packaging_final_validation_datasets.tsv",
+    "sha256": "a79a4823f0b58c3d492ba80740ac05d55ffe1277bd67f1532134e60e40cf1f1b"
+  },
+  "failures": 0,
+  "final_all18_packaging_validation": true,
+  "h5py": "3.16.0",
+  "inference_assessment": "The frozen training procedure restores selected trainable/BatchNorm weights, verifies identical native checkpoint BCE, sets those weights on the serialized model, and performs compile=False reload with bitwise network-weight equality. The deployed prediction wrapper also loads compile=False. Extra optimizer tensors therefore do not enter forward inference; mandatory actual-network RC and downstream output QC still apply.",
+  "model_execution": false,
+  "model_network_executed": false,
+  "module": "COPD-V2-INTERNAL-TRAINING-1.0",
+  "numpy": "2.5.0",
+  "packaging_status": "PASS_PACKAGING_CLARIFIED",
+  "phase": "packaging",
+  "risks": [
+    "Do not resume optimization from these archives: iteration0/zero slots are not selected-epoch optimizer state.",
+    "Do not treat checkpoint_is_inference_only as a claim that the ZIP lacks compile metadata or optimizer datasets.",
+    "Extra optimizer tensors increase storage/checksum/I/O cost; preserve original archives and checksums, do not reserialize during the frozen stage."
+  ],
+  "script_sha256": "756c464e982a99b24647dce765d093150218563d5ccd284fd582c8438c9ce78a",
+  "selection_calibration_test_or_benchmark_predictions_read": false,
+  "source_evidence": [
+    {
+      "all_load_model_compile_false": true,
+      "load_model_calls": 1,
+      "path": "scripts/train_phase_two.py",
+      "sha256": "b39accf4d1c45a8743550b209ed9cf0eda95c675475f1481f896b1dfef1e6959"
+    },
+    {
+      "all_load_model_compile_false": true,
+      "load_model_calls": 1,
+      "path": "scripts/predict_chr7.py",
+      "sha256": "1316cb5e79d9102779bb5611e561eed6482b61315345f62ddc74d6545ef2fe99"
+    }
+  ],
+  "status": "PASS",
+  "test_or_benchmark_outcomes_parsed": false,
+  "training_or_checkpoints_modified": false,
+  "validator": "independent-execution-audit"
+}

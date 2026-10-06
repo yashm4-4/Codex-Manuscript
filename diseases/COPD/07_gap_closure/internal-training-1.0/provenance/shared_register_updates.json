@@ -1,0 +1,44 @@
+{
+  "baseline_commit": "7c0caf4af5f8f346089c92f43b88161331ca420b",
+  "baseline_ledger": {
+    "path": "provenance/tracked_baseline_before_files.tsv",
+    "sha256": "94bf0cff63e200217cfe354c400e0ba3afe9181613259733f8a1c02eb0fbc42d"
+  },
+  "commit_or_push_performed": false,
+  "created_utc": "2026-10-06T16:22:13.487590+00:00",
+  "files": [
+    {
+      "appended_bytes": 5891,
+      "appended_rows": 9,
+      "baseline_bytes": 11646,
+      "baseline_sha256": "d89c7e0adf591b8994068c37e5b1d73c7da029bf425e348a128aa27911dbdb85",
+      "bytes": 17537,
+      "original_bytes_preserved_as_prefix": true,
+      "path": "diseases/COPD/07_gap_closure/activity_log.tsv",
+      "sha256": "a7f7f36424042a9d9c82d6730f39577282cf1b8b644c10a9eaf34776e03565bf"
+    },
+    {
+      "appended_bytes": 3592,
+      "appended_rows": 5,
+      "baseline_bytes": 13521,
+      "baseline_sha256": "0c43a84121c239a0b292e5135be5b2dcc0bccc5bd57790b607a71b64ec14643f",
+      "bytes": 17113,
+      "original_bytes_preserved_as_prefix": true,
+      "path": "diseases/COPD/07_gap_closure/gap_closure_decision_register.tsv",
+      "sha256": "3d837bb54066298f55f43d5a564eeab572f1dd2b0c126f7a3314cceff276dcb6"
+    },
+    {
+      "appended_bytes": 4063,
+      "appended_rows": 9,
+      "baseline_bytes": 22748,
+      "baseline_sha256": "fa13efba734fa1c06e893c9c46786f44eadf8bb3f1f0285325d4d3461e9abd63",
+      "bytes": 26811,
+      "original_bytes_preserved_as_prefix": true,
+      "path": "diseases/COPD/07_gap_closure/gap_closure_result_register.tsv",
+      "sha256": "69e2fc0ceee6e6972f3e98fa24c92a5abe0cbe781a9a8e82b8725acb7f006790"
+    }
+  ],
+  "historical_rows_modified": false,
+  "scientific_stage": "internal-training-1.0",
+  "status": "PASS_APPEND_ONLY"
+}

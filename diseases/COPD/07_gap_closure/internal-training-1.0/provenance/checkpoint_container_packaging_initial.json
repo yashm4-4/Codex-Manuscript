@@ -1,0 +1,106 @@
+{
+  "action": "Append-only packaging clarification; no retraining, checkpoint replacement, seed replacement, inference-policy change or scientific redesign.",
+  "audit_scope": "ZIP/HDF5 container metadata and tensor integrity only",
+  "checkpoints": [
+    {
+      "archive_bytes": 350064314,
+      "archive_member_bytes": {
+        "config.json": 7616,
+        "metadata.json": 64,
+        "model.weights.h5": 350056304
+      },
+      "checkpoint": {
+        "bytes": 350064314,
+        "path": "runs/V2-A_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras",
+        "sha256": "67b6c55c2dc7c79b8e70331ce4ee17c2f6b228ae95198312c8476084723b6249"
+      },
+      "checks": {
+        "all_archive_tensors_finite": true,
+        "all_optimizer_slots_zero": true,
+        "checkpoint_permitted_use_inference_only": true,
+        "compile_configuration_present": true,
+        "completed_selected_weight_bitwise_roundtrip_reported_PASS": true,
+        "fourteen_model_tensors": true,
+        "model_parameter_count_matches_frozen_architecture": true,
+        "optimizer_iteration_zero": true,
+        "selected_checkpoint_hash_unchanged": true,
+        "serialized_optimizer_Adadelta": true,
+        "twenty_four_optimizer_slots": true
+      },
+      "model_tensor_bytes": 116671556,
+      "model_tensor_count": 14,
+      "optimizer_iterations": 0,
+      "optimizer_learning_rate": 0.0010000000474974513,
+      "optimizer_slot_bytes": 233342088,
+      "optimizer_slot_count": 24,
+      "optimizer_tensor_bytes": 233342100,
+      "optimizer_tensor_count": 26,
+      "packaging_checks_pass": true,
+      "run_id": "V2-A_h3k27me3_seed104729",
+      "selected_checkpoint_record": {
+        "path": "runs/V2-A_h3k27me3_seed104729/attempt-001/selected_checkpoint.json",
+        "sha256": "4b608f82298c3307fec820386c529e762889c9a3674f6e184d561cf899831ca4"
+      }
+    },
+    {
+      "archive_bytes": 350064314,
+      "archive_member_bytes": {
+        "config.json": 7616,
+        "metadata.json": 64,
+        "model.weights.h5": 350056304
+      },
+      "checkpoint": {
+        "bytes": 350064314,
+        "path": "runs/V2-A_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras",
+        "sha256": "d20a5e35ac9e348ea09b1418abf18fd3a4c5c040811a8324d25ff39911b25ae8"
+      },
+      "checks": {
+        "all_archive_tensors_finite": true,
+        "all_optimizer_slots_zero": true,
+        "checkpoint_permitted_use_inference_only": true,
+        "compile_configuration_present": true,
+        "completed_selected_weight_bitwise_roundtrip_reported_PASS": true,
+        "fourteen_model_tensors": true,
+        "model_parameter_count_matches_frozen_architecture": true,
+        "optimizer_iteration_zero": true,
+        "selected_checkpoint_hash_unchanged": true,
+        "serialized_optimizer_Adadelta": true,
+        "twenty_four_optimizer_slots": true
+      },
+      "model_tensor_bytes": 116671556,
+      "model_tensor_count": 14,
+      "optimizer_iterations": 0,
+      "optimizer_learning_rate": 0.0010000000474974513,
+      "optimizer_slot_bytes": 233342088,
+      "optimizer_slot_count": 24,
+      "optimizer_tensor_bytes": 233342100,
+      "optimizer_tensor_count": 26,
+      "packaging_checks_pass": true,
+      "run_id": "V2-A_h3k27me3_seed130363",
+      "selected_checkpoint_record": {
+        "path": "runs/V2-A_h3k27me3_seed130363/attempt-001/selected_checkpoint.json",
+        "sha256": "699a198b921584a87265e88ea9fe85b437c84c820f03a4cd71e239a6a7348619"
+      }
+    }
+  ],
+  "checkpoints_audited": 2,
+  "clarification": "Keras3.14.1 model.to_json includes compile_config; model_from_json restores compilation and initializes optimizer slots. The frozen source comment claiming architecture-only/uncompiled serialization is inaccurate. Existing archives retain the selected network weights and additional freshly initialized optimizer state.",
+  "created_utc": "2026-10-06T15:12:26.263697+00:00",
+  "dataset_table": {
+    "path": "provenance/checkpoint_container_packaging_initial_datasets.tsv",
+    "sha256": "2b1029b1b674be40ba5270e83869fb0204533dc00775ec30c3499b7a823d15f4"
+  },
+  "h5py": "3.7.0",
+  "inference_assessment": "The frozen training procedure restores selected trainable/BatchNorm weights, verifies identical native checkpoint BCE, sets those weights on the serialized model, and performs compile=False reload with bitwise network-weight equality. The deployed prediction wrapper also loads compile=False. Extra optimizer tensors therefore do not enter forward inference; mandatory actual-network RC and downstream output QC still apply.",
+  "model_network_executed": false,
+  "numpy": "1.24.4",
+  "risks": [
+    "Do not resume optimization from these archives: iteration0/zero slots are not selected-epoch optimizer state.",
+    "Do not treat checkpoint_is_inference_only as a claim that the ZIP lacks compile metadata or optimizer datasets.",
+    "Extra optimizer tensors increase storage/checksum/I/O cost; preserve original archives and checksums, do not reserialize during the frozen stage."
+  ],
+  "script_sha256": "1a891f661049c2a42c561a47e555dfaf35ecc256a7315bf131faad93bacccb30",
+  "selection_calibration_test_or_benchmark_predictions_read": false,
+  "status": "PASS_PACKAGING_CLARIFIED",
+  "training_or_checkpoints_modified": false
+}

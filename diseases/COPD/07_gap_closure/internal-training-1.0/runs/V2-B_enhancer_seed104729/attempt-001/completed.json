@@ -1,0 +1,39 @@
+{
+  "attempt": 1,
+  "calibration_role_access": false,
+  "checkpoint": {
+    "bytes": 350064314,
+    "path": "runs/V2-B_enhancer_seed104729/attempt-001/selected_checkpoint.keras",
+    "sha256": "1dc13e371414fd81072b07689f3ce64446a32692e917d236983db024f28cabca"
+  },
+  "checkpoint_is_inference_only": true,
+  "checkpoint_symmetric_BCE": 0.5809752831828137,
+  "chr8_chr9_access": false,
+  "completed": true,
+  "configuration": "V2-B",
+  "early_stopped": true,
+  "epochs_completed": 21,
+  "external_benchmark_access": false,
+  "finished_utc": "2026-10-06T15:31:55.098681+00:00",
+  "history": {
+    "bytes": 4738,
+    "path": "runs/V2-B_enhancer_seed104729/attempt-001/history.tsv",
+    "sha256": "fed90c5d79be28ed5bd9d1904fc244fe2fad06dc369442954a768e276af39ce7"
+  },
+  "model": "enhancer",
+  "native_checkpoint_orientation_hashes": {
+    "forward": "3838387816a626dca87a6dfd58fd771fbf92d88a72e0e87f2dc76b9b66445a0e",
+    "rc": "53a3ad9d055bef85ee325ec5acdecf268b790029d824b544cd08408ac8efb436"
+  },
+  "peak_RSS_KiB": 21607060,
+  "restored_checkpoint_symmetric_BCE": 0.5809752831828137,
+  "run_id": "V2-B_enhancer_seed104729",
+  "seed": 104729,
+  "selected_epoch_one_based": 6,
+  "selection_role_access": false,
+  "serialized_selected_weights_bitwise_roundtrip": true,
+  "status": "COMPLETED",
+  "system_cpu_seconds": 427.859219,
+  "user_cpu_seconds": 319.205231,
+  "wall_seconds": 933.7876791795716
+}

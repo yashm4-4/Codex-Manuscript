@@ -1,0 +1,20 @@
+check	status	observed	expected
+calibration:release_status	PASS		
+calibration:both_thresholds_PASS	PASS		
+calibration:negative_chr7_only	PASS		
+calibration:enhancer:exact_frozen_negatives	PASS		
+calibration:enhancer:equal_seed_mean	PASS		
+calibration:enhancer:support_minima	PASS		
+calibration:enhancer:control_counts	PASS		
+calibration:enhancer:boundary_exact	PASS		
+calibration:enhancer:threshold_exact	PASS		
+calibration:enhancer:FPR_ties	PASS		
+calibration:enhancer:no_allele_delta	PASS		
+calibration:h3k27me3:exact_frozen_negatives	PASS		
+calibration:h3k27me3:equal_seed_mean	PASS		
+calibration:h3k27me3:support_minima	PASS		
+calibration:h3k27me3:control_counts	PASS		
+calibration:h3k27me3:boundary_exact	PASS		
+calibration:h3k27me3:threshold_exact	PASS		
+calibration:h3k27me3:FPR_ties	PASS		
+calibration:h3k27me3:no_allele_delta	PASS		

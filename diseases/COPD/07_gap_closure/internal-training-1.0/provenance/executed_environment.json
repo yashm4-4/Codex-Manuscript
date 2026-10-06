@@ -1,0 +1,1790 @@
+{
+  "created_utc": "2026-10-06T14:40:48.553030+00:00",
+  "environment": {
+    "CUDA_VISIBLE_DEVICES": "0",
+    "PYTHONHASHSEED": null,
+    "SLURM_ARRAY_TASK_ID": null,
+    "SLURM_CPUS_PER_TASK": "16",
+    "SLURM_JOB_GPUS": "1",
+    "SLURM_JOB_ID": "31881465",
+    "TF_CUDNN_DETERMINISTIC": "1",
+    "TF_DETERMINISTIC_OPS": "1",
+    "TF_ENABLE_ONEDNN_OPTS": null,
+    "TF_XLA_FLAGS": "--tf_xla_enable_xla_devices=false"
+  },
+  "executable": "/home/maheshwarany2/.local/share/uv/python/cpython-3.13.0-linux-x86_64-gnu/bin/python3.13",
+  "interpretation": "Match frozen training manifest Python3.13.0; preserve original read-only site-packages; original venv interpreter inaccessible and pyvenv.cfg patch differs.",
+  "interpreter_sha256": "975d6ff9aab3edb6833646bd3ad4183b17326890aa7e5119fb121d083329d2c0",
+  "nvidia_smi": {
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "NVIDIA A100-SXM4-80GB, GPU-c0f9ea40-1229-3a05-cb51-36356549035c, 580.173.02, 81920 MiB\n"
+  },
+  "original_pyvenv_cfg": "home = /home/manzog2/.local/share/uv/python/cpython-3.13-linux-x86_64-gnu/bin\nimplementation = CPython\nuv = 0.11.8\nversion_info = 3.13.13\ninclude-system-site-packages = false\nprompt = trednet-summer-2026\n",
+  "original_venv_python_symlink": "/home/manzog2/.local/share/uv/python/cpython-3.13-linux-x86_64-gnu/bin/python3.13",
+  "packages": {
+    "h5py": "3.16.0",
+    "keras": "3.14.1",
+    "numpy": "2.5.0",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.18.0",
+    "tensorflow": "2.20.0"
+  },
+  "packages_all": [
+    {
+      "metadata": [
+        {
+          "bytes": 3283,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/absl_py-2.4.0.dist-info/METADATA",
+          "sha256": "121f156e84e29de7b5ae3d7e5037818f0fca8a270a0712418ba1f4cc1d52ab48"
+        },
+        {
+          "bytes": 2606,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/absl_py-2.4.0.dist-info/RECORD",
+          "sha256": "82def0d7a919fa144e3125eb3e4d2da6137810fd483e9c49435f5c5c93f009d1"
+        },
+        {
+          "bytes": 87,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/absl_py-2.4.0.dist-info/WHEEL",
+          "sha256": "58b82a17209f9bf2804afe161f2632d0fde933f9bb2792fd936b2474a2e2ac2f"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/absl_py-2.4.0.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "absl-py",
+      "version": "2.4.0"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 4391,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/astunparse-1.6.3.dist-info/METADATA",
+          "sha256": "bd0e7ffe603dbef8e7444209eb54a8941acf096e763ae81d2c249c8d5b0bfc47"
+        },
+        {
+          "bytes": 991,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/astunparse-1.6.3.dist-info/RECORD",
+          "sha256": "ae94f5dafc901c88947dacc17f2278272cc84912987756ee1220d6451808c773"
+        },
+        {
+          "bytes": 110,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/astunparse-1.6.3.dist-info/WHEEL",
+          "sha256": "f3335865bc10497a01f487d73a33df78dc2f02c00b0237df824dbb16abc259ba"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/astunparse-1.6.3.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "astunparse",
+      "version": "1.6.3"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 13290,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/biopython-1.87.dist-info/METADATA",
+          "sha256": "7f3c1c7a1875c95815b397aecc5e5b90b1135ba0c7b1cb447a89c238662c8f10"
+        },
+        {
+          "bytes": 57478,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/biopython-1.87.dist-info/RECORD",
+          "sha256": "ef5ebeca34761a5f0f4c454e86b1cb1d7a06a519c772c44a0b8bb9f26a8479a3"
+        },
+        {
+          "bytes": 190,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/biopython-1.87.dist-info/WHEEL",
+          "sha256": "e13ee8386091b8755d481f8daeda04027441cf81502616778c469827a311a797"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/biopython-1.87.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "biopython",
+      "version": "1.87"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 2474,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/certifi-2026.6.17.dist-info/METADATA",
+          "sha256": "ea15c09edd1ad9e97bc66d9ef71bcfb910a7b592e374a0a437cd5ee3b134c0df"
+        },
+        {
+          "bytes": 963,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/certifi-2026.6.17.dist-info/RECORD",
+          "sha256": "f010bf8e6401172bf2ac5eb50c0a44e60d4f5917b88a8f95ac05e37633a1803b"
+        },
+        {
+          "bytes": 91,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/certifi-2026.6.17.dist-info/WHEEL",
+          "sha256": "69e6228a0d35958183cc1812f07c565ce837b95eb51bd8a33acba9fa4f68d6c9"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/certifi-2026.6.17.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "certifi",
+      "version": "2026.6.17"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 40931,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/charset_normalizer-3.4.7.dist-info/METADATA",
+          "sha256": "2bc94af0bf0b699d5898abd62eddf3124a48c6208e0b9f31361cc542b7d02714"
+        },
+        {
+          "bytes": 2285,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/charset_normalizer-3.4.7.dist-info/RECORD",
+          "sha256": "e8348c89795236fe8ca241de62f1766cfab44786a79581d161afe7dd24fd8c3b"
+        },
+        {
+          "bytes": 190,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/charset_normalizer-3.4.7.dist-info/WHEEL",
+          "sha256": "e13ee8386091b8755d481f8daeda04027441cf81502616778c469827a311a797"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/charset_normalizer-3.4.7.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "charset-normalizer",
+      "version": "3.4.7"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 5461,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/contourpy-1.3.3.dist-info/METADATA",
+          "sha256": "c43cef86baef09cff9c77975e578fa8cca0c9454df40dc176938b499a63de54a"
+        },
+        {
+          "bytes": 2116,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/contourpy-1.3.3.dist-info/RECORD",
+          "sha256": "d73b907c306061e2384830321a305994ebd5f3a126eed70c6c90f314656e42ea"
+        },
+        {
+          "bytes": 138,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/contourpy-1.3.3.dist-info/WHEEL",
+          "sha256": "09b1165bcbc456d022ae47f3c03d23e9df29eb2404569f760ab459361755bcaf"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/contourpy-1.3.3.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "contourpy",
+      "version": "1.3.3"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 3779,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/cycler-0.12.1.dist-info/METADATA",
+          "sha256": "23289e19b76f1e01394227696e6af2b6cd1ce79e89731209bf9195148b18ed36"
+        },
+        {
+          "bytes": 704,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/cycler-0.12.1.dist-info/RECORD",
+          "sha256": "cbcbee5f18d75bd4935199b135aa33c3ed62df14991110a35c428883798d7979"
+        },
+        {
+          "bytes": 92,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/cycler-0.12.1.dist-info/WHEEL",
+          "sha256": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/cycler-0.12.1.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "cycler",
+      "version": "0.12.1"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 1004,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/flatbuffers-25.12.19.dist-info/METADATA",
+          "sha256": "9f38239f96faa21522a6aadab6912e1e560708bbe9c9f696a0679c9403fa089e"
+        },
+        {
+          "bytes": 1308,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/flatbuffers-25.12.19.dist-info/RECORD",
+          "sha256": "731215f6ccac6f388f03039973bdfcad16911e24175e0b8c42fd9f63c51d8e31"
+        },
+        {
+          "bytes": 109,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/flatbuffers-25.12.19.dist-info/WHEEL",
+          "sha256": "24d5a1d459b551dc08415d3be609429f8315b8246cd2ca2d248abe27aadbc425"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/flatbuffers-25.12.19.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "flatbuffers",
+      "version": "25.12.19"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 118704,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/fonttools-4.63.0.dist-info/METADATA",
+          "sha256": "878374d811bfa83c045c55eabbcaa09e646f426fd4777b5e7f716e4e2198fbc1"
+        },
+        {
+          "bytes": 31981,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/fonttools-4.63.0.dist-info/RECORD",
+          "sha256": "a74d5cb6f84ef1c7d12603222efe91ca968549cd26abe1cfbc69e8912a3bf164"
+        },
+        {
+          "bytes": 151,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/fonttools-4.63.0.dist-info/WHEEL",
+          "sha256": "75a1270651115956b49e3debeecad3b8bb7513f0f79a32668fdcc5185ed120a2"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/fonttools-4.63.0.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "fonttools",
+      "version": "4.63.0"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 1506,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/gast-0.7.0.dist-info/METADATA",
+          "sha256": "ba832aed1cfdf57d9e92cb04570b92339af4caddc4cdff1d54beb644fe87c76a"
+        },
+        {
+          "bytes": 1042,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/gast-0.7.0.dist-info/RECORD",
+          "sha256": "4abdb40c3ae824c7cebb142b117f1992d67d1e678dfa2a4ce904eadba334cfde"
+        },
+        {
+          "bytes": 91,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/gast-0.7.0.dist-info/WHEEL",
+          "sha256": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/gast-0.7.0.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "gast",
+      "version": "0.7.0"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 814,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/google_pasta-0.2.0.dist-info/METADATA",
+          "sha256": "86aec7a18f3af96068276ae5ffdb9db082aa8429a317f30e5b99159bcb390fd8"
+        },
+        {
+          "bytes": 2560,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/google_pasta-0.2.0.dist-info/RECORD",
+          "sha256": "e5499a2b188b230240373df3c33e5e79924c2bb400a90ca65f21c0abb9e53390"
+        },
+        {
+          "bytes": 92,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/google_pasta-0.2.0.dist-info/WHEEL",
+          "sha256": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/google_pasta-0.2.0.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "google-pasta",
+      "version": "0.2.0"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 3715,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/grpcio-1.81.1.dist-info/METADATA",
+          "sha256": "6d038b4a919aeaf69f24e83869402f1937c70b2b7e4a731c5fa5cb50659edea6"
+        },
+        {
+          "bytes": 5754,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/grpcio-1.81.1.dist-info/RECORD",
+          "sha256": "8db2d58474fbe77e7424645d5a68850ed01645f6e7a71ffa19741493d7aa2c92"
+        },
+        {
+          "bytes": 151,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/grpcio-1.81.1.dist-info/WHEEL",
+          "sha256": "4462e7cd50778ef1e1c2175b99991c0ac46baf4813c6a6b35bfa54a726f98dc8"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/grpcio-1.81.1.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "grpcio",
+      "version": "1.81.1"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 3007,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/h5py-3.16.0.dist-info/METADATA",
+          "sha256": "e461fcf7eb9fee6242205f9225cc178455a0212d1c0cb8f997f7eebf8cd9695e"
+        },
+        {
+          "bytes": 9433,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/h5py-3.16.0.dist-info/RECORD",
+          "sha256": "429a18b30ad5dc492dc1c0d8fe15d167951532f70bee005d753637f7d6ee406f"
+        },
+        {
+          "bytes": 113,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/h5py-3.16.0.dist-info/WHEEL",
+          "sha256": "aaf644ace113d9b6da4c3882fc4c256fb7ec58e0f6cfb19104d12109436c6e14"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/h5py-3.16.0.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "h5py",
+      "version": "3.16.0"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 6119,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/idna-3.18.dist-info/METADATA",
+          "sha256": "46dfe6e5ac462d0f680ecd9abcf66e829b6a2334824b4d9e3979b31135caf281"
+        },
+        {
+          "bytes": 1408,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/idna-3.18.dist-info/RECORD",
+          "sha256": "d0fef14e0bf8cfb855b90b3c458455829a76ffa840e867afb4e243dd991c1bf9"
+        },
+        {
+          "bytes": 82,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/idna-3.18.dist-info/WHEEL",
+          "sha256": "1b68144734c4b66791f27add5d425f3620775585718a03d0f9b110ba3a4d88db"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/idna-3.18.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "idna",
+      "version": "3.18"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 5542,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/joblib-1.5.3.dist-info/METADATA",
+          "sha256": "cee9c60896ae4e7a965a840fbde50d111d2f8018f61201d1ed2e9fc3dd4883e6"
+        },
+        {
+          "bytes": 14398,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/joblib-1.5.3.dist-info/RECORD",
+          "sha256": "de09a1190b65801ed7ada8395671b94da2278e33d15356223b2b2d3201180e76"
+        },
+        {
+          "bytes": 91,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/joblib-1.5.3.dist-info/WHEEL",
+          "sha256": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/joblib-1.5.3.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "joblib",
+      "version": "1.5.3"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 6317,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/keras-3.14.1.dist-info/METADATA",
+          "sha256": "cc18a3b0db1131e824424b2e992901d7fb9317eb4d229167dcee59884f9492de"
+        },
+        {
+          "bytes": 60882,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/keras-3.14.1.dist-info/RECORD",
+          "sha256": "f37ffed25d89078e0121c6fc75cb074ee1ab2d33307ee761628bd8f8aa344e80"
+        },
+        {
+          "bytes": 91,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/keras-3.14.1.dist-info/WHEEL",
+          "sha256": "69e6228a0d35958183cc1812f07c565ce837b95eb51bd8a33acba9fa4f68d6c9"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/keras-3.14.1.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "keras",
+      "version": "3.14.1"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 5101,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/kiwisolver-1.5.0.dist-info/METADATA",
+          "sha256": "bb843307a98b7bd2a7055f831cbfa2fe7c864716dea9d04c7a5c03e51f648b79"
+        },
+        {
+          "bytes": 1009,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/kiwisolver-1.5.0.dist-info/RECORD",
+          "sha256": "8ddc563f0220f58745daf29d105069340c66bda1473dc3c81570220b98166e7d"
+        },
+        {
+          "bytes": 151,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/kiwisolver-1.5.0.dist-info/WHEEL",
+          "sha256": "a3ae469df53edce4ae787e588491d80f105cc94354e9f4d3b3a49ceb66867d7d"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/kiwisolver-1.5.0.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "kiwisolver",
+      "version": "1.5.0"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 5183,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/libclang-18.1.1.dist-info/METADATA",
+          "sha256": "ec0a1e58cb24d92a08048c817a3781698bd592bfb16e9da70860ab263f1fdc7b"
+        },
+        {
+          "bytes": 968,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/libclang-18.1.1.dist-info/RECORD",
+          "sha256": "b311b1e5ede53c9384d4c5c52715aa5c5a53a7baed8a025e8301f18062b1e544"
+        },
+        {
+          "bytes": 144,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/libclang-18.1.1.dist-info/WHEEL",
+          "sha256": "18ed2987b09d639583eeb371b2328f85ef7e3fc3dfb042679da25a993abb26ba"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/libclang-18.1.1.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "libclang",
+      "version": "18.1.1"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 5067,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/markdown-3.10.2.dist-info/METADATA",
+          "sha256": "d3ea71b57cc1a86a6a15eae20a03e0f4f73cbdb41278d8d0b641462be3e28085"
+        },
+        {
+          "bytes": 3553,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/markdown-3.10.2.dist-info/RECORD",
+          "sha256": "64cd36db8655e437eee40075e09e2065d682da29f4bf1a4df9d103b316f94ea2"
+        },
+        {
+          "bytes": 91,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/markdown-3.10.2.dist-info/WHEEL",
+          "sha256": "6027f0606398322e49870d9f538c8d83012bc9b6f6217e4f13004a57865b741a"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/markdown-3.10.2.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "Markdown",
+      "version": "3.10.2"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 7410,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/markdown_it_py-4.2.0.dist-info/METADATA",
+          "sha256": "72c36ff516755443b1ecb61e17b2567a990230b49a504b0eb0c42d5f82448a9c"
+        },
+        {
+          "bytes": 6833,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/markdown_it_py-4.2.0.dist-info/RECORD",
+          "sha256": "06b3b77844b1d7240358f155fa29fd81f6f9302376be6f185b60f89f34dc5faa"
+        },
+        {
+          "bytes": 82,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/markdown_it_py-4.2.0.dist-info/WHEEL",
+          "sha256": "1b68144734c4b66791f27add5d425f3620775585718a03d0f9b110ba3a4d88db"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/markdown_it_py-4.2.0.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "markdown-it-py",
+      "version": "4.2.0"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 2690,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/markupsafe-3.0.3.dist-info/METADATA",
+          "sha256": "12b4cc61a7fa288cf7667ee3f213786d9619db57fb33ff6f934afbcb5c12ec81"
+        },
+        {
+          "bytes": 1093,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/markupsafe-3.0.3.dist-info/RECORD",
+          "sha256": "cf0b1a3aae7a0861eb593b6cdecf50b10759fd8de07e3565cfb557dd43ad3977"
+        },
+        {
+          "bytes": 190,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/markupsafe-3.0.3.dist-info/WHEEL",
+          "sha256": "da21e1f5eda8e93de71edbbf3554fb0acee979b22a17de2b64af33ad07e0a092"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/markupsafe-3.0.3.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "MarkupSafe",
+      "version": "3.0.3"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 80264,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/matplotlib-3.11.0.dist-info/METADATA",
+          "sha256": "776f562976d418b94697f9f84649f80d06167042eb810ed9cd9d72260bb2abb4"
+        },
+        {
+          "bytes": 56264,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/matplotlib-3.11.0.dist-info/RECORD",
+          "sha256": "32c9b058c3284a5bc2e0e751b3a0d130091432267bc1f27005ac1448dab49ffb"
+        },
+        {
+          "bytes": 137,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/matplotlib-3.11.0.dist-info/WHEEL",
+          "sha256": "e232527718bbbb024f0fc136bfcb402242fad2f70de989cb69ceb410c4de3bee"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/matplotlib-3.11.0.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "matplotlib",
+      "version": "3.11.0"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 1638,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/mdurl-0.1.2.dist-info/METADATA",
+          "sha256": "b53b29d48f499367053fda3c81e7ce27d2558380ebbf83e66023b02eb7ddd25d"
+        },
+        {
+          "bytes": 958,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/mdurl-0.1.2.dist-info/RECORD",
+          "sha256": "9a1b05128e711beabd7684e116fcf408ce8cff7ef10e7e8b359b248924fe529c"
+        },
+        {
+          "bytes": 81,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/mdurl-0.1.2.dist-info/WHEEL",
+          "sha256": "e137ca201ff1bbed386dcda22b3ebfcc5b7e80414410353fdf51c686acce084f"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/mdurl-0.1.2.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "mdurl",
+      "version": "0.1.2"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 8908,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/ml_dtypes-0.5.4.dist-info/METADATA",
+          "sha256": "51b5729b48ce71736748bbf43d4f355485f42b44977d6016717bbd6b11b7dfc0"
+        },
+        {
+          "bytes": 1111,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/ml_dtypes-0.5.4.dist-info/RECORD",
+          "sha256": "bb54e4c41a0aec082d0b962602c3bc026547be85679d243a2460ec22fb193b80"
+        },
+        {
+          "bytes": 152,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/ml_dtypes-0.5.4.dist-info/WHEEL",
+          "sha256": "14686888b043eb3dde3bcf2d9d8452d1380b696bde02be6ec9722a065c7a9a7a"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/ml_dtypes-0.5.4.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "ml_dtypes",
+      "version": "0.5.4"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 322,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/namex-0.1.0.dist-info/METADATA",
+          "sha256": "f19393d11719a6928589337da4f57003668f96c309a8382397ba4e7631c2b4db"
+        },
+        {
+          "bytes": 844,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/namex-0.1.0.dist-info/RECORD",
+          "sha256": "905b044dd964f9a04b4a2f88695ddb07ec8d7d1cdda83c363074f01eb4898be8"
+        },
+        {
+          "bytes": 91,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/namex-0.1.0.dist-info/WHEEL",
+          "sha256": "cda68e20d2444a449f9bfe07415739b2c3731c23d78499b490451a929b041da5"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/namex-0.1.0.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "namex",
+      "version": "0.1.0"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 15049,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/narwhals-2.22.1.dist-info/METADATA",
+          "sha256": "9fd1ea680516563446572230e93ff162e3545d3ff00b32955b44e5b8085e13ec"
+        },
+        {
+          "bytes": 14152,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/narwhals-2.22.1.dist-info/RECORD",
+          "sha256": "ca43c6da3dafe20947b4d96150b53feb8f34d37dd96c5201f425c1dd4f66111d"
+        },
+        {
+          "bytes": 81,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/narwhals-2.22.1.dist-info/WHEEL",
+          "sha256": "c17c0056c81568e67fa700c5a909b945de8f203f8573be2790b73c5fc807883a"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/narwhals-2.22.1.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "narwhals",
+      "version": "2.22.1"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 6584,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/numpy-2.5.0.dist-info/METADATA",
+          "sha256": "981cedfa033b69d5a8e153e42cf5f26f7027dd0b3701c37d8d8a2b83e8315d48"
+        },
+        {
+          "bytes": 86279,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/numpy-2.5.0.dist-info/RECORD",
+          "sha256": "2378227bc64c82440a030538d539875033a829fe6a29b2181156b47d334778dd"
+        },
+        {
+          "bytes": 138,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/numpy-2.5.0.dist-info/WHEEL",
+          "sha256": "09b1165bcbc456d022ae47f3c03d23e9df29eb2404569f760ab459361755bcaf"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/numpy-2.5.0.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "numpy",
+      "version": "2.5.0"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 1830,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cublas_cu12-12.9.2.10.dist-info/METADATA",
+          "sha256": "e16eb06ed054ecf152abcf5219b73fa3c708a0d9f7fa0e4a68ee95c0c19c32de"
+        },
+        {
+          "bytes": 1504,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cublas_cu12-12.9.2.10.dist-info/RECORD",
+          "sha256": "024a36050e4c91c0c25596544fc32977c01c128618194202e3cda8a30ea2a268"
+        },
+        {
+          "bytes": 109,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cublas_cu12-12.9.2.10.dist-info/WHEEL",
+          "sha256": "2b2769309025a22a45d918850122b19142e957ad6e9957e81a70367b7613f522"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cublas_cu12-12.9.2.10.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "nvidia-cublas-cu12",
+      "version": "12.9.2.10"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 1754,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cuda_cupti_cu12-12.9.79.dist-info/METADATA",
+          "sha256": "8d261a62c9c7e5a7bbea3cb7e83cbd526635ebc83feb2e58b1f07926487c3a19"
+        },
+        {
+          "bytes": 5014,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cuda_cupti_cu12-12.9.79.dist-info/RECORD",
+          "sha256": "d4e5028d9b45eeb14b39d3e44a7f1c6d649d889a1b38d47a15f6bd1ad3689cfa"
+        },
+        {
+          "bytes": 109,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cuda_cupti_cu12-12.9.79.dist-info/WHEEL",
+          "sha256": "83876c57734e03dd345c55161cbd55609ffd05aa579855d84b39af01989fdb4f"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cuda_cupti_cu12-12.9.79.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "nvidia-cuda-cupti-cu12",
+      "version": "12.9.79"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 1687,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cuda_nvcc_cu12-12.9.86.dist-info/METADATA",
+          "sha256": "225fa0ff44a85608f8739a7604f703d6a0cd724fc49f905e72c05fa43e56fb3f"
+        },
+        {
+          "bytes": 3699,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cuda_nvcc_cu12-12.9.86.dist-info/RECORD",
+          "sha256": "6b7c9302f87e66cac233d7da4db7e9ce9ba065546902effdbf511dff5b9723ba"
+        },
+        {
+          "bytes": 144,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cuda_nvcc_cu12-12.9.86.dist-info/WHEEL",
+          "sha256": "361d84bf9908f802444606f434579ed73ac2882841aaaee8174e52fa9ec62ea9"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cuda_nvcc_cu12-12.9.86.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "nvidia-cuda-nvcc-cu12",
+      "version": "12.9.86"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 1708,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cuda_nvrtc_cu12-12.9.86.dist-info/METADATA",
+          "sha256": "2db271b84ab76428cbe8c147c861571d19cc0ee212114a1ca111c0b2678c072a"
+        },
+        {
+          "bytes": 1202,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cuda_nvrtc_cu12-12.9.86.dist-info/RECORD",
+          "sha256": "5f0f55db846b51d7cd220725afc049c05823cd4e4668f56ba6b807d7e1798ecc"
+        },
+        {
+          "bytes": 144,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cuda_nvrtc_cu12-12.9.86.dist-info/WHEEL",
+          "sha256": "361d84bf9908f802444606f434579ed73ac2882841aaaee8174e52fa9ec62ea9"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cuda_nvrtc_cu12-12.9.86.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "nvidia-cuda-nvrtc-cu12",
+      "version": "12.9.86"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 1708,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cuda_runtime_cu12-12.9.79.dist-info/METADATA",
+          "sha256": "0ef5626898a1a85bf43b738b90bd64e366d819e2b0365e8ae43e3497f4c396d6"
+        },
+        {
+          "bytes": 11204,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cuda_runtime_cu12-12.9.79.dist-info/RECORD",
+          "sha256": "02233c722c04360ad7115d236647f8bde21c4ae04ba32eea557ccf91166897b5"
+        },
+        {
+          "bytes": 144,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cuda_runtime_cu12-12.9.79.dist-info/WHEEL",
+          "sha256": "81ea1104d34eecc7b402c295af90fd60159d3d5051809c26f190b5a524956b2b"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cuda_runtime_cu12-12.9.79.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "nvidia-cuda-runtime-cu12",
+      "version": "12.9.79"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 1856,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cudnn_cu12-9.23.2.1.dist-info/METADATA",
+          "sha256": "b78c55da2cba782f9a0f30440c8226ab0212127e1b2f45e3c673bb84a2c7adab"
+        },
+        {
+          "bytes": 3168,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cudnn_cu12-9.23.2.1.dist-info/RECORD",
+          "sha256": "be86b6de83593caeeb2045baf37d195ce1db1cdbdaae102e1354c85e0a22c428"
+        },
+        {
+          "bytes": 109,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cudnn_cu12-9.23.2.1.dist-info/WHEEL",
+          "sha256": "2b2769309025a22a45d918850122b19142e957ad6e9957e81a70367b7613f522"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cudnn_cu12-9.23.2.1.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "nvidia-cudnn-cu12",
+      "version": "9.23.2.1"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 1764,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cufft_cu12-11.4.1.4.dist-info/METADATA",
+          "sha256": "a70bee0c7929b928d36310f0c6f3e06f3752b4b617161659688e610a38470888"
+        },
+        {
+          "bytes": 1200,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cufft_cu12-11.4.1.4.dist-info/RECORD",
+          "sha256": "3c539e4e2d64d4293164fb7623fe42f645a2f541793691f19625bb64e5a2d232"
+        },
+        {
+          "bytes": 144,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cufft_cu12-11.4.1.4.dist-info/WHEEL",
+          "sha256": "acb2c6ea1a13bb9ae602c25a2951269090754e8645f90897ff4d6405698abbbb"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cufft_cu12-11.4.1.4.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "nvidia-cufft-cu12",
+      "version": "11.4.1.4"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 1685,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_curand_cu12-10.3.10.19.dist-info/METADATA",
+          "sha256": "a4db37db3c980c39e8f22b375d9ec57caf4b3f350225322317fdde02c03dfe1e"
+        },
+        {
+          "bytes": 2749,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_curand_cu12-10.3.10.19.dist-info/RECORD",
+          "sha256": "64dcf6e22cbeff9de338285f350576071ed65d99f3de04d231774390bad5fdf4"
+        },
+        {
+          "bytes": 109,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_curand_cu12-10.3.10.19.dist-info/WHEEL",
+          "sha256": "c18590578518fc67f6995526cb1aeefa08507b81b8a1ea31e2438b99879a9ff3"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_curand_cu12-10.3.10.19.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "nvidia-curand-cu12",
+      "version": "10.3.10.19"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 1850,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cusolver_cu12-11.7.5.82.dist-info/METADATA",
+          "sha256": "0b83f6d3d2579d21798b3a3a4e64b9a885ac40d9a17eab3a691d61304f0b33c6"
+        },
+        {
+          "bytes": 1479,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cusolver_cu12-11.7.5.82.dist-info/RECORD",
+          "sha256": "3c2cacced4d8bd5e663ba2489aabae8c7f9e6d26002c4168732c414c94351dc1"
+        },
+        {
+          "bytes": 109,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cusolver_cu12-11.7.5.82.dist-info/WHEEL",
+          "sha256": "dab9cc5a85e3eab12b8ecbb35cdfe0c518dc2c9fd1caf94187a1f1b7a54092a1"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cusolver_cu12-11.7.5.82.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "nvidia-cusolver-cu12",
+      "version": "11.7.5.82"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 1775,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cusparse_cu12-12.5.10.65.dist-info/METADATA",
+          "sha256": "c3667e584af286f65419aada20433cd026bbff0659a00f0b02285b911d306c4a"
+        },
+        {
+          "bytes": 986,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cusparse_cu12-12.5.10.65.dist-info/RECORD",
+          "sha256": "798dd0b2fc94b065e1581fc16d2b072b45d34ed5b6558d3b8b0816c79c5da286"
+        },
+        {
+          "bytes": 144,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cusparse_cu12-12.5.10.65.dist-info/WHEEL",
+          "sha256": "81ea1104d34eecc7b402c295af90fd60159d3d5051809c26f190b5a524956b2b"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_cusparse_cu12-12.5.10.65.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "nvidia-cusparse-cu12",
+      "version": "12.5.10.65"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 2097,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_nccl_cu12-2.30.7.dist-info/METADATA",
+          "sha256": "f6498ced034ddac55ec8cc407a255764f7af1a00f1a73dbf25201b517010d164"
+        },
+        {
+          "bytes": 7038,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_nccl_cu12-2.30.7.dist-info/RECORD",
+          "sha256": "c969cbe149e359d384e559a73a9caa8cd82378cf3b208004205d9a3ef7fe5e71"
+        },
+        {
+          "bytes": 109,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_nccl_cu12-2.30.7.dist-info/WHEEL",
+          "sha256": "1469018381fdd61dc37756f9b9e2417115d993f5f099907fb2188826418bc308"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_nccl_cu12-2.30.7.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "nvidia-nccl-cu12",
+      "version": "2.30.7"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 1719,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_nvjitlink_cu12-12.9.86.dist-info/METADATA",
+          "sha256": "c986710b54d3d1ee28d1ccf7bacf324ddc3e17783077fecc7c60183f761dbc9d"
+        },
+        {
+          "bytes": 880,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_nvjitlink_cu12-12.9.86.dist-info/RECORD",
+          "sha256": "e449586fe4b5ac3edd418ecb49375dd9fd83135b9d33ad7fd398fd1a64ff473d"
+        },
+        {
+          "bytes": 144,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_nvjitlink_cu12-12.9.86.dist-info/WHEEL",
+          "sha256": "361d84bf9908f802444606f434579ed73ac2882841aaaee8174e52fa9ec62ea9"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/nvidia_nvjitlink_cu12-12.9.86.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "nvidia-nvjitlink-cu12",
+      "version": "12.9.86"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 6345,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/opt_einsum-3.4.0.dist-info/METADATA",
+          "sha256": "9f6791140c5e1be4f1b189365e6312d711a1eaaeb399b5dd6741f7a4bd99d03b"
+        },
+        {
+          "bytes": 2843,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/opt_einsum-3.4.0.dist-info/RECORD",
+          "sha256": "c431fe9ffaab9d65aa05b655877de9c19bb485e1f02b0a1950c6626fd2523ac0"
+        },
+        {
+          "bytes": 87,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/opt_einsum-3.4.0.dist-info/WHEEL",
+          "sha256": "d7215d7625cc9af60aed0613aad44db57eba589d0ccfc3d8122114a0e514c516"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/opt_einsum-3.4.0.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "opt_einsum",
+      "version": "3.4.0"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 32063,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/optree-0.19.1.dist-info/METADATA",
+          "sha256": "0b446d96b7362925dfbc1124db19b5ef83c0cd8f587f79af26eb6fa83891c742"
+        },
+        {
+          "bytes": 2062,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/optree-0.19.1.dist-info/RECORD",
+          "sha256": "d21120e566ae79d09ac2ad1ae9d2cafc436d053c59e3220c18ce901f2f10818e"
+        },
+        {
+          "bytes": 152,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/optree-0.19.1.dist-info/WHEEL",
+          "sha256": "2c1cfe36b0be1a6642ea21b08567e7c88c24d616b665eefabe06b8f66613efbe"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/optree-0.19.1.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "optree",
+      "version": "0.19.1"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 3543,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/packaging-26.2.dist-info/METADATA",
+          "sha256": "4f9cbcd7933415a4793f7767c98a2b6a512c823fc81c87337815705f230ecabf"
+        },
+        {
+          "bytes": 2358,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/packaging-26.2.dist-info/RECORD",
+          "sha256": "34a791dcc687723f1d7601aa68319f6d51aa00e44d85818995dd33a1b7c5a49c"
+        },
+        {
+          "bytes": 82,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/packaging-26.2.dist-info/WHEEL",
+          "sha256": "1b68144734c4b66791f27add5d425f3620775585718a03d0f9b110ba3a4d88db"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/packaging-26.2.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "packaging",
+      "version": "26.2"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 79468,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/pandas-3.0.3.dist-info/METADATA",
+          "sha256": "52942cad9bd7e6625ad46f983a55bef6cdd99da3822ddb19393d6d6972d1c40a"
+        },
+        {
+          "bytes": 146766,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/pandas-3.0.3.dist-info/RECORD",
+          "sha256": "2b5d3e754377436469034e3fd667cf3ff7b63a285f99c2a40a29cb011d918236"
+        },
+        {
+          "bytes": 138,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/pandas-3.0.3.dist-info/WHEEL",
+          "sha256": "5697de3acc040e56ae54032a94fc3e92942ee516701008ea91482ff5e38e2213"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/pandas-3.0.3.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "pandas",
+      "version": "3.0.3"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 8814,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/pillow-12.2.0.dist-info/METADATA",
+          "sha256": "f921b97ad0d1c94e6e0fe84ac579c998f2c285a8b35f7f934d3fa0c2657e65ab"
+        },
+        {
+          "bytes": 11413,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/pillow-12.2.0.dist-info/RECORD",
+          "sha256": "95f9bebed843ba67125504538496f258c0918d886cc4e381521f7f6a5be9d9e8"
+        },
+        {
+          "bytes": 152,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/pillow-12.2.0.dist-info/WHEEL",
+          "sha256": "2c1cfe36b0be1a6642ea21b08567e7c88c24d616b665eefabe06b8f66613efbe"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/pillow-12.2.0.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "pillow",
+      "version": "12.2.0"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 3626,
+          "path": "/spin1/home/linux/maheshwarany2/.local/share/uv/python/cpython-3.13.0-linux-x86_64-gnu/lib/python3.13/site-packages/pip-24.1.2.dist-info/METADATA",
+          "sha256": "3852cb34b5fb47f22df907c6bbff4236b030be683ee5489ec700f3fa40a17dd7"
+        },
+        {
+          "bytes": 67294,
+          "path": "/spin1/home/linux/maheshwarany2/.local/share/uv/python/cpython-3.13.0-linux-x86_64-gnu/lib/python3.13/site-packages/pip-24.1.2.dist-info/RECORD",
+          "sha256": "24b785a0ae86ed2649746f10720c4db7ca63a389d83f49d382951de74f2d27c9"
+        },
+        {
+          "bytes": 91,
+          "path": "/spin1/home/linux/maheshwarany2/.local/share/uv/python/cpython-3.13.0-linux-x86_64-gnu/lib/python3.13/site-packages/pip-24.1.2.dist-info/WHEEL",
+          "sha256": "cb8997f92397e1f6089289ec0060393743b2fbcfe0238157c391cd235c6abd68"
+        },
+        {
+          "bytes": 4,
+          "path": "/spin1/home/linux/maheshwarany2/.local/share/uv/python/cpython-3.13.0-linux-x86_64-gnu/lib/python3.13/site-packages/pip-24.1.2.dist-info/INSTALLER",
+          "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+        }
+      ],
+      "name": "pip",
+      "version": "24.1.2"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 595,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/protobuf-7.35.1.dist-info/METADATA",
+          "sha256": "1c58cfd7acd805c087ceb1f14c27cdba3c52d074e1d7b05dacf31fdf413c0a8c"
+        },
+        {
+          "bytes": 5482,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/protobuf-7.35.1.dist-info/RECORD",
+          "sha256": "eed97d1353261effa97aaec15c9b010657b09c54bc7c795a3abe62fe0ca4ad7a"
+        },
+        {
+          "bytes": 111,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/protobuf-7.35.1.dist-info/WHEEL",
+          "sha256": "f7c768f330f75ba86dc31a1ff23d084a0ba20d8c82335b92cbbd32a6be0f125b"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/protobuf-7.35.1.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "protobuf",
+      "version": "7.35.1"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 3551,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/pybedtools-0.12.0.dist-info/METADATA",
+          "sha256": "f080092109108ef60ecf1cff93cb881c93cb75f05e09fa26a8cd154075b43c57"
+        },
+        {
+          "bytes": 11719,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/pybedtools-0.12.0.dist-info/RECORD",
+          "sha256": "9224306d79da767b074bfe3bc2a8bad30c45574b0051cc0818ee33bafcbdce3d"
+        },
+        {
+          "bytes": 104,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/pybedtools-0.12.0.dist-info/WHEEL",
+          "sha256": "1c7ebce5ac7614f69a2a4f4ceba50a2a69e25d95ebb9e9200b43c4be7f816b5e"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/pybedtools-0.12.0.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "pybedtools",
+      "version": "0.12.0"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 2476,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/pygments-2.20.0.dist-info/METADATA",
+          "sha256": "e0528f51b30427fae94723662ba622f8d8db2a4d8d3f1365698d67a52450a845"
+        },
+        {
+          "bytes": 28834,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/pygments-2.20.0.dist-info/RECORD",
+          "sha256": "0a5108aae34fd7d9cfce8f2f662b1d9d6abcc3df4a3cd8f3c134a572f7357677"
+        },
+        {
+          "bytes": 87,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/pygments-2.20.0.dist-info/WHEEL",
+          "sha256": "41c708c5adba6e097513ab8ccb9f1d7865a2fb469e22491a9e01dcc64da459fc"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/pygments-2.20.0.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "Pygments",
+      "version": "2.20.0"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 5783,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/pyparsing-3.3.2.dist-info/METADATA",
+          "sha256": "3311a8b949d70f71a2b9788a9327f11d9d5a6a8012d6c046ca254ad2de877f45"
+        },
+        {
+          "bytes": 2045,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/pyparsing-3.3.2.dist-info/RECORD",
+          "sha256": "239325f438cc3542c4d936b77d4539132f7db3b83d55bf9b811db76cce83f0ee"
+        },
+        {
+          "bytes": 82,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/pyparsing-3.3.2.dist-info/WHEEL",
+          "sha256": "1b68144734c4b66791f27add5d425f3620775585718a03d0f9b110ba3a4d88db"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/pyparsing-3.3.2.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "pyparsing",
+      "version": "3.3.2"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 1632,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/pysam-0.24.0.dist-info/METADATA",
+          "sha256": "d5f518e20755ce18c08733d06b07676da626acef049ba4e909a13c55e6f16247"
+        },
+        {
+          "bytes": 50225,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/pysam-0.24.0.dist-info/RECORD",
+          "sha256": "d0b333bfa89a7ca8878a6f43f0dba6682557817b6c91bc8d6e5765ac94ea24d2"
+        },
+        {
+          "bytes": 152,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/pysam-0.24.0.dist-info/WHEEL",
+          "sha256": "2c1cfe36b0be1a6642ea21b08567e7c88c24d616b665eefabe06b8f66613efbe"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/pysam-0.24.0.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "pysam",
+      "version": "0.24.0"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 8354,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/python_dateutil-2.9.0.post0.dist-info/METADATA",
+          "sha256": "a9d436da322be808332f98d88325998e87cb693a678a9969feb4cfad729a6e93"
+        },
+        {
+          "bytes": 2282,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/python_dateutil-2.9.0.post0.dist-info/RECORD",
+          "sha256": "e15e868a50b9c4e71df17b31369843617780146ac5adb1bbfdcced0ebe501824"
+        },
+        {
+          "bytes": 110,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/python_dateutil-2.9.0.post0.dist-info/WHEEL",
+          "sha256": "f86fedd281ae13b503d03ad2a55667ab584730157d0c3d97912e6fed7a664e79"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/python_dateutil-2.9.0.post0.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "python-dateutil",
+      "version": "2.9.0.post0"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 4806,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/requests-2.34.2.dist-info/METADATA",
+          "sha256": "8c384ba3e979480faae2859d3c5e6c1276dd2c3616e322e124d52c8cfc556f27"
+        },
+        {
+          "bytes": 2205,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/requests-2.34.2.dist-info/RECORD",
+          "sha256": "fc8c5216d0e865d815bd04cc240b5adc5d56f6c3dbe9aef3b4ea3b83d735bdfe"
+        },
+        {
+          "bytes": 91,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/requests-2.34.2.dist-info/WHEEL",
+          "sha256": "69e6228a0d35958183cc1812f07c565ce837b95eb51bd8a33acba9fa4f68d6c9"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/requests-2.34.2.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "requests",
+      "version": "2.34.2"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 18445,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/rich-15.0.0.dist-info/METADATA",
+          "sha256": "fad34fc603fac4481bf81f8dd629492fc302c0ec31909c86644751512afb2e3b"
+        },
+        {
+          "bytes": 8232,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/rich-15.0.0.dist-info/RECORD",
+          "sha256": "1b725253b1bd316b53169a3a0b35d03d6c81bad9009ddae73d8645fb3cd3f292"
+        },
+        {
+          "bytes": 88,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/rich-15.0.0.dist-info/WHEEL",
+          "sha256": "909091253fe0d1a75f009cd3c761943264bcd2b4c92151d109f1b40d080bab7a"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/rich-15.0.0.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "rich",
+      "version": "15.0.0"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 11984,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/scikit_learn-1.9.0.dist-info/METADATA",
+          "sha256": "ee61a579f42d3edabe3e483db483475e33fffec04d7f3e69c539527bd93eaca6"
+        },
+        {
+          "bytes": 99113,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/scikit_learn-1.9.0.dist-info/RECORD",
+          "sha256": "037149ec501d3dbabfe993b99136b93da16fc261c724ec3f13345715bd12d2ca"
+        },
+        {
+          "bytes": 138,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/scikit_learn-1.9.0.dist-info/WHEEL",
+          "sha256": "09b1165bcbc456d022ae47f3c03d23e9df29eb2404569f760ab459361755bcaf"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/scikit_learn-1.9.0.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "scikit-learn",
+      "version": "1.9.0"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 62302,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/scipy-1.18.0.dist-info/METADATA",
+          "sha256": "157bd150af3af33b40ec61489be8153752b269fb10c4b45b8cea5104f3235420"
+        },
+        {
+          "bytes": 137482,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/scipy-1.18.0.dist-info/RECORD",
+          "sha256": "243c801b12dadb92cc7194386d6eb684667bf98cd85b53f706dca0d55f5f20b2"
+        },
+        {
+          "bytes": 138,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/scipy-1.18.0.dist-info/WHEEL",
+          "sha256": "09b1165bcbc456d022ae47f3c03d23e9df29eb2404569f760ab459361755bcaf"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/scipy-1.18.0.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "scipy",
+      "version": "1.18.0"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 6527,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/setuptools-82.0.1.dist-info/METADATA",
+          "sha256": "75683f40e1121ebccbbca4d679ae2dbf8a0be0ba91531df285b28abe927a43f8"
+        },
+        {
+          "bytes": 43006,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/setuptools-82.0.1.dist-info/RECORD",
+          "sha256": "ac112ce85e62901c060079af7ad0d74e10ac9214f530d85e9dec0ef11bc2a2b0"
+        },
+        {
+          "bytes": 91,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/setuptools-82.0.1.dist-info/WHEEL",
+          "sha256": "69e6228a0d35958183cc1812f07c565ce837b95eb51bd8a33acba9fa4f68d6c9"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/setuptools-82.0.1.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "setuptools",
+      "version": "82.0.1"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 1658,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/six-1.17.0.dist-info/METADATA",
+          "sha256": "562042078c2752549f6d8a7c86dbc5dd708088a7be6d80672ec7b07100b72468"
+        },
+        {
+          "bytes": 603,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/six-1.17.0.dist-info/RECORD",
+          "sha256": "d16e50f347969b1e1919fb0c88bac4b9c644f5305bcfcfb00f72b646dbd4065d"
+        },
+        {
+          "bytes": 109,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/six-1.17.0.dist-info/WHEEL",
+          "sha256": "a7178d5f925db427b9f0f51260ff6ea6673b8dd44f82f4f41a6f646f5487955c"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/six-1.17.0.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "six",
+      "version": "1.17.0"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 1844,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/tensorboard-2.20.0.dist-info/METADATA",
+          "sha256": "965d3d732fbd7f3f4c674fc63f627d5888a61d721968ff206147c37604a745f2"
+        },
+        {
+          "bytes": 27421,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/tensorboard-2.20.0.dist-info/RECORD",
+          "sha256": "df0ac402042fa96e96b975643b0c972c8298eac0e3664faf12afdee535244f77"
+        },
+        {
+          "bytes": 91,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/tensorboard-2.20.0.dist-info/WHEEL",
+          "sha256": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/tensorboard-2.20.0.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "tensorboard",
+      "version": "2.20.0"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 1147,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/tensorboard_data_server-0.7.2.dist-info/METADATA",
+          "sha256": "6b38aea33eeccd55a2644d9b7eb6c61d574a496188f4ac498e68e6230b1b9096"
+        },
+        {
+          "bytes": 660,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/tensorboard_data_server-0.7.2.dist-info/RECORD",
+          "sha256": "44806e0154dd7e1d1150909fb120af07e238c8410dbac61645889b2528560af8"
+        },
+        {
+          "bytes": 92,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/tensorboard_data_server-0.7.2.dist-info/WHEEL",
+          "sha256": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/tensorboard_data_server-0.7.2.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "tensorboard-data-server",
+      "version": "0.7.2"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 4510,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/tensorflow-2.20.0.dist-info/METADATA",
+          "sha256": "ed3998bc4780f2201742e9cc911cdac89c56c12048e1e23665b5ae8ddebbd7b2"
+        },
+        {
+          "bytes": 2447187,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/tensorflow-2.20.0.dist-info/RECORD",
+          "sha256": "070188c823917e4ec16ecf98c7bb812e4441ee91d6cb9308a04b0cbdee904fe1"
+        },
+        {
+          "bytes": 151,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/tensorflow-2.20.0.dist-info/WHEEL",
+          "sha256": "dd2e668c502e6a13c085934f1b8c61193dbcd34b5cb4a4da4f7131bbb0342889"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/tensorflow-2.20.0.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "tensorflow",
+      "version": "2.20.0"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 6490,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/termcolor-3.3.0.dist-info/METADATA",
+          "sha256": "880aeaba6300677d4ecc022fb63f8adcd57a753b6fd2b5ec17841f722f910196"
+        },
+        {
+          "bytes": 799,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/termcolor-3.3.0.dist-info/RECORD",
+          "sha256": "37e14730fcdfd0c6b874f854ca5d0e086fb0b0fba96068ee80ab01d2269b30f0"
+        },
+        {
+          "bytes": 87,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/termcolor-3.3.0.dist-info/WHEEL",
+          "sha256": "58b82a17209f9bf2804afe161f2632d0fde933f9bb2792fd936b2474a2e2ac2f"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/termcolor-3.3.0.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "termcolor",
+      "version": "3.3.0"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 13843,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/threadpoolctl-3.6.0.dist-info/METADATA",
+          "sha256": "a45df8d07ea1883d772183a501d7d526076aa70dfcfddb276a2cbdc04def5341"
+        },
+        {
+          "bytes": 588,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/threadpoolctl-3.6.0.dist-info/RECORD",
+          "sha256": "21fd60a7b59ad0785db0d87b7f45a58b9c6961097749168c577efa5b1619e95e"
+        },
+        {
+          "bytes": 82,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/threadpoolctl-3.6.0.dist-info/WHEEL",
+          "sha256": "ff6a3334508b59cf776cae1628708ef9e0d410d0e5a3e76073d714deaa2460ee"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/threadpoolctl-3.6.0.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "threadpoolctl",
+      "version": "3.6.0"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 3259,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/typing_extensions-4.15.0.dist-info/METADATA",
+          "sha256": "c138378fe8f18934ac99de060535c53ec6c13aeed65e94c32641da7ee3192a72"
+        },
+        {
+          "bytes": 623,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/typing_extensions-4.15.0.dist-info/RECORD",
+          "sha256": "c42db5851c3a20efb41dbe1a0d03c18db577a5449c7e685f6b139df34b98e62f"
+        },
+        {
+          "bytes": 82,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/typing_extensions-4.15.0.dist-info/WHEEL",
+          "sha256": "1b68144734c4b66791f27add5d425f3620775585718a03d0f9b110ba3a4d88db"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/typing_extensions-4.15.0.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "typing_extensions",
+      "version": "4.15.0"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 6852,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/urllib3-2.7.0.dist-info/METADATA",
+          "sha256": "66147856d30bbb6bed01c6ce3326d0f48d84ed5f286ac177633a1486b82eace5"
+        },
+        {
+          "bytes": 3624,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/urllib3-2.7.0.dist-info/RECORD",
+          "sha256": "4869c7ca2082c964b4e2bb8244deda15cfa069d93e4543d3a16eca6a63cbb81f"
+        },
+        {
+          "bytes": 87,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/urllib3-2.7.0.dist-info/WHEEL",
+          "sha256": "41c708c5adba6e097513ab8ccb9f1d7865a2fb469e22491a9e01dcc64da459fc"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/urllib3-2.7.0.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "urllib3",
+      "version": "2.7.0"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 4029,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/werkzeug-3.1.8.dist-info/METADATA",
+          "sha256": "f57d29864fb04c6cbf2b4e844c108d62331f4621fd163cbced288f90dfd6d392"
+        },
+        {
+          "bytes": 5452,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/werkzeug-3.1.8.dist-info/RECORD",
+          "sha256": "0022a422ab84e4efee96e3033a3218c0695199662f29d10ea28b52267fad8961"
+        },
+        {
+          "bytes": 82,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/werkzeug-3.1.8.dist-info/WHEEL",
+          "sha256": "1b68144734c4b66791f27add5d425f3620775585718a03d0f9b110ba3a4d88db"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/werkzeug-3.1.8.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "Werkzeug",
+      "version": "3.1.8"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 2282,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/wheel-0.47.0.dist-info/METADATA",
+          "sha256": "d6e8cbbfa21513ed46be4027e61784b131b12c5cafacbde6913ce5ad01767643"
+        },
+        {
+          "bytes": 1823,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/wheel-0.47.0.dist-info/RECORD",
+          "sha256": "225d7c90aebd0f5e34342dce1e6dec70390df4d1004adcf15b947fb98e197968"
+        },
+        {
+          "bytes": 82,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/wheel-0.47.0.dist-info/WHEEL",
+          "sha256": "1b68144734c4b66791f27add5d425f3620775585718a03d0f9b110ba3a4d88db"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/wheel-0.47.0.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "wheel",
+      "version": "0.47.0"
+    },
+    {
+      "metadata": [
+        {
+          "bytes": 7365,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/wrapt-2.2.2.dist-info/METADATA",
+          "sha256": "8b556433a71b83f31b8880e1c40e702458c0defeb9449f06479c663243d1fc04"
+        },
+        {
+          "bytes": 1723,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/wrapt-2.2.2.dist-info/RECORD",
+          "sha256": "8a65f02d354377f52e0c3e919722dfadeb2203c8e69d829f8871b3b47fc47900"
+        },
+        {
+          "bytes": 186,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/wrapt-2.2.2.dist-info/WHEEL",
+          "sha256": "93fc6d5a29b0a5ebad5bbecb5cfba067ac7254ee8d1c3c0aca24c6f897f85b21"
+        },
+        {
+          "bytes": 2,
+          "path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/.venv/lib/python3.13/site-packages/wrapt-2.2.2.dist-info/INSTALLER",
+          "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9"
+        }
+      ],
+      "name": "wrapt",
+      "version": "2.2.2"
+    }
+  ],
+  "platform": "Linux-4.18.0-425.19.3b.el8.x86_64-x86_64-with-glibc2.28",
+  "python": "3.13.0",
+  "python_install_command": [
+    "uv",
+    "python",
+    "install",
+    "3.13.0"
+  ],
+  "runtime_script": {
+    "bytes": 937,
+    "path": "scripts/runtime.sh",
+    "sha256": "bd4ebbfcd3443dece86d4d535f313f3676ead7fb5dd8319e7ce0ec2f843eb0fc"
+  }
+}

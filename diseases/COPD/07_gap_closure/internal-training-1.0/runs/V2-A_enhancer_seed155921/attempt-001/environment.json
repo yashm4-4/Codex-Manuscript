@@ -1,0 +1,51 @@
+{
+  "environment": {
+    "CUDA_VISIBLE_DEVICES": "0",
+    "PYTHONHASHSEED": "155921",
+    "SLURM_ARRAY_TASK_ID": "2",
+    "SLURM_CPUS_PER_TASK": "8",
+    "SLURM_JOB_GPUS": "2",
+    "SLURM_JOB_ID": "32021392",
+    "TF_CUDNN_DETERMINISTIC": "1",
+    "TF_DETERMINISTIC_OPS": "1",
+    "TF_ENABLE_ONEDNN_OPTS": null,
+    "TF_XLA_FLAGS": "--tf_xla_enable_xla_devices=false"
+  },
+  "executable": "/home/maheshwarany2/.local/share/uv/python/cpython-3.13.0-linux-x86_64-gnu/bin/python3.13",
+  "keras_epsilon": 1e-07,
+  "keras_floatx": "float32",
+  "logical_devices": [
+    "LogicalDevice(name='/device:CPU:0', device_type='CPU')",
+    "LogicalDevice(name='/device:GPU:0', device_type='GPU')"
+  ],
+  "nvidia_smi": {
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "NVIDIA A100-SXM4-80GB, GPU-e2b41d5c-df65-e35d-df77-4e24b119db41, 580.173.02, 81920 MiB\n"
+  },
+  "packages": {
+    "h5py": "3.16.0",
+    "keras": "3.14.1",
+    "numpy": "2.5.0",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.18.0",
+    "tensorflow": "2.20.0"
+  },
+  "platform": "Linux-4.18.0-425.19.3b.el8.x86_64-x86_64-with-glibc2.28",
+  "python": "3.13.0",
+  "tensorflow_build": {
+    "cpu_compiler": "clang 18",
+    "cuda_compute_capabilities": [
+      "sm_60",
+      "sm_70",
+      "sm_80",
+      "sm_89",
+      "compute_90"
+    ],
+    "cuda_version": "12.5.1",
+    "cudnn_version": "9",
+    "is_cuda_build": true,
+    "is_rocm_build": false,
+    "is_tensorrt_build": false
+  }
+}

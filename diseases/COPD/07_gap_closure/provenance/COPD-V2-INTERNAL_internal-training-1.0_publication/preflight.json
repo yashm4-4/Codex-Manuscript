@@ -1,0 +1,176 @@
+{
+  "LFS_batch_preflight": {
+    "http_status": 200,
+    "message": null,
+    "objects": [
+      {
+        "already_present": false,
+        "error": null,
+        "oid": "8eb380c37e92f5cbe9cb71256421565f5924d1fe373ce7ee507dbb3545272a60",
+        "size": 350064314,
+        "upload_action_available": true
+      },
+      {
+        "already_present": false,
+        "error": null,
+        "oid": "fb1f9103e7c824ffa280aa98fb2274a0abdb5eebbfcc381b2e8ed6df030faeed",
+        "size": 350064314,
+        "upload_action_available": true
+      },
+      {
+        "already_present": false,
+        "error": null,
+        "oid": "a74ee692f8b7386678a37de827e5ecb1bd597f665c6b475ba19fddadea961168",
+        "size": 350064314,
+        "upload_action_available": true
+      },
+      {
+        "already_present": false,
+        "error": null,
+        "oid": "67b6c55c2dc7c79b8e70331ce4ee17c2f6b228ae95198312c8476084723b6249",
+        "size": 350064314,
+        "upload_action_available": true
+      },
+      {
+        "already_present": false,
+        "error": null,
+        "oid": "d20a5e35ac9e348ea09b1418abf18fd3a4c5c040811a8324d25ff39911b25ae8",
+        "size": 350064314,
+        "upload_action_available": true
+      },
+      {
+        "already_present": false,
+        "error": null,
+        "oid": "b350d45b7d126adf329c8379e5340a8cdd8b95c4028c00a99e726513c7a03820",
+        "size": 350064314,
+        "upload_action_available": true
+      },
+      {
+        "already_present": false,
+        "error": null,
+        "oid": "1dc13e371414fd81072b07689f3ce64446a32692e917d236983db024f28cabca",
+        "size": 350064314,
+        "upload_action_available": true
+      },
+      {
+        "already_present": false,
+        "error": null,
+        "oid": "97bbc39bc5e93bf49b51169ad015fb4710708c7f1d3e7aeb232d28d3fa40d9ab",
+        "size": 350064314,
+        "upload_action_available": true
+      },
+      {
+        "already_present": false,
+        "error": null,
+        "oid": "c0e2a96ed19c3b9d5ddbb51a85b0d4ffce7701e41f12bd25ce69bcf763d6300e",
+        "size": 350064314,
+        "upload_action_available": true
+      },
+      {
+        "already_present": false,
+        "error": null,
+        "oid": "c74842f069069ef544fbf8ddab04690188282a07c2aa7ebf2a2a67994d567e0c",
+        "size": 350064314,
+        "upload_action_available": true
+      },
+      {
+        "already_present": false,
+        "error": null,
+        "oid": "935e054078b14a491d69e89719a68a2fa359beb42afce814a5a496d74c95cb72",
+        "size": 350064314,
+        "upload_action_available": true
+      },
+      {
+        "already_present": false,
+        "error": null,
+        "oid": "2e2fa2ec39cbaf8fea4080bd0576d6a1da6d968e2481c349d737f3db641553f6",
+        "size": 350064314,
+        "upload_action_available": true
+      },
+      {
+        "already_present": false,
+        "error": null,
+        "oid": "1cb670f778a2d148d0ac2b71bea5c97f5a421bb64f744af1dc5b373a60ea3114",
+        "size": 350064314,
+        "upload_action_available": true
+      },
+      {
+        "already_present": false,
+        "error": null,
+        "oid": "0e42ecc9364f967220ecc6c3bb0007dc25aced5d9c360355f6e48027c39f0795",
+        "size": 350064314,
+        "upload_action_available": true
+      },
+      {
+        "already_present": false,
+        "error": null,
+        "oid": "733ca1845061508c820240d04d4b7c30d8ba0fa7c1086419eaec0b5c2bb041d5",
+        "size": 350064314,
+        "upload_action_available": true
+      },
+      {
+        "already_present": false,
+        "error": null,
+        "oid": "503683295ebeb48587f42748181bf6c5815f6a8c79b8dfdd4b669c931109be81",
+        "size": 350064314,
+        "upload_action_available": true
+      },
+      {
+        "already_present": false,
+        "error": null,
+        "oid": "56a2d331b6ed27e49f103dce228dda3c26a80ff296e91c9c740e52b9c36841c6",
+        "size": 350064314,
+        "upload_action_available": true
+      },
+      {
+        "already_present": false,
+        "error": null,
+        "oid": "995dc295d163a703b80bb3e451b8fc3bd7af01fb6ce041099fc5ce3d9cc82560",
+        "size": 350064314,
+        "upload_action_available": true
+      }
+    ],
+    "transfer": null
+  },
+  "billing_visibility": {
+    "available": false,
+    "exact_remaining_LFS_capacity_certified": false,
+    "http_status": 404,
+    "message": "Not Found"
+  },
+  "binary_bytes_uploaded_by_this_preflight": 0,
+  "checked_utc": "2026-10-06T17:16:26.641993+00:00",
+  "checkpoint_payload_bytes": 6301157652,
+  "no_known_storage_blocker": true,
+  "qualification": "A successful LFS upload negotiation is not a reservation or guarantee of remaining quota. Stop if upload is rejected; do not exclude or transform checkpoints.",
+  "repository_check": {
+    "archived": false,
+    "default_branch": "main",
+    "disabled": false,
+    "full_name": "yashm4-4/Codex-Manuscript",
+    "http_status": 200,
+    "permissions": {
+      "admin": true,
+      "maintain": true,
+      "pull": true,
+      "push": true,
+      "triage": true
+    }
+  },
+  "status": "PASS_NO_KNOWN_BLOCKER",
+  "target_ref": "refs/heads/main",
+  "target_repository": "yashm4-4/Codex-Manuscript",
+  "local_LFS": {
+    "version": "git-lfs/3.8.0",
+    "executable": ".git/git-lfs-3.8.0/git-lfs",
+    "existing_filter_required": true,
+    "existing_filter_process": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/.git/git-lfs-3.8.0/git-lfs filter-process",
+    "existing_pre_push_hook_uses_repository_local_binary": true,
+    "configured_checkpoint_paths": 18,
+    "checkpoint_filter": "lfs",
+    "checkpoint_text_attribute": "unset",
+    "external_intermediates_have_no_LFS_filter": true,
+    "external_intermediates_explicitly_gitignored": true
+  },
+  "credential_safety": "Existing Git credentials used internally for target API checks; credentials and signed upload URLs were not printed or persisted."
+}

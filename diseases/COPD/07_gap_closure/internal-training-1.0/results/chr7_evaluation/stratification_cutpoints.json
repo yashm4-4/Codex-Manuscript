@@ -1,0 +1,54 @@
+{
+  "enhancer": {
+    "boundary_assignment": "searchsorted(side=right); repeated boundaries may leave empty bins",
+    "cutpoints": {
+      "atac_signal_percentile_max_train_only": [
+        0.21524708592605576,
+        0.45907441386038256,
+        0.6556500255490411,
+        0.8209654734926736
+      ],
+      "gc_fraction": [
+        0.4112943528,
+        0.4487756122,
+        0.4892553723,
+        0.5427286357
+      ],
+      "repeat_fraction_2001": [
+        0.1104447776,
+        0.2243878061,
+        0.3423288356,
+        0.5004497751400043
+      ]
+    },
+    "model": "enhancer",
+    "n_retained_C_train_positives": 125874,
+    "quantile_method": "linear"
+  },
+  "h3k27me3": {
+    "boundary_assignment": "searchsorted(side=right); repeated boundaries may leave empty bins",
+    "cutpoints": {
+      "atac_signal_percentile_max_train_only": [
+        0.1518197765380786,
+        0.3327963673398628,
+        0.5335895042177373,
+        0.7600560069779186
+      ],
+      "gc_fraction": [
+        0.48085957022000014,
+        0.5297351324,
+        0.5712143928,
+        0.6141929035
+      ],
+      "repeat_fraction_2001": [
+        0.05147426287,
+        0.1429285357,
+        0.2553723138,
+        0.4242878561
+      ]
+    },
+    "model": "h3k27me3",
+    "n_retained_C_train_positives": 17132,
+    "quantile_method": "linear"
+  }
+}

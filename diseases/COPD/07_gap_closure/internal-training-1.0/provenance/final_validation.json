@@ -1,0 +1,67 @@
+{
+  "all_18_fits_completed": true,
+  "both_C_contexts_pass": true,
+  "calibration_completed": true,
+  "candidate_scoring": false,
+  "chr8_chr9_model_execution": false,
+  "created_utc": "2026-10-06T16:25:47.721902+00:00",
+  "external_benchmark_evaluation": false,
+  "independent_validation_reports": [
+    {
+      "checks": 518,
+      "path": "provenance/input_integrity_verified_before.json",
+      "sha256": "f87bfdd10777db35cd40141e2d92ee072bf8ba43819d3d8b3b0dacc40aa391bc"
+    },
+    {
+      "checks": 518,
+      "path": "provenance/input_integrity_verified_after.json",
+      "sha256": "893ee115a51f3173ffd08a313d87288d3bd6deb7097bb95a9fd55edd1d1b0447"
+    },
+    {
+      "checks": 78,
+      "path": "provenance/prepared_input_independent_validation.json",
+      "sha256": "3bda8848afe01e8f89f22a67da54846093b35810374c20a663f09cd0da9d6c06"
+    },
+    {
+      "checks": 21,
+      "path": "provenance/phaseI_cache_independent_validation.json",
+      "sha256": "3736c7955e2f717b469c09bd0ccc408785880def67a3789dca1beadcc92176c1"
+    },
+    {
+      "checks": 4684,
+      "path": "provenance/runs_final_validation.json",
+      "sha256": "711884d668505ee275089e8e0b424a4f272e8c448a7937e80995161f50d97f97"
+    },
+    {
+      "checks": 165,
+      "path": "provenance/predictions_final_validation.json",
+      "sha256": "b8ac40292531c5661da6ff2e4c4fd5f67493c2fc1b557c9912baba6452b35f18"
+    },
+    {
+      "checks": 14545,
+      "path": "provenance/evaluation_final_validation.json",
+      "sha256": "339b6b55e4f9ceef1a351fba005a05b268f95f51790c0d003573ec69de3c0012"
+    },
+    {
+      "checks": 837,
+      "path": "provenance/preservation_final_validation.json",
+      "sha256": "b89acece44e3323dad79c307192d1e72d713c88579d9c472fad5c58e351b20be"
+    },
+    {
+      "checks": 222,
+      "path": "provenance/checkpoint_packaging_final_validation.json",
+      "sha256": "50f731d56edbfdfca0c2418fd1dd4e33214ab6ed146a22c92c370707c871c8d3"
+    },
+    {
+      "checks": 19,
+      "path": "provenance/calibration_final_validation.json",
+      "sha256": "35ee49296f4e0742a957fe81c2454beb8eb03bf4b96b004fb63839b8b994c884"
+    }
+  ],
+  "pretraining_1_0_and_1_1_unchanged": true,
+  "real_network_RC_invariance": "PASS",
+  "scientific_decision_is_separate_from_execution_QC": true,
+  "status": "PASS",
+  "total_checks_across_reports": 21607,
+  "tracked_changes_limited_to_append_only_V2_registers": true
+}

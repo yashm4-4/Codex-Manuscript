@@ -1,0 +1,53 @@
+{
+  "completed": true,
+  "completed_utc": "2026-10-06T14:48:35.223023+00:00",
+  "dtype": "float32",
+  "encoded_identity_count": 719147,
+  "failures": 0,
+  "files": [
+    {
+      "bytes": 13117241408,
+      "path": "cache/features_canonical.npy",
+      "sha256": "8d7bcb61888150e9d44ba9eb1204a2825e421827500628ed6a2c69a560f1cd0a"
+    },
+    {
+      "bytes": 13117241408,
+      "path": "cache/features_rc.npy",
+      "sha256": "4fab1cc6c84eab0f27d8ab2f70d23081617966afb8282c94cbb377dbb536fa33"
+    },
+    {
+      "bytes": 1444,
+      "path": "cache/environment.json",
+      "sha256": "65cf393ddaaed2aae9a8eb9d0e168510a308002c1df992d4918bc044e7fd7594"
+    },
+    {
+      "bytes": 17371,
+      "path": "cache/architecture.json",
+      "sha256": "f6f529bb64af870e3efda95bbf90095d2800d6731e228c4db9cdced8449adad4"
+    },
+    {
+      "bytes": 678,
+      "path": "cache/started.json",
+      "sha256": "46acad963d0cd535c8721a5df37b9367e9ff4ab91ebaa04393f3778c8d1c988f"
+    }
+  ],
+  "missing_sequences": 0,
+  "nucleotide_rc_independently_evaluated": true,
+  "orientation_network_evaluations": 1438294,
+  "phase_I_weights_sha256": "483b6c0cafd750ea8e97932cbc8a949276eaf1e77e7d8766f9a22eeddc2916d6",
+  "representation": "final4560sigmoid",
+  "resources": {
+    "finished_utc": "2026-10-06T14:48:35.223097+00:00",
+    "peak_RSS_KiB": 28448564,
+    "system_cpu_seconds": 19.236848,
+    "user_cpu_seconds": 222.94605,
+    "wall_seconds": 393.5700578056276
+  },
+  "sequence_intervals": 719156,
+  "shape": [
+    719147,
+    4560
+  ],
+  "status": "PASS",
+  "test_sequence_extractions": 0
+}

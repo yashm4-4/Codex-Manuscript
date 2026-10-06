@@ -1,1 +1,21 @@
 diseases/COPD/07_gap_closure/data/COPD-V2-PREFLIGHT/interval_features.tsv.gz filter=lfs diff=lfs merge=lfs -text
+
+# Original frozen internal-training-1.0 checkpoints; preserve binary bytes via LFS.
+diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_enhancer_seed104729/attempt-001/selected_checkpoint.keras filter=lfs diff=lfs merge=lfs -text
+diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_enhancer_seed130363/attempt-001/selected_checkpoint.keras filter=lfs diff=lfs merge=lfs -text
+diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_enhancer_seed155921/attempt-001/selected_checkpoint.keras filter=lfs diff=lfs merge=lfs -text
+diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras filter=lfs diff=lfs merge=lfs -text
+diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras filter=lfs diff=lfs merge=lfs -text
+diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras filter=lfs diff=lfs merge=lfs -text
+diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_enhancer_seed104729/attempt-001/selected_checkpoint.keras filter=lfs diff=lfs merge=lfs -text
+diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_enhancer_seed130363/attempt-001/selected_checkpoint.keras filter=lfs diff=lfs merge=lfs -text
+diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_enhancer_seed155921/attempt-001/selected_checkpoint.keras filter=lfs diff=lfs merge=lfs -text
+diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras filter=lfs diff=lfs merge=lfs -text
+diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras filter=lfs diff=lfs merge=lfs -text
+diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras filter=lfs diff=lfs merge=lfs -text
+diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_enhancer_seed104729/attempt-001/selected_checkpoint.keras filter=lfs diff=lfs merge=lfs -text
+diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_enhancer_seed130363/attempt-001/selected_checkpoint.keras filter=lfs diff=lfs merge=lfs -text
+diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_enhancer_seed155921/attempt-001/selected_checkpoint.keras filter=lfs diff=lfs merge=lfs -text
+diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras filter=lfs diff=lfs merge=lfs -text
+diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras filter=lfs diff=lfs merge=lfs -text
+diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras filter=lfs diff=lfs merge=lfs -text

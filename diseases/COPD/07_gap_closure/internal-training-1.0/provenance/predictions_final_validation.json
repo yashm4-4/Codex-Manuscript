@@ -1,0 +1,14 @@
+{
+  "checks": 165,
+  "checks_path": "diseases/COPD/07_gap_closure/internal-training-1.0/provenance/predictions_final_validation.tsv",
+  "checks_sha256": "cc997087f31b6446943f429f71a0f89847804903e7fc256700e46076cc9e5ac9",
+  "created_utc": "2026-10-06T16:07:06.644806+00:00",
+  "failures": 0,
+  "model_execution": false,
+  "module": "COPD-V2-INTERNAL-TRAINING-1.0",
+  "phase": "predictions",
+  "script_sha256": "fee65f2f14979d4baabc1940acb2a81707dcb8e6046688bc6b0cfa53c6e5fed1",
+  "status": "PASS",
+  "test_or_benchmark_outcomes_parsed": false,
+  "validator": "independent-execution-audit"
+}

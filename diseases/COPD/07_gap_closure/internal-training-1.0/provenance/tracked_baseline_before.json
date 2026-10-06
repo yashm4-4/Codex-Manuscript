@@ -1,0 +1,19 @@
+{
+  "baseline_commit": "7c0caf4af5f8f346089c92f43b88161331ca420b",
+  "benchmark_access": "opaque integrity hashing only",
+  "checks": 835,
+  "checks_path": "diseases/COPD/07_gap_closure/internal-training-1.0/provenance/tracked_baseline_before.tsv",
+  "checks_sha256": "956eb72e2cc8fa7415c15eb1fb108d81c1287b55dabc661c88fcd469d447b8e9",
+  "created_utc": "2026-10-06T14:40:59.675715+00:00",
+  "failures": 0,
+  "model_execution": false,
+  "module": "COPD-V2-INTERNAL-TRAINING-1.0",
+  "phase": "baseline",
+  "script_sha256": "2716d610335efef57357b0b35fb20f6564813cce80da023fbe5d691970b56347",
+  "status": "PASS",
+  "test_or_benchmark_outcomes_parsed": false,
+  "tracked_count": 835,
+  "tracked_ledger": "diseases/COPD/07_gap_closure/internal-training-1.0/provenance/tracked_baseline_before_files.tsv",
+  "tracked_ledger_sha256": "94bf0cff63e200217cfe354c400e0ba3afe9181613259733f8a1c02eb0fbc42d",
+  "validator": "independent-execution-audit"
+}

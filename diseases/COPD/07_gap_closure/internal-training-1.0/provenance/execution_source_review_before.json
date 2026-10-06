@@ -1,0 +1,42 @@
+{
+  "module": "COPD-V2-INTERNAL-TRAINING-1.0",
+  "status": "PASS",
+  "review_type": "Independent prospective source/contract/firewall review before model outcomes",
+  "reviewer": "internal_execution_qc",
+  "scientific_design_changed": false,
+  "reviewer_model_execution": false,
+  "reviewer_test_or_benchmark_outcome_access": false,
+  "immutable_input_audit": "provenance/input_integrity_verified_before.json",
+  "immutable_input_checks": 518,
+  "immutable_input_failures": 0,
+  "synthetic_execution_contract_tests": {"tests": 10, "failures": 0},
+  "synthetic_phase_I_input_tests": {"tests": 7, "failures": 0},
+  "checks": [
+    "Exact frozen full phase-I architecture, SHA256-bound strict weight load, no random fallback, inference mode and nontrainable weights.",
+    "Allowed training chromosomes and chr7 sequence fetching only; exact 2001bp geometry, raw-sequence hash and encoded RC-canonical identity checks.",
+    "Independent network calls for forward and nucleotide-RC onehot sequences before the phase-I 4560-dimensional output; no representation-axis reversal.",
+    "Exact phase-II architecture, Adadelta parameters, unweighted BCE, batch256, max50, patience15, no mixed precision or JIT.",
+    "Fixed seeds, distinct epoch shuffle/orientation RNG streams, one Bernoulli0.5 orientation per genomic row before applying permutation.",
+    "Native configuration-specific chr7 checkpoint-role symmetric BCE only; strict-decrease updates imply earliest minimum; selected trainable and BN weights restored and serialized.",
+    "No completed fit may run again; infrastructure-only retries preserve seed/procedure and require append-only authorization records.",
+    "All18 checkpoints must be frozen before actual chr7 union inference; saved models rerun with swapped nucleotide cache orientations, reversed row order and changed batch size for genuine invariance testing.",
+    "All18 seed and six ensemble RC gates use atol=rtol=1e-6 and finite bounded probabilities; fixed-order equal-three-seed float64 aggregation.",
+    "Identical frozen C-task chr7 selection panels across A/B/C; paired component bootstrap, own-replicate prevalence AP gain and Brier skill, strict lower95 null gates, sample seed SD with ddof1.",
+    "A/B comparisons diagnostic only; both C contexts must pass all gates before negative-only dedicated chr7 calibration and no fallback.",
+    "Calibration bound to same six C checkpoints, symmetric implementation, passed decision and prediction hashes; conservative nextafter formula, exact hex/17g serialization, no tie splitting or clipping above1.",
+    "No chr8-9, external benchmark, candidate scoring, allele-delta cutoff, fine-mapping or target-gene execution included."
+  ],
+  "reviewed_sha256": {
+    "scripts/prepare_internal_inputs.py": "72e5b1b42f736d7ae902d1175a3a41a55eb9df599bc0d3550213cd7733b728fa",
+    "scripts/extract_phase_one.py": "d1b77cf5a8468ee3516d6a89bcfd4f1e7994087642c851f409425242408621dd",
+    "scripts/runtime.sh": "bd4ebbfcd3443dece86d4d535f313f3676ead7fb5dd8319e7ce0ec2f843eb0fc",
+    "scripts/train_phase_two.py": "b39accf4d1c45a8743550b209ed9cf0eda95c675475f1481f896b1dfef1e6959",
+    "scripts/phase_two_contract.py": "f50f226b901df6bbd66455462e4da922d8229a4d030f09613a8483a74f636e2f",
+    "scripts/predict_chr7.py": "b1fda4be18bbcd3e7967b25eefd25e549647f8c639643ff9b0b71ef6bb0a2773",
+    "scripts/evaluate_chr7.py": "55b916dfd94c432b8463b0b6232792222f2fc1b020f060fec2edc4ff11d43e83",
+    "scripts/calibrate_chr7.py": "c5d8082c9ac6e8502f3fa1740e792904038c542391b8eef3505ed232674ee779",
+    "specification/internal_evaluation_implementation.json": "f6e9961e9b60aeb57a40413586d5f5111be6f2f0bea00ec7258986eb6d2432fb"
+  },
+  "software_note": "Normative frozen CPython3.13.0/TF2.20.0/Keras3.14.1/NumPy2.5.0 is required. Accessible CPython3.13.0 reusing historical read-only site-packages is consistent; the inaccessible historical interpreter symlink and differing mutable pyvenv.cfg patch-version metadata must remain documented.",
+  "limitations": "Source review and synthetic tests do not establish trained-model performance or substitute for postexecution cache/checkpoint/prediction/invariance/metric/calibration validation."
+}

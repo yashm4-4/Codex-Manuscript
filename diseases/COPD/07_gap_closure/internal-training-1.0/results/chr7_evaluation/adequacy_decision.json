@@ -1,0 +1,21 @@
+{
+  "A_B_ranking_used_for_retention": false,
+  "both_C_contexts_pass": true,
+  "candidate_scoring_authorized": false,
+  "external_access_authorized": false,
+  "input_manifest_sha256": "a301f4641a16bd2cfe7e6f224d5260977df26b6117a42e46cab44ba37749cf0b",
+  "model_contexts": {
+    "enhancer": {
+      "failed_or_inconclusive_gates": [],
+      "status": "PASS"
+    },
+    "h3k27me3": {
+      "failed_or_inconclusive_gates": [],
+      "status": "PASS"
+    }
+  },
+  "module": "COPD-V2-INTERNAL",
+  "next_action": "FREEZE_C_CHECKPOINTS_ENSEMBLE_AND_ADEQUACY_THEN_CALIBRATE_CHR7_NEGATIVES_ONLY",
+  "test_access_authorized": false,
+  "version": "internal-training-1.0"
+}

@@ -1,0 +1,8 @@
+{
+  "attempt": "input_integrity_before",
+  "status": "AUDIT_CHECKS_WRITTEN_REPORT_WRITER_PATH_BUG",
+  "description": "The independent input hash audit completed its checks and wrote the TSV, then its JSON report writer attempted relative_to(ROOT) on a relative output prefix and raised ValueError. No model execution or input changes occurred. The validator now resolves its output prefix before serialization; the original check TSV is preserved and the entire read-only hash audit is repeated under input_integrity_verified_before.",
+  "scientific_input_or_design_changes": false,
+  "model_execution": false,
+  "rerun_prefix": "input_integrity_verified_before"
+}

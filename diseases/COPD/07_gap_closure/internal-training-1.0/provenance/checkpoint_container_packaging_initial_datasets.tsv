@@ -1,0 +1,81 @@
+run_id	dataset	kind	shape	dtype	elements	bytes	finite	slot_all_zero	sha256
+V2-A_h3k27me3_seed104729	layers/batch_normalization/vars/0	model_weight	[64]	float32	64	256	True		d59ca7f80a287b360256174debe53fd429798bc1739dd9330e8298f9195b19e9
+V2-A_h3k27me3_seed104729	layers/batch_normalization/vars/1	model_weight	[64]	float32	64	256	True		a9b5c267bfd5851a8f6ad136f5b1ebdce2a233246a301a35bcbd1e5f472e2994
+V2-A_h3k27me3_seed104729	layers/batch_normalization/vars/2	model_weight	[64]	float32	64	256	True		11b13e48a8e0f82a52c335827c9bf2a88eb3b9580a56caafca653ce9f04ede0a
+V2-A_h3k27me3_seed104729	layers/batch_normalization/vars/3	model_weight	[64]	float32	64	256	True		b1fb47957445de62ec71a7f172b53825150056847d900af0f1c60c3f22ff4330
+V2-A_h3k27me3_seed104729	layers/conv1d/vars/0	model_weight	[4, 1, 64]	float32	256	1024	True		8419ce021b7d169698985a79995d21339ed86e0906d10c6d1507211bc50ac60a
+V2-A_h3k27me3_seed104729	layers/conv1d/vars/1	model_weight	[64]	float32	64	256	True		2013ca3b4048ca4cb61cf89dbdba7f2f50c52ec641fd7a06952d8cfa180d68d3
+V2-A_h3k27me3_seed104729	layers/conv1d_1/vars/0	model_weight	[2, 64, 128]	float32	16384	65536	True		3743e7e188b7ff337bba32f695fbd3eef33783a1f8d51b38a190b6c0d1829d29
+V2-A_h3k27me3_seed104729	layers/conv1d_1/vars/1	model_weight	[128]	float32	128	512	True		a8302dd99349a9808570e62f105df628f3801b9b7777e0e1755e588623a2c7cf
+V2-A_h3k27me3_seed104729	layers/dense/vars/0	model_weight	[291456, 100]	float32	29145600	116582400	True		f9e2402517b30aaa283ce448b15b5bf780690ced146539aeeffacde4a6ec4e3b
+V2-A_h3k27me3_seed104729	layers/dense/vars/1	model_weight	[100]	float32	100	400	True		fe830a3d040aba7324a755ae9bf3530094a099cd9af457d672c2a838d16c5936
+V2-A_h3k27me3_seed104729	layers/dense_1/vars/0	model_weight	[100, 50]	float32	5000	20000	True		2be7e7a9cc60ab25ab1e4b43ba1a5d3f6297a3b24f998caada919dfc50f2ce44
+V2-A_h3k27me3_seed104729	layers/dense_1/vars/1	model_weight	[50]	float32	50	200	True		09db10b1c281763056900a7bf4faa5c64d113a5dbd528cdad97c1df661ade511
+V2-A_h3k27me3_seed104729	layers/dense_2/vars/0	model_weight	[50, 1]	float32	50	200	True		42543251836d4d9bf2421ad281b010caf0e6aaaf4e1ff2e438e086c1c67ac9c3
+V2-A_h3k27me3_seed104729	layers/dense_2/vars/1	model_weight	[1]	float32	1	4	True		1614453d77825d3199e4ec30cd68ae590dfc7b207d5192734e1881244d63920a
+V2-A_h3k27me3_seed104729	optimizer/vars/0	optimizer_scalar	[]	int64	1	8	True		af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+V2-A_h3k27me3_seed104729	optimizer/vars/1	optimizer_scalar	[]	float32	1	4	True		0835a5c87ba00a93f8d84fb3bdf20866024a13fc710fc1225e3d67073543bba0
+V2-A_h3k27me3_seed104729	optimizer/vars/10	optimizer_slot	[2, 64, 128]	float32	16384	65536	True	True	de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31
+V2-A_h3k27me3_seed104729	optimizer/vars/11	optimizer_slot	[2, 64, 128]	float32	16384	65536	True	True	de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31
+V2-A_h3k27me3_seed104729	optimizer/vars/12	optimizer_slot	[128]	float32	128	512	True	True	076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560
+V2-A_h3k27me3_seed104729	optimizer/vars/13	optimizer_slot	[128]	float32	128	512	True	True	076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560
+V2-A_h3k27me3_seed104729	optimizer/vars/14	optimizer_slot	[291456, 100]	float32	29145600	116582400	True	True	996cbd6f1dacb596d15870a36a2fbc99571cede383d6a9bdcfec62f405fb3b6c
+V2-A_h3k27me3_seed104729	optimizer/vars/15	optimizer_slot	[291456, 100]	float32	29145600	116582400	True	True	996cbd6f1dacb596d15870a36a2fbc99571cede383d6a9bdcfec62f405fb3b6c
+V2-A_h3k27me3_seed104729	optimizer/vars/16	optimizer_slot	[100]	float32	100	400	True	True	7a12e561363385e9dfeeab326368731c030ed4b374e7f5897ac819159d2884c5
+V2-A_h3k27me3_seed104729	optimizer/vars/17	optimizer_slot	[100]	float32	100	400	True	True	7a12e561363385e9dfeeab326368731c030ed4b374e7f5897ac819159d2884c5
+V2-A_h3k27me3_seed104729	optimizer/vars/18	optimizer_slot	[100, 50]	float32	5000	20000	True	True	28b4f41a7f3ee6d8cc87272db6e09c6d3566551fd4d18702b041a21658272a85
+V2-A_h3k27me3_seed104729	optimizer/vars/19	optimizer_slot	[100, 50]	float32	5000	20000	True	True	28b4f41a7f3ee6d8cc87272db6e09c6d3566551fd4d18702b041a21658272a85
+V2-A_h3k27me3_seed104729	optimizer/vars/2	optimizer_slot	[4, 1, 64]	float32	256	1024	True	True	5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef
+V2-A_h3k27me3_seed104729	optimizer/vars/20	optimizer_slot	[50]	float32	50	200	True	True	6d9c54dee5660c46886f32d80e57e9dd0ffa57ee0cd2a762b036d9c8e0c3a33a
+V2-A_h3k27me3_seed104729	optimizer/vars/21	optimizer_slot	[50]	float32	50	200	True	True	6d9c54dee5660c46886f32d80e57e9dd0ffa57ee0cd2a762b036d9c8e0c3a33a
+V2-A_h3k27me3_seed104729	optimizer/vars/22	optimizer_slot	[50, 1]	float32	50	200	True	True	6d9c54dee5660c46886f32d80e57e9dd0ffa57ee0cd2a762b036d9c8e0c3a33a
+V2-A_h3k27me3_seed104729	optimizer/vars/23	optimizer_slot	[50, 1]	float32	50	200	True	True	6d9c54dee5660c46886f32d80e57e9dd0ffa57ee0cd2a762b036d9c8e0c3a33a
+V2-A_h3k27me3_seed104729	optimizer/vars/24	optimizer_slot	[1]	float32	1	4	True	True	df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119
+V2-A_h3k27me3_seed104729	optimizer/vars/25	optimizer_slot	[1]	float32	1	4	True	True	df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119
+V2-A_h3k27me3_seed104729	optimizer/vars/3	optimizer_slot	[4, 1, 64]	float32	256	1024	True	True	5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef
+V2-A_h3k27me3_seed104729	optimizer/vars/4	optimizer_slot	[64]	float32	64	256	True	True	5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1
+V2-A_h3k27me3_seed104729	optimizer/vars/5	optimizer_slot	[64]	float32	64	256	True	True	5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1
+V2-A_h3k27me3_seed104729	optimizer/vars/6	optimizer_slot	[64]	float32	64	256	True	True	5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1
+V2-A_h3k27me3_seed104729	optimizer/vars/7	optimizer_slot	[64]	float32	64	256	True	True	5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1
+V2-A_h3k27me3_seed104729	optimizer/vars/8	optimizer_slot	[64]	float32	64	256	True	True	5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1
+V2-A_h3k27me3_seed104729	optimizer/vars/9	optimizer_slot	[64]	float32	64	256	True	True	5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1
+V2-A_h3k27me3_seed130363	layers/batch_normalization/vars/0	model_weight	[64]	float32	64	256	True		c6f147136b5b56d73450816d164b2e305b77034d259334e1e15089e7edceaa38
+V2-A_h3k27me3_seed130363	layers/batch_normalization/vars/1	model_weight	[64]	float32	64	256	True		306d2e2e73067c55ed4252fb0171c173ce433d1f199950168c207fc39061a613
+V2-A_h3k27me3_seed130363	layers/batch_normalization/vars/2	model_weight	[64]	float32	64	256	True		be956d9a4402fa7a5a3304afd33d5c6a06c6e349ba5bc3748d8e58f7e2d7e666
+V2-A_h3k27me3_seed130363	layers/batch_normalization/vars/3	model_weight	[64]	float32	64	256	True		b996725b03e35b0faa12d0d6fbc89137d095d2d6e28f050925c942bb71b28919
+V2-A_h3k27me3_seed130363	layers/conv1d/vars/0	model_weight	[4, 1, 64]	float32	256	1024	True		5fec7d0fe6dec02f8e4621031dfa432936ff771741ae9d73a3b636552f607e2c
+V2-A_h3k27me3_seed130363	layers/conv1d/vars/1	model_weight	[64]	float32	64	256	True		f30e2fab974285de249771b45ea390db2e846a1491646c4a0e2b5d1157f567be
+V2-A_h3k27me3_seed130363	layers/conv1d_1/vars/0	model_weight	[2, 64, 128]	float32	16384	65536	True		f87a4fe92b444f8198fcb168a22cfa79f46d8358ffee86abd4e08aa5e6909ad8
+V2-A_h3k27me3_seed130363	layers/conv1d_1/vars/1	model_weight	[128]	float32	128	512	True		13b3f448887361645c57e13cdc79077ec50dc4d27993e29d7f7af85fcd8b0bb0
+V2-A_h3k27me3_seed130363	layers/dense/vars/0	model_weight	[291456, 100]	float32	29145600	116582400	True		516449a74685cce7ca375d60051d16d142e4b02b98b61caff551b00531153137
+V2-A_h3k27me3_seed130363	layers/dense/vars/1	model_weight	[100]	float32	100	400	True		d5b40caf37eb929eeb5a69f8cf95fa50526a4aba3a9e62d176d66ed6b3b8fcc7
+V2-A_h3k27me3_seed130363	layers/dense_1/vars/0	model_weight	[100, 50]	float32	5000	20000	True		b6fb9af29f7e5b4b827a0b2bb2756b71936b1d6576deadc4233f60d26857f69a
+V2-A_h3k27me3_seed130363	layers/dense_1/vars/1	model_weight	[50]	float32	50	200	True		bb7d98d6f2d3e7be42754dd1356498207cda7e0352934b4b3ac8b761331c98bc
+V2-A_h3k27me3_seed130363	layers/dense_2/vars/0	model_weight	[50, 1]	float32	50	200	True		d8f93eee00dc6de81fc6366f9e03bb034a1964d3010f6cef9b9060079143c7a2
+V2-A_h3k27me3_seed130363	layers/dense_2/vars/1	model_weight	[1]	float32	1	4	True		7234e1f75d5d6996e558a6bf72eb851a7a002df0e13b63bacee089f9e8b09725
+V2-A_h3k27me3_seed130363	optimizer/vars/0	optimizer_scalar	[]	int64	1	8	True		af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+V2-A_h3k27me3_seed130363	optimizer/vars/1	optimizer_scalar	[]	float32	1	4	True		0835a5c87ba00a93f8d84fb3bdf20866024a13fc710fc1225e3d67073543bba0
+V2-A_h3k27me3_seed130363	optimizer/vars/10	optimizer_slot	[2, 64, 128]	float32	16384	65536	True	True	de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31
+V2-A_h3k27me3_seed130363	optimizer/vars/11	optimizer_slot	[2, 64, 128]	float32	16384	65536	True	True	de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31
+V2-A_h3k27me3_seed130363	optimizer/vars/12	optimizer_slot	[128]	float32	128	512	True	True	076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560
+V2-A_h3k27me3_seed130363	optimizer/vars/13	optimizer_slot	[128]	float32	128	512	True	True	076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560
+V2-A_h3k27me3_seed130363	optimizer/vars/14	optimizer_slot	[291456, 100]	float32	29145600	116582400	True	True	996cbd6f1dacb596d15870a36a2fbc99571cede383d6a9bdcfec62f405fb3b6c
+V2-A_h3k27me3_seed130363	optimizer/vars/15	optimizer_slot	[291456, 100]	float32	29145600	116582400	True	True	996cbd6f1dacb596d15870a36a2fbc99571cede383d6a9bdcfec62f405fb3b6c
+V2-A_h3k27me3_seed130363	optimizer/vars/16	optimizer_slot	[100]	float32	100	400	True	True	7a12e561363385e9dfeeab326368731c030ed4b374e7f5897ac819159d2884c5
+V2-A_h3k27me3_seed130363	optimizer/vars/17	optimizer_slot	[100]	float32	100	400	True	True	7a12e561363385e9dfeeab326368731c030ed4b374e7f5897ac819159d2884c5
+V2-A_h3k27me3_seed130363	optimizer/vars/18	optimizer_slot	[100, 50]	float32	5000	20000	True	True	28b4f41a7f3ee6d8cc87272db6e09c6d3566551fd4d18702b041a21658272a85
+V2-A_h3k27me3_seed130363	optimizer/vars/19	optimizer_slot	[100, 50]	float32	5000	20000	True	True	28b4f41a7f3ee6d8cc87272db6e09c6d3566551fd4d18702b041a21658272a85
+V2-A_h3k27me3_seed130363	optimizer/vars/2	optimizer_slot	[4, 1, 64]	float32	256	1024	True	True	5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef
+V2-A_h3k27me3_seed130363	optimizer/vars/20	optimizer_slot	[50]	float32	50	200	True	True	6d9c54dee5660c46886f32d80e57e9dd0ffa57ee0cd2a762b036d9c8e0c3a33a
+V2-A_h3k27me3_seed130363	optimizer/vars/21	optimizer_slot	[50]	float32	50	200	True	True	6d9c54dee5660c46886f32d80e57e9dd0ffa57ee0cd2a762b036d9c8e0c3a33a
+V2-A_h3k27me3_seed130363	optimizer/vars/22	optimizer_slot	[50, 1]	float32	50	200	True	True	6d9c54dee5660c46886f32d80e57e9dd0ffa57ee0cd2a762b036d9c8e0c3a33a
+V2-A_h3k27me3_seed130363	optimizer/vars/23	optimizer_slot	[50, 1]	float32	50	200	True	True	6d9c54dee5660c46886f32d80e57e9dd0ffa57ee0cd2a762b036d9c8e0c3a33a
+V2-A_h3k27me3_seed130363	optimizer/vars/24	optimizer_slot	[1]	float32	1	4	True	True	df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119
+V2-A_h3k27me3_seed130363	optimizer/vars/25	optimizer_slot	[1]	float32	1	4	True	True	df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119
+V2-A_h3k27me3_seed130363	optimizer/vars/3	optimizer_slot	[4, 1, 64]	float32	256	1024	True	True	5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef
+V2-A_h3k27me3_seed130363	optimizer/vars/4	optimizer_slot	[64]	float32	64	256	True	True	5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1
+V2-A_h3k27me3_seed130363	optimizer/vars/5	optimizer_slot	[64]	float32	64	256	True	True	5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1
+V2-A_h3k27me3_seed130363	optimizer/vars/6	optimizer_slot	[64]	float32	64	256	True	True	5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1
+V2-A_h3k27me3_seed130363	optimizer/vars/7	optimizer_slot	[64]	float32	64	256	True	True	5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1
+V2-A_h3k27me3_seed130363	optimizer/vars/8	optimizer_slot	[64]	float32	64	256	True	True	5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1
+V2-A_h3k27me3_seed130363	optimizer/vars/9	optimizer_slot	[64]	float32	64	256	True	True	5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1

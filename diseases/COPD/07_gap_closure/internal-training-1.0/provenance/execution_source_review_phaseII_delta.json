@@ -1,0 +1,24 @@
+{
+  "module": "COPD-V2-INTERNAL-TRAINING-1.0",
+  "status": "PASS",
+  "reviewer": "internal_execution_qc",
+  "phase": "Prospective phase-II orchestration and actual-network invariance update before trained outcomes",
+  "supersedes_only": "The predictive-wrapper source hash and extra batch/order challenge described in execution_source_review_before.json; all other unchanged source assessments remain applicable.",
+  "checks": [
+    "Slurm array now uses the exact absolute stage path, not BASH_SOURCE of the scheduler spool copy. All18 array indices map bijectively to configuration/model/frozen seed.",
+    "Array requests one A100,8CPUs,48GiB,4h with maximum4 concurrent fits; no seed-specific resource or scientific design tuning.",
+    "The reverse-wrapper check now uses the same fixed256 batching and genomic row order as the original wrapper, while swapping nucleotide-orientation input lookup and making four independent real-network calls per seed. This tests the frozen deployed symmetric wrapper without adding an unprescribed batch-perturbation gate.",
+    "Checkpoint freezer requires exactly18 successful prescribed runs, immutable code/input bindings, earliest native symmetricBCE minimum, reconstructed RNG plans, patience rule, restored serialized selectedweights, completed command records, and authorized same-seed infrastructure retry records.",
+    "All18 selected checkpoints must be frozen before chr7 common-panel predictions; no selection/calibration outcomes are consumed by training or checkpoint freeze."
+  ],
+  "reviewed_sha256": {
+    "scripts/predict_chr7.py": "1316cb5e79d9102779bb5611e561eed6482b61315345f62ddc74d6545ef2fe99",
+    "scripts/train_array.sh": "e8de22054bd2a4ffe75e27abb64ee6641869a4a7909feabe83e6796173fd4118",
+    "scripts/freeze_checkpoints.py": "600c890f7279f8044392acdd1b114f39326e14cd1e1194350a341cf0c9a4505a",
+    "scripts/run_logged.py": "150cd5e2a10b5355349528bc480705cd3b2079ea8c11b3dbcad209327040cc7a"
+  },
+  "scientific_training_or_adequacy_rule_changed": false,
+  "reviewer_model_execution": false,
+  "reviewer_test_or_benchmark_outcome_access": false,
+  "limitations": "Source review is not a substitute for actual-network invariance and independent final output validation."
+}

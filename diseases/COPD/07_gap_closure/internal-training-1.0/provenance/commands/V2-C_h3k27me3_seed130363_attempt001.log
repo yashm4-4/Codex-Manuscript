@@ -1,0 +1,45 @@
+2026-10-06 11:56:45.639570: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791302211.245890  383008 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 79189 MB memory:  -> device: 0, name: NVIDIA A100-SXM4-80GB, pci bus id: 0000:07:00.0, compute capability: 8.0
+2026-10-06 11:56:53.076649: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92302
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 1, "checkpoint_BCE": 0.6620414827572108, "best_epoch": 1, "best_BCE": 0.6620414827572108, "wait": 0}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 2, "checkpoint_BCE": 0.6303405290507986, "best_epoch": 2, "best_BCE": 0.6303405290507986, "wait": 0}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 3, "checkpoint_BCE": 0.5879117601360855, "best_epoch": 3, "best_BCE": 0.5879117601360855, "wait": 0}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 4, "checkpoint_BCE": 0.5376850336905689, "best_epoch": 4, "best_BCE": 0.5376850336905689, "wait": 0}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 5, "checkpoint_BCE": 0.5084608575448982, "best_epoch": 5, "best_BCE": 0.5084608575448982, "wait": 0}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 6, "checkpoint_BCE": 0.49858485014045517, "best_epoch": 6, "best_BCE": 0.49858485014045517, "wait": 0}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 7, "checkpoint_BCE": 0.4962124575324793, "best_epoch": 7, "best_BCE": 0.4962124575324793, "wait": 0}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 8, "checkpoint_BCE": 0.49740375609528836, "best_epoch": 7, "best_BCE": 0.4962124575324793, "wait": 1}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 9, "checkpoint_BCE": 0.4977397465964768, "best_epoch": 7, "best_BCE": 0.4962124575324793, "wait": 2}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 10, "checkpoint_BCE": 0.49862223178926146, "best_epoch": 7, "best_BCE": 0.4962124575324793, "wait": 3}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 11, "checkpoint_BCE": 0.4936608157099814, "best_epoch": 11, "best_BCE": 0.4936608157099814, "wait": 0}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 12, "checkpoint_BCE": 0.4937286330327245, "best_epoch": 11, "best_BCE": 0.4936608157099814, "wait": 1}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 13, "checkpoint_BCE": 0.4974599599013766, "best_epoch": 11, "best_BCE": 0.4936608157099814, "wait": 2}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 14, "checkpoint_BCE": 0.49494142126384555, "best_epoch": 11, "best_BCE": 0.4936608157099814, "wait": 3}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 15, "checkpoint_BCE": 0.4954171798071361, "best_epoch": 11, "best_BCE": 0.4936608157099814, "wait": 4}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 16, "checkpoint_BCE": 0.4928136366675489, "best_epoch": 16, "best_BCE": 0.4928136366675489, "wait": 0}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 17, "checkpoint_BCE": 0.49551003494901386, "best_epoch": 16, "best_BCE": 0.4928136366675489, "wait": 1}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 18, "checkpoint_BCE": 0.49404931354575077, "best_epoch": 16, "best_BCE": 0.4928136366675489, "wait": 2}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 19, "checkpoint_BCE": 0.4946652980732824, "best_epoch": 16, "best_BCE": 0.4928136366675489, "wait": 3}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 20, "checkpoint_BCE": 0.496609018205127, "best_epoch": 16, "best_BCE": 0.4928136366675489, "wait": 4}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 21, "checkpoint_BCE": 0.4935044484577947, "best_epoch": 16, "best_BCE": 0.4928136366675489, "wait": 5}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 22, "checkpoint_BCE": 0.4939598919098265, "best_epoch": 16, "best_BCE": 0.4928136366675489, "wait": 6}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 23, "checkpoint_BCE": 0.4919116094404871, "best_epoch": 23, "best_BCE": 0.4919116094404871, "wait": 0}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 24, "checkpoint_BCE": 0.49164638472615635, "best_epoch": 24, "best_BCE": 0.49164638472615635, "wait": 0}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 25, "checkpoint_BCE": 0.4929444782660816, "best_epoch": 24, "best_BCE": 0.49164638472615635, "wait": 1}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 26, "checkpoint_BCE": 0.49514315522963215, "best_epoch": 24, "best_BCE": 0.49164638472615635, "wait": 2}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 27, "checkpoint_BCE": 0.4931665389878022, "best_epoch": 24, "best_BCE": 0.49164638472615635, "wait": 3}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 28, "checkpoint_BCE": 0.49345606627179844, "best_epoch": 24, "best_BCE": 0.49164638472615635, "wait": 4}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 29, "checkpoint_BCE": 0.4932276015880803, "best_epoch": 24, "best_BCE": 0.49164638472615635, "wait": 5}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 30, "checkpoint_BCE": 0.49523192612366085, "best_epoch": 24, "best_BCE": 0.49164638472615635, "wait": 6}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 31, "checkpoint_BCE": 0.49245775107955503, "best_epoch": 24, "best_BCE": 0.49164638472615635, "wait": 7}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 32, "checkpoint_BCE": 0.4962967096627861, "best_epoch": 24, "best_BCE": 0.49164638472615635, "wait": 8}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 33, "checkpoint_BCE": 0.49298603212722397, "best_epoch": 24, "best_BCE": 0.49164638472615635, "wait": 9}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 34, "checkpoint_BCE": 0.49375954103643815, "best_epoch": 24, "best_BCE": 0.49164638472615635, "wait": 10}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 35, "checkpoint_BCE": 0.4954609376535085, "best_epoch": 24, "best_BCE": 0.49164638472615635, "wait": 11}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 36, "checkpoint_BCE": 0.49492446893994196, "best_epoch": 24, "best_BCE": 0.49164638472615635, "wait": 12}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 37, "checkpoint_BCE": 0.4964471935636043, "best_epoch": 24, "best_BCE": 0.49164638472615635, "wait": 13}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 38, "checkpoint_BCE": 0.49449049126818795, "best_epoch": 24, "best_BCE": 0.49164638472615635, "wait": 14}
+{"run_id": "V2-C_h3k27me3_seed130363", "epoch": 39, "checkpoint_BCE": 0.4940319374872242, "best_epoch": 24, "best_BCE": 0.49164638472615635, "wait": 15}
+{"run_id": "V2-C_h3k27me3_seed130363", "status": "COMPLETED", "selected_epoch": 24, "checkpoint_sha256": "56a2d331b6ed27e49f103dce228dda3c26a80ff296e91c9c740e52b9c36841c6"}

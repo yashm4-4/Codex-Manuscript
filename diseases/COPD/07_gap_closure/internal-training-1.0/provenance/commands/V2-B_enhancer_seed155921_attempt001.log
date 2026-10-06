@@ -1,0 +1,28 @@
+2026-10-06 11:35:56.478332: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791300977.231886 3797184 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 79189 MB memory:  -> device: 0, name: NVIDIA A100-SXM4-80GB, pci bus id: 0000:07:00.0, compute capability: 8.0
+2026-10-06 11:36:21.543254: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92302
+{"run_id": "V2-B_enhancer_seed155921", "epoch": 1, "checkpoint_BCE": 0.5888138268488411, "best_epoch": 1, "best_BCE": 0.5888138268488411, "wait": 0}
+{"run_id": "V2-B_enhancer_seed155921", "epoch": 2, "checkpoint_BCE": 0.583263883474156, "best_epoch": 2, "best_BCE": 0.583263883474156, "wait": 0}
+{"run_id": "V2-B_enhancer_seed155921", "epoch": 3, "checkpoint_BCE": 0.5822340093104644, "best_epoch": 3, "best_BCE": 0.5822340093104644, "wait": 0}
+{"run_id": "V2-B_enhancer_seed155921", "epoch": 4, "checkpoint_BCE": 0.5806392993225151, "best_epoch": 4, "best_BCE": 0.5806392993225151, "wait": 0}
+{"run_id": "V2-B_enhancer_seed155921", "epoch": 5, "checkpoint_BCE": 0.5817890398257589, "best_epoch": 4, "best_BCE": 0.5806392993225151, "wait": 1}
+{"run_id": "V2-B_enhancer_seed155921", "epoch": 6, "checkpoint_BCE": 0.5830367232799902, "best_epoch": 4, "best_BCE": 0.5806392993225151, "wait": 2}
+{"run_id": "V2-B_enhancer_seed155921", "epoch": 7, "checkpoint_BCE": 0.5792028887412443, "best_epoch": 7, "best_BCE": 0.5792028887412443, "wait": 0}
+{"run_id": "V2-B_enhancer_seed155921", "epoch": 8, "checkpoint_BCE": 0.57932467204869, "best_epoch": 7, "best_BCE": 0.5792028887412443, "wait": 1}
+{"run_id": "V2-B_enhancer_seed155921", "epoch": 9, "checkpoint_BCE": 0.5835673791902372, "best_epoch": 7, "best_BCE": 0.5792028887412443, "wait": 2}
+{"run_id": "V2-B_enhancer_seed155921", "epoch": 10, "checkpoint_BCE": 0.5825158244440921, "best_epoch": 7, "best_BCE": 0.5792028887412443, "wait": 3}
+{"run_id": "V2-B_enhancer_seed155921", "epoch": 11, "checkpoint_BCE": 0.5824176398294528, "best_epoch": 7, "best_BCE": 0.5792028887412443, "wait": 4}
+{"run_id": "V2-B_enhancer_seed155921", "epoch": 12, "checkpoint_BCE": 0.5807795505152066, "best_epoch": 7, "best_BCE": 0.5792028887412443, "wait": 5}
+{"run_id": "V2-B_enhancer_seed155921", "epoch": 13, "checkpoint_BCE": 0.5833781584014971, "best_epoch": 7, "best_BCE": 0.5792028887412443, "wait": 6}
+{"run_id": "V2-B_enhancer_seed155921", "epoch": 14, "checkpoint_BCE": 0.5807045852953291, "best_epoch": 7, "best_BCE": 0.5792028887412443, "wait": 7}
+{"run_id": "V2-B_enhancer_seed155921", "epoch": 15, "checkpoint_BCE": 0.5822051427182515, "best_epoch": 7, "best_BCE": 0.5792028887412443, "wait": 8}
+{"run_id": "V2-B_enhancer_seed155921", "epoch": 16, "checkpoint_BCE": 0.5801080473893102, "best_epoch": 7, "best_BCE": 0.5792028887412443, "wait": 9}
+{"run_id": "V2-B_enhancer_seed155921", "epoch": 17, "checkpoint_BCE": 0.5832065372250785, "best_epoch": 7, "best_BCE": 0.5792028887412443, "wait": 10}
+{"run_id": "V2-B_enhancer_seed155921", "epoch": 18, "checkpoint_BCE": 0.5822347202757463, "best_epoch": 7, "best_BCE": 0.5792028887412443, "wait": 11}
+{"run_id": "V2-B_enhancer_seed155921", "epoch": 19, "checkpoint_BCE": 0.5851131433686094, "best_epoch": 7, "best_BCE": 0.5792028887412443, "wait": 12}
+{"run_id": "V2-B_enhancer_seed155921", "epoch": 20, "checkpoint_BCE": 0.5834367820612443, "best_epoch": 7, "best_BCE": 0.5792028887412443, "wait": 13}
+{"run_id": "V2-B_enhancer_seed155921", "epoch": 21, "checkpoint_BCE": 0.5839499574059835, "best_epoch": 7, "best_BCE": 0.5792028887412443, "wait": 14}
+{"run_id": "V2-B_enhancer_seed155921", "epoch": 22, "checkpoint_BCE": 0.5844869610527335, "best_epoch": 7, "best_BCE": 0.5792028887412443, "wait": 15}
+{"run_id": "V2-B_enhancer_seed155921", "status": "COMPLETED", "selected_epoch": 7, "checkpoint_sha256": "c0e2a96ed19c3b9d5ddbb51a85b0d4ffce7701e41f12bd25ce69bcf763d6300e"}

@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "reviewer": "internal_eval_impl",
+  "review_date_utc": "2026-10-06",
+  "report": {
+    "path": "INTERNAL_TRAINING_REPORT.md",
+    "sha256": "7b98ee0c31f8fcdc81c05417f73bd95a87bc32792b93086293fe5eff01ff34a6"
+  },
+  "fit_outcome_rows_verified": 18,
+  "seed_and_ensemble_metric_rows_verified": 24,
+  "summary_source_hashes_verified": 14,
+  "exact_decimal_and_hex_thresholds_verified": true,
+  "declared_display_precision_matches_saved_tables": true,
+  "actual_network_RC_scope_and_fixed_batching_match_audit": true,
+  "checkpoint_optimizer_container_qualification_accurate": true,
+  "administrative_path_repair_and_original_failure_disclosed": true,
+  "no_C_superiority_allele_effect_or_causality_overclaim": true,
+  "test_external_and_candidate_stop_boundaries_preserved": true,
+  "shared_register_wording_checked": true,
+  "substantive_issues": [],
+  "review_only_no_edits_or_scientific_reruns": true
+}

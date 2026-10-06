@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "reviewer": "internal_execution_qc",
+  "phase": "Before phase-II fits and before any model outcome evaluation",
+  "script": "scripts/prepare_evaluation_gates.py",
+  "sha256": "13748b49f6b4157ab44694deedc08cb136a9792dc3c519cad31130b9c59749cf",
+  "independently_rerun_synthetic_gate_tests": 8,
+  "test_failures": 0,
+  "checks": [
+    "Original independent input audit anchors frozen1.1 freeze and ledger, construction readiness, specification and source manifests.",
+    "Execution input gate anchors prepared metadata, all18 selected checkpoints and original completion/checkpoint records.",
+    "Actual-network audit requires all18 seeds plus six ensembles, exact tolerances, complete chr7 union counts, correct checkpoints and prediction/source/code hashes.",
+    "Evaluation, calibration, gate-helper code and implementation conventions must match their prospective execution-input-gate hashes, not merely hashes calculated after outcomes.",
+    "Calibration gate requires both contexts PASS, every numeric adequacy condition checked against the underlying table, exact2000 valid replicates and invalid-fraction accounting, then freezes the same six C checkpoints and symmetric inference files.",
+    "No model execution or score-table parsing occurs in this provenance gate helper; no chr8-9, external benchmark or candidate outcomes are opened."
+  ],
+  "prelaunch_issue_fixed": "The first helper draft hashed the current evaluation implementation without comparing against its original prospective execution gate. Before outcomes, this was tightened and a tamper-rejection test added. No scientific decision rule or model outcome changed.",
+  "scientific_design_changed": false,
+  "reviewer_model_execution": false,
+  "reviewer_test_or_benchmark_outcome_access": false
+}

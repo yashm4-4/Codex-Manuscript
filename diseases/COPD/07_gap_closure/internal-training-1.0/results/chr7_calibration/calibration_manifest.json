@@ -1,0 +1,30 @@
+{
+  "artifacts": [
+    {
+      "bytes": 2440,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/results/chr7_calibration/C_region_thresholds.json",
+      "sha256": "48f9a7a742a32ebb39d21ecfcde71c340cb2702ef124467d84ce40d0e33037a8"
+    },
+    {
+      "bytes": 996,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/results/chr7_calibration/C_region_thresholds.tsv",
+      "sha256": "1edf26150edd88664e84547ac50a96d50064f14291f236bc9eaedbddedf4d990"
+    },
+    {
+      "bytes": 171,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/results/chr7_calibration/calibration_counts.tsv",
+      "sha256": "ba52f9b567bf994c2900972c6ed19683b9c7ba96a54cbcfec045c08c12ad1f06"
+    },
+    {
+      "bytes": 92571,
+      "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/results/chr7_calibration/calibration_negative_scores.tsv.gz",
+      "sha256": "431983ffd2da9b2c5e5dc766367809dbc7d0c9e743a1eb617e02af9c710dc871"
+    }
+  ],
+  "calibration_script_sha256": "68f568a51b2cb5fd2378390c076d93b05edca4f30fa43a5679e294f625021325",
+  "evaluation_helper_sha256": "55b916dfd94c432b8463b0b6232792222f2fc1b020f060fec2edc4ff11d43e83",
+  "input_manifest": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/provenance/calibration_input.json",
+  "input_manifest_sha256": "dca0f20665521aac9ee04bfe08ae9eda54f16cd2e1a45876592571effcdfb825",
+  "positive_prediction_access": false,
+  "test_external_candidate_access": false
+}

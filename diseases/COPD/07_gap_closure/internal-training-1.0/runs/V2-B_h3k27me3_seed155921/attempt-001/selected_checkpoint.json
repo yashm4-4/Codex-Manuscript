@@ -1,0 +1,33 @@
+{
+  "attempt": 1,
+  "calibration_role_access": false,
+  "checkpoint": {
+    "bytes": 350064314,
+    "path": "runs/V2-B_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras",
+    "sha256": "2e2fa2ec39cbaf8fea4080bd0576d6a1da6d968e2481c349d737f3db641553f6"
+  },
+  "checkpoint_is_inference_only": true,
+  "checkpoint_symmetric_BCE": 0.5220315677312949,
+  "chr8_chr9_access": false,
+  "completed": true,
+  "configuration": "V2-B",
+  "early_stopped": true,
+  "epochs_completed": 27,
+  "external_benchmark_access": false,
+  "history": {
+    "bytes": 5966,
+    "path": "runs/V2-B_h3k27me3_seed155921/attempt-001/history.tsv",
+    "sha256": "28f3f38cbc4cd83575f863f85db1e9867c4ea2db47d34f0b9ca63758b966b698"
+  },
+  "model": "h3k27me3",
+  "native_checkpoint_orientation_hashes": {
+    "forward": "f968582a1b02fc25b4d57ad3f3373f105774f83c993dcfa926437ad58f231d6d",
+    "rc": "93274fc23d63e2d37bf184692519b88125fcfb6bc95be145f57ff09ed4751441"
+  },
+  "restored_checkpoint_symmetric_BCE": 0.5220315677312949,
+  "run_id": "V2-B_h3k27me3_seed155921",
+  "seed": 155921,
+  "selected_epoch_one_based": 12,
+  "selection_role_access": false,
+  "serialized_selected_weights_bitwise_roundtrip": true
+}

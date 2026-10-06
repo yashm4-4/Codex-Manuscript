@@ -36,3 +36,9 @@ __pycache__/
 *.pyc
 .venv/
 .ipynb_checkpoints/
+
+# Reconstructable external intermediates, explicitly excluded from Git and LFS.
+# Storage and reconstruction details are recorded outside the frozen stage.
+/diseases/COPD/07_gap_closure/internal-training-1.0/cache/features_canonical.npy
+/diseases/COPD/07_gap_closure/internal-training-1.0/cache/features_rc.npy
+/diseases/COPD/07_gap_closure/internal-training-1.0/inputs/canonical_sequences.npy

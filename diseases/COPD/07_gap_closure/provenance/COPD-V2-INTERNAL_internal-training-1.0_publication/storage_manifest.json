@@ -1,0 +1,1046 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Publication-only storage policy for the unchanged frozen internal-training-1.0 result; not a new analysis or refreeze.",
+  "repository": "yashm4-4/Codex-Manuscript",
+  "target_branch": "main",
+  "repository_workspace_absolute_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow",
+  "stage_path": "diseases/COPD/07_gap_closure/internal-training-1.0",
+  "frozen_scientific_baseline": {
+    "adequacy_decision": {
+      "path": "results/chr7_evaluation/adequacy_decision.json",
+      "sha256": "267b7eeec486801fc5e0716089710d5c61dbb3ce25a64457dac39fed50adaf5e"
+    },
+    "artifact_checksums": {
+      "path": "provenance/artifact_checksums.tsv",
+      "sha256": "661d2e95956068819713ed5d2ba01591f0019f5cb98f61e5b61e221aec8fd691"
+    },
+    "automatic_A_B_fallback": false,
+    "both_C_contexts_pass": true,
+    "candidate_or_allele_scoring_performed": false,
+    "chr8_chr9_authorized_or_evaluated": false,
+    "commit_or_push_performed": false,
+    "external_benchmark_evaluated": false,
+    "frozen_utc": "2026-10-06T16:26:11.182988+00:00",
+    "module": "COPD-V2-INTERNAL-TRAINING",
+    "payload_bytes": 34269599724,
+    "payload_files": 470,
+    "pretraining_version": "pretraining-1.1",
+    "publication_baseline_commit": "7c0caf4af5f8f346089c92f43b88161331ca420b",
+    "ready_for_investigator_review_before_test_opening": true,
+    "scope_limit": "Region-label modeling only; no causal variant or REF-ALT validity claim.",
+    "status": "COMPLETE_INTERNAL_STAGE_STOP_FOR_INVESTIGATOR_REVIEW",
+    "threshold_calibration_completed": true,
+    "version": "internal-training-1.0"
+  },
+  "original_freeze_metadata": [
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/provenance/artifact_checksums.tsv",
+      "bytes": 59147,
+      "sha256": "661d2e95956068819713ed5d2ba01591f0019f5cb98f61e5b61e221aec8fd691"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/provenance/freeze.json",
+      "bytes": 1151,
+      "sha256": "c151e61dba04a9e5500534e507a392d51e1af0601a6e62565288bc6b276e6de4"
+    }
+  ],
+  "inventory_file": "diseases/COPD/07_gap_closure/provenance/COPD-V2-INTERNAL_internal-training-1.0_publication/storage_inventory.tsv",
+  "inventory_rows": 477,
+  "inventory_path_semantics": "Paths are relative to the Git repository root; byte counts and SHA-256 refer to original file contents, not LFS pointer text.",
+  "stage_storage_totals": {
+    "git_ordinary": {
+      "files": 451,
+      "bytes": 295006279
+    },
+    "git_lfs_original_checkpoint": {
+      "files": 18,
+      "bytes": 6301157652
+    },
+    "external_reconstructable_intermediate": {
+      "files": 3,
+      "bytes": 27673496091
+    }
+  },
+  "stage_total": {
+    "files": 472,
+    "bytes": 34269660022
+  },
+  "original_frozen_payload": {
+    "files": 470,
+    "bytes": 34269599724,
+    "ordinary_files": 449,
+    "lfs_checkpoint_files": 18,
+    "external_intermediate_files": 3
+  },
+  "git_hosted_stage_content": {
+    "files": 469,
+    "ordinary_bytes": 295006279,
+    "lfs_original_checkpoint_bytes": 6301157652,
+    "total_content_bytes": 6596163931,
+    "note": "Excludes register/policy/addendum files and Git pack, history, and LFS-pointer overhead."
+  },
+  "additional_register_and_policy_files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 2988,
+      "sha256": "63d88f62fb7dd6a7f0be682c46f9c5c9b41655524a3b5b5b95c9f51d22a6e302",
+      "scope": "publication_policy",
+      "stage_relative_path": "",
+      "storage_class": "git_ordinary",
+      "selected_trained_checkpoint": false,
+      "git_hosted": true,
+      "current_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/.gitattributes"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 1512,
+      "sha256": "0b64c47b0bb4f39f76634679fe1018754d8c28a61655a5207beaa43af55959f9",
+      "scope": "publication_policy",
+      "stage_relative_path": "",
+      "storage_class": "git_ordinary",
+      "selected_trained_checkpoint": false,
+      "git_hosted": true,
+      "current_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/.gitignore"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/activity_log.tsv",
+      "bytes": 17537,
+      "sha256": "a7f7f36424042a9d9c82d6730f39577282cf1b8b644c10a9eaf34776e03565bf",
+      "scope": "append_only_V2_register",
+      "stage_relative_path": "",
+      "storage_class": "git_ordinary",
+      "selected_trained_checkpoint": false,
+      "git_hosted": true,
+      "current_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/activity_log.tsv"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/gap_closure_decision_register.tsv",
+      "bytes": 17113,
+      "sha256": "3d837bb54066298f55f43d5a564eeab572f1dd2b0c126f7a3314cceff276dcb6",
+      "scope": "append_only_V2_register",
+      "stage_relative_path": "",
+      "storage_class": "git_ordinary",
+      "selected_trained_checkpoint": false,
+      "git_hosted": true,
+      "current_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/gap_closure_decision_register.tsv"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/gap_closure_result_register.tsv",
+      "bytes": 26811,
+      "sha256": "69e2fc0ceee6e6972f3e98fa24c92a5abe0cbe781a9a8e82b8725acb7f006790",
+      "scope": "append_only_V2_register",
+      "stage_relative_path": "",
+      "storage_class": "git_ordinary",
+      "selected_trained_checkpoint": false,
+      "git_hosted": true,
+      "current_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/gap_closure_result_register.tsv"
+    }
+  ],
+  "publication_addendum_integrity": {
+    "mechanism": "These publication-only files are integrity-bound by the Git commit rather than recursively listing their own content hashes in this manifest.",
+    "ordinary_files": [
+      "diseases/COPD/07_gap_closure/provenance/COPD-V2-INTERNAL_internal-training-1.0_publication/README.md",
+      "diseases/COPD/07_gap_closure/provenance/COPD-V2-INTERNAL_internal-training-1.0_publication/storage_manifest.json",
+      "diseases/COPD/07_gap_closure/provenance/COPD-V2-INTERNAL_internal-training-1.0_publication/storage_inventory.tsv",
+      "diseases/COPD/07_gap_closure/provenance/COPD-V2-INTERNAL_internal-training-1.0_publication/preflight.json"
+    ],
+    "planned_post_publication_verification_receipt": {
+      "path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-INTERNAL_internal-training-1.0_publication/remote_verification.json",
+      "status": "Planned after remote upload/publication and fresh download verification; this manifest does not assert that the receipt already exists or passes.",
+      "scope": "All 18 remote LFS objects independently downloaded and hashed against frozen originals; all remaining publication and historical preservation checks."
+    },
+    "optional_future_verification_helpers": "Any publication-verification helper subsequently added in this directory is a Git-tracked publication-only artifact, not an alteration of the original frozen stage."
+  },
+  "checkpoint_storage": {
+    "class": "git_lfs_original_checkpoint",
+    "files": 18,
+    "original_archive_bytes": 6301157652,
+    "records": [
+      {
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_enhancer_seed104729/attempt-001/selected_checkpoint.keras",
+        "stage_relative_path": "runs/V2-A_enhancer_seed104729/attempt-001/selected_checkpoint.keras",
+        "scope": "original_frozen_payload",
+        "storage_class": "git_lfs_original_checkpoint",
+        "bytes": 350064314,
+        "sha256": "8eb380c37e92f5cbe9cb71256421565f5924d1fe373ce7ee507dbb3545272a60",
+        "selected_trained_checkpoint": true,
+        "git_hosted": true,
+        "current_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_enhancer_seed104729/attempt-001/selected_checkpoint.keras",
+        "lfs_oid": "sha256:8eb380c37e92f5cbe9cb71256421565f5924d1fe373ce7ee507dbb3545272a60",
+        "lfs_object_bytes": 350064314,
+        "downstream_role": "Preserved actual V2-A/V2-B ablation model",
+        "preservation_policy": "Original archive bytes only; do not retrain, re-save, slim, repackage, or strip optimizer state."
+      },
+      {
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_enhancer_seed130363/attempt-001/selected_checkpoint.keras",
+        "stage_relative_path": "runs/V2-A_enhancer_seed130363/attempt-001/selected_checkpoint.keras",
+        "scope": "original_frozen_payload",
+        "storage_class": "git_lfs_original_checkpoint",
+        "bytes": 350064314,
+        "sha256": "fb1f9103e7c824ffa280aa98fb2274a0abdb5eebbfcc381b2e8ed6df030faeed",
+        "selected_trained_checkpoint": true,
+        "git_hosted": true,
+        "current_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_enhancer_seed130363/attempt-001/selected_checkpoint.keras",
+        "lfs_oid": "sha256:fb1f9103e7c824ffa280aa98fb2274a0abdb5eebbfcc381b2e8ed6df030faeed",
+        "lfs_object_bytes": 350064314,
+        "downstream_role": "Preserved actual V2-A/V2-B ablation model",
+        "preservation_policy": "Original archive bytes only; do not retrain, re-save, slim, repackage, or strip optimizer state."
+      },
+      {
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_enhancer_seed155921/attempt-001/selected_checkpoint.keras",
+        "stage_relative_path": "runs/V2-A_enhancer_seed155921/attempt-001/selected_checkpoint.keras",
+        "scope": "original_frozen_payload",
+        "storage_class": "git_lfs_original_checkpoint",
+        "bytes": 350064314,
+        "sha256": "a74ee692f8b7386678a37de827e5ecb1bd597f665c6b475ba19fddadea961168",
+        "selected_trained_checkpoint": true,
+        "git_hosted": true,
+        "current_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_enhancer_seed155921/attempt-001/selected_checkpoint.keras",
+        "lfs_oid": "sha256:a74ee692f8b7386678a37de827e5ecb1bd597f665c6b475ba19fddadea961168",
+        "lfs_object_bytes": 350064314,
+        "downstream_role": "Preserved actual V2-A/V2-B ablation model",
+        "preservation_policy": "Original archive bytes only; do not retrain, re-save, slim, repackage, or strip optimizer state."
+      },
+      {
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras",
+        "stage_relative_path": "runs/V2-A_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras",
+        "scope": "original_frozen_payload",
+        "storage_class": "git_lfs_original_checkpoint",
+        "bytes": 350064314,
+        "sha256": "67b6c55c2dc7c79b8e70331ce4ee17c2f6b228ae95198312c8476084723b6249",
+        "selected_trained_checkpoint": true,
+        "git_hosted": true,
+        "current_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras",
+        "lfs_oid": "sha256:67b6c55c2dc7c79b8e70331ce4ee17c2f6b228ae95198312c8476084723b6249",
+        "lfs_object_bytes": 350064314,
+        "downstream_role": "Preserved actual V2-A/V2-B ablation model",
+        "preservation_policy": "Original archive bytes only; do not retrain, re-save, slim, repackage, or strip optimizer state."
+      },
+      {
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras",
+        "stage_relative_path": "runs/V2-A_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras",
+        "scope": "original_frozen_payload",
+        "storage_class": "git_lfs_original_checkpoint",
+        "bytes": 350064314,
+        "sha256": "d20a5e35ac9e348ea09b1418abf18fd3a4c5c040811a8324d25ff39911b25ae8",
+        "selected_trained_checkpoint": true,
+        "git_hosted": true,
+        "current_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras",
+        "lfs_oid": "sha256:d20a5e35ac9e348ea09b1418abf18fd3a4c5c040811a8324d25ff39911b25ae8",
+        "lfs_object_bytes": 350064314,
+        "downstream_role": "Preserved actual V2-A/V2-B ablation model",
+        "preservation_policy": "Original archive bytes only; do not retrain, re-save, slim, repackage, or strip optimizer state."
+      },
+      {
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras",
+        "stage_relative_path": "runs/V2-A_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras",
+        "scope": "original_frozen_payload",
+        "storage_class": "git_lfs_original_checkpoint",
+        "bytes": 350064314,
+        "sha256": "b350d45b7d126adf329c8379e5340a8cdd8b95c4028c00a99e726513c7a03820",
+        "selected_trained_checkpoint": true,
+        "git_hosted": true,
+        "current_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras",
+        "lfs_oid": "sha256:b350d45b7d126adf329c8379e5340a8cdd8b95c4028c00a99e726513c7a03820",
+        "lfs_object_bytes": 350064314,
+        "downstream_role": "Preserved actual V2-A/V2-B ablation model",
+        "preservation_policy": "Original archive bytes only; do not retrain, re-save, slim, repackage, or strip optimizer state."
+      },
+      {
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_enhancer_seed104729/attempt-001/selected_checkpoint.keras",
+        "stage_relative_path": "runs/V2-B_enhancer_seed104729/attempt-001/selected_checkpoint.keras",
+        "scope": "original_frozen_payload",
+        "storage_class": "git_lfs_original_checkpoint",
+        "bytes": 350064314,
+        "sha256": "1dc13e371414fd81072b07689f3ce64446a32692e917d236983db024f28cabca",
+        "selected_trained_checkpoint": true,
+        "git_hosted": true,
+        "current_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_enhancer_seed104729/attempt-001/selected_checkpoint.keras",
+        "lfs_oid": "sha256:1dc13e371414fd81072b07689f3ce64446a32692e917d236983db024f28cabca",
+        "lfs_object_bytes": 350064314,
+        "downstream_role": "Preserved actual V2-A/V2-B ablation model",
+        "preservation_policy": "Original archive bytes only; do not retrain, re-save, slim, repackage, or strip optimizer state."
+      },
+      {
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_enhancer_seed130363/attempt-001/selected_checkpoint.keras",
+        "stage_relative_path": "runs/V2-B_enhancer_seed130363/attempt-001/selected_checkpoint.keras",
+        "scope": "original_frozen_payload",
+        "storage_class": "git_lfs_original_checkpoint",
+        "bytes": 350064314,
+        "sha256": "97bbc39bc5e93bf49b51169ad015fb4710708c7f1d3e7aeb232d28d3fa40d9ab",
+        "selected_trained_checkpoint": true,
+        "git_hosted": true,
+        "current_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_enhancer_seed130363/attempt-001/selected_checkpoint.keras",
+        "lfs_oid": "sha256:97bbc39bc5e93bf49b51169ad015fb4710708c7f1d3e7aeb232d28d3fa40d9ab",
+        "lfs_object_bytes": 350064314,
+        "downstream_role": "Preserved actual V2-A/V2-B ablation model",
+        "preservation_policy": "Original archive bytes only; do not retrain, re-save, slim, repackage, or strip optimizer state."
+      },
+      {
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_enhancer_seed155921/attempt-001/selected_checkpoint.keras",
+        "stage_relative_path": "runs/V2-B_enhancer_seed155921/attempt-001/selected_checkpoint.keras",
+        "scope": "original_frozen_payload",
+        "storage_class": "git_lfs_original_checkpoint",
+        "bytes": 350064314,
+        "sha256": "c0e2a96ed19c3b9d5ddbb51a85b0d4ffce7701e41f12bd25ce69bcf763d6300e",
+        "selected_trained_checkpoint": true,
+        "git_hosted": true,
+        "current_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_enhancer_seed155921/attempt-001/selected_checkpoint.keras",
+        "lfs_oid": "sha256:c0e2a96ed19c3b9d5ddbb51a85b0d4ffce7701e41f12bd25ce69bcf763d6300e",
+        "lfs_object_bytes": 350064314,
+        "downstream_role": "Preserved actual V2-A/V2-B ablation model",
+        "preservation_policy": "Original archive bytes only; do not retrain, re-save, slim, repackage, or strip optimizer state."
+      },
+      {
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras",
+        "stage_relative_path": "runs/V2-B_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras",
+        "scope": "original_frozen_payload",
+        "storage_class": "git_lfs_original_checkpoint",
+        "bytes": 350064314,
+        "sha256": "c74842f069069ef544fbf8ddab04690188282a07c2aa7ebf2a2a67994d567e0c",
+        "selected_trained_checkpoint": true,
+        "git_hosted": true,
+        "current_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras",
+        "lfs_oid": "sha256:c74842f069069ef544fbf8ddab04690188282a07c2aa7ebf2a2a67994d567e0c",
+        "lfs_object_bytes": 350064314,
+        "downstream_role": "Preserved actual V2-A/V2-B ablation model",
+        "preservation_policy": "Original archive bytes only; do not retrain, re-save, slim, repackage, or strip optimizer state."
+      },
+      {
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras",
+        "stage_relative_path": "runs/V2-B_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras",
+        "scope": "original_frozen_payload",
+        "storage_class": "git_lfs_original_checkpoint",
+        "bytes": 350064314,
+        "sha256": "935e054078b14a491d69e89719a68a2fa359beb42afce814a5a496d74c95cb72",
+        "selected_trained_checkpoint": true,
+        "git_hosted": true,
+        "current_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras",
+        "lfs_oid": "sha256:935e054078b14a491d69e89719a68a2fa359beb42afce814a5a496d74c95cb72",
+        "lfs_object_bytes": 350064314,
+        "downstream_role": "Preserved actual V2-A/V2-B ablation model",
+        "preservation_policy": "Original archive bytes only; do not retrain, re-save, slim, repackage, or strip optimizer state."
+      },
+      {
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras",
+        "stage_relative_path": "runs/V2-B_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras",
+        "scope": "original_frozen_payload",
+        "storage_class": "git_lfs_original_checkpoint",
+        "bytes": 350064314,
+        "sha256": "2e2fa2ec39cbaf8fea4080bd0576d6a1da6d968e2481c349d737f3db641553f6",
+        "selected_trained_checkpoint": true,
+        "git_hosted": true,
+        "current_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras",
+        "lfs_oid": "sha256:2e2fa2ec39cbaf8fea4080bd0576d6a1da6d968e2481c349d737f3db641553f6",
+        "lfs_object_bytes": 350064314,
+        "downstream_role": "Preserved actual V2-A/V2-B ablation model",
+        "preservation_policy": "Original archive bytes only; do not retrain, re-save, slim, repackage, or strip optimizer state."
+      },
+      {
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_enhancer_seed104729/attempt-001/selected_checkpoint.keras",
+        "stage_relative_path": "runs/V2-C_enhancer_seed104729/attempt-001/selected_checkpoint.keras",
+        "scope": "original_frozen_payload",
+        "storage_class": "git_lfs_original_checkpoint",
+        "bytes": 350064314,
+        "sha256": "1cb670f778a2d148d0ac2b71bea5c97f5a421bb64f744af1dc5b373a60ea3114",
+        "selected_trained_checkpoint": true,
+        "git_hosted": true,
+        "current_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_enhancer_seed104729/attempt-001/selected_checkpoint.keras",
+        "lfs_oid": "sha256:1cb670f778a2d148d0ac2b71bea5c97f5a421bb64f744af1dc5b373a60ea3114",
+        "lfs_object_bytes": 350064314,
+        "downstream_role": "Retained V2-C inference ensemble member",
+        "preservation_policy": "Original archive bytes only; do not retrain, re-save, slim, repackage, or strip optimizer state."
+      },
+      {
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_enhancer_seed130363/attempt-001/selected_checkpoint.keras",
+        "stage_relative_path": "runs/V2-C_enhancer_seed130363/attempt-001/selected_checkpoint.keras",
+        "scope": "original_frozen_payload",
+        "storage_class": "git_lfs_original_checkpoint",
+        "bytes": 350064314,
+        "sha256": "0e42ecc9364f967220ecc6c3bb0007dc25aced5d9c360355f6e48027c39f0795",
+        "selected_trained_checkpoint": true,
+        "git_hosted": true,
+        "current_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_enhancer_seed130363/attempt-001/selected_checkpoint.keras",
+        "lfs_oid": "sha256:0e42ecc9364f967220ecc6c3bb0007dc25aced5d9c360355f6e48027c39f0795",
+        "lfs_object_bytes": 350064314,
+        "downstream_role": "Retained V2-C inference ensemble member",
+        "preservation_policy": "Original archive bytes only; do not retrain, re-save, slim, repackage, or strip optimizer state."
+      },
+      {
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_enhancer_seed155921/attempt-001/selected_checkpoint.keras",
+        "stage_relative_path": "runs/V2-C_enhancer_seed155921/attempt-001/selected_checkpoint.keras",
+        "scope": "original_frozen_payload",
+        "storage_class": "git_lfs_original_checkpoint",
+        "bytes": 350064314,
+        "sha256": "733ca1845061508c820240d04d4b7c30d8ba0fa7c1086419eaec0b5c2bb041d5",
+        "selected_trained_checkpoint": true,
+        "git_hosted": true,
+        "current_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_enhancer_seed155921/attempt-001/selected_checkpoint.keras",
+        "lfs_oid": "sha256:733ca1845061508c820240d04d4b7c30d8ba0fa7c1086419eaec0b5c2bb041d5",
+        "lfs_object_bytes": 350064314,
+        "downstream_role": "Retained V2-C inference ensemble member",
+        "preservation_policy": "Original archive bytes only; do not retrain, re-save, slim, repackage, or strip optimizer state."
+      },
+      {
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras",
+        "stage_relative_path": "runs/V2-C_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras",
+        "scope": "original_frozen_payload",
+        "storage_class": "git_lfs_original_checkpoint",
+        "bytes": 350064314,
+        "sha256": "503683295ebeb48587f42748181bf6c5815f6a8c79b8dfdd4b669c931109be81",
+        "selected_trained_checkpoint": true,
+        "git_hosted": true,
+        "current_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras",
+        "lfs_oid": "sha256:503683295ebeb48587f42748181bf6c5815f6a8c79b8dfdd4b669c931109be81",
+        "lfs_object_bytes": 350064314,
+        "downstream_role": "Retained V2-C inference ensemble member",
+        "preservation_policy": "Original archive bytes only; do not retrain, re-save, slim, repackage, or strip optimizer state."
+      },
+      {
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras",
+        "stage_relative_path": "runs/V2-C_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras",
+        "scope": "original_frozen_payload",
+        "storage_class": "git_lfs_original_checkpoint",
+        "bytes": 350064314,
+        "sha256": "56a2d331b6ed27e49f103dce228dda3c26a80ff296e91c9c740e52b9c36841c6",
+        "selected_trained_checkpoint": true,
+        "git_hosted": true,
+        "current_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras",
+        "lfs_oid": "sha256:56a2d331b6ed27e49f103dce228dda3c26a80ff296e91c9c740e52b9c36841c6",
+        "lfs_object_bytes": 350064314,
+        "downstream_role": "Retained V2-C inference ensemble member",
+        "preservation_policy": "Original archive bytes only; do not retrain, re-save, slim, repackage, or strip optimizer state."
+      },
+      {
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras",
+        "stage_relative_path": "runs/V2-C_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras",
+        "scope": "original_frozen_payload",
+        "storage_class": "git_lfs_original_checkpoint",
+        "bytes": 350064314,
+        "sha256": "995dc295d163a703b80bb3e451b8fc3bd7af01fb6ce041099fc5ce3d9cc82560",
+        "selected_trained_checkpoint": true,
+        "git_hosted": true,
+        "current_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras",
+        "lfs_oid": "sha256:995dc295d163a703b80bb3e451b8fc3bd7af01fb6ce041099fc5ce3d9cc82560",
+        "lfs_object_bytes": 350064314,
+        "downstream_role": "Retained V2-C inference ensemble member",
+        "preservation_policy": "Original archive bytes only; do not retrain, re-save, slim, repackage, or strip optimizer state."
+      }
+    ],
+    "archive_qualification": "Selected inference archives contain trained network weights and fresh ancillary Adadelta state (iteration zero, all 24 slot arrays zero). Inference loads compile=False. They are not resumable training snapshots; original bytes must remain unchanged.",
+    "evidence": {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/provenance/checkpoint_packaging_final_validation.json",
+      "bytes": 31997,
+      "sha256": "50f731d56edbfdfca0c2418fd1dd4e33214ab6ed146a22c92c370707c871c8d3"
+    },
+    "verification_required": "Remote LFS resolution alone is insufficient: fresh download all 18 object bodies and verify byte count plus SHA-256 against these frozen originals.",
+    "quota_policy": "Check installed/configured LFS and known blockers before upload. Stop on remote quota/storage rejection; do not silently omit or modify checkpoint archives.",
+    "preflight_record": "diseases/COPD/07_gap_closure/provenance/COPD-V2-INTERNAL_internal-training-1.0_publication/preflight.json"
+  },
+  "external_reconstructable_intermediates": [
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/cache/features_canonical.npy",
+      "stage_relative_path": "cache/features_canonical.npy",
+      "scope": "original_frozen_payload",
+      "storage_class": "external_reconstructable_intermediate",
+      "bytes": 13117241408,
+      "sha256": "8d7bcb61888150e9d44ba9eb1204a2825e421827500628ed6a2c69a560f1cd0a",
+      "selected_trained_checkpoint": false,
+      "git_hosted": false,
+      "current_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/cache/features_canonical.npy",
+      "designation": "reconstructable external intermediate; not part of the Git-hosted frozen payload",
+      "file_type": "NumPy NPY",
+      "schema": {
+        "dtype": "float32",
+        "shape": [
+          719147,
+          4560
+        ],
+        "ordering_reference": {
+          "path": "diseases/COPD/07_gap_closure/internal-training-1.0/inputs/cache_index.tsv.gz",
+          "bytes": 67711085,
+          "sha256": "1d9a41279e6bd9a4c69ca1256c988ca51d1cf0172c5d00b709d7aab3ca5e17f5"
+        }
+      },
+      "contents": "Frozen phase-I final4560sigmoid representation of canonical nucleotide sequences; canonical is not necessarily genomic forward orientation.",
+      "managed_storage": {
+        "workspace_absolute_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/cache/features_canonical.npy",
+        "resolved_absolute_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/cache/features_canonical.npy",
+        "ownership": "Existing managed shared-filesystem workspace; retained in place unchanged.",
+        "durability_limit": "No new independent backup or storage-retention guarantee is implied by recording this path."
+      },
+      "git_policy": {
+        "tracked": false,
+        "lfs_tracked": false,
+        "ignore_rule": "/diseases/COPD/07_gap_closure/internal-training-1.0/cache/features_canonical.npy"
+      },
+      "downstream_requirement": "Not required for fresh chr8–9 or candidate-sequence inference. Existing train/chr7 replay requires these representations or their reconstruction; future inference requires separately authorized processing of new sequences and the preserved phase-I/phase-II models.",
+      "reconstruction": {
+        "deterministic_procedure_preserved": true,
+        "independent_byte_identical_regeneration_demonstrated": false,
+        "determinism_qualification": "Frozen deterministic inference procedure is preserved, but independent bitwise regeneration has not been demonstrated; exact numeric output may depend on matching software/hardware. The RC feature cache cannot be obtained by reversing the 4,560 feature columns.",
+        "scripts_and_specifications": [
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/prepare_internal_inputs.py",
+            "bytes": 11280,
+            "sha256": "72e5b1b42f736d7ae902d1175a3a41a55eb9df599bc0d3550213cd7733b728fa"
+          },
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/extract_phase_one.py",
+            "bytes": 8628,
+            "sha256": "d1b77cf5a8468ee3516d6a89bcfd4f1e7994087642c851f409425242408621dd"
+          },
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/phase_two_contract.py",
+            "bytes": 13066,
+            "sha256": "f50f226b901df6bbd66455462e4da922d8229a4d030f09613a8483a74f636e2f"
+          },
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/runtime.sh",
+            "bytes": 937,
+            "sha256": "bd4ebbfcd3443dece86d4d535f313f3676ead7fb5dd8319e7ce0ec2f843eb0fc"
+          },
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/EXECUTION_SPECIFICATION.md",
+            "bytes": 6258,
+            "sha256": "0cc5b22880bd4fc26f53a170fadefb2d0cee3e705b91628504405edda8173b4c"
+          },
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/specification/internal_evaluation_implementation.json",
+            "bytes": 9467,
+            "sha256": "2ea34b80347899b08ef2bf9a03508f1f0e1d8c1509156460bb24bfe511a7d667"
+          },
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/provenance/phase_I_execution_gate.json",
+            "bytes": 2376,
+            "sha256": "bebdf2f9ab3602bdd33c9dcba353ca8732fd1b307faa9a572a57caabba3aea6b"
+          },
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/provenance/input_integrity_verified_before.json",
+            "bytes": 588,
+            "sha256": "f87bfdd10777db35cd40141e2d92ee072bf8ba43819d3d8b3b0dacc40aa391bc"
+          }
+        ],
+        "direct_inputs": [
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/inputs/canonical_sequences.npy",
+            "bytes": 1439013275,
+            "sha256": "b2521b7cc218e96d43334e3a4408161570744683c151068081c2f224dfafb3e5"
+          },
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/inputs/input_manifest.json",
+            "bytes": 8941,
+            "sha256": "4c56f1aa34bc69da121e825d31c70c46d7b3de9be769d5b26a9c426d476bb538"
+          },
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/inputs/cache_index.tsv.gz",
+            "bytes": 67711085,
+            "sha256": "1d9a41279e6bd9a4c69ca1256c988ca51d1cf0172c5d00b709d7aab3ca5e17f5"
+          },
+          {
+            "path": "diseases/COPD/04_modeling/trednet/model_phase_I/phase_one_weights.h5",
+            "managed_storage_realpath": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/model_phase_I/phase_one_weights.h5",
+            "bytes": 565399080,
+            "sha256": "483b6c0cafd750ea8e97932cbc8a949276eaf1e77e7d8766f9a22eeddc2916d6",
+            "hash_evidence": "diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_consumed_input_hashes.tsv",
+            "preservation_note": "Existing upstream dependency, not copied or newly published by this storage addendum; hashes are not a backup."
+          }
+        ],
+        "supporting_preserved_input_records": [
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/cache/cache_manifest.json",
+            "bytes": 1572,
+            "sha256": "671cf1161763a712a89c186200b449f0cd30892e2280018ba1427db5de55ce66"
+          },
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/cache/architecture.json",
+            "bytes": 17371,
+            "sha256": "f6f529bb64af870e3efda95bbf90095d2800d6731e228c4db9cdced8449adad4"
+          }
+        ],
+        "software_environment_requirements": {
+          "python": "CPython 3.13.0",
+          "packages": {
+            "h5py": "3.16.0",
+            "keras": "3.14.1",
+            "numpy": "2.5.0",
+            "scikit-learn": "1.9.0",
+            "scipy": "1.18.0",
+            "tensorflow": "2.20.0",
+            "pandas": "3.0.3"
+          },
+          "runtime_launcher": {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/runtime.sh",
+            "bytes": 937,
+            "sha256": "bd4ebbfcd3443dece86d4d535f313f3676ead7fb5dd8319e7ce0ec2f843eb0fc"
+          },
+          "environment_and_package_hashes": {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/provenance/executed_environment.json",
+            "bytes": 91708,
+            "sha256": "686c46ea9ba74c16d226c140f0854feff6e3258b2035b72236eb73f75097b96c"
+          },
+          "cache_environment": {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/cache/environment.json",
+            "bytes": 1444,
+            "sha256": "65cf393ddaaed2aae9a8eb9d0e168510a308002c1df992d4918bc044e7fd7594"
+          },
+          "recorded_gpu": "NVIDIA A100-SXM4-80GB",
+          "recorded_driver": "580.173.02",
+          "tensorflow_build": {
+            "cuda_version": "12.5.1",
+            "cudnn_version": "9",
+            "cuda_compute_capabilities": [
+              "sm_60",
+              "sm_70",
+              "sm_80",
+              "sm_89",
+              "compute_90"
+            ]
+          },
+          "runtime_environment": {
+            "PYTHONHASHSEED": "104729",
+            "TF_DETERMINISTIC_OPS": "1",
+            "TF_CUDNN_DETERMINISTIC": "1",
+            "TF_XLA_FLAGS": "--tf_xla_enable_xla_devices=false",
+            "OMP_NUM_THREADS": "8",
+            "TF_NUM_INTRAOP_THREADS": "8",
+            "TF_NUM_INTEROP_THREADS": "2"
+          },
+          "portability_note": "runtime.sh records absolute local interpreter/site-package paths. Preserve the specified environment and input hashes if recreating elsewhere; no runtime or frozen script was rewritten for publication."
+        },
+        "observed_regeneration_cost": {
+          "scope": "Both phase-I orientation caches produced together; this shared cost must not be added twice.",
+          "shared_cost_id": "paired_phase_I_canonical_and_nucleotide_RC",
+          "wall_seconds": 393.5700578056276,
+          "hardware": "one NVIDIA A100-SXM4-80GB",
+          "peak_host_RSS_KiB": 28448564,
+          "orientation_network_evaluations": 1438294,
+          "source": {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/cache/cache_manifest.json",
+            "bytes": 1572,
+            "sha256": "671cf1161763a712a89c186200b449f0cd30892e2280018ba1427db5de55ce66"
+          },
+          "cost_type": "historical paired extraction wall time, not per-file timing or a guaranteed future runtime"
+        },
+        "replay_safety": "The frozen scripts refuse replacement of existing outputs. Any future authorized reconstruction must use a separately prepared output location with required gates and exact dependencies; do not run against or overwrite this frozen stage."
+      }
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/cache/features_rc.npy",
+      "stage_relative_path": "cache/features_rc.npy",
+      "scope": "original_frozen_payload",
+      "storage_class": "external_reconstructable_intermediate",
+      "bytes": 13117241408,
+      "sha256": "4fab1cc6c84eab0f27d8ab2f70d23081617966afb8282c94cbb377dbb536fa33",
+      "selected_trained_checkpoint": false,
+      "git_hosted": false,
+      "current_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/cache/features_rc.npy",
+      "designation": "reconstructable external intermediate; not part of the Git-hosted frozen payload",
+      "file_type": "NumPy NPY",
+      "schema": {
+        "dtype": "float32",
+        "shape": [
+          719147,
+          4560
+        ],
+        "ordering_reference": {
+          "path": "diseases/COPD/07_gap_closure/internal-training-1.0/inputs/cache_index.tsv.gz",
+          "bytes": 67711085,
+          "sha256": "1d9a41279e6bd9a4c69ca1256c988ca51d1cf0172c5d00b709d7aab3ca5e17f5"
+        }
+      },
+      "contents": "Frozen phase-I final4560sigmoid representation of the independently evaluated nucleotide reverse complements of canonical sequences.",
+      "managed_storage": {
+        "workspace_absolute_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/cache/features_rc.npy",
+        "resolved_absolute_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/cache/features_rc.npy",
+        "ownership": "Existing managed shared-filesystem workspace; retained in place unchanged.",
+        "durability_limit": "No new independent backup or storage-retention guarantee is implied by recording this path."
+      },
+      "git_policy": {
+        "tracked": false,
+        "lfs_tracked": false,
+        "ignore_rule": "/diseases/COPD/07_gap_closure/internal-training-1.0/cache/features_rc.npy"
+      },
+      "downstream_requirement": "Not required for fresh chr8–9 or candidate-sequence inference. Existing train/chr7 replay requires these representations or their reconstruction; future inference requires separately authorized processing of new sequences and the preserved phase-I/phase-II models.",
+      "reconstruction": {
+        "deterministic_procedure_preserved": true,
+        "independent_byte_identical_regeneration_demonstrated": false,
+        "determinism_qualification": "Frozen deterministic inference procedure is preserved, but independent bitwise regeneration has not been demonstrated; exact numeric output may depend on matching software/hardware. The RC feature cache cannot be obtained by reversing the 4,560 feature columns.",
+        "scripts_and_specifications": [
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/prepare_internal_inputs.py",
+            "bytes": 11280,
+            "sha256": "72e5b1b42f736d7ae902d1175a3a41a55eb9df599bc0d3550213cd7733b728fa"
+          },
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/extract_phase_one.py",
+            "bytes": 8628,
+            "sha256": "d1b77cf5a8468ee3516d6a89bcfd4f1e7994087642c851f409425242408621dd"
+          },
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/phase_two_contract.py",
+            "bytes": 13066,
+            "sha256": "f50f226b901df6bbd66455462e4da922d8229a4d030f09613a8483a74f636e2f"
+          },
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/runtime.sh",
+            "bytes": 937,
+            "sha256": "bd4ebbfcd3443dece86d4d535f313f3676ead7fb5dd8319e7ce0ec2f843eb0fc"
+          },
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/EXECUTION_SPECIFICATION.md",
+            "bytes": 6258,
+            "sha256": "0cc5b22880bd4fc26f53a170fadefb2d0cee3e705b91628504405edda8173b4c"
+          },
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/specification/internal_evaluation_implementation.json",
+            "bytes": 9467,
+            "sha256": "2ea34b80347899b08ef2bf9a03508f1f0e1d8c1509156460bb24bfe511a7d667"
+          },
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/provenance/phase_I_execution_gate.json",
+            "bytes": 2376,
+            "sha256": "bebdf2f9ab3602bdd33c9dcba353ca8732fd1b307faa9a572a57caabba3aea6b"
+          },
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/provenance/input_integrity_verified_before.json",
+            "bytes": 588,
+            "sha256": "f87bfdd10777db35cd40141e2d92ee072bf8ba43819d3d8b3b0dacc40aa391bc"
+          }
+        ],
+        "direct_inputs": [
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/inputs/canonical_sequences.npy",
+            "bytes": 1439013275,
+            "sha256": "b2521b7cc218e96d43334e3a4408161570744683c151068081c2f224dfafb3e5"
+          },
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/inputs/input_manifest.json",
+            "bytes": 8941,
+            "sha256": "4c56f1aa34bc69da121e825d31c70c46d7b3de9be769d5b26a9c426d476bb538"
+          },
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/inputs/cache_index.tsv.gz",
+            "bytes": 67711085,
+            "sha256": "1d9a41279e6bd9a4c69ca1256c988ca51d1cf0172c5d00b709d7aab3ca5e17f5"
+          },
+          {
+            "path": "diseases/COPD/04_modeling/trednet/model_phase_I/phase_one_weights.h5",
+            "managed_storage_realpath": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/model_phase_I/phase_one_weights.h5",
+            "bytes": 565399080,
+            "sha256": "483b6c0cafd750ea8e97932cbc8a949276eaf1e77e7d8766f9a22eeddc2916d6",
+            "hash_evidence": "diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_consumed_input_hashes.tsv",
+            "preservation_note": "Existing upstream dependency, not copied or newly published by this storage addendum; hashes are not a backup."
+          }
+        ],
+        "supporting_preserved_input_records": [
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/cache/cache_manifest.json",
+            "bytes": 1572,
+            "sha256": "671cf1161763a712a89c186200b449f0cd30892e2280018ba1427db5de55ce66"
+          },
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/cache/architecture.json",
+            "bytes": 17371,
+            "sha256": "f6f529bb64af870e3efda95bbf90095d2800d6731e228c4db9cdced8449adad4"
+          }
+        ],
+        "software_environment_requirements": {
+          "python": "CPython 3.13.0",
+          "packages": {
+            "h5py": "3.16.0",
+            "keras": "3.14.1",
+            "numpy": "2.5.0",
+            "scikit-learn": "1.9.0",
+            "scipy": "1.18.0",
+            "tensorflow": "2.20.0",
+            "pandas": "3.0.3"
+          },
+          "runtime_launcher": {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/runtime.sh",
+            "bytes": 937,
+            "sha256": "bd4ebbfcd3443dece86d4d535f313f3676ead7fb5dd8319e7ce0ec2f843eb0fc"
+          },
+          "environment_and_package_hashes": {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/provenance/executed_environment.json",
+            "bytes": 91708,
+            "sha256": "686c46ea9ba74c16d226c140f0854feff6e3258b2035b72236eb73f75097b96c"
+          },
+          "cache_environment": {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/cache/environment.json",
+            "bytes": 1444,
+            "sha256": "65cf393ddaaed2aae9a8eb9d0e168510a308002c1df992d4918bc044e7fd7594"
+          },
+          "recorded_gpu": "NVIDIA A100-SXM4-80GB",
+          "recorded_driver": "580.173.02",
+          "tensorflow_build": {
+            "cuda_version": "12.5.1",
+            "cudnn_version": "9",
+            "cuda_compute_capabilities": [
+              "sm_60",
+              "sm_70",
+              "sm_80",
+              "sm_89",
+              "compute_90"
+            ]
+          },
+          "runtime_environment": {
+            "PYTHONHASHSEED": "104729",
+            "TF_DETERMINISTIC_OPS": "1",
+            "TF_CUDNN_DETERMINISTIC": "1",
+            "TF_XLA_FLAGS": "--tf_xla_enable_xla_devices=false",
+            "OMP_NUM_THREADS": "8",
+            "TF_NUM_INTRAOP_THREADS": "8",
+            "TF_NUM_INTEROP_THREADS": "2"
+          },
+          "portability_note": "runtime.sh records absolute local interpreter/site-package paths. Preserve the specified environment and input hashes if recreating elsewhere; no runtime or frozen script was rewritten for publication."
+        },
+        "observed_regeneration_cost": {
+          "scope": "Both phase-I orientation caches produced together; this shared cost must not be added twice.",
+          "shared_cost_id": "paired_phase_I_canonical_and_nucleotide_RC",
+          "wall_seconds": 393.5700578056276,
+          "hardware": "one NVIDIA A100-SXM4-80GB",
+          "peak_host_RSS_KiB": 28448564,
+          "orientation_network_evaluations": 1438294,
+          "source": {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/cache/cache_manifest.json",
+            "bytes": 1572,
+            "sha256": "671cf1161763a712a89c186200b449f0cd30892e2280018ba1427db5de55ce66"
+          },
+          "cost_type": "historical paired extraction wall time, not per-file timing or a guaranteed future runtime"
+        },
+        "replay_safety": "The frozen scripts refuse replacement of existing outputs. Any future authorized reconstruction must use a separately prepared output location with required gates and exact dependencies; do not run against or overwrite this frozen stage."
+      }
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-training-1.0/inputs/canonical_sequences.npy",
+      "stage_relative_path": "inputs/canonical_sequences.npy",
+      "scope": "original_frozen_payload",
+      "storage_class": "external_reconstructable_intermediate",
+      "bytes": 1439013275,
+      "sha256": "b2521b7cc218e96d43334e3a4408161570744683c151068081c2f224dfafb3e5",
+      "selected_trained_checkpoint": false,
+      "git_hosted": false,
+      "current_managed_storage_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/inputs/canonical_sequences.npy",
+      "designation": "reconstructable external intermediate; not part of the Git-hosted frozen payload",
+      "file_type": "NumPy NPY",
+      "schema": {
+        "dtype": "uint8 ASCII",
+        "shape": [
+          719147,
+          2001
+        ],
+        "ordering_reference": {
+          "path": "diseases/COPD/07_gap_closure/internal-training-1.0/inputs/cache_index.tsv.gz",
+          "bytes": 67711085,
+          "sha256": "1d9a41279e6bd9a4c69ca1256c988ca51d1cf0172c5d00b709d7aab3ca5e17f5"
+        }
+      },
+      "contents": "Deduplicated normalized 2,001-base train/chr7 nucleotide sequences, canonical=min(normalized genomic forward,nucleotide reverse complement), non-ACGT converted to N.",
+      "managed_storage": {
+        "workspace_absolute_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/inputs/canonical_sequences.npy",
+        "resolved_absolute_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/inputs/canonical_sequences.npy",
+        "ownership": "Existing managed shared-filesystem workspace; retained in place unchanged.",
+        "durability_limit": "No new independent backup or storage-retention guarantee is implied by recording this path."
+      },
+      "git_policy": {
+        "tracked": false,
+        "lfs_tracked": false,
+        "ignore_rule": "/diseases/COPD/07_gap_closure/internal-training-1.0/inputs/canonical_sequences.npy"
+      },
+      "downstream_requirement": "Not required for fresh chr8–9 or candidate-sequence inference. Existing train/chr7 replay requires these representations or their reconstruction; future inference requires separately authorized processing of new sequences and the preserved phase-I/phase-II models.",
+      "reconstruction": {
+        "deterministic_procedure_preserved": true,
+        "independent_byte_identical_regeneration_demonstrated": false,
+        "determinism_qualification": "Sequence extraction, normalization, canonicalization, and ordering are deterministic from exact FASTA/FAI and frozen interval manifests. NPY byte identity also depends on retaining the array format/writer. No regeneration was performed for publication.",
+        "scripts_and_specifications": [
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/prepare_internal_inputs.py",
+            "bytes": 11280,
+            "sha256": "72e5b1b42f736d7ae902d1175a3a41a55eb9df599bc0d3550213cd7733b728fa"
+          },
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/extract_phase_one.py",
+            "bytes": 8628,
+            "sha256": "d1b77cf5a8468ee3516d6a89bcfd4f1e7994087642c851f409425242408621dd"
+          },
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/phase_two_contract.py",
+            "bytes": 13066,
+            "sha256": "f50f226b901df6bbd66455462e4da922d8229a4d030f09613a8483a74f636e2f"
+          },
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/runtime.sh",
+            "bytes": 937,
+            "sha256": "bd4ebbfcd3443dece86d4d535f313f3676ead7fb5dd8319e7ce0ec2f843eb0fc"
+          },
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/EXECUTION_SPECIFICATION.md",
+            "bytes": 6258,
+            "sha256": "0cc5b22880bd4fc26f53a170fadefb2d0cee3e705b91628504405edda8173b4c"
+          },
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/specification/internal_evaluation_implementation.json",
+            "bytes": 9467,
+            "sha256": "2ea34b80347899b08ef2bf9a03508f1f0e1d8c1509156460bb24bfe511a7d667"
+          },
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/provenance/phase_I_execution_gate.json",
+            "bytes": 2376,
+            "sha256": "bebdf2f9ab3602bdd33c9dcba353ca8732fd1b307faa9a572a57caabba3aea6b"
+          },
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/provenance/input_integrity_verified_before.json",
+            "bytes": 588,
+            "sha256": "f87bfdd10777db35cd40141e2d92ee072bf8ba43819d3d8b3b0dacc40aa391bc"
+          }
+        ],
+        "direct_inputs": [
+          {
+            "path": "diseases/COPD/04_modeling/trednet/fasta/hg38.fa",
+            "managed_storage_realpath": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/fasta/hg38.fa",
+            "bytes": 3273481150,
+            "sha256": "5be01555d98347fdb3714dc84c6f77c9d8bc774adcf32c6f7a8fa06f5baf5e51",
+            "hash_evidence": "diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_consumed_input_hashes.tsv",
+            "preservation_note": "Existing upstream dependency, not copied or newly published by this storage addendum; hashes are not a backup."
+          },
+          {
+            "path": "diseases/COPD/04_modeling/trednet/fasta/hg38.fa.fai",
+            "managed_storage_realpath": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/fasta/hg38.fa.fai",
+            "bytes": 19381,
+            "sha256": "3b425de206296a5c8053023fa5ca61da43cfe78c1737c12e58c83367c7e83c21",
+            "hash_evidence": "diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_consumed_input_hashes.tsv",
+            "preservation_note": "Existing upstream dependency, not copied or newly published by this storage addendum; hashes are not a backup."
+          },
+          {
+            "bytes": 60812778,
+            "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-A_enhancer_interval_manifest.tsv.gz",
+            "sha256": "f6c1eaf2d4f25f2f95fdc553aa46210f01ce953808d1bd618303596a6d152298"
+          },
+          {
+            "bytes": 55839908,
+            "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-B_enhancer_interval_manifest.tsv.gz",
+            "sha256": "fa4e9eb1360b26b7129c507526999482322e16e6aaeffd3c7a108ae550fbe40b"
+          },
+          {
+            "bytes": 44914883,
+            "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-C_enhancer_interval_manifest.tsv.gz",
+            "sha256": "5165080dbeba1a43decb57286c9ed44e820eaa73617f252cecda6ebe4321e72f"
+          },
+          {
+            "bytes": 10541936,
+            "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-A_h3k27me3_interval_manifest.tsv.gz",
+            "sha256": "d7341760f83173023004b9c558cb6dfd2314e19733f014d8970e09000c23ae2a"
+          },
+          {
+            "bytes": 9573636,
+            "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-B_h3k27me3_interval_manifest.tsv.gz",
+            "sha256": "04a062c730c3ad00b367c34d4829b898d55a1f42097785cd329edcc8262b14f5"
+          },
+          {
+            "bytes": 6293534,
+            "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-C_h3k27me3_interval_manifest.tsv.gz",
+            "sha256": "1d325e61ae5c41bfabe955c12e0b84f683a80472fb855dbac9a19fabd1cbc7ec"
+          },
+          {
+            "bytes": 4962271,
+            "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/evaluation/enhancer_common_challenge_panel.tsv.gz",
+            "sha256": "4f374ebf993b1e3b6a5fff5aba51ac6e0efaf6859300bf752f56245a7db65c20"
+          },
+          {
+            "bytes": 719591,
+            "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/evaluation/h3k27me3_common_challenge_panel.tsv.gz",
+            "sha256": "895979a83b12d0bb372dd93a1baaa1a83d174e96a57e17acc4f5f3bea8775c26"
+          }
+        ],
+        "supporting_preserved_input_records": [
+          {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/inputs/input_manifest.json",
+            "bytes": 8941,
+            "sha256": "4c56f1aa34bc69da121e825d31c70c46d7b3de9be769d5b26a9c426d476bb538"
+          }
+        ],
+        "software_environment_requirements": {
+          "python": "CPython 3.13.0",
+          "packages": {
+            "h5py": "3.16.0",
+            "keras": "3.14.1",
+            "numpy": "2.5.0",
+            "scikit-learn": "1.9.0",
+            "scipy": "1.18.0",
+            "tensorflow": "2.20.0",
+            "pandas": "3.0.3"
+          },
+          "runtime_launcher": {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/runtime.sh",
+            "bytes": 937,
+            "sha256": "bd4ebbfcd3443dece86d4d535f313f3676ead7fb5dd8319e7ce0ec2f843eb0fc"
+          },
+          "environment_and_package_hashes": {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/provenance/executed_environment.json",
+            "bytes": 91708,
+            "sha256": "686c46ea9ba74c16d226c140f0854feff6e3258b2035b72236eb73f75097b96c"
+          },
+          "cache_environment": {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/cache/environment.json",
+            "bytes": 1444,
+            "sha256": "65cf393ddaaed2aae9a8eb9d0e168510a308002c1df992d4918bc044e7fd7594"
+          },
+          "recorded_gpu": "NVIDIA A100-SXM4-80GB",
+          "recorded_driver": "580.173.02",
+          "tensorflow_build": {
+            "cuda_version": "12.5.1",
+            "cudnn_version": "9",
+            "cuda_compute_capabilities": [
+              "sm_60",
+              "sm_70",
+              "sm_80",
+              "sm_89",
+              "compute_90"
+            ]
+          },
+          "runtime_environment": {
+            "PYTHONHASHSEED": "104729",
+            "TF_DETERMINISTIC_OPS": "1",
+            "TF_CUDNN_DETERMINISTIC": "1",
+            "TF_XLA_FLAGS": "--tf_xla_enable_xla_devices=false",
+            "OMP_NUM_THREADS": "8",
+            "TF_NUM_INTRAOP_THREADS": "8",
+            "TF_NUM_INTEROP_THREADS": "2"
+          },
+          "portability_note": "runtime.sh records absolute local interpreter/site-package paths. Preserve the specified environment and input hashes if recreating elsewhere; no runtime or frozen script was rewritten for publication."
+        },
+        "observed_regeneration_cost": {
+          "scope": "Complete original input-preparation step, including associated tables/checks; sequence-array-only time not measured.",
+          "wall_seconds": 174.34796173404902,
+          "hardware": "CPU; no GPU model execution in input preparation",
+          "source": {
+            "path": "diseases/COPD/07_gap_closure/internal-training-1.0/inputs/input_manifest.json",
+            "bytes": 8941,
+            "sha256": "4c56f1aa34bc69da121e825d31c70c46d7b3de9be769d5b26a9c426d476bb538"
+          },
+          "cost_type": "historical wall-clock observation, not a guaranteed future runtime"
+        },
+        "replay_safety": "The frozen scripts refuse replacement of existing outputs. Any future authorized reconstruction must use a separately prepared output location with required gates and exact dependencies; do not run against or overwrite this frozen stage."
+      }
+    }
+  ],
+  "upstream_preservation_dependency_ledger": {
+    "path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-PREFLIGHT_consumed_input_hashes.tsv",
+    "bytes": 8244,
+    "sha256": "3786b8409dd6bce359c41bf6a6f54e5ddb40b50f8babf20acc65c29941c0a318"
+  },
+  "scope_and_preservation": {
+    "original_frozen_files_edited": false,
+    "original_archives_repacked_or_resaved": false,
+    "external_intermediates_added_to_git_or_lfs": false,
+    "historical_V1_benchmark_pretraining_1_0_pretraining_1_1": "Preserve unchanged; only append-only V2 registers and publication-specific root storage policy are in scope outside the new internal-training stage.",
+    "new_analysis_authorized": false,
+    "chr8_chr9_execution_authorized": false,
+    "external_benchmark_evaluation_authorized": false,
+    "candidate_scoring_authorized": false,
+    "retraining_authorized": false,
+    "original_freeze_interpretation": "The original commit_or_push_performed:false field describes the historical freeze before this separate publication authorization. Keep it unchanged; this addendum records the later storage/publication policy.",
+    "clone_completeness": "A clone plus LFS pull contains 469 stage files, including 18 original checkpoints. The original 470-payload checksum ledger additionally covers the three external intermediates: it is a full scientific-bundle ledger, not a claim that all 470 payload files are hosted by Git. Reconstructing or verifying the full original bundle requires separately available external intermediates and upstream dependencies."
+  }
+}

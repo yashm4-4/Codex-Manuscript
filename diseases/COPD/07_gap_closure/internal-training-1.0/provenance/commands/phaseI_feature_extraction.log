@@ -1,0 +1,28 @@
+2026-10-06 10:42:03.619809: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791297729.655330 3842140 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 79189 MB memory:  -> device: 0, name: NVIDIA A100-SXM4-80GB, pci bus id: 0000:46:00.0, compute capability: 8.0
+2026-10-06 10:42:14.114739: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92302
+{"encoded_identities_completed": 32000, "total": 719147, "elapsed_seconds": 29.307681638747454}
+{"encoded_identities_completed": 64000, "total": 719147, "elapsed_seconds": 46.36518198437989}
+{"encoded_identities_completed": 96000, "total": 719147, "elapsed_seconds": 61.66756576485932}
+{"encoded_identities_completed": 128000, "total": 719147, "elapsed_seconds": 77.59762648120522}
+{"encoded_identities_completed": 160000, "total": 719147, "elapsed_seconds": 93.06152510456741}
+{"encoded_identities_completed": 192000, "total": 719147, "elapsed_seconds": 108.73871970828623}
+{"encoded_identities_completed": 224000, "total": 719147, "elapsed_seconds": 124.40760182216763}
+{"encoded_identities_completed": 256000, "total": 719147, "elapsed_seconds": 140.83124770596623}
+{"encoded_identities_completed": 288000, "total": 719147, "elapsed_seconds": 157.23765383381397}
+{"encoded_identities_completed": 320000, "total": 719147, "elapsed_seconds": 172.20909235905856}
+{"encoded_identities_completed": 352000, "total": 719147, "elapsed_seconds": 189.15564745478332}
+{"encoded_identities_completed": 384000, "total": 719147, "elapsed_seconds": 205.52972624637187}
+{"encoded_identities_completed": 416000, "total": 719147, "elapsed_seconds": 221.35904084611684}
+{"encoded_identities_completed": 448000, "total": 719147, "elapsed_seconds": 237.5937965773046}
+{"encoded_identities_completed": 480000, "total": 719147, "elapsed_seconds": 252.80362868122756}
+{"encoded_identities_completed": 512000, "total": 719147, "elapsed_seconds": 268.9787758309394}
+{"encoded_identities_completed": 544000, "total": 719147, "elapsed_seconds": 284.9205088810995}
+{"encoded_identities_completed": 576000, "total": 719147, "elapsed_seconds": 301.4500775896013}
+{"encoded_identities_completed": 608000, "total": 719147, "elapsed_seconds": 318.5937291914597}
+{"encoded_identities_completed": 640000, "total": 719147, "elapsed_seconds": 334.3668737215921}
+{"encoded_identities_completed": 672000, "total": 719147, "elapsed_seconds": 351.186794411391}
+{"encoded_identities_completed": 704000, "total": 719147, "elapsed_seconds": 368.1881003603339}
+{"status": "PASS", "cache_manifest": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/cache/cache_manifest.json"}

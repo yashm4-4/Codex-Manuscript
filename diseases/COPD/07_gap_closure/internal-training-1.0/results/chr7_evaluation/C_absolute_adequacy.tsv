@@ -1,0 +1,29 @@
+model	gate	status	observed	criterion
+enhancer	frozen_construction	PASS	PASS	B and C construction gates PASS
+enhancer	all_three_C_seeds_completed	PASS	3	3 fixed seeds; all checkpoints frozen
+enhancer	real_network_invariance	PASS	PASS	actual-network all seeds and ensembles PASS
+enhancer	finite_valid_probabilities	PASS	PASS	all orientation/seed/ensemble probabilities finite in [0,1]
+enhancer	selection_positives	PASS	1755	>=100
+enhancer	selection_controls	PASS	1755	>=200
+enhancer	selection_components	PASS	1295	>=30
+enhancer	bootstrap_valid_replicates	PASS	2000	exactly2000valid; at most20000attempts
+enhancer	bootstrap_invalid_fraction	PASS	0.0	strictly<0.10
+enhancer	lower95_AUROC	PASS	0.781950099008121	strictly>0.5
+enhancer	lower95_AP_gain	PASS	0.28686507905101954	strictly>0.0
+enhancer	lower95_BrierSkill	PASS	0.23356659022794932	strictly>0.0
+enhancer	seed_AP_sample_SD	PASS	0.0023450235782206366	<=0.03; ddof=1
+enhancer	seed_AP_range	PASS	0.004671672459874321	<=0.10
+h3k27me3	frozen_construction	PASS	PASS	B and C construction gates PASS
+h3k27me3	all_three_C_seeds_completed	PASS	3	3 fixed seeds; all checkpoints frozen
+h3k27me3	real_network_invariance	PASS	PASS	actual-network all seeds and ensembles PASS
+h3k27me3	finite_valid_probabilities	PASS	PASS	all orientation/seed/ensemble probabilities finite in [0,1]
+h3k27me3	selection_positives	PASS	271	>=100
+h3k27me3	selection_controls	PASS	271	>=200
+h3k27me3	selection_components	PASS	244	>=30
+h3k27me3	bootstrap_valid_replicates	PASS	2000	exactly2000valid; at most20000attempts
+h3k27me3	bootstrap_invalid_fraction	PASS	0.0	strictly<0.10
+h3k27me3	lower95_AUROC	PASS	0.8314791998473509	strictly>0.5
+h3k27me3	lower95_AP_gain	PASS	0.32341049138037337	strictly>0.0
+h3k27me3	lower95_BrierSkill	PASS	0.33241614514708556	strictly>0.0
+h3k27me3	seed_AP_sample_SD	PASS	0.0033427115344803146	<=0.03; ddof=1
+h3k27me3	seed_AP_range	PASS	0.006587828199550949	<=0.10

@@ -1,0 +1,184 @@
+{
+  "authorization_attachment_sha256": "eea652047706a764dfa9fda7b9b7435c1fceb721ca19ac93667d6c4acbb6220d",
+  "created_utc": "2026-10-06T14:49:42.954969+00:00",
+  "external_evaluation_authorized": false,
+  "files": [
+    {
+      "bytes": 6258,
+      "path": "EXECUTION_SPECIFICATION.md",
+      "sha256": "0cc5b22880bd4fc26f53a170fadefb2d0cee3e705b91628504405edda8173b4c"
+    },
+    {
+      "bytes": 9467,
+      "path": "specification/internal_evaluation_implementation.json",
+      "sha256": "2ea34b80347899b08ef2bf9a03508f1f0e1d8c1509156460bb24bfe511a7d667"
+    },
+    {
+      "bytes": 937,
+      "path": "scripts/runtime.sh",
+      "sha256": "bd4ebbfcd3443dece86d4d535f313f3676ead7fb5dd8319e7ce0ec2f843eb0fc"
+    },
+    {
+      "bytes": 2044,
+      "path": "scripts/run_logged.py",
+      "sha256": "150cd5e2a10b5355349528bc480705cd3b2079ea8c11b3dbcad209327040cc7a"
+    },
+    {
+      "bytes": 13066,
+      "path": "scripts/phase_two_contract.py",
+      "sha256": "f50f226b901df6bbd66455462e4da922d8229a4d030f09613a8483a74f636e2f"
+    },
+    {
+      "bytes": 11280,
+      "path": "scripts/prepare_internal_inputs.py",
+      "sha256": "72e5b1b42f736d7ae902d1175a3a41a55eb9df599bc0d3550213cd7733b728fa"
+    },
+    {
+      "bytes": 5487,
+      "path": "scripts/prepare_execution_gate.py",
+      "sha256": "9d6010874f45df543c9648039ce02c353095356aaa12ce0dd06ea460557edede"
+    },
+    {
+      "bytes": 8941,
+      "path": "inputs/input_manifest.json",
+      "sha256": "4c56f1aa34bc69da121e825d31c70c46d7b3de9be769d5b26a9c426d476bb538"
+    },
+    {
+      "bytes": 588,
+      "path": "provenance/input_integrity_verified_before.json",
+      "sha256": "f87bfdd10777db35cd40141e2d92ee072bf8ba43819d3d8b3b0dacc40aa391bc"
+    },
+    {
+      "bytes": 96276,
+      "path": "provenance/input_integrity_verified_before.tsv",
+      "sha256": "1d4c06bf7898db0fb50f11f029f6476eb4f25854e924021b7b6e44f00d9f319e"
+    },
+    {
+      "bytes": 52933433,
+      "path": "inputs/configurations/V2-A_enhancer_train.tsv.gz",
+      "sha256": "ebada6b0d2dde028f6982688458025019c5a020c51a4d106e032de0207a64678"
+    },
+    {
+      "bytes": 1631265,
+      "path": "inputs/configurations/V2-A_enhancer_checkpoint.tsv.gz",
+      "sha256": "2e921f2e2d6c7c53e35dfd681ca40a91722684065546451b741a0de332be5a60"
+    },
+    {
+      "bytes": 9163763,
+      "path": "inputs/configurations/V2-A_h3k27me3_train.tsv.gz",
+      "sha256": "97ed46cf56230fc6a33a609631c5fdf60bd686fdccacee6c84b3eb9409c7d84c"
+    },
+    {
+      "bytes": 301781,
+      "path": "inputs/configurations/V2-A_h3k27me3_checkpoint.tsv.gz",
+      "sha256": "ce8cdbb4db92994522b625b504787e51a932eaa0dc9e673c6fff37f2fa320550"
+    },
+    {
+      "bytes": 48658457,
+      "path": "inputs/configurations/V2-B_enhancer_train.tsv.gz",
+      "sha256": "6a381aa9e4e8a40615f8550127bf7ded5b9954a1fd47f28dff187d2b34e1bc45"
+    },
+    {
+      "bytes": 1313561,
+      "path": "inputs/configurations/V2-B_enhancer_checkpoint.tsv.gz",
+      "sha256": "858a972b00e4e0b45297ba31c4f9aea7f73ceabb1264f232fd84cdfa0d8600b5"
+    },
+    {
+      "bytes": 8307478,
+      "path": "inputs/configurations/V2-B_h3k27me3_train.tsv.gz",
+      "sha256": "57909c63beee8631040183a904037712fc1ad5b72c1594505c96f6832a6155e7"
+    },
+    {
+      "bytes": 263722,
+      "path": "inputs/configurations/V2-B_h3k27me3_checkpoint.tsv.gz",
+      "sha256": "fc854f7a0c76123d2c1ddab3f3498a9e5df1c489a3931ba61fd9ee6aae44e1eb"
+    },
+    {
+      "bytes": 39239215,
+      "path": "inputs/configurations/V2-C_enhancer_train.tsv.gz",
+      "sha256": "dc1d19a66d7f0d1809fdb0e8c75497abf58195cffb6cb03e605d92df969bb9db"
+    },
+    {
+      "bytes": 1034834,
+      "path": "inputs/configurations/V2-C_enhancer_checkpoint.tsv.gz",
+      "sha256": "b1e6bbc9daeff57cb66e48376d8b0227a7e9eec2b6ce5409b05a72954c2f5fe3"
+    },
+    {
+      "bytes": 5439594,
+      "path": "inputs/configurations/V2-C_h3k27me3_train.tsv.gz",
+      "sha256": "476ba25d6fe07424c7525b99d0a00f8a5be15bc2d7fd211151edb019610ea62d"
+    },
+    {
+      "bytes": 178739,
+      "path": "inputs/configurations/V2-C_h3k27me3_checkpoint.tsv.gz",
+      "sha256": "864c47ff3ec5310d17dbb6b32777db41eef5d14ff05d6d5a35f828e567b81bd2"
+    },
+    {
+      "bytes": 4397902,
+      "path": "inputs/validation/enhancer_chr7.tsv.gz",
+      "sha256": "30d71367d232fde137301bc6a2f58582b3727804cd8d1dcd8650b06076b4f93a"
+    },
+    {
+      "bytes": 813622,
+      "path": "inputs/validation/h3k27me3_chr7.tsv.gz",
+      "sha256": "ea571dbfb7c3afecbf4903b12903585bdf97039efc438916c28df7aa3f5e11e3"
+    },
+    {
+      "bytes": 1572,
+      "path": "cache/cache_manifest.json",
+      "sha256": "671cf1161763a712a89c186200b449f0cd30892e2280018ba1427db5de55ce66"
+    },
+    {
+      "bytes": 13727,
+      "path": "scripts/train_phase_two.py",
+      "sha256": "b39accf4d1c45a8743550b209ed9cf0eda95c675475f1481f896b1dfef1e6959"
+    },
+    {
+      "bytes": 12036,
+      "path": "scripts/predict_chr7.py",
+      "sha256": "1316cb5e79d9102779bb5611e561eed6482b61315345f62ddc74d6545ef2fe99"
+    },
+    {
+      "bytes": 1710,
+      "path": "scripts/train_array.sh",
+      "sha256": "e8de22054bd2a4ffe75e27abb64ee6641869a4a7909feabe83e6796173fd4118"
+    },
+    {
+      "bytes": 14279,
+      "path": "scripts/freeze_checkpoints.py",
+      "sha256": "600c890f7279f8044392acdd1b114f39326e14cd1e1194350a341cf0c9a4505a"
+    },
+    {
+      "bytes": 24330,
+      "path": "scripts/evaluate_chr7.py",
+      "sha256": "55b916dfd94c432b8463b0b6232792222f2fc1b020f060fec2edc4ff11d43e83"
+    },
+    {
+      "bytes": 9464,
+      "path": "scripts/calibrate_chr7.py",
+      "sha256": "68f568a51b2cb5fd2378390c076d93b05edca4f30fa43a5679e294f625021325"
+    },
+    {
+      "bytes": 24225,
+      "path": "scripts/prepare_evaluation_gates.py",
+      "sha256": "13748b49f6b4157ab44694deedc08cb136a9792dc3c519cad31130b9c59749cf"
+    },
+    {
+      "bytes": 2376,
+      "path": "provenance/phase_I_execution_gate.json",
+      "sha256": "bebdf2f9ab3602bdd33c9dcba353ca8732fd1b307faa9a572a57caabba3aea6b"
+    },
+    {
+      "bytes": 91708,
+      "path": "provenance/executed_environment.json",
+      "sha256": "686c46ea9ba74c16d226c140f0854feff6e3258b2035b72236eb73f75097b96c"
+    }
+  ],
+  "fits_authorized": 18,
+  "input_hashes_verified": true,
+  "phase": "training",
+  "selection_performance_authorized_during_training": false,
+  "status": "PASS",
+  "test_inference_authorized": false,
+  "training_authorized": true
+}

@@ -1,0 +1,293 @@
+{
+  "chromosome_counts": {
+    "chr1": 68625,
+    "chr10": 41500,
+    "chr11": 38007,
+    "chr12": 36953,
+    "chr13": 23638,
+    "chr14": 25134,
+    "chr15": 24713,
+    "chr16": 25302,
+    "chr17": 29914,
+    "chr18": 20775,
+    "chr19": 18511,
+    "chr2": 66380,
+    "chr20": 21234,
+    "chr21": 10127,
+    "chr22": 13774,
+    "chr3": 54207,
+    "chr4": 41111,
+    "chr5": 45464,
+    "chr6": 45597,
+    "chr7": 41485,
+    "chrX": 25304,
+    "chrY": 1401
+  },
+  "class_role_counts": [
+    {
+      "configuration": "V2-A",
+      "model": "enhancer",
+      "negative": 307473,
+      "positive": 156789,
+      "role": "train",
+      "rows": 464262
+    },
+    {
+      "configuration": "V2-A",
+      "model": "enhancer",
+      "negative": 10153,
+      "positive": 4216,
+      "role": "checkpoint",
+      "rows": 14369
+    },
+    {
+      "configuration": "V2-B",
+      "model": "enhancer",
+      "negative": 156789,
+      "positive": 156789,
+      "role": "train",
+      "rows": 313578
+    },
+    {
+      "configuration": "V2-B",
+      "model": "enhancer",
+      "negative": 4216,
+      "positive": 4216,
+      "role": "checkpoint",
+      "rows": 8432
+    },
+    {
+      "configuration": "V2-C",
+      "model": "enhancer",
+      "negative": 125874,
+      "positive": 125874,
+      "role": "train",
+      "rows": 251748
+    },
+    {
+      "configuration": "V2-C",
+      "model": "enhancer",
+      "negative": 3300,
+      "positive": 3300,
+      "role": "checkpoint",
+      "rows": 6600
+    },
+    {
+      "configuration": "V2-A",
+      "model": "h3k27me3",
+      "negative": 51839,
+      "positive": 26326,
+      "role": "train",
+      "rows": 78165
+    },
+    {
+      "configuration": "V2-A",
+      "model": "h3k27me3",
+      "negative": 1729,
+      "positive": 834,
+      "role": "checkpoint",
+      "rows": 2563
+    },
+    {
+      "configuration": "V2-B",
+      "model": "h3k27me3",
+      "negative": 26326,
+      "positive": 26326,
+      "role": "train",
+      "rows": 52652
+    },
+    {
+      "configuration": "V2-B",
+      "model": "h3k27me3",
+      "negative": 834,
+      "positive": 834,
+      "role": "checkpoint",
+      "rows": 1668
+    },
+    {
+      "configuration": "V2-C",
+      "model": "h3k27me3",
+      "negative": 17132,
+      "positive": 17132,
+      "role": "train",
+      "rows": 34264
+    },
+    {
+      "configuration": "V2-C",
+      "model": "h3k27me3",
+      "negative": 562,
+      "positive": 562,
+      "role": "checkpoint",
+      "rows": 1124
+    }
+  ],
+  "completed": true,
+  "created_utc": "2026-10-06T14:39:59.972246+00:00",
+  "elapsed_seconds": 174.34796173404902,
+  "encoded_identity_count": 719147,
+  "files": [
+    {
+      "bytes": 67711085,
+      "path": "inputs/cache_index.tsv.gz",
+      "sha256": "1d9a41279e6bd9a4c69ca1256c988ca51d1cf0172c5d00b709d7aab3ca5e17f5"
+    },
+    {
+      "bytes": 1439013275,
+      "path": "inputs/canonical_sequences.npy",
+      "sha256": "b2521b7cc218e96d43334e3a4408161570744683c151068081c2f224dfafb3e5"
+    },
+    {
+      "bytes": 481949,
+      "path": "inputs/common/enhancer_calibration.tsv.gz",
+      "sha256": "0f1f08c6b12f20db54ad58c6c62fe7fa3a5dcb50e43b976b0ce8e6fe83932d98"
+    },
+    {
+      "bytes": 537882,
+      "path": "inputs/common/enhancer_selection.tsv.gz",
+      "sha256": "634fb20ae30aeb700abca76479cfa5744fb59d1ed47bc2b3f976cabd28499be7"
+    },
+    {
+      "bytes": 19607833,
+      "path": "inputs/common/enhancer_train_C_positive_covariates.tsv.gz",
+      "sha256": "c22511f1259602ab1b76dbbc3fe683187f66a934d5bcea8c69bce9343a92783a"
+    },
+    {
+      "bytes": 81806,
+      "path": "inputs/common/h3k27me3_calibration.tsv.gz",
+      "sha256": "9f1c42c4da0f376a6ff270e983758cd77fa02fca474951e08f31b5e6579dbfad"
+    },
+    {
+      "bytes": 83573,
+      "path": "inputs/common/h3k27me3_selection.tsv.gz",
+      "sha256": "ec44953a4a5959c96450413c7a7d268c1cdf208ba9877ee2c8f939f05f86f64f"
+    },
+    {
+      "bytes": 2713440,
+      "path": "inputs/common/h3k27me3_train_C_positive_covariates.tsv.gz",
+      "sha256": "c44cbe76f0fa170d2eb5549f2d86870597163e71a536521ee4ab5d02701c6220"
+    },
+    {
+      "bytes": 1631265,
+      "path": "inputs/configurations/V2-A_enhancer_checkpoint.tsv.gz",
+      "sha256": "2e921f2e2d6c7c53e35dfd681ca40a91722684065546451b741a0de332be5a60"
+    },
+    {
+      "bytes": 52933433,
+      "path": "inputs/configurations/V2-A_enhancer_train.tsv.gz",
+      "sha256": "ebada6b0d2dde028f6982688458025019c5a020c51a4d106e032de0207a64678"
+    },
+    {
+      "bytes": 301781,
+      "path": "inputs/configurations/V2-A_h3k27me3_checkpoint.tsv.gz",
+      "sha256": "ce8cdbb4db92994522b625b504787e51a932eaa0dc9e673c6fff37f2fa320550"
+    },
+    {
+      "bytes": 9163763,
+      "path": "inputs/configurations/V2-A_h3k27me3_train.tsv.gz",
+      "sha256": "97ed46cf56230fc6a33a609631c5fdf60bd686fdccacee6c84b3eb9409c7d84c"
+    },
+    {
+      "bytes": 1313561,
+      "path": "inputs/configurations/V2-B_enhancer_checkpoint.tsv.gz",
+      "sha256": "858a972b00e4e0b45297ba31c4f9aea7f73ceabb1264f232fd84cdfa0d8600b5"
+    },
+    {
+      "bytes": 48658457,
+      "path": "inputs/configurations/V2-B_enhancer_train.tsv.gz",
+      "sha256": "6a381aa9e4e8a40615f8550127bf7ded5b9954a1fd47f28dff187d2b34e1bc45"
+    },
+    {
+      "bytes": 263722,
+      "path": "inputs/configurations/V2-B_h3k27me3_checkpoint.tsv.gz",
+      "sha256": "fc854f7a0c76123d2c1ddab3f3498a9e5df1c489a3931ba61fd9ee6aae44e1eb"
+    },
+    {
+      "bytes": 8307478,
+      "path": "inputs/configurations/V2-B_h3k27me3_train.tsv.gz",
+      "sha256": "57909c63beee8631040183a904037712fc1ad5b72c1594505c96f6832a6155e7"
+    },
+    {
+      "bytes": 1034834,
+      "path": "inputs/configurations/V2-C_enhancer_checkpoint.tsv.gz",
+      "sha256": "b1e6bbc9daeff57cb66e48376d8b0227a7e9eec2b6ce5409b05a72954c2f5fe3"
+    },
+    {
+      "bytes": 39239215,
+      "path": "inputs/configurations/V2-C_enhancer_train.tsv.gz",
+      "sha256": "dc1d19a66d7f0d1809fdb0e8c75497abf58195cffb6cb03e605d92df969bb9db"
+    },
+    {
+      "bytes": 178739,
+      "path": "inputs/configurations/V2-C_h3k27me3_checkpoint.tsv.gz",
+      "sha256": "864c47ff3ec5310d17dbb6b32777db41eef5d14ff05d6d5a35f828e567b81bd2"
+    },
+    {
+      "bytes": 5439594,
+      "path": "inputs/configurations/V2-C_h3k27me3_train.tsv.gz",
+      "sha256": "476ba25d6fe07424c7525b99d0a00f8a5be15bc2d7fd211151edb019610ea62d"
+    },
+    {
+      "bytes": 4397902,
+      "path": "inputs/validation/enhancer_chr7.tsv.gz",
+      "sha256": "30d71367d232fde137301bc6a2f58582b3727804cd8d1dcd8650b06076b4f93a"
+    },
+    {
+      "bytes": 813622,
+      "path": "inputs/validation/h3k27me3_chr7.tsv.gz",
+      "sha256": "ea571dbfb7c3afecbf4903b12903585bdf97039efc438916c28df7aa3f5e11e3"
+    }
+  ],
+  "forbidden_sequence_fetches": 0,
+  "frozen_sources": [
+    {
+      "bytes": 60812778,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-A_enhancer_interval_manifest.tsv.gz",
+      "sha256": "f6c1eaf2d4f25f2f95fdc553aa46210f01ce953808d1bd618303596a6d152298"
+    },
+    {
+      "bytes": 55839908,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-B_enhancer_interval_manifest.tsv.gz",
+      "sha256": "fa4e9eb1360b26b7129c507526999482322e16e6aaeffd3c7a108ae550fbe40b"
+    },
+    {
+      "bytes": 44914883,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-C_enhancer_interval_manifest.tsv.gz",
+      "sha256": "5165080dbeba1a43decb57286c9ed44e820eaa73617f252cecda6ebe4321e72f"
+    },
+    {
+      "bytes": 10541936,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-A_h3k27me3_interval_manifest.tsv.gz",
+      "sha256": "d7341760f83173023004b9c558cb6dfd2314e19733f014d8970e09000c23ae2a"
+    },
+    {
+      "bytes": 9573636,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-B_h3k27me3_interval_manifest.tsv.gz",
+      "sha256": "04a062c730c3ad00b367c34d4829b898d55a1f42097785cd329edcc8262b14f5"
+    },
+    {
+      "bytes": 6293534,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/configurations/V2-C_h3k27me3_interval_manifest.tsv.gz",
+      "sha256": "1d325e61ae5c41bfabe955c12e0b84f683a80472fb855dbac9a19fabd1cbc7ec"
+    },
+    {
+      "bytes": 4962271,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/evaluation/enhancer_common_challenge_panel.tsv.gz",
+      "sha256": "4f374ebf993b1e3b6a5fff5aba51ac6e0efaf6859300bf752f56245a7db65c20"
+    },
+    {
+      "bytes": 719591,
+      "path": "diseases/COPD/07_gap_closure/pretraining-1.1/data/evaluation/h3k27me3_common_challenge_panel.tsv.gz",
+      "sha256": "895979a83b12d0bb372dd93a1baaa1a83d174e96a57e17acc4f5f3bea8775c26"
+    }
+  ],
+  "hash_failures": 0,
+  "missing_sequences": 0,
+  "normalization": "nonACGT to N; canonical=min(normalized_forward,nucleotide_RC)",
+  "sequence_dtype": "uint8_ASCII",
+  "sequence_intervals": 719156,
+  "sequence_shape": [
+    719147,
+    2001
+  ],
+  "status": "PASS"
+}

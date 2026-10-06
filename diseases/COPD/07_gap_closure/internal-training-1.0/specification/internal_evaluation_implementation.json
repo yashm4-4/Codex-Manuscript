@@ -1,0 +1,92 @@
+{
+  "version": "internal-training-1.0",
+  "status": "PROSPECTIVE_IMPLEMENTATION_CONVENTIONS_RECORDED_BEFORE_ANY_MODEL_OUTCOMES",
+  "frozen_design": "pretraining-1.1/specification/selection_adequacy.json",
+  "scope": "CPU common-C-task chr7 selection evaluation and, only after both C contexts PASS and C checkpoint/ensemble/adequacy freeze, dedicated chr7 negative-only calibration. No model execution, test, external, or candidate access.",
+  "prediction_interface": {
+    "path": "predictions/{model}_chr7.tsv.gz",
+    "keys": ["interval_id", "chrom"],
+    "per_configuration_columns": ["{configuration}_p_forward_{seed}", "{configuration}_p_rc_{seed}", "{configuration}_q_{seed}", "{configuration}_ensemble_q"],
+    "configurations": ["V2-A", "V2-B", "V2-C"],
+    "seeds": [104729, 130363, 155921],
+    "numerical_storage": "round-tripping decimal probabilities; orientation scores are original actual-network outputs represented in float64",
+    "evaluation": "convert probability strings only for exact selected chr7-role IDs, independently recompute symmetric per-seed mean and equal-three-seed float64 mean; stored q/ensemble values, if supplied, must match exactly"
+  },
+  "prerequisites": "Hash-bound frozen specification, construction evidence, all18 selected checkpoints, checkpoint freeze, and real-network invariance evidence PASS covering every seed/configuration/model and ensemble. No synthetic invariance substitution.",
+  "metric_conventions": {
+    "AP": "Stepwise average precision, not trapezoidal PR-AUC; sort descending scores with stable mergesort, aggregate exact probability ties, sum precision times recall increments.",
+    "AUROC": "Tie-aware probability of positive exceeding negative, plus half weight for exact score ties; weighted pair count equals sklearn roc_auc_score.",
+    "Brier": "Mean squared probability error.",
+    "BrierSkill": "1-Brier/[prevalence*(1-prevalence)], with each bootstrap replicate's own weighted prevalence.",
+    "AP_gain": "AP minus each replicate's own weighted prevalence, before computing percentile bounds.",
+    "undefined": "One-class bootstrap draws invalid with no imputation; one-class descriptive strata have empty undefined metric fields. All scores must be finite in[0,1].",
+    "seed_SD": "sample standard deviation ddof=1 on the three seed AP point estimates, fixed seed order",
+    "reliability": "ten fixed bins [0,.1),...,[.9,1]; empty bins retained; no fitted recalibration"
+  },
+  "bootstrap_conventions": {
+    "represented_component_order": "sorted lexical component_id via numpy.unique; fixed within each context",
+    "rng": "fresh numpy.random.default_rng(314159) for each model context; no cross-context pairing claim",
+    "draw": "numpy Generator.integers(0,n_components,size=n_components); bincount multiplicities; row weight equals multiplicity of that row's global component",
+    "paired": "identical component draws/rowweights across A/B/C within a context",
+    "valid_replicates": 2000,
+    "maximum_attempts": 20000,
+    "invalid_fraction": "invalid/all_attempted, must be strictly<0.10",
+    "quantiles": "numpy.percentile(method=linear):95%[2.5,97.5],90%[5,95]",
+    "retention": "only strict lower95 bounds for C absolute adequacy; A/B ordering and90% bounds never used for retention",
+    "generalization": "conditional internal genomic-component uncertainty, not independent-donor or population uncertainty"
+  },
+  "stratification_conventions": {
+    "cutpoint_source": "all retained V2-C TRAIN positives in corresponding model context only",
+    "covariates": ["gc_fraction", "atac_signal_percentile_max_train_only", "repeat_fraction_2001"],
+    "quintiles": "numpy.quantile([.2,.4,.6,.8],method=linear); numpy.searchsorted(cutpoints,value,side=right)+1; repeated boundaries may produce empty bins",
+    "other_strata": ["atac_lobes exact signature", "model-specific same_lobe_support_lobes exact signature", "chromosome", "non_acgt_fraction>0"],
+    "interpretation": "all stratified metrics descriptive; explicitly flag n<100 cells; never derive cutpoints from chr7 or chr8-9"
+  },
+  "calibration_conventions": {
+    "release_freeze_required": "Allsix C checkpoints, fixed ensemble and symmetric implementation, passed adequacy decision hashed before calibration.",
+    "inputs": "Dedicated common chr7 calibration panel metadata may contain positives for transparent counts, but only negative IDs have prediction strings converted or used.",
+    "formula": "n negative rows;k=floor(.05*n);boundary=sort(scores,descending)[k];threshold=numpy.nextafter(float64(boundary),+inf)",
+    "minimum": {"negative_rows": 200, "represented_control_components": 30},
+    "ties": "Boundary ties all excluded. Threshold may exceed1; no clipping or splitting ties.",
+    "serialization": "float.hex and format(.17g), both exact float64 round-trip verified",
+    "gate": "number(scores>=threshold)<=k, and equals number(scores>boundary)",
+    "claim_limit": "observed calibration-row FPR only; no population or variant FPR guarantee; no allele-delta threshold"
+  },
+  "evaluation_input_manifest_schema": {
+    "specification": {"path": "frozen selection_adequacy.json", "sha256": "sha256"},
+    "prerequisites": {
+      "construction_gates_pass": true,
+      "construction_evidence": {"path": "frozen readiness evidence", "sha256": "sha256"},
+      "checkpoint_freeze": {"path": "all18 checkpoint freeze", "sha256": "sha256"},
+      "invariance": {"status": "PASS", "real_network": true, "all_configurations_all_seeds_and_ensembles": true, "evidence": {"path": "real-network invariance audit", "sha256": "sha256"}},
+      "checkpoints": [{"configuration": "V2-A|V2-B|V2-C", "model": "enhancer|h3k27me3", "seed": 104729, "path": "checkpoint", "sha256": "sha256", "completed": true}]
+    },
+    "models": {"enhancer|h3k27me3": {"selection": {"path": "inputs/common/{model}_selection.tsv.gz", "sha256": "sha256"}, "train_covariates": {"path": "inputs/common/{model}_train_C_positive_covariates.tsv.gz", "sha256": "sha256"}, "predictions": {"path": "predictions/{model}_chr7.tsv.gz", "sha256": "sha256"}}}
+  },
+  "calibration_input_manifest_schema": {
+    "specification": {"path": "same frozen specification as evaluation", "sha256": "sha256"},
+    "adequacy_decision": {"path": "evaluation/adequacy_decision.json", "sha256": "sha256"},
+    "evaluation_input": {"path": "evaluation_input.json", "sha256": "sha256"},
+    "release_freeze": {"path": "C_release_precalibration_freeze.json", "sha256": "sha256"},
+    "models": {"enhancer|h3k27me3": {"calibration": {"path": "inputs/common/{model}_calibration.tsv.gz", "sha256": "sha256"}, "predictions": {"path": "same frozen prediction file as evaluation", "sha256": "same_sha256"}}}
+  },
+  "C_release_precalibration_freeze_schema": {
+    "status": "C_READY_FOR_CALIBRATION_FROZEN",
+    "adequacy_decision": {"path": "evaluation/adequacy_decision.json", "sha256": "sha256"},
+    "checkpoints": [{"configuration": "V2-C", "model": "enhancer|h3k27me3", "seed": 104729, "path": "same selected checkpoint", "sha256": "same_sha256"}],
+    "ensemble": {"seeds": [104729, 130363, 155921], "reduction_dtype": "float64", "seed_aggregation": "equal-weight", "symmetric_inference": "(p_forward+p_reverse_complement)/2"},
+    "symmetric_inference_implementation": {"path": "actual inference script", "sha256": "sha256"}
+  },
+  "gate_preparation_helper": {
+    "script": "scripts/prepare_evaluation_gates.py",
+    "commands": ["python scripts/prepare_evaluation_gates.py --stage <absolute_stage> --phase evaluation", "python scripts/prepare_evaluation_gates.py --stage <absolute_stage> --phase calibration"],
+    "evaluation_output": "provenance/evaluation_input.json",
+    "calibration_outputs": ["provenance/C_release_precalibration_freeze.json", "provenance/calibration_input.json"],
+    "evaluation_result_directory": "results/chr7_evaluation",
+    "calibration_result_directory": "results/chr7_calibration",
+    "source_binding_chain": "Initial independent integrity report/checks anchor original1.1freeze and checksumledger; original ledger binds unchanged readiness/specification/construction sources; executed training gate binds prepared input manifest and actual inference scripts; all18checkpointfreeze binds selected/completed/history/contract records; actual-network audit binds those checkpoints, input/cache manifests, predict_chr7.py and phase_two_contract.py, and all prediction/independent-RC files. All24unique audit units, counts and numerical tolerance results must PASS. Prediction scores are opaque-hashed, not evaluated by the helper.",
+    "calibration_source_binding": "Reverify complete original evaluation source chain and unchanged evaluator implementation, all evaluation artifact hashes, BOTH C decision statuses, every exact adequacy-table condition including numeric strict-null boundaries, and underlying2000valid bootstrap audit. Freeze allsix exact Ccheckpoint hashes and both inference implementation files before deriving negative-only calibration inputs.",
+    "execution": "Helper only derives append-only hash-bound provenance gates; no model, evaluation, calibration, test or external execution. Neither calibration file is created if C fails/inconclusive."
+  },
+  "overwrite_policy": "Refuse any nonempty output directory. Scientific redesign/retraining after outcomes requires separately authorized new version. Infrastructure exceptions are not permission to alter predictions or prespecified rules."
+}

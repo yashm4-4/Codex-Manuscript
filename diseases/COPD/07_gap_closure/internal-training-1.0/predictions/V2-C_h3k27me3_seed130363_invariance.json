@@ -1,0 +1,31 @@
+{
+  "atol": 1e-06,
+  "checkpoint": {
+    "bytes": 350064314,
+    "path": "runs/V2-C_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras",
+    "sha256": "56a2d331b6ed27e49f103dce228dda3c26a80ff296e91c9c740e52b9c36841c6"
+  },
+  "configuration": "V2-C",
+  "max_absolute_difference": 0.0,
+  "max_same_orientation_repeated_forward_difference": 0.0,
+  "max_same_orientation_repeated_rc_difference": 0.0,
+  "max_tolerance_normalized_difference": 0.0,
+  "model": "h3k27me3",
+  "n_failed": 0,
+  "n_sequences": 6692,
+  "original_batch_size": 256,
+  "original_forward_array_sha256": "774f284205740cc6f4c526ddc7dac052975349f0159e03222cf411c060af79f0",
+  "original_rc_array_sha256": "650ea176383ca0a51b8c83de9182f5c7f27db517cea957bc94078ea7a2d43d57",
+  "original_wrapper_array_sha256": "d3b72593a36a8c9b9bbf6f75af510b960558555847524a3bef16c9e05b3b8c8b",
+  "real_network": true,
+  "reverse_batch_size": 256,
+  "reverse_pass_first_array_sha256": "650ea176383ca0a51b8c83de9182f5c7f27db517cea957bc94078ea7a2d43d57",
+  "reverse_pass_forward_orientation": "nucleotide RC via independently extracted opposite phase-I cache",
+  "reverse_pass_row_order": "same frozen genomic row order and fixed batching as original wrapper",
+  "reverse_pass_second_array_sha256": "774f284205740cc6f4c526ddc7dac052975349f0159e03222cf411c060af79f0",
+  "reverse_wrapper_array_sha256": "d3b72593a36a8c9b9bbf6f75af510b960558555847524a3bef16c9e05b3b8c8b",
+  "rtol": 1e-06,
+  "seed": 130363,
+  "status": "PASS",
+  "unit": "seed"
+}

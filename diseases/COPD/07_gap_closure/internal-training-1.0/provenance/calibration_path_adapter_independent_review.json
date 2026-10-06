@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "reviewer": "internal_execution_qc",
+  "scope": "Independent source, synthetic-test and immutable-byte review of an append-only metadata path adapter; no real adapter/calibration execution.",
+  "adapter": {
+    "path": "scripts/prepare_calibration_path_adapter.py",
+    "sha256": "9c73592046f31fb6ea8a3e0dcf773eb810d3ba2c57336ca860f258f5d91a6dee"
+  },
+  "original_frozen_helper": {
+    "path": "scripts/prepare_evaluation_gates.py",
+    "sha256": "13748b49f6b4157ab44694deedc08cb136a9792dc3c519cad31130b9c59749cf",
+    "unchanged_from_prospective_execution_gate": true
+  },
+  "original_evaluation_manifest": {
+    "path": "results/chr7_evaluation/evaluation_manifest.json",
+    "sha256": "a248186673d4c0c634f421f1e80d17d83a9e89dc797b4982b0065b9504466b3e",
+    "unchanged_during_independent_review": true,
+    "original_artifact_references_verified": 12,
+    "artifact_hash_or_size_failures": 0
+  },
+  "original_evaluation_input": {
+    "path": "provenance/evaluation_input.json",
+    "sha256": "a301f4641a16bd2cfe7e6f224d5260977df26b6117a42e46cab44ba37749cf0b",
+    "matches_original_producer_input_hash": true
+  },
+  "all_prospective_execution_gate_files_rehashed": 34,
+  "prospective_gate_hash_or_size_failures": 0,
+  "independently_rerun_synthetic_tests": 9,
+  "synthetic_test_failures": 0,
+  "test_runtime": "Exact frozen runtime wrapper; no model frameworks initialized by these path-only tests.",
+  "reviewed_equivalence": [
+    "The original failure is a repository-relative versus stage-relative artifact-reference mismatch, not a scientific adequacy, model, prediction or calibration failure.",
+    "All original construction/checkpoint/invariance/source-binding checks are retained through unchanged build_evaluation_manifest, and all numeric adequacy conditions through unchanged validate_passed_adequacy.",
+    "Only artifact references are normalized in memory; each must resolve uniquely into the exact existing chr7_evaluation directory and retain its original SHA256 and byte count.",
+    "Traversal, outside-directory targets, symlink escape, duplicate aliases, missing files and hash/size drift are rejected.",
+    "The frozen release and calibration dictionaries retain identical scientific fields, six C checkpoints, seed/ensemble/inference rules, passed decision bindings and dedicated calibration inputs; added fields only reference the append-only repair note.",
+    "Synthetic absolute, stage-relative and repository-relative references yield identical scientific gate references, and failed C adequacy still blocks every path spelling.",
+    "Successful evaluation and failed original gate command records are checked; original helper, evaluation manifest and evaluation input are hashed before and after verification.",
+    "Both original gate outputs were independently confirmed absent before repair. Exclusive new writes preserve all original payloads and the failed command record."
+  ],
+  "real_adapter_executed_by_reviewer": false,
+  "calibration_executed_by_reviewer": false,
+  "scientific_code_or_output_changed": false,
+  "checkpoints_or_predictions_changed": false,
+  "model_or_evaluation_rerun": false,
+  "test_external_or_candidate_access": false,
+  "conclusion": "No blocking issue identified. This is a bounded metadata-reference repair that leaves the frozen scientific procedure and completed evaluation unchanged."
+}

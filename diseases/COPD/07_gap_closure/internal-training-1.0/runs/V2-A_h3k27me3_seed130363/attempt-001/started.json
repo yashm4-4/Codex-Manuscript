@@ -1,0 +1,27 @@
+{
+  "argv": [
+    "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0/scripts/train_phase_two.py",
+    "--stage",
+    "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/internal-training-1.0",
+    "--configuration",
+    "V2-A",
+    "--model",
+    "h3k27me3",
+    "--seed",
+    "130363",
+    "--attempt",
+    "1"
+  ],
+  "attempt": 1,
+  "calibration_role_access": false,
+  "configuration": "V2-A",
+  "external_benchmark_access": false,
+  "model": "h3k27me3",
+  "retry": null,
+  "run_id": "V2-A_h3k27me3_seed130363",
+  "seed": 130363,
+  "selection_role_access": false,
+  "started_utc": "2026-10-06T14:59:18.365469+00:00",
+  "status": "STARTED",
+  "test_access": false
+}

@@ -1,0 +1,27 @@
+2026-10-06 11:17:01.821817: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791299838.546551 3638559 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 79189 MB memory:  -> device: 0, name: NVIDIA A100-SXM4-80GB, pci bus id: 0000:85:00.0, compute capability: 8.0
+2026-10-06 11:17:22.125609: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92302
+{"run_id": "V2-B_enhancer_seed104729", "epoch": 1, "checkpoint_BCE": 0.5878072678323399, "best_epoch": 1, "best_BCE": 0.5878072678323399, "wait": 0}
+{"run_id": "V2-B_enhancer_seed104729", "epoch": 2, "checkpoint_BCE": 0.5860315345444387, "best_epoch": 2, "best_BCE": 0.5860315345444387, "wait": 0}
+{"run_id": "V2-B_enhancer_seed104729", "epoch": 3, "checkpoint_BCE": 0.5818628929521571, "best_epoch": 3, "best_BCE": 0.5818628929521571, "wait": 0}
+{"run_id": "V2-B_enhancer_seed104729", "epoch": 4, "checkpoint_BCE": 0.5824807033736594, "best_epoch": 3, "best_BCE": 0.5818628929521571, "wait": 1}
+{"run_id": "V2-B_enhancer_seed104729", "epoch": 5, "checkpoint_BCE": 0.5834549813474706, "best_epoch": 3, "best_BCE": 0.5818628929521571, "wait": 2}
+{"run_id": "V2-B_enhancer_seed104729", "epoch": 6, "checkpoint_BCE": 0.5809752831828137, "best_epoch": 6, "best_BCE": 0.5809752831828137, "wait": 0}
+{"run_id": "V2-B_enhancer_seed104729", "epoch": 7, "checkpoint_BCE": 0.5837085006741163, "best_epoch": 6, "best_BCE": 0.5809752831828137, "wait": 1}
+{"run_id": "V2-B_enhancer_seed104729", "epoch": 8, "checkpoint_BCE": 0.5820563761394918, "best_epoch": 6, "best_BCE": 0.5809752831828137, "wait": 2}
+{"run_id": "V2-B_enhancer_seed104729", "epoch": 9, "checkpoint_BCE": 0.585725517091254, "best_epoch": 6, "best_BCE": 0.5809752831828137, "wait": 3}
+{"run_id": "V2-B_enhancer_seed104729", "epoch": 10, "checkpoint_BCE": 0.585084366195783, "best_epoch": 6, "best_BCE": 0.5809752831828137, "wait": 4}
+{"run_id": "V2-B_enhancer_seed104729", "epoch": 11, "checkpoint_BCE": 0.5831585646350076, "best_epoch": 6, "best_BCE": 0.5809752831828137, "wait": 5}
+{"run_id": "V2-B_enhancer_seed104729", "epoch": 12, "checkpoint_BCE": 0.5843563627511984, "best_epoch": 6, "best_BCE": 0.5809752831828137, "wait": 6}
+{"run_id": "V2-B_enhancer_seed104729", "epoch": 13, "checkpoint_BCE": 0.5835496279687212, "best_epoch": 6, "best_BCE": 0.5809752831828137, "wait": 7}
+{"run_id": "V2-B_enhancer_seed104729", "epoch": 14, "checkpoint_BCE": 0.5886652952885476, "best_epoch": 6, "best_BCE": 0.5809752831828137, "wait": 8}
+{"run_id": "V2-B_enhancer_seed104729", "epoch": 15, "checkpoint_BCE": 0.5850904922623987, "best_epoch": 6, "best_BCE": 0.5809752831828137, "wait": 9}
+{"run_id": "V2-B_enhancer_seed104729", "epoch": 16, "checkpoint_BCE": 0.5864127468745289, "best_epoch": 6, "best_BCE": 0.5809752831828137, "wait": 10}
+{"run_id": "V2-B_enhancer_seed104729", "epoch": 17, "checkpoint_BCE": 0.5850286037359733, "best_epoch": 6, "best_BCE": 0.5809752831828137, "wait": 11}
+{"run_id": "V2-B_enhancer_seed104729", "epoch": 18, "checkpoint_BCE": 0.584132258824806, "best_epoch": 6, "best_BCE": 0.5809752831828137, "wait": 12}
+{"run_id": "V2-B_enhancer_seed104729", "epoch": 19, "checkpoint_BCE": 0.5877557209738874, "best_epoch": 6, "best_BCE": 0.5809752831828137, "wait": 13}
+{"run_id": "V2-B_enhancer_seed104729", "epoch": 20, "checkpoint_BCE": 0.5861322525745877, "best_epoch": 6, "best_BCE": 0.5809752831828137, "wait": 14}
+{"run_id": "V2-B_enhancer_seed104729", "epoch": 21, "checkpoint_BCE": 0.5875228224403881, "best_epoch": 6, "best_BCE": 0.5809752831828137, "wait": 15}
+{"run_id": "V2-B_enhancer_seed104729", "status": "COMPLETED", "selected_epoch": 6, "checkpoint_sha256": "1dc13e371414fd81072b07689f3ce64446a32692e917d236983db024f28cabca"}

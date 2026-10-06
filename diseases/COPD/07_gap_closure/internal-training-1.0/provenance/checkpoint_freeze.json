@@ -1,0 +1,829 @@
+{
+  "all_18_selected_checkpoints_frozen": true,
+  "argv": [
+    "diseases/COPD/07_gap_closure/internal-training-1.0/scripts/freeze_checkpoints.py",
+    "--stage",
+    "diseases/COPD/07_gap_closure/internal-training-1.0"
+  ],
+  "calibration_previously_performed": false,
+  "checkpoint_scope": "selected architecture and all selected-epoch trainable/BatchNorm weights; optimizer resumption prohibited",
+  "checkpoints": [
+    {
+      "bytes": 350064314,
+      "checkpoint_improvements": {
+        "bytes": 228,
+        "path": "runs/V2-A_enhancer_seed104729/attempt-001/checkpoint_improvements.tsv",
+        "sha256": "5d45ff276f0cf85a4249cdda1436f18c43fc337993bc629f222072901d472d97"
+      },
+      "checkpoint_symmetric_BCE": 0.29014917653995176,
+      "command_record": {
+        "bytes": 1322,
+        "path": "provenance/commands/V2-A_enhancer_seed104729_attempt001.completed.json",
+        "sha256": "a8081e382e7800ec7afe0a1532f5b189bff40d04c5c1652e50fbebcb528a3986"
+      },
+      "completed": true,
+      "completed_record": {
+        "bytes": 1400,
+        "path": "runs/V2-A_enhancer_seed104729/attempt-001/completed.json",
+        "sha256": "f884f9f726bc304539d503955cc1786c72e5a40d7dc4d5e9224d8744575cda8a"
+      },
+      "configuration": "V2-A",
+      "history": {
+        "bytes": 7575,
+        "path": "runs/V2-A_enhancer_seed104729/attempt-001/history.tsv",
+        "sha256": "a5464fc0ec1722df9301abf0da4c4807bb686d93444d3993227cbbfb357ac986"
+      },
+      "model": "enhancer",
+      "path": "runs/V2-A_enhancer_seed104729/attempt-001/selected_checkpoint.keras",
+      "run_id": "V2-A_enhancer_seed104729",
+      "seed": 104729,
+      "selected_checkpoint_record": {
+        "bytes": 1187,
+        "path": "runs/V2-A_enhancer_seed104729/attempt-001/selected_checkpoint.json",
+        "sha256": "473518eb63b4c89745bea7247a9d56327063d6bd64ca00c4b7baefdf4c01c6cb"
+      },
+      "selected_epoch_one_based": 19,
+      "sha256": "8eb380c37e92f5cbe9cb71256421565f5924d1fe373ce7ee507dbb3545272a60",
+      "training_contract": {
+        "bytes": 2610,
+        "path": "runs/V2-A_enhancer_seed104729/attempt-001/training_contract.json",
+        "sha256": "c06bf56abdb35bc92934d39b96609dd65e386daa21b3cc8188e0aca95c537df7"
+      }
+    },
+    {
+      "bytes": 350064314,
+      "checkpoint_improvements": {
+        "bytes": 276,
+        "path": "runs/V2-A_enhancer_seed130363/attempt-001/checkpoint_improvements.tsv",
+        "sha256": "e276088abd0c3343fb3b76b268fd778a8fdb32c7c90b374f2a5e6e3b98cc397f"
+      },
+      "checkpoint_symmetric_BCE": 0.28610985855729126,
+      "command_record": {
+        "bytes": 1321,
+        "path": "provenance/commands/V2-A_enhancer_seed130363_attempt001.completed.json",
+        "sha256": "1f60d0c2b3f350143747ebdb95cd9339028fb3abe07610ffa1bed484141a257d"
+      },
+      "completed": true,
+      "completed_record": {
+        "bytes": 1402,
+        "path": "runs/V2-A_enhancer_seed130363/attempt-001/completed.json",
+        "sha256": "6144fac60ab9fbe1fdb3cc23c7acbb430025bb7f48c47ddaa321c238aafc9cd7"
+      },
+      "configuration": "V2-A",
+      "history": {
+        "bytes": 10200,
+        "path": "runs/V2-A_enhancer_seed130363/attempt-001/history.tsv",
+        "sha256": "a70df7d1e9f3992f2d74ee426c3450f0055360e53b395bc88bea9135ad377bee"
+      },
+      "model": "enhancer",
+      "path": "runs/V2-A_enhancer_seed130363/attempt-001/selected_checkpoint.keras",
+      "run_id": "V2-A_enhancer_seed130363",
+      "seed": 130363,
+      "selected_checkpoint_record": {
+        "bytes": 1188,
+        "path": "runs/V2-A_enhancer_seed130363/attempt-001/selected_checkpoint.json",
+        "sha256": "d3bbfe3d34cd5c734b5bc414b002700bedd77bb8815b8fc0e803a8408727c674"
+      },
+      "selected_epoch_one_based": 31,
+      "sha256": "fb1f9103e7c824ffa280aa98fb2274a0abdb5eebbfcc381b2e8ed6df030faeed",
+      "training_contract": {
+        "bytes": 2610,
+        "path": "runs/V2-A_enhancer_seed130363/attempt-001/training_contract.json",
+        "sha256": "0b811286c1a3a7df8f3206b5cb86370e93e34fd810313120521e271829ec644c"
+      }
+    },
+    {
+      "bytes": 350064314,
+      "checkpoint_improvements": {
+        "bytes": 204,
+        "path": "runs/V2-A_enhancer_seed155921/attempt-001/checkpoint_improvements.tsv",
+        "sha256": "041c39d221f1278ca82cce433f95ce33590096a969c8c15fc1d137444c1fde5a"
+      },
+      "checkpoint_symmetric_BCE": 0.28622085634544436,
+      "command_record": {
+        "bytes": 1322,
+        "path": "provenance/commands/V2-A_enhancer_seed155921_attempt001.completed.json",
+        "sha256": "3bd95c55271bbe0792e9e7afa4d4b036d5b2eaf1e8e6faac495c6f163fd3b0bf"
+      },
+      "completed": true,
+      "completed_record": {
+        "bytes": 1402,
+        "path": "runs/V2-A_enhancer_seed155921/attempt-001/completed.json",
+        "sha256": "16f8b5016d89b225cd7d5746c1986ef1849a77f94067deb6efb9f57b878bd31c"
+      },
+      "configuration": "V2-A",
+      "history": {
+        "bytes": 9528,
+        "path": "runs/V2-A_enhancer_seed155921/attempt-001/history.tsv",
+        "sha256": "24c0cfc5e26e17b5371cdeca0b25f104071a956f651e38a7c09f9c0957614351"
+      },
+      "model": "enhancer",
+      "path": "runs/V2-A_enhancer_seed155921/attempt-001/selected_checkpoint.keras",
+      "run_id": "V2-A_enhancer_seed155921",
+      "seed": 155921,
+      "selected_checkpoint_record": {
+        "bytes": 1187,
+        "path": "runs/V2-A_enhancer_seed155921/attempt-001/selected_checkpoint.json",
+        "sha256": "eb6078fecb0352e124b8962d3a6f0aee40ea00be17a0217a05bd643204058f64"
+      },
+      "selected_epoch_one_based": 28,
+      "sha256": "a74ee692f8b7386678a37de827e5ecb1bd597f665c6b475ba19fddadea961168",
+      "training_contract": {
+        "bytes": 2610,
+        "path": "runs/V2-A_enhancer_seed155921/attempt-001/training_contract.json",
+        "sha256": "538df796dfd94b8e2f0e12c233d0915e3c7d5cc0d3b82062d6ce281f82f31f58"
+      }
+    },
+    {
+      "bytes": 350064314,
+      "checkpoint_improvements": {
+        "bytes": 204,
+        "path": "runs/V2-A_h3k27me3_seed104729/attempt-001/checkpoint_improvements.tsv",
+        "sha256": "31213d27c00f469c352e50c4093dff47900b1c1a0449fb129262a1649b49f622"
+      },
+      "checkpoint_symmetric_BCE": 0.17796307826068478,
+      "command_record": {
+        "bytes": 1321,
+        "path": "provenance/commands/V2-A_h3k27me3_seed104729_attempt001.completed.json",
+        "sha256": "f0856beb5b3604e0d2ab14955998db1de360add21c1b3fdb11f8ff68718f6003"
+      },
+      "completed": true,
+      "completed_record": {
+        "bytes": 1398,
+        "path": "runs/V2-A_h3k27me3_seed104729/attempt-001/completed.json",
+        "sha256": "fe59a177fc00494c7ea727e6c5a2f6af63c6595fa2d18759b364b79b3b7dfdd2"
+      },
+      "configuration": "V2-A",
+      "history": {
+        "bytes": 9182,
+        "path": "runs/V2-A_h3k27me3_seed104729/attempt-001/history.tsv",
+        "sha256": "dc7a1e73d5d8ef9eb9393d2750cdf1304426abf464f3b13911563d338a7ee648"
+      },
+      "model": "h3k27me3",
+      "path": "runs/V2-A_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras",
+      "run_id": "V2-A_h3k27me3_seed104729",
+      "seed": 104729,
+      "selected_checkpoint_record": {
+        "bytes": 1187,
+        "path": "runs/V2-A_h3k27me3_seed104729/attempt-001/selected_checkpoint.json",
+        "sha256": "4b608f82298c3307fec820386c529e762889c9a3674f6e184d561cf899831ca4"
+      },
+      "selected_epoch_one_based": 27,
+      "sha256": "67b6c55c2dc7c79b8e70331ce4ee17c2f6b228ae95198312c8476084723b6249",
+      "training_contract": {
+        "bytes": 2606,
+        "path": "runs/V2-A_h3k27me3_seed104729/attempt-001/training_contract.json",
+        "sha256": "1df477c6cad554912c46e5eaf4707fcbe1bac77c3fe670aeaa11e74505c92d5c"
+      }
+    },
+    {
+      "bytes": 350064314,
+      "checkpoint_improvements": {
+        "bytes": 323,
+        "path": "runs/V2-A_h3k27me3_seed130363/attempt-001/checkpoint_improvements.tsv",
+        "sha256": "a49dd009a737e4fe4ab3d448628640af37d3e87c976f36d80105f5c35cf0bab5"
+      },
+      "checkpoint_symmetric_BCE": 0.17641807822486896,
+      "command_record": {
+        "bytes": 1321,
+        "path": "provenance/commands/V2-A_h3k27me3_seed130363_attempt001.completed.json",
+        "sha256": "d57a6000e26ce550f18eadc3ef6d25322f035fe622613503a2ab4c8b63139cda"
+      },
+      "completed": true,
+      "completed_record": {
+        "bytes": 1400,
+        "path": "runs/V2-A_h3k27me3_seed130363/attempt-001/completed.json",
+        "sha256": "b40f252091608da417dbb2700af3f0fffee6b91d85bfe07a4d06a30008fae8c9"
+      },
+      "configuration": "V2-A",
+      "history": {
+        "bytes": 9824,
+        "path": "runs/V2-A_h3k27me3_seed130363/attempt-001/history.tsv",
+        "sha256": "e0d3ab1dbd33a1b8ce71f11070afd9d50f4e2761e3b264380ed2257f0a102f72"
+      },
+      "model": "h3k27me3",
+      "path": "runs/V2-A_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras",
+      "run_id": "V2-A_h3k27me3_seed130363",
+      "seed": 130363,
+      "selected_checkpoint_record": {
+        "bytes": 1187,
+        "path": "runs/V2-A_h3k27me3_seed130363/attempt-001/selected_checkpoint.json",
+        "sha256": "699a198b921584a87265e88ea9fe85b437c84c820f03a4cd71e239a6a7348619"
+      },
+      "selected_epoch_one_based": 30,
+      "sha256": "d20a5e35ac9e348ea09b1418abf18fd3a4c5c040811a8324d25ff39911b25ae8",
+      "training_contract": {
+        "bytes": 2606,
+        "path": "runs/V2-A_h3k27me3_seed130363/attempt-001/training_contract.json",
+        "sha256": "b97e9c38b63c23624cfba478f46c7c9342bd5c7a81d40081fa3b4b429f47db9c"
+      }
+    },
+    {
+      "bytes": 350064314,
+      "checkpoint_improvements": {
+        "bytes": 229,
+        "path": "runs/V2-A_h3k27me3_seed155921/attempt-001/checkpoint_improvements.tsv",
+        "sha256": "2c19627f293ff5bc9e9eac497f4458a54e9b95789d311b14339458a5afc59562"
+      },
+      "checkpoint_symmetric_BCE": 0.17825819042581337,
+      "command_record": {
+        "bytes": 1322,
+        "path": "provenance/commands/V2-A_h3k27me3_seed155921_attempt001.completed.json",
+        "sha256": "c5b96356abe7758450d9543c378e4d654c8af3844f3199eec251f9c318f5d5ac"
+      },
+      "completed": true,
+      "completed_record": {
+        "bytes": 1401,
+        "path": "runs/V2-A_h3k27me3_seed155921/attempt-001/completed.json",
+        "sha256": "c726a9425d757dc0989efb9c6eaff5601380d559fe4c11ae1644dc106e168092"
+      },
+      "configuration": "V2-A",
+      "history": {
+        "bytes": 9398,
+        "path": "runs/V2-A_h3k27me3_seed155921/attempt-001/history.tsv",
+        "sha256": "9da3b2af7732017103688410ad673decc7f541f45f2b9e2e2f740d2d7641d6c7"
+      },
+      "model": "h3k27me3",
+      "path": "runs/V2-A_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras",
+      "run_id": "V2-A_h3k27me3_seed155921",
+      "seed": 155921,
+      "selected_checkpoint_record": {
+        "bytes": 1187,
+        "path": "runs/V2-A_h3k27me3_seed155921/attempt-001/selected_checkpoint.json",
+        "sha256": "9175a0750335aaadeed1aaaeb9b285cf0694c98588cb790dc2800a0c281fa129"
+      },
+      "selected_epoch_one_based": 28,
+      "sha256": "b350d45b7d126adf329c8379e5340a8cdd8b95c4028c00a99e726513c7a03820",
+      "training_contract": {
+        "bytes": 2606,
+        "path": "runs/V2-A_h3k27me3_seed155921/attempt-001/training_contract.json",
+        "sha256": "826f974cb5f7ffe1df6c4cf28911c03325390ab66750ead08ea59db4b77f7f41"
+      }
+    },
+    {
+      "bytes": 350064314,
+      "checkpoint_improvements": {
+        "bytes": 133,
+        "path": "runs/V2-B_enhancer_seed104729/attempt-001/checkpoint_improvements.tsv",
+        "sha256": "9eca13b1a82359b56806e50ee5477553955630f09ce1131e225dadec03b8e01c"
+      },
+      "checkpoint_symmetric_BCE": 0.5809752831828137,
+      "command_record": {
+        "bytes": 1320,
+        "path": "provenance/commands/V2-B_enhancer_seed104729_attempt001.completed.json",
+        "sha256": "cebbf429f7fc137aa843443f7b91bff1c58b803e68b4d53bb9a51fc0de12b81b"
+      },
+      "completed": true,
+      "completed_record": {
+        "bytes": 1398,
+        "path": "runs/V2-B_enhancer_seed104729/attempt-001/completed.json",
+        "sha256": "b41b91458c259c530c1eb841ff4ef8dc1383a3810984f0d4385267ad78224fc1"
+      },
+      "configuration": "V2-B",
+      "history": {
+        "bytes": 4738,
+        "path": "runs/V2-B_enhancer_seed104729/attempt-001/history.tsv",
+        "sha256": "fed90c5d79be28ed5bd9d1904fc244fe2fad06dc369442954a768e276af39ce7"
+      },
+      "model": "enhancer",
+      "path": "runs/V2-B_enhancer_seed104729/attempt-001/selected_checkpoint.keras",
+      "run_id": "V2-B_enhancer_seed104729",
+      "seed": 104729,
+      "selected_checkpoint_record": {
+        "bytes": 1184,
+        "path": "runs/V2-B_enhancer_seed104729/attempt-001/selected_checkpoint.json",
+        "sha256": "7f3f1396188c9b008211466ade061428e3a21351326f8a7213227b6c3d292c03"
+      },
+      "selected_epoch_one_based": 6,
+      "sha256": "1dc13e371414fd81072b07689f3ce64446a32692e917d236983db024f28cabca",
+      "training_contract": {
+        "bytes": 2609,
+        "path": "runs/V2-B_enhancer_seed104729/attempt-001/training_contract.json",
+        "sha256": "dabe026c0dea627e1ba6ec7eaf4f0416030893714fca4229e64102f3464eea46"
+      }
+    },
+    {
+      "bytes": 350064314,
+      "checkpoint_improvements": {
+        "bytes": 179,
+        "path": "runs/V2-B_enhancer_seed130363/attempt-001/checkpoint_improvements.tsv",
+        "sha256": "bbad4bdbbbb633a2c4801f0023e9b896a603c0e6b17922f2961e8855bd9ba878"
+      },
+      "checkpoint_symmetric_BCE": 0.5766300849269167,
+      "command_record": {
+        "bytes": 1322,
+        "path": "provenance/commands/V2-B_enhancer_seed130363_attempt001.completed.json",
+        "sha256": "2f800b72ca27e9fce0fd75bad1f58e4315377e19bfbf4de4a48850b65513647b"
+      },
+      "completed": true,
+      "completed_record": {
+        "bytes": 1398,
+        "path": "runs/V2-B_enhancer_seed130363/attempt-001/completed.json",
+        "sha256": "089eacaf1de2c4bd1dd6ca23bacee2984cfe467e3b702bcac7760b15119202b5"
+      },
+      "configuration": "V2-B",
+      "history": {
+        "bytes": 5170,
+        "path": "runs/V2-B_enhancer_seed130363/attempt-001/history.tsv",
+        "sha256": "2c7a8491bd1a34a3917f98024d14d1371a1df4204b25349deaecdbe8f6d91b5e"
+      },
+      "model": "enhancer",
+      "path": "runs/V2-B_enhancer_seed130363/attempt-001/selected_checkpoint.keras",
+      "run_id": "V2-B_enhancer_seed130363",
+      "seed": 130363,
+      "selected_checkpoint_record": {
+        "bytes": 1184,
+        "path": "runs/V2-B_enhancer_seed130363/attempt-001/selected_checkpoint.json",
+        "sha256": "b77107e98a85834b5ce42ee4037502e7142d01aacfda22905f588bca0dd5cb50"
+      },
+      "selected_epoch_one_based": 8,
+      "sha256": "97bbc39bc5e93bf49b51169ad015fb4710708c7f1d3e7aeb232d28d3fa40d9ab",
+      "training_contract": {
+        "bytes": 2609,
+        "path": "runs/V2-B_enhancer_seed130363/attempt-001/training_contract.json",
+        "sha256": "cac566224fab86c81f8212b47e7df43ecf74460a10d9a0a1370d325fdfa85622"
+      }
+    },
+    {
+      "bytes": 350064314,
+      "checkpoint_improvements": {
+        "bytes": 157,
+        "path": "runs/V2-B_enhancer_seed155921/attempt-001/checkpoint_improvements.tsv",
+        "sha256": "9d4f9b1aeabc6a02a6b41a6f290e66ae011b2b3fb3fa5e2eb518fc30e47b52f8"
+      },
+      "checkpoint_symmetric_BCE": 0.5792028887412443,
+      "command_record": {
+        "bytes": 1321,
+        "path": "provenance/commands/V2-B_enhancer_seed155921_attempt001.completed.json",
+        "sha256": "a66d24d4df14c8d475ff49e3fb3f42a2f33234b3efcac3ba85c222b1296fbe66"
+      },
+      "completed": true,
+      "completed_record": {
+        "bytes": 1397,
+        "path": "runs/V2-B_enhancer_seed155921/attempt-001/completed.json",
+        "sha256": "998e8e6e97fd9982b225a96da41afae2e07d267a25c6bbd72dfc203acbfd477a"
+      },
+      "configuration": "V2-B",
+      "history": {
+        "bytes": 4957,
+        "path": "runs/V2-B_enhancer_seed155921/attempt-001/history.tsv",
+        "sha256": "2c047edc99b89e0fcf9e048c76718e3ec701a9dceabe6bc09481eec536ca2ec6"
+      },
+      "model": "enhancer",
+      "path": "runs/V2-B_enhancer_seed155921/attempt-001/selected_checkpoint.keras",
+      "run_id": "V2-B_enhancer_seed155921",
+      "seed": 155921,
+      "selected_checkpoint_record": {
+        "bytes": 1184,
+        "path": "runs/V2-B_enhancer_seed155921/attempt-001/selected_checkpoint.json",
+        "sha256": "c0a6a003486e47743773b074d7d47315886c582d90c75004f99be7ce82504714"
+      },
+      "selected_epoch_one_based": 7,
+      "sha256": "c0e2a96ed19c3b9d5ddbb51a85b0d4ffce7701e41f12bd25ce69bcf763d6300e",
+      "training_contract": {
+        "bytes": 2609,
+        "path": "runs/V2-B_enhancer_seed155921/attempt-001/training_contract.json",
+        "sha256": "37db38467225dadf7c206b8a2c8a32a16e3b920ee9a950e9b96d9473543cbb78"
+      }
+    },
+    {
+      "bytes": 350064314,
+      "checkpoint_improvements": {
+        "bytes": 275,
+        "path": "runs/V2-B_h3k27me3_seed104729/attempt-001/checkpoint_improvements.tsv",
+        "sha256": "839dd27d5e3b33862c76128cb524babf7581a7a9a56b8488067734fa5c2c663f"
+      },
+      "checkpoint_symmetric_BCE": 0.5222496241337785,
+      "command_record": {
+        "bytes": 1322,
+        "path": "provenance/commands/V2-B_h3k27me3_seed104729_attempt001.completed.json",
+        "sha256": "bce14e61218cd5711545db235401f834f6e2c15f74a6875481e0dd52c2132a16"
+      },
+      "completed": true,
+      "completed_record": {
+        "bytes": 1396,
+        "path": "runs/V2-B_h3k27me3_seed104729/attempt-001/completed.json",
+        "sha256": "ba232875412253e2a28efac344e9265a5ff15c80c9ef214618e76d1bebc17fa2"
+      },
+      "configuration": "V2-B",
+      "history": {
+        "bytes": 8979,
+        "path": "runs/V2-B_h3k27me3_seed104729/attempt-001/history.tsv",
+        "sha256": "b6dc3dd5edfa0b914497d82227007c6f42113c4dd4349e1e57408fbffa76aa9f"
+      },
+      "model": "h3k27me3",
+      "path": "runs/V2-B_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras",
+      "run_id": "V2-B_h3k27me3_seed104729",
+      "seed": 104729,
+      "selected_checkpoint_record": {
+        "bytes": 1185,
+        "path": "runs/V2-B_h3k27me3_seed104729/attempt-001/selected_checkpoint.json",
+        "sha256": "e79c924db7397dc42a2f994a533f4e849751bb111586d85bb3e21128953bcd83"
+      },
+      "selected_epoch_one_based": 26,
+      "sha256": "c74842f069069ef544fbf8ddab04690188282a07c2aa7ebf2a2a67994d567e0c",
+      "training_contract": {
+        "bytes": 2606,
+        "path": "runs/V2-B_h3k27me3_seed104729/attempt-001/training_contract.json",
+        "sha256": "18e09718af01e94ba308d95d53d003ba99835c546f4bc864edb39286f5e63672"
+      }
+    },
+    {
+      "bytes": 350064314,
+      "checkpoint_improvements": {
+        "bytes": 204,
+        "path": "runs/V2-B_h3k27me3_seed130363/attempt-001/checkpoint_improvements.tsv",
+        "sha256": "1fcf802fea2dca5787f704ff0e910740a6a0d18f13a47286cc1ca37b0fe46658"
+      },
+      "checkpoint_symmetric_BCE": 0.5205834325399427,
+      "command_record": {
+        "bytes": 1322,
+        "path": "provenance/commands/V2-B_h3k27me3_seed130363_attempt001.completed.json",
+        "sha256": "97124d49d8177693584f1c713fe32b9a375e0701693d87d147e87f776dbff8e9"
+      },
+      "completed": true,
+      "completed_record": {
+        "bytes": 1397,
+        "path": "runs/V2-B_h3k27me3_seed130363/attempt-001/completed.json",
+        "sha256": "4beb28c19ab71c7f08542e3c7c4bd7e8797df2339e21f924035fe54477e49598"
+      },
+      "configuration": "V2-B",
+      "history": {
+        "bytes": 7470,
+        "path": "runs/V2-B_h3k27me3_seed130363/attempt-001/history.tsv",
+        "sha256": "019cbf90672918b6b43c496c2854a1c11bfa3f34ce07999cb61fccdaabda4534"
+      },
+      "model": "h3k27me3",
+      "path": "runs/V2-B_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras",
+      "run_id": "V2-B_h3k27me3_seed130363",
+      "seed": 130363,
+      "selected_checkpoint_record": {
+        "bytes": 1185,
+        "path": "runs/V2-B_h3k27me3_seed130363/attempt-001/selected_checkpoint.json",
+        "sha256": "dfc4a323fcde07ab561c8ce4dfd6e3a82b9c5cf956b735aaa14bfd3b54e66755"
+      },
+      "selected_epoch_one_based": 19,
+      "sha256": "935e054078b14a491d69e89719a68a2fa359beb42afce814a5a496d74c95cb72",
+      "training_contract": {
+        "bytes": 2606,
+        "path": "runs/V2-B_h3k27me3_seed130363/attempt-001/training_contract.json",
+        "sha256": "d1314771af9e49c16f09711c282580afa743f5a696cd93c52ec15a95a0dc646f"
+      }
+    },
+    {
+      "bytes": 350064314,
+      "checkpoint_improvements": {
+        "bytes": 226,
+        "path": "runs/V2-B_h3k27me3_seed155921/attempt-001/checkpoint_improvements.tsv",
+        "sha256": "de420b725eee23dc28c96dca9d28d5470f9ea6886207b3c9026dec793dd296e8"
+      },
+      "checkpoint_symmetric_BCE": 0.5220315677312949,
+      "command_record": {
+        "bytes": 1323,
+        "path": "provenance/commands/V2-B_h3k27me3_seed155921_attempt001.completed.json",
+        "sha256": "5c2bdce3c7f124dc263539be421911bf10d30cf4aec8a342ca81a6844eb3ff01"
+      },
+      "completed": true,
+      "completed_record": {
+        "bytes": 1393,
+        "path": "runs/V2-B_h3k27me3_seed155921/attempt-001/completed.json",
+        "sha256": "5ec45d021cdfdbad9788c2fb3367618a8e5999138b33f4ccda4c64639b7e826e"
+      },
+      "configuration": "V2-B",
+      "history": {
+        "bytes": 5966,
+        "path": "runs/V2-B_h3k27me3_seed155921/attempt-001/history.tsv",
+        "sha256": "28f3f38cbc4cd83575f863f85db1e9867c4ea2db47d34f0b9ca63758b966b698"
+      },
+      "model": "h3k27me3",
+      "path": "runs/V2-B_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras",
+      "run_id": "V2-B_h3k27me3_seed155921",
+      "seed": 155921,
+      "selected_checkpoint_record": {
+        "bytes": 1185,
+        "path": "runs/V2-B_h3k27me3_seed155921/attempt-001/selected_checkpoint.json",
+        "sha256": "2fcbf0083a4458bedc4175bae14da95a465a3b8abbea303bb4f404198cc17c0e"
+      },
+      "selected_epoch_one_based": 12,
+      "sha256": "2e2fa2ec39cbaf8fea4080bd0576d6a1da6d968e2481c349d737f3db641553f6",
+      "training_contract": {
+        "bytes": 2606,
+        "path": "runs/V2-B_h3k27me3_seed155921/attempt-001/training_contract.json",
+        "sha256": "9e125eb21865e5c1faa4ce0738a135c771247f433249fd0106ea8ff2ce6e1042"
+      }
+    },
+    {
+      "bytes": 350064314,
+      "checkpoint_improvements": {
+        "bytes": 158,
+        "path": "runs/V2-C_enhancer_seed104729/attempt-001/checkpoint_improvements.tsv",
+        "sha256": "41dd91a28ccbd4210123367ab84c2eff7039795d43ed5eb07e8a00788778d617"
+      },
+      "checkpoint_symmetric_BCE": 0.5572998887845743,
+      "command_record": {
+        "bytes": 1322,
+        "path": "provenance/commands/V2-C_enhancer_seed104729_attempt001.completed.json",
+        "sha256": "6d41cf55eb6867339ff1f89f567457ff47a707cd841fb60ffb310883fc31b644"
+      },
+      "completed": true,
+      "completed_record": {
+        "bytes": 1399,
+        "path": "runs/V2-C_enhancer_seed104729/attempt-001/completed.json",
+        "sha256": "8b33dc13bfa3edcfd6da3205b48b77ba49a2a72a7f0ed61efb4a3d019c29733d"
+      },
+      "configuration": "V2-C",
+      "history": {
+        "bytes": 5598,
+        "path": "runs/V2-C_enhancer_seed104729/attempt-001/history.tsv",
+        "sha256": "41b9c1bf022dd3986c74d956affd2cd99cf92cd6a8943d8a675d2fec98e6a9e9"
+      },
+      "model": "enhancer",
+      "path": "runs/V2-C_enhancer_seed104729/attempt-001/selected_checkpoint.keras",
+      "run_id": "V2-C_enhancer_seed104729",
+      "seed": 104729,
+      "selected_checkpoint_record": {
+        "bytes": 1185,
+        "path": "runs/V2-C_enhancer_seed104729/attempt-001/selected_checkpoint.json",
+        "sha256": "b3076cf944e66b5abd8517c38a7c2a79db7767805a0037694831811c2b78959d"
+      },
+      "selected_epoch_one_based": 10,
+      "sha256": "1cb670f778a2d148d0ac2b71bea5c97f5a421bb64f744af1dc5b373a60ea3114",
+      "training_contract": {
+        "bytes": 2609,
+        "path": "runs/V2-C_enhancer_seed104729/attempt-001/training_contract.json",
+        "sha256": "a58d13cac163c1ee1bfbc3e0e8ba0cacdf3f5986d1e4f2b95500a68633035161"
+      }
+    },
+    {
+      "bytes": 350064314,
+      "checkpoint_improvements": {
+        "bytes": 157,
+        "path": "runs/V2-C_enhancer_seed130363/attempt-001/checkpoint_improvements.tsv",
+        "sha256": "9d0132f0d5afd6717903d56d311c02389512062e9777777d0cd31ee1a8b130d3"
+      },
+      "checkpoint_symmetric_BCE": 0.5540301506852501,
+      "command_record": {
+        "bytes": 1322,
+        "path": "provenance/commands/V2-C_enhancer_seed130363_attempt001.completed.json",
+        "sha256": "12c6c001f307dd35057c4612ecd80eec4b9be0d880f452f95c64dab70ca6e077"
+      },
+      "completed": true,
+      "completed_record": {
+        "bytes": 1397,
+        "path": "runs/V2-C_enhancer_seed130363/attempt-001/completed.json",
+        "sha256": "843485a5cc20edf7d57d35801a3c22c52173932aa12f0c2e5f8e148bb2c895d1"
+      },
+      "configuration": "V2-C",
+      "history": {
+        "bytes": 5154,
+        "path": "runs/V2-C_enhancer_seed130363/attempt-001/history.tsv",
+        "sha256": "a47691eeeac2a49ca931ae0e1288e201548b309166771d23def402dffb03e673"
+      },
+      "model": "enhancer",
+      "path": "runs/V2-C_enhancer_seed130363/attempt-001/selected_checkpoint.keras",
+      "run_id": "V2-C_enhancer_seed130363",
+      "seed": 130363,
+      "selected_checkpoint_record": {
+        "bytes": 1184,
+        "path": "runs/V2-C_enhancer_seed130363/attempt-001/selected_checkpoint.json",
+        "sha256": "9dadd284915a2cf253bed62f88a31849019eb992b8b2af6cbfdf2b4adebd95c8"
+      },
+      "selected_epoch_one_based": 8,
+      "sha256": "0e42ecc9364f967220ecc6c3bb0007dc25aced5d9c360355f6e48027c39f0795",
+      "training_contract": {
+        "bytes": 2609,
+        "path": "runs/V2-C_enhancer_seed130363/attempt-001/training_contract.json",
+        "sha256": "c376485c93e6dbfdd5506fa11e708ff9b765301d720f2305976274f8dcfafaee"
+      }
+    },
+    {
+      "bytes": 350064314,
+      "checkpoint_improvements": {
+        "bytes": 157,
+        "path": "runs/V2-C_enhancer_seed155921/attempt-001/checkpoint_improvements.tsv",
+        "sha256": "69c44a079baaa29725e7ffa41e7c63190db4fad21c15bbeb7c715aef24723afa"
+      },
+      "checkpoint_symmetric_BCE": 0.5552501386500066,
+      "command_record": {
+        "bytes": 1322,
+        "path": "provenance/commands/V2-C_enhancer_seed155921_attempt001.completed.json",
+        "sha256": "b7e15291cffdb5381c7f4b6c7dda16beee8451d71e3f5813d4e6116c124a8bee"
+      },
+      "completed": true,
+      "completed_record": {
+        "bytes": 1397,
+        "path": "runs/V2-C_enhancer_seed155921/attempt-001/completed.json",
+        "sha256": "3c27eb963d0edfbf6c27151425464615b19f00447f3c961476ea547f3937b4de"
+      },
+      "configuration": "V2-C",
+      "history": {
+        "bytes": 4944,
+        "path": "runs/V2-C_enhancer_seed155921/attempt-001/history.tsv",
+        "sha256": "2058efb1c6f3c5379fa5d21a69abcb0457f95e166250ea81b41b858990a41296"
+      },
+      "model": "enhancer",
+      "path": "runs/V2-C_enhancer_seed155921/attempt-001/selected_checkpoint.keras",
+      "run_id": "V2-C_enhancer_seed155921",
+      "seed": 155921,
+      "selected_checkpoint_record": {
+        "bytes": 1184,
+        "path": "runs/V2-C_enhancer_seed155921/attempt-001/selected_checkpoint.json",
+        "sha256": "cdeb9734b5604ab0798facd559d2d2e58e12cd0470c0420e1cb1ddf8f1299db7"
+      },
+      "selected_epoch_one_based": 7,
+      "sha256": "733ca1845061508c820240d04d4b7c30d8ba0fa7c1086419eaec0b5c2bb041d5",
+      "training_contract": {
+        "bytes": 2609,
+        "path": "runs/V2-C_enhancer_seed155921/attempt-001/training_contract.json",
+        "sha256": "dc10ba0e01d1b05b1b7e3cff4cc5d0cf9e2013d2dc64a97d0bea51ba81177d8f"
+      }
+    },
+    {
+      "bytes": 350064314,
+      "checkpoint_improvements": {
+        "bytes": 272,
+        "path": "runs/V2-C_h3k27me3_seed104729/attempt-001/checkpoint_improvements.tsv",
+        "sha256": "06ca99a165fcd7a937420d183cb2a4a5f582094139af7b2c21e24f5129c385f0"
+      },
+      "checkpoint_symmetric_BCE": 0.496913554181394,
+      "command_record": {
+        "bytes": 1323,
+        "path": "provenance/commands/V2-C_h3k27me3_seed104729_attempt001.completed.json",
+        "sha256": "3473fcd0db3ec9e3ac39c36e6475d8aeec511e22f5c6d776809713abc695ad1a"
+      },
+      "completed": true,
+      "completed_record": {
+        "bytes": 1394,
+        "path": "runs/V2-C_h3k27me3_seed104729/attempt-001/completed.json",
+        "sha256": "482ff07eee570d0b59ba7a00fa8af009c56561419d0152d2059794ebaeaeb183"
+      },
+      "configuration": "V2-C",
+      "history": {
+        "bytes": 6388,
+        "path": "runs/V2-C_h3k27me3_seed104729/attempt-001/history.tsv",
+        "sha256": "0c964423d451925a77ddc0a0e4a313c68381cc29d5f04cb7730c082e0c20538c"
+      },
+      "model": "h3k27me3",
+      "path": "runs/V2-C_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras",
+      "run_id": "V2-C_h3k27me3_seed104729",
+      "seed": 104729,
+      "selected_checkpoint_record": {
+        "bytes": 1183,
+        "path": "runs/V2-C_h3k27me3_seed104729/attempt-001/selected_checkpoint.json",
+        "sha256": "f10b32b928e2ba11349b1cf1f889228c31a47d69454ede7f78256dd38f0bbcca"
+      },
+      "selected_epoch_one_based": 14,
+      "sha256": "503683295ebeb48587f42748181bf6c5815f6a8c79b8dfdd4b669c931109be81",
+      "training_contract": {
+        "bytes": 2606,
+        "path": "runs/V2-C_h3k27me3_seed104729/attempt-001/training_contract.json",
+        "sha256": "63649a22ed8cbb59141524cec978456f8637391c4aa505f95bf117acbc3634a4"
+      }
+    },
+    {
+      "bytes": 350064314,
+      "checkpoint_improvements": {
+        "bytes": 298,
+        "path": "runs/V2-C_h3k27me3_seed130363/attempt-001/checkpoint_improvements.tsv",
+        "sha256": "0f81449d3b5dded4a115ac17fba6aad7387a450982d53eae26c001933981e698"
+      },
+      "checkpoint_symmetric_BCE": 0.49164638472615635,
+      "command_record": {
+        "bytes": 1323,
+        "path": "provenance/commands/V2-C_h3k27me3_seed130363_attempt001.completed.json",
+        "sha256": "0bcd2ddbcf5444bc8d8c6a43ad7ca7ae691e3cf7d47af4bfbd633ff4da440fa0"
+      },
+      "completed": true,
+      "completed_record": {
+        "bytes": 1398,
+        "path": "runs/V2-C_h3k27me3_seed130363/attempt-001/completed.json",
+        "sha256": "25733fe4155c740d074082245a1829ae7afd2843a1acb170828ab35f7b58c856"
+      },
+      "configuration": "V2-C",
+      "history": {
+        "bytes": 8538,
+        "path": "runs/V2-C_h3k27me3_seed130363/attempt-001/history.tsv",
+        "sha256": "587874f70a58ed4347112264c5655d06b2bb71a00a10d91708bb88ddc7f6bb0f"
+      },
+      "model": "h3k27me3",
+      "path": "runs/V2-C_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras",
+      "run_id": "V2-C_h3k27me3_seed130363",
+      "seed": 130363,
+      "selected_checkpoint_record": {
+        "bytes": 1187,
+        "path": "runs/V2-C_h3k27me3_seed130363/attempt-001/selected_checkpoint.json",
+        "sha256": "f8ea045676a4f5de23f5e2c502703064c59309df26874f8c2a90f78f733ae4b3"
+      },
+      "selected_epoch_one_based": 24,
+      "sha256": "56a2d331b6ed27e49f103dce228dda3c26a80ff296e91c9c740e52b9c36841c6",
+      "training_contract": {
+        "bytes": 2606,
+        "path": "runs/V2-C_h3k27me3_seed130363/attempt-001/training_contract.json",
+        "sha256": "e7e1793bd0db92237d7fc83fe69051f9dd26a050297569421a7e2fbc6c3d50cb"
+      }
+    },
+    {
+      "bytes": 350064314,
+      "checkpoint_improvements": {
+        "bytes": 225,
+        "path": "runs/V2-C_h3k27me3_seed155921/attempt-001/checkpoint_improvements.tsv",
+        "sha256": "c2eb64edbe944e921b44a28d00a2251d73073b3cc24f726046bd1d11fcc4c9a4"
+      },
+      "checkpoint_symmetric_BCE": 0.49897845653137984,
+      "command_record": {
+        "bytes": 1322,
+        "path": "provenance/commands/V2-C_h3k27me3_seed155921_attempt001.completed.json",
+        "sha256": "f745ae366e6c080a283968e3c5dfaa40e3cc5ffe7424e3ef30459908b6d5f364"
+      },
+      "completed": true,
+      "completed_record": {
+        "bytes": 1398,
+        "path": "runs/V2-C_h3k27me3_seed155921/attempt-001/completed.json",
+        "sha256": "edab18dad4d27e828ba2d64a644b7e18280d91151b4910ab0cf13e038b090af5"
+      },
+      "configuration": "V2-C",
+      "history": {
+        "bytes": 5100,
+        "path": "runs/V2-C_h3k27me3_seed155921/attempt-001/history.tsv",
+        "sha256": "b1531645832ffd8448db02b960e71166bff09544a9f8f8dac92948d1aa0e9eae"
+      },
+      "model": "h3k27me3",
+      "path": "runs/V2-C_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras",
+      "run_id": "V2-C_h3k27me3_seed155921",
+      "seed": 155921,
+      "selected_checkpoint_record": {
+        "bytes": 1186,
+        "path": "runs/V2-C_h3k27me3_seed155921/attempt-001/selected_checkpoint.json",
+        "sha256": "98353baf88326453c0a2084dec4bc5b9f1c79c8a0ffb25ac30fa755fd1dc7c05"
+      },
+      "selected_epoch_one_based": 8,
+      "sha256": "995dc295d163a703b80bb3e451b8fc3bd7af01fb6ce041099fc5ce3d9cc82560",
+      "training_contract": {
+        "bytes": 2606,
+        "path": "runs/V2-C_h3k27me3_seed155921/attempt-001/training_contract.json",
+        "sha256": "5190e36004183b02ea055dd4bc8e4a3f8695fc6c28f98bb0acf30f6a9010ae55"
+      }
+    }
+  ],
+  "chr8_chr9_access": false,
+  "created_utc": "2026-10-06T16:02:45.690833+00:00",
+  "execution_input_gate": {
+    "bytes": 6388,
+    "path": "provenance/execution_input_gate.json",
+    "sha256": "344834610ded7f51b8ed7cad5f9429da1d722acae1137e660da81dfde09f487d"
+  },
+  "external_benchmark_access": false,
+  "freeze_allows_only": "chr7 actual-network RC gate and authorized internal common-panel evaluation; no test/external/candidate scoring",
+  "infrastructure_failures_and_retries": [],
+  "input_manifest": {
+    "bytes": 8941,
+    "path": "inputs/input_manifest.json",
+    "sha256": "4c56f1aa34bc69da121e825d31c70c46d7b3de9be769d5b26a9c426d476bb538"
+  },
+  "real_network_invariance": "NEXT_REQUIRED_GATE_NOT_YET_RUN",
+  "scripts": [
+    {
+      "bytes": 13066,
+      "path": "scripts/phase_two_contract.py",
+      "sha256": "f50f226b901df6bbd66455462e4da922d8229a4d030f09613a8483a74f636e2f"
+    },
+    {
+      "bytes": 13727,
+      "path": "scripts/train_phase_two.py",
+      "sha256": "b39accf4d1c45a8743550b209ed9cf0eda95c675475f1481f896b1dfef1e6959"
+    },
+    {
+      "bytes": 12036,
+      "path": "scripts/predict_chr7.py",
+      "sha256": "1316cb5e79d9102779bb5611e561eed6482b61315345f62ddc74d6545ef2fe99"
+    },
+    {
+      "bytes": 14279,
+      "path": "scripts/freeze_checkpoints.py",
+      "sha256": "600c890f7279f8044392acdd1b114f39326e14cd1e1194350a341cf0c9a4505a"
+    },
+    {
+      "bytes": 1710,
+      "path": "scripts/train_array.sh",
+      "sha256": "e8de22054bd2a4ffe75e27abb64ee6641869a4a7909feabe83e6796173fd4118"
+    },
+    {
+      "bytes": 2044,
+      "path": "scripts/run_logged.py",
+      "sha256": "150cd5e2a10b5355349528bc480705cd3b2079ea8c11b3dbcad209327040cc7a"
+    },
+    {
+      "bytes": 937,
+      "path": "scripts/runtime.sh",
+      "sha256": "bd4ebbfcd3443dece86d4d535f313f3676ead7fb5dd8319e7ce0ec2f843eb0fc"
+    }
+  ],
+  "selection_prediction_authorized": true,
+  "selection_predictions_previously_examined": false,
+  "status": "PASS",
+  "training_outcomes": {
+    "bytes": 3323,
+    "path": "results/training_outcomes.tsv",
+    "sha256": "3ac836ac34f1a45816dbb5ea3cf8cffeb045ba304bb53d700a0e1e1dc84fe084"
+  }
+}
