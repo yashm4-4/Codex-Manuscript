@@ -1,0 +1,206 @@
+{
+  "all_original_archives_unchanged_after_inference": true,
+  "all_six_seeds_contexts_complete": true,
+  "allele_delta_threshold": null,
+  "allele_order": [
+    "REF",
+    "ALT"
+  ],
+  "candidate_universe_access": false,
+  "completed": true,
+  "contexts": [
+    "enhancer",
+    "h3k27me3"
+  ],
+  "ensemble_array_axes": [
+    "context",
+    "variant_table_row",
+    "allele"
+  ],
+  "experimental_outcome_tables_parsed": false,
+  "files": [
+    {
+      "bytes": 590,
+      "path": "predictions/enhancer_ensemble_RC_invariance.json",
+      "sha256": "21ce57d5202bbbceb59c9e3d5abe48115f6db149fe78900c44012ac1c932bd26"
+    },
+    {
+      "bytes": 584,
+      "path": "predictions/enhancer_seed104729_RC_invariance.json",
+      "sha256": "aa9f3b2571ebc767ac08c664d5b5879c85e40c2fe68f66790182af1ef6014dac"
+    },
+    {
+      "bytes": 584,
+      "path": "predictions/enhancer_seed130363_RC_invariance.json",
+      "sha256": "b54632e47e848ed31350ed92b123f21cee7e862c22eb6112819ff21962ec97b6"
+    },
+    {
+      "bytes": 584,
+      "path": "predictions/enhancer_seed155921_RC_invariance.json",
+      "sha256": "70d71c9577c2a3ddadab4591c89c244f8443502e870d72fda63ca40f9ca29ef5"
+    },
+    {
+      "bytes": 54848,
+      "path": "predictions/ensemble_independent_RC_probabilities.npy",
+      "sha256": "e8facabbc792fb70068520202850c843c0abee15e4a6ae4bf774533d72eb5507"
+    },
+    {
+      "bytes": 54848,
+      "path": "predictions/ensemble_probabilities.npy",
+      "sha256": "e8facabbc792fb70068520202850c843c0abee15e4a6ae4bf774533d72eb5507"
+    },
+    {
+      "bytes": 1444,
+      "path": "predictions/environment.json",
+      "sha256": "43ec39081c659d87e682d0abd8d953ef0de6be7c3cbd5869b84d0e2ee9a59fd4"
+    },
+    {
+      "bytes": 590,
+      "path": "predictions/h3k27me3_ensemble_RC_invariance.json",
+      "sha256": "fb7deda5938fb03aed5ff8f33e6f651d4c86b1c68ff950bec1341f0147447bd2"
+    },
+    {
+      "bytes": 584,
+      "path": "predictions/h3k27me3_seed104729_RC_invariance.json",
+      "sha256": "b9756c3c64cb1673fec5d61475f0934b9260d9d10f51713affc82b90c28a3758"
+    },
+    {
+      "bytes": 584,
+      "path": "predictions/h3k27me3_seed130363_RC_invariance.json",
+      "sha256": "8ccd4daaff3db24abe1422cf20a4602e48d0a054a8e2aa033607ef52be05454c"
+    },
+    {
+      "bytes": 584,
+      "path": "predictions/h3k27me3_seed155921_RC_invariance.json",
+      "sha256": "8b129d30dcd897b608c617a42f08a03389151a027dc535b5014e37db2c87f3d6"
+    },
+    {
+      "bytes": 17371,
+      "path": "predictions/phase_I_architecture.json",
+      "sha256": "f6f529bb64af870e3efda95bbf90095d2800d6731e228c4db9cdced8449adad4"
+    },
+    {
+      "bytes": 62380928,
+      "path": "predictions/phase_I_forward.npy",
+      "sha256": "511ae9db47a6693324497d2e697c3d4c171a40b1c4bff49373e1a93f1a1e80f2"
+    },
+    {
+      "bytes": 62380928,
+      "path": "predictions/phase_I_independent_RC_first.npy",
+      "sha256": "7d0dde840f01917b7d3f8090c1cc97597089b9609211c75644968f834c572f18"
+    },
+    {
+      "bytes": 62380928,
+      "path": "predictions/phase_I_independent_forward_second.npy",
+      "sha256": "511ae9db47a6693324497d2e697c3d4c171a40b1c4bff49373e1a93f1a1e80f2"
+    },
+    {
+      "bytes": 62380928,
+      "path": "predictions/phase_I_nucleotide_RC.npy",
+      "sha256": "7d0dde840f01917b7d3f8090c1cc97597089b9609211c75644968f834c572f18"
+    },
+    {
+      "bytes": 2024,
+      "path": "predictions/phase_I_provenance.json",
+      "sha256": "2745731a326100755194f1230213b7bfe9cad455dd52ad2a74fdae9a99db5656"
+    },
+    {
+      "bytes": 656768,
+      "path": "predictions/raw_orientation_probabilities.npy",
+      "sha256": "1a47f462364cc138eeaa48ca178eca854d0f235e9b445455158633aa2afaed37"
+    },
+    {
+      "bytes": 5543,
+      "path": "predictions/real_network_invariance.json",
+      "sha256": "d3055f56de85954684a3732d3e11688a013b6e1a5754230d423b80c1ea12effb"
+    },
+    {
+      "bytes": 7432835,
+      "path": "predictions/seed_allele_scores.tsv",
+      "sha256": "8072229678a136638eb6858e270feffa7dd10803861711390258a1ba3f9f6794"
+    },
+    {
+      "bytes": 164288,
+      "path": "predictions/seed_independent_RC_probabilities.npy",
+      "sha256": "670dadbad89921ffd4d128ea9a8ce41b34bc3278212ca6067628ae955f82a426"
+    },
+    {
+      "bytes": 164288,
+      "path": "predictions/seed_symmetric_probabilities.npy",
+      "sha256": "670dadbad89921ffd4d128ea9a8ce41b34bc3278212ca6067628ae955f82a426"
+    },
+    {
+      "bytes": 938,
+      "path": "predictions/started.json",
+      "sha256": "c4f25e8f932331983e8884a1126226fc580d337ae504884ff374fdce2d752eda"
+    },
+    {
+      "bytes": 1317838,
+      "path": "predictions/variant_context_scores.tsv",
+      "sha256": "d4f9b7fc5b2199f03b7a7058f9c089d5de5fcb5902c903e9591a55308dcd1662"
+    },
+    {
+      "bytes": 910809,
+      "path": "predictions/verified_before_inference.json",
+      "sha256": "f445fe5156931bd44ad29e28f10c9ff165bad77baa55c970b367d3dabf7940a5"
+    }
+  ],
+  "n_allele_sequences": 3420,
+  "n_context_variant_scores": 3420,
+  "n_original_checkpoints": 6,
+  "n_seed_variant_scores": 10260,
+  "n_variants": 1710,
+  "ordered_seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "prior_training_or_internal_test_entrypoint_execution": false,
+  "probability_array_dtype": "float64; raw network float32 values promoted before arithmetic",
+  "raw_array_axes": [
+    "context",
+    "seed",
+    "variant_table_row",
+    "allele",
+    "orientation"
+  ],
+  "raw_orientation_order": [
+    "forward",
+    "nucleotide_RC",
+    "independent_RC_first",
+    "independent_forward_second"
+  ],
+  "region_thresholds_are_not_variant_FPR_or_allele_effect_thresholds": true,
+  "resources": {
+    "finished_utc": "2026-10-06T20:09:46.860827+00:00",
+    "peak_RSS_KiB": 2431012,
+    "system_cpu_seconds": 4.086256,
+    "user_cpu_seconds": 18.089134,
+    "wall_seconds": 41.18218468106352
+  },
+  "self_reference_exclusions": [
+    "inference_manifest.json",
+    "completed.json"
+  ],
+  "stage": "external-benchmark-v2-1.0",
+  "status": "PASS",
+  "symmetric_array_axes": [
+    "context",
+    "seed",
+    "variant_table_row",
+    "allele"
+  ],
+  "thresholds": {
+    "enhancer": {
+      "decimal17g": "0.74848511815071117",
+      "float64_hex": "0x1.7f39710000001p-1",
+      "operator": ">="
+    },
+    "h3k27me3": {
+      "decimal17g": "0.76960810025533055",
+      "float64_hex": "0x1.8a0a12aaaaaacp-1",
+      "operator": ">="
+    }
+  },
+  "training_or_recalibration": false
+}

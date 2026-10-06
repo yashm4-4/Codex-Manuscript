@@ -1,0 +1,746 @@
+{
+  "candidate_universe_accessed": false,
+  "classification_metrics_calculated": false,
+  "common_identity_recovery": [
+    {
+      "context": "enhancer",
+      "denominator": 23,
+      "fraction": 0.08695652173913043,
+      "method": "V1_forward",
+      "population": "three_method_exact_positive_intersection",
+      "recovered": 2
+    },
+    {
+      "context": "h3k27me3",
+      "denominator": 23,
+      "fraction": 0.043478260869565216,
+      "method": "V1_forward",
+      "population": "three_method_exact_positive_intersection",
+      "recovered": 1
+    },
+    {
+      "context": "union",
+      "denominator": 23,
+      "fraction": 0.08695652173913043,
+      "method": "V1_forward",
+      "population": "three_method_exact_positive_intersection",
+      "recovered": 2
+    },
+    {
+      "context": "enhancer",
+      "denominator": 23,
+      "fraction": 0.043478260869565216,
+      "method": "V1_RC",
+      "population": "three_method_exact_positive_intersection",
+      "recovered": 1
+    },
+    {
+      "context": "h3k27me3",
+      "denominator": 23,
+      "fraction": 0.043478260869565216,
+      "method": "V1_RC",
+      "population": "three_method_exact_positive_intersection",
+      "recovered": 1
+    },
+    {
+      "context": "union",
+      "denominator": 23,
+      "fraction": 0.08695652173913043,
+      "method": "V1_RC",
+      "population": "three_method_exact_positive_intersection",
+      "recovered": 2
+    },
+    {
+      "context": "enhancer",
+      "denominator": 23,
+      "fraction": 0.08695652173913043,
+      "method": "V2_C_symmetric",
+      "population": "three_method_exact_positive_intersection",
+      "recovered": 2
+    },
+    {
+      "context": "h3k27me3",
+      "denominator": 23,
+      "fraction": 0.043478260869565216,
+      "method": "V2_C_symmetric",
+      "population": "three_method_exact_positive_intersection",
+      "recovered": 1
+    },
+    {
+      "context": "union",
+      "denominator": 23,
+      "fraction": 0.13043478260869565,
+      "method": "V2_C_symmetric",
+      "population": "three_method_exact_positive_intersection",
+      "recovered": 3
+    }
+  ],
+  "completed_utc": "2026-10-06T20:10:19.889067+00:00",
+  "direction_summaries": [
+    {
+      "concordant": 7,
+      "context": "enhancer",
+      "denominator": 11,
+      "discordant": 4,
+      "interpretation": "descriptive; contexts and loci are correlated; no independent-sample inference",
+      "non_tied_denominator": 11,
+      "secondary_non_tied_fraction": 0.6363636363636364,
+      "strict_concordance_fraction": 0.6363636363636364,
+      "subset": "all_strict_observations",
+      "tied": 0,
+      "unit": "observation"
+    },
+    {
+      "concordant": 5,
+      "context": "enhancer",
+      "denominator": 9,
+      "discordant": 4,
+      "interpretation": "descriptive; contexts and loci are correlated; no independent-sample inference",
+      "non_tied_denominator": 9,
+      "secondary_non_tied_fraction": 0.5555555555555556,
+      "strict_concordance_fraction": 0.5555555555555556,
+      "subset": "reporter",
+      "tied": 0,
+      "unit": "observation"
+    },
+    {
+      "concordant": 2,
+      "context": "enhancer",
+      "denominator": 2,
+      "discordant": 0,
+      "interpretation": "descriptive; contexts and loci are correlated; no independent-sample inference",
+      "non_tied_denominator": 2,
+      "secondary_non_tied_fraction": 1.0,
+      "strict_concordance_fraction": 1.0,
+      "subset": "endogenous_editing",
+      "tied": 0,
+      "unit": "observation"
+    },
+    {
+      "concordant": 5,
+      "context": "enhancer",
+      "denominator": 8,
+      "discordant": 3,
+      "interpretation": "descriptive; contexts and loci are correlated; no independent-sample inference",
+      "non_tied_denominator": 8,
+      "secondary_non_tied_fraction": 0.625,
+      "strict_concordance_fraction": 0.625,
+      "subset": "nonconflicting_consensus",
+      "tied": 0,
+      "unit": "unique_variant"
+    },
+    {
+      "concordant": 0,
+      "context": "h3k27me3",
+      "denominator": 0,
+      "discordant": 0,
+      "interpretation": "descriptive; contexts and loci are correlated; no independent-sample inference",
+      "non_tied_denominator": 0,
+      "secondary_non_tied_fraction": null,
+      "strict_concordance_fraction": null,
+      "subset": "all_strict_observations",
+      "tied": 0,
+      "unit": "observation"
+    },
+    {
+      "concordant": 0,
+      "context": "h3k27me3",
+      "denominator": 0,
+      "discordant": 0,
+      "interpretation": "descriptive; contexts and loci are correlated; no independent-sample inference",
+      "non_tied_denominator": 0,
+      "secondary_non_tied_fraction": null,
+      "strict_concordance_fraction": null,
+      "subset": "reporter",
+      "tied": 0,
+      "unit": "observation"
+    },
+    {
+      "concordant": 0,
+      "context": "h3k27me3",
+      "denominator": 0,
+      "discordant": 0,
+      "interpretation": "descriptive; contexts and loci are correlated; no independent-sample inference",
+      "non_tied_denominator": 0,
+      "secondary_non_tied_fraction": null,
+      "strict_concordance_fraction": null,
+      "subset": "endogenous_editing",
+      "tied": 0,
+      "unit": "observation"
+    },
+    {
+      "concordant": 0,
+      "context": "h3k27me3",
+      "denominator": 0,
+      "discordant": 0,
+      "interpretation": "descriptive; contexts and loci are correlated; no independent-sample inference",
+      "non_tied_denominator": 0,
+      "secondary_non_tied_fraction": null,
+      "strict_concordance_fraction": null,
+      "subset": "nonconflicting_consensus",
+      "tied": 0,
+      "unit": "unique_variant"
+    }
+  ],
+  "files": [
+    {
+      "bytes": 22635609,
+      "path": "results/all_observation_evaluation.tsv",
+      "sha256": "1273c3b9b0211a1bb825724955d35f7d07a1164cedfebcfb3b8e93d016f9d139"
+    },
+    {
+      "bytes": 1429557,
+      "path": "results/all_variant_evaluation.tsv",
+      "sha256": "0c20f07cd654e553a800eeee10e372d53d269c810fde26b591e04df8f1a83bd2"
+    },
+    {
+      "bytes": 685,
+      "path": "results/context_state_populations.tsv",
+      "sha256": "e1f929223acffe76839ecee9f385a5e584c7939edcb17e5f8d575e03cc942615"
+    },
+    {
+      "bytes": 579649,
+      "path": "results/contextual_and_excluded_evidence.tsv",
+      "sha256": "02632edc49a57e77eea5d32187ab93c63e9d432232d79e480f7439b731f52477"
+    },
+    {
+      "bytes": 5771,
+      "path": "results/continuous_score_distributions.tsv",
+      "sha256": "a3683a7f94a99a66fad9a18e35cdd15d80de819e9e75b7b420dbf5a00c8510d6"
+    },
+    {
+      "bytes": 1297,
+      "path": "results/direction_concordance_summary.tsv",
+      "sha256": "e31f92000365ec5dfafe43c6b77fa9d45622a948d7a8d8e70f768a4857ac9c2c"
+    },
+    {
+      "bytes": 32,
+      "path": "results/direction_conflicts.tsv",
+      "sha256": "45fa9fb7e61156ff325e4a835ea1fbdcc8c4b228631be95d7fb2d36a048159a4"
+    },
+    {
+      "bytes": 877,
+      "path": "results/direction_locus_summary.tsv",
+      "sha256": "65b93f766f44a7e1b5f8eb403edbf69187edd435bc5503a992359526a0498695"
+    },
+    {
+      "bytes": 2926,
+      "path": "results/direction_resolved_allelic_effects.tsv",
+      "sha256": "66c2600b24b343fc0e30fe9d6077402faa987214a6c412e4a149c671c9c19452"
+    },
+    {
+      "bytes": 19409,
+      "path": "results/direction_unevaluable_observations.tsv",
+      "sha256": "306eb7ddb232c666c76c2a1d5cf8c4ecbd697f1d279fbf747f11388acb922cd5"
+    },
+    {
+      "bytes": 825,
+      "path": "results/direction_unique_variant_consensus.tsv",
+      "sha256": "98ada7590b902989b83bceb8bb1842d0d370c6c6196d1841b2c9708dc807df8b"
+    },
+    {
+      "bytes": 581,
+      "path": "results/evaluation_started.json",
+      "sha256": "5dbefddf89d98cbae2d0dae6f0eb7493040ba17f47c4f12cda61fcb4ffeb041c"
+    },
+    {
+      "bytes": 13637,
+      "path": "results/frozen_denominator_rules.tsv",
+      "sha256": "98e826f60471b31442fea0cd0cfec504631e2eade001342ce2c14086ffd87b5a"
+    },
+    {
+      "bytes": 1980,
+      "path": "results/newly_V2_scorable_positive_variants.tsv",
+      "sha256": "75ba7ee9960e7400b8b3dcebff666cb4a491fe6ca3f8a78bd6331d9125d72437"
+    },
+    {
+      "bytes": 1900,
+      "path": "results/newly_V2_scorable_positive_variants_vs_RC.tsv",
+      "sha256": "5b294680bfd9e3458bf382e4639d435dfbd0bd5c02c0f1458e2b5e1306aba041"
+    },
+    {
+      "bytes": 268,
+      "path": "results/paired_V1_V2_region_comparison.tsv",
+      "sha256": "6fd9920c10e23f52deface9d9e55f8cba1dbe76a6a7b7b2a799f9e83cc80fa30"
+    },
+    {
+      "bytes": 11264,
+      "path": "results/paired_V1_V2_variant_transitions.tsv",
+      "sha256": "c5e4efd3b50c8942340c3bf649ad9b8804bd22eb04da3cde64be261db1f6fb78"
+    },
+    {
+      "bytes": 845,
+      "path": "results/population_accounting.tsv",
+      "sha256": "b62d5ed22121a2d0a8b430d37f62927a849b2a69287ea903f0163539af5cfa4c"
+    },
+    {
+      "bytes": 34571,
+      "path": "results/region_recovery_per_variant.tsv",
+      "sha256": "4ddcc6265cd8f419eb79736bfdf343206eb1ca1d50dd7b57520de5a99dbb7b77"
+    },
+    {
+      "bytes": 3400,
+      "path": "results/region_recovery_summary.tsv",
+      "sha256": "08b6586a55e5faa056454030452d5f6dd1cbeb0bce5414f1dd6dd858e71f5107"
+    },
+    {
+      "bytes": 13781,
+      "path": "results/source_mechanism_stratified_recovery.tsv",
+      "sha256": "1174b2fc0308c392761a23e64cdc7b29c338ba73cc1206d31f1304a5de957b06"
+    },
+    {
+      "bytes": 823,
+      "path": "results/three_method_common_identity_recovery.tsv",
+      "sha256": "995da84d9d94f5005d2ee2fc1fe27c1d3cee7d3d4039601f816390cd303b539d"
+    },
+    {
+      "bytes": 9805,
+      "path": "results/unevaluable_variants.tsv",
+      "sha256": "cf5be7142f01cfb9374d2da186480848562936e8b12879831cf585d642bbbfbc"
+    }
+  ],
+  "internal_reference_distribution_constructed": false,
+  "models_or_seeds_changed": false,
+  "new_V2_coverage_positive_count": 16,
+  "paired_comparisons": [
+    {
+      "baseline": "V1_forward",
+      "context": "enhancer",
+      "lost": 1,
+      "newly_recovered": 1,
+      "retained_recovery": 1,
+      "shared_positive_denominator": 23,
+      "still_missed": 20
+    },
+    {
+      "baseline": "V1_forward",
+      "context": "h3k27me3",
+      "lost": 0,
+      "newly_recovered": 0,
+      "retained_recovery": 1,
+      "shared_positive_denominator": 23,
+      "still_missed": 22
+    },
+    {
+      "baseline": "V1_forward",
+      "context": "union",
+      "lost": 0,
+      "newly_recovered": 1,
+      "retained_recovery": 2,
+      "shared_positive_denominator": 23,
+      "still_missed": 20
+    },
+    {
+      "baseline": "V1_RC",
+      "context": "enhancer",
+      "lost": 0,
+      "newly_recovered": 1,
+      "retained_recovery": 1,
+      "shared_positive_denominator": 23,
+      "still_missed": 21
+    },
+    {
+      "baseline": "V1_RC",
+      "context": "h3k27me3",
+      "lost": 0,
+      "newly_recovered": 0,
+      "retained_recovery": 1,
+      "shared_positive_denominator": 23,
+      "still_missed": 22
+    },
+    {
+      "baseline": "V1_RC",
+      "context": "union",
+      "lost": 0,
+      "newly_recovered": 1,
+      "retained_recovery": 2,
+      "shared_positive_denominator": 23,
+      "still_missed": 20
+    }
+  ],
+  "population_accounting": [
+    {
+      "count": 14025,
+      "population": "original_master_observations"
+    },
+    {
+      "count": 267,
+      "population": "contextual_excluded_source_rows"
+    },
+    {
+      "count": 1731,
+      "population": "all_benchmark_identity_keys"
+    },
+    {
+      "count": 1710,
+      "population": "exact_benchmark_identity_keys"
+    },
+    {
+      "count": 1710,
+      "population": "exact_V2_scorable_identity_keys_all_states_mechanisms"
+    },
+    {
+      "count": 41,
+      "population": "experimentally_positive_keys_all_mechanisms_including_unresolved"
+    },
+    {
+      "count": 40,
+      "population": "exact_experimentally_positive_keys_all_mechanisms"
+    },
+    {
+      "count": 1,
+      "population": "splice_only_positive_keys_out_of_model_not_false_negatives"
+    },
+    {
+      "count": 1,
+      "population": "positive_keys_with_out_of_model_observations"
+    },
+    {
+      "count": 40,
+      "population": "in_scope_positive_identity_keys_including_unresolved"
+    },
+    {
+      "count": 39,
+      "population": "exact_in_scope_positive_identity_keys"
+    },
+    {
+      "count": 39,
+      "population": "exact_V2_scorable_in_scope_positive_primary"
+    },
+    {
+      "count": 39,
+      "population": "exact_V2_scorable_reporter_positive"
+    },
+    {
+      "count": 2,
+      "population": "exact_V2_scorable_endogenous_positive"
+    },
+    {
+      "count": 23,
+      "population": "V1_forward_RC_V2_common_positive"
+    },
+    {
+      "count": 11,
+      "population": "strict_enhancer_direction_observations"
+    },
+    {
+      "count": 8,
+      "population": "strict_enhancer_direction_unique_variants_nonconflicting"
+    },
+    {
+      "count": 0,
+      "population": "strict_H3K27me3_direction_observations"
+    }
+  ],
+  "region_recovery": [
+    {
+      "context": "enhancer",
+      "evaluable_positive_denominator": 23,
+      "interpretation": "descriptive region case-series recovery; not sensitivity",
+      "method": "V1_forward",
+      "positive_keys_before_method_coverage": 40,
+      "recovered": 2,
+      "recovery_fraction": 0.08695652173913043,
+      "subset": "all_in_scope_positive",
+      "unevaluable_count": 17
+    },
+    {
+      "context": "h3k27me3",
+      "evaluable_positive_denominator": 23,
+      "interpretation": "descriptive region case-series recovery; not sensitivity",
+      "method": "V1_forward",
+      "positive_keys_before_method_coverage": 40,
+      "recovered": 1,
+      "recovery_fraction": 0.043478260869565216,
+      "subset": "all_in_scope_positive",
+      "unevaluable_count": 17
+    },
+    {
+      "context": "union",
+      "evaluable_positive_denominator": 23,
+      "interpretation": "descriptive region case-series recovery; not sensitivity",
+      "method": "V1_forward",
+      "positive_keys_before_method_coverage": 40,
+      "recovered": 2,
+      "recovery_fraction": 0.08695652173913043,
+      "subset": "all_in_scope_positive",
+      "unevaluable_count": 17
+    },
+    {
+      "context": "enhancer",
+      "evaluable_positive_denominator": 23,
+      "interpretation": "descriptive region case-series recovery; not sensitivity",
+      "method": "V1_RC",
+      "positive_keys_before_method_coverage": 40,
+      "recovered": 1,
+      "recovery_fraction": 0.043478260869565216,
+      "subset": "all_in_scope_positive",
+      "unevaluable_count": 17
+    },
+    {
+      "context": "h3k27me3",
+      "evaluable_positive_denominator": 23,
+      "interpretation": "descriptive region case-series recovery; not sensitivity",
+      "method": "V1_RC",
+      "positive_keys_before_method_coverage": 40,
+      "recovered": 1,
+      "recovery_fraction": 0.043478260869565216,
+      "subset": "all_in_scope_positive",
+      "unevaluable_count": 17
+    },
+    {
+      "context": "union",
+      "evaluable_positive_denominator": 23,
+      "interpretation": "descriptive region case-series recovery; not sensitivity",
+      "method": "V1_RC",
+      "positive_keys_before_method_coverage": 40,
+      "recovered": 2,
+      "recovery_fraction": 0.08695652173913043,
+      "subset": "all_in_scope_positive",
+      "unevaluable_count": 17
+    },
+    {
+      "context": "enhancer",
+      "evaluable_positive_denominator": 39,
+      "interpretation": "descriptive region case-series recovery; not sensitivity",
+      "method": "V2_C_symmetric",
+      "positive_keys_before_method_coverage": 40,
+      "recovered": 3,
+      "recovery_fraction": 0.07692307692307693,
+      "subset": "all_in_scope_positive",
+      "unevaluable_count": 1
+    },
+    {
+      "context": "h3k27me3",
+      "evaluable_positive_denominator": 39,
+      "interpretation": "descriptive region case-series recovery; not sensitivity",
+      "method": "V2_C_symmetric",
+      "positive_keys_before_method_coverage": 40,
+      "recovered": 1,
+      "recovery_fraction": 0.02564102564102564,
+      "subset": "all_in_scope_positive",
+      "unevaluable_count": 1
+    },
+    {
+      "context": "union",
+      "evaluable_positive_denominator": 39,
+      "interpretation": "descriptive region case-series recovery; not sensitivity",
+      "method": "V2_C_symmetric",
+      "positive_keys_before_method_coverage": 40,
+      "recovered": 4,
+      "recovery_fraction": 0.10256410256410256,
+      "subset": "all_in_scope_positive",
+      "unevaluable_count": 1
+    },
+    {
+      "context": "enhancer",
+      "evaluable_positive_denominator": 23,
+      "interpretation": "descriptive region case-series recovery; not sensitivity",
+      "method": "V1_forward",
+      "positive_keys_before_method_coverage": 40,
+      "recovered": 2,
+      "recovery_fraction": 0.08695652173913043,
+      "subset": "reporter_positive",
+      "unevaluable_count": 17
+    },
+    {
+      "context": "h3k27me3",
+      "evaluable_positive_denominator": 23,
+      "interpretation": "descriptive region case-series recovery; not sensitivity",
+      "method": "V1_forward",
+      "positive_keys_before_method_coverage": 40,
+      "recovered": 1,
+      "recovery_fraction": 0.043478260869565216,
+      "subset": "reporter_positive",
+      "unevaluable_count": 17
+    },
+    {
+      "context": "union",
+      "evaluable_positive_denominator": 23,
+      "interpretation": "descriptive region case-series recovery; not sensitivity",
+      "method": "V1_forward",
+      "positive_keys_before_method_coverage": 40,
+      "recovered": 2,
+      "recovery_fraction": 0.08695652173913043,
+      "subset": "reporter_positive",
+      "unevaluable_count": 17
+    },
+    {
+      "context": "enhancer",
+      "evaluable_positive_denominator": 23,
+      "interpretation": "descriptive region case-series recovery; not sensitivity",
+      "method": "V1_RC",
+      "positive_keys_before_method_coverage": 40,
+      "recovered": 1,
+      "recovery_fraction": 0.043478260869565216,
+      "subset": "reporter_positive",
+      "unevaluable_count": 17
+    },
+    {
+      "context": "h3k27me3",
+      "evaluable_positive_denominator": 23,
+      "interpretation": "descriptive region case-series recovery; not sensitivity",
+      "method": "V1_RC",
+      "positive_keys_before_method_coverage": 40,
+      "recovered": 1,
+      "recovery_fraction": 0.043478260869565216,
+      "subset": "reporter_positive",
+      "unevaluable_count": 17
+    },
+    {
+      "context": "union",
+      "evaluable_positive_denominator": 23,
+      "interpretation": "descriptive region case-series recovery; not sensitivity",
+      "method": "V1_RC",
+      "positive_keys_before_method_coverage": 40,
+      "recovered": 2,
+      "recovery_fraction": 0.08695652173913043,
+      "subset": "reporter_positive",
+      "unevaluable_count": 17
+    },
+    {
+      "context": "enhancer",
+      "evaluable_positive_denominator": 39,
+      "interpretation": "descriptive region case-series recovery; not sensitivity",
+      "method": "V2_C_symmetric",
+      "positive_keys_before_method_coverage": 40,
+      "recovered": 3,
+      "recovery_fraction": 0.07692307692307693,
+      "subset": "reporter_positive",
+      "unevaluable_count": 1
+    },
+    {
+      "context": "h3k27me3",
+      "evaluable_positive_denominator": 39,
+      "interpretation": "descriptive region case-series recovery; not sensitivity",
+      "method": "V2_C_symmetric",
+      "positive_keys_before_method_coverage": 40,
+      "recovered": 1,
+      "recovery_fraction": 0.02564102564102564,
+      "subset": "reporter_positive",
+      "unevaluable_count": 1
+    },
+    {
+      "context": "union",
+      "evaluable_positive_denominator": 39,
+      "interpretation": "descriptive region case-series recovery; not sensitivity",
+      "method": "V2_C_symmetric",
+      "positive_keys_before_method_coverage": 40,
+      "recovered": 4,
+      "recovery_fraction": 0.10256410256410256,
+      "subset": "reporter_positive",
+      "unevaluable_count": 1
+    },
+    {
+      "context": "enhancer",
+      "evaluable_positive_denominator": 2,
+      "interpretation": "descriptive region case-series recovery; not sensitivity",
+      "method": "V1_forward",
+      "positive_keys_before_method_coverage": 2,
+      "recovered": 1,
+      "recovery_fraction": 0.5,
+      "subset": "endogenous_positive",
+      "unevaluable_count": 0
+    },
+    {
+      "context": "h3k27me3",
+      "evaluable_positive_denominator": 2,
+      "interpretation": "descriptive region case-series recovery; not sensitivity",
+      "method": "V1_forward",
+      "positive_keys_before_method_coverage": 2,
+      "recovered": 0,
+      "recovery_fraction": 0.0,
+      "subset": "endogenous_positive",
+      "unevaluable_count": 0
+    },
+    {
+      "context": "union",
+      "evaluable_positive_denominator": 2,
+      "interpretation": "descriptive region case-series recovery; not sensitivity",
+      "method": "V1_forward",
+      "positive_keys_before_method_coverage": 2,
+      "recovered": 1,
+      "recovery_fraction": 0.5,
+      "subset": "endogenous_positive",
+      "unevaluable_count": 0
+    },
+    {
+      "context": "enhancer",
+      "evaluable_positive_denominator": 2,
+      "interpretation": "descriptive region case-series recovery; not sensitivity",
+      "method": "V1_RC",
+      "positive_keys_before_method_coverage": 2,
+      "recovered": 1,
+      "recovery_fraction": 0.5,
+      "subset": "endogenous_positive",
+      "unevaluable_count": 0
+    },
+    {
+      "context": "h3k27me3",
+      "evaluable_positive_denominator": 2,
+      "interpretation": "descriptive region case-series recovery; not sensitivity",
+      "method": "V1_RC",
+      "positive_keys_before_method_coverage": 2,
+      "recovered": 0,
+      "recovery_fraction": 0.0,
+      "subset": "endogenous_positive",
+      "unevaluable_count": 0
+    },
+    {
+      "context": "union",
+      "evaluable_positive_denominator": 2,
+      "interpretation": "descriptive region case-series recovery; not sensitivity",
+      "method": "V1_RC",
+      "positive_keys_before_method_coverage": 2,
+      "recovered": 1,
+      "recovery_fraction": 0.5,
+      "subset": "endogenous_positive",
+      "unevaluable_count": 0
+    },
+    {
+      "context": "enhancer",
+      "evaluable_positive_denominator": 2,
+      "interpretation": "descriptive region case-series recovery; not sensitivity",
+      "method": "V2_C_symmetric",
+      "positive_keys_before_method_coverage": 2,
+      "recovered": 1,
+      "recovery_fraction": 0.5,
+      "subset": "endogenous_positive",
+      "unevaluable_count": 0
+    },
+    {
+      "context": "h3k27me3",
+      "evaluable_positive_denominator": 2,
+      "interpretation": "descriptive region case-series recovery; not sensitivity",
+      "method": "V2_C_symmetric",
+      "positive_keys_before_method_coverage": 2,
+      "recovered": 0,
+      "recovery_fraction": 0.0,
+      "subset": "endogenous_positive",
+      "unevaluable_count": 0
+    },
+    {
+      "context": "union",
+      "evaluable_positive_denominator": 2,
+      "interpretation": "descriptive region case-series recovery; not sensitivity",
+      "method": "V2_C_symmetric",
+      "positive_keys_before_method_coverage": 2,
+      "recovered": 1,
+      "recovery_fraction": 0.5,
+      "subset": "endogenous_positive",
+      "unevaluable_count": 0
+    }
+  ],
+  "resources": {
+    "peak_RSS_KiB": 907104,
+    "wall_seconds": 3.9242368310224265
+  },
+  "significance_tests_performed": false,
+  "source_denominator_complete": false,
+  "stage": "external-benchmark-v2-1.0",
+  "status": "PASS",
+  "thresholds_changed": false,
+  "unresolved_in_scope_positive_keys": [
+    "unresolved:rs57658727:-/TTTTATCAACC"
+  ]
+}

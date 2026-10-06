@@ -1,0 +1,149 @@
+{
+  "GPU_or_models_imported": false,
+  "allele_swaps_or_strand_rescue": false,
+  "candidate_universe_accessed": false,
+  "command_argv": [
+    "/home/maheshwarany2/.local/share/uv/python/cpython-3.13.0-linux-x86_64-gnu/bin/python3.13",
+    "diseases/COPD/07_gap_closure/external-benchmark-v2-1.0/scripts/prepare_external_inputs.py"
+  ],
+  "complete_original_population_accounted": true,
+  "completed_utc": "2026-10-06T20:01:53.482089+00:00",
+  "compute": {
+    "peak_RSS_KiB": 829568,
+    "wall_seconds": 6.390115594025701
+  },
+  "environment": {
+    "FASTA_reader": "stdlib read-only 5-column FAI direct byte offsets",
+    "executable": "/home/maheshwarany2/.local/share/uv/python/cpython-3.13.0-linux-x86_64-gnu/bin/python3.13",
+    "numpy": "2.5.0",
+    "platform": "Linux-4.18.0-425.19.3b.el8.x86_64-x86_64-with-glibc2.28",
+    "python": "3.13.0"
+  },
+  "files": [
+    {
+      "bytes": 3081289,
+      "path": "inputs/identity_map.tsv",
+      "sha256": "6de386c8f069839042b8f5362572194234e9f50ae6d31869fe765d0d59a4a347"
+    },
+    {
+      "bytes": 294872,
+      "path": "inputs/scorable_variants.tsv",
+      "sha256": "c3db0d7d48ac241f3daa532e4e6df0b3c6f947221b15f102e5a24070c3ed015c"
+    },
+    {
+      "bytes": 6843548,
+      "path": "inputs/allele_sequences.npy",
+      "sha256": "75160f604b282bdcbb4f1eb354c1b33111a8d090cbfad682c3697cf49f5d2750"
+    },
+    {
+      "bytes": 575263,
+      "path": "inputs/sequence_qc.tsv",
+      "sha256": "a921469ab6fb2025ad9b63cb03d53f63118afa4fc2451ce6644eb574b0d00c05"
+    }
+  ],
+  "identity_status_counts_observations": {
+    "exact": 13899,
+    "unevaluable": 126
+  },
+  "labels_or_scope_used_for_sequence_selection": false,
+  "master_harmonization_identity_equality": true,
+  "n_exact_identities": 1710,
+  "n_observations": 14025,
+  "n_scorable_variants": 1710,
+  "n_unique_original_identities": 1731,
+  "new_identity_rescue": false,
+  "original_benchmark_reopened": false,
+  "prospective_freeze": {
+    "bytes": 1287,
+    "path": "provenance/prospective_freeze.json",
+    "sha256": "d4725233251785d90b3a768a115452e125fe5323a58768df5047043f6f020830"
+  },
+  "real_sequence_pair_checks": 1710,
+  "script": {
+    "bytes": 17439,
+    "path": "scripts/prepare_external_inputs.py",
+    "sha256": "52a5491b0bb08281170520b10995c4284dd68bae862eb70eb6346d871de64bc9"
+  },
+  "sequence_status_counts_observations": {
+    "ok": 13899,
+    "unresolved_identity": 126
+  },
+  "sequence_status_counts_unique": {
+    "ok": 1710,
+    "unresolved_identity": 21
+  },
+  "snapshot": {
+    "bytes": 7408502,
+    "path": "inputs/benchmark_snapshot.json.gz",
+    "sha256": "94b8cd3960458180e25357e3068ec229b1f260ce9b30d12dff704694f8520e90"
+  },
+  "sources": {
+    "hg38_fai": {
+      "bytes": 19381,
+      "path": "diseases/COPD/04_modeling/trednet/fasta/hg38.fa.fai",
+      "resolved_managed_path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/fasta/hg38.fa.fai",
+      "sha256": "3b425de206296a5c8053023fa5ca61da43cfe78c1737c12e58c83367c7e83c21"
+    },
+    "hg38_fasta": {
+      "bytes": 3273481150,
+      "path": "diseases/COPD/04_modeling/trednet/fasta/hg38.fa",
+      "resolved_managed_path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/fasta/hg38.fa",
+      "sha256": "5be01555d98347fdb3714dc84c6f77c9d8bc774adcf32c6f7a8fa06f5baf5e51"
+    }
+  },
+  "stage": "external-benchmark-v2-1.0",
+  "started_utc": "2026-10-06T20:01:47.145020+00:00",
+  "status": "PASS",
+  "synthetic_checks": [
+    {
+      "allele_role": "REF",
+      "case": "SNV",
+      "status": "PASS"
+    },
+    {
+      "allele_role": "ALT",
+      "case": "SNV",
+      "status": "PASS"
+    },
+    {
+      "allele_role": "REF",
+      "case": "insertion",
+      "status": "PASS"
+    },
+    {
+      "allele_role": "ALT",
+      "case": "insertion",
+      "status": "PASS"
+    },
+    {
+      "allele_role": "REF",
+      "case": "deletion",
+      "status": "PASS"
+    },
+    {
+      "allele_role": "ALT",
+      "case": "deletion",
+      "status": "PASS"
+    },
+    {
+      "allele_role": "REF",
+      "case": "MNV",
+      "status": "PASS"
+    },
+    {
+      "allele_role": "ALT",
+      "case": "MNV",
+      "status": "PASS"
+    },
+    {
+      "allele_role": "REF",
+      "case": "max_allele",
+      "status": "PASS"
+    },
+    {
+      "allele_role": "ALT",
+      "case": "max_allele",
+      "status": "PASS"
+    }
+  ]
+}

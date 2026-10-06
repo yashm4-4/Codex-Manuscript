@@ -1,0 +1,81 @@
+{
+  "allele_axis_order": [
+    "REF",
+    "ALT"
+  ],
+  "base_axis": "positive genomic orientation",
+  "created_utc": "2026-10-06T20:01:53.567621+00:00",
+  "dtype": "uint8",
+  "encoding": "ASCII ACGTN",
+  "files": [
+    {
+      "bytes": 3081289,
+      "path": "inputs/identity_map.tsv",
+      "sha256": "6de386c8f069839042b8f5362572194234e9f50ae6d31869fe765d0d59a4a347"
+    },
+    {
+      "bytes": 294872,
+      "path": "inputs/scorable_variants.tsv",
+      "sha256": "c3db0d7d48ac241f3daa532e4e6df0b3c6f947221b15f102e5a24070c3ed015c"
+    },
+    {
+      "bytes": 6843548,
+      "path": "inputs/allele_sequences.npy",
+      "sha256": "75160f604b282bdcbb4f1eb354c1b33111a8d090cbfad682c3697cf49f5d2750"
+    },
+    {
+      "bytes": 575263,
+      "path": "inputs/sequence_qc.tsv",
+      "sha256": "a921469ab6fb2025ad9b63cb03d53f63118afa4fc2451ce6644eb574b0d00c05"
+    }
+  ],
+  "identity_rule": "identity_status exact AND reference_verified True AND complete canonical exact key; explicit False eligibility/construct flags veto; blank optional flags do not veto",
+  "n_observations": 14025,
+  "n_original_variant_identities": 1731,
+  "n_unresolved_original_identities": 21,
+  "n_variants": 1710,
+  "outcome_or_scope_selection": false,
+  "prospective_freeze": {
+    "bytes": 1287,
+    "path": "provenance/prospective_freeze.json",
+    "sha256": "d4725233251785d90b3a768a115452e125fe5323a58768df5047043f6f020830"
+  },
+  "row_order": "scorable_variants.tsv row_index; numeric chromosome, position, REF, ALT",
+  "script": {
+    "bytes": 17439,
+    "path": "scripts/prepare_external_inputs.py",
+    "sha256": "52a5491b0bb08281170520b10995c4284dd68bae862eb70eb6346d871de64bc9"
+  },
+  "sequence_rule": "unchanged prospective 1000-left allele substitution and independent right crop to 2001bp",
+  "shape": [
+    1710,
+    2,
+    2001
+  ],
+  "snapshot": {
+    "bytes": 7408502,
+    "path": "inputs/benchmark_snapshot.json.gz",
+    "sha256": "94b8cd3960458180e25357e3068ec229b1f260ce9b30d12dff704694f8520e90"
+  },
+  "sources": {
+    "hg38_fai": {
+      "bytes": 19381,
+      "path": "diseases/COPD/04_modeling/trednet/fasta/hg38.fa.fai",
+      "resolved_managed_path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/fasta/hg38.fa.fai",
+      "sha256": "3b425de206296a5c8053023fa5ca61da43cfe78c1737c12e58c83367c7e83c21"
+    },
+    "hg38_fasta": {
+      "bytes": 3273481150,
+      "path": "diseases/COPD/04_modeling/trednet/fasta/hg38.fa",
+      "resolved_managed_path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/fasta/hg38.fa",
+      "sha256": "5be01555d98347fdb3714dc84c6f77c9d8bc774adcf32c6f7a8fa06f5baf5e51"
+    }
+  },
+  "stage": "external-benchmark-v2-1.0",
+  "status": "PASS",
+  "validation": {
+    "bytes": 4387,
+    "path": "provenance/sequence_construction_validation.json",
+    "sha256": "0bf3d62ce73b9d7df8435f14409b88cc37d0d9962b3d82a6546913c4a946eb32"
+  }
+}

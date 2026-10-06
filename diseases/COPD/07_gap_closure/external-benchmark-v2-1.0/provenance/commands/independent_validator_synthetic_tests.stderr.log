@@ -1,0 +1,29 @@
+test_Boolean_strings_not_python_truthiness (test_independent_validation.IndependentValidationTests.test_Boolean_strings_not_python_truthiness) ... ok
+test_TF_binding_not_activity_direction (test_independent_validation.IndependentValidationTests.test_TF_binding_not_activity_direction) ... ok
+test_V1_region_gate_not_combined_delta_gate (test_independent_validation.IndependentValidationTests.test_V1_region_gate_not_combined_delta_gate) ... ok
+test_V1_unavailable_not_zero (test_independent_validation.IndependentValidationTests.test_V1_unavailable_not_zero) ... ok
+test_canonical_key_mismatch_not_rescued (test_independent_validation.IndependentValidationTests.test_canonical_key_mismatch_not_rescued) ... ok
+test_direction_sign_contradiction_rejected (test_independent_validation.IndependentValidationTests.test_direction_sign_contradiction_rejected) ... ok
+test_direction_unresolved_ratio_not_invented (test_independent_validation.IndependentValidationTests.test_direction_unresolved_ratio_not_invented) ... ok
+test_empty_H3_direction_not_zero_success_rate (test_independent_validation.IndependentValidationTests.test_empty_H3_direction_not_zero_success_rate) ... ok
+test_empty_optional_flags_do_not_remove_exact_identity (test_independent_validation.IndependentValidationTests.test_empty_optional_flags_do_not_remove_exact_identity) ... ok
+test_explicit_allelic_direction (test_independent_validation.IndependentValidationTests.test_explicit_allelic_direction) ... ok
+test_explicit_false_vetoes_construct (test_independent_validation.IndependentValidationTests.test_explicit_false_vetoes_construct) ... ok
+test_missing_seed_rejected (test_independent_validation.IndependentValidationTests.test_missing_seed_rejected) ... ok
+test_nan_rejected (test_independent_validation.IndependentValidationTests.test_nan_rejected) ... ok
+test_no_epsilon_direction_threshold (test_independent_validation.IndependentValidationTests.test_no_epsilon_direction_threshold) ... ok
+test_no_naive_timestamp (test_independent_validation.IndependentValidationTests.test_no_naive_timestamp) ... ok
+test_non_float32_raw_probability_rejected (test_independent_validation.IndependentValidationTests.test_non_float32_raw_probability_rejected) ... ok
+test_null_context_not_direction_positive (test_independent_validation.IndependentValidationTests.test_null_context_not_direction_positive) ... ok
+test_optional_true_cannot_rescue_unresolved_identity (test_independent_validation.IndependentValidationTests.test_optional_true_cannot_rescue_unresolved_identity) ... ok
+test_reference_mismatch_flag_not_rescued (test_independent_validation.IndependentValidationTests.test_reference_mismatch_flag_not_rescued) ... ok
+test_seed_ensemble_uses_float64_after_float32_outputs (test_independent_validation.IndependentValidationTests.test_seed_ensemble_uses_float64_after_float32_outputs) ... ok
+test_splice_readout_excluded (test_independent_validation.IndependentValidationTests.test_splice_readout_excluded) ... ok
+test_threshold_equality_inclusive_and_predecessor_excluded (test_independent_validation.IndependentValidationTests.test_threshold_equality_inclusive_and_predecessor_excluded) ... ok
+test_ties_retained_in_strict_denominator (test_independent_validation.IndependentValidationTests.test_ties_retained_in_strict_denominator) ... ok
+test_wrong_experimental_alleles_rejected (test_independent_validation.IndependentValidationTests.test_wrong_experimental_alleles_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.001s
+
+OK

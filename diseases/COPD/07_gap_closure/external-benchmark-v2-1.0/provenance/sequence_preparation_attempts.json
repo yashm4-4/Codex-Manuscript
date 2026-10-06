@@ -1,0 +1,21 @@
+{
+  "stage": "external-benchmark-v2-1.0",
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "FAILED_BEFORE_OUTPUT",
+      "exit_code": 1,
+      "original_script_sha256": "58f3feb3aa657047a58b036a6a47ae1c4d398fc6c3c0c055cfbea18f95c3eb19",
+      "archived_source": "scripts/history/prepare_external_inputs_initial.py",
+      "command": "env PYTHONDONTWRITEBYTECODE=1 PYTHONNOUSERSITE=1 PYTHONPATH=/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/models/TREDNET_v2/.venv/lib/python3.13/site-packages /home/maheshwarany2/.local/share/uv/python/cpython-3.13.0-linux-x86_64-gnu/bin/python3.13 diseases/COPD/07_gap_closure/external-benchmark-v2-1.0/scripts/prepare_external_inputs.py",
+      "error": "AssertionError: unresolved:rs201292172:ACAC/-; at original source line204 assert key in unique_keys",
+      "cause": "Unresolved display-key construction initially retained reported tested-allele order; frozen R015 sorts that pair.",
+      "repair": "Retain the exact already-frozen R015 unresolved display key using sorted reported pair. This does not resolve identity, swap genomic REF/ALT, change eligibility or alter sequence/model rules.",
+      "scientific_outputs_created": false,
+      "models_or_predictions_accessed": false,
+      "prior_artifacts_changed": false
+    }
+  ],
+  "successful_attempt_receipt": "provenance/sequence_construction_validation.json",
+  "prospective_scientific_specification_changed": false
+}

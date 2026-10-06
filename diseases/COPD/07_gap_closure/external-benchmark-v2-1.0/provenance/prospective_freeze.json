@@ -1,0 +1,43 @@
+{
+  "baseline_commit": "c9515770db4dc38064d4c1fd7fa323788040ec37",
+  "before_any_V2_external_prediction": true,
+  "before_any_benchmark_outcome_or_label_opening": true,
+  "checkpoint_count": 6,
+  "created_utc": "2026-10-06T19:55:51.105921+00:00",
+  "evaluation_only": true,
+  "files": [
+    {
+      "bytes": 11883,
+      "path": "PROSPECTIVE_SPECIFICATION.md",
+      "sha256": "a8bbedf23a68c36b592473d542a656fbeb855b776b1a583696672a4a9c3940b1"
+    },
+    {
+      "bytes": 57401,
+      "path": "specification/evaluation_specification.json",
+      "sha256": "32432be4a7698256b8ae3cb6fe4139eac8a1ad6c83c5b8de41b880ce771e11bc"
+    },
+    {
+      "bytes": 56377,
+      "path": "provenance/preopen_source_manifest.json",
+      "sha256": "f1186dfe3cb00eb7753a29321313851d8fd3c6a9926095ef9b283f8150a2ac29"
+    },
+    {
+      "bytes": 7046,
+      "path": "provenance/user_authorization.txt",
+      "sha256": "60b112380eac26053e6dfbc97bf7d57c8cf772d9cf7c5e8bb60c7d22ee3b5191"
+    },
+    {
+      "bytes": 7932,
+      "path": "scripts/initialize_stage.py",
+      "sha256": "a37666e9ca2a34d4710e682259b3b7f8f90baa2eb5308e81e3ce8f68e1080982"
+    }
+  ],
+  "no_post_outcome_tuning": true,
+  "seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "stage": "external-benchmark-v2-1.0",
+  "status": "PASS"
+}

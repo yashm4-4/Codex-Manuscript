@@ -1,0 +1,9 @@
+unit	subset	context	denominator	concordant	discordant	tied	strict_concordance_fraction	non_tied_denominator	secondary_non_tied_fraction	interpretation
+observation	all_strict_observations	enhancer	11	7	4	0	0.6363636363636364	11	0.6363636363636364	descriptive; contexts and loci are correlated; no independent-sample inference
+observation	reporter	enhancer	9	5	4	0	0.5555555555555556	9	0.5555555555555556	descriptive; contexts and loci are correlated; no independent-sample inference
+observation	endogenous_editing	enhancer	2	2	0	0	1.0	2	1.0	descriptive; contexts and loci are correlated; no independent-sample inference
+unique_variant	nonconflicting_consensus	enhancer	8	5	3	0	0.625	8	0.625	descriptive; contexts and loci are correlated; no independent-sample inference
+observation	all_strict_observations	h3k27me3	0	0	0	0		0		descriptive; contexts and loci are correlated; no independent-sample inference
+observation	reporter	h3k27me3	0	0	0	0		0		descriptive; contexts and loci are correlated; no independent-sample inference
+observation	endogenous_editing	h3k27me3	0	0	0	0		0		descriptive; contexts and loci are correlated; no independent-sample inference
+unique_variant	nonconflicting_consensus	h3k27me3	0	0	0	0		0		descriptive; contexts and loci are correlated; no independent-sample inference

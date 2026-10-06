@@ -1,0 +1,203 @@
+{
+  "before_V2_predictions": true,
+  "before_first_outcome_field_read": true,
+  "benchmark_version": "COPD-V2-BENCH1.0",
+  "independent_preopen_validation": {
+    "bytes": 5139,
+    "path": "provenance/preopen_independent_validation.json",
+    "sha256": "025aa18c609ff6aed788d75da5edee8e84e72a449e3fe87fca27890e9766a606"
+  },
+  "interpretation": "One scientific evaluation opening. Subsequent reads use this immutable ingested snapshot; no tuning or repeat benchmark selection is permitted.",
+  "no_post_outcome_tuning": true,
+  "opened_utc": "2026-10-06T19:57:29.781057+00:00",
+  "opener_script": {
+    "bytes": 4803,
+    "path": "scripts/open_benchmark_once.py",
+    "sha256": "0c80464d0b7e09fbe6025675cba3be79c88ee70d8ab3b218b7502b5f9694048d"
+  },
+  "prospective_freeze": {
+    "bytes": 1287,
+    "path": "provenance/prospective_freeze.json",
+    "sha256": "d4725233251785d90b3a768a115452e125fe5323a58768df5047043f6f020830"
+  },
+  "single_open_event": true,
+  "source_files": [
+    {
+      "bytes": 10913,
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R001_source_study_inventory.tsv",
+      "sha256": "ce085a406a62004747ce39206133e12e39ce58e8f23b6d941f5a38cc2f91eb72"
+    },
+    {
+      "bytes": 9742915,
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R002_exact_allele_harmonization.tsv",
+      "sha256": "f187fb3eea2b72b5770d43e1c1abaa8e5cd2c0da383abd74c5d417f604c0d784"
+    },
+    {
+      "bytes": 34449014,
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R003_frozen_benchmark_master.tsv",
+      "sha256": "a69a8b1d5c82299075b2d5203fee3d4a23105572c6cf456bab834b82ef13bbdd"
+    },
+    {
+      "bytes": 515010,
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R004B_contextual_and_excluded_evidence.tsv",
+      "sha256": "a0f46eb619af50ac9976f06f4c849b0a97b782a5fc7e3c97864099e25821df5a"
+    },
+    {
+      "bytes": 6494026,
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R004_assay_mechanism_classification.tsv",
+      "sha256": "23f4b609ea69cb2533de90ab325b0706153a8e2da16fc106177ee31ac116ea8a"
+    },
+    {
+      "bytes": 13637,
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R005_assayed_denominator_audit.tsv",
+      "sha256": "784478ffcb99c484a7bdb17556426f3320e81a7c414c44f85d6eca8c178368ea"
+    },
+    {
+      "bytes": 520101,
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R006B_source_locus_assignment.tsv",
+      "sha256": "23e2cd7fa621bea34b1069de4d721524298c507fefc14b0dba27b2b908ce2856"
+    },
+    {
+      "bytes": 10041,
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R006_source_search_audit.tsv",
+      "sha256": "637198dfad5ea1295d59cc29305796c7f03309d6ac534c7e0f80d1c4ed49d04f"
+    },
+    {
+      "bytes": 38185737,
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R007_V1_forward_comparison.tsv",
+      "sha256": "f4e06704c93ef639f5fa888f48c2f150775844ade9deb63127162bc989441935"
+    },
+    {
+      "bytes": 40445725,
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R008_forward_RC_comparison.tsv",
+      "sha256": "1c8a4506307f64e44b1c04e890f952e32eb19fafbdb53eec5a7c87862715b915"
+    },
+    {
+      "bytes": 11948,
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R009_study_specific_summary.tsv",
+      "sha256": "9202ee7140243a087838a8472d94e2717edd099b78d50964b6d028d6442dd0c4"
+    },
+    {
+      "bytes": 3188,
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R010_mechanism_specific_summary.tsv",
+      "sha256": "81a36a02cf7bdb3ff71afa09d2d32379cc5ade60531d37e568f8ffc7359ad303"
+    },
+    {
+      "bytes": 4837,
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R011_locus_specific_summary.tsv",
+      "sha256": "d6ebca4450d7aa74e0e44a1ea1a8dd2a25e20f3127249eb7e5531cd842781caf"
+    },
+    {
+      "bytes": 12725,
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R012_quantitative_metric_eligibility.tsv",
+      "sha256": "8a90e3e03dba8a8a682eb848503823486978ebc93b4c94ab4fdb8ce7e5297608"
+    },
+    {
+      "bytes": 54307,
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R013_score_distributions.tsv",
+      "sha256": "2e73733242623be7f01cf8d450cd11cdf62e3e0e95d1b44898b5fedf5951c604"
+    },
+    {
+      "bytes": 3955,
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R014_benchmark_coverage_flow.tsv",
+      "sha256": "9b5347ff407cd773d51ea5e159f4dccdd9b0f83b1ed32f6c213f0f00b8a4fe22"
+    },
+    {
+      "bytes": 977094,
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R015_unique_variant_summary.tsv",
+      "sha256": "94928f467d88dd23924794f8bd21024fad7e3a059da6dd1a1ec742ea11572ad0"
+    },
+    {
+      "bytes": 344530,
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R016_analysis_validation.tsv",
+      "sha256": "6bb1895553da1f0814f94b78c379f6ed4589dc64a10bb98a8abf87847cafde99"
+    },
+    {
+      "bytes": 1486,
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R017_positive_case_gate_failures.tsv",
+      "sha256": "5a039b465d4a92bd318b0730d0790e70baf876c8e49da90064511077adaa613a"
+    },
+    {
+      "bytes": 394,
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-BENCH-R018_orientation_recovery_summary.tsv",
+      "sha256": "5000ed5eb9962b8af12ed4420bad2ae880ab9c3f85407ee1f284f0eaa4b8e956"
+    },
+    {
+      "bytes": 269,
+      "path": "diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/allele_mappings/merged_alias_resolution.json",
+      "sha256": "7d3453840af2e683a5fc9e35d95483e7b33a0e62d75449430e8c487bf46634a4"
+    },
+    {
+      "bytes": 1487,
+      "path": "diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/GSE109452_count_design_audit.json",
+      "sha256": "9fa0b36f05f3ef45d5e20972c59c24d252ea6285ea12b6266a051f1af41fcb02"
+    },
+    {
+      "bytes": 4730,
+      "path": "diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi/Table1_source_rows.json",
+      "sha256": "f3fea6303f7777c1e8ea08fef5be29453d53e713a586249d21a88e7e16e9e083"
+    },
+    {
+      "bytes": 18204877,
+      "path": "diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/castaldi_evidence.json",
+      "sha256": "52608dcabb23740833cadc7df7255c1c1eb0d041364c177496567571af1dfe9e"
+    },
+    {
+      "bytes": 22926936,
+      "path": "diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/gong_evidence.json",
+      "sha256": "38d84a23c8f748e784c5806e1887f8d0c78469bd17486b8979e0fce2ef666d3f"
+    },
+    {
+      "bytes": 20126,
+      "path": "diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/mechanisms/curated_extraction.json",
+      "sha256": "4847cdf873bd7a0e9651c87e9975d50fc6ae568819cf1a78d94048525e7fa9b2"
+    },
+    {
+      "bytes": 79363,
+      "path": "diseases/COPD/07_gap_closure/data/COPD-V2-BENCH/mechanisms_evidence.json",
+      "sha256": "2d6b938da577a1227ba04934fd7bb9b0ab440de1e8083539594e837e55ae8162"
+    },
+    {
+      "bytes": 15014,
+      "path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-BENCH_analysis_specification.md",
+      "sha256": "46d3aac26b1f980d7c2dcd5034d6cc64566524ca7d99cc635f7d979e04f2de65"
+    },
+    {
+      "bytes": 33753,
+      "path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-BENCH_benchmark_freeze.json",
+      "sha256": "3ad3b92914e7564c43592fe8e553c18d31778c385a09c0beecf8b11b0554e19b"
+    },
+    {
+      "bytes": 14521,
+      "path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-BENCH_comparison_manifest.json",
+      "sha256": "60deefeab4d48a59abdc5c8074fdbf064fab79494fe971472a6c10c87f14a0a8"
+    },
+    {
+      "bytes": 13278,
+      "path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-BENCH_experimental_label_review.json",
+      "sha256": "16dd3c87661b57bffa20899183fd2018bc7f3ba0569b84d16828be3ac6f7d6a7"
+    },
+    {
+      "bytes": 14833,
+      "path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-BENCH_interpretation_review.json",
+      "sha256": "1d9a7c503ecea0ab271555bc6c1cdbb4185203ad3c065329b7c45fa0821ff83d"
+    },
+    {
+      "bytes": 1131,
+      "path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-BENCH_protocol_lock.json",
+      "sha256": "043ee3f3611444a8674787f0cc662bf3f38a3d7cbe29f7b8518b012aec8381cb"
+    },
+    {
+      "bytes": 18708,
+      "path": "diseases/COPD/07_gap_closure/provenance/COPD-V2-BENCH_source_identity_review.json",
+      "sha256": "76c1a01f00c5482c5e647ad37f571f9793de92d716d099f0f628d5faa76c2187"
+    },
+    {
+      "bytes": 25563,
+      "path": "diseases/COPD/07_gap_closure/results/COPD-V2-BENCH_external_functional_benchmark_report.md",
+      "sha256": "de8154ac2d12f9ea7ece09e859d11a47962cc022807eca77ff786e39457767d4"
+    }
+  ],
+  "stage": "external-benchmark-v2-1.0",
+  "status": "OPENING_AUTHORIZED"
+}

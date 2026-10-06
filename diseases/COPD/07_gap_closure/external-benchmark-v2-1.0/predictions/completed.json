@@ -1,0 +1,16 @@
+{
+  "inference_manifest": {
+    "bytes": 6398,
+    "path": "predictions/inference_manifest.json",
+    "sha256": "0df7a4f0515cc6bd9f2fdb4e19c6ed2b72c21b7e07ab8e88b4572f01877c5af2"
+  },
+  "invariance_status": "PASS",
+  "resources": {
+    "finished_utc": "2026-10-06T20:09:46.870565+00:00",
+    "peak_RSS_KiB": 2431012,
+    "system_cpu_seconds": 4.086256,
+    "user_cpu_seconds": 18.089604,
+    "wall_seconds": 41.19191142707132
+  },
+  "status": "COMPLETED"
+}

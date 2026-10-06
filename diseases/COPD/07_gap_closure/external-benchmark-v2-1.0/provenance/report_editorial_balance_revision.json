@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-06T20:15:08.171608+00:00",
+  "change_type": "Editorial balance correction before final validation/freeze; no scientific change",
+  "reason": "Numerically correct first report overemphasized higher recovery without clearly stating the modest one-variant paired gain and weak absolute recovery. Final wording reports 3/23 versus 2/23, 35/39 region-threshold non-recoveries (not biological false negatives), rs35421223 as sole paired union gain, rs141807665 enhancer-call loss with retained H3 union recovery, and rs7962469 coverage expansion with discordant enhancer direction in both reporter cell contexts (16HBE and Jurkat), not an H3 direction claim.",
+  "files": [
+    {
+      "original_path": "scripts/write_external_report.py",
+      "before_preserved_archive": {
+        "path": "history/editorial_balance_20261006/write_external_report_original.py",
+        "bytes": 37759,
+        "sha256": "b287835aec0d7ceea8df7621ba0bdb9a888f25c6cce4ad9851fa96ee4035a2d7"
+      },
+      "after": {
+        "path": "scripts/write_external_report.py",
+        "bytes": 40619,
+        "sha256": "f91dcc27bc38351c20a669ed1e6ee1151681c732a7b22b3d06633a01239ea244"
+      }
+    },
+    {
+      "original_path": "EXTERNAL_BENCHMARK_V2_REPORT.md",
+      "before_preserved_archive": {
+        "path": "history/editorial_balance_20261006/EXTERNAL_BENCHMARK_V2_REPORT_original.md",
+        "bytes": 46529,
+        "sha256": "65f0cfd6f72447780d7303a5de0a03bf5827aab3aa5091a99b72907934dca764"
+      },
+      "after": {
+        "path": "EXTERNAL_BENCHMARK_V2_REPORT.md",
+        "bytes": 48583,
+        "sha256": "657b517947742cb7d6192bc8b0e3a71735c8c0b0634f3b4df5fc548af848e742"
+      }
+    },
+    {
+      "original_path": "LIMITATIONS.md",
+      "before_preserved_archive": {
+        "path": "history/editorial_balance_20261006/LIMITATIONS_original.md",
+        "bytes": 3891,
+        "sha256": "a2af58483381227fdaa2c28b9f692b5b01c67eab3d434f7cfaf7ced93056d345"
+      },
+      "after": {
+        "path": "LIMITATIONS.md",
+        "bytes": 5059,
+        "sha256": "a0cc44e44ef5533054c1af30100f837cc1d62ec2bbe355f00f3ace6e9203e7f4"
+      }
+    }
+  ],
+  "old_report_receipt": {
+    "path": "provenance/commands/write_external_report.stdout.log",
+    "bytes": 3932,
+    "sha256": "0b82f629de5491200f357899b8abc3d501e1575379b466223d70f032339c4f37"
+  },
+  "new_report_receipt": {
+    "path": "provenance/commands/write_external_report_final.stdout.log",
+    "bytes": 3932,
+    "sha256": "36c564e85125e10b2a05b3a90886fe52a86f2e46d167d9d1abd6014ee3104514"
+  },
+  "report_headline_metrics_unchanged": true,
+  "all_result_payload_hashes_unchanged": true,
+  "result_payloads_verified": 23,
+  "inference_manifest_unchanged": true,
+  "annotation_freeze_and_bound_files_unchanged": true,
+  "models_inputs_annotations_thresholds_metrics_modified": false,
+  "inference_or_metrics_rerun": false,
+  "command": [
+    "python3",
+    "diseases/COPD/07_gap_closure/external-benchmark-v2-1.0/scripts/run_logged.py",
+    "--label",
+    "write_external_report_final",
+    "--",
+    "python3",
+    "diseases/COPD/07_gap_closure/external-benchmark-v2-1.0/scripts/write_external_report.py",
+    "--refresh"
+  ],
+  "returncode": 0
+}

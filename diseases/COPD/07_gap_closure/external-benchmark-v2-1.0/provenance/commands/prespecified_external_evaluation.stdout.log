@@ -1,0 +1,313 @@
+{
+  "status": "PASS",
+  "population_accounting": [
+    {
+      "population": "original_master_observations",
+      "count": 14025
+    },
+    {
+      "population": "contextual_excluded_source_rows",
+      "count": 267
+    },
+    {
+      "population": "all_benchmark_identity_keys",
+      "count": 1731
+    },
+    {
+      "population": "exact_benchmark_identity_keys",
+      "count": 1710
+    },
+    {
+      "population": "exact_V2_scorable_identity_keys_all_states_mechanisms",
+      "count": 1710
+    },
+    {
+      "population": "experimentally_positive_keys_all_mechanisms_including_unresolved",
+      "count": 41
+    },
+    {
+      "population": "exact_experimentally_positive_keys_all_mechanisms",
+      "count": 40
+    },
+    {
+      "population": "splice_only_positive_keys_out_of_model_not_false_negatives",
+      "count": 1
+    },
+    {
+      "population": "positive_keys_with_out_of_model_observations",
+      "count": 1
+    },
+    {
+      "population": "in_scope_positive_identity_keys_including_unresolved",
+      "count": 40
+    },
+    {
+      "population": "exact_in_scope_positive_identity_keys",
+      "count": 39
+    },
+    {
+      "population": "exact_V2_scorable_in_scope_positive_primary",
+      "count": 39
+    },
+    {
+      "population": "exact_V2_scorable_reporter_positive",
+      "count": 39
+    },
+    {
+      "population": "exact_V2_scorable_endogenous_positive",
+      "count": 2
+    },
+    {
+      "population": "V1_forward_RC_V2_common_positive",
+      "count": 23
+    },
+    {
+      "population": "strict_enhancer_direction_observations",
+      "count": 11
+    },
+    {
+      "population": "strict_enhancer_direction_unique_variants_nonconflicting",
+      "count": 8
+    },
+    {
+      "population": "strict_H3K27me3_direction_observations",
+      "count": 0
+    }
+  ],
+  "common_identity_recovery": [
+    {
+      "population": "three_method_exact_positive_intersection",
+      "method": "V1_forward",
+      "context": "enhancer",
+      "denominator": 23,
+      "recovered": 2,
+      "fraction": 0.08695652173913043
+    },
+    {
+      "population": "three_method_exact_positive_intersection",
+      "method": "V1_forward",
+      "context": "h3k27me3",
+      "denominator": 23,
+      "recovered": 1,
+      "fraction": 0.043478260869565216
+    },
+    {
+      "population": "three_method_exact_positive_intersection",
+      "method": "V1_forward",
+      "context": "union",
+      "denominator": 23,
+      "recovered": 2,
+      "fraction": 0.08695652173913043
+    },
+    {
+      "population": "three_method_exact_positive_intersection",
+      "method": "V1_RC",
+      "context": "enhancer",
+      "denominator": 23,
+      "recovered": 1,
+      "fraction": 0.043478260869565216
+    },
+    {
+      "population": "three_method_exact_positive_intersection",
+      "method": "V1_RC",
+      "context": "h3k27me3",
+      "denominator": 23,
+      "recovered": 1,
+      "fraction": 0.043478260869565216
+    },
+    {
+      "population": "three_method_exact_positive_intersection",
+      "method": "V1_RC",
+      "context": "union",
+      "denominator": 23,
+      "recovered": 2,
+      "fraction": 0.08695652173913043
+    },
+    {
+      "population": "three_method_exact_positive_intersection",
+      "method": "V2_C_symmetric",
+      "context": "enhancer",
+      "denominator": 23,
+      "recovered": 2,
+      "fraction": 0.08695652173913043
+    },
+    {
+      "population": "three_method_exact_positive_intersection",
+      "method": "V2_C_symmetric",
+      "context": "h3k27me3",
+      "denominator": 23,
+      "recovered": 1,
+      "fraction": 0.043478260869565216
+    },
+    {
+      "population": "three_method_exact_positive_intersection",
+      "method": "V2_C_symmetric",
+      "context": "union",
+      "denominator": 23,
+      "recovered": 3,
+      "fraction": 0.13043478260869565
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "baseline": "V1_forward",
+      "context": "enhancer",
+      "shared_positive_denominator": 23,
+      "retained_recovery": 1,
+      "newly_recovered": 1,
+      "lost": 1,
+      "still_missed": 20
+    },
+    {
+      "baseline": "V1_forward",
+      "context": "h3k27me3",
+      "shared_positive_denominator": 23,
+      "retained_recovery": 1,
+      "newly_recovered": 0,
+      "lost": 0,
+      "still_missed": 22
+    },
+    {
+      "baseline": "V1_forward",
+      "context": "union",
+      "shared_positive_denominator": 23,
+      "retained_recovery": 2,
+      "newly_recovered": 1,
+      "lost": 0,
+      "still_missed": 20
+    },
+    {
+      "baseline": "V1_RC",
+      "context": "enhancer",
+      "shared_positive_denominator": 23,
+      "retained_recovery": 1,
+      "newly_recovered": 1,
+      "lost": 0,
+      "still_missed": 21
+    },
+    {
+      "baseline": "V1_RC",
+      "context": "h3k27me3",
+      "shared_positive_denominator": 23,
+      "retained_recovery": 1,
+      "newly_recovered": 0,
+      "lost": 0,
+      "still_missed": 22
+    },
+    {
+      "baseline": "V1_RC",
+      "context": "union",
+      "shared_positive_denominator": 23,
+      "retained_recovery": 2,
+      "newly_recovered": 1,
+      "lost": 0,
+      "still_missed": 20
+    }
+  ],
+  "direction_summaries": [
+    {
+      "unit": "observation",
+      "subset": "all_strict_observations",
+      "context": "enhancer",
+      "denominator": 11,
+      "concordant": 7,
+      "discordant": 4,
+      "tied": 0,
+      "strict_concordance_fraction": 0.6363636363636364,
+      "non_tied_denominator": 11,
+      "secondary_non_tied_fraction": 0.6363636363636364,
+      "interpretation": "descriptive; contexts and loci are correlated; no independent-sample inference"
+    },
+    {
+      "unit": "observation",
+      "subset": "reporter",
+      "context": "enhancer",
+      "denominator": 9,
+      "concordant": 5,
+      "discordant": 4,
+      "tied": 0,
+      "strict_concordance_fraction": 0.5555555555555556,
+      "non_tied_denominator": 9,
+      "secondary_non_tied_fraction": 0.5555555555555556,
+      "interpretation": "descriptive; contexts and loci are correlated; no independent-sample inference"
+    },
+    {
+      "unit": "observation",
+      "subset": "endogenous_editing",
+      "context": "enhancer",
+      "denominator": 2,
+      "concordant": 2,
+      "discordant": 0,
+      "tied": 0,
+      "strict_concordance_fraction": 1.0,
+      "non_tied_denominator": 2,
+      "secondary_non_tied_fraction": 1.0,
+      "interpretation": "descriptive; contexts and loci are correlated; no independent-sample inference"
+    },
+    {
+      "unit": "unique_variant",
+      "subset": "nonconflicting_consensus",
+      "context": "enhancer",
+      "denominator": 8,
+      "concordant": 5,
+      "discordant": 3,
+      "tied": 0,
+      "strict_concordance_fraction": 0.625,
+      "non_tied_denominator": 8,
+      "secondary_non_tied_fraction": 0.625,
+      "interpretation": "descriptive; contexts and loci are correlated; no independent-sample inference"
+    },
+    {
+      "unit": "observation",
+      "subset": "all_strict_observations",
+      "context": "h3k27me3",
+      "denominator": 0,
+      "concordant": 0,
+      "discordant": 0,
+      "tied": 0,
+      "strict_concordance_fraction": null,
+      "non_tied_denominator": 0,
+      "secondary_non_tied_fraction": null,
+      "interpretation": "descriptive; contexts and loci are correlated; no independent-sample inference"
+    },
+    {
+      "unit": "observation",
+      "subset": "reporter",
+      "context": "h3k27me3",
+      "denominator": 0,
+      "concordant": 0,
+      "discordant": 0,
+      "tied": 0,
+      "strict_concordance_fraction": null,
+      "non_tied_denominator": 0,
+      "secondary_non_tied_fraction": null,
+      "interpretation": "descriptive; contexts and loci are correlated; no independent-sample inference"
+    },
+    {
+      "unit": "observation",
+      "subset": "endogenous_editing",
+      "context": "h3k27me3",
+      "denominator": 0,
+      "concordant": 0,
+      "discordant": 0,
+      "tied": 0,
+      "strict_concordance_fraction": null,
+      "non_tied_denominator": 0,
+      "secondary_non_tied_fraction": null,
+      "interpretation": "descriptive; contexts and loci are correlated; no independent-sample inference"
+    },
+    {
+      "unit": "unique_variant",
+      "subset": "nonconflicting_consensus",
+      "context": "h3k27me3",
+      "denominator": 0,
+      "concordant": 0,
+      "discordant": 0,
+      "tied": 0,
+      "strict_concordance_fraction": null,
+      "non_tied_denominator": 0,
+      "secondary_non_tied_fraction": null,
+      "interpretation": "descriptive; contexts and loci are correlated; no independent-sample inference"
+    }
+  ]
+}

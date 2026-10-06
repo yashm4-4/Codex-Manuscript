@@ -1,0 +1,53 @@
+{
+  "all_original_checkpoints_preserved": true,
+  "annotation_freeze": {
+    "bytes": 5896,
+    "path": "provenance/annotation_freeze.json",
+    "sha256": "a434653d42bbe9620c288784f7bb8a694b409ebfd16c280e0de46e7f0edb47ee"
+  },
+  "artifact_checksums": {
+    "bytes": 15516,
+    "path": "provenance/artifact_checksums.tsv",
+    "sha256": "37efc17ac1ea1d35f6e05f40ca11ea20545b5c77ccf408fbfac415bcbfa8f97d"
+  },
+  "baseline_commit_unchanged": "c9515770db4dc38064d4c1fd7fa323788040ec37",
+  "broader_COPD_candidate_scoring": false,
+  "checksum_scope": "All regular new-stage artifacts except pycache/pyc and checksum-ledger/freeze self-references; original source benchmarks and model archives remain external immutable dependencies, not copies.",
+  "commit_or_push_performed": false,
+  "created_utc": "2026-10-06T20:17:01.882127+00:00",
+  "external_benchmark_is_no_longer_untouched_for_future_redesign": true,
+  "frozen_C_checkpoint_count": 6,
+  "independent_final_validation": {
+    "bytes": 12158,
+    "path": "provenance/independent_final_validation.json",
+    "sha256": "88fc41627d6017f09b10c642dd4e14aa92c7c2b0a4e589367150615c042f9ddc"
+  },
+  "n_payloads": 134,
+  "next_action": "STOP_NO_OTHER_MODULE_AUTHORIZED",
+  "prospective_freeze": {
+    "bytes": 1287,
+    "path": "provenance/prospective_freeze.json",
+    "sha256": "d4725233251785d90b3a768a115452e125fe5323a58768df5047043f6f020830"
+  },
+  "report": {
+    "bytes": 48583,
+    "path": "EXTERNAL_BENCHMARK_V2_REPORT.md",
+    "sha256": "657b517947742cb7d6192bc8b0e3a71735c8c0b0634f3b4df5fc548af848e742"
+  },
+  "retraining_or_retuning_or_recalibration": false,
+  "shared_register_updates": {
+    "bytes": 1558,
+    "path": "provenance/shared_register_updates.json",
+    "sha256": "6bb671e54878d1eedced5005b466b297af5e996fcbd3e566387d7276f9bf1794"
+  },
+  "single_benchmark_opening_event": {
+    "bytes": 8706,
+    "path": "provenance/benchmark_opening_event.json",
+    "sha256": "a8610ea913f815ae9bc4162277a91e8b596f39daecce50f956e3de640db56661"
+  },
+  "single_frozen_model_evaluation": true,
+  "status": "FROZEN_EXTERNAL_EVALUATION_COMPLETE",
+  "threshold_or_seed_or_checkpoint_change": false,
+  "total_payload_bytes": 370342743,
+  "version": "external-benchmark-v2-1.0"
+}

@@ -1,0 +1,20 @@
+{
+  "argv": [
+    "python3",
+    "diseases/COPD/07_gap_closure/external-benchmark-v2-1.0/scripts/write_external_report.py",
+    "--refresh"
+  ],
+  "completed_utc": "2026-10-06T20:14:33.378066+00:00",
+  "returncode": 0,
+  "stderr": {
+    "bytes": 0,
+    "path": "provenance/commands/write_external_report_final.stderr.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 3932,
+    "path": "provenance/commands/write_external_report_final.stdout.log",
+    "sha256": "36c564e85125e10b2a05b3a90886fe52a86f2e46d167d9d1abd6014ee3104514"
+  },
+  "wall_seconds": 0.18389637803193182
+}

@@ -1,0 +1,9 @@
+variant_id	rsids	loci	context	expected_ALT_minus_REF_sign	predicted_sign	delta	concordance	preexisting_known_case
+12:51954475:A:G	rs7962469	ACVR1B_12q13	enhancer	-1	1	0.0015050868193308142	discordant	False
+4:144566782:A:G	rs6537296	HHIP_4q31	enhancer	1	1	0.00044943392276763916	concordant	False
+4:144567182:C:T	rs1542725	HHIP_4q31	enhancer	1	-1	-0.0023558487494786395	discordant	False
+4:88805132:A:C	rs2276936	FAM13A;FAM13A_4q22	enhancer	-1	-1	-0.0080240070819854736	concordant	False
+4:88962828:C:T	rs7671167	FAM13A	enhancer	-1	1	0.0016677677631378174	discordant	False
+4:88963935:G:T	rs2013701	FAM13A	enhancer	1	1	8.0823898315429688e-05	concordant	True
+4:89009162:A:G	rs1795739	FAM13A	enhancer	-1	-1	-0.010327503085136414	concordant	False
+6:7562999:T:G	rs2076295	DSP_6p24	enhancer	-1	-1	-0.05624784529209137	concordant	False

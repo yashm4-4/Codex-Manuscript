@@ -1,0 +1,18 @@
+{
+  "annotation_freeze": {
+    "bytes": 5896,
+    "path": "provenance/annotation_freeze.json",
+    "sha256": "a434653d42bbe9620c288784f7bb8a694b409ebfd16c280e0de46e7f0edb47ee"
+  },
+  "prediction_manifest": {
+    "bytes": 6398,
+    "path": "predictions/inference_manifest.json",
+    "sha256": "0df7a4f0515cc6bd9f2fdb4e19c6ed2b72c21b7e07ab8e88b4572f01877c5af2"
+  },
+  "script": {
+    "bytes": 23872,
+    "path": "scripts/evaluate_outputs.py",
+    "sha256": "4dadd71fab6ce100edfc54e44f8b267b7e1d0124088c5142bd5a58e580a51c18"
+  },
+  "started_utc": "2026-10-06T20:10:16.240703+00:00"
+}

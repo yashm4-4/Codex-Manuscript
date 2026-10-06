@@ -1,0 +1,21 @@
+{
+  "atol": 1e-06,
+  "context": "h3k27me3",
+  "independent_RC_array_sha256": "5e681c0028f2a9efd4a20758ac62edcb306b3f4c76809659471373bef80458c5",
+  "max_absolute_difference": 0.0,
+  "max_tolerance_normalized_difference": 0.0,
+  "n_failed": 0,
+  "n_probabilities": 3420,
+  "ordered_seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "original_array_sha256": "5e681c0028f2a9efd4a20758ac62edcb306b3f4c76809659471373bef80458c5",
+  "phase_I_and_phase_II_independently_repeated": true,
+  "reduction_dtype": "float64",
+  "rtol": 1e-06,
+  "seed": "all3",
+  "status": "PASS",
+  "unit": "ensemble"
+}

@@ -1,0 +1,16 @@
+{
+  "atol": 1e-06,
+  "checkpoint_sha256": "503683295ebeb48587f42748181bf6c5815f6a8c79b8dfdd4b669c931109be81",
+  "context": "h3k27me3",
+  "independent_RC_array_sha256": "f6d547cda2807ecfed1f40814708a1058878a6353d5dc8b30678d7193ea7c0ce",
+  "max_absolute_difference": 0.0,
+  "max_tolerance_normalized_difference": 0.0,
+  "n_failed": 0,
+  "n_probabilities": 3420,
+  "original_array_sha256": "f6d547cda2807ecfed1f40814708a1058878a6353d5dc8b30678d7193ea7c0ce",
+  "phase_I_and_phase_II_independently_repeated": true,
+  "rtol": 1e-06,
+  "seed": 104729,
+  "status": "PASS",
+  "unit": "seed"
+}

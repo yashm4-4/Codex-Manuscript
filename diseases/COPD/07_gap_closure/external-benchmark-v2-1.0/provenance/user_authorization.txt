@@ -1,0 +1,150 @@
+Proceed with a new versioned stage, e.g. external-benchmark-v2-1.0, for a one-time evaluation of the already-frozen V2-C models against the frozen COPD external functional benchmark.
+This stage is evaluation only.
+Do not retrain, retune, recalibrate, alter thresholds, change controls, change labels, choose seeds, redesign the model, or modify internal-training-1.0, internal-test-1.0, or COPD-V2-BENCH1.0.
+The external benchmark must now be opened exactly once under the frozen V2 model.
+1. Pre-open freeze
+Before reading any benchmark outcome/label field, create and hash a prospective evaluation specification.
+Prespecify:
+- exact benchmark version and hashes;
+- exact frozen V2-C checkpoint hashes;
+- exact three-seed ensemble rule;
+- exact symmetric forward/RC inference rule;
+- frozen region thresholds:
+  - enhancer 0.74848511815071117
+  - H3K27me3-associated 0.76960810025533055
+- benchmark inclusion/exclusion rules;
+- exact variant-identity handling;
+- exact REF/ALT orientation rules;
+- exact metrics to be reported;
+- directionality conventions;
+- missing/unevaluable handling;
+- no post-outcome tuning.
+Preserve the original benchmark unchanged.
+2. Evaluation populations
+Use the existing frozen benchmark taxonomy.
+Separately report:
+- all exact benchmark identities;
+- experimentally positive in-scope variants;
+- exact V2-scorable positives;
+- reporter-positive subsets;
+- endogenous-editing-positive subsets;
+- splice-only or other out-of-model mechanisms;
+- context-specific null/positive observations;
+- variants lacking exact sequence identity.
+Do not convert missing, unresolved, context-mismatched, or out-of-model variants into negatives.
+Do not use LD proxies.
+Do not rescue identity approximately.
+3. V2 sequence scoring
+For every exact V2-scorable benchmark variant:
+- construct the exact frozen 2,001-bp REF and ALT sequence inputs using the same allele-identity and indel geometry rules used previously;
+- score REF and ALT independently in both nucleotide orientations;
+- use the frozen three-seed symmetric C ensembles only.
+For each model/context record:
+- REF region score;
+- ALT region score;
+- delta = ALT - REF;
+- absolute delta;
+- sign;
+- max(REF,ALT) region score;
+- whether either allele passes the frozen region threshold.
+No allele-delta threshold may be invented.
+No region threshold may be changed.
+4. Region-level benchmark evaluation
+First ask only whether experimentally positive variants lie in regions the corrected V2-C models recognize as enhancer-associated or H3K27me3-associated.
+Report for exact in-scope positive variants:
+- enhancer region-threshold recovery;
+- H3K27me3 region-threshold recovery;
+- union recovery;
+- continuous region-score distributions;
+- rank/percentile summaries relative to an appropriate frozen internal reference distribution if such a reference was prespecified and can be used without outcome-driven construction.
+Treat these as descriptive case-series recovery statistics unless a valid complete denominator exists.
+Do not call them sensitivity if the denominator is incomplete.
+5. Allelic-effect evaluation
+Separately evaluate whether V2 REF–ALT deltas correspond to experimentally observed allelic direction.
+Use only benchmark observations where:
+- exact nucleotide identity is resolved;
+- the experimental direction is unambiguous;
+- REF/ALT mapping to the reported experimental alleles is unambiguous;
+- the assayed mechanism is reasonably within the model’s intended regulatory scope.
+For this direction-resolved subset report:
+- sign concordance for enhancer delta;
+- sign concordance for H3K27me3 delta where biologically interpretable;
+- continuous delta values;
+- per-locus results;
+- exact numerator/denominator.
+If the number of direction-resolved cases is small, state that explicitly and do not overinterpret a percentage.
+Preserve splice-only cases such as NPNT as mechanistically out-of-model rather than false negatives.
+6. Compare V1 and V2 descriptively
+Since V1 benchmark results are already frozen, compare V2 against those existing results without modifying either stage.
+Report:
+- V1 forward region-call recovery;
+- V1 RC region-call recovery;
+- V2-C symmetric region-call recovery;
+- variants newly recovered by V2;
+- variants lost relative to V1;
+- variants still missed;
+- rs2013701 explicitly as a pre-existing known case, not a blinded validation case.
+Do not perform significance testing that assumes independence between V1 and V2 when the same benchmark variants are reused.
+This comparison is retrospective/descriptive.
+7. Do not manufacture unavailable classification metrics
+Retain the benchmark denominator rules from COPD-V2-BENCH1.0.
+Unless a source has a complete, unbiased positive/negative denominator with all inclusion and QC outcomes available, do not calculate:
+- sensitivity;
+- specificity;
+- FPR;
+- AUROC;
+- AUPRC;
+- enrichment p-values based on incomplete negatives.
+Do not treat Gong null assay-context rows as universal variant negatives.
+Do not treat unidentified Castaldi hits as null.
+8. Context and mechanism stratification
+Where support permits, report results separately by:
+- source study;
+- cell type;
+- assay type;
+- reporter vs endogenous perturbation;
+- enhancer-like vs repressor/H3K27me3-relevant mechanism;
+- SNV vs indel;
+- exact V1-presence vs newly scorable V2 sequence.
+Keep small strata descriptive.
+9. Hard firewall after opening
+Once benchmark outcomes are opened:
+- no retraining;
+- no threshold change;
+- no seed exclusion;
+- no checkpoint replacement;
+- no new control construction;
+- no architecture change;
+- no “one more” calibration;
+- no returning to internal-training-1.0 or internal-test-1.0.
+If V2 performs poorly, report the failure honestly and stop.
+Any future redesign must be a separately versioned scientific project and must not claim the same benchmark as untouched validation.
+10. Required outputs
+Produce:
+- pre-open prospective specification and hash;
+- benchmark source/hash verification;
+- exact benchmark-to-V2 identity map;
+- sequence-construction QC;
+- per-variant REF/ALT V2-C scores;
+- region-level recovery table;
+- direction-resolved allelic-effect table;
+- V1-vs-V2 descriptive comparison;
+- source/mechanism stratified summaries;
+- explicit unevaluable/missing table;
+- limitation statement;
+- independent validation;
+- append-only activity/decision/result register updates;
+- final checksum/freeze record.
+11. Stop
+At completion report:
+- how many experimentally positive benchmark variants were exact and V2-scorable;
+- how many were recovered by enhancer, H3K27me3 and their union;
+- how this compares with frozen V1;
+- direction concordance among the strictly direction-resolved subset;
+- whether the corrected model shows improved external functional recovery;
+- whether any apparent improvement is region-level only or extends to REF–ALT effects;
+- the major remaining failure modes.
+Then stop.
+Do not score the broader COPD GWAS candidate universe yet.
+Do not rerank the 337 V1 candidates.
+Do not perform fine-mapping or target-gene analysis.

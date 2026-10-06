@@ -1,0 +1,133 @@
+axis	stratum	context	unique_positive_scorable_variants	recovered	fraction	interpretation
+V1_presence	absent_unavailable	enhancer	16	1	0.0625	small correlated descriptive strata; overlapping sets
+V1_presence	absent_unavailable	h3k27me3	16	0	0.0	small correlated descriptive strata; overlapping sets
+V1_presence	absent_unavailable	union	16	1	0.0625	small correlated descriptive strata; overlapping sets
+V1_presence	exact_forward_and_RC	enhancer	23	2	0.08695652173913043	small correlated descriptive strata; overlapping sets
+V1_presence	exact_forward_and_RC	h3k27me3	23	1	0.043478260869565216	small correlated descriptive strata; overlapping sets
+V1_presence	exact_forward_and_RC	union	23	3	0.13043478260869565	small correlated descriptive strata; overlapping sets
+assay_class	MPRA_allele_effect	enhancer	35	2	0.05714285714285714	small correlated descriptive strata; overlapping sets
+assay_class	MPRA_allele_effect	h3k27me3	35	1	0.02857142857142857	small correlated descriptive strata; overlapping sets
+assay_class	MPRA_allele_effect	union	35	3	0.08571428571428572	small correlated descriptive strata; overlapping sets
+assay_class	TF_binding	enhancer	1	0	0.0	small correlated descriptive strata; overlapping sets
+assay_class	TF_binding	h3k27me3	1	0	0.0	small correlated descriptive strata; overlapping sets
+assay_class	TF_binding	union	1	0	0.0	small correlated descriptive strata; overlapping sets
+assay_class	conventional_reporter	enhancer	8	2	0.25	small correlated descriptive strata; overlapping sets
+assay_class	conventional_reporter	h3k27me3	8	0	0.0	small correlated descriptive strata; overlapping sets
+assay_class	conventional_reporter	union	8	2	0.25	small correlated descriptive strata; overlapping sets
+assay_class	endogenous_allele_editing	enhancer	2	1	0.5	small correlated descriptive strata; overlapping sets
+assay_class	endogenous_allele_editing	h3k27me3	2	0	0.0	small correlated descriptive strata; overlapping sets
+assay_class	endogenous_allele_editing	union	2	1	0.5	small correlated descriptive strata; overlapping sets
+cell_context	16HBE	enhancer	15	1	0.06666666666666667	small correlated descriptive strata; overlapping sets
+cell_context	16HBE	h3k27me3	15	1	0.06666666666666667	small correlated descriptive strata; overlapping sets
+cell_context	16HBE	union	15	2	0.13333333333333333	small correlated descriptive strata; overlapping sets
+cell_context	16HBE14o-	enhancer	1	0	0.0	small correlated descriptive strata; overlapping sets
+cell_context	16HBE14o-	h3k27me3	1	0	0.0	small correlated descriptive strata; overlapping sets
+cell_context	16HBE14o-	union	1	0	0.0	small correlated descriptive strata; overlapping sets
+cell_context	16HBE14o- isogenic HDR clones	enhancer	1	0	0.0	small correlated descriptive strata; overlapping sets
+cell_context	16HBE14o- isogenic HDR clones	h3k27me3	1	0	0.0	small correlated descriptive strata; overlapping sets
+cell_context	16HBE14o- isogenic HDR clones	union	1	0	0.0	small correlated descriptive strata; overlapping sets
+cell_context	16HBE; CRISPR homology-directed GG-to-TT editing; submerged clonal culture	enhancer	1	1	1.0	small correlated descriptive strata; overlapping sets
+cell_context	16HBE; CRISPR homology-directed GG-to-TT editing; submerged clonal culture	h3k27me3	1	0	0.0	small correlated descriptive strata; overlapping sets
+cell_context	16HBE; CRISPR homology-directed GG-to-TT editing; submerged clonal culture	union	1	1	1.0	small correlated descriptive strata; overlapping sets
+cell_context	16HBE; pGL4.23 luciferase; no exposure reported	enhancer	3	1	0.3333333333333333	small correlated descriptive strata; overlapping sets
+cell_context	16HBE; pGL4.23 luciferase; no exposure reported	h3k27me3	3	0	0.0	small correlated descriptive strata; overlapping sets
+cell_context	16HBE; pGL4.23 luciferase; no exposure reported	union	3	1	0.3333333333333333	small correlated descriptive strata; overlapping sets
+cell_context	BEAS-2B	enhancer	2	0	0.0	small correlated descriptive strata; overlapping sets
+cell_context	BEAS-2B	h3k27me3	2	0	0.0	small correlated descriptive strata; overlapping sets
+cell_context	BEAS-2B	union	2	0	0.0	small correlated descriptive strata; overlapping sets
+cell_context	BEAS-2B nuclear extract	enhancer	1	0	0.0	small correlated descriptive strata; overlapping sets
+cell_context	BEAS-2B nuclear extract	h3k27me3	1	0	0.0	small correlated descriptive strata; overlapping sets
+cell_context	BEAS-2B nuclear extract	union	1	0	0.0	small correlated descriptive strata; overlapping sets
+cell_context	Beas-2B; source-reported any oligo/promoter context	enhancer	11	1	0.09090909090909091	small correlated descriptive strata; overlapping sets
+cell_context	Beas-2B; source-reported any oligo/promoter context	h3k27me3	11	0	0.0	small correlated descriptive strata; overlapping sets
+cell_context	Beas-2B; source-reported any oligo/promoter context	union	11	1	0.09090909090909091	small correlated descriptive strata; overlapping sets
+cell_context	HUVEC	enhancer	5	0	0.0	small correlated descriptive strata; overlapping sets
+cell_context	HUVEC	h3k27me3	5	0	0.0	small correlated descriptive strata; overlapping sets
+cell_context	HUVEC	union	5	0	0.0	small correlated descriptive strata; overlapping sets
+cell_context	HepG2	enhancer	1	0	0.0	small correlated descriptive strata; overlapping sets
+cell_context	HepG2	h3k27me3	1	0	0.0	small correlated descriptive strata; overlapping sets
+cell_context	HepG2	union	1	0	0.0	small correlated descriptive strata; overlapping sets
+cell_context	Jurkat	enhancer	1	1	1.0	small correlated descriptive strata; overlapping sets
+cell_context	Jurkat	h3k27me3	1	0	0.0	small correlated descriptive strata; overlapping sets
+cell_context	Jurkat	union	1	1	1.0	small correlated descriptive strata; overlapping sets
+cell_context	MRC5	enhancer	6	1	0.16666666666666666	small correlated descriptive strata; overlapping sets
+cell_context	MRC5	h3k27me3	6	0	0.0	small correlated descriptive strata; overlapping sets
+cell_context	MRC5	union	6	1	0.16666666666666666	small correlated descriptive strata; overlapping sets
+evidence_unit	endogenous_editing	enhancer	2	1	0.5	small correlated descriptive strata; overlapping sets
+evidence_unit	endogenous_editing	h3k27me3	2	0	0.0	small correlated descriptive strata; overlapping sets
+evidence_unit	endogenous_editing	union	2	1	0.5	small correlated descriptive strata; overlapping sets
+evidence_unit	other_in_scope_evidence	enhancer	1	0	0.0	small correlated descriptive strata; overlapping sets
+evidence_unit	other_in_scope_evidence	h3k27me3	1	0	0.0	small correlated descriptive strata; overlapping sets
+evidence_unit	other_in_scope_evidence	union	1	0	0.0	small correlated descriptive strata; overlapping sets
+evidence_unit	reporter	enhancer	39	3	0.07692307692307693	small correlated descriptive strata; overlapping sets
+evidence_unit	reporter	h3k27me3	39	1	0.02564102564102564	small correlated descriptive strata; overlapping sets
+evidence_unit	reporter	union	39	4	0.10256410256410256	small correlated descriptive strata; overlapping sets
+locus	ACVR1B_12q13	enhancer	1	1	1.0	small correlated descriptive strata; overlapping sets
+locus	ACVR1B_12q13	h3k27me3	1	0	0.0	small correlated descriptive strata; overlapping sets
+locus	ACVR1B_12q13	union	1	1	1.0	small correlated descriptive strata; overlapping sets
+locus	ADAM19	enhancer	4	0	0.0	small correlated descriptive strata; overlapping sets
+locus	ADAM19	h3k27me3	4	0	0.0	small correlated descriptive strata; overlapping sets
+locus	ADAM19	union	4	0	0.0	small correlated descriptive strata; overlapping sets
+locus	ADGRG6	enhancer	1	0	0.0	small correlated descriptive strata; overlapping sets
+locus	ADGRG6	h3k27me3	1	0	0.0	small correlated descriptive strata; overlapping sets
+locus	ADGRG6	union	1	0	0.0	small correlated descriptive strata; overlapping sets
+locus	DSP_6p24	enhancer	1	0	0.0	small correlated descriptive strata; overlapping sets
+locus	DSP_6p24	h3k27me3	1	0	0.0	small correlated descriptive strata; overlapping sets
+locus	DSP_6p24	union	1	0	0.0	small correlated descriptive strata; overlapping sets
+locus	EEFSEC	enhancer	6	1	0.16666666666666666	small correlated descriptive strata; overlapping sets
+locus	EEFSEC	h3k27me3	6	0	0.0	small correlated descriptive strata; overlapping sets
+locus	EEFSEC	union	6	1	0.16666666666666666	small correlated descriptive strata; overlapping sets
+locus	FAM13A	enhancer	11	1	0.09090909090909091	small correlated descriptive strata; overlapping sets
+locus	FAM13A	h3k27me3	11	0	0.0	small correlated descriptive strata; overlapping sets
+locus	FAM13A	union	11	1	0.09090909090909091	small correlated descriptive strata; overlapping sets
+locus	FAM13A_4q22	enhancer	1	0	0.0	small correlated descriptive strata; overlapping sets
+locus	FAM13A_4q22	h3k27me3	1	0	0.0	small correlated descriptive strata; overlapping sets
+locus	FAM13A_4q22	union	1	0	0.0	small correlated descriptive strata; overlapping sets
+locus	GSTCD	enhancer	8	0	0.0	small correlated descriptive strata; overlapping sets
+locus	GSTCD	h3k27me3	8	1	0.125	small correlated descriptive strata; overlapping sets
+locus	GSTCD	union	8	1	0.125	small correlated descriptive strata; overlapping sets
+locus	HHIP_4q31	enhancer	2	0	0.0	small correlated descriptive strata; overlapping sets
+locus	HHIP_4q31	h3k27me3	2	0	0.0	small correlated descriptive strata; overlapping sets
+locus	HHIP_4q31	union	2	0	0.0	small correlated descriptive strata; overlapping sets
+locus	HTR4	enhancer	5	0	0.0	small correlated descriptive strata; overlapping sets
+locus	HTR4	h3k27me3	5	0	0.0	small correlated descriptive strata; overlapping sets
+locus	HTR4	union	5	0	0.0	small correlated descriptive strata; overlapping sets
+mechanism_in_model_scope	partial	enhancer	3	1	0.3333333333333333	small correlated descriptive strata; overlapping sets
+mechanism_in_model_scope	partial	h3k27me3	3	0	0.0	small correlated descriptive strata; overlapping sets
+mechanism_in_model_scope	partial	union	3	1	0.3333333333333333	small correlated descriptive strata; overlapping sets
+mechanism_in_model_scope	yes	enhancer	39	3	0.07692307692307693	small correlated descriptive strata; overlapping sets
+mechanism_in_model_scope	yes	h3k27me3	39	1	0.02564102564102564	small correlated descriptive strata; overlapping sets
+mechanism_in_model_scope	yes	union	39	4	0.10256410256410256	small correlated descriptive strata; overlapping sets
+regulatory_mechanism	TF_binding_partial_scope	enhancer	1	0	0.0	small correlated descriptive strata; overlapping sets
+regulatory_mechanism	TF_binding_partial_scope	h3k27me3	1	0	0.0	small correlated descriptive strata; overlapping sets
+regulatory_mechanism	TF_binding_partial_scope	union	1	0	0.0	small correlated descriptive strata; overlapping sets
+regulatory_mechanism	endogenous_expression_partial_scope	enhancer	2	1	0.5	small correlated descriptive strata; overlapping sets
+regulatory_mechanism	endogenous_expression_partial_scope	h3k27me3	2	0	0.0	small correlated descriptive strata; overlapping sets
+regulatory_mechanism	endogenous_expression_partial_scope	union	2	1	0.5	small correlated descriptive strata; overlapping sets
+regulatory_mechanism	transcriptional_reporter_not_H3_specific	enhancer	39	3	0.07692307692307693	small correlated descriptive strata; overlapping sets
+regulatory_mechanism	transcriptional_reporter_not_H3_specific	h3k27me3	39	1	0.02564102564102564	small correlated descriptive strata; overlapping sets
+regulatory_mechanism	transcriptional_reporter_not_H3_specific	union	39	4	0.10256410256410256	small correlated descriptive strata; overlapping sets
+study_id	BOUEIZ2019_ACVR1B	enhancer	1	1	1.0	small correlated descriptive strata; overlapping sets
+study_id	BOUEIZ2019_ACVR1B	h3k27me3	1	0	0.0	small correlated descriptive strata; overlapping sets
+study_id	BOUEIZ2019_ACVR1B	union	1	1	1.0	small correlated descriptive strata; overlapping sets
+study_id	CASTALDI2019	enhancer	11	1	0.09090909090909091	small correlated descriptive strata; overlapping sets
+study_id	CASTALDI2019	h3k27me3	11	0	0.0	small correlated descriptive strata; overlapping sets
+study_id	CASTALDI2019	union	11	1	0.09090909090909091	small correlated descriptive strata; overlapping sets
+study_id	GONG2026	enhancer	24	1	0.041666666666666664	small correlated descriptive strata; overlapping sets
+study_id	GONG2026	h3k27me3	24	1	0.041666666666666664	small correlated descriptive strata; overlapping sets
+study_id	GONG2026	union	24	2	0.08333333333333333	small correlated descriptive strata; overlapping sets
+study_id	HAO2020_DSP	enhancer	1	0	0.0	small correlated descriptive strata; overlapping sets
+study_id	HAO2020_DSP	h3k27me3	1	0	0.0	small correlated descriptive strata; overlapping sets
+study_id	HAO2020_DSP	union	1	0	0.0	small correlated descriptive strata; overlapping sets
+study_id	LIN2020_FAM13A	enhancer	1	0	0.0	small correlated descriptive strata; overlapping sets
+study_id	LIN2020_FAM13A	h3k27me3	1	0	0.0	small correlated descriptive strata; overlapping sets
+study_id	LIN2020_FAM13A	union	1	0	0.0	small correlated descriptive strata; overlapping sets
+study_id	ZHOU2012_HHIP	enhancer	2	0	0.0	small correlated descriptive strata; overlapping sets
+study_id	ZHOU2012_HHIP	h3k27me3	2	0	0.0	small correlated descriptive strata; overlapping sets
+study_id	ZHOU2012_HHIP	union	2	0	0.0	small correlated descriptive strata; overlapping sets
+variant_type	SNV	enhancer	38	3	0.07894736842105263	small correlated descriptive strata; overlapping sets
+variant_type	SNV	h3k27me3	38	0	0.0	small correlated descriptive strata; overlapping sets
+variant_type	SNV	union	38	3	0.07894736842105263	small correlated descriptive strata; overlapping sets
+variant_type	indel_or_multibase	enhancer	1	0	0.0	small correlated descriptive strata; overlapping sets
+variant_type	indel_or_multibase	h3k27me3	1	1	1.0	small correlated descriptive strata; overlapping sets
+variant_type	indel_or_multibase	union	1	1	1.0	small correlated descriptive strata; overlapping sets

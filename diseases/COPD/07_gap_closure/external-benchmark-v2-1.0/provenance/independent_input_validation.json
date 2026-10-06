@@ -1,0 +1,192 @@
+{
+  "GPU_or_model_runtime_used": false,
+  "V2_prediction_access": false,
+  "actual_nucleotide_counts_both_alleles": {
+    "A": 2063433,
+    "C": 1361923,
+    "G": 1354966,
+    "T": 2063098
+  },
+  "actual_sequence_row_digest": "ee2bc1768e0764838fc3b219aff703c5331ddf91177ffbb518bfb15f7bb06150",
+  "actual_variant_types": {
+    "SNV": 1673,
+    "deletion": 22,
+    "insertion": 15
+  },
+  "all_alleles_independently_reconstructed_from_hg38": true,
+  "argv": [
+    "diseases/COPD/07_gap_closure/external-benchmark-v2-1.0/scripts/validate_external_inputs_independently.py"
+  ],
+  "candidate_universe_access": false,
+  "check_counts_by_category": {
+    "ACGTN_only_context": 3420,
+    "N_all_zero_onehot": 3420,
+    "RC_allele_span": 3420,
+    "RC_involution": 3420,
+    "actual_hg38_REF_match": 3420,
+    "all_actual_allele_genome_reconstructions": 3420,
+    "all_exact_identities_scored_without_outcome_selection": 1,
+    "allele_validity": 1710,
+    "complete_contextual_population": 1,
+    "complete_master_population": 1,
+    "complete_variant_population": 1,
+    "contextual_not_promoted_to_variant": 267,
+    "contextual_state_preserved": 267,
+    "exact_frozen_identity_key": 13899,
+    "fasta_boundaries": 3420,
+    "fasta_read_length": 3420,
+    "forward_allele_span": 3420,
+    "frozen_CPU_environment": 2,
+    "frozen_R015_positive_flag": 1731,
+    "frozen_reference_byte_hash": 2,
+    "frozen_reference_metadata": 2,
+    "frozen_reporting_group": 14025,
+    "identity_and_row_order": 1710,
+    "independent_identity_eligibility": 14025,
+    "independent_observation_taxonomy": 84150,
+    "independent_variant_taxonomy": 6924,
+    "input_or_annotation_file_hash": 12,
+    "master_harmonization_identity_equality": 98175,
+    "master_row_bijection": 1,
+    "no_model_runtime_import": 1,
+    "no_unsupported_H3_sign_inversion": 14025,
+    "onehot_nucleotide_RC_equivalence": 3420,
+    "original_contextual_row_hash": 267,
+    "original_row_hash": 14025,
+    "original_row_link": 14025,
+    "pre_prediction_chronology": 2,
+    "prospective_hash": 2,
+    "sequence_N_count_consistency": 3420,
+    "sequence_QC_consistency": 3420,
+    "sequence_array_schema": 2,
+    "sequence_population": 2,
+    "sequence_sha256_consistency": 6840,
+    "snapshot_hash": 2,
+    "strict_direction_allele_sign": 11,
+    "strict_direction_eligibility": 14025,
+    "synthetic_N_RC_encoding": 1,
+    "unresolved_not_promoted": 126,
+    "variant_direction_consensus": 5193,
+    "variant_observation_accounting": 1731
+  },
+  "chromosome_counts": {
+    "12": 1,
+    "3": 219,
+    "4": 1092,
+    "5": 289,
+    "6": 109
+  },
+  "command_summary": "PYTHONHASHSEED=104729 bash scripts/runtime.sh scripts/validate_external_inputs_independently.py; CPU-only NumPy/stdlib",
+  "completed_utc": "2026-10-06T20:08:24.988672+00:00",
+  "contextual_observations": 267,
+  "dtype": "uint8",
+  "environment": {
+    "PYTHONHASHSEED": "104729",
+    "executable": "/home/maheshwarany2/.local/share/uv/python/cpython-3.13.0-linux-x86_64-gnu/bin/python3.13",
+    "numpy": "2.5.0",
+    "platform": "Linux-4.18.0-425.19.3b.el8.x86_64-x86_64-with-glibc2.28",
+    "python": "3.13.0"
+  },
+  "exact_scorable_in_scope_positive_variants": 39,
+  "exact_unique_variants": 1710,
+  "experimental_state_observations": {
+    "ambiguous": 37,
+    "null": 6677,
+    "positive": 53,
+    "unavailable": 7258
+  },
+  "files_verified": [
+    {
+      "bytes": 2939,
+      "path": "inputs/input_manifest.json",
+      "sha256": "aa4fcc91969592b9799694aab36daf8927244a411de5f33b7c5e81ab5e77f1ea"
+    },
+    {
+      "bytes": 294872,
+      "path": "inputs/scorable_variants.tsv",
+      "sha256": "c3db0d7d48ac241f3daa532e4e6df0b3c6f947221b15f102e5a24070c3ed015c"
+    },
+    {
+      "bytes": 6843548,
+      "path": "inputs/allele_sequences.npy",
+      "sha256": "75160f604b282bdcbb4f1eb354c1b33111a8d090cbfad682c3697cf49f5d2750"
+    },
+    {
+      "bytes": 575263,
+      "path": "inputs/sequence_qc.tsv",
+      "sha256": "a921469ab6fb2025ad9b63cb03d53f63118afa4fc2451ce6644eb574b0d00c05"
+    },
+    {
+      "bytes": 18779747,
+      "path": "inputs/observation_annotations.tsv",
+      "sha256": "a2d59a74c1fd561f5f49d46b4ec38c4e1db20a43a2eb69ed4a7b27bd21da835b"
+    },
+    {
+      "bytes": 949639,
+      "path": "inputs/variant_annotations.tsv",
+      "sha256": "7c49ce0c0995c7dc46143c0f9740ac692b1ce0625fa9577c6e5e4987464e5da3"
+    },
+    {
+      "bytes": 579649,
+      "path": "inputs/contextual_annotations.tsv",
+      "sha256": "02632edc49a57e77eea5d32187ab93c63e9d432232d79e480f7439b731f52477"
+    },
+    {
+      "bytes": 7408502,
+      "path": "inputs/benchmark_snapshot.json.gz",
+      "sha256": "94b8cd3960458180e25357e3068ec229b1f260ce9b30d12dff704694f8520e90"
+    },
+    {
+      "bytes": 10254,
+      "path": "provenance/annotation_rules.json",
+      "sha256": "ab84c11c434ef4d2dc01fae5efc5a219a5ffd07458b369a32df45e52a14b9c3c"
+    }
+  ],
+  "in_scope_positive_groups": 40,
+  "independence": "No builder, annotator, scorer, TensorFlow, Keras, or prior-stage execution imports; independent contiguous-span stdlib FAI reader and direct snapshot taxonomy derivation",
+  "master_observations": 14025,
+  "n_actual_allele_sequences_checked": 3420,
+  "n_actual_variant_pairs_checked": 1710,
+  "n_checks": 348226,
+  "original_benchmark_files_reopened": false,
+  "original_benchmark_groups": 1731,
+  "positive_observation_scope_counts": {
+    "partial": 3,
+    "yes": 49
+  },
+  "reference_dependencies_independently_rehashed": {
+    "hg38_fai": {
+      "bytes": 19381,
+      "path": "diseases/COPD/04_modeling/trednet/fasta/hg38.fa.fai",
+      "resolved_managed_path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/fasta/hg38.fa.fai",
+      "sha256": "3b425de206296a5c8053023fa5ca61da43cfe78c1737c12e58c83367c7e83c21"
+    },
+    "hg38_fasta": {
+      "bytes": 3273481150,
+      "path": "diseases/COPD/04_modeling/trednet/fasta/hg38.fa",
+      "resolved_managed_path": "/vf/users/Dcode/gaetano/projects/Writing_Scientific_Manuscript_Codex/models/TREDNET_v2/fasta/hg38.fa",
+      "sha256": "5be01555d98347fdb3714dc84c6f77c9d8bc774adcf32c6f7a8fa06f5baf5e51"
+    }
+  },
+  "resources": {
+    "peak_RSS_KiB": 843032,
+    "wall_seconds": 12.454383376985788
+  },
+  "scientific_inputs_modified": false,
+  "script": {
+    "bytes": 20654,
+    "path": "scripts/validate_external_inputs_independently.py",
+    "sha256": "59e79f1ce2a8f2a10a9f22ffc06a9f2d4eb8bd4ebe1583e8411cdc4b02c89597"
+  },
+  "shape": [
+    1710,
+    2,
+    2001
+  ],
+  "stage": "external-benchmark-v2-1.0",
+  "started_utc": "2026-10-06T20:08:12.534344+00:00",
+  "status": "PASS",
+  "strict_H3K27me3_direction_observations": 0,
+  "strict_enhancer_direction_observations": 11,
+  "strict_enhancer_direction_variants": 8
+}

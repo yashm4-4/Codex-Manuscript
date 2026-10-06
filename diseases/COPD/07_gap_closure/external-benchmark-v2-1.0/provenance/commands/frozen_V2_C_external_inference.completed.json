@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "bash",
+    "diseases/COPD/07_gap_closure/external-benchmark-v2-1.0/scripts/runtime.sh",
+    "diseases/COPD/07_gap_closure/external-benchmark-v2-1.0/scripts/score_frozen_v2.py",
+    "--repo",
+    "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow",
+    "--stage",
+    "diseases/COPD/07_gap_closure/external-benchmark-v2-1.0"
+  ],
+  "completed_utc": "2026-10-06T20:09:49.795714+00:00",
+  "returncode": 0,
+  "stderr": {
+    "bytes": 751,
+    "path": "provenance/commands/frozen_V2_C_external_inference.stderr.log",
+    "sha256": "bf00b72366425f093b815d04b356c982a85eb11533933093c36d8780f2233b22"
+  },
+  "stdout": {
+    "bytes": 634,
+    "path": "provenance/commands/frozen_V2_C_external_inference.stdout.log",
+    "sha256": "02d49f7ca23be9b1494691932888fa893bac8aab7a16762fd9ba22baa10ce17b"
+  },
+  "wall_seconds": 44.421370810014196
+}

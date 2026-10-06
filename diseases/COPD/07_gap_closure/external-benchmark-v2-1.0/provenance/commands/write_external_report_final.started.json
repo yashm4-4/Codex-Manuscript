@@ -1,0 +1,20 @@
+{
+  "argv": [
+    "python3",
+    "diseases/COPD/07_gap_closure/external-benchmark-v2-1.0/scripts/write_external_report.py",
+    "--refresh"
+  ],
+  "cwd": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow",
+  "environment": {
+    "CUDA_VISIBLE_DEVICES": "0",
+    "PYTHONHASHSEED": null,
+    "SLURM_JOB_GPUS": "3",
+    "SLURM_JOB_ID": "32057893"
+  },
+  "launcher": {
+    "bytes": 1925,
+    "path": "scripts/run_logged.py",
+    "sha256": "829e8e2c74855a9f7f1e4193ff2de999b3bc78b3e8b286a7ab2bfc9e2ff334a7"
+  },
+  "started_utc": "2026-10-06T20:14:33.189235+00:00"
+}

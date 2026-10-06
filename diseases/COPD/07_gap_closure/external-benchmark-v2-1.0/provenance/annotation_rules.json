@@ -1,0 +1,226 @@
+{
+  "V2_prediction_files_opened": false,
+  "attempt_ledger": [
+    {
+      "attempt": 1,
+      "cause": "Frozen R015 unresolved reporting keys sort tested alleles; first implementation retained reported allele order.",
+      "command": "python3 diseases/COPD/07_gap_closure/external-benchmark-v2-1.0/scripts/annotate_benchmark.py",
+      "error": "AssertionError: unresolved:rs201292172:ACAC/-",
+      "exit_code": 1,
+      "failed_script": {
+        "bytes": 18576,
+        "path": "scripts/history/annotate_benchmark_attempt001.py",
+        "sha256": "751a5081a3c77043cd962d210e71ef479f94f538bf3b36e67787889a4b704d23"
+      },
+      "repair": "Sort the two tested-allele labels only when recreating an unresolved R015 reporting key; no sequence identity rescued, no eligibility/direction rule changed.",
+      "status": "FAILED_BEFORE_OUTPUTS"
+    },
+    {
+      "attempt": 2,
+      "command": "python3 diseases/COPD/07_gap_closure/external-benchmark-v2-1.0/scripts/annotate_benchmark.py",
+      "exit_code": 0,
+      "status": "PASS"
+    }
+  ],
+  "before_any_V2_predictions": true,
+  "candidate_universe_opened": false,
+  "contextual_rule": "All 267 original R004B rows retained without promotion to exact-variant labels or negatives.",
+  "counts": {
+    "contextual_observations": 267,
+    "enhancer_direction_conflicting_variants": 0,
+    "enhancer_direction_observations": 11,
+    "enhancer_direction_unique_consensus_variants": 8,
+    "exact_in_scope_positive_variants_before_sequence_QC": 39,
+    "exact_master_observations": 13899,
+    "exact_variant_identities": 1710,
+    "experimental_state_observations": {
+      "ambiguous": 37,
+      "null": 6677,
+      "positive": 53,
+      "unavailable": 7258
+    },
+    "h3k27me3_direction_observations": 0,
+    "in_scope_positive_benchmark_keys_including_unresolved": 40,
+    "master_observations": 14025,
+    "unique_frozen_benchmark_keys": 1731,
+    "unresolved_frozen_benchmark_keys": 21
+  },
+  "created_utc": "2026-10-06T20:01:54.706645+00:00",
+  "crosschecks": {
+    "R015_all_positive_flags_match": true,
+    "R015_exact_positive_key_set_match": true,
+    "R015_unique_keys_and_observation_counts_match": true,
+    "all_14025_master_and_267_contextual_rows_accounted": true
+  },
+  "direction_resolved_observations": [
+    {
+      "assay_class": "conventional_reporter",
+      "assay_id": "CASTALDI2019_REPORTER_rs2013701_16HBE",
+      "cell_context": "16HBE; pGL4.23 luciferase; no exposure reported",
+      "enhancer_expected_sign": 1,
+      "higher_activity_grch38_allele": "T",
+      "observation_id": "R003:CASTALDI2019_REPORTER_rs2013701_16HBE",
+      "source_locator": "Figure 5, visually inspected; Allele-Specific Distal Enhancer Activities",
+      "study_id": "CASTALDI2019",
+      "variant_id": "4:88963935:G:T"
+    },
+    {
+      "assay_class": "conventional_reporter",
+      "assay_id": "CASTALDI2019_REPORTER_rs7671167_16HBE",
+      "cell_context": "16HBE; pGL4.23 luciferase; no exposure reported",
+      "enhancer_expected_sign": -1,
+      "higher_activity_grch38_allele": "C",
+      "observation_id": "R003:CASTALDI2019_REPORTER_rs7671167_16HBE",
+      "source_locator": "Figure 5, visually inspected; Allele-Specific Distal Enhancer Activities",
+      "study_id": "CASTALDI2019",
+      "variant_id": "4:88962828:C:T"
+    },
+    {
+      "assay_class": "conventional_reporter",
+      "assay_id": "CASTALDI2019_REPORTER_rs1795739_16HBE",
+      "cell_context": "16HBE; pGL4.23 luciferase; no exposure reported",
+      "enhancer_expected_sign": -1,
+      "higher_activity_grch38_allele": "A",
+      "observation_id": "R003:CASTALDI2019_REPORTER_rs1795739_16HBE",
+      "source_locator": "Figure 5, visually inspected; Allele-Specific Distal Enhancer Activities",
+      "study_id": "CASTALDI2019",
+      "variant_id": "4:89009162:A:G"
+    },
+    {
+      "assay_class": "endogenous_allele_editing",
+      "assay_id": "CASTALDI2019_EDIT_rs2013701_16HBE_expression",
+      "cell_context": "16HBE; CRISPR homology-directed GG-to-TT editing; submerged clonal culture",
+      "enhancer_expected_sign": 1,
+      "higher_activity_grch38_allele": "T",
+      "observation_id": "R003:CASTALDI2019_EDIT_rs2013701_16HBE_expression",
+      "source_locator": "Figure 6A and CRISPR-based Genome Editing section (heading typo rs2017301)",
+      "study_id": "CASTALDI2019",
+      "variant_id": "4:88963935:G:T"
+    },
+    {
+      "assay_class": "conventional_reporter",
+      "assay_id": "ZHOU2012_rs6537296_forward",
+      "cell_context": "BEAS-2B",
+      "enhancer_expected_sign": 1,
+      "higher_activity_grch38_allele": "G",
+      "observation_id": "R003:ZHOU2012_rs6537296_forward",
+      "source_locator": "Figure3B forward panel",
+      "study_id": "ZHOU2012_HHIP",
+      "variant_id": "4:144566782:A:G"
+    },
+    {
+      "assay_class": "conventional_reporter",
+      "assay_id": "ZHOU2012_rs1542725_reverse",
+      "cell_context": "BEAS-2B",
+      "enhancer_expected_sign": 1,
+      "higher_activity_grch38_allele": "T",
+      "observation_id": "R003:ZHOU2012_rs1542725_reverse",
+      "source_locator": "Figure3B reverse panel",
+      "study_id": "ZHOU2012_HHIP",
+      "variant_id": "4:144567182:C:T"
+    },
+    {
+      "assay_class": "conventional_reporter",
+      "assay_id": "BOUEIZ2019_rs7962469_16HBE",
+      "cell_context": "16HBE",
+      "enhancer_expected_sign": -1,
+      "higher_activity_grch38_allele": "A",
+      "observation_id": "R003:BOUEIZ2019_rs7962469_16HBE",
+      "source_locator": "Figure5",
+      "study_id": "BOUEIZ2019_ACVR1B",
+      "variant_id": "12:51954475:A:G"
+    },
+    {
+      "assay_class": "conventional_reporter",
+      "assay_id": "BOUEIZ2019_rs7962469_Jurkat",
+      "cell_context": "Jurkat",
+      "enhancer_expected_sign": -1,
+      "higher_activity_grch38_allele": "A",
+      "observation_id": "R003:BOUEIZ2019_rs7962469_Jurkat",
+      "source_locator": "Results and FigureE1",
+      "study_id": "BOUEIZ2019_ACVR1B",
+      "variant_id": "12:51954475:A:G"
+    },
+    {
+      "assay_class": "conventional_reporter",
+      "assay_id": "HAO2020_rs2076295_reporter",
+      "cell_context": "16HBE14o-",
+      "enhancer_expected_sign": -1,
+      "higher_activity_grch38_allele": "T",
+      "observation_id": "R003:HAO2020_rs2076295_reporter",
+      "source_locator": "Figure1F",
+      "study_id": "HAO2020_DSP",
+      "variant_id": "6:7562999:T:G"
+    },
+    {
+      "assay_class": "endogenous_allele_editing",
+      "assay_id": "HAO2020_rs2076295_HDR",
+      "cell_context": "16HBE14o- isogenic HDR clones",
+      "enhancer_expected_sign": -1,
+      "higher_activity_grch38_allele": "T",
+      "observation_id": "R003:HAO2020_rs2076295_HDR",
+      "source_locator": "Figure1E",
+      "study_id": "HAO2020_DSP",
+      "variant_id": "6:7562999:T:G"
+    },
+    {
+      "assay_class": "conventional_reporter",
+      "assay_id": "LIN2020_rs2276936_forward",
+      "cell_context": "HepG2",
+      "enhancer_expected_sign": -1,
+      "higher_activity_grch38_allele": "A",
+      "observation_id": "R003:LIN2020_rs2276936_forward",
+      "source_locator": "Figure1A GRCh37 identity; Figure1B forward reporter pair",
+      "study_id": "LIN2020_FAM13A",
+      "variant_id": "4:88805132:A:C"
+    }
+  ],
+  "direction_rule": "Positive exact in-scope direct reporter or isolated endogenous expression observation, frozen direction_identity_resolved True, explicit higher_activity_grch38_allele in REF/ALT and matching signed ALT-minus-REF direction. No narrative rescue, GWAS/risk effect, missing MPRA ratio convention, or TF-binding-to-activity inference.",
+  "endogenous_assay_class": "endogenous_allele_editing",
+  "full_original_row_preservation": "All exact original rows remain in the immutable benchmark_snapshot.json.gz. Annotation source_table and zero-based snapshot_row_index locate each row; frozen_row_json_sha256 uses json.dumps(sort_keys=True,separators=(comma,colon),ensure_ascii=True). Compact annotation tables do not duplicate the 62 MB master JSON.",
+  "h3k27me3_direction_rule": "No frozen assay establishes a directly measured H3K27me3 or explicitly demonstrated repressive-state allele direction; denominator is empty rather than inverting general expression/reporter readouts.",
+  "h3k27me3_eligible_assay_ids": [],
+  "identity_rule": "Frozen exact identity, reference_verified True, canonical coordinates/alleles consistent; explicit False identity/construct eligibility vetoes. Sequence validation is separate and cannot rescue identities.",
+  "original_benchmark_files_reopened": false,
+  "outputs": [
+    {
+      "bytes": 18779747,
+      "path": "inputs/observation_annotations.tsv",
+      "sha256": "a2d59a74c1fd561f5f49d46b4ec38c4e1db20a43a2eb69ed4a7b27bd21da835b"
+    },
+    {
+      "bytes": 949639,
+      "path": "inputs/variant_annotations.tsv",
+      "sha256": "7c49ce0c0995c7dc46143c0f9740ac692b1ce0625fa9577c6e5e4987464e5da3"
+    },
+    {
+      "bytes": 579649,
+      "path": "inputs/contextual_annotations.tsv",
+      "sha256": "02632edc49a57e77eea5d32187ab93c63e9d432232d79e480f7439b731f52477"
+    }
+  ],
+  "positive_rule": "experimental_state == positive and mechanism_in_model_scope in yes/partial, preserving frozen R015 any_in_scope_positive_assay for every unique benchmark key",
+  "prospective_freeze_sha256": "d4725233251785d90b3a768a115452e125fe5323a58768df5047043f6f020830",
+  "reporter_assay_classes": [
+    "MPRA_allele_effect",
+    "conventional_reporter"
+  ],
+  "scope_values": [
+    "partial",
+    "yes"
+  ],
+  "script": {
+    "bytes": 19554,
+    "path": "scripts/annotate_benchmark.py",
+    "sha256": "2867eb765bc483e5c7c2414e97fc714cbc4ac581ad633f993cab4fb309b7b36d"
+  },
+  "source": {
+    "bytes": 7408502,
+    "path": "inputs/benchmark_snapshot.json.gz",
+    "sha256": "94b8cd3960458180e25357e3068ec229b1f260ce9b30d12dff704694f8520e90"
+  },
+  "stage": "external-benchmark-v2-1.0",
+  "status": "PASS",
+  "unique_variant_direction_rule": "All eligible experimental signs must agree; conflicting variants excluded only from the consensus summary and retained in observation-level tables.",
+  "unresolved_rule": "21 unresolved frozen benchmark keys retained as source reporting groups, not asserted sequence identities. variant_id blank; benchmark_variant_key and unique observation IDs preserve complete accounting."
+}

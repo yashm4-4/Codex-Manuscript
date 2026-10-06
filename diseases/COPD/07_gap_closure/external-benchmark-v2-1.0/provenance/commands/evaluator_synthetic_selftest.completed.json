@@ -1,0 +1,21 @@
+{
+  "argv": [
+    "bash",
+    "diseases/COPD/07_gap_closure/external-benchmark-v2-1.0/scripts/runtime.sh",
+    "diseases/COPD/07_gap_closure/external-benchmark-v2-1.0/scripts/evaluate_outputs.py",
+    "--self-test"
+  ],
+  "completed_utc": "2026-10-06T20:06:34.072962+00:00",
+  "returncode": 0,
+  "stderr": {
+    "bytes": 0,
+    "path": "provenance/commands/evaluator_synthetic_selftest.stderr.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 69,
+    "path": "provenance/commands/evaluator_synthetic_selftest.stdout.log",
+    "sha256": "302525d06fb2f53d59134fa1cddb9369d53020303cdaa2e209e025f33a07debe"
+  },
+  "wall_seconds": 0.3054830179316923
+}

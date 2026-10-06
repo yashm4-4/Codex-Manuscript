@@ -1,0 +1,165 @@
+{
+  "before_any_V2_external_prediction": true,
+  "created_utc": "2026-10-06T20:08:58.985271+00:00",
+  "files": [
+    {
+      "bytes": 11883,
+      "path": "PROSPECTIVE_SPECIFICATION.md",
+      "sha256": "a8bbedf23a68c36b592473d542a656fbeb855b776b1a583696672a4a9c3940b1"
+    },
+    {
+      "bytes": 57401,
+      "path": "specification/evaluation_specification.json",
+      "sha256": "32432be4a7698256b8ae3cb6fe4139eac8a1ad6c83c5b8de41b880ce771e11bc"
+    },
+    {
+      "bytes": 1287,
+      "path": "provenance/prospective_freeze.json",
+      "sha256": "d4725233251785d90b3a768a115452e125fe5323a58768df5047043f6f020830"
+    },
+    {
+      "bytes": 56377,
+      "path": "provenance/preopen_source_manifest.json",
+      "sha256": "f1186dfe3cb00eb7753a29321313851d8fd3c6a9926095ef9b283f8150a2ac29"
+    },
+    {
+      "bytes": 5139,
+      "path": "provenance/preopen_independent_validation.json",
+      "sha256": "025aa18c609ff6aed788d75da5edee8e84e72a449e3fe87fca27890e9766a606"
+    },
+    {
+      "bytes": 8706,
+      "path": "provenance/benchmark_opening_event.json",
+      "sha256": "a8610ea913f815ae9bc4162277a91e8b596f39daecce50f956e3de640db56661"
+    },
+    {
+      "bytes": 33257,
+      "path": "provenance/benchmark_ingestion_complete.json",
+      "sha256": "7bba20d8ab322f1a2edd2943d4b36fd8918fb730f3f426a63531b74afea6a9da"
+    },
+    {
+      "bytes": 6743,
+      "path": "provenance/independent_input_validation.json",
+      "sha256": "946460329bdf088eb7e705518ca96379a5605b5720028faf81c2284c138ade8d"
+    },
+    {
+      "bytes": 10254,
+      "path": "provenance/annotation_rules.json",
+      "sha256": "ab84c11c434ef4d2dc01fae5efc5a219a5ffd07458b369a32df45e52a14b9c3c"
+    },
+    {
+      "bytes": 4387,
+      "path": "provenance/sequence_construction_validation.json",
+      "sha256": "0bf3d62ce73b9d7df8435f14409b88cc37d0d9962b3d82a6546913c4a946eb32"
+    },
+    {
+      "bytes": 7408502,
+      "path": "inputs/benchmark_snapshot.json.gz",
+      "sha256": "94b8cd3960458180e25357e3068ec229b1f260ce9b30d12dff704694f8520e90"
+    },
+    {
+      "bytes": 3081289,
+      "path": "inputs/identity_map.tsv",
+      "sha256": "6de386c8f069839042b8f5362572194234e9f50ae6d31869fe765d0d59a4a347"
+    },
+    {
+      "bytes": 294872,
+      "path": "inputs/scorable_variants.tsv",
+      "sha256": "c3db0d7d48ac241f3daa532e4e6df0b3c6f947221b15f102e5a24070c3ed015c"
+    },
+    {
+      "bytes": 6843548,
+      "path": "inputs/allele_sequences.npy",
+      "sha256": "75160f604b282bdcbb4f1eb354c1b33111a8d090cbfad682c3697cf49f5d2750"
+    },
+    {
+      "bytes": 2939,
+      "path": "inputs/input_manifest.json",
+      "sha256": "aa4fcc91969592b9799694aab36daf8927244a411de5f33b7c5e81ab5e77f1ea"
+    },
+    {
+      "bytes": 575263,
+      "path": "inputs/sequence_qc.tsv",
+      "sha256": "a921469ab6fb2025ad9b63cb03d53f63118afa4fc2451ce6644eb574b0d00c05"
+    },
+    {
+      "bytes": 18779747,
+      "path": "inputs/observation_annotations.tsv",
+      "sha256": "a2d59a74c1fd561f5f49d46b4ec38c4e1db20a43a2eb69ed4a7b27bd21da835b"
+    },
+    {
+      "bytes": 949639,
+      "path": "inputs/variant_annotations.tsv",
+      "sha256": "7c49ce0c0995c7dc46143c0f9740ac692b1ce0625fa9577c6e5e4987464e5da3"
+    },
+    {
+      "bytes": 579649,
+      "path": "inputs/contextual_annotations.tsv",
+      "sha256": "02632edc49a57e77eea5d32187ab93c63e9d432232d79e480f7439b731f52477"
+    },
+    {
+      "bytes": 17439,
+      "path": "scripts/prepare_external_inputs.py",
+      "sha256": "52a5491b0bb08281170520b10995c4284dd68bae862eb70eb6346d871de64bc9"
+    },
+    {
+      "bytes": 19554,
+      "path": "scripts/annotate_benchmark.py",
+      "sha256": "2867eb765bc483e5c7c2414e97fc714cbc4ac581ad633f993cab4fb309b7b36d"
+    },
+    {
+      "bytes": 32542,
+      "path": "scripts/score_frozen_v2.py",
+      "sha256": "4ba004c5018d4dcf8eec5816599726c60fb58068e09d063e2e56ff2ba8139ae4"
+    },
+    {
+      "bytes": 943,
+      "path": "scripts/runtime.sh",
+      "sha256": "9349af945b027b3a231249650f8a73d1760a4a4a3fde569d9ab662f5f369608b"
+    },
+    {
+      "bytes": 23872,
+      "path": "scripts/evaluate_outputs.py",
+      "sha256": "4dadd71fab6ce100edfc54e44f8b267b7e1d0124088c5142bd5a58e580a51c18"
+    },
+    {
+      "bytes": 1925,
+      "path": "scripts/run_logged.py",
+      "sha256": "829e8e2c74855a9f7f1e4193ff2de999b3bc78b3e8b286a7ab2bfc9e2ff334a7"
+    },
+    {
+      "bytes": 4048,
+      "path": "scripts/freeze_annotations.py",
+      "sha256": "8c503babb51dafeca5fbc9f91bdc99c95f4907495849775a2a9e81fb896b4928"
+    },
+    {
+      "bytes": 20654,
+      "path": "scripts/validate_external_inputs_independently.py",
+      "sha256": "59e79f1ce2a8f2a10a9f22ffc06a9f2d4eb8bd4ebe1583e8411cdc4b02c89597"
+    }
+  ],
+  "independent_evaluation_design_review": {
+    "completions_before_execution": [
+      "prediction hash/completion/invariance gates",
+      "locus direction denominators",
+      "all-observation result join",
+      "explicit forward/RC coverage-expansion baselines"
+    ],
+    "reviewer": "external_v2_model_contract",
+    "scientific_specification_changed": false,
+    "status": "PASS_WITH_IMPLEMENTATION_COMPLETIONS"
+  },
+  "independent_static_inference_review": {
+    "reviewed_script_sha256": "4ba004c5018d4dcf8eec5816599726c60fb58068e09d063e2e56ff2ba8139ae4",
+    "reviewer": "external_v2_geometry_contract",
+    "scope": "Full scorer/architecture/helper review; numeric chromosome interface repaired before execution, no input change; no checkpoint, arithmetic or threshold change",
+    "status": "PASS"
+  },
+  "model_pre_execution_interface_repair": "Accepted frozen numeric chromosome convention rather than requiring chr prefix; no model/inference had run and no input identities changed",
+  "n_exact_variants": 1710,
+  "n_frozen_benchmark_identity_keys": 1731,
+  "no_V2_predictions_viewed_for_annotation": true,
+  "no_post_outcome_tuning": true,
+  "stage": "external-benchmark-v2-1.0",
+  "status": "PASS"
+}

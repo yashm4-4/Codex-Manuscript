@@ -1,0 +1,27 @@
+{
+  "argv": [
+    "diseases/COPD/07_gap_closure/external-benchmark-v2-1.0/scripts/score_frozen_v2.py",
+    "--repo",
+    "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow",
+    "--stage",
+    "diseases/COPD/07_gap_closure/external-benchmark-v2-1.0"
+  ],
+  "candidate_universe_access": false,
+  "experimental_outcome_tables_parsed": false,
+  "scope": "Only exact sequence-eligible frozen external benchmark variants; six unchanged V2-C models",
+  "script_files": [
+    {
+      "bytes": 32542,
+      "path": "scripts/score_frozen_v2.py",
+      "sha256": "4ba004c5018d4dcf8eec5816599726c60fb58068e09d063e2e56ff2ba8139ae4"
+    },
+    {
+      "bytes": 943,
+      "path": "scripts/runtime.sh",
+      "sha256": "9349af945b027b3a231249650f8a73d1760a4a4a3fde569d9ab662f5f369608b"
+    }
+  ],
+  "stage": "external-benchmark-v2-1.0",
+  "started_utc": "2026-10-06T20:09:05.680041+00:00",
+  "training_or_calibration": false
+}

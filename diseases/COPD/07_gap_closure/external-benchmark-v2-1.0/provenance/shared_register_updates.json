@@ -1,0 +1,41 @@
+{
+  "baseline_commit": "c9515770db4dc38064d4c1fd7fa323788040ec37",
+  "commit_or_push_performed": false,
+  "created_utc": "2026-10-06T20:15:31.152205+00:00",
+  "prior_bytes_changed": false,
+  "registers": [
+    {
+      "append_only": true,
+      "appended_bytes": 3797,
+      "appended_rows": 7,
+      "before_bytes": 21017,
+      "before_sha256": "2355f5834a4aa0b231663d3ac9b044aabb3bee087194d89a7480122ed4713c18",
+      "bytes": 24814,
+      "path": "diseases/COPD/07_gap_closure/activity_log.tsv",
+      "sha256": "ca38919a901da5a0e270d6cd4c86d441d9bb5df58c670a9cf61ed7482480a078"
+    },
+    {
+      "append_only": true,
+      "appended_bytes": 2750,
+      "appended_rows": 5,
+      "before_bytes": 19029,
+      "before_sha256": "655d6e2757b6422d43602f26e5481b7351b5512d0be3d58f41a6f51f44c91351",
+      "bytes": 21779,
+      "path": "diseases/COPD/07_gap_closure/gap_closure_decision_register.tsv",
+      "sha256": "b24cead3f232e12ec756cdd40c28888e792650f644c8b4da42325f36dc30a097"
+    },
+    {
+      "append_only": true,
+      "appended_bytes": 2972,
+      "appended_rows": 8,
+      "before_bytes": 30080,
+      "before_sha256": "db82dacd38e21575fc9d51a1ff269f6947b7ff64e6993ce4d5d6154734b5bea4",
+      "bytes": 33052,
+      "path": "diseases/COPD/07_gap_closure/gap_closure_result_register.tsv",
+      "sha256": "32abff375c4729810cc079ec898ab3e7339d6a089f8d7332d7a28b5d56581b83"
+    }
+  ],
+  "registers_updated_by": "Root append-only apply_patch; this script performs read-only verification",
+  "stage": "external-benchmark-v2-1.0",
+  "status": "PASS"
+}

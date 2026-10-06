@@ -1,0 +1,56 @@
+{
+  "architecture_helper_sha256": "d1b77cf5a8468ee3516d6a89bcfd4f1e7994087642c851f409425242408621dd",
+  "array_data_sha256": [
+    "9946de1048bae44f4ac821b5606090227fcf7723faca9b1054c7af092fa13b10",
+    "120fc1f27781b1f7eadd5c9dc94f4f7008e399abffb2cb611f30cc3c676e2bdb",
+    "120fc1f27781b1f7eadd5c9dc94f4f7008e399abffb2cb611f30cc3c676e2bdb",
+    "9946de1048bae44f4ac821b5606090227fcf7723faca9b1054c7af092fa13b10"
+  ],
+  "audit_recomputes_phase_I_features": true,
+  "dtype": "float32",
+  "feature_names_in_orientation_order": [
+    "phase_I_forward.npy",
+    "phase_I_nucleotide_RC.npy",
+    "phase_I_independent_RC_first.npy",
+    "phase_I_independent_forward_second.npy"
+  ],
+  "files": [
+    {
+      "bytes": 62380928,
+      "path": "predictions/phase_I_forward.npy",
+      "sha256": "511ae9db47a6693324497d2e697c3d4c171a40b1c4bff49373e1a93f1a1e80f2"
+    },
+    {
+      "bytes": 62380928,
+      "path": "predictions/phase_I_nucleotide_RC.npy",
+      "sha256": "7d0dde840f01917b7d3f8090c1cc97597089b9609211c75644968f834c572f18"
+    },
+    {
+      "bytes": 62380928,
+      "path": "predictions/phase_I_independent_RC_first.npy",
+      "sha256": "7d0dde840f01917b7d3f8090c1cc97597089b9609211c75644968f834c572f18"
+    },
+    {
+      "bytes": 62380928,
+      "path": "predictions/phase_I_independent_forward_second.npy",
+      "sha256": "511ae9db47a6693324497d2e697c3d4c171a40b1c4bff49373e1a93f1a1e80f2"
+    }
+  ],
+  "flattening": "variant table row order, REF then ALT for each variant",
+  "independent_network_calls_per_sequence": 4,
+  "optimizer": null,
+  "orientation_sequence_evaluations": 13680,
+  "phase_I_batch_size": 32,
+  "phase_I_weights_sha256": "483b6c0cafd750ea8e97932cbc8a949276eaf1e77e7d8766f9a22eeddc2916d6",
+  "repeated_RC_max_abs_difference": 0.0,
+  "repeated_forward_max_abs_difference": 0.0,
+  "representation": "final4560sigmoid",
+  "representation_axis_reversal": false,
+  "shape_per_orientation": [
+    3420,
+    4560
+  ],
+  "status": "PASS",
+  "training": false,
+  "wall_seconds": 7.562443354050629
+}

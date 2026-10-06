@@ -1,0 +1,289 @@
+{
+  "check_table": {
+    "bytes": 22984321,
+    "path": "provenance/independent_final_validation.tsv",
+    "sha256": "4e7370adac27a1088be4f7a420074369d7e68247754345d45bee5ae01717cb4a"
+  },
+  "checks": 275875,
+  "command": [
+    "/home/maheshwarany2/.local/share/uv/python/cpython-3.13.0-linux-x86_64-gnu/bin/python3.13",
+    "diseases/COPD/07_gap_closure/external-benchmark-v2-1.0/scripts/validate_external_stage.py",
+    "--phase",
+    "final"
+  ],
+  "completed_utc": "2026-10-06T20:16:20.860036+00:00",
+  "environment": {
+    "CPU_only": true,
+    "numpy": "2.5.0",
+    "python": "3.13.0"
+  },
+  "failed_checks": 0,
+  "final_reports_and_validation_lineage": {
+    "final_report_command_receipt": {
+      "bytes": 642,
+      "path": "provenance/commands/write_external_report_final.completed.json",
+      "sha256": "0374540c39c76649b1f66826371a1d8e6c34245e342f593a3842e8a8af55b28d"
+    },
+    "final_validator_changes": "Added final report/headline/source-lineage and direction-locus/manifest consistency checks only; no scientific method or stored result changed.",
+    "no_report_edits_after_final_validation_required": true,
+    "pre_final_executed_source_preserved": {
+      "bytes": 48310,
+      "path": "scripts/history/validate_external_stage_pre_final.py",
+      "sha256": "7a8f8a47ce8d0c5a763f9cd39004ccb36f716da7c376175656085d241f8792d9"
+    },
+    "pre_final_validation": {
+      "bytes": 7409,
+      "path": "provenance/independent_validation_pre-final.json",
+      "sha256": "9ce53af29adedd422130275fbabb4799d2cca36481fc494d87c3b48f4d8d0b1b"
+    },
+    "report_headline_metrics": {
+      "common_identity_union": {
+        "V1_RC": {
+          "context": "union",
+          "denominator": 23,
+          "fraction": 0.08695652173913043,
+          "method": "V1_RC",
+          "population": "three_method_exact_positive_intersection",
+          "recovered": 2
+        },
+        "V1_forward": {
+          "context": "union",
+          "denominator": 23,
+          "fraction": 0.08695652173913043,
+          "method": "V1_forward",
+          "population": "three_method_exact_positive_intersection",
+          "recovered": 2
+        },
+        "V2_C_symmetric": {
+          "context": "union",
+          "denominator": 23,
+          "fraction": 0.13043478260869565,
+          "method": "V2_C_symmetric",
+          "population": "three_method_exact_positive_intersection",
+          "recovered": 3
+        }
+      },
+      "coverage_expansion_positive_count": 16,
+      "exact_scorable_in_scope_positive_variants": 39,
+      "exact_scorable_variants": 1710,
+      "primary_region_recovery": {
+        "enhancer": {
+          "context": "enhancer",
+          "evaluable_positive_denominator": 39,
+          "interpretation": "descriptive region case-series recovery; not sensitivity",
+          "method": "V2_C_symmetric",
+          "positive_keys_before_method_coverage": 40,
+          "recovered": 3,
+          "recovery_fraction": 0.07692307692307693,
+          "subset": "all_in_scope_positive",
+          "unevaluable_count": 1
+        },
+        "h3k27me3": {
+          "context": "h3k27me3",
+          "evaluable_positive_denominator": 39,
+          "interpretation": "descriptive region case-series recovery; not sensitivity",
+          "method": "V2_C_symmetric",
+          "positive_keys_before_method_coverage": 40,
+          "recovered": 1,
+          "recovery_fraction": 0.02564102564102564,
+          "subset": "all_in_scope_positive",
+          "unevaluable_count": 1
+        },
+        "union": {
+          "context": "union",
+          "evaluable_positive_denominator": 39,
+          "interpretation": "descriptive region case-series recovery; not sensitivity",
+          "method": "V2_C_symmetric",
+          "positive_keys_before_method_coverage": 40,
+          "recovered": 4,
+          "recovery_fraction": 0.10256410256410256,
+          "subset": "all_in_scope_positive",
+          "unevaluable_count": 1
+        }
+      },
+      "strict_enhancer_direction": {
+        "concordant": 7,
+        "context": "enhancer",
+        "denominator": 11,
+        "discordant": 4,
+        "interpretation": "descriptive; contexts and loci are correlated; no independent-sample inference",
+        "non_tied_denominator": 11,
+        "secondary_non_tied_fraction": 0.6363636363636364,
+        "strict_concordance_fraction": 0.6363636363636364,
+        "subset": "all_strict_observations",
+        "tied": 0,
+        "unit": "observation"
+      },
+      "unique_variant_enhancer_direction": {
+        "concordant": 5,
+        "context": "enhancer",
+        "denominator": 8,
+        "discordant": 3,
+        "interpretation": "descriptive; contexts and loci are correlated; no independent-sample inference",
+        "non_tied_denominator": 8,
+        "secondary_non_tied_fraction": 0.625,
+        "strict_concordance_fraction": 0.625,
+        "subset": "nonconflicting_consensus",
+        "tied": 0,
+        "unit": "unique_variant"
+      },
+      "unresolved_reporting_groups": 21
+    },
+    "reports": [
+      {
+        "bytes": 48583,
+        "path": "EXTERNAL_BENCHMARK_V2_REPORT.md",
+        "sha256": "657b517947742cb7d6192bc8b0e3a71735c8c0b0634f3b4df5fc548af848e742"
+      },
+      {
+        "bytes": 5059,
+        "path": "LIMITATIONS.md",
+        "sha256": "a0cc44e44ef5533054c1af30100f837cc1d62ec2bbe355f00f3ace6e9203e7f4"
+      }
+    ]
+  },
+  "independent_implementation": true,
+  "peak_RSS_KiB": 895712,
+  "phase": "final",
+  "population_summary": {
+    "enhancer_direction_consensus_variants": 8,
+    "enhancer_direction_observations": 11,
+    "h3k27me3_direction_observations": 0,
+    "n_exact_scorable_variants": 1710,
+    "n_in_scope_positive_keys": 40,
+    "n_original_identity_keys": 1731,
+    "n_original_observations": 14025,
+    "n_primary_positive_variants": 39,
+    "n_three_method_common_positive_variants": 23,
+    "n_unresolved_identity_keys": 21
+  },
+  "preservation": {
+    "candidate_universe_opened": false,
+    "historical_Git_preservation": "PASS",
+    "original_benchmark_parsed_again": false,
+    "original_benchmark_records_opaque_verified": 218,
+    "original_checkpoints_verified": [
+      {
+        "bytes": 350064314,
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_enhancer_seed104729/attempt-001/selected_checkpoint.keras",
+        "sha256": "8eb380c37e92f5cbe9cb71256421565f5924d1fe373ce7ee507dbb3545272a60"
+      },
+      {
+        "bytes": 350064314,
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_enhancer_seed130363/attempt-001/selected_checkpoint.keras",
+        "sha256": "fb1f9103e7c824ffa280aa98fb2274a0abdb5eebbfcc381b2e8ed6df030faeed"
+      },
+      {
+        "bytes": 350064314,
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_enhancer_seed155921/attempt-001/selected_checkpoint.keras",
+        "sha256": "a74ee692f8b7386678a37de827e5ecb1bd597f665c6b475ba19fddadea961168"
+      },
+      {
+        "bytes": 350064314,
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras",
+        "sha256": "67b6c55c2dc7c79b8e70331ce4ee17c2f6b228ae95198312c8476084723b6249"
+      },
+      {
+        "bytes": 350064314,
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras",
+        "sha256": "d20a5e35ac9e348ea09b1418abf18fd3a4c5c040811a8324d25ff39911b25ae8"
+      },
+      {
+        "bytes": 350064314,
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-A_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras",
+        "sha256": "b350d45b7d126adf329c8379e5340a8cdd8b95c4028c00a99e726513c7a03820"
+      },
+      {
+        "bytes": 350064314,
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_enhancer_seed104729/attempt-001/selected_checkpoint.keras",
+        "sha256": "1dc13e371414fd81072b07689f3ce64446a32692e917d236983db024f28cabca"
+      },
+      {
+        "bytes": 350064314,
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_enhancer_seed130363/attempt-001/selected_checkpoint.keras",
+        "sha256": "97bbc39bc5e93bf49b51169ad015fb4710708c7f1d3e7aeb232d28d3fa40d9ab"
+      },
+      {
+        "bytes": 350064314,
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_enhancer_seed155921/attempt-001/selected_checkpoint.keras",
+        "sha256": "c0e2a96ed19c3b9d5ddbb51a85b0d4ffce7701e41f12bd25ce69bcf763d6300e"
+      },
+      {
+        "bytes": 350064314,
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras",
+        "sha256": "c74842f069069ef544fbf8ddab04690188282a07c2aa7ebf2a2a67994d567e0c"
+      },
+      {
+        "bytes": 350064314,
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras",
+        "sha256": "935e054078b14a491d69e89719a68a2fa359beb42afce814a5a496d74c95cb72"
+      },
+      {
+        "bytes": 350064314,
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-B_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras",
+        "sha256": "2e2fa2ec39cbaf8fea4080bd0576d6a1da6d968e2481c349d737f3db641553f6"
+      },
+      {
+        "bytes": 350064314,
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_enhancer_seed104729/attempt-001/selected_checkpoint.keras",
+        "sha256": "1cb670f778a2d148d0ac2b71bea5c97f5a421bb64f744af1dc5b373a60ea3114"
+      },
+      {
+        "bytes": 350064314,
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_enhancer_seed130363/attempt-001/selected_checkpoint.keras",
+        "sha256": "0e42ecc9364f967220ecc6c3bb0007dc25aced5d9c360355f6e48027c39f0795"
+      },
+      {
+        "bytes": 350064314,
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_enhancer_seed155921/attempt-001/selected_checkpoint.keras",
+        "sha256": "733ca1845061508c820240d04d4b7c30d8ba0fa7c1086419eaec0b5c2bb041d5"
+      },
+      {
+        "bytes": 350064314,
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_h3k27me3_seed104729/attempt-001/selected_checkpoint.keras",
+        "sha256": "503683295ebeb48587f42748181bf6c5815f6a8c79b8dfdd4b669c931109be81"
+      },
+      {
+        "bytes": 350064314,
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_h3k27me3_seed130363/attempt-001/selected_checkpoint.keras",
+        "sha256": "56a2d331b6ed27e49f103dce228dda3c26a80ff296e91c9c740e52b9c36841c6"
+      },
+      {
+        "bytes": 350064314,
+        "path": "diseases/COPD/07_gap_closure/internal-training-1.0/runs/V2-C_h3k27me3_seed155921/attempt-001/selected_checkpoint.keras",
+        "sha256": "995dc295d163a703b80bb3e451b8fc3bd7af01fb6ce041099fc5ce3d9cc82560"
+      }
+    ],
+    "register_updates": [
+      {
+        "appended_bytes": 3797,
+        "before_bytes": 21017,
+        "current_sha256": "ca38919a901da5a0e270d6cd4c86d441d9bb5df58c670a9cf61ed7482480a078",
+        "path": "diseases/COPD/07_gap_closure/activity_log.tsv"
+      },
+      {
+        "appended_bytes": 2750,
+        "before_bytes": 19029,
+        "current_sha256": "b24cead3f232e12ec756cdd40c28888e792650f644c8b4da42325f36dc30a097",
+        "path": "diseases/COPD/07_gap_closure/gap_closure_decision_register.tsv"
+      },
+      {
+        "appended_bytes": 2972,
+        "before_bytes": 30080,
+        "current_sha256": "32abff375c4729810cc079ec898ab3e7339d6a089f8d7332d7a28b5d56581b83",
+        "path": "diseases/COPD/07_gap_closure/gap_closure_result_register.tsv"
+      }
+    ]
+  },
+  "scientific_inference_rerun": false,
+  "scorer_evaluator_or_model_imported": false,
+  "script": {
+    "bytes": 54054,
+    "path": "scripts/validate_external_stage.py",
+    "sha256": "9dbca34f48524c0813ec98d4292d1aa6b0d1745b40efaa8b5e38a29fa6eb1cbc"
+  },
+  "stage": "external-benchmark-v2-1.0",
+  "started_utc": "2026-10-06T20:16:08.142042+00:00",
+  "status": "PASS",
+  "wall_seconds": 12.779692426905967
+}
