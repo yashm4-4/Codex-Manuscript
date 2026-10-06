@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "scope": "Independent remote publication verification only; no scientific rerun",
+  "artifact_commit": "9a70182089281ccf02577a51703d321865a9bf46",
+  "baseline_commit": "07d72dad0f57d605f5f50bbc7fa6d2c7843a94ba",
+  "repository": "https://github.com/yashm4-4/Codex-Manuscript.git",
+  "branch": "main",
+  "remote_ref_verified_equal_to_artifact_commit": true,
+  "fresh_remote_fetch": {
+    "method": "Fresh bare partial clone --filter=blob:none --depth=2 --single-branch --branch main; only authorized test/publication/register/LFS-pointer blobs subsequently read",
+    "verification_repository": "/tmp/copd-test-remote-verification.sywXA3",
+    "local_object_alternates_or_reference_repository_used": false,
+    "historical_benchmark_and_candidate_blobs_opened": false
+  },
+  "root_git_object_verification_utc": "2026-10-06T19:44:48.677777+00:00",
+  "independent_reviewer": "test_publication_integrity",
+  "independent_method": "Separate stdlib/Git audit of remote ref, tree entries, SHA-256/size of every hosted scientific payload, pinned original ledger/freeze, and register prefixes; not a reuse of verify_publication.py",
+  "frozen_scientific_payload_count": 172,
+  "frozen_scientific_payload_bytes": 1093208401,
+  "local_frozen_payload_sha256_and_sizes": "172/172 PASS",
+  "remote_hosted_scientific_payload_sha256_and_sizes": "170/170 PASS",
+  "original_ledger_and_freeze_sha256_and_sizes": "2/2 PASS",
+  "git_hosted_stage_files_including_ledger_and_freeze": 172,
+  "git_hosted_stage_bytes": 136542267,
+  "artifact_commit_changed_or_new_file_count": 181,
+  "artifact_commit_changed_or_new_full_file_logical_bytes": 136739970,
+  "payload_size_convention": "Logical uncompressed file bytes, not Git pack/network transfer size. Artifact-commit full-file total includes three complete updated registers, .gitignore and five publication files; it excludes this subsequent verification receipt and earlier history.",
+  "external_reconstructable_intermediates": [
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-test-1.0/cache/features_canonical.npy",
+      "bytes": 478344128,
+      "sha256": "6681952719517712d123cd753c388b04049b88251ac5c434875ad4a98d32ed6e"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/internal-test-1.0/cache/features_rc.npy",
+      "bytes": 478344128,
+      "sha256": "2b99b0a2509c07af7ba5141ec7f67ca49b34c97f78285d3be5a190376985dcaa"
+    }
+  ],
+  "external_cache_accounting": "Both absent from Git and LFS, retained unchanged at documented managed-storage paths; hashes/shapes/dependencies/reconstruction/environment/original cost fully documented in storage_manifest.json and independently reviewed",
+  "canonical_sequences_array": "Included unchanged in ordinary Git; 52,476,353 bytes",
+  "append_only_register_rows": {"activity": 7, "decision": 4, "result": 9},
+  "register_current_hashes_and_historical_prefixes": "3/3 PASS",
+  "historical_git_tree_entries_unchanged": 1306,
+  "historical_preservation_scope": "All baseline tracked entries except the three authorized append-only registers and append-only .gitignore storage policy; includes V1, external benchmark, pretraining-1.0, pretraining-1.1, internal-training and all checkpoint pointers",
+  "original_training_checkpoint_local_sha256": "18/18 PASS",
+  "original_training_checkpoint_remote_lfs_pointers_unchanged": 18,
+  "original_training_checkpoint_bytes_unchanged": 6301157652,
+  "new_or_duplicated_checkpoint_archives": 0,
+  "new_lfs_payload_bytes": 0,
+  "checkpoint_verification_scope": "Existing pointer OIDs and local archive SHA-256 were checked unchanged; no duplicate checkpoint upload/download was performed for this test publication. Prior published LFS preservation evidence remains unchanged.",
+  "publication_metadata_remote_byte_identity": "5/5 PASS against local published files",
+  "publication_metadata_sha256": {
+    "README.md": "e266a54349321d3089d90336b616849de430645ee84100ffaea723710ec399f5",
+    "storage_manifest.json": "32e8bd96baf9df2471bd938d9298bbb5252fcca876450bf6ba8e9314429df949",
+    "storage_inventory.tsv": "f2d793eae5d6f522b68558e17f04f7ff5a9723cf88d70b9e127453609c50bcf7",
+    "verify_publication.py": "d3d6ae833110cd7339b612b46abff8152841ee697cbc35dbc675158bc2654919",
+    "prepublication_validation.json": "ce44afbde7e0c8a8477c0c0d2cb3955d0bccea03c195f1b1e6861c0f0de0a26c"
+  },
+  "publication_issues": [
+    {
+      "issue": "Initial push authentication helper referenced a deleted temporary GitHub CLI executable",
+      "resolution": "Verified official gh 2.102.0 release archive checksum, used temporary CLI with existing yashm4-4 credentials via per-command helper override; no global Git configuration or repository payload changed",
+      "official_archive_sha256": "bb766f710eef8ede859c18578c72c327597cd4c8a85b06001b1f3843c6019386",
+      "status": "RESOLVED"
+    },
+    {
+      "issue": "GitHub non-blocking warning: canonical_sequences.npy is 50.05 MB, above recommended 50 MB",
+      "resolution": "Accepted unchanged by remote ordinary Git; below hard file limit",
+      "status": "ACCEPTED_WARNING"
+    }
+  ],
+  "storage_or_quota_rejection": false,
+  "inference_or_metric_recomputation_or_threshold_recalibration": false,
+  "external_benchmark_outcome_access": false,
+  "COPD_variant_or_candidate_scoring_or_content_access": false,
+  "retraining_or_any_other_analysis": false,
+  "receipt_publication_note": "This receipt is added by a subsequent metadata-only commit. Its containing commit is discoverable from Git history; the already verified scientific tree and registers must remain identical to artifact_commit. Final remote-ref and tree-identity verification is performed after that receipt commit is pushed."
+}
