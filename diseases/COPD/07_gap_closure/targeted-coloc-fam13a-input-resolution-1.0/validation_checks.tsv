@@ -1,0 +1,14 @@
+check	value	status
+native_gwas_rows	12094	PASS
+qtl_source_rows	7264	PASS
+qtl_distinct_tested	7010	PASS
+official_permutation_n_variants	7010	PASS
+official_credible_set_rows	0	PASS
+permutation_p_beta	0.604973	PASS
+eligible_exact_intersection	5065	PASS
+unique_intersection_variants	5065	PASS
+gwas_significant_total	51	PASS
+gwas_significant_eligible	39	PASS
+qtl_ref_mismatches	0	PASS
+qtl_an_below_1020	99	PASS
+colocalization_executed	NO	PASS

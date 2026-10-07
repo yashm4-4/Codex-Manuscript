@@ -1,0 +1,16 @@
+{
+  "base_commit": "0adeb7b90b762f15d2c6f940bf361c0300978ce3",
+  "client_date": "2026-10-07",
+  "decision": "NOT CLEARED",
+  "no_colocalization_executed": true,
+  "prior_stage_payloads_modified": false,
+  "payload_file_count": 18,
+  "manifest_sha256": "d032217b7aabeb46db53586979ffbb17b5b70e357222e5f9a8155726f990542b",
+  "input_manifest_sha256": "637742e60e0b75f0c39c7df5425c3fcc7e1563aff82c227820690633d471fd90",
+  "register_sha256": {
+    "activity_log.tsv": "ab88d2dd9bbca1197e94496b728f41308ecc7cb05187a77de7dac1697efe6d53",
+    "gap_closure_decision_register.tsv": "a1fd8f72f1685ebe581404e3a0ae38e02c43a3d7b5ff65af37162e24248aedc3",
+    "gap_closure_result_register.tsv": "3e7708d274ab448384f6dd29e397f1d275b405d1a739d4e5fd38c4f247746771"
+  },
+  "raw_sources_excluded_from_git": true
+}

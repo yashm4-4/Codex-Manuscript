@@ -1,0 +1,69 @@
+{
+  "retrieved_utc": "2026-10-07T17:02:29.594852+00:00",
+  "source_url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000015/QTD000271/QTD000271.all.tsv.gz",
+  "source_study": "QTS000015",
+  "dataset": "QTD000271",
+  "source_release": "2023-04-06 archived file, eQTL Catalogue r6/r7 GTEx v8 uniformly reprocessed",
+  "query": "4:87000001-94000000 (pysam zero-based half-open 87000000-94000000); filter both gene columns ENSG00000138640",
+  "full_file_downloaded": false,
+  "source_head": {
+    "Date": "Wed, 07 Oct 2026 17:02:30 GMT",
+    "Server": "Apache",
+    "Last-Modified": "Thu, 06 Apr 2023 14:33:42 GMT",
+    "ETag": "\"e9c8a35a-5f8abcb9b5cc4\"",
+    "Accept-Ranges": "bytes",
+    "Content-Length": "3922240346",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET,OPTIONS",
+    "Access-Control-Allow-Headers": "Authorization,Origin,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Accept",
+    "Keep-Alive": "timeout=15, max=100",
+    "Connection": "Keep-Alive",
+    "Content-Type": "application/x-gzip"
+  },
+  "artifacts": {
+    "dataset_metadata_r7.tsv": {
+      "bytes": 75969,
+      "sha256": "70b0b6eac8a607568d11b3f2d8ad6cf6e9bb430ffafa4883627797d8967785ea"
+    },
+    "QTD000271.credible_sets.tsv.gz": {
+      "bytes": 3431423,
+      "sha256": "a59dc350403dcba5aa74aca79954abde83d1b00a7f07710f395826b0a6f03552"
+    },
+    "QTD000271.permuted.tsv.gz": {
+      "bytes": 859979,
+      "sha256": "b3157436b91d7b851c4120d9b0ae0a18fc8a124625c3921909675792f5de87eb"
+    },
+    "QTD000271.all.tsv.gz.tbi": {
+      "bytes": 2208123,
+      "sha256": "c100014ccdd069da87034108d150e9f9e8cf345cf27257b5307132ea46390461"
+    },
+    "fam13a_full_cis_source.tsv.gz": {
+      "bytes": 195689,
+      "sha256": "8eada71347ab2b558f2dfdf3afa3dc102c16c4e8d592db183a9e12806e9507e6"
+    }
+  },
+  "metadata_url": "https://raw.githubusercontent.com/eQTL-Catalogue/eQTL-Catalogue-resources/master/data_tables/dataset_metadata_r7.tsv",
+  "credible_sets_url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000015/QTD000271/QTD000271.credible_sets.tsv.gz",
+  "permuted_url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000015/QTD000271/QTD000271.permuted.tsv.gz",
+  "columns": [
+    "molecular_trait_id",
+    "chromosome",
+    "position",
+    "ref",
+    "alt",
+    "variant",
+    "ma_samples",
+    "maf",
+    "pvalue",
+    "beta",
+    "se",
+    "type",
+    "ac",
+    "an",
+    "r2",
+    "molecular_trait_object_id",
+    "gene_id",
+    "median_tpm",
+    "rsid"
+  ]
+}
