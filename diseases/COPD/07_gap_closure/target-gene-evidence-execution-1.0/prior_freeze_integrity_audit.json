@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "preflight_payload_checksums": 15,
+  "tracked_changes": [
+    "diseases/COPD/07_gap_closure/activity_log.tsv",
+    "diseases/COPD/07_gap_closure/gap_closure_decision_register.tsv",
+    "diseases/COPD/07_gap_closure/gap_closure_result_register.tsv"
+  ],
+  "prior_register_bytes_are_exact_prefix": true,
+  "historical_preflight_verifier_note": "Its strict historical register digests intentionally fail after authorized append-only entries; prior payload hashes pass."
+}

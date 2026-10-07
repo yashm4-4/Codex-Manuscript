@@ -1,0 +1,10 @@
+phenotype_stratum	gwas_track	candidates	exact_eligible	absent_from_gwas_ledger	absent_from_significant_gtex_pairs	ambiguous	palindromic_unresolved	build_ref_mismatch	duplicate_conflicting	otherwise_rejected	exact_gwas_and_gtex
+direct_clinical_spirometric	A	184	41	138	71	0	0	0	0	5	36
+direct_clinical_spirometric	B	184	0	184	71	0	0	0	0	0	0
+direct_clinical_spirometric	C	184	0	184	71	0	0	0	0	0	0
+ehr_copd	A	29	1	28	12	0	0	0	0	0	0
+ehr_copd	B	29	0	29	12	0	0	0	0	0	0
+ehr_copd	C	29	0	29	12	0	0	0	0	0	0
+ml_surrogate_only	A	124	0	122	69	0	0	1	0	1	0
+ml_surrogate_only	B	124	0	123	69	0	0	1	0	0	0
+ml_surrogate_only	C	124	0	123	69	0	0	1	0	0	0

@@ -1,0 +1,48 @@
+{
+  "base_commit": "dfb6390d24e26abf5b2755ee997d9b29776125f6",
+  "client_date": "2026-10-07",
+  "manifest_sha256": "14126fe07fe1edee8627cca160f4137b0c5100c5ab79a1d0d40f6a23f5d8c6a4",
+  "no_de_novo_colocalization": true,
+  "payload_file_count": 28,
+  "prior_stage_payloads_modified": false,
+  "register_sha256": {
+    "activity_log.tsv": "8d6a44ef9d86307413ff061ca149bde114c70a092008b85e57585048c71ea9bc",
+    "gap_closure_decision_register.tsv": "039a128bb2547f87436122221c0bd8b9b6b957f476af39adf9599e271208b8e0",
+    "gap_closure_result_register.tsv": "eb455eb0070b6f44ee0df7b172ac68d4606e4b288f6e7607ddc4855303436327"
+  },
+  "results": {
+    "candidate_count": 337,
+    "candidate_order_sha256": "8c51ded938daa9ef59f63721af65a8394334fc7bb1696025661c2d3b98e13796",
+    "directed_candidate_count": 36,
+    "directed_candidate_gene_pairs": 387,
+    "directed_rows": 387,
+    "exact_gwas_candidate_count": 42,
+    "functional_exact_count": 1,
+    "gwas_crosswalk_status_counts": {
+      "absent_from_gwas_ledger": 960,
+      "build_ref_mismatch": 3,
+      "exact_eligible": 42,
+      "otherwise_rejected": 6
+    },
+    "moloc_table5_rows": 38,
+    "moloc_window_parsed": 89,
+    "no_de_novo_colocalization": true,
+    "re2g_rows": 45,
+    "saferali_additional_signal_labels": 57,
+    "source_gwas_scope": "prior_frozen_locus_ledger_only",
+    "tiers_candidate_gene_pairs": {
+      "B": 1,
+      "C": 1216,
+      "Unresolved": 3218
+    },
+    "tiers_context_rows": {
+      "B": 1,
+      "C": 1389,
+      "Unresolved": 3611
+    }
+  },
+  "source_receipts_sha256": "eedc305d476b1227c2b3a31278672cf3169883e2a7476a0329cf13cf31c84c32",
+  "stage": "target-gene-evidence-execution-1.0",
+  "status": "FROZEN_FOR_INVESTIGATOR_REVIEW",
+  "validation_sha256": "1aaf0c12ecf8f1da464c78bec2bfb8e18d621c3b05c108f9f14153ab24632e9d"
+}

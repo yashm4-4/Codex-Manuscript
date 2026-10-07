@@ -1,0 +1,12 @@
+test	status	detail
+frozen_candidate_order	PASS	337 candidates, identical rank order and A/B/C blocks
+exact_crossbuild	PASS	all eligible alleles have checked b37/b38 reference and unique round trip
+no_proxy_promotion	PASS	every direction row points to an exact eligible source contrast
+synthetic_allele_cases	PASS	same ALT, reversed REF, negative slope, complement, palindrome and indel mismatch
+biological_allele_arithmetic	PASS	387 rows recomputed from frozen GTEx ALT slope and risk allele
+published_moloc_scope	PASS	38 Table 5 rows; candidate overlaps retain window scope
+published_additional_signals	PASS	57 additional Table S2 gene/QTL/PPA labels retain locus scope
+rE2G_type	PASS	45 element overlaps remain predictive, never contact or ABC replication
+tier_firewall	PASS	only integrated FAM13A eQTL + edited allele reaches B; every C context contains its own typed evidence
+phenotype_strata	PASS	184 direct, 29 EHR, 124 ML-only remain distinct
+no_de_novo_colocalization	PASS	execution script imports published Moloc only

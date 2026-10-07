@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "test": "frozen_candidate_order",
+      "status": "PASS",
+      "detail": "337 candidates, identical rank order and A/B/C blocks"
+    },
+    {
+      "test": "exact_crossbuild",
+      "status": "PASS",
+      "detail": "all eligible alleles have checked b37/b38 reference and unique round trip"
+    },
+    {
+      "test": "no_proxy_promotion",
+      "status": "PASS",
+      "detail": "every direction row points to an exact eligible source contrast"
+    },
+    {
+      "test": "synthetic_allele_cases",
+      "status": "PASS",
+      "detail": "same ALT, reversed REF, negative slope, complement, palindrome and indel mismatch"
+    },
+    {
+      "test": "biological_allele_arithmetic",
+      "status": "PASS",
+      "detail": "387 rows recomputed from frozen GTEx ALT slope and risk allele"
+    },
+    {
+      "test": "published_moloc_scope",
+      "status": "PASS",
+      "detail": "38 Table 5 rows; candidate overlaps retain window scope"
+    },
+    {
+      "test": "published_additional_signals",
+      "status": "PASS",
+      "detail": "57 additional Table S2 gene/QTL/PPA labels retain locus scope"
+    },
+    {
+      "test": "rE2G_type",
+      "status": "PASS",
+      "detail": "45 element overlaps remain predictive, never contact or ABC replication"
+    },
+    {
+      "test": "tier_firewall",
+      "status": "PASS",
+      "detail": "only integrated FAM13A eQTL + edited allele reaches B; every C context contains its own typed evidence"
+    },
+    {
+      "test": "phenotype_strata",
+      "status": "PASS",
+      "detail": "184 direct, 29 EHR, 124 ML-only remain distinct"
+    },
+    {
+      "test": "no_de_novo_colocalization",
+      "status": "PASS",
+      "detail": "execution script imports published Moloc only"
+    }
+  ]
+}
