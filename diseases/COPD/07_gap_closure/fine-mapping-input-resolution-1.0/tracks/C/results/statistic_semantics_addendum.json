@@ -1,0 +1,38 @@
+{
+  "purpose": "Source-method clarification; no numerical threshold or locus rule changed",
+  "documented_association_test": "SAIGE binary logistic mixed-model score test with saddlepoint approximation",
+  "source_code_versions_inspected": [
+    {
+      "version": "0.36.3",
+      "commit": "f5c757dfe5e2c872d2034845c2d9b5c867af773e",
+      "description_version_verified": true,
+      "binary_function_file": "R/SAIGE_SPATest.R",
+      "SE_formula": "abs(logOR/qnorm(out1$p.value/2))",
+      "example_line": 1440
+    },
+    {
+      "version": "0.36.4",
+      "commit": "d9c55dc0af4f61e548e0b71a574541784a5bd5d4",
+      "description_version_verified": true,
+      "binary_function_file": "R/SAIGE_SPATest.R",
+      "SE_formula": "abs(logOR/qnorm(out1$p.value/2))",
+      "example_line": 1482
+    },
+    {
+      "version": "0.44.5",
+      "commit": "e7c5a9aad12d7f999e4c3c689b21b3b48607a8e4",
+      "description_version_verified": true,
+      "binary_function_file": "R/SAIGE_SPATest.R",
+      "SE_formula": "abs(logOR/qnorm(out1$p.value/2))",
+      "example_line": 1689
+    }
+  ],
+  "exact_J44_version": "SAIGE_0.36.3 from exact J44 both_sexes EUR pheno_data in current public Hail column metadata",
+  "meaning_of_rounding_consistency": "A numerical beta/SE/P agreement can be built into the source SE construction. It verifies export arithmetic, not an independent unadjusted normal/Wald likelihood or RSS compatibility.",
+  "direction": "Signed beta remains an ALT versus REF contrast under provider allele documentation; no beta sign or allele changed to improve test consistency.",
+  "supplied_z": "Only source beta_EUR/se_EUR; no replacement z derived from P",
+  "execution_clearance": "Requires independently acceptable statistic/LD sampling-model contract and diagnostics; arithmetic agreement alone is insufficient",
+  "version_metadata_source": "../../ld/panukb_J44_EUR_exact_phenotype_metadata.json",
+  "metadata_caveat": "Current Hail column container last modified 2024, flat file 2023. EUR case/control counts exactly agree; full-cohort across-ancestry summary counts differ. This does not prove identical release provenance.",
+  "updated_utc": "2026-10-06T22:21:48.469257+00:00"
+}

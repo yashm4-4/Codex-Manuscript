@@ -1,0 +1,23 @@
+{
+  "created_utc": "2026-10-06T22:14:28.455013+00:00",
+  "frozen_before_ld_values_and_locus_results": true,
+  "matrix_precision": "float64",
+  "machine_epsilon": 2.220446049250313e-16,
+  "signed_input_required": true,
+  "allele_orientation": "Verified allele mappings only; D*z and D*R*D; complements do not automatically negate signs",
+  "representation": "Original upper/lower triangle established from metadata/source; reconstruct absent opposite triangle only, never missing within-band correlations",
+  "raw_diagonal": "Must be finite and strictly positive; report minimum, quantiles and maximum. No forced reset. If original release is demonstrated to be a residualized Gram matrix, separately save deterministic R=G/sqrt(diag(G) outer diag(G)), preserving original G; otherwise unit-diagonal departure is unresolved",
+  "symmetry_absolute_tolerance": "100 * eps * max(1,p) * max(1,max_abs_R)",
+  "correlation_range_tolerance": "100 * eps * max(1,p)",
+  "psd_negative_eigenvalue_tolerance": "100 * eps * max(1,p) * max(1,largest_abs_eigenvalue)",
+  "rank_eigenvalue_threshold": "same backward-error tolerance as PSD; report rank and condition; no ridge/PSD projection",
+  "numerical_condition_warning": "condition > 1/sqrt(eps); unresolved numerical rank requires explicit singular-support diagnostics; never silently invert",
+  "scope_limit": "Complete frozen locus only; intervals exceeding stored 10Mb radius have unresolved off-band entries and are deferred, never zero filled",
+  "coverage": "Exact allele-key intersection with exhaustive missing/excluded ledger; ANY missing valid P<5e-8 signal blocks locus. No universal percentage threshold; scientific completeness still must be established",
+  "boundary": "Report significant-signal distance to all edges and available index coverage; clipped reference ends explicit. Long-range LD cannot be declared absent from banded data",
+  "sample_compatibility": "PanUKB J44 EUR same-project relationship must be checked against actual globals N and documented release/test; Kim full-EUR LD is external, never in-sample smoking-subgroup LD",
+  "statistical_diagnostics": "Only when signed statistic and source LD contract valid: z sanity; conditional residual/range-space diagnostics; original SAIGE SPA P is not automatically Wald P. No fit-improving sign flips. No universal mismatch/regularization estimate threshold invented",
+  "clearance": "Execution-cleared requires every applicable prospective gate. Unknown scientific compatibility => INCONCLUSIVE/NOT CLEARED, not numerical pass alone",
+  "no_posterior_inference": true,
+  "no_data_driven_gate_relaxation": true
+}

@@ -1,0 +1,205 @@
+{
+  "stage": "fine-mapping-input-resolution-1.0",
+  "kind": "PINNED_FUTURE_DESIGN_NOT_EXECUTED",
+  "created_utc": "2026-10-06T22:28:58.897127+00:00",
+  "scientific_execution_authorized": false,
+  "requires_new_investigator_authorization": true,
+  "governing_design": "../fine-mapping-preflight-1.0/audits/methods_ld/METHOD_AND_ELIGIBILITY_DESIGN.md",
+  "applicable_track_and_locus_input_clearance_required_before_execution": true,
+  "core_sources": {
+    "R": {
+      "version": "4.4.3",
+      "path": "sources/software/R-4.4.3.tar.gz",
+      "bytes": 40234425,
+      "sha256": "0d93d224442dea253c2b086f088db6d0d3cfd9b592cd5496e8cb2143e90fc9e8",
+      "provider_SHA256_verified": true
+    },
+    "susieR": {
+      "version": "0.16.6",
+      "path": "sources/software/susieR_0.16.6_github.tar.gz",
+      "bytes": 18381919,
+      "sha256": "f36dd4045a448c0b07a1ea8429dc531d573e31fbe822bfe61842244ddd5ddd88",
+      "git_commit": "ef213feed2cb82419677661a8c986e1504df2c73"
+    },
+    "FINEMAP_archive": {
+      "version": "1.4.2",
+      "path": "sources/software/finemap_http_binary",
+      "bytes": 2180937,
+      "sha256": "3b1fc6eb3c2ccafd647b32e02d0244495cd0ade9ed7d474606c31ebf6e98b0c9",
+      "transport_note": "HTTP from official provider after retained HTTPS certificate failure; hash pins exact bytes but no independent provider digest or TLS-authenticated binary retrieved."
+    },
+    "FINEMAP_binary": {
+      "version": "1.4.2",
+      "path": "sources/software/finemap_v1.4.2_x86_64",
+      "bytes": 5411528,
+      "sha256": "41e0af31c18e2e92d2a5fd1fbf35c9832d62ae737746ecd0aa4629a5925c9bcc"
+    },
+    "Reference_LAPACK_and_reference_BLAS": {
+      "version": "tag v3.12.1",
+      "path": "sources/software/lapack-3.12.1.tar.gz",
+      "bytes": 8067087,
+      "sha256": "2ca6407a001a474d4d4d35f3a61550156050c48016d949f0da0529c0aa052422",
+      "version_metadata_note": "Official tag v3.12.1 archive selected. Its root CMakeLists still says PATCH_VERSION 0; exact tag/archive hash is authoritative pin, built runtime version reporting must be checked."
+    }
+  },
+  "numerical_environment": {
+    "OS_architecture": "Linux x86_64, little endian",
+    "R": "4.4.3 built from frozen source",
+    "BLAS": "Reference BLAS bundled with official Reference-LAPACK tag v3.12.1, LP64 integer ABI, single threaded",
+    "LAPACK": "Reference-LAPACK official tag v3.12.1, archive hash as above",
+    "matrix_precision": "IEEE754 binary64 / float64",
+    "matrix_text_export_precision_significant_digits": 17,
+    "threads": 1,
+    "environment": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    },
+    "floating_point_build": "No fast-math or unsafe reassociation; ordinary IEEE rounding. Proposed GCC/gfortran 12.3.0; compiler binary/hash and actual linked shared objects must be recorded in execution environment.",
+    "lapack_cmake_design": [
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DBUILD_SHARED_LIBS=ON",
+      "-DBUILD_TESTING=ON",
+      "-DCBLAS=OFF",
+      "-DLAPACKE=OFF"
+    ],
+    "R_configure_design": [
+      "--with-blas=-L<verified-lapack-libdir> -lblas",
+      "--with-lapack=-L<verified-lapack-libdir> -llapack"
+    ],
+    "runtime_installed_or_validated": false
+  },
+  "input_contract": {
+    "variant_prior": "Uniform 1/p across retained eligible locus variants; no candidate, functional, regulatory, gene or model-derived information.",
+    "statistics": "Immutable ordered signed beta/SE/z and compatible ordered signed correlation matrix; no P-only reconstruction or arbitrary allele flips.",
+    "sample_size": "Track/locus-specific scalar n or justified likelihood-specific effective n must be approved from source statistic/sample contract; never automatically substitute total or 4/(1/Ncase+1/Ncontrol). Per-variant N preserved and heterogeneity reviewed.",
+    "z_method": "UNRESOLVED_PER_TRACK. Use wald only for validated ordinary Wald z; score only after source-score covariance and scaling contract is defensible. SAIGE SPA-quantile z must not be relabeled a Gaussian score simply because an API has this option.",
+    "matrix_repairs": "None: no nearest-PSD, ridge, sign correction by residual improvement, band zero-fill, or arbitrary diagonal replacement.",
+    "in_sample_LD_exception": "No automatic residual-variance switch; a future separately frozen approved in-sample design would be required."
+  },
+  "primary_susieR": {
+    "interface": "susieR::susie_rss",
+    "L": 10,
+    "prior_weights": "rep(1/p,p) (explicit uniform)",
+    "scaled_prior_variance": 0.2,
+    "estimate_prior_variance": true,
+    "estimate_prior_method": "optim",
+    "prior_variance_grid": null,
+    "mixture_weights": null,
+    "effect_prior_note": "Prespecified standard per-effect variance optimization initialized at0.2; this does not estimate nonuniform variant priors. No mixture or functional prior learning.",
+    "null_weight": 0,
+    "prior_tol": 1e-09,
+    "check_null_threshold": 0,
+    "standardize": true,
+    "estimate_residual_variance": false,
+    "residual_variance": 1.0,
+    "estimate_residual_method": "MoM (inactive because variance estimation disabled)",
+    "unmappable_effects": "none",
+    "coverage": 0.95,
+    "min_abs_corr": 0.5,
+    "median_abs_corr": null,
+    "n_purity": -1,
+    "purity_note": "Exact all-variable min/mean/median absolute Pearson r for supplied correlation input; r threshold0.5 is not r-squared0.5 and is not an LD-origin eligibility gate. Preserve low-purity sets as QC failures.",
+    "max_iter": 1000,
+    "tol": 1e-06,
+    "convergence_method": "elbo",
+    "L_greedy": null,
+    "greedy_lbf_cutoff": 0.1,
+    "refine": false,
+    "model_init": null,
+    "s_init": null,
+    "R_finite": null,
+    "R_mismatch": "none",
+    "cs_extension_corr": null,
+    "alpha0": null,
+    "beta0": null,
+    "slot_prior": null,
+    "control": {
+      "mismatch_estimator": "mle",
+      "mixture_reference_p": 5e-08,
+      "qc_eigen_tol_rel": 0.001,
+      "qc_eigen_tol_abs": 0,
+      "artifact_threshold": 0.1,
+      "sensitivity_threshold": 30,
+      "r_tol": 1e-08,
+      "check_input": true,
+      "check_prior": true
+    },
+    "control_note": "Mismatch-specific settings pinned for reproducibility but inactive under R_mismatch=none/R_finite=NULL. No automatic mismatch correction is introduced.",
+    "maf_thresh": 0,
+    "maf_note": "No extra internal MAF filter; only prospectively approved variant ledger.",
+    "track_fit": true,
+    "verbose": true,
+    "random_seed": 20261006,
+    "RNGkind": [
+      "Mersenne-Twister",
+      "Inversion",
+      "Rejection"
+    ],
+    "failure_policy": "Nonconvergence, exhausted signal cap, invalid ELBO or unstable/impure/boundary-spanning output remains unresolved; no result-driven signal cap/tolerance tuning.",
+    "future_signal_cap_sensitivity": {
+      "L_values": [
+        5,
+        20
+      ],
+      "status": "DESIGN_ONLY_NOT_AUTOMATICALLY_AUTHORIZED",
+      "rule": "If independently authorized, apply identically across eligible loci and retain all configurations; never choose by biological desirability."
+    }
+  },
+  "sensitivity_FINEMAP": {
+    "version": "1.4.2",
+    "input_scope": "Same ordered variants, allele orientation, beta/SE and LD as approved primary locus input",
+    "subprogram": "--sss",
+    "options": {
+      "--n-causal-snps": 10,
+      "--n-iter": 100000,
+      "--n-conv-sss": 100,
+      "--prob-conv-sss-tol": 0.001,
+      "--n-configs-top": 50000,
+      "--corr-config": 0.95,
+      "--n-threads": 1,
+      "--prior-std": 0.05,
+      "--prior-k0": 0,
+      "--prob-cred-set": 0.95,
+      "--pvalue-snps": 1.0,
+      "--log": true
+    },
+    "priors": "No --prior-snps and no --prior-k: documented uniform per-SNP prior1/p with default induced configuration prior, truncated at maximum10. Prespecified prior-std0.05.",
+    "corr_config_note": "Algorithm restriction on pairs within a causal configuration; not LD pruning and not matrix repair.",
+    "replicate_runs_planned": 3,
+    "seed_status": "UNRESOLVED: official1.4.2 documentation and static executable option inspection expose no configurable seed flag. No fictional --seed option or deterministic-run claim. A provider-supported reproducible seeding route must be resolved before invoking stochastic search under the preflight seeded-repeat requirement.",
+    "proposed_seeds_if_supported": [
+      20261006,
+      20261007,
+      20261008
+    ],
+    "current_stage_binary_execution_count": 0,
+    "source_compilation_lineage": "Provider distributes binary. Static dependency inspection retained; exact compiler and internal numerical library build provenance unavailable and must not be equated with the separately proposed R BLAS."
+  },
+  "pre_execution_software_blockers": [
+    "Build and validate R/core packages against frozen archives; freeze full R dependency lockfile and exact dependency source/binary hashes (Matrix,matrixStats,mixsqp,reshape,crayon,ggplot2,Rfast,cpp11,cpp11armadillo plus transitive dependencies).",
+    "Record exact compiler/runtime/shared-library hashes and verify R sessionInfo(), extSoftVersion(), BLAS/LAPACK linkage, source version and matrix precision. No installed runtime has been claimed.",
+    "Resolve provider-supported FINEMAP stochastic seed control or separately approve an explicit reproducibility exception; current binary has no documented seed flag.",
+    "Verify FINEMAP binary authenticity through acceptable independent/provider route because local frozen binary came from official HTTP after HTTPS certificate failure.",
+    "Close each track-specific likelihood/z_method/sample-size contract and every locus input gate; no executable scientific command is created in this stage."
+  ],
+  "prohibited_this_stage": [
+    "SuSiE or FINEMAP fitting",
+    "PIPs",
+    "credible sets",
+    "posteriors",
+    "candidate/model scores",
+    "functional priors",
+    "target-gene or colocalization analysis"
+  ],
+  "clearance_scope_clarification": {
+    "note": "Each proposed track and locus must pass every applicable input gate before its execution. One cleared track may proceed after separate investigator authorization; success of all three tracks is not required.",
+    "scientific_gate_changed": false,
+    "previous_field_name": "all_track_input_clearance_required_before_execution",
+    "previous_field_value": true,
+    "previous_config_sha256": "962d3be6df74b5940afff1c7bc3cc1bc61efb9d1bb87dbbeb3d6660eb338d6ae",
+    "clarified_utc": "2026-10-06T22:44:14.930860+00:00",
+    "existing_stage_freeze_binding": "No final stage freeze or config-specific hash receipt found before this wording clarification."
+  }
+}

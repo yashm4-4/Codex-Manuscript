@@ -1,0 +1,62 @@
+{
+  "rows": 28987534,
+  "gzip_complete_decode_crc_pass": true,
+  "row_count_matches_provider": true,
+  "parsed_columns": [
+    "chrom",
+    "pos",
+    "ref",
+    "alt",
+    "rsid",
+    "varid",
+    "pass_gnomad_genomes",
+    "n_passing_populations",
+    "high_quality",
+    "info",
+    "ac_EUR",
+    "af_EUR",
+    "an_EUR",
+    "gnomad_genomes_ac_EUR",
+    "gnomad_genomes_af_EUR",
+    "gnomad_genomes_an_EUR"
+  ],
+  "gene_columns_parsed_or_used": false,
+  "missingness": {
+    "chrom": 0,
+    "pos": 0,
+    "ref": 0,
+    "alt": 0,
+    "rsid": 0,
+    "varid": 0,
+    "pass_gnomad_genomes": 1391963,
+    "n_passing_populations": 0,
+    "high_quality": 0,
+    "info": 0,
+    "ac_EUR": 0,
+    "af_EUR": 0,
+    "an_EUR": 0,
+    "gnomad_genomes_ac_EUR": 1391963,
+    "gnomad_genomes_af_EUR": 1392191,
+    "gnomad_genomes_an_EUR": 1391963
+  },
+  "high_quality": {
+    "true": 26691267,
+    "false": 2296267
+  },
+  "nonfinite_info": 0,
+  "info_le_0_8": 397,
+  "info_min": 0.8,
+  "info_max": 1.0,
+  "EUR_allele_number_min": 916634.0,
+  "EUR_allele_number_max": 917874.0,
+  "locus_rows": {
+    "C_L001": 30165,
+    "C_L002": 60289,
+    "C_L003": 42938,
+    "C_L004": 30423,
+    "C_L005": 30264,
+    "C_L006": 36465,
+    "C_L007": 28708
+  },
+  "completed_utc": "2026-10-06T22:24:44.594376+00:00"
+}

@@ -1,0 +1,27 @@
+{
+  "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90016001-GCST90017000/GCST90016588/harmonised/md5sum.txt",
+  "accessed_utc": "2026-10-06T22:13:37.906050+00:00",
+  "scope": "complete HTTP body",
+  "path": "sources/harmonised/md5sum.txt",
+  "status": 200,
+  "final_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90016001-GCST90017000/GCST90016588/harmonised/md5sum.txt",
+  "response_headers": {
+    "Date": "Tue, 06 Oct 2026 22:13:38 GMT",
+    "Server": "Apache",
+    "Last-Modified": "Sun, 09 Feb 2025 15:25:52 GMT",
+    "ETag": "\"180-62db735120f89\"",
+    "Accept-Ranges": "bytes",
+    "Content-Length": "384",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET,OPTIONS",
+    "Access-Control-Allow-Headers": "Authorization,Origin,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Accept",
+    "Keep-Alive": "timeout=15, max=100",
+    "Connection": "Keep-Alive",
+    "Content-Type": "text/plain; charset=UTF-8"
+  },
+  "bytes": 384,
+  "sha256": "8d3fdddd8ea24fb69386a30f9d26838030f999e443a319d3e53d9711353efe08",
+  "md5": "f6778c5f160ce4131cb16d117306ef32",
+  "completed_utc": "2026-10-06T22:13:38.489978+00:00",
+  "complete_http": true
+}

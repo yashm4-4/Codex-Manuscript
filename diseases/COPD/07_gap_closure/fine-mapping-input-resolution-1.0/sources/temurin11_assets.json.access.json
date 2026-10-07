@@ -1,0 +1,38 @@
+{
+  "url": "https://api.adoptium.net/v3/assets/latest/11/hotspot?architecture=x64&image_type=jdk&os=linux&vendor=eclipse",
+  "started_utc": "2026-10-06T22:15:39.588328+00:00",
+  "request_headers": {
+    "Accept-Encoding": "identity"
+  },
+  "path": "diseases/COPD/07_gap_closure/fine-mapping-input-resolution-1.0/sources/temurin11_assets.json",
+  "complete": true,
+  "http_status": 200,
+  "final_url": "https://api.adoptium.net/v3/assets/latest/11/hotspot?architecture=x64&image_type=jdk&os=linux&vendor=eclipse",
+  "response_headers": {
+    "Date": "Tue, 06 Oct 2026 22:15:39 GMT",
+    "Content-Type": "application/json;charset=UTF-8",
+    "Content-Length": "1780",
+    "Connection": "keep-alive",
+    "x-frame-options": "DENY",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-content-type-options": "nosniff",
+    "Cache-Control": "public, max-age=14400, no-transform, s-maxage=120",
+    "etag": "\"45d7da4f7c7db1443125420d66c0526c3f5f5c27\"",
+    "last-modified": "Tue, 6 Oct 2026 21:28:44 GMT",
+    "x-pod-hostname": "adoptium-api-frontend-67b7d7f645-p27xq",
+    "Age": "63",
+    "Accept-Ranges": "bytes",
+    "cf-cache-status": "HIT",
+    "Vary": "accept-encoding",
+    "Speculation-Rules": "\"/cdn-cgi/speculation\"",
+    "Server": "cloudflare",
+    "CF-RAY": "a46806a8fcef44a6-IAD",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "content_length_matches": true,
+  "completed_utc": "2026-10-06T22:15:39.704526+00:00",
+  "bytes": 1780,
+  "sha256": "067a8172f5223583ea1fc6972b5c6b5641b5cca6e8a256abaf9877e229281bc6",
+  "md5": "101de438fd41a59a70714bc3996aeb69",
+  "seconds": 0.11620090901851654
+}

@@ -1,0 +1,27 @@
+{
+  "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90016001-GCST90017000/GCST90016588/harmonised/33106845-GCST90016588-EFO_0006527.h.tsv.gz-meta.yaml",
+  "accessed_utc": "2026-10-06T22:13:37.631946+00:00",
+  "scope": "complete HTTP body",
+  "path": "sources/harmonised/33106845-GCST90016588-EFO_0006527.h.tsv.gz-meta.yaml",
+  "status": 200,
+  "final_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90016001-GCST90017000/GCST90016588/harmonised/33106845-GCST90016588-EFO_0006527.h.tsv.gz-meta.yaml",
+  "response_headers": {
+    "Date": "Tue, 06 Oct 2026 22:13:37 GMT",
+    "Server": "Apache",
+    "Last-Modified": "Sun, 09 Feb 2025 15:25:52 GMT",
+    "ETag": "\"309-62db73511f15c\"",
+    "Accept-Ranges": "bytes",
+    "Content-Length": "777",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET,OPTIONS",
+    "Access-Control-Allow-Headers": "Authorization,Origin,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Accept",
+    "Keep-Alive": "timeout=15, max=100",
+    "Connection": "Keep-Alive",
+    "Content-Type": "text/tab-separated-values"
+  },
+  "bytes": 777,
+  "sha256": "f9e903b66b7de50ebdc1f31b3ec92354b3a894198d7b23ffe3de057d259d576c",
+  "md5": "67ef1951aec5a6d33bbc39ebfbb41fc8",
+  "completed_utc": "2026-10-06T22:13:37.901059+00:00",
+  "complete_http": true
+}

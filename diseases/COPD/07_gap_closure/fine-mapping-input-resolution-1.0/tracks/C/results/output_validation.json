@@ -1,0 +1,211 @@
+{
+  "passed": 51,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "all_locus_rows_present",
+      "pass": true
+    },
+    {
+      "check": "risk_table_preserves_all_rows",
+      "pass": true
+    },
+    {
+      "check": "no_native_exact_duplicates",
+      "pass": true
+    },
+    {
+      "check": "all_reference_checks_pass",
+      "pass": true
+    },
+    {
+      "check": "all_original_beta_strings_preserved_numerically",
+      "pass": true
+    },
+    {
+      "check": "all_original_SE_strings_preserved_numerically",
+      "pass": true
+    },
+    {
+      "check": "z_is_source_beta_over_SE",
+      "pass": true
+    },
+    {
+      "check": "effect_ALT_other_REF",
+      "pass": true
+    },
+    {
+      "check": "signed_direction_follows_beta_sign",
+      "pass": true
+    },
+    {
+      "check": "unresolved_rows_have_no_assigned_risk_allele",
+      "pass": true
+    },
+    {
+      "check": "normalized_collisions_unresolved",
+      "pass": true
+    },
+    {
+      "check": "diagnostic_gate_excludes_no_variants_based_on_provider_high_quality",
+      "pass": true
+    },
+    {
+      "check": "C_L001_all_rows_inside_boundaries",
+      "pass": true
+    },
+    {
+      "check": "C_L001_lead_present",
+      "pass": true
+    },
+    {
+      "check": "C_L002_all_rows_inside_boundaries",
+      "pass": true
+    },
+    {
+      "check": "C_L002_lead_present",
+      "pass": true
+    },
+    {
+      "check": "C_L003_all_rows_inside_boundaries",
+      "pass": true
+    },
+    {
+      "check": "C_L003_lead_present",
+      "pass": true
+    },
+    {
+      "check": "C_L004_all_rows_inside_boundaries",
+      "pass": true
+    },
+    {
+      "check": "C_L004_lead_present",
+      "pass": true
+    },
+    {
+      "check": "C_L005_all_rows_inside_boundaries",
+      "pass": true
+    },
+    {
+      "check": "C_L005_lead_present",
+      "pass": true
+    },
+    {
+      "check": "C_L006_all_rows_inside_boundaries",
+      "pass": true
+    },
+    {
+      "check": "C_L006_lead_present",
+      "pass": true
+    },
+    {
+      "check": "C_L007_all_rows_inside_boundaries",
+      "pass": true
+    },
+    {
+      "check": "C_L007_lead_present",
+      "pass": true
+    },
+    {
+      "check": "normalized_haplotype_equivalence_8239139",
+      "pass": true
+    },
+    {
+      "check": "normalized_haplotype_equivalence_8244394",
+      "pass": true
+    },
+    {
+      "check": "normalized_haplotype_equivalence_10942562",
+      "pass": true
+    },
+    {
+      "check": "normalized_haplotype_equivalence_10992516",
+      "pass": true
+    },
+    {
+      "check": "normalized_haplotype_equivalence_10993088",
+      "pass": true
+    },
+    {
+      "check": "normalized_haplotype_equivalence_10997926",
+      "pass": true
+    },
+    {
+      "check": "normalized_haplotype_equivalence_14302934",
+      "pass": true
+    },
+    {
+      "check": "normalized_haplotype_equivalence_16680239",
+      "pass": true
+    },
+    {
+      "check": "normalized_haplotype_equivalence_16680544",
+      "pass": true
+    },
+    {
+      "check": "normalized_haplotype_equivalence_16681361",
+      "pass": true
+    },
+    {
+      "check": "normalized_haplotype_equivalence_16785508",
+      "pass": true
+    },
+    {
+      "check": "normalized_haplotype_equivalence_16789892",
+      "pass": true
+    },
+    {
+      "check": "normalized_haplotype_equivalence_16805180",
+      "pass": true
+    },
+    {
+      "check": "normalized_haplotype_equivalence_16805181",
+      "pass": true
+    },
+    {
+      "check": "normalized_haplotype_equivalence_16805959",
+      "pass": true
+    },
+    {
+      "check": "normalized_haplotype_equivalence_16812575",
+      "pass": true
+    },
+    {
+      "check": "normalized_haplotype_equivalence_23526320",
+      "pass": true
+    },
+    {
+      "check": "normalized_haplotype_equivalence_23526764",
+      "pass": true
+    },
+    {
+      "check": "normalized_haplotype_equivalence_27323881",
+      "pass": true
+    },
+    {
+      "check": "normalized_haplotype_equivalence_27324842",
+      "pass": true
+    },
+    {
+      "check": "normalized_haplotype_equivalence_27343078",
+      "pass": true
+    },
+    {
+      "check": "normalized_haplotype_equivalence_27347433",
+      "pass": true
+    },
+    {
+      "check": "all334_significant_source_seeds_retained",
+      "pass": true
+    },
+    {
+      "check": "single_MHC_interval_deferred",
+      "pass": true
+    },
+    {
+      "check": "chr20_clipped_at_GRCh37_length",
+      "pass": true
+    }
+  ],
+  "completed_utc": "2026-10-06T22:27:53.090442+00:00"
+}

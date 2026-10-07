@@ -1,0 +1,190 @@
+{
+  "created_utc": "2026-10-06T23:19:13.026042+00:00",
+  "scope": "Finite read-only hash binding of actual observed diagnostic system-MKL library paths, Python executable and NumPy/SciPy compiled algorithm dependencies. No environment install or scientific computation.",
+  "actual_numerical_environment": {
+    "python": "3.9 system Conda",
+    "numpy": "1.24.4",
+    "scipy": "1.11.1",
+    "all_actual_diagnostic_jobs_use_this_environment": true,
+    "synthetic_OpenBLAS_runtime_adopted": false
+  },
+  "basis": [
+    "provenance/diagnostic_runtime.json",
+    "provenance/diagnostic_resource_inspection.json"
+  ],
+  "files": [
+    {
+      "observed_or_installed_path": "/usr/local/Anaconda/envs/py3.9/bin/python3.9",
+      "resolved_path": "/usr/local/Anaconda/envs/py3.9/bin/python3.9",
+      "roles": [
+        "observed_diagnostic_python_executable"
+      ],
+      "bytes": 22108408,
+      "sha256": "9e167ac1426eca96ea304f63e7550fe9a428505aecfd7e2a3627ea4ace7e7872",
+      "stat_stable_during_hash": true
+    },
+    {
+      "observed_or_installed_path": "/usr/local/Anaconda/envs/py3.9/lib/libmkl_core.so.2",
+      "resolved_path": "/usr/local/Anaconda/envs/py3.9/lib/libmkl_core.so.2",
+      "roles": [
+        "observed_loaded_BLAS_LAPACK_library"
+      ],
+      "bytes": 74144696,
+      "sha256": "40ebfeb22f1afa11054e58fcdcd76a4f799352d9911807564ec3962dfa7f9c17",
+      "stat_stable_during_hash": true
+    },
+    {
+      "observed_or_installed_path": "/usr/local/Anaconda/envs/py3.9/lib/libmkl_def.so.2",
+      "resolved_path": "/usr/local/Anaconda/envs/py3.9/lib/libmkl_def.so.2",
+      "roles": [
+        "observed_loaded_BLAS_LAPACK_library"
+      ],
+      "bytes": 42421440,
+      "sha256": "e51f172868416c28e8f17176de7f3e1c2ff7d81016ccb21742cbc84f75a3779b",
+      "stat_stable_during_hash": true
+    },
+    {
+      "observed_or_installed_path": "/usr/local/Anaconda/envs/py3.9/lib/libmkl_intel_lp64.so.2",
+      "resolved_path": "/usr/local/Anaconda/envs/py3.9/lib/libmkl_intel_lp64.so.2",
+      "roles": [
+        "observed_loaded_BLAS_LAPACK_library"
+      ],
+      "bytes": 17150808,
+      "sha256": "86508a5ec83ed1ee4f4317f3fb0f02a2ec6af7dfcc08191dce3d2c75caa10120",
+      "stat_stable_during_hash": true
+    },
+    {
+      "observed_or_installed_path": "/usr/local/Anaconda/envs/py3.9/lib/libmkl_intel_thread.so.2",
+      "resolved_path": "/usr/local/Anaconda/envs/py3.9/lib/libmkl_intel_thread.so.2",
+      "roles": [
+        "observed_loaded_BLAS_LAPACK_library"
+      ],
+      "bytes": 64934792,
+      "sha256": "83e9f4044f9ef134d07d8213688869873e6661163efb5761b9e6584baa24bf8f",
+      "stat_stable_during_hash": true
+    },
+    {
+      "observed_or_installed_path": "/usr/local/Anaconda/envs/py3.9/lib/libmkl_rt.so.2",
+      "resolved_path": "/usr/local/Anaconda/envs/py3.9/lib/libmkl_rt.so.2",
+      "roles": [
+        "observed_loaded_BLAS_LAPACK_library"
+      ],
+      "bytes": 11300224,
+      "sha256": "303394b387dd37d779b0b72552c8f0d6c538e0fd0bfbbded2a64cc2f43770f75",
+      "stat_stable_during_hash": true
+    },
+    {
+      "observed_or_installed_path": "/usr/local/Anaconda/envs/py3.9/lib/libmkl_vml_def.so.2",
+      "resolved_path": "/usr/local/Anaconda/envs/py3.9/lib/libmkl_vml_def.so.2",
+      "roles": [
+        "observed_loaded_BLAS_LAPACK_library"
+      ],
+      "bytes": 8774896,
+      "sha256": "b5ad51600bd7e5ec3e0ef8c86f21079fc1620acb986119955ce64fae28b1a534",
+      "stat_stable_during_hash": true
+    },
+    {
+      "observed_or_installed_path": "/usr/local/Anaconda/envs/py3.9/lib/python3.9/site-packages/numpy/core/_multiarray_umath.cpython-39-x86_64-linux-gnu.so",
+      "resolved_path": "/usr/local/Anaconda/envs/py3.9/lib/python3.9/site-packages/numpy/core/_multiarray_umath.cpython-39-x86_64-linux-gnu.so",
+      "roles": [
+        "numpy_float64_array_core"
+      ],
+      "bytes": 5923096,
+      "sha256": "7ccf5adb3ec703941bc8eee97f7b557682759f48e9696c9e6a3d66580fe111d2",
+      "stat_stable_during_hash": true
+    },
+    {
+      "observed_or_installed_path": "/usr/local/Anaconda/envs/py3.9/lib/python3.9/site-packages/numpy/linalg/_umath_linalg.cpython-39-x86_64-linux-gnu.so",
+      "resolved_path": "/usr/local/Anaconda/envs/py3.9/lib/python3.9/site-packages/numpy/linalg/_umath_linalg.cpython-39-x86_64-linux-gnu.so",
+      "roles": [
+        "numpy_linalg_compiled_core"
+      ],
+      "bytes": 215744,
+      "sha256": "7ba8f410ade8b4cf0ac803aa8b30e33f91c91b84e152e338927ef53213d9c966",
+      "stat_stable_during_hash": true
+    },
+    {
+      "observed_or_installed_path": "/usr/local/Anaconda/envs/py3.9/lib/python3.9/site-packages/numpy/linalg/lapack_lite.cpython-39-x86_64-linux-gnu.so",
+      "resolved_path": "/usr/local/Anaconda/envs/py3.9/lib/python3.9/site-packages/numpy/linalg/lapack_lite.cpython-39-x86_64-linux-gnu.so",
+      "roles": [
+        "numpy_lapack_compiled_core"
+      ],
+      "bytes": 25888,
+      "sha256": "9fe66465dccd6fc57d0873572df99fcacd10b49b7dd57b80bee47043cf211726",
+      "stat_stable_during_hash": true
+    },
+    {
+      "observed_or_installed_path": "/usr/local/Anaconda/envs/py3.9/lib/python3.9/site-packages/scipy/linalg/_decomp.py",
+      "resolved_path": "/usr/local/Anaconda/envs/py3.9/lib/python3.9/site-packages/scipy/linalg/_decomp.py",
+      "roles": [
+        "diagnostic_algorithm_python_source"
+      ],
+      "bytes": 61381,
+      "sha256": "642f0c1c077774a5ba7a66d8038c2a7a457e72e4d23289a9df7e2af6fcfc661d",
+      "stat_stable_during_hash": true
+    },
+    {
+      "observed_or_installed_path": "/usr/local/Anaconda/envs/py3.9/lib/python3.9/site-packages/scipy/linalg/_fblas.cpython-39-x86_64-linux-gnu.so",
+      "resolved_path": "/usr/local/Anaconda/envs/py3.9/lib/python3.9/site-packages/scipy/linalg/_fblas.cpython-39-x86_64-linux-gnu.so",
+      "roles": [
+        "scipy_BLAS_wrapper"
+      ],
+      "bytes": 667096,
+      "sha256": "7bf5772702fe427f624339e9ab69d14d4b050176d8c75e1ccdb82dad65e882bf",
+      "stat_stable_during_hash": true
+    },
+    {
+      "observed_or_installed_path": "/usr/local/Anaconda/envs/py3.9/lib/python3.9/site-packages/scipy/linalg/_flapack.cpython-39-x86_64-linux-gnu.so",
+      "resolved_path": "/usr/local/Anaconda/envs/py3.9/lib/python3.9/site-packages/scipy/linalg/_flapack.cpython-39-x86_64-linux-gnu.so",
+      "roles": [
+        "scipy_LAPACK_wrapper"
+      ],
+      "bytes": 2307648,
+      "sha256": "63784fde0e14a4495155a896bfc519e81d4728384727631f1bd35139ee80ca46",
+      "stat_stable_during_hash": true
+    },
+    {
+      "observed_or_installed_path": "/usr/local/Anaconda/envs/py3.9/lib/python3.9/site-packages/scipy/linalg/cython_blas.cpython-39-x86_64-linux-gnu.so",
+      "resolved_path": "/usr/local/Anaconda/envs/py3.9/lib/python3.9/site-packages/scipy/linalg/cython_blas.cpython-39-x86_64-linux-gnu.so",
+      "roles": [
+        "scipy_Cython_BLAS_wrapper"
+      ],
+      "bytes": 271024,
+      "sha256": "52da0e27f7a1d59a6db537f344b425d118a79288ec2cd04dfd5843940bd0c3f0",
+      "stat_stable_during_hash": true
+    },
+    {
+      "observed_or_installed_path": "/usr/local/Anaconda/envs/py3.9/lib/python3.9/site-packages/scipy/linalg/cython_lapack.cpython-39-x86_64-linux-gnu.so",
+      "resolved_path": "/usr/local/Anaconda/envs/py3.9/lib/python3.9/site-packages/scipy/linalg/cython_lapack.cpython-39-x86_64-linux-gnu.so",
+      "roles": [
+        "scipy_Cython_LAPACK_wrapper"
+      ],
+      "bytes": 742880,
+      "sha256": "4a136a5c2d870a518f0ad328f01ea149302df963431c5ceb780040017e107719",
+      "stat_stable_during_hash": true
+    },
+    {
+      "observed_or_installed_path": "/usr/local/Anaconda/envs/py3.9/lib/python3.9/site-packages/scipy/optimize/_minimize.py",
+      "resolved_path": "/usr/local/Anaconda/envs/py3.9/lib/python3.9/site-packages/scipy/optimize/_minimize.py",
+      "roles": [
+        "diagnostic_algorithm_python_source"
+      ],
+      "bytes": 47713,
+      "sha256": "9cca2be02405edae17d8c57dd1dea17a422ae8906f171f286d6ca8d10e9cb60b",
+      "stat_stable_during_hash": true
+    },
+    {
+      "observed_or_installed_path": "/usr/local/Anaconda/envs/py3.9/lib/python3.9/site-packages/scipy/optimize/_optimize.py",
+      "resolved_path": "/usr/local/Anaconda/envs/py3.9/lib/python3.9/site-packages/scipy/optimize/_optimize.py",
+      "roles": [
+        "diagnostic_algorithm_python_source"
+      ],
+      "bytes": 146149,
+      "sha256": "04bac9d45ec3b776c0d3a93484e2b112b43d08275a80d261227169e55f7c4912",
+      "stat_stable_during_hash": true
+    }
+  ],
+  "file_count": 17,
+  "total_bytes_hashed": 251243883,
+  "limitations": "Not a complete OS, compiler, package or container lock. Mapped-library paths were captured during actual diagnostic processes; additional wrapper/core files are installed dependencies whose hashes are bound prospectively for reproducibility. Hashes do not claim every optional wrapper was invoked."
+}

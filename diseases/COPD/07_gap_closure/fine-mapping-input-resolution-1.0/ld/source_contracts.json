@@ -1,0 +1,136 @@
+{
+  "scope": "Bounded public Pan-UKB EUR source/statistic/sample audit for Tracks A and C; Track B Japanese source audit remains in tracks/B; no genotypes acquired or recomputed LD",
+  "created_utc": "2026-10-06T22:34:14.668234+00:00",
+  "panukb_EUR_source": {
+    "matrix_url": "https://pan-ukb-us-east-1.s3.amazonaws.com/ld_release/UKBB.EUR.ldadj.bm/",
+    "index_url": "https://pan-ukb-us-east-1.s3.amazonaws.com/ld_release/UKBB.EUR.ldadj.variant.ht/",
+    "ancestry": "Pan-UKB EUR population defined by project ancestry/QC pipeline, not identical by assertion to every UKB European/white-British GWAS subset",
+    "build": "GRCh37; actual Hail locus schema and native index keys",
+    "matrix_shape": [
+      23960350,
+      23960350
+    ],
+    "index_partition_row_count": 23960350,
+    "block_size": 4096,
+    "ld_n_observed_index_globals": 420542,
+    "counted_allele": "ALT dosage (alleles[1]); exact ordered native reference/alternate index key",
+    "statistic": "signed residualized standardized-dosage Gram product; not r-squared or an LD-score table",
+    "public_documented_genotypes": "UKB imputed version3 BGEN dosages; official UKB source background HRC+UK10K/1000Genomes imputation",
+    "missing_dosages": "historical source writes mean_impute=True into genotype block matrix",
+    "documented_input_QC": "INFO>0.8 and population MAC around20; historical/default/current script details differ at19 versus20 and actual executed parameter values are not release-bound",
+    "covariates": [
+      "intercept",
+      "sex",
+      "age",
+      "age_squared",
+      "age_times_sex",
+      "age_squared_times_sex",
+      "PC1",
+      "PC2",
+      "PC3",
+      "PC4",
+      "PC5",
+      "PC6",
+      "PC7",
+      "PC8",
+      "PC9",
+      "PC10"
+    ],
+    "normalization": "row-wise genotype centering and population-SD standardization before unweighted linear covariate projection; G=ZZ^T/n; no second normalization after residualization in historical or current inspected code",
+    "representation": "upper triangle plus 10Mb pair-distance band; observed original triangle/positive diagonal tested per locus by root numeric audit",
+    "band_radius_bp": 10000000,
+    "original_matrices_preserved": true,
+    "diagnostic_derived_correlation": "R_ij=G_ij/sqrt(G_ii*G_jj), saved separately and hashed; semantic conversion, not PSD repair or scientific guarantee that R is covariance of GWAS z",
+    "matrix_metadata_last_modified": "2020-10-24T03:24:29Z",
+    "matrix_metadata_object_version": "4m1nrkLWRDS21UqbLLF3boaPqWhD8SeH",
+    "ld_public_release_changelog": "v0.2,2020-10-29",
+    "exact_execution_code_bound_to_release": false
+  },
+  "historical_code_lineage": {
+    "latest_public_repository_snapshot_before_matrix_metadata": "fb0bfcf2dcf1f6d699bc6845cd561f43987e53c2",
+    "snapshot_committer_date": "2020-10-22T13:53:05Z",
+    "compute_file_last_pre_object_commit": "581432c1761616092fa45fc504b55dabaab59185",
+    "compute_file_sha256": "73382283b7fc55022b2dcf0c8e9b30ff3770df1c201708fe7d13af5ccb8776e3",
+    "pre_and_post_object_core_scaling_agree": true,
+    "post_object_commit": "9abc15b60dd1a21f9cc60eb6725e76f819ad41f8",
+    "post_object_committer_date": "2020-10-25T11:43:33Z",
+    "post_object_changes": "adds chrX rows, min_mac19, temporary paths/checkpoint choices; Gram/residualization/10Mb/triangle core unchanged",
+    "observed_lineage_limit": "Pre-object compute script includes autosomes only, whereas actual release index includes chromosomeX. Post-object code addsX. A public commit date therefore does not prove actual run code/version/arguments; original job log/environment and release manifest remain absent.",
+    "genotype_helper_lineage": "Oct22 snapshot documents compensating transformation for underlying frequency AF-doubled/AN-halved artifact; not evidence the downloaded matrix is numerically wrong; underscores need for exact execution lineage.",
+    "artifacts": "tracks/C/sources/pan_pre_object_snapshot_*, pan_pre_object_*, pan_post_object_*, pan_ld_historical_code.diff and API history receipts"
+  },
+  "tracks": {
+    "C": {
+      "gwas": "icd10-J44-both_sexes EUR",
+      "n_cases": 11536,
+      "n_controls": 408995,
+      "gwas_phenotype_n": 420531,
+      "LD_n": 420542,
+      "LD_n_minus_GWAS_n": 11,
+      "relationship": "Same project, same ancestry framework, near-overlap source cohorts; exact participant overlap/missingness not proven; not labeled exactly matched phenotype-specific in-sample LD",
+      "gwas_release": "Checksum-bound2023 flat file; v0.4 schema",
+      "test": "SAIGE binary mixed-model score test with saddlepoint approximation",
+      "saige_version_metadata": "SAIGE_0.36.3; exact current Hail J44 EUR pheno_data; inv_normalized=false",
+      "SE_semantics": "Version0.36.3 source constructs SE=abs(logOR/qnorm(SPA_P/2)); numerical P agreement is arithmetic by construction, not independent Wald likelihood validation",
+      "exact_version_lineage_caveat": "Current public Hail column container modified2024; source EUR counts agree but its metadata is not a checksum-bound original2023 per-phenotype run log",
+      "N_absence": "GWAS per-variant N absent; variant-manifest AN/2 broader458317-458937 cohort cannot substitute; no automatic effective-N conversion",
+      "reference_ld_candidacy": "Suitable to test as a same-project signed reference with unusually strong allele/cohort documentation; compatible RSS sampling model still not established",
+      "unresolved_gates": [
+        "Exact LD execution release/code/parameters and precise sample-membership relationship",
+        "Per-variant GWAS observed sample sizes or approved likelihood sample-size derivation",
+        "Mapping SPA-calibrated beta/SE z to appropriate covariate/mixed-model genotype-score covariance; unweighted residual genotype correlation is not automatically sufficient",
+        "Complete locus coverage/missingness, boundary and matrix diagnostics as reported in separate root outputs",
+        "Investigator approval of source/statistic/reference approximation and complete future input freeze after all gates"
+      ]
+    },
+    "A": {
+      "gwas": "GCST90016588 Kim UKB ever-smoker spirometric COPD",
+      "n_cases": 12446,
+      "n_controls": 59145,
+      "gwas_phenotype_n": 71591,
+      "LD_n": 420542,
+      "exact_smoking_subset_ld": "No exact/subgroup-specific signed matrix obtained from legitimate public sources; controlled-access subset genotypes or an author-provided compatible release would be a separate route requiring appropriate access",
+      "relationship": "Full-Pan-UKB-EUR external reference for a smoking-selected UKB analysis; participant overlap likely at project level but exact overlap not documented, and reference does not recreate the smoking subgroup",
+      "is_matched_in_sample_LD": false,
+      "reference_ld_candidacy": "A plausible ancestry/source-related external reference for diagnostics; not cleared for RSS solely by public availability or numerical PSD",
+      "sample_covariate_caveat": "Kim logistic analysis and subset selection need not share Pan-UKB sample selection, dosage missingness or covariate projection; smoking-associated selection may alter covariance. Impact cannot be bounded from absent Kim AF/N/INFO fields alone.",
+      "unresolved_gates": [
+        "Exact/subgroup-compatible LD absent, or separate scientific justification for external-reference approximation",
+        "Kim source AF/per-variant N/INFO absent and exact historical logistic/formatting lineage incomplete",
+        "Unresolved strong-variant identities and normalized collisions from TrackA audit",
+        "Actual locus allele/order/coverage, spectral/conditional diagnostics and interpretation",
+        "Investigator approval and full input freeze only after every applicable gate"
+      ]
+    }
+  },
+  "diagnostics_can_establish": [
+    "Exact source identity/allele sign mapping and matrix order for retained variants",
+    "Finite, correctly reconstructed signed entries; positive diagonals and explicit scaling",
+    "Numerical symmetry/range/PSD/rank/conditioning and whether z projects into numerical null space",
+    "Lead/other-strong-variant representation, boundary distances and stored-band availability",
+    "Descriptive z/LD conditional residuals and scalar null-covariance mismatch under declared diagnostic model"
+  ],
+  "diagnostics_cannot_establish": [
+    "Original sample membership, original job-code identity or exact historical release lineage",
+    "Equivalence of unweighted covariate-residual genotype correlation and SPA-calibrated mixed-model statistic covariance",
+    "Scientific validity of substituting nominal/effective N or using fullEUR LD for smoking selection",
+    "Absence of long-range correlation outside the stored10Mb band",
+    "Fine-mapping eligibility simply because numerical tests pass; multiple true signals can also produce residuals"
+  ],
+  "provider_high_quality_policy": "Not a blanket exclusion. Provider high_quality is gnomAD-genomes PASS plus multi-population AF concordance, distinct from source EUR trait low_confidence and INFO/MAC. Retain strong flagged variants in evidence/overlap ledgers and evaluate under frozen gates; do not redraw loci.",
+  "overlap_policy": "A and C share UKB source participants and are not independent replication tracks; do not combine their evidence as independent. This audit does not create a meta-analysis.",
+  "clearance_from_source_audit": false,
+  "no_genotypes_or_posterior_inference": true,
+  "source_urls": {
+    "pan_ld_methods": "https://pan.ukbb.broadinstitute.org/docs/ld/",
+    "pan_gwas_qc": "https://pan.ukbb.broadinstitute.org/docs/qc/",
+    "pan_schema": "https://pan.ukbb.broadinstitute.org/docs/per-phenotype-files/",
+    "pan_changelog": "https://pan.ukbb.broadinstitute.org/docs/changelog/",
+    "historical_ld_code": "https://github.com/atgu/ukbb_pan_ancestry/blob/fb0bfcf2dcf1f6d699bc6845cd561f43987e53c2/compute_ld_matrix.py",
+    "historical_genotype_code": "https://github.com/atgu/ukbb_pan_ancestry/blob/fb0bfcf2dcf1f6d699bc6845cd561f43987e53c2/resources/genotypes.py",
+    "immediately_after_object_ld_code": "https://github.com/atgu/ukbb_pan_ancestry/blob/9abc15b60dd1a21f9cc60eb6725e76f819ad41f8/compute_ld_matrix.py",
+    "SAIGE_exact_version_code": "https://github.com/weizhouUMICH/SAIGE/blob/f5c757dfe5e2c872d2034845c2d9b5c867af773e/R/SAIGE_SPATest.R",
+    "UKB_genotype_background": "https://community.ukbiobank.ac.uk/hc/en-gb/articles/15468170680605-Genome-wide-genotyping",
+    "UKB_controlled_access": "https://www.ukbiobank.ac.uk/about-our-data/"
+  }
+}

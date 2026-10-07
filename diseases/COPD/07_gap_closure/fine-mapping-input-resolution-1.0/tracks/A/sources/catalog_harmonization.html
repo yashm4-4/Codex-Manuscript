@@ -1,0 +1,335 @@
+<!doctype html><html lang=en dir=ltr class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-methods/summary-statistics" data-has-hydrated=false><head><meta charset=UTF-8><meta name=generator content="Docusaurus v3.10.2"><title data-rh=true>Summary statistics | GWAS Catalog Documentation</title><meta data-rh=true name=viewport content="width=device-width, initial-scale=1.0"/><meta data-rh=true name=twitter:card content=summary_large_image /><meta data-rh=true property=og:image content=https://www.ebi.ac.uk/gwas/docs/img/gwas_logo.png /><meta data-rh=true name=twitter:image content=https://www.ebi.ac.uk/gwas/docs/img/gwas_logo.png /><meta data-rh=true property=og:url content=https://www.ebi.ac.uk/gwas/docs/methods/summary-statistics /><meta data-rh=true property=og:locale content=en /><meta data-rh=true name=docusaurus_locale content=en /><meta data-rh=true name=docsearch:language content=en /><meta data-rh=true name=docusaurus_version content=current /><meta data-rh=true name=docusaurus_tag content=docs-default-current /><meta data-rh=true name=docsearch:version content=current /><meta data-rh=true name=docsearch:docusaurus_tag content=docs-default-current /><meta data-rh=true property=og:title content="Summary statistics | GWAS Catalog Documentation"/><meta data-rh=true name=description content="An introduction to the summary statistics hosted by the GWAS Catalog and how to access them."/><meta data-rh=true property=og:description content="An introduction to the summary statistics hosted by the GWAS Catalog and how to access them."/><link data-rh=true rel=icon href=/gwas/docs/img/gwas-favicon.ico /><link data-rh=true rel=canonical href=https://www.ebi.ac.uk/gwas/docs/methods/summary-statistics /><link data-rh=true rel=alternate href=https://www.ebi.ac.uk/gwas/docs/methods/summary-statistics hreflang=en /><link data-rh=true rel=alternate href=https://www.ebi.ac.uk/gwas/docs/methods/summary-statistics hreflang=x-default /><script data-rh=true type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://www.ebi.ac.uk/gwas/docs/summary-statistics","name":"Summary statistics","position":1},{"@type":"ListItem","item":"https://www.ebi.ac.uk/gwas/docs/methods/summary-statistics","name":"About summary statistics","position":2}]}</script><link rel=alternate type=application/rss+xml href=/gwas/docs/news/rss.xml title="GWAS Catalog Documentation RSS Feed"><link rel=alternate type=application/atom+xml href=/gwas/docs/news/atom.xml title="GWAS Catalog Documentation Atom Feed"><link rel=preconnect href=https://www.google-analytics.com><link rel=preconnect href=https://www.googletagmanager.com><script async src="https://www.googletagmanager.com/gtag/js?id=G-C4KFST3T0G"></script><script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-C4KFST3T0G",{anonymize_ip:!0})</script><link rel=describedby href=/gwas/docs/llms.txt><link rel=stylesheet href=https://assets.emblstatic.net/vf/v2.5.30/css/styles.css><link rel=stylesheet href=https://docbot-64c680.gitdocs.ebi.ac.uk/dist/Chatbot-Modal.css><script src=https://assets.emblstatic.net/vf/v2.5.30/scripts/scripts.js async></script><script src=https://docbot-64c680.gitdocs.ebi.ac.uk/Chatbot-Modal.web.js type=module></script><link rel=stylesheet href=/gwas/docs/assets/css/styles.ddc749ea.css /><script src=/gwas/docs/assets/js/runtime~main.5bc0496d.js defer></script><script src=/gwas/docs/assets/js/main.50c4ffb2.js defer></script></head><body><svg style="display: none;"><defs>
+<symbol id=theme-svg-external-link viewBox="0 0 24 24"><path fill=currentColor d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme-ac9")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{for(var[t,e]of new URLSearchParams(window.location.search).entries())if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id=__docusaurus><link rel=preload as=image href=/gwas/docs/img/favicon.ico /><div role=region aria-label="Skip to main content"><a class=skipToContent_fXgn href=#__docusaurus_skipToContent_fallback>Skip to main content</a></div><nav aria-label=Main class="theme-layout-navbar navbar navbar--fixed-top navbar--dark"><div class=navbar__inner><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded=false class="navbar__toggle clean-btn" type=button><svg width=30 height=30 viewBox="0 0 30 30" aria-hidden=true><path stroke=currentColor stroke-linecap=round stroke-miterlimit=10 stroke-width=2 d="M4 7h22M4 15h22M4 23h22"/></svg></button><a href=https://www.ebi.ac.uk/gwas/ target=_blank rel="noopener noreferrer" class=navbar__brand><div class=navbar__logo><img src=/gwas/docs/img/favicon.ico alt="GWAS Catalog" class="themedComponent_mlkZ themedComponent--light_NVdE"/><img src=/gwas/docs/img/favicon.ico alt="GWAS Catalog" class="themedComponent_mlkZ themedComponent--dark_xIcU"/></div><b class="navbar__title text--truncate">GWAS Catalog</b></a><a aria-current=page class="navbar__item navbar__link navbar__link--active" href=/gwas/docs/>Documentation</a><a class="navbar__item navbar__link" href=/gwas/docs/news>News</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href=https://www.ebi.ac.uk/gwas/search target=_blank rel="noopener noreferrer" class="navbar__item navbar__link">GWAS Catalog search<svg width=13.5 height=13.5 aria-label="(opens in new tab)" class=iconExternalLink_nPIU><use href=#theme-svg-external-link /></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS darkNavbarColorModeToggle_X3D1" type=button disabled title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width=24 height=24 aria-hidden=true class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill=currentColor d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"/></svg><svg viewBox="0 0 24 24" width=24 height=24 aria-hidden=true class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill=currentColor d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"/></svg><svg viewBox="0 0 24 24" width=24 height=24 aria-hidden=true class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill=currentColor d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"/></svg></button></div><div class=navbarSearchContainer_Bca1></div></div></div><div role=presentation class=navbar-sidebar__backdrop></div></nav><div id=__docusaurus_skipToContent_fallback class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class=docsWrapper_hBAB><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type=button></button><div class=docRoot_UBD9><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class=sidebarViewport_aRkj><div class=sidebar_njMd><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class=menu__link href=/gwas/docs/><span class=linkLabel_WmDU>Documentation</span></a><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="categoryLink_byQd menu__link menu__link--sublist" href=/gwas/docs/training><span class=categoryLinkLabel_W154>Training</span></a><button aria-label="Expand sidebar category 'Training'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="categoryLink_byQd menu__link menu__link--sublist" href=/gwas/docs/methods><span class=categoryLinkLabel_W154>Methods</span></a><button aria-label="Expand sidebar category 'Methods'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class=menu__list-item-collapsible><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--active" href=/gwas/docs/summary-statistics><span class=categoryLinkLabel_W154>Summary statistics</span></a><button aria-label="Collapse sidebar category 'Summary statistics'" aria-expanded=true type=button class="clean-btn menu__caret"></button></div><ul class=menu__list><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current=page tabindex=0 href=/gwas/docs/methods/summary-statistics><span class=linkLabel_WmDU>About summary statistics</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a href=https://www.ebi.ac.uk/gwas/downloads/summary-statistics target=_blank rel="noopener noreferrer" class="menu__link menuExternalLink_NmtK" tabindex=0><span class=linkLabel_WmDU>Downloading summary statistics</span><svg width=13.5 height=13.5 aria-label="(opens in new tab)" class=iconExternalLink_nPIU><use href=#theme-svg-external-link /></svg></a></ul><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="categoryLink_byQd menu__link menu__link--sublist" href=/gwas/docs/submission><span class=categoryLinkLabel_W154>Submission</span></a><button aria-label="Expand sidebar category 'Submission'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="categoryLink_byQd menu__link menu__link--sublist" href=/gwas/docs/downloads><span class=categoryLinkLabel_W154>Downloads</span></a><button aria-label="Expand sidebar category 'Downloads'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="categoryLink_byQd menu__link menu__link--sublist" href=/gwas/docs/programmatic-access><span class=categoryLinkLabel_W154>Programmatic access</span></a><button aria-label="Expand sidebar category 'Programmatic access'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="categoryLink_byQd menu__link menu__link--sublist" href=/gwas/docs/faqs><span class=categoryLinkLabel_W154>FAQs</span></a><button aria-label="Expand sidebar category 'FAQs'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="categoryLink_byQd menu__link menu__link--sublist" href=/gwas/docs/population-descriptors><span class=categoryLinkLabel_W154>Curation of population descriptors</span></a><button aria-label="Expand sidebar category 'Curation of population descriptors'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="categoryLink_byQd menu__link menu__link--sublist" href=/gwas/docs/ontology/trait-mapping><span class=categoryLinkLabel_W154>Ontology</span></a><button aria-label="Expand sidebar category 'Ontology'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="categoryLink_byQd menu__link menu__link--sublist" href=/gwas/docs/reference><span class=categoryLinkLabel_W154>Reference</span></a><button aria-label="Expand sidebar category 'Reference'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class=menu__link href=/gwas/docs/citation><span class=linkLabel_WmDU>Citing the GWAS Catalog</span></a></ul></nav></div></div></aside><main class=docMainContainer_TBSr><div class="container padding-top--md padding-bottom--lg"><div class=row><div class="col docItemCol_VOVn"><div class=docItemContainer_Djhp><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label=Breadcrumbs><ul class=breadcrumbs><li class=breadcrumbs__item><a aria-label="Home page" class=breadcrumbs__link href=/gwas/docs/><svg viewBox="0 0 24 24" class=breadcrumbHomeIcon_YNFT><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill=currentColor /></svg></a><li class=breadcrumbs__item><a class=breadcrumbs__link href=/gwas/docs/summary-statistics><span>Summary statistics</span></a><li class="breadcrumbs__item breadcrumbs__item--active"><span class=breadcrumbs__link>About summary statistics</span></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type=button class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Summary statistics</h1></header><p>This page includes general documentation about the summary statistics we host in the GWAS Catalog. <strong>For instructions on submitting summary statistics please see our <a class="" href=/gwas/docs/submission>submission documentation</a>.</strong></p>
+<hr/>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id=general>General<a href=#general class=hash-link aria-label="Direct link to General" title="Direct link to General" translate=no>​</a></h4>
+<ul>
+<li class="">
+<p><a href=#_what_are_summary_statistics class="">What are summary statistics?</a></p>
+</li>
+<li class="">
+<p><a href=#_sources class="">Sources</a></p>
+</li>
+<li class="">
+<p><a href=#_eligibility class="">Eligibility</a></p>
+</li>
+<li class="">
+<p><a href=#_standard_format class="">Standard format</a></p>
+</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id=access>Access<a href=#access class=hash-link aria-label="Direct link to Access" title="Direct link to Access" translate=no>​</a></h4>
+<ul>
+<li class="">
+<p><a href=#_searching_via_our_web_interface class="">Searching our web interface</a></p>
+</li>
+<li class="">
+<p><a href=#_navigating_the_ftp class="">Navigating the FTP</a></p>
+</li>
+<li class="">
+<p><a href=#_directories class="">Directories</a></p>
+<ul>
+<li class=""><a href=#_harmonised_subdirectories class="">Harmonised subdirectories</a></li>
+</ul>
+</li>
+<li class="">
+<p><a href=#_how_can_i_find_all_the_harmonised_data class="">How can I find all the harmonised data?</a></p>
+</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id=formatted-and-harmonised-files>Formatted and harmonised files<a href=#formatted-and-harmonised-files class=hash-link aria-label="Direct link to Formatted and harmonised files" title="Direct link to Formatted and harmonised files" translate=no>​</a></h4>
+<ul>
+<li class="">
+<p><a href=#_what_are_formatted_files class="">What are “formatted files”?</a></p>
+</li>
+<li class="">
+<p><a href=#_what_are_harmonised_files class="">What are "harmonised files"?</a></p>
+<ul>
+<li class=""><a href=#_harmonisation_codes class="">Harmonisation codes</a></li>
+</ul>
+</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id=accompanying-metadata>Accompanying metadata<a href=#accompanying-metadata class=hash-link aria-label="Direct link to Accompanying metadata" title="Direct link to Accompanying metadata" translate=no>​</a></h4>
+<ul>
+<li class="">
+<p><a href=#_accompanying_metadata_meta_yaml class="">-meta.yaml info</a></p>
+<ul>
+<li class=""><a href=#_file_types class="">File types</a></li>
+</ul>
+</li>
+</ul>
+<hr/>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=_what_are_summary_statistics>What are summary statistics?<a href=#_what_are_summary_statistics class=hash-link aria-label="Direct link to What are summary statistics?" title="Direct link to What are summary statistics?" translate=no>​</a></h2>
+<p>While associations included within the Catalog are the curated, significant (p&lt;1e-5) and independent loci reported within a paper, summary statistics (sumstats) are the full, aggregate p-values and association data for every variant analysed in a study. These are hosted on our servers when available and can be downloaded via links on study and publication pages. For more summary statistics FAQ, please see <a class="" href=/gwas/docs/faq#faqH1SummaryStats>here</a>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=_sources>Sources<a href=#_sources class=hash-link aria-label="Direct link to Sources" title="Direct link to Sources" translate=no>​</a></h2>
+<p>Summary statistics are acquired from a number of different sources:</p>
+<ul>
+<li class="">
+<p>Submitted to the GWAS Catalog by an author</p>
+</li>
+<li class="">
+<p>Identified via link or reference in a curated paper</p>
+</li>
+<li class="">
+<p>Identified via a consortium or author website</p>
+</li>
+<li class="">
+<p>Included in a curated paper as a supplementary file</p>
+</li>
+</ul>
+<p>We encourage authors to submit summary statistics to the GWAS Catalog. Summary statistics for published and pre-published/unpublished GWAS can be submitted directly via the <a href=http://www.ebi.ac.uk/gwas/deposition target=_blank rel="noopener noreferrer" class="">Submission page</a>. Instructions on how to submit summary statistics can be found <a class="" href=/gwas/docs/submission>here</a>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=_eligibility>Eligibility<a href=#_eligibility class=hash-link aria-label="Direct link to Eligibility" title="Direct link to Eligibility" translate=no>​</a></h2>
+<p>Summary statistics must meet a number of criteria to be eligible for inclusion in the GWAS Catalog:</p>
+<ul>
+<li class="">
+<p>Must include >100,000 SNPs</p>
+</li>
+<li class="">
+<p>Must reproduce a GWAS described in a published paper (ie. same sample metadata and trait), or is clearly marked as pre/un-published.</p>
+</li>
+<li class="">
+<p>Must be freely available, i.e. not only by request to author or password-protected.</p>
+</li>
+<li class="">
+<p>Must not require agreement to any specific terms and conditions, unless this has been agreed in advance by the author/consortium. Since 2022, we have required newly submitted sumstats to be released under CC0 - noted under ‘Terms/Licence’ on study pages. In rare cases, special licensing terms will appear in an adjacent readme.txt.</p>
+</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=_standard_format>Standard format<a href=#_standard_format class=hash-link aria-label="Direct link to Standard format" title="Direct link to Standard format" translate=no>​</a></h2>
+<p>The vast majority of files adhere to one of two standard formats, GWAS-SSF and pre-GWAS-SSF.</p>
+<p>Since April 2023, all summary statistics will meet GWAS-SSF - the product of a series of working groups, which has been written up as a <a href=https://www.biorxiv.org/content/10.1101/2022.07.15.500230v4 target=_blank rel="noopener noreferrer" class="">preprint</a>. The specification of the standard can be found <a href=https://github.com/EBISPOT/gwas-summary-statistics-standard/blob/master/gwas-ssf_v1.0.2.pdf target=_blank rel="noopener noreferrer" class="">here</a> with further details in the <a href=https://github.com/EBISPOT/gwas-summary-statistics-standard target=_blank rel="noopener noreferrer" class="">GitHub repository</a>. Prior to V1 of this standard, a minimum acceptable format (pre-GWAS-SSF) was used, the details of which are available in <a href=https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6323933/ target=_blank rel="noopener noreferrer" class="">Buniello and MacArthur, 2019</a>.</p>
+<p>Standardised data files are additionally provided in a <a href=#_what_are_harmonised_files class="">harmonised format</a>, with all data reported against the same genome build and alleles aligned to the forward strand. Each file has an accompanying <a href=#_accompanying_metadata_meta_yaml class="">metadata</a> file in .yaml format, which indicates the <a href=#_file_types class="">file_type</a> and whether or not the file has been harmonised.</p>
+<p>We also host a small number of non-standard files with eg. fewer than 100,000 SNPs or non-standard study design (eg. CNV or gene-based). These will be flagged as ‘Non-GWAS-SSF’ in the .yaml.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id=moving-beyond-snps>Moving beyond SNPs<a href=#moving-beyond-snps class=hash-link aria-label="Direct link to Moving beyond SNPs" title="Direct link to Moving beyond SNPs" translate=no>​</a></h3>
+<p>Since April 2026, copy number variant (CNV) and gene-based GWAS data should follow the standards described in the <a href=https://www.ebi.ac.uk/gwas/apps/beyond-snps target=_blank rel="noopener noreferrer" class="">beyond SNPs documentation</a>. Previously, these data were submitted to the Catalog without a standard schema, which limited downstream reuse.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=access-1>Access<a href=#access-1 class=hash-link aria-label="Direct link to Access" title="Direct link to Access" translate=no>​</a></h2>
+<p>We store summary statistics files on our <a href=https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/ target=_blank rel="noopener noreferrer" class="">FTP site</a>, which is updated nightly with any newly ingested data. API access to summary statistics has been deprecated, and an improved API is coming soon.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id=_searching_via_our_web_interface>Searching via our web interface:<a href=#_searching_via_our_web_interface class=hash-link aria-label="Direct link to Searching via our web interface:" title="Direct link to Searching via our web interface:" translate=no>​</a></h4>
+<p>Links to FTP directories are provided within the main Catalog pages. Search for a specific trait, accession ID, PMID, author, etc., and look out for the summary statistics icon, denoting availability.</p>
+<p>Per publication page, all available sumstats will be listed under the 'Full summary statistics' tab.</p>
+<p>You can also browse our summary statistics tables for all pre- and post-publication data here: <a href=https://www.ebi.ac.uk/gwas/downloads/summary-statistics target=_blank rel="noopener noreferrer" class="">https://www.ebi.ac.uk/gwas/downloads/summary-statistics</a></p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id=_navigating_the_ftp>Navigating the FTP:<a href=#_navigating_the_ftp class=hash-link aria-label="Direct link to Navigating the FTP:" title="Direct link to Navigating the FTP:" translate=no>​</a></h4>
+<p>Every summary statistics file is available at a path based on the GCST accession ID. For example, the summary statistics for accession GCST123456 would be available at 'ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST123001-GCST124000/GCST123456/'. You can see that the directory 'GCST123456/' is nested inside 'ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST123001-GCST124000/'. This parent directory holds up to 1000 GCSTs, and will only contain those GCSTs that are within the range given. These bins of one thousand are added as necessary, when new GCSTs need housing.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id=_directories>Directories:<a href=#_directories class=hash-link aria-label="Direct link to Directories:" title="Direct link to Directories:" translate=no>​</a></h4>
+<p>Each accession ID directory contains:</p>
+<ul>
+<li class="">
+<p>The original sumstats file .tsv</p>
+</li>
+<li class="">
+<p>A metadata .yaml</p>
+</li>
+<li class="">
+<p>A separate readme, if provided .txt (newer folders will hold this under ‘author_notes’ inside the .yaml)</p>
+</li>
+<li class="">
+<p>When possible, and once processed, a harmonised directory</p>
+</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id=_harmonised_subdirectories>Harmonised subdirectories:<a href=#_harmonised_subdirectories class=hash-link aria-label="Direct link to Harmonised subdirectories:" title="Direct link to Harmonised subdirectories:" translate=no>​</a></h4>
+<p><strong>The latest version of the harmonisation pipeline was released in 2023.</strong> All files harmonised under this version, eg. <a href=https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90270001-GCST90271000/GCST90270927/ target=_blank rel="noopener noreferrer" class="">GCST90270927</a> contain a ‘/harmonised’ directory with the following contents:</p>
+<ul>
+<li class="">
+<p>A harmonised version of the raw file. .h.tsv (see <a href=#_what_are_harmonised_files class="">What are harmonised files?</a>)</p>
+</li>
+<li class="">
+<p>An index file .tbi</p>
+</li>
+<li class="">
+<p>A log file .log</p>
+</li>
+<li class="">
+<p>A metadata file .yaml</p>
+</li>
+</ul>
+<p><strong>For files harmonised before 2023,</strong> eg <a href=https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90001001-GCST90002000/GCST90001686/ target=_blank rel="noopener noreferrer" class="">GCST90001686</a>, the harmonised folder will contain:</p>
+<ul>
+<li class="">
+<p>A formatted version of the raw file - with standardised headers .f.tsv (see <a href=#_what_are_formatted_files class="">What are "formatted files"?</a>)</p>
+</li>
+<li class="">
+<p>A harmonised version of the formatted file .h.tsv</p>
+</li>
+<li class="">
+<p>A metadata file .yaml</p>
+</li>
+</ul>
+<p>In some cases, there will be no harmonised directory due to incompatibility with our pipeline. These will be marked out with ‘Non-GWAS-SSF’ under file_type in the .yaml. If the file type is GWAS-SSF or pre-GWAS-SSF and there is no harmonised file, it is likely awaiting harmonisation, please check back at a later date.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id=_how_can_i_find_all_the_harmonised_data>How can I find all the harmonised data?<a href=#_how_can_i_find_all_the_harmonised_data class=hash-link aria-label="Direct link to How can I find all the harmonised data?" title="Direct link to How can I find all the harmonised data?" translate=no>​</a></h4>
+<p>Harmonised summary statistics are released daily and a text file listing all of the harmonised studies is available on the FTP at the following location: <a href=https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/harmonised_list.txt target=_blank rel="noopener noreferrer" class="">https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/harmonised_list.txt</a>. This text file is updated on a nightly basis.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=_what_are_formatted_files>What are “formatted files”?<a href=#_what_are_formatted_files class=hash-link aria-label="Direct link to What are “formatted files”?" title="Direct link to What are “formatted files”?" translate=no>​</a></h2>
+<p>Prior to the GWAS Catalog accepting direct submissions, summary statistics files were formatted by scientific curators using a semi-automated process. Where the formatted files are available, they are nested within the 'harmonised' subdirectory with the ‘*.f.tsv.gz’ suffix (<a href=https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90001001-GCST90002000/GCST90001686/harmonised/ target=_blank rel="noopener noreferrer" class="">example</a>). These files will not be available for newer submitted content because those datasets have already been formatted by the authors. During the formatting process data were not manipulated but the headers were converted to a consistent format across all summary statistics files.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=_what_are_harmonised_files>What are "harmonised files"?<a href=#_what_are_harmonised_files class=hash-link aria-label='Direct link to What are "harmonised files"?' title='Direct link to What are "harmonised files"?' translate=no>​</a></h2>
+<p>Sumstats files are harmonised using an automated <a href=https://github.com/EBISPOT/gwas-sumstats-harmoniser target=_blank rel="noopener noreferrer" class="">pipeline</a>, which is detailed below. By 'harmonised' we mean that all genomic position data will be reported against the same and latest genome build. Missing chromosome, base pair location and variant ID data that can be inferred, will be. Furthermore, where possible, alleles are also orientated to the forward strand.</p>
+<p>The harmonisation process is the following:</p>
+<ol>
+<li class="">
+<p>Mapping variant IDs to locations (method used is reported in the ‘hm_coordinate_conversion’ field in the harmonised data file)</p>
+<ol>
+<li class="">
+<p>Update base pair location value by mapping rsID using Ensembl (currently v95) (‘hm_coordinate_conversion’ = ‘rs’); or</p>
+</li>
+<li class="">
+<p>if above not possible, liftover base pair location to latest genome build (‘hm_coordinate_conversion’ = ‘lo’); or</p>
+</li>
+<li class="">
+<p>if above not possible, remove variant from file.</p>
+</li>
+</ol>
+</li>
+<li class="">
+<p>Orientation (<a href=https://github.com/opentargets/sumstat_harmoniser target=_blank rel="noopener noreferrer" class="">Open Targets project</a>)</p>
+<ol>
+<li class="">
+<p>Infer the orientation of palindromic variants. Palindromic variants are alleles on the forward strand which are the same as on the reverse strand. We infer the orientations of palindromic variants according to the strand consensus.</p>
+<ol>
+<li class="">
+<p>Firstly, we randomly select 10% of sites. The effect and other alleles are compared with counterpart alternative and reference alleles in the Ensembl VCF references to identify the strand of the non-palindromic variants (forward or reverse) .</p>
+</li>
+<li class="">
+<p>The forward strand consensus can be calculated by forward/(forward+reverse) or reverse/(forward+reverse). To avoid any possibility of sampling bias:</p>
+<ul>
+<li class="">
+<p>If the rate ≥ 0.995, the following harmonisation steps on the palindromic variants are inferred as on the forward (or reverse) strand;</p>
+</li>
+<li class="">
+<p>If the rate is the range of (0.995,0.9), this rate is recalculated by all non-palindromic variants in the data. The palindromic variants can be inferred as forward (or reverse) if the recalculated rate > 0.99, otherwise palindromic variants are dropped for harmonisation;</p>
+</li>
+<li class="">
+<p>If the rate ≤ 0.9, palindromic variants are dropped in the following harmonisation step.</p>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+<li class="">
+<p>Variant harmonisation: Using chromosome, base pair location and the effect and other alleles, query each variant against the Ensembl VCF reference to harmonise as appropriate by either:</p>
+<ol>
+<li class="">
+<p>keeping record as is because:</p>
+<ul>
+<li class="">it is already correctly orientated</li>
+</ul>
+</li>
+<li class="">
+<p>orientating to reference strand:</p>
+<ul>
+<li class="">reverse complement the effect and other alleles</li>
+</ul>
+</li>
+<li class="">
+<p>flipping the effect and other alleles</p>
+<ul>
+<li class="">
+<p>because the effect and other alleles are flipped in the reference</p>
+</li>
+<li class="">
+<p>this also means the beta, odds ratio, 95% CI and effect allele frequency are inverted</p>
+</li>
+</ul>
+</li>
+<li class="">
+<p>a combination of the orientating and flipping the alleles.</p>
+</li>
+<li class="">
+<p>replace with NA because:</p>
+<ul>
+<li class="">There is no counterpart record in the reference VCF file.</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li class="">
+<p>Filtering and QC</p>
+<ol>
+<li class="">
+<p>Variant ID is set to variant IDs found by step (2).</p>
+</li>
+<li class="">
+<p>Records without a valid value for variant ID, chromosome, base pair location and p-value are removed.</p>
+</li>
+</ol>
+</li>
+<li class="">
+<p>Harmonisation result: For each input file, harmonisation generates three outputs:</p>
+<ol>
+<li class="">
+<p>The harmonisation result (*.h.tsv.gz)</p>
+<ul>
+<li class="">
+<p>represents harmonised mandatory columns in a <a href=https://github.com/EBISPOT/gwas-summary-statistics-standard/blob/master/gwas-ssf_v0.1-draft.pdf target=_blank rel="noopener noreferrer" class="">specific order</a> and other columns in the original order.</p>
+</li>
+<li class="">
+<p>contains a new column named harmonisation code is assigned to each record indicating the harmonisation process that was performed (note that currently any processes involving 'Infer strand' are not being used).</p>
+</li>
+<li class="">
+<p>is sorted by chr and position and compressed using bgzip</p>
+</li>
+</ul>
+</li>
+<li class="">
+<p>An index file (*.h.tsv.gz.tbi)</p>
+<ul>
+<li class="">A tabix index file of the harmonisation result for quick data retrieve purposes</li>
+</ul>
+</li>
+<li class="">
+<p>A report file (report.txt) summarises:</p>
+<ul>
+<li class="">
+<p>the reference VCF file used in harmonisation.</p>
+</li>
+<li class="">
+<p>process on the palindromic variants</p>
+</li>
+<li class="">
+<p>percentage of variants dropped in the qc step</p>
+</li>
+<li class="">
+<p>percentage of variants that are successfully harmonised or failed</p>
+</li>
+</ul>
+</li>
+<li class="">
+<p>A metadata YAML file (*.h.tsv.gz-meta.yaml) for the harmonised data file.</p>
+</li>
+</ol>
+</li>
+</ol>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id=_harmonisation_codes>Harmonisation codes:<a href=#_harmonisation_codes class=hash-link aria-label="Direct link to Harmonisation codes:" title="Direct link to Harmonisation codes:" translate=no>​</a></h4>
+<table><thead><tr><th>Code<th>Description of process<tbody><tr><td>1<td>Palindromic; Infer strand; Forward strand; Alleles correct<tr><td>2<td>Palindromic; Infer strand; Forward strand; Flipped alleles<tr><td>3<td>Palindromic; Infer strand; Reverse strand; Alleles correct<tr><td>4<td>Palindromic; Infer strand; Reverse strand; Flipped alleles<tr><td>5<td>Palindromic; Assume forward strand; Alleles correct<tr><td>6<td>Palindromic; Assume forward strand; Flipped alleles<tr><td>7<td>Palindromic; Assume reverse strand; Alleles correct<tr><td>8<td>Palindromic; Assume reverse strand; Flipped alleles<tr><td>9<td>Palindromic; Drop palindromic; Not orientated<tr><td>10<td>Forward strand; Alleles correct<tr><td>11<td>Forward strand; Flipped alleles<tr><td>12<td>Reverse strand; Alleles correct<tr><td>13<td>Reverse strand; Flipped alleles<tr><td>14<td>Required fields are not known; Not orientated<tr><td>15<td>No matching variants in reference VCF; Not orientated<tr><td>16<td>Multiple matching variants in reference VCF; Not orientated<tr><td>17<td>Palindromic; Infer strand; EAF or reference VCF AF not known; Not orientated<tr><td>18<td>Palindromic; Infer strand; EAF &lt; specified minor allele frequency threshold; Not orientated</table>
+<p>Harmonised data files conform to the standard but there are some additional points to mention:</p>
+<ol>
+<li class="">
+<p>Where possible, data are sorted by chromosome and base pair location</p>
+</li>
+<li class="">
+<p>Where possible, a <code>&lt;data_file>.tbi</code> file is available to enable access to a specified genomic region using tabix (link)</p>
+</li>
+<li class="">
+<p>A running report from the harmonisation is available with the harmonised file on the FTP</p>
+</li>
+<li class="">
+<p>A field in the data file, ‘‘hm_coordinate_conversion’’, signifies whether the position was mapped using rsID (‘rs’) lookup or liftOver (‘lo’).</p>
+</li>
+</ol>
+<p>There may be differences between the data available on the FTP site compared to the database where number rounding has taken place. In the database, chromosome values of 'X', 'Y' and 'MT' will appear as 23, 24 and 25, respectively.</p>
+<p>More extensive documentation on the harmonisation pipeline can be found <a href=https://ebispot.github.io/gwas-sumstats-harmoniser-documentation/ target=_blank rel="noopener noreferrer" class="">here</a>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=_accompanying_metadata_meta_yaml>Accompanying metadata (-meta.yaml)<a href=#_accompanying_metadata_meta_yaml class=hash-link aria-label="Direct link to Accompanying metadata (-meta.yaml)" title="Direct link to Accompanying metadata (-meta.yaml)" translate=no>​</a></h2>
+<p>Metadata are provided in a computer and human readable YAML file adjacent to the data file, suffixed with -meta.yaml. So where the data file is called GCST123456.tsv.gz, the metadata can be found with the name GCST123456.tsv.gz-meta.yaml.</p>
+<p><strong>Metadata definitions:</strong></p>
+<table><thead><tr><th><strong>Field</strong><th><strong>Description</strong><th><strong>Data type and values</strong><th><strong>Mandatory</strong><th><strong>Example</strong><tbody><tr><td>--------------------------<td>--------------------------<td>--------------------------<td>--------------------------<td>--------------------------<tr><td># <strong>Study meta-data</strong><td><td><td><td><tr><td>gwas_id<td>GWAS Catalog accession ID<td>Text string<td>Yes<td>GCST90244057<tr><td>author_notes<td>Additional information about this study from the author<td>Text string<td>No<td>File contains GWAS summary statistics from a meta-analysis of NMR metabolic traits in up to 33 cohorts.<tr><td>gwas_catalog_api<td>GWAS catalog REST API link<td>Text string<td>Yes<td><a href=https://www.ebi.ac.uk/gwas/rest/api/studies/GCST90244057 target=_blank rel="noopener noreferrer" class="">https://www.ebi.ac.uk/gwas/rest/api/studies/GCST90244057</a><tr><td>date_metadata_last_modified<td>The latest date that metadata YAML file was modified<td>date<td>Yes<td>2023-11-28<tr><td># <strong>Trait Information</strong><td><td><td><td><tr><td>trait_description<td>Author reported trait description<td>Text string (multiple possible)<td>Yes<td>Body mass index<tr><td>ontology_mapping<td>Short form ontology terms describing the trait<td>Text string (multiple possible)<td>No<td>EFO_0004918<tr><td># <strong>Genotyping Information</strong><td><td><td><td><tr><td>genome_assembly<td>Genome assembly for the summary statistics.<td>GRCh/NCBI/UCSC value<td>Yes<td>GRCh37<tr><td>coordinate_system<td>Coordinate system used for the summary statistics<td>Text String (1-based or 0-based)<td>No<td>1-based<tr><td>genotyping_technology<td>Method(s) used to genotype variants in the discovery stage.<td>Text string (multiple possible)<td>Yes<td>Genome-wide genotyping array<tr><td>imputation_panel<td>Panel used for imputation<td>Text string<td>No<td>HRC + UK10K<tr><td>imputation_software<td>Software used for imputation<td>Text string<td>No<td>SHAPEIT3 + IMPUTE4<tr><td># <strong>Sample Information</strong><td><td><td><td><tr><td>sample_ancestry_category<td>Broad ancestry category that best describes the sample.<td>Text string<td>Yes<td>European<tr><td>sample_ancestry<td>The most detailed ancestry descriptor(s) for the sample.<td>Text string (multiple possible)<td>Yes<td>Finnish<tr><td>sample_size<td>Sample size<td>Integer<td>Yes<td>27006<tr><td>ancestry_method<td>Method used to determine sample ancestry e.g. self-reported/genetically determined<td>Text string (multiple possible)<td>No<td>self-reported<tr><td>case_control_study<td>Flag whether the study is a case-control study<td>Boolean<td>No (default is false)<td>true<tr><td>case_count<td>Number of cases for case/control study<td>Integer<td>No, unless caseControlStudy is true<td>27006<tr><td>control_count<td>Number of controls for case/control study<td>Integer<td>No, unless caseControlStudy is true<td>27006<tr><td>sex<td>To indicate a sex-stratified analysis<td>M (for male), F (for female), combined or NR if unknown<td>No<td>combined<tr><td># <strong>Summary Statistic information</strong><td><td><td><td><tr><td>data_file_name<td>The name of the summary statistics file<td>Text string<td>Yes<td>GCST90244057_buildGRCh37.tsv<tr><td>file_type<td>The format of the summary statistics file<td>"GWAS-SSF v1.0", "pre-GWAS-SSF", "non-GWAS-SSF"<td>Yes<td>GWAS-SSF v1.0<tr><td>data_file_md5sum<td>The md5 checksum of the summary statistics file.<td>Text string<td>Yes<td>0ec56396f89edcc21a3d5a25a6fa993d<tr><td>analysis_software<td>Software and version used for the association analysis<td>Text string (multiple possible)<td>Yes if p-values of 0 given<td>REGENIE<tr><td>adjusted_covariates<td>Any covariates the GWAS is adjusted for<td>Text string (multiple possible)<td>No<td>sex<tr><td>minor_allele_freq_lower_limit<td>Lowest possible effect allele frequency<td>Numeric<td>No<td>0.0003<tr><td># <strong>Harmonization status</strong><td><td><td><td><tr><td>is_harmonised<td>Description of harmonisation codes<td>Text string<td>Only given in harmonised datasets<td>false<tr><td>is_sorted<td>Flag whether the file is sorted by genomic location<td>Boolean<td>Yes<td>false<tr><td>harmonisation_reference<td>The genome reference file used for harmonising the summary statistics file<td>Text string<td>No<td><a href=https://ftp.ensembl.org/pub/release-104/fasta/homo_sapiens/dna/ target=_blank rel="noopener noreferrer" class="">https://ftp.ensembl.org/pub/release-104/fasta/homo_sapiens/dna/</a></table>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id=_file_types>File_types:<a href=#_file_types class=hash-link aria-label="Direct link to File_types:" title="Direct link to File_types:" translate=no>​</a></h4>
+<ul>
+<li class="">
+<p>GWAS-SSF v1: Version 1 of the GWAS-SSF standard format.</p>
+</li>
+<li class="">
+<p>Pre-GWAS-SSF: The previous, minimal format requiring only chromosome, base_pair_location/rsID and p-value.</p>
+</li>
+<li class="">
+<p>Non-GWAS-SSF: Not conforming to any standard format. Can include gene-based, CNV and multivariate analyses where eg. effect information is not available.</p>
+</li>
+</ul>
+<p>Note: for very old sumstats (where the filename does not begin ‘GCST’), no metadata .yaml will be available.</p>
+<p>For summary statistics associated with a journal publication, study metadata can also be accessed via the GWAS Catalog web interface and REST API. Metadata for unpublished submissions is not currently available via REST API but can be found in our <a class="" href=/gwas/docs/file-downloads>download files</a>.</div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href=/gwas/docs/summary-statistics><div class=pagination-nav__sublabel>Previous</div><div class=pagination-nav__label>Summary statistics</div></a><a class="pagination-nav__link pagination-nav__link--next" href=/gwas/docs/submission><div class=pagination-nav__sublabel>Next</div><div class=pagination-nav__label>Submission</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href=#_what_are_summary_statistics class="table-of-contents__link toc-highlight">What are summary statistics?</a><li><a href=#_sources class="table-of-contents__link toc-highlight">Sources</a><li><a href=#_eligibility class="table-of-contents__link toc-highlight">Eligibility</a><li><a href=#_standard_format class="table-of-contents__link toc-highlight">Standard format</a><ul><li><a href=#moving-beyond-snps class="table-of-contents__link toc-highlight">Moving beyond SNPs</a></ul><li><a href=#access-1 class="table-of-contents__link toc-highlight">Access</a><li><a href=#_what_are_formatted_files class="table-of-contents__link toc-highlight">What are “formatted files”?</a><li><a href=#_what_are_harmonised_files class="table-of-contents__link toc-highlight">What are "harmonised files"?</a><li><a href=#_accompanying_metadata_meta_yaml class="table-of-contents__link toc-highlight">Accompanying metadata (-meta.yaml)</a></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class=footer__copyright>Copyright © EMBL-EBI 2026 | EMBL-EBI is an Outstation of the <a href=https://www.embl.org>European Molecular Biology Laboratory</a> | <a href=https://www.ebi.ac.uk/about/terms-of-use>Terms of use</a> | <a href=https://www.ebi.ac.uk/long-term-data-preservation>Data Preservation Statement</a> | <a href=https://creativecommons.org/licenses/by/4.0/>Documentation available under CC BY 4.0</a></div></div></div></footer><docbot-modal selectedteam=gwas backendurl=https://www.ebi.ac.uk/docbot/api></docbot-modal></div></body>

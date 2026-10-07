@@ -1,0 +1,114 @@
+{
+  "total_locus_rows": 259252,
+  "reference_path": "/data/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/fine-mapping-input-resolution-1.0/references/GRCh37.p13.genome.fa",
+  "reference_match_counts": {
+    "true": 259252
+  },
+  "harmonization_status": {
+    "VERIFIED_FORWARD_ALT_CONTRAST_REFERENCE_MATCH": 259218,
+    "UNRESOLVED_NORMALIZATION_COLLISION": 24,
+    "VERIFIED_FORWARD_ALT_CONTRAST_NORMALIZED_ID_RECORDED": 10
+  },
+  "direction_status": {
+    "VERIFIED_SIGNED_GWAS_CONTRAST": 175749,
+    "UNRESOLVED_GWAS_QC_OR_IDENTITY": 83503
+  },
+  "qc_status": {
+    "SOURCE_STATISTIC_QC_PASS": 175774,
+    "UNRESOLVED_MISSING_OR_INVALID_GWAS": 43749,
+    "SOURCE_LOW_CONFIDENCE": 39729
+  },
+  "variant_qc_annotation": {
+    "PROVIDER_VARIANT_QC_PASS": 230463,
+    "PROVIDER_HIGH_QUALITY_FALSE_OR_MISSING": 28787,
+    "INFO_NOT_GT_0_8": 2
+  },
+  "normalization_changed_rows": 22,
+  "source_duplicate_rows": 0,
+  "normalized_duplicate_rows": 24,
+  "variant_type_counts": {
+    "SNP": 242705,
+    "INDEL": 16547
+  },
+  "palindromic_snp_rows": 38833,
+  "per_locus": [
+    {
+      "locus_id": "C_L001",
+      "all_rows": 30165,
+      "source_statistic_qc_pass_rows": 17803,
+      "valid_signed_direction_rows": 17801,
+      "source_qc_pass_significant_rows": 80,
+      "reference_mismatch_significant_qc_pass_rows": 0,
+      "manifest_missing_rows": 0,
+      "variant_qc_pass_rows": 28260,
+      "normalization_collision_rows": 2
+    },
+    {
+      "locus_id": "C_L002",
+      "all_rows": 60289,
+      "source_statistic_qc_pass_rows": 49789,
+      "valid_signed_direction_rows": 49782,
+      "source_qc_pass_significant_rows": 1,
+      "reference_mismatch_significant_qc_pass_rows": 0,
+      "manifest_missing_rows": 0,
+      "variant_qc_pass_rows": 48762,
+      "normalization_collision_rows": 6
+    },
+    {
+      "locus_id": "C_L003",
+      "all_rows": 42938,
+      "source_statistic_qc_pass_rows": 27382,
+      "valid_signed_direction_rows": 27382,
+      "source_qc_pass_significant_rows": 4,
+      "reference_mismatch_significant_qc_pass_rows": 0,
+      "manifest_missing_rows": 0,
+      "variant_qc_pass_rows": 38222,
+      "normalization_collision_rows": 0
+    },
+    {
+      "locus_id": "C_L004",
+      "all_rows": 30423,
+      "source_statistic_qc_pass_rows": 20057,
+      "valid_signed_direction_rows": 20055,
+      "source_qc_pass_significant_rows": 5,
+      "reference_mismatch_significant_qc_pass_rows": 0,
+      "manifest_missing_rows": 0,
+      "variant_qc_pass_rows": 28185,
+      "normalization_collision_rows": 2
+    },
+    {
+      "locus_id": "C_L005",
+      "all_rows": 30264,
+      "source_statistic_qc_pass_rows": 18712,
+      "valid_signed_direction_rows": 18706,
+      "source_qc_pass_significant_rows": 1,
+      "reference_mismatch_significant_qc_pass_rows": 0,
+      "manifest_missing_rows": 0,
+      "variant_qc_pass_rows": 27639,
+      "normalization_collision_rows": 6
+    },
+    {
+      "locus_id": "C_L006",
+      "all_rows": 36465,
+      "source_statistic_qc_pass_rows": 22577,
+      "valid_signed_direction_rows": 22575,
+      "source_qc_pass_significant_rows": 242,
+      "reference_mismatch_significant_qc_pass_rows": 0,
+      "manifest_missing_rows": 0,
+      "variant_qc_pass_rows": 33398,
+      "normalization_collision_rows": 2
+    },
+    {
+      "locus_id": "C_L007",
+      "all_rows": 28708,
+      "source_statistic_qc_pass_rows": 19454,
+      "valid_signed_direction_rows": 19448,
+      "source_qc_pass_significant_rows": 1,
+      "reference_mismatch_significant_qc_pass_rows": 0,
+      "manifest_missing_rows": 0,
+      "variant_qc_pass_rows": 25997,
+      "normalization_collision_rows": 6
+    }
+  ],
+  "completed_utc": "2026-10-06T22:25:35.271024+00:00"
+}

@@ -1,0 +1,110 @@
+{
+  "stage": "fine-mapping-input-resolution-1.0",
+  "status": "FROZEN_INPUT_RESOLUTION_STOP_FOR_INVESTIGATOR_REVIEW",
+  "frozen_utc": "2026-10-06T23:30:56.409851+00:00",
+  "baseline_commit": "54dfd85d457ea4370a497af88bb90ebe10cf26d1",
+  "checksum_ledger": "provenance/artifact_checksums.tsv",
+  "checksum_ledger_sha256": "468752b02bb8bd1054ac6fccc29cf3ff0b43c4276a892a76d1a59dab2c54acbd",
+  "payload_files": 3623,
+  "payload_bytes": 127346795830,
+  "required_final_artifacts": {
+    "integrity": {
+      "path": "provenance/stage_integrity_validation.json",
+      "sha256": "ae324887aa61e190583d917c44b84b9e17de7ee3dd06492ea7701c83626c2d25",
+      "bytes": 280409
+    },
+    "extraction": {
+      "path": "ld/extraction_validation.json",
+      "sha256": "576c594a172344f1c8dee55ed22c2cd9bd74d83fe969af9501f7b79644b8ce69",
+      "bytes": 296170
+    },
+    "report": {
+      "path": "FINE_MAPPING_INPUT_RESOLUTION_REPORT.md",
+      "sha256": "540b0400fc9919d007b161ef3d099793545c51df7dd2861e72b395a0a97a5762",
+      "bytes": 21339
+    },
+    "review": {
+      "path": "provenance/independent_stage_review.json",
+      "sha256": "4ee7ff2f39fef67522c9543ab1be82f0e8c7882290612f423b0535d5454ec4e0",
+      "bytes": 71459
+    }
+  },
+  "registers": [
+    {
+      "path": "diseases/COPD/07_gap_closure/activity_log.tsv",
+      "bytes": 29789,
+      "sha256": "99253db7384e5f762383584600656428926696d4ebccd582a0fd5d7b3b5671d7",
+      "baseline_prefix_bytes": 28116,
+      "baseline_prefix_sha256": "5b2a0e9a7e7ceb94472c8858f61d307a49b70a36cfd26426b47ecf1bd3206826",
+      "baseline_snapshot": "provenance/baseline_activity_log.tsv",
+      "appended_bytes": 1673,
+      "appended_rows": 3,
+      "append_only": true,
+      "stat_at_freeze": {
+        "bytes": 29789,
+        "mtime_ns": 1791329207187867416,
+        "ctime_ns": 1791329207187867416,
+        "inode": 9636294309623034794,
+        "device": 50,
+        "mode": 33188
+      }
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/gap_closure_decision_register.tsv",
+      "bytes": 26738,
+      "sha256": "1302b40d380ce79f1d748e127e6b41f696780687121f87dda5ffebc0bc40e13e",
+      "baseline_prefix_bytes": 24887,
+      "baseline_prefix_sha256": "fc86ebb6c5faf6d8ab8514cd57c9afb274d7ff28f81e233cf2d64eafcbabd73c",
+      "baseline_snapshot": "provenance/baseline_gap_closure_decision_register.tsv",
+      "appended_bytes": 1851,
+      "appended_rows": 4,
+      "append_only": true,
+      "stat_at_freeze": {
+        "bytes": 26738,
+        "mtime_ns": 1791329207192452931,
+        "ctime_ns": 1791329207192452931,
+        "inode": 2621307795066820281,
+        "device": 50,
+        "mode": 33188
+      }
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/gap_closure_result_register.tsv",
+      "bytes": 38560,
+      "sha256": "cd1cc198b58e90131f66b8803af24099c42620503292752246d6105f5964db1b",
+      "baseline_prefix_bytes": 36386,
+      "baseline_prefix_sha256": "160fa0ab5de91ec9a0f1260656efc0eb6e317678454d86e6bc77fb9de8aea721",
+      "baseline_snapshot": "provenance/baseline_gap_closure_result_register.tsv",
+      "appended_bytes": 2174,
+      "appended_rows": 6,
+      "append_only": true,
+      "stat_at_freeze": {
+        "bytes": 38560,
+        "mtime_ns": 1791329207196720568,
+        "ctime_ns": 1791329207196720568,
+        "inode": 16202027752690745775,
+        "device": 50,
+        "mode": 33188
+      }
+    }
+  ],
+  "exclusions": {
+    "closure_paths": [
+      "provenance/artifact_checksums.tsv",
+      "provenance/freeze.json",
+      "provenance/freeze_verification.json"
+    ],
+    "ephemeral_rule": "Immediate parent directory __pycache__ AND filename suffix .pyc only",
+    "ephemeral_inventory": "provenance/excluded_ephemeral_inventory.tsv",
+    "all_other_files_included": true
+  },
+  "closure_hierarchy": "Scientific/source/code/provenance payload including static hash cache -> SHA256 ledger -> freeze record -> full independent verification receipt. Ledger cannot hash itself; freeze binds ledger; receipt binds both ledger and freeze.",
+  "hash_cache_policy": "Size/mtime/ctime/inode/device/mode-bound stable entries may accelerate closure; static cache is itself hashed in payload. Independent verification must rehash every payload without cache.",
+  "oversized_artifact_inventory": "provenance/oversized_artifact_inventory.tsv",
+  "oversized_files": 411,
+  "oversized_bytes": 119423840358,
+  "excluded_ephemeral_files": 4,
+  "scientific_execution_authorized": false,
+  "statistical_fine_mapping_executed": false,
+  "publication_authorized": false
+}

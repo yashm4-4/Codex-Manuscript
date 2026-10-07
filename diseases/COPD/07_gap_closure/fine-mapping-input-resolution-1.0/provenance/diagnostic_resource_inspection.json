@@ -1,0 +1,539 @@
+{
+  "schema_version": "1.0",
+  "inspection_utc": "2026-10-06T22:54:02.544395+00:00",
+  "scope": "Independent read-only OS/process resource inspection; no matrix calculation, eigensolver rerun, process interruption, affinity change, scientific algorithm change or diagnostic threshold change. Only this evidence JSON is written.",
+  "observer": "track_c independent review",
+  "allocation": {
+    "cpuset_path": "/sys/fs/cgroup/cpuset/slurm/uid_62827/job_32057893",
+    "cpuset": {
+      "cpuset.cpus": "0-7,32-39",
+      "cpuset.effective_cpus": "0-7,32-39",
+      "cpuset.mems": "0-3"
+    },
+    "cpu_controller_path": "/sys/fs/cgroup/cpu,cpuacct/system.slice/slurmd.service",
+    "cpu_controller": {
+      "cpu.cfs_quota_us": "-1",
+      "cpu.cfs_period_us": "100000",
+      "cpu.stat": "nr_periods 0\nnr_throttled 0\nthrottled_time 0"
+    },
+    "allowed_cpu_topology": [
+      {
+        "cpu": 0,
+        "core_id": "0",
+        "thread_siblings_list": "0,32"
+      },
+      {
+        "cpu": 1,
+        "core_id": "1",
+        "thread_siblings_list": "1,33"
+      },
+      {
+        "cpu": 2,
+        "core_id": "2",
+        "thread_siblings_list": "2,34"
+      },
+      {
+        "cpu": 3,
+        "core_id": "3",
+        "thread_siblings_list": "3,35"
+      },
+      {
+        "cpu": 4,
+        "core_id": "4",
+        "thread_siblings_list": "4,36"
+      },
+      {
+        "cpu": 5,
+        "core_id": "5",
+        "thread_siblings_list": "5,37"
+      },
+      {
+        "cpu": 6,
+        "core_id": "6",
+        "thread_siblings_list": "6,38"
+      },
+      {
+        "cpu": 7,
+        "core_id": "7",
+        "thread_siblings_list": "7,39"
+      },
+      {
+        "cpu": 32,
+        "core_id": "0",
+        "thread_siblings_list": "0,32"
+      },
+      {
+        "cpu": 33,
+        "core_id": "1",
+        "thread_siblings_list": "1,33"
+      },
+      {
+        "cpu": 34,
+        "core_id": "2",
+        "thread_siblings_list": "2,34"
+      },
+      {
+        "cpu": 35,
+        "core_id": "3",
+        "thread_siblings_list": "3,35"
+      },
+      {
+        "cpu": 36,
+        "core_id": "4",
+        "thread_siblings_list": "4,36"
+      },
+      {
+        "cpu": 37,
+        "core_id": "5",
+        "thread_siblings_list": "5,37"
+      },
+      {
+        "cpu": 38,
+        "core_id": "6",
+        "thread_siblings_list": "6,38"
+      },
+      {
+        "cpu": 39,
+        "core_id": "7",
+        "thread_siblings_list": "7,39"
+      }
+    ]
+  },
+  "memory_cgroup": {
+    "path": "/sys/fs/cgroup/memory/slurm/uid_62827/job_32057893",
+    "memory.limit_in_bytes": "53687091200",
+    "memory.usage_in_bytes": "53551763456",
+    "memory.stat": "cache 0\nrss 0\nrss_huge 0\nshmem 0\nmapped_file 0\ndirty 0\nwriteback 0\nswap 0\npgpgin 0\npgpgout 0\npgfault 0\npgmajfault 0\ninactive_anon 0\nactive_anon 0\ninactive_file 0\nactive_file 0\nunevictable 0\nhierarchical_memory_limit 53687091200\nhierarchical_memsw_limit 53687091200\ntotal_cache 26087489536\ntotal_rss 26511351808\ntotal_rss_huge 24440209408\ntotal_shmem 12288\ntotal_mapped_file 109273088\ntotal_dirty 180224\ntotal_writeback 0\ntotal_swap 0\ntotal_pgpgin 194001248\ntotal_pgpgout 187180670\ntotal_pgfault 127680836\ntotal_pgmajfault 158269\ntotal_inactive_anon 26662281216\ntotal_active_anon 278528\ntotal_inactive_file 12440772608\ntotal_active_file 13646663680\ntotal_unevictable 0",
+    "memory.oom_control": "oom_kill_disable 0\nunder_oom 0\noom_kill 0",
+    "memory.failcnt": "430",
+    "memory.max_usage_in_bytes": "53688270848"
+  },
+  "process_observations": [
+    {
+      "pid": 1504715,
+      "track_locus": [
+        "C",
+        "C_L003"
+      ],
+      "executable": "/usr/local/Anaconda/envs/py3.9/bin/python3.9",
+      "process_start_utc": "2026-10-06T22:32:25.240000+00:00",
+      "affinity": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "process_thread_count": 33,
+      "active_threads_over_observation": 16,
+      "cpu_percent_over_observation": 1333.2820365327232,
+      "observation_seconds": 2.004077102057636,
+      "thread_cpu_seconds_delta": {
+        "1504715": 1.8999999999999773,
+        "1504807": 0.0,
+        "1504826": 0.0,
+        "1504827": 0.0,
+        "1504828": 0.0,
+        "1504829": 0.0,
+        "1504830": 0.0,
+        "1504831": 0.0,
+        "1504832": 0.0,
+        "1504833": 0.0,
+        "1504834": 0.0,
+        "1504835": 0.0,
+        "1504836": 0.0,
+        "1504837": 0.0,
+        "1504838": 0.0,
+        "1504839": 0.0,
+        "1504840": 0.0,
+        "1504841": 0.0,
+        "1506188": 1.849999999999966,
+        "1506189": 1.8899999999999864,
+        "1506190": 1.6199999999999477,
+        "1506191": 1.5400000000000205,
+        "1506192": 1.6599999999999682,
+        "1506193": 1.2700000000000387,
+        "1506194": 1.4700000000000273,
+        "1506195": 1.7300000000000182,
+        "1506196": 1.5300000000000296,
+        "1506197": 1.6800000000000068,
+        "1506198": 1.900000000000034,
+        "1506199": 1.5699999999999932,
+        "1506200": 1.6800000000000637,
+        "1506201": 1.7099999999999795,
+        "1506202": 1.7199999999999704
+      },
+      "thread_environment_at_exec_from_proc": {
+        "MKL_NUM_THREADS": null,
+        "OMP_NUM_THREADS": "16",
+        "OPENBLAS_NUM_THREADS": "16",
+        "MKL_DYNAMIC": null,
+        "OMP_DYNAMIC": null
+      },
+      "environment_caveat": "/proc environ reflects initial exec environment; later Python os.environ changes need in-process diagnostic receipt plus thread observation.",
+      "memory_rss_bytes": 12257644544,
+      "loaded_blas_lapack_paths": [
+        "/usr/local/Anaconda/envs/py3.9/lib/libmkl_core.so.2",
+        "/usr/local/Anaconda/envs/py3.9/lib/libmkl_def.so.2",
+        "/usr/local/Anaconda/envs/py3.9/lib/libmkl_intel_lp64.so.2",
+        "/usr/local/Anaconda/envs/py3.9/lib/libmkl_intel_thread.so.2",
+        "/usr/local/Anaconda/envs/py3.9/lib/libmkl_rt.so.2",
+        "/usr/local/Anaconda/envs/py3.9/lib/libmkl_vml_def.so.2"
+      ],
+      "cgroups": [
+        "12:memory:/slurm/uid_62827/job_32057893/step_batch/task_0",
+        "11:rdma:/",
+        "10:cpuset:/slurm/uid_62827/job_32057893/step_batch/task_0",
+        "9:net_cls,net_prio:/",
+        "8:devices:/slurm/uid_62827/job_32057893/step_batch/task_0",
+        "7:hugetlb:/",
+        "6:pids:/system.slice/slurmd.service",
+        "5:cpu,cpuacct:/system.slice/slurmd.service",
+        "4:blkio:/system.slice/slurmd.service",
+        "3:freezer:/slurm/uid_62827/job_32057893/step_batch",
+        "2:perf_event:/",
+        "1:name=systemd:/system.slice/slurmd.service"
+      ],
+      "allowed_cpu_mem_status": [
+        "Cpus_allowed_list:\t0-7,32-39",
+        "Mems_allowed_list:\t0-3"
+      ]
+    },
+    {
+      "pid": 1511972,
+      "track_locus": [
+        "C",
+        "C_L004"
+      ],
+      "executable": "/usr/local/Anaconda/envs/py3.9/bin/python3.9",
+      "process_start_utc": "2026-10-06T22:37:33.330000+00:00",
+      "affinity": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "process_thread_count": 33,
+      "active_threads_over_observation": 4,
+      "cpu_percent_over_observation": 193.10634286607933,
+      "observation_seconds": 2.004077102057636,
+      "thread_cpu_seconds_delta": {
+        "1511972": 2.1100000000000136,
+        "1511975": 0.0,
+        "1511992": 0.0,
+        "1511993": 0.0,
+        "1511994": 0.0,
+        "1511995": 0.0,
+        "1511996": 0.0,
+        "1511997": 0.0,
+        "1511998": 0.0,
+        "1511999": 0.0,
+        "1512000": 0.0,
+        "1512001": 0.0,
+        "1512002": 0.0,
+        "1512003": 0.0,
+        "1512004": 0.0,
+        "1512005": 0.0,
+        "1512006": 0.0,
+        "1512007": 0.0,
+        "1513438": 0.6999999999999886,
+        "1513439": 0.6899999999999977,
+        "1513440": 0.37000000000000455,
+        "1513441": 0.0,
+        "1513442": 0.0,
+        "1513443": 0.0,
+        "1513444": 0.0,
+        "1513445": 0.0,
+        "1513446": 0.0,
+        "1513447": 0.0,
+        "1513448": 0.0,
+        "1513449": 0.0,
+        "1513450": 0.0,
+        "1513451": 0.0,
+        "1513452": 0.0
+      },
+      "thread_environment_at_exec_from_proc": {
+        "MKL_NUM_THREADS": null,
+        "OMP_NUM_THREADS": "16",
+        "OPENBLAS_NUM_THREADS": "16",
+        "MKL_DYNAMIC": null,
+        "OMP_DYNAMIC": null
+      },
+      "environment_caveat": "/proc environ reflects initial exec environment; later Python os.environ changes need in-process diagnostic receipt plus thread observation.",
+      "memory_rss_bytes": 6673514496,
+      "loaded_blas_lapack_paths": [
+        "/usr/local/Anaconda/envs/py3.9/lib/libmkl_core.so.2",
+        "/usr/local/Anaconda/envs/py3.9/lib/libmkl_def.so.2",
+        "/usr/local/Anaconda/envs/py3.9/lib/libmkl_intel_lp64.so.2",
+        "/usr/local/Anaconda/envs/py3.9/lib/libmkl_intel_thread.so.2",
+        "/usr/local/Anaconda/envs/py3.9/lib/libmkl_rt.so.2",
+        "/usr/local/Anaconda/envs/py3.9/lib/libmkl_vml_def.so.2"
+      ],
+      "cgroups": [
+        "12:memory:/slurm/uid_62827/job_32057893/step_batch/task_0",
+        "11:rdma:/",
+        "10:cpuset:/slurm/uid_62827/job_32057893/step_batch/task_0",
+        "9:net_cls,net_prio:/",
+        "8:devices:/slurm/uid_62827/job_32057893/step_batch/task_0",
+        "7:hugetlb:/",
+        "6:pids:/system.slice/slurmd.service",
+        "5:cpu,cpuacct:/system.slice/slurmd.service",
+        "4:blkio:/system.slice/slurmd.service",
+        "3:freezer:/slurm/uid_62827/job_32057893/step_batch",
+        "2:perf_event:/",
+        "1:name=systemd:/system.slice/slurmd.service"
+      ],
+      "allowed_cpu_mem_status": [
+        "Cpus_allowed_list:\t0-7,32-39",
+        "Mems_allowed_list:\t0-3"
+      ]
+    },
+    {
+      "pid": 1511973,
+      "track_locus": [
+        "C",
+        "C_L005"
+      ],
+      "executable": "/usr/local/Anaconda/envs/py3.9/bin/python3.9",
+      "process_start_utc": "2026-10-06T22:37:33.340000+00:00",
+      "affinity": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "process_thread_count": 33,
+      "active_threads_over_observation": 1,
+      "cpu_percent_over_observation": 88.81893806243579,
+      "observation_seconds": 2.004077102057636,
+      "thread_cpu_seconds_delta": {
+        "1511973": 1.7800000000000296,
+        "1511974": 0.0,
+        "1511976": 0.0,
+        "1511977": 0.0,
+        "1511978": 0.0,
+        "1511979": 0.0,
+        "1511980": 0.0,
+        "1511981": 0.0,
+        "1511982": 0.0,
+        "1511983": 0.0,
+        "1511984": 0.0,
+        "1511985": 0.0,
+        "1511986": 0.0,
+        "1511987": 0.0,
+        "1511988": 0.0,
+        "1511989": 0.0,
+        "1511990": 0.0,
+        "1511991": 0.0,
+        "1513074": 0.0,
+        "1513075": 0.0,
+        "1513076": 0.0,
+        "1513077": 0.0,
+        "1513078": 0.0,
+        "1513079": 0.0,
+        "1513080": 0.0,
+        "1513081": 0.0,
+        "1513082": 0.0,
+        "1513083": 0.0,
+        "1513084": 0.0,
+        "1513085": 0.0,
+        "1513086": 0.0,
+        "1513087": 0.0,
+        "1513088": 0.0
+      },
+      "thread_environment_at_exec_from_proc": {
+        "MKL_NUM_THREADS": null,
+        "OMP_NUM_THREADS": "16",
+        "OPENBLAS_NUM_THREADS": "16",
+        "MKL_DYNAMIC": null,
+        "OMP_DYNAMIC": null
+      },
+      "environment_caveat": "/proc environ reflects initial exec environment; later Python os.environ changes need in-process diagnostic receipt plus thread observation.",
+      "memory_rss_bytes": 5814239232,
+      "loaded_blas_lapack_paths": [
+        "/usr/local/Anaconda/envs/py3.9/lib/libmkl_core.so.2",
+        "/usr/local/Anaconda/envs/py3.9/lib/libmkl_def.so.2",
+        "/usr/local/Anaconda/envs/py3.9/lib/libmkl_intel_lp64.so.2",
+        "/usr/local/Anaconda/envs/py3.9/lib/libmkl_intel_thread.so.2",
+        "/usr/local/Anaconda/envs/py3.9/lib/libmkl_rt.so.2",
+        "/usr/local/Anaconda/envs/py3.9/lib/libmkl_vml_def.so.2"
+      ],
+      "cgroups": [
+        "12:memory:/slurm/uid_62827/job_32057893/step_batch/task_0",
+        "11:rdma:/",
+        "10:cpuset:/slurm/uid_62827/job_32057893/step_batch/task_0",
+        "9:net_cls,net_prio:/",
+        "8:devices:/slurm/uid_62827/job_32057893/step_batch/task_0",
+        "7:hugetlb:/",
+        "6:pids:/system.slice/slurmd.service",
+        "5:cpu,cpuacct:/system.slice/slurmd.service",
+        "4:blkio:/system.slice/slurmd.service",
+        "3:freezer:/slurm/uid_62827/job_32057893/step_batch",
+        "2:perf_event:/",
+        "1:name=systemd:/system.slice/slurmd.service"
+      ],
+      "allowed_cpu_mem_status": [
+        "Cpus_allowed_list:\t0-7,32-39",
+        "Mems_allowed_list:\t0-3"
+      ]
+    }
+  ],
+  "findings": [
+    "All observed old workers share Slurm allocated logical CPUs0-7,32-39: eight physical cores and their SMT siblings.",
+    "Three old workers each use 16 active MKL computation threads; oversubscription occurs within the legitimate allocation. No CPU quota throttling was observed.",
+    "Memory cgroup reaches50GiB limit; approximately half is reclaimable file cache. No OOM kill or swap was observed. This is not evidence that host free memory is available to the Slurm job.",
+    "Root resource correction applies before NumPy/SciPy imports in future __main__ launches, setting MKL_NUM_THREADS,OMP_NUM_THREADS,OPENBLAS_NUM_THREADS to4. Existing running workers remain unchanged.",
+    "Two future workers of four BLAS threads match eight physical cores. Actual improvement is not benchmarked; reduction avoids deliberate thread oversubscription. No expansion outside Slurm cpuset recommended."
+  ],
+  "correction_review": {
+    "before_script": "provenance/ld_numeric_diagnostics_before_resource_limit.py",
+    "before_sha256": "5826889935a08b80492cf07649c21c43fee01a1582c3f7cd288a2689233ed282",
+    "current_script": "scripts/ld_numeric_diagnostics.py",
+    "current_sha256": "6658a75e15898911382f6839dfb7844a4c9dcb71c60767967872212b1e5ef9c9",
+    "diff": "--- before_resource_limit\n+++ current_script\n@@ -5,6 +5,12 @@\n import json\n import sys\n import time\n+import os\n+# Future processes only: respect the measured Slurm allocation (8 physical cores).\n+# Existing solvers are unaffected. This changes resource use, not the diagnostic.\n+if __name__ == '__main__':\n+    for key in ['MKL_NUM_THREADS', 'OMP_NUM_THREADS', 'OPENBLAS_NUM_THREADS']:\n+        os.environ[key] = '4'\n import numpy as np\n import pandas as pd\n import scipy\n@@ -27,7 +33,9 @@\n     n=t.shape[0];eps=np.finfo(np.float64).eps\n     assert t.shape==(n,n) and t.dtype==np.float64\n     rec={'track':track,'locus_id':lid,'variants':n,'numpy':np.__version__,'scipy':scipy.__version__,\n-         'matrix_precision':'float64','posterior_inference':False,'matrix_repair':False}\n+         'matrix_precision':'float64','posterior_inference':False,'matrix_repair':False,\n+         'thread_environment':{k:os.environ.get(k) for k in ['MKL_NUM_THREADS','OMP_NUM_THREADS','OPENBLAS_NUM_THREADS']},\n+         'script_sha256':sha(Path(__file__))}\n     finite=True;lower_max=0.;upper_min=float('inf');upper_max=-float('inf')\n     for a in range(0,n,256):\n         block=np.asarray(t[a:a+256]);finite &= bool(np.isfinite(block).all())\n",
+    "status": "CONFIRMED_12_NEW_FOUR_THREAD_JOBS_AND_4_PRESERVED_ORIGINAL_SIXTEEN_THREAD_JOBS",
+    "scientific_algorithm_float64_tolerances_changed": false,
+    "independent_AST_check_functions_identical_except_added_provenance_fields": true,
+    "final_runtime_audit": "provenance/diagnostic_runtime_final_audit.json",
+    "binary_hash_binding": "provenance/diagnostic_binary_hashes.json"
+  },
+  "followup_observations": [
+    {
+      "observed_utc": "2026-10-06T22:56:02.500530+00:00",
+      "pid": 1529736,
+      "track_locus": [
+        "C",
+        "C_L006"
+      ],
+      "executable": "/usr/local/Anaconda/envs/py3.9/bin/python3.9",
+      "process_start_utc": "2026-10-06T22:55:29.920000+00:00",
+      "thread_count": 6,
+      "active_threads_over_observation": 1,
+      "cpu_percent_over_observation": 40.29591395622578,
+      "observation_seconds": 3.0027858440298587,
+      "thread_cpu_seconds_delta": {
+        "1529736": 1.21,
+        "1529748": 0.0,
+        "1529755": 0.0,
+        "1529756": 0.0,
+        "1529757": 0.0,
+        "1529758": 0.0
+      },
+      "affinity": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "initial_exec_environment": {
+        "MKL_NUM_THREADS": null,
+        "OMP_NUM_THREADS": "16",
+        "OPENBLAS_NUM_THREADS": "16"
+      },
+      "initial_environment_caveat": "Initial exec environment is not the later Python os.environ state; source override occurs before numerical-library imports.",
+      "loaded_blas_lapack_paths": [
+        "/usr/local/Anaconda/envs/py3.9/lib/libmkl_core.so.2",
+        "/usr/local/Anaconda/envs/py3.9/lib/libmkl_def.so.2",
+        "/usr/local/Anaconda/envs/py3.9/lib/libmkl_intel_lp64.so.2",
+        "/usr/local/Anaconda/envs/py3.9/lib/libmkl_intel_thread.so.2",
+        "/usr/local/Anaconda/envs/py3.9/lib/libmkl_rt.so.2",
+        "/usr/local/Anaconda/envs/py3.9/lib/libmkl_vml_def.so.2"
+      ],
+      "current_script_sha256": "6658a75e15898911382f6839dfb7844a4c9dcb71c60767967872212b1e5ef9c9",
+      "status": "ACTIVE_THREAD_COUNT_REQUIRES_FOLLOWUP",
+      "in_process_thread_environment_receipt": "PENDING_NUMERIC_DIAGNOSTIC_COMPLETION",
+      "scientific_computation_performed_by_inspector": false
+    },
+    {
+      "observed_utc": "2026-10-06T22:57:24.484107+00:00",
+      "pid": 1529736,
+      "track_locus": [
+        "C",
+        "C_L006"
+      ],
+      "thread_count": 9,
+      "active_threads_over_observation": 4,
+      "cpu_percent_over_observation": 224.4403023099662,
+      "observation_seconds": 3.0030257180333138,
+      "thread_cpu_seconds_delta": {
+        "1529736": 1.3500000000000014,
+        "1529748": 0.0,
+        "1529755": 0.0,
+        "1529756": 0.0,
+        "1529757": 0.0,
+        "1529758": 0.0,
+        "1530739": 1.6600000000000001,
+        "1530740": 2.1900000000000013,
+        "1530741": 1.5399999999999991
+      },
+      "affinity": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "log_tail": "C/C_L006: eigendecomposition n=22575\n",
+      "status": "FOUR_ACTIVE_EIGENSOLVER_THREADS_CONFIRMED",
+      "scientific_computation_performed_by_inspector": false
+    }
+  ]
+}

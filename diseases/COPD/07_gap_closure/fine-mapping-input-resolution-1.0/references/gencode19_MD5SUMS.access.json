@@ -1,0 +1,30 @@
+{
+  "url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_19/MD5SUMS",
+  "started_utc": "2026-10-06T22:15:06.645921+00:00",
+  "request_headers": {
+    "Accept-Encoding": "identity"
+  },
+  "path": "diseases/COPD/07_gap_closure/fine-mapping-input-resolution-1.0/references/gencode19_MD5SUMS",
+  "complete": true,
+  "http_status": 200,
+  "final_url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_19/MD5SUMS",
+  "response_headers": {
+    "Date": "Tue, 06 Oct 2026 22:15:06 GMT",
+    "Server": "Apache",
+    "Last-Modified": "Fri, 04 May 2018 15:41:25 GMT",
+    "ETag": "\"702-56b6327148b19\"",
+    "Accept-Ranges": "bytes",
+    "Content-Length": "1794",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET,OPTIONS",
+    "Access-Control-Allow-Headers": "Authorization,Origin,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Accept",
+    "Keep-Alive": "timeout=15, max=100",
+    "Connection": "Keep-Alive"
+  },
+  "content_length_matches": true,
+  "completed_utc": "2026-10-06T22:15:06.905724+00:00",
+  "bytes": 1794,
+  "sha256": "7ba4a24a603ec36ff5b5304bb5ac8fc36b61fca5edb2f7d9d54ed43d3e915e27",
+  "md5": "93270e77c709851653b29dcee7059532",
+  "seconds": 0.25980139791499823
+}

@@ -1,0 +1,49 @@
+{
+  "url": "https://humandbs.dbcls.jp/files/hum0014/hum0014.v17.COPD.v1.zip",
+  "bytes": 2244311450,
+  "sha256": "a2473c13b81713a42427cbebbcefebb744ac3acb377dcd92412830c83fee3054",
+  "full_size_pass": true,
+  "acquisition": "initial full-response prefix + byte-exact HTTP206 resume; failures preserved",
+  "initial_incomplete_receipt": "initial_incomplete_receipt.json",
+  "range_receipts": "range_resume_receipts.json",
+  "archive_members": [
+    {
+      "name": "hum0014.v17.COPD.v1/",
+      "bytes": 0,
+      "compressed_bytes": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "hum0014.v17.COPD.v1/COPD.chrx.rsq07.mac10.txt.gz",
+      "bytes": 18428605,
+      "compressed_bytes": 18431415,
+      "crc32": "bb86b12d"
+    },
+    {
+      "name": "hum0014.v17.COPD.v1/COPD.auto.rsq07.mac10.txt.gz",
+      "bytes": 901221471,
+      "compressed_bytes": 901360670,
+      "crc32": "a2834c94"
+    },
+    {
+      "name": "hum0014.v17.COPD.v1/COPD.chrx_sex_stratified.txt.gz",
+      "bytes": 31542060,
+      "compressed_bytes": 31546870,
+      "crc32": "c20976dc"
+    },
+    {
+      "name": "hum0014.v17.COPD.v1/COPD.auto_sex_stratified.txt.gz",
+      "bytes": 1292761252,
+      "compressed_bytes": 1292971397,
+      "crc32": "abadf4ba"
+    }
+  ],
+  "all_zip_members_crc32_pass": true,
+  "analyzed_member": {
+    "name": "hum0014.v17.COPD.v1/COPD.auto.rsq07.mac10.txt.gz",
+    "bytes": 901221471,
+    "sha256": "3c19eb1c4eb618ce18f62cf979caefb70abacae6a2418047e5feebf3fd6bca5e",
+    "scope": "Combined autosomal only; sex-specific and chrX contents not scientifically analyzed"
+  },
+  "completed_utc": "2026-10-06T22:18:33.529322+00:00"
+}

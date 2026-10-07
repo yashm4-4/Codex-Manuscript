@@ -1,0 +1,11 @@
+{
+  "scope": "GRCh37 prospective locus variants only; source allele labels preserved",
+  "frozen_before_reference_sequence_inspection": true,
+  "SNP": "If nonpalindromic and exactly one physical strand orientation matches the verified reference nucleotide, orient nucleotide labels accordingly. Complement alone preserves beta sign. REF/ALT are then determined by the reference base, not by effect sign.",
+  "palindromic": "Unresolved without independent strand/frequency evidence satisfying preflight; do not use Catalog assumed-forward code alone.",
+  "indel_complex": "Requires independent REF/ALT identity and assembly-aware left-normalization. Sequence-prefix compatibility alone cannot distinguish anchored insertion from deletion in repeats. Defer when no independent identity supplied.",
+  "identical_alleles": "INVALID_CONTRAST",
+  "duplicate_conflict": "DEFER_UNRESOLVED; retain all source rows",
+  "risk_direction": "Only verified normalized contrast, passing signed-statistic test, nonambiguous OR rounding interval, and no conflicting duplicate. Positive logOR => normalized effect allele; negative => normalized other allele. No risk labels assigned from REF/ALT.",
+  "gate_tolerances_changed": false
+}

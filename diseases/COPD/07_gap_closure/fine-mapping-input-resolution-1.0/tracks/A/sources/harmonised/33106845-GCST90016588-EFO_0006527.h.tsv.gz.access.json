@@ -1,0 +1,27 @@
+{
+  "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90016001-GCST90017000/GCST90016588/harmonised/33106845-GCST90016588-EFO_0006527.h.tsv.gz",
+  "accessed_utc": "2026-10-06T22:13:37.630850+00:00",
+  "scope": "complete HTTP body",
+  "path": "sources/harmonised/33106845-GCST90016588-EFO_0006527.h.tsv.gz",
+  "status": 200,
+  "final_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90016001-GCST90017000/GCST90016588/harmonised/33106845-GCST90016588-EFO_0006527.h.tsv.gz",
+  "response_headers": {
+    "Date": "Tue, 06 Oct 2026 22:13:37 GMT",
+    "Server": "Apache",
+    "Last-Modified": "Mon, 10 May 2021 09:05:12 GMT",
+    "ETag": "\"152943c0-5c1f61341eb52\"",
+    "Accept-Ranges": "bytes",
+    "Content-Length": "355025856",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET,OPTIONS",
+    "Access-Control-Allow-Headers": "Authorization,Origin,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Accept",
+    "Keep-Alive": "timeout=15, max=100",
+    "Connection": "Keep-Alive",
+    "Content-Type": "application/x-gzip"
+  },
+  "bytes": 355025856,
+  "sha256": "a55cc5d4c5785f6ac588d70c04b79efccefaca918444893a36653719f00fcabc",
+  "md5": "dff05dfa3451b259a7eae0f656833b56",
+  "completed_utc": "2026-10-06T22:17:11.789167+00:00",
+  "complete_http": true
+}

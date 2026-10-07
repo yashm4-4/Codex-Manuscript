@@ -1,0 +1,69 @@
+{
+  "scope": "Output serialization only; restored exact original/previously computed source strings by source_row, with all original first-attempt derivatives and failed validation retained",
+  "scientific_gate_changes": false,
+  "allele_or_normalization_changes": false,
+  "risk_direction_changes": false,
+  "files": [
+    {
+      "path": "results/locus_variants_reference_checked.tsv.gz",
+      "changed_string_counts": {
+        "variant_id": 0,
+        "p_value": 10250,
+        "chromosome": 0,
+        "base_pair_location": 0,
+        "effect_allele": 0,
+        "other_allele": 0,
+        "odds_ratio": 528,
+        "standard_error": 545,
+        "p": 10250,
+        "se": 545,
+        "beta": 161620,
+        "beta_logOR": 161620,
+        "z": 47946,
+        "neglog10_p": 70861,
+        "analysis_beta": 161620,
+        "analysis_z": 47946
+      },
+      "before_sha256": "931f65e2970229fa653e994f5fb921c8633bf9aa8afe69b2ae6dd45de47be98d",
+      "after_sha256": "cf55535d09b2d33498b73ed1d6aa661dbc2eb7a20d400d6f940b43ab918db670"
+    },
+    {
+      "path": "results/risk_direction_reference_checked.tsv.gz",
+      "changed_string_counts": {
+        "effect_allele": 0,
+        "other_allele": 0,
+        "odds_ratio": 528,
+        "p": 10250,
+        "se": 545,
+        "beta": 161620,
+        "z": 47946
+      },
+      "before_sha256": "715fcc029adfbbec2b62b66fcf65792da96ef20738ced5df6835d6611c62d16c",
+      "after_sha256": "ae6085fa3c83cdf1c19640b6e084326ce49d3f05aca259f4e825f8d5b773885c"
+    },
+    {
+      "path": "results/unresolved_variant_ledger.tsv.gz",
+      "changed_string_counts": {
+        "variant_id": 0,
+        "p_value": 1944,
+        "chromosome": 0,
+        "base_pair_location": 0,
+        "effect_allele": 0,
+        "other_allele": 0,
+        "odds_ratio": 449,
+        "standard_error": 121,
+        "p": 1944,
+        "se": 121,
+        "beta": 28353,
+        "beta_logOR": 28353,
+        "z": 8345,
+        "neglog10_p": 12411,
+        "analysis_beta": 28353,
+        "analysis_z": 8345
+      },
+      "before_sha256": "00b172bda9665b3c0038571b731dd7af7277c76985552a2f064df4d37f5fc9d5",
+      "after_sha256": "2c544a0fa9ff392fa4348e6156c06bd792a247e926c35f9acc03380caf7a34a0"
+    }
+  ],
+  "completed_utc": "2026-10-06T22:29:39.241462+00:00"
+}

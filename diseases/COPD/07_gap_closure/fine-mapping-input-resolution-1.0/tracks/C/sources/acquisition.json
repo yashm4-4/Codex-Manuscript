@@ -1,0 +1,28 @@
+{
+  "url": "https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/icd10-J44-both_sexes.tsv.bgz",
+  "started_utc": "2026-10-06T22:13:40.800395+00:00",
+  "expected_bytes": 1827545082,
+  "expected_md5": "787f3a8ce3502a9a8f597a17144e07ae",
+  "status_code": 200,
+  "headers": {
+    "x-amz-id-2": "0+juhZyMx/RP1EUXrqwiO87R5nAi7LC6XKp+CB2pFTmUaK4MbzpnB3cqOyUWC75tB7Oqn+h4LXY1SUt0zNMRJ3PS3wg704wx",
+    "x-amz-request-id": "31EBG43ZDVHE5D8M",
+    "Date": "Tue, 06 Oct 2026 22:13:41 GMT",
+    "Last-Modified": "Thu, 09 Feb 2023 16:47:40 GMT",
+    "ETag": "\"6f13aac841095c359bb37ebba5e234a7-55\"",
+    "x-amz-storage-class": "INTELLIGENT_TIERING",
+    "x-amz-server-side-encryption": "AES256",
+    "x-amz-version-id": "MTbtTv5nK5NJfBBkof7SgR6x_Iji2Zi9",
+    "Accept-Ranges": "bytes",
+    "Content-Type": "binary/octet-stream",
+    "Content-Length": "1827545082",
+    "Server": "AmazonS3"
+  },
+  "final_url": "https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/icd10-J44-both_sexes.tsv.bgz",
+  "actual_bytes": 1827545082,
+  "sha256": "cd0b714c62813812c2284923ac0b0b9ee76e5c47ba1f4a3d2ad2f68574ef8a15",
+  "md5": "787f3a8ce3502a9a8f597a17144e07ae",
+  "finished_utc": "2026-10-06T22:14:50.135581+00:00",
+  "path": "data/icd10-J44-both_sexes.tsv.bgz",
+  "integrity_pass": true
+}

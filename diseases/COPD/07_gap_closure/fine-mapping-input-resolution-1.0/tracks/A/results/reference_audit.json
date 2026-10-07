@@ -1,0 +1,81 @@
+{
+  "reference_fasta": "diseases/COPD/07_gap_closure/fine-mapping-input-resolution-1.0/references/GRCh37.p13.genome.fa",
+  "reference_index": "diseases/COPD/07_gap_closure/fine-mapping-input-resolution-1.0/references/GRCh37.p13.genome.fa.fai",
+  "provider_index_sources": [
+    {
+      "path": "ld/A/A_chr15_70078560_73206624.index.tsv.gz",
+      "sha256": "c4397d256402f6f6d551c9d0306342e2aba674422d540ed60942b8cb90c4dc0f",
+      "rows": 23431
+    },
+    {
+      "path": "ld/A/A_chr15_77212117_80575335.index.tsv.gz",
+      "sha256": "165123a21d44e1126bb43bdfd67ebbe475c08fd6f4ea47fccaa2e8e83051a0bc",
+      "rows": 31056
+    },
+    {
+      "path": "ld/A/A_chr16_73811812_77016739.index.tsv.gz",
+      "sha256": "91111eb56571c637932914246563a2ef81845a27bd05c59a5c89dec7565ff066",
+      "rows": 32802
+    },
+    {
+      "path": "ld/A/A_chr2_228001745_231092415.index.tsv.gz",
+      "sha256": "4c26123d78e98d6f71ad10b5637081e2d0b1bf904c36a4df9a37bb1c741f1dc6",
+      "rows": 27928
+    },
+    {
+      "path": "ld/A/A_chr3_167160231_170450432.index.tsv.gz",
+      "sha256": "3936b5e621a6d6d5002beeb3212c6e6f843cebd92cf9c66870d436832aa2cd67",
+      "rows": 27060
+    },
+    {
+      "path": "ld/A/A_chr4_105262244_108341962.index.tsv.gz",
+      "sha256": "cf91457957de8757b77fc4bf886e2ddbfdd300cfb097d345c5355361d0ecf640",
+      "rows": 25458
+    },
+    {
+      "path": "ld/A/A_chr4_143727600_147016737.index.tsv.gz",
+      "sha256": "87f06105a31d8adafd04639de31fa8d29144b2ec529d3a96d15024b4f5ffa9db",
+      "rows": 25694
+    },
+    {
+      "path": "ld/A/A_chr4_88300892_91560531.index.tsv.gz",
+      "sha256": "e44a82b5e1018a1c88624ff155f1daec745cf40ca71e1e4ed75aa438e1b0716e",
+      "rows": 27389
+    },
+    {
+      "path": "ld/A/A_chr5_146267580_149356522.index.tsv.gz",
+      "sha256": "13196aa7036fdefbc151350b864531b8af7807c0245c04585c7250d2d51b7637",
+      "rows": 25750
+    },
+    {
+      "path": "ld/A/A_chr6_141148056_144366387.index.tsv.gz",
+      "sha256": "3a6e27e27a3275735936c79b5496cd0cb699e669b381823641a7dc8279c1783a",
+      "rows": 28034
+    }
+  ],
+  "counts": {
+    "REFERENCE_VERIFIED_SNP": 129344,
+    "PROVIDER_REFERENCE_NORMALIZED_INDEL": 11903,
+    "INDEL_OR_COMPLEX_REQUIRES_INDEPENDENT_REF_ALT": 5962,
+    "UNRESOLVED_PALINDROMIC_STRAND": 23664,
+    "PROVIDER_REFERENCE_NORMALIZED_INDEL;NORMALIZED_DUPLICATE_IDENTITY": 24,
+    "AMBIGUOUS_PROVIDER_CONTRAST;DUPLICATE_IDENTITY": 2,
+    "INDEL_OR_COMPLEX_REQUIRES_INDEPENDENT_REF_ALT;DUPLICATE_IDENTITY": 2,
+    "AMBIGUOUS_PROVIDER_CONTRAST": 3
+  },
+  "risk_direction_assigned": 140886,
+  "risk_direction_unresolved": 30018,
+  "indel_normalization_software": {
+    "pysam": "0.21.0",
+    "bcftools": "1.17",
+    "command": "bcftools norm -f verified_reference -c e -Ov"
+  },
+  "indels_normalized": 11927,
+  "positions_shifted_by_normalization": 21,
+  "indels_not_guessed": true,
+  "source_alleles_preserved": true,
+  "unordered_duplicate_locus_rows": 4,
+  "normalized_duplicate_locus_rows": 24,
+  "beta_unchanged_under_pure_complement": true,
+  "completed_utc": "2026-10-06T22:26:49.474815+00:00"
+}

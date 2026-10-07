@@ -1,0 +1,8 @@
+{
+  "scope": "ENGINEERING_SYNTHETIC_ONLY_NO_GWAS_OR_LD_INPUTS",
+  "runtime": "system Python MKL",
+  "failure": "TypeError: Object of type bool_ is not JSON serializable",
+  "phase": "Output serialization after synthetic eigendecomposition; timing result not saved",
+  "correction": "Convert numpy.bool_ residual-pass flag to builtin bool; unchanged matrix, algorithm and tolerance",
+  "actual_GWAS_or_LD_recomputed": false
+}

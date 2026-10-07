@@ -1,0 +1,19 @@
+{
+  "track": "C",
+  "locus_id": "C_L003",
+  "chrom": "8",
+  "start": 9096795,
+  "end": 12175440,
+  "index_variants": 34756,
+  "min_idx": 11746207,
+  "max_idx": 11780962,
+  "total_gwas_locus_rows": 42938,
+  "summary_row_eligible": 27382,
+  "retained_diagnostic_variants": 27382,
+  "missing_eligible_variants": 0,
+  "significant_rows": 4,
+  "missing_or_excluded_significant_rows": 0,
+  "complete_variant_order_verified": true,
+  "summary_likelihood_contract": "SAIGE_0.36.3_SPA_CALIBRATED_SE; reference-LD likelihood not established",
+  "density_status": "NO_STRONG_SIGNAL_LOSS; full coverage and scientific compatibility still require review"
+}

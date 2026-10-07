@@ -1,0 +1,20 @@
+{
+  "url": "https://pheweb.jp/downloads",
+  "started_utc": "2026-10-06T22:14:51.124294+00:00",
+  "status": 200,
+  "final_url": "https://pheweb.jp/downloads",
+  "headers": {
+    "Date": "Tue, 06 Oct 2026 22:14:51 GMT",
+    "Server": "gunicorn/20.0.4",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Length": "26389",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Content-Encoding": "br",
+    "Vary": "Accept-Encoding",
+    "Keep-Alive": "timeout=5, max=100",
+    "Connection": "Keep-Alive"
+  },
+  "bytes": 369992,
+  "sha256": "0a5cf006a3fe2ffcdeb40d35068d4cd78aebe21cb6933a8f4f756e1c5fc132ae",
+  "completed_utc": "2026-10-06T22:14:51.383035+00:00"
+}

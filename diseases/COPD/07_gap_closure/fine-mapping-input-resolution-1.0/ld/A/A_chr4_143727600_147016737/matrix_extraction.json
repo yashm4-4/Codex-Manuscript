@@ -1,0 +1,15 @@
+{
+  "locus_id": "A_chr4_143727600_147016737",
+  "track": "A",
+  "variants": 8008,
+  "ordered_inputs_sha256": "fba15c27f9b5454778fe60df4fc8271816f70ed37f4501c71c748b045b048ee5",
+  "matrix_sha256": "29df423a728385ba1faac573323281ea7283c30f0a4c0c722788cf61fdb29e0f",
+  "shape": [
+    8008,
+    8008
+  ],
+  "dtype": "float64",
+  "original_upper_triangle": true,
+  "ld_recomputed_from_genotypes": false,
+  "posterior_inference": false
+}

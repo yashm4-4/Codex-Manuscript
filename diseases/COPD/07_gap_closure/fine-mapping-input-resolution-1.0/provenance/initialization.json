@@ -1,0 +1,33 @@
+{
+  "stage": "fine-mapping-input-resolution-1.0",
+  "created_utc": "2026-10-06T22:12:40.300734+00:00",
+  "baseline_commit": "54dfd85d457ea4370a497af88bb90ebe10cf26d1",
+  "governing_preflight": "diseases/COPD/07_gap_closure/fine-mapping-preflight-1.0",
+  "preflight_freeze_sha256": "9c39de1bdbcade4a2168c120118756634a8ceb172a69dd6a8601cb79c2558b07",
+  "preflight_ledger_sha256": "fee69968c8e7eba91ca14bcd316b8cbefa10c8e5a865dd917871cd825eef1e0a",
+  "baseline_registers": [
+    {
+      "path": "diseases/COPD/07_gap_closure/activity_log.tsv",
+      "bytes": 28116,
+      "sha256": "5b2a0e9a7e7ceb94472c8858f61d307a49b70a36cfd26426b47ecf1bd3206826"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/gap_closure_decision_register.tsv",
+      "bytes": 24887,
+      "sha256": "fc86ebb6c5faf6d8ab8514cd57c9afb274d7ff28f81e233cf2d64eafcbabd73c"
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/gap_closure_result_register.tsv",
+      "bytes": 36386,
+      "sha256": "160fa0ab5de91ec9a0f1260656efc0eb6e317678454d86e6bc77fb9de8aea721"
+    }
+  ],
+  "prior_stages_immutable": true,
+  "statistical_fine_mapping_authorized": false,
+  "publication_authorized": false,
+  "tracks": [
+    "A:GCST90016588",
+    "B:GCST90013709",
+    "C:PanUKB ICD10 J44 EUR"
+  ]
+}

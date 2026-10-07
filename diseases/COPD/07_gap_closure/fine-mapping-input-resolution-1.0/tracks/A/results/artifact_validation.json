@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "source_row_order_preserved": true,
+    "preserved_variant_id": true,
+    "preserved_p_value": true,
+    "preserved_chromosome": true,
+    "preserved_base_pair_location": true,
+    "preserved_effect_allele": true,
+    "preserved_other_allele": true,
+    "preserved_odds_ratio": true,
+    "preserved_standard_error": true,
+    "risk_rows_equal_variant_rows": true,
+    "no_risk_assigned_to_failed_statistic": true,
+    "no_risk_assigned_to_unresolved_identity": true,
+    "no_risk_assigned_to_OR1_rounding_ambiguity": true
+  },
+  "all_pass": true,
+  "completed_utc": "2026-10-06T22:30:46.792468+00:00"
+}

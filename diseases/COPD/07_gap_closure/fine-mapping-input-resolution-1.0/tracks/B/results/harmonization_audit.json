@@ -1,0 +1,27 @@
+{
+  "track": "B",
+  "reference_path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/fine-mapping-input-resolution-1.0/references/GRCh37.p13.genome.fa",
+  "reference_count": 297,
+  "locus_rows": 52013,
+  "reference_match_rows": 52013,
+  "reference_mismatch_rows": 0,
+  "normalization_changed_rows": 0,
+  "palindromic_SNP_rows": 7280,
+  "normalized_duplicate_rows": 0,
+  "normalized_conflict_identities": 0,
+  "variant_types": {
+    "SNP": 47085,
+    "INDEL": 4904,
+    "SYMBOLIC_OR_NONSEQUENCE": 24
+  },
+  "risk_direction_status": {
+    "VERIFIED_SIGNED_GWAS_CONTRAST_ESTIMATED_DIRECTION": 51989,
+    "UNRESOLVED": 24
+  },
+  "all_summary_gate_pass_loci": 0,
+  "loci_with_verified_signed_rows": 5,
+  "source_schema_signed_identity_pass_nonMHC_loci": 0,
+  "ld_gate_pass_loci": 0,
+  "execution_cleared_loci": 0,
+  "completed_utc": "2026-10-06T22:29:16.321465+00:00"
+}

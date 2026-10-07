@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-10-06T23:04:29.109376+00:00",
+  "decision": "KEEP_EXISTING_NUMPY_1.24.4_SCIPY_1.11.1_MKL_RUNTIME_FOR_ALL_REAL_DIAGNOSTICS",
+  "reason": "Bounded synthetic comparison established numerical agreement but only1.27x CPU improvement; wall-time comparison was scheduling-confounded. Resource limits already corrected prospectively. Keep one real-data numerical stack; no additional runtime transition or real-data rerun is justified.",
+  "evidence": "provenance/synthetic_evr_runtime_comparison.json",
+  "future_worker_threads": 4,
+  "scientific_inputs_used_in_benchmark": false,
+  "real_data_reruns": 0,
+  "scientific_gates_changed": false
+}

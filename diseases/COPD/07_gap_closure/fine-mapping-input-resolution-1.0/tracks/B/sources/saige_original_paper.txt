@@ -1,0 +1,841 @@
+BioC-API
+20261006
+collection.key
+PMC6119127
+NO-CC CODE
+10.1038/s41588-018-0184-y
+NIHMS977253
+PMC6119127
+30104761
+1335
+9
+Users may view, print, copy, and download text and data-mine the content in such documents, for the purposes of academic research, subject always to the full Conditions of use:
+
+1341
+surname:Zhou;given-names:Wei
+surname:Nielsen;given-names:Jonas B.
+surname:Bastarache;given-names:Lisa A.
+surname:Wei;given-names:Wei-Qi
+surname:Denny;given-names:Joshua C.
+surname:Lin;given-names:Maoxuan
+surname:Hveem;given-names:Kristian
+surname:Kang;given-names:Hyun Min
+surname:Abecasis;given-names:Goncalo R.
+surname:Willer;given-names:Cristen J.
+surname:Lee;given-names:Seunggeun
+surname:Fritsche;given-names:Lars G.
+surname:Dey;given-names:Rounak
+surname:Gabrielsen;given-names:Maiken E.
+surname:Wolford;given-names:Brooke N.
+surname:LeFaive;given-names:Jonathon
+surname:VandeHaar;given-names:Peter
+surname:Gagliano;given-names:Sarah A.
+surname:Gifford;given-names:Aliya
+TITLE
+front
+50
+2019
+0
+Efficiently controlling for case-control imbalance and sample relatedness in large-scale genetic association studies
+ABSTRACT
+abstract
+117
+In genome-wide association studies (GWAS) for thousands of phenotypes in large biobanks, most binary traits have substantially fewer cases than controls. Both of the widely used approaches, linear mixed model and the recently proposed logistic mixed model, perform poorly - producing large type I error rates - in the analysis of unbalanced case-control phenotypes. Here we propose a scalable and accurate generalized mixed model association test that uses the saddlepoint approximation to calibrate the distribution of score test statistics. This method, SAIGE, provides accurate p-values even when case-control ratios are extremely unbalanced. It utilizes state-of-art optimization strategies to reduce computational cost, and hence is applicable to GWAS for thousands of phenotypes by large biobanks. Through the analysis of UK Biobank data of 408,961 white British European-ancestry samples for >1400 binary phenotypes, we show that SAIGE can efficiently analyze large sample data, controlling for unbalanced case-control ratios and sample relatedness.
+INTRO
+title_1
+1174
+Introduction
+INTRO
+paragraph
+1187
+Decreases in genotyping cost allow for large biobanks to genotype all participants, enabling genome-wide scale phenome-wide association studies (PheWAS) in hundreds of thousands of samples. In a typical genome-wide PheWAS, GWAS for tens of million variants are performed for thousands of phenotypes constructed from Electronic Health Records (EHR) and/or survey questionnaires from participants in large cohorts. For binary traits based on disease/condition status in PheWAS, cases are typically defined as individuals with specific International Classification of Disease (ICD) codes within the EHR. Controls are usually all participants without the same or other related conditions. Due to the low prevalence of many conditions/diseases, case-control ratios are often unbalanced (case:control=1:10) or extremely unbalanced (case:control<1:100). The scale of data and the unbalanced nature of binary traits pose substantial challenges for genome-wide PheWAS in biobanks.
+INTRO
+paragraph
+2159
+Population structure and relatedness are major confounders in genetic association studies and also need to be controlled in PheWAS. Linear mixed models (LMM) are widely used to account for these issues in GWAS for both binary and quantitative traits. However, since LMM is not designed to analyze binary traits, it can have inflated type I error rates, especially in the presence of unbalanced case-control ratios. Recently, Chen, H. et al. have proposed to use logistic mixed models and developed a score test called the generalized mixed model association test (GMMAT). GMMAT assumes that score test statistics asymptotically follow a Gaussian distribution to estimate asymptotic p-values. Although GMMAT test statistics are more robust than the LMM based approaches, it can also suffer type I error rate inflation when case-control ratios are unbalanced, because unbalanced case-control ratios invalidate asymptotic assumptions of logistic regression. In addition, since GMMAT requires O(MN2) computation and O(N2) memory space, where M is the number of genetic variants to be tested and N is the number of individuals, it cannot handle data with hundreds of thousands of samples.
+INTRO
+paragraph
+3343
+Here, we propose a novel method to allow for analysis of very large samples, for binary traits with unbalanced case-control ratios, which also infers and accounts for sample relatedness. Our method, Scalable and Accurate Implementation of GEneralized mixed model (SAIGE), uses the saddlepoint approximation (SPA) to calibrate unbalanced case-control ratios in score tests based on logistic mixed models. Since SPA uses all the cumulants, and hence all the moments, it is more accurate than using the Gaussian distribution, which uses only the first two moments. Similar to BOLT-LMM, the large sample size method for linear mixed models, our method utilizes state-of-art optimization strategies, such as the preconditioned conjugate gradient (PCG) approach for solving linear systems for large cohorts without requiring a pre-computed genetic relationship matrix (GRM). The overall computation cost of this proposed method is O(MN), which is substantially lower than the computation cost of GMMAT and many popular LMM methods, such as GEMMA. In addition, we reduce the memory use by compactly storing raw genotypes instead of calculating and storing the GRM.
+INTRO
+paragraph
+4501
+We have demonstrated that SAIGE controls for the inflated type I error rates for binary traits with unbalanced case-control ratios in related samples through simulation and the UK Biobank data of 408,961 white British samples. By evaluating its computation performance, we demonstrate the feasibility of SAIGE for large-scale PheWAS.
+RESULTS
+title_1
+4835
+RESULTS
+RESULTS
+title_2
+4843
+Overview of Methods
+RESULTS
+paragraph
+4863
+The SAIGE method contains two main steps: 1. Fitting the null logistic mixed model to estimate variance component and other model parameters. 2. Testing for association between each genetic variant and phenotypes by applying SPA to the score test statistics. Step 1 iteratively estimates the model parameters using the computational efficient average information restricted maximum likelihood (AI-REML) algorithm, which is also used in GMMAT. Several optimization strategies have been applied in step 1 to make fitting the null logistic mixed model practical for large data sets, such as the UK Biobank. First, the spectral decomposition has been replaced by the PCG to solve linear systems without inversing the   GRM (as in BOLT-LMM). The PCG method iteratively finds solutions of the linear system in a computation and memory-efficient way. Thus, instead of requiring a pre-computed GRM, which costs a significant amount of time to calculate when sample sizes are large, SAIGE uses the raw genotypes as input. The computation time is about O(M1N) times the number of iterations for the conjugate gradient to converge, where M1 is a number of variants to be used for constructing GRM. Second, to further reduce the memory usage during the model fitting, the raw genotypes are stored in a binary vector and elements of GRM are calculated when needed rather than being stored, so the memory usage is M1N/4 bytes (as in BOLT-LMM and GenABEL). For example, for the UK Biobank data with M1 = 93,511 and N = 408,961 (white British participants), the memory usage drops from 669 Gigabytes(Gb) for storing the GRM with float numbers to 9.56 Gb for the raw genotypes in a binary vector.
+RESULTS
+paragraph
+6543
+After fitting the null logistic mixed model, the estimate of the random effects for each individual is obtained. The ratio of the variances of the score statistics with and without incorporating the variance components for the random effects is calculated using a subset of randomly selected genetic variants, similar to BOLT-LMM and GRAMMAR-Gamma. This ratio has been previously suggested to be constant for score tests based on LMMs. We have shown that the ratio is also approximately constant for all genetic variants with MAC ≥ 20 in the scenario of the logistic mixed models through analytic derivation and simulations (Supplementary Note and Supplementary Figure 1).
+RESULTS
+paragraph
+7218
+In step 2, for each variant, the variance ratio is used to calibrate the score statistic variance that does not incorporate variance components for random effects. Since GRM is no longer needed for this step, the computation time to obtain the score statistic for each variant is O(N). SAIGE next approximates the score test statistics using the SPA to obtain more accurate p-values than the normal distribution. A faster version of the SPA test, similar to the fastSPA method in the SPAtest R package that we recently developed, is used to further improve the computation time, which exploits the sparsity in low frequency or rare variants to reduce the computation cost.
+RESULTS
+title_2
+7891
+Computation and Memory Cost
+RESULTS
+paragraph
+7919
+The key features of SAIGE compared to other existing methods are presented in Table 1, showing that SAIGE is the only mixed-model association method that is able to account for the unbalanced case-control ratios while remaining computationally practical for large data sets. To further evaluate the computational performance of SAIGE, we randomly sampled subsets from the 408,458 white British UK Biobank participants who are defined as either coronary artery disease (CAD) cases (31,355) or controls (377,103) based on the PheWAS Code 411 followed by benchmarking association tests using SAIGE and other existing methods on 200,000 genetic markers randomly selected out of the 71 million with imputation info   0.3. The non-genetic covariates sex, birth year, and principal components 1 to 4 were adjusted in all tests. The log10 of the memory usage and projected computation time for testing the full set of 71 million genetic variants are plotted against the sample size as shown in Supplementary Figure 2 and Supplementary Table 1. Although SAIGE and BOLT-LMM have the same order of computational complexity (Table 1), SAIGE was slower than BOLT-LMM across all sample sizes (ex. 517 vs 360 CPU hours when N=408,458). This is due to the fact that fitting logistic mixed model requires more iterative steps than linear mixed model, and applying SPA requires additional computation. SAIGE requires slightly less memory than BOLT-LMM (10 to 11 Gb when N=408,458) and the low memory usage makes both methods feasible for the large data set. In contrast, GMMAT and GEMMA requires substantially more computation time and memory usage. For example, when N=400,000, projected memory usages of both GMMAT and GEMMA are more than 600 Gb. The actual computation time and memory usage of association tests for the full UK Biobank data for CAD are given in Table 1. SAIGE required 517 CPU hours and 10.3 Gb memory to analyze 71 million variants that have imputation info   0.3 for 408,458 samples, which indicates that the analysis will be done in ~26 hours with 20 CPU cores.
+RESULTS
+title_2
+9986
+Association analysis of binary traits in UK Biobank data
+RESULTS
+paragraph
+10043
+We applied SAIGE to several randomly selected binary traits defined by the PheWAS Codes (PheCode) of UK Biobank and compared the association results with those obtained from the method based on linear mixed models, BOLT-LMM, and SAIGE without the saddlepoint approximation (SAIGE-NoSPA), which is asymptotically equivalent to GMMAT. Due to computation and memory cost, the current GMMAT method cannot analyze the UK Biobank data. We restrict our analysis to markers directly genotyped or imputed by the Haplotype Reference Consortium (HRC) panel due to quality control issues of non-HRC markers reported by the UK BioBank. Approximately 28 million markers with minor allele counts (MAC) ≥ 20 and imputation info score   0.3 were used in the analysis. Among 408,961 white British participants in the UK Biobank, 132,179 have at least one up to the third degree relative among the genotyped individuals. We used 93,511 high quality genotyped variants to construct the GRM. In the UK Biobank data, most binary phenotypes based on PheCodes (1,431 out of 1,688; 84.8%) have case-control ratio lower than 1:100 (Supplementary Figure 3) and would likely demonstrate problematic inflation of association test statistics without SPA.
+RESULTS
+paragraph
+11270
+Association results of four exemplary binary traits that have various case-control ratios are plotted in Manhattan plots shown in Figure 1 and in the quantile-quantile (QQ) plots stratified by minor allele frequency (MAF) shown in Figure 2. The four binary traits are coronary artery disease (PheCode 411) with 31,355 cases and 377,103 controls (1:12), colorectal cancer (PheCode 153) with 4,562 cases and 382,756 controls (1:84), glaucoma (PheCode 365) with 4,462 cases and 397,761 controls (1:89), and thyroid cancer (PheCode 193) with 358 cases and 407,399 controls (1:1138). In the Manhattan plots in Figure 1, each locus that contains any variant with p-value < 5×10−8 is highlighted as blue or green to indicate whether this locus has been reported by previous studies or not. Supplementary Table 2 presents the number of all significant loci and those that have not been previously reported by each method for each trait and Supplementary Table 3 lists all significant loci identified by SAIGE. A significant locus is defined to be potentially novel if it is located outside 500kb of any previously reported ones.
+RESULTS
+paragraph
+12394
+Both Manhattan and QQ plots show BOLT-LMM and SAIGE-NoSPA have greatly inflated type I error rates. The inflation problem is more severe as case-control ratios become more unbalanced and the MAF of the tested variants decreases. The genomic inflation factors (λ) at the 0.001, 0.01 p-value percentiles are shown for several MAF categories in Supplementary Table 4. For the colorectal cancer GWAS which has case-control ratio 1:84, λ at the 0.001 p-value percentile is 1.68 and 1.71 for variants with MAF  by SAIGE-NoSPA and BOLT-LMM, while λ is 0.99 by SAIGE. The inflation is even more severe for the test results by SAIGE-NoSPA and BOLT-LMM for the thyroid cancer, which has case-control ratio 1:1138, with the λ at the 0.001 p-value percentile around 4 to 5 for variants with MAF  and all variants, respectively. With the unbalanced case-control ratio accounted for in SAIGE, the λ is again very close to 1.
+RESULTS
+paragraph
+13330
+We have generated summary statistics for all 1,403 PheCode-derived binary traits in 408,961 UK Biobank white British European-ancestry samples using SAIGE software and made them available in a public repository (see Supplementary Note for URL).
+RESULTS
+title_2
+13575
+Simulation Studies
+RESULTS
+paragraph
+13594
+We investigated the type I error control and power of two logistic mixed model approaches, SAIGE and GMMAT, and the linear mixed model method BOLT-LMM that computes mixed model association statistics under the infinitesimal and non-infinitesimal models through simulation studies. We followed the steps described in the Online Methods section to simulate genotypes for 1,000 families, each with 10 family members (N=10,000), based on the pedigree shown in Supplementary Figure 4.
+RESULTS
+title_2
+14074
+Type I error rates
+RESULTS
+paragraph
+14093
+The type I error rates for SAIGE, SAIGE-NoSPA, GMMAT, and BOLT-LMM have been evaluated based on the association tests performed on 109 simulated genetic variants. The variants were simulated using the same MAF spectrum of the UK Biobank HRC imputation data with case-control ratio 1:99, 1:9, and 1:1. Two different values of variance component parameter  =1 and 2 were considered, which correspond to the liability scale heritability 0.23 and 0.38, respectively. The empirical type I error rates at the α = 5×10−4 and α = 5×10−8 are shown in the Supplementary Table 5. SAIGE-NoSPA, GMMAT, and BOLT-LMM have greatly inflated type I error rates when the case-control ratios are moderately or extremely unbalanced and slightly deflated type I error rates when the case-control ratios are balanced. This is expected as previous studies have suggested inflation of the score tests in the presence of the unbalanced case-control ratios and deflation in balanced studies. Unlike GMMAT and BOLT-LMM, SAIGE has no inflation when case-control ratios are unbalanced. When the case-control ratios are balanced, SAIGE has correct type I error rates when   =1 and slightly deflated type I error rates when  =2. We also observed that GMMAT score test statistics do not follow the normal distribution when MAF is low and case-control is unbalanced (Supplementary Figure 5).
+RESULTS
+paragraph
+15459
+To further investigate the type I error rates by MAF and case-control ratios, we carried out additional simulations. Supplementary Figure 6 shows QQ plots of 1,000,000 rare variants (MAF = 0.005) with various case-control ratios (1:1, 1:9, and 1:99) and Supplementary Figure 7 shows QQ plots of 1,000,000 variants with different MAF (0.005, 0.01, and 0.3) when case-control ratio was 1:99. Consistent to what has been observed in the real data study, GMMAT and SAIGE-NoSPA is more inflated for less frequent variants with more unbalanced case-control ratios. In contrast, SAIGE has successfully corrected this problem.
+RESULTS
+paragraph
+16078
+To evaluate whether SAIGE can control type I error rates in the presence of population stratification, we have simulated two subpopulations with Fst 0.013, which corresponds to the average Fst between Finnish and non-Finnish Europeans. We assumed that subpopulations have different disease prevalences (0.01 for subpopulation 1 and 0.02 for subpopulation 2, 0.1 for subpopulation 1 and 0.2 for subpopulation 2, and 0.5 for subpopulation 1 and 0.4 for subpopulation 2). Both subpopulations have 1,000 families, each with 10 family members based on the pedigree shown in Supplementary Figure 4. Association tests were performed on 10 million simulated markers and the first four principle components were included as covariates (Supplementary Figure 8). QQ plots (Supplementary Figure 9) show that the test statistics were well calibrated regardless of the variance component parameter   and prevalence. This simulation result demonstrates that SAIGE produces well-calibrated p-values in the presence of population stratification.
+RESULTS
+title_2
+17107
+Power
+RESULTS
+paragraph
+17113
+Next, we evaluated empirical power. Since power simulation requires re-estimating a variance component parameter for each variant to test, to reduce computational burden, we used SAIGE-NoSPA instead of the original GMMAT software. Due to the inflated type I error rates of BOLT-LMM and GMMAT (and SAIGE-NoSPA), for a fair comparison, we estimated power at the test-specific empirical   levels that yield type I error rate α = 5×10−8 (Supplementary Table 6). Supplementary Figure 10 shows the power curve by odds ratios for variants with MAF 0.05, 0.1 and 0.2 when  =1. When the case-control ratio is balanced, the power of SAIGE, SAIGE-NoSPA and BOLT-LMM were nearly identical. For studies with moderately unbalanced case-control ratio (case:control=1:9), SAIGE has higher power than SAIGE-NoSPA and BOLT-LMM, which is due to very small empirical α for SAIGE-NoSPA and BOLT-LMM resulted from type I error inflation. The power gap is much larger when the case-control ratios are extremely unbalanced. Power results for  =2 yielded the same conclusion regarding the methods comparison (data not shown).
+RESULTS
+paragraph
+18222
+Overall simulation studies show that SAIGE can control type I error rates even when case-control ratios are extremely unbalanced and can be more powerful than GMMAT and BOLT-LMM. In contrast, GMMAT and BOLT-LMM suffer type I error inflation, and the inflation is especially severe with low MAF and unbalanced case-control ratios.
+DISCUSS
+title_1
+18552
+DISCUSSION
+DISCUSS
+paragraph
+18563
+In this paper, we have presented a method to perform the association tests for binary traits in large cohorts in the presence of sample relatedness, which provides accurate p-value estimates for even extremely unbalanced case-control settings (with a prevalence < 0.1%). The dramatic decrease of the genotyping cost over the last decade allows more and more large biobanks to genotype all of their participants followed by genome-wide PheWAS, in which GWASs are performed for all thousands of diseases/conditions characterized based on EHR and/or survey questionnaires to identify genetic risk factors across different phenotypes. Several challenges exist for PheWAS studies by large cohorts. Statistically, inflated type I error rates caused by unbalanced case-control ratios and sample relatedness need to be corrected. Computationally, most of existing mixed model association methods are not feasible for large sample sizes. Our method, SAIGE, uses logistic mixed model to account for the sample relatedness and applies the saddlepoint approximation (SPA) to correct the inflation caused by the unbalanced case-control ratio in the score tests based on logistic mixed models.
+DISCUSS
+paragraph
+19743
+SAIGE successfully corrects the inflation of type I error rates of low-frequency variants with binary traits that have unbalanced case-control ratios while also accounting for the relatedness among samples. Furthermore, our method uses several optimization strategies that are similar to those used by BOLT-LMM to improve its computational feasibility for large cohorts. For example, the preconditioned conjugate gradient algorithm is used to solve linear systems instead of the Cholesky decomposition method so that the time complexity for fitting the null logistic model is decreased from O(N3) to approximately O(M1N1.5), where M1 is the number of pruned markers used for estimating the genetic relationship matrix and the N is the sample size.
+DISCUSS
+paragraph
+20491
+In the selection of genetic markers (M1) for estimating the kinship matrix and the variance component, trade off exists between computational cost and performance of adjusting for sample relatedness. Increasing the number of markers used for that step linearly increases the computation time and memory. On the other hand, using too few markers may not be sufficient to account for all subtle sample relatedness. For example, Yang et al. have shown that using a few thousand markers is not sufficient to yield correct type I error control. In the UK Biobank data analysis, we used 93,511 independent, high quality genotyped variants, which were used by the UK Biobank data group to estimate the kinship coefficients between samples. We carried out a sensitivity analysis by increasing the number of markers to 340,447 (Supplementary Note Section 2.3). Using more markers to estimate the kinship matrix for the UK Biobank data analysis produced generally similar association p-values but with lambdas closer to 1.
+DISCUSS
+paragraph
+21504
+Using genome-wide genetic markers to adjust for sample relatedness tends to have the proximal contamination problem, which can reduce association test power. To avoid it, the leave-one-chromosome-out (LOCO) scheme can be used. We implemented the LOCO option in SAIGE. A sensitivity analysis (Supplementary Note Section 1.2.5) on the four exemplary binary phenotypes in the UK Biobank suggested that the proximal contamination in GWAS for diseases with relatively low prevalence, such as thyroid cancer, glaucoma, and colorectal cancer, is not as substantial as for more common diseases, e.g. coronary artery disease.
+DISCUSS
+paragraph
+22121
+Given the inflation of type I errors of linear mixed model for rare variants (MAF < 0.5%) with unbalanced case-control phenotypes, current GWAS studies address the problem by excluding rare variants from the analysis. However, this practice can lead to false negative results if associated rare variants are simply excluded rather than analyzed properly. For example, after using SAIGE to analyze rare variants in the UK Biobank, we identified a nonsense variant in MYOC (MAF = 0.14%) that was significantly associated with glaucoma. In our preliminary analysis of UK Biobank data of 1,283 non-sex specific phenotypes, we observed 1,609 genetic variants, including variants in the same locus, with minor allele frequency < 0.5% with SAIGE p-values < 5×10−8 (Supplementary Note Section 2.4). The method as implemented in SAIGE can control for type I error rates regardless of MAF and case-control ratios and will facilitate identification of rare disease-associated variants.
+DISCUSS
+paragraph
+23099
+There are several limitations in SAIGE. First, the time for algorithm convergence may vary among phenotypes and study samples given different heritability levels and sample relatedness. Second, SAIGE has been observed to be slightly conservative when case-control ratios are extremely unbalanced (Supplementary Table 5). Third, the accurate odds ratio estimation requires fitting the model under the alternative and is not computational efficient. Similar to several other mixed model methods, SAIGE estimates odds ratios for genetic markers using the parameter estimates from the null model. Fourth, SAIGE assumes that the effect sizes of genetic markers are normally distributed with a mean of zero and standard deviation of one, which follows an infinitesimal architecture. With this assumption, SAIGE may sacrifice power to detect genetic signals whose genetic architecture is non-infinitesimal. Last, the variance component estimates   from SAIGE is biased and hence it should not be used to estimate the heritability (Supplementary Note Section 2.1). This is because SAIGE uses penalized quasi-likelihood (PQL) to estimate  . However, as shown in our simulation studies and elsewhere, PQL-based approaches works well to adjust for sample relatedness. In future, we plan to extend the current single variant test to gene- or region-based multiple variant test to improve power for identifying disease susceptibility rare variants.
+DISCUSS
+paragraph
+24535
+With the emergence of large-scale biobank, PheWAS will be an important tool to identify genetic components of complex traits. Here we describe a scalable and accurate method, SAIGE, for the analysis of binary phenotypes in genome-wide PheWAS. Currently, SAIGE is the only available approach to adjust for both case-control imbalance and family relatedness, which are commonly observed in PheWAS datasets. In addition, the optimization approaches used in SAIGE make it scalable for the current largest (UK Biobank) and future much larger datasets. Through simulation and real data analysis, we have demonstrated that our method can efficiently analyze a dataset with 400,000 samples and adjust for type I error rates even when the case-control ratios are extremely unbalanced. Our method will provide an accurate and scalable solution for large scale biobank data analysis and ultimately contribute to identify genetic mechanism of complex diseases.
+METHODS
+title_1
+25484
+ONLINE METHODS
+METHODS
+title_2
+25499
+Generalized linear mixed model for binary traits
+METHODS
+paragraph
+25548
+In a case-control study with sample size  , we denote the status of the ith individual using   or 0 for being a case or a control. Let the  vector   represent  covariates including the intercept and   represent the allele counts ( ) for the variant to test. The logistic mixed model can be written as  where   is the probability for the ith individual being a case given the covariates and genotypes as well as the random effect, which is denoted as  . The random effect   is assumed to be distributed as (0, τ ), where   is an   genetic relationship matrix (GRM) and   is the additive genetic variance. The   is a coefficient vector of fixed effects and   is a coefficient of the genetic effect.
+METHODS
+title_2
+26247
+Estimate variance component and other model parameters (Step 1)
+METHODS
+paragraph
+26311
+To fit the null model,  , penalized quasi-likelihood (PQL) method and the AI-REML algorithm are used to iteratively estimate  ,  ). At iteration k, let  ,  ) be estimated  , ),   the estimated mean of  ,  , and  =   be an   matrix of the variance of working vector  )/ . To obtain log quasi-likelihood and average information at each iteration, the current GMMAT approach calculates the inverse of  . Since it is computationally too expensive for large N, we use the preconditioned conjugate gradient (PCG), which allows calculating quasi-likelihood and average information without calculating   (See Supplementary Note for details). PCG is a numerical method to find solutions of linear system. It is particularly useful when the system is very large. BOLT-LMM successfully used it to estimate variance component in linear mixed model.
+METHODS
+paragraph
+27148
+A score test statistics for Ho:  is   where G and Y are   genotype and phenotype vectors, respectively, and   is the estimated mean of Y under the null hypothesis, and  is the covariate adjusted genotype vector. The variance of T, Var(T)  , where  . For each variant, given  , calculation of Var(T) requires O(N2) computation. In addition, since our approach does not calculate  , and hence  , obtaining Var(T) requires applying PCG for each variant, which can be computationally very expensive. To reduce computation cost, we use the same approximation approach used in BOLT-LMM and GRAMMAR-GAMMAR, in which we estimate a variance of T with assuming that true random effect   is given, and then calculate ratio between these two variance. Suppose Var(T)* =  , which is a variance estimate of T assuming   is given. Let r = Var(T)/Var(T)* ratio of these two different types of variance estimates. In Supplementary Note, we have shown that the ratio is approximately constant for all variants. Using this fact, we can estimate r using a relatively small number of variants. In all the numerical studies in this paper, we used 30 variants to estimate r.
+METHODS
+title_2
+28300
+Score test with SPA (Step 2)
+METHODS
+paragraph
+28329
+Suppose   is the estimated ratio (i.e. r) in Step 1. Now the variance adjusted test statistics is  which has mean zero and variance   under the null hypothesis. The computation of   requires O(N) computation. The traditional score tests assume that T (and hence Tadj) asymptotically follows a Gaussian distribution under Ho: , which is using only the first two moments (mean and variance). When the case-control ratios are unbalanced and variants have low MAC, the underlying distribution of Tadj can be substantially different from Gaussian distribution. To obtain accurate p-values, we use Saddlepoint approximation method (SPA), which approximates distribution using the entire cumulant generating function (CGF). A fast version of SPA (fastSPA) has recently been developed and applied to PheWAS, and provides accurate p-values even when case-control ratios are extremely unbalanced (ex. case:control=1:600).
+METHODS
+paragraph
+29241
+To apply fastSPA to Tadj we need to obtain CGF of Tadj first. To do this, we use the fact that given  , Tadj is a weighted sum of independent Bernoulli random variables. The approximated cumulant generating function is  where the constant c=Var*(T) −1/2. Let   and   are first and second derivatives of K with respect to t. To calculate the probability that  , where q is an observed test statistic, we use the following formula  where  ,   and   is the solution of the equation  . As fastSPA, we exploit the sparsity of genotype vector when MAF of variants are low. In addition, since normal approximation works well when the test statistic is close to the mean, we use the normal distribution when the test statistic is within two standard deviation of the mean.
+METHODS
+title_2
+30008
+Data simulation
+METHODS
+paragraph
+30024
+We carried out a series of simulations to evaluate and compare the performance of SAIGE to GMMAT. We randomly simulated a set of 1,000,000 base-pair “pseudo” sequences, in which variants are independent to each other. Alleles for each variant were randomly drawn from Binomial(n = 2, p = MAF). Then we performed the gene-dropping simulation using these sequences as founder haplotypes that were propagated through the pedigree of 10 family members shown in Supplementary Figure 4. Binary phenotypes were generated from the following logistic mixed model  where Gi is the genotype value,   is the genetic log odds ratio,   is the random effect simulated from  . Two covariates, X1 and X2, were simulated from Bernoulli(0.5) and N(0,1), respectively. The intercept   was determined by given prevalence (i.e. case-control ratios).
+METHODS
+paragraph
+30856
+To evaluate the type I error rates at genome-wide α=5×10−8, 10 million markers along with 100 sets of phenotypes with different random seeds for case-control ratios 1:99, 1:9, and 1:1 were simulated with  . Given   and 2, the liability scale heritability is 0.23 and 0.38, respectively (Supplementary Note Section 2.1). Association tests were performed on the 10 million genetic markers for each of the 100 sets of phenotypes using SAIGE, GMMAT, and BOLT-LMM, therefore in total 109 tests were performed. To have a realistic MAF spectrum, MAFs were randomly sampled from the MAF spectrum in UK Biobank data (Supplementary Figure 11). Additional type I error simulations were carried out for five different MAFs (0.005, 0.01, 0.05, 0.1 and 0.3) to evaluate type I error rates by MAFs and in the presence of population stratification (Supplementary Note Section 2.2).
+METHODS
+paragraph
+31726
+For the power simulation, phenotypes were generated under the alternative hypothesis  . For each of the MAF 0.05 and 0.2, we simulated 1,000 datasets, and power was evaluated at test-specific empirical α, which yields nominal α=5×10−8. The empirical α was estimated from the previous type I error simulations. As the same as type I error simulations, three different case-control ratios (1:99, 1:9, and 1:1) were considered.
+METHODS
+paragraph
+32163
+Note that since we evaluated the empirical type I error rates and power based on genetic variants that were simulated independently, the LD Score regression calibration and the leave-one-chromosome-out (LOCO) scheme were not applied in BOLT-LMM or SAIGE.
+METHODS
+title_2
+32418
+Performance evaluation of approaches used to obtain computational scalability
+METHODS
+paragraph
+32496
+We evaluated the numerical stability and convergence for numerical and asymptotic approximations that we use to achieve the computational scalability: PCG (Supplementary Figure 12), randomized trace estimator (Supplementary Figure 13), variance ratio estimation (Supplementary Figure 14), LOCO (Supplementary Figure 15), and variance component parameter estimation (Supplementary Table 7 and Supplementary Figure 16). In addition, we compared the results of UK Biobank data analysis using a GRM constructed from a larger number of markers (M1 = 340,447) (Supplementary Table 8 and Supplementary Figure 17 and 18).
+METHODS
+title_2
+33110
+Phenotype definition in UK Biobank
+METHODS
+paragraph
+33145
+We used a previously published scheme to defined disease-specific binary phenotypes by combining hospital ICD-9 codes into hierarchical PheCodes, each representing a more or less specific disease group.
+METHODS
+paragraph
+33348
+ICD-10 codes were mapped to PheCodes using a combination of available maps through the Unified Medical Language System(https://www.nlm.nih.gov/research/umls/) and other sources, string matching, and manual review. Study participants were labeled a PheCode if they had one or more of the PheCode-specific ICD codes. Cases were all study participants with the PheCode of interest and controls were all study participants without the PheCode of interest or any related PheCodes. Gender checks were performed, so PheCodes specific for one gender could not mistakenly be assigned to the other gender.
+METHODS
+title_2
+33944
+Genome build
+METHODS
+paragraph
+33957
+All genomic coordinates are given in NCBI Build 37/UCSC hg19.
+METHODS
+title_2
+34019
+Statistical analysis
+METHODS
+paragraph
+34040
+With the assumption of the additive genetic model, we performed GWAS using SAIGE (version 0.13) on 28 million genetic markers for 1,403 binary phenotypes of 408,961 white British participants, who passed the quality control in the UK Biobank. In the logistic mixed model by SAIGE, the first four principal components, sex and birth year were included as the non-genetic covariates. To evaluate the performance of SAIGE to account for sample relatedness and unbalanced case-control ratio for binary phenotypes, GWAS results from SAIGE were compared to those from SAIGE-NoSPA(asymptotically equivalent to GMMAT version 0.96) and BOLT-LMM (version 2.3) for four exemplary binary phenotypes with various case-control ratios. The numbers of samples used for analysis are included in the legend of each Figure. The genomic inflation factors (λ) were calculated as the ratio of observed and expected chi-square statistic at the 0.001 and 0.01 p-value percentiles.
+METHODS
+title_2
+35002
+Reporting Summary
+METHODS
+paragraph
+35020
+Further information on study design is available in the Nature Research Reporting Summary linked to this article.
+METHODS
+title_2
+35134
+Code and data availability
+METHODS
+paragraph
+35161
+SAIGE is implemented as an open-source R package available at https://github.com/weizhouUMICH/SAIGE/. The GWAS results for 1403 binary phenotypes with the PheCodes constructed based on ICD codes in UK Biobank using SAIGE are currently available for public download at https://www.leelabsg.org/resources. Information for all phenotypes can be found in the website above. We also display the results in the Michigan PheWeb http://pheweb.sph.umich.edu/UKBiobank, which consists of Manhattan plots, Q-Q plots, and regional association plots for each phenotype as well as the PheWAS plots for every genetic marker.
+SUPPL
+title_1
+35771
+Supplementary Material
+SUPPL
+footnote
+35794
+SAIGE, https://github.com/weizhouUMICH/SAIGE/;
+SUPPL
+footnote
+35841
+BOLT-LMM, https://data.broadinstitute.org/alkesgroup/BOLT-LMM/;
+SUPPL
+footnote
+35905
+GMMAT, https://github.com/hanchenphd/GMMAT;
+SUPPL
+footnote
+35949
+GEMMA, https://github.com/genetics-statistics/GEMMA;
+SUPPL
+footnote
+36002
+Michigan PheWeb, http://pheweb.sph.umich.edu/UKBiobank;
+SUPPL
+footnote
+36058
+GWAS Summary Statistics for > 1400 binary phenotypes in the UK Biobank by SAIGE, https://www.leelabsg.org/resources;
+SUPPL
+footnote
+36175
+URLs 
+SUPPL
+footnote
+36181
+AUTHOR CONTRIBUTIONS
+SUPPL
+footnote
+36202
+W.Z. C.W. and S.L. designed experiments. W.Z. and S.L. performed experiments. J.B., L.G.F., A.G., L.A.B, W-Q. W, J.C.D constructed phenotypes for the UK Biobank data. W.Z., J.L., S.A.G., H.M.K., C.W., S.L. and G.R.A. analyzed UK Biobank data. P.V. created the PheWeb. M.E.G. and K.H. provided data. W.Z., J.B., A.G., J.C.D., R.D., C.W. and S.L. wrote the manuscript.
+SUPPL
+footnote
+36569
+COMPETING FINANCIAL INTERESTS STATEMENT
+SUPPL
+footnote
+36609
+The authors declare no competing financial interests.
+129
+145
+surname:Bush;given-names:WS
+surname:Oetjens;given-names:MT
+surname:Crawford;given-names:DC
+26875678
+REF
+Nat Rev Genet
+ref
+17
+2016
+36663
+Unravelling the human genome-phenome relationship using phenome-wide association studies
+1102
+1110
+surname:Denny;given-names:JC
+24270849
+REF
+Nat Biotechnol
+ref
+31
+2013
+36752
+Systematic comparison of phenome-wide association study of electronic medical record data and genome-wide association study data
+348
+354
+surname:Kang;given-names:HM
+20208533
+REF
+Nat Genet
+ref
+42
+2010
+36881
+Variance component model to account for sample structure in genome-wide association studies
+355
+360
+surname:Zhang;given-names:Z
+20208535
+REF
+Nat Genet
+ref
+42
+2010
+36973
+Mixed linear model approach adapted for genome-wide association studies
+76
+82
+surname:Yang;given-names:J
+surname:Lee;given-names:SH
+surname:Goddard;given-names:ME
+surname:Visscher;given-names:PM
+21167468
+REF
+Am J Hum Genet
+ref
+88
+2011
+37045
+GCTA: a tool for genome-wide complex trait analysis
+833
+835
+surname:Lippert;given-names:C
+21892150
+REF
+Nat Methods
+ref
+8
+2011
+37097
+FaST linear mixed models for genome-wide association studies
+821
+824
+surname:Zhou;given-names:X
+surname:Stephens;given-names:M
+22706312
+REF
+Nat Genet
+ref
+44
+2012
+37158
+Genome-wide efficient mixed-model analysis for association studies
+284
+290
+surname:Loh;given-names:PR
+25642633
+REF
+Nat Genet
+ref
+47
+2015
+37225
+Efficient Bayesian mixed-model analysis increases association power in large cohorts
+653
+666
+surname:Chen;given-names:H
+27018471
+REF
+Am J Hum Genet
+ref
+98
+2016
+37310
+Control for Population Structure and Relatedness for Binary Traits in Genetic Association Studies via Logistic Mixed Models
+539
+550
+surname:Ma;given-names:C
+surname:Blackwell;given-names:T
+surname:Boehnke;given-names:M
+surname:Scott;given-names:LJ
+23788246
+REF
+Genet Epidemiol
+ref
+37
+2013
+37434
+Recommended Joint and Meta-Analysis Strategies for Case-Control Association Testing of Single Low-Count Variants
+7
+surname:Kuonen;given-names:D
+REF
+Biometrika
+ref
+4
+1999
+37547
+Saddlepoint approximations for distributions of quadratic forms in normal variables
+37
+49
+surname:Dey;given-names:R
+surname:Schmidt;given-names:EM
+surname:Abecasis;given-names:GR
+surname:Lee;given-names:S
+28602423
+REF
+Am J Hum Genet
+ref
+101
+2017
+37631
+A fast and accurate algorithm to test for binary phenotypes and its application to PheWAS
+265
+275
+surname:Kaasschieter;given-names:EF
+REF
+J Comput Appl Math
+ref
+24
+1988
+37721
+Preconditioned conjugate gradients for solving singular systems
+e1001779
+surname:Sudlow;given-names:C
+25826379
+REF
+PLOS Med
+ref
+12
+2015
+37785
+UK Biobank: An Open Access Resource for Identifying the Causes of a Wide Range of Complex Diseases of Middle and Old Age
+surname:Bycroft;given-names:C
+10.1101/166298
+REF
+bioRxiv
+ref
+166298
+2017
+37906
+Genome-wide genetic data on ~500,000 UK Biobank participants
+1440
+surname:Gilmour;given-names:AR
+surname:Thompson;given-names:R
+surname:Cullis;given-names:BR
+REF
+Biometrics
+ref
+51
+1995
+37967
+Average Information REML: An Efficient Algorithm for Variance Parameter Estimation in Linear Mixed Models
+1294
+1296
+surname:Aulchenko;given-names:YS
+surname:Ripke;given-names:S
+surname:Isaacs;given-names:A
+surname:van Duijn;given-names:CM
+17384015
+REF
+Bioinformatics
+ref
+23
+2007
+38073
+GenABEL: an R library for genome-wide association analysis
+1166
+1170
+surname:Svishcheva;given-names:GR
+surname:Axenovich;given-names:TI
+surname:Belonogova;given-names:NM
+surname:van Duijn;given-names:CM
+surname:Aulchenko;given-names:YS
+22983301
+REF
+Nat Genet
+ref
+44
+2012
+38132
+Rapid variance components–based method for whole-genome association analysis
+1279
+1283
+surname:McCarthy;given-names:S
+27548312
+REF
+Nat Genet
+ref
+48
+2016
+38211
+A reference panel of 64,976 haplotypes for genotype imputation
+e5472
+surname:Nelis;given-names:M
+19424496
+REF
+PLoS One
+ref
+4
+2009
+38274
+Genetic structure of Europeans: a view from the North-East
+95
+109
+surname:Shameer;given-names:K
+24026423
+REF
+Hum Genet
+ref
+133
+2014
+38333
+A genome- and phenome-wide association study to identify genetic variants influencing platelet count and volume and their pleiotropic effects
+100
+106
+surname:Yang;given-names:J
+surname:Zaitlen;given-names:NA
+surname:Goddard;given-names:ME
+surname:Visscher;given-names:PM
+surname:Price;given-names:AL
+24473328
+REF
+Nat Genet
+ref
+46
+2014
+38475
+Advantages and pitfalls in the application of mixed-model association methods
+525
+526
+surname:Listgarten;given-names:J
+22669648
+REF
+Nat Methods
+ref
+9
+2012
+38553
+Improved linear mixed models for genome-wide association studies
+METHODS
+title
+38618
+METHODS-ONLY REFERENCES
+9
+surname:Breslow;given-names:NE
+surname:Clayton;given-names:DG
+REF
+J Am Stat Assoc
+ref
+88
+1993
+38642
+Approximate Inference in Generalized Linear Mixed Models
+1440
+surname:Gilmour;given-names:AR
+surname:Thompson;given-names:R
+surname:Cullis;given-names:BR
+REF
+Biometrics
+ref
+51
+1995
+38699
+Average Information REML: An Efficient Algorithm for Variance Parameter Estimation in Linear Mixed Models
+265
+275
+surname:Kaasschieter;given-names:EF
+REF
+J Comput Appl Math
+ref
+24
+1988
+38805
+Preconditioned conjugate gradients for solving singular systems
+surname:Hestenes;given-names:MR
+surname:Eduard;given-names:S
+REF
+Methods of conjugate gradients for solving linear systems
+ref
+49
+1952
+38869
+284
+290
+surname:Loh;given-names:PR
+25642633
+REF
+Nat Genet
+ref
+47
+2015
+38870
+Efficient Bayesian mixed-model analysis increases association power in large cohorts
+1166
+1170
+surname:Svishcheva;given-names:GR
+surname:Axenovich;given-names:TI
+surname:Belonogova;given-names:NM
+surname:van Duijn;given-names:CM
+surname:Aulchenko;given-names:YS
+22983301
+REF
+Nat Genet
+ref
+44
+2012
+38955
+Rapid variance components–based method for whole-genome association analysis
+7
+surname:Kuonen;given-names:D
+REF
+Biometrika
+ref
+4
+1999
+39034
+Saddlepoint approximations for distributions of quadratic forms in normal variables
+8
+surname:Imhof;given-names:JP
+REF
+Biometrika Trust
+ref
+48
+1961
+39118
+Computing the Distribution of Quadratic Forms in Normal Variables
+37
+49
+surname:Dey;given-names:R
+surname:Schmidt;given-names:EM
+surname:Abecasis;given-names:GR
+surname:Lee;given-names:S
+28602423
+REF
+Am J Hum Genet
+ref
+101
+2017
+39184
+A fast and accurate algorithm to test for binary phenotypes and its application to PheWAS
+97
+101
+surname:Abecasis;given-names:GR
+surname:Cherny;given-names:SS
+surname:Cookson;given-names:WO
+surname:Cardon;given-names:LR
+11731797
+REF
+Nat Genet
+ref
+30
+2002
+39274
+Merlin–rapid analysis of dense genetic maps using sparse gene flow trees
+1281
+1294
+surname:de Villemereuil;given-names:P
+surname:Schielzeth;given-names:H
+surname:Nakagawa;given-names:S
+surname:Morrissey;given-names:M
+27591750
+REF
+Genetics
+ref
+204
+2016
+39349
+General Methods for Evolutionary Quantitative Genetic Inference from Generalized Mixed Models
+291
+295
+surname:Bulik-Sullivan;given-names:BK
+25642630
+REF
+Nat Genet
+ref
+47
+2015
+39443
+LD Score regression distinguishes confounding from polygenicity in genome-wide association studies
+1102
+1110
+surname:Denny;given-names:JC
+24270849
+REF
+Nat Biotechnol
+ref
+31
+2013
+39542
+Systematic comparison of phenome-wide association study of electronic medical record data and genome-wide association study data
+e1001779
+surname:Sudlow;given-names:C
+25826379
+REF
+PLOS Med
+ref
+12
+2015
+39671
+UK Biobank: An Open Access Resource for Identifying the Causes of a Wide Range of Complex Diseases of Middle and Old Age
+nihms977253f1.jpg
+F1
+FIG
+fig_caption
+39792
+Manhattan plots of GWAS results for four binary phenotypes with various case-control ratios in the UK Biobank.
+nihms977253f1.jpg
+F1
+FIG
+fig_caption
+39903
+GWAS results from SAIGE, SAIGE-NoSPA(asymptotically equivalent to GMMAT) and BOLT-LMM are shown for A. coronary artery disease (PheCode 411, case:control = 1:12, N = 408,458), B. colorectal cancer (PheCode 153, case:control = 1:84, N = 387,318), C. glaucoma (PheCode 365, case: control = 1:89, N = 402,223), and D. thyroid cancer (PheCode 193, case:control=1:1138, N = 407,757). N: sample size. Blue: loci with association p-value < 5×10−8, which have been previously reported, Green: loci that have association p-value < 5×10−8 and have not been reported before. Since results from SAIGE-noSPA and BOLT-LMM contain many false positive signals for colorectal cancer, glaucoma, and thyroid cancer, the significant loci are not highlighted. The upper dashed line marks the break point for the different scales of the y axis and the lower dashed line marks the genome-wide significance (p-value = 5×10−8).
+nihms977253f2.jpg
+F2
+FIG
+fig_caption
+40815
+Quantile-quantile plots of GWAS results for four binary phenotypes with various case-control ratios in the UK Biobank.
+nihms977253f2.jpg
+F2
+FIG
+fig_caption
+40934
+GWAS results from SAIGE, SAIGE-NoSPA (asymptotically equivalent to GMMAT) and BOLT-LMM are shown for A. coronary artery disease (PheCode 411, case: control = 1:12, N = 408,458), B. colorectal cancer (PheCode 153, case: control = 1:84, N = 387,318), C. glaucoma (PheCode 365, case: control = 1:89, N = 402,223), and D. thyroid cancer (PheCode 193, case: control=1:1138, N = 407,757). N: sample size.
+T1.xml
+T1
+TABLE
+table_caption
+41333
+Comparison of different methods for GWAS with mixed effect models
+T1.xml
+T1
+TABLE
+table
+<?xml version="1.0" encoding="UTF-8"?>
+<table frame="box" rules="all"><thead><tr><th colspan="2" valign="middle" rowspan="3" align="center"/><th colspan="5" valign="middle" align="center" rowspan="1">Method Features</th><th colspan="4" valign="middle" align="center" rowspan="1">Algorithm Complexity</th><th colspan="2" valign="middle" align="center" rowspan="1">Benchmarks for<break/>UK Biobank Data<break/>Coronary Artery<break/>Disease<break/>(PheCode 411)</th></tr><tr><th valign="middle" rowspan="2" align="center" colspan="1">Does not<break/>require pre-<break/>computed<break/>genetic<break/>relationship<break/>matrix</th><th valign="middle" rowspan="2" align="center" colspan="1">Feasible<break/>for large<break/>sample<break/>sizes</th><th valign="middle" rowspan="2" align="center" colspan="1">Developed<break/>for<break/>binary<break/>traits</th><th valign="middle" rowspan="2" align="center" colspan="1">Accounts<break/>for<break/>unbalanced<break/>case-<break/>control<break/>ratio</th><th valign="middle" rowspan="2" align="center" colspan="1">Tests<break/>quantitative<break/>traits</th><th colspan="2" valign="middle" align="center" rowspan="1">Time complexity</th><th colspan="2" valign="middle" align="center" rowspan="1">Memory usage<break/>(Gbyte)</th><th valign="middle" rowspan="2" align="left" colspan="1">Time<break/>CPU hrs</th><th valign="middle" rowspan="2" align="left" colspan="1">Memory</th></tr><tr><th valign="middle" align="left" rowspan="1" colspan="1">Step 1</th><th valign="middle" align="left" rowspan="1" colspan="1">Step 2</th><th valign="middle" align="left" rowspan="1" colspan="1">Step 1</th><th valign="middle" align="left" rowspan="1" colspan="1">Step 2</th></tr></thead><tbody><tr><td valign="middle" rowspan="2" align="center" colspan="1"><bold>Logistic mixed model</bold></td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>SAIGE</bold></td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>✓</bold></td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>✓</bold></td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>✓</bold></td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>✓</bold></td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>✓</bold></td><td valign="middle" align="left" rowspan="1" colspan="1">O(PM<sub>1</sub>N<sup>1.5</sup>) <xref rid="TFN6" ref-type="table-fn">*</xref></td><td valign="middle" align="left" rowspan="1" colspan="1">O(MN）</td><td valign="middle" align="left" rowspan="1" colspan="1">M<sub>1</sub>N/4</td><td valign="middle" align="left" rowspan="1" colspan="1">N</td><td valign="middle" align="left" rowspan="1" colspan="1">517</td><td valign="middle" align="left" rowspan="1" colspan="1">10.3G</td></tr><tr><td valign="middle" align="center" rowspan="1" colspan="1"><bold>GMMAT</bold></td><td valign="middle" align="center" rowspan="1" colspan="1"/><td valign="middle" align="center" rowspan="1" colspan="1"/><td valign="middle" align="center" rowspan="1" colspan="1"><bold>✓</bold></td><td valign="middle" align="center" rowspan="1" colspan="1"/><td valign="middle" align="center" rowspan="1" colspan="1"><bold>✓</bold></td><td valign="middle" align="left" rowspan="1" colspan="1">O(PN<sup>3</sup>)</td><td valign="middle" align="left" rowspan="1" colspan="1">O(MN<sup>2</sup>)</td><td valign="middle" align="left" rowspan="1" colspan="1">F N<sup>2</sup></td><td valign="middle" align="left" rowspan="1" colspan="1">F N<sup>2</sup></td><td valign="middle" align="left" rowspan="1" colspan="1">NA</td><td valign="middle" align="left" rowspan="1" colspan="1">NA</td></tr><tr><td valign="middle" rowspan="2" align="center" colspan="1"><bold>Linear mixed model</bold></td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>BOLT-LMM</bold></td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>✓</bold></td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>✓</bold></td><td valign="middle" align="center" rowspan="1" colspan="1"/><td valign="middle" align="center" rowspan="1" colspan="1"/><td valign="middle" align="center" rowspan="1" colspan="1"><bold>✓</bold></td><td valign="middle" align="left" rowspan="1" colspan="1">O(PM<sub>1</sub>N<sup>1.5</sup>)<xref rid="TFN6" ref-type="table-fn">*</xref></td><td valign="middle" align="left" rowspan="1" colspan="1">O(MN）</td><td valign="middle" align="left" rowspan="1" colspan="1">M<sub>1</sub>N/4</td><td valign="middle" align="left" rowspan="1" colspan="1">N</td><td valign="middle" align="left" rowspan="1" colspan="1">360</td><td valign="middle" align="left" rowspan="1" colspan="1">10.9G</td></tr><tr><td valign="middle" align="center" rowspan="1" colspan="1"><bold>GEMMA</bold></td><td valign="middle" align="center" rowspan="1" colspan="1"/><td valign="middle" align="center" rowspan="1" colspan="1"/><td valign="middle" align="center" rowspan="1" colspan="1"/><td valign="middle" align="center" rowspan="1" colspan="1"/><td valign="middle" align="center" rowspan="1" colspan="1"><bold>✓</bold></td><td valign="middle" align="left" rowspan="1" colspan="1">O(N<sup>3</sup>)</td><td valign="middle" align="left" rowspan="1" colspan="1">O(MN<sup>2</sup>)</td><td valign="middle" align="left" rowspan="1" colspan="1">F N<sup>2</sup></td><td valign="middle" align="left" rowspan="1" colspan="1">FN<sup>2</sup></td><td valign="middle" align="left" rowspan="1" colspan="1">NA</td><td valign="middle" align="left" rowspan="1" colspan="1">NA</td></tr></tbody></table>
+
+41399
+	Method Features	Algorithm Complexity	Benchmarks forUK Biobank DataCoronary ArteryDisease(PheCode 411)	 	Does notrequire pre-computedgeneticrelationshipmatrix	Feasiblefor largesamplesizes	Developedforbinarytraits	Accountsforunbalancedcase-controlratio	Testsquantitativetraits	Time complexity	Memory usage(Gbyte)	TimeCPU hrs	Memory	 	Step 1	Step 2	Step 1	Step 2	 	Logistic mixed model	SAIGE	✓	✓	✓	✓	✓	O(PM1N1.5) *	O(MN）	M1N/4	N	517	10.3G	 	GMMAT			✓		✓	O(PN3)	O(MN2)	F N2	F N2	NA	NA	 	Linear mixed model	BOLT-LMM	✓	✓			✓	O(PM1N1.5)*	O(MN）	M1N/4	N	360	10.9G	 	GEMMA					✓	O(N3)	O(MN2)	F N2	FN2	NA	NA	 	
+T1.xml
+T1
+TABLE
+table_footnote
+42026
+N: number of samples
+T1.xml
+T1
+TABLE
+table_footnote
+42047
+P: number of iterations required to reach convergence
+T1.xml
+T1
+TABLE
+table_footnote
+42101
+M1: number of markers used to construct the kinship matrix;
+T1.xml
+T1
+TABLE
+table_footnote
+42161
+M: total number of markers to be tested
+T1.xml
+T1
+TABLE
+table_footnote
+42201
+F: Byte for floating number
+T1.xml
+T1
+TABLE
+table_footnote
+42229
+Number of iterations in PCG is assumed as O(N0.5)8
+

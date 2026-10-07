@@ -1,0 +1,12 @@
+track	locus_id	build	chrom	start	end	lead_pos	lead_p	lead_effect_allele	lead_other_allele	lead_source_row	lead_rsid	significant_variants	status	edge_clipped	boundary_rule	lead_rounding_consistency_pass
+A	A_chr2_228001745_231092415	GRCh37	2	228001745	231092415	229561895	1.6501e-9	A	T	1533071	rs62202378	34	PROSPECTIVE	False	inclusive; all windows +/-1.5Mb transitively merged	True
+A	A_chr3_167160231_170450432	GRCh37	3	167160231	170450432	168776326	3.25471e-11	T	G	2177277	rs1420472	139	PROSPECTIVE	False	inclusive; all windows +/-1.5Mb transitively merged	True
+A	A_chr4_88300892_91560531	GRCh37	4	88300892	91560531	89834173	2.25222e-10	G	GGAA	2629931	NA	51	PROSPECTIVE	False	inclusive; all windows +/-1.5Mb transitively merged	True
+A	A_chr4_105262244_108341962	GRCh37	4	105262244	108341962	106819053	1.54501e-16	A	G	2689393	rs34712979	5	PROSPECTIVE	False	inclusive; all windows +/-1.5Mb transitively merged	True
+A	A_chr4_143727600_147016737	GRCh37	4	143727600	147016737	145434901	6.37466e-19	G	A	2827163	rs1512281	193	PROSPECTIVE	False	inclusive; all windows +/-1.5Mb transitively merged	True
+A	A_chr5_146267580_149356522	GRCh37	5	146267580	149356522	147856522	1.03957e-16	A	G	3520760	rs7733410	94	PROSPECTIVE	False	inclusive; all windows +/-1.5Mb transitively merged	True
+A	A_chr6_28586708_34183653	GRCh37	6	28586708	34183653	32628439	2.73274e-10	A	G	3806704	rs9273508	101	DEFERRED_MHC	False	inclusive; all windows +/-1.5Mb transitively merged	True
+A	A_chr6_141148056_144366387	GRCh37	6	141148056	144366387	142813761	1.52368e-14	C	T	4198294	rs190516	130	PROSPECTIVE	False	inclusive; all windows +/-1.5Mb transitively merged	True
+A	A_chr15_70078560_73206624	GRCh37	15	70078560	73206624	71665824	1.57695e-16	C	T	8186371	rs2119568	103	PROSPECTIVE	False	inclusive; all windows +/-1.5Mb transitively merged	True
+A	A_chr15_77212117_80575335	GRCh37	15	77212117	80575335	78896129	4.55633e-28	G	A	8206581	rs1317286	405	PROSPECTIVE	False	inclusive; all windows +/-1.5Mb transitively merged	True
+A	A_chr16_73811812_77016739	GRCh37	16	73811812	77016739	75311828	4.10977e-11	C	T	8519226	rs11645016	368	PROSPECTIVE	False	inclusive; all windows +/-1.5Mb transitively merged	True

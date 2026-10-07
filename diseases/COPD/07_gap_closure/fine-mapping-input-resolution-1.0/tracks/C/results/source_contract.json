@@ -1,0 +1,47 @@
+{
+  "track": "C",
+  "phenotype": "icd10-J44-both_sexes",
+  "population": "EUR",
+  "role": "secondary EHR/ICD sensitivity",
+  "release": "v0.4 -log10 P schema (provider changelog March16,2023); exact object version MTbtTv5nK5NJfBBkof7SgR6x_Iji2Zi9, last-modified2023-02-09T16:47:40Z",
+  "build": "GRCh37",
+  "identity": [
+    "chr",
+    "pos",
+    "ref",
+    "alt"
+  ],
+  "effect_allele": "alt",
+  "other_allele": "ref",
+  "strand": "forward",
+  "beta": "signed log-OR coefficient; source SAIGE BETA directly exported",
+  "se": "binary SAIGE SPA-calibrated SE, not asserted raw Wald information SE",
+  "test": "SAIGE score test with saddlepoint approximation",
+  "p_encoding": "negative log10 from neglog10_pval_EUR only",
+  "effect_columns": [
+    "beta_EUR",
+    "se_EUR",
+    "neglog10_pval_EUR"
+  ],
+  "meta_columns_used": false,
+  "other_ancestry_columns_used_for_statistics": false,
+  "cases": 11536,
+  "controls": 408995,
+  "phenotype_n": 420531,
+  "per_variant_gwas_n": "absent from flat file; do not substitute manifest cohort AN/2 without sample-definition proof",
+  "per_variant_af": [
+    "af_cases_EUR",
+    "af_controls_EUR"
+  ],
+  "gwas_qc": "low_confidence_EUR flag; provider documents INFO>0.8 input filtering",
+  "variant_annotation": "Full provider variant manifest supplies INFO, rsID, high_quality and EUR AF/AN; nearest_genes not parsed or used",
+  "risk_direction": "direction of signed native GWAS contrast, not a causal claim; no AF/REF/ALT inference absent verified effect sign",
+  "ld_sample_note": "Root independently decoded EUR LD globals n_samples420542,11 above GWAS420531. Same-project near-overlap reference, not established identical phenotype sample. Root owns final LD assessment",
+  "sources": [
+    "https://pan.ukbb.broadinstitute.org/docs/per-phenotype-files/",
+    "https://pan.ukbb.broadinstitute.org/docs/qc/",
+    "https://pan.ukbb.broadinstitute.org/docs/changelog/",
+    "https://raw.githubusercontent.com/atgu/ukbb_pan_ancestry/master/export_results.py",
+    "https://raw.githubusercontent.com/weizhouUMICH/SAIGE/f5c757dfe5e2c872d2034845c2d9b5c867af773e/R/SAIGE_SPATest.R"
+  ]
+}

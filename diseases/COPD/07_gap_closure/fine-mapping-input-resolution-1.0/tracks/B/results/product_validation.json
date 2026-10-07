@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checks": [
+    "5 prospective loci and52,013 retained rows",
+    "Source rows unique within retained combined file",
+    "Every retained row falls within own GWAS locus and every lead retained",
+    "All52,013 REF alleles match GRCh37",
+    "462 significant source rows agree with per-locus counts",
+    "Exactly24 symbolic alleles remain unresolved without disease-increasing allele",
+    "51,989 signed contrasts use beta sign and explicit source effect/other alleles",
+    "Zero execution-cleared loci and no fine-mapping invocation"
+  ],
+  "scope": "Independent local product consistency checks; does not imply source-likelihood or LD gate pass"
+}

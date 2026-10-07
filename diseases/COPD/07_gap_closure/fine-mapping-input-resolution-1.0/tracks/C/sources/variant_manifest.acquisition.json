@@ -1,0 +1,26 @@
+{
+  "url": "https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_release/full_variant_qc_metrics.txt.bgz",
+  "started_utc": "2026-10-06T22:15:01.842714+00:00",
+  "purpose": "Variant identity/INFO/QC dependency only; gene annotations will not be parsed or used",
+  "expected_bytes": 2701503051,
+  "expected_md5_from_single_part_s3_etag": "e70ebc8289f762dd8d5086f54e766654",
+  "status": 200,
+  "headers": {
+    "x-amz-id-2": "U2rP5Yqn7E+zns0GXOupYzYsqKegBRxl1Q7epmQx/ouBkrkLerOxft39roRr9JCEJB2wgTHSTTY=",
+    "x-amz-request-id": "JF45PRT0ERE8DBSC",
+    "Date": "Tue, 06 Oct 2026 22:15:02 GMT",
+    "Last-Modified": "Fri, 28 Aug 2020 23:21:14 GMT",
+    "ETag": "\"e70ebc8289f762dd8d5086f54e766654\"",
+    "x-amz-storage-class": "INTELLIGENT_TIERING",
+    "x-amz-version-id": "aHImXX38fFenvR2s2WKBloyhPWfsGkk7",
+    "Accept-Ranges": "bytes",
+    "Content-Type": "binary/octet-stream",
+    "Content-Length": "2701503051",
+    "Server": "AmazonS3"
+  },
+  "bytes": 2701503051,
+  "sha256": "66803adb2b8623d57d8148028c71a283a16f3edafa4d370503390256ae7cc83b",
+  "md5": "e70ebc8289f762dd8d5086f54e766654",
+  "finished_utc": "2026-10-06T22:17:31.045443+00:00",
+  "integrity_pass": true
+}

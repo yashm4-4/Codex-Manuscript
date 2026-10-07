@@ -1,0 +1,29 @@
+{
+  "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90016001-GCST90017000/GCST90016588/harmonised/33106845-GCST90016588-EFO_0006527-Build37.f.tsv.gz",
+  "accessed_utc": "2026-10-06T22:21:17.149331+00:00",
+  "purpose": "Independent source precision/serialization lineage audit; frozen numeric rule unchanged; native failures retained",
+  "scope": "complete HTTP body",
+  "path": "sources/harmonised/33106845-GCST90016588-EFO_0006527-Build37.f.tsv.gz",
+  "status": 200,
+  "headers": {
+    "Date": "Tue, 06 Oct 2026 22:21:17 GMT",
+    "Server": "Apache",
+    "Last-Modified": "Mon, 10 May 2021 09:05:09 GMT",
+    "ETag": "\"c3c6647-5c1f613132ce2\"",
+    "Accept-Ranges": "bytes",
+    "Content-Length": "205284935",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET,OPTIONS",
+    "Access-Control-Allow-Headers": "Authorization,Origin,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Accept",
+    "Keep-Alive": "timeout=15, max=100",
+    "Connection": "Keep-Alive",
+    "Content-Type": "application/x-gzip"
+  },
+  "bytes": 205284935,
+  "sha256": "df527ba475a80e6ba1cac4408cc716c39744c2aec37d1fe71aa634ba3cfc716b",
+  "md5": "2133e63f863e536437ad5fa9b063cd3b",
+  "expected_md5": "2133e63f863e536437ad5fa9b063cd3b",
+  "provider_md5_pass": true,
+  "complete_http": true,
+  "completed_utc": "2026-10-06T22:22:45.062168+00:00"
+}

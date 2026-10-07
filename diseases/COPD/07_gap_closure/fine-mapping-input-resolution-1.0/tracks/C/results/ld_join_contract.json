@@ -1,0 +1,18 @@
+{
+  "boolean_field": "native_signed_ld_join_eligible",
+  "rule": "qc_status == SOURCE_STATISTIC_QC_PASS and harmonization_status startswith VERIFIED",
+  "scope": "Candidate set for LD compatibility diagnostics only, not execution approval",
+  "provider_high_quality_filter_applied": false,
+  "provider_high_quality_meaning": "gnomAD-genomes PASS and allele-frequency concordance with all four available gnomAD ancestral groups; separate from source EUR trait-specific low_confidence and upstream INFO filter",
+  "info_boundary_policy": "Printed INFO=0.8 remains explicit ambiguity (upstream documented INFO>0.8); not used for GWAS-only locus redefinition and not silently rejected by diagnostic join Boolean. Risk direction withheld conservatively for2 INFO-boundary rows; their input statistics remain retained.",
+  "normalization_collision_policy": "all24 rows unresolved; all P>5e-8; no silent selection of one genotype representation",
+  "counts": {
+    "C_L001": 17801,
+    "C_L002": 49783,
+    "C_L003": 27382,
+    "C_L004": 20055,
+    "C_L005": 18706,
+    "C_L006": 22575,
+    "C_L007": 19448
+  }
+}

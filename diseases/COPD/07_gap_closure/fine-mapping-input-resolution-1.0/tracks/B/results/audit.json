@@ -1,0 +1,61 @@
+{
+  "track": "B",
+  "accession": "GCST90013709",
+  "state": "NOT CLEARED",
+  "complete_GWAS_rows": 8678470,
+  "full_file_integrity": "PASS",
+  "source_signed_direction_contract": "PASS_EXPLICIT_ALT_EFFECT_APPROXIMATE_LOG_OR",
+  "prospective_loci": 5,
+  "prospective_loci_before_MHC": 5,
+  "MHC_deferred_loci": 0,
+  "significant_valid_rows": 462,
+  "locus_variant_rows": {
+    "B_GRCh37_chr12_109801027_114763518": 11531,
+    "B_GRCh37_chr15_77302869_80425435": 12135,
+    "B_GRCh37_chr19_39674903_42942597": 7878,
+    "B_GRCh37_chr3_24020582_27020627": 10612,
+    "B_GRCh37_chr4_88315695_91379196": 9857
+  },
+  "source_schema_signed_identity_pass_nonMHC_loci": 0,
+  "all_summary_statistic_gate_pass_loci": 0,
+  "LD_gate_pass_loci": 0,
+  "execution_cleared_loci": 0,
+  "loci_with_verified_signed_rows": 5,
+  "valid_signed_risk_direction_rows": 51989,
+  "risk_direction_note": "Per-variant estimated disease-increasing allele; no causality or statistical-significance claim. All nonsignificant locus rows retained.",
+  "LD_source_used": "NONE",
+  "LD_blocker": "No legitimate public dense signed Japanese LD matrix or presently accessible genotype-derived route closes the original BBJ COPD sample/variant contract. Controlled-access BBJ data are a viable future request route; a Japanese reference can only be separately justified as external sensitivity after access. 1000 Genomes EAS was not substituted; r-squared was not converted into signed r.",
+  "blockers": [
+    "Exact source score-column/software-branch lineage remains unresolved: a contemporaneous-source Tstat/varT/sqrt(MAC) reconstruction fails338/9141 sampled rows; no statistics are repaired.",
+    "Dense signed Japanese LD is not available under an established legitimate access and original pooled-cohort contract; controlled genotype/reference applications are required.",
+    "Original BBJ + ToMMo/IMM/JPHC/J-MICC representation, exact dosage/allele/order index and release must be established.",
+    "SAIGE SPA-calibrated z is not independently established as ordinary Gaussian/RSS likelihood input; compatible score-covariance/LD diagnostics and effective-sample-size design are unresolved.",
+    "All locus-level signed-LD overlap, lead completeness, PSD/rank/conditioning, boundary, and summary-LD residual diagnostics remain not run.",
+    "No complete method-ready execution input package exists for any locus."
+  ],
+  "future_susie_execution_authorized": false,
+  "duplicate_identity_audit": {
+    "groups": [
+      {
+        "variant_identity": "17_1144632_C_CT",
+        "source_rows": "3112078;3112079;3112080;3112081",
+        "rows": 4,
+        "exact_duplicate_all_fields": false,
+        "unique_row_patterns": 4,
+        "in_prospective_locus": false,
+        "disposition": "Outside prospectively selected loci; all original rows retained; any future locus would defer conflicting duplicate identity or retain first identical row with exclusion ledger"
+      }
+    ],
+    "scan_completed_utc": "2026-10-06T22:22:38.266306+00:00"
+  },
+  "artifact_paths": {
+    "full_audit": "results/whole_file_audit.json",
+    "harmonization": "results/harmonization_audit.json",
+    "loci": "results/loci.tsv",
+    "locus_readiness": "results/locus_readiness.tsv",
+    "locus_variants": "results/locus_variants_harmonized.tsv.gz",
+    "risk_direction": "results/risk_direction.tsv.gz",
+    "LD_contract": "results/ld_source_contract.json"
+  },
+  "completed_utc": "2026-10-06T22:30:27.583482+00:00"
+}

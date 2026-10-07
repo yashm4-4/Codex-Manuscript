@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-10-06T22:29:09.125477+00:00",
+  "before_ld_numeric_evaluation": true,
+  "scope": "Descriptive compatibility diagnostics only; no variant posterior or effect fitting",
+  "matrix_scaling": "Preserve original triangle and positive diagonal; explicit candidate residual-Gram-to-correlation conversion for diagnostics only, with raw source and derived hashes. Scientific release/test compatibility remains a distinct gate",
+  "spectral_diagnostics": "Full float64 symmetric eigendecomposition on complete explicitly retained locus matrix. Numerical rank uses frozen backward-error threshold. No eigenvalue clipping or PSD projection",
+  "null_mismatch_diagnostic": "Report scalar s minimizing sum(log((1-s)*eigenvalue+s) + projected_z^2/((1-s)*eigenvalue+s)) over positive covariance domain, 0<=s<=1. This is the null covariance mismatch diagnostic, not posterior inference or scientific repair. No universal clearance threshold assigned",
+  "optimizer": "scipy minimize_scalar bounded; xatol=1e-8; maxiter=1000; include valid endpoints; retain original eigenvalues",
+  "conditional_residual": "Against source strongest significant retained variant: (z_i-r_ij*z_lead)/sqrt(1-r_ij^2). Report finite residual distribution and near-perfect-LD contrasts separately. This pairwise conditional diagnostic is not joint fine-mapping; multiple signals can produce residuals",
+  "gate": "Numerical passes cannot override unknown statistic/sample/LD provenance or missing-strong-variant gates. No s, residual, or coverage threshold is tuned from these results",
+  "software": "Diagnostic numpy/scipy versions recorded separately; future fine-mapping software never invoked"
+}

@@ -1,0 +1,226 @@
+{
+  "snapshots": [
+    {
+      "captured_utc": "2026-10-06T22:39:54.580450+00:00",
+      "validator_python": "3.9.15 | packaged by conda-forge | (main, Nov 22 2022, 08:45:29) \n[GCC 10.4.0]",
+      "validator_executable": "/usr/local/bin/python",
+      "validator_numpy": "1.24.4",
+      "validator_scipy": "1.11.1",
+      "validator_configuration": "blas_info:\n    libraries = ['cblas', 'blas', 'cblas', 'blas']\n    library_dirs = ['/usr/local/Anaconda/envs/py3.9/lib']\n    include_dirs = ['/usr/local/Anaconda/envs/py3.9/include']\n    language = c\n    define_macros = [('HAVE_CBLAS', None)]\nblas_opt_info:\n    define_macros = [('NO_ATLAS_INFO', 1), ('HAVE_CBLAS', None)]\n    libraries = ['cblas', 'blas', 'cblas', 'blas']\n    library_dirs = ['/usr/local/Anaconda/envs/py3.9/lib']\n    include_dirs = ['/usr/local/Anaconda/envs/py3.9/include']\n    language = c\nlapack_info:\n    libraries = ['lapack', 'blas', 'lapack', 'blas']\n    library_dirs = ['/usr/local/Anaconda/envs/py3.9/lib']\n    language = f77\nlapack_opt_info:\n    libraries = ['lapack', 'blas', 'lapack', 'blas', 'cblas', 'blas', 'cblas', 'blas']\n    library_dirs = ['/usr/local/Anaconda/envs/py3.9/lib']\n    language = c\n    define_macros = [('NO_ATLAS_INFO', 1), ('HAVE_CBLAS', None)]\n    include_dirs = ['/usr/local/Anaconda/envs/py3.9/include']\nSupported SIMD extensions in this NumPy install:\n    baseline = SSE,SSE2,SSE3\n    found = SSSE3,SSE41,POPCNT,SSE42,AVX,F16C,FMA3,AVX2\n    not found = AVX512F,AVX512CD,AVX512_SKX,AVX512_CLX,AVX512_CNL,AVX512_ICL\nBuild Dependencies:\n  blas:\n    detection method: pkgconfig\n    found: true\n    include directory: /usr/local/Anaconda/envs/py3.9/include\n    lib directory: /usr/local/Anaconda/envs/py3.9/lib\n    name: blas\n    openblas configuration: unknown\n    pc file directory: /usr/local/Anaconda/envs/py3.9/lib/pkgconfig\n    version: 3.9.0\n  lapack:\n    detection method: pkgconfig\n    found: true\n    include directory: /usr/local/Anaconda/envs/py3.9/include\n    lib directory: /usr/local/Anaconda/envs/py3.9/lib\n    name: lapack\n    openblas configuration: unknown\n    pc file directory: /usr/local/Anaconda/envs/py3.9/lib/pkgconfig\n    version: 3.9.0\n  pybind11:\n    detection method: pkgconfig\n    include directory: /usr/local/Anaconda/envs/py3.9/include\n    name: pybind11\n    version: 2.10.4\nCompilers:\n  c:\n    commands: /home/conda/feedstock_root/build_artifacts/scipy-split_1687995569849/_build_env/bin/x86_64-conda-linux-gnu-cc\n    linker: ld.bfd\n    name: gcc\n    version: 12.3.0\n  c++:\n    commands: /home/conda/feedstock_root/build_artifacts/scipy-split_1687995569849/_build_env/bin/x86_64-conda-linux-gnu-c++\n    linker: ld.bfd\n    name: gcc\n    version: 12.3.0\n  cython:\n    commands: cython\n    linker: cython\n    name: cython\n    version: 0.29.35\n  fortran:\n    commands: /home/conda/feedstock_root/build_artifacts/scipy-split_1687995569849/_build_env/bin/x86_64-conda-linux-gnu-gfortran\n    linker: ld.bfd\n    name: gcc\n    version: 12.3.0\n  pythran:\n    include directory: ../../../_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/lib/python3.9/site-packages/pythran\n    version: 0.13.1\nMachine Information:\n  build:\n    cpu: x86_64\n    endian: little\n    family: x86_64\n    system: linux\n  cross-compiled: false\n  host:\n    cpu: x86_64\n    endian: little\n    family: x86_64\n    system: linux\nPython Information:\n  path: /usr/local/Anaconda/envs/py3.9/bin/python\n  version: '3.9'\n\n",
+      "running_diagnostic_processes": [
+        {
+          "pid": 1501575,
+          "argv": [
+            "python",
+            "diseases/COPD/07_gap_closure/fine-mapping-input-resolution-1.0/scripts/ld_numeric_diagnostics.py",
+            "C",
+            "C_L001"
+          ],
+          "executable": "/usr/local/Anaconda/envs/py3.9/bin/python3.9",
+          "thread_environment_whitelist": {
+            "OPENBLAS_NUM_THREADS": "16",
+            "OMP_NUM_THREADS": "16"
+          },
+          "loaded_BLAS_LAPACK_library_paths": [
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_core.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_def.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_intel_lp64.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_intel_thread.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_rt.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_vml_def.so.2"
+          ]
+        },
+        {
+          "pid": 1504715,
+          "argv": [
+            "python",
+            "diseases/COPD/07_gap_closure/fine-mapping-input-resolution-1.0/scripts/ld_numeric_diagnostics.py",
+            "C",
+            "C_L003"
+          ],
+          "executable": "/usr/local/Anaconda/envs/py3.9/bin/python3.9",
+          "thread_environment_whitelist": {
+            "OPENBLAS_NUM_THREADS": "16",
+            "OMP_NUM_THREADS": "16"
+          },
+          "loaded_BLAS_LAPACK_library_paths": [
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_core.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_def.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_intel_lp64.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_intel_thread.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_rt.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_vml_def.so.2"
+          ]
+        },
+        {
+          "pid": 1511972,
+          "argv": [
+            "/usr/local/bin/python",
+            "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/fine-mapping-input-resolution-1.0/scripts/ld_numeric_diagnostics.py",
+            "C",
+            "C_L004"
+          ],
+          "executable": "/usr/local/Anaconda/envs/py3.9/bin/python3.9",
+          "thread_environment_whitelist": {
+            "OPENBLAS_NUM_THREADS": "16",
+            "OMP_NUM_THREADS": "16"
+          },
+          "loaded_BLAS_LAPACK_library_paths": [
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_core.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_def.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_intel_lp64.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_intel_thread.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_rt.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_vml_def.so.2"
+          ]
+        },
+        {
+          "pid": 1511973,
+          "argv": [
+            "/usr/local/bin/python",
+            "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/fine-mapping-input-resolution-1.0/scripts/ld_numeric_diagnostics.py",
+            "C",
+            "C_L005"
+          ],
+          "executable": "/usr/local/Anaconda/envs/py3.9/bin/python3.9",
+          "thread_environment_whitelist": {
+            "OPENBLAS_NUM_THREADS": "16",
+            "OMP_NUM_THREADS": "16"
+          },
+          "loaded_BLAS_LAPACK_library_paths": [
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_core.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_def.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_intel_lp64.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_intel_thread.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_rt.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_vml_def.so.2"
+          ]
+        }
+      ],
+      "scope_note": "/proc records actual running numeric processes and whitelisted thread settings/library paths; validator package configuration is identified separately and is not assumed to equal every process runtime. Finished diagnostic reports record their NumPy/SciPy versions. No unrelated environment variables collected."
+    },
+    {
+      "captured_utc": "2026-10-06T22:40:36.307639+00:00",
+      "validator_python": "3.9.15 | packaged by conda-forge | (main, Nov 22 2022, 08:45:29) \n[GCC 10.4.0]",
+      "validator_executable": "/usr/local/bin/python",
+      "validator_numpy": "1.24.4",
+      "validator_scipy": "1.11.1",
+      "validator_configuration": "blas_info:\n    libraries = ['cblas', 'blas', 'cblas', 'blas']\n    library_dirs = ['/usr/local/Anaconda/envs/py3.9/lib']\n    include_dirs = ['/usr/local/Anaconda/envs/py3.9/include']\n    language = c\n    define_macros = [('HAVE_CBLAS', None)]\nblas_opt_info:\n    define_macros = [('NO_ATLAS_INFO', 1), ('HAVE_CBLAS', None)]\n    libraries = ['cblas', 'blas', 'cblas', 'blas']\n    library_dirs = ['/usr/local/Anaconda/envs/py3.9/lib']\n    include_dirs = ['/usr/local/Anaconda/envs/py3.9/include']\n    language = c\nlapack_info:\n    libraries = ['lapack', 'blas', 'lapack', 'blas']\n    library_dirs = ['/usr/local/Anaconda/envs/py3.9/lib']\n    language = f77\nlapack_opt_info:\n    libraries = ['lapack', 'blas', 'lapack', 'blas', 'cblas', 'blas', 'cblas', 'blas']\n    library_dirs = ['/usr/local/Anaconda/envs/py3.9/lib']\n    language = c\n    define_macros = [('NO_ATLAS_INFO', 1), ('HAVE_CBLAS', None)]\n    include_dirs = ['/usr/local/Anaconda/envs/py3.9/include']\nSupported SIMD extensions in this NumPy install:\n    baseline = SSE,SSE2,SSE3\n    found = SSSE3,SSE41,POPCNT,SSE42,AVX,F16C,FMA3,AVX2\n    not found = AVX512F,AVX512CD,AVX512_SKX,AVX512_CLX,AVX512_CNL,AVX512_ICL\nBuild Dependencies:\n  blas:\n    detection method: pkgconfig\n    found: true\n    include directory: /usr/local/Anaconda/envs/py3.9/include\n    lib directory: /usr/local/Anaconda/envs/py3.9/lib\n    name: blas\n    openblas configuration: unknown\n    pc file directory: /usr/local/Anaconda/envs/py3.9/lib/pkgconfig\n    version: 3.9.0\n  lapack:\n    detection method: pkgconfig\n    found: true\n    include directory: /usr/local/Anaconda/envs/py3.9/include\n    lib directory: /usr/local/Anaconda/envs/py3.9/lib\n    name: lapack\n    openblas configuration: unknown\n    pc file directory: /usr/local/Anaconda/envs/py3.9/lib/pkgconfig\n    version: 3.9.0\n  pybind11:\n    detection method: pkgconfig\n    include directory: /usr/local/Anaconda/envs/py3.9/include\n    name: pybind11\n    version: 2.10.4\nCompilers:\n  c:\n    commands: /home/conda/feedstock_root/build_artifacts/scipy-split_1687995569849/_build_env/bin/x86_64-conda-linux-gnu-cc\n    linker: ld.bfd\n    name: gcc\n    version: 12.3.0\n  c++:\n    commands: /home/conda/feedstock_root/build_artifacts/scipy-split_1687995569849/_build_env/bin/x86_64-conda-linux-gnu-c++\n    linker: ld.bfd\n    name: gcc\n    version: 12.3.0\n  cython:\n    commands: cython\n    linker: cython\n    name: cython\n    version: 0.29.35\n  fortran:\n    commands: /home/conda/feedstock_root/build_artifacts/scipy-split_1687995569849/_build_env/bin/x86_64-conda-linux-gnu-gfortran\n    linker: ld.bfd\n    name: gcc\n    version: 12.3.0\n  pythran:\n    include directory: ../../../_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/lib/python3.9/site-packages/pythran\n    version: 0.13.1\nMachine Information:\n  build:\n    cpu: x86_64\n    endian: little\n    family: x86_64\n    system: linux\n  cross-compiled: false\n  host:\n    cpu: x86_64\n    endian: little\n    family: x86_64\n    system: linux\nPython Information:\n  path: /usr/local/Anaconda/envs/py3.9/bin/python\n  version: '3.9'\n\n",
+      "running_diagnostic_processes": [
+        {
+          "pid": 1501575,
+          "argv": [
+            "python",
+            "diseases/COPD/07_gap_closure/fine-mapping-input-resolution-1.0/scripts/ld_numeric_diagnostics.py",
+            "C",
+            "C_L001"
+          ],
+          "executable": "/usr/local/Anaconda/envs/py3.9/bin/python3.9",
+          "thread_environment_whitelist": {
+            "OPENBLAS_NUM_THREADS": "16",
+            "OMP_NUM_THREADS": "16"
+          },
+          "loaded_BLAS_LAPACK_library_paths": [
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_core.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_def.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_intel_lp64.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_intel_thread.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_rt.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_vml_def.so.2"
+          ]
+        },
+        {
+          "pid": 1504715,
+          "argv": [
+            "python",
+            "diseases/COPD/07_gap_closure/fine-mapping-input-resolution-1.0/scripts/ld_numeric_diagnostics.py",
+            "C",
+            "C_L003"
+          ],
+          "executable": "/usr/local/Anaconda/envs/py3.9/bin/python3.9",
+          "thread_environment_whitelist": {
+            "OPENBLAS_NUM_THREADS": "16",
+            "OMP_NUM_THREADS": "16"
+          },
+          "loaded_BLAS_LAPACK_library_paths": [
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_core.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_def.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_intel_lp64.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_intel_thread.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_rt.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_vml_def.so.2"
+          ]
+        },
+        {
+          "pid": 1511972,
+          "argv": [
+            "/usr/local/bin/python",
+            "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/fine-mapping-input-resolution-1.0/scripts/ld_numeric_diagnostics.py",
+            "C",
+            "C_L004"
+          ],
+          "executable": "/usr/local/Anaconda/envs/py3.9/bin/python3.9",
+          "thread_environment_whitelist": {
+            "OPENBLAS_NUM_THREADS": "16",
+            "OMP_NUM_THREADS": "16"
+          },
+          "loaded_BLAS_LAPACK_library_paths": [
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_core.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_def.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_intel_lp64.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_intel_thread.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_rt.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_vml_def.so.2"
+          ]
+        },
+        {
+          "pid": 1511973,
+          "argv": [
+            "/usr/local/bin/python",
+            "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/fine-mapping-input-resolution-1.0/scripts/ld_numeric_diagnostics.py",
+            "C",
+            "C_L005"
+          ],
+          "executable": "/usr/local/Anaconda/envs/py3.9/bin/python3.9",
+          "thread_environment_whitelist": {
+            "OPENBLAS_NUM_THREADS": "16",
+            "OMP_NUM_THREADS": "16"
+          },
+          "loaded_BLAS_LAPACK_library_paths": [
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_core.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_def.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_intel_lp64.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_intel_thread.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_rt.so.2",
+            "/usr/local/Anaconda/envs/py3.9/lib/libmkl_vml_def.so.2"
+          ]
+        }
+      ],
+      "scope_note": "/proc records actual running numeric processes and whitelisted thread settings/library paths; validator package configuration is identified separately and is not assumed to equal every process runtime. Finished diagnostic reports record their NumPy/SciPy versions. No unrelated environment variables collected."
+    },
+    {
+      "captured_utc": "2026-10-06T23:19:20.948418+00:00",
+      "validator_python": "3.9.15 | packaged by conda-forge | (main, Nov 22 2022, 08:45:29) \n[GCC 10.4.0]",
+      "validator_executable": "/usr/local/bin/python",
+      "validator_numpy": "1.24.4",
+      "validator_scipy": "1.11.1",
+      "validator_configuration": "blas_info:\n    libraries = ['cblas', 'blas', 'cblas', 'blas']\n    library_dirs = ['/usr/local/Anaconda/envs/py3.9/lib']\n    include_dirs = ['/usr/local/Anaconda/envs/py3.9/include']\n    language = c\n    define_macros = [('HAVE_CBLAS', None)]\nblas_opt_info:\n    define_macros = [('NO_ATLAS_INFO', 1), ('HAVE_CBLAS', None)]\n    libraries = ['cblas', 'blas', 'cblas', 'blas']\n    library_dirs = ['/usr/local/Anaconda/envs/py3.9/lib']\n    include_dirs = ['/usr/local/Anaconda/envs/py3.9/include']\n    language = c\nlapack_info:\n    libraries = ['lapack', 'blas', 'lapack', 'blas']\n    library_dirs = ['/usr/local/Anaconda/envs/py3.9/lib']\n    language = f77\nlapack_opt_info:\n    libraries = ['lapack', 'blas', 'lapack', 'blas', 'cblas', 'blas', 'cblas', 'blas']\n    library_dirs = ['/usr/local/Anaconda/envs/py3.9/lib']\n    language = c\n    define_macros = [('NO_ATLAS_INFO', 1), ('HAVE_CBLAS', None)]\n    include_dirs = ['/usr/local/Anaconda/envs/py3.9/include']\nSupported SIMD extensions in this NumPy install:\n    baseline = SSE,SSE2,SSE3\n    found = SSSE3,SSE41,POPCNT,SSE42,AVX,F16C,FMA3,AVX2\n    not found = AVX512F,AVX512CD,AVX512_SKX,AVX512_CLX,AVX512_CNL,AVX512_ICL\nBuild Dependencies:\n  blas:\n    detection method: pkgconfig\n    found: true\n    include directory: /usr/local/Anaconda/envs/py3.9/include\n    lib directory: /usr/local/Anaconda/envs/py3.9/lib\n    name: blas\n    openblas configuration: unknown\n    pc file directory: /usr/local/Anaconda/envs/py3.9/lib/pkgconfig\n    version: 3.9.0\n  lapack:\n    detection method: pkgconfig\n    found: true\n    include directory: /usr/local/Anaconda/envs/py3.9/include\n    lib directory: /usr/local/Anaconda/envs/py3.9/lib\n    name: lapack\n    openblas configuration: unknown\n    pc file directory: /usr/local/Anaconda/envs/py3.9/lib/pkgconfig\n    version: 3.9.0\n  pybind11:\n    detection method: pkgconfig\n    include directory: /usr/local/Anaconda/envs/py3.9/include\n    name: pybind11\n    version: 2.10.4\nCompilers:\n  c:\n    commands: /home/conda/feedstock_root/build_artifacts/scipy-split_1687995569849/_build_env/bin/x86_64-conda-linux-gnu-cc\n    linker: ld.bfd\n    name: gcc\n    version: 12.3.0\n  c++:\n    commands: /home/conda/feedstock_root/build_artifacts/scipy-split_1687995569849/_build_env/bin/x86_64-conda-linux-gnu-c++\n    linker: ld.bfd\n    name: gcc\n    version: 12.3.0\n  cython:\n    commands: cython\n    linker: cython\n    name: cython\n    version: 0.29.35\n  fortran:\n    commands: /home/conda/feedstock_root/build_artifacts/scipy-split_1687995569849/_build_env/bin/x86_64-conda-linux-gnu-gfortran\n    linker: ld.bfd\n    name: gcc\n    version: 12.3.0\n  pythran:\n    include directory: ../../../_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/lib/python3.9/site-packages/pythran\n    version: 0.13.1\nMachine Information:\n  build:\n    cpu: x86_64\n    endian: little\n    family: x86_64\n    system: linux\n  cross-compiled: false\n  host:\n    cpu: x86_64\n    endian: little\n    family: x86_64\n    system: linux\nPython Information:\n  path: /usr/local/Anaconda/envs/py3.9/bin/python\n  version: '3.9'\n\n",
+      "running_diagnostic_processes": [],
+      "scope_note": "/proc records actual running numeric processes and whitelisted thread settings/library paths; validator package configuration is identified separately and is not assumed to equal every process runtime. Finished diagnostic reports record their NumPy/SciPy versions. No unrelated environment variables collected."
+    },
+    {
+      "captured_utc": "2026-10-06T23:22:50.532111+00:00",
+      "validator_python": "3.9.15 | packaged by conda-forge | (main, Nov 22 2022, 08:45:29) \n[GCC 10.4.0]",
+      "validator_executable": "/usr/local/bin/python",
+      "validator_numpy": "1.24.4",
+      "validator_scipy": "1.11.1",
+      "validator_configuration": "blas_info:\n    libraries = ['cblas', 'blas', 'cblas', 'blas']\n    library_dirs = ['/usr/local/Anaconda/envs/py3.9/lib']\n    include_dirs = ['/usr/local/Anaconda/envs/py3.9/include']\n    language = c\n    define_macros = [('HAVE_CBLAS', None)]\nblas_opt_info:\n    define_macros = [('NO_ATLAS_INFO', 1), ('HAVE_CBLAS', None)]\n    libraries = ['cblas', 'blas', 'cblas', 'blas']\n    library_dirs = ['/usr/local/Anaconda/envs/py3.9/lib']\n    include_dirs = ['/usr/local/Anaconda/envs/py3.9/include']\n    language = c\nlapack_info:\n    libraries = ['lapack', 'blas', 'lapack', 'blas']\n    library_dirs = ['/usr/local/Anaconda/envs/py3.9/lib']\n    language = f77\nlapack_opt_info:\n    libraries = ['lapack', 'blas', 'lapack', 'blas', 'cblas', 'blas', 'cblas', 'blas']\n    library_dirs = ['/usr/local/Anaconda/envs/py3.9/lib']\n    language = c\n    define_macros = [('NO_ATLAS_INFO', 1), ('HAVE_CBLAS', None)]\n    include_dirs = ['/usr/local/Anaconda/envs/py3.9/include']\nSupported SIMD extensions in this NumPy install:\n    baseline = SSE,SSE2,SSE3\n    found = SSSE3,SSE41,POPCNT,SSE42,AVX,F16C,FMA3,AVX2\n    not found = AVX512F,AVX512CD,AVX512_SKX,AVX512_CLX,AVX512_CNL,AVX512_ICL\nBuild Dependencies:\n  blas:\n    detection method: pkgconfig\n    found: true\n    include directory: /usr/local/Anaconda/envs/py3.9/include\n    lib directory: /usr/local/Anaconda/envs/py3.9/lib\n    name: blas\n    openblas configuration: unknown\n    pc file directory: /usr/local/Anaconda/envs/py3.9/lib/pkgconfig\n    version: 3.9.0\n  lapack:\n    detection method: pkgconfig\n    found: true\n    include directory: /usr/local/Anaconda/envs/py3.9/include\n    lib directory: /usr/local/Anaconda/envs/py3.9/lib\n    name: lapack\n    openblas configuration: unknown\n    pc file directory: /usr/local/Anaconda/envs/py3.9/lib/pkgconfig\n    version: 3.9.0\n  pybind11:\n    detection method: pkgconfig\n    include directory: /usr/local/Anaconda/envs/py3.9/include\n    name: pybind11\n    version: 2.10.4\nCompilers:\n  c:\n    commands: /home/conda/feedstock_root/build_artifacts/scipy-split_1687995569849/_build_env/bin/x86_64-conda-linux-gnu-cc\n    linker: ld.bfd\n    name: gcc\n    version: 12.3.0\n  c++:\n    commands: /home/conda/feedstock_root/build_artifacts/scipy-split_1687995569849/_build_env/bin/x86_64-conda-linux-gnu-c++\n    linker: ld.bfd\n    name: gcc\n    version: 12.3.0\n  cython:\n    commands: cython\n    linker: cython\n    name: cython\n    version: 0.29.35\n  fortran:\n    commands: /home/conda/feedstock_root/build_artifacts/scipy-split_1687995569849/_build_env/bin/x86_64-conda-linux-gnu-gfortran\n    linker: ld.bfd\n    name: gcc\n    version: 12.3.0\n  pythran:\n    include directory: ../../../_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/lib/python3.9/site-packages/pythran\n    version: 0.13.1\nMachine Information:\n  build:\n    cpu: x86_64\n    endian: little\n    family: x86_64\n    system: linux\n  cross-compiled: false\n  host:\n    cpu: x86_64\n    endian: little\n    family: x86_64\n    system: linux\nPython Information:\n  path: /usr/local/Anaconda/envs/py3.9/bin/python\n  version: '3.9'\n\n",
+      "running_diagnostic_processes": [],
+      "scope_note": "/proc records actual running numeric processes and whitelisted thread settings/library paths; validator package configuration is identified separately and is not assumed to equal every process runtime. Finished diagnostic reports record their NumPy/SciPy versions. No unrelated environment variables collected."
+    }
+  ],
+  "final_report_reconciliation": "provenance/diagnostic_runtime_final_audit.json",
+  "actual_diagnostic_binary_hashes": "provenance/diagnostic_binary_hashes.json",
+  "all_actual_diagnostics_used_system_MKL_numpy_1_24_4_scipy_1_11_1": true,
+  "synthetic_OpenBLAS_adopted_for_actual_diagnostics": false
+}

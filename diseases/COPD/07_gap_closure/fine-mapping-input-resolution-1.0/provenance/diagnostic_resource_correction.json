@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-10-06T22:53:07.580684+00:00",
+  "original_script_sha256": "5826889935a08b80492cf07649c21c43fee01a1582c3f7cd288a2689233ed282",
+  "original_script_path": "provenance/ld_numeric_diagnostics_before_resource_limit.py",
+  "reason": "Read-only Slurm inspection found 8 physical cores /16 SMT threads allocation with three active 16-thread MKL solvers; host-wide CPU/memory are not allocation resources. No results or gates motivate this scheduling correction.",
+  "future_worker_threads": 4,
+  "queued_workers": 2,
+  "current_processes_interrupted": false,
+  "float64_evr_algorithm_or_tolerances_changed": false,
+  "scientific_reruns": 0,
+  "allocation_cpu_set": "0-7,32-39",
+  "allocation_memory_cap_gib": 50,
+  "memory_interpretation": "At inspection about half cache/half anonymous, no OOM kill; do not widen scheduler affinity."
+}

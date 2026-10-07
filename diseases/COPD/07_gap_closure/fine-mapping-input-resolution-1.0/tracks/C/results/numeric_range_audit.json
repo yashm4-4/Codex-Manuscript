@@ -1,0 +1,48 @@
+{
+  "rows": 28987534,
+  "full_gzip_decode_crc_pass": true,
+  "fields": {
+    "af_cases_EUR": {
+      "defined": 23861814,
+      "missing": 5125720,
+      "min": 0.0,
+      "max": 1.0,
+      "invalid_range": 0,
+      "nonfinite_nonmissing": 0
+    },
+    "af_controls_EUR": {
+      "defined": 23861814,
+      "missing": 5125720,
+      "min": 2.109e-07,
+      "max": 1.0,
+      "invalid_range": 0,
+      "nonfinite_nonmissing": 0
+    },
+    "beta_EUR": {
+      "defined": 23861814,
+      "missing": 5125720,
+      "min": -133.5,
+      "max": 105.2,
+      "invalid_range": 0,
+      "nonfinite_nonmissing": 0
+    },
+    "se_EUR": {
+      "defined": 23861814,
+      "missing": 5125720,
+      "min": 0.0,
+      "max": 80.03,
+      "invalid_range": 1,
+      "nonfinite_nonmissing": 0
+    },
+    "neglog10_pval_EUR": {
+      "defined": 23861813,
+      "missing": 5125720,
+      "min": 4.315e-08,
+      "max": "Infinity",
+      "invalid_range": 1,
+      "nonfinite_nonmissing": 1
+    }
+  },
+  "nonmissing_invalid_rows": 1,
+  "completed_utc": "2026-10-06T22:24:31.701836+00:00"
+}

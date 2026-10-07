@@ -1,0 +1,31 @@
+{
+  "url": "https://humandbs.dbcls.jp/files/hum0014/hum0014.v17.COPD.v1.zip",
+  "started_utc": "2026-10-06T22:13:42.796532+00:00",
+  "scope": "Original distribution archive; only combined-sex autosomal member scientifically inspected. Other members CRC inventory only.",
+  "status": 200,
+  "headers": {
+    "Date": "Tue, 06 Oct 2026 22:13:43 GMT",
+    "Server": "nginx",
+    "Content-Type": "application/zip",
+    "Content-Length": "2244311450",
+    "Accept-Ranges": "bytes",
+    "Etag": "\"f93d17367e2df17d40a6e90e13ef9ed0-34\"",
+    "Last-Modified": "Thu, 24 Sep 2026 09:30:30 GMT",
+    "Seaweed-X-Amz-ETag": "f93d17367e2df17d40a6e90e13ef9ed0-34",
+    "Seaweed-X-Amz-Owner": "app",
+    "Vary": "Origin",
+    "X-Amz-Request-Id": "18DC106FA86CC1674EEDEDC4",
+    "X-Content-Type-Options": "nosniff",
+    "Content-Disposition": "attachment",
+    "Content-Security-Policy": "sandbox; default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Keep-Alive": "timeout=3, max=1000",
+    "Connection": "Keep-Alive"
+  },
+  "final_url": "https://humandbs.dbcls.jp/files/hum0014/hum0014.v17.COPD.v1.zip",
+  "bytes": 1095176498,
+  "sha256": "666bfae1ca553a8f8f94859726bf7b976d2ab9f14fe0f335ca0f34e72e2fb736",
+  "error": "AssertionError()"
+}

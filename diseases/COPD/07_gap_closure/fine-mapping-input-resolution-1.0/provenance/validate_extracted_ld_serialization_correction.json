@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-06T23:22:49.758079+00:00",
+  "failure": "numpy.bool_ condition_exceeds_warning is not JSON serializable",
+  "phase": "All16 validation scans completed; failure occurred while rendering final JSON before final artifacts/cache were written",
+  "correction": "Explicit builtin bool conversion for condition_exceeds_warning output flag only",
+  "before_script_sha256": "15e65fdd9d6d2597b2cc59f8f3c877f64da088c3be40f4512760417dc6d1ae6c",
+  "after_script_sha256": "e1a5ba9347949fa550f19f4b88aeb499612e739309d619131e655bca12737127",
+  "scientific_formulas_tolerances_or_diagnostic_outputs_changed": false,
+  "validation_only_repeated": true,
+  "posterior_or_eigenvalue_computation_repeated": false,
+  "failed_log": "provenance/validate_extracted_ld_final_attempt1_serialization_failure.log"
+}

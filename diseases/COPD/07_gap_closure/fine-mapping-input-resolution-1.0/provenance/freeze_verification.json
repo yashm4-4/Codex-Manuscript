@@ -1,0 +1,161 @@
+{
+  "status": "PASS",
+  "verification_mode": "INDEPENDENT_FULL_REHASH_NO_CACHE",
+  "completed_utc": "2026-10-06T23:32:02.550426+00:00",
+  "stage": "fine-mapping-input-resolution-1.0",
+  "freeze_path": "provenance/freeze.json",
+  "freeze_sha256": "e16bdd397207590f914162f7513b3335ad602a8cba2ab7e72d2c4ca72dcda04c",
+  "checksum_ledger": "provenance/artifact_checksums.tsv",
+  "checksum_ledger_sha256": "468752b02bb8bd1054ac6fccc29cf3ff0b43c4276a892a76d1a59dab2c54acbd",
+  "payload_files_verified": 3623,
+  "payload_bytes_verified": 127346795830,
+  "exact_payload_inventory_pass": true,
+  "excluded_ephemeral_inventory_pass": true,
+  "all_payload_sha256_size_and_kind_matches": true,
+  "source_acquisition_receipt_sha256_checks": 1496,
+  "source_byte_provenance_crosslinks": {
+    "status": "PASS",
+    "hash_basis": "Acquisition-time source digests compared to final ledger and the same independently rehashed payload digests; no extra source-file hash pass",
+    "access_receipts_seen": 1503,
+    "completed_access_receipt_sha256_links": 1496,
+    "unique_completed_access_payloads": 1496,
+    "root_ld_source_crosslinks": {
+      "ld_matrix_blocks": 485,
+      "ld_variant_index_row_parts": 315,
+      "ld_variant_index_binary_metadata": 630
+    },
+    "central_completed_source_tables": {
+      "tables/full_file_acquisition.tsv": {
+        "records": 7,
+        "source_ids": [
+          "A_FORMATTED37",
+          "A_HARMONIZED38",
+          "A_NATIVE",
+          "B_ARCHIVE",
+          "B_COMBINED_AUTOSOMAL",
+          "C_J44_EUR",
+          "C_VARIANT_MANIFEST"
+        ],
+        "payload_sha256_and_bytes_match_original_receipts": true
+      },
+      "tables/complete_file_integrity.tsv": {
+        "records": 7,
+        "source_ids": [
+          "A_FORMATTED37",
+          "A_HARMONIZED38",
+          "A_NATIVE",
+          "B_ARCHIVE",
+          "B_COMBINED_AUTOSOMAL",
+          "C_J44_EUR",
+          "C_VARIANT_MANIFEST"
+        ],
+        "payload_sha256_and_bytes_match_original_receipts": true
+      }
+    },
+    "central_unique_completed_source_records": 7,
+    "central_original_receipt_sha256_links": 14,
+    "central_evidence_receipt_audit_sha256_links": 42,
+    "negative_or_incomplete_receipts_not_counted_as_completed": [
+      {
+        "receipt": "sources/software/finemap_documentation.html.access.json",
+        "status": null,
+        "error": "SSLError(MaxRetryError(\"HTTPSConnectionPool(host='www.christianbenner.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1129)')))\"))",
+        "source_completion_claim": false,
+        "retained_body": null
+      },
+      {
+        "receipt": "sources/software/finemap_v1.4.2_x86_64.tgz.access.json",
+        "status": null,
+        "error": "SSLError(MaxRetryError(\"HTTPSConnectionPool(host='www.christianbenner.com', port=443): Max retries exceeded with url: /finemap_v1.4.2_x86_64.tgz (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1129)')))\"))",
+        "source_completion_claim": false,
+        "retained_body": null
+      },
+      {
+        "receipt": "sources/software/susieR_0.16.6.tar.gz.access.json",
+        "status": 404,
+        "error": "HTTPError('404 Client Error: Not Found for url: https://cran.r-project.org/src/contrib/Archive/susieR/susieR_0.16.6.tar.gz')",
+        "source_completion_claim": false,
+        "retained_body": "sources/software/susieR_0.16.6.tar.gz"
+      },
+      {
+        "receipt": "sources/software/susieR_current_tar.access.json",
+        "status": 404,
+        "error": null,
+        "source_completion_claim": false,
+        "retained_body": "sources/software/susieR_current_tar"
+      },
+      {
+        "receipt": "tracks/C/sources/ukb_access_official.access.json",
+        "status": 403,
+        "error": null,
+        "source_completion_claim": false,
+        "retained_body": "tracks/C/sources/ukb_access_official"
+      },
+      {
+        "receipt": "tracks/C/sources/ukb_genotyping_2018_faq.pdf.access.json",
+        "status": 403,
+        "error": null,
+        "source_completion_claim": false,
+        "retained_body": "tracks/C/sources/ukb_genotyping_2018_faq.pdf"
+      },
+      {
+        "receipt": "tracks/C/sources/ukb_genotyping_official.access.json",
+        "status": 403,
+        "error": null,
+        "source_completion_claim": false,
+        "retained_body": "tracks/C/sources/ukb_genotyping_official"
+      }
+    ],
+    "retained_negative_response_bodies_sha256_checked": 5,
+    "explicit_receipt_body_aliases": [
+      {
+        "receipt": "sources/software/susieR_0.16.6_github.access.json",
+        "payload": "sources/software/susieR_0.16.6_github.tar.gz",
+        "reason": "Explicit existing receipt/body filename difference; exact acquisition hash verified"
+      },
+      {
+        "receipt": "tracks/C/sources/phenotype_manifest_correct.tsv.access.json",
+        "payload": "tracks/C/sources/phenotype_manifest_correct.tsv.bgz",
+        "reason": "Explicit existing receipt/body filename difference; exact acquisition hash verified"
+      }
+    ],
+    "completed_receipts_missing_source_mapping": 0
+  },
+  "registers": [
+    {
+      "path": "diseases/COPD/07_gap_closure/activity_log.tsv",
+      "sha256": "99253db7384e5f762383584600656428926696d4ebccd582a0fd5d7b3b5671d7",
+      "baseline_prefix_sha256": "5b2a0e9a7e7ceb94472c8858f61d307a49b70a36cfd26426b47ecf1bd3206826",
+      "appended_rows": 3,
+      "append_only_pass": true
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/gap_closure_decision_register.tsv",
+      "sha256": "1302b40d380ce79f1d748e127e6b41f696780687121f87dda5ffebc0bc40e13e",
+      "baseline_prefix_sha256": "fc86ebb6c5faf6d8ab8514cd57c9afb274d7ff28f81e233cf2d64eafcbabd73c",
+      "appended_rows": 4,
+      "append_only_pass": true
+    },
+    {
+      "path": "diseases/COPD/07_gap_closure/gap_closure_result_register.tsv",
+      "sha256": "cd1cc198b58e90131f66b8803af24099c42620503292752246d6105f5964db1b",
+      "baseline_prefix_sha256": "160fa0ab5de91ec9a0f1260656efc0eb6e317678454d86e6bc77fb9de8aea721",
+      "appended_rows": 6,
+      "append_only_pass": true
+    }
+  ],
+  "required_final_artifact_sha256": {
+    "integrity": "ae324887aa61e190583d917c44b84b9e17de7ee3dd06492ea7701c83626c2d25",
+    "extraction": "576c594a172344f1c8dee55ed22c2cd9bd74d83fe969af9501f7b79644b8ce69",
+    "report": "540b0400fc9919d007b161ef3d099793545c51df7dd2861e72b395a0a97a5762",
+    "review": "4ee7ff2f39fef67522c9543ab1be82f0e8c7882290612f423b0535d5454ec4e0"
+  },
+  "HEAD": "54dfd85d457ea4370a497af88bb90ebe10cf26d1",
+  "baseline_tree_unchanged": true,
+  "tracked_changes_only_authorized_registers": true,
+  "prior_preflight_payloads_fully_rehashed": 1794,
+  "no_payload_mutations_during_verification": true,
+  "hash_cache_used": false,
+  "scientific_execution_authorized": false,
+  "scope": "Byte/provenance/register/history verification only; no scientific computations or posterior inference. This receipt binds both closure files and does not hash itself."
+}

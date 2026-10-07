@@ -1,0 +1,414 @@
+{
+  "created_utc": "2026-10-06T23:19:46.862315+00:00",
+  "scope": "Read-only reconciliation of completed diagnostic reports with actual earlier process/library snapshots and final queue receipt; no scientific recomputation.",
+  "status": "PASS_RUNTIME_PROVENANCE_RECONCILIATION",
+  "checks": {
+    "all16_reports_present": true,
+    "new_four_thread_jobs12": true,
+    "original_sixteen_thread_jobs4": true,
+    "all_thread_evidence_pass": true,
+    "all_actual_numpy_scipy_versions_match": true,
+    "all_actual_precision_float64": true,
+    "queue_exact14_expected_jobs": true,
+    "queue_all_exit_zero": true
+  },
+  "counts": {
+    "NEW_FOUR_THREAD": 12,
+    "ORIGINAL_SIXTEEN_THREAD": 4
+  },
+  "jobs": [
+    {
+      "track": "A",
+      "locus_id": "A_chr15_70078560_73206624",
+      "reported_numpy": "1.24.4",
+      "reported_scipy": "1.11.1",
+      "reported_precision": "float64",
+      "resource_regime": "NEW_FOUR_THREAD",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "4",
+        "OMP_NUM_THREADS": "4",
+        "OPENBLAS_NUM_THREADS": "4"
+      },
+      "thread_evidence": "in_process_numeric_diagnostics_receipt",
+      "script_sha256": "6658a75e15898911382f6839dfb7844a4c9dcb71c60767967872212b1e5ef9c9",
+      "script_hash_evidence": "in_process_numeric_diagnostics_receipt",
+      "runtime_cross_check_pass": true,
+      "numeric_report": "ld/A/A_chr15_70078560_73206624/numeric_diagnostics.json",
+      "numeric_report_sha256": "93efd7200d313c38bb4b0898ad4d0a7086dc73c534aa223c437035313f9fa072"
+    },
+    {
+      "track": "A",
+      "locus_id": "A_chr15_77212117_80575335",
+      "reported_numpy": "1.24.4",
+      "reported_scipy": "1.11.1",
+      "reported_precision": "float64",
+      "resource_regime": "NEW_FOUR_THREAD",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "4",
+        "OMP_NUM_THREADS": "4",
+        "OPENBLAS_NUM_THREADS": "4"
+      },
+      "thread_evidence": "in_process_numeric_diagnostics_receipt",
+      "script_sha256": "6658a75e15898911382f6839dfb7844a4c9dcb71c60767967872212b1e5ef9c9",
+      "script_hash_evidence": "in_process_numeric_diagnostics_receipt",
+      "runtime_cross_check_pass": true,
+      "numeric_report": "ld/A/A_chr15_77212117_80575335/numeric_diagnostics.json",
+      "numeric_report_sha256": "fd04bc5a85fe48bd89712ae2f7f73b06cdacf34977e00548ae5d8700dbdd291c"
+    },
+    {
+      "track": "A",
+      "locus_id": "A_chr16_73811812_77016739",
+      "reported_numpy": "1.24.4",
+      "reported_scipy": "1.11.1",
+      "reported_precision": "float64",
+      "resource_regime": "NEW_FOUR_THREAD",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "4",
+        "OMP_NUM_THREADS": "4",
+        "OPENBLAS_NUM_THREADS": "4"
+      },
+      "thread_evidence": "in_process_numeric_diagnostics_receipt",
+      "script_sha256": "6658a75e15898911382f6839dfb7844a4c9dcb71c60767967872212b1e5ef9c9",
+      "script_hash_evidence": "in_process_numeric_diagnostics_receipt",
+      "runtime_cross_check_pass": true,
+      "numeric_report": "ld/A/A_chr16_73811812_77016739/numeric_diagnostics.json",
+      "numeric_report_sha256": "0adec5a59aa39ee5a01caf6a9a1e6b0c8df6db89f93ace8bf976efd05d6a4c8a"
+    },
+    {
+      "track": "A",
+      "locus_id": "A_chr2_228001745_231092415",
+      "reported_numpy": "1.24.4",
+      "reported_scipy": "1.11.1",
+      "reported_precision": "float64",
+      "resource_regime": "NEW_FOUR_THREAD",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "4",
+        "OMP_NUM_THREADS": "4",
+        "OPENBLAS_NUM_THREADS": "4"
+      },
+      "thread_evidence": "in_process_numeric_diagnostics_receipt",
+      "script_sha256": "6658a75e15898911382f6839dfb7844a4c9dcb71c60767967872212b1e5ef9c9",
+      "script_hash_evidence": "in_process_numeric_diagnostics_receipt",
+      "runtime_cross_check_pass": true,
+      "numeric_report": "ld/A/A_chr2_228001745_231092415/numeric_diagnostics.json",
+      "numeric_report_sha256": "54287325044323c9a5a44e7cbe32eb29128b3b6a4b7d65fd57c58b110f8517e5"
+    },
+    {
+      "track": "A",
+      "locus_id": "A_chr3_167160231_170450432",
+      "reported_numpy": "1.24.4",
+      "reported_scipy": "1.11.1",
+      "reported_precision": "float64",
+      "resource_regime": "NEW_FOUR_THREAD",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "4",
+        "OMP_NUM_THREADS": "4",
+        "OPENBLAS_NUM_THREADS": "4"
+      },
+      "thread_evidence": "in_process_numeric_diagnostics_receipt",
+      "script_sha256": "6658a75e15898911382f6839dfb7844a4c9dcb71c60767967872212b1e5ef9c9",
+      "script_hash_evidence": "in_process_numeric_diagnostics_receipt",
+      "runtime_cross_check_pass": true,
+      "numeric_report": "ld/A/A_chr3_167160231_170450432/numeric_diagnostics.json",
+      "numeric_report_sha256": "fa84f448a61c37515b0c8deb31f2d2495477499ea2e8adbb955ad0791955345d"
+    },
+    {
+      "track": "A",
+      "locus_id": "A_chr4_105262244_108341962",
+      "reported_numpy": "1.24.4",
+      "reported_scipy": "1.11.1",
+      "reported_precision": "float64",
+      "resource_regime": "NEW_FOUR_THREAD",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "4",
+        "OMP_NUM_THREADS": "4",
+        "OPENBLAS_NUM_THREADS": "4"
+      },
+      "thread_evidence": "in_process_numeric_diagnostics_receipt",
+      "script_sha256": "6658a75e15898911382f6839dfb7844a4c9dcb71c60767967872212b1e5ef9c9",
+      "script_hash_evidence": "in_process_numeric_diagnostics_receipt",
+      "runtime_cross_check_pass": true,
+      "numeric_report": "ld/A/A_chr4_105262244_108341962/numeric_diagnostics.json",
+      "numeric_report_sha256": "05825ddeec27355049c31d3ad81e5dfd0d910178e53ef2a520bb11d677cc74f0"
+    },
+    {
+      "track": "A",
+      "locus_id": "A_chr4_143727600_147016737",
+      "reported_numpy": "1.24.4",
+      "reported_scipy": "1.11.1",
+      "reported_precision": "float64",
+      "resource_regime": "NEW_FOUR_THREAD",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "4",
+        "OMP_NUM_THREADS": "4",
+        "OPENBLAS_NUM_THREADS": "4"
+      },
+      "thread_evidence": "in_process_numeric_diagnostics_receipt",
+      "script_sha256": "6658a75e15898911382f6839dfb7844a4c9dcb71c60767967872212b1e5ef9c9",
+      "script_hash_evidence": "in_process_numeric_diagnostics_receipt",
+      "runtime_cross_check_pass": true,
+      "numeric_report": "ld/A/A_chr4_143727600_147016737/numeric_diagnostics.json",
+      "numeric_report_sha256": "569a6a27ac773f73be3b1baa3342110f8e253d41b9997352cb3b71b2d5152106"
+    },
+    {
+      "track": "A",
+      "locus_id": "A_chr4_88300892_91560531",
+      "reported_numpy": "1.24.4",
+      "reported_scipy": "1.11.1",
+      "reported_precision": "float64",
+      "resource_regime": "NEW_FOUR_THREAD",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "4",
+        "OMP_NUM_THREADS": "4",
+        "OPENBLAS_NUM_THREADS": "4"
+      },
+      "thread_evidence": "in_process_numeric_diagnostics_receipt",
+      "script_sha256": "6658a75e15898911382f6839dfb7844a4c9dcb71c60767967872212b1e5ef9c9",
+      "script_hash_evidence": "in_process_numeric_diagnostics_receipt",
+      "runtime_cross_check_pass": true,
+      "numeric_report": "ld/A/A_chr4_88300892_91560531/numeric_diagnostics.json",
+      "numeric_report_sha256": "a7599a6eb49a14661f6ead6a466cf35737c01feafb95ee973a8da59d32a1e1e2"
+    },
+    {
+      "track": "A",
+      "locus_id": "A_chr5_146267580_149356522",
+      "reported_numpy": "1.24.4",
+      "reported_scipy": "1.11.1",
+      "reported_precision": "float64",
+      "resource_regime": "NEW_FOUR_THREAD",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "4",
+        "OMP_NUM_THREADS": "4",
+        "OPENBLAS_NUM_THREADS": "4"
+      },
+      "thread_evidence": "in_process_numeric_diagnostics_receipt",
+      "script_sha256": "6658a75e15898911382f6839dfb7844a4c9dcb71c60767967872212b1e5ef9c9",
+      "script_hash_evidence": "in_process_numeric_diagnostics_receipt",
+      "runtime_cross_check_pass": true,
+      "numeric_report": "ld/A/A_chr5_146267580_149356522/numeric_diagnostics.json",
+      "numeric_report_sha256": "c11bf5835375d6fafa0cbb4c98fae1195f00202fcbd5ab2dfe4b6668e97d9748"
+    },
+    {
+      "track": "A",
+      "locus_id": "A_chr6_141148056_144366387",
+      "reported_numpy": "1.24.4",
+      "reported_scipy": "1.11.1",
+      "reported_precision": "float64",
+      "resource_regime": "NEW_FOUR_THREAD",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "4",
+        "OMP_NUM_THREADS": "4",
+        "OPENBLAS_NUM_THREADS": "4"
+      },
+      "thread_evidence": "in_process_numeric_diagnostics_receipt",
+      "script_sha256": "6658a75e15898911382f6839dfb7844a4c9dcb71c60767967872212b1e5ef9c9",
+      "script_hash_evidence": "in_process_numeric_diagnostics_receipt",
+      "runtime_cross_check_pass": true,
+      "numeric_report": "ld/A/A_chr6_141148056_144366387/numeric_diagnostics.json",
+      "numeric_report_sha256": "5e360a7a9a0cf11d140ef2e6c00b05fc2abd43fe823cfd23dd12cc759e7d7cd8"
+    },
+    {
+      "track": "C",
+      "locus_id": "C_L001",
+      "reported_numpy": "1.24.4",
+      "reported_scipy": "1.11.1",
+      "reported_precision": "float64",
+      "resource_regime": "ORIGINAL_SIXTEEN_THREAD",
+      "thread_environment": {
+        "OPENBLAS_NUM_THREADS": "16",
+        "OMP_NUM_THREADS": "16"
+      },
+      "thread_evidence": "earlier_independent_live_proc_snapshot",
+      "script_sha256": "5826889935a08b80492cf07649c21c43fee01a1582c3f7cd288a2689233ed282",
+      "script_hash_evidence": "preserved_prior_script_copy_not_an_original_per_job_hash",
+      "runtime_cross_check_pass": true,
+      "numeric_report": "ld/C/C_L001/numeric_diagnostics.json",
+      "numeric_report_sha256": "83ea6cac4b78708febabbf6e2355d1fc184f11767d73e793bad2202b59b8c41a"
+    },
+    {
+      "track": "C",
+      "locus_id": "C_L003",
+      "reported_numpy": "1.24.4",
+      "reported_scipy": "1.11.1",
+      "reported_precision": "float64",
+      "resource_regime": "ORIGINAL_SIXTEEN_THREAD",
+      "thread_environment": {
+        "OPENBLAS_NUM_THREADS": "16",
+        "OMP_NUM_THREADS": "16"
+      },
+      "thread_evidence": "earlier_independent_live_proc_snapshot",
+      "script_sha256": "5826889935a08b80492cf07649c21c43fee01a1582c3f7cd288a2689233ed282",
+      "script_hash_evidence": "preserved_prior_script_copy_not_an_original_per_job_hash",
+      "runtime_cross_check_pass": true,
+      "numeric_report": "ld/C/C_L003/numeric_diagnostics.json",
+      "numeric_report_sha256": "b3b6b90659cdc7e23e05bb568c656b77cd60e071af1cb6f02cb6736a9a687e61"
+    },
+    {
+      "track": "C",
+      "locus_id": "C_L004",
+      "reported_numpy": "1.24.4",
+      "reported_scipy": "1.11.1",
+      "reported_precision": "float64",
+      "resource_regime": "ORIGINAL_SIXTEEN_THREAD",
+      "thread_environment": {
+        "OPENBLAS_NUM_THREADS": "16",
+        "OMP_NUM_THREADS": "16"
+      },
+      "thread_evidence": "earlier_independent_live_proc_snapshot",
+      "script_sha256": "5826889935a08b80492cf07649c21c43fee01a1582c3f7cd288a2689233ed282",
+      "script_hash_evidence": "preserved_prior_script_copy_not_an_original_per_job_hash",
+      "runtime_cross_check_pass": true,
+      "numeric_report": "ld/C/C_L004/numeric_diagnostics.json",
+      "numeric_report_sha256": "e1537630e0640ba21d8024fae13ac410a12ced35ba9e5a9f43a6f7b79c7a2cdb"
+    },
+    {
+      "track": "C",
+      "locus_id": "C_L005",
+      "reported_numpy": "1.24.4",
+      "reported_scipy": "1.11.1",
+      "reported_precision": "float64",
+      "resource_regime": "ORIGINAL_SIXTEEN_THREAD",
+      "thread_environment": {
+        "OPENBLAS_NUM_THREADS": "16",
+        "OMP_NUM_THREADS": "16"
+      },
+      "thread_evidence": "earlier_independent_live_proc_snapshot",
+      "script_sha256": "5826889935a08b80492cf07649c21c43fee01a1582c3f7cd288a2689233ed282",
+      "script_hash_evidence": "preserved_prior_script_copy_not_an_original_per_job_hash",
+      "runtime_cross_check_pass": true,
+      "numeric_report": "ld/C/C_L005/numeric_diagnostics.json",
+      "numeric_report_sha256": "5fab86b048ff7627aefe981c80d672813ca8042efba116e17d8cfced879ed1b9"
+    },
+    {
+      "track": "C",
+      "locus_id": "C_L006",
+      "reported_numpy": "1.24.4",
+      "reported_scipy": "1.11.1",
+      "reported_precision": "float64",
+      "resource_regime": "NEW_FOUR_THREAD",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "4",
+        "OMP_NUM_THREADS": "4",
+        "OPENBLAS_NUM_THREADS": "4"
+      },
+      "thread_evidence": "in_process_numeric_diagnostics_receipt",
+      "script_sha256": "6658a75e15898911382f6839dfb7844a4c9dcb71c60767967872212b1e5ef9c9",
+      "script_hash_evidence": "in_process_numeric_diagnostics_receipt",
+      "runtime_cross_check_pass": true,
+      "numeric_report": "ld/C/C_L006/numeric_diagnostics.json",
+      "numeric_report_sha256": "60e221a35bf441b38097e31fcda9e76be4cfb8dcf0efef0f01fa66977bb8cf89"
+    },
+    {
+      "track": "C",
+      "locus_id": "C_L007",
+      "reported_numpy": "1.24.4",
+      "reported_scipy": "1.11.1",
+      "reported_precision": "float64",
+      "resource_regime": "NEW_FOUR_THREAD",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "4",
+        "OMP_NUM_THREADS": "4",
+        "OPENBLAS_NUM_THREADS": "4"
+      },
+      "thread_evidence": "in_process_numeric_diagnostics_receipt",
+      "script_sha256": "6658a75e15898911382f6839dfb7844a4c9dcb71c60767967872212b1e5ef9c9",
+      "script_hash_evidence": "in_process_numeric_diagnostics_receipt",
+      "runtime_cross_check_pass": true,
+      "numeric_report": "ld/C/C_L007/numeric_diagnostics.json",
+      "numeric_report_sha256": "8ad269848a204c2d9f60dbd6ce8b6fad7f6e94c32a0d78b1e6f13819fbbebe76"
+    }
+  ],
+  "queue_final_receipt": "provenance/remaining_ld_diagnostic_jobs.json",
+  "queue_final_sha256": "93023e585708712e1a79d3f4f603892fa53beeb10470015ca4f6ac35bfd60018",
+  "binary_hashes": "provenance/diagnostic_binary_hashes.json",
+  "synthetic_OpenBLAS_not_adopted": true,
+  "caveat": "Current script hash was newly recorded only by the12 future workers. The four earlier process resource settings were independently observed while running and their original algorithm script is preserved; no retroactive per-job source hash is fabricated.",
+  "final_validator_live_resource_observations": [
+    {
+      "pid": 1541228,
+      "executable": "/usr/local/Anaconda/envs/py3.9/bin/python3.9",
+      "argv": [
+        "python",
+        "diseases/COPD/07_gap_closure/fine-mapping-input-resolution-1.0/scripts/validate_extracted_ld.py",
+        "--final"
+      ],
+      "observed_utc": "2026-10-06T23:20:27.480023+00:00",
+      "thread_environment_whitelist": {
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1"
+      },
+      "thread_count": 2,
+      "affinity": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "pid": 1543766,
+      "executable": "/usr/local/Anaconda/envs/py3.9/bin/python3.9",
+      "argv": [
+        "python",
+        "diseases/COPD/07_gap_closure/fine-mapping-input-resolution-1.0/scripts/validate_extracted_ld.py",
+        "--final"
+      ],
+      "observed_utc": "2026-10-06T23:23:05.365321+00:00",
+      "thread_environment_whitelist": {
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1"
+      },
+      "thread_count": 2,
+      "affinity": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "attempt": "FINAL_AFTER_OUTPUT_BOOLEAN_SERIALIZATION_FIX"
+    }
+  ],
+  "final_validator_threads_one_confirmed": true,
+  "final_validator_result": {
+    "mode": "final",
+    "status": "PASS_EXTRACTION_AND_OUTPUT_VALIDATION_ONLY",
+    "checks": {
+      "PASS": 1494
+    },
+    "loci": 16,
+    "source_unique_blocks": 485,
+    "significant_seed_boundary_rows": 1855,
+    "rank_deficient_loci": 16,
+    "condition_warning_loci": 16,
+    "extraction_validation_sha256": "576c594a172344f1c8dee55ed22c2cd9bd74d83fe969af9501f7b79644b8ce69",
+    "scientific_execution_clearance": false,
+    "no_eigendecomposition_or_posterior_inference_performed": true
+  },
+  "finalized_utc": "2026-10-06T23:26:21.961965+00:00"
+}

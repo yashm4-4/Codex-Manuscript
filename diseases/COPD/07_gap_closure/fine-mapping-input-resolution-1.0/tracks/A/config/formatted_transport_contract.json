@@ -1,0 +1,10 @@
+{
+  "frozen_before_formatted_release_inspection": true,
+  "rationale": "Check the separate original formatted provider artifact for independently recorded precision; do not alter native failure classifications or the frozen effect-statistic interval gate.",
+  "row_transport_identity": "same ordinal row and exact chromosome, position, normalized missing-rsID token, effect allele and other allele; no rsID-only joins",
+  "numeric_transport": "p, OR and SE compared in IEEE754 float64; report exact equality separately from <=4ULP serialization-only differences; any larger difference blocks equivalence",
+  "maximum_ulp_for_serialization_equivalence": 4,
+  "effect_test": "identical log_p_numerical_slack=1e-10 and literal last-printed-digit interval rule already frozen in effect_contract.json; no changed gate",
+  "native_failure_preservation": true,
+  "source_choice": "No substitute release promoted without full count/schema/MD5/transport and signed-statistic audit; discrepancies remain explicit"
+}

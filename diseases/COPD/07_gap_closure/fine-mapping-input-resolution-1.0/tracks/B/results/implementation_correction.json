@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-06T22:24:51.677483+00:00",
+  "type": "IMPLEMENTATION_CORRECTION_NOT_GATE_CHANGE",
+  "issue": "First implementation included nominal-N deviation in row failure union despite frozen summary_row_gate expressly requiring positive N. Variant-specific N is an intended recorded field.",
+  "unchanged_frozen_rule": "summary_row_gate includes positive N, not fixed nominal N; n_expected is sample comparison metadata",
+  "fix": "Keep N_unexpected counts as diagnostic only; require N_nonpositive false in row gate. Preserve observed per-variant N rather than overwrite.",
+  "prior_attempt_directory": "implementation_correction_prior_attempt",
+  "prior_script": "scripts/initial_nominal_N_audit.py",
+  "scientific_tolerances_changed": false
+}

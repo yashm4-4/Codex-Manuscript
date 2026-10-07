@@ -1,0 +1,30 @@
+{
+  "url": "https://pan-ukb-us-east-1.s3.amazonaws.com/ld_release/UKBB.EUR.ldadj.variant.ht/index/part-10455-38-10455-0-78e65f11-caa3-144e-b9d6-a083d52fbb88.idx/metadata.json.gz",
+  "started_utc": "2026-10-06T22:22:05.774563+00:00",
+  "request_headers": {
+    "Accept-Encoding": "identity"
+  },
+  "path": "/vf/users/Dcode/yash/Codex-Manuscript/disease-regulatory-genomics-workflow/diseases/COPD/07_gap_closure/fine-mapping-input-resolution-1.0/ld/source/UKBB.EUR.ldadj.variant.ht/index/part-10455-38-10455-0-78e65f11-caa3-144e-b9d6-a083d52fbb88.idx/metadata.json.gz",
+  "complete": true,
+  "http_status": 200,
+  "final_url": "https://pan-ukb-us-east-1.s3.amazonaws.com/ld_release/UKBB.EUR.ldadj.variant.ht/index/part-10455-38-10455-0-78e65f11-caa3-144e-b9d6-a083d52fbb88.idx/metadata.json.gz",
+  "response_headers": {
+    "x-amz-id-2": "/aEQ9Kv2D9pUVda07ugW3SOBkQCyXagB1QVtN7+5RxqoLB6psGHshNxV9PdAsl5bvfherwWgyROfV673ujR7ifBLILuoQq0w",
+    "x-amz-request-id": "7ADFGMM2GJ28SGXM",
+    "Server": "AmazonS3",
+    "Date": "Tue, 06 Oct 2026 22:22:06 GMT",
+    "Last-Modified": "Wed, 22 Feb 2023 02:36:18 GMT",
+    "ETag": "\"add954ae3df1c878e8f48a7844ec0a46\"",
+    "x-amz-server-side-encryption": "AES256",
+    "x-amz-version-id": "zMqBkSuNi1gNbs6Mt8JHj28w7aCdfc9V",
+    "Accept-Ranges": "bytes",
+    "Content-Type": "binary/octet-stream",
+    "Content-Length": "189"
+  },
+  "content_length_matches": true,
+  "completed_utc": "2026-10-06T22:22:05.953499+00:00",
+  "bytes": 189,
+  "sha256": "79d4c67c3b0fa664426d27aa384886ccbc511b04c0a32c99307b8292f41d3c3b",
+  "md5": "add954ae3df1c878e8f48a7844ec0a46",
+  "seconds": 0.17893450998235494
+}

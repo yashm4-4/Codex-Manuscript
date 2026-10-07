@@ -1,0 +1,32 @@
+[
+  {
+    "path": "diseases/COPD/07_gap_closure/activity_log.tsv",
+    "before_bytes": 28116,
+    "before_sha256": "5b2a0e9a7e7ceb94472c8858f61d307a49b70a36cfd26426b47ecf1bd3206826",
+    "appended_rows": 3,
+    "appended_bytes": 1673,
+    "bytes": 29789,
+    "sha256": "99253db7384e5f762383584600656428926696d4ebccd582a0fd5d7b3b5671d7",
+    "append_only": true
+  },
+  {
+    "path": "diseases/COPD/07_gap_closure/gap_closure_decision_register.tsv",
+    "before_bytes": 24887,
+    "before_sha256": "fc86ebb6c5faf6d8ab8514cd57c9afb274d7ff28f81e233cf2d64eafcbabd73c",
+    "appended_rows": 4,
+    "appended_bytes": 1851,
+    "bytes": 26738,
+    "sha256": "1302b40d380ce79f1d748e127e6b41f696780687121f87dda5ffebc0bc40e13e",
+    "append_only": true
+  },
+  {
+    "path": "diseases/COPD/07_gap_closure/gap_closure_result_register.tsv",
+    "before_bytes": 36386,
+    "before_sha256": "160fa0ab5de91ec9a0f1260656efc0eb6e317678454d86e6bc77fb9de8aea721",
+    "appended_rows": 6,
+    "appended_bytes": 2174,
+    "bytes": 38560,
+    "sha256": "cd1cc198b58e90131f66b8803af24099c42620503292752246d6105f5964db1b",
+    "append_only": true
+  }
+]

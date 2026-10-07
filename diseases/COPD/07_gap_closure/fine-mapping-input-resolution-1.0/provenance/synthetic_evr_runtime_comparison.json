@@ -1,0 +1,65 @@
+{
+  "scope": "BOUNDED_ENGINEERING_ONLY_SYNTHETIC_INPUT_NO_REAL_DATA_RERUN",
+  "utc": "2026-10-06T23:03:50.835129+00:00",
+  "dimension": 1200,
+  "thread_count_each_runtime": 2,
+  "sequential_runtime_launches": true,
+  "nice_each_runtime": 10,
+  "algorithm": "float64 scipy.linalg.eigh driver=evr, full symmetric spectrum and vectors",
+  "identical_synthetic_input_hash": true,
+  "matrix_sha256": "0653849cb0d8f1c7606ae5550d4787c7b16ccbf8bc28eb96794dd08195b98be4",
+  "maximum_eigenvalue_difference": 1.0658141036401503e-14,
+  "frozen_style_backward_error_tolerance": 3.783870190948818e-10,
+  "eigenvalue_cross_runtime_pass": true,
+  "sampled_eigenpair_residual_pass_both": true,
+  "runtimes": {
+    "system_MKL": {
+      "executable": "/usr/local/bin/python",
+      "numpy": "1.24.4",
+      "scipy": "1.11.1",
+      "eigensolver_wall_seconds": 5.733996249968186,
+      "eigensolver_cpu_seconds": 1.327850986,
+      "loaded_blas_lapack": [
+        "/usr/local/Anaconda/envs/py3.9/lib/libmkl_core.so.2",
+        "/usr/local/Anaconda/envs/py3.9/lib/libmkl_def.so.2",
+        "/usr/local/Anaconda/envs/py3.9/lib/libmkl_intel_lp64.so.2",
+        "/usr/local/Anaconda/envs/py3.9/lib/libmkl_intel_thread.so.2",
+        "/usr/local/Anaconda/envs/py3.9/lib/libmkl_rt.so.2",
+        "/usr/local/Anaconda/envs/py3.9/lib/libmkl_vml_def.so.2",
+        "/usr/local/Anaconda/envs/py3.9/lib/python3.9/site-packages/scipy/linalg/_flapack.cpython-39-x86_64-linux-gnu.so",
+        "/usr/local/Anaconda/envs/py3.9/lib/python3.9/site-packages/scipy/linalg/cython_lapack.cpython-39-x86_64-linux-gnu.so"
+      ],
+      "sampled_eigenpair_residual_max_abs": 1.3156142841808105e-14
+    },
+    "existing_Hail_OpenBLAS": {
+      "executable": "/tmp/copd-input-resolution-tools/bin/python",
+      "numpy": "2.4.6",
+      "scipy": "1.17.1",
+      "eigensolver_wall_seconds": 0.6134130239952356,
+      "eigensolver_cpu_seconds": 1.0426487789999999,
+      "loaded_blas_lapack": [
+        "/tmp/copd-input-resolution-tools/lib/python3.11/site-packages/numpy.libs/libscipy_openblas64_-32a4b2a6.so",
+        "/tmp/copd-input-resolution-tools/lib/python3.11/site-packages/scipy.libs/libscipy_openblas-6cdc3b4a.so",
+        "/tmp/copd-input-resolution-tools/lib/python3.11/site-packages/scipy/linalg/_flapack.cpython-311-x86_64-linux-gnu.so",
+        "/tmp/copd-input-resolution-tools/lib/python3.11/site-packages/scipy/linalg/cython_lapack.cpython-311-x86_64-linux-gnu.so"
+      ],
+      "sampled_eigenpair_residual_max_abs": 4.191091917959966e-15
+    }
+  },
+  "ratios_system_over_hail": {
+    "wall_seconds": 9.34769237963347,
+    "process_cpu_seconds": 1.2735362211554464
+  },
+  "scientific_contract_review": {
+    "diagnostic_numpy_scipy_versions_recorded_separately": true,
+    "frozen_contract_pins_diagnostic_numpy_scipy_binaries": false,
+    "float64_epsilon_and_tolerances_unchanged": true,
+    "eigensolver_driver_unchanged": true,
+    "real_diagnostic_script_modified_by_inspector": false,
+    "real_diagnostic_input_or_output_read_by_probe": false
+  },
+  "recommendation": "Existing Hail OpenBLAS runtime is a defensible prospective engineering runtime for not-yet-started A jobs with unchanged diagnostic script, two or four thread cap and existing thresholds, if parent chooses and records package/library/script hashes before A launches. Preserve completed and running MKL diagnostics. This small test validates synthetic numerical agreement, not all real-input rounding or a guaranteed large-matrix speedup.",
+  "performance_caveat": "Wall ratio is strongly confounded by changing shared-allocation scheduling/nice10 load: system consumed only1.33 CPU sec across5.73 wall sec, versus Hail1.04 CPU sec across0.61 wall sec. CPU ratio1.27 supports only modest work-efficiency evidence. Do not claim9.35x inherent library speedup. No large benchmark or real-data repetition performed.",
+  "preserved_failed_attempt": "provenance/synthetic_evr_probe_attempt1_failure.json",
+  "probe_code_sha256": "eafc234d5a58dd00f056dc0dbe2eb2441f800e92eb1f135255754d87ad254d00"
+}

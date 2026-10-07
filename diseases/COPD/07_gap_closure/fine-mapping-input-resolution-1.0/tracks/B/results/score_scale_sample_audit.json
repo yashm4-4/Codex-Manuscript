@@ -1,0 +1,12 @@
+{
+  "method": "Source-code-derived branch expression; p.value.NA>0.05 fast branch beta=Tstat/varT; otherwise SPA branch beta=Tstat/(varT*sqrt(MAC)). No effects or rows altered.",
+  "source_snapshot": "sources/saige_step2_20180921.R",
+  "sample_rows": 9141,
+  "normal_branch_rows": 8217,
+  "SPA_branch_rows": 924,
+  "failing_tolerance_rows": 338,
+  "maximum_absolute_error": 0.6494319976963524,
+  "utc": "2026-10-06T22:29:56.150021+00:00",
+  "status": "UNRESOLVED_SCORE_COLUMN_LINEAGE",
+  "interpretation": "The source-derived simple branch reconstruction fails338 of9141 sampled rows, including variant-specific-N chr12 rows that use unscaled Tstat/varT despite SPA P. This does not alter the explicit ALT BETA direction or exact BETA/SE-to-SPA-P agreement. The exact score-column/software branch lineage is not fully resolved; retain as additional likelihood blocker rather than repair statistics."
+}

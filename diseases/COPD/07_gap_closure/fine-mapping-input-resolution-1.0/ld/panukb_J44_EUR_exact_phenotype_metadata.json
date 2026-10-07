@@ -1,0 +1,25 @@
+{
+  "trait_type": "icd10",
+  "phenocode": "J44",
+  "pheno_sex": "both_sexes",
+  "coding": "",
+  "modifier": "",
+  "pheno_data": [
+    {
+      "n_cases": 11536,
+      "n_controls": 408995,
+      "heritability": 0.16289657602855528,
+      "saige_version": "SAIGE_0.36.3",
+      "inv_normalized": false,
+      "pop": "EUR"
+    }
+  ],
+  "description": "J44 Other chronic obstructive pulmonary disease",
+  "description_more": "truncated: true",
+  "coding_description": null,
+  "category": "Chapter X Diseases of the respiratory system | J40-J47 Chronic lower respiratory diseases | J44 Other chronic obstructive pulmonary disease",
+  "n_cases_full_cohort_both_sexes": 12755,
+  "n_cases_full_cohort_females": 5330,
+  "n_cases_full_cohort_males": 6582,
+  "provenance_caveat": "Current provider Hail column container last modified 2024; flat-file manifest/checksum separately validated. Only EUR J44 association-specific metadata used."
+}

@@ -1,0 +1,15 @@
+{
+  "locus_id": "C_L001",
+  "track": "C",
+  "variants": 17801,
+  "ordered_inputs_sha256": "78d099a3fa45844479ebb2e6a262992f720882168504f88e3b732652a593eb74",
+  "matrix_sha256": "8d285909589110147437b886189c454a33634179fbc6fa9a80651a70bb901ca1",
+  "shape": [
+    17801,
+    17801
+  ],
+  "dtype": "float64",
+  "original_upper_triangle": true,
+  "ld_recomputed_from_genotypes": false,
+  "posterior_inference": false
+}

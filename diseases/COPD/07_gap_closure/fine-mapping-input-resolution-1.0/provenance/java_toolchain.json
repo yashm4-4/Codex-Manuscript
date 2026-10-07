@@ -1,0 +1,81 @@
+{
+  "java_home": "/tmp/copd-input-resolution-tools/jdk-11.0.32.1+1",
+  "asset": {
+    "binary": {
+      "architecture": "x64",
+      "download_count": 1346183,
+      "heap_size": "normal",
+      "image_type": "jdk",
+      "jvm_impl": "hotspot",
+      "os": "linux",
+      "package": {
+        "checksum": "5c3f68887c325d36d852ba534303e1f5f1f5cae7d6cc1e951d73e0d8e98a058d",
+        "checksum_link": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-jdk_x64_linux_hotspot_11.0.32.1_1.tar.gz.sha256.txt",
+        "download_count": 1346183,
+        "link": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-jdk_x64_linux_hotspot_11.0.32.1_1.tar.gz",
+        "metadata_link": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-jdk_x64_linux_hotspot_11.0.32.1_1.tar.gz.json",
+        "name": "OpenJDK11U-jdk_x64_linux_hotspot_11.0.32.1_1.tar.gz",
+        "signature_link": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-jdk_x64_linux_hotspot_11.0.32.1_1.tar.gz.sig",
+        "size": 195609919
+      },
+      "project": "jdk",
+      "scm_ref": "jdk-11.0.32.1+1_adopt",
+      "updated_at": "2026-08-24T08:24:03Z"
+    },
+    "release_link": "https://github.com/adoptium/temurin11-binaries/releases/tag/jdk-11.0.32.1%2B1",
+    "release_name": "jdk-11.0.32.1+1",
+    "vendor": "eclipse",
+    "version": {
+      "build": 1,
+      "major": 11,
+      "minor": 0,
+      "openjdk_version": "11.0.32.1+1",
+      "patch": 1,
+      "security": 32,
+      "semver": "11.0.32+101"
+    }
+  },
+  "acquisition": {
+    "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-jdk_x64_linux_hotspot_11.0.32.1_1.tar.gz",
+    "started_utc": "2026-10-06T22:15:50.007780+00:00",
+    "request_headers": {
+      "Accept-Encoding": "identity"
+    },
+    "path": "/tmp/copd-input-resolution-tools/OpenJDK11U-jdk_x64_linux_hotspot_11.0.32.1_1.tar.gz",
+    "complete": true,
+    "http_status": 200,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/372924883/2547374e-19cb-4859-8b02-f052df114746?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-06T23%3A02%3A15Z&rscd=attachment%3B+filename%3DOpenJDK11U-jdk_x64_linux_hotspot_11.0.32.1_1.tar.gz&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-10-06T22%3A02%3A09Z&ske=2026-10-06T23%3A02%3A15Z&sks=b&skv=2018-11-09&sig=wR1t%2FFWoF3%2Fq%2BBijLIv7tXoTllTOlit7CI5EQBu8ggo%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5MTMyODQ2MSwibmJmIjoxNzkxMzI0ODYxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.ammPDAiigo8PC8dk1i919BsaI1_uTXL1DeDUCo7zyDY&response-content-disposition=attachment%3B%20filename%3DOpenJDK11U-jdk_x64_linux_hotspot_11.0.32.1_1.tar.gz&response-content-type=application%2Foctet-stream",
+    "response_headers": {
+      "Connection": "keep-alive",
+      "Content-Length": "195609919",
+      "Last-Modified": "Mon, 24 Aug 2026 08:24:03 GMT",
+      "ETag": "\"0x8DF01B90E6DBBC3\"",
+      "Server": "Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0",
+      "x-ms-request-id": "00008c42-a01e-000c-31a3-33765d000000",
+      "x-ms-version": "2018-11-09",
+      "x-ms-creation-time": "Mon, 24 Aug 2026 08:24:03 GMT",
+      "x-ms-lease-status": "unlocked",
+      "x-ms-lease-state": "available",
+      "x-ms-blob-type": "BlockBlob",
+      "x-ms-server-encrypted": "true",
+      "x-ms-access-tier": "Hot",
+      "x-ms-access-tier-inferred": "true",
+      "Accept-Ranges": "bytes",
+      "Date": "Tue, 06 Oct 2026 22:15:50 GMT",
+      "Via": "1.1 varnish",
+      "Age": "2450",
+      "X-Served-By": "cache-iad-kcgs7200104-IAD",
+      "X-Cache": "HIT",
+      "X-Cache-Hits": "1",
+      "X-Timer": "S1791324950.098434,VS0,VE21",
+      "Content-Disposition": "attachment; filename=OpenJDK11U-jdk_x64_linux_hotspot_11.0.32.1_1.tar.gz",
+      "Content-Type": "application/octet-stream"
+    },
+    "content_length_matches": true,
+    "completed_utc": "2026-10-06T22:15:51.750739+00:00",
+    "bytes": 195609919,
+    "sha256": "5c3f68887c325d36d852ba534303e1f5f1f5cae7d6cc1e951d73e0d8e98a058d",
+    "md5": "44723a50b2823c4d2ab1d88d60031a1c",
+    "seconds": 1.7429600310279056
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_19/GRCh37.p13.genome.fa.gz",
+  "started_utc": "2026-10-06T22:15:06.659668+00:00",
+  "request_headers": {
+    "Accept-Encoding": "identity"
+  },
+  "path": "diseases/COPD/07_gap_closure/fine-mapping-input-resolution-1.0/references/GRCh37.p13.genome.fa.gz",
+  "complete": true,
+  "http_status": 200,
+  "final_url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_19/GRCh37.p13.genome.fa.gz",
+  "response_headers": {
+    "Date": "Tue, 06 Oct 2026 22:15:06 GMT",
+    "Server": "Apache",
+    "Last-Modified": "Wed, 04 Dec 2013 14:50:16 GMT",
+    "ETag": "\"2ff54e6c-4ecb687f49a00\"",
+    "Accept-Ranges": "bytes",
+    "Content-Length": "804605548",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET,OPTIONS",
+    "Access-Control-Allow-Headers": "Authorization,Origin,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Accept",
+    "Keep-Alive": "timeout=15, max=100",
+    "Connection": "Keep-Alive",
+    "Content-Type": "application/x-gzip"
+  },
+  "content_length_matches": true,
+  "completed_utc": "2026-10-06T22:22:37.327434+00:00",
+  "bytes": 804605548,
+  "sha256": "a37049f50cd181ffd057e8edde5f8d5a39afd3fed89ef17eb423323507ae2dd6",
+  "md5": "490904ef2561472d0801c704ffc85761",
+  "seconds": 450.66778956598137
+}

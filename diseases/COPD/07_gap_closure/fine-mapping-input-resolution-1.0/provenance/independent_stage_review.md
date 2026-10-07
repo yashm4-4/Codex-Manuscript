@@ -1,0 +1,25 @@
+# Independent final stage review
+
+FREEZE_REVIEW_STATUS: PASS_FINAL
+
+**PASS for final scientific-content and provenance review. All tracks remain NOT CLEARED for statistical fine-mapping.**
+
+Review completed 2026-10-06T23:28:53.575307+00:00. The final rendered report, final readiness and source inventories, all 16 numerical reports, final extraction validation and completed registers were reviewed. 369 scoped checks pass; none fail. Exact evidence hashes and checks are recorded in `independent_stage_review.json`.
+
+The reviewer is independent of root processing and Track A/C implementation. The reviewer previously authored Track B, the future-software specification and central acquisition inventory; those components received independent read/hash/consistency checking here, not independent scientific replication. No GWAS analysis, eigendecomposition, posterior inference, candidate inspection, download or scientific transformation was repeated for this review.
+
+Canonical counts reconcile: A9,886,853 source rows, 11 merged/10 non-MHC loci; B8,678,470 rows, 5/5 loci; C28,987,534 source-union rows, 7/6 loci. There are 23 track-specific intervals, 21 non-MHC and two MHC deferrals. The central direction ledger and its nine track-input derivatives match their recorded hashes. It preserves 482,169 rows, with 368,624 assigned directions and 113,545 unresolved. Signed direction is not equated with method-ready summary statistics or causal inference.
+
+All 16 obtainable A/C matrices have `PASS_NUMERICS_ONLY`; all 16 have numerical rank below dimension and exceed the positive-subspace condition warning. Their reports retain scientific LD clearance false. Stored numerical tolerances match the frozen contract. Descriptive mismatch s ranges from 2.4287159878294812e-15 to 1.8718797870498033e-5 and does not close sample/statistic provenance. The report correctly distinguishes the numerical low-eigenvalue subspace from proof of an exact algebraic null space.
+
+Final extraction validation has 1,494 PASS checks, no failures or pending checks, 16 validated extraction/numerical records and 485 source blocks accounted for. It independently checks matrices/ordering/reconstruction and saved eigenvalue metadata without repeating eigenvalue computation. Its earlier final JSON serialization failure and script are preserved. Static comparison confirms the correction only casts the output condition-warning flag to builtin bool; no formula, threshold, scientific output or gate changed.
+
+The resource correction likewise preserves the scientific-function ASTs after removing only newly added runtime metadata. Twelve later jobs record four-thread execution; four earlier jobs retain observed live-process/script provenance without fabricated per-job hashes. The synthetic alternative-runtime benchmark was not adopted for real inputs. No completed diagnostic was rerun for a preferred result.
+
+The seven central full-file records and their audit/receipt provenance retain correct distinctions between provider-published MD5, a single-part S3 ETag used as MD5 evidence, and BBJ's absence of an independent provider digest. Original large-GWAS hashes remain recorded acquisition evidence, pending the full payload freeze verification; original files were not scientifically rescanned for this review.
+
+Append-only integrity was independently verified against exact baseline bytes and SHA256 for all three registers: three activity, four decision and six result rows appended, with original prefixes intact, valid column counts, unique IDs and hashes matching append receipts. HEAD remains `54dfd85d457ea4370a497af88bb90ebe10cf26d1`, the baseline Git tree is unchanged, and tracked changes are exactly the three authorized registers. Governing preflight freeze and ledger hashes remain unchanged. Root stage-integrity validation reports 1,819 PASS checks including all 1,794 prior-preflight payloads; those full payloads were not redundantly reread in this bounded final review.
+
+The final report preserves the investigator's track ranking and A/C overlap caveat; reports Kim significant-variant losses and unresolved N/subgroup LD, BBJ's missing dense signed Japanese LD and score lineage, and Pan-UKB's unresolved SPA/sample/covariance relationship. It contains no claim that a basic numerical pass clears statistical fine-mapping. The future method remains a pinned, unexecuted design with uniform priors; one independently cleared track may proceed only after applicable gates and new authorization. The Sakornsakolpat request remains unsent. No scientific execution package is cleared.
+
+**Freeze verification is still pending as a separate closure step.** This PASS authorizes freezing the reviewed local payload and this review itself; it does not assert that the future ledger/freeze already exists, authorize statistical fine-mapping, authorize Git publication, or begin another scientific module. The report and append entries refer prospectively to the final freeze files; those must pass independent full-payload verification before reporting stage closure.

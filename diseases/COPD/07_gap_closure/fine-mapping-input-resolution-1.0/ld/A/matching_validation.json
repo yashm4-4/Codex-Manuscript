@@ -1,0 +1,11 @@
+{
+  "loci": 10,
+  "all_index_provenance_order_checks_pass": true,
+  "all_source_scalar_string_preservation_checks_pass": true,
+  "all_ordered_variant_uniqueness_checks_pass": true,
+  "initial_attempt_note": "An assertion helper indexed source_row with drop=True and then attempted to verify the removed column. Corrected helper to drop=False; no scientific filtering/sign/identity rule changed. Initial log, script and first ordered output retained.",
+  "initial_first_locus_ordered_output_identical_after_helper_fix": true,
+  "no_tracks_A_artifact_mutations": true,
+  "no_matrix_or_posterior_operations": true,
+  "completed_utc": "2026-10-06T22:36:23.959195+00:00"
+}

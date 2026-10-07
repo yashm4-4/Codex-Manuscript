@@ -1,0 +1,15 @@
+{
+  "locus_id": "A_chr2_228001745_231092415",
+  "track": "A",
+  "variants": 10919,
+  "ordered_inputs_sha256": "59a1f8265dfde741bdd757940aa01e40fde2f95ae276d13c74d2c2575f4559d4",
+  "matrix_sha256": "bc63fb855e6a7a2fc9dd5e3d0cbc0fb2a6d911b0680ac4202cfdfd06c9a3e8cc",
+  "shape": [
+    10919,
+    10919
+  ],
+  "dtype": "float64",
+  "original_upper_triangle": true,
+  "ld_recomputed_from_genotypes": false,
+  "posterior_inference": false
+}

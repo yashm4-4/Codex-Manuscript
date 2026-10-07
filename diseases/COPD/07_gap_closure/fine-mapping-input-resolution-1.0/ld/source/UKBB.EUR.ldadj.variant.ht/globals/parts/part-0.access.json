@@ -1,0 +1,30 @@
+{
+  "url": "https://pan-ukb-us-east-1.s3.amazonaws.com/ld_release/UKBB.EUR.ldadj.variant.ht/globals/parts/part-0",
+  "started_utc": "2026-10-06T22:16:17.249599+00:00",
+  "request_headers": {
+    "Accept-Encoding": "identity"
+  },
+  "path": "diseases/COPD/07_gap_closure/fine-mapping-input-resolution-1.0/ld/source/UKBB.EUR.ldadj.variant.ht/globals/parts/part-0",
+  "complete": true,
+  "http_status": 200,
+  "final_url": "https://pan-ukb-us-east-1.s3.amazonaws.com/ld_release/UKBB.EUR.ldadj.variant.ht/globals/parts/part-0",
+  "response_headers": {
+    "x-amz-id-2": "sKBX6KisDmju7SP6ahAThy/k3FI812H+/EQZvBxBju1gc2lYcGyB0K54XnnfMaBn0sOlLtXhEOE=",
+    "x-amz-request-id": "VXNSSFQ3WWZCWGAJ",
+    "Date": "Tue, 06 Oct 2026 22:16:18 GMT",
+    "Last-Modified": "Wed, 22 Feb 2023 02:33:14 GMT",
+    "ETag": "\"f374eb1ba765d6fbe8b6a824f5cd590d\"",
+    "x-amz-server-side-encryption": "AES256",
+    "x-amz-version-id": "c5ee_3ob537X8x2Oen0xpdt1UHhiWqg7",
+    "Accept-Ranges": "bytes",
+    "Content-Type": "binary/octet-stream",
+    "Content-Length": "18",
+    "Server": "AmazonS3"
+  },
+  "content_length_matches": true,
+  "completed_utc": "2026-10-06T22:16:17.398493+00:00",
+  "bytes": 18,
+  "sha256": "6a6ce5c45935c3b81d4a1759b1b75b3b57fe6b8a1b30bad88f6d4ea010229d8a",
+  "md5": "f374eb1ba765d6fbe8b6a824f5cd590d",
+  "seconds": 0.14888929401058704
+}

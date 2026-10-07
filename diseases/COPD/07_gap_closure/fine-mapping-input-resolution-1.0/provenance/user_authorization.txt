@@ -1,0 +1,315 @@
+Begin a new versioned stage:
+diseases/COPD/07_gap_closure/fine-mapping-input-resolution-1.0/
+This is an input-resolution and execution-readiness stage only.
+The purpose is to determine whether any of the three prioritized COPD tracks can be promoted from “promising” to EXECUTION-CLEARED for statistical fine-mapping.
+Do not perform SuSiE-RSS, FINEMAP, PIP estimation, credible-set construction, posterior inference, candidate scoring, model scoring, target-gene analysis, colocalization, or manuscript revision.
+All prior stages are immutable.
+Use the frozen fine-mapping-preflight-1.0 as the governing design source.
+1. Tracks to resolve
+Resolve only these three primary tracks:
+Track A — direct COPD, European
+GCST90016588
+Kim et al. UK Biobank ever-smoker spirometric COPD:
+- 12,446 cases
+- 59,145 controls
+- direct spirometric COPD
+- European/UKB smoking-selected subset
+- signed OR/SE schema already verified in preflight
+Track B — direct COPD, East Asian
+GCST90013709
+Ishigaki/BBJ physician-diagnosed COPD:
+- 3,315 cases
+- 201,592 controls
+- Japanese ancestry
+- signed BETA/SE schema already verified
+Track C — secondary sensitivity
+Pan-UKB ICD10 J44 EUR:
+- 11,536 cases
+- 408,995 controls
+- EHR/ICD phenotype
+- not primary direct COPD
+- same-project public LD route potentially available
+Do not expand to additional smoking strata, sex strata or other biobanks unless required to resolve a specific dependency and explicitly documented as contextual only.
+2. Full GWAS file acquisition and verification
+For each track, obtain the complete intended GWAS summary-statistic release if public access permits.
+Record:
+- exact URL/source;
+- access date/time;
+- file size;
+- checksum;
+- compression;
+- genome build;
+- total rows;
+- chromosomes represented;
+- duplicate identities;
+- multiallelic representation;
+- missingness by required field;
+- P-value encoding;
+- effect-scale semantics;
+- effect allele;
+- other allele;
+- beta/log-OR/OR;
+- SE;
+- N fields;
+- AF fields;
+- imputation/QC fields;
+- any provider-specific transformations.
+Do not use a prefix/header sample as evidence that the entire file is valid.
+Validate the whole file.
+If a complete file cannot be acquired, mark that track NOT CLEARED and record the blocker.
+3. Kim effect-scale contract
+For GCST90016588, explicitly resolve the signed association contract.
+Verify using the full file and source methods:
+- whether reported OR corresponds to the encoded effect allele;
+- whether beta = log(OR) is the correct transformation;
+- whether the published SE corresponds to log-OR scale;
+- whether z = log(OR)/SE reproduces the reported P-value to expected numerical precision;
+- how raw versus harmonized allele reversal is represented;
+- whether reciprocal OR and beta sign flips are internally consistent;
+- whether sample-size fields are constant, absent or variant-specific.
+Test this across a large deterministic sample spanning chromosomes and P-value ranges, not only genome-wide significant rows.
+Freeze explicit numerical tolerances before judging pass/fail.
+Do not repair rows merely because a different allele orientation produces better consistency.
+4. BBJ effect-scale contract
+For GCST90013709, verify across the complete combined-sex COPD file:
+- Allele2 effect-allele semantics;
+- BETA/SE/P consistency;
+- per-variant AF/N/quality fields;
+- autosome coverage;
+- duplicate/multiallelic handling;
+- reference/build identity;
+- whether any sex-meta or sex-specific fields could be confused with the combined analysis.
+This stage should use the combined COPD analysis only for Track B.
+Male/female analyses remain future sensitivities.
+5. Pan-UKB GWAS contract
+For Pan-UKB J44 EUR, fully validate:
+- exact phenotype code and release;
+- EUR-specific association column;
+- effect allele;
+- beta;
+- SE;
+- negative-log10-P versus ordinary P;
+- sample counts;
+- build;
+- variant index;
+- QC fields;
+- complete-file row count and integrity.
+Do not use cross-ancestry meta-analysis columns in place of EUR-specific statistics.
+6. Prospective GWAS-only locus definition
+Use the exact locus-definition rules frozen in fine-mapping-preflight-1.0.
+For each track independently:
+- identify variants satisfying P < 5×10^-8;
+- create initial ±1.5-Mb windows;
+- transitively merge overlapping windows;
+- retain nonsignificant variants lying inside the resulting locus boundaries;
+- autosomes only;
+- exclude/defer the frozen complex-MHC interval;
+- record boundary and chromosome-edge cases;
+- do not use V1/V2 candidate presence, benchmark variants, genes of interest, regulatory predictions or functional evidence in locus definition.
+This stage may identify prospective loci, but must not fine-map them.
+Report the actual prospective locus count per track.
+7. Variant harmonization
+Build a deterministic analysis identity for every prospective locus variant.
+Resolve:
+- native build;
+- chromosome;
+- position;
+- reference allele;
+- alternate allele;
+- effect allele;
+- other allele;
+- allele swaps;
+- strand complements;
+- palindromic SNPs;
+- indels;
+- multiallelic variants;
+- duplicates/conflicts.
+Do not join solely by rsID.
+No risk allele may be inferred from REF/ALT, AF, ancestral state or any functional model.
+Assign a disease-increasing allele only where the signed GWAS contrast is fully verified.
+Keep unresolved variants explicit rather than silently dropping them.
+8. LD resolution — Track C first
+Pan-UKB J44 EUR has the strongest documented same-project LD route, so use it as the first technical LD-resolution test.
+Do not download the 43-TB LD resource wholesale.
+For the candidate-blind GWAS-defined J44 EUR loci only:
+- retrieve/extract the relevant public LD blocks using the documented Pan-UKB mechanism;
+- verify signed matrix orientation;
+- verify indexed allele coding;
+- reconstruct triangular/banded representation correctly;
+- determine matrix scaling/normalization;
+- inspect diagonal behavior;
+- verify symmetry;
+- verify valid correlation range;
+- inspect eigenvalues/PSD behavior;
+- inspect rank/conditioning;
+- verify distance/band truncation;
+- verify variant order;
+- quantify overlap with GWAS locus variants;
+- identify missing strong signals or boundary variants;
+- verify sample/release provenance.
+Freeze numerical tolerances before evaluating these diagnostics.
+Do not silently project to the nearest PSD matrix or otherwise repair LD.
+If a matrix fails, retain the failure and mark the locus/track not cleared.
+9. LD resolution — Kim
+Determine whether defensible signed LD can be obtained for the GCST90016588 ever-smoker UKB analysis.
+Explicitly distinguish:
+A. exact/subgroup-compatible LD, if genuinely obtainable;
+versus
+B. full-European UKB/Pan-UKB LD used as external reference LD.
+Do not call B “matched in-sample LD.”
+If only external EUR UKB LD is available, evaluate whether it can be scientifically justified for reference-LD SuSiE-RSS under the frozen method framework.
+For every prospective Kim locus:
+- harmonize summary variants to the LD reference;
+- quantify retained/missing variants;
+- audit loss of the lead or other strong variants;
+- inspect allele consistency;
+- run reference-LD compatibility diagnostics only;
+- assess whether smoking-subset versus full-UKB LD mismatch is acceptable or remains disqualifying.
+Do not relax diagnostics merely because Kim is the preferred phenotype.
+Track-level outcome may legitimately remain NOT CLEARED.
+10. LD resolution — BBJ
+Search only legitimate public/provider resources for a dense signed Japanese LD matrix or genotype-derived route scientifically compatible with the original BBJ combined COPD analysis.
+Document:
+- cohort;
+- ancestry;
+- sample N;
+- genotype/imputation source;
+- build;
+- variant density;
+- counted allele;
+- signed correlation availability;
+- exact or approximate relationship to the BBJ/ToMMo/IMM/JPHC/J-MICC analysis sample.
+If no defensible dense signed LD source is available, mark Track B NOT CLEARED.
+Do not default to 1000 Genomes EAS merely because it is convenient.
+An external Japanese reference may be proposed only as a separately justified sensitivity and must not be mislabeled as matched BBJ LD.
+11. Summary-statistic/LD compatibility diagnostics
+Before any track can be execution-cleared, run only diagnostic compatibility checks permitted by the frozen preflight design.
+These may include:
+- z-score sanity;
+- allele-sign consistency;
+- summary-statistic/LD residual diagnostics;
+- lead-signal representation;
+- LD/summary variant-order checks;
+- matrix condition diagnostics;
+- sensitivity to removal of clearly invalid rows.
+Do not calculate PIPs or credible sets.
+Do not flip alleles solely because doing so improves a compatibility statistic.
+Preserve all failures.
+12. Risk-direction output
+For variants that pass the signed GWAS contract, generate a GWAS-only risk-direction table containing:
+- track;
+- locus;
+- variant identity;
+- effect allele;
+- other allele;
+- beta/log-OR or OR;
+- SE;
+- z;
+- P;
+- disease-increasing allele;
+- direction status;
+- harmonization status.
+This table must remain independent of V1/V2 model scores.
+Do not join regulatory predictions yet.
+13. Execution-readiness decision
+Each track receives exactly one final state:
+- EXECUTION-CLEARED
+- NOT CLEARED
+- INCONCLUSIVE
+A track can be EXECUTION-CLEARED only if all applicable frozen gates pass:
+- phenotype;
+- full-file integrity;
+- signed statistic;
+- variant identity;
+- LD origin;
+- locus density;
+- LD numerics;
+- sample compatibility;
+- summary/LD consistency;
+- cohort-overlap documentation;
+- locus-boundary checks;
+- complete execution input freeze.
+Do not lower a gate after seeing how many loci survive.
+Provide locus-level status as well as track-level status.
+A track may contain a subset of cleared loci only if the reason some loci fail is prospectively defined and not based on their biological desirability.
+14. Prepare, but do not execute, the eventual fine-mapping inputs
+For every execution-cleared locus, freeze an exact future input package containing:
+- ordered variant table;
+- signed z/beta/SE;
+- appropriate sample-size fields;
+- ordered signed LD matrix or approved reference;
+- allele/harmonization ledger;
+- excluded-variant ledger;
+- locus boundaries;
+- hashes;
+- method-ready metadata.
+These are future execution inputs only.
+Do not call SuSiE-RSS or FINEMAP.
+15. Software and numerical execution design
+Pin the proposed future software stack:
+- R version;
+- susieR version;
+- FINEMAP version;
+- BLAS/LAPACK environment;
+- matrix precision;
+- random seeds where applicable;
+- maximum signals;
+- prior settings;
+- convergence tolerances;
+- credible-set level;
+- purity diagnostics;
+- FINEMAP sensitivity settings.
+Preserve the preflight's uniform-prior, multi-signal design.
+Do not tune these based on locus results because there are no fine-mapping results yet.
+16. Sakornsakolpat remains separate
+Do not attempt to reconstruct GCST007692.
+Preserve the finding that the public 19,373-row absolute-coefficient export is unsuitable.
+Prepare, at most, an author/consortium data-request draft specifying the desired complete signed data and ancestry/LD information.
+Do not send the request without investigator authorization.
+17. Firewalls
+Throughout this stage:
+- do not open the 337 V1 candidate list for selection purposes;
+- do not score any V2 model;
+- do not intersect loci with functional benchmark results;
+- do not select loci based on known genes;
+- do not perform eQTL/sQTL/caQTL colocalization;
+- do not perform target-gene assignment;
+- do not change the model;
+- do not revise the manuscript.
+Genetic-input eligibility must remain independent of downstream regulatory evidence.
+18. Required outputs
+Produce:
+- full-file acquisition ledger;
+- complete-file checksum/integrity table;
+- whole-file schema/missingness/QC audits;
+- effect-scale/test-consistency results;
+- prospective GWAS-only locus tables;
+- exact locus boundaries;
+- variant harmonization tables;
+- risk-direction tables;
+- LD-source contracts;
+- per-locus LD matrices or references where legitimately obtainable;
+- LD numerical-QC tables;
+- GWAS–LD compatibility diagnostics;
+- excluded/missing-variant ledgers;
+- track-level and locus-level readiness tables;
+- frozen future execution-input manifests for any cleared loci;
+- pinned future SuSiE-RSS/FINEMAP software/configuration specification;
+- Sakornsakolpat request draft if appropriate;
+- source/provenance/checksum records;
+- append-only activity/decision/result register updates;
+- final report and freeze.
+19. Stop
+At completion report:
+- complete GWAS row count for each track;
+- prospective locus count for each track;
+- number of loci passing all summary-statistic gates;
+- number passing LD gates;
+- number EXECUTION-CLEARED;
+- whether Track A, B and C are EXECUTION-CLEARED / NOT CLEARED / INCONCLUSIVE;
+- exact LD source used or blocker;
+- whether valid signed disease-risk alleles can be assigned;
+- whether future SuSiE-RSS execution is scientifically authorized by the evidence;
+- all unresolved blockers.
+Then stop.
+Do not run statistical fine-mapping until I explicitly authorize it after investigator review.

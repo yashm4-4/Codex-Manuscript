@@ -1,0 +1,8 @@
+{
+  "n_samples": 420542,
+  "pop": "EUR",
+  "hail_version": "0.2.138-58956ebc28fc",
+  "java_home": "/tmp/copd-input-resolution-tools/jdk-11.0.32.1+1",
+  "table_schema": "struct{locus: locus<GRCh37>, alleles: array<str>, rsid: str, AF: float64, idx: int64}",
+  "matrix_values_acquired": false
+}

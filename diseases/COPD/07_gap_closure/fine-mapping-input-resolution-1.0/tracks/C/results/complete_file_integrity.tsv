@@ -1,0 +1,3 @@
+track	artifact	url	access_started_utc	access_finished_utc	bytes	sha256	md5	provider_md5_matches	complete_rows	gzip_crc_pass
+C	GWAS	https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/icd10-J44-both_sexes.tsv.bgz	2026-10-06T22:13:40.800395+00:00	2026-10-06T22:14:50.135581+00:00	1827545082	cd0b714c62813812c2284923ac0b0b9ee76e5c47ba1f4a3d2ad2f68574ef8a15	787f3a8ce3502a9a8f597a17144e07ae	True	28987534	True
+C	VARIANT_QC_DEPENDENCY	https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_release/full_variant_qc_metrics.txt.bgz	2026-10-06T22:15:01.842714+00:00	2026-10-06T22:17:31.045443+00:00	2701503051	66803adb2b8623d57d8148028c71a283a16f3edafa4d370503390256ae7cc83b	e70ebc8289f762dd8d5086f54e766654	True	28987534	True

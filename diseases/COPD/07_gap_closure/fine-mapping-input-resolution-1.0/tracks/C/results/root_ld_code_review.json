@@ -1,0 +1,50 @@
+{
+  "reviewed_utc": "2026-10-06T22:31:07.283331+00:00",
+  "scope": "Independent Track C subagent review of root LD diagnostic code; no root files edited",
+  "reviewed_files": [
+    {
+      "path": "scripts/match_pan_gwas_ld.py",
+      "sha256": "46496eb82c8534d534bf3a2c04fa3d75daf7c8df283e523a945bd5a04c899d5b"
+    },
+    {
+      "path": "scripts/extract_ld_matrices.py",
+      "sha256": "5fde0be4dd0652d95bcb22d4c795fe5b57cdc9f7fa0d20f115e26f04602bec55"
+    },
+    {
+      "path": "scripts/ld_numeric_diagnostics.py",
+      "sha256": "5826889935a08b80492cf07649c21c43fee01a1582c3f7cd288a2689233ed282"
+    },
+    {
+      "path": "config/ld_diagnostic_contract.json",
+      "sha256": "5f87da29e70eafca3dcc6f9707ae8a0ecf0ca7847b4ae02c6d9414be8587a058"
+    },
+    {
+      "path": "config/ld_residual_contract.json",
+      "sha256": "a55d0d9a874128a797af9260730d2775bc60ffba587500ac3d8446c4535fc289"
+    }
+  ],
+  "scientific_review": {
+    "exact_allelic_join": "Appropriate: source chrom/pos/ref/alt, source identity checks, exact LD index match, no rsID joins",
+    "orientation": "Appropriate: source ALT effect and documented LD ALT coding; multiplier+1; no fit-driven flips",
+    "matrix_reconstruction": "Appropriate conditional on separately documented original upper-triangle representation: add transpose, restore original diagonal, preserve raw triangle",
+    "scaling": "Transparent candidate Gram-to-correlation derivation, source G retained and scientific scaling compatibility not asserted",
+    "ordering": "Unique sorted LD indices bound to ordered table hash; extraction uses same index sequence",
+    "inference_firewall": "No fine-mapping, PIP, credible-set, posterior variant probabilities or effect fitting; scalar null-covariance mismatch objective is descriptive compatibility diagnostic",
+    "failures": "No PSD projection, eigenvalue clipping or numerical ridge applied to matrix; sampled-eigenvalue optimization denominator shift is diagnostic-only parameter, not replacement LD"
+  },
+  "recommendations_sent_to_root": [
+    {
+      "priority": "recommended_contract_traceability",
+      "finding": "Extraction currently lacks explicit same-chromosome / within-10Mb bandwidth assertion. Current six C intervals are each <3.25Mb, so no observed locus violation. Bind checks to extraction receipt."
+    },
+    {
+      "priority": "recommended_status_clarity",
+      "finding": "PASS_NUMERICS_ONLY checks PSD/symmetry/range; numerical rank, conditioning and null-space compatibility are reported but not included in that status. Add explicit rank-deficiency and condition-warning flags, preserve singular-support interpretation as unresolved if applicable."
+    },
+    {
+      "priority": "minor_optimizer_interpretation",
+      "finding": "Bounded scalar minimization plus endpoint comparisons is descriptive numerical optimization; it does not by itself certify a global optimum in arbitrary multimodal objectives. Report optimizer outcome and avoid implying a calibrated universal clearance threshold."
+    }
+  ],
+  "execution_clearance_granted_by_review": false
+}

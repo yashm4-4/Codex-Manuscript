@@ -1,0 +1,21 @@
+{
+  "receipt_created_utc": "2026-10-06T22:24:28.076961+00:00",
+  "basis": "Content hashes and actual file mtimes of configurations saved before their corresponding audits; receipt itself is retrospective, configurations were not changed",
+  "configs": [
+    {
+      "path": "config/effect_contract.json",
+      "sha256": "067d27a9f0ff391fce0d1496a64487e278ae452666e1d8a8dc7a41aef1c8bf79",
+      "filesystem_mtime_utc": "2026-10-06T22:13:37.105005+00:00"
+    },
+    {
+      "path": "config/formatted_transport_contract.json",
+      "sha256": "f54c68a73db552560e2f0dc3bdfa34adbfeb173ee15a9ade2fe198fd7a499c7d",
+      "filesystem_mtime_utc": "2026-10-06T22:21:58.033409+00:00"
+    },
+    {
+      "path": "config/reference_contract.json",
+      "sha256": "272bd53cc3512c80643886786649b3625efc104a6044e440f4668dfaaa240a93",
+      "filesystem_mtime_utc": "2026-10-06T22:18:49.129858+00:00"
+    }
+  ]
+}

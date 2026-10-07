@@ -1,0 +1,26 @@
+{
+  "url": "https://pan-ukb-us-east-1.s3.amazonaws.com/?list-type=2&prefix=sumstats_release/results_full.mt/globals/&max-keys=10",
+  "started_utc": "2026-10-06T22:19:10.786020+00:00",
+  "request_headers": {
+    "Accept-Encoding": "identity"
+  },
+  "path": "diseases/COPD/07_gap_closure/fine-mapping-input-resolution-1.0/sources/pan_mt_globals_listing.xml",
+  "complete": true,
+  "http_status": 200,
+  "final_url": "https://pan-ukb-us-east-1.s3.amazonaws.com/?list-type=2&prefix=sumstats_release/results_full.mt/globals/&max-keys=10",
+  "response_headers": {
+    "x-amz-id-2": "5Uf9o1L0HvcYGI8/tEMDGOu/Ouywt4yinJUxXnrL0LxT9ZHmAW8evS0TZYChEUOQqgQVbssf7zI=",
+    "x-amz-request-id": "DMGAM6B4D0ZP1K46",
+    "Date": "Tue, 06 Oct 2026 22:19:11 GMT",
+    "x-amz-bucket-region": "us-east-1",
+    "Content-Type": "application/xml",
+    "Transfer-Encoding": "chunked",
+    "Server": "AmazonS3"
+  },
+  "content_length_matches": true,
+  "completed_utc": "2026-10-06T22:19:10.926833+00:00",
+  "bytes": 2051,
+  "sha256": "d7abda5e55e9ce7ab25d8857b493c42a2bc7f06acd6f2edbc616dfbd27cd1632",
+  "md5": "41f7fdf8b429debd04263564d67c2140",
+  "seconds": 0.14081908599473536
+}

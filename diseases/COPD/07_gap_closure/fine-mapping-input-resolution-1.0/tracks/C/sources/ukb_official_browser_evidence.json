@@ -1,0 +1,16 @@
+{
+  "accessed_utc": "2026-10-06T22:35:42.885504+00:00",
+  "retrieval": "Official UKB pages available through browser search/open rendering; direct requests download returned403 and response bodies/receipts retained. No access control circumvented.",
+  "notes": [
+    {
+      "url": "https://community.ukbiobank.ac.uk/hc/en-gb/articles/15468170680605-Genome-wide-genotyping",
+      "official_page_date": "2025-06-23",
+      "paraphrased_evidence": "UKB describes two Axiom arrays, around850000 directly typed variants, over90million imputed variants, and HRC plus UK10K/1000Genomes reference panels."
+    },
+    {
+      "url": "https://www.ukbiobank.ac.uk/about-our-data/",
+      "paraphrased_evidence": "UKB describes approved-researcher access through a secure Research Analysis Platform; this is not a public participant-genotype download route."
+    }
+  ],
+  "use": "Background/source-access context only. Exact public matrix provenance relies on archived PanUKB docs/code/object metadata, not these inaccessible direct body downloads."
+}

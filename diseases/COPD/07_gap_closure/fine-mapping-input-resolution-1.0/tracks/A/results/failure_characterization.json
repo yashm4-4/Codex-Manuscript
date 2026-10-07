@@ -1,0 +1,14 @@
+{
+  "failure_rows": 25089,
+  "failures_p_less_5e8": 0,
+  "gap_log10p_quantiles": {
+    "0": 1.5265766672722478e-10,
+    "0.5": 1.2437677502873373e-05,
+    "0.9": 0.00010816919640827352,
+    "0.99": 0.00022513738067780824,
+    "1": 0.0005386485439695649
+  },
+  "point_log10p_abs_max": 0.0005393784353286483,
+  "interpretation": "Mismatches remain failed at the prospectively frozen rounding-interval gate; no alternative OR, beta, SE or allele orientation substituted. Small residuals do not independently identify the historic numerical cause. All significant source rows pass.",
+  "gate_changed": false
+}
