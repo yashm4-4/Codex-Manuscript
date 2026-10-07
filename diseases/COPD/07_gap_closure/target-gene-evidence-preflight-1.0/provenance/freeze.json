@@ -1,0 +1,19 @@
+{
+  "baseline_git_commit": "07b1554e38fd8053f88fd3ad4d8abcfb6e424a7e",
+  "boundary": "No previous frozen stage or V1 candidate order edited; no direction concordance, de novo coloc, downstream target analysis, manuscript revision, large acquisition, commit or push.",
+  "checksum_ledger": "provenance/artifact_checksums.tsv",
+  "checksum_ledger_sha256": "c97fac48dd5f08ee7b842c0ccb4763c6dfe36975e3878102d20a78a50d171c9c",
+  "client_date": "2026-10-07",
+  "coloc_execution_cleared_combinations": 0,
+  "fine_mapping_execution_packages_unchanged": 0,
+  "payload_file_count": 15,
+  "previous_frozen_stage_sha256": "e16bdd397207590f914162f7513b3335ad602a8cba2ab7e72d2c4ca72dcda04c",
+  "register_sha256": {
+    "activity_log.tsv": "1b585068290770d395aa219125ce45acb52837e4c1273ec41fa7e6a42b471d7d",
+    "gap_closure_decision_register.tsv": "3a18e5b97b94f38ee0e5e3aca0ad99423c79c7f42fd5c76716f8ef1a4658f559",
+    "gap_closure_result_register.tsv": "1be0bf3be9ff8ce509ad6ccfda3c2877be3549b8aaedd45313b300d85beffef5"
+  },
+  "stage": "target-gene-evidence-preflight-1.0",
+  "status": "FROZEN_PREFLIGHT_STOP_FOR_INVESTIGATOR_REVIEW",
+  "validation_status": "PASS"
+}

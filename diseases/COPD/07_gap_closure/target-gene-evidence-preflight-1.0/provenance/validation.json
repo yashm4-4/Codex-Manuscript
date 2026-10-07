@@ -1,0 +1,96 @@
+{
+  "n_tests": 18,
+  "status": "PASS",
+  "tests": [
+    {
+      "detail": "",
+      "pass": true,
+      "test": "all_required_files"
+    },
+    {
+      "detail": "",
+      "pass": true,
+      "test": "typed_inventories"
+    },
+    {
+      "detail": "",
+      "pass": true,
+      "test": "readiness_coverage"
+    },
+    {
+      "detail": "",
+      "pass": true,
+      "test": "readiness_statuses"
+    },
+    {
+      "detail": "",
+      "pass": true,
+      "test": "no_coloc_execution_clearance"
+    },
+    {
+      "detail": "",
+      "pass": true,
+      "test": "resource_receipts"
+    },
+    {
+      "detail": "",
+      "pass": true,
+      "test": "local_receipt_hashes"
+    },
+    {
+      "detail": "",
+      "pass": true,
+      "test": "V1_R006_unchanged_counts"
+    },
+    {
+      "detail": "",
+      "pass": true,
+      "test": "frozen_candidate_order"
+    },
+    {
+      "detail": "",
+      "pass": true,
+      "test": "V1_GTEx_unchanged_counts"
+    },
+    {
+      "detail": "",
+      "pass": true,
+      "test": "phenotype_strata_preserved"
+    },
+    {
+      "detail": "",
+      "pass": true,
+      "test": "prior_frozen_not_cleared"
+    },
+    {
+      "detail": "",
+      "pass": true,
+      "test": "prior_freeze_checksum"
+    },
+    {
+      "detail": "",
+      "pass": true,
+      "test": "append_only_activity_log.tsv"
+    },
+    {
+      "detail": "",
+      "pass": true,
+      "test": "append_only_gap_closure_decision_register.tsv"
+    },
+    {
+      "detail": "",
+      "pass": true,
+      "test": "append_only_gap_closure_result_register.tsv"
+    },
+    {
+      "detail": "diseases/COPD/07_gap_closure/activity_log.tsv,diseases/COPD/07_gap_closure/gap_closure_decision_register.tsv,diseases/COPD/07_gap_closure/gap_closure_result_register.tsv,diseases/COPD/07_gap_closure/target-gene-evidence-preflight-1.0/TARGET_GENE_EVIDENCE_PREFLIGHT_REPORT.md,diseases/COPD/07_gap_closure/target-gene-evidence-preflight-1.0/candidate_external_resource_inventory.tsv,diseases/COPD/07_gap_closure/target-gene-evidence-preflight-1.0/colocalization_input_requirement_matrix.tsv,diseases/COPD/07_gap_closure/target-gene-evidence-preflight-1.0/current_target_evidence_inventory.tsv,diseases/COPD/07_gap_closure/target-gene-evidence-preflight-1.0/eqtl_harmonization_contract.md,diseases/COPD/07_gap_closure/target-gene-evidence-preflight-1.0/future_execution_specification.md,diseases/COPD/07_gap_closure/target-gene-evidence-preflight-1.0/gwas_eqtl_readiness.tsv,diseases/COPD/07_gap_closure/target-gene-evidence-preflight-1.0/proposed_target_evidence_hierarchy.md,diseases/COPD/07_gap_closure/target-gene-evidence-preflight-1.0/provenance/acquisition_inspection_receipts.tsv,diseases/COPD/07_gap_closure/target-gene-evidence-preflight-1.0/provenance/artifact_checksums.tsv,diseases/COPD/07_gap_closure/target-gene-evidence-preflight-1.0/provenance/freeze.json,diseases/COPD/07_gap_closure/target-gene-evidence-preflight-1.0/provenance/register_baseline.json,diseases/COPD/07_gap_closure/target-gene-evidence-preflight-1.0/provenance/validation.json,diseases/COPD/07_gap_closure/target-gene-evidence-preflight-1.0/risk_expression_direction_contract.md,diseases/COPD/07_gap_closure/target-gene-evidence-preflight-1.0/scripts/finalize_preflight.py,diseases/COPD/07_gap_closure/target-gene-evidence-preflight-1.0/scripts/validate_preflight.py,diseases/COPD/07_gap_closure/target-gene-evidence-preflight-1.0/scripts/verify_freeze.py",
+      "pass": true,
+      "test": "no_tracked_frozen_stage_edits"
+    },
+    {
+      "detail": "",
+      "pass": true,
+      "test": "contracts_before_results"
+    }
+  ]
+}
